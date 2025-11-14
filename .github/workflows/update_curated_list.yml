@@ -19,9 +19,12 @@ jobs:
         with:
           ref: data
 
-      # Step 2: Take the script folder from the 'main' branch.
-      - name: Fetch script from main branch
-        run: git checkout main -- .github/scripts
+      # Step 2: Checkout the 'main' branch into a subdirectory named 'main_branch_files'.
+      - name: Checkout main branch for script
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main_branch_files
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -29,16 +32,16 @@ jobs:
           node-version: '20'
 
       # Step 3: Run the script.
-      # It will read 'mod_warnings.json' from the root and write to 'curated/curated_list.json'.
+      # The script's working directory is still the root, so it can find 'mod_warnings.json'
       - name: Run Script to Build List
-        run: node .github/scripts/generate_curated_list.cjs
+        run: node main_branch_files/.github/scripts/generate_curated_list.cjs
         env:
           NEXUS_API_KEY: ${{ secrets.NEXUS_API_KEY }}
 
-      # Step 4: Commit the result back to the 'data' branch.
+      # Step 4: Commit the generated 'curated/curated_list.json' file.
+      # This action runs in the root of our workspace and commits to the 'data' branch.
       - name: Commit and push changes to the data branch
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: Auto-update curated mod list"
-          # This action will automatically commit to the currently checked-out branch (data).
           file_pattern: curated/curated_list.json
