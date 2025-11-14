@@ -9,7 +9,7 @@ if (!NEXUS_API_KEY) {
 }
 
 const WARNINGS_FILE_PATH = path.join(process.cwd(), 'mod_warnings.json');
-const OUTPUT_FILE_PATH = path.join(process.cwd(), 'curated', 'curated_list.json');
+const OUTPUT_FILE_PATH = process.env.OUTPUT_PATH || path.join(process.cwd(), 'curated', 'curated_list.json');
 
 // Helper function to fetch data for a single mod from the v1 API
 async function fetchModDataFromNexus(modId) {
