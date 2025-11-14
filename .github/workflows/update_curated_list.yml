@@ -21,7 +21,7 @@ jobs:
 
       # Step 2: Take the script folder from the 'main' branch.
       - name: Fetch script from main branch
-        run: git checkout origin/main -- .github/scripts
+        run: git checkout main -- .github/scripts
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
