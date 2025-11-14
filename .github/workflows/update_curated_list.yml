@@ -41,4 +41,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: Auto-update curated mod list"
-          file_pattern: data/curated/curated_list.json
+          file_pattern: curated/curated_list.json
