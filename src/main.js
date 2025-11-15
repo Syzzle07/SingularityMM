@@ -553,31 +553,57 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    async function startModDownload({ modId, fileId, version, fileName }) {
-        // 1. Show the download history modal immediately.
+    async function startModDownload({ modId, fileId, version, fileName }, isUpdate = false) {
+        // --- THIS IS THE NEW DUPLICATE CHECK LOGIC ---
+        const existingItem = downloadHistory.find(d => d.fileId === fileId);
+        
+        // If the file is already in our library and this isn't an explicit update, ask the user what to do.
+        if (existingItem && existingItem.archivePath && !isUpdate) {
+            const confirmed = await showConfirmationModal(
+                'Duplicate Download',
+                `You have already downloaded "${fileName}". Do you want to download it again and replace the existing file?`
+            );
+
+            if (!confirmed) {
+                console.log("User cancelled duplicate download.");
+                // As a helpful UX touch, let's open the download list and show them the existing file.
+                downloadHistoryModalOverlay.classList.remove('hidden');
+                // Bring the existing item to the top of the list
+                downloadHistory = downloadHistory.filter(d => d.fileId !== fileId);
+                downloadHistory.unshift(existingItem);
+                renderDownloadHistory();
+                return; // Stop the function here.
+            }
+            
+            // If confirmed, remove the old entry from history. The new download will replace it.
+            downloadHistory = downloadHistory.filter(d => d.fileId !== fileId);
+        }
+        // --- END OF NEW LOGIC ---
+
         downloadHistoryModalOverlay.classList.remove('hidden');
 
         const downloadId = `download-${Date.now()}`;
         const newItemData = {
             id: downloadId,
-            modName: fileName || `Mod ID ${modId}`, // Use fileName as a good initial name
-            statusText: 'Waiting to start...',
+            modId: modId,
+            fileId: fileId,
+            version: version,
+            modName: fileName,
+            statusText: isUpdate ? 'Updating...' : 'Waiting to start...',
             statusClass: 'progress',
+            archivePath: null,
             modFolderName: null
         };
 
-        // 2. Add the new item to our history and render it at the top.
         downloadHistory.unshift(newItemData);
         renderDownloadHistory();
 
-        // 3. Helper to update the status of our new item.
-        const updateStatus = (text, statusClass, name = null) => {
+        const updateStatus = (text, statusClass) => {
             const item = downloadHistory.find(d => d.id === downloadId);
             if (item) {
                 item.statusText = text;
                 item.statusClass = statusClass;
-                if (name) item.modName = name;
-                renderDownloadHistory(); // Re-render the list to show the change
+                renderDownloadHistory();
             }
         };
 
@@ -587,49 +613,225 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!downloadUrl) throw new Error("Could not retrieve download URL.");
 
             updateStatus('Downloading...', 'progress');
-            const analysis = await invoke('download_and_install_mod', { downloadUrl, fileName });
+            // The 'download_mod_archive' command will naturally overwrite any existing file with the same name.
+            const finalPath = await invoke('download_mod_archive', { downloadUrl, fileName });
+            
+            const item = downloadHistory.find(d => d.id === downloadId);
+            item.archivePath = finalPath;
 
-            updateStatus('Installing...', 'progress');
+            if (isUpdate) {
+                await handleDownloadItemInstall(downloadId, true);
 
-            // This installation logic is the same as before.
-            if (analysis.successes?.length > 0) {
-                for (const mod of analysis.successes) {
-                    addNewModToXml(mod.name);
-                    await invoke('ensure_mod_info', { modFolderName: mod.name, modId, fileId, version });
-                    if (analysis.successes.length === 1) {
-                        const item = downloadHistory.find(d => d.id === downloadId);
-                        if (item) item.modFolderName = mod.name;
-                    }
-                }
+            } else {
+                updateStatus('Downloaded', 'success');
+                await saveDownloadHistory(downloadHistory);
             }
 
-            if (analysis.conflicts?.length > 0) {
+        } catch (error) {
+            console.error("Download/Update failed:", error);
+            updateStatus(`Error: ${error.message}`, 'error');
+            await saveDownloadHistory(downloadHistory);
+        }
+    }
+
+    function showDownloadContextMenu(e, downloadId) {
+        const itemData = downloadHistory.find(d => d.id === downloadId);
+        
+        console.log(`[CONTEXT MENU] Opening for downloadId: "${downloadId}"`);
+
+        if (!itemData) {
+            console.error("[CONTEXT MENU] Could not find item data for this ID!");
+            return;
+        }
+
+        // Log the complete state of the item we're opening the menu for.
+        console.log("[CONTEXT MENU] Item data:", JSON.parse(JSON.stringify(itemData)));
+        
+        e.preventDefault();
+        e.stopPropagation();
+        removeContextMenu();
+
+        contextMenu = document.createElement('div');
+        contextMenu.className = 'context-menu';
+        contextMenu.style.left = `${e.clientX}px`;
+        contextMenu.style.top = `${e.clientY}px`;
+
+        // --- Create Menu Items ---
+        console.log(`[CONTEXT MENU] Checking condition to show 'Install' button: statusClass === 'success' (${itemData.statusClass === 'success'}), archivePath exists (${!!itemData.archivePath})`);
+
+        // Install Button
+        if (itemData.statusClass === 'success' && itemData.archivePath) {
+            console.log("[CONTEXT MENU] 'Install' button will be SHOWN.");
+            const installButton = document.createElement('button');
+            installButton.textContent = 'Install';
+            installButton.className = 'context-menu-item';
+            installButton.onclick = () => handleDownloadItemInstall(downloadId);
+            contextMenu.appendChild(installButton);
+        } else {
+            console.log("[CONTEXT MENU] 'Install' button will be HIDDEN.");
+        }
+
+        // Visit on Nexus Button
+        const nexusButton = document.createElement('button');
+        nexusButton.textContent = 'Visit on Nexus';
+        nexusButton.className = 'context-menu-item';
+        nexusButton.onclick = () => {
+            invoke('plugin:shell|open', {
+                path: `https://www.nexusmods.com/nomanssky/mods/${itemData.modId}`,
+                with: null 
+            });
+        };
+        contextMenu.appendChild(nexusButton);
+
+        // Reveal in Explorer Button
+        if (itemData.archivePath) {
+            const revealButton = document.createElement('button');
+            revealButton.textContent = 'Reveal in Explorer';
+            revealButton.className = 'context-menu-item';
+            revealButton.onclick = () => invoke('show_in_folder', { path: itemData.archivePath });
+            contextMenu.appendChild(revealButton);
+        }
+        
+        // Delete Button
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete';
+        deleteButton.className = 'context-menu-item delete';
+        deleteButton.onclick = () => handleDownloadItemDelete(downloadId);
+        contextMenu.appendChild(deleteButton);
+
+        document.body.appendChild(contextMenu);
+    }
+
+    async function handleDownloadItemInstall(downloadId, isUpdate = false) {
+        const item = downloadHistory.find(d => d.id === downloadId);
+        if (!item || !item.archivePath) {
+            console.error("Attempted to install an item with no archive path:", item);
+            return;
+        }
+
+        // Helper to update the UI status in the download list
+        const updateStatus = (text, statusClass) => {
+            const currentItem = downloadHistory.find(d => d.id === downloadId);
+            if (currentItem) {
+                currentItem.statusText = text;
+                currentItem.statusClass = statusClass;
+                renderDownloadHistory();
+            }
+        };
+
+        try {
+            updateStatus(isUpdate ? 'Auto-Installing Update...' : 'Installing...', 'progress');
+            
+            // This is the core Rust command that extracts and moves the mod.
+            const analysis = await invoke('install_mod_from_archive', { archivePathStr: item.archivePath });
+
+            let oldArchiveToDelete = null;
+
+            // --- Handle Conflicts (Typically for Updates) ---
+            if (analysis.conflicts && analysis.conflicts.length > 0) {
                 for (const conflict of analysis.conflicts) {
-                    const shouldReplace = await confirm(
+                    // Find the download history item that corresponds to the mod folder being replaced.
+                    const oldItemIndex = downloadHistory.findIndex(d => d.modFolderName === conflict.old_mod_folder_name);
+                    if (oldItemIndex > -1) {
+                        const oldItem = downloadHistory[oldItemIndex];
+                        // Ensure we don't delete the archive we're currently installing
+                        if (oldItem.archivePath && oldItem.id !== item.id) {
+                            oldArchiveToDelete = oldItem.archivePath;
+                            // Remove the old item from the history array
+                            downloadHistory.splice(oldItemIndex, 1);
+                        }
+                    }
+
+                    // If it's an auto-update, we always replace. Otherwise, ask the user.
+                    const shouldReplace = isUpdate ? true : await confirm(
                         `A mod with this ID is already installed ('${conflict.old_mod_folder_name}'). Replace it with '${conflict.new_mod_name}'?`,
                         { title: 'Mod Update Conflict', type: 'warning' }
                     );
-                    await invoke('resolve_conflict', { /* ...args... */ });
+
+                    await invoke('resolve_conflict', {
+                        newModName: conflict.new_mod_name,
+                        oldModFolderName: conflict.old_mod_folder_name,
+                        tempModPathStr: conflict.temp_path,
+                        replace: shouldReplace
+                    });
+
                     if (shouldReplace) {
                         if (conflict.new_mod_name.toUpperCase() !== conflict.old_mod_folder_name.toUpperCase()) {
-                            const updatedXmlContent = await invoke('update_mod_name_in_xml', { /* ...args... */ });
+                            const updatedXmlContent = await invoke('update_mod_name_in_xml', {
+                                oldName: conflict.old_mod_folder_name.toUpperCase(),
+                                newName: conflict.new_mod_name.toUpperCase()
+                            });
                             await loadXmlContent(updatedXmlContent, appState.currentFilePath);
                         }
-                        await invoke('ensure_mod_info', { modFolderName: conflict.new_mod_name, modId, fileId, version });
+                        await invoke('ensure_mod_info', {
+                            modFolderName: conflict.new_mod_name,
+                            modId: item.modId,
+                            fileId: item.fileId,
+                            version: item.version
+                        });
+                        // The new folder name after replacement
+                        item.modFolderName = conflict.new_mod_name; 
                     }
                 }
             }
 
+            // --- Handle New Installations ---
+            if (analysis.successes && analysis.successes.length > 0) {
+                for (const mod of analysis.successes) {
+                    addNewModToXml(mod.name);
+                    await invoke('ensure_mod_info', {
+                        modFolderName: mod.name,
+                        modId: item.modId,
+                        fileId: item.fileId,
+                        version: item.version
+                    });
+                }
+                // The new folder name after installation
+                item.modFolderName = analysis.successes[0].name;
+            }
+            
+            // Save changes to GCMODSETTINGS.MXML and re-render the main mod list
             await saveChanges();
             await renderModList();
-            updateStatus('Installation successful!', 'success');
+            
+            updateStatus('Installed', 'installed');
             await saveDownloadHistory(downloadHistory);
-            updateModDisplayState(modId); // Reactively update the "Install" button
+
+            // Clean up the old archive file *after* everything else is successful
+            if (oldArchiveToDelete) {
+                console.log("Cleaning up old, outdated mod archive:", oldArchiveToDelete);
+                await invoke('delete_archive_file', { path: oldArchiveToDelete });
+            }
+
+            // Update the "Install" button in the browse tab reactively
+            updateModDisplayState(item.modId);
 
         } catch (error) {
-            console.error("Installation failed:", error);
-            updateStatus(`Error: ${error.message}`, 'error');
+            console.error("Installation process failed:", error);
+            updateStatus(`Install failed: ${error.message}`, 'error');
             await saveDownloadHistory(downloadHistory);
+        }
+    }
+
+    async function handleDownloadItemDelete(downloadId) {
+        const confirmed = await confirm("Are you sure you want to delete this downloaded mod archive? This cannot be undone.", { type: 'warning' });
+        if (!confirmed) return;
+
+        const itemIndex = downloadHistory.findIndex(d => d.id === downloadId);
+        if (itemIndex === -1) return;
+
+        const item = downloadHistory[itemIndex];
+        
+        try {
+            if (item.archivePath) {
+                await invoke('delete_archive_file', { path: item.archivePath });
+            }
+            
+            downloadHistory.splice(itemIndex, 1);
+            renderDownloadHistory();
+            await saveDownloadHistory(downloadHistory);
+        } catch (error) {
+            alert(`Failed to delete archive: ${error}`);
         }
     }
     
@@ -699,16 +901,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
         for (const itemData of downloadHistory) {
             const newItem = template.content.cloneNode(true).firstElementChild;
-            // Don't use ID here as we are re-rendering. A data attribute is safer.
-            newItem.dataset.downloadId = itemData.id; 
+            newItem.dataset.downloadId = itemData.id;
+            
+            if (itemData.statusClass === 'success' && itemData.archivePath) {
+                newItem.classList.add('installable');
+            }
             
             const nameEl = newItem.querySelector('.download-item-name');
             const statusEl = newItem.querySelector('.download-item-status');
             
             nameEl.textContent = itemData.modName;
             statusEl.textContent = itemData.statusText;
-            statusEl.className = 'download-item-status'; // Reset
+            statusEl.className = 'download-item-status';
             statusEl.classList.add(`status-${itemData.statusClass}`);
+            
+            newItem.addEventListener('dblclick', () => {
+                if (newItem.classList.contains('installable')) {
+                    handleDownloadItemInstall(itemData.id);
+                }
+            });
+            newItem.addEventListener('contextmenu', (e) => showDownloadContextMenu(e, itemData.id));
             
             downloadListContainer.appendChild(newItem);
         }
@@ -1373,7 +1585,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modDetailInstallBtnContainer.innerHTML = '';
         const primaryBtn = document.createElement('button');
         primaryBtn.className = 'mod-card-install-btn';
-        primaryBtn.textContent = (installedFiles && installedFiles.size > 0) ? 'MANAGE FILES' : 'INSTALL';
+        primaryBtn.textContent = (installedFiles && installedFiles.size > 0) ? 'MANAGE FILES' : 'DOWNLOAD';
         primaryBtn.onclick = () => showFileSelectionModal(modData.mod_id);
         modDetailInstallBtnContainer.appendChild(primaryBtn);
 
@@ -1405,20 +1617,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function showFileSelectionModal(modId) {
-        // --- THIS IS THE FIX ---
-        // Instead of making live API calls, we find the mod's data that
-        // we already have pre-loaded in our curatedData array.
         const modData = curatedData.find(m => m.mod_id === modId);
 
-        // This data includes the 'files' array that was fetched by the GitHub Action.
         const filesData = { files: modData?.files || [] };
 
         if (!modData || !filesData || !filesData.files || filesData.files.length === 0) {
-            // This will only happen if something is wrong with our curated_list.json
             alert("Could not find file information for this mod in the local data. Please try again later.");
             return;
         }
-        // --- END OF FIX ---
 
         fileSelectionModalTitle.textContent = `Install: ${modData.name}`;
         fileSelectionListContainer.innerHTML = '';
@@ -1442,6 +1648,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}">UPDATE</button>`;
                 }
             } else {
+                // This logic checks if the current file is a newer version of another file
+                // that's already installed in the same category.
                 let isUpdateForAnotherFile = false;
                 if (installedFilesForThisMod) {
                     for (const [installedFileId, installedVersion] of installedFilesForThisMod.entries()) {
@@ -1454,7 +1662,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                     }
                 }
-                const buttonText = isUpdateForAnotherFile ? 'UPDATE' : 'INSTALL';
+                // Set the button text based on whether it's an update or a fresh download.
+                const buttonText = isUpdateForAnotherFile ? 'UPDATE' : 'DOWNLOAD';
                 buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}">${buttonText}</button>`;
             }
 
@@ -1640,37 +1849,77 @@ document.addEventListener('DOMContentLoaded', () => {
         deleteButton.textContent = i18n.get('deleteModBtn', { modName });
         deleteButton.className = 'context-menu-item delete';
         deleteButton.onclick = async () => {
-            removeContextMenu();
-            const confirmed = await confirm(
-                i18n.get('confirmDeleteMod', { modName }),
-                { title: i18n.get('confirmDeleteTitle'), type: 'warning' }
-            );
-            if (confirmed) {
-                try {
-                    // 1. Call the Rust command. It now returns the render data directly.
-                    const modsToRender = await invoke('delete_mod', { modName: modName });
-                    
-                    // 2. We must also update our in-memory XML state for other functions to use.
-                    // The simplest way is to re-read the file we know was just saved.
-                    try {
-                        const settingsPath = await join(appState.gamePath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
-                        const content = await readTextFile(settingsPath);
-                        appState.xmlDoc = new DOMParser().parseFromString(content, "application/xml");
-                    } catch (e) {
-                        console.error("Failed to re-sync xmlDoc after deletion:", e);
-                        // If this fails, we should force a full reload to be safe.
-                        location.reload(); 
-                    }
-                    
-                    // 3. Re-render the list using the direct, correct data from Rust.
-                    await renderModList(modsToRender);
+        removeContextMenu();
+        console.log(`[DELETE] User initiated delete for mod: "${modName}"`);
+        
+        const confirmed = await confirm(
+            i18n.get('confirmDeleteMod', { modName }),
+            { title: i18n.get('confirmDeleteTitle'), type: 'warning' }
+        );
 
-                    alert(i18n.get('deleteSuccess', { modName }));
-                } catch (error) {
-                    alert(`${i18n.get('deleteError', { modName })}\n\n${error}`);
-                }
+        if (!confirmed) {
+            console.log("[DELETE] User cancelled deletion.");
+            return;
+        }
+
+        try {
+            console.log("[DELETE] Invoking Rust 'delete_mod' command...");
+            const modsToRender = await invoke('delete_mod', { modName: modName });
+            console.log("[DELETE] Rust command successful. Received new mod list to render.");
+
+            // Re-sync in-memory XML
+            try {
+                const settingsPath = await join(appState.gamePath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
+                const content = await readTextFile(settingsPath);
+                appState.xmlDoc = new DOMParser().parseFromString(content, "application/xml");
+                console.log("[DELETE] Successfully re-synced in-memory xmlDoc.");
+            } catch (e) {
+                console.error("[DELETE] CRITICAL: Failed to re-sync xmlDoc after deletion. Forcing reload.", e);
+                location.reload();
+                return;
             }
-        };
+            
+            // Re-render main mod list
+            await renderModList(modsToRender);
+            console.log("[DELETE] Main mod list re-rendered.");
+
+            // --- STATE REVERT LOGIC WITH LOGGING ---
+            console.log(`[DELETE] Attempting to find item in downloadHistory with modFolderName: "${modName}"`);
+            
+            // Log the entire history for inspection
+            console.log("[DELETE] Current downloadHistory:", JSON.parse(JSON.stringify(downloadHistory)));
+
+            const deletedItem = downloadHistory.find(item => item.modFolderName && item.modFolderName.toUpperCase() === modName.toUpperCase());
+
+            if (deletedItem) {
+                console.log("[DELETE] FOUND item in download history:", deletedItem);
+                
+                // Log the state *before* the change
+                console.log(`[DELETE] Before change: statusText="${deletedItem.statusText}", statusClass="${deletedItem.statusClass}", modFolderName="${deletedItem.modFolderName}"`);
+
+                deletedItem.statusText = 'Downloaded';
+                deletedItem.statusClass = 'success';
+                deletedItem.modFolderName = null;
+                
+                // Log the state *after* the change
+                console.log(`[DELETE] After change: statusText="${deletedItem.statusText}", statusClass="${deletedItem.statusClass}", modFolderName="${deletedItem.modFolderName}"`);
+                
+                console.log("[DELETE] Saving updated download history...");
+                await saveDownloadHistory(downloadHistory);
+                console.log("[DELETE] Download history saved.");
+
+            } else {
+                console.warn(`[DELETE] WARNING: Could not find a matching item in downloadHistory for modFolderName: "${modName}". The status will not be reverted.`);
+            }
+            // --- END OF STATE REVERT LOGIC ---
+
+            alert(i18n.get('deleteSuccess', { modName }));
+
+        } catch (error) {
+            console.error("[DELETE] An error occurred during the deletion process:", error);
+            alert(`${i18n.get('deleteError', { modName })}\n\n${error}`);
+        }
+    };
 
         contextMenu.appendChild(copyButton);
         contextMenu.appendChild(priorityButton);
@@ -1997,28 +2246,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     fileSelectionListContainer.addEventListener('click', async (e) => {
-        // Handle collapsible headers
         const header = e.target.closest('.collapsible-header');
         if (header) {
             header.classList.toggle('active');
             header.nextElementSibling.classList.toggle('open');
-            return; // Stop here
+            return;
         }
 
-        // Handle install/update button clicks
         if (e.target.classList.contains('mod-card-install-btn')) {
             const button = e.target;
+            
+            const isUpdate = button.textContent === 'UPDATE';
+
             const modId = button.dataset.modId;
             const fileId = button.dataset.fileId;
             const version = button.dataset.version;
-            // Get the file name from the UI element
             const fileName = button.closest('.update-item').querySelector('.update-item-name').textContent.split(' (v')[0];
 
-            // Disable button, hide modal, and kick off the download process
             button.disabled = true;
             fileSelectionModalOverlay.classList.add('hidden');
             
-            await startModDownload({ modId, fileId, version, fileName });
+            await startModDownload({ modId, fileId, version, fileName }, isUpdate);
         }
     });
 

@@ -1058,6 +1058,54 @@ fn register_nxm_protocol() -> Result<(), String> {
     Ok(())
 }
 
+#[tauri::command]
+async fn download_mod_archive(download_url: String, file_name: String) -> Result<String, String> {
+    let exe_path = env::current_exe().map_err(|e| e.to_string())?;
+    let exe_dir = exe_path.parent().ok_or_else(|| "Could not get parent directory of executable.".to_string())?;
+    
+    let downloads_path = exe_dir.join("downloads");
+    fs::create_dir_all(&downloads_path).map_err(|e| format!("Failed to create downloads directory: {}", e))?;
+    let final_archive_path = downloads_path.join(&file_name);
+
+    let response = reqwest::get(&download_url)
+        .await
+        .map_err(|e| format!("Failed to start download: {}", e))?;
+
+    if !response.status().is_success() {
+        return Err(format!("Download failed with status: {}", response.status()));
+    }
+
+    let file_bytes = response
+        .bytes()
+        .await
+        .map_err(|e| format!("Failed to read downloaded file bytes: {}", e))?;
+
+    fs::write(&final_archive_path, &file_bytes)
+        .map_err(|e| format!("Failed to write archive to downloads folder: {}", e))?;
+    
+    Ok(final_archive_path.to_string_lossy().into_owned())
+}
+
+#[tauri::command]
+fn show_in_folder(path: String) {
+    #[cfg(target_os = "windows")]
+    {
+        use std::process::Command;
+        Command::new("explorer")
+            .args(["/select,", &path]) // The "/select," part is important
+            .spawn()
+            .unwrap();
+    }
+}
+
+#[tauri::command]
+fn delete_archive_file(path: String) -> Result<(), String> {
+    if Path::new(&path).exists() {
+        fs::remove_file(path).map_err(|e| e.to_string())?;
+    }
+    Ok(())
+}
+
 // --- MAIN FUNCTION ---
 fn main() {    
     tauri::Builder::default()
@@ -1156,7 +1204,10 @@ fn main() {
             unregister_nxm_protocol,
             is_protocol_handler_registered,
             check_mod_exists,
-            get_all_mods_for_render
+            get_all_mods_for_render,
+            download_mod_archive,
+            show_in_folder,
+            delete_archive_file
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

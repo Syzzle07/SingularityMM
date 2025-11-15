@@ -998,6 +998,16 @@ label.switch:has(input:checked)::before {
 }
 
 /* === DOWNLOAD HISTORY MODAL STYLES === */
+.download-item.installable {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.download-item.installable:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
 .download-modal {
     max-width: 700px; /* A nice wide modal */
     text-align: left;
@@ -1046,10 +1056,17 @@ label.switch:has(input:checked)::before {
 .download-item-status.status-progress {
     color: #e0e0e0; /* Neutral/in-progress color */
 }
+
 .download-item-status.status-success {
-    color: #4CAF50; /* Green for success */
+    color: #FFD700; 
     font-weight: bold;
 }
+
+.download-item-status.status-installed {
+    color: #4CAF50; /* Green for installed */
+    font-weight: bold;
+}
+
 .download-item-status.status-error {
     color: var(--danger-color); /* Red for error */
     font-weight: bold;
