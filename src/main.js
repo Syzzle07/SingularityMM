@@ -962,7 +962,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const displayName = (itemData.displayName && itemData.version)
                 ? `${itemData.displayName} (${itemData.version})`
                 : itemData.fileName;
-            newItem.querySelector('.download-item-name').textContent = displayName;
+            const nameEl = newItem.querySelector('.download-item-name');
+            nameEl.textContent = displayName;
+            nameEl.setAttribute('title', displayName);
             
             newItem.querySelector('.download-item-status').textContent = itemData.statusText;
             newItem.querySelector('.download-item-size').textContent = formatBytes(itemData.size);
