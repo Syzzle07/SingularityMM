@@ -20,7 +20,7 @@ use unrar;
 use winreg::enums::*;
 use winreg::RegKey;
 use zip::ZipArchive;
-use std::time::{SystemTime, UNIX_EPOCH};
+use std::time::UNIX_EPOCH;
 
 // --- STRUCTS ---
 

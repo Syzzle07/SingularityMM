@@ -578,13 +578,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    async function startModDownload({ modId, fileId, version, fileName }, isUpdate = false) {
+    async function startModDownload({ modId, fileId, version, fileName, displayName }, isUpdate = false) {
         const existingItem = downloadHistory.find(d => d.fileId === fileId);
         
         if (existingItem && existingItem.archivePath && !isUpdate) {
             const confirmed = await showConfirmationModal(
                 'Duplicate Download',
-                `You have already downloaded "${fileName}". Do you want to download it again and replace the existing file?`
+                `You have already downloaded "${displayName || fileName}". Do you want to download it again and replace the existing file?`
             );
 
             if (!confirmed) {
@@ -607,13 +607,14 @@ document.addEventListener('DOMContentLoaded', () => {
             modId: modId,
             fileId: fileId,
             version: version,
-            modName: fileName,
+            displayName: displayName, // The clean name for display
+            fileName: fileName,       // The raw filename for saving
             statusText: isUpdate ? 'Updating...' : 'Waiting to start...',
             statusClass: 'progress',
             archivePath: null,
             modFolderName: null,
-            size: 0, // Initialize size
-            createdAt: 0 // Initialize createdAt
+            size: 0,
+            createdAt: 0
         };
 
         downloadHistory.unshift(newItemData);
@@ -648,7 +649,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     item.statusText = 'Downloaded';
                     item.statusClass = 'success';
                     await saveDownloadHistory(downloadHistory);
-                    renderDownloadHistory(); // Re-render to show final data
+                    renderDownloadHistory();
                 }
             }
 
@@ -921,41 +922,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderDownloadHistory() {
-        // 1. Sort the history array based on the current state.
         downloadHistory.sort((a, b) => {
             let valA, valB;
-
             switch (downloadSortState.key) {
                 case 'name':
-                    valA = a.modName ? a.modName.toLowerCase() : '';
-                    valB = b.modName ? b.modName.toLowerCase() : '';
+                    valA = (a.displayName || a.fileName || '').toLowerCase();
+                    valB = (b.displayName || b.fileName || '').toLowerCase();
                     break;
                 case 'status':
-                    valA = a.statusText ? a.statusText.toLowerCase() : '';
-                    valB = b.statusText ? b.statusText.toLowerCase() : '';
+                    valA = (a.statusText || '').toLowerCase();
+                    valB = (b.statusText || '').toLowerCase();
                     break;
                 case 'size':
                     valA = a.size || 0;
                     valB = b.size || 0;
                     break;
                 default: // Default to 'date'
-                    // We use createdAt, falling back to the ID's timestamp if needed.
                     valA = a.createdAt || parseInt(a.id.split('-')[1], 10);
                     valB = b.createdAt || parseInt(b.id.split('-')[1], 10);
                     break;
             }
 
-            // Apply the sort direction
-            if (valA < valB) {
-                return downloadSortState.direction === 'asc' ? -1 : 1;
-            }
-            if (valA > valB) {
-                return downloadSortState.direction === 'asc' ? 1 : -1;
-            }
+            if (valA < valB) return downloadSortState.direction === 'asc' ? -1 : 1;
+            if (valA > valB) return downloadSortState.direction === 'asc' ? 1 : -1;
             return 0;
         });
 
-        // 2. Render the sorted list.
         downloadListContainer.innerHTML = '';
         const template = document.getElementById('downloadItemTemplate');
 
@@ -967,16 +959,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 newItem.classList.add('installable');
             }
             
-            newItem.querySelector('.download-item-name').textContent = itemData.modName;
+            const displayName = (itemData.displayName && itemData.version)
+                ? `${itemData.displayName} (${itemData.version})`
+                : itemData.fileName;
+            newItem.querySelector('.download-item-name').textContent = displayName;
+            
             newItem.querySelector('.download-item-status').textContent = itemData.statusText;
             newItem.querySelector('.download-item-size').textContent = formatBytes(itemData.size);
             
-            // Use the createdAt timestamp if it exists, otherwise parse it from the ID as a fallback.
             const timestamp = itemData.createdAt || parseInt(itemData.id.split('-')[1], 10) / 1000;
             newItem.querySelector('.download-item-date').textContent = formatDate(timestamp);
             
             const statusEl = newItem.querySelector('.download-item-status');
-            statusEl.className = 'download-item-status'; // Reset classes
+            statusEl.className = 'download-item-status';
             statusEl.classList.add(`status-${itemData.statusClass}`);
             
             newItem.addEventListener('dblclick', () => {
@@ -989,7 +984,6 @@ document.addEventListener('DOMContentLoaded', () => {
             downloadListContainer.appendChild(newItem);
         }
         
-        // 3. Update the header UI to show the current sort.
         const headerRow = document.querySelector('.download-header-row');
         if (headerRow) {
             headerRow.querySelectorAll('.sortable').forEach(header => {
@@ -1032,18 +1026,22 @@ document.addEventListener('DOMContentLoaded', () => {
         const fileId = match[2];
 
         try {
-            // NXM links don't contain file name or version, so we must fetch them.
             const filesData = await fetchModFilesFromNexus(modId);
             const fileInfo = filesData?.files.find(f => String(f.file_id) === fileId);
+            if (!fileInfo) {
+                throw new Error(`File ID ${fileId} not found for mod ${modId}.`);
+            }
 
-            if (!fileInfo) throw new Error(`File ID ${fileId} not found for mod ${modId}.`);
+            // Unlike the in-app download, we don't have the main mod title readily available,
+            // so we use the file's specific name as the best display name.
+            const displayName = fileInfo.name || fileInfo.file_name;
 
-            // Now that we have all the info, call our central download function.
             await startModDownload({
                 modId: modId,
                 fileId: fileId,
                 version: fileInfo.version,
-                fileName: fileInfo.file_name
+                fileName: fileInfo.file_name,
+                displayName: displayName
             });
 
         } catch (error) {
@@ -1693,7 +1691,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function showFileSelectionModal(modId) {
         const modData = curatedData.find(m => m.mod_id === modId);
-
         const filesData = { files: modData?.files || [] };
 
         if (!modData || !filesData || !filesData.files || filesData.files.length === 0) {
@@ -1701,7 +1698,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        fileSelectionModalTitle.textContent = `Install: ${modData.name}`;
+        fileSelectionModalTitle.textContent = `Download: ${modData.name}`;
         fileSelectionListContainer.innerHTML = '';
 
         const modIdStr = String(modId);
@@ -1715,16 +1712,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const fileIdStr = String(file.file_id);
             const installedVersionForThisFile = installedFilesForThisMod ? installedFilesForThisMod.get(fileIdStr) : undefined;
 
+            // This is the raw, original filename (e.g., ModName-1234-1-0.zip)
+            const rawFileName = file.file_name;
+
             if (installedVersionForThisFile) {
                 const isUpToDate = !isNewerVersionAvailable(installedVersionForThisFile, file.version);
                 if (isUpToDate) {
                     buttonHtml = `<button class="mod-card-install-btn" disabled>INSTALLED</button>`;
                 } else {
-                    buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}">UPDATE</button>`;
+                    buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}" data-raw-filename="${rawFileName}">UPDATE</button>`;
                 }
             } else {
-                // This logic checks if the current file is a newer version of another file
-                // that's already installed in the same category.
                 let isUpdateForAnotherFile = false;
                 if (installedFilesForThisMod) {
                     for (const [installedFileId, installedVersion] of installedFilesForThisMod.entries()) {
@@ -1737,14 +1735,18 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                     }
                 }
-                // Set the button text based on whether it's an update or a fresh download.
                 const buttonText = isUpdateForAnotherFile ? 'UPDATE' : 'DOWNLOAD';
-                buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}">${buttonText}</button>`;
+                // --- THIS IS THE FIX ---
+                // We add data-raw-filename to the button to store the original filename.
+                buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}" data-raw-filename="${rawFileName}">${buttonText}</button>`;
             }
+
+            // The clean name for display (e.g., "sHealthcare - Powerless Stations")
+            const displayName = file.name || file.file_name;
 
             item.innerHTML = `
                 <div class="update-item-info">
-                    <div class="update-item-name">${file.file_name} (v${file.version})</div>
+                    <div class="update-item-name">${displayName} (v${file.version})</div>
                     <div class="update-item-version">${file.description || "No description."}</div>
                 </div>
                 ${buttonHtml}`;
@@ -2330,18 +2332,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (e.target.classList.contains('mod-card-install-btn')) {
             const button = e.target;
+            const itemElement = button.closest('.update-item');
             
             const isUpdate = button.textContent === 'UPDATE';
 
             const modId = button.dataset.modId;
             const fileId = button.dataset.fileId;
             const version = button.dataset.version;
-            const fileName = button.closest('.update-item').querySelector('.update-item-name').textContent.split(' (v')[0];
+            
+            // --- THIS IS THE FIX ---
+            // 1. Get the CLEAN name from the UI for display purposes.
+            const displayName = itemElement.querySelector('.update-item-name').textContent.split(' (v')[0];
+            
+            // 2. Get the RAW filename from the data attribute we just added.
+            const rawFileName = button.dataset.rawFilename;
 
             button.disabled = true;
             fileSelectionModalOverlay.classList.add('hidden');
             
-            await startModDownload({ modId, fileId, version, fileName }, isUpdate);
+            // 3. Pass the correct variables to the download function.
+            await startModDownload({
+                modId: modId,
+                fileId: fileId,
+                version: version,
+                fileName: rawFileName, // The raw name for saving the file
+                displayName: displayName // The clean name for the UI
+            }, isUpdate);
         }
     });
 

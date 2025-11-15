@@ -1057,6 +1057,12 @@ label.switch:has(input:checked)::before {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
+.download-item .download-item-name {
+    /* These three properties work together to create the ellipsis effect */
+    white-space: nowrap;      /* Prevent the text from wrapping to a new line */
+    overflow: hidden;         /* Hide any text that overflows the container */
+    text-overflow: ellipsis;  /* Display '...' for the hidden text */
+}
 
 .download-modal {
     max-width: 800px; /* A nice wide modal */
