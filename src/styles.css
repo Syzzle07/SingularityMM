@@ -18,43 +18,49 @@
 
 :root {
     /* ============================================= */
-    /* === THEME CONTROL PANEL ("NMS Origins") === */
+    /* === THEME CONTROL PANEL === */
     /* ============================================= */
 
     /* --- Base Palette --- */
-    --c-background: #1D1D1D;      /* NMS Dark Plum */
-    --c-text-primary: #F1F1F1;    /* Soft White */
-    --c-accent-primary: #CA4862;  /* NMS Teal */
-    --c-accent-secondary: #F16764;/* NMS Coral */
-    --c-status-success: #8FDEB4;  /* NMS Mint Green */
-    --c-danger: #CA4862;          /* NMS Raspberry */
+    --c-background: #1D1D1D;      
+    --c-text-primary: #F1F1F1;    
+    --c-accent-primary: #CA4862;  
+    --c-accent-secondary: #F16764;
+    --c-status-success: #4caf50;  
+    --c-danger: #CA4862;          
 
-    /* --- UI Element Colors (Derived from Palette) --- */
+    /* --- UI Element Colors --- */
     /* Backgrounds */
-    --c-bg-panel: rgba(44, 44, 44, 0.75);      /* Semi-transparent */
-    --c-bg-modal: rgba(44, 44, 44, 0.95);      /* Darker, more opaque modal bg */
-    --c-bg-mod-row: rgba(29, 29, 29, 0.95);  /* Color for rows */
-    --c-bg-mod-row-alt: rgba(29, 29, 29, 0.5); /* Slightly more opaque for alternating rows */
+    --c-bg-panel: rgba(44, 44, 44, 0.75);       /* Semi-transparent */
+    --c-bg-modal: rgba(44, 44, 44, 0.95);       /* Darker, more opaque modal bg */
+    --c-bg-mod-row: rgba(29, 29, 29, 0.95);     /* Color for rows */
+    --c-bg-mod-row-alt: rgba(29, 29, 29, 0.5);  /* Slightly more opaque for alternating rows */
 
     /* Borders & Dividers */
-    --c-border: #693b4f;                      /* Lighter shade of plum */
-    --c-border-interactive: var(--c-accent-primary); /* Use Teal for hover/focus */
+    --c-border: #693b4f;
+    --c-border-interactive: var(--c-accent-primary);
     
     /* Interactive States (Hovers, etc.) */
     --c-hover-glow: rgba(255, 255, 255, 0.08);
     --c-accent-primary-btn: #a23d55;
-    --c-accent-primary-hover: #CA4862;        /* A slightly brighter Teal */
-    --c-danger-hover: #C9302C;                /* A darker Raspberry */
+    --c-accent-primary-hover: #CA4862;
+    --c-danger-hover: #C9302C;
 
     /* Glows & Shadows */
-    --shadow-glow-accent: 0 0 8px 1px rgba(250, 90, 112, 0.7); /* Teal glow */
+    --shadow-glow-accent: 0 0 8px 1px rgba(250, 90, 112, 0.7);
     --shadow-text: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    --c-accent-primary-glow: rgba(250, 100, 130, 0.7);
 
-    /* --- Fonts (Unchanged) --- */
+    /* --- Layered Glow Variables --- */
+    --glow-layer-1: 0 0 5px rgba(255, 255, 255, 0.7);   /* A tight, bright inner glow */
+    --glow-layer-2: 0 0 10px var(--c-accent-primary-glow);   /* The main color glow */
+    --glow-layer-3: 0 0 15px var(--c-accent-primary-glow);   /* A softer, wider echo of the color */
+
+    /* --- Fonts --- */
     --font-primary: 'NMSGeoSans', sans-serif;
     --font-secondary: 'Roboto', sans-serif;
 
-    /* --- Spacing Variables (Bonus for consistency) --- */
+    /* --- Spacing Variables --- */
     --mod-row-vertical-padding: 5px; /* Default list density */
     --browse-grid-gap: 10px;        /* Default grid density */
 }
@@ -745,12 +751,22 @@ label.switch:has(input:checked)::before {
 
 /* --- NEW INLINE MOD INFO PANEL --- */
 .mod-info-panel-inline {
-    background-color: rgba(45, 38, 58, 0.85); /* Slightly tweaked for style */
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 4px;
+    background-image: url('/src/assets/modinfopanel.png');
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    background-size: 100% 100%; /* Stretch the image to fill the div */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: none; 
+    background-color: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+
+    /* border: 1px solid rgba(255, 255, 255, 0.15); */
+    /* border-radius: 4px; */
     margin: 0 0 4px 0;
     overflow: hidden;
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px); */
 
     /* Animation for expanding/collapsing */
     transition: all 0.4s ease-in-out;
@@ -775,9 +791,11 @@ label.switch:has(input:checked)::before {
     align-items: center;
     font-family: var(--font-primary);
     font-size: 15pt;
-    color: var(--c-accent-primary);
+    color: var(--c-text-primary);
     padding-bottom: 8px;
-    border-bottom: 1px solid var(--c-border);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    text-shadow: 0 0 6px var(--c-accent-primary-glow);
+    /* text-shadow: var(--glow-layer-2), var(--glow-layer-3); */
 }
 
 /* --- ADD THIS NEW RULE FOR THE BUTTON --- */
@@ -806,7 +824,7 @@ label.switch:has(input:checked)::before {
 .info-body {
     display: flex;
     margin-top: 12px;
-    gap: 20px; /* Space between columns */
+    gap: 20px;
 }
 
 .info-meta-column {
@@ -1392,8 +1410,8 @@ button.context-menu-item.delete:hover {
 }
 
 .mod-card.selected {
-    background-color: rgba(0, 0, 0, 0.4); /* A darker, more prominent background */
-    border-color: var(--c-accent-primary); /* Use the accent border color */
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: var(--c-accent-primary);
 }
 
 .mod-card-installed-badge {
@@ -1616,7 +1634,7 @@ button.context-menu-item.delete:hover {
 }
 
 .mod-detail-panel {
-    background-color: rgba(30, 25, 40, 0.95);
+    background-color: rgba(0, 0, 0, 0.4);
     border-left: 0px solid rgba(255, 255, 255, 0.2);
     display: flex;
     flex-direction: column;
@@ -1649,7 +1667,9 @@ button.context-menu-item.delete:hover {
     font-family: var(--font-primary);
     margin: 0;
     font-size: 18pt;
-    color: var(--c-accent-primary);
+    color: var(--c-text-primary);
+    text-shadow: 0 0 6px var(--c-accent-primary-glow);
+    /* text-shadow: var(--glow-layer-2), var(--glow-layer-3); */
 }
 
 .mod-detail-header img {
