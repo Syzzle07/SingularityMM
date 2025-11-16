@@ -33,8 +33,8 @@
     /* Backgrounds */
     --c-bg-panel: rgba(44, 44, 44, 0.75);      /* Semi-transparent */
     --c-bg-modal: rgba(44, 44, 44, 0.95);      /* Darker, more opaque modal bg */
-    --c-bg-mod-row: rgba(202, 72, 98, 0.05);  /* Color for rows */
-    --c-bg-mod-row-alt: rgba(202, 72, 98, 0.08); /* Slightly more opaque for alternating rows */
+    --c-bg-mod-row: rgba(29, 29, 29, 0.95);  /* Color for rows */
+    --c-bg-mod-row-alt: rgba(29, 29, 29, 0.5); /* Slightly more opaque for alternating rows */
 
     /* Borders & Dividers */
     --c-border: #693b4f;                      /* Lighter shade of plum */
@@ -42,8 +42,9 @@
     
     /* Interactive States (Hovers, etc.) */
     --c-hover-glow: rgba(255, 255, 255, 0.08);
-    --c-accent-primary-hover: #461D2D;        /* A slightly brighter Teal */
-    --c-danger-hover: #F16764;                /* A darker Raspberry */
+    --c-accent-primary-btn: #a23d55;
+    --c-accent-primary-hover: #CA4862;        /* A slightly brighter Teal */
+    --c-danger-hover: #C9302C;                /* A darker Raspberry */
 
     /* Glows & Shadows */
     --shadow-glow-accent: 0 0 8px 1px rgba(250, 90, 112, 0.7); /* Teal glow */
@@ -61,8 +62,6 @@
 * {
 	box-sizing: border-box;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -105,9 +104,9 @@ header {
 
 #banner-img {
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+    top: 8px;
+    left: 10px;
+    height: 80%;
     width: auto;
     -webkit-user-drag: none; 
     pointer-events: none;
@@ -202,34 +201,35 @@ header {
 .top-panel {
 	backdrop-filter: blur(1px);
 	background-color: var(--c-bg-panel);
-	border: 0px solid rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-radius: 3px;
 	-webkit-backdrop-filter: blur(1px);
   margin-bottom: 15px;
+  margin-top: 5px;
   flex-shrink: 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 30px;
-  margin-left: 0px;  /* Counteract the parent's left padding */
-  margin-right: 0px; /* Counteract the parent's right padding */
+  margin-left: -5px;  /* Counteract the parent's left padding */
+  margin-right: -5px; /* Counteract the parent's right padding */
   padding: 15px 15px 15px 0;
 }
 
 .list-panel {
 	backdrop-filter: blur(1px);
 	background-color: var(--c-bg-panel);
-	border: 0px solid rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.1);
 	border-radius: 3px;
 	-webkit-backdrop-filter: blur(1px);
   display: flex;
 	flex-direction: column;
 	flex-grow: 1;
 	min-height: 0;
-  margin-left: 0px;  /* Counteract the parent's left padding */
-  margin-right: 0px; /* Counteract the parent's right padding */
+  margin-left: -5px;  /* Counteract the parent's left padding */
+  margin-right: -5px; /* Counteract the parent's right padding */
   margin-bottom: -5px;
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 10px 10px 0px 10px;
 }
 
@@ -369,7 +369,7 @@ h3,
 /* --- Button 1: Load GCMODSETTINGS --- */
 /* Tweak position of entire button */
 #loadFileBtn {
-    top: 58px;
+    top: 50px;
     left: 160px;
 }
 #loadFileBtn::before {
@@ -377,12 +377,12 @@ h3,
 }
 /* Tweak these to move the MAIN TEXT */
 #loadFileBtn-label {
-    top: 27px;
+    top: 19px;
     left: 72px;
 }
 /* Tweak these to move the SUB-TEXT */
 #filePathLabel {
-    top: 55px;
+    top: 47px;
     left: 85px;
 }
 
@@ -558,10 +558,6 @@ h3,
 	background-color: var(--c-bg-mod-row);
 	border-radius: 4px;
 	margin-bottom: 4px;
-}
-
-.mod-row:nth-child(even) {
-	background-color: var(--c-bg-mod-row-alt);
 }
 
 .mod-row input[type="text"] {
@@ -1251,7 +1247,7 @@ button.context-menu-item {
 }
 
 button.context-menu-item:hover {
-    background-color: var(--c-accent-primary);
+    background-color: var(--c-accent-primary-hover);
 }
 
 button.context-menu-item.delete {
@@ -1385,7 +1381,7 @@ button.context-menu-item.delete:hover {
 /* --- Mod Card Styles --- */
 .mod-card {
     position: relative;
-    background-color: var(--c-bg-mod-row);
+    background-color: var(--c-bg-mod-row-alt);
     border-radius: 4px;
     overflow: hidden;
     display: flex;
@@ -1529,7 +1525,7 @@ button.context-menu-item.delete:hover {
 }
 .mod-card-install-btn {
     font-family: var(--font-primary);
-    background-color: var(--c-accent-primary);
+    background-color: var(--c-accent-primary-btn);
     color: var(--c-text-primary);
     border: none;
     border-radius: 4px;
@@ -1579,36 +1575,29 @@ button.context-menu-item.delete:hover {
 }
    
 /* --- Side-by-Side Browse Layout --- */
-/* .browse-container {
-    display: flex;
-    flex-grow: 1;
-    min-height: 0;
-    margin-bottom: -5px;
-    margin-left: -5px;
-    margin-right: -5px;
-} */
 
 .browse-container {
     display: flex;
     flex-grow: 1;
     min-height: 0;
-    position: relative; 
+    position: relative;
+    margin-top: 13px;
 }
 
 .browse-background-panel {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -7.7px;
+    left: -7.5px;
+    width: 101.17%;
+    height: 101.8%;
     z-index: -1; /* This is the key: it places the panel *behind* all other content */
 
     /* --- Re-use the styles from your .list-panel for consistency --- */
     backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(1px);
     background-color: var(--c-bg-panel);
-    border: 0px solid rgba(255, 255, 255, 0.1);
-    border-radius: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
 }
 
 .browse-main-content {

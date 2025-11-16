@@ -1,6 +1,6 @@
 # NMS Mod Manager
 
-A simple lightweight mod manager for No Man's Sky built with Tauri v1 and Rust that started as a curiosity if an AI (Gemini Pro) could help making it.
+A lightweight Windows-based Mod manager for No Man's Sky built with Tauri v2 and Rust that started as a curiosity.
 
 ![Screenshot](screenshots/Screenshot1.png)
 ![Screenshot](screenshots/Screenshot2.png)
@@ -9,8 +9,9 @@ A simple lightweight mod manager for No Man's Sky built with Tauri v1 and Rust t
 ## Features
 
 *   **Automatic Game Detection:** Finds your Steam or GOG installation of No Man's Sky automatically.
-*   **Mod Management:** Easily enable, disable, and set the priority of your mods.
+*   **Mod Management:** Easily enable, disable, download, install and set the priority of your mods.
 *   **Drag & Drop Installation:** Install mods by simply dropping `.zip` or `.rar` files onto the application.
+*   **Nexus Mods Integration with SSO:** Link the Manager with your Nexus Account through the Single Sign-On and download mods using the "Mod Manager Download" button or if you have a Premium Account you can browse and download mods directly through the Manager itself.
 *   **Troubleshooting:** Includes option to delete your mod settings file to start anew.
 
 ## Dependencies
