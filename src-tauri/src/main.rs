@@ -21,6 +21,7 @@ use winreg::enums::*;
 use winreg::RegKey;
 use zip::ZipArchive;
 use std::time::UNIX_EPOCH;
+use std::process::Command;
 
 // --- STRUCTS ---
 
@@ -122,6 +123,13 @@ struct DownloadResult {
     created_at: u64, // Unix timestamp in seconds
 }
 
+#[derive(Serialize, Clone)]
+struct GamePaths {
+    game_root_path: String,   // Path to the folder containing GAMEDATA
+    settings_root_path: String, // Path to the folder containing GCMODSETTINGS.MXML
+    version_type: String,     // "Steam", "GOG", or "GamePass"
+}
+
 // --- HELPER FUNCTIONS ---
 fn read_mod_info(mod_path: &Path) -> Option<ModInfo> {
     let info_path = mod_path.join("mod_info.json");
@@ -194,6 +202,48 @@ fn find_steam_path() -> Option<PathBuf> {
             }
         }
     }
+    None
+}
+
+fn find_gamepass_path() -> Option<PathBuf> {
+    // Game Pass games, after "Enable Mods" is used, are moved to a user-accessible
+    // location, typically C:\XboxGames.
+    // The core game content, including GAMEDATA and Binaries, is inside a 'Content' subfolder.
+    
+    // First, we check the most common default path for an instant result.
+    let default_path = PathBuf::from("C:\\XboxGames\\No Man's Sky\\Content");
+
+    // We verify that this looks like a valid NMS installation by checking for
+    // the presence of the Binaries folder.
+    if default_path.join("Binaries").is_dir() {
+        return Some(default_path);
+    }
+    
+    // If the default path fails, we use PowerShell to query Windows for the UWP package location.
+    // This can find installations on other drives (e.g., D:\XboxGames).
+    let output = match Command::new("powershell")
+        .args([
+            "-NoProfile",
+            "-Command",
+            "Get-AppxPackage -Name 'HelloGames.NoMansSky' | Select-Object -ExpandProperty InstallLocation",
+        ])
+        .output()
+        {
+            Ok(output) => output,
+            Err(_) => return None, // PowerShell might not be available or could fail
+        };
+
+    if output.status.success() {
+        let path_str = String::from_utf8(output.stdout).unwrap_or_default().trim().to_string();
+        if !path_str.is_empty() {
+            // The moddable content is always in a 'Content' subdirectory of the package's install location.
+            let game_path = PathBuf::from(path_str).join("Content");
+            if game_path.join("Binaries").is_dir() {
+                return Some(game_path);
+            }
+        }
+    }
+
     None
 }
 
@@ -528,8 +578,51 @@ fn delete_settings_file() -> Result<String, String> {
 }
 
 #[tauri::command]
-fn get_game_path() -> Option<String> {
-    find_game_path().map(|p| p.to_string_lossy().into_owned())
+fn detect_game_installation() -> Option<GamePaths> {
+    if cfg!(not(windows)) { return None; }
+
+    // --- Try Steam ---
+    if let Some(path) = find_steam_path() {
+        // For Steam, game root and settings root are the same.
+        let settings_dir = path.join("Binaries\\SETTINGS");
+        if settings_dir.exists() {
+            return Some(GamePaths {
+                game_root_path: path.to_string_lossy().into_owned(),
+                settings_root_path: path.to_string_lossy().into_owned(),
+                version_type: "Steam".to_string(),
+            });
+        }
+    }
+
+    // --- Try GOG ---
+    if let Some(path) = find_gog_path() {
+        // For GOG, game root and settings root are the same.
+        let settings_dir = path.join("Binaries\\SETTINGS");
+        if settings_dir.exists() {
+            return Some(GamePaths {
+                game_root_path: path.to_string_lossy().into_owned(),
+                settings_root_path: path.to_string_lossy().into_owned(),
+                version_type: "GOG".to_string(),
+            });
+        }
+    }
+    
+    // --- Try Game Pass ---
+    // (We include the find_gamepass_path function from the previous step here)
+    if let Some(path) = find_gamepass_path() {
+        // As you correctly stated, the structure is the same.
+        // The path returned is the "Content" folder.
+        let settings_dir = path.join("Binaries\\SETTINGS");
+        if settings_dir.exists() {
+            return Some(GamePaths {
+                game_root_path: path.to_string_lossy().into_owned(),
+                settings_root_path: path.to_string_lossy().into_owned(),
+                version_type: "GamePass".to_string(),
+            });
+        }
+    }
+
+    None // No installation found
 }
 
 #[tauri::command]
@@ -1226,7 +1319,7 @@ fn main() {
             }
         })
         .invoke_handler(tauri::generate_handler![
-            get_game_path,
+            detect_game_installation,
             open_mods_folder,
             save_file,
             delete_settings_file,

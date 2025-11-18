@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Application & UI State ---
     const appState = {
         gamePath: null,
+        settingsPath: null,
         currentFilePath: null,
         xmlDoc: null,
         isPopulating: false,
@@ -302,7 +303,16 @@ document.addEventListener('DOMContentLoaded', () => {
         gridGapSlider.value = savedGridGap;
         gridGapValue.textContent = `${savedGridGap}px`;
 
-        appState.gamePath = await invoke('get_game_path');
+        // --- NEW, ROBUST GAME DETECTION ---
+        const gamePaths = await invoke('detect_game_installation');
+        if (gamePaths) {
+            console.log(`Detected ${gamePaths.version_type} version of No Man's Sky.`);
+            // Store both paths in your app's state
+            appState.gamePath = gamePaths.game_root_path;
+            appState.settingsPath = gamePaths.settings_root_path;
+        }
+        // --- END OF NEW LOGIC ---
+
         const hasGamePath = !!appState.gamePath;
         openModsFolderBtn.disabled = !hasGamePath;
         settingsBtn.classList.toggle('disabled', !hasGamePath);
@@ -317,24 +327,28 @@ document.addEventListener('DOMContentLoaded', () => {
             settingsBtn.title = title;
             enableAllBtn.title = title;
             disableAllBtn.title = title;
-            return;
+            // Do not proceed further if no game path is found
         }
 
-        enableAllBtn.title = '';
-        disableAllBtn.title = '';
-
-        try {
-            const settingsPath = await join(appState.gamePath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
-            const content = await readTextFile(settingsPath);
-            await loadXmlContent(content, settingsPath);
-        } catch (e) {
-            console.warn("Could not auto-load settings file. It may not exist yet.", e);
+        if (hasGamePath && appState.settingsPath) {
+            enableAllBtn.title = '';
+            disableAllBtn.title = '';
+            try {
+                // Now, we construct the full path to the settings file with confidence.
+                const settingsFilePath = await join(appState.settingsPath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
+                const content = await readTextFile(settingsFilePath);
+                await loadXmlContent(content, settingsFilePath);
+            } catch (e) {
+                console.warn("Could not auto-load settings file. It may not exist yet.", e);
+            }
         }
 
         // Listen for the nxm-link-received event from the Rust backend
         listen('nxm-link-received', (event) => {
             handleNxmLink(event.payload);
         });
+
+        // Load remote data and check for updates in the background
         loadDataInBackground();
     };
 
