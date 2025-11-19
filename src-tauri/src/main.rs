@@ -1241,6 +1241,29 @@ fn clear_downloads_folder() -> Result<(), String> {
     Ok(())
 }
 
+#[tauri::command]
+fn launch_game(version_type: String, game_path: String) -> Result<(), String> {
+    match version_type.as_str() {
+        "Steam" => {
+            // Launch via Steam Protocol to ensure overlay/logging works
+            open::that("steam://run/275850").map_err(|e| e.to_string())?;
+        }
+        "GOG" | "GamePass" | _ => {
+            // For GOG and GamePass (if accessible), we try to launch the Binary directly
+            let exe_path = std::path::Path::new(&game_path)
+                .join("Binaries")
+                .join("NMS.exe");
+            
+            if exe_path.exists() {
+                 open::that(exe_path).map_err(|e| e.to_string())?;
+            } else {
+                return Err("Could not find NMS.exe in Binaries folder.".to_string());
+            }
+        }
+    }
+    Ok(())
+}
+
 // --- MAIN FUNCTION ---
 fn main() {    
     tauri::Builder::default()
@@ -1343,7 +1366,8 @@ fn main() {
             download_mod_archive,
             show_in_folder,
             delete_archive_file,
-            clear_downloads_folder
+            clear_downloads_folder,
+            launch_game
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

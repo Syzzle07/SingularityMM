@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const appState = {
         gamePath: null,
         settingsPath: null,
+        versionType: null,
         currentFilePath: null,
         xmlDoc: null,
         isPopulating: false,
@@ -357,9 +358,26 @@ document.addEventListener('DOMContentLoaded', () => {
         const gamePaths = await invoke('detect_game_installation');
         if (gamePaths) {
             console.log(`Detected ${gamePaths.version_type} version of No Man's Sky.`);
-            // Store both paths in your app's state
+
             appState.gamePath = gamePaths.game_root_path;
             appState.settingsPath = gamePaths.settings_root_path;
+            appState.versionType = gamePaths.version_type; // <--- Store the version type!
+
+            // --- UPDATE LAUNCH BUTTON UI ---
+            const launchBtn = document.getElementById('launchGameBtn');
+            const launchIcon = document.getElementById('launchIcon');
+
+            launchBtn.classList.remove('disabled');
+            launchBtn.dataset.platform = appState.versionType; // For CSS glow coloring
+
+            // Set the correct icon
+            if (appState.versionType === 'Steam') {
+                launchIcon.src = '/src/assets/icon-steam.png';
+            } else if (appState.versionType === 'GOG') {
+                launchIcon.src = '/src/assets/icon-gog.png';
+            } else if (appState.versionType === 'GamePass') {
+                launchIcon.src = '/src/assets/icon-xbox.png';
+            }
         }
         // --- END OF NEW LOGIC ---
 
@@ -2653,6 +2671,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Re-render the list with the new sort order.
         renderDownloadHistory();
+    });
+
+    // --- Launch Game Button ---
+    const launchBtn = document.getElementById('launchGameBtn');
+    const launchText = launchBtn.querySelector('.launch-text');
+
+    launchBtn.addEventListener('click', async () => {
+        if (!appState.gamePath || !appState.versionType) return;
+        if (launchBtn.classList.contains('is-launching')) return; // Prevent double click
+
+        // 1. SET UI STATE: LAUNCHING
+        const originalText = launchText.textContent;
+        launchBtn.classList.add('is-launching');
+        launchText.textContent = "LAUNCHING...";
+
+        try {
+            // 2. CALL RUST
+            await invoke('launch_game', {
+                versionType: appState.versionType,
+                gamePath: appState.gamePath
+            });
+
+            // 3. RESET UI STATE (After a delay)
+            // Since we can't easily track exactly when the game window appears,
+            // we set a 5-second timeout to let the user know the command was sent.
+            setTimeout(() => {
+                launchBtn.classList.remove('is-launching');
+                launchText.textContent = originalText;
+            }, 10000);
+
+        } catch (error) {
+            // If it fails, reset immediately and show error
+            launchBtn.classList.remove('is-launching');
+            launchText.textContent = originalText;
+            alert(`Failed to launch game: ${error}`);
+        }
     });
 
     // --- App Initialization ---

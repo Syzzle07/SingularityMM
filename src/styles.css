@@ -22,24 +22,28 @@
     /* ============================================= */
 
     /* --- Base Palette --- */
-    --c-background: #1D1D1D;      
-    --c-text-primary: #F1F1F1;    
-    --c-accent-primary: #CA4862;  
+    --c-background: #1D1D1D;
+    --c-text-primary: #F1F1F1;
+    --c-accent-primary: #CA4862;
     --c-accent-secondary: #F16764;
-    --c-status-success: #4caf50;  
-    --c-danger: #CA4862;          
+    --c-status-success: #4caf50;
+    --c-danger: #CA4862;
 
     /* --- UI Element Colors --- */
     /* Backgrounds */
-    --c-bg-panel: rgba(44, 44, 44, 0.75);       /* Semi-transparent */
-    --c-bg-modal: rgba(44, 44, 44, 0.95);       /* Darker, more opaque modal bg */
-    --c-bg-mod-row: rgba(29, 29, 29, 0.95);     /* Color for rows */
-    --c-bg-mod-row-alt: rgba(29, 29, 29, 0.5);  /* Slightly more opaque for alternating rows */
+    --c-bg-panel: rgba(44, 44, 44, 0.75);
+    /* Semi-transparent */
+    --c-bg-modal: rgba(44, 44, 44, 0.95);
+    /* Darker, more opaque modal bg */
+    --c-bg-mod-row: rgba(29, 29, 29, 0.95);
+    /* Color for rows */
+    --c-bg-mod-row-alt: rgba(29, 29, 29, 0.5);
+    /* Slightly more opaque for alternating rows */
 
     /* Borders & Dividers */
     --c-border: #693b4f;
     --c-border-interactive: var(--c-accent-primary);
-    
+
     /* Interactive States (Hovers, etc.) */
     --c-hover-glow: rgba(255, 255, 255, 0.08);
     --c-accent-primary-btn: #a23d55;
@@ -52,23 +56,28 @@
     --c-accent-primary-glow: rgba(250, 100, 130, 0.7);
 
     /* --- Layered Glow Variables --- */
-    --glow-layer-1: 0 0 5px rgba(255, 255, 255, 0.7);   /* A tight, bright inner glow */
-    --glow-layer-2: 0 0 10px var(--c-accent-primary-glow);   /* The main color glow */
-    --glow-layer-3: 0 0 15px var(--c-accent-primary-glow);   /* A softer, wider echo of the color */
+    --glow-layer-1: 0 0 5px rgba(255, 255, 255, 0.7);
+    /* A tight, bright inner glow */
+    --glow-layer-2: 0 0 10px var(--c-accent-primary-glow);
+    /* The main color glow */
+    --glow-layer-3: 0 0 15px var(--c-accent-primary-glow);
+    /* A softer, wider echo of the color */
 
     /* --- Fonts --- */
     --font-primary: 'NMSGeoSans', sans-serif;
     --font-secondary: 'Roboto', sans-serif;
 
     /* --- Spacing Variables --- */
-    --mod-row-vertical-padding: 5px; /* Default list density */
-    --browse-grid-gap: 10px;        /* Default grid density */
+    --mod-row-vertical-padding: 5px;
+    /* Default list density */
+    --browse-grid-gap: 10px;
+    /* Default grid density */
 }
 
 * {
-	box-sizing: border-box;
-  -webkit-user-select: none;
-  user-select: none;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .hidden {
@@ -76,15 +85,16 @@
 }
 
 body {
-	background-color: var(--c-background);
-	color: var(--c-text-primary);
-	display: flex;
-	flex-direction: column;
-	font-family: var(--font-secondary);
-	height: 100vh;
-	margin: 0;
-	overflow: hidden;
+    background-color: var(--c-background);
+    color: var(--c-text-primary);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-secondary);
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
 }
+
 @media (min-aspect-ratio: 2/1) {
     body {
         background-size: cover;
@@ -96,14 +106,16 @@ body {
    ========================================================================== */
 
 header {
-    position: relative; 
+    position: relative;
     height: 60px;
     flex-shrink: 0;
 }
 
 .header-content-wrapper {
-    position: relative; /* Establishes a positioning context for its children */
-    width: 950px;       /* Matches your DEFAULT_WIDTH */
+    position: relative;
+    /* Establishes a positioning context for its children */
+    width: 950px;
+    /* Matches your DEFAULT_WIDTH */
     height: 100%;
     pointer-events: none;
 }
@@ -114,7 +126,7 @@ header {
     left: 10px;
     height: 80%;
     width: auto;
-    -webkit-user-drag: none; 
+    -webkit-user-drag: none;
     pointer-events: none;
 }
 
@@ -122,7 +134,8 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
-    -webkit-app-region: no-drag; /* The container itself is not draggable */
+    -webkit-app-region: no-drag;
+    /* The container itself is not draggable */
     position: absolute;
     top: 50%;
     right: 20px;
@@ -130,28 +143,31 @@ header {
     pointer-events: none;
 }
 
-.header-controls-right > img {
+.header-controls-right>img {
     height: 28px;
     cursor: pointer;
     transition: transform 0.2s ease-in-out, filter 0.2s;
 }
 
-.header-controls-right > img:hover {
+.header-controls-right>img:hover {
     transform: scale(1.1);
     filter: brightness(1.2);
 }
 
-.header-content-wrapper > *,
-.header-controls-right > * {
+.header-content-wrapper>*,
+.header-controls-right>* {
     pointer-events: auto;
 }
 
 /* --- ADD THESE NEW RULES FOR THE TEXT BUTTON --- */
 .header-button {
-    display: flex; /* Aligns the icon and text horizontally */
+    display: flex;
+    /* Aligns the icon and text horizontally */
     align-items: center;
-    gap: 8px; /* Space between the icon and text */
-    padding: 3px 4px; /* Give it some nice padding */
+    gap: 8px;
+    /* Space between the icon and text */
+    padding: 3px 4px;
+    /* Give it some nice padding */
     border-radius: 4px;
     border: 0px solid rgba(255, 255, 255, 0.1);
     cursor: pointer;
@@ -164,7 +180,8 @@ header {
 }
 
 .header-button img {
-    height: 20px; /* Make the icon inside the button a bit smaller */
+    height: 20px;
+    /* Make the icon inside the button a bit smaller */
 }
 
 .header-button .button-text {
@@ -186,10 +203,10 @@ header {
 }
 
 .language-selector-container {
-	bottom: 4px;
-	right: 15px;
-	position: fixed; 
-	z-index: 1000;   
+    bottom: 4px;
+    right: 15px;
+    position: fixed;
+    z-index: 1000;
 }
 
 /* ==========================================================================
@@ -197,42 +214,46 @@ header {
    ========================================================================== */
 
 .main-content {
-	display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-	min-height: 0;
-	padding: 0 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 0;
+    padding: 0 15px 15px 15px;
 }
 
 .top-panel {
-	background-color: var(--c-bg-panel);
-	border: 1px solid rgba(255, 255, 255, 0.2);
-	border-radius: 3px;
-  margin-bottom: 15px;
-  margin-top: 5px;
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 30px;
-  margin-left: -5px;  /* Counteract the parent's left padding */
-  margin-right: -5px; /* Counteract the parent's right padding */
-  padding: 15px 15px 15px 0;
+    background-color: var(--c-bg-panel);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-left: -5px;
+    /* Counteract the parent's left padding */
+    margin-right: -5px;
+    /* Counteract the parent's right padding */
+    padding: 15px 15px 15px 0;
 }
 
 .list-panel {
-	background-color: var(--c-bg-panel);
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	border-radius: 3px;
-  display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-	min-height: 0;
-  margin-left: -5px;  /* Counteract the parent's left padding */
-  margin-right: -5px; /* Counteract the parent's right padding */
-  margin-bottom: -5px;
-  margin-top: 0px;
-  padding: 10px 10px 0px 10px;
+    background-color: var(--c-bg-panel);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 0;
+    margin-left: -5px;
+    /* Counteract the parent's left padding */
+    margin-right: -5px;
+    /* Counteract the parent's right padding */
+    margin-bottom: -5px;
+    margin-top: 0px;
+    padding: 10px 10px 0px 10px;
 }
 
 /* ==========================================================================
@@ -249,7 +270,8 @@ h3,
 .settings-column-left {
     position: relative;
     flex-grow: 1;
-    height: 140px; /* Match the height of .actions-column-right */
+    height: 140px;
+    /* Match the height of .actions-column-right */
 }
 
 .settings-container {
@@ -279,7 +301,7 @@ h3,
 
 #disableAllContainer {
     position: absolute;
-    top: 40px; 
+    top: 40px;
     left: 15px;
 }
 
@@ -290,11 +312,13 @@ h3,
 
 /* --- Banner Text Positioning --- */
 #globalBanner .banner-text {
-    left: 10px; /* Tweak this to move "GLOBAL SETTINGS" text */
+    left: 10px;
+    /* Tweak this to move "GLOBAL SETTINGS" text */
 }
 
 #individualBanner .banner-text {
-    left: 10px; /* Tweak this to move "INDIVIDUAL MOD SETTINGS" text */
+    left: 10px;
+    /* Tweak this to move "INDIVIDUAL MOD SETTINGS" text */
 }
 
 /* ==========================================================================
@@ -317,7 +341,7 @@ h3,
     width: 300px;
     height: 60px;
     /* This centers the clickable box on the visual icon's center */
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
 }
 
 /* VISUAL icon layer. It is NOT clickable. */
@@ -330,7 +354,7 @@ h3,
     background-repeat: no-repeat;
     background-position: center;
     transition: transform 0.2s, filter 0.2s;
-    pointer-events: none; 
+    pointer-events: none;
     /* This centers the large visual icon on top of the small clickable box */
     top: 50%;
     left: 50%;
@@ -343,12 +367,13 @@ h3,
 }
 
 /* Shared styles for main and sub labels */
-.diamond-label, .diamond-sublabel {
+.diamond-label,
+.diamond-sublabel {
     position: absolute;
     margin: 0;
     white-space: nowrap;
     /* This makes the labels unclickable, passing clicks to the diamond below */
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 /* The shared main text styles */
@@ -374,14 +399,17 @@ h3,
     top: 45px;
     left: 160px;
 }
+
 #loadFileBtn::before {
     background-image: url('/src/assets/diamond-1.png');
 }
+
 /* Tweak these to move the MAIN TEXT */
 #loadFileBtn-label {
     top: 14px;
     left: 72px;
 }
+
 /* Tweak these to move the SUB-TEXT */
 #filePathLabel {
     top: 43px;
@@ -394,9 +422,11 @@ h3,
     top: 110px;
     left: 190px;
 }
+
 #openModsFolderBtn::before {
     background-image: url('/src/assets/diamond-2.png');
 }
+
 /* Tweak these to move the MAIN TEXT */
 #openModsFolderBtn-label {
     top: 106px;
@@ -415,11 +445,12 @@ h3,
     position: absolute;
     top: 0;
     height: 100%;
-    left: 44px;  
+    left: 44px;
     right: 44px;
     background-size: 100% 100%;
-    
-    z-index: 1; /* Sits on the bottom background layer */
+
+    z-index: 1;
+    /* Sits on the bottom background layer */
 }
 
 .settings-title-banner::before {
@@ -431,24 +462,30 @@ h3,
     height: 100%;
     background-repeat: no-repeat, no-repeat;
     background-position: left, right;
-    background-size: contain, contain; 
-    
-    z-index: 2; /* Sits on top of the middle layer */
+    background-size: contain, contain;
+
+    z-index: 2;
+    /* Sits on top of the middle layer */
 }
 
-.global-banner::after { /* Middle */
+.global-banner::after {
+    /* Middle */
     background-image: url('/src/assets/settings-banner-middle.png');
 }
-.global-banner::before { /* Caps (Left, then Right) */
+
+.global-banner::before {
+    /* Caps (Left, then Right) */
     background-image: url('/src/assets/settings-banner-left.png'), url('/src/assets/settings-banner-right.png');
 }
 
 .banner-text {
     position: absolute;
-    z-index: 3; /* Sits on the very top layer */
+    z-index: 3;
+    /* Sits on the very top layer */
     top: 50%;
-    transform: translateY(-70%); /* Fine-tunes vertical alignment */
-    left: 20px; 
+    transform: translateY(-70%);
+    /* Fine-tunes vertical alignment */
+    left: 20px;
 
     font-family: var(--font-primary);
     font-size: 13.5pt;
@@ -462,15 +499,15 @@ h3,
     gap: 10px;
 }
 
-.switch-container > label {
-    font-size: 16px; 
+.switch-container>label {
+    font-size: 16px;
     white-space: nowrap;
 }
 
 .batch-actions-container {
     position: absolute;
     top: 40px;
-    left: 15px; 
+    left: 15px;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -490,16 +527,16 @@ h3,
 /* --- Mod List --- */
 
 .mod-list {
-	flex-grow: 1;
-	overflow-y: auto;
+    flex-grow: 1;
+    overflow-y: auto;
 }
 
 .header-row {
-	border-bottom: 1px solid var(--c-border);
-	font-size: 13.5pt;
-	font-weight: bold;
-	margin-bottom: 5px;
-  margin-right: 12px;
+    border-bottom: 1px solid var(--c-border);
+    font-size: 13.5pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 12px;
 }
 
 .header-row,
@@ -513,14 +550,18 @@ h3,
 
 /* This is the new main container that will stretch */
 .mod-name-container {
-	flex-grow: 1;
-  display: flex; /* Aligns the text and indicator horizontally */
-  align-items: center; /* Vertically centers them */
-  min-width: 0; /* Important for preventing text overflow issues */
+    flex-grow: 1;
+    display: flex;
+    /* Aligns the text and indicator horizontally */
+    align-items: center;
+    /* Vertically centers them */
+    min-width: 0;
+    /* Important for preventing text overflow issues */
 }
 
 .header-row .mod-name {
-    flex-grow: 1; /* This makes the header's name column expand */
+    flex-grow: 1;
+    /* This makes the header's name column expand */
 }
 
 /* This is just for the text itself */
@@ -536,7 +577,7 @@ h3,
     width: 80px;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     padding-right: 20px;
 }
 
@@ -545,11 +586,11 @@ h3,
 }
 
 .enabled {
-	flex-shrink: 0;
-	width: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    flex-shrink: 0;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-row .enabled {
@@ -557,19 +598,19 @@ h3,
 }
 
 .mod-row {
-	background-color: var(--c-bg-mod-row);
-	border-radius: 4px;
-	margin-bottom: 4px;
+    background-color: var(--c-bg-mod-row);
+    border-radius: 4px;
+    margin-bottom: 4px;
 }
 
 .mod-row input[type="text"] {
-	background-color: rgba(74, 74, 74, 0.9);
-	border: 1px solid var(--c-accent-primary);
-	border-radius: 4px;
-	color: var(--c-text-primary);
-	padding: 4px;
-	text-align: center;
-	width: 60px;
+    background-color: rgba(74, 74, 74, 0.9);
+    border: 1px solid var(--c-accent-primary);
+    border-radius: 4px;
+    color: var(--c-text-primary);
+    padding: 4px;
+    text-align: center;
+    width: 60px;
     font-family: var(--font-primary);
     font-size: 14px;
 }
@@ -586,8 +627,8 @@ h3,
 
 /* This is the visual representation of the row you are dragging. */
 .ghost {
-    position: fixed; 
-    z-index: 5000;   
+    position: fixed;
+    z-index: 5000;
     pointer-events: none;
 
     opacity: 0.8;
@@ -614,11 +655,12 @@ h3,
 label.switch {
     display: inline-block;
     position: relative;
-    width: 24px;                /* A small footprint that fits the row. */
+    width: 24px;
+    /* A small footprint that fits the row. */
     height: 24px;
     cursor: pointer;
     vertical-align: middle;
-    background: none !important; 
+    background: none !important;
 }
 
 /* 2. The Pseudo-element: This is the large, VISUAL part the user sees. */
@@ -651,9 +693,9 @@ label.switch::before {
 
 /* 4. The Hidden Input */
 .switch input {
-	height: 0;
-	opacity: 0;
-	width: 0;
+    height: 0;
+    opacity: 0;
+    width: 0;
 }
 
 /* 5. The Checked State: Target the pseudo-element when the input is checked */
@@ -664,14 +706,15 @@ label.switch:has(input:checked)::before {
 /* --- Custom Search Bar Style --- */
 
 .search-bar-container {
-    margin-bottom: 5px; /* Adds space below the search bar */
+    margin-bottom: 5px;
+    /* Adds space below the search bar */
 }
 
 #searchModsInput {
     appearance: none;
     -webkit-appearance: none;
     width: 100%;
-    
+
     /* --- Colors and Fonts --- */
     background-color: rgba(60, 60, 60, 0.3);
     color: var(--c-text-primary);
@@ -681,8 +724,10 @@ label.switch:has(input:checked)::before {
     /* --- Border and Shape --- */
     border: 0px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-    padding: 8px 12px; /* Give the text inside some space */
-    outline: none;     /* Remove the default blue focus outline */
+    padding: 8px 12px;
+    /* Give the text inside some space */
+    outline: none;
+    /* Remove the default blue focus outline */
 
     /* --- Smooth Transition for Focus Effect --- */
     transition: border-color 0.2s, box-shadow 0.2s;
@@ -691,14 +736,14 @@ label.switch:has(input:checked)::before {
 /* Style the placeholder text (e.g., "Search mods...") */
 #searchModsInput::placeholder {
     color: var(--c-text-primary);
-    opacity: 0.6; 
+    opacity: 0.6;
 }
 
 /* --- The Glow Effect on Focus --- */
 #searchModsInput:focus {
     border-color: var(--c-border-interactive);
     /* Add a glow effect that matches the theme */
-    box-shadow: var(--shadow-glow-accent); 
+    box-shadow: var(--shadow-glow-accent);
 }
 
 /* --- Style for the selected mod row --- */
@@ -714,9 +759,10 @@ label.switch:has(input:checked)::before {
     width: 8px;
     height: 8px;
     background-color: var(--c-accent-secondary);
-    border-radius: 50%; /* Makes it a circle */
+    border-radius: 50%;
+    /* Makes it a circle */
     margin-left: 10px;
-    
+
     /* A subtle glow to make it stand out */
     box-shadow: 0 0 6px 1px var(--c-accent-secondary);
 
@@ -730,10 +776,12 @@ label.switch:has(input:checked)::before {
         transform: scale(0.95);
         box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.7);
     }
+
     70% {
         transform: scale(1);
         box-shadow: 0 0 0 10px rgba(255, 215, 0, 0);
     }
+
     100% {
         transform: scale(0.95);
         box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
@@ -748,11 +796,12 @@ label.switch:has(input:checked)::before {
 /* --- NEW INLINE MOD INFO PANEL --- */
 .mod-info-panel-inline {
     background-image: url('/src/assets/modinfopanel.png');
-    background-size: 100% 100%; /* Stretch the image to fill the div */
+    background-size: 100% 100%;
+    /* Stretch the image to fill the div */
     background-position: center;
     background-repeat: no-repeat;
 
-    border: none; 
+    border: none;
     background-color: transparent;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
@@ -763,13 +812,15 @@ label.switch:has(input:checked)::before {
     /* Animation for expanding/collapsing */
     transition: all 0.4s ease-in-out;
     max-height: 0;
-    padding: 0 20px; /* Animate horizontal padding */
+    padding: 0 20px;
+    /* Animate horizontal padding */
     border-width: 0 1px;
     opacity: 0;
 }
 
 .mod-info-panel-inline:not(.hidden) {
-    max-height: 500px; /* Animate to a large height */
+    max-height: 500px;
+    /* Animate to a large height */
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 10px;
@@ -792,7 +843,8 @@ label.switch:has(input:checked)::before {
 
 /* --- ADD THIS NEW RULE FOR THE BUTTON --- */
 .nexus-button {
-    height: 24px; /* Adjust size as needed */
+    height: 24px;
+    /* Adjust size as needed */
     width: 24px;
     opacity: 0.7;
     transition: all 0.2s;
@@ -824,7 +876,8 @@ label.switch:has(input:checked)::before {
     flex-direction: column;
     gap: 8px;
     flex-shrink: 0;
-    width: 200px; /* Give it a fixed width */
+    width: 200px;
+    /* Give it a fixed width */
 }
 
 .info-line {
@@ -858,13 +911,16 @@ label.switch:has(input:checked)::before {
 
 /* --- Column 2: Description --- */
 .info-description-column {
-    flex-grow: 1; /* Allow description to take up remaining space */
-    min-width: 0; /* Important for flexbox text wrapping */
+    flex-grow: 1;
+    /* Allow description to take up remaining space */
+    min-width: 0;
+    /* Important for flexbox text wrapping */
 }
 
 .info-description-column .info-label {
     margin-bottom: 6px;
-    display: block; /* Make the "Description" label a block */
+    display: block;
+    /* Make the "Description" label a block */
 }
 
 .info-description {
@@ -900,12 +956,13 @@ label.switch:has(input:checked)::before {
 /* New styles for the image-based drop zone */
 .drop-zone {
     background-image: url('/src/assets/dropzone.png');
-    background-size: 100% 100%; /* Stretch the image to fill the div */
+    background-size: 100% 100%;
+    /* Stretch the image to fill the div */
     background-position: center;
     background-repeat: no-repeat;
 
     /* --- Remove the old visual styles --- */
-    border: none; 
+    border: none;
     background-color: transparent;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
@@ -915,10 +972,12 @@ label.switch:has(input:checked)::before {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    margin-top: 10px;
-    height: 130px; /* height */
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    /* height */
     color: #EAEAEA;
-    font-size: 14pt;
+    font-size: 11pt;
     font-weight: bold;
     font-family: var(--font-primary);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -931,47 +990,49 @@ label.switch:has(input:checked)::before {
 }
 
 .modal-overlay {
-	align-items: center;
-	backdrop-filter: blur(5px);
-	background-color: rgba(0, 0, 0, 0.7);
-	display: flex;
-	height: 100%;
-	justify-content: center;
-	left: 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 2000;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
 }
 
 .modal-overlay.higher {
-    z-index: 3000; /* A higher value ensures it's on top */
+    z-index: 3000;
+    /* A higher value ensures it's on top */
 }
 
 .modal-content {
-	background-color: var(--c-bg-modal);
-	border: 1px solid var(--c-border);
-	border-radius: 8px;
-	max-width: 400px;
-	padding: 25px;
-	text-align: center;
-	width: 90%;
+    background-color: var(--c-bg-modal);
+    border: 1px solid var(--c-border);
+    border-radius: 8px;
+    max-width: 400px;
+    padding: 25px;
+    text-align: center;
+    width: 90%;
 }
 
 .modal-content h2 {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 .modal-actions {
-	display: flex;
-	gap: 15px;
-	justify-content: center;
-	margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 /* --- UPDATE MODAL STYLES --- */
 .update-modal {
-    max-width: 600px; /* A wider modal for the list */
+    max-width: 600px;
+    /* A wider modal for the list */
     text-align: left;
     font-family: var(--font-primary);
 }
@@ -979,7 +1040,8 @@ label.switch:has(input:checked)::before {
 .update-list-container {
     margin-top: 20px;
     margin-bottom: 20px;
-    max-height: 400px; /* Limit the height and allow scrolling */
+    max-height: 400px;
+    /* Limit the height and allow scrolling */
     overflow-y: auto;
     /* Add some padding on the right to make space for the scrollbar */
     padding-right: 10px;
@@ -1016,7 +1078,8 @@ label.switch:has(input:checked)::before {
 }
 
 .update-item-version .latest {
-    color: #FFD700; /* Gold color for the new version */
+    color: #FFD700;
+    /* Gold color for the new version */
     font-weight: bold;
 }
 
@@ -1026,7 +1089,8 @@ label.switch:has(input:checked)::before {
 }
 
 /* === DOWNLOAD HISTORY MODAL STYLES === */
-.download-header-row, .download-item {
+.download-header-row,
+.download-item {
     display: grid;
     /* Name | Status (120px) | Size (80px) | Date (120px) */
     grid-template-columns: 1fr 120px 80px 120px;
@@ -1063,10 +1127,12 @@ label.switch:has(input:checked)::before {
     opacity: 0.5;
     vertical-align: middle;
 }
+
 .download-header-row .sortable.asc::after {
     border-bottom: 5px solid var(--c-accent-primary);
     opacity: 1;
 }
+
 .download-header-row .sortable.desc::after {
     border-top: 5px solid var(--c-accent-primary);
     opacity: 1;
@@ -1083,23 +1149,29 @@ label.switch:has(input:checked)::before {
 
 .download-item .download-item-name {
     /* These three properties work together to create the ellipsis effect */
-    white-space: nowrap;      /* Prevent the text from wrapping to a new line */
-    overflow: hidden;         /* Hide any text that overflows the container */
-    text-overflow: ellipsis;  /* Display '...' for the hidden text */
+    white-space: nowrap;
+    /* Prevent the text from wrapping to a new line */
+    overflow: hidden;
+    /* Hide any text that overflows the container */
+    text-overflow: ellipsis;
+    /* Display '...' for the hidden text */
 }
 
 .download-modal {
-    max-width: 800px; /* A nice wide modal */
+    max-width: 800px;
+    /* A nice wide modal */
     text-align: left;
     font-family: var(--font-primary);
 }
 
 .download-list-container {
     margin-bottom: 20px;
-    max-height: 400px; /* Limit height and allow scrolling */
+    max-height: 400px;
+    /* Limit height and allow scrolling */
     overflow-y: auto;
     display: flex;
-    flex-direction: column-reverse; /* This makes new items appear at the top! */
+    flex-direction: column-reverse;
+    /* This makes new items appear at the top! */
 }
 
 .download-item {
@@ -1125,7 +1197,8 @@ label.switch:has(input:checked)::before {
 
 /* Status-specific coloring */
 .download-item-status.status-progress {
-    color: #e0e0e0; /* Neutral/in-progress color */
+    color: #e0e0e0;
+    /* Neutral/in-progress color */
 }
 
 .download-item-status.status-success {
@@ -1145,7 +1218,8 @@ label.switch:has(input:checked)::before {
 
 /* Add this new rule for the 'removed' status */
 .download-item-status.status-removed {
-    color: #9E9E9E; /* A neutral grey color */
+    color: #9E9E9E;
+    /* A neutral grey color */
     font-style: italic;
 }
 
@@ -1180,10 +1254,10 @@ label.switch:has(input:checked)::before {
     border-bottom: 0px solid rgba(255, 255, 255, 0.1);
 }
 
-.settings-modal > .setting-row > label {
+.settings-modal>.setting-row>label {
     /* Give all labels a fixed minimum width */
     min-width: 100px;
-    
+
     /* Ensure text is aligned to the left */
     text-align: left;
 
@@ -1205,7 +1279,8 @@ label.switch:has(input:checked)::before {
 .slider-value {
     font-size: 14px;
     color: var(--c-accent-primary);
-    width: 40px; /* Give it a fixed width to prevent layout shifts */
+    width: 40px;
+    /* Give it a fixed width to prevent layout shifts */
     text-align: right;
 }
 
@@ -1248,10 +1323,10 @@ button.context-menu-item {
     color: var(--c-text-primary);
     cursor: pointer;
     display: block;
-    font-size: 14px; 
+    font-size: 14px;
     font-weight: normal;
     padding: 8px 15px;
-    text-align: left; 
+    text-align: left;
     transition: background-color 0.1s ease-in-out;
     width: 100%;
 }
@@ -1269,11 +1344,16 @@ button.context-menu-item.delete:hover {
 }
 
 /* === FIX FOR NEW VIEW LAYOUT === */
-#myModsView, #browseView {
-    display: flex;          /* Makes it a flex container */
-    flex-direction: column; /* Stacks its children (panels, grids) vertically */
-    flex-grow: 1;           /* Makes the active view expand to fill all available space */
-    min-height: 0;          /* A crucial flexbox fix that allows child elements to scroll correctly */
+#myModsView,
+#browseView {
+    display: flex;
+    /* Makes it a flex container */
+    flex-direction: column;
+    /* Stacks its children (panels, grids) vertically */
+    flex-grow: 1;
+    /* Makes the active view expand to fill all available space */
+    min-height: 0;
+    /* A crucial flexbox fix that allows child elements to scroll correctly */
 }
 
 /* === UNIFIED STYLED DROPDOWN === */
@@ -1281,8 +1361,9 @@ button.context-menu-item.delete:hover {
     appearance: none;
     -webkit-appearance: none;
     min-width: 170px;
-    
-    padding-right: 30px; /* Add space for the custom arrow */
+
+    padding-right: 30px;
+    /* Add space for the custom arrow */
 
     /* Custom Arrow SVG */
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23EAEAEA' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
@@ -1305,7 +1386,7 @@ button.context-menu-item.delete:hover {
 .main-nav {
     /* These properties make the nav clickable in a draggable region */
     -webkit-app-region: no-drag;
-    
+
     /* These properties center the element in the header */
     position: absolute;
     top: 50%;
@@ -1316,6 +1397,7 @@ button.context-menu-item.delete:hover {
     display: flex;
     justify-content: center;
 }
+
 .nav-button {
     font-family: var(--font-primary);
     font-size: 14pt;
@@ -1327,22 +1409,26 @@ button.context-menu-item.delete:hover {
     transition: all 0.2s ease-in-out;
     opacity: 0.6;
 }
+
 .nav-button:first-child {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border-right-width: 0.5px;
 }
+
 .nav-button:last-child {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-left-width: 0.5px;
 }
+
 .nav-button.active {
     background-color: rgba(105, 59, 79, 0.15);
     border-color: var(--c-accent-primary);
     opacity: 1;
     text-shadow: 0 0 5px var(--c-accent-primary);
 }
+
 .nav-button:hover:not(.active) {
     background-color: rgba(255, 255, 255, 0.1);
     opacity: 0.9;
@@ -1354,12 +1440,13 @@ button.context-menu-item.delete:hover {
     gap: 15px;
     margin-bottom: 10px;
 }
+
 .themed-input {
     font-family: var(--font-secondary);
     color: var(--c-text-primary);
     font-size: 14px;
     padding: 8px 12px;
-    
+
     background-color: rgba(0, 0, 0, 0.2);
     border: 1px solid var(--c-border);
     border-radius: 4px;
@@ -1370,20 +1457,25 @@ button.context-menu-item.delete:hover {
 .themed-input:hover {
     border-color: var(--c-border-interactive);
 }
+
 #browseSearchInput {
     flex-grow: 1;
 }
+
 #browseSearchInput:hover,
 .styled-select:hover {
     border-color: var(--c-accent-primary);
 }
+
 .browse-grid {
     display: flex;
     flex-direction: column;
     gap: var(--browse-grid-gap, 10px);
     overflow-y: auto;
-    flex-grow: 1; /* This is the fix: tells the grid to take up all available space */
-    min-height: 0; /* A crucial flexbox fix that enables proper scrolling */
+    flex-grow: 1;
+    /* This is the fix: tells the grid to take up all available space */
+    min-height: 0;
+    /* A crucial flexbox fix that enables proper scrolling */
     padding-right: 10px;
     padding-top: 5px;
 }
@@ -1395,10 +1487,12 @@ button.context-menu-item.delete:hover {
     border-radius: 4px;
     overflow: hidden;
     display: flex;
-    flex-direction: row; /* Lay out image and body horizontally */
+    flex-direction: row;
+    /* Lay out image and body horizontally */
     border: 1px solid transparent;
     transition: all 0.2s ease-in-out;
-    flex-shrink: 0; /* Prevent cards from shrinking */
+    flex-shrink: 0;
+    /* Prevent cards from shrinking */
 }
 
 .mod-card.selected {
@@ -1425,25 +1519,27 @@ button.context-menu-item.delete:hover {
     height: 100%;
     background: var(--c-status-success);
     clip-path: polygon(0 0, 100% 0, 0 100%);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .mod-card-installed-badge img {
     position: absolute;
     top: 2px;
     left: 2px;
-    width: 20px;  /* A good size for the corner */
+    width: 20px;
+    /* A good size for the corner */
     height: 20px;
-    filter: brightness(0) invert(1) drop-shadow(0 1px 1px rgba(0,0,0,0.5));
+    filter: brightness(0) invert(1) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
 }
 
 .mod-card.is-installed .mod-card-thumbnail {
     border: 3px solid var(--c-status-success);
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .mod-card-summary.warning-text {
-    color: #FFD700; /* Gold/yellow color */
+    color: #FFD700;
+    /* Gold/yellow color */
     font-weight: bold;
     opacity: 0.9;
 }
@@ -1455,32 +1551,43 @@ button.context-menu-item.delete:hover {
 .mod-card-version-inline {
     font-size: 11pt;
     opacity: 0.6;
-    margin-left: 8px; /* Space between title and version */
-    font-family: var(--font-secondary); /* Use the standard text font */
+    margin-left: 8px;
+    /* Space between title and version */
+    font-family: var(--font-secondary);
+    /* Use the standard text font */
 }
 
 /* --- ADD THIS NEW RULE --- */
 .mod-card.has-warning .mod-card-title {
     color: var(--c-accent-secondary);
 }
+
 .mod-card-title .warning-icon {
-    cursor: help; /* Changes the cursor to a question mark to indicate a tooltip */
+    cursor: help;
+    /* Changes the cursor to a question mark to indicate a tooltip */
 }
+
 .mod-card-thumbnail {
-    width: 106px; /* Set width equal to height */
-    height: 106px; /* This creates the square */
-    object-fit: cover; /* This crops and centers the image */
+    width: 106px;
+    /* Set width equal to height */
+    height: 106px;
+    /* This creates the square */
+    object-fit: cover;
+    /* This crops and centers the image */
     background-color: #222;
     flex-shrink: 0;
 }
+
 .mod-card-body {
     padding: 10px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    gap: 5px; /* Reduced from 10px to tighten the layout */
+    gap: 5px;
+    /* Reduced from 10px to tighten the layout */
     min-width: 0;
 }
+
 .mod-card-title {
     font-family: var(--font-primary);
     font-size: 14pt;
@@ -1492,28 +1599,35 @@ button.context-menu-item.delete:hover {
     align-items: center;
     display: flex;
 }
+
 .mod-card-author {
     font-size: 10pt;
     opacity: 0.7;
     margin: 0;
 }
+
 .mod-card-stats {
     display: flex;
-    gap: 20px; /* This adds a nice space between the two stats */
+    gap: 20px;
+    /* This adds a nice space between the two stats */
     font-size: 10pt;
     opacity: 0.8;
-    margin-top: auto; /* This keeps the stats at the bottom of the card */
+    margin-top: auto;
+    /* This keeps the stats at the bottom of the card */
 }
+
 .mod-card-stats span {
     display: flex;
     align-items: center;
     gap: 5px;
     /* By removing 'flex-basis', the spans will now only be as wide as their content */
 }
+
 .mod-card-stats img {
     height: 12px;
     opacity: 0.6;
 }
+
 .mod-card-meta {
     display: flex;
     justify-content: space-between;
@@ -1522,6 +1636,7 @@ button.context-menu-item.delete:hover {
     color: var(--c-text-primary);
     opacity: 0.7;
 }
+
 .mod-card-summary {
     font-size: 14px;
     opacity: 0.6;
@@ -1533,6 +1648,7 @@ button.context-menu-item.delete:hover {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .mod-card-install-btn {
     font-family: var(--font-primary);
     background-color: var(--c-accent-primary-btn);
@@ -1541,14 +1657,16 @@ button.context-menu-item.delete:hover {
     border-radius: 4px;
     padding: 8px;
     /* Remove margin as the parent's `gap` will handle it */
-    margin-top: 0; 
+    margin-top: 0;
     cursor: pointer;
     transition: all 0.2s;
 }
+
 .mod-card-install-btn:hover {
     background-color: var(--c-accent-primary-hover);
     filter: brightness(1.1);
 }
+
 .mod-card-install-btn:disabled {
     background-color: #555;
     color: #999;
@@ -1564,7 +1682,8 @@ button.context-menu-item.delete:hover {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 8px; /* Space between each line of info */
+    gap: 8px;
+    /* Space between each line of info */
     font-size: 11pt;
 }
 
@@ -1583,7 +1702,7 @@ button.context-menu-item.delete:hover {
 .meta-value {
     text-align: right;
 }
-   
+
 /* --- Side-by-Side Browse Layout --- */
 
 .browse-container {
@@ -1600,7 +1719,7 @@ button.context-menu-item.delete:hover {
     left: -7.5px;
     width: 101.17%;
     height: 101.8%;
-    z-index: -1; 
+    z-index: -1;
     background-color: var(--c-bg-panel);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 3px;
@@ -1610,15 +1729,18 @@ button.context-menu-item.delete:hover {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    min-width: 0; /* Prevents content from overflowing */
+    min-width: 0;
+    /* Prevents content from overflowing */
 }
 
 .mod-detail-content-wrapper {
-    width: 700px; /* This is the fixed width of your panel content */
+    width: 700px;
+    /* This is the fixed width of your panel content */
     height: 100%;
     display: flex;
     flex-direction: column;
-    flex-shrink: 0; /* Prevent this wrapper from shrinking */
+    flex-shrink: 0;
+    /* Prevent this wrapper from shrinking */
 }
 
 .mod-detail-panel {
@@ -1628,10 +1750,11 @@ button.context-menu-item.delete:hover {
     flex-direction: column;
     flex-shrink: 0;
     overflow: hidden;
-    
+
     /* THE FIX: Use a transition-delay on visibility */
     width: 0;
-    visibility: hidden; /* Start completely invisible */
+    visibility: hidden;
+    /* Start completely invisible */
     transform: translateX(100%);
 }
 
@@ -1639,7 +1762,8 @@ button.context-menu-item.delete:hover {
     width: 700px;
     visibility: visible;
     transform: translateX(0%);
-    transition: transform 0.25s ease-out; /* ONLY animate when the 'open' class is added */
+    transition: transform 0.25s ease-out;
+    /* ONLY animate when the 'open' class is added */
 }
 
 .mod-detail-header {
@@ -1666,6 +1790,7 @@ button.context-menu-item.delete:hover {
     opacity: 0.8;
     transition: all 0.2s;
 }
+
 .mod-detail-header img:hover {
     opacity: 1;
     transform: scale(1.1);
@@ -1682,13 +1807,17 @@ button.context-menu-item.delete:hover {
 .mod-detail-left {
     flex-basis: 150px;
     flex-shrink: 0;
-    display: flex;         /* Use flexbox for vertical layout */
+    display: flex;
+    /* Use flexbox for vertical layout */
     flex-direction: column;
 }
+
 .mod-detail-image {
     width: 100%;
-    aspect-ratio: 1 / 1; /* This forces the element to be a perfect square */
-    object-fit: cover;   /* This crops and centers the image within the square */
+    aspect-ratio: 1 / 1;
+    /* This forces the element to be a perfect square */
+    object-fit: cover;
+    /* This crops and centers the image within the square */
     border-radius: 4px;
     background-color: #222;
 }
@@ -1709,10 +1838,11 @@ button.context-menu-item.delete:hover {
     gap: 10px;
     margin-bottom: 20px;
     font-size: 11pt;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 15px;
     border-radius: 4px;
 }
+
 .mod-detail-stats strong {
     opacity: 0.7;
 }
@@ -1722,21 +1852,24 @@ button.context-menu-item.delete:hover {
     line-height: 1.5;
     opacity: 0.9;
     overflow-wrap: break-word;
-    font-family: var(--font-secondary); /* <-- FIX: Use Roboto for all description text */
+    font-family: var(--font-secondary);
+    /* <-- FIX: Use Roboto for all description text */
 }
 
-.mod-detail-description > * {
+.mod-detail-description>* {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.mod-detail-description > * + * {
-    margin-top: 2em; /* Use 'em' for spacing relative to the font size */
+.mod-detail-description>*+* {
+    margin-top: 2em;
+    /* Use 'em' for spacing relative to the font size */
 }
 
 .mod-detail-description br {
     margin: 0;
-    display: block; /* Required to apply margin, but we set it to 0 */
+    display: block;
+    /* Required to apply margin, but we set it to 0 */
     content: "";
 }
 
@@ -1747,7 +1880,8 @@ button.context-menu-item.delete:hover {
 /* --- NEW Styling for Mod Detail Footer --- */
 .mod-detail-footer {
     padding: 15px;
-    margin-top: auto; /* This pushes the footer to the bottom */
+    margin-top: auto;
+    /* This pushes the footer to the bottom */
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -1761,6 +1895,7 @@ button.context-menu-item.delete:hover {
     cursor: pointer;
     transition: all 0.2s;
 }
+
 .mod-detail-footer .modal-btn-cancel:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
@@ -1770,7 +1905,8 @@ button.context-menu-item.delete:hover {
 .mod-detail-description h1,
 .mod-detail-description h2,
 .mod-detail-description h3 {
-    font-family: var(--font-primary); /* Headings can still use the display font */
+    font-family: var(--font-primary);
+    /* Headings can still use the display font */
     color: var(--c-accent-primary);
     font-size: 14pt;
 }
@@ -1778,7 +1914,8 @@ button.context-menu-item.delete:hover {
 .mod-detail-description strong,
 .mod-detail-description b {
     color: var(--c-accent-primary);
-    font-weight: 700; /* Use a heavier font-weight for Roboto */
+    font-weight: 700;
+    /* Use a heavier font-weight for Roboto */
 }
 
 .mod-detail-description ul,
@@ -1787,8 +1924,10 @@ button.context-menu-item.delete:hover {
 }
 
 .mod-detail-description li {
-    margin-bottom: 0.5em; /* Reduce space between list items */
+    margin-bottom: 0.5em;
+    /* Reduce space between list items */
 }
+
 .mod-detail-description li:last-child {
     margin-bottom: 0;
 }
@@ -1812,7 +1951,7 @@ button.context-menu-item.delete:hover {
 }
 
 /* Style for inline <code> tags that are NOT in a <pre> block */
-.mod-detail-description :not(pre) > code {
+.mod-detail-description :not(pre)>code {
     font-family: monospace;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 2px 5px;
@@ -1829,12 +1968,15 @@ button.context-menu-item.delete:hover {
 
 /* --- NEW Styling for Links --- */
 .mod-detail-description a {
-    color: var(--c-accent-primary); /* Use your theme's accent color for links */
-    text-decoration: none;      /* Remove the underline */
+    color: var(--c-accent-primary);
+    /* Use your theme's accent color for links */
+    text-decoration: none;
+    /* Remove the underline */
 }
 
 .mod-detail-description a:hover {
-    text-decoration: underline; /* Add the underline back on hover for good UX */
+    text-decoration: underline;
+    /* Add the underline back on hover for good UX */
 }
 
 /* --- NEW Styling for Alignment and Images --- */
@@ -1843,9 +1985,11 @@ button.context-menu-item.delete:hover {
 }
 
 .mod-detail-description .bbcode-img {
-    max-width: 100%; /* Ensure images don't overflow the panel */
+    max-width: 100%;
+    /* Ensure images don't overflow the panel */
     border-radius: 4px;
-    margin: 10px 0; /* Add some vertical space around images */
+    margin: 10px 0;
+    /* Add some vertical space around images */
 }
 
 /* ==========================================================================
@@ -1857,8 +2001,9 @@ button.context-menu-item.delete:hover {
     text-align: left;
 }
 
-   .file-selection-modal .update-list-container {
-    padding-right: 0; /* Remove padding now that we have sections */
+.file-selection-modal .update-list-container {
+    padding-right: 0;
+    /* Remove padding now that we have sections */
 }
 
 /* Style for the standout "Main File" */
@@ -1869,7 +2014,8 @@ button.context-menu-item.delete:hover {
 }
 
 .primary-file-container .update-item-name {
-    font-size: 14pt; /* Make the main file name larger */
+    font-size: 14pt;
+    /* Make the main file name larger */
 }
 
 /* Styles for the collapsible sections */
@@ -1912,7 +2058,8 @@ button.context-menu-item.delete:hover {
 }
 
 .collapsible-content.open {
-    max-height: 1000px; /* A large value to allow it to expand fully */
+    max-height: 1000px;
+    /* A large value to allow it to expand fully */
 }
 
 .collapsible-section {
@@ -1928,7 +2075,8 @@ button.context-menu-item.delete:hover {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Space between the buttons */
+    gap: 10px;
+    /* Space between the buttons */
 }
 
 /* A new generic style for the Changelog and Nexus buttons */
@@ -1942,9 +2090,12 @@ button.context-menu-item.delete:hover {
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.2s;
-    text-align: center; /* Center text for both button and <a> tags */
-    display: block; /* Make the <a> tag behave like a button */
-    text-decoration: none; /* Remove underline from <a> tag */
+    text-align: center;
+    /* Center text for both button and <a> tags */
+    display: block;
+    /* Make the <a> tag behave like a button */
+    text-decoration: none;
+    /* Remove underline from <a> tag */
     font-size: 10pt;
 }
 
@@ -1976,6 +2127,7 @@ button.context-menu-item.delete:hover {
     padding-bottom: 5px;
     margin-top: 20px;
 }
+
 .changelog-version:first-child {
     margin-top: 0;
 }
@@ -1995,7 +2147,8 @@ button.context-menu-item.delete:hover {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 10px; /* Replaces 'auto' with a fixed margin for spacing */
+    margin-top: 10px;
+    /* Replaces 'auto' with a fixed margin for spacing */
     /* padding-top is no longer needed */
 }
 
@@ -2017,14 +2170,17 @@ button.context-menu-item.delete:hover {
 }
 
 #priorityModalTitle {
-    overflow-wrap: break-word; /* Allows long words to break and wrap */
+    overflow-wrap: break-word;
+    /* Allows long words to break and wrap */
 }
 
 /* --- Styling for NXM Handler Status Message --- */
 .handler-status {
-    margin-top: 15px; /* Add some space above the message */
+    margin-top: 15px;
+    /* Add some space above the message */
     font-weight: bold;
-    min-height: 1.2em; /* Prevent layout shift when text appears */
+    min-height: 1.2em;
+    /* Prevent layout shift when text appears */
     transition: color 0.3s;
 }
 
@@ -2038,4 +2194,169 @@ button.context-menu-item.delete:hover {
 
 .handler-status.status-info {
     color: var(--c-accent-primary);
+}
+
+/* ==========================================================================
+   9. New Footer Layout (Profiles / DropZone / Launch)
+   ========================================================================== */
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    flex-shrink: 0;
+    /* Fixed height for the footer area */
+    margin-top: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 0px;
+    gap: 10px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Column Widths */
+.footer-col.left {
+    width: 25%;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-col.center {
+    width: 50%;
+    position: relative;
+}
+
+.footer-col.right {
+    width: 25%;
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* --- Adjusting the Existing Drop Zone --- */
+/* --- Launch Button Styling --- */
+.launch-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.launch-button:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.launch-button.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+    filter: grayscale(100%);
+}
+
+.launch-icon-wrapper {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 8px;
+}
+
+.launch-icon-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+/* The Glow Effect behind the icon */
+.launch-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background-color: #FFD700;
+    /* Default Gold Glow */
+    border-radius: 50%;
+    filter: blur(15px);
+    z-index: 1;
+    opacity: 0.6;
+    transition: background-color 0.3s;
+}
+
+/* Platform specific glow colors */
+.launch-button[data-platform="Steam"] .launch-glow {
+    background-color: #1b2838;
+    box-shadow: 0 0 20px #66c0f4;
+}
+
+.launch-button[data-platform="GOG"] .launch-glow {
+    background-color: #5a2e8c;
+    box-shadow: 0 0 20px #9a59d8;
+}
+
+.launch-button[data-platform="GamePass"] .launch-glow {
+    background-color: #107C10;
+    box-shadow: 0 0 20px #2db32d;
+}
+
+.launch-text {
+    font-family: var(--font-primary);
+    font-size: 12pt;
+    color: var(--c-text-primary);
+    text-align: center;
+}
+
+/* ==========================================================================
+   10. Launch Button Animations
+   ========================================================================== */
+
+/* The animation definition: A rapid, bright pulse */
+@keyframes launch-pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.5);
+        /* Grow larger */
+        opacity: 0.9;
+        /* Get brighter */
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.6;
+    }
+}
+
+/* State: When the game is launching */
+.launch-button.is-launching {
+    pointer-events: none;
+    /* Prevent double clicks */
+    cursor: wait;
+}
+
+/* Apply animation to the glow circle when launching */
+.launch-button.is-launching .launch-glow {
+    background-color: #fff !important;
+    /* Flash white/bright initially */
+    animation: launch-pulse 1s infinite ease-in-out;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+
+.launch-button.is-launching .launch-text {
+    opacity: 1;
+    color: var(--c-accent-secondary);
+    /* Change text color to indicate activity */
+    font-weight: bold;
+    letter-spacing: 1px;
 }

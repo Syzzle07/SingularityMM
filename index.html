@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/src/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title data-i18n="windowTitle">Singularity</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header data-tauri-drag-region>
-      <!-- The stable 950px container for STATIC elements -->
-      <div class="header-content-wrapper">
-        <img src="/src/assets/banner.png" alt="Singularity" id="banner-img" draggable="false" />
-        <div class="main-nav">
-            <button class="nav-button active" id="navMyMods">MY MODS</button>
-            <button class="nav-button" id="navBrowse">BROWSE</button>
+        <!-- The stable 950px container for STATIC elements -->
+        <div class="header-content-wrapper">
+            <img src="/src/assets/banner.png" alt="Singularity" id="banner-img" draggable="false" />
+            <div class="main-nav">
+                <button class="nav-button active" id="navMyMods">MY MODS</button>
+                <button class="nav-button" id="navBrowse">BROWSE</button>
+            </div>
         </div>
-      </div>
-      <!-- ALL right-side controls are now in ONE container, positioned on the far right -->
-      <div class="header-controls-right">
-        <div id="updateCheckBtn" class="header-button">
-            <img src="/src/assets/icon-update.png" alt="Check for Updates" />
-            <span class="button-text" data-i18n="updateCheckBtn">Check for Updates</span>
+        <!-- ALL right-side controls are now in ONE container, positioned on the far right -->
+        <div class="header-controls-right">
+            <div id="updateCheckBtn" class="header-button">
+                <img src="/src/assets/icon-update.png" alt="Check for Updates" />
+                <span class="button-text" data-i18n="updateCheckBtn">Check for Updates</span>
+            </div>
+            <img src="/src/assets/icon-download-2.png" alt="Downloads" id="downloadHistoryBtn" title="Downloads" />
+            <img src="/src/assets/icon-troubleshoot.png" alt="Settings" id="settingsBtn" title="Settings" />
+            <img src="/src/assets/icon-close.png" alt="Close" id="customCloseBtn" title="Close" />
         </div>
-        <img src="/src/assets/icon-download-2.png" alt="Downloads" id="downloadHistoryBtn" title="Downloads" />
-        <img src="/src/assets/icon-troubleshoot.png" alt="Settings" id="settingsBtn" title="Settings" />
-        <img src="/src/assets/icon-close.png" alt="Close" id="customCloseBtn" title="Close" />
-      </div>
     </header>
     <div class="main-content">
         <!-- View for "My Mods" (Your old UI goes in here) -->
         <div id="myModsView">
             <div class="top-panel">
-                <!-- Left Column: Contains all settings sections --> 
+                <!-- Left Column: Contains all settings sections -->
                 <div class="settings-column-left">
                     <!-- Global Settings Container -->
                     <div class="settings-container" id="globalSettingsContainer">
@@ -39,7 +41,8 @@
                             <span class="banner-text" data-i18n="globalSettingsTitle">Global Settings</span>
                         </div>
                         <div class="switch-container" id="disableAllContainer">
-                            <label class="switch"><input type="checkbox" id="disableAllSwitch" disabled><span class="slider"></span></label>
+                            <label class="switch"><input type="checkbox" id="disableAllSwitch" disabled><span
+                                    class="slider"></span></label>
                             <label for="disableAllSwitch" data-i18n="disableAllModsLabel">Disable Mod Support</label>
                         </div>
                     </div>
@@ -60,309 +63,340 @@
                         </div>
                     </div>
                 </div>
-                <!-- Right Column: Contains all buttons sections --> 
+                <!-- Right Column: Contains all buttons sections -->
                 <div class="actions-column-right">
                     <div class="action-diamond" id="loadFileBtn"></div>
                     <p class="diamond-label" id="loadFileBtn-label" data-i18n="loadFileBtn">Load GCMODSETTINGS</p>
                     <span class="diamond-sublabel" id="filePathLabel" data-i18n="noFileLoaded">No file loaded.</span>
                     <div class="action-diamond" id="openModsFolderBtn"></div>
-                    <p class="diamond-label" id="openModsFolderBtn-label" data-i18n="openModsFolderBtn">Open MODS Folder</p>
+                    <p class="diamond-label" id="openModsFolderBtn-label" data-i18n="openModsFolderBtn">Open MODS Folder
+                    </p>
                 </div>
             </div>
             <div class="list-panel">
                 <div class="search-bar-container">
-                    <input type="text" id="searchModsInput" data-i18n="searchPlaceholder" data-i18n-attr="placeholder" placeholder="Search mods...">
+                    <input type="text" id="searchModsInput" data-i18n="searchPlaceholder" data-i18n-attr="placeholder"
+                        placeholder="Search mods...">
                 </div>
                 <div class="header-row">
-                  <span class="mod-name" data-i18n="modNameHeader">Mod Name</span>
-                  <span class="priority" data-i18n="priorityHeader">Priority</span>
-                  <span class="enabled" data-i18n="enabledHeader">Enabled</span>
+                    <span class="mod-name" data-i18n="modNameHeader">Mod Name</span>
+                    <span class="priority" data-i18n="priorityHeader">Priority</span>
+                    <span class="enabled" data-i18n="enabledHeader">Enabled</span>
                 </div>
                 <div id="modListContainer" class="mod-list"></div>
                 <div id="modInfoPanel" class="mod-info-panel-inline hidden">
-                  <div class="info-header">
-                      <span id="infoModName"></span>
-                      <a id="infoNexusLink" href="#" class="nexus-button hidden" target="_blank" title="Visit on Nexus Mods">
-                          <img src="/src/assets/icon-nexus.png" alt="Nexus">
-                      </a>
-                  </div>
-                  <div class="info-body">
-                      <!-- Column 1: Author and Version Info -->
-                      <div class="info-meta-column">
-                          <div class="info-line">
-                              <span class="info-label" data-i18n="infoAuthorLabel">AUTHOR</span>
-                              <span id="infoAuthor" class="info-value"></span>
-                          </div>
-                          <div class="info-line">
-                              <span class="info-label" data-i18n="infoInstalledLabel">INSTALLED</span>
-                              <span id="infoInstalledVersion" class="info-value"></span>
-                          </div>
-                          <div class="info-line">
-                              <span class="info-label" data-i18n="infoLatestLabel">LATEST</span>
-                              <span id="infoLatestVersion" class="info-value"></span>
-                          </div>
-                      </div>
-                      <!-- This is just the vertical divider line -->
-                      <div class="info-divider"></div>
-                      <!-- Column 2: Description -->
-                      <div class="info-description-column">
-                          <span class="info-label" data-i18n="infoDescriptionLabel">DESCRIPTION</span>
-                          <p id="infoDescription" class="info-description"></p>
-                      </div>
-                  </div>
+                    <div class="info-header">
+                        <span id="infoModName"></span>
+                        <a id="infoNexusLink" href="#" class="nexus-button hidden" target="_blank"
+                            title="Visit on Nexus Mods">
+                            <img src="/src/assets/icon-nexus.png" alt="Nexus">
+                        </a>
+                    </div>
+                    <div class="info-body">
+                        <!-- Column 1: Author and Version Info -->
+                        <div class="info-meta-column">
+                            <div class="info-line">
+                                <span class="info-label" data-i18n="infoAuthorLabel">AUTHOR</span>
+                                <span id="infoAuthor" class="info-value"></span>
+                            </div>
+                            <div class="info-line">
+                                <span class="info-label" data-i18n="infoInstalledLabel">INSTALLED</span>
+                                <span id="infoInstalledVersion" class="info-value"></span>
+                            </div>
+                            <div class="info-line">
+                                <span class="info-label" data-i18n="infoLatestLabel">LATEST</span>
+                                <span id="infoLatestVersion" class="info-value"></span>
+                            </div>
+                        </div>
+                        <!-- This is just the vertical divider line -->
+                        <div class="info-divider"></div>
+                        <!-- Column 2: Description -->
+                        <div class="info-description-column">
+                            <span class="info-label" data-i18n="infoDescriptionLabel">DESCRIPTION</span>
+                            <p id="infoDescription" class="info-description"></p>
+                        </div>
+                    </div>
                 </div>
-                <div id="dropZone" class="drop-zone hidden">
-                  <span data-i18n="dropZoneText">DROP .ZIP OR .RAR FILES HERE TO INSTALL MODS</span>
+                <!-- NEW FOOTER LAYOUT -->
+                <div class="footer-container">
+                    <!-- LEFT COLUMN: PROFILES (Placeholder for now) -->
+                    <div class="footer-col left">
+                        <div class="profile-placeholder">
+                            <span style="opacity: 0.5; font-size: 12px;">PROFILES COMING SOON</span>
+                        </div>
+                    </div>
+                    <!-- CENTER COLUMN: DROP ZONE -->
+                    <div class="footer-col center">
+                        <div id="dropZone" class="drop-zone hidden">
+                            <span data-i18n="dropZoneText">DROP .ZIP OR .RAR FILES HERE TO INSTALL MODS</span>
+                        </div>
+                    </div>
+                    <!-- RIGHT COLUMN: LAUNCH BUTTON -->
+                    <div class="footer-col right">
+                        <div id="launchGameBtn" class="launch-button disabled">
+                            <div class="launch-icon-wrapper">
+                                <img id="launchIcon" src="/src/assets/icon-steam.png" alt="Launch">
+                                <div class="launch-glow"></div>
+                            </div>
+                            <span class="launch-text">Play NO MAN'S SKY</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- View for "Browse" -->
         <div id="browseView" class="hidden">
-          <div class="browse-container">
-            <div class="browse-background-panel"></div>
-            <div class="browse-main-content">
-              <div class="browse-controls">
-                  <input type="text" id="browseSearchInput" class="themed-input" placeholder="Search mods...">
-                  <!-- NEW: Filter Dropdown -->
-                  <select id="browseFilterSelect" class="themed-input styled-select">
-                      <option value="all" selected>Show: All Mods</option>
-                      <option value="installed">Show: Installed</option>
-                      <option value="uninstalled">Show: Not Installed</option>
-                  </select>
-                  <!-- NEW: Sort Dropdown -->
-                  <select id="browseSortSelect" class="themed-input styled-select">
-                      <option value="last_updated" selected>Sort by: Last Updated</option>
-                      <option value="endorsements">Sort by: Endorsements</option>
-                  </select>
-              </div>
-              <div id="browseGridContainer" class="browse-grid">
-                  <!-- Mod Cards will be injected here by JavaScript -->
-              </div>
-            </div>
-            <div id="modDetailPanel" class="mod-detail-panel">
-              <div class="mod-detail-content-wrapper">
-                <div class="mod-detail-header">
-                    <h2 id="modDetailName">Mod Title</h2>
-                </div>
-                <div class="mod-detail-body">
-                    <div class="mod-detail-left">
-                        <img id="modDetailImage" src="/src/assets/placeholder.png" class="mod-detail-image">
-                        <div id="modDetailInstallBtnContainer" class="mod-detail-actions">
-                            <!-- Install/Update button will go here -->
-                        </div>
-                        <!-- NEW META INFO CONTAINER -->
-                        <div class="mod-detail-meta">
-                            <div class="meta-line">
-                                <span class="meta-label">Author</span>
-                                <span id="modDetailAuthor" class="meta-value"></span>
-                            </div>
-                            <div class="meta-line">
-                                <span class="meta-label">Version</span>
-                                <span id="modDetailVersion" class="meta-value"></span>
-                            </div>
-                            <div class="meta-line">
-                                <span class="meta-label">Installed</span>
-                                <span id="modDetailInstalled" class="meta-value">N/A</span>
-                            </div>
-                            <div class="meta-line">
-                                <span class="meta-label">Created</span>
-                                <span id="modDetailCreated" class="meta-value"></span>
-                            </div>
-                            <div class="meta-line">
-                                <span class="meta-label">Updated</span>
-                                <span id="modDetailUpdated" class="meta-value"></span>
-                            </div>
-                            <div class="meta-line">
-                                <span class="meta-label">Downloads</span>
-                                <span id="modDetailDownloads" class="meta-value"></span>
-                            </div>
-                            <div class="meta-line">
-                                <span class="meta-label">Endorsements</span>
-                                <span id="modDetailEndorsements" class="meta-value"></span>
-                            </div>
-                        </div>
-                        <!-- 3. NEW: Secondary actions container (at the bottom) -->
-                        <div id="modDetailSecondaryActions" class="mod-detail-secondary-actions">
-                            <!-- Changelog and Visit buttons will go here -->
-                        </div>
+            <div class="browse-container">
+                <div class="browse-background-panel"></div>
+                <div class="browse-main-content">
+                    <div class="browse-controls">
+                        <input type="text" id="browseSearchInput" class="themed-input" placeholder="Search mods...">
+                        <!-- NEW: Filter Dropdown -->
+                        <select id="browseFilterSelect" class="themed-input styled-select">
+                            <option value="all" selected>Show: All Mods</option>
+                            <option value="installed">Show: Installed</option>
+                            <option value="uninstalled">Show: Not Installed</option>
+                        </select>
+                        <!-- NEW: Sort Dropdown -->
+                        <select id="browseSortSelect" class="themed-input styled-select">
+                            <option value="last_updated" selected>Sort by: Last Updated</option>
+                            <option value="endorsements">Sort by: Endorsements</option>
+                        </select>
                     </div>
-                    <div class="mod-detail-right">
-                      <div id="modDetailDescription" class="mod-detail-description"></div>
+                    <div id="browseGridContainer" class="browse-grid">
+                        <!-- Mod Cards will be injected here by JavaScript -->
                     </div>
                 </div>
-                <div class="mod-detail-footer">
-                          <button id="modDetailCloseBtn" class="modal-btn-cancel">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>  
-        </div>
-    <!-- === SETTINGS MODAL === -->
-    <div id="settingsModalOverlay" class="modal-overlay hidden">
-        <div class="modal-content settings-modal">
-            <h2 data-i18n="settingsModalTitle">SETTINGS</h2>
-            <!-- 1. Language Setting -->
-            <div class="setting-row">
-                <label for="languageSelector" data-i18n="languageLabel">Language</label>
-                <select id="languageSelector" class="themed-input styled-select">
-                    <option value="cn">Chinese</option>
-                    <option value="en">English</option>
-                    <option value="fr">French</option>
-                    <option value="de">German</option>
-                    <option value="kr">Korean</option>
-                    <option value="pt">Portuguese</option>
-                    <option value="es">Spanish</option>
-                    <option value="sv">Swedish</option>
-                </select>
-            </div>
-            <!-- 2. List Density Setting -->
-            <div class="setting-row settings-grid-row">
-                <label for="rowPaddingSlider" data-i18n="listDensityLabel">List Density</label>
-                <div class="slider-container">
-                    <input type="range" id="rowPaddingSlider" min="0" max="10" value="5" step="1">
-                    <span id="rowPaddingValue" class="slider-value">5px</span>
-                </div>
-            </div>
-            <!-- Grid Density Setting -->
-            <div class="setting-row settings-grid-row">
-                <label for="gridGapSlider">Grid Density</label> <!-- You can add a data-i18n attribute later -->
-                <div class="slider-container">
-                    <input type="range" id="gridGapSlider" min="0" max="20" value="10" step="1">
-                    <span id="gridGapValue" class="slider-value">10px</span>
-                </div>
-            </div>
-            <!-- 4. NXM Handler Section -->
-            <div class="troubleshoot-section">
-                <h3>MOD MANAGER DOWNLOADS</h3>
-                <p>Set Singularity as the default application for (nxm://) links.</p>
-                <button id="nxmHandlerBtn" class="modal-btn-confirm">Set as Default Handler</button>
-                <p id="nxmHandlerStatus" class="handler-status hidden"></p>
-            </div>
-            <!-- 3. Troubleshoot Section -->
-            <div class="troubleshoot-section">
-                <h3 data-i18n="troubleshootModalTitle">TROUBLESHOOT</h3>
-                <p data-i18n="troubleshootModalDesc">This will DELETE the GCMODSETTINGS file, forcing the game to regenerate a new one on the next launch.</p>
-                <button id="deleteSettingsBtn" class="modal-btn-delete" data-i18n="modalDeleteBtn">Delete GCMODSETTINGS.MXML</button>
-            </div>
-            <div class="modal-actions">
-                <button id="closeSettingsModalBtn" class="modal-btn-cancel" data-i18n="settingsModalCloseBtn">Close</button>
-            </div>
-        </div>
-    </div>
-    <!-- === CHANGELOG MODAL === -->
-    <div id="changelogModalOverlay" class="modal-overlay hidden">
-      <div class="modal-content changelog-modal">
-        <h2 id="changelogModalTitle">Changelogs</h2>
-        <div id="changelogListContainer" class="changelog-list-container">
-        <!-- Changelog entries will be injected here by JavaScript -->
-        </div>
-        <div class="modal-actions">
-        <button id="closeChangelogModalBtn" class="modal-btn-cancel">Close</button>
-        </div>
-      </div>
-    </div>
-    <!-- === CONFIRMATION MODAL (for NXM Handler) === -->
-    <div id="confirmationModalOverlay" class="modal-overlay higher hidden">
-        <div class="modal-content priority-modal"> <!-- We can reuse the priority-modal style -->
-            <h2 id="confirmationModalTitle">Confirm Action</h2>
-            <p id="confirmationModalDescription"></p>
-            <div class="modal-actions">
-                <button id="confirmActionBtn" class="modal-btn-confirm">Yes</button>
-                <button id="cancelActionBtn" class="modal-btn-cancel">No</button>
-            </div>
-        </div>
-    </div>
-    <!-- === PRIORITY CHANGE MODAL === -->
-    <div id="priorityModalOverlay" class="modal-overlay hidden">
-        <div class="modal-content priority-modal">
-            <h2 id="priorityModalTitle">Change Priority</h2>
-            <p id="priorityModalDescription"></p>
-            <input type="number" id="priorityInput" class="themed-input" min="0">
-            <div class="modal-actions">
-                <button id="confirmPriorityBtn" class="modal-btn-confirm">OK</button>
-                <button id="cancelPriorityBtn" class="modal-btn-cancel">Cancel</button>
-            </div>
-        </div>
-    </div>
-    <div id="updateModalOverlay" class="modal-overlay hidden">
-      <div class="modal-content update-modal">
-          <h2 data-i18n="updateModalTitle">MOD UPDATES</h2>
-          <div id="updateListContainer" class="update-list-container">
-          </div>
-          <div class="modal-actions">
-              <button id="closeUpdateModalBtn" class="modal-btn-cancel" data-i18n="updateModalCloseBtn">Close</button>
-          </div>
-      </div>
-   </div>
-   <script type="module" src="/src/main.js"></script>
-   <!-- Template for a single Mod Card in the Browse grid -->
-    <template id="modCardTemplate">
-        <div class="mod-card">
-            <div class="mod-card-installed-badge hidden">
-                <img src="/src/assets/icon-installed.png" alt="Installed" />
-            </div>
-            <img class="mod-card-thumbnail" src="/src/assets/placeholder.png" alt="Mod Thumbnail">
-            <div class="mod-card-body">
-                <h3 class="mod-card-title">Mod Title</h3>
-                <p class="mod-card-author">by Author</p>
-                <p class="mod-card-summary">Mod summary will go here...</p>
-                <!-- This now only contains downloads and endorsements -->
-                <div class="mod-card-stats">
-                    <span><img src="/src/assets/icon-download.png"> <span class="mod-card-downloads">0</span></span>
-                    <span><img src="/src/assets/icon-endorse.png"> <span class="mod-card-endorsements">0</span></span>
+                <div id="modDetailPanel" class="mod-detail-panel">
+                    <div class="mod-detail-content-wrapper">
+                        <div class="mod-detail-header">
+                            <h2 id="modDetailName">Mod Title</h2>
+                        </div>
+                        <div class="mod-detail-body">
+                            <div class="mod-detail-left">
+                                <img id="modDetailImage" src="/src/assets/placeholder.png" class="mod-detail-image">
+                                <div id="modDetailInstallBtnContainer" class="mod-detail-actions">
+                                    <!-- Install/Update button will go here -->
+                                </div>
+                                <!-- NEW META INFO CONTAINER -->
+                                <div class="mod-detail-meta">
+                                    <div class="meta-line">
+                                        <span class="meta-label">Author</span>
+                                        <span id="modDetailAuthor" class="meta-value"></span>
+                                    </div>
+                                    <div class="meta-line">
+                                        <span class="meta-label">Version</span>
+                                        <span id="modDetailVersion" class="meta-value"></span>
+                                    </div>
+                                    <div class="meta-line">
+                                        <span class="meta-label">Installed</span>
+                                        <span id="modDetailInstalled" class="meta-value">N/A</span>
+                                    </div>
+                                    <div class="meta-line">
+                                        <span class="meta-label">Created</span>
+                                        <span id="modDetailCreated" class="meta-value"></span>
+                                    </div>
+                                    <div class="meta-line">
+                                        <span class="meta-label">Updated</span>
+                                        <span id="modDetailUpdated" class="meta-value"></span>
+                                    </div>
+                                    <div class="meta-line">
+                                        <span class="meta-label">Downloads</span>
+                                        <span id="modDetailDownloads" class="meta-value"></span>
+                                    </div>
+                                    <div class="meta-line">
+                                        <span class="meta-label">Endorsements</span>
+                                        <span id="modDetailEndorsements" class="meta-value"></span>
+                                    </div>
+                                </div>
+                                <!-- 3. NEW: Secondary actions container (at the bottom) -->
+                                <div id="modDetailSecondaryActions" class="mod-detail-secondary-actions">
+                                    <!-- Changelog and Visit buttons will go here -->
+                                </div>
+                            </div>
+                            <div class="mod-detail-right">
+                                <div id="modDetailDescription" class="mod-detail-description"></div>
+                            </div>
+                        </div>
+                        <div class="mod-detail-footer">
+                            <button id="modDetailCloseBtn" class="modal-btn-cancel">Close</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </template>
-    <!-- === NEW: Template for a collapsible file section === -->
-    <template id="collapsibleSectionTemplate">
-        <div class="collapsible-section">
-            <div class="collapsible-header">
-                <span class="collapsible-title">Category Title</span>
+        <!-- === SETTINGS MODAL === -->
+        <div id="settingsModalOverlay" class="modal-overlay hidden">
+            <div class="modal-content settings-modal">
+                <h2 data-i18n="settingsModalTitle">SETTINGS</h2>
+                <!-- 1. Language Setting -->
+                <div class="setting-row">
+                    <label for="languageSelector" data-i18n="languageLabel">Language</label>
+                    <select id="languageSelector" class="themed-input styled-select">
+                        <option value="cn">Chinese</option>
+                        <option value="en">English</option>
+                        <option value="fr">French</option>
+                        <option value="de">German</option>
+                        <option value="kr">Korean</option>
+                        <option value="pt">Portuguese</option>
+                        <option value="es">Spanish</option>
+                        <option value="sv">Swedish</option>
+                    </select>
+                </div>
+                <!-- 2. List Density Setting -->
+                <div class="setting-row settings-grid-row">
+                    <label for="rowPaddingSlider" data-i18n="listDensityLabel">List Density</label>
+                    <div class="slider-container">
+                        <input type="range" id="rowPaddingSlider" min="0" max="10" value="5" step="1">
+                        <span id="rowPaddingValue" class="slider-value">5px</span>
+                    </div>
+                </div>
+                <!-- Grid Density Setting -->
+                <div class="setting-row settings-grid-row">
+                    <label for="gridGapSlider">Grid Density</label> <!-- You can add a data-i18n attribute later -->
+                    <div class="slider-container">
+                        <input type="range" id="gridGapSlider" min="0" max="20" value="10" step="1">
+                        <span id="gridGapValue" class="slider-value">10px</span>
+                    </div>
+                </div>
+                <!-- 4. NXM Handler Section -->
+                <div class="troubleshoot-section">
+                    <h3>MOD MANAGER DOWNLOADS</h3>
+                    <p>Set Singularity as the default application for (nxm://) links.</p>
+                    <button id="nxmHandlerBtn" class="modal-btn-confirm">Set as Default Handler</button>
+                    <p id="nxmHandlerStatus" class="handler-status hidden"></p>
+                </div>
+                <!-- 3. Troubleshoot Section -->
+                <div class="troubleshoot-section">
+                    <h3 data-i18n="troubleshootModalTitle">TROUBLESHOOT</h3>
+                    <p data-i18n="troubleshootModalDesc">This will DELETE the GCMODSETTINGS file, forcing the game to
+                        regenerate a new one on the next launch.</p>
+                    <button id="deleteSettingsBtn" class="modal-btn-delete" data-i18n="modalDeleteBtn">Delete
+                        GCMODSETTINGS.MXML</button>
+                </div>
+                <div class="modal-actions">
+                    <button id="closeSettingsModalBtn" class="modal-btn-cancel"
+                        data-i18n="settingsModalCloseBtn">Close</button>
+                </div>
             </div>
-            <div class="collapsible-content">
-                <!-- File rows for this category will be injected here -->
+        </div>
+        <!-- === CHANGELOG MODAL === -->
+        <div id="changelogModalOverlay" class="modal-overlay hidden">
+            <div class="modal-content changelog-modal">
+                <h2 id="changelogModalTitle">Changelogs</h2>
+                <div id="changelogListContainer" class="changelog-list-container">
+                    <!-- Changelog entries will be injected here by JavaScript -->
+                </div>
+                <div class="modal-actions">
+                    <button id="closeChangelogModalBtn" class="modal-btn-cancel">Close</button>
+                </div>
             </div>
         </div>
-    </template>
-    <template id="downloadItemTemplate">
-        <div class="download-item">
-            <div class="download-item-name">Mod Name Placeholder</div>
-            <div class="download-item-status">Status placeholder...</div>
-            <div class="download-item-size">...</div>  <!-- ADD THIS -->
-            <div class="download-item-date">...</div>  <!-- ADD THIS -->
+        <!-- === CONFIRMATION MODAL (for NXM Handler) === -->
+        <div id="confirmationModalOverlay" class="modal-overlay higher hidden">
+            <div class="modal-content priority-modal"> <!-- We can reuse the priority-modal style -->
+                <h2 id="confirmationModalTitle">Confirm Action</h2>
+                <p id="confirmationModalDescription"></p>
+                <div class="modal-actions">
+                    <button id="confirmActionBtn" class="modal-btn-confirm">Yes</button>
+                    <button id="cancelActionBtn" class="modal-btn-cancel">No</button>
+                </div>
+            </div>
         </div>
-    </template>
-    <!-- Modal for selecting which file of a mod to install -->
-    <div id="fileSelectionModalOverlay" class="modal-overlay hidden">
-      <div class="modal-content file-selection-modal">
-          <h2 id="fileSelectionModalTitle">Select a file to install</h2>
-          <div id="fileSelectionListContainer" class="update-list-container">
-              <!-- File options will be injected here by JavaScript -->
-          </div>
-          <div class="modal-actions">
-              <button id="closeFileSelectionModalBtn" class="modal-btn-cancel">Cancel</button>
-          </div>
-      </div>
-   </div>
-    <!-- === DOWNLOAD HISTORY MODAL === -->
-    <div id="downloadHistoryModalOverlay" class="modal-overlay hidden">
-      <div class="modal-content download-modal">
-        <h2 data-i18n="downloadHistoryTitle">DOWNLOADS</h2>
-        <div class="download-header-row">
-          <span class="header-name sortable" data-sort="name">Name</span>
-          <span class="header-status sortable" data-sort="status">Status</span>
-          <span class="header-size sortable" data-sort="size">Size</span>   <!-- ADD THIS -->
-          <span class="header-date sortable" data-sort="date">Date</span>   <!-- ADD THIS -->
+        <!-- === PRIORITY CHANGE MODAL === -->
+        <div id="priorityModalOverlay" class="modal-overlay hidden">
+            <div class="modal-content priority-modal">
+                <h2 id="priorityModalTitle">Change Priority</h2>
+                <p id="priorityModalDescription"></p>
+                <input type="number" id="priorityInput" class="themed-input" min="0">
+                <div class="modal-actions">
+                    <button id="confirmPriorityBtn" class="modal-btn-confirm">OK</button>
+                    <button id="cancelPriorityBtn" class="modal-btn-cancel">Cancel</button>
+                </div>
+            </div>
         </div>
-        <div id="downloadListContainer" class="download-list-container">
-          <!-- Download items will be injected here -->
+        <div id="updateModalOverlay" class="modal-overlay hidden">
+            <div class="modal-content update-modal">
+                <h2 data-i18n="updateModalTitle">MOD UPDATES</h2>
+                <div id="updateListContainer" class="update-list-container">
+                </div>
+                <div class="modal-actions">
+                    <button id="closeUpdateModalBtn" class="modal-btn-cancel"
+                        data-i18n="updateModalCloseBtn">Close</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-actions">
-          <button id="clearDownloadHistoryBtn" class="modal-btn-delete">Delete All Downloads</button>
-          <button id="closeDownloadHistoryBtn" class="modal-btn-cancel">Close</button>
+        <script type="module" src="/src/main.js"></script>
+        <!-- Template for a single Mod Card in the Browse grid -->
+        <template id="modCardTemplate">
+            <div class="mod-card">
+                <div class="mod-card-installed-badge hidden">
+                    <img src="/src/assets/icon-installed.png" alt="Installed" />
+                </div>
+                <img class="mod-card-thumbnail" src="/src/assets/placeholder.png" alt="Mod Thumbnail">
+                <div class="mod-card-body">
+                    <h3 class="mod-card-title">Mod Title</h3>
+                    <p class="mod-card-author">by Author</p>
+                    <p class="mod-card-summary">Mod summary will go here...</p>
+                    <!-- This now only contains downloads and endorsements -->
+                    <div class="mod-card-stats">
+                        <span><img src="/src/assets/icon-download.png"> <span class="mod-card-downloads">0</span></span>
+                        <span><img src="/src/assets/icon-endorse.png"> <span
+                                class="mod-card-endorsements">0</span></span>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <!-- === NEW: Template for a collapsible file section === -->
+        <template id="collapsibleSectionTemplate">
+            <div class="collapsible-section">
+                <div class="collapsible-header">
+                    <span class="collapsible-title">Category Title</span>
+                </div>
+                <div class="collapsible-content">
+                    <!-- File rows for this category will be injected here -->
+                </div>
+            </div>
+        </template>
+        <template id="downloadItemTemplate">
+            <div class="download-item">
+                <div class="download-item-name">Mod Name Placeholder</div>
+                <div class="download-item-status">Status placeholder...</div>
+                <div class="download-item-size">...</div> <!-- ADD THIS -->
+                <div class="download-item-date">...</div> <!-- ADD THIS -->
+            </div>
+        </template>
+        <!-- Modal for selecting which file of a mod to install -->
+        <div id="fileSelectionModalOverlay" class="modal-overlay hidden">
+            <div class="modal-content file-selection-modal">
+                <h2 id="fileSelectionModalTitle">Select a file to install</h2>
+                <div id="fileSelectionListContainer" class="update-list-container">
+                    <!-- File options will be injected here by JavaScript -->
+                </div>
+                <div class="modal-actions">
+                    <button id="closeFileSelectionModalBtn" class="modal-btn-cancel">Cancel</button>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </body>
+        <!-- === DOWNLOAD HISTORY MODAL === -->
+        <div id="downloadHistoryModalOverlay" class="modal-overlay hidden">
+            <div class="modal-content download-modal">
+                <h2 data-i18n="downloadHistoryTitle">DOWNLOADS</h2>
+                <div class="download-header-row">
+                    <span class="header-name sortable" data-sort="name">Name</span>
+                    <span class="header-status sortable" data-sort="status">Status</span>
+                    <span class="header-size sortable" data-sort="size">Size</span> <!-- ADD THIS -->
+                    <span class="header-date sortable" data-sort="date">Date</span> <!-- ADD THIS -->
+                </div>
+                <div id="downloadListContainer" class="download-list-container">
+                    <!-- Download items will be injected here -->
+                </div>
+                <div class="modal-actions">
+                    <button id="clearDownloadHistoryBtn" class="modal-btn-delete">Delete All Downloads</button>
+                    <button id="closeDownloadHistoryBtn" class="modal-btn-cancel">Close</button>
+                </div>
+            </div>
+        </div>
+</body>
+
 </html>
