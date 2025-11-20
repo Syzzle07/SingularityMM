@@ -1,0 +1,1872 @@
+[
+  {
+    "mod_id": 3813,
+    "name": "Quick Fish Release",
+    "summary": "Your inventory won't close anymore after releasing a fish, allowing you to release multiple fishes faster.",
+    "version": "6.05",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3813/3813-1758578337-1112025171.png",
+    "author": "Syzzle",
+    "mod_downloads": 756,
+    "endorsement_count": 18,
+    "updated_timestamp": 1758578408,
+    "created_timestamp": 1758578408,
+    "description": "After playing around with fishing in the expedition I realized how painful it was to release multiple fishes with the inventory closing everytime you released one, so I made this mod for myself to use and uploading it for anyone else that also is annoyed by it, the mod basically makes it not close the inventory when you release a fish.\n<br />\n<br />Before uploading I looked around and found that someone had already done this mod before, it was [url=https://next.nexusmods.com/profile/brehny/mods]brehny[/url]﻿, but their mod was outdated and still using the old method with PAKs that the game doesn't use anymore, after contacting them, they said they were out of the NMS loop and that I was allowed to upload my mod.\n<br />[size=2]They also made their own mod hidden hence why I can't link it here as credit for making it first.[/size][size=1]\n<br />[/size]\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          43587,
+          1634
+        ],
+        "uid": 7017976605251,
+        "file_id": 43587,
+        "name": "Quick Fish Release",
+        "version": "6.05",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "Quick Fish Release-3813-6-05-1758578398.zip",
+        "uploaded_timestamp": 1758578398,
+        "uploaded_time": "2025-09-22T21:59:58.000+00:00",
+        "mod_version": "6.05",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/98e699d49252b3c4eaa16317d126eced3e26ebb088c3016c7e1978b81d7b37c0/detection/f-98e699d49252b3c4eaa16317d126eced3e26ebb088c3016c7e1978b81d7b37c0-1758578399",
+        "description": "",
+        "size_kb": 2,
+        "size_in_bytes": 2067,
+        "changelog_html": "Initial Release",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3813/Quick Fish Release-3813-6-05-1758578398.zip.json"
+      }
+    ],
+    "changelogs": {
+      "6.05": [
+        "Initial Release"
+      ]
+    }
+  },
+  {
+    "mod_id": 1647,
+    "name": "Better Base Sites",
+    "summary": "Causes better base sites to be discoverable via the Secure Site planetary charts.  These will be large flat areas with a base computer in the center.",
+    "version": "6.0.5",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1647/1647-1596700597-586096860.png",
+    "author": "Bladehawke",
+    "mod_downloads": 9625,
+    "endorsement_count": 339,
+    "updated_timestamp": 1758042288,
+    "created_timestamp": 1596701082,
+    "description": "There once was a mod called Easy Base Building.  The author made it for 2.12, updated it for 2.13 and then disappeared.  He does not respond to PM's and you can't even post on his mod.  His mod has been broken since 2.14.  I made a new version of the mod using [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url]﻿ and Lua. If XenonSurf ever resurfaces and objects to this mod, I'll remove it. I'll eventually post a Lua again, but at present, I'm hand editing the EXML from diffs I make from my NMSMB builds.\n<br />\n<br />Now that that's out of the way, this is Better Base Sites.  If you buy/trade for a Planetary Chart for a Secure Site of Interest (the top option in trading with the Cartographer), it now has a chance of locating a Habitable (or Planetary) Base.  This base site is a large flat area with a base computer installed in the center.  Just walk up to it and claim the site.  The mod also adds a waypoint to the site.\n<br />\n<br />✅ Updated for Worlds Part II\n<br />✅ Patch mod - likely to work well with other Patch and Overwrite mods\n<br />\n<br />Contains the following files: \n<br />[code]&#92;METADATA&#92;REALITY&#92;TABLES&#92;REWARDTABLE.EXML\n<br />&#92;METADATA&#92;SIMULATION&#92;ENVIRONMENT&#92;PLANETBUILDINGTABLE.EXML\n<br />&#92;METADATA&#92;SIMULATION&#92;SCANNING&#92;SCANEVENTTABLEPLANET.EXML\n<br />[/code]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          8991,
+          1634
+        ],
+        "uid": 7017976570655,
+        "file_id": 8991,
+        "name": "Better Base Sites",
+        "version": "1.0",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 41,
+        "file_name": "Better Base Sites-1647-1-0-1596701047.7z",
+        "uploaded_timestamp": 1596701047,
+        "uploaded_time": "2020-08-06T08:04:07.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a5cab4c349c010536cfc379c4c955df763003c631475ddb7bc0022492bae284a/detection/f-a5cab4c349c010536cfc379c4c955df763003c631475ddb7bc0022492bae284a-1596701053",
+        "description": "PAK includes the lua file for rebuilding this in case of updates.  Built for NMS v2.61.",
+        "size_kb": 41,
+        "size_in_bytes": 41999,
+        "changelog_html": "Initial upload",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/Better Base Sites-1647-1-0-1596701047.7z.json"
+      },
+      {
+        "id": [
+          9020,
+          1634
+        ],
+        "uid": 7017976570684,
+        "file_id": 9020,
+        "name": "bBaseSites-LuaOnly",
+        "version": "1.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBaseSites-LuaOnly-1647-1-0-1596995422.7z",
+        "uploaded_timestamp": 1596995422,
+        "uploaded_time": "2020-08-09T17:50:22.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fbd29b77b112953550e16c306d5ee359e4a8a84a5ad9d4eae6b07d3f9069072c/detection/f-fbd29b77b112953550e16c306d5ee359e4a8a84a5ad9d4eae6b07d3f9069072c-1596995426",
+        "description": "Based on a request, I'm putting the Lua up separate from the mod as well",
+        "size_kb": 2,
+        "size_in_bytes": 2022,
+        "changelog_html": "Initial upload",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-LuaOnly-1647-1-0-1596995422.7z.json"
+      },
+      {
+        "id": [
+          9060,
+          1634
+        ],
+        "uid": 7017976570724,
+        "file_id": 9060,
+        "name": "Better Base Sites (Main file)",
+        "version": "2.62",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 41,
+        "file_name": "Better Base Sites (Main file)-1647-2-62-1597256322.7z",
+        "uploaded_timestamp": 1597256322,
+        "uploaded_time": "2020-08-12T18:18:42.000+00:00",
+        "mod_version": "2.62",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1c46426cb8a8bc0d34bf357a4fa8304ab5c1ad8bc0ff3a8154abe905c51ea6a6/detection/f-1c46426cb8a8bc0d34bf357a4fa8304ab5c1ad8bc0ff3a8154abe905c51ea6a6-1597256328",
+        "description": "PAK includes the lua file for rebuilding this in case of updates.  Built for NMS v2.62.",
+        "size_kb": 41,
+        "size_in_bytes": 42193,
+        "changelog_html": "Recompiled for 2.62",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/Better Base Sites (Main file)-1647-2-62-1597256322.7z.json"
+      },
+      {
+        "id": [
+          9397,
+          1634
+        ],
+        "uid": 7017976571061,
+        "file_id": 9397,
+        "name": "Better Base Sites",
+        "version": "3.0",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 44,
+        "file_name": "Better Base Sites-1647-3-0-1601342637.7z",
+        "uploaded_timestamp": 1601342637,
+        "uploaded_time": "2020-09-29T01:23:57.000+00:00",
+        "mod_version": "3.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/eb0e2ba6b5a208cba04f731f9b545b0d8041cd5e2938e225a13b84711680c5ce/detection/f-eb0e2ba6b5a208cba04f731f9b545b0d8041cd5e2938e225a13b84711680c5ce-1601342641",
+        "description": "PAK includes the lua file for rebuilding this in case of updates.  Built for NMS v3.0 Origins.",
+        "size_kb": 44,
+        "size_in_bytes": null,
+        "changelog_html": "Recompiled for 3.0",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/Better Base Sites-1647-3-0-1601342637.7z.json"
+      },
+      {
+        "id": [
+          10032,
+          1634
+        ],
+        "uid": 7017976571696,
+        "file_id": 10032,
+        "name": "Better Base Sites",
+        "version": "3.03a",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 44,
+        "file_name": "Better Base Sites-1647-3-03a-1602993398.7z",
+        "uploaded_timestamp": 1602993398,
+        "uploaded_time": "2020-10-18T03:56:38.000+00:00",
+        "mod_version": "3.03a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b0dfa6920cebfa280845a0ef5a2b7b4015b46a841fb46bfcd02284aa8ea2dbd7/detection/f-b0dfa6920cebfa280845a0ef5a2b7b4015b46a841fb46bfcd02284aa8ea2dbd7-1602993403",
+        "description": "Main file, includes LUA in the PAK",
+        "size_kb": 44,
+        "size_in_bytes": null,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/Better Base Sites-1647-3-03a-1602993398.7z.json"
+      },
+      {
+        "id": [
+          10646,
+          1634
+        ],
+        "uid": 7017976572310,
+        "file_id": 10646,
+        "name": "Better Base Sites",
+        "version": "3.10a",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 46,
+        "file_name": "Better Base Sites-1647-3-10a-1605416442.7z",
+        "uploaded_timestamp": 1605416442,
+        "uploaded_time": "2020-11-15T05:00:42.000+00:00",
+        "mod_version": "3.10a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d9d74f71d64db9773d396f5bc9821131b055b839f53cab4fb289e413818465c0/detection/f-d9d74f71d64db9773d396f5bc9821131b055b839f53cab4fb289e413818465c0-1605416444",
+        "description": "Main file, includes LUA in the PAK",
+        "size_kb": 46,
+        "size_in_bytes": null,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/Better Base Sites-1647-3-10a-1605416442.7z.json"
+      },
+      {
+        "id": [
+          10834,
+          1634
+        ],
+        "uid": 7017976572498,
+        "file_id": 10834,
+        "name": "Better Base Sites",
+        "version": "3.13a",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 46,
+        "file_name": "Better Base Sites-1647-3-13a-1607237126.7z",
+        "uploaded_timestamp": 1607237126,
+        "uploaded_time": "2020-12-06T06:45:26.000+00:00",
+        "mod_version": "3.13a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d4bb5b24d9a1d132477193c736242f65f3567795995b8a89d5535ca0f8d95fc6/detection/f-d4bb5b24d9a1d132477193c736242f65f3567795995b8a89d5535ca0f8d95fc6-1607237161",
+        "description": "Main file, includes LUA in the PAK",
+        "size_kb": 46,
+        "size_in_bytes": 46889,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/Better Base Sites-1647-3-13a-1607237126.7z.json"
+      },
+      {
+        "id": [
+          11219,
+          1634
+        ],
+        "uid": 7017976572883,
+        "file_id": 11219,
+        "name": "Better Base Sites",
+        "version": "3.21a",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 44,
+        "file_name": "Better Base Sites-1647-3-21a-1613770827.7z",
+        "uploaded_timestamp": 1613770827,
+        "uploaded_time": "2021-02-19T21:40:27.000+00:00",
+        "mod_version": "3.21a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d02f9080a291f9ce85482d2b988403a86f97193dc16d23d49c0776fe6b584d86/detection/f-d02f9080a291f9ce85482d2b988403a86f97193dc16d23d49c0776fe6b584d86-1613770832",
+        "description": "Main file, includes LUA in the PAK",
+        "size_kb": 44,
+        "size_in_bytes": 45483,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/Better Base Sites-1647-3-21a-1613770827.7z.json"
+      },
+      {
+        "id": [
+          12059,
+          1634
+        ],
+        "uid": 7017976573723,
+        "file_id": 12059,
+        "name": "bBaseSites-LuaOnly",
+        "version": "2.36a",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBaseSites-LuaOnly-1647-2-36a-1618168726.7z",
+        "uploaded_timestamp": 1618168726,
+        "uploaded_time": "2021-04-11T19:18:46.000+00:00",
+        "mod_version": "2.36a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/bf64b966137af7918a8094f313e42e035f997abbc3e904db975ca0965fb0a8db/detection/f-bf64b966137af7918a8094f313e42e035f997abbc3e904db975ca0965fb0a8db-1618168732",
+        "description": "Based on a request, I'm putting the Lua up separate from the mod as well",
+        "size_kb": 2,
+        "size_in_bytes": 2320,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-LuaOnly-1647-2-36a-1618168726.7z.json"
+      },
+      {
+        "id": [
+          12060,
+          1634
+        ],
+        "uid": 7017976573724,
+        "file_id": 12060,
+        "name": "bBaseSites",
+        "version": "3.36a",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 50,
+        "file_name": "bBaseSites-1647-3-36a-1618168816.7z",
+        "uploaded_timestamp": 1618168816,
+        "uploaded_time": "2021-04-11T19:20:16.000+00:00",
+        "mod_version": "3.36a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d77e8324c159f1426ccf6f2ec049d3edd78ffd554de094f3dfa5aabdef35f8e3/detection/f-d77e8324c159f1426ccf6f2ec049d3edd78ffd554de094f3dfa5aabdef35f8e3-1618168821",
+        "description": "Main file, includes LUA in the PAK",
+        "size_kb": 50,
+        "size_in_bytes": 51206,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-36a-1618168816.7z.json"
+      },
+      {
+        "id": [
+          12761,
+          1634
+        ],
+        "uid": 7017976574425,
+        "file_id": 12761,
+        "name": "bBaseSites",
+        "version": "3.42a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 52,
+        "file_name": "bBaseSites-1647-3-42a-1622562983.7z",
+        "uploaded_timestamp": 1622562983,
+        "uploaded_time": "2021-06-01T15:56:23.000+00:00",
+        "mod_version": "3.42a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3a43c7af1d47c17b5d507e64dbf4c33ae01ca4a27c97b87c9767b924884b2eba/detection/f-3a43c7af1d47c17b5d507e64dbf4c33ae01ca4a27c97b87c9767b924884b2eba-1622562985",
+        "description": "Main file, includes LUA in the PAK",
+        "size_kb": 52,
+        "size_in_bytes": 53166,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-42a-1622562983.7z.json"
+      },
+      {
+        "id": [
+          12762,
+          1634
+        ],
+        "uid": 7017976574426,
+        "file_id": 12762,
+        "name": "bBaseSites - LuaOnly",
+        "version": "3.42a",
+        "category_id": 6,
+        "category_name": null,
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBaseSites - LuaOnly-1647-3-42a-1622563072.7z",
+        "uploaded_timestamp": 1622563072,
+        "uploaded_time": "2021-06-01T15:57:52.000+00:00",
+        "mod_version": "3.42a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9d7bde7d32ed5b2dc6adcb76e969d45614e3fdcd6482704553d6428bb0296d87/detection/f-9d7bde7d32ed5b2dc6adcb76e969d45614e3fdcd6482704553d6428bb0296d87-1622563075",
+        "description": "Based on a request, I'm putting the Lua up separate from the mod as well",
+        "size_kb": 2,
+        "size_in_bytes": 2295,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites - LuaOnly-1647-3-42a-1622563072.7z.json"
+      },
+      {
+        "id": [
+          12763,
+          1634
+        ],
+        "uid": 7017976574427,
+        "file_id": 12763,
+        "name": "bBaseSites - LuaOnly",
+        "version": "3.42ba",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBaseSites - LuaOnly-1647-3-42ba-1622563710.7z",
+        "uploaded_timestamp": 1622563710,
+        "uploaded_time": "2021-06-01T16:08:30.000+00:00",
+        "mod_version": "3.42ba",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9d7bde7d32ed5b2dc6adcb76e969d45614e3fdcd6482704553d6428bb0296d87/detection/f-9d7bde7d32ed5b2dc6adcb76e969d45614e3fdcd6482704553d6428bb0296d87-1622563075",
+        "description": "Based on a request, I'm putting the Lua up separate from the mod as well",
+        "size_kb": 2,
+        "size_in_bytes": 2295,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites - LuaOnly-1647-3-42ba-1622563710.7z.json"
+      },
+      {
+        "id": [
+          12796,
+          1634
+        ],
+        "uid": 7017976574460,
+        "file_id": 12796,
+        "name": "bBaseSites",
+        "version": "3.50",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 52,
+        "file_name": "bBaseSites-1647-3-50-1622739521.7z",
+        "uploaded_timestamp": 1622739521,
+        "uploaded_time": "2021-06-03T16:58:41.000+00:00",
+        "mod_version": "3.50",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/682c7e97b0023580b46cac3801967afe552d2ca7345a5b1453d15e3b8cfc88da/detection/f-682c7e97b0023580b46cac3801967afe552d2ca7345a5b1453d15e3b8cfc88da-1622739525",
+        "description": "Main file, includes LUA in the PAK",
+        "size_kb": 52,
+        "size_in_bytes": 53242,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-50-1622739521.7z.json"
+      },
+      {
+        "id": [
+          13359,
+          1634
+        ],
+        "uid": 7017976575023,
+        "file_id": 13359,
+        "name": "bBaseSites",
+        "version": "3.53a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 52,
+        "file_name": "bBaseSites-1647-3-53a-1624726504.7z",
+        "uploaded_timestamp": 1624726504,
+        "uploaded_time": "2021-06-26T16:55:04.000+00:00",
+        "mod_version": "3.53a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b99c2a26a4848b0eccdae61a0604a2eab63f8f605fb940a2fa7583eca3f10f0e/detection/f-b99c2a26a4848b0eccdae61a0604a2eab63f8f605fb940a2fa7583eca3f10f0e-1624726509",
+        "description": "Main file, includes LUA in the PAK",
+        "size_kb": 52,
+        "size_in_bytes": 53264,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-53a-1624726504.7z.json"
+      },
+      {
+        "id": [
+          14229,
+          1634
+        ],
+        "uid": 7017976575893,
+        "file_id": 14229,
+        "name": "bBaseSites",
+        "version": "3.64a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 58,
+        "file_name": "bBaseSites-1647-3-64a-1631366916.7z",
+        "uploaded_timestamp": 1631366916,
+        "uploaded_time": "2021-09-11T13:28:36.000+00:00",
+        "mod_version": "3.64a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c28595345d5a24651b942aebf786eee9f140d87b40eb25bcd609a3afe760d40b/detection/f-c28595345d5a24651b942aebf786eee9f140d87b40eb25bcd609a3afe760d40b-1631366923",
+        "description": "Main file, includes LUA in the PAK",
+        "size_kb": 58,
+        "size_in_bytes": 59591,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-64a-1631366916.7z.json"
+      },
+      {
+        "id": [
+          14757,
+          1634
+        ],
+        "uid": 7017976576421,
+        "file_id": 14757,
+        "name": "bBaseSites",
+        "version": "3.68a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 53,
+        "file_name": "bBaseSites-1647-3-68a-1633162401.7z",
+        "uploaded_timestamp": 1633162401,
+        "uploaded_time": "2021-10-02T08:13:21.000+00:00",
+        "mod_version": "3.68a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7abd8bbcc463e7a1ae266ec333405074dbe7881670f1c92e6108074fde79cb88/detection/f-7abd8bbcc463e7a1ae266ec333405074dbe7881670f1c92e6108074fde79cb88-1633162404",
+        "description": "Main file, includes cs in the PAK.",
+        "size_kb": 53,
+        "size_in_bytes": 54617,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-68a-1633162401.7z.json"
+      },
+      {
+        "id": [
+          14769,
+          1634
+        ],
+        "uid": 7017976576433,
+        "file_id": 14769,
+        "name": "bBaseSites - Lua Only",
+        "version": "3.68a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBaseSites - Lua Only-1647-3-68a-1633213123.7z",
+        "uploaded_timestamp": 1633213123,
+        "uploaded_time": "2021-10-02T22:18:43.000+00:00",
+        "mod_version": "3.68a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5cbc541fa9657ff80c600553c99d7052b9a4aa37f85bc32345743eff7881bb1f/detection/f-5cbc541fa9657ff80c600553c99d7052b9a4aa37f85bc32345743eff7881bb1f-1633213127",
+        "description": "Based on a request, I'm putting the Lua up separate from the mod as well.  This has been updated for 3.68.",
+        "size_kb": 2,
+        "size_in_bytes": 2384,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites - Lua Only-1647-3-68a-1633213123.7z.json"
+      },
+      {
+        "id": [
+          15043,
+          1634
+        ],
+        "uid": 7017976576707,
+        "file_id": 15043,
+        "name": "bBaseSites",
+        "version": "3.70a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 59,
+        "file_name": "bBaseSites-1647-3-70a-1634985111.7z",
+        "uploaded_timestamp": 1634985111,
+        "uploaded_time": "2021-10-23T10:31:51.000+00:00",
+        "mod_version": "3.70a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5fd96687912799f6348135cbe3bde742d8177933f40d047ff5956c1b02365a23/detection/f-5fd96687912799f6348135cbe3bde742d8177933f40d047ff5956c1b02365a23-1634985170",
+        "description": "Main file, includes cs and Lua in the PAK.",
+        "size_kb": 59,
+        "size_in_bytes": 60912,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-70a-1634985111.7z.json"
+      },
+      {
+        "id": [
+          15465,
+          1634
+        ],
+        "uid": 7017976577129,
+        "file_id": 15465,
+        "name": "bBaseSites - Lua Only",
+        "version": "3.75a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBaseSites - Lua Only-1647-3-75a-1638918853.7z",
+        "uploaded_timestamp": 1638918853,
+        "uploaded_time": "2021-12-07T23:14:13.000+00:00",
+        "mod_version": "3.75a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4dedbc6a50c3f56118db9637eb0654806ec0b549b6e6df50ca297472855ff3bb/detection/f-4dedbc6a50c3f56118db9637eb0654806ec0b549b6e6df50ca297472855ff3bb-1638918857",
+        "description": "Based on a request, I'm putting the Lua up separate from the mod as well.  This has been updated for 3.75.",
+        "size_kb": 2,
+        "size_in_bytes": 2398,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites - Lua Only-1647-3-75a-1638918853.7z.json"
+      },
+      {
+        "id": [
+          15466,
+          1634
+        ],
+        "uid": 7017976577130,
+        "file_id": 15466,
+        "name": "bBaseSites",
+        "version": "3.75a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 60,
+        "file_name": "bBaseSites-1647-3-75a-1638919657.7z",
+        "uploaded_timestamp": 1638919657,
+        "uploaded_time": "2021-12-07T23:27:37.000+00:00",
+        "mod_version": "3.75a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fe6d38b80d82e63b6c7b57dc4714e0b81ba0a8254c08447d9896664a84a3aec4/detection/f-fe6d38b80d82e63b6c7b57dc4714e0b81ba0a8254c08447d9896664a84a3aec4-1638919662",
+        "description": "Main file, includes cs and Lua in the PAK.",
+        "size_kb": 60,
+        "size_in_bytes": 60941,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-75a-1638919657.7z.json"
+      },
+      {
+        "id": [
+          15950,
+          1634
+        ],
+        "uid": 7017976577614,
+        "file_id": 15950,
+        "name": "bBaseSites",
+        "version": "3.82",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 60,
+        "file_name": "bBaseSites-1647-3-82-1645546695.7z",
+        "uploaded_timestamp": 1645546695,
+        "uploaded_time": "2022-02-22T16:18:15.000+00:00",
+        "mod_version": "3.82",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/45e9718a9bbd5ca604365e17086ab4b231a24c0f75cab53ef7851708ecf467da/detection/f-45e9718a9bbd5ca604365e17086ab4b231a24c0f75cab53ef7851708ecf467da-1645546700",
+        "description": "Main file, includes cs and Lua in the PAK.",
+        "size_kb": 60,
+        "size_in_bytes": 61739,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-82-1645546695.7z.json"
+      },
+      {
+        "id": [
+          17382,
+          1634
+        ],
+        "uid": 7017976579046,
+        "file_id": 17382,
+        "name": "bBaseSites",
+        "version": "3.87a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 72,
+        "file_name": "bBaseSitres-1647-3-87a-1651055346.7z",
+        "uploaded_timestamp": 1651055346,
+        "uploaded_time": "2022-04-27T10:29:06.000+00:00",
+        "mod_version": "3.87a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/61e1f1a3f1979dcf646f9b43885d5671c97326b311eada67cc61ae86b8aa94cd/detection/f-61e1f1a3f1979dcf646f9b43885d5671c97326b311eada67cc61ae86b8aa94cd-1651055388",
+        "description": "Main file, includes cs and Lua in the PAK.",
+        "size_kb": 72,
+        "size_in_bytes": 73749,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSitres-1647-3-87a-1651055346.7z.json"
+      },
+      {
+        "id": [
+          18256,
+          1634
+        ],
+        "uid": 7017976579920,
+        "file_id": 18256,
+        "name": "bBaseSites",
+        "version": "3.91a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 84,
+        "file_name": "bBaseSites-1647-3-91a-1654475818.7z",
+        "uploaded_timestamp": 1654475818,
+        "uploaded_time": "2022-06-06T00:36:58.000+00:00",
+        "mod_version": "3.91a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/91c95ec04954131f86fff9ae07091899b3bf31ba0952e1904c5ce0706c8b4669/detection/f-91c95ec04954131f86fff9ae07091899b3bf31ba0952e1904c5ce0706c8b4669-1654475897",
+        "description": "Main file, includes cs and Lua in the PAK.",
+        "size_kb": 84,
+        "size_in_bytes": 86467,
+        "changelog_html": "Recompiled for 3.91\nRe-added the waypoint at the base site that was removed in 3.68",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-91a-1654475818.7z.json"
+      },
+      {
+        "id": [
+          18257,
+          1634
+        ],
+        "uid": 7017976579921,
+        "file_id": 18257,
+        "name": "bBaseSites - Lua Only",
+        "version": "3.91a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBaseSites - Lua Only-1647-3-91a-1654475955.7z",
+        "uploaded_timestamp": 1654475955,
+        "uploaded_time": "2022-06-06T00:39:15.000+00:00",
+        "mod_version": "3.91a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/232444e145543492df1ba7d2723aa6c290d98d17a983eb864be5b7549e43bd8f/detection/f-232444e145543492df1ba7d2723aa6c290d98d17a983eb864be5b7549e43bd8f-1654475960",
+        "description": "Based on a request, I'm putting the Lua up separate from the mod as well.  This has been updated for 3.91.",
+        "size_kb": 2,
+        "size_in_bytes": 2505,
+        "changelog_html": "Recompiled for 3.91\nRe-added the waypoint at the base site that was removed in 3.68",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites - Lua Only-1647-3-91a-1654475955.7z.json"
+      },
+      {
+        "id": [
+          19013,
+          1634
+        ],
+        "uid": 7017976580677,
+        "file_id": 19013,
+        "name": "bBaseSites",
+        "version": "3.97a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 124,
+        "file_name": "bBaseSites-1647-3-97a-1658933624.7z",
+        "uploaded_timestamp": 1658933624,
+        "uploaded_time": "2022-07-27T14:53:44.000+00:00",
+        "mod_version": "3.97a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/34fed27d4a5f1d837a6825586f90aac658320c90b1a9a9e3d877f182bdcfb895/detection/f-34fed27d4a5f1d837a6825586f90aac658320c90b1a9a9e3d877f182bdcfb895-1658933686",
+        "description": "Main file, includes cs and Lua in the PAK.",
+        "size_kb": 124,
+        "size_in_bytes": 127427,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-97a-1658933624.7z.json"
+      },
+      {
+        "id": [
+          19577,
+          1634
+        ],
+        "uid": 7017976581241,
+        "file_id": 19577,
+        "name": "bBaseSites - Lua Only",
+        "version": "3.98a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBaseSites - Lua Only-1647-3-98a-1659755357.7z",
+        "uploaded_timestamp": 1659755357,
+        "uploaded_time": "2022-08-06T03:09:17.000+00:00",
+        "mod_version": "3.98a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4bbb14e4aeda2320d3f385aa9e1a21fe2dbf31bec0cc8f990f80840f6955935c/detection/f-4bbb14e4aeda2320d3f385aa9e1a21fe2dbf31bec0cc8f990f80840f6955935c-1659755363",
+        "description": "Based on a request, I'm putting the Lua up separate from the mod as well.  This has been updated for 3.98 (Thanks to TechAngel85).",
+        "size_kb": 2,
+        "size_in_bytes": 2502,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites - Lua Only-1647-3-98a-1659755357.7z.json"
+      },
+      {
+        "id": [
+          19578,
+          1634
+        ],
+        "uid": 7017976581242,
+        "file_id": 19578,
+        "name": "bBaseSites - Lua Only",
+        "version": "3.98b",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBaseSites - Lua Only-1647-3-98b-1659755597.7z",
+        "uploaded_timestamp": 1659755597,
+        "uploaded_time": "2022-08-06T03:13:17.000+00:00",
+        "mod_version": "3.98b",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/862667097089bcd8f69e9836c496da17a3ae042b739b457e15e81435b5075595/detection/f-862667097089bcd8f69e9836c496da17a3ae042b739b457e15e81435b5075595-1659755601",
+        "description": "Based on a request, I'm putting the Lua up separate from the mod as well.  This has been updated for 3.98 (Thanks to TechAngel85). (for real this time)",
+        "size_kb": 2,
+        "size_in_bytes": 2550,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites - Lua Only-1647-3-98b-1659755597.7z.json"
+      },
+      {
+        "id": [
+          19804,
+          1634
+        ],
+        "uid": 7017976581468,
+        "file_id": 19804,
+        "name": "bBaseSites",
+        "version": "3.99a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 94,
+        "file_name": "bBaseSites-1647-3-99a-1660574576.7z",
+        "uploaded_timestamp": 1660574576,
+        "uploaded_time": "2022-08-15T14:42:56.000+00:00",
+        "mod_version": "3.99a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d74cc0107d6e3ab38671bb7cda16ef9140e586f00b59ac8c10fc3eb3feea46ca/detection/f-d74cc0107d6e3ab38671bb7cda16ef9140e586f00b59ac8c10fc3eb3feea46ca-1660574578",
+        "description": "Main file, includes cs in the PAK.",
+        "size_kb": 94,
+        "size_in_bytes": 96015,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-99a-1660574576.7z.json"
+      },
+      {
+        "id": [
+          20141,
+          1634
+        ],
+        "uid": 7017976581805,
+        "file_id": 20141,
+        "name": "bBaseSites",
+        "version": "3.99.1a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": true,
+        "size": 100,
+        "file_name": "bBaseSites-1647-3-99-1a-1661351892.7z",
+        "uploaded_timestamp": 1661351892,
+        "uploaded_time": "2022-08-24T14:38:12.000+00:00",
+        "mod_version": "3.99.1a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/707e155c624b5639384f4b81031efd86fe5ffe426e6d6e29a102f7f997ebc429/detection/f-707e155c624b5639384f4b81031efd86fe5ffe426e6d6e29a102f7f997ebc429-1661351899",
+        "description": "Main file, includes cs in the PAK.",
+        "size_kb": 100,
+        "size_in_bytes": 102883,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-3-99-1a-1661351892.7z.json"
+      },
+      {
+        "id": [
+          21502,
+          1634
+        ],
+        "uid": 7017976583166,
+        "file_id": 21502,
+        "name": "bBaseSites",
+        "version": "4.0.5a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 97,
+        "file_name": "bBaseSites-1647-4-0-5a-1666645408.7z",
+        "uploaded_timestamp": 1666645408,
+        "uploaded_time": "2022-10-24T21:03:28.000+00:00",
+        "mod_version": "4.0.5a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9a71fcfcf5fe0d8f26fe2390162909694b89cee3ab86cedd336f7a5d28798123/detection/f-9a71fcfcf5fe0d8f26fe2390162909694b89cee3ab86cedd336f7a5d28798123-1666645442",
+        "description": "Main file, includes cs in the PAK.",
+        "size_kb": 97,
+        "size_in_bytes": 98870,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-4-0-5a-1666645408.7z.json"
+      },
+      {
+        "id": [
+          23585,
+          1634
+        ],
+        "uid": 7017976585249,
+        "file_id": 23585,
+        "name": "bBaseSites",
+        "version": "4.12",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 100,
+        "file_name": "bBaseSites-1647-4-12-1677811185.7z",
+        "uploaded_timestamp": 1677811185,
+        "uploaded_time": "2023-03-03T02:39:45.000+00:00",
+        "mod_version": "4.12",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/40c9058eae8013182f582c98583244043f870c9f496c72267218592b0f8e3653/detection/f-40c9058eae8013182f582c98583244043f870c9f496c72267218592b0f8e3653-1677811189",
+        "description": "Main file, includes cs in the PAK.",
+        "size_kb": 100,
+        "size_in_bytes": 102412,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-4-12-1677811185.7z.json"
+      },
+      {
+        "id": [
+          24966,
+          1634
+        ],
+        "uid": 7017976586630,
+        "file_id": 24966,
+        "name": "bBaseSites",
+        "version": "4.22a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 102,
+        "file_name": "bBaseSites-1647-4-22a-1681566432.7z",
+        "uploaded_timestamp": 1681566432,
+        "uploaded_time": "2023-04-15T13:47:12.000+00:00",
+        "mod_version": "4.22a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2e401e4d2b6856aa4779177339e1f73e354a31695820209c0b4b9f631e06c7c7/detection/f-2e401e4d2b6856aa4779177339e1f73e354a31695820209c0b4b9f631e06c7c7-1681566437",
+        "description": "Main file, includes cs in the PAK.",
+        "size_kb": 102,
+        "size_in_bytes": 104687,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-4-22a-1681566432.7z.json"
+      },
+      {
+        "id": [
+          25162,
+          1634
+        ],
+        "uid": 7017976586826,
+        "file_id": 25162,
+        "name": "bBaseSites -- lua only",
+        "version": "4.22a",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "bBaseSites -- lua only-1647-4-22a-1682205606.7z",
+        "uploaded_timestamp": 1682205606,
+        "uploaded_time": "2023-04-22T23:20:06.000+00:00",
+        "mod_version": "4.22a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6e05f7b0973c7561ef40d95a2512e24a6dcf2dcc5850b22fd85d2cc7ab478e03/detection/f-6e05f7b0973c7561ef40d95a2512e24a6dcf2dcc5850b22fd85d2cc7ab478e03-1682205613",
+        "description": "The lua file for building/merging with AMUMSS.  Credit to Babscoole for the lua.",
+        "size_kb": 3,
+        "size_in_bytes": 2666,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites -- lua only-1647-4-22a-1682205606.7z.json"
+      },
+      {
+        "id": [
+          26199,
+          1634
+        ],
+        "uid": 7017976587863,
+        "file_id": 26199,
+        "name": "Better Base Sites",
+        "version": "4.33",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 102,
+        "file_name": "Better Base Sites-1647-4-33-1686675560.zip",
+        "uploaded_timestamp": 1686675560,
+        "uploaded_time": "2023-06-13T16:59:20.000+00:00",
+        "mod_version": "4.33",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fd2299c2561c709a05161470efe0fef28dd1833411dbdcfd9bd32ff196390fb8/detection/f-fd2299c2561c709a05161470efe0fef28dd1833411dbdcfd9bd32ff196390fb8-1686675574",
+        "description": "Main file, includes cs in the PAK.",
+        "size_kb": 102,
+        "size_in_bytes": 104087,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/Better Base Sites-1647-4-33-1686675560.zip.json"
+      },
+      {
+        "id": [
+          26200,
+          1634
+        ],
+        "uid": 7017976587864,
+        "file_id": 26200,
+        "name": "Lua ONLY",
+        "version": "4.37",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Lua ONLY-1647-4-33-1686687383.7z",
+        "uploaded_timestamp": 1686687383,
+        "uploaded_time": "2023-06-13T20:16:23.000+00:00",
+        "mod_version": "4.37",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/865b3fcda7b07c46831faecdf201a274104cfc246a010906e8bf28dcf6356c12/detection/f-865b3fcda7b07c46831faecdf201a274104cfc246a010906e8bf28dcf6356c12-1686687389",
+        "description": "The lua file for building/merging with AMUMSS.  Credit to Babscoole for the lua.",
+        "size_kb": 3,
+        "size_in_bytes": 2705,
+        "changelog_html": "REcompiled",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/Lua ONLY-1647-4-33-1686687383.7z.json"
+      },
+      {
+        "id": [
+          26621,
+          1634
+        ],
+        "uid": 7017976588285,
+        "file_id": 26621,
+        "name": "bBaseSites",
+        "version": "4.37",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 102,
+        "file_name": "bBaseSites-1647-4-36-1689020359.zip",
+        "uploaded_timestamp": 1689020359,
+        "uploaded_time": "2023-07-10T20:19:19.000+00:00",
+        "mod_version": "4.37",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/52e9864da60d13e9b24197404ee26b84db10e9a1e1c07c2abdb03a4f22066112/detection/f-52e9864da60d13e9b24197404ee26b84db10e9a1e1c07c2abdb03a4f22066112-1689020365",
+        "description": "Main file, includes cs in the PAK. Lua is below.  PLEASE NOTE: This version only works with game version 4.36.",
+        "size_kb": 102,
+        "size_in_bytes": 104774,
+        "changelog_html": "REcompiled",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBaseSites-1647-4-36-1689020359.zip.json"
+      },
+      {
+        "id": [
+          40024,
+          1634
+        ],
+        "uid": 7017976601688,
+        "file_id": 40024,
+        "name": "bBetter Base Sites",
+        "version": "5.58",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBetter Base Sites-1647-5-58-1741316868.7z",
+        "uploaded_timestamp": 1741316868,
+        "uploaded_time": "2025-03-07T03:07:48.000+00:00",
+        "mod_version": "5.58",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fe07b8a72665e399dfd48dae5f6e00f2cfdb31fc4917c27b858ee39ae25885bd/detection/f-fe07b8a72665e399dfd48dae5f6e00f2cfdb31fc4917c27b858ee39ae25885bd-1741316874",
+        "description": "Main file PLEASE NOTE: This version only works with game version 5.58+",
+        "size_kb": 2,
+        "size_in_bytes": 2454,
+        "changelog_html": "Converted to EXML\nUpdated for Wolds Pt II",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBetter Base Sites-1647-5-58-1741316868.7z.json"
+      },
+      {
+        "id": [
+          40057,
+          1634
+        ],
+        "uid": 7017976601721,
+        "file_id": 40057,
+        "name": "bBetter Base Sites",
+        "version": "5.58a",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "bBetter Base Sites-1647-5-58a-1741472617.7z",
+        "uploaded_timestamp": 1741472617,
+        "uploaded_time": "2025-03-08T22:23:37.000+00:00",
+        "mod_version": "5.58a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c7958fced76b605754a4d831d542d086e010d72109f5615161c7faff41ff2bfa/detection/f-c7958fced76b605754a4d831d542d086e010d72109f5615161c7faff41ff2bfa-1741472619",
+        "description": "Main file PLEASE NOTE: This version only works with game version 5.58+",
+        "size_kb": 2,
+        "size_in_bytes": 2428,
+        "changelog_html": "Fix the base sites coming up as chart unusable",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBetter Base Sites-1647-5-58a-1741472617.7z.json"
+      },
+      {
+        "id": [
+          42953,
+          1634
+        ],
+        "uid": 7017976604617,
+        "file_id": 42953,
+        "name": "bBetter Base Sites -- Lua Only",
+        "version": "6.0.3",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "bBetter Base Sites -- Lua Only-1647-6-0-3-1757132283.7z",
+        "uploaded_timestamp": 1757132283,
+        "uploaded_time": "2025-09-06T04:18:03.000+00:00",
+        "mod_version": "6.0.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8326af5f1442d4128e9f628f83e94c98c33e8006f4feefecf8054c9147573409/detection/f-8326af5f1442d4128e9f628f83e94c98c33e8006f4feefecf8054c9147573409-1757132285",
+        "description": "Lua only, updated for Worlds Pt 2",
+        "size_kb": 1,
+        "size_in_bytes": 1212,
+        "changelog_html": "Reimplemented Lua\nCompiled for 6.x",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBetter Base Sites -- Lua Only-1647-6-0-3-1757132283.7z.json"
+      },
+      {
+        "id": [
+          42954,
+          1634
+        ],
+        "uid": 7017976604618,
+        "file_id": 42954,
+        "name": "bBetter Base Sites",
+        "version": "6.0.3",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "bBetter Base Sites-1647-6-0-3-1757132494.7z",
+        "uploaded_timestamp": 1757132494,
+        "uploaded_time": "2025-09-06T04:21:34.000+00:00",
+        "mod_version": "6.0.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/67145b6dabaf4b794d2c6c96093bec147ea8fd156b0f5d7ddcc20b31c1cfc7a5/detection/f-67145b6dabaf4b794d2c6c96093bec147ea8fd156b0f5d7ddcc20b31c1cfc7a5-1757132498",
+        "description": "Main file PLEASE NOTE: This version only works with game version 5.58+",
+        "size_kb": 3,
+        "size_in_bytes": 3570,
+        "changelog_html": "Reimplemented Lua\nCompiled for 6.x",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBetter Base Sites-1647-6-0-3-1757132494.7z.json"
+      },
+      {
+        "id": [
+          43376,
+          1634
+        ],
+        "uid": 7017976605040,
+        "file_id": 43376,
+        "name": "bBetter Base Sites",
+        "version": "6.0.5",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "bBetter Base Sites-1647-6-0-5-1758037987.7z",
+        "uploaded_timestamp": 1758037987,
+        "uploaded_time": "2025-09-16T15:53:07.000+00:00",
+        "mod_version": "6.0.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4cd05874a7a368309ba96331aba22e53ed0247ab89f28e661653c3d1b4977866/detection/f-4cd05874a7a368309ba96331aba22e53ed0247ab89f28e661653c3d1b4977866-1758037993",
+        "description": "Main file (EXML) PLEASE NOTE: This version only works with game version 5.58+",
+        "size_kb": 4,
+        "size_in_bytes": 3624,
+        "changelog_html": "Fixed a bug that prevented locating base sites",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBetter Base Sites-1647-6-0-5-1758037987.7z.json"
+      },
+      {
+        "id": [
+          43413,
+          1634
+        ],
+        "uid": 7017976605077,
+        "file_id": 43413,
+        "name": "bBetter Base Sites -- Lua Only",
+        "version": "6.0.5",
+        "category_id": 5,
+        "category_name": "MISCELLANEOUS",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "bBetter Base Sites -- Lua Only-1647-6-0-5-1758042288.7z",
+        "uploaded_timestamp": 1758042288,
+        "uploaded_time": "2025-09-16T17:04:48.000+00:00",
+        "mod_version": "6.0.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cda2abd7d669893b307c5dab8c040eec8fefa4b107f88da4c0b5bec581ad5de7/detection/f-cda2abd7d669893b307c5dab8c040eec8fefa4b107f88da4c0b5bec581ad5de7-1758042293",
+        "description": "Lua only",
+        "size_kb": 1,
+        "size_in_bytes": 1220,
+        "changelog_html": "Fixed a bug that prevented locating base sites",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1647/bBetter Base Sites -- Lua Only-1647-6-0-5-1758042288.7z.json"
+      }
+    ],
+    "changelogs": {
+      "1.0": [
+        "Initial upload"
+      ],
+      "2.62": [
+        "Recompiled for 2.62"
+      ],
+      "3.0": [
+        "Recompiled for 3.0"
+      ],
+      "3.91a": [
+        "Recompiled for 3.91",
+        "Re-added the waypoint at the base site that was removed in 3.68"
+      ],
+      "4.37": [
+        "REcompiled"
+      ],
+      "5.58": [
+        "Converted to EXML",
+        "Updated for Wolds Pt II"
+      ],
+      "5.58a": [
+        "Fix the base sites coming up as chart unusable"
+      ],
+      "6.0.3": [
+        "Reimplemented Lua",
+        "Compiled for 6.x"
+      ],
+      "6.0.5": [
+        "Fixed a bug that prevented locating base sites"
+      ]
+    }
+  },
+  {
+    "mod_id": 2584,
+    "name": "sProtect - No Tech Damage with Shield Up",
+    "summary": "Disables Tech Damage while your Shield still up, your Techs will only be damaged if your shield goes down.",
+    "version": "6.02",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2584/2584-1667569410-743119817.jpeg",
+    "author": "Syzzle",
+    "mod_downloads": 4943,
+    "endorsement_count": 140,
+    "updated_timestamp": 1756858033,
+    "created_timestamp": 1667570167,
+    "description": "If you like the idea of your Techs being damage in Combat, but dislike the idea that for some reason they still get Damaged even though your Shield is there and your Ship didn't take any damage at all, this mod is for you. Your Techs will only be breaking when your Shield goes down, so until that happen your Techs will be completely protected.\n<br />\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          42864,
+          1634
+        ],
+        "uid": 7017976604528,
+        "file_id": 42864,
+        "name": "sProtect",
+        "version": "6.02",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "sProtect-2584-6-02-1756858033.zip",
+        "uploaded_timestamp": 1756858033,
+        "uploaded_time": "2025-09-03T00:07:13.000+00:00",
+        "mod_version": "6.02",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c279a0c3f3a4a152d1cbd9d60c66bd971c822b3fb7021d3e3898dcf791e28079/detection/f-c279a0c3f3a4a152d1cbd9d60c66bd971c822b3fb7021d3e3898dcf791e28079-1756858038",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1478,
+        "changelog_html": "Updated to 6.02",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2584/sProtect-2584-6-02-1756858033.zip.json"
+      }
+    ],
+    "changelogs": {
+      "4.15": [
+        "Updated to 4.15"
+      ],
+      "4.20": [
+        "Updated to 4.20"
+      ],
+      "4.22": [
+        "Updated to 4.22"
+      ],
+      "4.23": [
+        "Updated to 4.23"
+      ],
+      "4.25": [
+        "Updated to 4.25"
+      ],
+      "4.30": [
+        "Updated to 4.30"
+      ],
+      "4.34": [
+        "Updated to 4.34"
+      ],
+      "4.36": [
+        "Updated to 4.36"
+      ],
+      "4.38": [
+        "Updated to 4.38"
+      ],
+      "4.40": [
+        "Updated to 4.40"
+      ],
+      "4.42": [
+        "Updated to 4.42"
+      ],
+      "4.44": [
+        "Updated to 4.44"
+      ],
+      "4.45": [
+        "Updated to 4.45"
+      ],
+      "4.46": [
+        "Updated to 4.46"
+      ],
+      "4.47": [
+        "Updated to 4.47"
+      ],
+      "4.50": [
+        "Updated to 4.50"
+      ],
+      "4.51": [
+        "Updated to 4.51"
+      ],
+      "4.52": [
+        "Updated to 4.52"
+      ],
+      "4.62": [
+        "Updated to 4.62"
+      ],
+      "4.64": [
+        "Updated to 4.64"
+      ],
+      "4.65": [
+        "Updated to 4.65"
+      ],
+      "4.70": [
+        "Updated to 4.70"
+      ],
+      "5.0": [
+        "Updated to 5.0"
+      ],
+      "5.02": [
+        "Updated to 5.02"
+      ],
+      "5.03": [
+        "Updated to 5.03"
+      ],
+      "5.05": [
+        "Updated to 5.05"
+      ],
+      "5.10": [
+        "Updated to 5.10"
+      ],
+      "5.12": [
+        "Updated to 5.12"
+      ],
+      "5.21": [
+        "Updated to 5.21"
+      ],
+      "5.25": [
+        "Updated to 5.25"
+      ],
+      "5.29": [
+        "Updated to 5.29"
+      ],
+      "5.51": [
+        "Updated to Worlds Part 2 new Modding System"
+      ],
+      "5.58": [
+        "Updated to 5.58"
+      ],
+      "6.02": [
+        "Updated to 6.02"
+      ]
+    }
+  },
+  {
+    "mod_id": 3832,
+    "name": "Pirate Station Corvette Teleport",
+    "summary": "Add the Corvette teleport pads to the Outlaw Stations.",
+    "version": "6.16",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3832/3832-1759096108-461570203.png",
+    "author": "Syzzle",
+    "mod_downloads": 2058,
+    "endorsement_count": 56,
+    "updated_timestamp": 1762724240,
+    "created_timestamp": 1759096241,
+    "description": "This mod add the Corvette teleport pads to the Outlaw Stations, no need to run all the way to the Corvette everytime anymore.\n<br />\n<br />[quote]⚠️ Replacement mod - Unlikely to work well with other Replacement mods[/quote]\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].",
+    "state": "warning",
+    "warningMessage": "Mod uses MBIN files, will conflict with other mod changing the same MBIN and likely to break when a new game update releases.",
+    "files": [
+      {
+        "id": [
+          44902,
+          1634
+        ],
+        "uid": 7017976606566,
+        "file_id": 44902,
+        "name": "Pirate Station Corvette Teleport",
+        "version": "6.16",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 118,
+        "file_name": "Pirate Station Corvette Teleport-3832-6-16-1762724240.zip",
+        "uploaded_timestamp": 1762724240,
+        "uploaded_time": "2025-11-09T21:37:20.000+00:00",
+        "mod_version": "6.16",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9d23395be2a6822d11a4bfa3fce82434294bc94fbcbeff307381656fc7f6d0a3/detection/f-9d23395be2a6822d11a4bfa3fce82434294bc94fbcbeff307381656fc7f6d0a3-1762724243",
+        "description": "",
+        "size_kb": 118,
+        "size_in_bytes": 121042,
+        "changelog_html": "Updated to 6.16",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3832/Pirate Station Corvette Teleport-3832-6-16-1762724240.zip.json"
+      }
+    ],
+    "changelogs": {
+      "6.05": [
+        "Initial Release"
+      ],
+      "6.06": [
+        "Fixed the NPCs Ships getting stuck outside the station for whatever reason."
+      ],
+      "6.11": [
+        "Updated to 6.11"
+      ],
+      "6.11a": [
+        "Fixed the Teleport order because HG changed the order again."
+      ],
+      "6.16": [
+        "Updated to 6.16"
+      ]
+    }
+  },
+  {
+    "mod_id": 3828,
+    "name": "Better Abandoned Station",
+    "summary": "The mod add the Starship Fabricator and the Corvette teleport pads to Abandoned Stations.",
+    "version": "6.16",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3828/3828-1759027329-917244973.png",
+    "author": "Syzzle",
+    "mod_downloads": 1674,
+    "endorsement_count": 44,
+    "updated_timestamp": 1762724176,
+    "created_timestamp": 1759027453,
+    "description": "This mod add the Starship Fabricator and the Corvette teleport pads to Abandoned Stations, which also include all the Stations in the Abandoned Mode.\n<br />\n<br />[quote]⚠️ Replacement mod - Unlikely to work well with other Replacement mods[/quote]\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].",
+    "state": "warning",
+    "warningMessage": "Mod uses MBIN files, will conflict with other mod changing the same MBIN and likely to break when a new game update releases.",
+    "files": [
+      {
+        "id": [
+          44901,
+          1634
+        ],
+        "uid": 7017976606565,
+        "file_id": 44901,
+        "name": "Better Abandoned Station",
+        "version": "6.16",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 113,
+        "file_name": "Better Abandoned Station-3828-6-16-1762724176.zip",
+        "uploaded_timestamp": 1762724176,
+        "uploaded_time": "2025-11-09T21:36:16.000+00:00",
+        "mod_version": "6.16",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0e95a80de99678f28a9e7e25895c7ce5a6aff67c7b8069096d987cd1f7753235/detection/f-0e95a80de99678f28a9e7e25895c7ce5a6aff67c7b8069096d987cd1f7753235-1762724180",
+        "description": "",
+        "size_kb": 113,
+        "size_in_bytes": 116051,
+        "changelog_html": "Updated to 6.16",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3828/Better Abandoned Station-3828-6-16-1762724176.zip.json"
+      }
+    ],
+    "changelogs": {
+      "6.05": [
+        "Initial Release",
+        "Rebranded the Mod and added the Corvette teleport pads to the Station."
+      ],
+      "6.05.1": [
+        "Fixed the Icon that shows which teleport goes to your Corvette showing in the wrong teleport."
+      ],
+      "6.06": [
+        "Updated to 6.06"
+      ],
+      "6.11": [
+        "Updated to 6.11"
+      ],
+      "6.11a": [
+        "Fixed the Teleport order because HG changed the order again."
+      ],
+      "6.16": [
+        "Updated to 6.16"
+      ]
+    }
+  },
+  {
+    "mod_id": 3360,
+    "name": "sHealthcare - Health Station Life Support",
+    "summary": "Makes the Health Station recover both your HP and your Life Support meter.",
+    "version": "6.04",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3360/3360-1739229183-1269491854.png",
+    "author": "Syzzle",
+    "mod_downloads": 936,
+    "endorsement_count": 35,
+    "updated_timestamp": 1757864515,
+    "created_timestamp": 1739229386,
+    "description": "I always found weird that you can recover your Hazard Shield and your HP on your base but for whatever reason you can't just plug your Oxygen Tank somewhere and recover your Life Support, so now you can, the Health Station will recover both your HP and your Life Support meter when used.\n<br />\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          42858,
+          1634
+        ],
+        "uid": 7017976604522,
+        "file_id": 42858,
+        "name": "sHealthcare",
+        "version": "6.04",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "sHealthcare-3360-6-02-1756857824.zip",
+        "uploaded_timestamp": 1756857824,
+        "uploaded_time": "2025-09-03T00:03:44.000+00:00",
+        "mod_version": "6.04",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d26310d3ff8b0811a1ee4e8ce17204f165fd29f80f710ee0c5c6825e746e1c24/detection/f-d26310d3ff8b0811a1ee4e8ce17204f165fd29f80f710ee0c5c6825e746e1c24-1756857826",
+        "description": "",
+        "size_kb": 2,
+        "size_in_bytes": 2079,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3360/sHealthcare-3360-6-02-1756857824.zip.json"
+      },
+      {
+        "id": [
+          43271,
+          1634
+        ],
+        "uid": 7017976604935,
+        "file_id": 43271,
+        "name": "sHealthcare - Powerless Health and Shield Stations",
+        "version": "6.04",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "sHealthcare - Powerless Health and Shield Stations-3360-6-04-1757864515.zip",
+        "uploaded_timestamp": 1757864515,
+        "uploaded_time": "2025-09-14T15:41:55.000+00:00",
+        "mod_version": "6.04",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8f815bedbbf1d8a91311ad8d2618ea70f67bc26cc5b719f976b994734db2211b/detection/f-8f815bedbbf1d8a91311ad8d2618ea70f67bc26cc5b719f976b994734db2211b-1757864519",
+        "description": "Use it along with the main mod.",
+        "size_kb": 3,
+        "size_in_bytes": 2573,
+        "changelog_html": null,
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3360/sHealthcare - Powerless Health and Shield Stations-3360-6-04-1757864515.zip.json"
+      }
+    ],
+    "changelogs": {
+      "5.54": [
+        "Initial Release"
+      ],
+      "5.58": [
+        "Updated to 5.58"
+      ],
+      "6.02": [
+        "Updated to 6.02"
+      ]
+    }
+  },
+  {
+    "mod_id": 3810,
+    "name": "Buildable Corvette Workshop Cache",
+    "summary": "Allows you to build the Corvette Workshop Cache in your base or in your Corvette.",
+    "version": "6.16",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3810/3810-1758503837-1387152977.png",
+    "author": "Syzzle",
+    "mod_downloads": 1595,
+    "endorsement_count": 51,
+    "updated_timestamp": 1762723008,
+    "created_timestamp": 1758503975,
+    "description": "This mod adds the Corvette Workshop Cache to be unlocked at the Anomaly (the same place you unlock the other base storages) so you can build them in your bases or inside your Corvette to get access to all your Corvette parts.\n<br />\n<br />PS: There may or may not be a bug with the game when you build (and/or dismantle) it inside the Corvette where the camera breaks and farther away from the ship, going back to the main menu and loading back in fixes the bug, so far the bug apparently only happens when building and/or dismantling it inside the Corvette, normal use doesn't break so far.\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].",
+    "state": "warning",
+    "warningMessage": "Mod uses MBIN files, will conflict with other mod changing the same MBIN and likely to break when a new game update releases.",
+    "files": [
+      {
+        "id": [
+          44899,
+          1634
+        ],
+        "uid": 7017976606563,
+        "file_id": 44899,
+        "name": "Buildable Corvette Workshop Cache",
+        "version": "6.16",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 14,
+        "file_name": "Buildable Corvette Workshop Cache-3810-6-16-1762723008.zip",
+        "uploaded_timestamp": 1762723008,
+        "uploaded_time": "2025-11-09T21:16:48.000+00:00",
+        "mod_version": "6.16",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a1c0f5e4fbcc7bf063100b8e5433313214071ec3bbcbde64ba734c0be1df736f/detection/f-a1c0f5e4fbcc7bf063100b8e5433313214071ec3bbcbde64ba734c0be1df736f-1762723009",
+        "description": "",
+        "size_kb": 14,
+        "size_in_bytes": 13864,
+        "changelog_html": "- Updated to 6.16<br />- Files changed around the mod folder, so make sure to delete the previous mod folder and installing the new one instead of just overwriting.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3810/Buildable Corvette Workshop Cache-3810-6-16-1762723008.zip.json"
+      }
+    ],
+    "changelogs": {
+      "6.05": [
+        "Initial Release"
+      ],
+      "6.11": [
+        "Updated to 6.11"
+      ],
+      "6.16": [
+        "- Updated to 6.16<br />- Files changed around the mod folder, so make sure to delete the previous mod folder and installing the new one instead of just overwriting."
+      ]
+    }
+  },
+  {
+    "mod_id": 3785,
+    "name": "Buildable Starship Outfitting Terminal",
+    "summary": "Allow you to build the Starship Outfitting Terminal in your base or Corvette.",
+    "version": "6.16",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3785/3785-1757875864-951689876.jpg",
+    "author": "Syzzle",
+    "mod_downloads": 1370,
+    "endorsement_count": 27,
+    "updated_timestamp": 1762722886,
+    "created_timestamp": 1757876175,
+    "description": "This mod adds 2 buildings of the Starship Outfitting Terminal to be unlocked in the Anomaly, one of them uses the original circle design you find in the Stations, but without the top part of it and the other uses an Autophage terminal design. The optional version of the Mod is the same as the main, except the Autophage design one has decoration around it.\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].",
+    "state": "warning",
+    "warningMessage": "Mod uses MBIN files, will conflict with other mod changing the same MBIN and likely to break when a new game update releases.",
+    "files": [
+      {
+        "id": [
+          44897,
+          1634
+        ],
+        "uid": 7017976606561,
+        "file_id": 44897,
+        "name": "Buildable Starship Outfitting Terminal",
+        "version": "6.16",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 13,
+        "file_name": "Buildable Starship Outfitting Terminal-3785-6-16-1762722861.zip",
+        "uploaded_timestamp": 1762722861,
+        "uploaded_time": "2025-11-09T21:14:21.000+00:00",
+        "mod_version": "6.16",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/371363a6d8f47949bef4be401216ff10837e716f770d72cfe5e92b32bf137bb1/detection/f-371363a6d8f47949bef4be401216ff10837e716f770d72cfe5e92b32bf137bb1-1762722863",
+        "description": "",
+        "size_kb": 13,
+        "size_in_bytes": 13453,
+        "changelog_html": "- Updated to 6.16<br />- Files changed around the mod folder, so make sure to delete the previous mod folder and installing the new one instead of just overwriting.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3785/Buildable Starship Outfitting Terminal-3785-6-16-1762722861.zip.json"
+      },
+      {
+        "id": [
+          44898,
+          1634
+        ],
+        "uid": 7017976606562,
+        "file_id": 44898,
+        "name": "Buildable Starship Outfitting Terminal - Decorated",
+        "version": "6.16",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 15,
+        "file_name": "Buildable Starship Outfitting Terminal - Decorated-3785-6-16-1762722886.zip",
+        "uploaded_timestamp": 1762722886,
+        "uploaded_time": "2025-11-09T21:14:46.000+00:00",
+        "mod_version": "6.16",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a3c9ef83ee3c464d8409df04138f803e07b4cb7d8fcdec70be3c7d83b1001e77/detection/f-a3c9ef83ee3c464d8409df04138f803e07b4cb7d8fcdec70be3c7d83b1001e77-1762722890",
+        "description": "",
+        "size_kb": 15,
+        "size_in_bytes": 15826,
+        "changelog_html": "- Updated to 6.16<br />- Files changed around the mod folder, so make sure to delete the previous mod folder and installing the new one instead of just overwriting.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3785/Buildable Starship Outfitting Terminal - Decorated-3785-6-16-1762722886.zip.json"
+      }
+    ],
+    "changelogs": {
+      "6.04": [
+        "Initial Release"
+      ],
+      "6.11": [
+        "Updated to 6.11"
+      ],
+      "6.16": [
+        "- Updated to 6.16<br />- Files changed around the mod folder, so make sure to delete the previous mod folder and installing the new one instead of just overwriting."
+      ]
+    }
+  },
+  {
+    "mod_id": 3420,
+    "name": "Communism - A Consumerism AddOn",
+    "summary": "Makes every Expedition and Twitch item added by Consumerism FREE OF CHARGE.",
+    "version": "6.10",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3420/3420-1743029391-404502943.png",
+    "author": "Syzzle",
+    "mod_downloads": 10892,
+    "endorsement_count": 195,
+    "updated_timestamp": 1761260463,
+    "created_timestamp": 1743035334,
+    "description": "[center]That's right Comrade, are you also tired of the capitalism devils dictating what you can or can not have? If you are then you can join us, this little trick can help you achieve everything you desire and the best part is that you will be able to do that FOR FREE! \n<br />You've heard it right, FOR FREE! \n<br />\n<br />[size=5][b]THERE IS NO CATCH![/b][/size]\n<br />\n<br />If you want to bask in this red glory then just install our [i]thing[/i] on your game, and as you probably have guessed, this thing is also FREE!\n<br />\n<br />If you still not believe in what we're saying, then don't believe on us, believe on them who believes on us.\n<br />\n<br />[img]https://i.imgur.com/y3JelQA.png[/img]﻿﻿[/center][center]﻿[/center][center][size=4][b]Convinced now?[/b][/size]\n<br />Then join us in this WAR against CAPITALISM, to do it is pretty simple, download our program and follow the instructions below to activate it.[/center]\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote][center]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].[/center]\n<br />\n<br />[center][img]https://i.imgur.com/kVHngZn.png[/img]﻿[/center]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          42970,
+          1634
+        ],
+        "uid": 7017976604634,
+        "file_id": 42970,
+        "name": "Communism - Free Void Egg",
+        "version": "6.03",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Communism - Free Void Egg-3420-6-03-1757177129.zip",
+        "uploaded_timestamp": 1757177129,
+        "uploaded_time": "2025-09-06T16:45:29.000+00:00",
+        "mod_version": "6.03",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/72a3efa3da9f0ff8c9b04bbf34eb17132a062891b285312bcdd6b7132fad44cf/detection/f-72a3efa3da9f0ff8c9b04bbf34eb17132a062891b285312bcdd6b7132fad44cf-1757177131",
+        "description": "Glory to the collective! The Void Egg, a tool for the people, is now liberated from the capitalist yoke of price and is rightfully free. For it is not an item of decadent, bourgeois expeditions, but a common resource for all.",
+        "size_kb": 1,
+        "size_in_bytes": 1302,
+        "changelog_html": "Due to a change in policy, the Void Egg is now considered an item of capitalist luxury and must be bought with a price, rather than being given freely to the people.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3420/Communism - Free Void Egg-3420-6-03-1757177129.zip.json"
+      },
+      {
+        "id": [
+          44525,
+          1634
+        ],
+        "uid": 7017976606189,
+        "file_id": 44525,
+        "name": "Communism",
+        "version": "6.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 10,
+        "file_name": "Communism-3420-6-10-1761260462.zip",
+        "uploaded_timestamp": 1761260463,
+        "uploaded_time": "2025-10-23T23:01:03.000+00:00",
+        "mod_version": "6.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6095a8d10041bd3312ca68ba9ef3dcb7a0a4079bf7c4cb5ec108f63727b3682c/detection/f-6095a8d10041bd3312ca68ba9ef3dcb7a0a4079bf7c4cb5ec108f63727b3682c-1761260467",
+        "description": "Here is your passport, Comrade.",
+        "size_kb": 10,
+        "size_in_bytes": 10141,
+        "changelog_html": "Comrades! The new resources secured by the victorious Breach expedition are now property of the collective and have been added to the people's inventory!",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3420/Communism-3420-6-10-1761260462.zip.json"
+      }
+    ],
+    "changelogs": {
+      "5.60": [
+        "Initial Release"
+      ],
+      "5.70": [
+        "Updated to 5.70, broski"
+      ],
+      "6.0": [
+        "Received the intel from Agent 6.0 with the new armaments for our cause."
+      ],
+      "6.03": [
+        "Due to a change in policy, the Void Egg is now considered an item of capitalist luxury and must be bought with a price, rather than being given freely to the people."
+      ],
+      "6.04": [
+        "Comrades,  In our collective struggle for a more just universe, we have liberated some of the Expedition Ships from the oppressive burden of Nanites. The People's Fleet is now more accessible to all who contribute to the common good!"
+      ],
+      "6.05": [
+        "Comrade, the Deadeye Cannon is now, by the will of the people and for the glory of the collective, a resource liberated from the chains of capitalist exchange! It is our cannon, and its use is free for all who serve the cause!"
+      ],
+      "6.10": [
+        "Comrades! The new resources secured by the victorious Breach expedition are now property of the collective and have been added to the people's inventory!"
+      ]
+    }
+  },
+  {
+    "mod_id": 2589,
+    "name": "Unlockable Expedition Exclusive Techs",
+    "summary": "Adds the Expedition and Pre-Order exclusive Techs for Ship, Multi-Tool, Exosuit and Base Building to the Anomaly.",
+    "version": "6.16",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2589/2589-1668019734-311713757.jpeg",
+    "author": "Syzzle07",
+    "mod_downloads": 29789,
+    "endorsement_count": 710,
+    "updated_timestamp": 1762723868,
+    "created_timestamp": 1668020347,
+    "description": "This mod does a couple of things, it changes Pulse Drive, Launch Thruster and Hyperdrive to be able to be dismantled so you can install the replacement ones, and add the Techs you're not able to get normally anymore, such as Expedition exclusive techs, pre-order techs or techs that were removed from the game.\n<br />\n<br />[b]Ships:[/b]\n<br />Add Waveform Engine which is a better Pulse Drive. (Expedition Tech)\n<br />Add Frameshift Catapult which is a better Hyperdrive. (Expedition Tech)\n<br />Add Advanced Launch System which is a better Launch Thruster. (Expedition Tech)\n<br />Add Photonix Core which is a Pulse Drive Upgrade. (PS4 Pre-Order Tech)\n<br />\n<br />[color=#ffff00][size=4][b]WARNING:[/b][/size][/color][color=#ff0000][size=4][b] [/b][/size][/color]\n<br />[quote]Since Waveform Engine, Frameshift Catapult and Advanced Launch System are better versions of the mentioned 3 core ship techs, when installing them you SHOULD REMOVE THE OTHER EQUIVALENT ONE FROM THE SHIP otherwise your ship might break and not fly, if you install Waveform Engine, remove Pulse Drive, if you install Frameshift, remove Hyperdrive, if you install Advanced Launch System, remove Launch Thruster or your ship won't fly anymore.[/quote]\n<br />[b]\n<br />Multitools:[/b]\n<br />Add Boltcaster SM which is a Boltcaster Upgrade. (PS4 Pre-Order Tech)\n<br />Add Plasma Resonator which is a Mining Laser Upgrade. (Previously removed from the game)\n<br />\n<br />[b]Exosuit:[/b]\n<br />Add Visceral Synthesiser which I have no idea what it does, but it's an exclusive expedition tech so here we are. (Expedition Tech)\n<br />Add Archive Override Implant which I have no idea what it does either, but again it's an exclusive expedition tech. (Expedition Tech)\n<br />\n<br />[b]Base Buildings:\n<br />[/b]Add Utopia Build Station, Portable Exocraft Research Station, Utopia Ship Station, Utopia Exosuit Statio and Utopia Multi-Tool Station, they are portable stations from Utopia Expedition so you can learn new Blueprints without having to do to the Anomaly.\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].\n<br />\n<br />Even if you remove the Mod after installing the Techs on your ship, they will still be there, but you will lose the ability of installing it on other ships of course.",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          43101,
+          1634
+        ],
+        "uid": 7017976604765,
+        "file_id": 43101,
+        "name": "UEET - Utopia Stations Only",
+        "version": "6.04",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "UEET - Utopia Stations Only-2589-6-04-1757459072.zip",
+        "uploaded_timestamp": 1757459072,
+        "uploaded_time": "2025-09-09T23:04:32.000+00:00",
+        "mod_version": "6.04",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ac238613a57f6a8da984f77fbfc57bad272666cfad5905ec34cdec2629713f23/detection/f-ac238613a57f6a8da984f77fbfc57bad272666cfad5905ec34cdec2629713f23-1757459075",
+        "description": "Only has the Utopía Stations to be unlocked, nothing else.",
+        "size_kb": 4,
+        "size_in_bytes": 4067,
+        "changelog_html": "- Added Orbital Uplink to be unlocked at the Product Recipes computer at the Anomaly.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2589/UEET - Utopia Stations Only-2589-6-04-1757459072.zip.json"
+      },
+      {
+        "id": [
+          44900,
+          1634
+        ],
+        "uid": 7017976606564,
+        "file_id": 44900,
+        "name": "Unlockable Expedition Exclusive Techs",
+        "version": "6.16",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 7,
+        "file_name": "Unlockable Expedition Exclusive Techs-2589-6-16-1762723868.zip",
+        "uploaded_timestamp": 1762723868,
+        "uploaded_time": "2025-11-09T21:31:08.000+00:00",
+        "mod_version": "6.16",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a89413e384dfa1a1a30bd62025445c6698ec7a4c01c0ff2f4ae1b359cb3e780f/detection/f-a89413e384dfa1a1a30bd62025445c6698ec7a4c01c0ff2f4ae1b359cb3e780f-1762723869",
+        "description": "",
+        "size_kb": 7,
+        "size_in_bytes": 6674,
+        "changelog_html": "- Updated to 6.16<br />- Added Debris Rangefinder to unlock in the product blueprint tree.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2589/Unlockable Expedition Exclusive Techs-2589-6-16-1762723868.zip.json"
+      }
+    ],
+    "changelogs": {
+      "4.15": [
+        "Updated to 4.15"
+      ],
+      "4.20": [
+        "Updated to 4.20"
+      ],
+      "4.21": [
+        "- Updated to 4.21<br />- Added Boltcaster SM blueprint.<br />- Added Plasma Resonator blueprint.<br />- Added Visceral Synthesiser blueprint.<br />- Added Archive Override Implant blueprint."
+      ],
+      "4.22": [
+        "Updated to 4.22"
+      ],
+      "4.23": [
+        "Updated to 4.23"
+      ],
+      "4.25": [
+        "Updated to 4.25"
+      ],
+      "4.30": [
+        "Updated to 4.30"
+      ],
+      "4.34": [
+        "Updated to 4.34"
+      ],
+      "4.36": [
+        "Updated to 4.36"
+      ],
+      "4.38": [
+        "Updated to 4.38"
+      ],
+      "4.40": [
+        "Updated to 4.40"
+      ],
+      "4.42": [
+        "Updated to 4.42"
+      ],
+      "4.44": [
+        "Updated to 4.44"
+      ],
+      "4.45": [
+        "Updated to 4.45"
+      ],
+      "4.46": [
+        "Updated to 4.46"
+      ],
+      "4.47": [
+        "Updated to 4.47<br />- Added Utopia Build Station, Portable Exocraft Research Station, Utopia Ship Station, Utopia Exosuit Statio and Utopia Multi-Tool Station from Utopia Expedition."
+      ],
+      "4.50": [
+        "Updated to 4.50"
+      ],
+      "4.51": [
+        "Updated to 4.51"
+      ],
+      "4.52": [
+        "Updated to 4.52"
+      ],
+      "4.62": [
+        "Updated to 4.62"
+      ],
+      "4.64": [
+        "Updated to 4.64"
+      ],
+      "4.65": [
+        "Updated to 4.65"
+      ],
+      "4.70": [
+        "Updated to 4.70"
+      ],
+      "5.0": [
+        "Updated to 5.0"
+      ],
+      "5.02": [
+        "Updated to 5.02"
+      ],
+      "5.03": [
+        "Updated to 5.03"
+      ],
+      "5.05": [
+        "Updated to 5.05"
+      ],
+      "5.10": [
+        "- Updated to 5.10",
+        "- Fixed the missing Optical Drill blueprint from Eos (Most likely a bug that HG will fix)"
+      ],
+      "5.12": [
+        "Updated to 5.12<br />- Removed the Optical Drill fix, since it's not needed anymore."
+      ],
+      "5.21": [
+        "Updated to 5.21"
+      ],
+      "5.25": [
+        "Updated to 5.25"
+      ],
+      "5.29": [
+        "Updated to 5.29"
+      ],
+      "5.51": [
+        "Updated to Worlds Part 2 new Modding System"
+      ],
+      "5.56": [
+        "Updated to 5.56"
+      ],
+      "5.58": [
+        "Updated to 5.58",
+        "Mod updated to be fully EXML now."
+      ],
+      "5.64": [
+        "- Updated to 5.64<br />- Set the Utopia Stations to be allowed to be built in Freighters."
+      ],
+      "6.02": [
+        "Updated to 6.02"
+      ],
+      "6.04": [
+        "- Added Orbital Uplink to be unlocked at the Product Recipes computer at the Anomaly."
+      ],
+      "6.16": [
+        "- Updated to 6.16<br />- Added Debris Rangefinder to unlock in the product blueprint tree."
+      ]
+    }
+  }
+]
