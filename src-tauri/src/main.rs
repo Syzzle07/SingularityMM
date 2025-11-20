@@ -22,6 +22,9 @@ use winreg::RegKey;
 use zip::ZipArchive;
 use std::time::UNIX_EPOCH;
 use std::process::Command;
+use std::io::{self, Read};
+use sha2::{Sha256, Digest};
+use hex;
 
 // --- STRUCTS ---
 
@@ -98,6 +101,7 @@ struct InstallationAnalysis {
     successes: Vec<ModInstallInfo>,
     conflicts: Vec<ModConflictInfo>,
     messy_archive_path: Option<String>,
+    active_archive_path: Option<String>,
 }
 
 #[derive(Serialize, Clone)]
@@ -130,7 +134,60 @@ struct GamePaths {
     version_type: String,     // "Steam", "GOG", or "GamePass"
 }
 
+#[derive(Serialize, Deserialize, Clone, Debug)]
+struct ProfileModEntry {
+    filename: String,
+    hash: String,
+    // New fields for metadata
+    mod_id: Option<String>,
+    file_id: Option<String>,
+    version: Option<String>,
+}
+
+#[derive(Deserialize, Debug)]
+struct ProfileSaveRequest {
+    filename: String,
+    mod_id: Option<String>,
+    file_id: Option<String>,
+    version: Option<String>,
+}
+
+#[derive(Serialize, Deserialize, Clone, Debug)]
+struct ModProfileData {
+    name: String,
+    // We store the filename of the zip archive in the downloads folder
+    mods: Vec<ProfileModEntry>, // Changed from Vec<String> 
+}
+
+#[derive(Serialize, Clone)]
+struct ProfileSwitchProgress {
+    current: usize,
+    total: usize,
+    current_mod: String,
+}
+
+const CLEAN_MXML_TEMPLATE: &str = r#"<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcModSettings">
+  <Property name="DisableAllMods" value="false" />
+  <Property name="Data">
+  </Property>
+</Data>"#;
+
 // --- HELPER FUNCTIONS ---
+fn calculate_file_hash(path: &Path) -> Result<String, String> {
+    let mut file = fs::File::open(path).map_err(|e| e.to_string())?;
+    let mut hasher = Sha256::new();
+    let mut buffer = [0; 4096]; // Read in chunks
+
+    loop {
+        let count = file.read(&mut buffer).map_err(|e| e.to_string())?;
+        if count == 0 { break; }
+        hasher.update(&buffer[..count]);
+    }
+
+    Ok(hex::encode(hasher.finalize()))
+}
+
 fn read_mod_info(mod_path: &Path) -> Option<ModInfo> {
     let info_path = mod_path.join("mod_info.json");
     if !info_path.exists() {
@@ -383,9 +440,36 @@ fn get_all_mods_for_render() -> Result<Vec<ModRenderData>, String> {
 
 #[tauri::command]
 fn install_mod_from_archive(archive_path_str: String) -> Result<InstallationAnalysis, String> {
-    let archive_path = Path::new(&archive_path_str);
-    let game_path =
-        find_game_path().ok_or_else(|| "Could not find the game installation path.".to_string())?;
+    let mut archive_path = PathBuf::from(&archive_path_str);
+    let exe_path = env::current_exe().map_err(|e| e.to_string())?;
+    let exe_dir = exe_path.parent().ok_or("No parent dir")?;
+    let downloads_dir = exe_dir.join("downloads");
+    
+    // Ensure downloads directory exists
+    if !downloads_dir.exists() {
+        fs::create_dir_all(&downloads_dir).map_err(|e| e.to_string())?;
+    }
+
+    // 1. CHECK: Is this file already in the downloads folder?
+    // We compare canonical paths to be sure.
+    let in_downloads = if let (Ok(p1), Ok(p2)) = (archive_path.canonicalize(), downloads_dir.canonicalize()) {
+        p1.starts_with(p2)
+    } else {
+        false
+    };
+
+    // 2. IF NOT: Copy it there.
+    if !in_downloads {
+        let file_name = archive_path.file_name().ok_or("Invalid filename")?;
+        let target_path = downloads_dir.join(file_name);
+        
+        // If it exists, we might be overwriting an old manual drop, which is fine.
+        fs::copy(&archive_path, &target_path).map_err(|e| format!("Failed to copy to downloads: {}", e))?;
+        
+        // Update the archive_path variable to point to our internal copy
+        archive_path = target_path;
+    }
+    let game_path = find_game_path().ok_or_else(|| "Could not find the game installation path.".to_string())?;
     let mods_path = game_path.join("GAMEDATA").join("MODS");
     fs::create_dir_all(&mods_path).map_err(|e| e.to_string())?;
 
@@ -395,9 +479,7 @@ fn install_mod_from_archive(archive_path_str: String) -> Result<InstallationAnal
             let path = entry.path();
             if path.is_dir() {
                 if let Some(info) = read_mod_info(&path) {
-                    if let (Some(mod_id), Some(folder_name)) =
-                        (info.mod_id, path.file_name().and_then(|n| n.to_str()))
-                    {
+                    if let (Some(mod_id), Some(folder_name)) = (info.mod_id, path.file_name().and_then(|n| n.to_str())) {
                         installed_mods_by_id.insert(mod_id, folder_name.to_string());
                     }
                 }
@@ -405,7 +487,7 @@ fn install_mod_from_archive(archive_path_str: String) -> Result<InstallationAnal
         }
     }
 
-    let temp_extract_path = extract_archive_to_temp(archive_path, &mods_path)?;
+    let temp_extract_path = extract_archive_to_temp(&archive_path, &mods_path)?;
 
     let folder_entries: Vec<_> = fs::read_dir(&temp_extract_path)
         .map_err(|e| e.to_string())?
@@ -427,6 +509,7 @@ fn install_mod_from_archive(archive_path_str: String) -> Result<InstallationAnal
             successes: vec![],
             conflicts: vec![],
             messy_archive_path: Some(temp_extract_path.to_string_lossy().into_owned()),
+            active_archive_path: Some(archive_path.to_string_lossy().into_owned()),
         });
     }
 
@@ -489,34 +572,14 @@ fn install_mod_from_archive(archive_path_str: String) -> Result<InstallationAnal
 
     // --- THIS IS THE NEW, DETACHED CLEANUP LOGIC ---
     let path_for_cleanup = temp_extract_path.clone();
-    thread::spawn(move || {
-        // 1. Wait for a couple of seconds to let the OS release all file handles.
-        thread::sleep(Duration::from_secs(3));
-
-        // 2. Then, perform the robust retry loop.
-        let max_retries = 5;
-        let retry_delay = Duration::from_millis(500);
-        let mut cleanup_success = false;
-
-        for _ in 0..max_retries {
-            if fs::remove_dir_all(&path_for_cleanup).is_ok() {
-                cleanup_success = true;
-                println!("Successfully cleaned up temp dir in background: {}", path_for_cleanup.display());
-                break;
-            }
-            thread::sleep(retry_delay);
-        }
-
-        if !cleanup_success {
-            eprintln!("Warning: Background cleanup failed for temp directory at: {}", path_for_cleanup.display());
-        }
-    });
+    thread::spawn(move || { thread::sleep(Duration::from_secs(3)); fs::remove_dir_all(&path_for_cleanup).ok(); });
     // --- END OF NEW LOGIC ---
 
     Ok(InstallationAnalysis {
         successes,
         conflicts,
         messy_archive_path: None,
+        active_archive_path: Some(archive_path.to_string_lossy().into_owned()),
     })
 }
 
@@ -1264,6 +1327,278 @@ fn launch_game(version_type: String, game_path: String) -> Result<(), String> {
     Ok(())
 }
 
+// --- PROFILE MANAGEMENT ---
+
+fn get_profiles_dir() -> Result<PathBuf, String> {
+    let exe_path = env::current_exe().map_err(|e| e.to_string())?;
+    let exe_dir = exe_path.parent().ok_or("No parent dir")?;
+    let profiles_dir = exe_dir.join("profiles");
+    if !profiles_dir.exists() {
+        fs::create_dir_all(&profiles_dir).map_err(|e| e.to_string())?;
+    }
+    Ok(profiles_dir)
+}
+
+#[tauri::command]
+fn list_profiles() -> Result<Vec<String>, String> {
+    let dir = get_profiles_dir()?;
+    let mut profiles = Vec::new();
+    
+    // 1. Always ensure "Default" is first in the list
+    profiles.push("Default".to_string());
+
+    if let Ok(entries) = fs::read_dir(dir) {
+        for entry in entries.flatten() {
+            if let Some(name) = entry.path().file_stem() {
+                let name_str = name.to_string_lossy().into_owned();
+                // 2. Filter out "Default" here so it doesn't appear twice
+                if name_str != "Default" && entry.path().extension().unwrap_or_default() == "json" {
+                    profiles.push(name_str);
+                }
+            }
+        }
+    }
+    // Optional: Sort the rest alphabetically (excluding Default)
+    let mut others: Vec<String> = profiles.drain(1..).collect();
+    others.sort();
+    profiles.extend(others);
+
+    Ok(profiles)
+}
+
+#[tauri::command]
+fn save_active_profile(profile_name: String, mods: Vec<ProfileSaveRequest>) -> Result<(), String> {
+    let dir = get_profiles_dir()?;
+    let json_path = dir.join(format!("{}.json", profile_name));
+    let mxml_backup_path = dir.join(format!("{}.mxml", profile_name));
+    
+    let exe_path = env::current_exe().map_err(|e| e.to_string())?;
+    let exe_dir = exe_path.parent().ok_or("No parent dir")?;
+    let downloads_dir = exe_dir.join("downloads");
+
+    let mut profile_entries = Vec::new();
+
+    for mod_req in mods {
+        let path = downloads_dir.join(&mod_req.filename);
+        let hash = if path.exists() {
+            calculate_file_hash(&path).unwrap_or("HASH_ERROR".to_string())
+        } else {
+            "MISSING_FILE".to_string()
+        };
+
+        profile_entries.push(ProfileModEntry {
+            filename: mod_req.filename,
+            hash: hash,
+            mod_id: mod_req.mod_id,
+            file_id: mod_req.file_id,
+            version: mod_req.version,
+        });
+    }
+
+    let data = ModProfileData {
+        name: profile_name.clone(),
+        mods: profile_entries,
+    };
+    
+    let json_str = serde_json::to_string_pretty(&data).map_err(|e| e.to_string())?;
+    fs::write(&json_path, json_str).map_err(|e| e.to_string())?;
+
+    // Backup MXML (Same as before)
+    if let Some(game_path) = find_game_path() {
+        let current_mxml = game_path.join("Binaries").join("SETTINGS").join("GCMODSETTINGS.MXML");
+        if current_mxml.exists() {
+            fs::copy(current_mxml, mxml_backup_path).map_err(|e| e.to_string())?;
+        }
+    }
+    Ok(())
+}
+
+#[tauri::command]
+async fn apply_profile(app: tauri::AppHandle, profile_name: String) -> Result<(), String> {
+    // ... [Load dirs logic same as before] ...
+    let dir = get_profiles_dir()?;
+    let json_path = dir.join(format!("{}.json", profile_name));
+    let mxml_backup_path = dir.join(format!("{}.mxml", profile_name));
+
+    let profile_data: ModProfileData = if profile_name == "Default" && !json_path.exists() {
+        ModProfileData { name: "Default".to_string(), mods: vec![] }
+    } else {
+        let content = fs::read_to_string(&json_path).map_err(|_| "Profile not found".to_string())?;
+        serde_json::from_str(&content).map_err(|e| e.to_string())?
+    };
+
+    // ... [Purge Logic same as before] ...
+    let game_path = find_game_path().ok_or("Game path not found")?;
+    let mods_dir = game_path.join("GAMEDATA/MODS");
+    if mods_dir.exists() {
+        for entry in fs::read_dir(&mods_dir).map_err(|e| e.to_string())? {
+            let entry = entry.map_err(|e| e.to_string())?;
+            if entry.path().is_dir() || entry.path().extension().unwrap_or_default() == "pak" {
+                if entry.path().is_dir() { fs::remove_dir_all(entry.path()).ok(); }
+                else { fs::remove_file(entry.path()).ok(); }
+            }
+        }
+    }
+
+    // 3. Restore GCMODSETTINGS.MXML
+    let live_mxml = game_path.join("Binaries").join("SETTINGS").join("GCMODSETTINGS.MXML");
+    println!("Applying Profile: {}", profile_name);
+
+    if mxml_backup_path.exists() {
+        // Strategy: Read backup, Write to live (Truncate)
+        // This avoids file-lock issues that happen with delete/move
+        let mut src = fs::File::open(&mxml_backup_path).map_err(|e| e.to_string())?;
+        let mut dst = fs::File::create(&live_mxml).map_err(|e| e.to_string())?; // create() truncates
+        io::copy(&mut src, &mut dst).map_err(|e| e.to_string())?;
+    } else {
+        // Write Clean Template
+        fs::write(&live_mxml, CLEAN_MXML_TEMPLATE).map_err(|e| e.to_string())?;
+    }
+
+    let exe_path = env::current_exe().map_err(|e| e.to_string())?;
+    let exe_dir = exe_path.parent().ok_or("No parent dir")?;
+    let downloads_dir = exe_dir.join("downloads");
+
+    let total_mods = profile_data.mods.len();
+    
+    // Iterate through the NEW struct structure
+    for (i, entry) in profile_data.mods.iter().enumerate() {
+        let archive_path = downloads_dir.join(&entry.filename);
+        
+        // OPTIONAL: Verify hash here before installing?
+        // For now, let's just install.
+        
+        app.emit("profile-progress", ProfileSwitchProgress {
+            current: i + 1,
+            total: total_mods,
+            current_mod: entry.filename.clone()
+        }).unwrap();
+
+        if archive_path.exists() {
+             match extract_archive_to_temp(&archive_path, &mods_dir) {
+                Ok(temp_path) => {
+                     for fs_entry in fs::read_dir(&temp_path).map_err(|e| e.to_string())? {
+                        let fs_entry = fs_entry.map_err(|e| e.to_string())?;
+                        let dest = mods_dir.join(fs_entry.file_name());
+                        
+                        if dest.exists() { fs::remove_dir_all(&dest).ok(); }
+                        
+                        fs::rename(fs_entry.path(), &dest).map_err(|e| e.to_string())?;
+
+                        // --- NEW: Generate mod_info.json ---
+                        // If the profile has metadata for this zip, write it to the folder we just installed
+                        if let Some(mid) = &entry.mod_id {
+                            let info_path = dest.join("mod_info.json");
+                            let info_json = serde_json::json!({
+                                "id": mid, // Legacy field
+                                "modId": mid,
+                                "fileId": entry.file_id,
+                                "version": entry.version
+                            });
+                            // Write the file
+                            if let Ok(json_str) = serde_json::to_string_pretty(&info_json) {
+                                fs::write(info_path, json_str).ok();
+                            }
+                        }
+                        // -----------------------------------
+                     }
+                     fs::remove_dir_all(temp_path).ok();
+                },
+                Err(e) => println!("Failed to extract {}: {}", entry.filename, e)
+            }
+        }
+    }
+    Ok(())
+}
+
+#[tauri::command]
+fn delete_profile(profile_name: String) -> Result<(), String> {
+    let dir = get_profiles_dir()?;
+    let json_path = dir.join(format!("{}.json", profile_name));
+    let mxml_path = dir.join(format!("{}.mxml", profile_name));
+    if json_path.exists() { fs::remove_file(json_path).map_err(|e| e.to_string())?; }
+    if mxml_path.exists() { fs::remove_file(mxml_path).map_err(|e| e.to_string())?; }
+    Ok(())
+}
+
+#[tauri::command]
+fn rename_profile(old_name: String, new_name: String) -> Result<(), String> {
+    let dir = get_profiles_dir()?;
+    let old_json = dir.join(format!("{}.json", old_name));
+    let old_mxml = dir.join(format!("{}.mxml", old_name));
+    let new_json = dir.join(format!("{}.json", new_name));
+    let new_mxml = dir.join(format!("{}.mxml", new_name));
+    
+    if old_json.exists() { fs::rename(old_json, new_json).map_err(|e| e.to_string())?; }
+    if old_mxml.exists() { fs::rename(old_mxml, new_mxml).map_err(|e| e.to_string())?; }
+    Ok(())
+}
+
+#[tauri::command]
+fn create_empty_profile(profile_name: String) -> Result<(), String> {
+    let dir = get_profiles_dir()?;
+    let json_path = dir.join(format!("{}.json", profile_name));
+    let mxml_path = dir.join(format!("{}.mxml", profile_name));
+
+    if json_path.exists() {
+        return Err("Profile already exists".to_string());
+    }
+
+    // 1. Create Empty Mod List (JSON)
+    let empty_data = ModProfileData {
+        name: profile_name,
+        mods: Vec::new(),
+    };
+    let json_str = serde_json::to_string_pretty(&empty_data).map_err(|e| e.to_string())?;
+    fs::write(&json_path, json_str).map_err(|e| e.to_string())?;
+
+    // 2. Create Clean GCMODSETTINGS (MXML)
+    fs::write(&mxml_path, CLEAN_MXML_TEMPLATE).map_err(|e| e.to_string())?;
+
+    Ok(())
+}
+
+#[tauri::command]
+fn check_for_untracked_mods(tracked_mod_names: Vec<String>) -> bool {
+    // Returns TRUE if there are folders in GAMEDATA/MODS that are NOT in the tracked list
+    if let Some(game_path) = find_game_path() {
+        let mods_path = game_path.join("GAMEDATA/MODS");
+        if let Ok(entries) = fs::read_dir(mods_path) {
+            for entry in entries.flatten() {
+                if entry.path().is_dir() {
+                    if let Some(folder_name) = entry.file_name().to_str() {
+                        // We compare folder names. 
+                        // Note: This is a loose check because tracked_mod_names are usually zip filenames
+                        // A strict check would require reading mod_info.json, but this suffices for a warning.
+                        if !tracked_mod_names.iter().any(|n| n.contains(folder_name)) {
+                            return true; // Found an untracked folder
+                        }
+                    }
+                }
+            }
+        }
+    }
+    false
+}
+
+#[tauri::command]
+fn get_profile_mod_list(profile_name: String) -> Result<Vec<String>, String> {
+    let dir = get_profiles_dir()?;
+    let json_path = dir.join(format!("{}.json", profile_name));
+    
+    if !json_path.exists() {
+        // If profile file doesn't exist (e.g. fresh Default), return empty list
+        return Ok(Vec::new()); 
+    }
+
+    let content = fs::read_to_string(&json_path).map_err(|e| e.to_string())?;
+    let data: ModProfileData = serde_json::from_str(&content).map_err(|e| e.to_string())?;
+
+    // Return just the list of filenames (e.g. ["ModA.zip", "ModB.pak"])
+    let filenames = data.mods.iter().map(|m| m.filename.clone()).collect();
+    Ok(filenames)
+}
+
 // --- MAIN FUNCTION ---
 fn main() {    
     tauri::Builder::default()
@@ -1367,7 +1702,15 @@ fn main() {
             show_in_folder,
             delete_archive_file,
             clear_downloads_folder,
-            launch_game
+            launch_game,
+            list_profiles,
+            save_active_profile,
+            apply_profile,
+            delete_profile,
+            rename_profile,
+            create_empty_profile,
+            check_for_untracked_mods,
+            get_profile_mod_list
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

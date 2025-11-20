@@ -8,11 +8,13 @@ version = "2.0.0"
 dependencies = [
  "chrono",
  "dotenvy",
+ "hex",
  "open",
  "quick-xml 0.38.4",
  "reqwest",
  "serde",
  "serde_json",
+ "sha2",
  "tauri",
  "tauri-build",
  "tauri-plugin-dialog",

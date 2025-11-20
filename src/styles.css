@@ -223,7 +223,7 @@ header {
 
 .top-panel {
     background-color: var(--c-bg-panel);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 3px;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -977,7 +977,7 @@ label.switch:has(input:checked)::before {
     width: 100%;
     /* height */
     color: #EAEAEA;
-    font-size: 11pt;
+    font-size: 13pt;
     font-weight: bold;
     font-family: var(--font-primary);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -1184,7 +1184,7 @@ label.switch:has(input:checked)::before {
 .download-item-name {
     font-size: 13pt;
     font-family: var(--font-primary);
-    color: var(--c-accent-primary);
+    color: var(--c-text-primary);
 }
 
 .download-item-status {
@@ -1278,7 +1278,7 @@ label.switch:has(input:checked)::before {
 
 .slider-value {
     font-size: 14px;
-    color: var(--c-accent-primary);
+    color: var(--c-text-primary);
     width: 40px;
     /* Give it a fixed width to prevent layout shifts */
     text-align: right;
@@ -1721,7 +1721,7 @@ button.context-menu-item.delete:hover {
     height: 101.8%;
     z-index: -1;
     background-color: var(--c-bg-panel);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 3px;
 }
 
@@ -1745,7 +1745,6 @@ button.context-menu-item.delete:hover {
 
 .mod-detail-panel {
     background-color: rgba(0, 0, 0, 0.4);
-    border-left: 0px solid rgba(255, 255, 255, 0.2);
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -2203,7 +2202,7 @@ button.context-menu-item.delete:hover {
 .footer-container {
     display: flex;
     flex-direction: row;
-    height: 110px;
+    height: 130px;
     flex-shrink: 0;
     /* Fixed height for the footer area */
     margin-top: 0px;
@@ -2223,6 +2222,7 @@ button.context-menu-item.delete:hover {
 .footer-col.left {
     width: 25%;
     border-right: 1px solid rgba(255, 255, 255, 0.05);
+    margin-left: -10px;
 }
 
 .footer-col.center {
@@ -2233,6 +2233,7 @@ button.context-menu-item.delete:hover {
 .footer-col.right {
     width: 25%;
     border-left: 1px solid rgba(255, 255, 255, 0.05);
+    margin-right: -10px;
 }
 
 /* --- Adjusting the Existing Drop Zone --- */
@@ -2359,4 +2360,167 @@ button.context-menu-item.delete:hover {
     /* Change text color to indicate activity */
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+/* ==========================================================================
+   11. Profile Panel Styling
+   ========================================================================== */
+
+.profile-header {
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-primary);
+    color: var(--c-text-primary);
+    font-size: 12pt;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.profile-select-row {
+    display: flex;
+    width: 90%;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+.profile-dropdown {
+    flex-grow: 1;
+    border: 1px solid var(--c-border);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: var(--c-text-primary);
+    padding: 4px 8px;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.apply-btn {
+    width: 30px;
+    height: 30px;
+    background-color: var(--c-status-success);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    animation: pulse-green 2s infinite;
+}
+
+.apply-btn:hover {
+    filter: brightness(1.2);
+}
+
+@keyframes pulse-green {
+    0% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 6px rgba(76, 175, 80, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+    }
+}
+
+/* Special layout for the mockup look:
+   Row 1: Add, Rename, Delete
+   Row 2: Import, Export (centered or spanned?)
+   Let's make Import/Export share the row 50/50
+*/
+.profile-actions-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto;
+    width: 90%;
+}
+
+#addProfileBtn {
+    grid-column: span 2;
+}
+
+#renameProfileBtn {
+    grid-column: span 2;
+}
+
+#deleteProfileBtn {
+    grid-column: span 2;
+}
+
+#importProfileBtn {
+    grid-column: span 3;
+    width: 100%;
+}
+
+/* Span 2 cols */
+#exportProfileBtn {
+    grid-column: span 3;
+    width: 100%;
+}
+
+.profile-btn {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--c-border);
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-size: 10px;
+    padding: 4px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+}
+
+.profile-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: var(--c-accent-primary);
+}
+
+.modal-btn-delete {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--c-border);
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-size: 12px;
+    padding: 4px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.modal-btn-delete:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: var(--c-accent-primary);
+}
+
+#closeSettingsModalBtn,
+#closeDownloadHistoryBtn,
+#closeUpdateModalBtn,
+#confirmActionBtn,
+#cancelActionBtn {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--c-border);
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-size: 12px;
+    padding: 4px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    width: 60px;
+}
+
+#closeSettingsModalBtn:hover,
+#closeDownloadHistoryBtn:hover,
+#closeUpdateModalBtn:hover,
+#confirmActionBtn:hover,
+#cancelActionBtn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: var(--c-accent-primary);
 }

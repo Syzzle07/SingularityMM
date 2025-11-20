@@ -119,10 +119,26 @@
                 </div>
                 <!-- NEW FOOTER LAYOUT -->
                 <div class="footer-container">
-                    <!-- LEFT COLUMN: PROFILES (Placeholder for now) -->
+                    <!-- LEFT COLUMN: PROFILES -->
                     <div class="footer-col left">
-                        <div class="profile-placeholder">
-                            <span style="opacity: 0.5; font-size: 12px;">PROFILES COMING SOON</span>
+                        <div class="profile-header">PROFILE</div>
+
+                        <div class="profile-select-row">
+                            <select id="profileSelect" class="themed-input styled-select profile-dropdown">
+                                <!-- Options injected via JS -->
+                            </select>
+                            <!-- The "Apply" button, hidden by default -->
+                            <button id="applyProfileBtn" class="apply-btn hidden" title="Apply Profile Change">
+                                ✔
+                            </button>
+                        </div>
+
+                        <div class="profile-actions-grid">
+                            <button id="addProfileBtn" class="profile-btn">Add</button>
+                            <button id="renameProfileBtn" class="profile-btn">Rename</button>
+                            <button id="deleteProfileBtn" class="profile-btn">Delete</button>
+                            <button id="importProfileBtn" class="profile-btn">IMPORT</button>
+                            <button id="exportProfileBtn" class="profile-btn">EXPORT</button>
                         </div>
                     </div>
                     <!-- CENTER COLUMN: DROP ZONE -->
@@ -395,6 +411,23 @@
                     <button id="clearDownloadHistoryBtn" class="modal-btn-delete">Delete All Downloads</button>
                     <button id="closeDownloadHistoryBtn" class="modal-btn-cancel">Close</button>
                 </div>
+            </div>
+        </div>
+        <!-- === PROFILE SWITCHING PROGRESS MODAL === -->
+        <div id="profileProgressModal" class="modal-overlay higher hidden">
+            <div class="modal-content" style="width: 450px; text-align: center;">
+                <h2 style="color: var(--c-accent-primary);">APPLYING PROFILE</h2>
+                <div id="profileProgressText" style="margin-bottom: 15px; font-size: 14px;">Preparing...</div>
+
+                <!-- Simple Progress Bar -->
+                <div
+                    style="width: 100%; background: rgba(255,255,255,0.1); height: 10px; border-radius: 5px; overflow: hidden;">
+                    <div id="profileProgressBar"
+                        style="width: 0%; height: 100%; background: var(--c-accent-primary); transition: width 0.2s;">
+                    </div>
+                </div>
+
+                <p id="profileTimeEst" style="font-size: 11px; opacity: 0.7; margin-top: 10px;">Calculating time...</p>
             </div>
         </div>
 </body>

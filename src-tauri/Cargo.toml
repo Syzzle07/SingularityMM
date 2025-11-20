@@ -26,6 +26,8 @@ tauri-plugin-single-instance = { version = "2" }
 tauri-plugin-fs = "2"
 tauri-plugin-shell = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v2" }
 tauri-plugin-dialog = "2"
+sha2 = "0.10"
+hex = "0.4"
 
 [features]
 custom-protocol = ["tauri/custom-protocol"]

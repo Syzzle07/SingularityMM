@@ -27,59 +27,15 @@ const changelogCache = new Map();
 
 document.addEventListener('DOMContentLoaded', () => {
 
-
-    // ============================================================
-    // DIAGNOSTIC TOOL START (Delete this block after fixing)
-    // ============================================================
-
-    console.log("--- DIAGNOSTICS STARTED ---");
-
-    // TEST 1: Native Browser Drag Detection
-    // If the screen turns RED when you drag a file, the browser IS detecting the file.
-    // If it does NOT turn red, something (like an invisible panel) is blocking it.
-    document.body.addEventListener('dragover', (e) => {
-        e.preventDefault(); // Mandatory to allow dropping
-        e.stopPropagation();
-        document.body.style.backgroundColor = "rgba(255, 0, 0, 0.5)"; // Turn RED
-        console.log("NATIVE JS: Drag detected over:", e.target);
-    });
-
-    document.body.addEventListener('dragleave', (e) => {
-        e.preventDefault();
-        document.body.style.backgroundColor = ""; // Reset color
-    });
-
-    document.body.addEventListener('drop', (e) => {
-        e.preventDefault();
-        document.body.style.backgroundColor = "rgba(0, 255, 0, 0.5)"; // Turn GREEN
-        console.log("NATIVE JS: File Dropped!", e.dataTransfer.files);
-        setTimeout(() => document.body.style.backgroundColor = "", 500);
-    });
-
-    // TEST 2: Invisible Wall Detector
-    // Every 2 seconds, this logs what element is in the center of the screen.
-    // Look at your Console logs. If it says "modal-overlay", that is your invisible blocker.
-    setInterval(() => {
-        const x = window.innerWidth / 2;
-        const y = window.innerHeight / 2;
-        const element = document.elementFromPoint(x, y);
-        if (element) {
-            console.log(`ELEMENT UNDER CENTER (${x}x${y}):`, element.className || element.tagName, element);
-        }
-    }, 2000);
-
-    // ============================================================
-    // DIAGNOSTIC TOOL END
-    // ============================================================
-
-
-
     // --- Application & UI State ---
     const appState = {
         gamePath: null,
         settingsPath: null,
         versionType: null,
         currentFilePath: null,
+        activeProfile: 'Default', // The profile currently active in the game
+        selectedProfileView: 'Default', // The profile currently selected in the dropdown
+        isProfileSwitching: false,
         xmlDoc: null,
         isPopulating: false,
         currentTranslations: {},
@@ -354,6 +310,41 @@ document.addEventListener('DOMContentLoaded', () => {
         gridGapSlider.value = savedGridGap;
         gridGapValue.textContent = `${savedGridGap}px`;
 
+        // 1. Ensure Default Profile Exists
+        const profiles = await invoke('list_profiles');
+
+        // We check if "Default.json" physically exists by trying to load it or just relying on logic.
+        // A simple way: Try to save it if it's the first run.
+        const activeProfileName = localStorage.getItem('activeProfile') || 'Default';
+
+        if (activeProfileName === 'Default') {
+            // If we are on Default, let's ensure it's saved to disk so we don't lose current state
+            // BUT we only do this if we have valid mods to save.
+
+            const installedData = getDetailedInstalledMods(); // Your existing helper
+
+            // Check for untracked/manual mods
+            // We pass the list of KNOWN mod folder names (derived from download history)
+            // Note: downloadHistory has 'modFolderName'.
+            const knownFolders = downloadHistory
+                .filter(x => x.modFolderName)
+                .map(x => x.modFolderName);
+
+            const hasUntracked = await invoke('check_for_untracked_mods', { trackedModNames: knownFolders });
+
+            if (hasUntracked) {
+                // Show Warning
+                alert("WARNING: Untracked Mods Detected!\n\nYou have mods installed in your folder that were not installed via this Manager.\n\nThe 'Default' profile has been created, but it CANNOT restore these manual mods if you switch profiles.\n\nTo fix this, please delete them and reinstall them by dragging their .zip files into the Manager.");
+            }
+
+            // Save the current state as Default immediately
+            // This creates the file so the user doesn't lose valid manager mods on switch
+            await invoke('save_active_profile', {
+                profileName: 'Default',
+                mods: installedData
+            });
+        }
+
         // --- NEW, ROBUST GAME DETECTION ---
         const gamePaths = await invoke('detect_game_installation');
         if (gamePaths) {
@@ -477,7 +468,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             // Attach the event listener for the checkbox
-            row.querySelector('.enabled-switch').addEventListener('change', (e) => {
+            row.querySelector('.enabled-switch').addEventListener('change', async (e) => {
                 const modNode = Array.from(appState.xmlDoc.querySelectorAll('Property[name="Data"] > Property'))
                     .find(node => {
                         const nameProp = node.querySelector('Property[name="Name"]');
@@ -489,7 +480,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     const evrNode = modNode.querySelector('Property[name="EnabledVR"]');
                     if (eNode) eNode.setAttribute('value', newVal);
                     if (evrNode) evrNode.setAttribute('value', newVal);
-                    saveChanges();
+                    await saveChanges();
+                    await saveCurrentProfile();
                 }
             });
 
@@ -617,6 +609,27 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- Other Helper Functions ---
+    function refreshBrowseTabBadges() {
+        // Safety check
+        if (!browseGridContainer || browseGridContainer.childElementCount === 0) return;
+
+        const cards = browseGridContainer.querySelectorAll('.mod-card');
+        cards.forEach(card => {
+            const modId = card.dataset.modId;
+            // Ensure we are checking the string version of the ID
+            const isInstalled = appState.installedModsMap.has(String(modId));
+
+            // Toggle visual class
+            card.classList.toggle('is-installed', isInstalled);
+
+            // Toggle badge
+            const badge = card.querySelector('.mod-card-installed-badge');
+            if (badge) {
+                badge.classList.toggle('hidden', !isInstalled);
+            }
+        });
+    }
+
     function formatBytes(bytes, decimals = 1) {
         if (!+bytes) return '0 B';
         const k = 1024;
@@ -660,7 +673,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    async function startModDownload({ modId, fileId, version, fileName, displayName }, isUpdate = false) {
+    async function startModDownload({ modId, fileId, version, fileName, displayName, replacingFileId }, isUpdate = false) {
+        // 1. DUPLICATE CHECK
         const existingItem = downloadHistory.find(d => d.fileId === fileId);
 
         if (existingItem && existingItem.archivePath && !isUpdate) {
@@ -670,7 +684,6 @@ document.addEventListener('DOMContentLoaded', () => {
             );
 
             if (!confirmed) {
-                console.log("User cancelled duplicate download.");
                 downloadHistoryModalOverlay.classList.remove('hidden');
                 downloadHistory = downloadHistory.filter(d => d.fileId !== fileId);
                 downloadHistory.unshift(existingItem);
@@ -681,6 +694,22 @@ document.addEventListener('DOMContentLoaded', () => {
             downloadHistory = downloadHistory.filter(d => d.fileId !== fileId);
         }
 
+        // 2. UPDATE LOGIC: DELETE OLD ZIP
+        // If this is an update, find the OLD version and delete its zip to keep the folder clean.
+        if (replacingFileId) {
+            const oldVersionItem = downloadHistory.find(d => String(d.fileId) === String(replacingFileId));
+
+            if (oldVersionItem && oldVersionItem.archivePath) {
+                console.log(`Update detected. Removing old version archive: ${oldVersionItem.fileName}`);
+                try {
+                    await invoke('delete_archive_file', { path: oldVersionItem.archivePath });
+                    downloadHistory = downloadHistory.filter(d => d.id !== oldVersionItem.id);
+                } catch (e) {
+                    console.warn("Failed to delete old version zip:", e);
+                }
+            }
+        }
+
         downloadHistoryModalOverlay.classList.remove('hidden');
 
         const downloadId = `download-${Date.now()}`;
@@ -689,8 +718,8 @@ document.addEventListener('DOMContentLoaded', () => {
             modId: modId,
             fileId: fileId,
             version: version,
-            displayName: displayName, // The clean name for display
-            fileName: fileName,       // The raw filename for saving
+            displayName: displayName,
+            fileName: fileName,
             statusText: isUpdate ? 'Updating...' : 'Waiting to start...',
             statusClass: 'progress',
             archivePath: null,
@@ -726,6 +755,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 item.createdAt = downloadResult.created_at;
 
                 if (isUpdate) {
+                    // This function already contains 'await saveCurrentProfile();'
+                    // so we don't need to add it here.
                     await handleDownloadItemInstall(downloadId, true);
                 } else {
                     item.statusText = 'Downloaded';
@@ -913,6 +944,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Update the "Install" button in the browse tab reactively
             updateModDisplayState(item.modId);
+
+            await saveCurrentProfile();
 
         } catch (error) {
             console.error("Installation process failed:", error);
@@ -1568,10 +1601,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // 2. In the background, tell the backend to save the new order.
             // We don't need to re-render again after this, as the UI is already correct.
             invoke('reorder_mods', { orderedModNames: finalModOrder })
-                .then(updatedXmlContent => {
+                .then(async (updatedXmlContent) => {
                     // 3. Silently update our in-memory data to match what was saved.
                     appState.xmlDoc = new DOMParser().parseFromString(updatedXmlContent, "application/xml");
-                    saveChanges();
+                    await saveChanges();
+                    await saveCurrentProfile();
                     console.log("Mod order saved and local state synced.");
                 })
                 .catch(error => {
@@ -1809,30 +1843,45 @@ document.addEventListener('DOMContentLoaded', () => {
             // This is the raw, original filename (e.g., ModName-1234-1-0.zip)
             const rawFileName = file.file_name;
 
+            // NEW: Track which file ID we are replacing (if any)
+            // If this remains empty string "", nothing will be deleted.
+            let replacingFileId = "";
+
             if (installedVersionForThisFile) {
+                // Case 1: This exact file ID is already installed
                 const isUpToDate = !isNewerVersionAvailable(installedVersionForThisFile, file.version);
                 if (isUpToDate) {
                     buttonHtml = `<button class="mod-card-install-btn" disabled>INSTALLED</button>`;
                 } else {
-                    buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}" data-raw-filename="${rawFileName}">UPDATE</button>`;
+                    // Rare case: Updating the exact same file ID (usually Nexus makes new IDs for updates)
+                    replacingFileId = fileIdStr;
+                    buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}" data-raw-filename="${rawFileName}" data-replacing-file-id="${replacingFileId}">UPDATE</button>`;
                 }
             } else {
+                // Case 2: This file ID is NOT installed (could be a new file, or an update via a new ID)
                 let isUpdateForAnotherFile = false;
+
                 if (installedFilesForThisMod) {
+                    // Check if we have another file installed for this mod that matches the Category (e.g. MAIN vs OPTIONAL)
                     for (const [installedFileId, installedVersion] of installedFilesForThisMod.entries()) {
                         const installedFileOnNexus = filesData.files.find(f => String(f.file_id) === installedFileId);
+
+                        // LOGIC FIX: Only mark as "Update" (and mark for deletion) if categories match.
+                        // This prevents an Optional file from deleting a Main file.
                         if (installedFileOnNexus && installedFileOnNexus.category_name === file.category_name) {
                             if (isNewerVersionAvailable(installedVersion, file.version)) {
                                 isUpdateForAnotherFile = true;
+                                replacingFileId = installedFileId; // <--- Store the ID of the OLD file to delete
                                 break;
                             }
                         }
                     }
                 }
+
                 const buttonText = isUpdateForAnotherFile ? 'UPDATE' : 'DOWNLOAD';
-                // --- THIS IS THE FIX ---
-                // We add data-raw-filename to the button to store the original filename.
-                buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}" data-raw-filename="${rawFileName}">${buttonText}</button>`;
+
+                // We add the data-replacing-file-id attribute to the button so the click listener can read it
+                buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}" data-raw-filename="${rawFileName}" data-replacing-file-id="${replacingFileId}">${buttonText}</button>`;
             }
 
             // The clean name for display (e.g., "sHealthcare - Powerless Stations")
@@ -2067,6 +2116,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
 
                     alert(i18n.get('deleteSuccess', { modName }));
+
+                    await saveCurrentProfile();
 
                 } catch (error) {
                     alert(`${i18n.get('deleteError', { modName })}\n\n${error}`);
@@ -2318,6 +2369,27 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                         await saveChanges();
                         await renderModList();
+
+                        // Manually add to downloadHistory so Profile Manager sees it
+                        const manualEntry = {
+                            id: `manual-${Date.now()}`,
+                            modId: null, // No Nexus ID
+                            fileId: null,
+                            version: 'Manual',
+                            displayName: fileName,
+                            fileName: fileName, // Now resides in downloads folder
+                            statusText: 'Installed',
+                            statusClass: 'installed',
+                            archivePath: analysis.active_archive_path, // We can reconstruct this if needed, or fetch from Rust response
+                            modFolderName: analysis.successes[0].name,
+                            size: 0,
+                            createdAt: Date.now() / 1000
+                        };
+                        downloadHistory.unshift(manualEntry);
+                        await saveDownloadHistory(downloadHistory);
+
+                        // Then save profile
+                        await saveCurrentProfile();
                         alert(`Successfully installed ${analysis.successes.length} new mod(s) from ${fileName}.`);
                     }
 
@@ -2361,6 +2433,307 @@ document.addEventListener('DOMContentLoaded', () => {
         await appWindow.listen('tauri://file-drop', onDrop);
         await appWindow.listen('tauri://drag-drop', onDrop);
     };
+
+
+    // --- PROFILE MANAGEMENT LOGIC ---
+
+    const profileSelect = document.getElementById('profileSelect');
+    const applyProfileBtn = document.getElementById('applyProfileBtn');
+    const addProfileBtn = document.getElementById('addProfileBtn');
+    const renameProfileBtn = document.getElementById('renameProfileBtn');
+    const deleteProfileBtn = document.getElementById('deleteProfileBtn');
+
+    // Progress Modal Elements
+    const profileProgressModal = document.getElementById('profileProgressModal');
+    const profileProgressText = document.getElementById('profileProgressText');
+    const profileProgressBar = document.getElementById('profileProgressBar');
+    const profileTimeEst = document.getElementById('profileTimeEst');
+
+    async function refreshProfileList() {
+        try {
+            const profiles = await invoke('list_profiles');
+
+            // Save the currently selected value in the dropdown to restore it if it still exists
+            const currentSelection = profileSelect.value;
+
+            profileSelect.innerHTML = '';
+            profiles.forEach(p => {
+                const opt = document.createElement('option');
+                opt.value = p;
+                opt.textContent = p;
+                profileSelect.appendChild(opt);
+            });
+
+            // If the previously selected profile still exists, keep it selected.
+            // Otherwise, default to "Default".
+            if (profiles.includes(currentSelection)) {
+                profileSelect.value = currentSelection;
+            } else {
+                profileSelect.value = 'Default';
+            }
+
+            // Note: We do NOT update appState.activeProfile here. 
+            // That prevents the bug where it auto-resets to Default on delete.
+            updateApplyButtonVisibility();
+        } catch (err) {
+            console.error("Failed to refresh profiles:", err);
+        }
+    }
+
+    function updateApplyButtonVisibility() {
+        if (profileSelect.value !== appState.activeProfile) {
+            applyProfileBtn.classList.remove('hidden');
+        } else {
+            applyProfileBtn.classList.add('hidden');
+        }
+    }
+
+    // Helper: Get list of currently installed mod archive filenames based on downloadHistory
+    function getDetailedInstalledMods() {
+        const installedMods = [];
+        const seen = new Set(); // To prevent duplicates
+
+        downloadHistory.forEach(item => {
+            if (item.statusClass === 'installed' && item.fileName) {
+                if (!seen.has(item.fileName)) {
+                    seen.add(item.fileName);
+                    installedMods.push({
+                        filename: item.fileName,
+                        mod_id: item.modId ? String(item.modId) : null,
+                        file_id: item.fileId ? String(item.fileId) : null,
+                        version: item.version ? String(item.version) : null
+                    });
+                }
+            }
+        });
+        return installedMods;
+    }
+
+    async function saveCurrentProfile() {
+        if (appState.isPopulating) return;
+        if (!appState.activeProfile) return;
+
+        // Use the new helper
+        const modsData = getDetailedInstalledMods();
+
+        try {
+            await invoke('save_active_profile', {
+                profileName: appState.activeProfile,
+                mods: modsData // This now sends the array of objects
+            });
+            console.log(`Auto-saved profile: ${appState.activeProfile}`);
+        } catch (e) {
+            console.error("Failed to auto-save profile:", e);
+        }
+    }
+
+    // --- LISTENERS ---
+
+    profileSelect.addEventListener('change', updateApplyButtonVisibility);
+
+    addProfileBtn.addEventListener('click', async () => {
+        const name = prompt("Enter new profile name:");
+        if (name && name.trim() !== "") {
+            try {
+                await invoke('create_empty_profile', { profileName: name });
+
+                await refreshProfileList();
+
+                profileSelect.value = name; // Select the new one
+                updateApplyButtonVisibility(); // Button will appear
+
+            } catch (e) { alert("Error creating profile: " + e); }
+        }
+    });
+
+    renameProfileBtn.addEventListener('click', async () => {
+        const current = profileSelect.value;
+        if (current === 'Default') return alert("Cannot rename Default profile.");
+
+        const newName = prompt(`Rename ${current} to:`, current);
+        if (newName && newName !== current) {
+            try {
+                await invoke('rename_profile', { oldName: current, newName: newName });
+
+                // If we renamed the active profile, update the state
+                if (appState.activeProfile === current) {
+                    appState.activeProfile = newName;
+                    localStorage.setItem('activeProfile', newName);
+                }
+
+                await refreshProfileList();
+                profileSelect.value = newName;
+                updateApplyButtonVisibility();
+            } catch (e) { alert("Error renaming: " + e); }
+        }
+    });
+
+    deleteProfileBtn.addEventListener('click', async () => {
+        const current = profileSelect.value;
+        if (current === 'Default') return alert("Cannot delete Default profile.");
+
+        if (confirm(`Delete profile "${current}"?`)) {
+            try {
+                await invoke('delete_profile', { profileName: current });
+
+                // 1. Refresh the list (the deleted profile will disappear)
+                await refreshProfileList();
+
+                // 2. Check if we just deleted the Active Profile
+                if (appState.activeProfile === current) {
+                    // CRITICAL: Set active profile to NULL.
+                    // This tells the system: "We are in limbo. No profile is applied."
+                    appState.activeProfile = null;
+                    localStorage.removeItem('activeProfile');
+
+                    // Force dropdown to Default
+                    profileSelect.value = 'Default';
+                } else {
+                    // If we deleted an inactive profile, make sure dropdown stays on the current active one
+                    if (appState.activeProfile) {
+                        profileSelect.value = appState.activeProfile;
+                    }
+                }
+
+                // 3. This will now show the button because ('Default' !== null)
+                updateApplyButtonVisibility();
+
+            } catch (e) { alert("Error deleting: " + e); }
+        }
+    });
+
+    applyProfileBtn.addEventListener('click', async () => {
+        const targetProfile = profileSelect.value;
+
+        const confirmed = await confirm(
+            `Switch profile to "${targetProfile}"?\nThis will purge current mods and install the profile's mods.`,
+            { title: 'Singularity', type: 'warning' }
+        );
+
+        // If the user clicked Cancel (false), stop everything immediately.
+        if (!confirmed) {
+            return;
+        }
+
+        // Show Modal
+        profileProgressModal.classList.remove('hidden');
+        profileProgressBar.style.width = '0%';
+        profileProgressText.textContent = "Initializing...";
+
+        const start = Date.now();
+
+        // Listen for progress from Rust
+        const unlisten = await listen('profile-progress', (event) => {
+            const p = event.payload;
+            const pct = (p.current / p.total) * 100;
+            profileProgressBar.style.width = `${pct}%`;
+            profileProgressText.textContent = `Installing ${p.current}/${p.total}: ${p.current_mod}`;
+
+            // Simple time estimation
+            const elapsed = (Date.now() - start) / 1000;
+            const rate = p.current / elapsed; // mods per second
+            const remaining = (p.total - p.current) / rate;
+            profileTimeEst.textContent = `Estimated time remaining: ${Math.ceil(remaining)}s`;
+        });
+
+        try {
+            // 1. Backend swaps files
+            await invoke('apply_profile', { profileName: targetProfile });
+
+            // 2. Frontend syncs history
+            await syncDownloadHistoryWithProfile(targetProfile);
+
+            // 3. Update State
+            appState.activeProfile = targetProfile;
+            localStorage.setItem('activeProfile', targetProfile);
+            updateApplyButtonVisibility();
+
+            // 4. Force reload of XML from disk (now that we used the robust write)
+            const settingsPath = await join(appState.gamePath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
+            const content = await readTextFile(settingsPath);
+            await loadXmlContent(content, settingsPath); // This calls renderModList internally
+
+            // 5. Explicitly call refreshBrowseTabBadges AFTER renderModList finishes
+            // We put it in a slight timeout to ensure the DOM has settled
+            setTimeout(() => {
+                refreshBrowseTabBadges();
+            }, 100);
+
+            profileProgressModal.classList.add('hidden');
+            alert(`Profile "${targetProfile}" applied successfully.`);
+
+        } catch (e) {
+            profileProgressModal.classList.add('hidden');
+            alert(`Error applying profile: ${e}`);
+        } finally {
+            unlisten();
+        }
+    });
+
+    // Initialize
+    (async () => {
+        await refreshProfileList(); // Build the dropdown options
+
+        // Load the last active profile from storage
+        const savedProfile = localStorage.getItem('activeProfile') || 'Default';
+        appState.activeProfile = savedProfile;
+
+        // Ensure the dropdown matches the internal state
+        profileSelect.value = savedProfile;
+
+        updateApplyButtonVisibility();
+    })();
+
+    async function syncDownloadHistoryWithProfile(profileName) {
+        try {
+            // 1. Get the list of zips that SHOULD be installed according to the profile
+            const profileFiles = await invoke('get_profile_mod_list', { profileName });
+
+            // 2. Loop through history and update statuses
+            let changed = false;
+            downloadHistory.forEach(item => {
+                // Check if this item's filename exists in the profile we just loaded
+                const shouldBeInstalled = profileFiles.includes(item.fileName);
+
+                if (shouldBeInstalled) {
+                    if (item.statusClass !== 'installed') {
+                        item.statusText = 'Installed';
+                        item.statusClass = 'installed';
+                        changed = true;
+                    }
+                } else {
+                    // If it was installed but is NOT in this profile, set it to Downloaded
+                    if (item.statusClass === 'installed' || item.statusClass === 'success') {
+                        item.statusText = 'Downloaded';
+                        item.statusClass = 'success';
+                        changed = true;
+                    }
+                }
+            });
+
+            // 3. Save the corrected history
+            if (changed) {
+                await saveDownloadHistory(downloadHistory);
+                console.log("Download history synchronized with profile.");
+            }
+
+            // 4. Also update the Browse Grid cards (visuals)
+            // We need to iterate all cards or just reload the grid if active
+            if (!browseView.classList.contains('hidden')) {
+                // Quick refresh of visual badges
+                const allCards = browseGridContainer.querySelectorAll('.mod-card');
+                allCards.forEach(card => {
+                    const modId = card.dataset.modId;
+                    // This is a bit heavy, but correct: updateModDisplayState relies on appState.installedModsMap
+                    // which is updated via renderModList -> XML. 
+                    // So actually, visual badges might update automatically if renderModList ran first.
+                });
+            }
+
+        } catch (e) {
+            console.error("Failed to sync download history:", e);
+        }
+    }
 
     languageSelector.addEventListener('change', (e) => i18n.loadLanguage(e.target.value));
 
@@ -2462,10 +2835,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // 2. In the background, save the changes.
         invoke('reorder_mods', { orderedModNames: currentOrder })
-            .then(updatedXmlContent => {
+            .then(async (updatedXmlContent) => {
                 // 3. Silently update our in-memory data.
                 appState.xmlDoc = new DOMParser().parseFromString(updatedXmlContent, "application/xml");
-                saveChanges();
+                await saveChanges();
+                await saveCurrentProfile();
                 console.log("Mod order saved and local state synced.");
             })
             .catch(error => {
@@ -2493,24 +2867,22 @@ document.addEventListener('DOMContentLoaded', () => {
             const modId = button.dataset.modId;
             const fileId = button.dataset.fileId;
             const version = button.dataset.version;
-
-            // --- THIS IS THE FIX ---
-            // 1. Get the CLEAN name from the UI for display purposes.
             const displayName = itemElement.querySelector('.update-item-name').textContent.split(' (v')[0];
-
-            // 2. Get the RAW filename from the data attribute we just added.
             const rawFileName = button.dataset.rawFilename;
+
+            // NEW: Get the ID to delete
+            const replacingFileId = button.dataset.replacingFileId;
 
             button.disabled = true;
             fileSelectionModalOverlay.classList.add('hidden');
 
-            // 3. Pass the correct variables to the download function.
             await startModDownload({
                 modId: modId,
                 fileId: fileId,
                 version: version,
-                fileName: rawFileName, // The raw name for saving the file
-                displayName: displayName // The clean name for the UI
+                fileName: rawFileName,
+                displayName: displayName,
+                replacingFileId: replacingFileId // <--- Pass it here
             }, isUpdate);
         }
     });
@@ -2520,26 +2892,13 @@ document.addEventListener('DOMContentLoaded', () => {
     browseSearchInput.addEventListener('input', filterAndDisplayMods);
 
     downloadHistoryBtn.addEventListener('click', async () => {
-        // Before showing the modal, check for removed mods
-        let historyChanged = false;
-        for (const item of downloadHistory) {
-            // Only check items that were successfully installed
-            if (item.statusClass === 'success' && item.modFolderName) {
-                const exists = await invoke('check_mod_exists', { modFolderName: item.modFolderName });
-                if (!exists) {
-                    item.statusText = 'Mod has been removed from the MODS folder.';
-                    item.statusClass = 'removed';
-                    historyChanged = true;
-                }
-            }
-        }
-        // If we found any removed mods, save the updated history and re-render the list
-        if (historyChanged) {
-            await saveDownloadHistory(downloadHistory);
+        if (appState.activeProfile) {
+            await syncDownloadHistoryWithProfile(appState.activeProfile);
         }
         renderDownloadHistory();
         downloadHistoryModalOverlay.classList.remove('hidden');
     });
+
     closeDownloadHistoryBtn.addEventListener('click', () => downloadHistoryModalOverlay.classList.add('hidden'));
     downloadHistoryModalOverlay.addEventListener('click', (e) => {
         if (e.target === downloadHistoryModalOverlay) {
