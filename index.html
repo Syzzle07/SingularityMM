@@ -276,7 +276,7 @@
                 <div class="troubleshoot-section">
                     <h3>MOD MANAGER DOWNLOADS</h3>
                     <p>Set Singularity as the default application for (nxm://) links.</p>
-                    <button id="nxmHandlerBtn" class="modal-btn-confirm">Set as Default Handler</button>
+                    <button id="nxmHandlerBtn" class="modal-btn-nxm-confirm">Set as Default Handler</button>
                     <p id="nxmHandlerStatus" class="handler-status hidden"></p>
                 </div>
                 <!-- 3. Troubleshoot Section -->
@@ -302,17 +302,6 @@
                 </div>
                 <div class="modal-actions">
                     <button id="closeChangelogModalBtn" class="modal-btn-cancel">Close</button>
-                </div>
-            </div>
-        </div>
-        <!-- === CONFIRMATION MODAL (for NXM Handler) === -->
-        <div id="confirmationModalOverlay" class="modal-overlay higher hidden">
-            <div class="modal-content priority-modal"> <!-- We can reuse the priority-modal style -->
-                <h2 id="confirmationModalTitle">Confirm Action</h2>
-                <p id="confirmationModalDescription"></p>
-                <div class="modal-actions">
-                    <button id="confirmActionBtn" class="modal-btn-confirm">Yes</button>
-                    <button id="cancelActionBtn" class="modal-btn-cancel">No</button>
                 </div>
             </div>
         </div>
@@ -445,16 +434,32 @@
 
                     <!-- Right: Buttons -->
                     <div class="mp-buttons-col">
-                        <button id="mpCreateBtn" class="mp-btn">Create</button>
+                        <button id="mpCreateBtn" class="mp-btn">Add</button>
                         <button id="mpCopyBtn" class="mp-btn">Copy</button>
-                        <button id="mpRemoveBtn" class="mp-btn">Remove</button>
                         <button id="mpRenameBtn" class="mp-btn">Rename</button>
+                        <button id="mpRemoveBtn" class="mp-btn">Delete</button>
                     </div>
                 </div>
 
                 <div class="mp-footer">
                     <button id="mpSelectBtn" class="mp-action-btn">Select</button>
                     <button id="mpCloseBtn" class="mp-action-btn">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- === GENERIC APP DIALOG (Replaces Native Alerts/Confirms) === -->
+        <div id="genericDialogModal" class="modal-overlay higher hidden">
+            <div class="modal-content" style="width: 450px; text-align: left;">
+                <h2 id="genericDialogTitle" style="margin-top: 0; color: var(--c-accent-primary);">Title</h2>
+
+                <!-- 'white-space: pre-wrap' preserves newlines (\n) from your strings -->
+                <p id="genericDialogMessage"
+                    style="opacity: 0.9; font-size: 11pt; white-space: pre-wrap; line-height: 1.5;"></p>
+
+                <div class="modal-actions" id="genericDialogActions"
+                    style="justify-content: flex-end; margin-top: 20px;">
+                    <!-- Buttons injected via JS -->
                 </div>
             </div>
         </div>

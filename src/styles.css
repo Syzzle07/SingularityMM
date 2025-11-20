@@ -977,7 +977,7 @@ label.switch:has(input:checked)::before {
     width: 100%;
     /* height */
     color: #EAEAEA;
-    font-size: 13pt;
+    font-size: 12pt;
     font-weight: bold;
     font-family: var(--font-primary);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -2453,6 +2453,7 @@ button.context-menu-item.delete:hover {
 .profile-actions-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
     width: 90%;
 }
 
@@ -2485,6 +2486,11 @@ button.context-menu-item.delete:hover {
 .profile-btn:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
+    font-weight: bold;
+}
+
+#deleteProfileBtn:hover {
+    background-color: var(--c-danger-hover);
 }
 
 #openProfileManagerBtn {
@@ -2495,7 +2501,7 @@ button.context-menu-item.delete:hover {
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid var(--c-border);
     color: var(--c-text-primary);
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     font-size: 11pt;
     padding: 6px 0;
     border-radius: 4px;
@@ -2506,6 +2512,7 @@ button.context-menu-item.delete:hover {
 #openProfileManagerBtn:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
+    font-weight: bold;
 }
 
 .modal-btn-delete {
@@ -2514,7 +2521,28 @@ button.context-menu-item.delete:hover {
     color: #fff;
     font-family: var(--font-secondary);
     font-size: 12px;
-    padding: 4px 0;
+    padding: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    width: 210px;
+}
+
+.modal-btn-delete:hover {
+    background-color: var(--c-danger-hover);
+    border-color: var(--c-accent-primary);
+    font-weight: bold;
+}
+
+.modal-btn-nxm,
+.modal-btn-nxm-confirm {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--c-border);
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-size: 12px;
+    padding: 8px 0;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.2s;
@@ -2522,9 +2550,11 @@ button.context-menu-item.delete:hover {
     width: 200px;
 }
 
-.modal-btn-delete:hover {
+.modal-btn-nxm:hover,
+.modal-btn-nxm-confirm:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
+    font-weight: bold;
 }
 
 #closeSettingsModalBtn,
@@ -2537,7 +2567,7 @@ button.context-menu-item.delete:hover {
     color: #fff;
     font-family: var(--font-secondary);
     font-size: 12px;
-    padding: 4px 0;
+    padding: 5px 0;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.2s;
@@ -2552,6 +2582,7 @@ button.context-menu-item.delete:hover {
 #cancelActionBtn:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
+    font-weight: bold;
 }
 
 /* --- Style Modal --- */
@@ -2573,7 +2604,6 @@ button.context-menu-item.delete:hover {
     gap: 10px;
     padding: 8px 15px;
     background-color: var(--c-bg-modal);
-    border-bottom: 1px solid var(--c-border);
     font-family: var(--font-primary);
     font-size: 12pt;
     color: var(--c-text-primary);
@@ -2631,14 +2661,21 @@ button.context-menu-item.delete:hover {
     border: 1px solid var(--c-border);
     color: var(--c-text-primary);
     padding: 5px;
+    border-radius: 4px;
     cursor: pointer;
     font-family: var(--font-secondary);
     font-size: 10pt;
+    text-transform: uppercase;
 }
 
 .mp-btn:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
+    font-weight: bold;
+}
+
+#mpRemoveBtn:hover {
+    background-color: var(--c-danger-hover);
 }
 
 .mp-footer {
@@ -2657,9 +2694,60 @@ button.context-menu-item.delete:hover {
     border: 1px solid var(--c-border);
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
 }
 
 .mp-action-btn:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
+    font-weight: bold;
+}
+
+.modal-gen-btn-cancel {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--c-border);
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-size: 12px;
+    padding: 4px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    width: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-gen-btn-cancel:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: var(--c-accent-primary);
+    font-weight: bold;
+}
+
+.modal-gen-btn-confirm {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--c-border);
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-size: 12px;
+    padding: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    width: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-gen-btn-confirm:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: var(--c-accent-primary);
+    font-weight: bold;
 }

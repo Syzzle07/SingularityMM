@@ -1598,6 +1598,45 @@ fn get_profile_mod_list(profile_name: String) -> Result<Vec<String>, String> {
     Ok(filenames)
 }
 
+#[tauri::command]
+fn copy_profile(source_name: String, new_name: String) -> Result<(), String> {
+    let dir = get_profiles_dir()?;
+    let source_json = dir.join(format!("{}.json", source_name));
+    let source_mxml = dir.join(format!("{}.mxml", source_name));
+    
+    let new_json = dir.join(format!("{}.json", new_name));
+    let new_mxml = dir.join(format!("{}.mxml", new_name));
+
+    if new_json.exists() {
+        return Err("A profile with that name already exists.".to_string());
+    }
+    if !source_json.exists() {
+        return Err("Source profile not found.".to_string());
+    }
+
+    // 1. Copy the JSON file
+    fs::copy(&source_json, &new_json).map_err(|e| format!("Failed to copy JSON: {}", e))?;
+
+    // 2. Open the new JSON and update the "name" field inside it
+    // (Otherwise the copied profile will internally claim to be the old profile)
+    let content = fs::read_to_string(&new_json).map_err(|e| e.to_string())?;
+    let mut data: ModProfileData = serde_json::from_str(&content).map_err(|e| e.to_string())?;
+    data.name = new_name.clone();
+    
+    let new_content = serde_json::to_string_pretty(&data).map_err(|e| e.to_string())?;
+    fs::write(&new_json, new_content).map_err(|e| e.to_string())?;
+
+    // 3. Copy the MXML file
+    if source_mxml.exists() {
+        fs::copy(&source_mxml, &new_mxml).map_err(|e| format!("Failed to copy MXML: {}", e))?;
+    } else {
+        // If source had no MXML (rare), make a clean one
+        fs::write(&new_mxml, CLEAN_MXML_TEMPLATE).map_err(|e| e.to_string())?;
+    }
+
+    Ok(())
+}
+
 // --- MAIN FUNCTION ---
 fn main() {    
     tauri::Builder::default()
@@ -1709,7 +1748,8 @@ fn main() {
             rename_profile,
             create_empty_profile,
             check_for_untracked_mods,
-            get_profile_mod_list
+            get_profile_mod_list,
+            copy_profile
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

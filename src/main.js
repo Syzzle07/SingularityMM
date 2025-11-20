@@ -136,15 +136,71 @@ document.addEventListener('DOMContentLoaded', () => {
         closeDownloadHistoryBtn = document.getElementById('closeDownloadHistoryBtn'),
         clearDownloadHistoryBtn = document.getElementById('clearDownloadHistoryBtn'),
         nxmHandlerBtn = document.getElementById('nxmHandlerBtn'),
-        confirmationModalOverlay = document.getElementById('confirmationModalOverlay'),
-        confirmationModalTitle = document.getElementById('confirmationModalTitle'),
-        confirmationModalDescription = document.getElementById('confirmationModalDescription'),
-        confirmActionBtn = document.getElementById('confirmActionBtn'),
-        cancelActionBtn = document.getElementById('cancelActionBtn'),
         gridGapSlider = document.getElementById('gridGapSlider'),
         gridGapValue = document.getElementById('gridGapValue');
 
     // --- Core Application Logic ---
+
+    // --- CUSTOM DIALOG HELPERS ---
+    const genericDialogModal = document.getElementById('genericDialogModal');
+    const genericDialogTitle = document.getElementById('genericDialogTitle');
+    const genericDialogMessage = document.getElementById('genericDialogMessage');
+    const genericDialogActions = document.getElementById('genericDialogActions');
+
+    function showDialog(title, message, type = 'alert') {
+        return new Promise((resolve) => {
+            // 1. Set Content
+            genericDialogTitle.textContent = title || 'Singularity';
+            genericDialogMessage.textContent = message;
+            genericDialogActions.innerHTML = ''; // Clear old buttons
+
+            // 2. Create Buttons based on type
+            if (type === 'confirm') {
+                // Cancel Button
+                const btnCancel = document.createElement('button');
+                btnCancel.className = 'modal-gen-btn-cancel';
+                btnCancel.textContent = 'Cancel';
+                btnCancel.onclick = () => {
+                    genericDialogModal.classList.add('hidden');
+                    resolve(false); // Return FALSE
+                };
+                genericDialogActions.appendChild(btnCancel);
+
+                // OK Button
+                const btnOk = document.createElement('button');
+                btnOk.className = 'modal-gen-btn-confirm';
+                btnOk.textContent = 'OK';
+                btnOk.onclick = () => {
+                    genericDialogModal.classList.add('hidden');
+                    resolve(true); // Return TRUE
+                };
+                genericDialogActions.appendChild(btnOk);
+            } else {
+                // Alert (OK only)
+                const btnOk = document.createElement('button');
+                btnOk.className = 'modal-gen-btn-confirm';
+                btnOk.textContent = 'OK';
+                btnOk.onclick = () => {
+                    genericDialogModal.classList.add('hidden');
+                    resolve(true);
+                };
+                genericDialogActions.appendChild(btnOk);
+            }
+
+            // 3. Show Modal
+            genericDialogModal.classList.remove('hidden');
+        });
+    }
+
+    // --- REPLACEMENTS ---
+    // Use these instead of window.alert or confirm
+    window.customAlert = async (msg, title) => {
+        await showDialog(title, msg, 'alert');
+    };
+
+    window.customConfirm = async (msg, title) => {
+        return await showDialog(title, msg, 'confirm');
+    };
 
     const i18n = {
         async loadLanguage(lang) {
@@ -289,7 +345,7 @@ document.addEventListener('DOMContentLoaded', () => {
             NEXUS_API_KEY = await invoke('get_nexus_api_key');
         } catch (error) {
             console.error("CRITICAL: Could not fetch Nexus API Key from backend.", error);
-            alert("Could not load API Key. Mod download and update features will be disabled.");
+            await window.customAlert("Could not load API Key. Mod download and update features will be disabled.", "API Error");
         }
 
         const savedLang = localStorage.getItem('selectedLanguage') || 'en';
@@ -324,8 +380,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const hasUntracked = await invoke('check_for_untracked_mods');
 
             if (hasUntracked) {
-                // Show Warning
-                alert("WARNING: Untracked Mods Detected!\n\nYou have mods installed in your folder that were not installed via this Manager.\n\nThe 'Default' profile has been created, but it CANNOT restore these manual mods if you switch profiles.\n\nTo fix this, please delete them and reinstall them by dragging their .zip files into the Manager.");
+                await window.customAlert(
+                    "WARNING: Untracked Mods Detected!\n\nYou have mods installed in your folder that were not installed via this Manager.\n\nThe 'Default' profile has been created, but it CANNOT restore these manual mods if you switch profiles.\n\nTo fix this, please delete them and reinstall them by dragging their .zip files into the Manager.",
+                    "Warning"
+                );
             }
 
             // Save the current state as Default immediately
@@ -517,7 +575,7 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     async function checkForUpdates(isSilent = false) {
         if (!appState.gamePath || curatedData.length === 0) {
-            if (!isSilent) alert("Mod data is not loaded. Cannot check for updates.");
+            if (!isSilent) await window.customAlert("Mod data is not loaded. Cannot check for updates.", "Error");
             return;
         }
 
@@ -637,41 +695,14 @@ document.addEventListener('DOMContentLoaded', () => {
         return date.toLocaleDateString(); // Uses the user's local date format
     }
 
-    function showConfirmationModal(title, description) {
-        return new Promise((resolve) => {
-            confirmationModalTitle.textContent = title;
-            confirmationModalDescription.textContent = description;
-            confirmationModalOverlay.classList.remove('hidden');
-
-            const handleConfirm = () => {
-                cleanup();
-                resolve(true);
-            };
-
-            const handleCancel = () => {
-                cleanup();
-                resolve(false);
-            };
-
-            const cleanup = () => {
-                confirmActionBtn.removeEventListener('click', handleConfirm);
-                cancelActionBtn.removeEventListener('click', handleCancel);
-                confirmationModalOverlay.classList.add('hidden');
-            };
-
-            confirmActionBtn.addEventListener('click', handleConfirm);
-            cancelActionBtn.addEventListener('click', handleCancel);
-        });
-    }
-
     async function startModDownload({ modId, fileId, version, fileName, displayName, replacingFileId }, isUpdate = false) {
         // 1. DUPLICATE CHECK
         const existingItem = downloadHistory.find(d => d.fileId === fileId);
 
         if (existingItem && existingItem.archivePath && !isUpdate) {
-            const confirmed = await showConfirmationModal(
-                'Duplicate Download',
-                `You have already downloaded "${displayName || fileName}". Do you want to download it again and replace the existing file?`
+            const confirmed = await window.customConfirm(
+                `You have already downloaded "${displayName || fileName}".\n\nDo you want to download it again and replace the existing file?`,
+                'Duplicate Download'
             );
 
             if (!confirmed) {
@@ -946,7 +977,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function handleDownloadItemDelete(downloadId) {
-        const confirmed = await confirm("Are you sure you want to delete this downloaded mod archive? This cannot be undone.", { type: 'warning' });
+        const confirmed = await window.customConfirm("Are you sure you want to delete this downloaded mod archive?\n\nThis cannot be undone.", "Delete Archive");
         if (!confirmed) return;
 
         const itemIndex = downloadHistory.findIndex(d => d.id === downloadId);
@@ -963,7 +994,7 @@ document.addEventListener('DOMContentLoaded', () => {
             renderDownloadHistory();
             await saveDownloadHistory(downloadHistory);
         } catch (error) {
-            alert(`Failed to delete archive: ${error}`);
+            await window.customAlert(`Failed to delete archive: ${error}`, "Error");
         }
     }
 
@@ -1136,7 +1167,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const match = link.match(/nxm:\/\/nomanssky\/mods\/(\d+)\/files\/(\d+)/);
         if (!match || match.length < 3) {
-            alert('Error: The received Nexus link was malformed.');
+            await window.customAlert('Error: The received Nexus link was malformed.', "Link Error");
             return;
         }
 
@@ -1163,7 +1194,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
         } catch (error) {
-            alert(`Failed to process NXM link: ${error.message}`);
+            await window.customAlert(`Failed to process NXM link: ${error.message}`, "Error");
         }
     }
 
@@ -1219,12 +1250,12 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             await invoke('save_file', { filePath: appState.currentFilePath, content: finalContent });
         }
-        catch (e) { alert(`Error saving file: ${e}`); }
+        catch (e) { await window.customAlert(`Error saving file: ${e}`, "Error"); }
     };
 
-    const setAllModsEnabled = (enabled) => {
+    const setAllModsEnabled = async (enabled) => {
         if (!appState.xmlDoc) {
-            alert("Please load a GCMODSETTINGS file first.");
+            await window.customAlert("Please load a GCMODSETTINGS.MXML file first.", "Error");
             return;
         }
         const modNodes = appState.xmlDoc.querySelectorAll('Property[name="Data"] > Property[value="GcModSettingsInfo"]');
@@ -1578,8 +1609,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     await saveCurrentProfile();
                     console.log("Mod order saved and local state synced.");
                 })
-                .catch(error => {
-                    alert(`Error saving new mod order: ${error}`);
+                .catch(async error => {
+                    await window.customAlert(`Error saving new mod order: ${error}`, "Error");
                     // If saving fails, we should probably re-render to revert the UI change.
                     renderModList();
                 });
@@ -1792,7 +1823,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const filesData = { files: modData?.files || [] };
 
         if (!modData || !filesData || !filesData.files || filesData.files.length === 0) {
-            alert("Could not find file information for this mod in the local data. Please try again later.");
+            await window.customAlert("Could not find file information for this mod in the local data. Please try again later.", "Error");
             return;
         }
 
@@ -2012,10 +2043,10 @@ document.addEventListener('DOMContentLoaded', () => {
             removeContextMenu();
             try {
                 await navigator.clipboard.writeText(modName);
-                alert(i18n.get('copySuccess', { modName }));
+                await window.customAlert(i18n.get('copySuccess', { modName }), "Success");
             } catch (err) {
                 console.error('Failed to copy text: ', err);
-                alert('Could not copy text to clipboard.');
+                await window.customAlert('Could not copy text to clipboard.', "Error");
             }
         };
 
@@ -2040,9 +2071,9 @@ document.addEventListener('DOMContentLoaded', () => {
         deleteButton.className = 'context-menu-item delete';
         deleteButton.onclick = async () => {
             removeContextMenu();
-            const confirmed = await confirm(
+            const confirmed = await window.customConfirm(
                 i18n.get('confirmDeleteMod', { modName }),
-                { title: i18n.get('confirmDeleteTitle'), type: 'warning' }
+                i18n.get('confirmDeleteTitle')
             );
             if (confirmed) {
                 try {
@@ -2085,12 +2116,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                     }
 
-                    alert(i18n.get('deleteSuccess', { modName }));
+                    await window.customAlert(i18n.get('deleteSuccess', { modName }), "Deleted");
 
                     await saveCurrentProfile();
 
                 } catch (error) {
-                    alert(`${i18n.get('deleteError', { modName })}\n\n${error}`);
+                    await window.customAlert(`${i18n.get('deleteError', { modName })}\n\n${error}`, "Error");
                 }
             }
         };
@@ -2202,12 +2233,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const isRegistered = await invoke('is_protocol_handler_registered');
         if (isRegistered) {
             nxmHandlerBtn.textContent = 'Remove as Default Handler';
-            nxmHandlerBtn.classList.add('modal-btn-delete');
-            nxmHandlerBtn.classList.remove('modal-btn-confirm');
+            nxmHandlerBtn.classList.add('modal-btn-nxm');
+            nxmHandlerBtn.classList.remove('modal-btn-nxm-confirm');
         } else {
             nxmHandlerBtn.textContent = 'Set as Default Handler';
-            nxmHandlerBtn.classList.remove('modal-btn-delete');
-            nxmHandlerBtn.classList.add('modal-btn-confirm');
+            nxmHandlerBtn.classList.remove('modal-btn-nxm');
+            nxmHandlerBtn.classList.add('modal-btn-nxm-confirm');
         }
         document.getElementById('nxmHandlerStatus').classList.add('hidden');
         settingsModalOverlay.classList.remove('hidden');
@@ -2227,12 +2258,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     deleteSettingsBtn.addEventListener('click', async () => {
-        const confirmed = await confirm(i18n.get('troubleshootModalDesc'), {
-            title: i18n.get('troubleshootModalTitle'),
-            type: 'warning',
-            okLabel: 'Delete',
-            cancelLabel: 'Cancel'
-        });
+        const confirmed = await window.customConfirm(
+            i18n.get('troubleshootModalDesc'),
+            i18n.get('troubleshootModalTitle')
+        );
         if (!confirmed) return;
         try {
             const resultKey = await invoke('delete_settings_file');
@@ -2242,9 +2271,9 @@ document.addEventListener('DOMContentLoaded', () => {
             disableAllSwitch.checked = false;
             disableAllSwitch.disabled = true;
             modListContainer.innerHTML = '';
-            alert(i18n.get(resultKey));
+            await window.customAlert(i18n.get(resultKey), "Success");
         } catch (error) {
-            alert(`Error: ${error}`);
+            await window.customAlert(`Error: ${error}`, "Error");
         }
     });
 
@@ -2306,7 +2335,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (!appState.xmlDoc) {
-                alert("Please load a GCMODSETTINGS.MXML file first.");
+                await window.customAlert("Please load a GCMODSETTINGS.MXML file first.", "Error");
                 return;
             }
 
@@ -2360,15 +2389,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         // Then save profile
                         await saveCurrentProfile();
-                        alert(`Successfully installed ${analysis.successes.length} new mod(s) from ${fileName}.`);
+                        await window.customAlert(`Successfully installed ${analysis.successes.length} new mod(s) from ${fileName}.`, "Install Complete");
                     }
 
                     // Handle Conflicts
                     if (analysis.conflicts?.length > 0) {
                         for (const conflict of analysis.conflicts) {
-                            const shouldReplace = await confirm(
-                                `A mod with this ID is already installed ('${conflict.old_mod_folder_name}'). Replace it with '${conflict.new_mod_name}'?`,
-                                { title: 'Mod Conflict', type: 'warning' }
+                            const shouldReplace = await window.customConfirm(
+                                `A mod with this ID is already installed ('${conflict.old_mod_folder_name}').\n\nReplace it with '${conflict.new_mod_name}'?`,
+                                'Mod Conflict'
                             );
 
                             await invoke('resolve_conflict', {
@@ -2387,15 +2416,15 @@ document.addEventListener('DOMContentLoaded', () => {
                                     await loadXmlContent(updatedXmlContent, appState.currentFilePath);
                                 }
                                 await saveChanges();
-                                alert(`Mod '${conflict.old_mod_folder_name}' was successfully updated to '${conflict.new_mod_name}'.`);
+                                await window.customAlert(`Mod '${conflict.old_mod_folder_name}' was successfully updated to '${conflict.new_mod_name}'.`, "Updated");
                             } else {
-                                alert(`Update for mod '${conflict.old_mod_folder_name}' was cancelled.`);
+                                await window.customAlert(`Update for mod '${conflict.old_mod_folder_name}' was cancelled.`, "Cancelled");
                             }
                         }
                     }
                 } catch (error) {
                     console.error(`Error installing ${fileName}:`, error);
-                    alert(`Error installing ${fileName}: ${error}`);
+                    await window.customAlert(`Error installing ${fileName}: ${error}`, "Installation Failed");
                 }
             }
         };
@@ -2523,7 +2552,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Auto-select the new one in modal
                 selectedProfileInModal = name;
                 renderManagerList();
-            } catch (e) { alert("Error: " + e); }
+            } catch (e) { await window.customAlert("Error: " + e, "Error"); }
         }
     });
 
@@ -2544,14 +2573,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 selectedProfileInModal = newName; // Select the copy
                 renderManagerList();
-            } catch (e) { alert("Error copying: " + e); }
+            } catch (e) { await window.customAlert("Error copying: " + e, "Error"); }
         }
     });
 
     // 3. RENAME (Inside Modal)
     document.getElementById('mpRenameBtn').addEventListener('click', async () => {
         if (!selectedProfileInModal) return;
-        if (selectedProfileInModal === 'Default') return alert("Cannot rename Default profile.");
+        if (selectedProfileInModal === 'Default') return await window.customAlert("Cannot rename Default profile.", "Action Denied");
 
         const newName = prompt(`Rename ${selectedProfileInModal} to:`, selectedProfileInModal);
         if (newName && newName !== selectedProfileInModal) {
@@ -2569,16 +2598,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 selectedProfileInModal = newName;
                 await renderManagerList();
                 await refreshProfileList();
-            } catch (e) { alert("Error renaming: " + e); }
+            } catch (e) { await window.customAlert("Error renaming: " + e, "Error"); }
         }
     });
 
     // 4. REMOVE (Inside Modal)
     document.getElementById('mpRemoveBtn').addEventListener('click', async () => {
         if (!selectedProfileInModal) return;
-        if (selectedProfileInModal === 'Default') return alert("Cannot delete Default profile.");
+        if (selectedProfileInModal === 'Default') return await window.customAlert("Cannot delete Default profile.", "Action Denied");
 
-        if (confirm(`Delete profile "${selectedProfileInModal}"?`)) {
+        if (await window.customConfirm(`Delete profile "${selectedProfileInModal}"?`, "Confirm")) {
             try {
                 await invoke('delete_profile', { profileName: selectedProfileInModal });
 
@@ -2593,7 +2622,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 selectedProfileInModal = 'Default';
                 await renderManagerList();
                 await refreshProfileList();
-            } catch (e) { alert("Error deleting: " + e); }
+            } catch (e) { await window.customAlert("Error deleting: " + e, "Error"); }
         }
     });
 
@@ -2673,13 +2702,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 profileSelect.value = name; // Select the new one
                 updateApplyButtonVisibility(); // Button will appear
 
-            } catch (e) { alert("Error creating profile: " + e); }
+            } catch (e) { await window.customAlert("Error creating profile: " + e, "Error"); }
         }
     });
 
     renameProfileBtn.addEventListener('click', async () => {
         const current = profileSelect.value;
-        if (current === 'Default') return alert("Cannot rename Default profile.");
+        if (current === 'Default') return await window.customAlert("Cannot rename Default profile.", "Action Denied");
 
         const newName = prompt(`Rename ${current} to:`, current);
         if (newName && newName !== current) {
@@ -2695,15 +2724,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 await refreshProfileList();
                 profileSelect.value = newName;
                 updateApplyButtonVisibility();
-            } catch (e) { alert("Error renaming: " + e); }
+            } catch (e) { await window.customAlert("Error renaming: " + e, "Error"); }
         }
     });
 
     deleteProfileBtn.addEventListener('click', async () => {
         const current = profileSelect.value;
-        if (current === 'Default') return alert("Cannot delete Default profile.");
+        if (current === 'Default') return await window.customAlert("Cannot delete Default profile.", "Action Denied");
 
-        if (confirm(`Delete profile "${current}"?`)) {
+        if (await window.customConfirm(`Delete profile "${current}"?`, "Delete Profile")) {
             try {
                 await invoke('delete_profile', { profileName: current });
 
@@ -2729,16 +2758,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 // 3. This will now show the button because ('Default' !== null)
                 updateApplyButtonVisibility();
 
-            } catch (e) { alert("Error deleting: " + e); }
+            } catch (e) { await window.customAlert("Error deleting: " + e, "Error"); }
         }
     });
 
     applyProfileBtn.addEventListener('click', async () => {
         const targetProfile = profileSelect.value;
 
-        const confirmed = await confirm(
-            `Switch profile to "${targetProfile}"?\nThis will purge current mods and install the profile's mods.`,
-            { title: 'Singularity', type: 'warning' }
+        const confirmed = await window.customConfirm(
+            `Switch profile to "${targetProfile}"?\n\nThis will purge current mods and install the profile's mods.`,
+            "Switch Profile"
         );
 
         // If the user clicked Cancel (false), stop everything immediately.
@@ -2791,11 +2820,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 100);
 
             profileProgressModal.classList.add('hidden');
-            alert(`Profile "${targetProfile}" applied successfully.`);
+            await window.customAlert(`Profile "${targetProfile}" applied successfully.`, "Success");
 
         } catch (e) {
             profileProgressModal.classList.add('hidden');
-            alert(`Error applying profile: ${e}`);
+            await window.customAlert(`Error applying profile: ${e}`, "Error");
         } finally {
             unlisten();
         }
@@ -2944,12 +2973,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === priorityModalOverlay) closePriorityModal();
     });
 
-    confirmPriorityBtn.addEventListener('click', () => {
+    confirmPriorityBtn.addEventListener('click', async () => {
         const modToMove = priorityModalOverlay.dataset.modName;
         const newPriority = parseInt(priorityInput.value, 10);
         const maxPriority = parseInt(priorityInput.max, 10);
         if (isNaN(newPriority) || newPriority < 0 || newPriority > maxPriority) {
-            alert(`Invalid priority. Please enter a number between 0 and ${maxPriority}.`);
+            await window.customAlert(`Invalid priority. Please enter a number between 0 and ${maxPriority}.`, "Invalid Input");
             return;
         }
         let currentOrder = Array.from(modListContainer.querySelectorAll('.mod-row')).map(row => row.dataset.modName);
@@ -2973,8 +3002,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 await saveCurrentProfile();
                 console.log("Mod order saved and local state synced.");
             })
-            .catch(error => {
-                alert(`Error saving new mod order: ${error}`);
+            .catch(async error => {
+                await window.customAlert(`Error saving new mod order: ${error}`, "Error");
                 renderModList(); // Revert on error
             });
 
@@ -3039,9 +3068,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     clearDownloadHistoryBtn.addEventListener('click', async () => {
         // 1. Show the new, more explicit confirmation dialog.
-        const confirmed = await showConfirmationModal(
-            'Delete All Downloads',
-            'Are you sure you want to delete ALL downloaded mod archives? This will remove the files from your computer and cannot be undone.'
+        const confirmed = await window.customConfirm(
+            'Are you sure you want to delete ALL downloaded mod archives?\n\nThis will remove the files from your computer and cannot be undone.',
+            'Delete All Downloads'
         );
 
         if (confirmed) {
@@ -3064,7 +3093,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             } catch (error) {
                 console.error("Failed to delete all downloads:", error);
-                alert(`An error occurred while deleting the files: ${error}`);
+                await window.customAlert(`An error occurred while deleting the files: ${error}`, "Error");
             }
         } else {
             console.log("User cancelled 'Delete All' operation.");
@@ -3086,12 +3115,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const isRegistered = await invoke('is_protocol_handler_registered');
             if (isRegistered) {
                 nxmHandlerBtn.textContent = 'Remove as Default Handler';
-                nxmHandlerBtn.classList.add('modal-btn-delete');
-                nxmHandlerBtn.classList.remove('modal-btn-confirm');
+                nxmHandlerBtn.classList.add('modal-btn-nxm');
+                nxmHandlerBtn.classList.remove('modal-btn-nxm-confirm');
             } else {
                 nxmHandlerBtn.textContent = 'Set as Default Handler';
-                nxmHandlerBtn.classList.remove('modal-btn-delete');
-                nxmHandlerBtn.classList.add('modal-btn-confirm');
+                nxmHandlerBtn.classList.remove('modal-btn-nxm');
+                nxmHandlerBtn.classList.add('modal-btn-nxm-confirm');
             }
         };
 
@@ -3102,9 +3131,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (isCurrentlyRegistered) {
             // Ask for confirmation to REMOVE the handler
-            confirmed = await showConfirmationModal(
-                'Remove NXM Handler',
-                'Singularity is currently the default handler for NXM links. Do you want to remove this association?'
+            confirmed = await window.customConfirm(
+                'Singularity is currently the default handler for NXM links.\nDo you want to remove this association?',
+                'Remove NXM Handler'
             );
             if (confirmed) {
                 try {
@@ -3117,9 +3146,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         } else {
             // Ask for confirmation to SET the handler
-            confirmed = await showConfirmationModal(
-                'Set NXM Handler',
-                'Do you want to set Singularity as the default application for "Mod Manager Download" (nxm://) links?'
+            confirmed = await window.customConfirm(
+                'Do you want to set Singularity as the default application for "Mod Manager Download" (nxm://) links?',
+                'Set NXM Handler'
             );
             if (confirmed) {
                 try {
@@ -3195,7 +3224,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // If it fails, reset immediately and show error
             launchBtn.classList.remove('is-launching');
             launchText.textContent = originalText;
-            alert(`Failed to launch game: ${error}`);
+            await window.customAlert(`Failed to launch game: ${error}`, "Launch Error");
         }
     });
 
