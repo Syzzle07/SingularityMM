@@ -87,7 +87,6 @@ async function buildCuratedList() {
     }
 
     // 3. Fetch Updated List
-    // Call #1
     const recentlyUpdatedIds = await fetchUpdatedModsList();
     let apiCallCount = 1;
 
@@ -142,16 +141,38 @@ async function buildCuratedList() {
         const batchPromises = batch.map(async (inputMod) => {
             const modId = String(inputMod.id);
 
+            // 1. ALWAYS Fetch Info (To verify timestamp)
             const modData = await fetchModDataFromNexus(modId);
             apiCallCount++;
 
             if (!modData) return null;
 
-            const filesData = await fetchModFilesFromNexus(modId);
-            apiCallCount++;
+            // 2. CHECK: Is this a "False Alarm" update?
+            // If Nexus said "Updated", but the timestamp matches our cache, 
+            // we don't need to fetch Files or Changelogs.
+            let files = [];
+            let changelogs = {};
 
-            const changelogs = await fetchModChangelogsFromNexus(modId);
-            apiCallCount++;
+            const cachedMod = previousDataMap.get(modId);
+            const isFalseAlarm = cachedMod &&
+                cachedMod.updated_timestamp === modData.updated_timestamp &&
+                cachedMod.files &&
+                cachedMod.changelogs;
+
+            if (isFalseAlarm) {
+                console.log(`[Mod ${modId}] False alarm (Timestamp match). Using cached Files/Logs.`);
+                files = cachedMod.files;
+                changelogs = cachedMod.changelogs;
+            } else {
+                // It IS actually new or changed, fetch the heavy stuff
+                const filesData = await fetchModFilesFromNexus(modId);
+                apiCallCount++;
+                files = filesData.files || [];
+
+                const logs = await fetchModChangelogsFromNexus(modId);
+                apiCallCount++;
+                changelogs = logs || {};
+            }
 
             const warningInfo = warningsMap.get(modId);
             return {
@@ -166,8 +187,8 @@ async function buildCuratedList() {
                 description: modData.description,
                 state: warningInfo ? warningInfo.state : 'normal',
                 warningMessage: warningInfo ? warningInfo.warningMessage : '',
-                files: filesData.files || [],
-                changelogs: changelogs || {}
+                files: files,
+                changelogs: changelogs
             };
         });
 
