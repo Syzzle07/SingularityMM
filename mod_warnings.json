@@ -1,5 +1,11 @@
 [
     {
+        "name": "",
+        "id": "",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "Quick Fish Release",
         "id": "3813",
         "state": "normal",
@@ -92,6 +98,108 @@
     {
         "name": "Overclocked Industry",
         "id": "2582",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Resource Mining",
+        "id": "1911",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ShipTweeks",
+        "id": "2850",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Less Storms - Longer Days",
+        "id": "992",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Floating Teleporter Collision",
+        "id": "3866",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Nanite Multiplier (Beacon)",
+        "id": "3470",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zBest Freighter",
+        "id": "3605",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Scanning",
+        "id": "2284",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Materials",
+        "id": "2285",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Mining Multiplier",
+        "id": "3647",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Pirates Always Engage",
+        "id": "2164",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Keep Gifting",
+        "id": "2298",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Firmware Update for the Signal Booster",
+        "id": "1930",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cheaper Multitool and Ship Slot Upgrades",
+        "id": "2348",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cheaper Multitool and Ship Class Upgrades",
+        "id": "2829",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cheaper Derelict Maps",
+        "id": "2352",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man's - Prepare to Sky Edition (PTSd) -- A Progression-Difficulty-Balance Overhaul",
+        "id": "2225",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Ship Hunting Quick Actions",
+        "id": "2476",
         "state": "normal",
         "warningMessage": ""
     }
