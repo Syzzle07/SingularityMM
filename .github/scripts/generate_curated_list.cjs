@@ -7,10 +7,31 @@ if (!NEXUS_API_KEY) throw new Error("NEXUS_API_KEY environment variable not set!
 
 const WARNINGS_FILE_PATH = path.join(process.cwd(), 'mod_warnings.json');
 const OUTPUT_FILE_PATH = path.join(process.cwd(), 'curated', 'curated_list.json');
+// Nexus 'updated' endpoint supports: '1d', '1w', '1m'
+const UPDATE_PERIOD = '1w';
+// Batching to be safe with the ones we DO fetch
 const BATCH_SIZE = 5;
 const DELAY_BETWEEN_BATCHES = 1000;
 
 // --- API HELPERS ---
+
+// 1. Get list of ALL mods updated recently
+async function fetchUpdatedModsList() {
+    const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/updated.json?period=${UPDATE_PERIOD}`;
+    const headers = { "apikey": NEXUS_API_KEY };
+    try {
+        const response = await fetch(url, { headers });
+        if (!response.ok) {
+            console.error(`Failed to fetch updated mods list: ${response.status}`);
+            return [];
+        }
+        const data = await response.json();
+        return data.map(m => String(m.mod_id));
+    } catch (error) {
+        console.error("Error fetching updated mods list:", error);
+        return [];
+    }
+}
 
 async function fetchModDataFromNexus(modId) {
     const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/${modId}.json`;
@@ -18,10 +39,7 @@ async function fetchModDataFromNexus(modId) {
     try {
         const response = await fetch(url, { headers });
         if (response.status === 429) throw new Error("RATE_LIMIT");
-        if (!response.ok) {
-            console.error(`[Mod ${modId}] Info API Error: ${response.status}`);
-            return null;
-        }
+        if (!response.ok) return null;
         return await response.json();
     } catch (error) {
         console.error(`[Mod ${modId}] Info Fetch Failed:`, error.message);
@@ -42,7 +60,6 @@ async function fetchModFilesFromNexus(modId) {
     }
 }
 
-// Fetch Changelogs
 async function fetchModChangelogsFromNexus(modId) {
     const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/${modId}/changelogs.json`;
     const headers = { "apikey": NEXUS_API_KEY };
@@ -51,7 +68,6 @@ async function fetchModChangelogsFromNexus(modId) {
         if (!response.ok) return {};
         return await response.json();
     } catch (error) {
-        console.error(`[Mod ${modId}] Changelog Fetch Failed:`, error.message);
         return {};
     }
 }
@@ -59,78 +75,89 @@ async function fetchModChangelogsFromNexus(modId) {
 // --- MAIN LOGIC ---
 
 async function buildCuratedList() {
-    console.log("Starting Smart Update (Info + Files + Changelogs)...");
+    console.log("Starting Incremental Smart Update...");
 
-    // 1. Load Inputs
+    // 1. Load Inputs (Manual list)
     const warningsContent = await fs.readFile(WARNINGS_FILE_PATH, 'utf8');
     const modsToProcess = JSON.parse(warningsContent)
-        .filter(mod => mod.id && String(mod.id).trim() !== "");
+        .filter(mod => mod.id && String(mod.id).trim() !== ""); // Filter templates
+
     const warningsMap = new Map(modsToProcess.map(mod => [String(mod.id), mod]));
 
-    // 2. Load Previous Cache
+    // 2. Load Previous Cache (The "Memory")
     let previousDataMap = new Map();
     try {
         const oldContent = await fs.readFile(OUTPUT_FILE_PATH, 'utf8');
         const oldJson = JSON.parse(oldContent);
         oldJson.forEach(mod => previousDataMap.set(String(mod.mod_id), mod));
-        console.log(`Loaded ${oldJson.length} mods from previous cache.`);
+        console.log(`Loaded ${oldJson.length} mods from local cache.`);
     } catch (e) {
-        console.log("No previous cache found. Doing full fetch.");
+        console.log("No previous cache found. First run will be heavy.");
     }
 
-    console.log(`Processing ${modsToProcess.length} mods in batches of ${BATCH_SIZE}...`);
+    // 3. Fetch list of recently updated mods from Nexus
+    // This costs 1 API Call
+    const recentlyUpdatedIds = await fetchUpdatedModsList();
+    const updatedSet = new Set(recentlyUpdatedIds);
+    console.log(`Nexus reports ${updatedSet.size} mods updated in the last ${UPDATE_PERIOD}.`);
 
+    // 4. Determine which mods ACTUALLY need fetching
+    const modsToFetch = [];
     const finalResults = [];
-    let apiCallCount = 0;
 
-    // 3. Process in Batches
-    for (let i = 0; i < modsToProcess.length; i += BATCH_SIZE) {
-        const batch = modsToProcess.slice(i, i + BATCH_SIZE);
+    for (const inputMod of modsToProcess) {
+        const modId = String(inputMod.id);
+        const cachedMod = previousDataMap.get(modId);
+
+        const isNew = !cachedMod; // It's not in the JSON yet
+        const isUpdatedOnNexus = updatedSet.has(modId); // Nexus says it changed
+        const isMissingData = cachedMod && (!cachedMod.files || !cachedMod.changelogs); // Cache is corrupt/old
+
+        if (isNew || isUpdatedOnNexus || isMissingData) {
+            // MUST FETCH THIS ONE
+            modsToFetch.push(inputMod);
+            if (isNew) console.log(`[Mod ${modId}] Queueing: New mod.`);
+            else if (isUpdatedOnNexus) console.log(`[Mod ${modId}] Queueing: Update detected on Nexus.`);
+            else console.log(`[Mod ${modId}] Queueing: repairing missing data.`);
+        } else {
+            // CAN SKIP THIS ONE -> Just use cache
+            const warningInfo = warningsMap.get(modId);
+            finalResults.push({
+                ...cachedMod,
+                state: warningInfo ? warningInfo.state : 'normal',
+                warningMessage: warningInfo ? warningInfo.warningMessage : ''
+            });
+        }
+    }
+
+    console.log(`\nSummary: ${modsToProcess.length} total mods.`);
+    console.log(`Cache hits: ${finalResults.length}.`);
+    console.log(`Fetching fresh data for: ${modsToFetch.length} mods...`);
+
+    // 5. Process the "To Fetch" list in Batches
+    let apiCallCount = 1; // Starts at 1 because of the updated_list call
+
+    for (let i = 0; i < modsToFetch.length; i += BATCH_SIZE) {
+        const batch = modsToFetch.slice(i, i + BATCH_SIZE);
 
         const batchPromises = batch.map(async (inputMod) => {
             const modId = String(inputMod.id);
 
-            // Call #1: Always fetch basic info
+            // Fetch Info
             const modData = await fetchModDataFromNexus(modId);
             apiCallCount++;
 
             if (!modData) return null;
 
-            let files = [];
-            let changelogs = {};
-            const cachedMod = previousDataMap.get(modId);
+            // Fetch Files
+            const filesData = await fetchModFilesFromNexus(modId);
+            apiCallCount++;
 
-            // SMART CACHE CHECK
-            // Reuse cache ONLY if:
-            // 1. Timestamps match (Mod hasn't changed)
-            // 2. Have Files (Cache isn't broken)
-            // 3. Have Changelogs (Cache isn't from the old version of this script)
-            if (cachedMod &&
-                cachedMod.updated_timestamp === modData.updated_timestamp &&
-                cachedMod.files &&
-                cachedMod.changelogs
-            ) {
-                // REUSE CACHE
-                files = cachedMod.files;
-                changelogs = cachedMod.changelogs;
-                // console.log(`[Mod ${modId}] Using cached data.`);
-            } else {
-                // FETCH FRESH DATA
-                // This will run for ALL mods on the first time,
-                // filling in the missing changelogs. Afterward, it only runs on updates.
-                console.log(`[Mod ${modId}] Fresh fetch required (Update detected or missing data)...`);
+            // Fetch Changelogs
+            const changelogs = await fetchModChangelogsFromNexus(modId);
+            apiCallCount++;
 
-                // Call #2: Files
-                const filesData = await fetchModFilesFromNexus(modId);
-                files = filesData.files;
-                apiCallCount++;
-
-                // Call #3: Changelogs
-                changelogs = await fetchModChangelogsFromNexus(modId);
-                apiCallCount++;
-            }
-
-            // Merge Data
+            // Merge
             const warningInfo = warningsMap.get(modId);
             return {
                 mod_id: modData.mod_id,
@@ -146,29 +173,29 @@ async function buildCuratedList() {
                 description: modData.description,
                 state: warningInfo ? warningInfo.state : 'normal',
                 warningMessage: warningInfo ? warningInfo.warningMessage : '',
-                files: files,
-                changelogs: changelogs
+                files: filesData.files || [],
+                changelogs: changelogs || {}
             };
         });
 
         const batchResults = await Promise.all(batchPromises);
         batchResults.forEach(res => { if (res) finalResults.push(res); });
 
-        // Rate Limit Protection
-        if (i + BATCH_SIZE < modsToProcess.length) {
+        if (i + BATCH_SIZE < modsToFetch.length) {
             await new Promise(r => setTimeout(r, DELAY_BETWEEN_BATCHES));
         }
     }
 
-    // 4. Save Result
+    // 6. Save Result
     await fs.mkdir(path.dirname(OUTPUT_FILE_PATH), { recursive: true });
     await fs.writeFile(OUTPUT_FILE_PATH, JSON.stringify(finalResults, null, 2));
 
     console.log("------------------------------------------------");
-    console.log(`Summary:`);
-    console.log(`- Total Mods:           ${modsToProcess.length}`);
+    console.log(`Success!`);
+    console.log(`- Total Mods in List:   ${modsToProcess.length}`);
+    console.log(`- Mods Fetched:         ${modsToFetch.length}`);
+    console.log(`- Mods Cached:          ${modsToProcess.length - modsToFetch.length}`);
     console.log(`- Total API Calls:      ${apiCallCount}`);
-    console.log(`- Output saved to:      ${OUTPUT_FILE_PATH}`);
     console.log("------------------------------------------------");
 }
 
