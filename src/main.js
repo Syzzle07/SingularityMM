@@ -1739,7 +1739,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             titleElement.innerHTML = titleHtml;
             card.querySelector('.mod-card-summary').textContent = modData.summary || 'No summary available.';
-            card.querySelector('.mod-card-author').textContent = `by ${modData.author}`;
+            card.querySelector('.mod-card-author').innerHTML = `by <span class="author-name-highlight">${modData.author}</span>`;
             const currentLang = mapLangCode(languageSelector.value);
             const dateStr = formatNexusDate(modData.updated_timestamp, currentLang);
             card.querySelector('.mod-card-date').textContent = `Updated: ${dateStr}`;

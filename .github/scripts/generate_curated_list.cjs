@@ -87,7 +87,10 @@ async function buildCuratedList() {
     }
 
     // 3. Fetch Updated List
+    // Call #1
     const recentlyUpdatedIds = await fetchUpdatedModsList();
+    let apiCallCount = 1;
+
     const updatedSet = new Set(recentlyUpdatedIds);
     console.log(`Nexus reports ${updatedSet.size} mods updated in the last ${UPDATE_PERIOD}.`);
 
@@ -110,7 +113,7 @@ async function buildCuratedList() {
             else if (isUpdatedOnNexus) console.log(`[Mod ${modId}] Queueing: Update detected.`);
             else console.log(`[Mod ${modId}] Queueing: Repairing missing data.`);
         } else {
-            // REUSE CACHE (But ensure we don't carry over old deleted fields)
+            // REUSE CACHE
             const warningInfo = warningsMap.get(modId);
             finalResults.push({
                 mod_id: cachedMod.mod_id,
@@ -133,8 +136,6 @@ async function buildCuratedList() {
     console.log(`Fetching fresh data for: ${modsToFetch.length} mods...`);
 
     // 5. Process Fetches
-    let apiCallCount = 1;
-
     for (let i = 0; i < modsToFetch.length; i += BATCH_SIZE) {
         const batch = modsToFetch.slice(i, i + BATCH_SIZE);
 
@@ -182,7 +183,24 @@ async function buildCuratedList() {
     await fs.mkdir(path.dirname(OUTPUT_FILE_PATH), { recursive: true });
     await fs.writeFile(OUTPUT_FILE_PATH, JSON.stringify(finalResults, null, 2));
 
-    console.log(`Done. Processed ${modsToProcess.length} mods with ${apiCallCount} calls.`);
+    // 7. Final Report
+    const totalProcessed = modsToProcess.length;
+    const cacheHits = totalProcessed - modsToFetch.length;
+    // Theoretical max = 1 check + (3 calls * total mods)
+    const theoreticalMax = 1 + (totalProcessed * 3);
+    const savedCalls = theoreticalMax - apiCallCount;
+
+    console.log("================================================");
+    console.log(` SUMMARY REPORT`);
+    console.log("================================================");
+    console.log(` Total Mods Tracked:    ${totalProcessed}`);
+    console.log(` Mods Cached (Skipped): ${cacheHits}`);
+    console.log(` Mods Fetched (Fresh):  ${modsToFetch.length}`);
+    console.log("------------------------------------------------");
+    console.log(` Actual API Calls:      ${apiCallCount}`);
+    console.log(` API Calls Saved:       ${savedCalls}`);
+    console.log(` Output File:           ${OUTPUT_FILE_PATH}`);
+    console.log("================================================");
 }
 
 buildCuratedList().catch(error => {

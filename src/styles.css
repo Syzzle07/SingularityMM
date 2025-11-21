@@ -24,6 +24,7 @@
     /* --- Base Palette --- */
     --c-background: #1D1D1D;
     --c-text-primary: #F1F1F1;
+    --c-text-highlight: #4caf50;
     --c-accent-primary: #CA4862;
     --c-accent-secondary: #F16764;
     --c-status-success: #4caf50;
@@ -1495,6 +1496,12 @@ button.context-menu-item.delete:hover {
     font-size: 10pt;
     opacity: 0.7;
     margin: 0;
+}
+
+.mod-card-author .author-name-highlight {
+    color: var(--c-text-highlight);
+    font-weight: bold;
+    opacity: 1;
 }
 
 .mod-card-stats {
