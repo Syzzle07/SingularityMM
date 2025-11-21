@@ -7,8 +7,8 @@ if (!NEXUS_API_KEY) throw new Error("NEXUS_API_KEY environment variable not set!
 
 const WARNINGS_FILE_PATH = path.join(process.cwd(), 'mod_warnings.json');
 const OUTPUT_FILE_PATH = path.join(process.cwd(), 'curated', 'curated_list.json');
-const BATCH_SIZE = 5; 
-const DELAY_BETWEEN_BATCHES = 1000; 
+const BATCH_SIZE = 5;
+const DELAY_BETWEEN_BATCHES = 1000;
 
 // --- API HELPERS ---
 
@@ -63,7 +63,8 @@ async function buildCuratedList() {
 
     // 1. Load Inputs
     const warningsContent = await fs.readFile(WARNINGS_FILE_PATH, 'utf8');
-    const modsToProcess = JSON.parse(warningsContent);
+    const modsToProcess = JSON.parse(warningsContent)
+        .filter(mod => mod.id && String(mod.id).trim() !== "");
     const warningsMap = new Map(modsToProcess.map(mod => [String(mod.id), mod]));
 
     // 2. Load Previous Cache
@@ -85,7 +86,7 @@ async function buildCuratedList() {
     // 3. Process in Batches
     for (let i = 0; i < modsToProcess.length; i += BATCH_SIZE) {
         const batch = modsToProcess.slice(i, i + BATCH_SIZE);
-        
+
         const batchPromises = batch.map(async (inputMod) => {
             const modId = String(inputMod.id);
 
@@ -93,7 +94,7 @@ async function buildCuratedList() {
             const modData = await fetchModDataFromNexus(modId);
             apiCallCount++;
 
-            if (!modData) return null; 
+            if (!modData) return null;
 
             let files = [];
             let changelogs = {};
@@ -104,9 +105,9 @@ async function buildCuratedList() {
             // 1. Timestamps match (Mod hasn't changed)
             // 2. Have Files (Cache isn't broken)
             // 3. Have Changelogs (Cache isn't from the old version of this script)
-            if (cachedMod && 
-                cachedMod.updated_timestamp === modData.updated_timestamp && 
-                cachedMod.files && 
+            if (cachedMod &&
+                cachedMod.updated_timestamp === modData.updated_timestamp &&
+                cachedMod.files &&
                 cachedMod.changelogs
             ) {
                 // REUSE CACHE
@@ -118,7 +119,7 @@ async function buildCuratedList() {
                 // This will run for ALL mods on the first time,
                 // filling in the missing changelogs. Afterward, it only runs on updates.
                 console.log(`[Mod ${modId}] Fresh fetch required (Update detected or missing data)...`);
-                
+
                 // Call #2: Files
                 const filesData = await fetchModFilesFromNexus(modId);
                 files = filesData.files;
