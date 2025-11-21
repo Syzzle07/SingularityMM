@@ -1,55 +1,98 @@
 [
-  {
-    "id": "3813",
-    "state": "normal",
-    "warningMessage": ""
-  },
-  {
-    "id": "1647",
-    "state": "normal",
-    "warningMessage": ""
-  },
-  {
-    "id": "2584",
-    "state": "normal",
-    "warningMessage": ""
-  },
-  {
-    "id": "3832",
-    "state": "warning",
-    "warningMessage": "Mod uses MBIN files, will conflict with other mod changing the same MBIN and likely to break when a new game update releases."
-  },
-  {
-    "id": "3828",
-    "state": "warning",
-    "warningMessage": "Mod uses MBIN files, will conflict with other mod changing the same MBIN and likely to break when a new game update releases."
-  },
-  {
-    "id": "3360",
-    "state": "normal",
-    "warningMessage": ""
-  },
-  {
-    "id": "3810",
-    "state": "warning",
-    "warningMessage": "Mod uses MBIN files, will conflict with other mod changing the same MBIN and likely to break when a new game update releases."
-  },
-  {
-    "id": "3785",
-    "state": "warning",
-    "warningMessage": "Mod uses MBIN files, will conflict with other mod changing the same MBIN and likely to break when a new game update releases."
-  },
-  {
-    "id": "3420",
-    "state": "normal",
-    "warningMessage": ""
-  },
-  {
-    "id": "2589",
-    "state": "normal",
-    "warningMessage": ""
-  }
+    {
+        "name": "Quick Fish Release",
+        "id": "3813",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Base Sites",
+        "id": "1647",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "sProtect - No Tech Damage with Shield Up",
+        "id": "2584",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Pirate Station Corvette Teleport",
+        "id": "3832",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Abandoned Station",
+        "id": "3828",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "sHealthcare - Health Station Life Support",
+        "id": "3360",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Buildable Corvette Workshop Cache",
+        "id": "3810",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Buildable Starship Outfitting Terminal",
+        "id": "3785",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Communism - A Consumerism AddOn",
+        "id": "3420",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unlockable Expedition Exclusive Techs",
+        "id": "2589",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Space Rescue Always Capital Freighter",
+        "id": "3337",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Rifles",
+        "id": "2701",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "You're going to Brazil - Random Black Hole",
+        "id": "2695",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Portal Charging",
+        "id": "2694",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Pulse Scan",
+        "id": "2587",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Overclocked Industry",
+        "id": "2582",
+        "state": "normal",
+        "warningMessage": ""
+    }
 ]
-
-
-
