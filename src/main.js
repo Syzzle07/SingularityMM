@@ -5,6 +5,11 @@ import { readTextFile, writeTextFile, mkdir } from "@tauri-apps/plugin-fs";
 import { basename, join, resolveResource, appDataDir } from "@tauri-apps/api/path";
 import { getCurrentWindow, LogicalSize } from "@tauri-apps/api/window";
 
+// --- IMPORT ASSETS ---
+import iconSteam from './assets/icon-steam.png';
+import iconGog from './assets/icon-gog.png';
+import iconXbox from './assets/icon-xbox.png';
+
 // Get the window instance for listener attachment
 const appWindow = getCurrentWindow();
 
@@ -486,11 +491,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Set the correct icon
             if (appState.versionType === 'Steam') {
-                launchIcon.src = '/src/assets/icon-steam.png';
+                launchIcon.src = iconSteam;
             } else if (appState.versionType === 'GOG') {
-                launchIcon.src = '/src/assets/icon-gog.png';
+                launchIcon.src = iconGog;
             } else if (appState.versionType === 'GamePass') {
-                launchIcon.src = '/src/assets/icon-xbox.png';
+                launchIcon.src = iconXbox;
             }
         }
 
