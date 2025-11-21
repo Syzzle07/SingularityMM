@@ -1666,190 +1666,6 @@
     }
   },
   {
-    "mod_id": 2589,
-    "name": "Unlockable Expedition Exclusive Techs",
-    "summary": "Adds the Expedition and Pre-Order exclusive Techs for Ship, Multi-Tool, Exosuit and Base Building to the Anomaly.",
-    "version": "6.16",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2589/2589-1668019734-311713757.jpeg",
-    "author": "Syzzle07",
-    "updated_timestamp": 1762723868,
-    "created_timestamp": 1668020347,
-    "description": "This mod does a couple of things, it changes Pulse Drive, Launch Thruster and Hyperdrive to be able to be dismantled so you can install the replacement ones, and add the Techs you're not able to get normally anymore, such as Expedition exclusive techs, pre-order techs or techs that were removed from the game.\n<br />\n<br />[b]Ships:[/b]\n<br />Add Waveform Engine which is a better Pulse Drive. (Expedition Tech)\n<br />Add Frameshift Catapult which is a better Hyperdrive. (Expedition Tech)\n<br />Add Advanced Launch System which is a better Launch Thruster. (Expedition Tech)\n<br />Add Photonix Core which is a Pulse Drive Upgrade. (PS4 Pre-Order Tech)\n<br />\n<br />[color=#ffff00][size=4][b]WARNING:[/b][/size][/color][color=#ff0000][size=4][b] [/b][/size][/color]\n<br />[quote]Since Waveform Engine, Frameshift Catapult and Advanced Launch System are better versions of the mentioned 3 core ship techs, when installing them you SHOULD REMOVE THE OTHER EQUIVALENT ONE FROM THE SHIP otherwise your ship might break and not fly, if you install Waveform Engine, remove Pulse Drive, if you install Frameshift, remove Hyperdrive, if you install Advanced Launch System, remove Launch Thruster or your ship won't fly anymore.[/quote]\n<br />[b]\n<br />Multitools:[/b]\n<br />Add Boltcaster SM which is a Boltcaster Upgrade. (PS4 Pre-Order Tech)\n<br />Add Plasma Resonator which is a Mining Laser Upgrade. (Previously removed from the game)\n<br />\n<br />[b]Exosuit:[/b]\n<br />Add Visceral Synthesiser which I have no idea what it does, but it's an exclusive expedition tech so here we are. (Expedition Tech)\n<br />Add Archive Override Implant which I have no idea what it does either, but again it's an exclusive expedition tech. (Expedition Tech)\n<br />\n<br />[b]Base Buildings:\n<br />[/b]Add Utopia Build Station, Portable Exocraft Research Station, Utopia Ship Station, Utopia Exosuit Statio and Utopia Multi-Tool Station, they are portable stations from Utopia Expedition so you can learn new Blueprints without having to do to the Anomaly.\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].\n<br />\n<br />Even if you remove the Mod after installing the Techs on your ship, they will still be there, but you will lose the ability of installing it on other ships of course.",
-    "state": "normal",
-    "warningMessage": "",
-    "files": [
-      {
-        "id": [
-          43101,
-          1634
-        ],
-        "uid": 7017976604765,
-        "file_id": 43101,
-        "name": "UEET - Utopia Stations Only",
-        "version": "6.04",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
-        "is_primary": false,
-        "size": 4,
-        "file_name": "UEET - Utopia Stations Only-2589-6-04-1757459072.zip",
-        "uploaded_timestamp": 1757459072,
-        "uploaded_time": "2025-09-09T23:04:32.000+00:00",
-        "mod_version": "6.04",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ac238613a57f6a8da984f77fbfc57bad272666cfad5905ec34cdec2629713f23/detection/f-ac238613a57f6a8da984f77fbfc57bad272666cfad5905ec34cdec2629713f23-1757459075",
-        "description": "Only has the Utopía Stations to be unlocked, nothing else.",
-        "size_kb": 4,
-        "size_in_bytes": 4067,
-        "changelog_html": "- Added Orbital Uplink to be unlocked at the Product Recipes computer at the Anomaly.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2589/UEET - Utopia Stations Only-2589-6-04-1757459072.zip.json"
-      },
-      {
-        "id": [
-          44900,
-          1634
-        ],
-        "uid": 7017976606564,
-        "file_id": 44900,
-        "name": "Unlockable Expedition Exclusive Techs",
-        "version": "6.16",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": false,
-        "size": 7,
-        "file_name": "Unlockable Expedition Exclusive Techs-2589-6-16-1762723868.zip",
-        "uploaded_timestamp": 1762723868,
-        "uploaded_time": "2025-11-09T21:31:08.000+00:00",
-        "mod_version": "6.16",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a89413e384dfa1a1a30bd62025445c6698ec7a4c01c0ff2f4ae1b359cb3e780f/detection/f-a89413e384dfa1a1a30bd62025445c6698ec7a4c01c0ff2f4ae1b359cb3e780f-1762723869",
-        "description": "",
-        "size_kb": 7,
-        "size_in_bytes": 6674,
-        "changelog_html": "- Updated to 6.16<br />- Added Debris Rangefinder to unlock in the product blueprint tree.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2589/Unlockable Expedition Exclusive Techs-2589-6-16-1762723868.zip.json"
-      }
-    ],
-    "changelogs": {
-      "4.15": [
-        "Updated to 4.15"
-      ],
-      "4.20": [
-        "Updated to 4.20"
-      ],
-      "4.21": [
-        "- Updated to 4.21<br />- Added Boltcaster SM blueprint.<br />- Added Plasma Resonator blueprint.<br />- Added Visceral Synthesiser blueprint.<br />- Added Archive Override Implant blueprint."
-      ],
-      "4.22": [
-        "Updated to 4.22"
-      ],
-      "4.23": [
-        "Updated to 4.23"
-      ],
-      "4.25": [
-        "Updated to 4.25"
-      ],
-      "4.30": [
-        "Updated to 4.30"
-      ],
-      "4.34": [
-        "Updated to 4.34"
-      ],
-      "4.36": [
-        "Updated to 4.36"
-      ],
-      "4.38": [
-        "Updated to 4.38"
-      ],
-      "4.40": [
-        "Updated to 4.40"
-      ],
-      "4.42": [
-        "Updated to 4.42"
-      ],
-      "4.44": [
-        "Updated to 4.44"
-      ],
-      "4.45": [
-        "Updated to 4.45"
-      ],
-      "4.46": [
-        "Updated to 4.46"
-      ],
-      "4.47": [
-        "Updated to 4.47<br />- Added Utopia Build Station, Portable Exocraft Research Station, Utopia Ship Station, Utopia Exosuit Statio and Utopia Multi-Tool Station from Utopia Expedition."
-      ],
-      "4.50": [
-        "Updated to 4.50"
-      ],
-      "4.51": [
-        "Updated to 4.51"
-      ],
-      "4.52": [
-        "Updated to 4.52"
-      ],
-      "4.62": [
-        "Updated to 4.62"
-      ],
-      "4.64": [
-        "Updated to 4.64"
-      ],
-      "4.65": [
-        "Updated to 4.65"
-      ],
-      "4.70": [
-        "Updated to 4.70"
-      ],
-      "5.0": [
-        "Updated to 5.0"
-      ],
-      "5.02": [
-        "Updated to 5.02"
-      ],
-      "5.03": [
-        "Updated to 5.03"
-      ],
-      "5.05": [
-        "Updated to 5.05"
-      ],
-      "5.10": [
-        "- Updated to 5.10",
-        "- Fixed the missing Optical Drill blueprint from Eos (Most likely a bug that HG will fix)"
-      ],
-      "5.12": [
-        "Updated to 5.12<br />- Removed the Optical Drill fix, since it's not needed anymore."
-      ],
-      "5.21": [
-        "Updated to 5.21"
-      ],
-      "5.25": [
-        "Updated to 5.25"
-      ],
-      "5.29": [
-        "Updated to 5.29"
-      ],
-      "5.51": [
-        "Updated to Worlds Part 2 new Modding System"
-      ],
-      "5.56": [
-        "Updated to 5.56"
-      ],
-      "5.58": [
-        "Updated to 5.58",
-        "Mod updated to be fully EXML now."
-      ],
-      "5.64": [
-        "- Updated to 5.64<br />- Set the Utopia Stations to be allowed to be built in Freighters."
-      ],
-      "6.02": [
-        "Updated to 6.02"
-      ],
-      "6.04": [
-        "- Added Orbital Uplink to be unlocked at the Product Recipes computer at the Anomaly."
-      ],
-      "6.16": [
-        "- Updated to 6.16<br />- Added Debris Rangefinder to unlock in the product blueprint tree."
-      ]
-    }
-  },
-  {
     "mod_id": 3337,
     "name": "Space Rescue Always Capital Freighter",
     "summary": "Makes the Space Rescue encounter always be a Capital Freighter.",
@@ -2662,6 +2478,190 @@
       ],
       "6.02": [
         "Updated to 6.02"
+      ]
+    }
+  },
+  {
+    "mod_id": 2589,
+    "name": "Unlockable Expedition Exclusive Techs",
+    "summary": "Adds the Expedition and Pre-Order exclusive Techs for Ship, Multi-Tool, Exosuit and Base Building to the Anomaly.",
+    "version": "6.16",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2589/2589-1668019734-311713757.jpeg",
+    "author": "Syzzle07",
+    "updated_timestamp": 1762723868,
+    "created_timestamp": 1668020347,
+    "description": "This mod does a couple of things, it changes Pulse Drive, Launch Thruster and Hyperdrive to be able to be dismantled so you can install the replacement ones, and add the Techs you're not able to get normally anymore, such as Expedition exclusive techs, pre-order techs or techs that were removed from the game.\n<br />\n<br />[b]Ships:[/b]\n<br />Add Waveform Engine which is a better Pulse Drive. (Expedition Tech)\n<br />Add Frameshift Catapult which is a better Hyperdrive. (Expedition Tech)\n<br />Add Advanced Launch System which is a better Launch Thruster. (Expedition Tech)\n<br />Add Photonix Core which is a Pulse Drive Upgrade. (PS4 Pre-Order Tech)\n<br />\n<br />[color=#ffff00][size=4][b]WARNING:[/b][/size][/color][color=#ff0000][size=4][b] [/b][/size][/color]\n<br />[quote]Since Waveform Engine, Frameshift Catapult and Advanced Launch System are better versions of the mentioned 3 core ship techs, when installing them you SHOULD REMOVE THE OTHER EQUIVALENT ONE FROM THE SHIP otherwise your ship might break and not fly, if you install Waveform Engine, remove Pulse Drive, if you install Frameshift, remove Hyperdrive, if you install Advanced Launch System, remove Launch Thruster or your ship won't fly anymore.[/quote]\n<br />[b]\n<br />Multitools:[/b]\n<br />Add Boltcaster SM which is a Boltcaster Upgrade. (PS4 Pre-Order Tech)\n<br />Add Plasma Resonator which is a Mining Laser Upgrade. (Previously removed from the game)\n<br />\n<br />[b]Exosuit:[/b]\n<br />Add Visceral Synthesiser which I have no idea what it does, but it's an exclusive expedition tech so here we are. (Expedition Tech)\n<br />Add Archive Override Implant which I have no idea what it does either, but again it's an exclusive expedition tech. (Expedition Tech)\n<br />\n<br />[b]Base Buildings:\n<br />[/b]Add Utopia Build Station, Portable Exocraft Research Station, Utopia Ship Station, Utopia Exosuit Statio and Utopia Multi-Tool Station, they are portable stations from Utopia Expedition so you can learn new Blueprints without having to do to the Anomaly.\n<br />\n<br />[quote][size=5][b]Installing Mods[/b][/size]\n<br />Follow these steps to install mods.\n<br />\n<br />[list=1]\n<br />[*]Browse to [b]No Man's Sky&#92;GAMEDATA[/b].\n<br />[*]Create a folder named [b]MODS[/b].\n<br />[*]Place the [b]mod folder containing the loose files into the MODS folder[/b] (they have to be in the MODS folder itself and not in any subfolder, and no loose files should be inside the MODS folder).\n<br />[*]Start the game and wait for the splash screen to disappear.\n<br />[*]If done correctly [b]the[/b] [b]game will display a[/b] [b]warning[/b] just before displaying the selection of saved games.\n<br />[/list][/quote]The warning will look like [url=https://i.imgur.com/zTEEFwI.jpeg]this[/url].\n<br />\n<br />Even if you remove the Mod after installing the Techs on your ship, they will still be there, but you will lose the ability of installing it on other ships of course.",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          43101,
+          1634
+        ],
+        "uid": 7017976604765,
+        "file_id": 43101,
+        "name": "UEET - Utopia Stations Only",
+        "version": "6.04",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "UEET - Utopia Stations Only-2589-6-04-1757459072.zip",
+        "uploaded_timestamp": 1757459072,
+        "uploaded_time": "2025-09-09T23:04:32.000+00:00",
+        "mod_version": "6.04",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ac238613a57f6a8da984f77fbfc57bad272666cfad5905ec34cdec2629713f23/detection/f-ac238613a57f6a8da984f77fbfc57bad272666cfad5905ec34cdec2629713f23-1757459075",
+        "description": "Only has the Utopía Stations to be unlocked, nothing else.",
+        "size_kb": 4,
+        "size_in_bytes": 4067,
+        "changelog_html": "- Added Orbital Uplink to be unlocked at the Product Recipes computer at the Anomaly.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2589/UEET - Utopia Stations Only-2589-6-04-1757459072.zip.json"
+      },
+      {
+        "id": [
+          44900,
+          1634
+        ],
+        "uid": 7017976606564,
+        "file_id": 44900,
+        "name": "Unlockable Expedition Exclusive Techs",
+        "version": "6.16",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 7,
+        "file_name": "Unlockable Expedition Exclusive Techs-2589-6-16-1762723868.zip",
+        "uploaded_timestamp": 1762723868,
+        "uploaded_time": "2025-11-09T21:31:08.000+00:00",
+        "mod_version": "6.16",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a89413e384dfa1a1a30bd62025445c6698ec7a4c01c0ff2f4ae1b359cb3e780f/detection/f-a89413e384dfa1a1a30bd62025445c6698ec7a4c01c0ff2f4ae1b359cb3e780f-1762723869",
+        "description": "",
+        "size_kb": 7,
+        "size_in_bytes": 6674,
+        "changelog_html": "- Updated to 6.16<br />- Added Debris Rangefinder to unlock in the product blueprint tree.",
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2589/Unlockable Expedition Exclusive Techs-2589-6-16-1762723868.zip.json"
+      }
+    ],
+    "changelogs": {
+      "4.15": [
+        "Updated to 4.15"
+      ],
+      "4.20": [
+        "Updated to 4.20"
+      ],
+      "4.21": [
+        "- Updated to 4.21<br />- Added Boltcaster SM blueprint.<br />- Added Plasma Resonator blueprint.<br />- Added Visceral Synthesiser blueprint.<br />- Added Archive Override Implant blueprint."
+      ],
+      "4.22": [
+        "Updated to 4.22"
+      ],
+      "4.23": [
+        "Updated to 4.23"
+      ],
+      "4.25": [
+        "Updated to 4.25"
+      ],
+      "4.30": [
+        "Updated to 4.30"
+      ],
+      "4.34": [
+        "Updated to 4.34"
+      ],
+      "4.36": [
+        "Updated to 4.36"
+      ],
+      "4.38": [
+        "Updated to 4.38"
+      ],
+      "4.40": [
+        "Updated to 4.40"
+      ],
+      "4.42": [
+        "Updated to 4.42"
+      ],
+      "4.44": [
+        "Updated to 4.44"
+      ],
+      "4.45": [
+        "Updated to 4.45"
+      ],
+      "4.46": [
+        "Updated to 4.46"
+      ],
+      "4.47": [
+        "Updated to 4.47<br />- Added Utopia Build Station, Portable Exocraft Research Station, Utopia Ship Station, Utopia Exosuit Statio and Utopia Multi-Tool Station from Utopia Expedition."
+      ],
+      "4.50": [
+        "Updated to 4.50"
+      ],
+      "4.51": [
+        "Updated to 4.51"
+      ],
+      "4.52": [
+        "Updated to 4.52"
+      ],
+      "4.62": [
+        "Updated to 4.62"
+      ],
+      "4.64": [
+        "Updated to 4.64"
+      ],
+      "4.65": [
+        "Updated to 4.65"
+      ],
+      "4.70": [
+        "Updated to 4.70"
+      ],
+      "5.0": [
+        "Updated to 5.0"
+      ],
+      "5.02": [
+        "Updated to 5.02"
+      ],
+      "5.03": [
+        "Updated to 5.03"
+      ],
+      "5.05": [
+        "Updated to 5.05"
+      ],
+      "5.10": [
+        "- Updated to 5.10",
+        "- Fixed the missing Optical Drill blueprint from Eos (Most likely a bug that HG will fix)"
+      ],
+      "5.12": [
+        "Updated to 5.12<br />- Removed the Optical Drill fix, since it's not needed anymore."
+      ],
+      "5.21": [
+        "Updated to 5.21"
+      ],
+      "5.25": [
+        "Updated to 5.25"
+      ],
+      "5.29": [
+        "Updated to 5.29"
+      ],
+      "5.51": [
+        "Updated to Worlds Part 2 new Modding System"
+      ],
+      "5.56": [
+        "Updated to 5.56"
+      ],
+      "5.58": [
+        "Updated to 5.58",
+        "Mod updated to be fully EXML now."
+      ],
+      "5.64": [
+        "- Updated to 5.64<br />- Set the Utopia Stations to be allowed to be built in Freighters."
+      ],
+      "6.02": [
+        "Updated to 6.02"
+      ],
+      "6.04": [
+        "- Added Orbital Uplink to be unlocked at the Product Recipes computer at the Anomaly."
+      ],
+      "6.16": [
+        "- Updated to 6.16<br />- Added Debris Rangefinder to unlock in the product blueprint tree."
       ]
     }
   }
