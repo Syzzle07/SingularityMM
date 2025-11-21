@@ -1,0 +1,56 @@
+{
+  "windowTitle": "Singularity",
+
+  "loadFileBtn": "Load GCMODSETTINGS",
+  "openModsFolderBtn": "Open MODS Folder",
+  "noFileLoaded": "No file loaded.",
+  "editingFile": "Editing: {{fileName}}",
+  "dropZoneText": "DROP .ZIP OR .RAR FILES HERE TO INSTALL MODS",
+  "searchPlaceholder": "Search mods...",
+
+  "globalSettingsTitle": "GLOBAL SETTINGS",
+  "disableAllModsLabel": "Disable Mod Support",
+  "ModSettingsTitle": "INDIVIDUAL MOD SETTINGS",
+  "enableAllBtn": "Enable All",
+  "disableAllBtn": "Disable All",
+
+  "modNameHeader": "Mod Name",
+  "priorityHeader": "Priority",
+  "enabledHeader": "Enabled",
+  "updateAvailableTooltip": "Update available",
+
+  "settingsModalTitle": "SETTINGS",
+  "languageLabel": "Language",
+  "listDensityLabel": "List Density",
+  "settingsModalCloseBtn": "Close",
+
+  "troubleshootModalTitle": "TROUBLESHOOT",
+  "troubleshootModalDesc": "This will DELETE the GCMODSETTINGS file, forcing the game to regenerate a new one on the next launch.",
+  "modalDeleteBtn": "Delete GCMODSETTINGS.MXML",
+  "deleteModBtn": "Delete '{{modName}}'",
+  "confirmDeleteTitle": "Confirm Deletion",
+  "confirmDeleteMod": "Are you sure you want to permanently delete the mod '{{modName}}'? This will delete its folder from the MODS directory and cannot be undone.",
+  "deleteSuccess": "Successfully deleted '{{modName}}'.",
+  "deleteError": "Could not delete '{{modName}}'.",
+  "copyModNameBtn": "Copy Mod Name",
+  "copySuccess": "Copied '{{modName}}' to clipboard!",
+
+  "updateCheckBtn": "Check for Updates",
+  "updateModalTitle": "MOD UPDATES",
+  "updateChecking": "Checking for updates...",
+  "updateNoneFound": "All mods are up to date!",
+  "updateModalCloseBtn": "Close",
+  "errorNoRemoteDb": "Could not fetch remote mod database. Please check your internet connection.",
+  
+  "alertNoZipsDropped": "No .zip or .rar files were dropped.",
+  "alertExtractSuccess": "Successfully installed mod(s) from '{{fileName}}' to the MODS folder.",
+  "alertExtractError": "Error installing {{fileName}}: {{error}}",
+  "alertDeleteSuccess": "GCMODSETTINGS.MXML has been deleted successfully.",
+  "alertDeleteNotFound": "GCMODSETTINGS.MXML was not found (it may have already been deleted).",
+  "alertDeleteError": "Could not find game path. File was not deleted.",
+
+  "promptForNexusLink": "The mod '{{modName}}' is not linked to Nexus Mods for update check. To link it, please paste the full Nexus Mods URL for this mod below:",
+  "linkCancelled": "Linking for '{{modName}}' was cancelled. You can check for updates manually.",
+  "linkSuccess": "Successfully linked '{{modName}}'! Update checking is now enabled.",
+  "linkInvalid": "The URL you provided for '{{modName}}' does not appear to be a valid No Man's Sky Nexus Mods link."
+}

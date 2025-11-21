@@ -1,0 +1,44 @@
+name: Update Curated Mod List
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *' # Runs at the top of every hour
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Step 1: Check out the repository's code
+      - name: Checkout data branch
+        uses: actions/checkout@v4
+        with:
+          ref: data
+      # Step 2: Set up the Node.js environment
+      - name: Checkout main branch for script
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: ./.github/main-branch-checkout
+          sparse-checkout: |
+            .github/scripts
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Step 3: Run script
+      - name: Generate curated_list.json
+        run: node ./.github/main-branch-checkout/.github/scripts/generate_curated_list.cjs
+        env:
+          NEXUS_API_KEY: ${{ secrets.NEXUS_API_KEY }}
+
+      # Step 4: Automatically commit the newly generated file back to the repository
+      - name: Commit and push changes to the data branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: Auto-update curated mod list"
+          file_pattern: curated/curated_list.json
