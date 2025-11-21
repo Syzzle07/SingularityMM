@@ -699,51 +699,6 @@ fn save_file(file_path: String, content: String) -> Result<(), String> {
 }
 
 #[tauri::command]
-fn finalize_mod_installation(temp_path: String, new_name: String) -> Result<(), String> {
-    let temp_folder = PathBuf::from(temp_path);
-    if !temp_folder.exists() {
-        return Err(format!(
-            "Temporary installation folder not found at '{}'.",
-            temp_folder.display()
-        ));
-    }
-    let mods_path = temp_folder
-        .parent()
-        .ok_or("Could not determine MODS folder path from temporary path.")?;
-    let final_dest_path = mods_path.join(&new_name);
-    if final_dest_path.exists() {
-        return Err(format!(
-            "A mod folder with the name '{}' already exists at '{}'.",
-            new_name,
-            final_dest_path.display()
-        ));
-    }
-    fs::rename(&temp_folder, &final_dest_path).map_err(|e| {
-        format!(
-            "Failed to rename '{}' to '{}': {}",
-            temp_folder.display(),
-            final_dest_path.display(),
-            e
-        )
-    })
-}
-
-#[tauri::command]
-fn cleanup_temp_folder(path: String) -> Result<(), String> {
-    let temp_folder = PathBuf::from(path);
-    if temp_folder.exists() {
-        fs::remove_dir_all(&temp_folder).map_err(|e| {
-            format!(
-                "Failed to clean up temporary folder at '{}': {}",
-                temp_folder.display(),
-                e
-            )
-        })?;
-    }
-    Ok(())
-}
-
-#[tauri::command]
 fn resize_window(window: tauri::Window, width: f64) -> Result<(), String> {
     let current_height = window.outer_size().map_err(|e| e.to_string())?.height;
     window
@@ -1084,40 +1039,6 @@ fn ensure_mod_info(
     Ok(())
 }
 
-
-#[tauri::command]
-async fn download_and_install_mod(
-    download_url: String,
-    file_name: String,
-) -> Result<InstallationAnalysis, String> {
-    let response = reqwest::get(&download_url)
-        .await
-        .map_err(|e| format!("Failed to start download: {}", e))?;
-
-    if !response.status().is_success() {
-        return Err(format!(
-            "Download failed with status: {}",
-            response.status()
-        ));
-    }
-
-    let file_bytes = response
-        .bytes()
-        .await
-        .map_err(|e| format!("Failed to read downloaded file bytes: {}", e))?;
-
-    let temp_dir = env::temp_dir();
-    let temp_archive_path = temp_dir.join(&file_name);
-    fs::write(&temp_archive_path, &file_bytes)
-        .map_err(|e| format!("Failed to write temporary archive: {}", e))?;
-
-    let result = install_mod_from_archive(temp_archive_path.to_string_lossy().to_string());
-
-    fs::remove_file(&temp_archive_path).ok();
-
-    result
-}
-
 #[tauri::command]
 fn get_nexus_api_key() -> Result<String, String> {
     let exe_path = env::current_exe().map_err(|e| e.to_string())?;
@@ -1135,18 +1056,6 @@ fn get_nexus_api_key() -> Result<String, String> {
     }
 
     Err("No API Key found. Please log in.".to_string())
-}
-
-#[tauri::command]
-fn check_mod_exists(mod_folder_name: String) -> bool {
-    if let Some(game_path) = find_game_path() {
-        let mod_path = game_path
-            .join("GAMEDATA")
-            .join("MODS")
-            .join(mod_folder_name);
-        return mod_path.exists();
-    }
-    false
 }
 
 #[tauri::command]
@@ -1762,19 +1671,15 @@ fn main() {
             reorder_mods,
             install_mod_from_archive,
             resolve_conflict,
-            finalize_mod_installation,
-            cleanup_temp_folder,
             resize_window,
             delete_mod,
             update_mod_name_in_xml,
             update_mod_id_in_json,
             ensure_mod_info,
             get_nexus_api_key,
-            download_and_install_mod,
             register_nxm_protocol,
             unregister_nxm_protocol,
             is_protocol_handler_registered,
-            check_mod_exists,
             get_all_mods_for_render,
             download_mod_archive,
             show_in_folder,

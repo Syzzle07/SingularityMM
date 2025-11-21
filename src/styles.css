@@ -2374,9 +2374,7 @@ button.context-menu-item.delete:hover {
 
 #closeSettingsModalBtn,
 #closeDownloadHistoryBtn,
-#closeUpdateModalBtn,
-#confirmActionBtn,
-#cancelActionBtn {
+#closeUpdateModalBtn {
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid var(--c-border);
     color: #fff;
@@ -2392,9 +2390,7 @@ button.context-menu-item.delete:hover {
 
 #closeSettingsModalBtn:hover,
 #closeDownloadHistoryBtn:hover,
-#closeUpdateModalBtn:hover,
-#confirmActionBtn:hover,
-#cancelActionBtn:hover {
+#closeUpdateModalBtn:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
     font-weight: bold;

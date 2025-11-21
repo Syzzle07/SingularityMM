@@ -1,6 +1,6 @@
 import { listen } from "@tauri-apps/api/event";
 import { invoke } from "@tauri-apps/api/core";
-import { open, confirm } from "@tauri-apps/plugin-dialog";
+import { open } from "@tauri-apps/plugin-dialog";
 import { readTextFile, writeTextFile, mkdir } from "@tauri-apps/plugin-fs";
 import { basename, join, resolveResource, appDataDir } from "@tauri-apps/api/path";
 import { getCurrentWindow, LogicalSize } from "@tauri-apps/api/window";
@@ -13,7 +13,6 @@ let NEXUS_API_KEY = "";
 const CURATED_LIST_URL = "https://raw.githubusercontent.com/Syzzle07/SingularityMM/refs/heads/data/curated/curated_list.json";
 let curatedData = [];
 let downloadHistory = [];
-const nexusModCache = new Map();
 const nexusFileCache = new Map();
 
 const DEFAULT_WIDTH = 950;
@@ -324,7 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         } catch (error) {
             console.error("CRITICAL: Could not load curated mod data:", error);
-            alert("Failed to load mod data from the server. Update checks and the browse tab will not work.");
+            await window.customAlert("Failed to load mod data from the server. Update checks and the browse tab will not work.", "Network Error");
         }
     }
 
@@ -906,9 +905,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
 
                     // If it's an auto-update, always replace. Otherwise, ask the user.
-                    const shouldReplace = isUpdate ? true : await confirm(
+                    const shouldReplace = isUpdate ? true : await window.customConfirm(
                         `A mod with this ID is already installed ('${conflict.old_mod_folder_name}'). Replace it with '${conflict.new_mod_name}'?`,
-                        { title: 'Mod Update Conflict', type: 'warning' }
+                        'Mod Update Conflict'
                     );
 
                     await invoke('resolve_conflict', {
@@ -1038,7 +1037,7 @@ document.addEventListener('DOMContentLoaded', () => {
         await fetchCuratedData();
 
         // 2. Once data is loaded, run the silent update check.
-        if (appState.gamePath) {
+        if (appState.gamePath && appState.modDataCache.size > 0) {
             await checkForUpdates(true);
         }
     }
@@ -1220,7 +1219,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // 3. The renderModList() called by loadXmlContent will automatically redraw the UI.
             await saveChanges();
         } catch (error) {
-            alert(`Error re-ordering mods: ${error}`);
+            await window.customAlert(`Error re-ordering mods: ${error}`, "Error");
             // If it fails, re-render the original list to avoid a broken UI state
             renderModList();
         }
@@ -1360,7 +1359,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (modInfo && modInfo.id === "") {
                 const nexusUrl = prompt(i18n.get('promptForNexusLink', { modName: modFolderName }));
                 if (!nexusUrl) {
-                    alert(i18n.get('linkCancelled', { modName: modFolderName }));
+                    await window.customAlert(i18n.get('linkCancelled', { modName: modFolderName }), "Cancelled");
                     return;
                 }
                 const match = nexusUrl.match(/nexusmods\.com\/nomanssky\/mods\/(\d+)/);
@@ -1370,9 +1369,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         modFolderName: modFolderName,
                         newModId: parsedId
                     });
-                    alert(i18n.get('linkSuccess', { modName: modFolderName }));
+                    await window.customAlert(i18n.get('linkSuccess', { modName: modFolderName }), "Success");
                 } else {
-                    alert(i18n.get('linkInvalid', { modName: modFolderName }));
+                    await window.customAlert(i18n.get('linkInvalid', { modName: modFolderName }), "Error");
                 }
             }
         } catch (error) { /* Silently ignore mods without info files */ }
