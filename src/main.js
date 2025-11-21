@@ -645,13 +645,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (isSilent) {
-            console.log("Performing silent update check using in-memory data...");
+            console.log("Performing silent update check...");
         } else {
             updateListContainer.innerHTML = `<p>${i18n.get('updateChecking')}</p>`;
             updateModalOverlay.classList.remove('hidden');
         }
 
-        const modsWithUpdates = [];
+        // Use a Map to group updates by Nexus Mod ID
+        // Key: ModID, Value: { name, installedVer, latestVer, nexusUrl, affectedFolders: [] }
+        const groupedUpdates = new Map();
 
         for (const [modFolderName, cachedModData] of appState.modDataCache.entries()) {
             const localModInfo = cachedModData.local_info;
@@ -666,19 +668,38 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     if (remoteModInfo && remoteModInfo.files) {
                         const installedFileOnNexus = remoteModInfo.files.find(f => String(f.file_id) === String(installedFileId));
+
                         if (installedFileOnNexus) {
-                            const installedFileCategory = installedFileOnNexus.category_name;
-                            const allFilesInCategory = remoteModInfo.files.filter(f => f.category_name === installedFileCategory);
+                            const category = installedFileOnNexus.category_name;
+                            const allFilesInCategory = remoteModInfo.files.filter(f => f.category_name === category);
+
                             if (allFilesInCategory.length > 0) {
-                                const latestFileInCategory = allFilesInCategory.sort((a, b) => b.uploaded_timestamp - a.uploaded_timestamp)[0];
-                                if (isNewerVersionAvailable(installedVersion, latestFileInCategory.version)) {
-                                    modsWithUpdates.push({
-                                        folderName: modFolderName,
-                                        name: remoteModInfo.name || modFolderName,
-                                        installed: installedVersion,
-                                        latest: latestFileInCategory.version,
-                                        nexusUrl: `https://www.nexusmods.com/nomanssky/mods/${remoteModInfo.mod_id}`
-                                    });
+                                const latestFile = allFilesInCategory.sort((a, b) => b.uploaded_timestamp - a.uploaded_timestamp)[0];
+
+                                if (isNewerVersionAvailable(installedVersion, latestFile.version)) {
+
+                                    // 1. ALWAYS Update the UI Dot (Silent & Visual)
+                                    const row = modListContainer.querySelector(`.mod-row[data-mod-name="${modFolderName}"]`);
+                                    const indicator = row?.querySelector('.update-indicator');
+                                    if (indicator) indicator.classList.remove('hidden');
+
+                                    // 2. Aggregate for the Modal
+                                    const modIdStr = String(modId);
+
+                                    if (!groupedUpdates.has(modIdStr)) {
+                                        // Create new entry
+                                        groupedUpdates.set(modIdStr, {
+                                            name: remoteModInfo.name || modFolderName,
+                                            installed: installedVersion,
+                                            latest: latestFile.version,
+                                            nexusUrl: `https://www.nexusmods.com/nomanssky/mods/${remoteModInfo.mod_id}`,
+                                            folders: [modFolderName]
+                                        });
+                                    } else {
+                                        // Update existing entry with new folder name
+                                        const entry = groupedUpdates.get(modIdStr);
+                                        entry.folders.push(modFolderName);
+                                    }
                                 }
                             }
                         }
@@ -687,33 +708,45 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        // If silent, we stop here (dots are already updated)
         if (isSilent) {
-            modsWithUpdates.forEach(mod => {
-                const row = modListContainer.querySelector(`.mod-row[data-mod-name="${mod.folderName}"]`);
-                const indicator = row?.querySelector('.update-indicator');
-                if (indicator) indicator.classList.remove('hidden');
-            });
-            console.log(`Update check found ${modsWithUpdates.length} outdated mods.`);
-        } else {
-            if (modsWithUpdates.length > 0) {
-                updateListContainer.innerHTML = '';
-                modsWithUpdates.forEach(mod => {
-                    const item = document.createElement('div');
-                    item.className = 'update-item';
-                    const nexusLinkHtml = mod.nexusUrl ? `<a href="${mod.nexusUrl}" class="nexus-button" target="_blank" title="Visit on Nexus Mods"><img src="/src/assets/icon-nexus.png" alt="Nexus"></a>` : '';
-                    item.innerHTML = `
-                        <div class="update-item-info">
-                            <div class="update-item-name">${mod.name}</div>
-                            <div class="update-item-version">
-                                ${mod.installed} <span class="arrow">--></span> <span class="latest">${mod.latest}</span>
-                            </div>
+            console.log(`Update check found updates for ${groupedUpdates.size} mods.`);
+            return;
+        }
+
+        // Render the grouped list
+        updateListContainer.innerHTML = '';
+
+        if (groupedUpdates.size > 0) {
+            groupedUpdates.forEach((updateInfo) => {
+                const item = document.createElement('div');
+                item.className = 'update-item';
+
+                const nexusLinkHtml = updateInfo.nexusUrl
+                    ? `<a href="${updateInfo.nexusUrl}" class="nexus-button" target="_blank" title="Visit on Nexus Mods"><img src="/src/assets/icon-nexus.png" alt="Nexus"></a>`
+                    : '';
+
+                // Create a nice list string: "Folder A, Folder B"
+                // If too many, truncate it? For now, let's list them all.
+                const folderListStr = updateInfo.folders.join(', ');
+                const folderCountText = updateInfo.folders.length > 1
+                    ? `<div style="font-size: 0.85em; opacity: 0.7; margin-top: 4px;">Affects ${updateInfo.folders.length} folders: ${folderListStr}</div>`
+                    : '';
+
+                item.innerHTML = `
+                    <div class="update-item-info">
+                        <div class="update-item-name">${updateInfo.name}</div>
+                        <div class="update-item-version">
+                            ${updateInfo.installed} <span class="arrow">--></span> <span class="latest">${updateInfo.latest}</span>
                         </div>
-                        ${nexusLinkHtml}`;
-                    updateListContainer.appendChild(item);
-                });
-            } else {
-                updateListContainer.innerHTML = `<p>${i18n.get('updateNoneFound')}</p>`;
-            }
+                        ${folderCountText}
+                    </div>
+                    ${nexusLinkHtml}`;
+
+                updateListContainer.appendChild(item);
+            });
+        } else {
+            updateListContainer.innerHTML = `<p>${i18n.get('updateNoneFound')}</p>`;
         }
     }
 
@@ -978,9 +1011,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                         await invoke('ensure_mod_info', {
                             modFolderName: conflict.new_mod_name,
-                            modId: item.modId,
-                            fileId: item.fileId,
-                            version: item.version
+                            // SAFETY CHECKS
+                            modId: item.modId || "",
+                            fileId: item.fileId || "",
+                            version: item.version || ""
                         });
                         // The new folder name after replacement
                         item.modFolderName = conflict.new_mod_name;
@@ -994,9 +1028,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     addNewModToXml(mod.name);
                     await invoke('ensure_mod_info', {
                         modFolderName: mod.name,
-                        modId: item.modId,
-                        fileId: item.fileId,
-                        version: item.version
+                        // SAFETY CHECKS
+                        modId: item.modId || "",
+                        fileId: item.fileId || "",
+                        version: item.version || ""
                     });
                 }
                 // The new folder name after installation
@@ -2363,6 +2398,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (analysis.successes?.length > 0) {
                         for (const mod of analysis.successes) {
                             addNewModToXml(mod.name);
+
+                            // --- ADD THIS BLOCK ---
+                            // Explicitly generate mod_info.json for every folder extracted.
+                            // Since this is a manual drop, we pass empty strings, 
+                            // allowing checkForAndLinkMod (or the user later) to link it.
+                            await invoke('ensure_mod_info', {
+                                modFolderName: mod.name,
+                                modId: "",
+                                fileId: "",
+                                version: ""
+                            });
+                            // ----------------------
+
                             await checkForAndLinkMod(mod.name);
                         }
                         await saveChanges();
@@ -2371,7 +2419,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         // Manually add to downloadHistory so Profile Manager sees it
                         const manualEntry = {
                             id: `manual-${Date.now()}`,
-                            modId: null, // No Nexus ID
+                            modId: null,
                             fileId: null,
                             version: 'Manual',
                             displayName: fileName,
