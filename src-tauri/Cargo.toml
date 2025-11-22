@@ -38,4 +38,4 @@ custom-protocol = ["tauri/custom-protocol"]
 
 [profile.release]
 strip = true 
-lto = true  
+lto = true

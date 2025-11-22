@@ -302,16 +302,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const content = await readTextFile(cacheFilePath);
             const cachedData = JSON.parse(content);
 
-            // Check if the cached data is stale
-            const isStale = (Date.now() - cachedData.timestamp) > CACHE_DURATION_MS;
-
-            if (isStale) {
-                console.log("Local cache is stale.");
-                return null; // Treat stale data as if it doesn't exist
-            }
-
             console.log("Successfully loaded curated list from local cache.");
-            return cachedData.data;
+            return cachedData;
         } catch (error) {
             // This is expected if the file doesn't exist yet
             console.log("No local cache found.");
@@ -319,15 +311,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    async function saveCuratedListToCache(data) {
+    async function saveCuratedListToCache(data, etag = null) {
         try {
             const dataToCache = {
                 timestamp: Date.now(),
+                etag: etag, // Save the ETag
                 data: data
             };
 
             const dataDir = await appDataDir();
-            await mkdir(dataDir, { recursive: true }); // Ensure the directory exists
+            await mkdir(dataDir, { recursive: true });
             const cacheFilePath = await join(dataDir, 'curated_list_cache.json');
             await writeTextFile(cacheFilePath, JSON.stringify(dataToCache));
             console.log("Saved fresh curated list to local cache.");
@@ -337,30 +330,62 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function fetchCuratedData() {
-        // 1. First, try to load from the local cache.
-        const cachedList = await loadCuratedListFromCache();
-        if (cachedList) {
-            curatedData = cachedList; // Use the cached data
-            console.log(`Successfully loaded ${curatedData.length} mods from cache.`);
-            return;
+        // 1. Load local cache
+        const cachedObj = await loadCuratedListFromCache();
+
+        // 2. Check if cache is valid time-wise
+        if (cachedObj) {
+            const isStale = (Date.now() - cachedObj.timestamp) > CACHE_DURATION_MS;
+
+            // If it's NOT stale, just use the data and stop.
+            if (!isStale) {
+                curatedData = cachedObj.data;
+                return;
+            }
         }
 
-        // 2. If cache is missing or stale, fetch from the network.
+        // 3. It is stale (older than 1 hour). Ask GitHub if it changed.
         try {
-            console.log("Fetching latest curated mod data from GitHub...");
-            const response = await fetch(CURATED_LIST_URL);
+            console.log("Checking for curated list updates...");
+
+            const headers = {};
+            // If it has an ETag from last time, send it
+            if (cachedObj && cachedObj.etag) {
+                headers['If-None-Match'] = cachedObj.etag;
+            }
+
+            const response = await fetch(CURATED_LIST_URL, { headers });
+
+            // CASE A: 304 NOT MODIFIED (Server says: "You have the latest version")
+            if (response.status === 304 && cachedObj) {
+                console.log("Remote list hasn't changed. Extending cache duration.");
+                curatedData = cachedObj.data;
+                // Save it again just to update the 'timestamp' so it doesn't check again for another hour
+                await saveCuratedListToCache(cachedObj.data, cachedObj.etag);
+                return;
+            }
+
+            // CASE B: 200 OK (Server sent new data)
             if (!response.ok) throw new Error("Could not fetch remote curated list.");
 
             const freshData = await response.json();
+            const newEtag = response.headers.get('etag'); // Get the new ETag
+
             curatedData = freshData;
             console.log(`Successfully loaded ${curatedData.length} mods from network.`);
 
-            // 3. Save the freshly downloaded data to the cache for next time.
-            await saveCuratedListToCache(freshData);
+            // Save new data + new ETag
+            await saveCuratedListToCache(freshData, newEtag);
 
         } catch (error) {
             console.error("CRITICAL: Could not load curated mod data:", error);
-            await window.customAlert("Failed to load mod data from the server. Update checks and the browse tab will not work.", "Network Error");
+            // Fallback: If network fails, try to use old cache even if stale
+            if (cachedObj) {
+                console.warn("Using stale cache due to network error.");
+                curatedData = cachedObj.data;
+            } else {
+                await window.customAlert("Failed to load mod data from the server. Update checks and the browse tab will not work.", "Network Error");
+            }
         }
     }
 
