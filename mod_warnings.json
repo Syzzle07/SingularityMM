@@ -366,6 +366,348 @@
         "warningMessage": ""
     },
     {
+        "name": "gBase Scaling - Base Building Increased Sizes - EXML",
+        "id": "3291",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gCreatures Pet Riding Speed Increase - EXML",
+        "id": "3292",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gCreatures Pet Egg Timers - EXML",
+        "id": "1850",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gCreatures Pet Growth - EXML",
+        "id": "3293",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gCreatures Predators Difficulty - EXML",
+        "id": "1775",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Actions",
+        "id": "1081",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Movement Speed",
+        "id": "1973",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Small Cursor",
+        "id": "1082",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unsorted Saves",
+        "id": "1062",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Auto Saves",
+        "id": "2525",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Charge Icons",
+        "id": "2805",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Empty Slots",
+        "id": "2526",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Scanning Icons",
+        "id": "1661",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exact Markers",
+        "id": "1375",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Poprawiona polska czcionka (Fixed polish font)",
+        "id": "2364",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Enhanced Third Person Camera",
+        "id": "2302",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fixed Font for No Man's Sky",
+        "id": "3119",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Easy Build",
+        "id": "2318",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Integrated Planets",
+        "id": "1098",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Trade Routes",
+        "id": "1150",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gUniverse Purple Systems Always Visible - EXML",
+        "id": "3295",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Vintage Filter (Voyagers)",
+        "id": "3092",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Red Landing Arrows",
+        "id": "776",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Launch Cost 1.0 for Worlds II",
+        "id": "3299",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hover Flight 1.0 for Worlds II",
+        "id": "3302",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Stop the Clocks",
+        "id": "1576",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Tiny Teleporter Background Change",
+        "id": "2390",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Tritium Asteroids",
+        "id": "877",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Waterless Deserts",
+        "id": "3301",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Genshin Start Logo",
+        "id": "2838",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Camera Auto Center",
+        "id": "3095",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Recolor Boundary Herald Ship",
+        "id": "3187",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Solved Always Focus - no more pauses",
+        "id": "3308",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Alternative Vehicle Control",
+        "id": "2848",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Pulse Drive Aim",
+        "id": "2573",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Natural Steering",
+        "id": "1971",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Slippery Slopes",
+        "id": "2362",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Comfortable Settlement",
+        "id": "3282",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Slow Clouds",
+        "id": "1097",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Torch Light",
+        "id": "1611",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Space Dust and Plasma",
+        "id": "1084",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Subtler Screen Filters for Anomaly Worlds",
+        "id": "3306",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Pulse Drive Engage",
+        "id": "2884",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Nautilon alternate camera",
+        "id": "2260",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Calm idle animation",
+        "id": "2885",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Boot Logos",
+        "id": "3314",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Elixir of Quicksilver Giving",
+        "id": "3234",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gCreatures Giant Creature Animal Sizes - EXML",
+        "id": "1771",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Invulnerable Personal Shield",
+        "id": "3062",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "True Icons",
+        "id": "1278",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No DOF Blur",
+        "id": "1111",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Danger Marks",
+        "id": "759",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Old Style Slots",
+        "id": "2547",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Antimatter Expansion",
+        "id": "3235",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Free Camera For Build And Photo",
+        "id": "3300",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Landlocked Planets",
+        "id": "2762",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast scanner analysis",
+        "id": "1467",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
         "name": "",
         "id": "",
         "state": "normal",
