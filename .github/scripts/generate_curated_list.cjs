@@ -7,7 +7,7 @@ if (!NEXUS_API_KEY) throw new Error("NEXUS_API_KEY environment variable not set!
 
 const WARNINGS_FILE_PATH = path.join(process.cwd(), 'mod_warnings.json');
 const OUTPUT_FILE_PATH = path.join(process.cwd(), 'curated', 'curated_list.json');
-const UPDATE_PERIOD = '1w';
+const UPDATE_PERIOD = '1d';
 const BATCH_SIZE = 5;
 const DELAY_BETWEEN_BATCHES = 1000;
 
