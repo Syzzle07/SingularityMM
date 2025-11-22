@@ -200,9 +200,32 @@ async function buildCuratedList() {
         }
     }
 
-    // 6. Save
+    // 6. Save Result
     await fs.mkdir(path.dirname(OUTPUT_FILE_PATH), { recursive: true });
-    await fs.writeFile(OUTPUT_FILE_PATH, JSON.stringify(finalResults, null, 2));
+
+    // Deterministic Sorting
+    // Always sort by Mod ID so the file order never changes randomly
+    finalResults.sort((a, b) => Number(a.mod_id) - Number(b.mod_id));
+
+    const newFileContent = JSON.stringify(finalResults, null, 2);
+    let needsWrite = true;
+
+    // Content Comparison
+    // Check if the file on disk is already identical
+    try {
+        const currentFileContent = await fs.readFile(OUTPUT_FILE_PATH, 'utf8');
+        if (currentFileContent === newFileContent) {
+            console.log("Skipping write: File content is identical.");
+            needsWrite = false;
+        }
+    } catch (e) {
+        // File doesn't exist yet, we must write
+    }
+
+    if (needsWrite) {
+        await fs.writeFile(OUTPUT_FILE_PATH, newFileContent);
+        console.log(`Updated file written to ${OUTPUT_FILE_PATH}`);
+    }
 
     // 7. Final Report
     const totalProcessed = modsToProcess.length;
