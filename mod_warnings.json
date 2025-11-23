@@ -1510,5 +1510,473 @@
         "id": "2469",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "gShip Phase Beam Mining - EXML",
+        "id": "2648",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gGUI No Stormy Weather Visor Overlay",
+        "id": "2115",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gBase Boundaries - Gumsk's Base Boundaries - EXML",
+        "id": "1369",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gGame Supercharge Bonus - EXML",
+        "id": "2560",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gFreighter Nine Ships on Freighter - EXML",
+        "id": "2241",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "g Freighter Legal Salvaged Frigate Modules SFMs - EXML",
+        "id": "2491",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gDamage - Increased Damage Difficulty - EXML",
+        "id": "1777",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gCreatures Sandworms Frequency - EXML",
+        "id": "1756",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ReCONSTRUCTS",
+        "id": "2657",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Base Ambience loop replacement",
+        "id": "3391",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ReloadHolsterDelay",
+        "id": "3394",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Ultra Minotaur",
+        "id": "3359",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cozy Camera For Minotaur",
+        "id": "3363",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Convenient Warp",
+        "id": "961",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Worlds Part II - Splash Screen",
+        "id": "3399",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Add X Class Launcher Upgrade to Suspicious Tech Packet",
+        "id": "3170",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Tiny Inventory Changes 6.6",
+        "id": "1329",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sensible Planetary Charts - Worlds Pt II",
+        "id": "1676",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unlimited ship hyperdrive range",
+        "id": "918",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Quick Damaged Machineries 2.8",
+        "id": "2346",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unpredictable Roaming Ships 3.5",
+        "id": "2307",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Destroyable Damaged Machineries 1.9",
+        "id": "2466",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unnecessary Icons Be Gone",
+        "id": "2689",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Damaged Machineries 2.5",
+        "id": "1649",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Knowledge Stones In The Wild 2.0",
+        "id": "2264",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Passive Loot From Frigates",
+        "id": "2731",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Station Override Retexture",
+        "id": "2803",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "True Black 2.2 (and better greys)",
+        "id": "2400",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fine LOD",
+        "id": "1316",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Augmented Star Seed",
+        "id": "3028",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Laylaps Signal Booster Upgrade",
+        "id": "2949",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Humming Sac Indicator Fix",
+        "id": "2858",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Inventory Tweaks 5.58 (RELICS)",
+        "id": "1581",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "New Exploration Guide Icon",
+        "id": "2832",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Pirate Frigates Drop Stuff",
+        "id": "2887",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Landing Sites",
+        "id": "3402",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Free Upgrade",
+        "id": "3335",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Flamethrower on Atlas Multi-Tools",
+        "id": "2967",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Tethys Radiant Brain Fix",
+        "id": "2999",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Giant Planet Hunter",
+        "id": "3383",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Crystal Progression",
+        "id": "2631",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Keep English Exosuit Voice",
+        "id": "2787",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Dissonant Screen Filter Remover",
+        "id": "3404",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Mod Catalogue Framework (BETA)",
+        "id": "3405",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Floating Island Weather Improved",
+        "id": "3174",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "WEED-B-GONE",
+        "id": "3398",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Loot Overhaul 5.58 (RELICS)",
+        "id": "3408",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Legacy Product Re-introduction",
+        "id": "3396",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Red Damage Effect Remover",
+        "id": "3409",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "bSilent Refiners",
+        "id": "3411",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "State Phasure Engine",
+        "id": "2800",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Crimson Head Restored Details",
+        "id": "2842",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Wonders portal adress French localization fix",
+        "id": "3414",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Average Food Enjoyer - recover health shields and protection with emotes",
+        "id": "2248",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Purchasable Nanites",
+        "id": "3406",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "bExocraft Scanner",
+        "id": "3416",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Darker Nautilon Lights",
+        "id": "3419",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Open Water",
+        "id": "1569",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Gourmet Food Descriptions",
+        "id": "2462",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Loot Pirates Loot",
+        "id": "1988",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Crashed Freighter Loot",
+        "id": "2546",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Freighter Defense Reward",
+        "id": "1961",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "FEIRCI (Intervention Chance Increase)",
+        "id": "3042",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "RP walk",
+        "id": "3238",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LAPD - Less Annoying Patrol Drones 5.61 (RELICS)",
+        "id": "3422",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HDR No Man's Sky",
+        "id": "3395",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bartering And Lucrative Lease System",
+        "id": "3423",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "30sec Void Egg",
+        "id": "2685",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Fleet Times Only. No Settlement Timers.",
+        "id": "3426",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "MC Character Customiser",
+        "id": "3412",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "bDeRandomizer - Frigates",
+        "id": "3428",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Underwater Torch Volumetrics",
+        "id": "3429",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "bDeRandomizer - Ship and Multitool Stats",
+        "id": "3430",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "bDeRandomizer - Max Slots",
+        "id": "3432",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Miscellaneous Text Fixes",
+        "id": "2756",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "bDeRandomizer - S Class Rewards",
+        "id": "3434",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sentinel Interceptor and Living Ship renamed",
+        "id": "3435",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "bShop Capacity Increase",
+        "id": "3436",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
