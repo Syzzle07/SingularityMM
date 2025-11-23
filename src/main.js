@@ -819,7 +819,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return date.toLocaleDateString();
     }
 
-    async function startModDownload({ modId, fileId, version, fileName, displayName, replacingFileId }, isUpdate = false) {
+    async function startModDownload({ modId, fileId, version, fileName, displayName, replacingFileId, nxmQueryParams }, isUpdate = false) {
         // 1. DUPLICATE CHECK
         const existingItem = downloadHistory.find(d => d.fileId === fileId);
 
@@ -888,8 +888,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             updateStatus('Requesting download URL...', 'progress');
-            const downloadUrl = await fetchDownloadUrlFromNexus(modId, fileId);
-            if (!downloadUrl) throw new Error("Could not retrieve download URL.");
+            const downloadUrl = await fetchDownloadUrlFromNexus(modId, fileId, nxmQueryParams);
+            if (!downloadUrl) throw new Error("Could not retrieve download URL. (Check API Key or Premium Status)");
 
             updateStatus('Downloading...', 'progress');
             const downloadResult = await invoke('download_mod_archive', { downloadUrl, fileName });
@@ -1291,6 +1291,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const modId = match[1];
         const fileId = match[2];
+
+        const queryParts = link.split('?');
+        const queryParams = queryParts.length > 1 ? queryParts[1] : "";
+
         let fileInfo = null;
 
         // 1. Check Local Curated Data First
@@ -1325,7 +1329,8 @@ document.addEventListener('DOMContentLoaded', () => {
             version: fileInfo.version,
             fileName: fileInfo.file_name,
             displayName: displayName,
-            replacingFileId: null
+            replacingFileId: null,
+            nxmQueryParams: queryParams
         });
     }
 
@@ -1585,12 +1590,20 @@ document.addEventListener('DOMContentLoaded', () => {
         return html;
     }
 
-    async function fetchDownloadUrlFromNexus(modId, fileId) {
-        const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/${modId}/files/${fileId}/download_link.json`;
+    async function fetchDownloadUrlFromNexus(modId, fileId, queryParams = "") {
+        let url = `https://api.nexusmods.com/v1/games/nomanssky/mods/${modId}/files/${fileId}/download_link.json`;
+
+        if (queryParams) {
+            url += `?${queryParams}`;
+        }
+
         const headers = { "apikey": NEXUS_API_KEY };
         try {
             const response = await fetch(url, { headers });
-            if (!response.ok) return null;
+            if (!response.ok) {
+                console.error(`API Error ${response.status}:`, await response.text());
+                return null;
+            }
             const data = await response.json();
             return data[0]?.URI;
         } catch (error) {
