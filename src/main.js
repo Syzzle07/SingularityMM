@@ -448,13 +448,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const savedPadding = localStorage.getItem('modRowPadding') || '5';
         document.documentElement.style.setProperty('--mod-row-vertical-padding', `${savedPadding}px`);
         rowPaddingSlider.value = savedPadding;
-        rowPaddingValue.textContent = `${savedPadding}px`;
+        rowPaddingValue.textContent = savedPadding;
         updateSliderFill(rowPaddingSlider);
 
         const savedGridGap = localStorage.getItem('browseGridGap') || '10';
         document.documentElement.style.setProperty('--browse-grid-gap', `${savedGridGap}px`);
         gridGapSlider.value = savedGridGap;
-        gridGapValue.textContent = `${savedGridGap}px`;
+        gridGapValue.textContent = savedGridGap;
         updateSliderFill(gridGapSlider);
 
         const savedModsPerPage = localStorage.getItem('modsPerPage') || '20';
