@@ -1978,5 +1978,695 @@
         "id": "3436",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Manipulate Glitches",
+        "id": "1248",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fossil and Bartering Overhaul 5.61 (RELICS)",
+        "id": "3440",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Get All Fossil",
+        "id": "3441",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Abandoned Mode Purple Tech",
+        "id": "3427",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Galaxy Center Distance",
+        "id": "2203",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gMission No Approximate Location Missions - EXML",
+        "id": "2660",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Trade Commodity Prices 5.61 (RELICS)",
+        "id": "3448",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Subtle HUD Icons",
+        "id": "3073",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Product Icons",
+        "id": "3067",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Technology Icons",
+        "id": "2505",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Add Legacy Structures and Planetary Glitches",
+        "id": "3443",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Crowded Stations 5.63 (RELICS)",
+        "id": "3451",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Asteroid Fields 3.6",
+        "id": "1148",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exoskiff HUD Icon",
+        "id": "3452",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sentinel and Loot Icons",
+        "id": "3453",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Clear Ship Screens - No Glare No Flicker No Wave Effects",
+        "id": "2588",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Freighter Bridge Scanner",
+        "id": "2580",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Passive Hazard Protection Techs",
+        "id": "2562",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Strict Player Interaction",
+        "id": "3456",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Supercharged Slots 3.2",
+        "id": "2556",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Pop Out A Fresh One (Fresher Edition)",
+        "id": "2668",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Music Player Madness",
+        "id": "2828",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Atmosphere No Plants (Mostly)",
+        "id": "2226",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Space Anomaly Markers",
+        "id": "3264",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Abandoned Autophages 5.63",
+        "id": "3464",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Action-Adventure Camera",
+        "id": "3327",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Text Punctuation Delays or Double Slashes",
+        "id": "2614",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Recharge Order",
+        "id": "3462",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Yet Another Hyperdrive Mod",
+        "id": "3467",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Increased Vehicle Mass and Autobrake",
+        "id": "3465",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hybrid weaponry",
+        "id": "3446",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Abandoned Mode Includes Creatures",
+        "id": "3472",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unlimited Hyperdrive Distance",
+        "id": "2246",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zHangar",
+        "id": "3455",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zLights",
+        "id": "3397",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Lush Beginnings",
+        "id": "3477",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Clearer Names",
+        "id": "3410",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Firearms Unlimited Cool Keeper",
+        "id": "2240",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Removed Yellow Sign",
+        "id": "3479",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Trade Buy Price Markup Mod",
+        "id": "3478",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Free No Limit Building",
+        "id": "2235",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Improved Mech",
+        "id": "2239",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Masternetras Better Stellar Extractors",
+        "id": "3483",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "True Russian Dialogues",
+        "id": "3485",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "INFINITE ITEM STACK SIZE FOR ALL ITEMS",
+        "id": "3488",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Simple Hot Reload",
+        "id": "3491",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "American Spelling Fixes",
+        "id": "3468",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Camera Shake (for Extractors)",
+        "id": "3493",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Mining-Extracting Facility (Blender File)",
+        "id": "3495",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Realistic NMS ReShade (V.5.0)",
+        "id": "3400",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "The S Class module is a legendary item.",
+        "id": "3482",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reshade Preset for No Man's Sky",
+        "id": "3548",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Sail Ship Landing Animation",
+        "id": "3076",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Rebirth Change the player name for gog users (for v5.64 relics)",
+        "id": "3540",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Super Long Refining",
+        "id": "3551",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Black Market Goods",
+        "id": "2981",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gSettlement Timers - Gumsk's Settlement Timers - EXML",
+        "id": "2067",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Liminal Opportunities - Custom Nexus Mission",
+        "id": "2987",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Game Fonts",
+        "id": "3550",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "SMTL (Settlement Time Reduction)",
+        "id": "3371",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bigger Fishing Range",
+        "id": "3370",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hidden Cape",
+        "id": "3106",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Skip Intro Logos",
+        "id": "3558",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Starborn Runner Recolor-BluePink and BlackRed",
+        "id": "2979",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ANALOGUE - Exosuit Voice Overhaul",
+        "id": "1763",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Deposit Colors 2.6",
+        "id": "2361",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Substation icons",
+        "id": "3070",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Auto Ladder",
+        "id": "1400",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hide Text Chat",
+        "id": "3049",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sailship Re-alignments",
+        "id": "2257",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "MEGAN Exosuit AI Voice",
+        "id": "1992",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zBridge",
+        "id": "3476",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Small Game Cursor",
+        "id": "3557",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fleet Expedition And Settlement Timer Reductions",
+        "id": "2409",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Clearer Binoculars",
+        "id": "1383",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Station Marker and Nexus",
+        "id": "3555",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Icon Marked Planet",
+        "id": "3474",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Kibbles 'n Bits",
+        "id": "1627",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cobalt Crystals",
+        "id": "2370",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Starships Combined Techs",
+        "id": "3563",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Star Citizen Pulse Drive",
+        "id": "3085",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "New SoundFX for Item and Units Received",
+        "id": "3103",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "FlyFast - LandFaster Extended",
+        "id": "3079",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Lightspeed Pulse Drive",
+        "id": "3084",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Star Fox 64 Pulse Drive",
+        "id": "3097",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Incoming Fighter SoundFX",
+        "id": "3148",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Death Star Freighter Alarm",
+        "id": "3108",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Star Wars Themed Logo and Menu Music",
+        "id": "3101",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sci-Fi Freighter Alarm",
+        "id": "3088",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Restore Biome Secondary Resources RESTORED",
+        "id": "3492",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sentinel Hunter",
+        "id": "3565",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Robot Pets",
+        "id": "3564",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "E3 Style Font Updated",
+        "id": "3577",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sailship Procedural Decals",
+        "id": "2272",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Settlement Timer Adjustment",
+        "id": "2676",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Trading Post Revamp",
+        "id": "1057",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DPPBFOYA (Sentinel Spawns Multiplier)",
+        "id": "2638",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Galaxy S Flight Ultra - Better Flying Low flight Water flight Faster flight and Space Ship drift",
+        "id": "2262",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Inertia Drifto - Exocraft Speed and Boost Enhancer",
+        "id": "1941",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ED-E - Better Rocket Boots and Jetpack Booster",
+        "id": "1942",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Summon Freighter Closer To Planet",
+        "id": "3601",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "New Corrupted Recipes",
+        "id": "3484",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Connection Length Limit for Base Wiring",
+        "id": "3603",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "X Marks The Spot",
+        "id": "3208",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fix Backgrounds",
+        "id": "3607",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Pick Up Garage",
+        "id": "3608",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sameko Saba Exosuit Voice",
+        "id": "3610",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Trade Terminals Sell Just About Everything (no food)",
+        "id": "2603",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "WetWorks 3D Fireworks",
+        "id": "3612",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hard to be God",
+        "id": "3614",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Wraith Tail Almost Fix",
+        "id": "3615",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Inventory Rebalance",
+        "id": "1925",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unique Space Ships",
+        "id": "1932",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Extended Exocraft Scan Options",
+        "id": "1938",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unique ExoCrafts",
+        "id": "1939",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
