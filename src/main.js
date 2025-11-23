@@ -449,11 +449,13 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.style.setProperty('--mod-row-vertical-padding', `${savedPadding}px`);
         rowPaddingSlider.value = savedPadding;
         rowPaddingValue.textContent = `${savedPadding}px`;
+        updateSliderFill(rowPaddingSlider);
 
         const savedGridGap = localStorage.getItem('browseGridGap') || '10';
         document.documentElement.style.setProperty('--browse-grid-gap', `${savedGridGap}px`);
         gridGapSlider.value = savedGridGap;
         gridGapValue.textContent = `${savedGridGap}px`;
+        updateSliderFill(gridGapSlider);
 
         const savedModsPerPage = localStorage.getItem('modsPerPage') || '20';
         appState.modsPerPage = parseInt(savedModsPerPage, 10);
@@ -463,6 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (modsPerPageSlider) {
             modsPerPageSlider.value = appState.modsPerPage;
             modsPerPageValue.textContent = appState.modsPerPage;
+            updateSliderFill(modsPerPageSlider);
         }
 
         // Check for untracked/manual mods
@@ -802,6 +805,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 badge.classList.toggle('hidden', !isInstalled);
             }
         });
+    }
+
+    function updateSliderFill(slider) {
+        const val = slider.value;
+        const min = slider.min || 0;
+        const max = slider.max || 100;
+
+        // Calculate percentage
+        const percentage = ((val - min) / (max - min)) * 100;
+
+        // Update background: Accent Color on Left | White on Right
+        slider.style.background = `linear-gradient(to right, var(--c-accent-primary) ${percentage}%, #EAEAEA ${percentage}%)`;
     }
 
     function formatBytes(bytes, decimals = 1) {
@@ -2434,13 +2449,43 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === settingsModalOverlay) settingsModalOverlay.classList.add('hidden');
     });
 
-    rowPaddingSlider.addEventListener('input', () => {
-        const padding = rowPaddingSlider.value;
-        document.documentElement.style.setProperty('--mod-row-vertical-padding', `${padding}px`);
-        rowPaddingValue.textContent = `${padding}px`;
+    // --- SLIDER LOGIC ---
+
+    // 1. List Density
+    rowPaddingSlider.addEventListener('input', function () {
+        rowPaddingValue.textContent = this.value;
+        document.documentElement.style.setProperty('--mod-row-vertical-padding', `${this.value}px`);
+        updateSliderFill(this);
     });
-    rowPaddingSlider.addEventListener('change', () => {
-        localStorage.setItem('modRowPadding', rowPaddingSlider.value);
+    rowPaddingSlider.addEventListener('change', function () {
+        localStorage.setItem('modRowPadding', this.value);
+    });
+
+    // 2. Grid Density
+    gridGapSlider.addEventListener('input', function () {
+        gridGapValue.textContent = this.value;
+        document.documentElement.style.setProperty('--browse-grid-gap', `${this.value}px`);
+        updateSliderFill(this);
+    });
+    gridGapSlider.addEventListener('change', function () {
+        localStorage.setItem('browseGridGap', this.value);
+    });
+
+    // 3. Mods Per Page
+    const modsPerPageSlider = document.getElementById('modsPerPageSlider');
+    const modsPerPageValue = document.getElementById('modsPerPageValue');
+
+    modsPerPageSlider.addEventListener('input', function () {
+        modsPerPageValue.textContent = this.value;
+        updateSliderFill(this);
+    });
+
+    modsPerPageSlider.addEventListener('change', function () {
+        const newValue = parseInt(this.value, 10);
+        appState.modsPerPage = newValue;
+        localStorage.setItem('modsPerPage', newValue);
+        appState.currentPage = 1;
+        filterAndDisplayMods();
     });
 
     deleteSettingsBtn.addEventListener('click', async () => {
@@ -3333,15 +3378,6 @@ document.addEventListener('DOMContentLoaded', () => {
         nxmHandlerBtn.disabled = false;
     });
 
-    gridGapSlider.addEventListener('input', () => {
-        const gap = gridGapSlider.value;
-        document.documentElement.style.setProperty('--browse-grid-gap', `${gap}px`);
-        gridGapValue.textContent = `${gap}px`;
-    });
-    gridGapSlider.addEventListener('change', () => {
-        localStorage.setItem('browseGridGap', gridGapSlider.value);
-    });
-
     document.querySelector('.download-header-row').addEventListener('click', (e) => {
         const clickedHeader = e.target.closest('.sortable');
         if (!clickedHeader) return;
@@ -3424,23 +3460,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } finally {
             nexusAuthBtn.disabled = false;
         }
-    });
-
-    const modsPerPageSlider = document.getElementById('modsPerPageSlider');
-    const modsPerPageValue = document.getElementById('modsPerPageValue');
-
-    modsPerPageSlider.addEventListener('input', () => {
-        modsPerPageValue.textContent = modsPerPageSlider.value;
-    });
-
-    modsPerPageSlider.addEventListener('change', () => {
-        const newValue = parseInt(modsPerPageSlider.value, 10);
-        appState.modsPerPage = newValue;
-        localStorage.setItem('modsPerPage', newValue);
-
-        // Reset to page 1 and refresh grid if currently viewing it
-        appState.currentPage = 1;
-        filterAndDisplayMods();
     });
 
     (async () => {

@@ -1178,7 +1178,7 @@ label.switch:has(input:checked)::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 5px 0;
     border-bottom: 0px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -1207,8 +1207,8 @@ label.switch:has(input:checked)::before {
 }
 
 .troubleshoot-section {
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
 }
@@ -2652,4 +2652,61 @@ button.context-menu-item.delete:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* ==========================================================================
+   13. Custom Range Slider Styling
+   ========================================================================== */
+
+/* 1. The Main Input Container */
+.slider-container input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+    height: 6px;
+    border-radius: 3px;
+    background: #EAEAEA;
+}
+
+/* 2. The Track (Now transparent so the input background shows through) */
+.slider-container input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 100%;
+    /* Fill the input */
+    cursor: pointer;
+    background: transparent;
+    /* Important! */
+    border: none;
+    border-radius: 3px;
+}
+
+/* 3. The Thumb (The Notch) */
+.slider-container input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+
+    /* THEME COLOR */
+    background: var(--c-accent-primary);
+
+    /* Vertically center thumb on the 6px track */
+    /* (Track Height / 2) - (Thumb Height / 2) -> 3 - 8 = -5px */
+    margin-top: -5px;
+
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.1s ease, filter 0.1s;
+}
+
+/* 4. Hover Effect */
+.slider-container input[type=range]:hover::-webkit-slider-thumb {
+    transform: scale(1.2);
+    filter: brightness(1.1);
+}
+
+/* 5. Remove focus outline */
+.slider-container input[type=range]:focus {
+    outline: none;
 }
