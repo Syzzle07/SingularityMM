@@ -2668,5 +2668,599 @@
         "id": "1939",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Max Slot Upgrade For All Freighter Classes",
+        "id": "2045",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More And Cheaper Star Maps",
+        "id": "2066",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cheap Pet Slots",
+        "id": "2192",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Add Derelict Freighter Loot To Store",
+        "id": "2193",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fuel Economy",
+        "id": "2205",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Burn Baby Burn Incinerator",
+        "id": "2209",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "SlotMaster",
+        "id": "2242",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Craftable Spawning Sac",
+        "id": "2418",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Custom Mods Galore",
+        "id": "2419",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Starter Ship Challenge",
+        "id": "2420",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Derelict Speed Increase",
+        "id": "2623",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Craftable Emergency Signal Scanner",
+        "id": "2624",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Equal Plant Timer and Yield",
+        "id": "2911",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ClaimExpeditionShipsForFree",
+        "id": "2975",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Super Upgrade Module Options",
+        "id": "3066",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Support Packets",
+        "id": "3069",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Wiring Loom Craftable",
+        "id": "3072",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Dig Up More Salvage Data",
+        "id": "3155",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reducable Containers - Pickeable Geobay and Harvesters",
+        "id": "1477",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sustainable H2-O-Na",
+        "id": "1421",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Craftable Salvaged Frigate Module - Cargo Bulkhead - Storage Augmentation - Repair Kits - Multi-tool Expansion Slot - ExoSuit Expansion Unit",
+        "id": "1491",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Ship Transfer Ranges 6.0",
+        "id": "1201",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Inventory Background Fix",
+        "id": "3617",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "All Icons Pack2",
+        "id": "3606",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "All Icons",
+        "id": "3494",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Ship and Multitool Upgrade Terminals",
+        "id": "2425",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Stone Guardian Exomech",
+        "id": "3449",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "QZ Value More (Quartzite Value Increase)",
+        "id": "3622",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Pirate Attackable Building Classes",
+        "id": "3624",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Quick Docks (Beacon 5.73)",
+        "id": "2686",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Quick Walks (Beacon 5.73)",
+        "id": "2735",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Settlement Fish Pond Adjusted",
+        "id": "3625",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Dismantle Starship Reactors",
+        "id": "3626",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Old Resources Restored",
+        "id": "3401",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Clear information",
+        "id": "3628",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Enhanced No Man's Sky",
+        "id": "3630",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Colored icons",
+        "id": "3209",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Matte Stealth Paint",
+        "id": "3632",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unlimited Hyperdrive Range",
+        "id": "2861",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosuit Voice Over Updated",
+        "id": "3616",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Less damaged slots on crashed ships",
+        "id": "674",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sleepless Night",
+        "id": "3149",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Multiplies Plant Harvest",
+        "id": "3161",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Multiple Vehicles Speed",
+        "id": "3171",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Useful Bait 5X",
+        "id": "3185",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Chinese Localization Fixes",
+        "id": "3552",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "BEACON Splash Screen Logo",
+        "id": "3638",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "BACON Splash Screen Logo",
+        "id": "3639",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zMemFrag Inventory",
+        "id": "3645",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zGas Giant Sea Level",
+        "id": "3646",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zMonolith Chart",
+        "id": "3644",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Silent Scan - Binocular",
+        "id": "690",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "10x Cave and Water Spawns",
+        "id": "3029",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Silent Suit Voice - Shut Up Exosuit",
+        "id": "1783",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Remove default keybinds for Terrain_SizeUp and Down",
+        "id": "3669",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Glyph Hider for Streamers",
+        "id": "3648",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "SETTLEMENTS Instant Builds and Quests",
+        "id": "3673",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMS SpeedHack HotKeys Trainer",
+        "id": "3686",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Suit Annoyances - Updated",
+        "id": "3367",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Space Station Anomaly Insta Jetpack",
+        "id": "3692",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Leaf Overlays - Updated for BEACON",
+        "id": "3052",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Space Station Restoration - Working on VOYAGERS",
+        "id": "3008",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "BuildColourpalettes",
+        "id": "1334",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Voyagers Splash Screen Logo",
+        "id": "3700",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Crescent Worlds",
+        "id": "358",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Intrologo",
+        "id": "1344",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Super Ship Hunter",
+        "id": "3627",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Superman On Steroids - SOS",
+        "id": "766",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Mission Timer Redux - MTR",
+        "id": "1921",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Buildings Scans - BBS",
+        "id": "1259",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Pirates And No Random Sentinels (Multi Versions)",
+        "id": "1245",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Legit Max Frigates - UPDATED",
+        "id": "1665",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sodium and Dihydrogen Glowing Crystals",
+        "id": "2664",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bring Back Blue Backgrounds",
+        "id": "2894",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Multi Biomes - Voyagers",
+        "id": "3093",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HD Space Planet Clouds 2.1",
+        "id": "1083",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Procedurally Coloured Rare Crystals",
+        "id": "2948",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Multiplies Stack Sizes(OCD Version)",
+        "id": "3227",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "FastCraft for Fusion Igniter and Stasis Device",
+        "id": "3175",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Blackhole thats At least A bit more Accurate - BAAA",
+        "id": "2007",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "E3 Style Galactic Map",
+        "id": "2759",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Windrex - Glass Cleaner and Unwarper",
+        "id": "1976",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Colourful Multitools",
+        "id": "3633",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Colourful Sentinel Loot Barrels",
+        "id": "2961",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hide or Fade Notifications",
+        "id": "914",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Atlas Staff Recolours",
+        "id": "2976",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Remove Technology Overload - 6.11 Breach Compatible",
+        "id": "2162",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Trailer Trails",
+        "id": "3445",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Activated Metals Label",
+        "id": "2550",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Quick Crates 3.5",
+        "id": "1162",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exotic Starship Fabricator",
+        "id": "3007",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Open These Freighter Doors 1.6",
+        "id": "2449",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Parallel Universe - Voyagers",
+        "id": "1527",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Exoskiff Customisation",
+        "id": "3186",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Black Bars 3.5",
+        "id": "1188",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Colorless Inventories 8.0",
+        "id": "1277",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Flat Landing 4.8",
+        "id": "1179",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Reduced Hazard Protection Duration",
+        "id": "3447",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Nanite cost increase at the Anomaly",
+        "id": "3418",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
