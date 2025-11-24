@@ -1154,29 +1154,6 @@ label.switch:has(input:checked)::before {
     font-weight: bold;
 }
 
-.download-folder-btn {
-    background-color: rgba(0, 0, 0, 0.3);
-    border: 1px solid var(--c-border);
-    color: #fff;
-    font-family: var(--font-secondary);
-    font-size: 12px;
-    padding: 5px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.2s;
-    text-transform: uppercase;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.download-folder-btn:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: var(--c-accent-primary);
-    font-weight: bold;
-}
-
 /* --- SETTINGS MODAL STYLES --- */
 .settings-modal {
     font-family: var(--font-secondary);
@@ -2392,7 +2369,7 @@ button.context-menu-item.delete:hover {
     cursor: pointer;
     transition: all 0.2s;
     text-transform: uppercase;
-    width: 200px;
+    width: 175px;
 }
 
 .modal-btn-nxm:hover,
@@ -2732,4 +2709,117 @@ button.context-menu-item.delete:hover {
 /* 5. Remove focus outline */
 .slider-container input[type=range]:focus {
     outline: none;
+}
+
+/* --- Settings Modal: Downloads Path Row --- */
+.dl-path-row {
+    margin-top: 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 5px;
+}
+
+.dl-path-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dl-path-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.dl-path-text {
+    font-size: 12px;
+    opacity: 0.6;
+    word-break: break-all;
+    font-family: monospace;
+}
+
+.small-btn {
+    width: auto !important;
+    padding: 4px 10px !important;
+}
+
+/* --- Troubleshoot Section: Clean Staging --- */
+.troubleshoot-sub-row {
+    margin-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.troubleshoot-sub-text {
+    font-size: 13px;
+    margin-bottom: 8px;
+    opacity: 0.8;
+}
+
+.modal-btn-temp-delete {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--c-border);
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-size: 12px;
+    padding: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    width: 155px;
+}
+
+.modal-btn-temp-delete:hover {
+    background-color: var(--c-danger-hover);
+    border-color: var(--c-accent-primary);
+    font-weight: bold;
+}
+
+/* --- Download Modal Header --- */
+.download-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.download-modal-header h2 {
+    margin: 0;
+}
+
+.header-action-btn {
+    padding: 5px 10px;
+    width: auto !important;
+}
+
+.left-aligned {
+    margin-right: auto;
+}
+
+.download-folder-btn {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--c-border);
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-folder-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: var(--c-accent-primary);
+    font-weight: bold;
 }

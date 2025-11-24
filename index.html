@@ -289,17 +289,14 @@
                         Hidden Warnings</button>
                 </div>
                 <!-- Download Location Setting -->
-                <div class="setting-row"
-                    style="margin-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 10px;">
-                    <div style="display: flex; flex-direction: column; width: 100%;">
-                        <div
-                            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
-                            <label>Downloads Folder</label>
-                            <button id="changeDownloadDirBtn" class="modal-btn-confirm"
-                                style="width: auto; padding: 4px 10px;">Change</button>
+                <div class="setting-row dl-path-row">
+                    <div class="dl-path-container">
+                        <div class="dl-path-header">
+                            <label data-i18n="settingsDownloadsLabel">Downloads Folder</label>
+                            <button id="changeDownloadDirBtn" class="modal-btn-nxm-confirm small-btn"
+                                data-i18n="changeBtn">Change</button>
                         </div>
-                        <div id="currentDownloadPath"
-                            style="font-size: 11px; opacity: 0.6; word-break: break-all; font-family: monospace;">
+                        <div id="currentDownloadPath" class="dl-path-text">
                             Loading...
                         </div>
                     </div>
@@ -318,6 +315,13 @@
                         regenerate a new one on the next launch.</p>
                     <button id="deleteSettingsBtn" class="modal-btn-delete" data-i18n="modalDeleteBtn">Delete
                         GCMODSETTINGS.MXML</button>
+                    <div class="troubleshoot-sub-row">
+                        <p class="troubleshoot-sub-text" data-i18n="cleanStagingDesc">Cleans temporary files left over.
+                        </p>
+                        <button id="cleanStagingBtn" class="modal-btn-temp-delete" data-i18n="cleanStagingBtn">Clean
+                            Temp
+                            Folders</button>
+                    </div>
                 </div>
                 <div class="modal-actions">
                     <button id="closeSettingsModalBtn" class="modal-btn-cancel"
@@ -412,9 +416,10 @@
         <!-- === DOWNLOAD HISTORY MODAL === -->
         <div id="downloadHistoryModalOverlay" class="modal-overlay hidden">
             <div class="modal-content download-modal">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                    <h2 data-i18n="downloadHistoryTitle" style="margin: 0;">DOWNLOADS</h2>
-                    <button id="openDownloadsFolderBtn" class="download-folder-btn">OPEN DOWNLOADS FOLDER</button>
+                <div class="download-modal-header">
+                    <h2 data-i18n="downloadHistoryTitle">DOWNLOADS</h2>
+                    <button id="openDownloadsFolderBtn" class="download-folder-btn header-action-btn"
+                        data-i18n="openDownloadsFolderBtn">OPEN DOWNLOADS FOLDER</button>
                 </div>
                 <div class="download-header-row">
                     <span class="header-name sortable" data-sort="name">Name</span>
@@ -474,9 +479,10 @@
                 </div>
 
                 <div class="mp-footer">
-                    <button id="mpOpenFolderBtn" class="mp-action-btn" style="margin-right: auto;">Open Folder</button>
-                    <button id="mpSelectBtn" class="mp-action-btn">Select</button>
-                    <button id="mpCloseBtn" class="mp-action-btn">Close</button>
+                    <button id="mpOpenFolderBtn" class="mp-action-btn left-aligned"
+                        data-i18n="openProfileFolderBtn">Open Folder</button>
+                    <button id="mpSelectBtn" class="mp-action-btn" data-i18n="selectBtn">Select</button>
+                    <button id="mpCloseBtn" class="mp-action-btn" data-i18n="closeBtn">Close</button>
                 </div>
             </div>
         </div>

@@ -2553,6 +2553,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    const cleanStagingBtn = document.getElementById('cleanStagingBtn');
+    cleanStagingBtn.addEventListener('click', async () => {
+        try {
+            const resultMsg = await invoke('clean_staging_folder');
+            await window.customAlert(resultMsg, "Cleanup Result");
+        } catch (e) {
+            await window.customAlert(`Failed to clean staging: ${e}`, "Error");
+        }
+    });
+
     const setupDragAndDrop = async () => {
         console.log("Setting up Drag & Drop listeners...");
 

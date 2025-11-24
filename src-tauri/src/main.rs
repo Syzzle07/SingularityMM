@@ -182,6 +182,53 @@ const CLEAN_MXML_TEMPLATE: &str = r#"<?xml version="1.0" encoding="utf-8"?>
 </Data>"#;
 
 // --- HELPER FUNCTIONS ---
+fn get_staging_dir(app: &AppHandle) -> Result<PathBuf, String> {
+    let root = get_singularity_root(app)?;
+    let staging = root.join("staging");
+    // Always recreate it if missing
+    if !staging.exists() {
+        fs::create_dir_all(&staging).map_err(|e| e.to_string())?;
+    }
+    Ok(staging)
+}
+
+// Helper to move a directory safely, handling cross-device moves (C: to D:)
+fn move_dir_safely(src: &Path, dest: &Path) -> Result<(), String> {
+    // 1. Try cheap rename (fastest, works on same drive)
+    if fs::rename(src, dest).is_ok() {
+        return Ok(());
+    }
+
+    // 2. If rename failed, likely cross-device. We must Copy + Delete.
+    if !dest.exists() {
+        fs::create_dir_all(dest).map_err(|e| format!("Failed to create dest dir: {}", e))?;
+    }
+
+    // Recursively copy
+    copy_dir_recursive(src, dest)?;
+
+    // Delete source
+    fs::remove_dir_all(src).map_err(|e| format!("Failed to remove source after copy: {}", e))?;
+
+    Ok(())
+}
+
+fn copy_dir_recursive(src: &Path, dest: &Path) -> Result<(), String> {
+    for entry in fs::read_dir(src).map_err(|e| e.to_string())? {
+        let entry = entry.map_err(|e| e.to_string())?;
+        let file_type = entry.file_type().map_err(|e| e.to_string())?;
+        let dest_path = dest.join(entry.file_name());
+
+        if file_type.is_dir() {
+            fs::create_dir_all(&dest_path).map_err(|e| e.to_string())?;
+            copy_dir_recursive(&entry.path(), &dest_path)?;
+        } else {
+            fs::copy(entry.path(), &dest_path).map_err(|e| e.to_string())?;
+        }
+    }
+    Ok(())
+}
+
 fn get_singularity_root(app: &AppHandle) -> Result<PathBuf, String> {
     // This creates/finds: %APPDATA%/Singularity
     // We use data_dir() which usually points to Roaming, then join "Singularity"
@@ -352,17 +399,20 @@ fn find_gamepass_path() -> Option<PathBuf> {
     None
 }
 
-fn extract_archive_to_temp(archive_path: &Path, mods_path: &Path) -> Result<PathBuf, String> {
-    let temp_extract_path =
-        mods_path.join(format!("temp_extract_{}", Utc::now().timestamp_millis()));
+fn extract_archive_to_temp(archive_path: &Path, target_staging_root: &Path) -> Result<PathBuf, String> {
+    // Create a unique folder INSIDE the staging root provided
+    let unique_folder_name = format!("extract_{}", Utc::now().timestamp_millis());
+    let temp_extract_path = target_staging_root.join(unique_folder_name);
+    
     fs::create_dir_all(&temp_extract_path)
-        .map_err(|e| format!("Could not create temporary extraction directory: {}", e))?;
+        .map_err(|e| format!("Could not create extraction dir: {}", e))?;
 
     let extension = archive_path
         .extension()
         .and_then(std::ffi::OsStr::to_str)
         .unwrap_or("")
         .to_lowercase();
+
     match extension.as_str() {
         "zip" => {
             let file = fs::File::open(archive_path).map_err(|e| {
@@ -413,6 +463,7 @@ fn extract_archive_to_temp(archive_path: &Path, mods_path: &Path) -> Result<Path
         }
         _ => return Err(format!("Unsupported file type: .{}", extension)),
     }
+    
     Ok(temp_extract_path)
 }
 
@@ -494,49 +545,36 @@ fn get_all_mods_for_render() -> Result<Vec<ModRenderData>, String> {
 fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<InstallationAnalysis, String> {
     let mut archive_path = PathBuf::from(&archive_path_str);
     let downloads_dir = get_downloads_dir(&app)?;
-    
-    // Ensure downloads directory exists
-    if !downloads_dir.exists() {
-        fs::create_dir_all(&downloads_dir).map_err(|e| e.to_string())?;
-    }
+    let staging_dir = get_staging_dir(&app)?; 
 
-    // 1. CHECK: Is this file already in the downloads folder?
-    // Compare canonical paths to be sure.
-    let in_downloads = if let (Ok(p1), Ok(p2)) = (archive_path.canonicalize(), downloads_dir.canonicalize()) {
-        p1.starts_with(p2)
-    } else {
-        false
-    };
-
-    // 2. IF NOT: Copy it there.
+    // 1. Copy to downloads if not already there
+    if !downloads_dir.exists() { fs::create_dir_all(&downloads_dir).map_err(|e| e.to_string())?; }
+    let in_downloads = if let (Ok(p1), Ok(p2)) = (archive_path.canonicalize(), downloads_dir.canonicalize()) { p1.starts_with(p2) } else { false };
     if !in_downloads {
         let file_name = archive_path.file_name().ok_or("Invalid filename")?;
         let target_path = downloads_dir.join(file_name);
-        
-        // If it exists, it might be overwriting an old manual drop, which is fine.
-        fs::copy(&archive_path, &target_path).map_err(|e| format!("Failed to copy to downloads: {}", e))?;
-        
+        fs::copy(&archive_path, &target_path).map_err(|e| e.to_string())?;
         archive_path = target_path;
     }
+
     let game_path = find_game_path().ok_or_else(|| "Could not find the game installation path.".to_string())?;
     let mods_path = game_path.join("GAMEDATA").join("MODS");
     fs::create_dir_all(&mods_path).map_err(|e| e.to_string())?;
 
+    // 2. Build map of existing mods
     let mut installed_mods_by_id: HashMap<String, String> = HashMap::new();
     if let Ok(entries) = fs::read_dir(&mods_path) {
         for entry in entries.filter_map(Result::ok) {
-            let path = entry.path();
-            if path.is_dir() {
-                if let Some(info) = read_mod_info(&path) {
-                    if let (Some(mod_id), Some(folder_name)) = (info.mod_id, path.file_name().and_then(|n| n.to_str())) {
-                        installed_mods_by_id.insert(mod_id, folder_name.to_string());
-                    }
+            if let Some(info) = read_mod_info(&entry.path()) {
+                if let (Some(mod_id), Some(folder_name)) = (info.mod_id, entry.path().file_name().and_then(|n| n.to_str())) {
+                    installed_mods_by_id.insert(mod_id, folder_name.to_string());
                 }
             }
         }
     }
 
-    let temp_extract_path = extract_archive_to_temp(&archive_path, &mods_path)?;
+    // 3. Extract to Staging
+    let temp_extract_path = extract_archive_to_temp(&archive_path, &staging_dir)?;
 
     let folder_entries: Vec<_> = fs::read_dir(&temp_extract_path)
         .map_err(|e| e.to_string())?
@@ -545,43 +583,38 @@ fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<
         .collect();
 
     if folder_entries.is_empty() {
-        let path_for_cleanup = temp_extract_path.clone();
+        let path_to_clean = temp_extract_path.clone();
         thread::spawn(move || {
-            thread::sleep(Duration::from_secs(2));
-            if fs::remove_dir_all(&path_for_cleanup).is_ok() {
-                println!("Cleaned up empty temp dir: {}", path_for_cleanup.display());
-            }
+            thread::sleep(Duration::from_millis(5000)); // Wait 5s for locks to release
+            let _ = fs::remove_dir_all(&path_to_clean);
         });
+        
         return Ok(InstallationAnalysis {
             successes: vec![],
             conflicts: vec![],
-            messy_archive_path: Some(temp_extract_path.to_string_lossy().into_owned()),
+            messy_archive_path: Some(temp_extract_path.to_string_lossy().into_owned()), 
             active_archive_path: Some(archive_path.to_string_lossy().into_owned()),
         });
     }
 
-    let staging_path = mods_path.join(format!("temp_staging_{}", Utc::now().timestamp_millis()));
+    let conflict_staging_path = staging_dir.join(format!("conflict_{}", Utc::now().timestamp_millis()));
     let mut successes = Vec::new();
     let mut conflicts = Vec::new();
 
     for entry in folder_entries {
         let new_mod_path = entry.path();
-        let new_mod_name = new_mod_path
-            .file_name()
-            .unwrap()
-            .to_str()
-            .unwrap()
-            .to_string();
+        let new_mod_name = new_mod_path.file_name().unwrap().to_str().unwrap().to_string();
 
         let mut conflict_found = false;
+        
+        // Check ID conflict
         if let Some(info) = read_mod_info(&new_mod_path) {
             if let Some(mod_id) = info.mod_id {
                 if let Some(old_folder_name) = installed_mods_by_id.get(&mod_id) {
-                    if !staging_path.exists() {
-                        fs::create_dir_all(&staging_path).map_err(|e| e.to_string())?;
-                    }
-                    let staged_mod_path = staging_path.join(&new_mod_name);
-                    fs::rename(&new_mod_path, &staged_mod_path).map_err(|e| e.to_string())?;
+                    if !conflict_staging_path.exists() { fs::create_dir_all(&conflict_staging_path).map_err(|e| e.to_string())?; }
+                    
+                    let staged_mod_path = conflict_staging_path.join(&new_mod_name);
+                    fs::rename(&new_mod_path, &staged_mod_path).map_err(|e| e.to_string())?; 
 
                     conflicts.push(ModConflictInfo {
                         new_mod_name: new_mod_name.clone(),
@@ -593,13 +626,14 @@ fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<
             }
         }
 
+        // Check Name conflict or Install
         if !conflict_found {
             let final_dest_path = mods_path.join(&new_mod_name);
             if final_dest_path.exists() {
-                if !staging_path.exists() {
-                    fs::create_dir_all(&staging_path).map_err(|e| e.to_string())?;
-                }
-                let staged_mod_path = staging_path.join(&new_mod_name);
+                // Name conflict -> Move to conflict staging
+                if !conflict_staging_path.exists() { fs::create_dir_all(&conflict_staging_path).map_err(|e| e.to_string())?; }
+                
+                let staged_mod_path = conflict_staging_path.join(&new_mod_name);
                 fs::rename(&new_mod_path, &staged_mod_path).map_err(|e| e.to_string())?;
 
                 conflicts.push(ModConflictInfo {
@@ -608,7 +642,9 @@ fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<
                     old_mod_folder_name: new_mod_name.clone(),
                 });
             } else {
-                fs::rename(&new_mod_path, &final_dest_path).map_err(|e| e.to_string())?;
+                // NO CONFLICT -> Move safely to Game/MODS
+                move_dir_safely(&new_mod_path, &final_dest_path)?;
+                
                 successes.push(ModInstallInfo {
                     name: new_mod_name,
                     temp_path: final_dest_path.to_string_lossy().into_owned(),
@@ -617,8 +653,11 @@ fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<
         }
     }
 
-    let path_for_cleanup = temp_extract_path.clone();
-    thread::spawn(move || { thread::sleep(Duration::from_secs(3)); fs::remove_dir_all(&path_for_cleanup).ok(); });
+    let path_to_clean = temp_extract_path.clone();
+    thread::spawn(move || {
+        thread::sleep(Duration::from_millis(5000)); // Wait 5s for locks to release
+        let _ = fs::remove_dir_all(&path_to_clean);
+    });
 
     Ok(InstallationAnalysis {
         successes,
@@ -646,16 +685,18 @@ fn resolve_conflict(
             fs::remove_dir_all(&old_mod_path)
                 .map_err(|e| format!("Failed to remove old mod: {}", e))?;
         }
-        fs::rename(&temp_mod_path, &final_new_mod_path)
-            .map_err(|e| format!("Failed to move new mod into place: {}", e))?;
+        // CHANGE: Use safe move (temp is in AppData, destination is Game folder)
+        move_dir_safely(&temp_mod_path, &final_new_mod_path)?;
     } else {
+        // Just delete the staged folder in AppData
         fs::remove_dir_all(&temp_mod_path)
             .map_err(|e| format!("Failed to cleanup temp mod folder: {}", e))?;
     }
 
+    // Clean up parent conflict container if empty
     if let Some(parent) = temp_mod_path.parent() {
         if parent.exists() && parent.read_dir().map_or(false, |mut i| i.next().is_none()) {
-            fs::remove_dir(parent).ok();
+            let _ = fs::remove_dir(parent);
         }
     }
     Ok(())
@@ -1690,6 +1731,25 @@ fn open_special_folder(app: AppHandle, folder_type: String) -> Result<(), String
     open::that(path).map_err(|e| e.to_string())
 }
 
+#[tauri::command]
+fn clean_staging_folder(app: AppHandle) -> Result<String, String> {
+    let staging_dir = get_staging_dir(&app)?;
+    
+    if staging_dir.exists() {
+        // Read directory to count items before deleting (for UI feedback)
+        let count = fs::read_dir(&staging_dir).map_err(|e| e.to_string())?.count();
+        
+        if count > 0 {
+            // We just delete the whole staging folder and recreate it
+            fs::remove_dir_all(&staging_dir).map_err(|e| e.to_string())?;
+            fs::create_dir_all(&staging_dir).map_err(|e| e.to_string())?;
+            return Ok(format!("Cleaned {} items from staging area.", count));
+        }
+    }
+    
+    Ok("Staging area is already empty.".to_string())
+}
+
 // --- MAIN FUNCTION ---
 fn main() {    
     tauri::Builder::default()
@@ -1818,6 +1878,7 @@ fn main() {
             set_downloads_path,
             open_special_folder,
             open_folder_path,
+            clean_staging_folder
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
