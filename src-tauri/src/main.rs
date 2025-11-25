@@ -30,6 +30,7 @@ use tokio_tungstenite::{connect_async, tungstenite::protocol::Message};
 use futures_util::{StreamExt, SinkExt};
 use url::Url;
 use tauri::path::BaseDirectory;
+use std::sync::Mutex;
 
 // --- STRUCTS ---
 
@@ -180,6 +181,8 @@ const CLEAN_MXML_TEMPLATE: &str = r#"<?xml version="1.0" encoding="utf-8"?>
   <Property name="Data">
   </Property>
 </Data>"#;
+
+static DIR_LOCK: Mutex<()> = Mutex::new(());
 
 // --- HELPER FUNCTIONS ---
 fn get_staging_dir(app: &AppHandle) -> Result<PathBuf, String> {
@@ -400,12 +403,15 @@ fn find_gamepass_path() -> Option<PathBuf> {
 }
 
 fn extract_archive_to_temp(archive_path: &Path, target_staging_root: &Path) -> Result<PathBuf, String> {
-    // Create a unique folder INSIDE the staging root provided
     let unique_folder_name = format!("extract_{}", Utc::now().timestamp_millis());
     let temp_extract_path = target_staging_root.join(unique_folder_name);
     
     fs::create_dir_all(&temp_extract_path)
         .map_err(|e| format!("Could not create extraction dir: {}", e))?;
+
+    // Need the absolute path because RAR logic changes the working directory
+    let abs_archive_path = archive_path.canonicalize()
+        .map_err(|e| format!("Invalid archive path '{}': {}", archive_path.display(), e))?;
 
     let extension = archive_path
         .extension()
@@ -415,50 +421,44 @@ fn extract_archive_to_temp(archive_path: &Path, target_staging_root: &Path) -> R
 
     match extension.as_str() {
         "zip" => {
-            let file = fs::File::open(archive_path).map_err(|e| {
-                format!(
-                    "Failed to open zip file '{}': {}",
-                    archive_path.display(),
-                    e
-                )
-            })?;
-            let mut archive = ZipArchive::new(file).map_err(|e| {
-                format!(
-                    "Failed to read zip archive '{}': {}",
-                    archive_path.display(),
-                    e
-                )
-            })?;
-            archive.extract(&temp_extract_path).map_err(|e| {
-                format!(
-                    "Failed to extract zip file '{}': {}",
-                    archive_path.display(),
-                    e
-                )
-            })?;
+            let file = fs::File::open(&abs_archive_path)
+                .map_err(|e| format!("Failed to open ZIP file: {}", e))?;
+            
+            let mut archive = ZipArchive::new(file)
+                .map_err(|e| format!("Failed to read ZIP archive structure: {}", e))?;
+            
+            archive.extract(&temp_extract_path)
+                .map_err(|e| format!("Failed to extract ZIP contents: {}", e))?;
         }
         "rar" => {
-            let mut archive = unrar::Archive::new(archive_path)
-                .open_for_processing()
-                .map_err(|e| {
-                    format!(
-                        "Failed to open RAR archive '{}': {:?}",
-                        archive_path.display(),
-                        e
-                    )
-                })?;
-            while let Ok(Some(header)) = archive.read_header() {
-                archive = header.extract_to(&temp_extract_path).map_err(|e| {
-                    format!(
-                        "Failed to extract from RAR archive '{}': {:?}",
-                        archive_path.display(),
-                        e
-                    )
-                })?;
+            let _guard = DIR_LOCK.lock().map_err(|e| format!("Failed to acquire thread lock: {}", e))?;
+            
+            let original_dir = env::current_dir()
+                .map_err(|e| format!("Failed to get current working directory: {}", e))?;
+            
+            env::set_current_dir(&temp_extract_path)
+                .map_err(|e| format!("Failed to change directory to staging area: {}", e))?;
+            
+            let extract_result = (|| -> Result<(), String> {
+                let mut archive = unrar::Archive::new(&abs_archive_path)
+                    .open_for_processing()
+                    .map_err(|e| format!("Failed to open RAR archive: {:?}", e))?;
+
+                while let Ok(Some(header)) = archive.read_header() {
+                    archive = header.extract()
+                        .map_err(|e| format!("Failed to extract RAR entry: {:?}", e))?;
+                }
+                Ok(())
+            })();
+
+            if let Err(e) = env::set_current_dir(&original_dir) {
+                eprintln!("CRITICAL: Failed to restore working directory: {}", e);
             }
+
+            extract_result?;
         }
         "7z" => {
-            sevenz_rust::decompress_file(archive_path, &temp_extract_path)
+            sevenz_rust::decompress_file(&abs_archive_path, &temp_extract_path)
                 .map_err(|e| format!("Failed to extract 7z archive: {}", e))?;
         }
         _ => return Err(format!("Unsupported file type: .{}", extension)),

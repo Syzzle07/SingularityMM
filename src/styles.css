@@ -2369,7 +2369,7 @@ button.context-menu-item.delete:hover {
     cursor: pointer;
     transition: all 0.2s;
     text-transform: uppercase;
-    width: 175px;
+    width: 200px;
 }
 
 .modal-btn-nxm:hover,
