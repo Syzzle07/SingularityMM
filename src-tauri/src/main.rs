@@ -108,6 +108,10 @@ struct InstallationAnalysis {
     conflicts: Vec<ModConflictInfo>,
     messy_archive_path: Option<String>,
     active_archive_path: Option<String>,
+    // Trigger fields for the UI
+    selection_needed: bool,
+    temp_id: Option<String>,
+    available_folders: Option<Vec<String>>,
 }
 
 #[derive(Serialize, Clone)]
@@ -147,14 +151,9 @@ struct ProfileModEntry {
     mod_id: Option<String>,
     file_id: Option<String>,
     version: Option<String>,
-}
-
-#[derive(Deserialize, Debug)]
-struct ProfileSaveRequest {
-    filename: String,
-    mod_id: Option<String>,
-    file_id: Option<String>,
-    version: Option<String>,
+    //Track which specific folders from the zip were installed
+    #[serde(default)] 
+    installed_options: Option<Vec<String>>, 
 }
 
 #[derive(Serialize, Deserialize, Clone, Debug)]
@@ -547,7 +546,7 @@ fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<
     let downloads_dir = get_downloads_dir(&app)?;
     let staging_dir = get_staging_dir(&app)?; 
 
-    // 1. Copy to downloads if not already there
+    // 1. Ensure file is in downloads
     if !downloads_dir.exists() { fs::create_dir_all(&downloads_dir).map_err(|e| e.to_string())?; }
     let in_downloads = if let (Ok(p1), Ok(p2)) = (archive_path.canonicalize(), downloads_dir.canonicalize()) { p1.starts_with(p2) } else { false };
     if !in_downloads {
@@ -557,11 +556,58 @@ fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<
         archive_path = target_path;
     }
 
-    let game_path = find_game_path().ok_or_else(|| "Could not find the game installation path.".to_string())?;
+    // 2. Extract to Staging
+    let temp_extract_path = extract_archive_to_temp(&archive_path, &staging_dir)?;
+
+    // 3. Analyze Contents
+    let folder_entries: Vec<_> = fs::read_dir(&temp_extract_path)
+        .map_err(|e| e.to_string())?
+        .filter_map(Result::ok)
+        .filter(|entry| entry.path().is_dir())
+        .collect();
+
+    // --- MULTI-FOLDER DETECTION LOGIC ---
+    if folder_entries.len() > 1 {
+        let folder_names: Vec<String> = folder_entries.iter()
+            .map(|e| e.file_name().to_string_lossy().into_owned())
+            .collect();
+        
+        // Return early to ask UI for selection
+        return Ok(InstallationAnalysis {
+            successes: vec![],
+            conflicts: vec![],
+            messy_archive_path: None,
+            active_archive_path: Some(archive_path.to_string_lossy().into_owned()),
+            selection_needed: true, // <--- Flag for JS
+            temp_id: Some(temp_extract_path.file_name().unwrap().to_string_lossy().into_owned()),
+            available_folders: Some(folder_names),
+        });
+    }
+
+    // 4. If it's a single folder (or empty/messy files), proceed to finalize immediately.
+    let temp_id = temp_extract_path.file_name().unwrap().to_string_lossy().into_owned();
+    
+    finalize_installation(app, temp_id, vec![])
+}
+
+#[tauri::command]
+fn finalize_installation(
+    app: AppHandle, 
+    temp_id: String, 
+    selected_folders: Vec<String> // Empty means "Install All" (used for single folder case)
+) -> Result<InstallationAnalysis, String> {
+    let game_path = find_game_path().ok_or_else(|| "Could not find game path.".to_string())?;
     let mods_path = game_path.join("GAMEDATA").join("MODS");
     fs::create_dir_all(&mods_path).map_err(|e| e.to_string())?;
 
-    // 2. Build map of existing mods
+    let staging_dir = get_staging_dir(&app)?;
+    let temp_extract_path = staging_dir.join(&temp_id);
+
+    if !temp_extract_path.exists() {
+        return Err("Staging folder expired or missing.".to_string());
+    }
+
+    // Build map of existing mods for conflict detection
     let mut installed_mods_by_id: HashMap<String, String> = HashMap::new();
     if let Ok(entries) = fs::read_dir(&mods_path) {
         for entry in entries.filter_map(Result::ok) {
@@ -573,51 +619,35 @@ fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<
         }
     }
 
-    // 3. Extract to Staging
-    let temp_extract_path = extract_archive_to_temp(&archive_path, &staging_dir)?;
-
-    let folder_entries: Vec<_> = fs::read_dir(&temp_extract_path)
-        .map_err(|e| e.to_string())?
-        .filter_map(Result::ok)
-        .filter(|entry| entry.path().is_dir())
-        .collect();
-
-    if folder_entries.is_empty() {
-        let path_to_clean = temp_extract_path.clone();
-        thread::spawn(move || {
-            thread::sleep(Duration::from_millis(5000)); // Wait 5s for locks to release
-            let _ = fs::remove_dir_all(&path_to_clean);
-        });
-        
-        return Ok(InstallationAnalysis {
-            successes: vec![],
-            conflicts: vec![],
-            messy_archive_path: Some(temp_extract_path.to_string_lossy().into_owned()), 
-            active_archive_path: Some(archive_path.to_string_lossy().into_owned()),
-        });
-    }
-
     let conflict_staging_path = staging_dir.join(format!("conflict_{}", Utc::now().timestamp_millis()));
     let mut successes = Vec::new();
     let mut conflicts = Vec::new();
 
-    for entry in folder_entries {
-        let new_mod_path = entry.path();
-        let new_mod_name = new_mod_path.file_name().unwrap().to_str().unwrap().to_string();
+    let all_entries = fs::read_dir(&temp_extract_path).map_err(|e| e.to_string())?;
 
-        let mut conflict_found = false;
+    for entry in all_entries.filter_map(Result::ok) {
+        if !entry.path().is_dir() { continue; }
         
+        let folder_name = entry.file_name().to_string_lossy().into_owned();
+
+        // FILTER: If user selected specific folders, skip ones not in the list
+        if !selected_folders.is_empty() && !selected_folders.contains(&folder_name) {
+            continue; 
+        }
+
+        let new_mod_path = entry.path();
+        let mut conflict_found = false;
+
         // Check ID conflict
         if let Some(info) = read_mod_info(&new_mod_path) {
             if let Some(mod_id) = info.mod_id {
                 if let Some(old_folder_name) = installed_mods_by_id.get(&mod_id) {
                     if !conflict_staging_path.exists() { fs::create_dir_all(&conflict_staging_path).map_err(|e| e.to_string())?; }
-                    
-                    let staged_mod_path = conflict_staging_path.join(&new_mod_name);
+                    let staged_mod_path = conflict_staging_path.join(&folder_name);
                     fs::rename(&new_mod_path, &staged_mod_path).map_err(|e| e.to_string())?; 
 
                     conflicts.push(ModConflictInfo {
-                        new_mod_name: new_mod_name.clone(),
+                        new_mod_name: folder_name.clone(),
                         temp_path: staged_mod_path.to_string_lossy().into_owned(),
                         old_mod_folder_name: old_folder_name.clone(),
                     });
@@ -626,44 +656,42 @@ fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<
             }
         }
 
-        // Check Name conflict or Install
         if !conflict_found {
-            let final_dest_path = mods_path.join(&new_mod_name);
+            let final_dest_path = mods_path.join(&folder_name);
             if final_dest_path.exists() {
-                // Name conflict -> Move to conflict staging
                 if !conflict_staging_path.exists() { fs::create_dir_all(&conflict_staging_path).map_err(|e| e.to_string())?; }
-                
-                let staged_mod_path = conflict_staging_path.join(&new_mod_name);
+                let staged_mod_path = conflict_staging_path.join(&folder_name);
                 fs::rename(&new_mod_path, &staged_mod_path).map_err(|e| e.to_string())?;
 
                 conflicts.push(ModConflictInfo {
-                    new_mod_name: new_mod_name.clone(),
+                    new_mod_name: folder_name.clone(),
                     temp_path: staged_mod_path.to_string_lossy().into_owned(),
-                    old_mod_folder_name: new_mod_name.clone(),
+                    old_mod_folder_name: folder_name.clone(),
                 });
             } else {
-                // NO CONFLICT -> Move safely to Game/MODS
                 move_dir_safely(&new_mod_path, &final_dest_path)?;
-                
                 successes.push(ModInstallInfo {
-                    name: new_mod_name,
+                    name: folder_name,
                     temp_path: final_dest_path.to_string_lossy().into_owned(),
                 });
             }
         }
     }
 
-    let path_to_clean = temp_extract_path.clone();
+    // Cleanup staging
     thread::spawn(move || {
-        thread::sleep(Duration::from_millis(5000)); // Wait 5s for locks to release
-        let _ = fs::remove_dir_all(&path_to_clean);
+        thread::sleep(Duration::from_millis(1000));
+        let _ = fs::remove_dir_all(&temp_extract_path);
     });
 
     Ok(InstallationAnalysis {
         successes,
         conflicts,
         messy_archive_path: None,
-        active_archive_path: Some(archive_path.to_string_lossy().into_owned()),
+        active_archive_path: None, // Not needed for finalization return
+        selection_needed: false,
+        temp_id: None,
+        available_folders: None,
     })
 }
 
@@ -1108,9 +1136,9 @@ fn ensure_mod_info(
     mod_id: String,
     file_id: String,
     version: String,
+    install_source: String,
 ) -> Result<(), String> {
-    let game_path =
-        find_game_path().ok_or_else(|| "Could not find game installation path.".to_string())?;
+    let game_path = find_game_path().ok_or_else(|| "Could not find game installation path.".to_string())?;
     let mod_info_path = game_path
         .join("GAMEDATA")
         .join("MODS")
@@ -1127,11 +1155,11 @@ fn ensure_mod_info(
     }
 
     if let Some(obj) = json_value.as_object_mut() {
-        obj.insert("modId".to_string(), Value::String(mod_id));
-        obj.insert("fileId".to_string(), Value::String(file_id));
-        obj.insert("version".to_string(), Value::String(version));
-    } else {
-        return Err("mod_info.json is not a valid JSON object.".to_string());
+        if !mod_id.is_empty() { obj.insert("modId".to_string(), Value::String(mod_id)); }
+        if !file_id.is_empty() { obj.insert("fileId".to_string(), Value::String(file_id)); }
+        if !version.is_empty() { obj.insert("version".to_string(), Value::String(version)); }
+        // Save the source zip name so Profile Save knows where this folder came from
+        obj.insert("installSource".to_string(), Value::String(install_source));
     }
 
     let new_content = serde_json::to_string_pretty(&json_value).map_err(|e| e.to_string())?;
@@ -1357,46 +1385,91 @@ fn list_profiles(app: AppHandle) -> Result<Vec<String>, String> {
 }
 
 #[tauri::command]
-fn save_active_profile(app: AppHandle, profile_name: String, mods: Vec<ProfileSaveRequest>) -> Result<(), String> {
-    let dir = get_profiles_dir(&app)?;
-    let json_path = dir.join(format!("{}.json", profile_name));
-    let mxml_backup_path = dir.join(format!("{}.mxml", profile_name));
-    
+fn save_active_profile(app: AppHandle, profile_name: String) -> Result<(), String> {
+    let profiles_dir = get_profiles_dir(&app)?;
+    let json_path = profiles_dir.join(format!("{}.json", profile_name));
+    let mxml_backup_path = profiles_dir.join(format!("{}.mxml", profile_name));
     let downloads_dir = get_downloads_dir(&app)?;
+    
+    // Map: ZipFilename -> List of Installed Folder Names
+    let mut profile_map: HashMap<String, Vec<String>> = HashMap::new();
+    
+    if let Some(game_path) = find_game_path() {
+        let mods_path = game_path.join("GAMEDATA").join("MODS");
+        if let Ok(entries) = fs::read_dir(mods_path) {
+            for entry in entries.flatten() {
+                if entry.path().is_dir() {
+                    let folder_name = entry.file_name().to_string_lossy().into_owned();
+                    let info_path = entry.path().join("mod_info.json");
+                    
+                    if let Ok(content) = fs::read_to_string(&info_path) {
+                        if let Ok(json) = serde_json::from_str::<Value>(&content) {
+                            // If it has installSource, group it. 
+                            if let Some(source) = json.get("installSource").and_then(|s| s.as_str()) {
+                                profile_map.entry(source.to_string()).or_default().push(folder_name);
+                            } 
+                            // If legacy (no installSource), we assume the folder name + .zip might be the source, or we skip tracking?
+                            // For robustness, let's only track if we have source or can infer it.
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Backup MXML
+        let current_mxml = game_path.join("Binaries").join("SETTINGS").join("GCMODSETTINGS.MXML");
+        if current_mxml.exists() {
+            fs::copy(current_mxml, mxml_backup_path).map_err(|e| e.to_string())?;
+        }
+    }
 
+    // Convert Map to ProfileModEntry list
     let mut profile_entries = Vec::new();
-
-    for mod_req in mods {
-        let path = downloads_dir.join(&mod_req.filename);
-        let hash = if path.exists() {
-            calculate_file_hash(&path).unwrap_or("HASH_ERROR".to_string())
+    for (filename, installed_folders) in profile_map {
+        let archive_path = downloads_dir.join(&filename);
+        let hash = if archive_path.exists() {
+            calculate_file_hash(&archive_path).unwrap_or("HASH_ERROR".to_string())
         } else {
             "MISSING_FILE".to_string()
         };
 
+        // We need one sample mod_info to get modId/version for the profile entry (UI display)
+        // We'll just grab info from the first folder in the list
+        let mut p_mod_id = None;
+        let mut p_file_id = None;
+        let mut p_version = None;
+
+        if let Some(first_folder) = installed_folders.first() {
+             if let Some(gp) = find_game_path() {
+                 let info_p = gp.join("GAMEDATA/MODS").join(first_folder).join("mod_info.json");
+                 if let Ok(c) = fs::read_to_string(info_p) {
+                     if let Ok(j) = serde_json::from_str::<Value>(&c) {
+                         p_mod_id = j.get("modId").and_then(|s| s.as_str()).map(String::from);
+                         p_file_id = j.get("fileId").and_then(|s| s.as_str()).map(String::from);
+                         p_version = j.get("version").and_then(|s| s.as_str()).map(String::from);
+                     }
+                 }
+             }
+        }
+
         profile_entries.push(ProfileModEntry {
-            filename: mod_req.filename,
-            hash: hash,
-            mod_id: mod_req.mod_id,
-            file_id: mod_req.file_id,
-            version: mod_req.version,
+            filename,
+            hash,
+            mod_id: p_mod_id,
+            file_id: p_file_id,
+            version: p_version,
+            installed_options: Some(installed_folders), // Save specific folders
         });
     }
 
     let data = ModProfileData {
-        name: profile_name.clone(),
+        name: profile_name,
         mods: profile_entries,
     };
     
     let json_str = serde_json::to_string_pretty(&data).map_err(|e| e.to_string())?;
     fs::write(&json_path, json_str).map_err(|e| e.to_string())?;
 
-    if let Some(game_path) = find_game_path() {
-        let current_mxml = game_path.join("Binaries").join("SETTINGS").join("GCMODSETTINGS.MXML");
-        if current_mxml.exists() {
-            fs::copy(current_mxml, mxml_backup_path).map_err(|e| e.to_string())?;
-        }
-    }
     Ok(())
 }
 
@@ -1437,7 +1510,6 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
     }
 
     let downloads_dir = get_downloads_dir(&app)?;
-
     let total_mods = profile_data.mods.len();
     
     for (i, entry) in profile_data.mods.iter().enumerate() {
@@ -1450,30 +1522,43 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
         }).unwrap();
 
         if archive_path.exists() {
-             match extract_archive_to_temp(&archive_path, &mods_dir) {
+             match extract_archive_to_temp(&archive_path, &mods_dir) { // Use mods_dir as staging for now or use real staging?
+                // Actually, use real staging to keep it clean
                 Ok(temp_path) => {
                      for fs_entry in fs::read_dir(&temp_path).map_err(|e| e.to_string())? {
                         let fs_entry = fs_entry.map_err(|e| e.to_string())?;
-                        let dest = mods_dir.join(fs_entry.file_name());
-                        
-                        if dest.exists() { fs::remove_dir_all(&dest).ok(); }
-                        
-                        fs::rename(fs_entry.path(), &dest).map_err(|e| e.to_string())?;
+                        let folder_name = fs_entry.file_name().to_string_lossy().into_owned();
 
-                        if let Some(mid) = &entry.mod_id {
-                            let info_path = dest.join("mod_info.json");
-                            let info_json = serde_json::json!({
-                                "id": mid,
-                                "modId": mid,
-                                "fileId": entry.file_id,
-                                "version": entry.version
-                            });
-                            if let Ok(json_str) = serde_json::to_string_pretty(&info_json) {
-                                fs::write(info_path, json_str).ok();
+                        // FILTER LOGIC:
+                        // If installed_options is defined and NOT empty, check if this folder is in it.
+                        if let Some(options) = &entry.installed_options {
+                            if !options.is_empty() && !options.contains(&folder_name) {
+                                continue; // Skip this folder
                             }
                         }
+
+                        let dest = mods_dir.join(&folder_name);
+                        if dest.exists() { fs::remove_dir_all(&dest).ok(); }
+                        
+                        if let Err(e) = fs::rename(fs_entry.path(), &dest) {
+                            println!("Failed to move {}: {}", folder_name, e);
+                            continue;
+                        }
+
+                        // Restore mod_info with the correct source info
+                        let info_path = dest.join("mod_info.json");
+                        let info_json = serde_json::json!({
+                            "modId": entry.mod_id,
+                            "fileId": entry.file_id,
+                            "version": entry.version,
+                            "installSource": entry.filename // Important for next save
+                        });
+                        // Write/Merge info
+                        if let Ok(json_str) = serde_json::to_string_pretty(&info_json) {
+                            fs::write(info_path, json_str).ok();
+                        }
                      }
-                     fs::remove_dir_all(temp_path).ok();
+                     let _ = fs::remove_dir_all(temp_path);
                 },
                 Err(e) => println!("Failed to extract {}: {}", entry.filename, e)
             }
@@ -1878,7 +1963,8 @@ fn main() {
             set_downloads_path,
             open_special_folder,
             open_folder_path,
-            clean_staging_folder
+            clean_staging_folder,
+            finalize_installation
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

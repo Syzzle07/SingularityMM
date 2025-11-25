@@ -888,19 +888,14 @@ document.addEventListener('DOMContentLoaded', () => {
             downloadHistory = downloadHistory.filter(d => d.fileId !== fileId);
         }
 
-        // 2. UPDATE LOGIC: DELETE OLD ZIP
-        // If this is an update, find the OLD version and delete its zip to keep the folder clean.
+        // 2. UPDATE LOGIC: HIDE OLD VERSION
+        // If this is an update, find the OLD version and hide it in the list to keep the list clean.
         if (replacingFileId) {
             const oldVersionItem = downloadHistory.find(d => String(d.fileId) === String(replacingFileId));
 
             if (oldVersionItem && oldVersionItem.archivePath) {
-                console.log(`Update detected. Removing old version archive: ${oldVersionItem.fileName}`);
-                try {
-                    await invoke('delete_archive_file', { path: oldVersionItem.archivePath });
-                    downloadHistory = downloadHistory.filter(d => d.id !== oldVersionItem.id);
-                } catch (e) {
-                    console.warn("Failed to delete old version zip:", e);
-                }
+                console.log(`Update detected. Hiding old version from list: ${oldVersionItem.fileName}`);
+                downloadHistory = downloadHistory.filter(d => d.id !== oldVersionItem.id);
             }
         }
 
@@ -990,8 +985,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`[CONTEXT MENU] Checking condition to show 'Install' button: statusClass === 'success' (${itemData.statusClass === 'success'}), archivePath exists (${!!itemData.archivePath})`);
 
         // Install Button
-        if (itemData.statusClass === 'success' && itemData.archivePath) {
-            console.log("[CONTEXT MENU] 'Install' button will be SHOWN.");
+        if ((itemData.statusClass === 'success' || itemData.statusClass === 'cancelled') && itemData.archivePath) {
             const installButton = document.createElement('button');
             installButton.textContent = i18n.get('ctxInstall');
             installButton.className = 'context-menu-item';
@@ -1032,6 +1026,111 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.appendChild(contextMenu);
     }
 
+    async function processInstallAnalysis(analysis, item, isUpdate) {
+        let oldArchiveToDelete = null;
+
+        // --- Handle Conflicts ---
+        if (analysis.conflicts && analysis.conflicts.length > 0) {
+            for (const conflict of analysis.conflicts) {
+                const oldItemIndex = downloadHistory.findIndex(d => d.modFolderName === conflict.old_mod_folder_name);
+                if (oldItemIndex > -1) {
+                    const oldItem = downloadHistory[oldItemIndex];
+                    // Ensure it doesn't delete the archive it's currently installing
+                    if (oldItem.archivePath && oldItem.id !== item.id) {
+                        oldArchiveToDelete = oldItem.archivePath;
+                        // Remove the old item from the history array
+                        downloadHistory.splice(oldItemIndex, 1);
+                    }
+                }
+
+                // If it's an auto-update, always replace. Otherwise, ask the user.
+                const shouldReplace = isUpdate ? true : await window.customConfirm(
+                    i18n.get('modUpdateConflictMsg', {
+                        oldName: conflict.old_mod_folder_name,
+                        newName: conflict.new_mod_name
+                    }),
+                    i18n.get('modUpdateConflictTitle')
+                );
+
+                await invoke('resolve_conflict', {
+                    newModName: conflict.new_mod_name,
+                    oldModFolderName: conflict.old_mod_folder_name,
+                    tempModPathStr: conflict.temp_path,
+                    replace: shouldReplace
+                });
+
+                if (shouldReplace) {
+                    if (conflict.new_mod_name.toUpperCase() !== conflict.old_mod_folder_name.toUpperCase()) {
+                        const updatedXmlContent = await invoke('update_mod_name_in_xml', {
+                            oldName: conflict.old_mod_folder_name.toUpperCase(),
+                            newName: conflict.new_mod_name.toUpperCase()
+                        });
+                        await loadXmlContent(updatedXmlContent, appState.currentFilePath);
+                    }
+                    // Register the new mod info with installSource
+                    await invoke('ensure_mod_info', {
+                        modFolderName: conflict.new_mod_name,
+                        modId: item.modId || "",
+                        fileId: item.fileId || "",
+                        version: item.version || "",
+                        installSource: item.fileName // <--- NEW: Tracks source ZIP
+                    });
+
+                    // The new folder name after replacement
+                    item.modFolderName = conflict.new_mod_name;
+                }
+            }
+        }
+
+        // --- Handle New Installations ---
+        if (analysis.successes && analysis.successes.length > 0) {
+            for (const mod of analysis.successes) {
+                addNewModToXml(mod.name);
+
+                // Register the new mod info with installSource
+                await invoke('ensure_mod_info', {
+                    modFolderName: mod.name,
+                    modId: item.modId || "",
+                    fileId: item.fileId || "",
+                    version: item.version || "",
+                    installSource: item.fileName // <--- NEW: Tracks source ZIP
+                });
+
+                await checkForAndLinkMod(mod.name);
+            }
+            // The new folder name after installation (tracks the first one if multiple)
+            item.modFolderName = analysis.successes[0].name;
+        }
+
+        // Save changes to GCMODSETTINGS.MXML and re-render the main mod list
+        await saveChanges();
+        await renderModList();
+
+        // Update UI Status
+        const updateStatus = (text, statusClass) => {
+            const currentItem = downloadHistory.find(d => d.id === item.id);
+            if (currentItem) {
+                currentItem.statusText = text;
+                currentItem.statusClass = statusClass;
+                renderDownloadHistory();
+            }
+        };
+
+        updateStatus(i18n.get('statusInstalled'), 'installed');
+        await saveDownloadHistory(downloadHistory);
+
+        // Clean up the old archive file *after* everything else is successful
+        // if (oldArchiveToDelete) {
+        //     console.log("Cleaning up old, outdated mod archive:", oldArchiveToDelete);
+        //     await invoke('delete_archive_file', { path: oldArchiveToDelete });
+        // }
+
+        // Update the "Install" button in the browse tab reactively
+        updateModDisplayState(item.modId);
+
+        await saveCurrentProfile();
+    }
+
     async function handleDownloadItemInstall(downloadId, isUpdate = false) {
         const item = downloadHistory.find(d => d.id === downloadId);
         if (!item || !item.archivePath) {
@@ -1039,7 +1138,6 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Helper to update the UI status in the download list
         const updateStatus = (text, statusClass) => {
             const currentItem = downloadHistory.find(d => d.id === downloadId);
             if (currentItem) {
@@ -1050,101 +1148,38 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         try {
-            updateStatus(isUpdate ? 'Auto-Installing Update...' : 'Installing...', 'progress');
+            updateStatus(isUpdate ? i18n.get('statusUpdating') : i18n.get('statusWaiting'), 'progress');
 
-            // Core Rust command that extracts and moves the mod.
+            // 1. Call Phase 1: Analyze / Extract to Staging
             const analysis = await invoke('install_mod_from_archive', { archivePathStr: item.archivePath });
 
-            let oldArchiveToDelete = null;
+            // 2. Check if user selection is required (Multi-folder zip)
+            if (analysis.selection_needed) {
+                const userSelections = await openFolderSelectionModal(analysis.available_folders, item.fileName);
 
-            // --- Handle Conflicts ---
-            if (analysis.conflicts && analysis.conflicts.length > 0) {
-                for (const conflict of analysis.conflicts) {
-                    const oldItemIndex = downloadHistory.findIndex(d => d.modFolderName === conflict.old_mod_folder_name);
-                    if (oldItemIndex > -1) {
-                        const oldItem = downloadHistory[oldItemIndex];
-                        // Ensure it doesn't delete the archive it's currently installing
-                        if (oldItem.archivePath && oldItem.id !== item.id) {
-                            oldArchiveToDelete = oldItem.archivePath;
-                            // Remove the old item from the history array
-                            downloadHistory.splice(oldItemIndex, 1);
-                        }
-                    }
-
-                    // If it's an auto-update, always replace. Otherwise, ask the user.
-                    const shouldReplace = isUpdate ? true : await window.customConfirm(
-                        i18n.get('modUpdateConflictMsg', {
-                            oldName: conflict.old_mod_folder_name,
-                            newName: conflict.new_mod_name
-                        }),
-                        i18n.get('modUpdateConflictTitle')
-                    );
-
-                    await invoke('resolve_conflict', {
-                        newModName: conflict.new_mod_name,
-                        oldModFolderName: conflict.old_mod_folder_name,
-                        tempModPathStr: conflict.temp_path,
-                        replace: shouldReplace
-                    });
-
-                    if (shouldReplace) {
-                        if (conflict.new_mod_name.toUpperCase() !== conflict.old_mod_folder_name.toUpperCase()) {
-                            const updatedXmlContent = await invoke('update_mod_name_in_xml', {
-                                oldName: conflict.old_mod_folder_name.toUpperCase(),
-                                newName: conflict.new_mod_name.toUpperCase()
-                            });
-                            await loadXmlContent(updatedXmlContent, appState.currentFilePath);
-                        }
-                        await invoke('ensure_mod_info', {
-                            modFolderName: conflict.new_mod_name,
-                            // SAFETY CHECKS
-                            modId: item.modId || "",
-                            fileId: item.fileId || "",
-                            version: item.version || ""
-                        });
-                        // The new folder name after replacement
-                        item.modFolderName = conflict.new_mod_name;
-                    }
+                if (!userSelections) {
+                    // User Cancelled: Cleanup staging and stop
+                    await invoke('clean_staging_folder');
+                    updateStatus(i18n.get('statusCancelled'), 'cancelled');
+                    return;
                 }
+
+                // 3a. Call Phase 2: Finalize with specific folders
+                const finalAnalysis = await invoke('finalize_installation', {
+                    tempId: analysis.temp_id,
+                    selectedFolders: userSelections
+                });
+
+                await processInstallAnalysis(finalAnalysis, item, isUpdate);
+
+            } else {
+                // 3b. Single folder detected (or direct install), process results immediately
+                await processInstallAnalysis(analysis, item, isUpdate);
             }
-
-            // --- Handle New Installations ---
-            if (analysis.successes && analysis.successes.length > 0) {
-                for (const mod of analysis.successes) {
-                    addNewModToXml(mod.name);
-                    await invoke('ensure_mod_info', {
-                        modFolderName: mod.name,
-                        // SAFETY CHECKS
-                        modId: item.modId || "",
-                        fileId: item.fileId || "",
-                        version: item.version || ""
-                    });
-                }
-                // The new folder name after installation
-                item.modFolderName = analysis.successes[0].name;
-            }
-
-            // Save changes to GCMODSETTINGS.MXML and re-render the main mod list
-            await saveChanges();
-            await renderModList();
-
-            updateStatus(i18n.get('statusInstalled'), 'installed');
-            await saveDownloadHistory(downloadHistory);
-
-            // Clean up the old archive file *after* everything else is successful
-            if (oldArchiveToDelete) {
-                console.log("Cleaning up old, outdated mod archive:", oldArchiveToDelete);
-                await invoke('delete_archive_file', { path: oldArchiveToDelete });
-            }
-
-            // Update the "Install" button in the browse tab reactively
-            updateModDisplayState(item.modId);
-
-            await saveCurrentProfile();
 
         } catch (error) {
             console.error("Installation process failed:", error);
-            updateStatus(`Install failed: ${error.message}`, 'error');
+            updateStatus(`${i18n.get('installFailedTitle')}: ${error}`, 'error');
             await saveDownloadHistory(downloadHistory);
         }
     }
@@ -1315,7 +1350,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const newItem = template.content.cloneNode(true).firstElementChild;
             newItem.dataset.downloadId = itemData.id;
 
-            if (itemData.statusClass === 'success' && itemData.archivePath) {
+            if ((itemData.statusClass === 'success' || itemData.statusClass === 'cancelled') && itemData.archivePath) {
                 newItem.classList.add('installable');
             }
 
@@ -2791,6 +2826,75 @@ document.addEventListener('DOMContentLoaded', () => {
         await appWindow.listen('tauri://drag-drop', onDrop);
     };
 
+    const folderSelectionModal = document.getElementById('folderSelectionModal');
+    const folderSelectionList = document.getElementById('folderSelectionList');
+    const fsmCancelBtn = document.getElementById('fsmCancelBtn');
+    const fsmInstallAllBtn = document.getElementById('fsmInstallAllBtn');
+    const fsmInstallSelectedBtn = document.getElementById('fsmInstallSelectedBtn');
+
+    function openFolderSelectionModal(folders, modName) {
+        return new Promise((resolve) => {
+            folderSelectionList.innerHTML = '';
+
+            // Populate List
+            folders.forEach(folder => {
+                const row = document.createElement('div');
+                row.style.display = 'flex';
+                row.style.alignItems = 'center';
+                row.style.marginBottom = '5px';
+                row.style.padding = '5px';
+                row.style.cursor = 'pointer';
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.className = 'folder-select-checkbox';
+                checkbox.value = folder;
+                checkbox.style.marginRight = '10px';
+                checkbox.style.cursor = 'pointer';
+
+                const label = document.createElement('span');
+                label.textContent = folder;
+                label.style.fontFamily = 'var(--font-secondary)';
+                label.style.fontSize = '14px';
+
+                row.onclick = (e) => {
+                    if (e.target !== checkbox) checkbox.checked = !checkbox.checked;
+                };
+
+                row.appendChild(checkbox);
+                row.appendChild(label);
+                folderSelectionList.appendChild(row);
+            });
+
+            folderSelectionModal.classList.remove('hidden');
+
+            // Handlers
+            const cleanup = () => {
+                folderSelectionModal.classList.add('hidden');
+                // Remove listeners to prevent memory leaks/multiple firings
+                fsmCancelBtn.onclick = null;
+                fsmInstallAllBtn.onclick = null;
+                fsmInstallSelectedBtn.onclick = null;
+            };
+
+            fsmCancelBtn.onclick = () => {
+                cleanup();
+                resolve(null); // Null means cancelled
+            };
+
+            fsmInstallAllBtn.onclick = () => {
+                cleanup();
+                resolve([]); // Empty array means ALL
+            };
+
+            fsmInstallSelectedBtn.onclick = () => {
+                const selected = Array.from(document.querySelectorAll('.folder-select-checkbox:checked')).map(cb => cb.value);
+                cleanup();
+                if (selected.length === 0) resolve(null); // Nothing selected = Cancel
+                else resolve(selected);
+            };
+        });
+    }
 
     // --- PROFILE MANAGEMENT LOGIC ---
 

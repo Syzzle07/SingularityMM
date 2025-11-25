@@ -1154,6 +1154,11 @@ label.switch:has(input:checked)::before {
     font-weight: bold;
 }
 
+.download-item-status.status-cancelled {
+    color: var(--c-danger);
+    font-weight: bold;
+}
+
 /* --- SETTINGS MODAL STYLES --- */
 .settings-modal {
     font-family: var(--font-secondary);
@@ -2570,6 +2575,14 @@ button.context-menu-item.delete:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
     font-weight: bold;
+}
+
+#fsmInstallSelectedBtn {
+    width: 70px;
+}
+
+#fsmInstallAllBtn {
+    width: 90px;
 }
 
 /* --- Settings Modal: Account Row --- */

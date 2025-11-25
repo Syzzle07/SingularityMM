@@ -496,7 +496,31 @@
                 </div>
             </div>
         </div>
+        <!-- === FOLDER SELECTION MODAL === -->
+        <div id="folderSelectionModal" class="modal-overlay hidden">
+            <div class="modal-content" style="width: 500px; text-align: left;">
+                <h2 data-i18n="selectFoldersTitle">Select Options</h2>
+                <p style="font-size: 13px; opacity: 0.8; margin-bottom: 15px;" data-i18n="selectFoldersDesc">
+                    This mod contains multiple folders. Please select which ones you want to install.
+                </p>
 
+                <!-- List Container -->
+                <div id="folderSelectionList"
+                    style="max-height: 300px; overflow-y: auto; background: rgba(0,0,0,0.2); border: 1px solid var(--c-border); border-radius: 4px; padding: 10px; margin-bottom: 20px;">
+                    <!-- Checkboxes injected via JS -->
+                </div>
+
+                <div class="modal-actions" style="justify-content: space-between;">
+                    <button id="fsmCancelBtn" class="modal-gen-btn-cancel" data-i18n="cancelBtn">Cancel</button>
+                    <div style="display: flex; gap: 10px;">
+                        <button id="fsmInstallAllBtn" class="modal-gen-btn-confirm" data-i18n="installAllBtn">Install
+                            All</button>
+                        <button id="fsmInstallSelectedBtn" class="modal-gen-btn-confirm"
+                            data-i18n="installSelectedBtn">Install</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- === GENERIC APP DIALOG === -->
         <div id="genericDialogModal" class="modal-overlay higher hidden">
             <div class="modal-content" style="width: 450px; text-align: left;">
