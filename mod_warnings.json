@@ -6,12 +6,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Better Base Sites",
-        "id": "1647",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "sProtect - No Tech Damage with Shield Up",
         "id": "2584",
         "state": "normal",
@@ -3812,6 +3806,594 @@
     {
         "name": "Better Camera Angles (Pitch)",
         "id": "3747",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Wiring Loom Tech Tree",
+        "id": "3237",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "New Boundaries 4.1",
+        "id": "1557",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DD-NiceFOV",
+        "id": "3751",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Colourful Multitool Cabinets",
+        "id": "3752",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gGame Multipass - Atlas Pass to the Stars - EXML",
+        "id": "3754",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Metroid Prime Scan Visor With Audio",
+        "id": "3107",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Pirate Bridge ReLight",
+        "id": "3556",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unlock All Titles",
+        "id": "3496",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zCamera Corvette",
+        "id": "3727",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Immersive Space Travel (Slower Warp Jump Speed - Hardcore)",
+        "id": "3744",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Accept Decline Buttons Restored",
+        "id": "3055",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fly Like Iron Man - Jetpack Overhaul (Voyagers Update)",
+        "id": "3128",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cleaner Sentinel Cockpit",
+        "id": "2789",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Cockpit Techs Adjusted",
+        "id": "3762",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Side Camera Mod for All Ship",
+        "id": "3758",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "PCC-Perfect Corvette Camera",
+        "id": "3757",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Dark Nexus - Cyberpunk Ambiance",
+        "id": "2923",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Galaxy Map Speed Tweaks",
+        "id": "3764",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Adrenal Juice",
+        "id": "1704",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gPlayer Backpack Camera Light Colors",
+        "id": "2963",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Mech Miner Fuel",
+        "id": "1713",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Perfect X-Class Upgrade Modules",
+        "id": "2868",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Station LOD",
+        "id": "3025",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "It's Full of Stars",
+        "id": "2642",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reduced Ship Launch Fuel Costs (Or Increased)",
+        "id": "3490",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gPlayer Chest Light Glow",
+        "id": "2962",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gPlayer Chest Light Ring Segment Color",
+        "id": "3768",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gPlayer Chest Light Highlight",
+        "id": "3766",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Responsive Mech",
+        "id": "3769",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Univers-like font and Non-latin letter fix",
+        "id": "3770",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DD-TRADE ROCKET",
+        "id": "3772",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DD-AURA WALK",
+        "id": "3773",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Celestial Appetites - Custom Corvette Mission",
+        "id": "3767",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Planetary Screen Filter Remover",
+        "id": "3549",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Use Staff Like a Staff It Should",
+        "id": "3763",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DD-STACKZ",
+        "id": "3746",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Milestone Notifications 2.1",
+        "id": "1166",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "New Milestones 3.1",
+        "id": "933",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gShip Corvette Medbay Bacta Tank",
+        "id": "3780",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gShip Corvette Cockpit Interact Fix",
+        "id": "3781",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Know Glyphs No Charge",
+        "id": "3274",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "S Class Max - Capital and Pirate Freighters and Ships and MultiTools",
+        "id": "3275",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Galactic Positioning System (RU) 6.0.3",
+        "id": "3283",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Mission Board Rewards",
+        "id": "3160",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Living Ship Upgrades",
+        "id": "1598",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gBobble - Fix Bobbleheads",
+        "id": "1741",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Companion Riding Improvements - Patch Version",
+        "id": "3784",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Shorter Arrival Messages 5.1",
+        "id": "1628",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cockpit Color and Camo pattern's",
+        "id": "3776",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Charge Portal",
+        "id": "2143",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Old Ship Steering",
+        "id": "2517",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fix Blue Ship Trail",
+        "id": "3442",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fix Hardframe Engine Source",
+        "id": "2755",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Infinite Vault",
+        "id": "2940",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Pirate Freighter Battles",
+        "id": "2854",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Damaged Slots",
+        "id": "2738",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Sentinel Healing",
+        "id": "2807",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Sentinel MT Lock",
+        "id": "2743",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Refiner Min-Max Buttons",
+        "id": "2542",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Undamaged Interceptor",
+        "id": "2737",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Undamaged Royal MT",
+        "id": "2608",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Standing Loss",
+        "id": "2211",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Small Freighters",
+        "id": "2111",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Empty Crates",
+        "id": "2595",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Custom Refiner FuelTime Multiplier",
+        "id": "2853",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Notification Icons",
+        "id": "2575",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Instant Text Display - ITD",
+        "id": "1677",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Derelict Always S Class",
+        "id": "2852",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Distinct Ship Tiers",
+        "id": "2646",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Transparent Space Encounters",
+        "id": "2463",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Every Space Encounter Derelict",
+        "id": "2194",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Mans Sky - Google Translate Edition",
+        "id": "3742",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Less Annoying Photomode",
+        "id": "2148",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "GAME SAVE - New Game Plus from the Final Galaxy Reset Choice",
+        "id": "3786",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Interceptor Adjustments",
+        "id": "2752",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Creature Chaos",
+        "id": "2783",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "All Hotspots S-Class",
+        "id": "2746",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Space Fog",
+        "id": "2149",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Don't Hide Autophage Camps",
+        "id": "2856",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Derelict Freighter Specific Upgrades",
+        "id": "2038",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Camp Scan Chain",
+        "id": "2744",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Living Ship Quest",
+        "id": "2456",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Organic Frigates",
+        "id": "2446",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "MadHoek's Ship HUD Colors Updated",
+        "id": "2839",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gBase - Automatic Proximity Doors - EXML",
+        "id": "1444",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Less Patchy Snow",
+        "id": "2900",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Snow Color Match",
+        "id": "2872",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man's Sky Advanced Player Scaler and Customisation",
+        "id": "3634",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Base Sites",
+        "id": "1647",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "bShops Sell Only S Class",
+        "id": "3437",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gShip Traders Frequency - Easier Ship Hunting - EXML",
+        "id": "1845",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gFreighter Perfect Frigates - EXML",
+        "id": "2468",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zCorvette Station Lighting v6.05",
+        "id": "3729",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DD-SizeItAll",
+        "id": "3794",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Landing Gear Fix",
+        "id": "3793",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Halo ship weapon sounds",
+        "id": "2514",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Remove contrails on Sputtering Starship Trail",
+        "id": "3795",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Custom Corvette Interior Modules",
+        "id": "3796",
         "state": "normal",
         "warningMessage": ""
     }
