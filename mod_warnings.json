@@ -3414,12 +3414,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Better Pulse Scan",
-        "id": "2587",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "gBase Weather Safe Buildings - Hazard Protection",
         "id": "1657",
         "state": "normal",
@@ -3620,42 +3614,6 @@
     {
         "name": "24hr Day Night Cycle",
         "id": "2760",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Space Rescue Always Capital Freighter",
-        "id": "3337",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Better Rifles",
-        "id": "2701",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "You're going to Brazil - Random Black Hole",
-        "id": "2695",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "No Portal Charging",
-        "id": "2694",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "sProtect - No Tech Damage with Shield Up",
-        "id": "2584",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Overclocked Industry",
-        "id": "2582",
         "state": "normal",
         "warningMessage": ""
     },
