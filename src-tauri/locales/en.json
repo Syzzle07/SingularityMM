@@ -97,6 +97,7 @@
   "installAllBtn": "Install All",
   "installSelectedBtn": "Install",
   "statusCancelled": "Cancelled",
+  "flattenLabel": "Skip Root Folder (Install Contents)",
   "__comment_CONTEXT": "=== CONTEXT MENUS ===",
   "ctxInstall": "Install",
   "ctxVisitNexus": "Visit on Nexus Mods",

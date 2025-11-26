@@ -1035,15 +1035,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 const oldItemIndex = downloadHistory.findIndex(d => d.modFolderName === conflict.old_mod_folder_name);
                 if (oldItemIndex > -1) {
                     const oldItem = downloadHistory[oldItemIndex];
-                    // Ensure it doesn't delete the archive it's currently installing
                     if (oldItem.archivePath && oldItem.id !== item.id) {
                         oldArchiveToDelete = oldItem.archivePath;
-                        // Remove the old item from the history array
                         downloadHistory.splice(oldItemIndex, 1);
                     }
                 }
 
-                // If it's an auto-update, always replace. Otherwise, ask the user.
                 const shouldReplace = isUpdate ? true : await window.customConfirm(
                     i18n.get('modUpdateConflictMsg', {
                         oldName: conflict.old_mod_folder_name,
@@ -1067,16 +1064,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         });
                         await loadXmlContent(updatedXmlContent, appState.currentFilePath);
                     }
-                    // Register the new mod info with installSource
                     await invoke('ensure_mod_info', {
                         modFolderName: conflict.new_mod_name,
                         modId: item.modId || "",
                         fileId: item.fileId || "",
                         version: item.version || "",
-                        installSource: item.fileName // <--- NEW: Tracks source ZIP
+                        installSource: item.fileName
                     });
 
-                    // The new folder name after replacement
                     item.modFolderName = conflict.new_mod_name;
                 }
             }
@@ -1084,29 +1079,75 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // --- Handle New Installations ---
         if (analysis.successes && analysis.successes.length > 0) {
-            for (const mod of analysis.successes) {
-                addNewModToXml(mod.name);
+            const processedNames = new Set();
 
-                // Register the new mod info with installSource
+            // --- FIX: Detect Folder Renames during Update ---
+            let oldFolderName = null;
+            // 1. Find if this Mod ID is already installed under a different name
+            if (item.modId) {
+                for (const [fName, data] of appState.modDataCache.entries()) {
+                    // Compare Mod IDs loosely (string/number)
+                    if (String(data.local_info?.mod_id) === String(item.modId)) {
+                        oldFolderName = fName;
+                        break;
+                    }
+                }
+            }
+
+            let hasRenamedOldMod = false;
+
+            for (const mod of analysis.successes) {
+                if (processedNames.has(mod.name)) continue;
+
+                let isRenamedEntry = false;
+
+                // 2. If we found an old folder, and it's not the same as the new one,
+                // and we haven't already renamed it in this batch: Treat as Upgrade.
+                if (oldFolderName && oldFolderName !== mod.name && !hasRenamedOldMod) {
+                    console.log(`Detected Mod Update with Folder Rename: ${oldFolderName} -> ${mod.name}`);
+                    try {
+                        // A. Rename the entry in XML to preserve Priority/Enabled status
+                        const updatedXmlContent = await invoke('update_mod_name_in_xml', {
+                            oldName: oldFolderName.toUpperCase(),
+                            newName: mod.name.toUpperCase()
+                        });
+                        await loadXmlContent(updatedXmlContent, appState.currentFilePath);
+
+                        // B. Physically delete the old folder (New one is already extracted by Rust)
+                        await invoke('delete_mod', { modName: oldFolderName });
+
+                        isRenamedEntry = true;
+                        hasRenamedOldMod = true;
+                    } catch (e) {
+                        console.warn("Failed to process folder rename:", e);
+                    }
+                }
+
+                // 3. If it wasn't a rename (or is a 2nd folder in a multi-folder mod), add as new.
+                if (!isRenamedEntry) {
+                    addNewModToXml(mod.name);
+                }
+
+                // Register info
                 await invoke('ensure_mod_info', {
                     modFolderName: mod.name,
                     modId: item.modId || "",
                     fileId: item.fileId || "",
                     version: item.version || "",
-                    installSource: item.fileName // <--- NEW: Tracks source ZIP
+                    installSource: item.fileName
                 });
 
                 await checkForAndLinkMod(mod.name);
+                processedNames.add(mod.name);
             }
-            // The new folder name after installation (tracks the first one if multiple)
+
+            // Set history to track the first valid folder
             item.modFolderName = analysis.successes[0].name;
         }
 
-        // Save changes to GCMODSETTINGS.MXML and re-render the main mod list
         await saveChanges();
         await renderModList();
 
-        // Update UI Status
         const updateStatus = (text, statusClass) => {
             const currentItem = downloadHistory.find(d => d.id === item.id);
             if (currentItem) {
@@ -1119,15 +1160,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateStatus(i18n.get('statusInstalled'), 'installed');
         await saveDownloadHistory(downloadHistory);
 
-        // Clean up the old archive file *after* everything else is successful
-        // if (oldArchiveToDelete) {
-        //     console.log("Cleaning up old, outdated mod archive:", oldArchiveToDelete);
-        //     await invoke('delete_archive_file', { path: oldArchiveToDelete });
-        // }
-
-        // Update the "Install" button in the browse tab reactively
         updateModDisplayState(item.modId);
-
         await saveCurrentProfile();
     }
 
@@ -1155,9 +1188,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // 2. Check if user selection is required (Multi-folder zip)
             if (analysis.selection_needed) {
-                const userSelections = await openFolderSelectionModal(analysis.available_folders, item.fileName);
+                const userResult = await openFolderSelectionModal(analysis.available_folders, item.fileName, analysis.temp_id);
 
-                if (!userSelections) {
+                if (!userResult) {
                     // User Cancelled: Cleanup staging and stop
                     await invoke('clean_staging_folder');
                     updateStatus(i18n.get('statusCancelled'), 'cancelled');
@@ -1167,7 +1200,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 // 3a. Call Phase 2: Finalize with specific folders
                 const finalAnalysis = await invoke('finalize_installation', {
                     tempId: analysis.temp_id,
-                    selectedFolders: userSelections
+                    selectedFolders: userResult.selected,
+                    flattenPaths: userResult.flatten
                 });
 
                 await processInstallAnalysis(finalAnalysis, item, isUpdate);
@@ -2670,21 +2704,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const onDrop = async (event) => {
             console.log("File drop detected:", event);
 
-            // Ignore if user is rearranging rows
             if (dragState.draggedElement) return;
-
-            // Remove highlight immediately
             hideHighlight();
 
-            // Normalize Payload
             let files = event.payload;
-            if (files && files.paths) {
-                files = files.paths;
-            }
+            if (files && files.paths) files = files.paths;
 
-            // Validation
             if (!files || !Array.isArray(files) || files.length === 0) {
-                console.warn("Drop ignored: Payload empty or invalid format", event);
                 return;
             }
 
@@ -2693,131 +2719,112 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            // Filter for valid archives
-            const archiveFiles = files.filter(p =>
-                p.toLowerCase().endsWith('.zip') ||
-                p.toLowerCase().endsWith('.rar') ||
-                p.toLowerCase().endsWith('.7z')
-            );
+            const archiveFiles = files.filter(p => /\.(zip|rar|7z)$/i.test(p));
+            if (archiveFiles.length === 0) return;
 
-            if (archiveFiles.length === 0) {
-                console.log("Ignored drop: No valid archive files found.");
-                return;
-            }
-
-            // Process files
             for (const filePath of archiveFiles) {
                 const fileName = await basename(filePath);
+
+                const downloadId = `manual-${Date.now()}`;
+                const newItem = {
+                    id: downloadId,
+                    modId: "",
+                    fileId: "",
+                    version: 'Manual',
+                    displayName: fileName,
+                    fileName: fileName,
+                    statusText: i18n.get('statusWaiting') || "Installing...",
+                    statusClass: 'progress',
+                    archivePath: null,
+                    modFolderName: null,
+                    size: 0,
+                    createdAt: Date.now() / 1000
+                };
+
+                downloadHistory.unshift(newItem);
+                renderDownloadHistory();
+
                 try {
                     console.log(`Processing dropped file: ${fileName}`);
 
-                    // Call Backend
+                    // 2. Phase 1: Analyze / Extract
                     const analysis = await invoke('install_mod_from_archive', { archivePathStr: filePath });
 
-                    // Handle Successful Installs
-                    if (analysis.successes?.length > 0) {
-                        for (const mod of analysis.successes) {
-                            addNewModToXml(mod.name);
+                    // Update item with the persistent path in downloads
+                    if (analysis.active_archive_path) {
+                        newItem.archivePath = analysis.active_archive_path;
+                    }
 
-                            // --- ADD THIS BLOCK ---
-                            // Explicitly generate mod_info.json for every folder extracted.
-                            // Since this is a manual drop, we pass empty strings, 
-                            // allowing checkForAndLinkMod (or the user later) to link it.
-                            await invoke('ensure_mod_info', {
-                                modFolderName: mod.name,
-                                modId: "",
-                                fileId: "",
-                                version: ""
-                            });
-                            // ----------------------
+                    let finalResult = analysis;
 
-                            await checkForAndLinkMod(mod.name);
+                    // 3. Phase 2: Selection or Direct Install
+                    if (analysis.selection_needed) {
+                        const userResult = await openFolderSelectionModal(
+                            analysis.available_folders,
+                            fileName,
+                            analysis.temp_id
+                        );
+
+                        if (!userResult) {
+                            // CANCELLED
+                            await invoke('clean_staging_folder');
+                            newItem.statusText = i18n.get('statusCancelled') || "Cancelled";
+                            newItem.statusClass = 'cancelled';
+
+                            // Save history so user can retry later (Zip remains)
+                            await saveDownloadHistory(downloadHistory);
+                            renderDownloadHistory();
+                            continue;
                         }
-                        await saveChanges();
-                        await renderModList();
 
-                        // Manually add to downloadHistory so Profile Manager sees it
-                        const manualEntry = {
-                            id: `manual-${Date.now()}`,
-                            modId: null,
-                            fileId: null,
-                            version: 'Manual',
-                            displayName: fileName,
-                            fileName: fileName,
-                            statusText: 'Installed',
-                            statusClass: 'installed',
-                            archivePath: analysis.active_archive_path,
-                            modFolderName: analysis.successes[0].name,
-                            size: 0,
-                            createdAt: Date.now() / 1000
-                        };
-                        downloadHistory.unshift(manualEntry);
-                        await saveDownloadHistory(downloadHistory);
+                        finalResult = await invoke('finalize_installation', {
+                            tempId: analysis.temp_id,
+                            selectedFolders: userResult.selected,
+                            flattenPaths: userResult.flatten
+                        });
 
-                        // Then save profile
-                        await saveCurrentProfile();
+                        await processInstallAnalysis(finalResult, newItem, false);
+
+                    } else {
+                        // SINGLE FOLDER
+                        await processInstallAnalysis(analysis, newItem, false);
+                    }
+
+                    // 4. Success Popup (Restored)
+                    const installedCount = finalResult.successes ? finalResult.successes.length : 0;
+                    if (installedCount > 0) {
                         await window.customAlert(
                             i18n.get('installCompleteMsg', {
-                                count: analysis.successes.length,
+                                count: installedCount,
                                 fileName: fileName
                             }),
                             i18n.get('installCompleteTitle')
                         );
                     }
 
-                    // Handle Conflicts
-                    if (analysis.conflicts?.length > 0) {
-                        for (const conflict of analysis.conflicts) {
-                            const shouldReplace = await window.customConfirm(
-                                i18n.get('modConflictMsg', {
-                                    oldName: conflict.old_mod_folder_name,
-                                    newName: conflict.new_mod_name
-                                }),
-                                i18n.get('modConflictTitle')
-                            );
-
-                            await invoke('resolve_conflict', {
-                                newModName: conflict.new_mod_name,
-                                oldModFolderName: conflict.old_mod_folder_name,
-                                tempModPathStr: conflict.temp_path,
-                                replace: shouldReplace
-                            });
-
-                            if (shouldReplace) {
-                                if (conflict.new_mod_name.toUpperCase() !== conflict.old_mod_folder_name.toUpperCase()) {
-                                    const updatedXmlContent = await invoke('update_mod_name_in_xml', {
-                                        oldName: conflict.old_mod_folder_name.toUpperCase(),
-                                        newName: conflict.new_mod_name.toUpperCase()
-                                    });
-                                    await loadXmlContent(updatedXmlContent, appState.currentFilePath);
-                                }
-                                await saveChanges();
-                                await window.customAlert(
-                                    i18n.get('modUpdateSuccessMsg', {
-                                        oldName: conflict.old_mod_folder_name,
-                                        newName: conflict.new_mod_name
-                                    }),
-                                    i18n.get('updatedTitle')
-                                );
-                            } else {
-                                await window.customAlert(
-                                    i18n.get('modUpdateCancelledMsg', {
-                                        modName: conflict.old_mod_folder_name
-                                    }),
-                                    i18n.get('cancelledTitle')
-                                );
-                            }
-                        }
-                    }
                 } catch (error) {
                     console.error(`Error installing ${fileName}:`, error);
-                    await window.customAlert(
-                        i18n.get('installErrorMsg', {
-                            fileName: fileName,
-                            error: error
-                        }),
-                        i18n.get('installFailedTitle')
-                    );
+
+                    newItem.statusText = "Error";
+                    newItem.statusClass = "error";
+                    renderDownloadHistory();
+
+                    await window.customAlert(`${i18n.get('installFailedTitle')}: ${error}`, "Error");
+
+                    // 5. Cleanup on Failure
+                    // Delete the copied zip to prevent junk accumulation
+                    try {
+                        const downloadsDir = await invoke('get_downloads_path');
+                        const targetPath = await join(downloadsDir, fileName);
+                        await invoke('delete_archive_file', { path: targetPath });
+
+                        // Remove from history list since file is gone
+                        downloadHistory = downloadHistory.filter(d => d.id !== downloadId);
+                        renderDownloadHistory();
+                        await saveDownloadHistory(downloadHistory);
+                    } catch (delErr) {
+                        console.warn("Failed to cleanup bad zip:", delErr);
+                    }
                 }
             }
         };
@@ -2831,47 +2838,172 @@ document.addEventListener('DOMContentLoaded', () => {
     const fsmCancelBtn = document.getElementById('fsmCancelBtn');
     const fsmInstallAllBtn = document.getElementById('fsmInstallAllBtn');
     const fsmInstallSelectedBtn = document.getElementById('fsmInstallSelectedBtn');
+    const flattenStructureCb = document.getElementById('flattenStructureCb');
 
-    function openFolderSelectionModal(folders, modName) {
+    function openFolderSelectionModal(folders, modName, tempId) {
         return new Promise((resolve) => {
             folderSelectionList.innerHTML = '';
+            flattenStructureCb.checked = false;
 
-            // Populate List
-            folders.forEach(folder => {
+            // --- DOM Helper: Handle Parent/Child Checkbox Logic ---
+            function handleCheckboxChange(targetCheckbox, wrapper) {
+                const isChecked = targetCheckbox.checked;
+
+                // 1. Downward: Update all children (if they exist/are loaded)
+                const childrenContainer = wrapper.querySelector('.fs-children');
+                if (childrenContainer) {
+                    const childCheckboxes = childrenContainer.querySelectorAll('.folder-select-checkbox');
+                    childCheckboxes.forEach(cb => cb.checked = isChecked);
+                }
+
+                // 2. Upward: Update parent status
+                updateParentCheckbox(wrapper);
+            }
+
+            function updateParentCheckbox(element) {
+                // Traverse up to find the parent wrapper
+                // Structure: Wrapper -> ChildrenContainer -> Wrapper (Child)
+                const parentContainer = element.closest('.fs-children');
+                if (!parentContainer) return; // Reached root
+
+                const parentWrapper = parentContainer.closest('.fs-wrapper');
+                if (!parentWrapper) return;
+
+                const parentCheckbox = parentWrapper.querySelector('.fs-item-row > .folder-select-checkbox');
+                if (!parentCheckbox) return;
+
+                // Check all siblings
+                const siblings = parentContainer.querySelectorAll(':scope > .fs-wrapper > .fs-item-row > .folder-select-checkbox');
+                const allChecked = Array.from(siblings).every(cb => cb.checked);
+                const someChecked = Array.from(siblings).some(cb => cb.checked);
+
+                // Logic: 
+                // - If I uncheck a child, Parent MUST uncheck (so it doesn't install the whole parent).
+                // - If I check all children, Parent CAN check (convenience).
+                if (allChecked) {
+                    parentCheckbox.checked = true;
+                    parentCheckbox.indeterminate = false;
+                } else if (someChecked) {
+                    parentCheckbox.checked = false;
+                    parentCheckbox.indeterminate = true;
+                } else {
+                    parentCheckbox.checked = false;
+                    parentCheckbox.indeterminate = false;
+                }
+
+                // Recurse up the tree
+                updateParentCheckbox(parentWrapper);
+            }
+
+            // --- Tree Item Renderer ---
+            function renderTreeItem(name, relativePath, isDir, container, parentIsChecked = false) {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'fs-wrapper';
+
                 const row = document.createElement('div');
-                row.style.display = 'flex';
-                row.style.alignItems = 'center';
-                row.style.marginBottom = '5px';
-                row.style.padding = '5px';
-                row.style.cursor = 'pointer';
+                row.className = 'fs-item-row';
 
+                // 1. Expander Arrow
+                const expander = document.createElement('div');
+                expander.className = isDir ? 'fs-expander' : 'fs-expander placeholder';
+                expander.textContent = isDir ? '▶' : '';
+                row.appendChild(expander);
+
+                // 2. Checkbox
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
-                checkbox.className = 'folder-select-checkbox';
-                checkbox.value = folder;
-                checkbox.style.marginRight = '10px';
-                checkbox.style.cursor = 'pointer';
+                checkbox.className = 'folder-select-checkbox fs-checkbox';
+                checkbox.value = relativePath;
 
+                // Inherit state from parent (if parent was checked before expansion)
+                if (parentIsChecked) checkbox.checked = true;
+
+                checkbox.onclick = (e) => {
+                    e.stopPropagation();
+                    handleCheckboxChange(checkbox, wrapper);
+                };
+                row.appendChild(checkbox);
+
+                // 3. Label
                 const label = document.createElement('span');
-                label.textContent = folder;
-                label.style.fontFamily = 'var(--font-secondary)';
-                label.style.fontSize = '14px';
+                label.className = 'fs-label';
+                label.textContent = name;
+                label.style.color = isDir ? 'var(--c-text-primary)' : 'rgba(255,255,255,0.6)';
+                if (!isDir) label.style.fontStyle = 'italic';
 
-                row.onclick = (e) => {
-                    if (e.target !== checkbox) checkbox.checked = !checkbox.checked;
+                row.appendChild(label);
+                wrapper.appendChild(row);
+
+                // Container for children
+                const childrenContainer = document.createElement('div');
+                childrenContainer.className = 'fs-children hidden';
+                wrapper.appendChild(childrenContainer);
+
+                // --- Interactions ---
+
+                // Click label -> Toggle Checkbox
+                label.onclick = () => {
+                    checkbox.checked = !checkbox.checked;
+                    handleCheckboxChange(checkbox, wrapper);
                 };
 
-                row.appendChild(checkbox);
-                row.appendChild(label);
-                folderSelectionList.appendChild(row);
+                // Click Expander -> Fetch and Show Children
+                if (isDir) {
+                    let loaded = false;
+
+                    expander.onclick = async (e) => {
+                        e.stopPropagation();
+
+                        const isClosed = childrenContainer.classList.contains('hidden');
+
+                        if (isClosed) {
+                            expander.classList.add('open');
+                            childrenContainer.classList.remove('hidden');
+
+                            if (!loaded) {
+                                childrenContainer.innerHTML = '<div style="padding:5px 0 5px 25px; opacity:0.5; font-size:12px;">Loading...</div>';
+
+                                try {
+                                    const contents = await invoke('get_staging_contents', {
+                                        tempId: tempId,
+                                        relativePath: relativePath
+                                    });
+
+                                    childrenContainer.innerHTML = '';
+
+                                    if (contents.length === 0) {
+                                        childrenContainer.innerHTML = '<div style="padding:5px 0 5px 25px; opacity:0.5; font-size:12px;">(Empty)</div>';
+                                    } else {
+                                        contents.forEach(node => {
+                                            const childPath = relativePath ? `${relativePath}/${node.name}` : node.name;
+                                            renderTreeItem(node.name, childPath, node.is_dir, childrenContainer, checkbox.checked);
+                                        });
+                                    }
+                                    loaded = true;
+                                } catch (err) {
+                                    childrenContainer.innerHTML = `<div style="color:red; padding-left:25px; font-size:12px;">Error: ${err}</div>`;
+                                }
+                            }
+                        } else {
+                            expander.classList.remove('open');
+                            childrenContainer.classList.add('hidden');
+                        }
+                    };
+                }
+
+                container.appendChild(wrapper);
+            }
+
+            // Initial Render
+            folders.forEach(folderName => {
+                renderTreeItem(folderName, folderName, true, folderSelectionList, false);
             });
 
             folderSelectionModal.classList.remove('hidden');
 
-            // Handlers
+            // --- Cleanup & Buttons ---
             const cleanup = () => {
                 folderSelectionModal.classList.add('hidden');
-                // Remove listeners to prevent memory leaks/multiple firings
                 fsmCancelBtn.onclick = null;
                 fsmInstallAllBtn.onclick = null;
                 fsmInstallSelectedBtn.onclick = null;
@@ -2879,19 +3011,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
             fsmCancelBtn.onclick = () => {
                 cleanup();
-                resolve(null); // Null means cancelled
+                resolve(null);
             };
 
             fsmInstallAllBtn.onclick = () => {
+                const isFlatten = flattenStructureCb.checked;
                 cleanup();
-                resolve([]); // Empty array means ALL
+                resolve({ selected: [], flatten: isFlatten });
             };
 
             fsmInstallSelectedBtn.onclick = () => {
+                // Filter Logic:
+                // We only want to send the "Highest Level" checked items, OR just send everything and let backend handle existence.
+                // But specific requirement: If I uncheck Parent, Parent path must NOT be in the list.
+                // Because we handled the UI logic (unchecking child unchecks parent), 
+                // iterating all checked boxes is actually safe!
+                //
+                // Example:
+                // [ ] Parent
+                //    [x] Child A
+                //    [ ] Child B
+                // -> Result: ["Parent/Child A"] (Correct)
+                //
+                // [x] Parent
+                //    [x] Child A
+                //    [x] Child B
+                // -> Result: ["Parent", "Parent/Child A", "Parent/Child B"]
+                // -> Backend iterates. "Parent" moves first. "Parent/Child A" doesn't exist anymore. Backend skips. Correct.
+
                 const selected = Array.from(document.querySelectorAll('.folder-select-checkbox:checked')).map(cb => cb.value);
+                const isFlatten = flattenStructureCb.checked;
                 cleanup();
-                if (selected.length === 0) resolve(null); // Nothing selected = Cancel
-                else resolve(selected);
+
+                if (selected.length === 0) resolve(null);
+                else resolve({ selected: selected, flatten: isFlatten });
             };
         });
     }

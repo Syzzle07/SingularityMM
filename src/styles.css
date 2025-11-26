@@ -2836,3 +2836,67 @@ button.context-menu-item.delete:hover {
     border-color: var(--c-accent-primary);
     font-weight: bold;
 }
+
+/* --- Folder Selection Tree View --- */
+.fs-item-row {
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+    transition: background-color 0.1s;
+    border-radius: 2px;
+}
+
+.fs-item-row:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.fs-expander {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    user-select: none;
+    margin-right: 5px;
+    transition: transform 0.2s;
+}
+
+.fs-expander:hover {
+    color: #fff;
+}
+
+.fs-expander.open {
+    transform: rotate(90deg);
+}
+
+/* Invisible expander for files (alignment) */
+.fs-expander.placeholder {
+    cursor: default;
+    opacity: 0;
+}
+
+.fs-checkbox {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.fs-label {
+    font-family: var(--font-secondary);
+    font-size: 14px;
+    cursor: pointer;
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fs-children {
+    margin-left: 22px;
+    /* Indentation */
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    /* Guide line */
+    overflow: hidden;
+}
