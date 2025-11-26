@@ -3262,5 +3262,599 @@
         "id": "3418",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Increased Crafting Costs",
+        "id": "3461",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Increased Building Material Costs",
+        "id": "3459",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Blahaj - Fishing Fish Shark Replacer",
+        "id": "3232",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Charge Portals",
+        "id": "3631",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Accelerated Settlements",
+        "id": "3699",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Update Posters",
+        "id": "1801",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Natural Nights 3.0",
+        "id": "1633",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Options For Starship Textures",
+        "id": "3068",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Broken and Overloaded Slots 2.0",
+        "id": "2586",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Crystals 1.3",
+        "id": "3124",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Getting Head V2 Getting On - Special Helmets for All Races - Gek Body - Custom Colours - Remove Armour",
+        "id": "853",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Aquatic Blaster",
+        "id": "3263",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "True Blood 2.5",
+        "id": "636",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Let It Snow 2.0",
+        "id": "1535",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Lasagna Biome Highlights",
+        "id": "3386",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Improved vehicle speed 1.0",
+        "id": "3707",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Renewed Riddles 3.6",
+        "id": "2039",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Short Shop Dialogs 5.3",
+        "id": "1473",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Flying Pollens 1.5",
+        "id": "1105",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gEnviro No Dissonant Bubbles",
+        "id": "3708",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Embossed Ships More Fabricator Options",
+        "id": "3163",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Construct Separate Light Color",
+        "id": "2825",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Multitool Procedural Update",
+        "id": "2295",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sentinel Tool Procedural Color",
+        "id": "2809",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gPlayer Harvest Farm Hotkey - EXML",
+        "id": "1836",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Pulse Scan",
+        "id": "2587",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gBase Weather Safe Buildings - Hazard Protection",
+        "id": "1657",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Research Trees Rescaled",
+        "id": "3407",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "New Autophage Head",
+        "id": "3231",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Terrain Manipulator Booster",
+        "id": "3421",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Smoke and Mist Begone",
+        "id": "3265",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gPlayer Better Hero Lighting - EXML",
+        "id": "3710",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ShipStore",
+        "id": "2625",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gGame Better Spacewalk - EXML",
+        "id": "3711",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Ship Procedural Lights",
+        "id": "2321",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Ship Interior Procedural Color",
+        "id": "2486",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No fov change with ship speed",
+        "id": "3712",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Photomode Galaxy Display Adjustments",
+        "id": "3713",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Look Up - Normalized Sensitivity In TPP",
+        "id": "3714",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Ship Speed Effects 3.8",
+        "id": "1371",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No ship free look cam acceleration",
+        "id": "3716",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Start Screen",
+        "id": "3613",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zCarrier AI Frag",
+        "id": "3717",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette No Complexity Limit",
+        "id": "3701",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Refiners",
+        "id": "2016",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Ship Reticles",
+        "id": "3719",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Freighter Entry and Exit 1.5",
+        "id": "1180",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Voodoo's Cinematic No Man's Sky Reshade Preset",
+        "id": "3720",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Lasagna Biome Generation 3",
+        "id": "3457",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Mega Terrain Manipulator",
+        "id": "1909",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "MOAR Products-Substances in Stores",
+        "id": "3722",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gWeather No Storm Dust - EXML",
+        "id": "1831",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Planetary System Scanner - Rework by Azunain",
+        "id": "3471",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Slow Cursor In Menus",
+        "id": "2833",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Restore Old Popup Backgrounds",
+        "id": "3005",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Skyborn Suit Preset",
+        "id": "3725",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No More Localized Storms",
+        "id": "3417",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Get Max Stats on Multitool Ships and Freighter",
+        "id": "3173",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fullscreen Warps 4.7",
+        "id": "1290",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "24hr Day Night Cycle",
+        "id": "2760",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Space Rescue Always Capital Freighter",
+        "id": "3337",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Rifles",
+        "id": "2701",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "You're going to Brazil - Random Black Hole",
+        "id": "2695",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Portal Charging",
+        "id": "2694",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "sProtect - No Tech Damage with Shield Up",
+        "id": "2584",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Overclocked Industry",
+        "id": "2582",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Butterfly Audio Mute",
+        "id": "3131",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Full Galactic Market (essentials only)",
+        "id": "3709",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Harvester Laser Photon Cannon",
+        "id": "3090",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "TIE Fighter Weapon SoundFX",
+        "id": "3089",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Starscream Photon Cannon",
+        "id": "3087",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Sentinel Destruction",
+        "id": "3726",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gGUI Clean Multiplayer - No Comm Balls",
+        "id": "1906",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Companion Behavior Adjustments",
+        "id": "1871",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Refiner Inputs Expanded",
+        "id": "2072",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Craftable Upgrade Mods",
+        "id": "1944",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bigger Expedition Reminder",
+        "id": "3058",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Freedom of Flight Voyagers",
+        "id": "2490",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Expanded Salvaged Data Rewards",
+        "id": "3724",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Change Blue Firework to Teleporter",
+        "id": "3336",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Persistent Debris",
+        "id": "2355",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hobo Town - Roaming Walking NPCs",
+        "id": "1017",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Smokeless Stations 1.4",
+        "id": "3623",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Star Fox 64 Arwing Hyper Laser",
+        "id": "3144",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Visible Corvette Effects",
+        "id": "3736",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Godzilla Pulse Drive",
+        "id": "3737",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Ship Seat 3.4",
+        "id": "484",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "VR Ship Control Tweaks",
+        "id": "3738",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Frigate View 2.3",
+        "id": "2574",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bio Frigate encounter odds",
+        "id": "3739",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cinematic No Mans Sky",
+        "id": "3740",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Elite Dangerous Supercruise Pulse Drive",
+        "id": "3091",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Elite Pulse Drive",
+        "id": "3082",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Indoors Lighting Fix 1.6",
+        "id": "2440",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Freighter Hyperdrive - Fewer Refills",
+        "id": "3741",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sam Porter's Pro Pisser",
+        "id": "1890",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Remove Ship Camera Motion (Mainly For VR)",
+        "id": "3743",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Buy All Corvette Parts",
+        "id": "3748",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Camera Angles (Pitch)",
+        "id": "3747",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
