@@ -173,6 +173,8 @@ struct ProfileSwitchProgress {
 #[derive(Serialize, Deserialize, Debug)]
 struct GlobalAppConfig {
     custom_download_path: Option<String>,
+    #[serde(default)] // Default to false/null if missing in old configs
+    legacy_migration_done: bool, 
 }
 
 #[derive(Serialize, Clone)]
@@ -1625,6 +1627,8 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
 
     let game_path = find_game_path().ok_or("Game path not found")?;
     let mods_dir = game_path.join("GAMEDATA/MODS");
+    
+    // Clear existing mods
     if mods_dir.exists() {
         for entry in fs::read_dir(&mods_dir).map_err(|e| e.to_string())? {
             let entry = entry.map_err(|e| e.to_string())?;
@@ -1635,6 +1639,7 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
         }
     }
 
+    // Restore MXML
     let live_mxml = game_path.join("Binaries").join("SETTINGS").join("GCMODSETTINGS.MXML");
     println!("Applying Profile: {}", profile_name);
 
@@ -1661,16 +1666,13 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
         if archive_path.exists() {
              match extract_archive_to_temp(&archive_path, &mods_dir) { 
                 Ok(temp_path) => {
-                     // Profile might just say "Install everything" (legacy) or specific folders
                      let has_specific_options = entry.installed_options.as_ref().map(|o| !o.is_empty()).unwrap_or(false);
 
                      if has_specific_options {
-                        // install specific folders found in the tree
+                        // Modern Profile: Install specific folders
                         if let Some(options) = &entry.installed_options {
                             for target_folder_name in options {
-                                // USE RECURSIVE SEARCH to find where this folder is hiding
                                 if let Some(source_path) = find_folder_in_tree(&temp_path, target_folder_name) {
-                                    
                                     let dest = mods_dir.join(target_folder_name);
                                     if dest.exists() { fs::remove_dir_all(&dest).ok(); }
                                     
@@ -1694,12 +1696,33 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
                             }
                         }
                      } else {
+                        // Legacy Profile: Install All Top-Level Folders
                         for fs_entry in fs::read_dir(&temp_path).map_err(|e| e.to_string())? {
                             let fs_entry = fs_entry.map_err(|e| e.to_string())?;
                             let folder_name = fs_entry.file_name().to_string_lossy().into_owned();
+                            
                             let dest = mods_dir.join(&folder_name);
                             if dest.exists() { fs::remove_dir_all(&dest).ok(); }
-                            fs::rename(fs_entry.path(), &dest).ok();
+                            
+                            if let Err(e) = fs::rename(fs_entry.path(), &dest) {
+                                println!("Failed to move {}: {}", folder_name, e);
+                                continue;
+                            }
+
+                            // --- FIX ADDED HERE ---
+                            // We MUST write the mod_info.json here too, or legacy mods 
+                            // will look "Untracked" after applying the profile.
+                            let info_path = dest.join("mod_info.json");
+                            let info_json = serde_json::json!({
+                                "modId": entry.mod_id,
+                                "fileId": entry.file_id,
+                                "version": entry.version,
+                                "installSource": entry.filename // Crucial!
+                            });
+                            if let Ok(json_str) = serde_json::to_string_pretty(&info_json) {
+                                fs::write(info_path, json_str).ok();
+                            }
+                            // ----------------------
                         }
                      }
                      let _ = fs::remove_dir_all(temp_path);
@@ -1958,10 +1981,24 @@ fn set_downloads_path(app: AppHandle, new_path: String) -> Result<(), String> {
         return Err("The selected path does not exist.".to_string());
     }
 
-    let config = GlobalAppConfig {
-        custom_download_path: Some(new_path),
+    // 1. Load existing config to preserve 'legacy_migration_done' state
+    let mut config: GlobalAppConfig = if config_path.exists() {
+        let content = fs::read_to_string(&config_path).map_err(|e| e.to_string())?;
+        serde_json::from_str(&content).unwrap_or(GlobalAppConfig { 
+            custom_download_path: None, 
+            legacy_migration_done: false 
+        })
+    } else {
+        GlobalAppConfig { 
+            custom_download_path: None, 
+            legacy_migration_done: false 
+        }
     };
 
+    // 2. Update just the path
+    config.custom_download_path = Some(new_path);
+
+    // 3. Save
     let json = serde_json::to_string_pretty(&config).map_err(|e| e.to_string())?;
     fs::write(config_path, json).map_err(|e| e.to_string())?;
     
@@ -2038,6 +2075,104 @@ fn get_staging_contents(app: AppHandle, temp_id: String, relative_path: String) 
     });
 
     Ok(nodes)
+}
+
+#[tauri::command]
+async fn run_legacy_migration(app: AppHandle) -> Result<(), String> {
+    let config_path = get_config_file_path(&app)?;
+    let mut config: GlobalAppConfig = if config_path.exists() {
+        let content = fs::read_to_string(&config_path).map_err(|e| e.to_string())?;
+        serde_json::from_str(&content).unwrap_or(GlobalAppConfig { 
+            custom_download_path: None, 
+            legacy_migration_done: false 
+        })
+    } else {
+        GlobalAppConfig { custom_download_path: None, legacy_migration_done: false }
+    };
+
+    if config.legacy_migration_done {
+         return Ok(());
+    }
+
+    let profiles_dir = get_profiles_dir(&app)?;
+    
+    // 1. Build Master Lookup Map from ALL Profiles
+    // (ModID, FileID) -> Filename
+    let mut legacy_lookup: HashMap<(String, String), String> = HashMap::new();
+    
+    if let Ok(entries) = fs::read_dir(&profiles_dir) {
+        for entry in entries.flatten() {
+            let path = entry.path();
+            if path.extension().and_then(|s| s.to_str()) == Some("json") {
+                if let Ok(content) = fs::read_to_string(&path) {
+                    if let Ok(profile_data) = serde_json::from_str::<ModProfileData>(&content) {
+                        for mod_entry in profile_data.mods {
+                            let m_id = mod_entry.mod_id.map(|v| v.to_string());
+                            let f_id = mod_entry.file_id.map(|v| v.to_string());
+                            
+                            if let (Some(mid), Some(fid)) = (m_id, f_id) {
+                                legacy_lookup.insert((mid, fid), mod_entry.filename);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // 2. Scan Installed Mods in Game Folder
+    let game_path = find_game_path().ok_or("Game not found")?;
+    let mods_path = game_path.join("GAMEDATA/MODS");
+
+    if let Ok(entries) = fs::read_dir(mods_path) {
+        for entry in entries.flatten() {
+            if entry.path().is_dir() {
+                let info_path = entry.path().join("mod_info.json");
+                
+                if info_path.exists() {
+                    let mut json: Value = match fs::read_to_string(&info_path).ok().and_then(|c| serde_json::from_str(&c).ok()) {
+                        Some(v) => v,
+                        None => continue,
+                    };
+
+                    // Check if needs healing (missing installSource)
+                    let needs_heal = json.get("installSource").and_then(|s| s.as_str()).map(|s| s.is_empty()).unwrap_or(true);
+
+                    if needs_heal {
+                        let get_val_as_string = |key: &str| -> Option<String> {
+                            match json.get(key) {
+                                Some(Value::String(s)) => Some(s.clone()),
+                                Some(Value::Number(n)) => Some(n.to_string()),
+                                _ => None
+                            }
+                        };
+
+                        let m_id = get_val_as_string("modId").or(get_val_as_string("id")); 
+                        let f_id = get_val_as_string("fileId");
+
+                        if let (Some(mid), Some(fid)) = (m_id, f_id) {
+                            if let Some(filename) = legacy_lookup.get(&(mid, fid)) {
+                                if let Some(obj) = json.as_object_mut() {
+                                    obj.insert("installSource".to_string(), Value::String(filename.clone()));
+                                }
+                                
+                                if let Ok(new_content) = serde_json::to_string_pretty(&json) {
+                                    let _ = fs::write(&info_path, new_content);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 3. Update Config
+    config.legacy_migration_done = true;
+    let json = serde_json::to_string_pretty(&config).map_err(|e| e.to_string())?;
+    fs::write(config_path, json).map_err(|e| e.to_string())?;
+
+    Ok(())
 }
 
 // --- MAIN FUNCTION ---
@@ -2170,7 +2305,8 @@ fn main() {
             open_folder_path,
             clean_staging_folder,
             finalize_installation,
-            get_staging_contents
+            get_staging_contents,
+            run_legacy_migration
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

@@ -478,6 +478,14 @@ document.addEventListener('DOMContentLoaded', () => {
         await i18n.loadLanguage(savedLang);
         await loadDownloadHistory();
 
+        filePathLabel.textContent = "Checking for legacy data...";
+        try {
+            await invoke('run_legacy_migration');
+        } catch (e) {
+            console.error("Migration warning:", e);
+        }
+        filePathLabel.textContent = i18n.get('noFileLoaded'); // Restore default
+
         const savedPadding = localStorage.getItem('modRowPadding') || '5';
         document.documentElement.style.setProperty('--mod-row-vertical-padding', `${savedPadding}px`);
         rowPaddingSlider.value = savedPadding;
@@ -3473,6 +3481,8 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => {
                 refreshBrowseTabBadges();
             }, 100);
+
+            await saveCurrentProfile();
 
             profileProgressModal.classList.add('hidden');
             await window.customAlert(`Profile "${targetProfile}" applied successfully.`, "Success");
