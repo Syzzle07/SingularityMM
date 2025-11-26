@@ -120,6 +120,7 @@ struct LocalModInfo {
     mod_id: Option<String>,
     file_id: Option<String>,
     version: Option<String>,
+    install_source: Option<String>,
 }
 
 #[derive(Serialize, Clone)]
@@ -586,6 +587,7 @@ fn get_all_mods_for_render() -> Result<Vec<ModRenderData>, String> {
                             mod_id: json_val.get("modId").or(json_val.get("id")).and_then(|v| v.as_str()).map(String::from),
                             file_id: json_val.get("fileId").and_then(|v| v.as_str()).map(String::from),
                             version: json_val.get("version").and_then(|v| v.as_str()).map(String::from),
+                            install_source: json_val.get("installSource").and_then(|v| v.as_str()).map(String::from),
                         })
                     } else { None }
                 } else { None };
@@ -1010,33 +1012,17 @@ fn delete_mod(mod_name: String) -> Result<Vec<ModRenderData>, String> {
     let mut root: SettingsData =
         from_str(&xml_content).map_err(|e| format!("Failed to parse GCMODSETTINGS.MXML: {}", e))?;
 
-    let mut deleted_priority_val: Option<u32> = None;
     for prop in root.properties.iter_mut() {
         if prop.name == "Data" {
-            if let Some(index_to_delete) = prop.mods.iter().position(|entry| {
-                entry.properties.iter().any(|p| {
-                    p.name == "Name"
-                        && p.value
-                            .as_deref()
-                            .map_or(false, |v| v.eq_ignore_ascii_case(&mod_name))
-                })
-            }) {
-                deleted_priority_val = prop.mods[index_to_delete].properties.iter().find(|p| p.name == "ModPriority").and_then(|p| p.value.as_ref()).and_then(|v| v.parse::<u32>().ok());
-                prop.mods.remove(index_to_delete);
-            }
-            if let Some(deleted_p) = deleted_priority_val {
-                for mod_entry in prop.mods.iter_mut() {
-                    if let Some(priority_prop) = mod_entry.properties.iter_mut().find(|p| p.name == "ModPriority") {
-                        if let Some(current_p_str) = priority_prop.value.as_ref() {
-                            if let Ok(current_p) = current_p_str.parse::<u32>() {
-                                if current_p > deleted_p {
-                                    priority_prop.value = Some((current_p - 1).to_string());
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+            prop.mods.retain(|entry| {
+                let entry_name = entry.properties.iter()
+                    .find(|p| p.name == "Name")
+                    .and_then(|p| p.value.as_deref())
+                    .unwrap_or("");
+                
+                !entry_name.eq_ignore_ascii_case(&mod_name)
+            });
+
             prop.mods.sort_by_key(|entry| entry.properties.iter().find(|p| p.name == "ModPriority").and_then(|p| p.value.as_ref()).and_then(|v| v.parse::<u32>().ok()).unwrap_or(u32::MAX));
             for (i, mod_entry) in prop.mods.iter_mut().enumerate() {
                 mod_entry.index = i.to_string();
@@ -1059,7 +1045,6 @@ fn delete_mod(mod_name: String) -> Result<Vec<ModRenderData>, String> {
     let buf = writer.into_inner();
     let xml_body = String::from_utf8(buf).map_err(|e| format!("Failed to convert formatted XML to string: {}", e))?;
     
-    // --- THIS IS THE FIX ---
     let final_content = format!("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n{}", xml_body)
         .replace(" name=\"Data\" value=\"\"", " name=\"Data\"")
         .replace(" name=\"Dependencies\" value=\"\"", " name=\"Dependencies\"")
@@ -1075,6 +1060,7 @@ fn delete_mod(mod_name: String) -> Result<Vec<ModRenderData>, String> {
                 let enabled = mod_entry.properties.iter().find(|p| p.name == "Enabled").and_then(|p| p.value.as_deref()).unwrap_or("false").eq_ignore_ascii_case("true");
                 let priority = mod_entry.properties.iter().find(|p| p.name == "ModPriority").and_then(|p| p.value.as_ref()).and_then(|v| v.parse::<u32>().ok()).unwrap_or(0);
                 let mod_info_path = game_path.join("GAMEDATA").join("MODS").join(folder_name).join("mod_info.json");
+                
                 let local_info = if let Ok(content) = fs::read_to_string(&mod_info_path) {
                     if let Ok(json_val) = serde_json::from_str::<serde_json::Value>(&content) {
                         Some(LocalModInfo {
@@ -1082,9 +1068,12 @@ fn delete_mod(mod_name: String) -> Result<Vec<ModRenderData>, String> {
                             mod_id: json_val.get("modId").or(json_val.get("id")).and_then(|v| v.as_str()).map(String::from),
                             file_id: json_val.get("fileId").and_then(|v| v.as_str()).map(String::from),
                             version: json_val.get("version").and_then(|v| v.as_str()).map(String::from),
+                            // --- ADDED FIELD HERE ---
+                            install_source: json_val.get("installSource").and_then(|v| v.as_str()).map(String::from),
                         })
                     } else { None }
                 } else { None };
+                
                 mods_to_render_vec.push(ModRenderData {
                     folder_name: folder_name.clone(), enabled, priority, local_info,
                 });
@@ -1771,18 +1760,36 @@ fn create_empty_profile(app: AppHandle, profile_name: String) -> Result<(), Stri
 
 #[tauri::command]
 fn check_for_untracked_mods() -> bool {
-    // Returns TRUE if there are folders in GAMEDATA/MODS that do NOT have a mod_info.json
-    // This implies they were put there manually and the manager doesn't know about them.
     if let Some(game_path) = find_game_path() {
         let mods_path = game_path.join("GAMEDATA").join("MODS");
         if let Ok(entries) = fs::read_dir(mods_path) {
             for entry in entries.flatten() {
                 if entry.path().is_dir() {
-                    // Check if this folder contains mod_info.json
                     let info_path = entry.path().join("mod_info.json");
+                    
                     if !info_path.exists() {
-                        // Found a folder without info -> It is untracked
-                        return true; 
+                        return true; // No file = Untracked
+                    }
+
+                    if let Ok(content) = fs::read_to_string(&info_path) {
+                        if let Ok(json) = serde_json::from_str::<Value>(&content) {
+                            // STRICT CHECK: 
+                            // 1. Get "installSource"
+                            // 2. Ensure it is a String (not null/number)
+                            // 3. Ensure it is NOT empty
+                            let is_valid_source = json.get("installSource")
+                                .and_then(|v| v.as_str())
+                                .map(|s| !s.is_empty())
+                                .unwrap_or(false); // If key missing or not string, defaults to false
+
+                            if !is_valid_source {
+                                return true; 
+                            }
+                        } else {
+                            return true; // Invalid JSON
+                        }
+                    } else {
+                        return true; // Read error
                     }
                 }
             }

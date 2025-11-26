@@ -777,7 +777,6 @@ label.switch:has(input:checked)::before {
     0% {
         transform: scale(0.95);
         box-shadow: 0 0 0 0 rgba(202, 72, 98, 0.7);
-        /* Matches var(--c-danger) roughly */
     }
 
     70% {

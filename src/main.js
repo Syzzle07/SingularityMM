@@ -655,11 +655,12 @@ document.addEventListener('DOMContentLoaded', () => {
             row.dataset.modName = modData.folder_name;
             // --- Conditional Red Dot Logic ---
             // If user hasn't suppressed warnings AND local_info is missing, show red dot
-            const showRedDot = !suppressUntracked && !modData.local_info;
+            const showRedDot = !suppressUntracked && (!modData.local_info || !modData.local_info.install_source);
 
             const untrackedHtml = showRedDot
                 ? `<span class="untracked-indicator" title="${i18n.get('untrackedModTooltip')}"></span>`
                 : '';
+
             row.innerHTML = `
                 <div class="mod-name-container">
                     <span class="mod-name-text">${modData.folder_name}</span>
