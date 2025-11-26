@@ -1543,10 +1543,10 @@ fn save_active_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
                         if let Ok(json) = serde_json::from_str::<Value>(&content) {
                             // If it has installSource, group it. 
                             if let Some(source) = json.get("installSource").and_then(|s| s.as_str()) {
-                                profile_map.entry(source.to_string()).or_default().push(folder_name);
+                                if !source.is_empty() {
+                                    profile_map.entry(source.to_string()).or_default().push(folder_name);
+                                }
                             } 
-                            // If legacy (no installSource), we assume the folder name + .zip might be the source, or we skip tracking?
-                            // For robustness, let's only track if we have source or can infer it.
                         }
                     }
                 }
