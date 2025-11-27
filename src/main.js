@@ -264,6 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         },
         updateUI() {
+            // 1. Auto-translate static elements
             document.querySelectorAll('[data-i18n]').forEach(el => {
                 const key = el.getAttribute('data-i18n');
                 const attributeName = el.getAttribute('data-i18n-attr');
@@ -276,16 +277,22 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
             });
+
+            // 2. Manually handle dynamic elements (Status + Button)
             const nexusStatus = document.getElementById('nexusAccountStatus');
-            if (nexusStatus) {
-                if (appState.nexusUsername) {
-                    // If logged in, translate "Connected as {{name}}"
-                    nexusStatus.textContent = this.get('statusConnectedAs', { name: appState.nexusUsername });
-                } else {
-                    // If logged out, translate "Not Logged In"
-                    nexusStatus.textContent = this.get('statusNotLoggedIn');
-                }
+            const nexusBtn = document.getElementById('nexusAuthBtn');
+
+            if (appState.nexusUsername) {
+                // LOGGED IN STATE
+                if (nexusStatus) nexusStatus.textContent = this.get('statusConnectedAs', { name: appState.nexusUsername });
+                if (nexusBtn) nexusBtn.textContent = this.get('disconnectBtn');
+            } else {
+                // LOGGED OUT STATE
+                if (nexusStatus) nexusStatus.textContent = this.get('statusNotLoggedIn');
+                if (nexusBtn) nexusBtn.textContent = this.get('connectBtn');
             }
+
+            // 3. Update File Path Label
             if (appState.currentFilePath) {
                 basename(appState.currentFilePath).then(fileNameWithExt => {
                     const fileNameWithoutExt = fileNameWithExt.slice(0, fileNameWithExt.lastIndexOf('.'));
@@ -2003,12 +2010,21 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderPaginationControls(totalPages, currentPage) {
         paginationContainer.innerHTML = '';
 
-        // Hide if only 1 page or no items
+        // 1. Always Render the Total Count on the left
+        // We use curatedData.length to show the Total Database size (Tracked Mods)
+        const countDiv = document.createElement('div');
+        countDiv.className = 'pagination-count';
+        countDiv.textContent = i18n.get('browseTotalMods', { count: curatedData.length });
+        paginationContainer.appendChild(countDiv);
+
+        // 2. If no items at all (empty database or search mismatch), we might still want to show the count
+        // but if the grid is empty, usually we want the bar visible to show "0 Mods" or the total database size.
+        paginationContainer.classList.remove('hidden');
+
+        // 3. Only render buttons if we have more than 1 page
         if (totalPages <= 1) {
-            paginationContainer.classList.add('hidden');
             return;
         }
-        paginationContainer.classList.remove('hidden');
 
         const createButton = (text, page, isActive = false, isDisabled = false) => {
             const btn = document.createElement('div');
@@ -2034,49 +2050,31 @@ document.addEventListener('DOMContentLoaded', () => {
         // --- PREVIOUS ARROW ---
         paginationContainer.appendChild(createButton('<', currentPage - 1, false, currentPage === 1));
 
-        // --- STABLE PAGINATION LOGIC ---
-        // This logic ensures we almost always render the same number of elements 
-        // so the UI doesn't jitter left/right when clicking next.
-
-        const MAX_VISIBLE_PAGES = 7; // Threshold to switch to complex view
+        const MAX_VISIBLE_PAGES = 7;
 
         if (totalPages <= MAX_VISIBLE_PAGES) {
-            // Case 1: Few pages (e.g. 1 2 3 4 5). Show all.
             for (let i = 1; i <= totalPages; i++) {
                 paginationContainer.appendChild(createButton(i, i, i === currentPage));
             }
         } else {
-            // Case 2: Many pages. We use a sliding window to keep exactly 7 items visible.
-            // The 3 layouts are:
-            // Start:  [1] [2] [3] [4] [5] [...] [100]
-            // Middle: [1] [...] [49] [50] [51] [...] [100]
-            // End:    [1] [...] [96] [97] [98] [99] [100]
-
             if (currentPage <= 4) {
-                // Near Start
                 for (let i = 1; i <= 5; i++) {
                     paginationContainer.appendChild(createButton(i, i, i === currentPage));
                 }
                 paginationContainer.appendChild(createDots());
                 paginationContainer.appendChild(createButton(totalPages, totalPages, totalPages === currentPage));
-
             } else if (currentPage >= totalPages - 3) {
-                // Near End
                 paginationContainer.appendChild(createButton(1, 1, 1 === currentPage));
                 paginationContainer.appendChild(createDots());
                 for (let i = totalPages - 4; i <= totalPages; i++) {
                     paginationContainer.appendChild(createButton(i, i, i === currentPage));
                 }
-
             } else {
-                // Middle
                 paginationContainer.appendChild(createButton(1, 1, 1 === currentPage));
                 paginationContainer.appendChild(createDots());
-
                 paginationContainer.appendChild(createButton(currentPage - 1, currentPage - 1));
                 paginationContainer.appendChild(createButton(currentPage, currentPage, true));
                 paginationContainer.appendChild(createButton(currentPage + 1, currentPage + 1));
-
                 paginationContainer.appendChild(createDots());
                 paginationContainer.appendChild(createButton(totalPages, totalPages, totalPages === currentPage));
             }

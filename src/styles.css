@@ -2644,16 +2644,30 @@ button.context-menu-item.delete:hover {
    ========================================================================== */
 
 .pagination-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 3px;
     padding: 10px;
     margin-top: auto;
-    /* Pushes it to the bottom if grid is empty */
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     background-color: rgba(0, 0, 0, 0.2);
     flex-shrink: 0;
+    min-height: 56px;
+}
+
+.pagination-count {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: var(--font-primary);
+    font-size: 14px;
+    color: var(--c-text-primary);
+    opacity: 0.5;
+    letter-spacing: 1px;
+    white-space: nowrap;
 }
 
 .page-btn {
