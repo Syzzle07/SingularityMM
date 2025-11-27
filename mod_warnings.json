@@ -4990,5 +4990,581 @@
         "id": "3593",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Buy All Frigates",
+        "id": "3596",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Passive Sentinels II",
+        "id": "3586",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "VR Hand Commands",
+        "id": "1417",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Flappys Return",
+        "id": "3618",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hoofin It (No Teleporters)",
+        "id": "3621",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Storm Hammer II",
+        "id": "3635",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sentinel Ship Enter No Anim",
+        "id": "3637",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Dead Wreckoning",
+        "id": "1273",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Deadzone III - Revenge of the Deadzone",
+        "id": "1143",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Universal Hatred",
+        "id": "3694",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ShutUp Pets",
+        "id": "3643",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Appearance modifier Extended",
+        "id": "3024",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Colorized Derelict Icons",
+        "id": "3688",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Colorized Hexagonal Building Icons",
+        "id": "3683",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Forever Babies (Pet Companions) II",
+        "id": "3652",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hungry Living Ships",
+        "id": "3641",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Grass",
+        "id": "3693",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Silent Sandworms",
+        "id": "3685",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Sandworm Shake",
+        "id": "3684",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JE's Faster Fishing Trap II",
+        "id": "3665",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JE's Better Mining Lasers II",
+        "id": "3664",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JE's Fuel Efficient Frigates II",
+        "id": "3661",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JE's Fast Harvesters and AMU II",
+        "id": "3660",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JE's Minotaur - Better Mech Mining Bore II",
+        "id": "3659",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JE's Asteroid Mining Flyby Begone II",
+        "id": "3658",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JE's Better Battery Charge II",
+        "id": "3657",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JE's More Tech Modules for Sale II",
+        "id": "3656",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JE's Faster Settlement Population Growth II",
+        "id": "3662",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Clear Visor Scanner and Surveyor and Custom Color Binoc Panels",
+        "id": "1093",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DUD's Exo's and Babs' Cloud Erasers",
+        "id": "1350",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More (or None) Cave Spawns",
+        "id": "3653",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Moar Creatures II",
+        "id": "3670",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fewer Fauna II",
+        "id": "3668",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Portal Glyph Icons",
+        "id": "3481",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exotic Wings Return",
+        "id": "3619",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Clean Paint for Starships",
+        "id": "1324",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Nerfed Mission and Event Rewards",
+        "id": "3480",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Increased Technology Installation Costs",
+        "id": "3460",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Abandoned Mode - Robotic Fauna Only",
+        "id": "3704",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "All Refiner and Cooking Recipes in the Wiki",
+        "id": "3718",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Starship Trail Tweaks",
+        "id": "3842",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Extra Networked Emotes - Over 50 new Emotes for Multiplayer",
+        "id": "771",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Painless Rain",
+        "id": "1250",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Grass Fix",
+        "id": "1080",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Planet Type Converters",
+        "id": "1270",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gMultitool - Mining Beam Colors - EXML",
+        "id": "2597",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gMultitool - Runic Lens Mining Beam Colors - EXML",
+        "id": "3845",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gMultitool - Hijacked Laser Mining Beam Colors - EXML",
+        "id": "3846",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gMultitool Block Mining Beam Upgrade Colors - EXML",
+        "id": "3844",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Salvaged Data Cost Increase for Base Buildings",
+        "id": "3424",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Fishing Difficulty Overhaul",
+        "id": "3691",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "True Royal 3 - Exotic Colors Redone",
+        "id": "3672",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "English Alien Words",
+        "id": "2070",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Afraid Of The Dark (Derelict version)",
+        "id": "3850",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Galactic Map - Uncover Visited Stars II",
+        "id": "3578",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Stars Fields improvements",
+        "id": "3838",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "True color II",
+        "id": "3655",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Higher Trade Terminal Limits",
+        "id": "3853",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvettes land on water",
+        "id": "3843",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Remove Corvette Module Tech",
+        "id": "3854",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "S Class Mania II",
+        "id": "3568",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Normalize Economy Names (NEN)",
+        "id": "3620",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Plants X",
+        "id": "3225",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Upgradeable Slots",
+        "id": "2299",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Increase Auto-Land Range",
+        "id": "3167",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Fleet Expedition Events",
+        "id": "3579",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Easier Frigate Repairs",
+        "id": "3592",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Farms II",
+        "id": "3666",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Companion Pet Unlocker",
+        "id": "1868",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Freighter Hangar Interior Changes",
+        "id": "2510",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Maximize Corvette Module Tech",
+        "id": "3858",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ColoredMonitors",
+        "id": "3859",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Construction Research Unit Updated",
+        "id": "2342",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Super Ship Teleporter",
+        "id": "1109",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Star Wars Background Image Replacer",
+        "id": "3861",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Build Mode and Camera",
+        "id": "3798",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man's Sky Halloween Pack",
+        "id": "3860",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man's Sky Player Controls Revision",
+        "id": "3348",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reduce Motion Blur Flicker",
+        "id": "3862",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man's Sky Action Pack ft Super Vehicles 5",
+        "id": "3703",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Alien Words",
+        "id": "3649",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "REDMAS METAL SPACESHIPS",
+        "id": "2394",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "REDMAS VISUAL OVERHAUL",
+        "id": "2379",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man's Sky Space Pack - Pegasus Fantasy",
+        "id": "3354",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Prerelease Atmosphere",
+        "id": "3130",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Dropship Restoration",
+        "id": "3038",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Scientific Restoration",
+        "id": "1915",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Invincible Creatures 4.3",
+        "id": "1743",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Ship Marker 1.4",
+        "id": "208",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Autophage Stuff Unlocker",
+        "id": "3065",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Quick Portal Charging",
+        "id": "3855",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Colorized Diamond Non-Building Icons",
+        "id": "3687",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Auto Eject on Landing",
+        "id": "3689",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Remove Nipple Monster",
+        "id": "3721",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Parking Spots",
+        "id": "3812",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gShip Pulse Charge Time - EXML",
+        "id": "3438",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
