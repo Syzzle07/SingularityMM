@@ -197,33 +197,50 @@ fn scan_for_installable_mods(dir: &Path, base_dir: &Path) -> Vec<String> {
     let mut candidates = Vec::new();
     
     if let Ok(entries) = fs::read_dir(dir) {
-        let mut has_pak = false;
+        let mut is_mod_root = false;
         let mut subdirs = Vec::new();
+
+        // The exact list of first-level folders NMS expects
+        let game_structure_folders = [
+            "AUDIO", "FONTS", "GLOBALS", "INPUT", "LANGUAGE", 
+            "MATERIALS", "METADATA", "MODELS", "MUSIC", "PIPELINES", 
+            "SCENES", "SHADERS", "TEXTURES", "TPFSDICT", "UI"
+        ];
+        
+        // Also keep checking for file extensions just in case
+        let game_file_extensions = ["exml", "mbin", "dds","mxml"];
 
         for entry in entries.flatten() {
             let path = entry.path();
+            
             if path.is_dir() {
+                if let Some(name) = path.file_name().and_then(|n| n.to_str()) {
+                    // If we find "METADATA" inside this folder, then THIS folder is a Mod Root.
+                    if game_structure_folders.iter().any(|gf| name.eq_ignore_ascii_case(gf)) {
+                        is_mod_root = true;
+                    }
+                }
                 subdirs.push(path);
-            } else if let Some(ext) = path.extension() {
-                if ext.eq_ignore_ascii_case("pak") {
-                    has_pak = true;
+            } else if let Some(ext) = path.extension().and_then(|s| s.to_str()) {
+                if game_file_extensions.iter().any(|ge| ext.eq_ignore_ascii_case(ge)) {
+                    is_mod_root = true;
                 }
             }
         }
 
-        // If this folder contains a .pak, it is a Mod Root. 
-        // We stop recursing here and add this folder relative to the staging base.
-        if has_pak {
+        if is_mod_root {
             if let Ok(rel) = dir.strip_prefix(base_dir) {
                 let rel_str = rel.to_string_lossy().replace("\\", "/");
                 if !rel_str.is_empty() {
                     candidates.push(rel_str);
+                } else {
+                    candidates.push(".".to_string());
                 }
             }
             return candidates; 
         }
 
-        // If no .pak found here, recurse into subdirectories
+        // If current folder isn't a mod root (doesn't have METADATA etc), search subfolders
         for subdir in subdirs {
             let sub_candidates = scan_for_installable_mods(&subdir, base_dir);
             candidates.extend(sub_candidates);
@@ -639,11 +656,16 @@ fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<
     // 2. Extract to Staging
     let temp_extract_path = extract_archive_to_temp(&archive_path, &staging_dir)?;
 
-    // 3. Analyze Contents (Using Deep Scan for nested mods)
-    let installable_paths = scan_for_installable_mods(&temp_extract_path, &temp_extract_path);
+    // 3. Analyze Contents
+    let mut installable_paths = scan_for_installable_mods(&temp_extract_path, &temp_extract_path);
     let temp_id = temp_extract_path.file_name().unwrap().to_string_lossy().into_owned();
 
-    // CASE A: Multiple valid mod folders found (Deep or Shallow)
+    // Filter "." if it's the only result (Standard correct structure)
+    if installable_paths.len() == 1 && installable_paths[0] == "." {
+        installable_paths.clear(); 
+    }
+
+    // CASE A: Multiple valid mod folders found -> SHOW UI
     if installable_paths.len() > 1 {
         return Ok(InstallationAnalysis {
             successes: vec![],
@@ -656,10 +678,24 @@ fn install_mod_from_archive(app: AppHandle, archive_path_str: String) -> Result<
         });
     }
     
-    // CASE B: Only 1 deep folder found
-    // Install it automatically
+    // CASE B: Only 1 valid mod folder found
     if installable_paths.len() == 1 {
-        let mut analysis = finalize_installation(app, temp_id, vec![installable_paths[0].clone()], true)?;
+        let found_path = &installable_paths[0];
+        if found_path.contains('/') || found_path.contains('\\') {
+             return Ok(InstallationAnalysis {
+                successes: vec![],
+                conflicts: vec![],
+                messy_archive_path: None,
+                active_archive_path: Some(final_archive_path_str),
+                selection_needed: true,
+                temp_id: Some(temp_id),
+                available_folders: Some(installable_paths),
+            });
+        }
+
+        // If it does NOT contain a separator, it's a clean top-level mod.
+        // Auto-install it.
+        let mut analysis = finalize_installation(app, temp_id, vec![found_path.clone()], false)?;
         analysis.active_archive_path = Some(final_archive_path_str);
         return Ok(analysis);
     }
@@ -728,9 +764,8 @@ fn finalize_installation(
     let mut successes = Vec::new();
     let mut conflicts = Vec::new();
 
-    // 1. Identify Items to Move
     let items_to_process = if selected_folders.is_empty() {
-        // "Install All" behavior: Grab top level folders
+        // If empty, we look at everything in the root
         fs::read_dir(&temp_extract_path)
             .map_err(|e| e.to_string())?
             .filter_map(Result::ok)
@@ -738,28 +773,56 @@ fn finalize_installation(
             .map(|e| e.file_name().to_string_lossy().into_owned())
             .collect::<Vec<String>>()
     } else {
-        // Use user selection (which now contains deep paths like "Parent/Child")
         selected_folders
     };
+
+    // List of actual operations to perform: (Source Path on Disk, Final Folder Name)
+    struct MoveOp {
+        source: PathBuf,
+        dest_name: String,
+    }
+    let mut moves: Vec<MoveOp> = Vec::new();
 
     for relative_path_str in items_to_process {
         let source_path = temp_extract_path.join(&relative_path_str);
         if !source_path.exists() { continue; }
 
-        // --- CHANGED LOGIC START ---
-        let (final_dest_path, mod_root_name_for_xml) = if flatten_paths {
-            // CASE A: Flatten (Skip Root)
-            let leaf_name = Path::new(&relative_path_str)
-                .file_name()
-                .ok_or("Invalid path")?
-                .to_string_lossy()
-                .into_owned();
-            
-            (mods_path.join(&leaf_name), leaf_name)
+        if flatten_paths {
+            // --- SMART EXTRACT LOGIC ---
+            // 1. Scan inside the selected folder to see if it contains deeper mods
+            // Note: scan_for_installable_mods returns paths relative to the input dir
+            let deep_candidates = scan_for_installable_mods(&source_path, &source_path);
+
+            if !deep_candidates.is_empty() {
+                // It contains identifiable mods (e.g. has METADATA inside). 
+                // We grab THOSE specifically.
+                for deep_rel in deep_candidates {
+                    let deep_source = if deep_rel == "." {
+                        source_path.clone()
+                    } else {
+                        source_path.join(&deep_rel)
+                    };
+
+                    let folder_name = deep_source.file_name()
+                        .ok_or("Invalid path")?
+                        .to_string_lossy()
+                        .into_owned();
+
+                    moves.push(MoveOp { source: deep_source, dest_name: folder_name });
+                }
+            } else {
+                // It doesn't look like a mod structure we recognize, OR it's just a generic folder.
+                // Fallback: Just flatten the folder itself (legacy Skip Root behavior).
+                let folder_name = source_path.file_name()
+                    .ok_or("Invalid path")?
+                    .to_string_lossy()
+                    .into_owned();
+                
+                moves.push(MoveOp { source: source_path, dest_name: folder_name });
+            }
         } else {
-            // CASE B: Preserve Structure
-            let dest = mods_path.join(&relative_path_str);
-            let top_level = Path::new(&relative_path_str)
+            // Preserve Structure logic
+            let top_level_name = Path::new(&relative_path_str)
                 .components()
                 .next()
                 .ok_or("Invalid path")?
@@ -767,25 +830,36 @@ fn finalize_installation(
                 .to_string_lossy()
                 .into_owned();
 
-            (dest, top_level)
-        };
-        // --- CHANGED LOGIC END ---
+            // Note: We move the top level folder.
+            // If relative path was "A/B", we move "A" (and B goes with it).
+            // We must re-calculate source to be the top level root, not the deep path provided by selection.
+            let top_source = temp_extract_path.join(&top_level_name);
+            
+            // Deduplicate: If multiple selections point to the same Parent, we only move Parent once.
+            // Simple check: is this dest_name already in our list?
+            if !moves.iter().any(|m| m.dest_name == top_level_name) {
+                moves.push(MoveOp { source: top_source, dest_name: top_level_name });
+            }
+        }
+    }
+
+    // Perform the Moves
+    for op in moves {
+        if !op.source.exists() { continue; } // Might have been moved already if nested logic overlapped
 
         let mut conflict_found = false;
 
         // Check ID conflict
-        if let Some(info) = read_mod_info(&source_path) {
+        if let Some(info) = read_mod_info(&op.source) {
             if let Some(mod_id) = info.mod_id {
                 if let Some(old_folder_name) = installed_mods_by_id.get(&mod_id) {
                     if !conflict_staging_path.exists() { fs::create_dir_all(&conflict_staging_path).map_err(|e| e.to_string())?; }
                     
-                    let dest_name = final_dest_path.file_name().unwrap().to_string_lossy().into_owned();
-                    let staged_mod_path = conflict_staging_path.join(&dest_name);
-                    
-                    move_dir_safely(&source_path, &staged_mod_path)?;
+                    let staged_mod_path = conflict_staging_path.join(&op.dest_name);
+                    move_dir_safely(&op.source, &staged_mod_path)?;
 
                     conflicts.push(ModConflictInfo {
-                        new_mod_name: dest_name, 
+                        new_mod_name: op.dest_name.clone(),
                         temp_path: staged_mod_path.to_string_lossy().into_owned(),
                         old_mod_folder_name: old_folder_name.clone(),
                     });
@@ -795,34 +869,24 @@ fn finalize_installation(
         }
 
         if !conflict_found {
-            // Check Name conflict (Does destination exist?)
+            let final_dest_path = mods_path.join(&op.dest_name);
+            
             if final_dest_path.exists() {
+                // Name Conflict
                 if !conflict_staging_path.exists() { fs::create_dir_all(&conflict_staging_path).map_err(|e| e.to_string())?; }
-                
-                let dest_name = final_dest_path.file_name().unwrap().to_string_lossy().into_owned();
-                let staged_mod_path = conflict_staging_path.join(&dest_name);
-                
-                move_dir_safely(&source_path, &staged_mod_path)?;
+                let staged_mod_path = conflict_staging_path.join(&op.dest_name);
+                move_dir_safely(&op.source, &staged_mod_path)?;
 
                 conflicts.push(ModConflictInfo {
-                    new_mod_name: dest_name.clone(),
+                    new_mod_name: op.dest_name.clone(),
                     temp_path: staged_mod_path.to_string_lossy().into_owned(),
-                    // If preserving structure, we are technically colliding with the subfolder, 
-                    // but simple conflict logic treats it as a collision with "itself" or the existing folder.
-                    old_mod_folder_name: dest_name, 
+                    old_mod_folder_name: op.dest_name.clone(),
                 });
             } else {
-                // Ensure parent exists if preserving structure (e.g. create "MODS/Discounted" before moving "Child")
-                if !flatten_paths {
-                    if let Some(parent) = final_dest_path.parent() {
-                        if !parent.exists() { fs::create_dir_all(parent).map_err(|e| e.to_string())?; }
-                    }
-                }
-
-                move_dir_safely(&source_path, &final_dest_path)?;
-                
+                // Success
+                move_dir_safely(&op.source, &final_dest_path)?;
                 successes.push(ModInstallInfo {
-                    name: mod_root_name_for_xml,
+                    name: op.dest_name,
                     temp_path: final_dest_path.to_string_lossy().into_owned(),
                 });
             }

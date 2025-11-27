@@ -2895,26 +2895,44 @@ document.addEventListener('DOMContentLoaded', () => {
             folderSelectionList.innerHTML = '';
             flattenStructureCb.checked = false;
 
-            // --- DOM Helper: Handle Parent/Child Checkbox Logic ---
+            function getCleanZipName(rawName) {
+                let clean = rawName.replace(/\.(zip|rar|7z)$/i, '');
+                clean = clean.replace(/-[\d.]+(-[\d.]+)*$/, '');
+                return clean;
+            }
+
+            function getCommonPrefix(paths) {
+                if (!paths || paths.length === 0) return null;
+
+                const separator = paths[0].includes('/') ? '/' : '\\';
+                const firstPathParts = paths[0].split(separator);
+                if (firstPathParts.length < 2) return null;
+
+                const potentialParent = firstPathParts[0];
+                const allShare = paths.every(p => p.startsWith(potentialParent + separator));
+
+                return allShare ? potentialParent : null;
+            }
+
+            let rootLabel = getCleanZipName(modName);
+            const commonParent = getCommonPrefix(folders);
+            if (commonParent) {
+                rootLabel = commonParent;
+            }
+
             function handleCheckboxChange(targetCheckbox, wrapper) {
                 const isChecked = targetCheckbox.checked;
-
-                // 1. Downward: Update all children (if they exist/are loaded)
                 const childrenContainer = wrapper.querySelector('.fs-children');
                 if (childrenContainer) {
                     const childCheckboxes = childrenContainer.querySelectorAll('.folder-select-checkbox');
                     childCheckboxes.forEach(cb => cb.checked = isChecked);
                 }
-
-                // 2. Upward: Update parent status
                 updateParentCheckbox(wrapper);
             }
 
             function updateParentCheckbox(element) {
-                // Traverse up to find the parent wrapper
-                // Structure: Wrapper -> ChildrenContainer -> Wrapper (Child)
                 const parentContainer = element.closest('.fs-children');
-                if (!parentContainer) return; // Reached root
+                if (!parentContainer) return;
 
                 const parentWrapper = parentContainer.closest('.fs-wrapper');
                 if (!parentWrapper) return;
@@ -2922,14 +2940,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 const parentCheckbox = parentWrapper.querySelector('.fs-item-row > .folder-select-checkbox');
                 if (!parentCheckbox) return;
 
-                // Check all siblings
                 const siblings = parentContainer.querySelectorAll(':scope > .fs-wrapper > .fs-item-row > .folder-select-checkbox');
                 const allChecked = Array.from(siblings).every(cb => cb.checked);
                 const someChecked = Array.from(siblings).some(cb => cb.checked);
 
-                // Logic: 
-                // - If I uncheck a child, Parent MUST uncheck (so it doesn't install the whole parent).
-                // - If I check all children, Parent CAN check (convenience).
                 if (allChecked) {
                     parentCheckbox.checked = true;
                     parentCheckbox.indeterminate = false;
@@ -2941,31 +2955,28 @@ document.addEventListener('DOMContentLoaded', () => {
                     parentCheckbox.indeterminate = false;
                 }
 
-                // Recurse up the tree
                 updateParentCheckbox(parentWrapper);
             }
 
-            // --- Tree Item Renderer ---
-            function renderTreeItem(name, relativePath, isDir, container, parentIsChecked = false) {
+            // --- MODIFIED: Added isPreloaded argument ---
+            function renderTreeItem(name, relativePath, isDir, container, parentIsChecked = false, isPreloaded = false) {
                 const wrapper = document.createElement('div');
                 wrapper.className = 'fs-wrapper';
 
                 const row = document.createElement('div');
                 row.className = 'fs-item-row';
+                row.title = relativePath;
 
-                // 1. Expander Arrow
                 const expander = document.createElement('div');
                 expander.className = isDir ? 'fs-expander' : 'fs-expander placeholder';
                 expander.textContent = isDir ? '▶' : '';
                 row.appendChild(expander);
 
-                // 2. Checkbox
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.className = 'folder-select-checkbox fs-checkbox';
                 checkbox.value = relativePath;
 
-                // Inherit state from parent (if parent was checked before expansion)
                 if (parentIsChecked) checkbox.checked = true;
 
                 checkbox.onclick = (e) => {
@@ -2974,59 +2985,54 @@ document.addEventListener('DOMContentLoaded', () => {
                 };
                 row.appendChild(checkbox);
 
-                // 3. Label
                 const label = document.createElement('span');
                 label.className = 'fs-label';
-                label.textContent = name;
+
+                const displayName = name.split(/[/\\]/).pop();
+                label.textContent = displayName;
+
                 label.style.color = isDir ? 'var(--c-text-primary)' : 'rgba(255,255,255,0.6)';
                 if (!isDir) label.style.fontStyle = 'italic';
 
                 row.appendChild(label);
                 wrapper.appendChild(row);
 
-                // Container for children
                 const childrenContainer = document.createElement('div');
                 childrenContainer.className = 'fs-children hidden';
                 wrapper.appendChild(childrenContainer);
 
-                // --- Interactions ---
-
-                // Click label -> Toggle Checkbox
                 label.onclick = () => {
                     checkbox.checked = !checkbox.checked;
                     handleCheckboxChange(checkbox, wrapper);
                 };
 
-                // Click Expander -> Fetch and Show Children
                 if (isDir) {
-                    let loaded = false;
+                    // --- FIX: Initialize loaded based on isPreloaded ---
+                    let loaded = isPreloaded;
 
                     expander.onclick = async (e) => {
                         e.stopPropagation();
-
                         const isClosed = childrenContainer.classList.contains('hidden');
-
                         if (isClosed) {
                             expander.classList.add('open');
                             childrenContainer.classList.remove('hidden');
-
                             if (!loaded) {
                                 childrenContainer.innerHTML = '<div style="padding:5px 0 5px 25px; opacity:0.5; font-size:12px;">Loading...</div>';
-
                                 try {
                                     const contents = await invoke('get_staging_contents', {
                                         tempId: tempId,
                                         relativePath: relativePath
                                     });
-
                                     childrenContainer.innerHTML = '';
-
                                     if (contents.length === 0) {
                                         childrenContainer.innerHTML = '<div style="padding:5px 0 5px 25px; opacity:0.5; font-size:12px;">(Empty)</div>';
                                     } else {
                                         contents.forEach(node => {
-                                            const childPath = relativePath ? `${relativePath}/${node.name}` : node.name;
-                                            renderTreeItem(node.name, childPath, node.is_dir, childrenContainer, checkbox.checked);
+                                            const childPath = relativePath === "."
+                                                ? node.name
+                                                : `${relativePath}/${node.name}`;
+                                            // Children are NOT preloaded
+                                            renderTreeItem(node.name, childPath, node.is_dir, childrenContainer, checkbox.checked, false);
                                         });
                                     }
                                     loaded = true;
@@ -3040,18 +3046,31 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                     };
                 }
-
                 container.appendChild(wrapper);
             }
 
-            // Initial Render
-            folders.forEach(folderName => {
-                renderTreeItem(folderName, folderName, true, folderSelectionList, false);
+            // --- INITIAL RENDER ---
+
+            // 1. Render Root with isPreloaded = true
+            // This prevents it from fetching data again when collapsed/expanded
+            renderTreeItem(rootLabel, ".", true, folderSelectionList, false, true);
+
+            const rootWrapper = folderSelectionList.firstElementChild;
+            const rootExpander = rootWrapper.querySelector('.fs-expander');
+            const rootChildren = rootWrapper.querySelector('.fs-children');
+
+            // Populate children manually
+            folders.forEach(childName => {
+                renderTreeItem(childName, childName, true, rootChildren, false, false);
             });
+
+            if (rootExpander && rootChildren) {
+                rootExpander.classList.add('open');
+                rootChildren.classList.remove('hidden');
+            }
 
             folderSelectionModal.classList.remove('hidden');
 
-            // --- Cleanup & Buttons ---
             const cleanup = () => {
                 folderSelectionModal.classList.add('hidden');
                 fsmCancelBtn.onclick = null;
@@ -3071,28 +3090,9 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             fsmInstallSelectedBtn.onclick = () => {
-                // Filter Logic:
-                // We only want to send the "Highest Level" checked items, OR just send everything and let backend handle existence.
-                // But specific requirement: If I uncheck Parent, Parent path must NOT be in the list.
-                // Because we handled the UI logic (unchecking child unchecks parent), 
-                // iterating all checked boxes is actually safe!
-                //
-                // Example:
-                // [ ] Parent
-                //    [x] Child A
-                //    [ ] Child B
-                // -> Result: ["Parent/Child A"] (Correct)
-                //
-                // [x] Parent
-                //    [x] Child A
-                //    [x] Child B
-                // -> Result: ["Parent", "Parent/Child A", "Parent/Child B"]
-                // -> Backend iterates. "Parent" moves first. "Parent/Child A" doesn't exist anymore. Backend skips. Correct.
-
                 const selected = Array.from(document.querySelectorAll('.folder-select-checkbox:checked')).map(cb => cb.value);
                 const isFlatten = flattenStructureCb.checked;
                 cleanup();
-
                 if (selected.length === 0) resolve(null);
                 else resolve({ selected: selected, flatten: isFlatten });
             };
