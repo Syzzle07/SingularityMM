@@ -148,6 +148,54 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Core Application Logic ---
 
     // --- CUSTOM DIALOG HELPERS ---
+    // --- CUSTOM PROMPT HELPER ---
+    const inputModal = document.getElementById('inputDialogModal');
+    const inputTitle = document.getElementById('inputDialogTitle');
+    const inputMessage = document.getElementById('inputDialogMessage');
+    const inputField = document.getElementById('inputDialogField');
+    const inputCancel = document.getElementById('inputDialogCancelBtn');
+    const inputOk = document.getElementById('inputDialogOkBtn');
+
+    window.customPrompt = (message, title, defaultValue = "") => {
+        return new Promise((resolve) => {
+            inputTitle.textContent = title || 'Singularity';
+            inputMessage.textContent = message;
+            inputField.value = defaultValue;
+
+            // Handlers
+            const cleanup = () => {
+                inputModal.classList.add('hidden');
+                inputOk.onclick = null;
+                inputCancel.onclick = null;
+                inputField.onkeydown = null;
+            };
+
+            const confirm = () => {
+                const val = inputField.value;
+                cleanup();
+                resolve(val);
+            };
+
+            const cancel = () => {
+                cleanup();
+                resolve(null);
+            };
+
+            inputOk.onclick = confirm;
+            inputCancel.onclick = cancel;
+
+            // Allow pressing ENTER to confirm
+            inputField.onkeydown = (e) => {
+                if (e.key === 'Enter') confirm();
+                if (e.key === 'Escape') cancel();
+            };
+
+            inputModal.classList.remove('hidden');
+            // Focus the input automatically
+            setTimeout(() => inputField.focus(), 50);
+        });
+    };
+
     const genericDialogModal = document.getElementById('genericDialogModal');
     const genericDialogTitle = document.getElementById('genericDialogTitle');
     const genericDialogMessage = document.getElementById('genericDialogMessage');
@@ -1724,7 +1772,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const modInfo = JSON.parse(content);
 
             if (modInfo && modInfo.id === "") {
-                const nexusUrl = prompt(i18n.get('promptForNexusLink', { modName: modFolderName }));
+                const nexusUrl = await window.customPrompt(
+                    i18n.get('promptForNexusLink', { modName: modFolderName }),
+                    i18n.get('linkModTitle')
+                );
                 if (!nexusUrl) {
                     await window.customAlert(i18n.get('linkCancelled', { modName: modFolderName }), "Cancelled");
                     return;
@@ -2225,7 +2276,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modDetailSecondaryActions.innerHTML = '';
         const changelogBtn = document.createElement('button');
         changelogBtn.className = 'detail-action-btn';
-        changelogBtn.textContent = 'CHANGELOGS';
+        changelogBtn.textContent = 'Changelogs';
         changelogBtn.onclick = () => {
             const changelogs = modData.changelogs || {};
             displayChangelogs(modData.name, changelogs);
@@ -2234,7 +2285,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const nexusLinkBtn = document.createElement('a');
         nexusLinkBtn.className = 'detail-action-btn';
-        nexusLinkBtn.textContent = 'VISIT ON NEXUS';
+        nexusLinkBtn.textContent = 'Visit on Nexus';
         nexusLinkBtn.href = `https://www.nexusmods.com/nomanssky/mods/${modData.mod_id}`;
         nexusLinkBtn.target = '_blank';
         modDetailSecondaryActions.appendChild(nexusLinkBtn);
@@ -3248,7 +3299,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 1. ADD
     document.getElementById('mpCreateBtn').addEventListener('click', async () => {
-        const name = prompt(i18n.get('enterProfileName'));
+        const name = await window.customPrompt(i18n.get('enterProfileName'), i18n.get('addBtn'));
         if (name && name.trim() !== "") {
             try {
                 await invoke('create_empty_profile', { profileName: name });
@@ -3268,7 +3319,10 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('mpCopyBtn').addEventListener('click', async () => {
         if (!selectedProfileInModal) return;
 
-        const newName = prompt(i18n.get('copyProfilePrompt', { source: selectedProfileInModal }));
+        const newName = await window.customPrompt(
+            i18n.get('copyProfilePrompt', { source: selectedProfileInModal }),
+            i18n.get('copyBtn')
+        );
         if (newName && newName.trim() !== "") {
             try {
                 await invoke('copy_profile', {
@@ -3290,7 +3344,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!selectedProfileInModal) return;
         if (selectedProfileInModal === 'Default') return await window.customAlert(i18n.get('cannotRenameDefault'), "Action Denied");
 
-        const newName = prompt(i18n.get('renameProfilePrompt', { profile: selectedProfileInModal }));
+        const newName = await window.customPrompt(
+            i18n.get('renameProfilePrompt', { profile: selectedProfileInModal }),
+            i18n.get('renameBtn'),
+            selectedProfileInModal // Pass current name as default value
+        );
         if (newName && newName !== selectedProfileInModal) {
             try {
                 await invoke('rename_profile', { oldName: selectedProfileInModal, newName: newName });
@@ -3396,7 +3454,7 @@ document.addEventListener('DOMContentLoaded', () => {
     profileSelect.addEventListener('change', updateApplyButtonVisibility);
 
     addProfileBtn.addEventListener('click', async () => {
-        const name = prompt("Enter new profile name:");
+        const name = await window.customPrompt(i18n.get('enterProfileName'), i18n.get('addBtn'));
         if (name && name.trim() !== "") {
             try {
                 await invoke('create_empty_profile', { profileName: name });
@@ -3414,7 +3472,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const current = profileSelect.value;
         if (current === 'Default') return await window.customAlert("Cannot rename Default profile.", "Action Denied");
 
-        const newName = prompt(`Rename ${current} to:`, current);
+        const newName = await window.customPrompt(
+            i18n.get('renameProfilePrompt', { profile: current }),
+            i18n.get('renameBtn'),
+            current
+        );
         if (newName && newName !== current) {
             try {
                 await invoke('rename_profile', { oldName: current, newName: newName });

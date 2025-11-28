@@ -2987,3 +2987,16 @@ button.context-menu-item.delete:hover {
     /* Guide line */
     overflow: hidden;
 }
+
+/* Input Modal Specifics */
+#inputDialogField {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--c-border);
+    color: #fff;
+    padding: 10px;
+}
+
+#inputDialogField:focus {
+    border-color: var(--c-accent-primary);
+    box-shadow: 0 0 5px rgba(202, 72, 98, 0.5);
+}

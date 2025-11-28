@@ -77,6 +77,7 @@
   "switchProfileMsg": "Switch profile to \"{{profileName}}\"?\n\nThis will purge current mods and install the profile's mods.",
   "cannotRenameDefault": "Cannot rename Default profile.",
   "cannotDeleteDefault": "Cannot delete Default profile.",
+  "linkModTitle": "Link Mod",
   "__comment_DOWNLOADS": "=== DOWNLOADS & UPDATES ===",
   "downloadHistoryTitle": "DOWNLOADS",
   "openDownloadsFolderBtn": "OPEN DOWNLOADS FOLDER",
