@@ -5566,5 +5566,593 @@
         "id": "3438",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "NMS Simply Enhance",
+        "id": "3871",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "(Simplified) Sentinel Starship Fabricator",
+        "id": "3044",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "GCreatures Predators Frequency - Difficulty Mod - EXML",
+        "id": "1839",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zNo Spin Chairs",
+        "id": "3873",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zNo PickUp Glitches",
+        "id": "3874",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "MT Shop Everywhere",
+        "id": "2371",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Balanced MT Cabinet Lighting",
+        "id": "2372",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NPC Landing Pad",
+        "id": "2851",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man's Sky Advanced Base Building and Quality Of Life Improvements pack - New Gameplay Mechanics 2025",
+        "id": "3809",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Interstellar Coordinates Received Prompt",
+        "id": "2190",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bobblehead Figurine Priority",
+        "id": "3698",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Portal on SpaceStation V2",
+        "id": "2645",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sentinel Cockpit No Red Circuitry View",
+        "id": "2860",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Savegame By Hotkey",
+        "id": "1292",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Allow build on freighter bridge",
+        "id": "3682",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Lumen",
+        "id": "1600",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Personal Shield Generator",
+        "id": "1237",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cockpit And Ship Cloak",
+        "id": "1313",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Atlas Orb Word-o-Rama",
+        "id": "2565",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Snappy Industry",
+        "id": "2113",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Solar Ship Sail Always Folded Or Unfolded",
+        "id": "2230",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ReLight 5.4",
+        "id": "1644",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Clean Space Origins (CSO)",
+        "id": "3640",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bigger Derelict Freighters",
+        "id": "3228",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fly Dangerous II",
+        "id": "3566",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Industrial FPS Booster",
+        "id": "1531",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Abandoned Building Eggs",
+        "id": "3696",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "VR Ship Headlights (toggleable)",
+        "id": "1418",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Glowing Plants 2.2",
+        "id": "1152",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "VR Warnings Disabler",
+        "id": "1153",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Wraith Tail Remover",
+        "id": "3611",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosolar's and Babs' Stealth Wires",
+        "id": "1107",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No More wires II",
+        "id": "3567",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "BuildFrame RecTUM - Recategorisation and Trimming Utility for Build Menu",
+        "id": "2197",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zBridge Terminal v6.10",
+        "id": "3439",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gShip Corvette Supercomputer",
+        "id": "3779",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Space Stations Sell Everything (EISS)",
+        "id": "3211",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unstuck (Teleport to Station)",
+        "id": "3777",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Rotating Atmosphere 3.5",
+        "id": "1662",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Darkless Icons",
+        "id": "3875",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Only S class",
+        "id": "2878",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Square Super Charged Slots",
+        "id": "2879",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Boltcaster No Recoil and Cooldown",
+        "id": "2896",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Max Standing Tech Discount",
+        "id": "3003",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Add Ship Custom Parts To Space Station Shop",
+        "id": "3009",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Space Station Lighting Color",
+        "id": "3021",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fix Hauler Custom Part",
+        "id": "3026",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Replace Freighter Landing Pad",
+        "id": "3074",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Simplified Chinese HarmonyOS Sans Font",
+        "id": "3078",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Add Fish To Shop",
+        "id": "3181",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Settlement Bait Production",
+        "id": "3559",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unlockable EXPD Product Tree",
+        "id": "3248",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "UIO - User Interface Overhaul (BETA)",
+        "id": "3865",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Where Am I - Relic Gate Warp",
+        "id": "2268",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Normandy Unlocker",
+        "id": "3246",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Ghost Frigate Unlocker",
+        "id": "3244",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Backpack Toggle",
+        "id": "1261",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Atlas Staff Unlocker",
+        "id": "3247",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Wraith Unlocker",
+        "id": "3403",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Utopia Speeder Unlocker",
+        "id": "3243",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Golden Vector Unlocker",
+        "id": "3245",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Iron Vulture Unlocker",
+        "id": "3060",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Boundary Herald Unlocker",
+        "id": "3240",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Starborn Runner Unlocker",
+        "id": "3242",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Starborn Phoenix Unlocker",
+        "id": "3270",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Creature Finder",
+        "id": "3876",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bigger Wallet 3.4",
+        "id": "1784",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Black Carbon 4.7",
+        "id": "1231",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Convenient Corvette Teleporters 1.6",
+        "id": "3753",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Freighter Room Teleporter Fix 1.8",
+        "id": "2389",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Slightly Wall-proof Camera",
+        "id": "3877",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man's Sky - Explorer Modlist",
+        "id": "3878",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Consumerism - Expedition Twitch and Community reward unlocker",
+        "id": "2062",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Freighter Tech Expanded",
+        "id": "3816",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cooking with Cronus",
+        "id": "2554",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Galactic Positioning System",
+        "id": "2144",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JJs Better Ships",
+        "id": "547",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Don't Panic",
+        "id": "2128",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Exosuit Chambers 2.7",
+        "id": "1780",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Cargo Drops 3.9",
+        "id": "1307",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Custom Panels 2.0",
+        "id": "3353",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Bird's Eye Scans 2.6",
+        "id": "2740",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Increase Space Encounter Chance",
+        "id": "1874",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "New Warps 1.2",
+        "id": "3629",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Atmosphere Hover and Reverse - Pulse Speed Adjustments",
+        "id": "688",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Early Character Creator",
+        "id": "2995",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Quieter Customiser",
+        "id": "893",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HD Clouds (the other one)",
+        "id": "3879",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "BuildableOnPlanet",
+        "id": "3872",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Build the Antimatter Reactor on your Freighter",
+        "id": "3444",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Small Panels 5.2",
+        "id": "1285",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Anomaly Detector odds",
+        "id": "2447",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Settlements",
+        "id": "3230",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "EDC (Enhanced Difficulty Customizer)",
+        "id": "3867",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Anomalous Research Unit",
+        "id": "3256",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reticules color(Ship Weapon and MultiTool Weapon)",
+        "id": "3885",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Rewards",
+        "id": "1460",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Galactic Positioning System RU",
+        "id": "3889",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
