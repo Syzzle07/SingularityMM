@@ -2262,12 +2262,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Mining-Extracting Facility (Blender File)",
-        "id": "3495",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Realistic NMS ReShade (V.5.0)",
         "id": "3400",
         "state": "normal",
@@ -6734,6 +6728,342 @@
     {
         "name": "Keep Talking Chef",
         "id": "2290",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Keep Mapping",
+        "id": "3695",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Keep Talking Polo E7",
+        "id": "2313",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Storage Expansion Modules",
+        "id": "2317",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Meta Mod",
+        "id": "1810",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Ultra Base Building",
+        "id": "1214",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sentinel Police Player Ship",
+        "id": "1305",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Words",
+        "id": "2333",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Aerial Scan for StarCharts",
+        "id": "2436",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Kill Creatures Missions II",
+        "id": "3594",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Purple Portals",
+        "id": "2990",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Abandoned Building Finder (Whispering Egg Helper)",
+        "id": "2124",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Quicksilver Missions",
+        "id": "2288",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Quicksilver Daily Mission Reward Multiplier",
+        "id": "2289",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Gas Planets Everywhere (EXML)",
+        "id": "3324",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Station Colour Fix",
+        "id": "3904",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Craftable Corvette Parts",
+        "id": "3863",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Mod Warnings Be Gone (5.7 - X.X)",
+        "id": "3667",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zNo Half Open Ramp",
+        "id": "3905",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Polskie poprawki",
+        "id": "3894",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "AntiBloom -the original",
+        "id": "1752",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Text View",
+        "id": "1766",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cheaper Corvette Parts",
+        "id": "3731",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DUD'S - Dynamic Standing",
+        "id": "3505",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Increased S Class Starship and freighter spawn chance",
+        "id": "3141",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Less Lonely",
+        "id": "2986",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Freighter battles",
+        "id": "2845",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exocraft speed x3",
+        "id": "2699",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Learn more words from Knowledge stones",
+        "id": "2844",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Atlas Companion",
+        "id": "3715",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Biome Randomizer",
+        "id": "3908",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Rusty Tech Clothes",
+        "id": "3909",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Perfect Upgrade Modules (PUM)",
+        "id": "3912",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Locate Assistant for Ship Hunting (FLASH)",
+        "id": "3913",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Simple Colored System Info",
+        "id": "3914",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Intro v6.17 - Potential Steam Deck Controller Restart Fix",
+        "id": "2292",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cheaper Squadron Slots",
+        "id": "3916",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "VR CleanHUD",
+        "id": "3917",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "GeoNMS Font - RuFix",
+        "id": "3918",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster exocraft mining",
+        "id": "3919",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Delay Tutorial Messages",
+        "id": "2935",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Container Requirements",
+        "id": "2936",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Micro Pulse Speed Lines",
+        "id": "2934",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Russian Localization Fix",
+        "id": "2901",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "BetterSettlements",
+        "id": "2855",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Endless Upgrade Shop Capacity",
+        "id": "3925",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hauler Engine Icon Fix",
+        "id": "3922",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Vile Brood Salvageable Scrap Icon Fix",
+        "id": "3921",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Waterworld Giants",
+        "id": "3924",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Settlement Fabricator Camera Fix",
+        "id": "3926",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Gas Giants Color Fix",
+        "id": "3923",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man Sky Turkish Translate",
+        "id": "2533",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Lasagna Obscura - Colors and Fog Overhaul",
+        "id": "3920",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Super Wall Light",
+        "id": "3927",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Complexity Increase",
+        "id": "3881",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Buyable Corvette Parts",
+        "id": "3882",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Buyable Relics",
+        "id": "3883",
         "state": "normal",
         "warningMessage": ""
     }
