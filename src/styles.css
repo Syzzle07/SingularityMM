@@ -514,7 +514,8 @@ h3,
 
 .mod-list {
     flex-grow: 1;
-    overflow-y: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .header-row {
@@ -562,7 +563,7 @@ h3,
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 20px;
+    margin-right: 10px;
 }
 
 .header-row .priority {
@@ -588,13 +589,15 @@ h3,
 }
 
 .mod-row input[type="text"] {
-    background-color: rgba(74, 74, 74, 0.9);
-    border: 1px solid var(--c-accent-primary);
+    /* background-color: rgba(74, 74, 74, 0.9); */
+    /* border: 1px solid var(--c-accent-primary); */
+    background: transparent;
     border-radius: 4px;
+    border: none;
     color: var(--c-text-primary);
     padding: 4px;
     text-align: center;
-    width: 60px;
+    width: 30px;
     font-family: var(--font-primary);
     font-size: 14px;
 }
@@ -2421,12 +2424,13 @@ button.context-menu-item.delete:hover {
     color: #fff;
     font-family: var(--font-secondary);
     font-size: 12px;
-    padding: 8px 0;
+    padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.2s;
     text-transform: uppercase;
-    width: 210px;
+    width: auto;
+    min-width: 90px;
 }
 
 .modal-btn-delete:hover {
@@ -2447,7 +2451,6 @@ button.context-menu-item.delete:hover {
     cursor: pointer;
     transition: all 0.2s;
     text-transform: uppercase;
-    width: 200px;
 }
 
 .modal-btn-nxm:hover,
@@ -2473,7 +2476,6 @@ button.context-menu-item.delete:hover {
     cursor: pointer;
     transition: all 0.2s;
     text-transform: uppercase;
-    width: 70px;
 }
 
 #closeSettingsModalBtn:hover,
@@ -2485,6 +2487,15 @@ button.context-menu-item.delete:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
     font-weight: bold;
+}
+
+.modal-btn-cancel,
+.modal-btn-nxm,
+.modal-btn-nxm-confirm,
+.modal-btn-warning {
+    width: auto;
+    padding: 5px 10px;
+    min-width: 70px;
 }
 
 /* --- Style Modal --- */
@@ -2559,7 +2570,7 @@ button.context-menu-item.delete:hover {
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid var(--c-border);
     color: var(--c-text-primary);
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
     font-family: var(--font-secondary);
@@ -2586,7 +2597,7 @@ button.context-menu-item.delete:hover {
 }
 
 .mp-action-btn {
-    padding: 5px 20px;
+    padding: 5px 10px;
     cursor: pointer;
     font-family: var(--font-secondary);
     border: 1px solid var(--c-border);
@@ -2608,14 +2619,17 @@ button.context-menu-item.delete:hover {
     color: #fff;
     font-family: var(--font-secondary);
     font-size: 12px;
-    padding: 4px 0;
+    padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.2s;
     text-transform: uppercase;
-    width: 70px;
+    display: inline-flex;
+    width: fit-content;
+    min-width: 70px;
+    white-space: nowrap;
+    flex-shrink: 0;
 
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -2626,36 +2640,33 @@ button.context-menu-item.delete:hover {
     font-weight: bold;
 }
 
-.modal-gen-btn-confirm {
+.modal-gen-btn-confirm,
+.modal-btn-confirm {
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid var(--c-border);
     color: #fff;
     font-family: var(--font-secondary);
     font-size: 12px;
-    padding: 5px 0;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.2s;
     text-transform: uppercase;
-    width: 50px;
-
-    display: flex;
+    display: inline-flex !important;
     align-items: center;
     justify-content: center;
+    width: auto !important;
+    max-width: none !important;
+    flex-shrink: 0 !important;
+    flex-grow: 0 !important;
+    white-space: nowrap !important;
+    padding: 5px 10px !important;
+    min-width: 50px;
 }
 
 .modal-gen-btn-confirm:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: var(--c-accent-primary);
     font-weight: bold;
-}
-
-#fsmInstallSelectedBtn {
-    width: 70px;
-}
-
-#fsmInstallAllBtn {
-    width: 90px;
 }
 
 /* --- Settings Modal: Account Row --- */
@@ -2860,26 +2871,6 @@ button.context-menu-item.delete:hover {
     opacity: 0.8;
 }
 
-.modal-btn-temp-delete {
-    background-color: rgba(0, 0, 0, 0.3);
-    border: 1px solid var(--c-border);
-    color: #fff;
-    font-family: var(--font-secondary);
-    font-size: 12px;
-    padding: 8px 0;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.2s;
-    text-transform: uppercase;
-    width: 155px;
-}
-
-.modal-btn-temp-delete:hover {
-    background-color: var(--c-danger-hover);
-    border-color: var(--c-accent-primary);
-    font-weight: bold;
-}
-
 /* --- Download Modal Header --- */
 .download-modal-header {
     display: flex;
@@ -2912,6 +2903,7 @@ button.context-menu-item.delete:hover {
     cursor: pointer;
     transition: all 0.2s;
     text-transform: uppercase;
+    width: auto;
 
     display: flex;
     align-items: center;

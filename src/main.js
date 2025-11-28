@@ -1520,15 +1520,28 @@ document.addEventListener('DOMContentLoaded', () => {
             nameEl.textContent = displayName;
             nameEl.setAttribute('title', displayName);
 
-            newItem.querySelector('.download-item-status').textContent = itemData.statusText;
+            const statusEl = newItem.querySelector('.download-item-status');
+
+            // 1. Set the Class (Color)
+            statusEl.className = 'download-item-status';
+            statusEl.classList.add(`status-${itemData.statusClass}`);
+
+            // 2. Set the Text (Translation)
+            if (itemData.statusClass === 'installed') {
+                statusEl.textContent = i18n.get('statusInstalled');
+            } else if (itemData.statusClass === 'success') {
+                statusEl.textContent = i18n.get('statusDownloaded');
+            } else if (itemData.statusClass === 'cancelled') {
+                statusEl.textContent = i18n.get('statusCancelled');
+            } else {
+                // For 'progress' or 'error', use the specific text from backend
+                statusEl.textContent = itemData.statusText;
+            }
+
             newItem.querySelector('.download-item-size').textContent = formatBytes(itemData.size);
 
             const timestamp = itemData.createdAt || parseInt(itemData.id.split('-')[1], 10) / 1000;
             newItem.querySelector('.download-item-date').textContent = formatDate(timestamp);
-
-            const statusEl = newItem.querySelector('.download-item-status');
-            statusEl.className = 'download-item-status';
-            statusEl.classList.add(`status-${itemData.statusClass}`);
 
             newItem.addEventListener('dblclick', () => {
                 if (newItem.classList.contains('installable')) {
