@@ -116,7 +116,7 @@
     "priorityModalDesc": "Digite um novo número de prioridade entre 0 e {{max}}.",
     "__comment_ALERTS": "=== ALERTS & ERRORS ===",
     "warningTitle": "Aviso",
-    "untrackedModsMsg": "AVISO: Mods Não Rastreados Detectados!\n\nVocê tem mods na sua pasta que não foram instalados através deste Gerenciador.\n\nEsses arquivos NÃO são rastreados pelo sistema de Perfis. Se você trocar de perfil, esses arquivos podem ser excluídos ou causar conflitos.\n\nPara corrigir isso, exclua-os da pasta e reinstale-os arrastando seus arquivos .zip para o Gerenciador.",
+    "untrackedModsMsg": "AVISO: Mods não Rastreados Detectados!\n\nVocê tem mods na sua pasta que não foram instalados através deste Gerenciador.\n\nEsses arquivos NÃO são rastreados pelo sistema de Perfis. Se você trocar de perfil, esses arquivos podem ser excluídos ou causar conflitos.\n\nPara corrigir isso, exclua-os da pasta e reinstale-os arrastando seus arquivos .zip para o Gerenciador.",
     "dontShowAgainBtn": "Não Mostrar Novamente",
     "resetWarningTitle": "Redefinição Completa",
     "resetWarningMsg": "Os avisos ocultos foram redefinidos e aparecerão novamente se problemas forem detectados.",
