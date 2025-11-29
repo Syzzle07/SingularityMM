@@ -301,6 +301,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="setting-row dl-path-row">
+                    <div class="dl-path-container">
+                        <div class="dl-path-header">
+                            <label>Mod Library Folder</label>
+                            <!-- Wrapped buttons in a div for alignment -->
+                            <div style="display:flex; gap:5px;">
+                                <button id="openLibraryBtn" class="modal-gen-btn-confirm small-btn"
+                                    data-i18n="openFolderBtn">Open Folder</button>
+                                <button id="changeLibraryDirBtn" class="modal-btn-nxm-confirm small-btn"
+                                    data-i18n="changeBtn">Change</button>
+                            </div>
+                        </div>
+                        <div id="currentLibraryPath" class="dl-path-text">Loading...</div>
+                    </div>
+                </div>
                 <!-- NXM Handler Section -->
                 <div class="troubleshoot-section">
                     <h3 data-i18n="modManagerDownloadsTitle">MOD MANAGER DOWNLOADS</h3>
@@ -485,8 +500,8 @@
                 </div>
 
                 <div class="mp-footer">
-                    <button id="mpOpenFolderBtn" class="mp-action-btn left-aligned"
-                        data-i18n="openProfileFolderBtn">Open Folder</button>
+                    <button id="mpOpenFolderBtn" class="mp-action-btn left-aligned" data-i18n="openFolderBtn">Open
+                        Folder</button>
                     <button id="mpSelectBtn" class="mp-action-btn" data-i18n="selectBtn">Select</button>
                     <button id="mpCloseBtn" class="mp-action-btn" data-i18n="closeBtn">Close</button>
                 </div>

@@ -12,8 +12,6 @@ use std::collections::HashMap;
 use std::env;
 use std::fs;
 use std::path::{Path, PathBuf};
-use std::thread;
-use std::time::Duration;
 use tauri::{AppHandle, Emitter, Manager};
 use tauri::{LogicalSize, PhysicalPosition};
 use unrar;
@@ -22,16 +20,13 @@ use winreg::RegKey;
 use zip::ZipArchive;
 use std::time::UNIX_EPOCH;
 use std::process::Command;
-use std::io::{self, Read};
-use sha2::{Sha256, Digest};
-use hex;
+use std::io::{self, Write};
 use uuid::Uuid;
 use tokio_tungstenite::{connect_async, tungstenite::protocol::Message};
 use futures_util::{StreamExt, SinkExt};
 use url::Url;
 use tauri::path::BaseDirectory;
 use std::sync::Mutex;
-use std::io::Write;
 use std::fs::OpenOptions;
 
 // --- STRUCTS ---
@@ -150,7 +145,6 @@ struct GamePaths {
 #[derive(Serialize, Deserialize, Clone, Debug)]
 struct ProfileModEntry {
     filename: String,
-    hash: String,
     mod_id: Option<String>,
     file_id: Option<String>,
     version: Option<String>,
@@ -176,6 +170,7 @@ struct ProfileSwitchProgress {
 #[derive(Serialize, Deserialize, Debug)]
 struct GlobalAppConfig {
     custom_download_path: Option<String>,
+    custom_library_path: Option<String>,
     #[serde(default)] // Default to false/null if missing in old configs
     legacy_migration_done: bool, 
 }
@@ -203,6 +198,81 @@ const CLEAN_MXML_TEMPLATE: &str = r#"<?xml version="1.0" encoding="utf-8"?>
 static DIR_LOCK: Mutex<()> = Mutex::new(());
 
 // --- HELPER FUNCTIONS ---
+fn smart_deploy_file(source: &Path, dest: &Path) -> Result<(), String> {
+    // 1. Ensure destination parent exists
+    if let Some(parent) = dest.parent() {
+        if !parent.exists() {
+            fs::create_dir_all(parent).map_err(|e| e.to_string())?;
+        }
+    }
+
+    // 2. Remove existing file at destination (Hardlinks fail if file exists)
+    if dest.exists() {
+        // We try removing file. If it's a directory, this will fail, but standard NMS mods are files.
+        // If you have nested folders overwriting files, we might need more logic, but this is standard.
+        fs::remove_file(dest).map_err(|e| e.to_string())?;
+    }
+
+    // 3. Try Hardlink (Fast, 0 Disk Space)
+    // This works if Source (Library) and Dest (Game) are on the same partition.
+    if std::fs::hard_link(source, dest).is_ok() {
+        return Ok(());
+    }
+
+    // 4. If Hardlink failed (likely Cross-Drive), Fallback to Copy (Slower, duplicates data)
+    // println!("Hardlink failed, falling back to copy for {:?}", source); 
+    std::fs::copy(source, dest).map_err(|e| e.to_string())?;
+    
+    Ok(())
+}
+
+fn deploy_structure_recursive(source: &Path, dest: &Path) -> Result<(), String> {
+    if !dest.exists() {
+        fs::create_dir_all(dest).map_err(|e| e.to_string())?;
+    }
+
+    for entry in fs::read_dir(source).map_err(|e| e.to_string())? {
+        let entry = entry.map_err(|e| e.to_string())?;
+        let file_type = entry.file_type().map_err(|e| e.to_string())?;
+        let src_path = entry.path();
+        let dest_path = dest.join(entry.file_name());
+
+        if file_type.is_dir() {
+            deploy_structure_recursive(&src_path, &dest_path)?;
+        } else {
+            smart_deploy_file(&src_path, &dest_path)?;
+        }
+    }
+    Ok(())
+}
+
+fn get_library_dir(app: &AppHandle) -> Result<PathBuf, String> {
+    // 1. Check config for custom path
+    if let Ok(config_path) = get_config_file_path(app) {
+        if config_path.exists() {
+            if let Ok(content) = fs::read_to_string(&config_path) {
+                if let Ok(config) = serde_json::from_str::<GlobalAppConfig>(&content) {
+                    if let Some(custom) = config.custom_library_path {
+                        let path = PathBuf::from(custom);
+                        if !path.exists() {
+                            fs::create_dir_all(&path).map_err(|e| e.to_string())?;
+                        }
+                        return Ok(path);
+                    }
+                }
+            }
+        }
+    }
+
+    // 2. Fallback to default APPDATA
+    let root = get_singularity_root(app)?;
+    let lib_dir = root.join("Library");
+    if !lib_dir.exists() {
+        fs::create_dir_all(&lib_dir).map_err(|e| e.to_string())?;
+    }
+    Ok(lib_dir)
+}
+
 fn get_log_file_path(app: &AppHandle) -> Result<PathBuf, String> {
     let app_data = app.path().app_data_dir().map_err(|e| e.to_string())?;
     if !app_data.exists() {
@@ -382,20 +452,6 @@ fn get_downloads_dir(app: &AppHandle) -> Result<PathBuf, String> {
     Ok(downloads)
 }
 
-fn calculate_file_hash(path: &Path) -> Result<String, String> {
-    let mut file = fs::File::open(path).map_err(|e| e.to_string())?;
-    let mut hasher = Sha256::new();
-    let mut buffer = [0; 4096];
-
-    loop {
-        let count = file.read(&mut buffer).map_err(|e| e.to_string())?;
-        if count == 0 { break; }
-        hasher.update(&buffer[..count]);
-    }
-
-    Ok(hex::encode(hasher.finalize()))
-}
-
 fn read_mod_info(mod_path: &Path) -> Option<ModInfo> {
     let info_path = mod_path.join("mod_info.json");
     if !info_path.exists() {
@@ -504,18 +560,16 @@ fn find_gamepass_path() -> Option<PathBuf> {
     None
 }
 
-fn extract_archive_to_temp<F>(
+fn extract_archive<F>(
     archive_path: &Path, 
-    target_staging_root: &Path,
+    destination: &Path, // <--- CHANGED: Exact path where files go
     on_progress: F
-) -> Result<PathBuf, String> 
+) -> Result<(), String> // <--- CHANGED: Returns (), path is already known
 where F: Fn(u64) 
 {
-    let unique_folder_name = format!("extract_{}", Utc::now().timestamp_millis());
-    let temp_extract_path = target_staging_root.join(unique_folder_name);
-    
-    fs::create_dir_all(&temp_extract_path)
-        .map_err(|e| format!("Could not create extraction dir: {}", e))?;
+    if !destination.exists() {
+        fs::create_dir_all(destination).map_err(|e| format!("Could not create dest dir: {}", e))?;
+    }
 
     let abs_archive_path = archive_path.canonicalize()
         .map_err(|e| format!("Invalid archive path '{}': {}", archive_path.display(), e))?;
@@ -532,7 +586,7 @@ where F: Fn(u64)
                 let mut file = archive.by_index(i).map_err(|e| e.to_string())?;
                 
                 let outpath = match file.enclosed_name() {
-                    Some(path) => temp_extract_path.join(path),
+                    Some(path) => destination.join(path), // Use destination directly
                     None => continue,
                 };
 
@@ -554,8 +608,8 @@ where F: Fn(u64)
             let _guard = DIR_LOCK.lock().map_err(|e| e.to_string())?;
             let original_dir = env::current_dir().map_err(|e| e.to_string())?;
             
-            // Change directory to extract relative paths
-            env::set_current_dir(&temp_extract_path).map_err(|e| e.to_string())?;
+            // Change to destination
+            env::set_current_dir(destination).map_err(|e| e.to_string())?;
             
             let extract_result = (|| -> Result<(), String> {
                 let mut archive = unrar::Archive::new(&abs_archive_path)
@@ -575,13 +629,13 @@ where F: Fn(u64)
         }
         "7z" => {
             on_progress(50);
-            sevenz_rust::decompress_file(&abs_archive_path, &temp_extract_path).map_err(|e| e.to_string())?;
+            sevenz_rust::decompress_file(&abs_archive_path, destination).map_err(|e| e.to_string())?;
             on_progress(100);
         }
         _ => return Err(format!("Unsupported file type: .{}", extension)),
     }
     
-    Ok(temp_extract_path)
+    Ok(())
 }
 
 // --- TAURI COMMANDS ---
@@ -666,11 +720,9 @@ async fn install_mod_from_archive(
     download_id: String 
 ) -> Result<InstallationAnalysis, String> {
     
-    // 1. Setup Progress Callbacks
     let id_for_progress = download_id.clone();
     let app_handle_for_extract = app.clone();
 
-    // Callback specifically for the extraction function (reports %)
     let progress_callback = move |pct: u64| {
         let _ = app_handle_for_extract.emit("install-progress", InstallProgressPayload {
             id: id_for_progress.clone(),
@@ -679,7 +731,6 @@ async fn install_mod_from_archive(
         });
     };
 
-    // General helper for text updates
     let emit_progress = |step: &str| {
         let _ = app.emit("install-progress", InstallProgressPayload {
             id: download_id.clone(),
@@ -692,11 +743,10 @@ async fn install_mod_from_archive(
 
     let archive_path = PathBuf::from(&archive_path_str);
     let downloads_dir = get_downloads_dir(&app)?;
-    let staging_dir = get_staging_dir(&app)?; 
+    let library_dir = get_library_dir(&app)?; // <--- CHANGE: Use Library Dir
 
-    // 2. Copying Phase (Background Thread)
+    // 1. Copying Phase
     emit_progress("Copying to library...");
-    
     let archive_path_clone = archive_path.clone();
     let downloads_dir_clone = downloads_dir.clone();
     
@@ -723,26 +773,38 @@ async fn install_mod_from_archive(
 
     let final_archive_path_str = final_archive_path.to_string_lossy().into_owned();
 
-    // 3. Extraction Phase (Background Thread + Progress Callback)
-    
-    let final_archive_path_clone = final_archive_path.clone();
-    let staging_dir_clone = staging_dir.clone();
+    // 2. Library Preparation / Extraction Phase
+    // Construct a unique folder name based on the zip filename (e.g. "MyMod.zip_unpacked")
+    let zip_name = final_archive_path.file_name().unwrap().to_string_lossy();
+    let library_folder_name = format!("{}_unpacked", zip_name);
+    let library_mod_path = library_dir.join(&library_folder_name);
 
-    let temp_extract_path = tauri::async_runtime::spawn_blocking(move || {
-        extract_archive_to_temp(&final_archive_path_clone, &staging_dir_clone, progress_callback)
+    // Clone for thread
+    let final_archive_path_clone = final_archive_path.clone();
+    let library_mod_path_clone = library_mod_path.clone();
+
+    // Start Task
+    tauri::async_runtime::spawn_blocking(move || -> Result<(), String> {
+        // OPTIMIZATION: Check if already extracted
+        if library_mod_path_clone.exists() {
+            // Optional: You could verify contents here, but for now assume if folder exists, it's good.
+            // We skip extraction!
+            return Ok(());
+        }
+
+        // If not, extract to the permanent library folder
+        extract_archive(&final_archive_path_clone, &library_mod_path_clone, progress_callback)
     }).await.map_err(|e| e.to_string())??;
 
-    // 4. Analysis Phase (Background Thread)
+    // 3. Analysis Phase (Scanning the Library)
     emit_progress("Analyzing structure...");
     
-    let temp_extract_path_clone = temp_extract_path.clone();
+    let library_mod_path_clone = library_mod_path.clone();
     
     let (folder_entries, installable_paths) = tauri::async_runtime::spawn_blocking(move || {
-        // Deep scan for game data folders
-        let installable = scan_for_installable_mods(&temp_extract_path_clone, &temp_extract_path_clone);
+        let installable = scan_for_installable_mods(&library_mod_path_clone, &library_mod_path_clone);
         
-        // Shallow scan for fallback
-        let entries: Vec<_> = fs::read_dir(&temp_extract_path_clone)
+        let entries: Vec<_> = fs::read_dir(&library_mod_path_clone)
             .map_err(|e| e.to_string())?
             .filter_map(Result::ok)
             .filter(|entry| entry.path().is_dir())
@@ -751,35 +813,29 @@ async fn install_mod_from_archive(
         Ok::<_, String>((entries, installable))
     }).await.map_err(|e| e.to_string())??;
 
-    let temp_id = temp_extract_path.file_name().unwrap().to_string_lossy().into_owned();
+    // We pass the library folder name as the ID now
+    let library_id = library_folder_name;
 
-    // --- DECISION LOGIC ---
-
-    // CASE A: Multiple valid mod folders found (e.g. "Option A", "Option B")
+    // CASE A: Multiple Options
     if installable_paths.len() > 1 {
         emit_progress("Waiting for selection...");
         return Ok(InstallationAnalysis {
-            successes: vec![],
-            conflicts: vec![],
-            messy_archive_path: None,
-            active_archive_path: Some(final_archive_path_str),
-            selection_needed: true,
-            temp_id: Some(temp_id),
+            successes: vec![], conflicts: vec![], messy_archive_path: None,
+            active_archive_path: Some(final_archive_path_str), selection_needed: true, 
+            temp_id: Some(library_id), // Send Library Name
             available_folders: Some(installable_paths),
         });
     }
     
-    // CASE B: Only 1 deep folder found (e.g. "Data/MyMod")
-    // Auto-install it, but flatten it to root (move "MyMod" to "MODS/", discarding "Data")
+    // CASE B: Single Deep Folder
     if installable_paths.len() == 1 {
         emit_progress("Finalizing...");
-        let mut analysis = finalize_installation(app, temp_id, vec![installable_paths[0].clone()], true)?;
+        let mut analysis = finalize_installation(app, library_id, vec![installable_paths[0].clone()], true)?;
         analysis.active_archive_path = Some(final_archive_path_str);
         return Ok(analysis);
     }
 
-    // CASE C: Fallback - Scanner didn't find standard game folders?
-    // Check top level folders. If multiple generic folders exist, ask user.
+    // CASE C: Fallback
     if folder_entries.len() > 1 {
         let folder_names: Vec<String> = folder_entries.iter()
             .map(|e| e.file_name().to_string_lossy().into_owned())
@@ -787,20 +843,16 @@ async fn install_mod_from_archive(
             
         emit_progress("Waiting for selection...");
         return Ok(InstallationAnalysis {
-            successes: vec![],
-            conflicts: vec![],
-            messy_archive_path: None,
-            active_archive_path: Some(final_archive_path_str),
-            selection_needed: true,
-            temp_id: Some(temp_id),
+            successes: vec![], conflicts: vec![], messy_archive_path: None,
+            active_archive_path: Some(final_archive_path_str), selection_needed: true, 
+            temp_id: Some(library_id), 
             available_folders: Some(folder_names),
         });
     }
 
-    // CASE D: Single folder / Install All
-    // Standard install.
+    // CASE D: Install All
     emit_progress("Finalizing...");
-    let mut analysis = finalize_installation(app, temp_id, vec![], false)?;
+    let mut analysis = finalize_installation(app, library_id, vec![], false)?;
     analysis.active_archive_path = Some(final_archive_path_str);
     
     Ok(analysis)
@@ -809,7 +861,7 @@ async fn install_mod_from_archive(
 #[tauri::command]
 fn finalize_installation(
     app: AppHandle, 
-    temp_id: String, 
+    library_id: String, // Renamed from temp_id to reflect it's now a Library folder
     selected_folders: Vec<String>,
     flatten_paths: bool 
 ) -> Result<InstallationAnalysis, String> {
@@ -817,11 +869,12 @@ fn finalize_installation(
     let mods_path = game_path.join("GAMEDATA").join("MODS");
     fs::create_dir_all(&mods_path).map_err(|e| e.to_string())?;
 
-    let staging_dir = get_staging_dir(&app)?;
-    let temp_extract_path = staging_dir.join(&temp_id);
+    // CHANGE: Use Library Dir instead of Staging
+    let library_dir = get_library_dir(&app)?;
+    let source_root = library_dir.join(&library_id);
 
-    if !temp_extract_path.exists() {
-        return Err("Staging folder expired or missing.".to_string());
+    if !source_root.exists() {
+        return Err("Library folder missing. Please try reinstalling the mod.".to_string());
     }
 
     let mut installed_mods_by_id: HashMap<String, String> = HashMap::new();
@@ -835,13 +888,15 @@ fn finalize_installation(
         }
     }
 
+    // We still use a temp staging for conflicts to avoid partial overwrites during the check
+    let staging_dir = get_staging_dir(&app)?;
     let conflict_staging_path = staging_dir.join(format!("conflict_{}", Utc::now().timestamp_millis()));
+    
     let mut successes = Vec::new();
     let mut conflicts = Vec::new();
 
     let items_to_process = if selected_folders.is_empty() {
-        // If empty, we look at everything in the root
-        fs::read_dir(&temp_extract_path)
+        fs::read_dir(&source_root)
             .map_err(|e| e.to_string())?
             .filter_map(Result::ok)
             .filter(|e| e.path().is_dir())
@@ -851,87 +906,53 @@ fn finalize_installation(
         selected_folders
     };
 
-    // List of actual operations to perform: (Source Path on Disk, Final Folder Name)
-    struct MoveOp {
+    struct DeployOp {
         source: PathBuf,
         dest_name: String,
     }
-    let mut moves: Vec<MoveOp> = Vec::new();
+    let mut ops: Vec<DeployOp> = Vec::new();
 
     for relative_path_str in items_to_process {
-        let source_path = temp_extract_path.join(&relative_path_str);
+        let source_path = source_root.join(&relative_path_str);
         if !source_path.exists() { continue; }
 
         if flatten_paths {
-            // --- SMART EXTRACT LOGIC ---
-            // 1. Scan inside the selected folder to see if it contains deeper mods
-            // Note: scan_for_installable_mods returns paths relative to the input dir
+            // Smart Extract Logic (Same as before)
             let deep_candidates = scan_for_installable_mods(&source_path, &source_path);
 
             if !deep_candidates.is_empty() {
-                // It contains identifiable mods (e.g. has METADATA inside). 
-                // We grab THOSE specifically.
                 for deep_rel in deep_candidates {
-                    let deep_source = if deep_rel == "." {
-                        source_path.clone()
-                    } else {
-                        source_path.join(&deep_rel)
-                    };
-
-                    let folder_name = deep_source.file_name()
-                        .ok_or("Invalid path")?
-                        .to_string_lossy()
-                        .into_owned();
-
-                    moves.push(MoveOp { source: deep_source, dest_name: folder_name });
+                    let deep_source = if deep_rel == "." { source_path.clone() } else { source_path.join(&deep_rel) };
+                    let folder_name = deep_source.file_name().ok_or("Invalid path")?.to_string_lossy().into_owned();
+                    ops.push(DeployOp { source: deep_source, dest_name: folder_name });
                 }
             } else {
-                // It doesn't look like a mod structure we recognize, OR it's just a generic folder.
-                // Fallback: Just flatten the folder itself (legacy Skip Root behavior).
-                let folder_name = source_path.file_name()
-                    .ok_or("Invalid path")?
-                    .to_string_lossy()
-                    .into_owned();
-                
-                moves.push(MoveOp { source: source_path, dest_name: folder_name });
+                let folder_name = source_path.file_name().ok_or("Invalid path")?.to_string_lossy().into_owned();
+                ops.push(DeployOp { source: source_path, dest_name: folder_name });
             }
         } else {
-            // Preserve Structure logic
-            let top_level_name = Path::new(&relative_path_str)
-                .components()
-                .next()
-                .ok_or("Invalid path")?
-                .as_os_str()
-                .to_string_lossy()
-                .into_owned();
-
-            // Note: We move the top level folder.
-            // If relative path was "A/B", we move "A" (and B goes with it).
-            // We must re-calculate source to be the top level root, not the deep path provided by selection.
-            let top_source = temp_extract_path.join(&top_level_name);
+            // Preserve Structure Logic
+            let top_level_name = Path::new(&relative_path_str).components().next().ok_or("Invalid path")?.as_os_str().to_string_lossy().into_owned();
+            let top_source = source_root.join(&top_level_name);
             
-            // Deduplicate: If multiple selections point to the same Parent, we only move Parent once.
-            // Simple check: is this dest_name already in our list?
-            if !moves.iter().any(|m| m.dest_name == top_level_name) {
-                moves.push(MoveOp { source: top_source, dest_name: top_level_name });
+            if !ops.iter().any(|m| m.dest_name == top_level_name) {
+                ops.push(DeployOp { source: top_source, dest_name: top_level_name });
             }
         }
     }
 
-    // Perform the Moves
-    for op in moves {
-        if !op.source.exists() { continue; } // Might have been moved already if nested logic overlapped
-
+    for op in ops {
         let mut conflict_found = false;
 
-        // Check ID conflict
         if let Some(info) = read_mod_info(&op.source) {
             if let Some(mod_id) = info.mod_id {
                 if let Some(old_folder_name) = installed_mods_by_id.get(&mod_id) {
                     if !conflict_staging_path.exists() { fs::create_dir_all(&conflict_staging_path).map_err(|e| e.to_string())?; }
                     
                     let staged_mod_path = conflict_staging_path.join(&op.dest_name);
-                    move_dir_safely(&op.source, &staged_mod_path)?;
+                    
+                    // CHANGE: Deploy (Copy/Link) to staging, don't move original
+                    deploy_structure_recursive(&op.source, &staged_mod_path)?;
 
                     conflicts.push(ModConflictInfo {
                         new_mod_name: op.dest_name.clone(),
@@ -947,10 +968,11 @@ fn finalize_installation(
             let final_dest_path = mods_path.join(&op.dest_name);
             
             if final_dest_path.exists() {
-                // Name Conflict
                 if !conflict_staging_path.exists() { fs::create_dir_all(&conflict_staging_path).map_err(|e| e.to_string())?; }
                 let staged_mod_path = conflict_staging_path.join(&op.dest_name);
-                move_dir_safely(&op.source, &staged_mod_path)?;
+                
+                // CHANGE: Deploy to staging
+                deploy_structure_recursive(&op.source, &staged_mod_path)?;
 
                 conflicts.push(ModConflictInfo {
                     new_mod_name: op.dest_name.clone(),
@@ -958,8 +980,9 @@ fn finalize_installation(
                     old_mod_folder_name: op.dest_name.clone(),
                 });
             } else {
-                // Success
-                move_dir_safely(&op.source, &final_dest_path)?;
+                // CHANGE: Deploy directly to Game (This creates Hardlinks if possible!)
+                deploy_structure_recursive(&op.source, &final_dest_path)?;
+                
                 successes.push(ModInstallInfo {
                     name: op.dest_name,
                     temp_path: final_dest_path.to_string_lossy().into_owned(),
@@ -968,12 +991,7 @@ fn finalize_installation(
         }
     }
 
-    // Cleanup
-    let cleanup_path = temp_extract_path.clone();
-    thread::spawn(move || {
-        thread::sleep(Duration::from_millis(1000));
-        let _ = fs::remove_dir_all(&cleanup_path);
-    });
+    // CHANGE: Removed cleanup thread. The source stays in the Library.
 
     Ok(InstallationAnalysis {
         successes,
@@ -1599,10 +1617,9 @@ fn delete_archive_file(path: String) -> Result<(), String> {
 
 #[tauri::command]
 fn clear_downloads_folder(app: AppHandle) -> Result<(), String> {
+    // 1. Clear Downloads
     let downloads_path = get_downloads_dir(&app)?;
-
     if downloads_path.exists() {
-        // Read all entries in the directory
         let entries = fs::read_dir(&downloads_path).map_err(|e| e.to_string())?;
         for entry in entries {
             if let Ok(entry) = entry {
@@ -1613,6 +1630,22 @@ fn clear_downloads_folder(app: AppHandle) -> Result<(), String> {
             }
         }
     }
+
+    // 2. Clear Library
+    let library_path = get_library_dir(&app)?;
+    if library_path.exists() {
+        let entries = fs::read_dir(&library_path).map_err(|e| e.to_string())?;
+        for entry in entries {
+            if let Ok(entry) = entry {
+                let path = entry.path();
+                // Library contains folders, so remove_dir_all
+                if path.is_dir() {
+                    fs::remove_dir_all(path).map_err(|e| e.to_string())?;
+                }
+            }
+        }
+    }
+
     Ok(())
 }
 
@@ -1691,22 +1724,7 @@ fn save_active_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
     let profiles_dir = get_profiles_dir(&app)?;
     let json_path = profiles_dir.join(format!("{}.json", profile_name));
     let mxml_backup_path = profiles_dir.join(format!("{}.mxml", profile_name));
-    let downloads_dir = get_downloads_dir(&app)?;
     
-    // --- OPTIMIZATION: Load existing profile to cache hashes ---
-    let mut hash_cache: HashMap<String, String> = HashMap::new();
-    if json_path.exists() {
-        if let Ok(content) = fs::read_to_string(&json_path) {
-            if let Ok(old_data) = serde_json::from_str::<ModProfileData>(&content) {
-                for entry in old_data.mods {
-                    // Cache the hash for this filename
-                    hash_cache.insert(entry.filename, entry.hash);
-                }
-            }
-        }
-    }
-    // -----------------------------------------------------------
-
     // Map: ZipFilename -> List of Installed Folder Names
     let mut profile_map: HashMap<String, Vec<String>> = HashMap::new();
     
@@ -1742,23 +1760,10 @@ fn save_active_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
     let mut profile_entries = Vec::new();
     for (filename, installed_folders) in profile_map {
         
-        // --- OPTIMIZATION START ---
-        // Check if we already have a hash for this filename in the cache
-        let hash = if let Some(cached_hash) = hash_cache.get(&filename) {
-            // If we have it, skip calculation!
-            cached_hash.clone()
-        } else {
-            // Only calculate if new or untracked in previous save
-            let archive_path = downloads_dir.join(&filename);
-            if archive_path.exists() {
-                calculate_file_hash(&archive_path).unwrap_or("HASH_ERROR".to_string())
-            } else {
-                "MISSING_FILE".to_string()
-            }
-        };
-        // --- OPTIMIZATION END ---
+        // --- NO HASHING HERE ANYMORE ---
+        // We simply trust the filename linkage.
 
-        // Sample metadata (same as before)
+        // Sample metadata from first folder
         let mut p_mod_id = None;
         let mut p_file_id = None;
         let mut p_version = None;
@@ -1778,7 +1783,7 @@ fn save_active_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
 
         profile_entries.push(ProfileModEntry {
             filename,
-            hash,
+            // hash: ... REMOVED
             mod_id: p_mod_id,
             file_id: p_file_id,
             version: p_version,
@@ -1813,6 +1818,7 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
     let game_path = find_game_path().ok_or("Game path not found")?;
     let mods_dir = game_path.join("GAMEDATA/MODS");
     
+    // Clean Game Folder
     if mods_dir.exists() {
         for entry in fs::read_dir(&mods_dir).map_err(|e| e.to_string())? {
             let entry = entry.map_err(|e| e.to_string())?;
@@ -1835,13 +1841,16 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
     }
 
     let downloads_dir = get_downloads_dir(&app)?;
+    let library_dir = get_library_dir(&app)?; // <--- NEW
     let total_mods = profile_data.mods.len();
     
     for (i, entry) in profile_data.mods.iter().enumerate() {
         let archive_path = downloads_dir.join(&entry.filename);
+        let library_folder_name = format!("{}_unpacked", entry.filename);
+        let library_mod_path = library_dir.join(&library_folder_name);
+
         let current_idx = i + 1;
         
-        // Emit initial 0% for this file
         app.emit("profile-progress", ProfileSwitchProgress {
             current: current_idx,
             total: total_mods,
@@ -1849,12 +1858,11 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
             file_progress: 0
         }).unwrap();
 
-        if archive_path.exists() {
-             // Clone for closure
+        // 1. Ensure Library Exists (Extract if missing)
+        if !library_mod_path.exists() && archive_path.exists() {
              let app_handle = app.clone();
              let mod_name_clone = entry.filename.clone();
              
-             // CALLBACK: Update UI during extraction
              let progress_cb = move |pct: u64| {
                  let _ = app_handle.emit("profile-progress", ProfileSwitchProgress {
                     current: current_idx,
@@ -1864,40 +1872,28 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
                 });
              };
 
-             match extract_archive_to_temp(&archive_path, &mods_dir, progress_cb) { 
-                Ok(temp_path) => {
-                     let has_specific_options = entry.installed_options.as_ref().map(|o| !o.is_empty()).unwrap_or(false);
+             // Extract to permanent library
+             if let Err(e) = extract_archive(&archive_path, &library_mod_path, progress_cb) {
+                 println!("Failed to extract {}: {}", entry.filename, e);
+                 continue;
+             }
+        }
 
-                     if has_specific_options {
-                        if let Some(options) = &entry.installed_options {
-                            for target_folder_name in options {
-                                if let Some(source_path) = find_folder_in_tree(&temp_path, target_folder_name) {
-                                    let dest = mods_dir.join(target_folder_name);
-                                    if dest.exists() { fs::remove_dir_all(&dest).ok(); }
-                                    if let Err(e) = fs::rename(&source_path, &dest) {
-                                        println!("Failed to move {}: {}", target_folder_name, e);
-                                        continue;
-                                    }
-                                    let info_path = dest.join("mod_info.json");
-                                    let info_json = serde_json::json!({
-                                        "modId": entry.mod_id,
-                                        "fileId": entry.file_id,
-                                        "version": entry.version,
-                                        "installSource": entry.filename
-                                    });
-                                    if let Ok(json_str) = serde_json::to_string_pretty(&info_json) {
-                                        fs::write(info_path, json_str).ok();
-                                    }
-                                }
+        // 2. Deploy from Library (Instant Hardlink if possible)
+        if library_mod_path.exists() {
+             let has_specific_options = entry.installed_options.as_ref().map(|o| !o.is_empty()).unwrap_or(false);
+
+             if has_specific_options {
+                if let Some(options) = &entry.installed_options {
+                    for target_folder_name in options {
+                        if let Some(source_path) = find_folder_in_tree(&library_mod_path, target_folder_name) {
+                            let dest = mods_dir.join(target_folder_name);
+                            
+                            // CHANGE: deploy_structure_recursive (Links/Copies) instead of rename (Move)
+                            if let Err(e) = deploy_structure_recursive(&source_path, &dest) {
+                                println!("Failed to deploy {}: {}", target_folder_name, e);
+                                continue;
                             }
-                        }
-                     } else {
-                        for fs_entry in fs::read_dir(&temp_path).map_err(|e| e.to_string())? {
-                            let fs_entry = fs_entry.map_err(|e| e.to_string())?;
-                            let folder_name = fs_entry.file_name().to_string_lossy().into_owned();
-                            let dest = mods_dir.join(&folder_name);
-                            if dest.exists() { fs::remove_dir_all(&dest).ok(); }
-                            fs::rename(fs_entry.path(), &dest).ok();
 
                             let info_path = dest.join("mod_info.json");
                             let info_json = serde_json::json!({
@@ -1910,11 +1906,41 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
                                 fs::write(info_path, json_str).ok();
                             }
                         }
-                     }
-                     let _ = fs::remove_dir_all(temp_path);
-                },
-                Err(e) => println!("Failed to extract {}: {}", entry.filename, e)
-            }
+                    }
+                }
+             } else {
+                // Legacy: Deploy all top-level folders
+                if let Ok(entries) = fs::read_dir(&library_mod_path) {
+                    for fs_entry in entries.filter_map(Result::ok) {
+                        let folder_name = fs_entry.file_name().to_string_lossy().into_owned();
+                        let dest = mods_dir.join(&folder_name);
+                        let src = fs_entry.path();
+
+                        // CHANGE: Deploy
+                        deploy_structure_recursive(&src, &dest).ok();
+
+                        let info_path = dest.join("mod_info.json");
+                        let info_json = serde_json::json!({
+                            "modId": entry.mod_id,
+                            "fileId": entry.file_id,
+                            "version": entry.version,
+                            "installSource": entry.filename
+                        });
+                        if let Ok(json_str) = serde_json::to_string_pretty(&info_json) {
+                            fs::write(info_path, json_str).ok();
+                        }
+                    }
+                }
+             }
+             // Note: We DO NOT remove the library folder here. It stays for next time.
+             
+             // Update progress to 100% immediately since linking is fast
+             app.emit("profile-progress", ProfileSwitchProgress {
+                current: current_idx,
+                total: total_mods,
+                current_mod: entry.filename.clone(),
+                file_progress: 100
+            }).unwrap();
         }
     }
     Ok(())
@@ -2159,32 +2185,48 @@ fn get_downloads_path(app: AppHandle) -> Result<String, String> {
 }
 
 #[tauri::command]
-fn set_downloads_path(app: AppHandle, new_path: String) -> Result<(), String> {
-    let config_path = get_config_file_path(&app)?;
+async fn set_downloads_path(app: AppHandle, new_path: String) -> Result<(), String> {
+    let old_path = get_downloads_dir(&app)?;
     
-    // Validate path exists
-    if !Path::new(&new_path).exists() {
-        return Err("The selected path does not exist.".to_string());
+    let user_selected_root = PathBuf::from(&new_path);
+    let target_path = user_selected_root.join("downloads");
+
+    if old_path == target_path {
+        return Ok(());
     }
 
-    // 1. Load existing config to preserve 'legacy_migration_done' state
-    let mut config: GlobalAppConfig = if config_path.exists() {
-        let content = fs::read_to_string(&config_path).map_err(|e| e.to_string())?;
-        serde_json::from_str(&content).unwrap_or(GlobalAppConfig { 
-            custom_download_path: None, 
-            legacy_migration_done: false 
+    if target_path.starts_with(&old_path) {
+        return Err("Cannot move the folder inside itself. Please select a different location.".to_string());
+    }
+
+    if !target_path.exists() {
+        fs::create_dir_all(&target_path).map_err(|e| e.to_string())?;
+    }
+
+    if old_path.exists() {
+        let old_clone = old_path.clone();
+        let target_clone = target_path.clone();
+        
+        tauri::async_runtime::spawn_blocking(move || -> Result<(), String> {
+            copy_dir_recursive(&old_clone, &target_clone)?;
+            fs::remove_dir_all(&old_clone).map_err(|e| e.to_string())?;
+            Ok(())
+        }).await.map_err(|e| e.to_string())??;
+    }
+
+    let config_path = get_config_file_path(&app)?;
+    let mut config = if config_path.exists() {
+        let c = fs::read_to_string(&config_path).unwrap_or_default();
+        serde_json::from_str(&c).unwrap_or(GlobalAppConfig { 
+            custom_download_path: None, custom_library_path: None, legacy_migration_done: true 
         })
     } else {
         GlobalAppConfig { 
-            custom_download_path: None, 
-            legacy_migration_done: false 
+            custom_download_path: None, custom_library_path: None, legacy_migration_done: true 
         }
     };
 
-    // 2. Update just the path
-    config.custom_download_path = Some(new_path);
-
-    // 3. Save
+    config.custom_download_path = Some(target_path.to_string_lossy().into_owned());
     let json = serde_json::to_string_pretty(&config).map_err(|e| e.to_string())?;
     fs::write(config_path, json).map_err(|e| e.to_string())?;
     
@@ -2196,6 +2238,7 @@ fn open_special_folder(app: AppHandle, folder_type: String) -> Result<(), String
     let path = match folder_type.as_str() {
         "downloads" => get_downloads_dir(&app)?,
         "profiles" => get_profiles_dir(&app)?,
+        "library" => get_library_dir(&app)?, 
         _ => return Err("Unknown folder type".to_string()),
     };
     open::that(path).map_err(|e| e.to_string())
@@ -2219,9 +2262,22 @@ fn clean_staging_folder(app: AppHandle) -> Result<usize, String> {
 }
 
 #[tauri::command]
+fn delete_library_folder(app: AppHandle, zip_filename: String) -> Result<(), String> {
+    let library_dir = get_library_dir(&app)?;
+    let library_folder_name = format!("{}_unpacked", zip_filename);
+    let target_path = library_dir.join(library_folder_name);
+
+    if target_path.exists() {
+        fs::remove_dir_all(&target_path).map_err(|e| e.to_string())?;
+    }
+    Ok(())
+}
+
+#[tauri::command]
 fn get_staging_contents(app: AppHandle, temp_id: String, relative_path: String) -> Result<Vec<FileNode>, String> {
-    let staging = get_staging_dir(&app)?;
-    let root_path = staging.join(&temp_id);
+    // CHANGE: Look in Library Dir now, not Staging
+    let library_dir = get_library_dir(&app)?;
+    let root_path = library_dir.join(&temp_id);
     
     // Construct target path
     let target_path = if relative_path.is_empty() {
@@ -2230,7 +2286,7 @@ fn get_staging_contents(app: AppHandle, temp_id: String, relative_path: String) 
         root_path.join(&relative_path)
     };
 
-    // Security: Ensure target is still inside the specific staging folder (prevent traversal)
+    // Security check
     if !target_path.starts_with(&root_path) {
         return Err("Invalid path access".to_string());
     }
@@ -2247,7 +2303,6 @@ fn get_staging_contents(app: AppHandle, temp_id: String, relative_path: String) 
         }
     }
     
-    // Sort: Directories first, then files (alphabetical)
     nodes.sort_by(|a, b| {
         if a.is_dir == b.is_dir {
             a.name.to_lowercase().cmp(&b.name.to_lowercase())
@@ -2264,24 +2319,35 @@ fn get_staging_contents(app: AppHandle, temp_id: String, relative_path: String) 
 #[tauri::command]
 async fn run_legacy_migration(app: AppHandle) -> Result<(), String> {
     let config_path = get_config_file_path(&app)?;
+    
+    // 1. Load Config
     let mut config: GlobalAppConfig = if config_path.exists() {
         let content = fs::read_to_string(&config_path).map_err(|e| e.to_string())?;
+        
+        // FIX 1: Added custom_library_path here
         serde_json::from_str(&content).unwrap_or(GlobalAppConfig { 
             custom_download_path: None, 
+            custom_library_path: None, 
             legacy_migration_done: false 
         })
     } else {
-        GlobalAppConfig { custom_download_path: None, legacy_migration_done: false }
+        // FIX 2: Added custom_library_path here
+        GlobalAppConfig { 
+            custom_download_path: None, 
+            custom_library_path: None, 
+            legacy_migration_done: false 
+        }
     };
 
     if config.legacy_migration_done {
          return Ok(());
     }
 
+    println!("[MIGRATION] Starting Global Profile Scan...");
+
     let profiles_dir = get_profiles_dir(&app)?;
     
-    // 1. Build Master Lookup Map from ALL Profiles
-    // (ModID, FileID) -> Filename
+    // 2. Build Master Lookup Map from ALL Profiles
     let mut legacy_lookup: HashMap<(String, String), String> = HashMap::new();
     
     if let Ok(entries) = fs::read_dir(&profiles_dir) {
@@ -2304,44 +2370,52 @@ async fn run_legacy_migration(app: AppHandle) -> Result<(), String> {
         }
     }
     
-    // 2. Scan Installed Mods in Game Folder
-    let game_path = find_game_path().ok_or("Game not found")?;
-    let mods_path = game_path.join("GAMEDATA/MODS");
+    println!("[MIGRATION] Built lookup table with {} entries.", legacy_lookup.len());
 
-    if let Ok(entries) = fs::read_dir(mods_path) {
-        for entry in entries.flatten() {
-            if entry.path().is_dir() {
-                let info_path = entry.path().join("mod_info.json");
-                
-                if info_path.exists() {
-                    let mut json: Value = match fs::read_to_string(&info_path).ok().and_then(|c| serde_json::from_str(&c).ok()) {
-                        Some(v) => v,
-                        None => continue,
-                    };
+    // 3. Scan Installed Mods in Game Folder
+    if let Some(game_path) = find_game_path() {
+        let mods_path = game_path.join("GAMEDATA/MODS");
 
-                    // Check if needs healing (missing installSource)
-                    let needs_heal = json.get("installSource").and_then(|s| s.as_str()).map(|s| s.is_empty()).unwrap_or(true);
-
-                    if needs_heal {
-                        let get_val_as_string = |key: &str| -> Option<String> {
-                            match json.get(key) {
-                                Some(Value::String(s)) => Some(s.clone()),
-                                Some(Value::Number(n)) => Some(n.to_string()),
-                                _ => None
-                            }
+        if let Ok(entries) = fs::read_dir(mods_path) {
+            for entry in entries.flatten() {
+                if entry.path().is_dir() {
+                    let folder_name = entry.file_name().to_string_lossy().into_owned();
+                    let info_path = entry.path().join("mod_info.json");
+                    
+                    if info_path.exists() {
+                        let mut json: Value = match fs::read_to_string(&info_path).ok().and_then(|c| serde_json::from_str(&c).ok()) {
+                            Some(v) => v,
+                            None => continue,
                         };
 
-                        let m_id = get_val_as_string("modId").or(get_val_as_string("id")); 
-                        let f_id = get_val_as_string("fileId");
+                        let needs_heal = json.get("installSource")
+                            .and_then(|s| s.as_str())
+                            .map(|s| s.is_empty())
+                            .unwrap_or(true);
 
-                        if let (Some(mid), Some(fid)) = (m_id, f_id) {
-                            if let Some(filename) = legacy_lookup.get(&(mid, fid)) {
-                                if let Some(obj) = json.as_object_mut() {
-                                    obj.insert("installSource".to_string(), Value::String(filename.clone()));
+                        if needs_heal {
+                            let get_val_as_string = |key: &str| -> Option<String> {
+                                match json.get(key) {
+                                    Some(Value::String(s)) => Some(s.clone()),
+                                    Some(Value::Number(n)) => Some(n.to_string()),
+                                    _ => None
                                 }
-                                
-                                if let Ok(new_content) = serde_json::to_string_pretty(&json) {
-                                    let _ = fs::write(&info_path, new_content);
+                            };
+
+                            let m_id = get_val_as_string("modId").or(get_val_as_string("id")); 
+                            let f_id = get_val_as_string("fileId");
+
+                            if let (Some(mid), Some(fid)) = (m_id, f_id) {
+                                if let Some(filename) = legacy_lookup.get(&(mid, fid)) {
+                                    println!("[MIGRATION] HEALED: {} -> {}", folder_name, filename);
+                                    
+                                    if let Some(obj) = json.as_object_mut() {
+                                        obj.insert("installSource".to_string(), Value::String(filename.clone()));
+                                    }
+                                    
+                                    if let Ok(new_content) = serde_json::to_string_pretty(&json) {
+                                        let _ = fs::write(&info_path, new_content);
+                                    }
                                 }
                             }
                         }
@@ -2351,7 +2425,7 @@ async fn run_legacy_migration(app: AppHandle) -> Result<(), String> {
         }
     }
 
-    // 3. Update Config
+    // 4. Update Config
     config.legacy_migration_done = true;
     let json = serde_json::to_string_pretty(&config).map_err(|e| e.to_string())?;
     fs::write(config_path, json).map_err(|e| e.to_string())?;
@@ -2376,6 +2450,64 @@ fn write_to_log(app: AppHandle, level: String, message: String) -> Result<(), St
     file.write_all(log_entry.as_bytes()).map_err(|e| e.to_string())?;
     
     Ok(())
+}
+
+#[tauri::command]
+async fn set_library_path(app: AppHandle, new_path: String) -> Result<(), String> {
+    let old_path = get_library_dir(&app)?;
+    
+    let user_selected_root = PathBuf::from(&new_path);
+    let target_path = user_selected_root.join("Library");
+    
+    // 1. Exact Match: If the calculated path is identical, do nothing.
+    if old_path == target_path {
+        return Ok(());
+    }
+
+    // 2. Recursion Prevention: Cannot move folder into its own subdirectory
+    // Example: Moving "C:\Lib" to "C:\Lib\Sub" creates "C:\Lib\Sub\Lib" -> Infinite Loop
+    if target_path.starts_with(&old_path) {
+        return Err("Cannot move the folder inside itself. Please select a different location.".to_string());
+    }
+
+    if !target_path.exists() {
+        fs::create_dir_all(&target_path).map_err(|e| e.to_string())?;
+    }
+
+    if old_path.exists() {
+        let old_clone = old_path.clone();
+        let target_clone = target_path.clone();
+        
+        tauri::async_runtime::spawn_blocking(move || -> Result<(), String> {
+            copy_dir_recursive(&old_clone, &target_clone)?;
+            fs::remove_dir_all(&old_clone).map_err(|e| e.to_string())?;
+            Ok(())
+        }).await.map_err(|e| e.to_string())??;
+    }
+
+    let config_path = get_config_file_path(&app)?;
+    let mut config = if config_path.exists() {
+        let c = fs::read_to_string(&config_path).unwrap_or_default();
+        serde_json::from_str(&c).unwrap_or(GlobalAppConfig { 
+            custom_download_path: None, custom_library_path: None, legacy_migration_done: true 
+        })
+    } else {
+        GlobalAppConfig { 
+            custom_download_path: None, custom_library_path: None, legacy_migration_done: true 
+        }
+    };
+
+    config.custom_library_path = Some(target_path.to_string_lossy().into_owned());
+    let json = serde_json::to_string_pretty(&config).map_err(|e| e.to_string())?;
+    fs::write(config_path, json).map_err(|e| e.to_string())?;
+
+    Ok(())
+}
+
+#[tauri::command]
+fn get_library_path(app: AppHandle) -> Result<String, String> {
+    let path = get_library_dir(&app)?;
+    Ok(path.to_string_lossy().into_owned())
 }
 
 // --- MAIN FUNCTION ---
@@ -2510,7 +2642,10 @@ fn main() {
             finalize_installation,
             get_staging_contents,
             run_legacy_migration,
-            write_to_log
+            write_to_log,
+            set_library_path,
+            get_library_path,
+            delete_library_folder
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

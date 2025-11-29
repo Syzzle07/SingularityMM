@@ -65,7 +65,7 @@
   "applyProfileTooltip": "Apply Profile Change",
   "manageProfilesBtn": "MANAGE PROFILES",
   "profileManagerTitle": "PROFILES",
-  "openProfileFolderBtn": "Open Folder",
+  "openFolderBtn": "Open Folder",
   "applyingProfileTitle": "APPLYING PROFILE",
   "preparingText": "Preparing...",
   "calculatingTimeText": "Calculating time...",
@@ -166,5 +166,9 @@
   "folderConflictTitle": "Folder Name Conflict",
   "folderConflictMsg": "This mod is already installed as '{{oldName}}', but the new file uses the folder name '{{newName}}'.\n\nIs this an Update (Replace) or an Addon (Keep Both)?",
   "btnReplace": "Replace (Update)",
-  "btnKeepBoth": "Keep Both (Addon)"
+  "btnKeepBoth": "Keep Both (Addon)",
+  "driveCheckTitle": "Performance Suggestion",
+  "driveCheckMsg": "Performance Tip: Your game is on drive {{gameDrive}}:, but your Mod Library is on {{libDrive}}:. \n\nFor faster profile switching (and future Hardlink support), we recommend moving the Library to the {{gameDrive}}: drive.\n\nDo you want to select a new folder on {{gameDrive}}: now?",
+  "btnMoveNow": "Move Now",
+  "btnDontAskAgain": "Don't ask again"
 }

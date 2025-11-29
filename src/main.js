@@ -147,22 +147,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Core Application Logic ---
 
-    // --- LOGGING HELPER ---
-    async function logAppEvent(message, level = 'INFO') {
+    // --- LOGGING SYSTEM ---
+    window.addAppLog = async (message, level = 'INFO') => {
         try {
-            // Print to DevTools console for dev convenience
+            // 1. Print to DevTools console
             if (level === 'ERROR') console.error(message);
             else console.log(message);
 
-            // Write to disk
+            // 2. Write to disk (singularity.log)
             await invoke('write_to_log', { level, message: String(message) });
         } catch (e) {
             console.error("Failed to write log:", e);
         }
-    }
+    };
 
     // Log startup
-    logAppEvent("Singularity Manager Started", "INFO");
+    window.addAppLog("Singularity Manager Started", "INFO");
 
     // --- CUSTOM DIALOG HELPERS ---
     const inputModal = document.getElementById('inputDialogModal');
@@ -694,6 +694,56 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
+        // --- SMART DRIVE CHECK ---
+        if (appState.gamePath) {
+            try {
+                // DEBUG: Clear the suppression flag so we can test
+                localStorage.removeItem('suppressDriveCheck');
+
+                const libPath = await invoke('get_library_path');
+
+                // Helper to extract "C" from "C:\..." or "\\?\C:\..."
+                const getDrive = (p) => {
+                    if (!p) return null;
+                    const match = p.match(/([a-zA-Z]):/);
+                    return match ? match[1].toUpperCase() : null;
+                };
+
+                const gameDrive = getDrive(appState.gamePath);
+                const libDrive = getDrive(libPath);
+
+                // LOGGING: Open Console (F12) to see these
+                console.log("--- Drive Check Debug ---");
+                console.log("Raw Game Path:", appState.gamePath);
+                console.log("Raw Lib Path:", libPath);
+                console.log("Detected Game Drive:", gameDrive);
+                console.log("Detected Lib Drive:", libDrive);
+
+                const suppressDriveCheck = localStorage.getItem('suppressDriveCheck') === 'true';
+
+                if (gameDrive && libDrive && gameDrive !== libDrive && !suppressDriveCheck) {
+                    console.log("Drives mismatch! Showing prompt.");
+                    const moveIt = await window.customConfirm(
+                        i18n.get('driveCheckMsg', {
+                            gameDrive: gameDrive,
+                            libDrive: libDrive
+                        }),
+                        i18n.get('driveCheckTitle'),
+                        i18n.get('btnMoveNow'),
+                        i18n.get('btnDontAskAgain')
+                    );
+
+                    if (moveIt) {
+                        document.getElementById('changeLibraryDirBtn').click();
+                    } else {
+                        localStorage.setItem('suppressDriveCheck', 'true');
+                    }
+                } else {
+                    console.log("Checks failed or suppressed. Same drive?");
+                }
+            } catch (e) { console.warn("Drive check failed", e); }
+        }
+
         loadDataInBackground();
     };
 
@@ -1092,7 +1142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`[CONTEXT MENU] Checking condition to show 'Install' button: statusClass === 'success' (${itemData.statusClass === 'success'}), archivePath exists (${!!itemData.archivePath})`);
 
         // Install Button
-        if ((itemData.statusClass === 'success' || itemData.statusClass === 'cancelled') && itemData.archivePath) {
+        if ((itemData.statusClass === 'success' || itemData.statusClass === 'cancelled' || itemData.statusClass === 'error') && itemData.archivePath) {
             const installButton = document.createElement('button');
             installButton.textContent = i18n.get('ctxInstall');
             installButton.className = 'context-menu-item';
@@ -1332,7 +1382,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (!userResult) {
                     // User Cancelled - Clean up staging
-                    await invoke('clean_staging_folder');
+                    // await invoke('clean_staging_folder');
                     updateStatus(i18n.get('statusCancelled'), 'cancelled');
 
                     // --- Revert status after 5 seconds ---
@@ -1351,7 +1401,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // 3a. Call Phase 2: Finalize with specific folders
                 const finalAnalysis = await invoke('finalize_installation', {
-                    tempId: analysis.temp_id,
+                    libraryId: analysis.temp_id,
                     selectedFolders: userResult.selected,
                     flattenPaths: userResult.flatten
                 });
@@ -1364,12 +1414,31 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
         } catch (error) {
+            // Log to internal console
             const errMsg = `Installation failed for ${item.fileName}: ${error}`;
-            logAppEvent(errMsg, 'ERROR');
+            window.addAppLog(errMsg, 'ERROR');
 
             console.error("Installation process failed:", error);
+
+            // Show error state immediately
             updateStatus(`${i18n.get('installFailedTitle')}: ${error}`, 'error');
             await saveDownloadHistory(downloadHistory);
+
+            // Show Popup
+            await window.customAlert(`${i18n.get('installFailedTitle')}: ${error}`, "Error");
+
+            // --- Revert to 'Downloaded' after 10 seconds ---
+            setTimeout(() => {
+                const current = downloadHistory.find(d => d.id === downloadId);
+                // Only revert if it is still in the 'error' state (user hasn't deleted it)
+                if (current && current.statusClass === 'error') {
+                    current.statusText = i18n.get('statusDownloaded');
+                    current.statusClass = 'success';
+                    renderDownloadHistory();
+                    saveDownloadHistory(downloadHistory);
+                }
+            }, 10000);
+            // -----------------------------------------------------
         }
     }
 
@@ -1383,15 +1452,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const item = downloadHistory[itemIndex];
 
         try {
+            // 1. Delete the Zip File
             if (item.archivePath) {
                 await invoke('delete_archive_file', { path: item.archivePath });
             }
 
+            // 2. Delete the Unpacked Library Folder
+            // Pass the filename (e.g. "Mod.zip") and backend appends "_unpacked"
+            if (item.fileName) {
+                await invoke('delete_library_folder', { zipFilename: item.fileName });
+            }
+
+            // 3. Update UI
             downloadHistory.splice(itemIndex, 1);
             renderDownloadHistory();
             await saveDownloadHistory(downloadHistory);
+
         } catch (error) {
-            await window.customAlert(`Failed to delete archive: ${error}`, "Error");
+            await window.customAlert(`Failed to delete files: ${error}`, "Error");
         }
     }
 
@@ -1453,7 +1531,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     changeDownloadDirBtn.addEventListener('click', async () => {
         try {
-            // Open folder selection dialog
             const selected = await open({
                 directory: true,
                 multiple: false,
@@ -1461,14 +1538,21 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             if (selected) {
-                await invoke('set_downloads_path', { newPath: selected });
-                await updateDownloadPathUI();
-                await window.customAlert(`Downloads location changed to:\n${selected}`, "Success");
+                // 1. Update UI to show loading state
+                currentDownloadPathEl.textContent = "Moving files... please wait...";
 
-                // Refresh history in case the new folder has different files (optional, but good practice)
-                // But usually we just assume the user moved files or wants a fresh start
+                // 2. Call Backend
+                await invoke('set_downloads_path', { newPath: selected });
+
+                // 3. Refresh Path UI
+                await updateDownloadPathUI();
+
+                // 4. Show success message with specific path
+                await window.customAlert(`Downloads moved to:\n${selected}/downloads`, "Success");
             }
         } catch (e) {
+            // If failed, refresh UI to show old path (or whatever state it's in)
+            updateDownloadPathUI();
             await window.customAlert("Failed to set path: " + e, "Error");
         }
     });
@@ -1544,7 +1628,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             newItem.dataset.downloadId = itemData.id;
 
-            if ((itemData.statusClass === 'success' || itemData.statusClass === 'cancelled') && itemData.archivePath) {
+            if ((itemData.statusClass === 'success' || itemData.statusClass === 'cancelled' || itemData.statusClass === 'error') && itemData.archivePath) {
                 newItem.classList.add('installable');
             }
 
@@ -2760,10 +2844,46 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('nxmHandlerStatus').classList.add('hidden');
         settingsModalOverlay.classList.remove('hidden');
         updateDownloadPathUI();
+        updateLibraryPathUI();
     });
     closeSettingsModalBtn.addEventListener('click', () => settingsModalOverlay.classList.add('hidden'));
     settingsModalOverlay.addEventListener('click', (e) => {
         if (e.target === settingsModalOverlay) settingsModalOverlay.classList.add('hidden');
+    });
+
+    const changeLibraryDirBtn = document.getElementById('changeLibraryDirBtn');
+    const currentLibraryPathEl = document.getElementById('currentLibraryPath');
+
+    async function updateLibraryPathUI() {
+        try {
+            const path = await invoke('get_library_path');
+            currentLibraryPathEl.textContent = path;
+        } catch (e) {
+            currentLibraryPathEl.textContent = "Error loading path";
+        }
+    }
+
+    changeLibraryDirBtn.addEventListener('click', async () => {
+        try {
+            const selected = await open({
+                directory: true,
+                multiple: false,
+                title: "Select New Library Folder"
+            });
+
+            if (selected) {
+                // Show loading state because moving files might take a moment
+                currentLibraryPathEl.textContent = "Moving files... please wait...";
+
+                await invoke('set_library_path', { newPath: selected });
+                await updateLibraryPathUI();
+
+                await window.customAlert(`Library moved to:\n${selected}/Library`, "Success");
+            }
+        } catch (e) {
+            await window.customAlert(`Failed to move library: ${e}`, "Error");
+            updateLibraryPathUI();
+        }
     });
 
     // --- SLIDER LOGIC ---
@@ -2928,7 +3048,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // 2. Phase 1: Analyze / Extract
                     const analysis = await invoke('install_mod_from_archive', {
                         archivePathStr: filePath,
-                        downloadId: downloadId // <--- PASS ID HERE
+                        downloadId: downloadId
                     });
 
                     if (analysis.active_archive_path) {
@@ -2969,7 +3089,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
 
                         finalResult = await invoke('finalize_installation', {
-                            tempId: analysis.temp_id,
+                            libraryId: analysis.temp_id,
                             selectedFolders: userResult.selected,
                             flattenPaths: userResult.flatten
                         });
@@ -4074,6 +4194,14 @@ document.addEventListener('DOMContentLoaded', () => {
             await validateLoginState();
         } finally {
             nexusAuthBtn.disabled = false;
+        }
+    });
+
+    document.getElementById('openLibraryBtn').addEventListener('click', async () => {
+        try {
+            await invoke('open_special_folder', { folderType: 'library' });
+        } catch (e) {
+            console.error(e);
         }
     });
 
