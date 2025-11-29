@@ -167,8 +167,8 @@
     "folderConflictMsg": "Esse mod já está instalado como '{{oldName}}', mas o novo arquivo usa o nome '{{newName}}'.\n\nIsso é um Update (Substituir) ou um Addon (Manter Ambos)?",
     "btnReplace": "Substituir (Update)",
     "btnKeepBoth": "Manter Ambos (Addon)",
-    "driveCheckTitle": "Performance Suggestion",
-    "driveCheckMsg": "Performance Tip: Your game is on drive {{gameDrive}}:, but your Mod Library is on {{libDrive}}:. \n\nFor faster profile switching (and future Hardlink support), we recommend moving the Library to the {{gameDrive}}: drive.\n\nDo you want to select a new folder on {{gameDrive}}: now?",
-    "btnMoveNow": "Move Now",
-    "btnDontAskAgain": "Don't ask again"
+    "driveCheckTitle": "Hardlink",
+    "driveCheckMsg": "Seu jogo está no drive {{gameDrive}}:, mas sua Mod Library está no {{libDrive}}:. \n\nPara fazer uso do Hardlink na instalação de mods, nós recomendamos mover sua Library para o drive {{gameDrive}}:.\n\nVocê quer escolher uma pasta no {{gameDrive}}: agora?",
+    "btnMoveNow": "Mover Agora",
+    "btnDontAskAgain": "Não perguntar novamente"
 }
