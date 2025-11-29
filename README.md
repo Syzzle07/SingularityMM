@@ -5,7 +5,6 @@ A lightweight Windows-based Mod manager for No Man's Sky built with Tauri v2 tha
 ![Screenshot](screenshots/Screenshot1.png)
 ![Screenshot](screenshots/Screenshot2.png)
 ![Screenshot](screenshots/Screenshot3.png)
-![Screenshot](screenshots/Screenshot4.png)
 
 ## Features
 

@@ -196,13 +196,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
+    // --- CUSTOM DIALOG HELPERS ---
     const genericDialogModal = document.getElementById('genericDialogModal');
     const genericDialogTitle = document.getElementById('genericDialogTitle');
     const genericDialogMessage = document.getElementById('genericDialogMessage');
     const genericDialogActions = document.getElementById('genericDialogActions');
 
-    // CHANGE 1: Added confirmText and cancelText arguments
     function showDialog(title, message, type = 'alert', confirmText = null, cancelText = null) {
+        // 1. Calculate the final text values (Fallback to i18n if null)
         const finalConfirmText = confirmText || i18n.get('okBtn');
         const finalCancelText = cancelText || i18n.get('cancelBtn');
 
@@ -212,14 +213,13 @@ document.addEventListener('DOMContentLoaded', () => {
             genericDialogActions.innerHTML = '';
 
             if (type === 'confirm') {
+                // --- Cancel Button ---
                 const btnCancel = document.createElement('button');
                 btnCancel.className = 'modal-gen-btn-cancel';
-
-                // CHANGE 2: Use variable instead of string 'Cancel'
                 btnCancel.textContent = finalCancelText;
 
-                // CHANGE 3: Auto-expand width if text is long (like "Don't Show Again")
-                if (cancelText.length > 8) {
+                // Auto-expand width if text is long (like "Don't Show Again")
+                if (finalCancelText.length > 8) {
                     btnCancel.style.width = 'auto';
                     btnCancel.style.paddingLeft = '15px';
                     btnCancel.style.paddingRight = '15px';
@@ -231,10 +231,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 };
                 genericDialogActions.appendChild(btnCancel);
 
+                // --- Confirm Button ---
                 const btnOk = document.createElement('button');
                 btnOk.className = 'modal-gen-btn-confirm';
-
-                // CHANGE 4: Use variable instead of string 'OK'
                 btnOk.textContent = finalConfirmText;
 
                 btnOk.onclick = () => {
@@ -243,9 +242,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 };
                 genericDialogActions.appendChild(btnOk);
             } else {
+                // --- Alert (OK Only) ---
                 const btnOk = document.createElement('button');
                 btnOk.className = 'modal-gen-btn-confirm';
-                btnOk.textContent = i18n.get('okBtn');
+                btnOk.textContent = finalConfirmText;
+
                 btnOk.onclick = () => {
                     genericDialogModal.classList.add('hidden');
                     resolve(true);
@@ -257,29 +258,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    window.customAlert = async (msg, title) => {
-        await showDialog(title, msg, 'alert');
-    };
-
-    // CHANGE 5: Update wrapper to pass the new arguments
-    window.customConfirm = async (msg, title, confirmBtnText = 'OK', cancelBtnText = 'Cancel') => {
-        return await showDialog(title, msg, 'confirm', confirmBtnText, cancelBtnText);
-    };
+    // --- WRAPPERS (Defined OUTSIDE showDialog) ---
 
     window.customAlert = async (msg, title) => {
         await showDialog(title, msg, 'alert');
     };
 
-    // Updated to accept custom button text
-    window.customConfirm = async (msg, title, confirmBtnText = 'OK', cancelBtnText = 'Cancel') => {
-        return await showDialog(title, msg, 'confirm', confirmBtnText, cancelBtnText);
-    };
-
-    window.customAlert = async (msg, title) => {
-        await showDialog(title, msg, 'alert');
-    };
-
-    window.customConfirm = async (msg, title, confirmBtnText = 'OK', cancelBtnText = 'Cancel') => {
+    // Default params to null so showDialog uses i18n fallbacks
+    window.customConfirm = async (msg, title, confirmBtnText = null, cancelBtnText = null) => {
         return await showDialog(title, msg, 'confirm', confirmBtnText, cancelBtnText);
     };
 
