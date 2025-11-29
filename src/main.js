@@ -2851,16 +2851,6 @@ document.addEventListener('DOMContentLoaded', () => {
             console.warn("NXM check failed", e);
         }
     }
-    // ---------------------------------
-
-    // Your existing listener (ensure it looks like this):
-    settingsBtn.addEventListener('click', async () => {
-        await updateNXMButtonState(); // Now this will work
-        document.getElementById('nxmHandlerStatus').classList.add('hidden');
-        settingsModalOverlay.classList.remove('hidden');
-        updateDownloadPathUI();
-        updateLibraryPathUI();
-    });
 
     settingsBtn.addEventListener('click', async () => {
         await updateNXMButtonState();

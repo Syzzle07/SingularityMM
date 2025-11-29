@@ -83,6 +83,7 @@ struct WindowState {
 struct ModInfo {
     #[serde(rename = "modId")]
     mod_id: Option<String>,
+    #[allow(dead_code)]
     #[serde(rename = "fileId")]
     file_id: Option<String>,
 }
@@ -488,16 +489,23 @@ fn find_game_path() -> Option<PathBuf> {
 
 fn find_gog_path() -> Option<PathBuf> {
     let hklm = RegKey::predef(HKEY_LOCAL_MACHINE);
-    let gog_key = hklm
-        .open_subkey(r"SOFTWARE\WOW6432Node\GOG.com\Games\1446223351")
-        .ok()?;
-    let game_path_str: String = gog_key.get_value("PATH").ok()?;
-    let game_path = PathBuf::from(game_path_str);
-    if game_path.join("Binaries").is_dir() {
-        Some(game_path)
-    } else {
-        None
+    
+    let known_ids = ["1446213994", "1446223351"];
+
+    for id in known_ids {
+        let key_path = format!(r"SOFTWARE\WOW6432Node\GOG.com\Games\{}", id);
+        
+        if let Ok(gog_key) = hklm.open_subkey(&key_path) {
+            if let Ok(game_path_str) = gog_key.get_value::<String, _>("PATH") {
+                let game_path = PathBuf::from(game_path_str);
+                if game_path.join("Binaries").is_dir() {
+                    return Some(game_path);
+                }
+            }
+        }
     }
+
+    None
 }
 
 fn find_steam_path() -> Option<PathBuf> {
