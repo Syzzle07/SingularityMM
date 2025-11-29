@@ -51,6 +51,8 @@
     "settingsDownloadsLabel": "Pasta de Downloads",
     "settingsLibraryLabel": "Pasta da Biblioteca de Mods",
     "changeBtn": "Alterar",
+    "nxmSetSuccess": "Adicionado com Sucesso!",
+    "nxmRemovedSuccess": "Removido com Sucesso.",
     "__comment_TROUBLESHOOT": "=== TROUBLESHOOT SECTION ===",
     "modManagerDownloadsTitle": "DOWNLOADS DO GERENCIADOR",
     "modManagerDownloadsDesc": "Definir o Singularity como o aplicativo padrão para links (nxm://).",

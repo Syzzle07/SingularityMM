@@ -51,6 +51,8 @@
   "settingsDownloadsLabel": "Downloads Folder",
   "settingsLibraryLabel": "Mod Library Folder",
   "changeBtn": "Change",
+  "nxmSetSuccess": "Successfully set!",
+  "nxmRemovedSuccess": "Successfully removed.",
   "__comment_TROUBLESHOOT": "=== TROUBLESHOOT SECTION ===",
   "modManagerDownloadsTitle": "MOD MANAGER DOWNLOADS",
   "modManagerDownloadsDesc": "Set Singularity as the default application for (nxm://) links.",

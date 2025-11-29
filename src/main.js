@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const i18n = {
         async loadLanguage(lang) {
             try {
-                // 1. Always load English first to use as a "base"
+                // 1. Load English Base
                 const enPath = await resolveResource(`locales/en.json`);
                 const enContent = await readTextFile(enPath);
                 const enData = JSON.parse(enContent);
@@ -296,27 +296,35 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (lang === 'en') {
                     appState.currentTranslations = enData;
                 } else {
-                    // 2. Load the target language
+                    // 2. Load Target & Merge
                     const resourcePath = await resolveResource(`locales/${lang}.json`);
                     const content = await readTextFile(resourcePath);
                     const targetData = JSON.parse(content);
-
-                    // 3. MERGE: Use English as the base, and overwrite with Target language
-                    // This ensures that any keys missing in 'targetData' will still exist from 'enData'
                     appState.currentTranslations = { ...enData, ...targetData };
                 }
 
                 localStorage.setItem('selectedLanguage', lang);
+
+                // 3. Refresh UI
                 this.updateUI();
+
             } catch (e) {
                 console.error(`Failed to load language file for ${lang}`, e);
-                // If the specific file fails entirely, fall back to full English
                 if (lang !== 'en') await this.loadLanguage('en');
             }
         },
         updateUI() {
-            // 1. Auto-translate static elements
+            // 1. Sync Dropdown Value (FIXES THE DROPDOWN RESET BUG)
+            const currentLang = localStorage.getItem('selectedLanguage') || 'en';
+            if (languageSelector) {
+                languageSelector.value = currentLang;
+            }
+
+            // 2. Auto-translate static elements
             document.querySelectorAll('[data-i18n]').forEach(el => {
+                // SKIP the NXM button here to prevent it from flickering/resetting incorrectly
+                if (el.id === 'nxmHandlerBtn') return;
+
                 const key = el.getAttribute('data-i18n');
                 const attributeName = el.getAttribute('data-i18n-attr');
                 if (appState.currentTranslations[key]) {
@@ -329,21 +337,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
-            // 2. Manually handle dynamic elements (Status + Button)
+            // 3. Handle Nexus Login Status
             const nexusStatus = document.getElementById('nexusAccountStatus');
             const nexusBtn = document.getElementById('nexusAuthBtn');
 
             if (appState.nexusUsername) {
-                // LOGGED IN STATE
                 if (nexusStatus) nexusStatus.textContent = this.get('statusConnectedAs', { name: appState.nexusUsername });
                 if (nexusBtn) nexusBtn.textContent = this.get('disconnectBtn');
             } else {
-                // LOGGED OUT STATE
                 if (nexusStatus) nexusStatus.textContent = this.get('statusNotLoggedIn');
                 if (nexusBtn) nexusBtn.textContent = this.get('connectBtn');
             }
 
-            // 3. Update File Path Label
+            // 4. Handle NXM Button State (FIXES THE BUTTON RESET BUG)
+            // We explicitly call this logic *after* translations are applied
+            // to ensure the button text reflects the actual logic (Registered vs Not Registered)
+            if (typeof updateNXMButtonState === 'function') {
+                updateNXMButtonState();
+            }
+
+            // 5. Update File Path Label
             if (appState.currentFilePath) {
                 basename(appState.currentFilePath).then(fileNameWithExt => {
                     const fileNameWithoutExt = fileNameWithExt.slice(0, fileNameWithExt.lastIndexOf('.'));
@@ -352,6 +365,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 filePathLabel.textContent = this.get('noFileLoaded');
             }
+
             this.adjustBannerWidths();
         },
         get(key, placeholders = {}) {
@@ -709,6 +723,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 checkForUpdates(true); // Silent check
             }
         });
+
+        try {
+            // Ask Rust if we have a pending link
+            const pendingLink = await invoke('check_startup_intent');
+            if (pendingLink) {
+                console.log("Found pending startup NXM link:", pendingLink);
+                // Process it just like a normal link event
+                handleNxmLink(pendingLink);
+            }
+        } catch (e) {
+            console.error("Failed to check startup intent:", e);
+        }
     };
 
     const loadXmlContent = async (content, path) => {
@@ -2803,18 +2829,42 @@ document.addEventListener('DOMContentLoaded', () => {
         if (daNode) { daNode.setAttribute('value', disableAllSwitch.checked ? 'true' : 'false'); saveChanges(); }
     });
 
-    settingsBtn.addEventListener('click', async () => {
-        // Check the current status when the modal is opened
-        const isRegistered = await invoke('is_protocol_handler_registered');
-        if (isRegistered) {
-            nxmHandlerBtn.textContent = 'Remove as Default Handler';
-            nxmHandlerBtn.classList.add('modal-btn-nxm');
-            nxmHandlerBtn.classList.remove('modal-btn-nxm-confirm');
-        } else {
-            nxmHandlerBtn.textContent = 'Set as Default Handler';
-            nxmHandlerBtn.classList.remove('modal-btn-nxm');
-            nxmHandlerBtn.classList.add('modal-btn-nxm-confirm');
+    async function updateNXMButtonState() {
+        try {
+            const isRegistered = await invoke('is_protocol_handler_registered');
+            const btn = document.getElementById('nxmHandlerBtn');
+            const statusEl = document.getElementById('nxmHandlerStatus');
+
+            if (isRegistered) {
+                // Use i18n.get to fetch the text dynamically based on current language
+                btn.textContent = i18n.get('removeHandlerBtn');
+                btn.className = 'modal-btn-nxm';
+                btn.classList.remove('modal-btn-nxm-confirm');
+                if (statusEl) statusEl.classList.add('hidden');
+            } else {
+                btn.textContent = i18n.get('setHandlerBtn');
+                btn.className = 'modal-btn-nxm-confirm';
+                btn.classList.remove('modal-btn-nxm');
+                if (statusEl) statusEl.classList.add('hidden');
+            }
+        } catch (e) {
+            console.warn("NXM check failed", e);
         }
+    }
+    // ---------------------------------
+
+    // Your existing listener (ensure it looks like this):
+    settingsBtn.addEventListener('click', async () => {
+        await updateNXMButtonState(); // Now this will work
+        document.getElementById('nxmHandlerStatus').classList.add('hidden');
+        settingsModalOverlay.classList.remove('hidden');
+        updateDownloadPathUI();
+        updateLibraryPathUI();
+    });
+
+    settingsBtn.addEventListener('click', async () => {
+        await updateNXMButtonState();
+
         document.getElementById('nxmHandlerStatus').classList.add('hidden');
         settingsModalOverlay.classList.remove('hidden');
         updateDownloadPathUI();
@@ -4072,20 +4122,6 @@ document.addEventListener('DOMContentLoaded', () => {
             statusEl.classList.remove('hidden');
         };
 
-        // Helper to update the button's appearance
-        const updateButtonState = async () => {
-            const isRegistered = await invoke('is_protocol_handler_registered');
-            if (isRegistered) {
-                nxmHandlerBtn.textContent = 'Remove as Default Handler';
-                nxmHandlerBtn.classList.add('modal-btn-nxm');
-                nxmHandlerBtn.classList.remove('modal-btn-nxm-confirm');
-            } else {
-                nxmHandlerBtn.textContent = 'Set as Default Handler';
-                nxmHandlerBtn.classList.remove('modal-btn-nxm');
-                nxmHandlerBtn.classList.add('modal-btn-nxm-confirm');
-            }
-        };
-
         nxmHandlerBtn.disabled = true;
         const isCurrentlyRegistered = await invoke('is_protocol_handler_registered');
         let confirmed = false;
@@ -4095,8 +4131,13 @@ document.addEventListener('DOMContentLoaded', () => {
             if (confirmed) {
                 try {
                     await invoke('unregister_nxm_protocol');
-                    await updateButtonState();
-                    setStatus('NXM handler successfully removed.', 'success');
+
+                    // FIX: Use the global function that supports translation
+                    await updateNXMButtonState();
+
+                    // Optional: Try to translate the success message, fallback to English
+                    const msg = i18n.get('nxmRemovedSuccess') || 'Successfully removed.';
+                    setStatus(msg, 'success');
                 } catch (error) {
                     setStatus(`Error: ${error}`, 'error');
                 }
@@ -4106,8 +4147,13 @@ document.addEventListener('DOMContentLoaded', () => {
             if (confirmed) {
                 try {
                     await invoke('register_nxm_protocol');
-                    await updateButtonState();
-                    setStatus('NXM handler successfully set!', 'success');
+
+                    // FIX: Use the global function that supports translation
+                    await updateNXMButtonState();
+
+                    // Optional: Try to translate the success message, fallback to English
+                    const msg = i18n.get('nxmSetSuccess') || 'Successfully set!';
+                    setStatus(msg, 'success');
                 } catch (error) {
                     setStatus(`Error: ${error}`, 'error');
                 }

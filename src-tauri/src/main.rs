@@ -28,6 +28,7 @@ use url::Url;
 use tauri::path::BaseDirectory;
 use std::sync::Mutex;
 use std::fs::OpenOptions;
+use tauri::State;
 
 // --- STRUCTS ---
 
@@ -196,6 +197,10 @@ const CLEAN_MXML_TEMPLATE: &str = r#"<?xml version="1.0" encoding="utf-8"?>
 </Data>"#;
 
 static DIR_LOCK: Mutex<()> = Mutex::new(());
+
+struct StartupState {
+    pending_nxm: Mutex<Option<String>>,
+}
 
 // --- HELPER FUNCTIONS ---
 fn smart_deploy_file(source: &Path, dest: &Path) -> Result<(), String> {
@@ -2525,19 +2530,26 @@ fn check_library_existence(app: AppHandle, filenames: Vec<String>) -> Result<Has
     Ok(results)
 }
 
+#[tauri::command]
+fn check_startup_intent(state: State<'_, StartupState>) -> Option<String> {
+    let mut pending = state.pending_nxm.lock().unwrap();
+    // Return the link and clear it so it doesn't trigger twice
+    pending.take() 
+}
+
 // --- MAIN FUNCTION ---
 fn main() {    
     tauri::Builder::default()
         .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_fs::init())
         .plugin(tauri_plugin_shell::init())
+        // 1. Initialize State Storage
+        .manage(StartupState { pending_nxm: Mutex::new(None) }) 
         .plugin(tauri_plugin_single_instance::init(|app, argv, _cwd| {
             println!("New instance detected, args: {:?}", argv);
-
             if let Some(nxm_link) = argv.iter().find(|arg| arg.starts_with("nxm://")) {
                 app.emit("nxm-link-received", nxm_link.clone()).unwrap();
             }
-
             if let Some(window) = app.get_webview_window("main") {
                 window.unminimize().unwrap();
                 window.set_focus().unwrap();
@@ -2547,11 +2559,13 @@ fn main() {
             let app_handle = app.handle();
             let args: Vec<String> = std::env::args().collect();
 
+            // 2. Capture Cold Start Link
             if let Some(nxm_link) = args.iter().find(|arg| arg.starts_with("nxm://")) {
                 println!("NXM link found on startup: {}", nxm_link);
-                app_handle
-                    .emit("nxm-link-received", nxm_link.clone())
-                    .unwrap();
+                // Store it in the State instead of emitting immediately
+                if let Some(state) = app.try_state::<StartupState>() {
+                    *state.pending_nxm.lock().unwrap() = Some(nxm_link.clone());
+                }
             }
 
             let window = app.get_webview_window("main").unwrap();
@@ -2560,12 +2574,12 @@ fn main() {
             if let Ok(state_path) = get_state_file_path(app_handle) {
                 if let Ok(state_json) = fs::read_to_string(state_path) {
                     if let Ok(state) = serde_json::from_str::<WindowState>(&state_json) {
-                        window
-                            .set_position(PhysicalPosition::new(state.x, state.y))
-                            .unwrap();
-
-                        if state.maximized {
-                            window.maximize().unwrap();
+                        // Prevent loading off-screen coordinates
+                        if state.x > -10000 && state.y > -10000 {
+                            window.set_position(PhysicalPosition::new(state.x, state.y)).unwrap();
+                            if state.maximized {
+                                window.maximize().unwrap();
+                            }
                         }
                     }
                 }
@@ -2582,29 +2596,32 @@ fn main() {
                 | tauri::WindowEvent::CloseRequested { .. } => {
                     // --- UPDATED STATE SAVING ---
                     let app_handle = window.app_handle();
+                    // Don't save if minimized to avoid -32000 coordinates
+                    let is_minimized = window.is_minimized().unwrap_or(false);
                     let is_maximized = window.is_maximized().unwrap_or(false);
 
-                    if !is_maximized {
-                        if let Ok(position) = window.outer_position() {
-                            let state = WindowState {
-                                x: position.x,
-                                y: position.y,
-                                maximized: false,
-                            };
-                            if let Ok(state_json) = serde_json::to_string(&state) {
-                                if let Ok(path) = get_state_file_path(app_handle) {
-                                    fs::write(path, state_json).ok();
+                    if !is_minimized { 
+                        if !is_maximized {
+                            if let Ok(position) = window.outer_position() {
+                                let state = WindowState {
+                                    x: position.x,
+                                    y: position.y,
+                                    maximized: false,
+                                };
+                                if let Ok(state_json) = serde_json::to_string(&state) {
+                                    if let Ok(path) = get_state_file_path(app_handle) {
+                                        let _ = fs::write(path, state_json);
+                                    }
                                 }
                             }
-                        }
-                    } else {
-                        // If maximized, we update the maximized bool but keep the old X/Y
-                        if let Ok(path) = get_state_file_path(app_handle) {
-                            if let Ok(state_json) = fs::read_to_string(&path) {
-                                if let Ok(mut state) = serde_json::from_str::<WindowState>(&state_json) {
-                                    state.maximized = true;
-                                    if let Ok(new_state_json) = serde_json::to_string(&state) {
-                                        fs::write(path, new_state_json).ok();
+                        } else {
+                            if let Ok(path) = get_state_file_path(app_handle) {
+                                if let Ok(state_json) = fs::read_to_string(&path) {
+                                    if let Ok(mut state) = serde_json::from_str::<WindowState>(&state_json) {
+                                        state.maximized = true;
+                                        if let Ok(new_state_json) = serde_json::to_string(&state) {
+                                            let _ = fs::write(path, new_state_json);
+                                        }
                                     }
                                 }
                             }
@@ -2616,6 +2633,7 @@ fn main() {
             }
         })
         .invoke_handler(tauri::generate_handler![
+            check_startup_intent, // <--- 3. REGISTER NEW COMMAND
             detect_game_installation,
             open_mods_folder,
             save_file,
