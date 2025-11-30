@@ -874,48 +874,51 @@ document.addEventListener('DOMContentLoaded', () => {
         const installedVersion = localModInfo.version;
         const installedFileId = localModInfo.file_id;
 
-        if (modId && installedVersion && installedFileId) {
+        if (modId && installedVersion) {
           const remoteModInfo = curatedData.find(mod => String(mod.mod_id) === String(modId));
 
           if (remoteModInfo && remoteModInfo.files) {
+
+            // --- 1. IDENTIFY INSTALLED MOD ---
+            let installedBaseName = "";
+
+            // Try matching by File ID first (Most accurate)
             const installedFileOnNexus = remoteModInfo.files.find(f => String(f.file_id) === String(installedFileId));
 
             if (installedFileOnNexus) {
-              const installedCategory = installedFileOnNexus.category_name;
-              let candidateFiles = [];
+              // Use the display name from Nexus
+              installedBaseName = getBaseName(installedFileOnNexus.name || installedFileOnNexus.file_name);
+            } else if (localModInfo.install_source) {
+              // Fallback: Use the local zip filename
+              installedBaseName = getBaseName(localModInfo.install_source);
+            } else {
+              // Last Resort: Use the folder name itself
+              installedBaseName = getBaseName(modFolderName);
+            }
 
-              // --- SMART MATCHING LOGIC ---
-              if (installedCategory === 'OLD_VERSION' || installedCategory === 'UPDATE') {
-                // If installed file is old, look for ANY file with a matching "Base Name"
-                const installedBaseName = getBaseName(installedFileOnNexus.name || installedFileOnNexus.file_name);
+            // --- 2. FIND UPDATES ---
+            if (installedBaseName) {
+              const candidateFiles = remoteModInfo.files.filter(f => {
+                // Never consider 'OLD_VERSION' files as a new update
+                if (f.category_name === 'OLD_VERSION') return false;
 
-                candidateFiles = remoteModInfo.files.filter(f => {
-                  // Ignore other old versions
-                  if (f.category_name === 'OLD_VERSION') return false;
-
-                  const candidateBaseName = getBaseName(f.name || f.file_name);
-                  return candidateBaseName === installedBaseName;
-                });
-              } else {
-                // Default: Only look in the same category (e.g. Optional -> Optional)
-                candidateFiles = remoteModInfo.files.filter(f => f.category_name === installedCategory);
-              }
-              // -----------------------------
+                const candidateBaseName = getBaseName(f.name || f.file_name);
+                return candidateBaseName === installedBaseName;
+              });
 
               if (candidateFiles.length > 0) {
-                // Sort by upload time (newest first)
+                // Find the absolute newest file among candidates
                 const latestFile = candidateFiles.sort((a, b) => b.uploaded_timestamp - a.uploaded_timestamp)[0];
 
                 if (isNewerVersionAvailable(installedVersion, latestFile.version)) {
 
-                  // 1. Update UI Dot
+                  // VISUALS: Show Yellow Dot
                   const row = modListContainer.querySelector(`.mod-row[data-mod-name="${modFolderName}"]`);
                   const indicator = row?.querySelector('.update-indicator');
                   if (indicator) indicator.classList.remove('hidden');
 
-                  // 2. Add to Modal List
+                  // MODAL: Add to list
                   const modIdStr = String(modId);
-
                   if (!groupedUpdates.has(modIdStr)) {
                     groupedUpdates.set(modIdStr, {
                       name: remoteModInfo.name || modFolderName,
@@ -1019,12 +1022,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function getBaseName(name) {
     if (!name) return "";
-    return name.toLowerCase()
-      // Remove common version patterns at the end of the string
-      // Matches: space/dash, optional 'v', digits/dots, optional letters
-      .replace(/[- _]?v?[\d\.]+[a-z]?$/i, '')
-      // Remove all non-alphanumeric characters to ignore spacing/punctuation differences
-      .replace(/[^a-z0-9]/g, '');
+    let clean = name.toLowerCase();
+
+    // Remove file extensions first
+    clean = clean.replace(/\.(zip|rar|7z|pak)$/i, '');
+
+    // Remove Nexus ID/Date suffix pattern (hyphen+digits at end)
+    clean = clean.replace(/-\d+(-\d+)*$/i, '');
+
+    // Remove typical version patterns anywhere in the string
+    // Matches: "v" followed by digits, or space/dash followed by digits
+    clean = clean.replace(/[- _]?v?\d+(\.\d+)*[a-z]?/gi, '');
+
+    // FINAL SWEEP: Keep ONLY letters (a-z). 
+    clean = clean.replace(/[^a-z]/g, '');
+
+    return clean;
   }
 
   async function startModDownload({ modId, fileId, version, fileName, displayName, replacingFileId, nxmQueryParams }, isUpdate = false) {
@@ -1516,16 +1529,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if (badge) {
         badge.classList.toggle('hidden', !isInstalled);
       }
-    }
-  }
-
-  async function loadDataInBackground() {
-    // 1. Fetch all the data we need in a single call.
-    await fetchCuratedData();
-
-    // 2. Once data is loaded, run the silent update check.
-    if (appState.gamePath && appState.modDataCache.size > 0) {
-      await checkForUpdates(true);
     }
   }
 
@@ -2450,10 +2453,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function showFileSelectionModal(modId) {
     const modData = curatedData.find(m => m.mod_id === modId);
+    // Ensure files exist
     const filesData = { files: modData?.files || [] };
 
-    if (!modData || !filesData || !filesData.files || filesData.files.length === 0) {
-      await window.customAlert("Could not find file information for this mod in the local data. Please try again later.", "Error");
+    if (!modData) {
+      await window.customAlert("Could not find file information for this mod in the local data.", "Error");
       return;
     }
 
@@ -2462,6 +2466,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const modIdStr = String(modId);
 
+    // --- HELPER TO GENERATE ROWS ---
     const createFileRow = (file) => {
       const item = document.createElement('div');
       item.className = 'update-item';
@@ -2471,37 +2476,50 @@ document.addEventListener('DOMContentLoaded', () => {
       const fileIdStr = String(file.file_id);
       const installedVersionForThisFile = installedFilesForThisMod ? installedFilesForThisMod.get(fileIdStr) : undefined;
 
-      // This is the raw, original filename
       const rawFileName = file.file_name;
-
-      // Track which file ID it's replacing (if any)
-      // If this remains empty string "", nothing will be deleted.
+      const remoteBaseName = getBaseName(file.name || file.file_name);
       let replacingFileId = "";
 
       if (installedVersionForThisFile) {
-        // Case 1: This exact file ID is already installed
+        // Case 1: Exact ID Match (You have this specific file installed)
         const isUpToDate = !isNewerVersionAvailable(installedVersionForThisFile, file.version);
         if (isUpToDate) {
           buttonHtml = `<button class="mod-card-install-btn" disabled>INSTALLED</button>`;
         } else {
-          // Updating the exact same file ID
           replacingFileId = fileIdStr;
           buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}" data-raw-filename="${rawFileName}" data-replacing-file-id="${replacingFileId}">UPDATE</button>`;
         }
       } else {
-        // Case 2: This file ID is NOT installed (could be a new file, or an update via a new ID)
+        // Case 2: Smart Match (Different ID, check if it's an update to what you have)
         let isUpdateForAnotherFile = false;
 
         if (installedFilesForThisMod) {
-          // Check if it has another file installed for this mod that matches the Category (e.g. MAIN vs OPTIONAL)
           for (const [installedFileId, installedVersion] of installedFilesForThisMod.entries()) {
-            const installedFileOnNexus = filesData.files.find(f => String(f.file_id) === installedFileId);
 
-            // Only mark as "Update" (and mark for deletion) if categories match.
-            if (installedFileOnNexus && installedFileOnNexus.category_name === file.category_name) {
+            let installedBaseName = "";
+
+            // A. Try to get name from Remote Data
+            const installedNexusFile = filesData.files.find(f => String(f.file_id) === installedFileId);
+            if (installedNexusFile) {
+              installedBaseName = getBaseName(installedNexusFile.name || installedNexusFile.file_name);
+            } else {
+              // B. FALLBACK: Try to get name from Local Cache (mod_info.json/install_source)
+              for (const modEntry of appState.modDataCache.values()) {
+                if (String(modEntry.local_info?.file_id) === installedFileId) {
+                  if (modEntry.local_info.install_source) {
+                    installedBaseName = getBaseName(modEntry.local_info.install_source);
+                  }
+                  break;
+                }
+              }
+            }
+
+            // Compare Names
+            if (installedBaseName && installedBaseName === remoteBaseName) {
+              // Compare Versions
               if (isNewerVersionAvailable(installedVersion, file.version)) {
                 isUpdateForAnotherFile = true;
-                replacingFileId = installedFileId; // Store the ID of the OLD file to delete
+                replacingFileId = installedFileId;
                 break;
               }
             }
@@ -2509,12 +2527,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const buttonText = isUpdateForAnotherFile ? 'UPDATE' : 'DOWNLOAD';
-
-        // Add the data-replacing-file-id attribute to the button so the click listener can read it
         buttonHtml = `<button class="mod-card-install-btn" data-file-id="${fileIdStr}" data-mod-id="${modId}" data-version="${file.version}" data-raw-filename="${rawFileName}" data-replacing-file-id="${replacingFileId}">${buttonText}</button>`;
       }
 
-      // The clean name for display
       const displayName = file.name || file.file_name;
 
       item.innerHTML = `
@@ -2607,28 +2622,28 @@ document.addEventListener('DOMContentLoaded', () => {
     // Logic to determine latest version
     let latestVersionToShow = remoteInfo?.version || 'N/A';
 
-    if (remoteInfo && localModInfo?.file_id) {
-      const installedFileOnNexus = remoteInfo.files.find(f => String(f.file_id) === String(localModInfo.file_id));
+    if (remoteInfo) {
+      // 1. Determine Identity of Installed File
+      let installedBaseName = "";
+      const installedFileOnNexus = localModInfo?.file_id
+        ? remoteInfo.files.find(f => String(f.file_id) === String(localModInfo.file_id))
+        : null;
 
       if (installedFileOnNexus) {
-        const category = installedFileOnNexus.category_name;
-        let filesToCheck = [];
+        installedBaseName = getBaseName(installedFileOnNexus.name || installedFileOnNexus.file_name);
+      } else if (localModInfo?.install_source) {
+        installedBaseName = getBaseName(localModInfo.install_source);
+      } else {
+        installedBaseName = null;
+      }
 
-        if (category === 'OLD_VERSION' || category === 'UPDATE') {
-          // Match by Base Name
-          const installedBaseName = getBaseName(installedFileOnNexus.name || installedFileOnNexus.file_name);
-
-          filesToCheck = remoteInfo.files.filter(f => {
-            // Ignore other old files, we want the new one
-            if (f.category_name === 'OLD_VERSION') return false;
-
-            const candidateBaseName = getBaseName(f.name || f.file_name);
-            return candidateBaseName === installedBaseName;
-          });
-        } else {
-          // Default match by Category
-          filesToCheck = remoteInfo.files.filter(f => f.category_name === category);
-        }
+      // 2. Find Best Match
+      if (installedBaseName) {
+        const filesToCheck = remoteInfo.files.filter(f => {
+          if (f.category_name === 'OLD_VERSION') return false;
+          const candidateBaseName = getBaseName(f.name || f.file_name);
+          return candidateBaseName === installedBaseName;
+        });
 
         if (filesToCheck.length > 0) {
           const latestFile = filesToCheck.sort((a, b) => b.uploaded_timestamp - a.uploaded_timestamp)[0];
