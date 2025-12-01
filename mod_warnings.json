@@ -7060,6 +7060,19 @@
         "id": "3883",
         "state": "normal",
         "warningMessage": ""
-    }
+    },
+    {
+        "name": "Portable Tent",
+        "id": "3929",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Portable Heater",
+        "id": "3930",
+        "state": "normal",
+        "warningMessage": ""
+    },
 ]
+
 
