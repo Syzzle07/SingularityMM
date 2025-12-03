@@ -7076,10 +7076,11 @@
     {
         "name": "No Ship Flyby Spawns",
         "id": "2253",
-        "state": "warning",
-        "warningMessage": "Seems to be changing a lot of files and MBINs that aren't related to what the mod does."
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
