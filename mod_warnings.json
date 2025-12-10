@@ -7084,8 +7084,15 @@
         "id": "3933",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Clear Photo Mode Filter",
+        "id": "2928",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
