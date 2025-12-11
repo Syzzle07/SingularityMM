@@ -7090,8 +7090,15 @@
         "id": "2928",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Corvette Ramp Control Switches",
+        "id": "3954",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
