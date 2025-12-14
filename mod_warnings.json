@@ -7096,8 +7096,21 @@
         "id": "3954",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Honest HUD Speed",
+        "id": "3957",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Gold Background",
+        "id": "3958",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
