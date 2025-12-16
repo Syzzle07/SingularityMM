@@ -279,6 +279,35 @@ fn get_library_dir(app: &AppHandle) -> Result<PathBuf, String> {
     Ok(lib_dir)
 }
 
+fn rotate_logs(app: &AppHandle) {
+    // 1. Get the App Data Directory
+    let app_data_dir = match app.path().app_data_dir() {
+        Ok(p) => p,
+        Err(_) => return, // Should not happen, but safe exit
+    };
+
+    // 2. Define Paths
+    let log_current = app_data_dir.join("singularity.log");
+    let log_previous = app_data_dir.join("singularity-previous.log");
+    let log_older = app_data_dir.join("singularity-older.log");
+
+    // 3. Rotate: Previous -> Older
+    // If 'previous' exists, move it to 'older' (this overwrites 'older' if it exists)
+    if log_previous.exists() {
+        // We ignore errors here (e.g. if file is open by user) to ensure app startup doesn't crash
+        let _ = std::fs::rename(&log_previous, &log_older);
+    }
+
+    // 4. Rotate: Current -> Previous
+    // If 'current' exists, move it to 'previous'
+    if log_current.exists() {
+        let _ = std::fs::rename(&log_current, &log_previous);
+    }
+
+    // 5. Done. 'log_internal' will automatically create a fresh 'singularity.log' 
+    // when it writes the first line of the new session.
+}
+
 fn log_internal(app: &AppHandle, level: &str, message: &str) {
     if let Ok(log_path) = get_log_file_path(app) {
         let timestamp = Local::now().format("%Y-%m-%d %H:%M:%S").to_string();
@@ -2645,6 +2674,10 @@ fn main() {
         }))
         .setup(|app| {
             let app_handle = app.handle();
+
+            // --- 1. ROTATE LOGS ON STARTUP ---
+            rotate_logs(app_handle);
+
             log_internal(app_handle, "INFO", "=== SINGULARITY MANAGER STARTUP ===");
 
             let args: Vec<String> = std::env::args().collect();
