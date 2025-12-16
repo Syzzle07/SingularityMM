@@ -7108,8 +7108,33 @@
         "id": "3958",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Slower Pulse Drive",
+        "id": "3959",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Black Holes to Wormholes",
+        "id": "3960",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Deepest Gas Giant Oceans",
+        "id": "3961",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Star Wars Warp Effect for Pulse",
+        "id": "3963",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
