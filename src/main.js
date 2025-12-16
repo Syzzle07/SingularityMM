@@ -150,11 +150,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- LOGGING SYSTEM ---
   window.addAppLog = async (message, level = 'INFO') => {
     try {
-      // 1. Print to DevTools console
+      // Print to DevTools
       if (level === 'ERROR') console.error(message);
       else console.log(message);
 
-      // 2. Write to disk (singularity.log)
+      // Send to Rust to write to disk
       await invoke('write_to_log', { level, message: String(message) });
     } catch (e) {
       console.error("Failed to write log:", e);
@@ -163,6 +163,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Log startup
   window.addAppLog("Singularity Manager Started", "INFO");
+
+  // --- Monitor Window Resizing ---
+  // This debounces the event so it only logs once when the resizing STOPS.
+  let resizeLogTimeout;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeLogTimeout);
+    resizeLogTimeout = setTimeout(async () => {
+      try {
+        const size = await appWindow.innerSize();
+        const pos = await appWindow.outerPosition();
+        window.addAppLog(`Window Resized to: ${size.width}x${size.height} at (${pos.x}, ${pos.y})`, "INFO");
+      } catch (e) { /* ignore */ }
+    }, 500);
+  });
 
   // --- CUSTOM DIALOG HELPERS ---
   const inputModal = document.getElementById('inputDialogModal');
@@ -784,8 +798,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const row = document.createElement('div');
       row.className = 'mod-row';
       row.dataset.modName = modData.folder_name;
-      // --- Conditional Red Dot Logic ---
-      // If user hasn't suppressed warnings AND local_info is missing, show red dot
       const showRedDot = !suppressUntracked && (!modData.local_info || !modData.local_info.install_source);
 
       const untrackedHtml = showRedDot
@@ -803,13 +815,16 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
       row.querySelector('.enabled-switch').addEventListener('change', async (e) => {
+        const newState = e.target.checked;
+        window.addAppLog(`User toggled mod '${modData.folder_name}': ${newState ? 'ENABLED' : 'DISABLED'}`, "INFO");
+
         const modNode = Array.from(appState.xmlDoc.querySelectorAll('Property[name="Data"] > Property'))
           .find(node => {
             const nameProp = node.querySelector('Property[name="Name"]');
             return nameProp && nameProp.getAttribute('value').toUpperCase() === modData.folder_name.toUpperCase();
           });
         if (modNode) {
-          const newVal = e.target.checked ? 'true' : 'false';
+          const newVal = newState ? 'true' : 'false';
           const eNode = modNode.querySelector('Property[name="Enabled"]');
           const evrNode = modNode.querySelector('Property[name="EnabledVR"]');
           if (eNode) eNode.setAttribute('value', newVal);
@@ -1041,6 +1056,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   async function startModDownload({ modId, fileId, version, fileName, displayName, replacingFileId, nxmQueryParams }, isUpdate = false) {
+
+    window.addAppLog(`Download Requested: ${displayName || fileName} (ID: ${modId}-${fileId}) [Update: ${isUpdate}]`, "INFO");
+
     // 1. DUPLICATE CHECK
     const existingItem = downloadHistory.find(d => d.fileId === fileId);
 
@@ -1055,6 +1073,7 @@ document.addEventListener('DOMContentLoaded', () => {
         downloadHistory = downloadHistory.filter(d => d.fileId !== fileId);
         downloadHistory.unshift(existingItem);
         renderDownloadHistory();
+        window.addAppLog("Download skipped by user (Duplicate).", "INFO");
         return;
       }
 
@@ -1062,7 +1081,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 2. UPDATE LOGIC: HIDE OLD VERSION
-    // If this is an update, find the OLD version and hide it in the list to keep the list clean.
     if (replacingFileId) {
       const oldVersionItem = downloadHistory.find(d => String(d.fileId) === String(replacingFileId));
 
@@ -1105,7 +1123,9 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       updateStatus('Requesting download URL...', 'progress');
       const downloadUrl = await fetchDownloadUrlFromNexus(modId, fileId, nxmQueryParams);
-      if (!downloadUrl) throw new Error("Could not retrieve download URL. (Check API Key or Premium Status)");
+      if (!downloadUrl) {
+        throw new Error("Could not retrieve download URL. (Check API Key or Premium Status)");
+      }
 
       updateStatus(i18n.get('statusDownloading'), 'progress');
 
@@ -1121,6 +1141,8 @@ document.addEventListener('DOMContentLoaded', () => {
         item.size = downloadResult.size;
         item.createdAt = downloadResult.created_at;
 
+        window.addAppLog(`Download chain finished successfully for ${fileName}`, "INFO");
+
         if (isUpdate) {
           await handleDownloadItemInstall(downloadId, true);
         } else {
@@ -1133,6 +1155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     } catch (error) {
       console.error("Download/Update failed:", error);
+      window.addAppLog(`Frontend Download Error: ${error.message}`, "ERROR");
       updateStatus(`Error: ${error.message}`, 'error');
       await saveDownloadHistory(downloadHistory);
     }
@@ -2151,6 +2174,8 @@ document.addEventListener('DOMContentLoaded', () => {
       dragState.placeholder.parentNode.insertBefore(dragState.draggedElement, dragState.placeholder);
       const finalModOrder = Array.from(modListContainer.querySelectorAll('.mod-row')).map(row => row.dataset.modName);
 
+      window.addAppLog("User reordered mod list via drag & drop.", "INFO");
+
       // 1. Immediately update the UI with no blink.
       reorderModListUI(finalModOrder);
 
@@ -2164,6 +2189,7 @@ document.addEventListener('DOMContentLoaded', () => {
           console.log("Mod order saved and local state synced.");
         })
         .catch(async error => {
+          window.addAppLog(`Failed to save reorder: ${error}`, "ERROR");
           await window.customAlert(`Error saving new mod order: ${error}`, "Error");
           renderModList();
         });
@@ -3050,6 +3076,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const onDragEnter = (event) => {
       if (dragState.draggedElement) return;
 
+      // Debug Log: Useful to see if hover events trigger layout shifts
       console.log("Drag enter detected");
       showHighlight();
     };
@@ -3080,16 +3107,25 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
+      // LOGGING: Catch the event start
+      window.addAppLog(`File Drop Detected: ${files.length} paths received.`, "INFO");
+
       if (!appState.xmlDoc) {
         await window.customAlert("Please load a GCMODSETTINGS.MXML file first.", "Error");
         return;
       }
 
       const archiveFiles = files.filter(p => /\.(zip|rar|7z)$/i.test(p));
-      if (archiveFiles.length === 0) return;
+      if (archiveFiles.length === 0) {
+        window.addAppLog("File Drop ignored: No valid archives found in drop.", "WARN");
+        return;
+      }
 
       for (const filePath of archiveFiles) {
         const fileName = await basename(filePath);
+
+        // LOGGING: Track specific file processing
+        window.addAppLog(`Processing dropped file: ${fileName}`, "INFO");
 
         const downloadId = `manual-${Date.now()}`;
         const newItem = {
@@ -3138,6 +3174,8 @@ document.addEventListener('DOMContentLoaded', () => {
               await invoke('clean_staging_folder');
               newItem.statusText = i18n.get('statusCancelled') || "Cancelled";
               newItem.statusClass = 'cancelled';
+
+              window.addAppLog(`User cancelled folder selection for: ${fileName}`, "INFO");
 
               await saveDownloadHistory(downloadHistory);
               renderDownloadHistory();
@@ -3193,9 +3231,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           }
 
+          // LOGGING: Success
+          window.addAppLog(`Successfully installed dropped file: ${fileName}`, "INFO");
+
         } catch (error) {
+          // LOGGING: Error
           const errMsg = `Drag/Drop install failed for ${fileName}: ${error}`;
-          logAppEvent(errMsg, 'ERROR');
+          window.addAppLog(errMsg, "ERROR");
           console.error(`Error installing ${fileName}:`, error);
 
           newItem.statusText = "Error";
@@ -3778,6 +3820,18 @@ document.addEventListener('DOMContentLoaded', () => {
   applyProfileBtn.addEventListener('click', async () => {
     const targetProfile = profileSelect.value;
 
+    // --- SAFETY CHECK START ---
+    // Prevent re-applying the profile that is already active.
+    // This prevents unnecessary file operations and "purging" the folder.
+    if (targetProfile === appState.activeProfile) {
+      await window.customAlert(
+        `The profile "${targetProfile}" is already active.`,
+        "Action Ignored"
+      );
+      return;
+    }
+    // --- SAFETY CHECK END ---
+
     const confirmed = await window.customConfirm(
       i18n.get('switchProfileMsg', {
         profileName: targetProfile
@@ -3789,6 +3843,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!confirmed) {
       return;
     }
+
+    // LOGGING: Start
+    window.addAppLog(`Starting Profile Switch to: ${targetProfile}`, "INFO");
 
     // Show Modal
     profileProgressModal.classList.remove('hidden');
@@ -3837,6 +3894,9 @@ document.addEventListener('DOMContentLoaded', () => {
       // 2. Frontend syncs history
       await syncDownloadHistoryWithProfile(targetProfile);
 
+      // LOGGING: Success
+      window.addAppLog(`Profile Switch to ${targetProfile} successful.`, "INFO");
+
       // 3. Update State
       appState.activeProfile = targetProfile;
       localStorage.setItem('activeProfile', targetProfile);
@@ -3858,6 +3918,9 @@ document.addEventListener('DOMContentLoaded', () => {
       await window.customAlert(`Profile "${targetProfile}" applied successfully.`, "Success");
 
     } catch (e) {
+      // LOGGING: Failure
+      window.addAppLog(`Profile Switch FAILED: ${e}`, "ERROR");
+
       profileProgressModal.classList.add('hidden');
       await window.customAlert(`Error applying profile: ${e}`, "Error");
     } finally {
