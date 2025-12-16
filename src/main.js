@@ -47,6 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
     selectedModRow: null,
     installedModsMap: new Map(),
     modDataCache: new Map(),
+    selectedModNames: new Set(),
+    selectedDownloadIds: new Set(),
   };
 
   const dragState = {
@@ -163,6 +165,83 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Log startup
   window.addAppLog("Singularity Manager Started", "INFO");
+
+  // --- GLOBAL HOTKEYS & INPUT HANDLING ---
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Tab') {
+      e.preventDefault();
+      return;
+    }
+
+    if (e.key === 'Escape') {
+      // 1. Handle Input/Dialog Modals (Highest Priority)
+      if (!document.getElementById('inputDialogModal').classList.contains('hidden')) {
+        document.getElementById('inputDialogCancelBtn').click();
+        return;
+      }
+      if (!document.getElementById('genericDialogModal').classList.contains('hidden')) {
+        document.querySelector('#genericDialogActions button')?.click();
+        return;
+      }
+
+      // 2. Handle Overlay Modals
+      const modals = [
+        'profileProgressModal', 'profileManagerModal', 'folderSelectionModal',
+        'downloadHistoryModalOverlay', 'fileSelectionModalOverlay',
+        'updateModalOverlay', 'priorityModalOverlay', 'changelogModalOverlay',
+        'settingsModalOverlay', 'modDetailPanel'
+      ];
+
+      for (const id of modals) {
+        const el = document.getElementById(id);
+        // Check if visible
+        if (el && !el.classList.contains('hidden')) {
+          // Special case for Detail Panel (slide out)
+          if (id === 'modDetailPanel' && el.classList.contains('open')) {
+            document.getElementById('modDetailCloseBtn').click();
+            return;
+          }
+          // Special case: If closing Download History, clear its selection
+          if (id === 'downloadHistoryModalOverlay') {
+            appState.selectedDownloadIds.clear();
+            // Visual cleanup not strictly needed here as render handles it on open, but good practice
+          }
+
+          if (id !== 'modDetailPanel') {
+            el.classList.add('hidden');
+            return;
+          }
+        }
+      }
+
+      // 3. Clear Selections (If no modals were closed)
+      // Clear Mod List Selection
+      if (appState.selectedModNames.size > 0) {
+        appState.selectedModNames.clear();
+        appState.selectedModRow = null;
+        modListContainer.querySelectorAll('.mod-row.selected').forEach(el => el.classList.remove('selected'));
+        modInfoPanel.classList.add('hidden');
+      }
+
+      // Clear Download List Selection (Visuals only, usually modal is closed by now)
+      if (appState.selectedDownloadIds.size > 0) {
+        appState.selectedDownloadIds.clear();
+        downloadListContainer.querySelectorAll('.download-item.selected').forEach(el => el.classList.remove('selected'));
+      }
+    }
+
+    if (e.key === 'Enter') {
+      if (!document.getElementById('inputDialogModal').classList.contains('hidden')) {
+        document.getElementById('inputDialogOkBtn').click();
+        return;
+      }
+      if (!document.getElementById('genericDialogModal').classList.contains('hidden')) {
+        const confirmBtn = document.querySelector('.modal-gen-btn-confirm');
+        if (confirmBtn) confirmBtn.click();
+        return;
+      }
+    }
+  });
 
   // --- Monitor Window Resizing ---
   // This debounces the event so it only logs once when the resizing STOPS.
@@ -1162,72 +1241,117 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function showDownloadContextMenu(e, downloadId) {
-    const itemData = downloadHistory.find(d => d.id === downloadId);
-
-    console.log(`[CONTEXT MENU] Opening for downloadId: "${downloadId}"`);
-
-    if (!itemData) {
-      console.error("[CONTEXT MENU] Could not find item data for this ID!");
-      return;
-    }
-
-    console.log("[CONTEXT MENU] Item data:", JSON.parse(JSON.stringify(itemData)));
-
     e.preventDefault();
     e.stopPropagation();
     removeContextMenu();
+
+    // Auto-select the item if it wasn't part of the existing selection
+    if (!appState.selectedDownloadIds.has(downloadId)) {
+      appState.selectedDownloadIds.clear();
+      appState.selectedDownloadIds.add(downloadId);
+      // Visual update
+      const allRows = downloadListContainer.querySelectorAll('.download-item');
+      allRows.forEach(row => {
+        if (row.dataset.downloadId === downloadId) row.classList.add('selected');
+        else row.classList.remove('selected');
+      });
+    }
 
     contextMenu = document.createElement('div');
     contextMenu.className = 'context-menu';
     contextMenu.style.left = `${e.clientX}px`;
     contextMenu.style.top = `${e.clientY}px`;
 
-    // --- Create Menu Items ---
-    console.log(`[CONTEXT MENU] Checking condition to show 'Install' button: statusClass === 'success' (${itemData.statusClass === 'success'}), archivePath exists (${!!itemData.archivePath})`);
+    const selectionCount = appState.selectedDownloadIds.size;
 
-    // Install Button
-    if ((itemData.statusClass === 'success' ||
-      itemData.statusClass === 'cancelled' ||
-      itemData.statusClass === 'error' ||
-      itemData.statusClass === 'unpacked')
-      && itemData.archivePath) {
+    if (selectionCount > 1) {
+      // --- BULK DELETE OPTION ---
+      const deleteButton = document.createElement('button');
 
-      const installButton = document.createElement('button');
-      installButton.textContent = i18n.get('ctxInstall');
-      installButton.className = 'context-menu-item';
-      installButton.onclick = () => handleDownloadItemInstall(downloadId);
-      contextMenu.appendChild(installButton);
+      deleteButton.textContent = i18n.get('deleteMultipleBtn', { count: selectionCount }) || `Delete ${selectionCount} Items`;
+      deleteButton.className = 'context-menu-item delete';
+
+      deleteButton.onclick = async () => {
+        removeContextMenu();
+
+        const confirmed = await window.customConfirm(
+          i18n.get('confirmDeleteMultipleMsg') || "Delete selected files?",
+          i18n.get('confirmDeleteTitle') || "Confirm Delete"
+        );
+
+        if (confirmed) {
+          const idsToDelete = Array.from(appState.selectedDownloadIds);
+
+          for (const id of idsToDelete) {
+            const itemIndex = downloadHistory.findIndex(d => d.id === id);
+            if (itemIndex > -1) {
+              const item = downloadHistory[itemIndex];
+              try {
+                if (item.archivePath) await invoke('delete_archive_file', { path: item.archivePath });
+                if (item.fileName) await invoke('delete_library_folder', { zipFilename: item.fileName });
+
+                // Remove from history array
+                downloadHistory.splice(itemIndex, 1);
+              } catch (err) {
+                console.error(`Failed to delete ${item.fileName}`, err);
+              }
+            }
+          }
+
+          appState.selectedDownloadIds.clear();
+          renderDownloadHistory();
+          await saveDownloadHistory(downloadHistory);
+        }
+      };
+      contextMenu.appendChild(deleteButton);
+
     } else {
-      console.log("[CONTEXT MENU] 'Install' button will be HIDDEN.");
+      // --- SINGLE ITEM OPTIONS ---
+      const itemData = downloadHistory.find(d => d.id === downloadId);
+      if (!itemData) return;
+
+      // Install Button
+      if ((itemData.statusClass === 'success' ||
+        itemData.statusClass === 'cancelled' ||
+        itemData.statusClass === 'error' ||
+        itemData.statusClass === 'unpacked')
+        && itemData.archivePath) {
+
+        const installButton = document.createElement('button');
+        installButton.textContent = i18n.get('ctxInstall');
+        installButton.className = 'context-menu-item';
+        installButton.onclick = () => handleDownloadItemInstall(downloadId);
+        contextMenu.appendChild(installButton);
+      }
+
+      // Visit on Nexus Button
+      const nexusButton = document.createElement('button');
+      nexusButton.textContent = i18n.get('ctxVisitNexus');
+      nexusButton.className = 'context-menu-item';
+      nexusButton.onclick = () => {
+        invoke('plugin:shell|open', {
+          path: `https://www.nexusmods.com/nomanssky/mods/${itemData.modId}`,
+          with: null
+        });
+      };
+      contextMenu.appendChild(nexusButton);
+
+      // Reveal in Explorer
+      if (itemData.archivePath) {
+        const revealButton = document.createElement('button');
+        revealButton.textContent = i18n.get('ctxRevealExplorer');
+        revealButton.className = 'context-menu-item';
+        revealButton.onclick = () => invoke('show_in_folder', { path: itemData.archivePath });
+        contextMenu.appendChild(revealButton);
+      }
+
+      // Delete Button
+      const deleteButton = document.createElement('button');
+      deleteButton.textContent = i18n.get('deleteBtn');
+      deleteButton.className = 'context-menu-item delete';
+      deleteButton.onclick = () => handleDownloadItemDelete(downloadId);
+      contextMenu.appendChild(deleteButton);
     }
-
-    // Visit on Nexus Button
-    const nexusButton = document.createElement('button');
-    nexusButton.textContent = i18n.get('ctxVisitNexus');
-    nexusButton.className = 'context-menu-item';
-    nexusButton.onclick = () => {
-      invoke('plugin:shell|open', {
-        path: `https://www.nexusmods.com/nomanssky/mods/${itemData.modId}`,
-        with: null
-      });
-    };
-    contextMenu.appendChild(nexusButton);
-
-    // Reveal in Explorer Button
-    if (itemData.archivePath) {
-      const revealButton = document.createElement('button');
-      revealButton.textContent = i18n.get('ctxRevealExplorer');
-      revealButton.className = 'context-menu-item';
-      revealButton.onclick = () => invoke('show_in_folder', { path: itemData.archivePath });
-      contextMenu.appendChild(revealButton);
-    }
-
-    // Delete Button
-    const deleteButton = document.createElement('button');
-    deleteButton.textContent = i18n.get('deleteBtn');
-    deleteButton.className = 'context-menu-item delete';
-    deleteButton.onclick = () => handleDownloadItemDelete(downloadId);
-    contextMenu.appendChild(deleteButton);
 
     document.body.appendChild(contextMenu);
   }
@@ -1667,6 +1791,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       newItem.dataset.downloadId = itemData.id;
 
+      // --- SELECTION STATE LOGIC ---
+      if (appState.selectedDownloadIds.has(itemData.id)) {
+        newItem.classList.add('selected');
+      }
+
       if ((itemData.statusClass === 'success' ||
         itemData.statusClass === 'cancelled' ||
         itemData.statusClass === 'error' ||
@@ -1706,11 +1835,39 @@ document.addEventListener('DOMContentLoaded', () => {
       const timestamp = itemData.createdAt || parseInt(itemData.id.split('-')[1], 10) / 1000;
       newItem.querySelector('.download-item-date').textContent = formatDate(timestamp);
 
+      // --- CLICK LISTENERS ---
+
+      // 1. Selection Handler (Single vs Multi)
+      newItem.addEventListener('click', (e) => {
+        if (e.ctrlKey) {
+          // Multi-select toggle
+          if (appState.selectedDownloadIds.has(itemData.id)) {
+            appState.selectedDownloadIds.delete(itemData.id);
+            newItem.classList.remove('selected');
+          } else {
+            appState.selectedDownloadIds.add(itemData.id);
+            newItem.classList.add('selected');
+          }
+        } else {
+          // Single select (Clear others)
+          appState.selectedDownloadIds.clear();
+          appState.selectedDownloadIds.add(itemData.id);
+
+          // Update visuals manually to avoid full re-render
+          const allRows = downloadListContainer.querySelectorAll('.download-item');
+          allRows.forEach(row => row.classList.remove('selected'));
+          newItem.classList.add('selected');
+        }
+      });
+
+      // 2. Install Action
       newItem.addEventListener('dblclick', () => {
         if (newItem.classList.contains('installable')) {
           handleDownloadItemInstall(itemData.id);
         }
       });
+
+      // 3. Context Menu
       newItem.addEventListener('contextmenu', (e) => showDownloadContextMenu(e, itemData.id));
 
       downloadListContainer.appendChild(newItem);
@@ -2720,96 +2877,188 @@ document.addEventListener('DOMContentLoaded', () => {
     e.stopPropagation();
     removeContextMenu();
 
-    const modName = modRow.dataset.modName;
+    const clickedModName = modRow.dataset.modName;
+
+    // If right-clicked on a mod that ISN'T in the current selection, select it solely
+    if (!appState.selectedModNames.has(clickedModName)) {
+      appState.selectedModNames.clear();
+      appState.selectedModNames.add(clickedModName);
+      modListContainer.querySelectorAll('.mod-row.selected').forEach(el => el.classList.remove('selected'));
+      modRow.classList.add('selected');
+    }
+
     contextMenu = document.createElement('div');
     contextMenu.className = 'context-menu';
     contextMenu.style.left = `${Math.min(e.clientX, window.innerWidth - 160)}px`;
     contextMenu.style.top = `${Math.min(e.clientY, window.innerHeight - 85)}px`;
 
-    const copyButton = document.createElement('button');
-    copyButton.textContent = i18n.get('copyModNameBtn');
-    copyButton.className = 'context-menu-item';
-    copyButton.onclick = async () => {
-      removeContextMenu();
-      try {
-        await navigator.clipboard.writeText(modName);
-        await window.customAlert(i18n.get('copySuccess', { modName }), "Success");
-      } catch (err) {
-        console.error('Failed to copy text: ', err);
-        await window.customAlert('Could not copy text to clipboard.', "Error");
-      }
-    };
+    const selectionCount = appState.selectedModNames.size;
 
-    const priorityButton = document.createElement('button');
-    priorityButton.textContent = i18n.get('ctxChangePriority');
-    priorityButton.className = 'context-menu-item';
-    priorityButton.onclick = () => {
-      removeContextMenu();
-      const allRows = Array.from(modListContainer.querySelectorAll('.mod-row'));
-      const modIndex = allRows.findIndex(row => row.dataset.modName === modName);
-      const maxPriority = allRows.length - 1;
-      priorityModalTitle.textContent = i18n.get('priorityModalTitleWithMod', { modName: modName });
-      priorityModalDescription.textContent = i18n.get('priorityModalDesc', { max: maxPriority });
-      priorityInput.value = modIndex;
-      priorityInput.max = maxPriority;
-      priorityModalOverlay.dataset.modName = modName;
-      priorityModalOverlay.classList.remove('hidden');
-    };
+    if (selectionCount > 1) {
+      // --- BULK ACTIONS ---
+      const deleteButton = document.createElement('button');
+      deleteButton.textContent = i18n.get('deleteModBtn', { modName: `${selectionCount} Mods` }); // reuse key or add new "Delete X Mods"
+      deleteButton.className = 'context-menu-item delete';
+      deleteButton.onclick = async () => {
+        removeContextMenu();
+        const confirmed = await window.customConfirm(
+          `Are you sure you want to delete these ${selectionCount} mods?`,
+          "Confirm Bulk Deletion"
+        );
 
-    const deleteButton = document.createElement('button');
-    deleteButton.textContent = i18n.get('deleteModBtn', { modName });
-    deleteButton.className = 'context-menu-item delete';
-    deleteButton.onclick = async () => {
-      removeContextMenu();
-      const confirmed = await window.customConfirm(
-        i18n.get('confirmDeleteMod', { modName }),
-        i18n.get('confirmDeleteTitle')
-      );
-      if (confirmed) {
-        try {
-          const modsToRender = await invoke('delete_mod', { modName: modName });
+        if (confirmed) {
+          let successCount = 0;
+          // Copy set to array to iterate safely
+          const modsToDelete = Array.from(appState.selectedModNames);
 
-          try {
-            const settingsPath = await join(appState.gamePath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
-            const content = await readTextFile(settingsPath);
-            appState.xmlDoc = new DOMParser().parseFromString(content, "application/xml");
-          } catch (e) {
-            console.error("Failed to re-sync xmlDoc after deletion:", e);
-            location.reload();
-            return;
-          }
+          for (const modName of modsToDelete) {
+            try {
+              await invoke('delete_mod', { modName: modName });
 
-          await renderModList(modsToRender);
-
-          const deletedItem = downloadHistory.find(item => item.modFolderName && item.modFolderName.toUpperCase() === modName.toUpperCase());
-          if (deletedItem) {
-            deletedItem.statusText = i18n.get('statusUnpacked');
-            deletedItem.statusClass = 'unpacked';
-
-            const modIdToUpdate = deletedItem.modId;
-
-            deletedItem.modFolderName = null;
-
-            await saveDownloadHistory(downloadHistory);
-
-            if (modIdToUpdate) {
-              updateModDisplayState(modIdToUpdate);
+              // Cleanup history locally
+              const deletedItem = downloadHistory.find(item => item.modFolderName && item.modFolderName.toUpperCase() === modName.toUpperCase());
+              if (deletedItem) {
+                deletedItem.statusText = i18n.get('statusUnpacked');
+                deletedItem.statusClass = 'unpacked';
+                deletedItem.modFolderName = null;
+              }
+              successCount++;
+            } catch (err) {
+              console.error(`Failed to delete ${modName}:`, err);
             }
           }
 
-          await window.customAlert(i18n.get('deleteSuccess', { modName }), "Deleted");
-
+          // Reload List
+          const settingsPath = await join(appState.gamePath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
+          const content = await readTextFile(settingsPath);
+          await loadXmlContent(content, settingsPath);
+          await saveDownloadHistory(downloadHistory);
           await saveCurrentProfile();
 
-        } catch (error) {
-          await window.customAlert(`${i18n.get('deleteError', { modName })}\n\n${error}`, "Error");
+          await window.customAlert(`Successfully deleted ${successCount} mods.`, "Deleted");
         }
-      }
-    };
+      };
+      contextMenu.appendChild(deleteButton);
 
-    contextMenu.appendChild(copyButton);
-    contextMenu.appendChild(priorityButton);
-    contextMenu.appendChild(deleteButton);
+    } else {
+      // --- SINGLE ACTIONS (Existing + Rename) ---
+      const modName = clickedModName;
+
+      const renameButton = document.createElement('button');
+      renameButton.textContent = i18n.get('renameBtn');
+      renameButton.className = 'context-menu-item';
+      renameButton.onclick = async () => {
+        removeContextMenu();
+        const newName = await window.customPrompt(
+          `Enter new name for "${modName}":`,
+          "Rename Mod",
+          modName
+        );
+
+        if (newName && newName !== modName) {
+          try {
+            const newRenderList = await invoke('rename_mod_folder', {
+              oldName: modName,
+              newName: newName
+            });
+
+            // Update History reference
+            const historyItem = downloadHistory.find(item => item.modFolderName === modName);
+            if (historyItem) {
+              historyItem.modFolderName = newName;
+              await saveDownloadHistory(downloadHistory);
+            }
+
+            // Re-render
+            await renderModList(newRenderList);
+            // Refresh XML doc in memory
+            const settingsPath = await join(appState.gamePath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
+            const content = await readTextFile(settingsPath);
+            appState.xmlDoc = new DOMParser().parseFromString(content, "application/xml");
+
+          } catch (e) {
+            await window.customAlert(`Rename failed: ${e}`, "Error");
+          }
+        }
+      };
+      contextMenu.appendChild(renameButton);
+
+      const copyButton = document.createElement('button');
+      copyButton.textContent = i18n.get('copyModNameBtn');
+      copyButton.className = 'context-menu-item';
+      copyButton.onclick = async () => {
+        removeContextMenu();
+        try {
+          await navigator.clipboard.writeText(modName);
+          await window.customAlert(i18n.get('copySuccess', { modName }), "Success");
+        } catch (err) { /* ignore */ }
+      };
+      contextMenu.appendChild(copyButton);
+
+      const priorityButton = document.createElement('button');
+      priorityButton.textContent = i18n.get('ctxChangePriority');
+      priorityButton.className = 'context-menu-item';
+      priorityButton.onclick = () => {
+        removeContextMenu();
+        const allRows = Array.from(modListContainer.querySelectorAll('.mod-row'));
+        const modIndex = allRows.findIndex(row => row.dataset.modName === modName);
+        const maxPriority = allRows.length - 1;
+        priorityModalTitle.textContent = i18n.get('priorityModalTitleWithMod', { modName: modName });
+        priorityModalDescription.textContent = i18n.get('priorityModalDesc', { max: maxPriority });
+        priorityInput.value = modIndex;
+        priorityInput.max = maxPriority;
+        priorityModalOverlay.dataset.modName = modName;
+        priorityModalOverlay.classList.remove('hidden');
+        // Auto focus the input
+        setTimeout(() => priorityInput.focus(), 50);
+      };
+      contextMenu.appendChild(priorityButton);
+
+      const deleteButton = document.createElement('button');
+      deleteButton.textContent = i18n.get('deleteModBtn', { modName });
+      deleteButton.className = 'context-menu-item delete';
+      deleteButton.onclick = async () => {
+        removeContextMenu();
+        const confirmed = await window.customConfirm(
+          i18n.get('confirmDeleteMod', { modName }),
+          i18n.get('confirmDeleteTitle')
+        );
+        if (confirmed) {
+          try {
+            const modsToRender = await invoke('delete_mod', { modName: modName });
+
+            // Sync XML memory
+            try {
+              const settingsPath = await join(appState.gamePath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
+              const content = await readTextFile(settingsPath);
+              appState.xmlDoc = new DOMParser().parseFromString(content, "application/xml");
+            } catch (e) {
+              location.reload();
+              return;
+            }
+
+            await renderModList(modsToRender);
+
+            const deletedItem = downloadHistory.find(item => item.modFolderName && item.modFolderName.toUpperCase() === modName.toUpperCase());
+            if (deletedItem) {
+              deletedItem.statusText = i18n.get('statusUnpacked');
+              deletedItem.statusClass = 'unpacked';
+              deletedItem.modFolderName = null;
+              await saveDownloadHistory(downloadHistory);
+              if (deletedItem.modId) updateModDisplayState(deletedItem.modId);
+            }
+
+            await window.customAlert(i18n.get('deleteSuccess', { modName }), "Deleted");
+            await saveCurrentProfile();
+
+          } catch (error) {
+            await window.customAlert(`${i18n.get('deleteError', { modName })}\n\n${error}`, "Error");
+          }
+        }
+      };
+      contextMenu.appendChild(deleteButton);
+    }
+
     document.body.appendChild(contextMenu);
   });
 
@@ -2818,21 +3067,61 @@ document.addEventListener('DOMContentLoaded', () => {
     const row = e.target.closest('.mod-row');
     if (!row) return;
 
+    const modName = row.dataset.modName;
+
+    // Check if this specific row is the ONLY one currently selected
+    const isAlreadyTheSingleSelection = appState.selectedModNames.has(modName) && appState.selectedModNames.size === 1;
+
+    // --- MULTI-SELECT LOGIC (CTRL) ---
+    if (e.ctrlKey) {
+      e.preventDefault();
+      if (appState.selectedModNames.has(modName)) {
+        appState.selectedModNames.delete(modName);
+        row.classList.remove('selected');
+        if (appState.selectedModRow === row) {
+          appState.selectedModRow = null;
+          modInfoPanel.classList.add('hidden');
+        }
+      } else {
+        appState.selectedModNames.add(modName);
+        row.classList.add('selected');
+      }
+      return;
+    }
+
+    // --- SINGLE SELECT LOGIC ---
+    // If it's NOT the currently selected item (or there are multiple), select it immediately.
+    // If it IS the currently selected item, do NOTHING yet. We wait to see if it's a Click (Toggle Off) or a Drag (Keep Selected).
+    if (!isAlreadyTheSingleSelection) {
+      modListContainer.querySelectorAll('.mod-row.selected').forEach(el => el.classList.remove('selected'));
+      appState.selectedModNames.clear();
+      appState.selectedModNames.add(modName);
+      row.classList.add('selected');
+    }
+
+    // --- DRAG / CLICK HANDLING ---
     e.preventDefault();
     const DRAG_DELAY = 200;
 
     const handleMouseUpAsClick = () => {
       clearTimeout(dragState.dragTimer);
       document.removeEventListener('mouseup', handleMouseUpAsClick);
-      const previouslySelected = appState.selectedModRow;
-      if (previouslySelected) previouslySelected.classList.remove('selected');
-      if (previouslySelected === row) {
+
+      // LOGIC: If we clicked the item that was ALREADY selected, we Toggle it OFF.
+      if (isAlreadyTheSingleSelection) {
+        appState.selectedModNames.delete(modName);
+        row.classList.remove('selected');
         appState.selectedModRow = null;
         modInfoPanel.classList.add('hidden');
-      } else {
+        return;
+      }
+
+      // Otherwise, show info
+      if (appState.selectedModNames.size === 1) {
         appState.selectedModRow = row;
-        appState.selectedModRow.classList.add('selected');
         displayModInfo(row);
+      } else {
+        modInfoPanel.classList.add('hidden');
       }
     };
 
@@ -2840,27 +3129,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
     dragState.dragTimer = setTimeout(() => {
       document.removeEventListener('mouseup', handleMouseUpAsClick);
+
+      if (appState.selectedModNames.size > 1) return;
+
       if (appState.selectedModRow) {
-        appState.selectedModRow.classList.remove('selected');
         appState.selectedModRow = null;
         modInfoPanel.classList.add('hidden');
       }
       dragState.draggedElement = row;
-      if (appState.selectedModRow) appState.selectedModRow.classList.remove('selected');
+
       const rect = dragState.draggedElement.getBoundingClientRect();
       dragState.offsetX = e.clientX - rect.left;
       dragState.offsetY = e.clientY - rect.top;
+
       dragState.placeholder = document.createElement('div');
       dragState.placeholder.className = 'placeholder';
       dragState.placeholder.style.height = `${rect.height}px`;
+
       dragState.ghostElement = dragState.draggedElement.cloneNode(true);
       dragState.ghostElement.classList.add('ghost');
       document.body.appendChild(dragState.ghostElement);
+
       dragState.ghostElement.style.width = `${rect.width}px`;
       dragState.ghostElement.style.left = `${e.clientX - dragState.offsetX}px`;
       dragState.ghostElement.style.top = `${e.clientY - dragState.offsetY}px`;
+
       dragState.draggedElement.parentNode.insertBefore(dragState.placeholder, dragState.draggedElement);
       dragState.draggedElement.classList.add('is-dragging');
+
       scrollState.animationFrameId = requestAnimationFrame(autoScrollLoop);
       document.addEventListener('mousemove', onMouseMove);
       document.addEventListener('mouseup', onMouseUp);
@@ -4173,10 +4469,19 @@ document.addEventListener('DOMContentLoaded', () => {
     downloadHistoryModalOverlay.classList.remove('hidden');
   });
 
-  closeDownloadHistoryBtn.addEventListener('click', () => downloadHistoryModalOverlay.classList.add('hidden'));
+  const closeDownloadHistory = () => {
+    downloadHistoryModalOverlay.classList.add('hidden');
+    // Clear selection when closing
+    appState.selectedDownloadIds.clear();
+    // Remove visual highlights
+    downloadListContainer.querySelectorAll('.download-item.selected').forEach(el => el.classList.remove('selected'));
+  };
+
+  closeDownloadHistoryBtn.addEventListener('click', closeDownloadHistory);
+
   downloadHistoryModalOverlay.addEventListener('click', (e) => {
     if (e.target === downloadHistoryModalOverlay) {
-      downloadHistoryModalOverlay.classList.add('hidden');
+      closeDownloadHistory();
     }
   });
 

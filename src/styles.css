@@ -1239,6 +1239,11 @@ label.switch:has(input:checked)::before {
     opacity: 0.8;
 }
 
+.download-item.selected {
+    background-color: rgba(202, 72, 98, 0.4); /* Highlight color */
+    /* border: 1px solid var(--c-accent-primary); */
+}
+
 /* --- SETTINGS MODAL STYLES --- */
 .settings-modal {
     font-family: var(--font-secondary);

@@ -1172,9 +1172,14 @@ fn open_mods_folder() -> Result<(), String> {
 }
 
 #[tauri::command]
-fn save_file(file_path: String, content: String) -> Result<(), String> {
+fn save_file(app: AppHandle, file_path: String, content: String) -> Result<(), String> {
+    log_internal(&app, "INFO", &format!("Saving MXML to: {}", file_path));
     fs::write(&file_path, content)
-        .map_err(|e| format!("Failed to write to file '{}': {}", file_path, e))
+        .map_err(|e| {
+            let err = format!("Failed to write to file '{}': {}", file_path, e);
+            log_internal(&app, "ERROR", &err);
+            err
+        })
 }
 
 #[tauri::command]
@@ -1184,6 +1189,51 @@ fn resize_window(window: tauri::Window, width: f64) -> Result<(), String> {
         .set_size(LogicalSize::new(width, current_height as f64))
         .map_err(|e| e.to_string())?;
     Ok(())
+}
+
+#[tauri::command]
+fn rename_mod_folder(app: AppHandle, old_name: String, new_name: String) -> Result<Vec<ModRenderData>, String> {
+    log_internal(&app, "INFO", &format!("Requesting rename: '{}' -> '{}'", old_name, new_name));
+
+    let game_path = find_game_path().ok_or_else(|| "Could not find game path.".to_string())?;
+    let mods_path = game_path.join("GAMEDATA").join("MODS");
+    
+    let old_path = mods_path.join(&old_name);
+    let new_path = mods_path.join(&new_name);
+
+    // 1. Validation
+    if !old_path.exists() {
+        return Err("Original mod folder not found.".to_string());
+    }
+    if new_path.exists() {
+        return Err("A mod with the new name already exists.".to_string());
+    }
+
+    // 2. Rename Folder
+    fs::rename(&old_path, &new_path).map_err(|e| {
+        let err = format!("Failed to rename folder: {}", e);
+        log_internal(&app, "ERROR", &err);
+        err
+    })?;
+
+    // 3. Update XML
+    // Reuse the logic from update_mod_name_in_xml but integrated here to avoid double-parsing
+    let settings_file = game_path.join("Binaries").join("SETTINGS").join("GCMODSETTINGS.MXML");
+    if settings_file.exists() {
+        
+        match update_mod_name_in_xml(old_name.clone(), new_name.clone()) {
+            Ok(new_xml) => {
+                let _ = save_file(app.clone(), settings_file.to_string_lossy().to_string(), new_xml);
+            },
+            Err(e) => {
+
+                log_internal(&app, "WARN", &format!("Folder renamed, but XML update failed: {}", e));
+            }
+        }
+    }
+
+    // 4. Return fresh list
+    get_all_mods_for_render()
 }
 
 #[tauri::command]
@@ -2720,7 +2770,8 @@ fn main() {
             set_library_path,
             get_library_path,
             delete_library_folder,
-            check_library_existence
+            check_library_existence,
+            rename_mod_folder
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
