@@ -124,6 +124,7 @@
     "priorityModalTitle": "Alterar Prioridade",
     "priorityModalTitleWithMod": "Alterar Prioridade: {{modName}}",
     "priorityModalDesc": "Digite um novo número de prioridade entre 0 e {{max}}.",
+    "deleteMultipleBtn": "Excluir {{count}} Itens",
     
     "__comment_ALERTS": "=== ALERTS & ERRORS ===",
     "warningTitle": "Aviso",
@@ -181,5 +182,6 @@
     "driveCheckTitle": "Hardlink",
     "driveCheckMsg": "Seu jogo está no drive {{gameDrive}}:, mas sua Biblioteca de Mods está no {{libDrive}}:. \n\nPara fazer uso do Hardlink na instalação de mods, nós recomendamos mover sua Biblioteca para o drive {{gameDrive}}:.\n\nVocê quer escolher uma pasta no {{gameDrive}}: agora?",
     "btnMoveNow": "Mover Agora",
-    "btnDontAskAgain": "Não perguntar novamente"
+    "btnDontAskAgain": "Não perguntar novamente",
+    "confirmDeleteMultipleMsg": "Você tem certeza de que quer excluir os arquivos selecionados?"
 }

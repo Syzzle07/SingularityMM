@@ -3420,6 +3420,14 @@ document.addEventListener('DOMContentLoaded', () => {
       for (const filePath of archiveFiles) {
         const fileName = await basename(filePath);
 
+        // Check if this filename is already in the history
+        const existingIndex = downloadHistory.findIndex(d => d.fileName === fileName);
+
+        // If found, remove it so it can add the fresh one to the top
+        if (existingIndex > -1) {
+          downloadHistory.splice(existingIndex, 1);
+        }
+
         // LOGGING: Track specific file processing
         window.addAppLog(`Processing dropped file: ${fileName}`, "INFO");
 
