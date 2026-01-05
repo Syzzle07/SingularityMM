@@ -7150,8 +7150,21 @@
         "id": "3973",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Solar Ship Bug Fix",
+        "id": "3979",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Expensive Charts",
+        "id": "3980",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
