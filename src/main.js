@@ -2976,6 +2976,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const content = await readTextFile(settingsPath);
             appState.xmlDoc = new DOMParser().parseFromString(content, "application/xml");
 
+            await saveCurrentProfile();
+
           } catch (e) {
             await window.customAlert(`Rename failed: ${e}`, "Error");
           }

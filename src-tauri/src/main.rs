@@ -86,6 +86,8 @@ struct ModInfo {
     #[allow(dead_code)]
     #[serde(rename = "fileId")]
     file_id: Option<String>,
+    #[serde(rename = "installSource")]
+    install_source: Option<String>,
 }
 
 #[derive(serde::Serialize, Clone)]
@@ -700,6 +702,18 @@ where F: Fn(u64)
 fn get_all_mods_for_render() -> Result<Vec<ModRenderData>, String> {
     let game_path =
         find_game_path().ok_or_else(|| "Could not find game installation path.".to_string())?;
+    let mods_path = game_path.join("GAMEDATA").join("MODS");
+    
+    let mut real_folder_names: HashMap<String, String> = HashMap::new();
+    if let Ok(entries) = fs::read_dir(&mods_path) {
+        for entry in entries.flatten() {
+            if entry.path().is_dir() {
+                let real_name = entry.file_name().to_string_lossy().into_owned();
+                real_folder_names.insert(real_name.to_uppercase(), real_name);
+            }
+        }
+    }
+
     let settings_file_path = game_path
         .join("Binaries")
         .join("SETTINGS")
@@ -718,13 +732,19 @@ fn get_all_mods_for_render() -> Result<Vec<ModRenderData>, String> {
 
     if let Some(prop) = root.properties.iter().find(|p| p.name == "Data") {
         for mod_entry in &prop.mods {
-            let folder_name_prop = mod_entry
+            let xml_name_prop = mod_entry
                 .properties
                 .iter()
                 .find(|p| p.name == "Name")
                 .and_then(|p| p.value.as_ref());
             
-            if let Some(folder_name) = folder_name_prop {
+            if let Some(xml_name) = xml_name_prop {
+                // Resolve the REAL folder name from the map, fallback to XML name if missing on disk
+                let folder_name = real_folder_names
+                    .get(&xml_name.to_uppercase())
+                    .cloned()
+                    .unwrap_or_else(|| xml_name.clone());
+
                 let enabled = mod_entry
                     .properties
                     .iter()
@@ -741,7 +761,8 @@ fn get_all_mods_for_render() -> Result<Vec<ModRenderData>, String> {
                     .and_then(|v| v.parse::<u32>().ok())
                     .unwrap_or(0);
 
-                let mod_info_path = game_path.join("GAMEDATA").join("MODS").join(folder_name).join("mod_info.json");
+                let mod_info_path = mods_path.join(&folder_name).join("mod_info.json");
+                
                 let local_info = if let Ok(content) = fs::read_to_string(&mod_info_path) {
                     if let Ok(json_val) = serde_json::from_str::<serde_json::Value>(&content) {
                         Some(LocalModInfo {
@@ -755,7 +776,7 @@ fn get_all_mods_for_render() -> Result<Vec<ModRenderData>, String> {
                 } else { None };
 
                 mods_to_render.push(ModRenderData {
-                    folder_name: folder_name.clone(),
+                    folder_name: folder_name,
                     enabled,
                     priority,
                     local_info,
@@ -1238,7 +1259,27 @@ fn rename_mod_folder(app: AppHandle, old_name: String, new_name: String) -> Resu
         return Err("A mod with the new name already exists.".to_string());
     }
 
-    // 2. Rename Folder
+    // Reads source zip from mod_info.json and renames the folder inside the Library
+    if let Some(info) = read_mod_info(&old_path) {
+        if let Some(source_zip) = info.install_source {
+            if let Ok(library_dir) = get_library_dir(&app) {
+                let lib_unpacked = library_dir.join(format!("{}_unpacked", source_zip));
+                let lib_old_path = lib_unpacked.join(&old_name);
+                let lib_new_path = lib_unpacked.join(&new_name);
+
+                if lib_old_path.exists() && !lib_new_path.exists() {
+                    // Try to rename in library. If it fails, it log it but don't stop the game rename.
+                    if let Err(e) = fs::rename(&lib_old_path, &lib_new_path) {
+                        log_internal(&app, "WARN", &format!("Failed to sync rename to Library: {}", e));
+                    } else {
+                        log_internal(&app, "INFO", "Synced folder rename to Library successfully.");
+                    }
+                }
+            }
+        }
+    }
+
+    // 2. Rename Folder (Physically moves the folder, keeping the casing of new_name)
     fs::rename(&old_path, &new_path).map_err(|e| {
         let err = format!("Failed to rename folder: {}", e);
         log_internal(&app, "ERROR", &err);
@@ -1246,16 +1287,14 @@ fn rename_mod_folder(app: AppHandle, old_name: String, new_name: String) -> Resu
     })?;
 
     // 3. Update XML
-    // Reuse the logic from update_mod_name_in_xml but integrated here to avoid double-parsing
+    // Reuse the logic from update_mod_name_in_xml but integrated here to avoid double-parsing.
     let settings_file = game_path.join("Binaries").join("SETTINGS").join("GCMODSETTINGS.MXML");
     if settings_file.exists() {
-        
         match update_mod_name_in_xml(old_name.clone(), new_name.clone()) {
             Ok(new_xml) => {
                 let _ = save_file(app.clone(), settings_file.to_string_lossy().to_string(), new_xml);
             },
             Err(e) => {
-
                 log_internal(&app, "WARN", &format!("Folder renamed, but XML update failed: {}", e));
             }
         }
@@ -1333,34 +1372,7 @@ fn delete_mod(app: AppHandle, mod_name: String) -> Result<Vec<ModRenderData>, St
     fs::write(&settings_file_path, &final_content)
         .map_err(|e| format!("Failed to save updated GCMODSETTINGS.MXML: {}", e))?;
 
-    let mut mods_to_render_vec = Vec::new();
-    if let Some(prop) = root.properties.iter().find(|p| p.name == "Data") {
-        for mod_entry in &prop.mods {
-            if let Some(folder_name) = mod_entry.properties.iter().find(|p| p.name == "Name").and_then(|p| p.value.as_ref()) {
-                let enabled = mod_entry.properties.iter().find(|p| p.name == "Enabled").and_then(|p| p.value.as_deref()).unwrap_or("false").eq_ignore_ascii_case("true");
-                let priority = mod_entry.properties.iter().find(|p| p.name == "ModPriority").and_then(|p| p.value.as_ref()).and_then(|v| v.parse::<u32>().ok()).unwrap_or(0);
-                let mod_info_path = game_path.join("GAMEDATA").join("MODS").join(folder_name).join("mod_info.json");
-                
-                let local_info = if let Ok(content) = fs::read_to_string(&mod_info_path) {
-                    if let Ok(json_val) = serde_json::from_str::<serde_json::Value>(&content) {
-                        Some(LocalModInfo {
-                            folder_name: folder_name.clone(),
-                            mod_id: json_val.get("modId").or(json_val.get("id")).and_then(|v| v.as_str()).map(String::from),
-                            file_id: json_val.get("fileId").and_then(|v| v.as_str()).map(String::from),
-                            version: json_val.get("version").and_then(|v| v.as_str()).map(String::from),
-                            install_source: json_val.get("installSource").and_then(|v| v.as_str()).map(String::from),
-                        })
-                    } else { None }
-                } else { None };
-                
-                mods_to_render_vec.push(ModRenderData {
-                    folder_name: folder_name.clone(), enabled, priority, local_info,
-                });
-            }
-        }
-    }
-    
-    Ok(mods_to_render_vec)
+    get_all_mods_for_render()
 }
 
 #[tauri::command]
@@ -1461,7 +1473,11 @@ fn update_mod_name_in_xml(old_name: String, new_name: String) -> Result<String, 
         if prop.name == "Data" {
             if let Some(mod_entry) = prop.mods.iter_mut().find(|entry| {
                 if let Some(name_prop) = entry.properties.iter().find(|p| p.name == "Name") {
-                    name_prop.value.as_deref() == Some(&old_name)
+                    if let Some(val) = name_prop.value.as_deref() {
+                        val.eq_ignore_ascii_case(&old_name)
+                    } else {
+                        false
+                    }
                 } else {
                     false
                 }
