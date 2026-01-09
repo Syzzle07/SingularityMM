@@ -1,4 +1,4 @@
-name: Build Linux
+name: Build Linux Manual
 
 on:
   workflow_dispatch:
@@ -36,7 +36,7 @@ jobs:
       - name: Install Frontend Dependencies
         run: npm install
 
-      - name: Build Tauri App
+      - name: Build Singularity
         uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,6 +44,6 @@ jobs:
           tagName: "linux-build-${{ github.run_number }}"
           releaseName: "Linux Build #${{ github.run_number }}"
           releaseBody: "Automated Linux Build"
-          releaseDraft: false
-          prerelease: true
+          releaseDraft: true
+          prerelease: false
           args: --target x86_64-unknown-linux-gnu
