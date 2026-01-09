@@ -2577,25 +2577,17 @@ document.addEventListener('DOMContentLoaded', () => {
       let mainFileVersion = null;
       const allModFilesFromCurated = modData.files || [];
 
-      // Loop through all the files that are INSTALLED for this mod.
       for (const installedFileId of installedFiles.keys()) {
-        // Find the full data for this installed file from the curated list.
         const fileData = allModFilesFromCurated.find(f => String(f.file_id) === installedFileId);
-
-        // If it find its data and its category is "MAIN"...
         if (fileData && fileData.category_name === 'MAIN') {
-          // found the priority version
           mainFileVersion = installedFiles.get(installedFileId);
-          break; // No need to look further.
+          break;
         }
       }
 
-      // Now, decide what to display.
       if (mainFileVersion) {
-        // If found a main file version, that's what it show.
         versionToShow = mainFileVersion;
       } else {
-        // Otherwise, no main file is installed. Fall back to showing the first installed version it has.
         versionToShow = installedFiles.values().next().value || 'N/A';
       }
     }
@@ -2627,10 +2619,20 @@ document.addEventListener('DOMContentLoaded', () => {
     modDetailSecondaryActions.appendChild(nexusLinkBtn);
 
     if (!isPanelOpen) {
-      isPanelOpen = true;
-      const currentSize = await appWindow.innerSize();
-      await appWindow.setSize(new LogicalSize(PANEL_OPEN_WIDTH, currentSize.height));
+      // This tells us the width of the monitor the window is currently on.
+      const screenWidth = window.screen.availWidth;
+
+      // If the screen is big enough (PC), resize the window
+      if (screenWidth >= PANEL_OPEN_WIDTH) {
+        isPanelOpen = true; // Mark as expanded mode
+        const currentSize = await appWindow.innerSize();
+        await appWindow.setSize(new LogicalSize(PANEL_OPEN_WIDTH, currentSize.height));
+      } else {
+        // If screen is small (Steam Deck: 1280px), DO NOT resize window.
+        isPanelOpen = false;
+      }
     }
+
     modDetailPanel.classList.add('open');
   }
 
@@ -4347,11 +4349,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   modDetailCloseBtn.addEventListener('click', async () => {
-    if (!isPanelOpen) return;
-    isPanelOpen = false;
     modDetailPanel.classList.remove('open');
-    const currentSize = await appWindow.innerSize();
-    await appWindow.setSize(new LogicalSize(DEFAULT_WIDTH, currentSize.height));
+
+    // Only shrink the window if the manager actually expanded it (PC Mode)
+    if (isPanelOpen) {
+      isPanelOpen = false;
+      const currentSize = await appWindow.innerSize();
+      await appWindow.setSize(new LogicalSize(DEFAULT_WIDTH, currentSize.height));
+    }
 
     const currentlySelected = browseGridContainer.querySelector('.mod-card.selected');
     if (currentlySelected) {
@@ -4705,6 +4710,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // 3. Initialize Drag & Drop
       await setupDragAndDrop();
+
+      // Get available screen height (excludes taskbars)
+      const screenHeight = window.screen.availHeight;
+      const windowHeight = window.outerHeight;
+
+      // If the window is taller than the screen (e.g. 900px window on 800px Deck)
+      if (windowHeight > screenHeight) {
+        console.log("Small screen detected. Adjusting window height...");
+
+        // Resize to 90% of the screen height to be safe and look nice
+        const newHeight = Math.floor(screenHeight * 0.90);
+
+        // Apply the new size
+        await appWindow.setSize(new LogicalSize(DEFAULT_WIDTH, newHeight));
+
+        // Center the window so the title bar isn't stuck too high
+        await appWindow.center();
+      }
 
       console.log("Initialization Complete.");
 
