@@ -5,6 +5,8 @@
 use winreg::enums::*;
 #[cfg(target_os = "windows")]
 use winreg::RegKey;
+#[cfg(target_os = "windows")]
+use std::process::Command;
 
 use chrono::{Utc, Local};
 use quick_xml::de::from_str;
@@ -22,7 +24,6 @@ use tauri::{LogicalSize, PhysicalPosition};
 use unrar;
 use zip::ZipArchive;
 use std::time::UNIX_EPOCH;
-use std::process::Command;
 use std::io::{self, Write};
 use uuid::Uuid;
 use tokio_tungstenite::{connect_async, tungstenite::protocol::Message};
@@ -563,111 +564,93 @@ fn find_game_path() -> Option<PathBuf> {
     return None;
 }
 
+#[cfg(target_os = "windows")]
 fn find_gog_path() -> Option<PathBuf> {
-    #[cfg(target_os = "windows")]
-    {
-        let hklm = RegKey::predef(HKEY_LOCAL_MACHINE);
-        let known_ids = ["1446213994", "1446223351"];
+    let hklm = RegKey::predef(HKEY_LOCAL_MACHINE);
+    let known_ids = ["1446213994", "1446223351"];
 
-        for id in known_ids {
-            let key_path = format!(r"SOFTWARE\WOW6432Node\GOG.com\Games\{}", id);
-            
-            if let Ok(gog_key) = hklm.open_subkey(&key_path) {
-                if let Ok(game_path_str) = gog_key.get_value::<String, _>("PATH") {
-                    let game_path = PathBuf::from(game_path_str);
-                    if game_path.join("Binaries").is_dir() {
-                        return Some(game_path);
-                    }
-                }
-            }
-        }
-        None
-    }
-
-    #[cfg(not(target_os = "windows"))]
-    None
-}
-
-fn find_steam_path() -> Option<PathBuf> {
-    #[cfg(target_os = "windows")]
-    {
-        let hklm = RegKey::predef(HKEY_LOCAL_MACHINE);
-        if let Ok(steam_key) = hklm.open_subkey(r"SOFTWARE\WOW6432Node\Valve\Steam") {
-            if let Ok(steam_path_str) = steam_key.get_value::<String, _>("InstallPath") {
-                let steam_path = PathBuf::from(steam_path_str);
-                let mut library_folders = vec![steam_path.clone()];
-                
-                // Read libraryfolders.vdf
-                let vdf_path = steam_path.join("steamapps").join("libraryfolders.vdf");
-                if let Ok(content) = fs::read_to_string(&vdf_path) {
-                    for line in content.lines() {
-                        if let Some(path_str) = line.split('"').nth(3) {
-                            // Basic VDF parsing heuristic
-                            let p = PathBuf::from(path_str.replace("\\\\", "\\"));
-                            if p.exists() {
-                                library_folders.push(p);
-                            }
-                        }
-                    }
-                }
-
-                // Check all libraries for NMS
-                for folder in library_folders {
-                    let manifest_path = folder.join("steamapps").join("appmanifest_275850.acf");
-                    if let Ok(content) = fs::read_to_string(manifest_path) {
-                        if let Some(dir_str) = content
-                            .lines()
-                            .find(|l| l.contains("\"installdir\""))
-                            .and_then(|l| l.split('"').nth(3))
-                        {
-                            let game_path = folder.join("steamapps").join("common").join(dir_str);
-                            if game_path.is_dir() {
-                                return Some(game_path);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        None
-    }
-
-    #[cfg(not(target_os = "windows"))]
-    None
-}
-
-fn find_gamepass_path() -> Option<PathBuf> {
-    #[cfg(target_os = "windows")]
-    {
-        let default_path = PathBuf::from("C:\\XboxGames\\No Man's Sky\\Content");
-        if default_path.join("Binaries").is_dir() {
-            return Some(default_path);
-        }
-        let output = match Command::new("powershell")
-            .args([
-                "-NoProfile",
-                "-Command",
-                "Get-AppxPackage -Name 'HelloGames.NoMansSky' | Select-Object -ExpandProperty InstallLocation",
-            ])
-            .output()
-            {
-                Ok(output) => output,
-                Err(_) => return None,
-            };
-
-        if output.status.success() {
-            let path_str = String::from_utf8(output.stdout).unwrap_or_default().trim().to_string();
-            if !path_str.is_empty() {
-                let game_path = PathBuf::from(path_str).join("Content");
+    for id in known_ids {
+        let key_path = format!(r"SOFTWARE\WOW6432Node\GOG.com\Games\{}", id);
+        
+        if let Ok(gog_key) = hklm.open_subkey(&key_path) {
+            if let Ok(game_path_str) = gog_key.get_value::<String, _>("PATH") {
+                let game_path = PathBuf::from(game_path_str);
                 if game_path.join("Binaries").is_dir() {
                     return Some(game_path);
                 }
             }
         }
-        None
     }
+    None
+}
 
-    #[cfg(not(target_os = "windows"))]
+#[cfg(target_os = "windows")]
+fn find_steam_path() -> Option<PathBuf> {
+    let hklm = RegKey::predef(HKEY_LOCAL_MACHINE);
+    if let Ok(steam_key) = hklm.open_subkey(r"SOFTWARE\WOW6432Node\Valve\Steam") {
+        if let Ok(steam_path_str) = steam_key.get_value::<String, _>("InstallPath") {
+            let steam_path = PathBuf::from(steam_path_str);
+            let mut library_folders = vec![steam_path.clone()];
+            
+            let vdf_path = steam_path.join("steamapps").join("libraryfolders.vdf");
+            if let Ok(content) = fs::read_to_string(&vdf_path) {
+                for line in content.lines() {
+                    if let Some(path_str) = line.split('"').nth(3) {
+                        let p = PathBuf::from(path_str.replace("\\\\", "\\"));
+                        if p.exists() {
+                            library_folders.push(p);
+                        }
+                    }
+                }
+            }
+
+            for folder in library_folders {
+                let manifest_path = folder.join("steamapps").join("appmanifest_275850.acf");
+                if let Ok(content) = fs::read_to_string(manifest_path) {
+                    if let Some(dir_str) = content
+                        .lines()
+                        .find(|l| l.contains("\"installdir\""))
+                        .and_then(|l| l.split('"').nth(3))
+                    {
+                        let game_path = folder.join("steamapps").join("common").join(dir_str);
+                        if game_path.is_dir() {
+                            return Some(game_path);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    None
+}
+
+#[cfg(target_os = "windows")]
+fn find_gamepass_path() -> Option<PathBuf> {
+    let default_path = PathBuf::from("C:\\XboxGames\\No Man's Sky\\Content");
+    if default_path.join("Binaries").is_dir() {
+        return Some(default_path);
+    }
+    let output = match Command::new("powershell")
+        .args([
+            "-NoProfile",
+            "-Command",
+            "Get-AppxPackage -Name 'HelloGames.NoMansSky' | Select-Object -ExpandProperty InstallLocation",
+        ])
+        .output()
+        {
+            Ok(output) => output,
+            Err(_) => return None,
+        };
+
+    if output.status.success() {
+        let path_str = String::from_utf8(output.stdout).unwrap_or_default().trim().to_string();
+        if !path_str.is_empty() {
+            let game_path = PathBuf::from(path_str).join("Content");
+            if game_path.join("Binaries").is_dir() {
+                return Some(game_path);
+            }
+        }
+    }
     None
 }
 
