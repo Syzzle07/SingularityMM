@@ -7180,8 +7180,27 @@
         "id": "3985",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Moar Realistic Weather",
+        "id": "3986",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Pirate System Chance Modifier",
+        "id": "3987",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Build Custom Freighter Console",
+        "id": "3988",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
