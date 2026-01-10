@@ -86,5 +86,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ github.ref_name }}
-          # Point to the new renamed file
+          draft: true
+          prerelease: false
           files: src-tauri/target/release/Singularity_Portable_${{ github.ref_name }}.exe
