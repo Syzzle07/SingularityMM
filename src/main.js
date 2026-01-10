@@ -381,6 +381,52 @@ document.addEventListener('DOMContentLoaded', () => {
     return await showDialog(title, msg, 'confirm', confirmBtnText, cancelBtnText);
   };
 
+  window.customConflictDialog = (message, title, btnReplaceText, btnKeepText, btnCancelText) => {
+    return new Promise((resolve) => {
+      const genericDialogModal = document.getElementById('genericDialogModal');
+      const genericDialogTitle = document.getElementById('genericDialogTitle');
+      const genericDialogMessage = document.getElementById('genericDialogMessage');
+      const genericDialogActions = document.getElementById('genericDialogActions');
+
+      genericDialogTitle.textContent = title || 'Conflict';
+      genericDialogMessage.textContent = message;
+      genericDialogActions.innerHTML = '';
+
+      // 1. Cancel Button (Left)
+      const btnCancel = document.createElement('button');
+      btnCancel.className = 'modal-gen-btn-cancel';
+      btnCancel.textContent = btnCancelText || "Cancel";
+      btnCancel.onclick = () => {
+        genericDialogModal.classList.add('hidden');
+        resolve('cancel');
+      };
+      genericDialogActions.appendChild(btnCancel);
+
+      // 2. Keep Both Button (Middle)
+      const btnKeep = document.createElement('button');
+      // Use 'modal-btn-nxm' or similar for a neutral look, or reuse confirm style
+      btnKeep.className = 'modal-gen-btn-confirm';
+      btnKeep.textContent = btnKeepText || "Keep Both";
+      btnKeep.onclick = () => {
+        genericDialogModal.classList.add('hidden');
+        resolve('keep');
+      };
+      genericDialogActions.appendChild(btnKeep);
+
+      // 3. Replace Button (Right - Primary Action)
+      const btnReplace = document.createElement('button');
+      btnReplace.className = 'modal-gen-btn-confirm';
+      btnReplace.textContent = btnReplaceText || "Replace";
+      btnReplace.onclick = () => {
+        genericDialogModal.classList.add('hidden');
+        resolve('replace');
+      };
+      genericDialogActions.appendChild(btnReplace);
+
+      genericDialogModal.classList.remove('hidden');
+    });
+  };
+
   const i18n = {
     async loadLanguage(lang) {
       try {
@@ -1520,20 +1566,62 @@ document.addEventListener('DOMContentLoaded', () => {
           }
           oldFolderName = bestMatch;
         }
-        // ------------------------------------
 
-        // If we found a candidate, and it's different from the new one
+        // If found a candidate, and it's different from the new one
         if (oldFolderName && oldFolderName !== mod.name) {
 
-          const shouldReplace = await window.customConfirm(
+          const userChoice = await window.customConflictDialog(
             i18n.get('folderConflictMsg', {
               oldName: oldFolderName,
               newName: mod.name
             }),
             i18n.get('folderConflictTitle'),
-            i18n.get('btnReplace'),
-            i18n.get('btnKeepBoth')
+            i18n.get('btnReplace'),   // "Replace (Update)"
+            i18n.get('btnKeepBoth'),  // "Keep Both (Addon)"
+            i18n.get('cancelBtn')     // "Cancel"
           );
+
+          if (userChoice === 'cancel') {
+            window.addAppLog(`User cancelled installation due to conflict: ${mod.name}`, "INFO");
+
+            try {
+              console.log(`Cancelling install. Deleting folder: ${mod.name}`);
+              await invoke('delete_mod', { modName: mod.name });
+
+              // Refresh the XML in memory just in case 'delete_mod' touched it
+              if (appState.gamePath) {
+                const settingsPath = await join(appState.gamePath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
+                const content = await readTextFile(settingsPath);
+                appState.xmlDoc = new DOMParser().parseFromString(content, "application/xml");
+              }
+            } catch (err) {
+              console.warn(`Failed to cleanup rejected mod folder ${mod.name}:`, err);
+            }
+
+            // Cleanup visually
+            const currentItem = downloadHistory.find(d => d.id === item.id);
+            if (currentItem) {
+              currentItem.statusText = i18n.get('statusCancelled');
+              currentItem.statusClass = 'cancelled';
+              renderDownloadHistory();
+              await saveDownloadHistory(downloadHistory);
+            }
+
+            // Revert the temporary "Cancelled" status to "Downloaded" after a few seconds
+            setTimeout(() => {
+              if (currentItem && currentItem.statusClass === 'cancelled') {
+                currentItem.statusText = i18n.get('statusUnpacked');
+                currentItem.statusClass = 'unpacked';
+
+                renderDownloadHistory();
+                saveDownloadHistory(downloadHistory);
+              }
+            }, 4000);
+
+            return;
+          }
+
+          const shouldReplace = (userChoice === 'replace');
 
           if (shouldReplace) {
             console.log(`User chose to replace: ${oldFolderName} -> ${mod.name}`);
@@ -3851,11 +3939,18 @@ document.addEventListener('DOMContentLoaded', () => {
       };
 
       fsmInstallSelectedBtn.onclick = () => {
-        const selected = Array.from(document.querySelectorAll('.folder-select-checkbox:checked')).map(cb => cb.value);
+        const selected = Array.from(document.querySelectorAll('.folder-select-checkbox:checked'))
+          .map(cb => cb.value)
+          .filter(val => val !== ".");
+
         const isFlatten = flattenStructureCb.checked;
         cleanup();
-        if (selected.length === 0) resolve(null);
-        else resolve({ selected: selected, flatten: isFlatten });
+
+        if (selected.length === 0) {
+          resolve(null);
+        } else {
+          resolve({ selected: selected, flatten: isFlatten });
+        }
       };
     });
   }
@@ -4392,13 +4487,24 @@ document.addEventListener('DOMContentLoaded', () => {
     browseView.classList.add('hidden');
   });
 
-  navBrowse.addEventListener('click', () => {
+  navBrowse.addEventListener('click', async () => {
     navBrowse.classList.add('active');
     navMyMods.classList.remove('active');
     browseView.classList.remove('hidden');
     myModsView.classList.add('hidden');
+
+    // 1. Force a scan of the disk
+    if (appState.activeProfile) {
+      await saveCurrentProfile();
+      // Update the internal map of installed mods immediately
+      const installedList = await invoke('get_profile_mod_list', { profileName: appState.activeProfile });
+    }
+
     if (browseGridContainer.childElementCount === 0) {
       fetchAndRenderBrowseGrid();
+    } else {
+      // 2. Refresh the badges on existing cards
+      refreshBrowseTabBadges();
     }
   });
 
@@ -4548,6 +4654,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   downloadHistoryBtn.addEventListener('click', async () => {
     if (appState.activeProfile) {
+      await saveCurrentProfile();
+
       await syncDownloadHistoryWithProfile(appState.activeProfile);
     }
     renderDownloadHistory();
