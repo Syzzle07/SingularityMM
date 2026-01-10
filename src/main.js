@@ -1033,8 +1033,11 @@ document.addEventListener('DOMContentLoaded', () => {
   async function checkAppUpdate(isManual = false) {
     try {
       if (isManual) {
-        document.getElementById('checkAppUpdateBtn').textContent = "Checking...";
-        document.getElementById('checkAppUpdateBtn').disabled = true;
+        const btn = document.getElementById('checkAppUpdateBtn');
+        if (btn) {
+          btn.textContent = i18n.get('statusChecking');
+          btn.disabled = true;
+        }
       } else {
         console.log("Running silent startup app update check...");
       }
@@ -1045,14 +1048,17 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`App Update found: ${update.version}`);
 
         const confirmed = await window.customConfirm(
-          `A new version of Singularity is available!\n\nVersion: ${update.version}\n\n${update.body || "Bug fixes and improvements."}\n\nUpdate now?`,
-          "App Update Available",
-          "Update & Restart",
-          "Later"
+          i18n.get('appUpdateMsg', {
+            version: update.version,
+            notes: update.body || ""
+          }),
+          i18n.get('appUpdateAvailableTitle'),
+          i18n.get('btnUpdateRestart'),
+          i18n.get('btnLater')
         );
 
         if (confirmed) {
-          await window.customAlert("Downloading update... The app will restart automatically when finished.", "Updating");
+          await window.customAlert(i18n.get('statusDownloadingUpdate'), i18n.get('statusUpdating'));
 
           let downloaded = 0;
           let contentLength = 0;
@@ -1077,19 +1083,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       } else {
         if (isManual) {
-          await window.customAlert("You are using the latest version.", "Up to Date");
+          await window.customAlert(i18n.get('updateUpToDateMsg'), i18n.get('updateUpToDateTitle'));
         }
       }
     } catch (error) {
       console.error("App update check failed:", error);
       if (isManual) {
-        await window.customAlert(`Failed to check for updates: ${error}`, "Error");
+        await window.customAlert(i18n.get('updateErrorMsg', { error: String(error) }), i18n.get('updateErrorTitle'));
       }
     } finally {
       if (isManual) {
         const btn = document.getElementById('checkAppUpdateBtn');
         if (btn) {
-          btn.textContent = i18n.get('checkUpdateBtn') || "Check Update";
+          btn.textContent = i18n.get('checkUpdateBtn');
           btn.disabled = false;
         }
       }
