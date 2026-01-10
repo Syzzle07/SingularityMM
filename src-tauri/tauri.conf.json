@@ -7,6 +7,7 @@
     "devUrl": "http://localhost:1420"
   },
   "bundle": {
+    "createUpdaterArtifacts": true,
     "active": true,
     "resources": [
       "locales/*"
@@ -25,10 +26,13 @@
   "identifier": "com.syzzle.singularity",
   "plugins": {
     "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDNFQkZEMERDMUY4OUIwREMKUldUY3NJa2YzTkMvUHVaM1ZtU1RxUGZYUDV0cWdmOE1PRTNoZjNyOGNhYXQ4M2dXYnlka3RRSkQK",
       "endpoints": [
         "https://gist.githubusercontent.com/Syzzle07/9d29be1615e75e9206520811047be899/raw/latest.json"
       ],
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDNFQkZEMERDMUY4OUIwREMKUldUY3NJa2YzTkMvUHVaM1ZtU1RxUGZYUDV0cWdmOE1PRTNoZjNyOGNhYXQ4M2dXYnlka3RRSkQK"
+      "windows": {
+        "installMode": "passive"
+      }
     }
   },
   "app": {
