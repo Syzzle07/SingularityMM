@@ -3095,7 +3095,7 @@ fn check_startup_intent(state: State<'_, StartupState>) -> Option<String> {
 }
 
 #[tauri::command]
-fn is_app_installed(app: AppHandle) -> bool {
+fn is_app_installed(_app: AppHandle) -> bool {
     #[cfg(target_os = "windows")]
     {
         // 1. Get the path of the currently running executable
