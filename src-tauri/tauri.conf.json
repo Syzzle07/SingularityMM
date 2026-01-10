@@ -22,7 +22,7 @@
   },
   "productName": "Singularity",
   "mainBinaryName": "Singularity",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "identifier": "com.syzzle.singularity",
   "plugins": {
     "updater": {
