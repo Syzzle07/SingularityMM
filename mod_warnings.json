@@ -3900,12 +3900,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Dark Nexus - Cyberpunk Ambiance",
-        "id": "2923",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Galaxy Map Speed Tweaks",
         "id": "3764",
         "state": "normal",
@@ -4322,12 +4316,6 @@
     {
         "name": "Snow Color Match",
         "id": "2872",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "No Man's Sky Advanced Player Scaler and Customisation",
-        "id": "3634",
         "state": "normal",
         "warningMessage": ""
     },
@@ -5316,12 +5304,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Stars Fields improvements",
-        "id": "3838",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "True color II",
         "id": "3655",
         "state": "normal",
@@ -5442,50 +5424,14 @@
         "warningMessage": ""
     },
     {
-        "name": "No Man's Sky Halloween Pack",
-        "id": "3860",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "No Man's Sky Player Controls Revision",
-        "id": "3348",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Reduce Motion Blur Flicker",
         "id": "3862",
         "state": "normal",
         "warningMessage": ""
     },
     {
-        "name": "No Man's Sky Action Pack ft Super Vehicles 5",
-        "id": "3703",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "No Alien Words",
         "id": "3649",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "REDMAS METAL SPACESHIPS",
-        "id": "2394",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "REDMAS VISUAL OVERHAUL",
-        "id": "2379",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "No Man's Sky Space Pack - Pegasus Fantasy",
-        "id": "3354",
         "state": "normal",
         "warningMessage": ""
     },
@@ -5606,12 +5552,6 @@
     {
         "name": "NPC Landing Pad",
         "id": "2851",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "No Man's Sky Advanced Base Building and Quality Of Life Improvements pack - New Gameplay Mechanics 2025",
-        "id": "3809",
         "state": "normal",
         "warningMessage": ""
     },
@@ -6624,18 +6564,6 @@
         "warningMessage": ""
     },
     {
-        "name": "No Man's Sky Planets Generation Pack",
-        "id": "3425",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "No Man's Sky Fantasy Reborn HQ - Infinite Worlds generation mod - and (a lot ) more",
-        "id": "2675",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "zCockpit Ambassador",
         "id": "3898",
         "state": "normal",
@@ -7200,6 +7128,7 @@
         "warningMessage": ""
     }
 ]
+
 
 
 
