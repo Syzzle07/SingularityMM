@@ -5472,18 +5472,6 @@
         "warningMessage": ""
     },
     {
-        "name": "REDMAS METAL SPACESHIPS",
-        "id": "2394",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "REDMAS VISUAL OVERHAUL",
-        "id": "2379",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "No Man's Sky Space Pack - Pegasus Fantasy",
         "id": "3354",
         "state": "normal",
@@ -7200,6 +7188,7 @@
         "warningMessage": ""
     }
 ]
+
 
 
 
