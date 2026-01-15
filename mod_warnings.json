@@ -7126,8 +7126,27 @@
         "id": "3988",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Krypton Jetpack and Flight Overhaul",
+        "id": "3989",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "True seamless saves (Hide saving icon)",
+        "id": "3991",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "BREACH Splash Screen Logo",
+        "id": "4007",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
