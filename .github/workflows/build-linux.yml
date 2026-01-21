@@ -1,7 +1,7 @@
-name: Build Linux Manual
+name: Manual Linux Build
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Allows clicking "Run Workflow" manually
 
 jobs:
   build-linux:
@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install system dependencies
+      - name: Install Linux dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y libwebkit2gtk-4.1-dev \
@@ -27,6 +27,8 @@ jobs:
 
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-unknown-linux-gnu
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -36,14 +38,18 @@ jobs:
       - name: Install Frontend Dependencies
         run: npm install
 
-      - name: Build Singularity
+      # Note: We do NOT use the 'release' action here because we just want artifacts to test.
+      # We use the standard build command.
+      - name: Build Tauri Linux
         uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
         with:
-          tagName: "linux-build-${{ github.run_number }}"
-          releaseName: "Linux Build #${{ github.run_number }}"
-          releaseBody: "Automated Linux Build"
+          tagName: "manual-linux-${{ github.run_number }}"
+          releaseName: "Manual Linux Build #${{ github.run_number }}"
+          releaseBody: "Manual test build for Linux."
           releaseDraft: true
-          prerelease: false
+          prerelease: true
           args: --target x86_64-unknown-linux-gnu
