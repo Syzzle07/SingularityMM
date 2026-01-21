@@ -31,7 +31,7 @@
         "https://gist.githubusercontent.com/Syzzle07/9d29be1615e75e9206520811047be899/raw/latest.json"
       ],
       "dialog": true,
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEExMTI1QzA4RDdGNkJCM0EKUldRNnUvYlhDRndTb2IrbDg0bmVjV3BkV2ZXWGFjdGFCTndvK1dVY2hyQjI0S09UMU02enp0bU8K",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDIyOTA2OEUxRUVGMzk1NDYKUldSR2xmUHU0V2lRSWxsdDFNa1A2RmROZEZOSzRlMDZTVkNXRDlZaVBNa0lyYmE4cGRJSHZjZTQK",
       "windows": {
         "installMode": "passive"
       }
