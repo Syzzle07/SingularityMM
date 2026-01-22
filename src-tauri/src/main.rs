@@ -546,6 +546,19 @@ fn get_state_file_path(app: &AppHandle) -> Result<PathBuf, String> {
     Ok(app_data_dir.join("window-state.json"))
 }
 
+fn get_settings_file_path(game_path: &Path) -> PathBuf {
+    let settings_dir = game_path.join("Binaries").join("SETTINGS");
+    
+    let upper = settings_dir.join("GCMODSETTINGS.MXML");
+    let lower = settings_dir.join("GCMODSETTINGS.mxml");
+    
+    if lower.exists() && !upper.exists() {
+        return lower;
+    }
+    
+    upper
+}
+
 fn find_game_path() -> Option<PathBuf> {
     #[cfg(target_os = "windows")]
     {
@@ -772,7 +785,7 @@ fn get_all_mods_for_render(app: AppHandle) -> Result<Vec<ModRenderData>, String>
     let game_path =
         find_game_path().ok_or_else(|| "Could not find game installation path.".to_string())?;
     let mods_path = game_path.join("GAMEDATA").join("MODS");
-    let settings_file_path = game_path.join("Binaries").join("SETTINGS").join("GCMODSETTINGS.MXML");
+    let settings_file_path = get_settings_file_path(&game_path);
 
     if !settings_file_path.exists() {
         return Ok(Vec::new());
@@ -1304,10 +1317,7 @@ fn resolve_conflict(
 #[tauri::command]
 fn delete_settings_file() -> Result<String, String> {
     if let Some(game_path) = find_game_path() {
-        let settings_file = game_path
-            .join("Binaries")
-            .join("SETTINGS")
-            .join("GCMODSETTINGS.MXML");
+        let settings_file = get_settings_file_path(&game_path);
         if settings_file.exists() {
             fs::remove_file(&settings_file).map_err(|e| {
                 format!(
@@ -1470,10 +1480,7 @@ fn rename_mod_folder(
 
     // 3. Update XML
     // Reuse the logic from update_mod_name_in_xml but integrated here to avoid double-parsing.
-    let settings_file = game_path
-        .join("Binaries")
-        .join("SETTINGS")
-        .join("GCMODSETTINGS.MXML");
+    let settings_file = get_settings_file_path(&game_path);
     if settings_file.exists() {
         match update_mod_name_in_xml(old_name.clone(), new_name.clone()) {
             Ok(new_xml) => {
@@ -1507,10 +1514,7 @@ fn delete_mod(app: AppHandle, mod_name: String) -> Result<Vec<ModRenderData>, St
 
     let game_path =
         find_game_path().ok_or_else(|| "Could not find game installation path.".to_string())?;
-    let settings_file_path = game_path
-        .join("Binaries")
-        .join("SETTINGS")
-        .join("GCMODSETTINGS.MXML");
+    let settings_file_path = get_settings_file_path(&game_path);
     let mod_to_delete_path = game_path.join("GAMEDATA").join("MODS").join(&mod_name);
 
     if mod_to_delete_path.exists() {
@@ -1603,10 +1607,7 @@ fn delete_mod(app: AppHandle, mod_name: String) -> Result<Vec<ModRenderData>, St
 fn reorder_mods(ordered_mod_names: Vec<String>) -> Result<String, String> {
     let game_path =
         find_game_path().ok_or_else(|| "Could not find game installation path.".to_string())?;
-    let settings_file_path = game_path
-        .join("Binaries")
-        .join("SETTINGS")
-        .join("GCMODSETTINGS.MXML");
+    let settings_file_path = get_settings_file_path(&game_path);
 
     let xml_content = fs::read_to_string(&settings_file_path)
         .map_err(|e| format!("Failed to read GCMODSETTINGS.MXML: {}", e))?;
@@ -1685,10 +1686,7 @@ fn reorder_mods(ordered_mod_names: Vec<String>) -> Result<String, String> {
 fn update_mod_name_in_xml(old_name: String, new_name: String) -> Result<String, String> {
     let game_path =
         find_game_path().ok_or_else(|| "Could not find game installation path.".to_string())?;
-    let settings_file_path = game_path
-        .join("Binaries")
-        .join("SETTINGS")
-        .join("GCMODSETTINGS.MXML");
+    let settings_file_path = get_settings_file_path(&game_path);
 
     let xml_content = fs::read_to_string(&settings_file_path)
         .map_err(|e| format!("Failed to read GCMODSETTINGS.MXML: {}", e))?;
@@ -2225,10 +2223,7 @@ fn save_active_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
         }
 
         // Backup MXML
-        let current_mxml = game_path
-            .join("Binaries")
-            .join("SETTINGS")
-            .join("GCMODSETTINGS.MXML");
+        let current_mxml = get_settings_file_path(&game_path);
         if current_mxml.exists() {
             fs::copy(current_mxml, mxml_backup_path).map_err(|e| e.to_string())?;
         }
@@ -2316,10 +2311,7 @@ async fn apply_profile(app: AppHandle, profile_name: String) -> Result<(), Strin
         }
     }
 
-    let live_mxml = game_path
-        .join("Binaries")
-        .join("SETTINGS")
-        .join("GCMODSETTINGS.MXML");
+    let live_mxml = get_settings_file_path(&game_path);
     println!("Applying Profile: {}", profile_name);
 
     if mxml_backup_path.exists() {
