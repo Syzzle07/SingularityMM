@@ -3420,7 +3420,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   loadFileBtn.addEventListener('click', async () => {
     let startDir = appState.gamePath ? `${appState.gamePath}\\Binaries\\SETTINGS` : undefined;
-    const selPath = await open({ title: i18n.get('loadFileBtn'), defaultPath: startDir, filters: [{ name: 'MXML Files', extensions: ['mxml'] }] });
+    const selPath = await open({ title: i18n.get('loadFileBtn'), defaultPath: startDir, filters: [{ name: 'MXML Files', extensions: ['mxml', 'MXML'] }] });
     if (typeof selPath === 'string') {
       const content = await readTextFile(selPath);
       await loadXmlContent(content, selPath);
