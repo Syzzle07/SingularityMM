@@ -807,7 +807,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 5. LOAD MOD LIST (XML) ---
     if (hasGamePath && appState.settingsPath) {
       try {
-        const settingsFilePath = await join(appState.settingsPath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
+        const settingsFilePath = await invoke('get_actual_settings_path', { gamePath: appState.gamePath });
         const content = await readTextFile(settingsFilePath);
         await loadXmlContent(content, settingsFilePath);
       } catch (e) {
@@ -3298,10 +3298,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const modName = row.dataset.modName;
 
-    // Check if this specific row is the ONLY one currently selected
     const isAlreadyTheSingleSelection = appState.selectedModNames.has(modName) && appState.selectedModNames.size === 1;
 
-    // --- MULTI-SELECT LOGIC (CTRL) ---
+    // --- MULTI-SELECT (CTRL) ---
     if (e.ctrlKey) {
       e.preventDefault();
       if (appState.selectedModNames.has(modName)) {
@@ -3318,9 +3317,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // --- SINGLE SELECT LOGIC ---
-    // If it's NOT the currently selected item (or there are multiple), select it immediately.
-    // If it IS the currently selected item, do NOTHING yet. We wait to see if it's a Click (Toggle Off) or a Drag (Keep Selected).
+    // --- SINGLE SELECT  ---
     if (!isAlreadyTheSingleSelection) {
       modListContainer.querySelectorAll('.mod-row.selected').forEach(el => el.classList.remove('selected'));
       appState.selectedModNames.clear();
@@ -3336,7 +3333,6 @@ document.addEventListener('DOMContentLoaded', () => {
       clearTimeout(dragState.dragTimer);
       document.removeEventListener('mouseup', handleMouseUpAsClick);
 
-      // LOGIC: If we clicked the item that was ALREADY selected, we Toggle it OFF.
       if (isAlreadyTheSingleSelection) {
         appState.selectedModNames.delete(modName);
         row.classList.remove('selected');
@@ -3441,7 +3437,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const statusEl = document.getElementById('nxmHandlerStatus');
 
       if (isRegistered) {
-        // Use i18n.get to fetch the text dynamically based on current language
         btn.textContent = i18n.get('removeHandlerBtn');
         btn.className = 'modal-btn-nxm';
         btn.classList.remove('modal-btn-nxm-confirm');
@@ -3491,7 +3486,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       if (selected) {
-        // Show loading state because moving files might take a moment
         currentLibraryPathEl.textContent = "Moving files... please wait...";
 
         await invoke('set_library_path', { newPath: selected });
@@ -3601,7 +3595,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const onDragEnter = (event) => {
       if (dragState.draggedElement) return;
 
-      // Debug Log: Useful to see if hover events trigger layout shifts
       console.log("Drag enter detected");
       showHighlight();
     };
@@ -3657,7 +3650,6 @@ document.addEventListener('DOMContentLoaded', () => {
           downloadHistory.splice(existingIndex, 1);
         }
 
-        // LOGGING: Track specific file processing
         window.addAppLog(`Processing dropped file: ${fileName}`, "INFO");
 
         const downloadId = `manual-${Date.now()}`;
