@@ -2,9 +2,7 @@
   "identifier": "default",
   "description": "permissions that were migrated from v1",
   "local": true,
-  "windows": [
-    "main"
-  ],
+  "windows": ["main"],
   "permissions": [
     "dialog:default",
     "updater:default",
@@ -25,7 +23,19 @@
     {
       "identifier": "fs:scope",
       "allow": [
-        "**"
+        "$RESOURCE/**",
+        "~/.steam/steam/steamapps/common/No Man's Sky/Binaries/SETTINGS/**",
+        "~/.local/share/Steam/steamapps/common/No Man's Sky/Binaries/SETTINGS/**",
+        "~/Games/NoMansSky/Binaries/SETTINGS/**",
+        "/home/*/.steam/steam/steamapps/common/No Man's Sky/Binaries/SETTINGS/**",
+        "/home/*/.local/share/Steam/steamapps/common/No Man's Sky/Binaries/SETTINGS/**",
+        "/mnt/*/SteamLibrary/steamapps/common/No Man's Sky/Binaries/SETTINGS/**",
+        "~/.steam/steam/steamapps/common/No Man's Sky/GAMEDATA/MODS/**",
+        "~/.local/share/Steam/steamapps/common/No Man's Sky/GAMEDATA/MODS/**",
+        "~/Games/NoMansSky/GAMEDATA/MODS/**",
+        "/home/*/.steam/steam/steamapps/common/No Man's Sky/GAMEDATA/MODS/**",
+        "/home/*/.local/share/Steam/steamapps/common/No Man's Sky/GAMEDATA/MODS/**",
+        "/mnt/*/SteamLibrary/steamapps/common/No Man's Sky/GAMEDATA/MODS/**"
       ]
     },
     "core:window:allow-create",

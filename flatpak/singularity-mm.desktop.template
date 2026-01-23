@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Singularity Mod Manager
+Comment=No Man's Sky Mod Manager
+Exec=singularity-wrapper
+Icon=com.syzzle.Singularity
+Type=Application
+Categories=Game;Utility;
+Keywords=No Man's Sky;Mods;Gaming;modding;games;
+StartupNotify=true
+StartupWMClass=Singularity
