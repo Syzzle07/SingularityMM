@@ -33,6 +33,7 @@ use unrar;
 use url::Url;
 use uuid::Uuid;
 use zip::ZipArchive;
+use base64::{engine::general_purpose, Engine as _};
 
 // --- STRUCTS ---
 
@@ -767,6 +768,82 @@ where
 
 // --- TAURI COMMANDS ---
 
+#[derive(Serialize, Deserialize)]
+struct HttpResponse {
+    status: u16,
+    status_text: String,
+    body: String,
+    headers: HashMap<String, String>,
+}
+
+#[tauri::command]
+async fn http_request(
+    url: String,
+    method: Option<String>,
+    headers: Option<HashMap<String, String>>,
+) -> Result<HttpResponse, String> {
+    let client = reqwest::Client::new();
+    let method = method.unwrap_or_else(|| "GET".to_string());
+
+    let mut request = match method.to_uppercase().as_str() {
+        "GET" => client.get(&url),
+        "POST" => client.post(&url),
+        "PUT" => client.put(&url),
+        "DELETE" => client.delete(&url),
+        "HEAD" => client.head(&url),
+        _ => return Err(format!("Unsupported HTTP method: {}", method)),
+    };
+
+    // Add headers if provided
+    if let Some(headers_map) = headers {
+        for (key, value) in headers_map {
+            request = request.header(&key, &value);
+        }
+    }
+
+    let response = request.send().await.map_err(|e| {
+        format!("HTTP request failed: {}", e)
+    })?;
+
+    let status = response.status().as_u16();
+    let status_text = response.status().canonical_reason().unwrap_or("").to_string();
+
+    // Extract response headers
+    let mut response_headers = HashMap::new();
+    for (name, value) in response.headers() {
+        if let Ok(value_str) = value.to_str() {
+            response_headers.insert(name.to_string().to_lowercase(), value_str.to_string());
+        }
+    }
+
+    // Check if this is an image request by content-type or URL
+    let content_type = response_headers.get("content-type").unwrap_or(&String::new()).to_lowercase();
+    let is_image = content_type.starts_with("image/") ||
+                   url.contains(".jpg") || url.contains(".jpeg") ||
+                   url.contains(".png") || url.contains(".gif") ||
+                   url.contains(".webp");
+
+    let body = if is_image {
+        // For images, get bytes and encode as base64
+        let bytes = response.bytes().await.map_err(|e| {
+            format!("Failed to read response bytes: {}", e)
+        })?;
+        general_purpose::STANDARD.encode(bytes)
+    } else {
+        // For text content, get as string
+        response.text().await.map_err(|e| {
+            format!("Failed to read response body: {}", e)
+        })?
+    };
+
+    Ok(HttpResponse {
+        status,
+        status_text,
+        body,
+        headers: response_headers,
+    })
+}
+
 #[tauri::command]
 fn get_all_mods_for_render(app: AppHandle) -> Result<Vec<ModRenderData>, String> {
     let game_path =
@@ -782,7 +859,7 @@ fn get_all_mods_for_render(app: AppHandle) -> Result<Vec<ModRenderData>, String>
     // We create a Set of Uppercase names for easy comparison
     let mut real_folders_map: HashMap<String, String> = HashMap::new();
     let mut real_folders_set: std::collections::HashSet<String> = std::collections::HashSet::new();
-    
+
     if let Ok(entries) = fs::read_dir(&mods_path) {
         for entry in entries.flatten() {
             if entry.path().is_dir() {
@@ -805,14 +882,14 @@ fn get_all_mods_for_render(app: AppHandle) -> Result<Vec<ModRenderData>, String>
     // 3. Clean Orphans (Entries in XML but not on Disk)
     if let Some(prop) = root.properties.iter_mut().find(|p| p.name == "Data") {
         let original_len = prop.mods.len();
-        
+
         prop.mods.retain(|entry| {
             let xml_name = entry.properties.iter()
                 .find(|p| p.name == "Name")
                 .and_then(|p| p.value.as_ref())
                 .map(|s| s.to_uppercase())
                 .unwrap_or_default();
-            
+
             // Keep it ONLY if it exists on disk
             real_folders_set.contains(&xml_name)
         });
@@ -865,7 +942,7 @@ fn get_all_mods_for_render(app: AppHandle) -> Result<Vec<ModRenderData>, String>
                 .iter()
                 .find(|p| p.name == "Name")
                 .and_then(|p| p.value.as_ref());
-            
+
             if let Some(xml_name) = xml_name_prop {
                 // Get Real Name from Map
                 let folder_name = real_folders_map
@@ -880,7 +957,7 @@ fn get_all_mods_for_render(app: AppHandle) -> Result<Vec<ModRenderData>, String>
                     .and_then(|p| p.value.as_deref())
                     .unwrap_or("false")
                     .eq_ignore_ascii_case("true");
-                
+
                 let priority = mod_entry
                     .properties
                     .iter()
@@ -890,7 +967,7 @@ fn get_all_mods_for_render(app: AppHandle) -> Result<Vec<ModRenderData>, String>
                     .unwrap_or(0);
 
                 let mod_info_path = mods_path.join(&folder_name).join("mod_info.json");
-                
+
                 let local_info = if let Ok(content) = fs::read_to_string(&mod_info_path) {
                     if let Ok(json_val) = serde_json::from_str::<serde_json::Value>(&content) {
                         Some(LocalModInfo {
@@ -1095,10 +1172,10 @@ async fn install_mod_from_archive(
 
 #[tauri::command]
 fn finalize_installation(
-    app: AppHandle, 
-    library_id: String, 
+    app: AppHandle,
+    library_id: String,
     selected_folders: Vec<String>,
-    flatten_paths: bool 
+    flatten_paths: bool
 ) -> Result<InstallationAnalysis, String> {
     log_internal(&app, "INFO", &format!("Finalizing installation. Source: {}, Flatten: {}", library_id, flatten_paths));
 
@@ -1129,7 +1206,7 @@ fn finalize_installation(
 
     let staging_dir = get_staging_dir(&app)?;
     let conflict_staging_path = staging_dir.join(format!("conflict_{}", Utc::now().timestamp_millis()));
-    
+
     let mut successes = Vec::new();
     let mut conflicts = Vec::new();
 
@@ -1171,7 +1248,7 @@ fn finalize_installation(
                 for deep_rel in deep_candidates {
                     let deep_source = if deep_rel == "." { source_path.clone() } else { source_path.join(&deep_rel) };
                     let folder_name = deep_source.file_name().ok_or("Invalid path")?.to_string_lossy().into_owned();
-                    
+
                     // --- DEDUPLICATION CHECK ---
                     if !ops.iter().any(|op| op.dest_name.eq_ignore_ascii_case(&folder_name)) {
                         ops.push(DeployOp { source: deep_source, dest_name: folder_name });
@@ -1180,7 +1257,7 @@ fn finalize_installation(
             } else {
                 // No deep structure found, use current
                 let folder_name = source_path.file_name().ok_or("Invalid path")?.to_string_lossy().into_owned();
-                
+
                 // --- DEDUPLICATION CHECK ---
                 if !ops.iter().any(|op| op.dest_name.eq_ignore_ascii_case(&folder_name)) {
                     ops.push(DeployOp { source: source_path, dest_name: folder_name });
@@ -1189,7 +1266,7 @@ fn finalize_installation(
         } else {
             // Exact Install: Use the folder structure exactly as selected
             let folder_name = source_path.file_name().ok_or("Invalid path")?.to_string_lossy().into_owned();
-            
+
             // --- DEDUPLICATION CHECK ---
             if !ops.iter().any(|op| op.dest_name.eq_ignore_ascii_case(&folder_name)) {
                 ops.push(DeployOp { source: source_path, dest_name: folder_name });
@@ -1204,9 +1281,9 @@ fn finalize_installation(
             if let Some(mod_id) = info.mod_id {
                 if let Some(old_folder_name) = installed_mods_by_id.get(&mod_id) {
                     if !conflict_staging_path.exists() { fs::create_dir_all(&conflict_staging_path).map_err(|e| e.to_string())?; }
-                    
+
                     let staged_mod_path = conflict_staging_path.join(&op.dest_name);
-                    
+
                     if let Err(e) = deploy_structure_recursive(&op.source, &staged_mod_path) {
                         log_internal(&app, "ERROR", &format!("Failed to stage conflict: {}", e));
                     }
@@ -1224,11 +1301,11 @@ fn finalize_installation(
         if !conflict_found {
             let final_dest_path = mods_path.join(&op.dest_name);
             log_internal(&app, "INFO", &format!("Deploying mod folder: {}", op.dest_name));
-            
+
             if final_dest_path.exists() {
                 if !conflict_staging_path.exists() { fs::create_dir_all(&conflict_staging_path).map_err(|e| e.to_string())?; }
                 let staged_mod_path = conflict_staging_path.join(&op.dest_name);
-                
+
                 if let Err(e) = deploy_structure_recursive(&op.source, &staged_mod_path) {
                     log_internal(&app, "ERROR", &format!("Failed to stage overwrite: {}", e));
                 }
@@ -1244,7 +1321,7 @@ fn finalize_installation(
                     log_internal(&app, "ERROR", &err_msg);
                     return Err(err_msg);
                 }
-                
+
                 successes.push(ModInstallInfo {
                     name: op.dest_name,
                     temp_path: final_dest_path.to_string_lossy().into_owned(),
@@ -2608,16 +2685,31 @@ fn copy_profile(app: AppHandle, source_name: String, new_name: String) -> Result
 
 #[tauri::command]
 async fn login_to_nexus(app: tauri::AppHandle) -> Result<String, String> {
+    log_internal(&app, "INFO", "Starting Nexus login process...");
+
     // 1. Generate a unique Request ID (UUID)
     let uuid = Uuid::new_v4().to_string();
+    log_internal(&app, "INFO", &format!("Generated UUID: {}", uuid));
 
     // 2. Construct the WebSocket URL
-    let sso_url = Url::parse("wss://sso.nexusmods.com").map_err(|e| e.to_string())?;
+    let sso_url = Url::parse("wss://sso.nexusmods.com").map_err(|e| {
+        let err = format!("Failed to parse WebSocket URL: {}", e);
+        log_internal(&app, "ERROR", &err);
+        err
+    })?;
+
+    log_internal(&app, "INFO", &format!("Connecting to: {}", sso_url));
 
     // 3. Open the connection
     let (ws_stream, _) = connect_async(sso_url.to_string())
         .await
-        .map_err(|e| format!("Failed to connect: {}", e))?;
+        .map_err(|e| {
+            let err = format!("Failed to connect to Nexus WebSocket: {}", e);
+            log_internal(&app, "ERROR", &err);
+            err
+        })?;
+
+    log_internal(&app, "INFO", "WebSocket connection established");
 
     let (mut write, mut read) = ws_stream.split();
 
@@ -2628,10 +2720,16 @@ async fn login_to_nexus(app: tauri::AppHandle) -> Result<String, String> {
         "protocol": 2
     });
 
+    log_internal(&app, "INFO", &format!("Sending handshake: {}", msg));
+
     write
         .send(Message::Text(msg.to_string().into()))
         .await
-        .map_err(|e| e.to_string())?;
+        .map_err(|e| {
+            let err = format!("Failed to send handshake: {}", e);
+            log_internal(&app, "ERROR", &err);
+            err
+        })?;
 
     // 5. Open the User's Browser to authorize
     let auth_url = format!(
@@ -3108,12 +3206,12 @@ fn is_app_installed(_app: AppHandle) -> bool {
         if let Some(parent_dir) = current_exe.parent() {
             // 3. Check if "Uninstall.exe" exists in this folder
             let uninstaller = parent_dir.join("Uninstall.exe");
-            
+
             if uninstaller.exists() {
                 return true; // It's an installed version
             }
         }
-        
+
         // No uninstaller found? Must be Portable.
         return false;
     }
@@ -3121,14 +3219,95 @@ fn is_app_installed(_app: AppHandle) -> bool {
     // For Linux (AppImage), updates work fine in "portable" mode
     #[cfg(target_os = "linux")]
     return true;
-    
+
     // Fallback for other OS
     #[cfg(not(any(target_os = "windows", target_os = "linux")))]
     return true;
 }
 
+/// Configure environment for Steam Deck compatibility
+fn configure_steam_deck_environment() {
+    // Apply WebKit network fixes for all Linux systems
+    #[cfg(target_os = "linux")]
+    {
+        // WebKit network configuration for better compatibility
+        if std::env::var("WEBKIT_DISABLE_DMABUF_RENDERER").is_err() {
+            std::env::set_var("WEBKIT_DISABLE_DMABUF_RENDERER", "1");
+        }
+
+        // Allow network access and disable strict SSL verification for GitHub
+        std::env::set_var("WEBKIT_DISABLE_TLS_VERIFICATION", "1");
+        std::env::set_var("G_TLS_GNUTLS_PRIORITY", "NORMAL:%COMPAT");
+
+        println!("[INFO] Linux WebKit network compatibility configured");
+    }
+
+    // Detect Steam Deck environment
+    let is_steam_deck = is_running_on_steam_deck();
+
+    if is_steam_deck {
+        println!("[INFO] Steam Deck detected, applying compatibility settings...");
+
+        // Force software rendering as fallback for problematic EGL drivers
+        if std::env::var("LIBGL_ALWAYS_SOFTWARE").is_err() {
+            std::env::set_var("LIBGL_ALWAYS_SOFTWARE", "1");
+        }
+
+        // Disable hardware acceleration for WebKit if needed
+        if std::env::var("WEBKIT_DISABLE_COMPOSITING_MODE").is_err() {
+            std::env::set_var("WEBKIT_DISABLE_COMPOSITING_MODE", "1");
+        }
+
+        // Fix for EGL display issues
+        if std::env::var("EGL_PLATFORM").is_err() {
+            std::env::set_var("EGL_PLATFORM", "x11");
+        }
+
+        // Disable ATK bridge to reduce warnings
+        std::env::set_var("NO_AT_BRIDGE", "1");
+
+        // Force X11 backend for compatibility
+        if std::env::var("GDK_BACKEND").is_err() {
+            std::env::set_var("GDK_BACKEND", "x11");
+        }
+
+        println!("[INFO] Steam Deck compatibility environment configured");
+    }
+}
+
+/// Check if the application is running on Steam Deck
+fn is_running_on_steam_deck() -> bool {
+    std::env::var("STEAM_DECK")
+        .map(|v| v == "1")
+        .unwrap_or(false) ||
+        std::env::var("SteamDeck")
+        .map(|v| v == "1")
+        .unwrap_or(false) ||
+        std::fs::read_to_string("/sys/devices/virtual/dmi/id/product_name")
+        .map(|s| s.trim().contains("Jupiter") || s.trim().contains("Steam Deck"))
+        .unwrap_or(false)
+}
+
 // --- MAIN FUNCTION ---
 fn main() {
+    // Force X11 backend on Linux to avoid Wayland rendering issues with WebKitGTK
+    // Skip this for Flatpak - the GNOME runtime's WebKitGTK handles Wayland correctly
+    #[cfg(target_os = "linux")]
+    {
+        let is_flatpak = std::env::var("FLATPAK_ID").is_ok()
+            || std::env::var("SINGULARITY_FLATPAK").is_ok();
+
+        if !is_flatpak && std::env::var("GDK_BACKEND").is_err() {
+            std::env::set_var("GDK_BACKEND", "x11");
+            println!("[INFO] Forced GDK_BACKEND=x11 for WebKitGTK compatibility");
+        } else if is_flatpak {
+            println!("[INFO] Running in Flatpak - using native display backend");
+        }
+    }
+
+    // Steam Deck compatibility fixes
+    configure_steam_deck_environment();
+
     tauri::Builder::default()
         .plugin(tauri_plugin_process::init())
         .plugin(tauri_plugin_updater::Builder::new().build())
@@ -3171,6 +3350,18 @@ fn main() {
             }
 
             let window = app.get_webview_window("main").unwrap();
+
+            // Steam Deck specific window configuration
+            let is_steam_deck = is_running_on_steam_deck();
+            if is_steam_deck {
+                log_internal(app_handle, "INFO", "Steam Deck detected - applying window configuration");
+
+                // For Steam Deck, ensure window decorations are enabled and transparency is off
+                // This helps with visibility issues on the Steam Deck's compositor
+                if let Err(e) = window.set_decorations(true) {
+                    log_internal(app_handle, "WARN", &format!("Could not enable decorations on Steam Deck: {}", e));
+                }
+            }
 
             // --- UPDATED STATE LOADING ---
             if let Ok(state_path) = get_state_file_path(app_handle) {
@@ -3297,7 +3488,8 @@ fn main() {
             delete_library_folder,
             check_library_existence,
             rename_mod_folder,
-            is_app_installed
+            is_app_installed,
+            http_request
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

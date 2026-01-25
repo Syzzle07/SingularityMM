@@ -2,9 +2,7 @@
   "identifier": "default",
   "description": "permissions that were migrated from v1",
   "local": true,
-  "windows": [
-    "main"
-  ],
+  "windows": ["main"],
   "permissions": [
     "dialog:default",
     "updater:default",
@@ -24,9 +22,7 @@
     "fs:allow-write-text-file",
     {
       "identifier": "fs:scope",
-      "allow": [
-        "**"
-      ]
+      "allow": ["**"]
     },
     "core:window:allow-create",
     "core:window:allow-center",

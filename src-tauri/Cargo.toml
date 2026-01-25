@@ -38,10 +38,11 @@ futures-util = "0.3"
 url = "2.5"
 sevenz-rust = "0.6"
 tauri-plugin-process = "2"
+base64 = "0.22"
 
 [features]
 custom-protocol = ["tauri/custom-protocol"]
 
 [profile.release]
-strip = true 
+strip = true
 lto = true

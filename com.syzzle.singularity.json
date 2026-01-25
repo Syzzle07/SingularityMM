@@ -1,0 +1,60 @@
+{
+  "app-id": "com.syzzle.singularity",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "49",
+  "sdk": "org.gnome.Sdk",
+  "command": "singularity-wrapper",
+  "finish-args": [
+    "--share=network",
+    "--share=ipc",
+    "--socket=x11",
+    "--socket=wayland",
+    "--socket=fallback-x11",
+    "--socket=pulseaudio",
+    "--device=dri",
+    "--filesystem=xdg-run/dri",
+    "--filesystem=home",
+    "--filesystem=xdg-download",
+    "--filesystem=xdg-documents",
+    "--filesystem=xdg-desktop",
+    "--talk-name=org.freedesktop.Notifications",
+    "--talk-name=org.gtk.vfs.*",
+    "--filesystem=xdg-run/gvfsd"
+  ],
+  "add-extensions": {
+    "org.freedesktop.Platform.GL.default": {
+      "directory": "lib/GL"
+    },
+    "org.freedesktop.Platform.GL.nvidia": {
+      "directory": "lib/GL-nvidia"
+    },
+    "org.freedesktop.Platform.VAAPI.Intel": {
+      "directory": "lib/vaapi-intel"
+    },
+    "org.freedesktop.Platform.VAAPI.AMD": {
+      "directory": "lib/vaapi-amd"
+    },
+    "org.freedesktop.Platform.VAAPI.Nvidia": {
+      "directory": "lib/vaapi-nvidia"
+    }
+  },
+  "modules": [
+    {
+      "name": "singularity",
+      "buildsystem": "simple",
+      "build-commands": [
+        "mkdir -p /app/bin /app/share/applications /app/share/icons/hicolor/128x128/apps",
+        "install -m755 Singularity /app/bin/singularity",
+        "install -m755 singularity-wrapper /app/bin/singularity-wrapper",
+        "install -m644 singularity.desktop /app/share/applications/com.syzzle.singularity.desktop",
+        "install -m644 singularity.png /app/share/icons/hicolor/128x128/apps/com.syzzle.singularity.png"
+      ],
+      "sources": [
+        {
+          "type": "dir",
+          "path": "flatpak-source"
+        }
+      ]
+    }
+  ]
+}

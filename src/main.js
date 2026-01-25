@@ -21,6 +21,7 @@ const appWindow = getCurrentWindow();
 let NEXUS_API_KEY = "";
 const CURATED_LIST_URL = "https://raw.githubusercontent.com/Syzzle07/SingularityMM/refs/heads/data/curated/curated_list.json";
 let curatedData = [];
+let curatedDataPromise = null;
 let downloadHistory = [];
 const nexusFileCache = new Map();
 
@@ -29,6 +30,30 @@ const PANEL_OPEN_WIDTH = 1300;
 let isPanelOpen = false;
 const SCROLL_SPEED = 5;
 const CACHE_DURATION_MS = 60 * 60 * 1000;
+
+// Function to load images through Tauri HTTP command
+async function loadImageViaTauri(imgElement, url) {
+  try {
+    const response = await invoke('http_request', {
+      url: url,
+      method: 'GET',
+      headers: {}
+    });
+    
+    if (response.status >= 200 && response.status < 300) {
+      // The response body is base64 encoded for images
+      const contentType = response.headers['content-type'] || 'image/jpeg';
+      const dataURL = `data:${contentType};base64,${response.body}`;
+      
+      imgElement.src = dataURL;
+    } else {
+      throw new Error(`HTTP ${response.status}`);
+    }
+  } catch (error) {
+    console.warn(`Failed to load image via Tauri: ${url}`, error);
+    imgElement.src = '/src/assets/placeholder.png';
+  }
+}
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -633,7 +658,11 @@ document.addEventListener('DOMContentLoaded', () => {
         headers['If-None-Match'] = cachedObj.etag;
       }
 
-      const response = await fetch(CURATED_LIST_URL, { headers });
+      const response = await invoke('http_request', {
+        url: CURATED_LIST_URL,
+        method: 'GET',
+        headers: headers
+      });
 
       // CASE A: 304 NOT MODIFIED (Server says: "You have the latest version")
       if (response.status === 304 && cachedObj) {
@@ -645,10 +674,12 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // CASE B: 200 OK (Server sent new data)
-      if (!response.ok) throw new Error("Could not fetch remote curated list.");
+      if (response.status < 200 || response.status >= 300) {
+        throw new Error(`Could not fetch remote curated list. Status: ${response.status} ${response.status_text}`);
+      }
 
-      const freshData = await response.json();
-      const newEtag = response.headers.get('etag'); // Get the new ETag
+      const freshData = JSON.parse(response.body);
+      const newEtag = response.headers['etag']; // Get the new ETag
 
       curatedData = freshData;
       console.log(`Successfully loaded ${curatedData.length} mods from network.`);
@@ -681,10 +712,16 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const headers = { "apikey": NEXUS_API_KEY };
-      const response = await fetch("https://api.nexusmods.com/v1/users/validate.json", { headers });
+      const response = await invoke('http_request', {
+        url: "https://api.nexusmods.com/v1/users/validate.json",
+        method: 'GET',
+        headers: headers
+      });
 
-      if (response.ok) {
-        const userData = await response.json();
+      if (response.status >= 200 && response.status < 300) {
+        console.log("DEBUG: Nexus API response is OK, parsing JSON...");
+        const userData = JSON.parse(response.body);
+        console.log("DEBUG: User data received, username:", userData.name);
 
         appState.nexusUsername = userData.name;
 
@@ -728,7 +765,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Network Tasks (Background - Don't await immediately)
     const loginPromise = validateLoginState();
-    const curatedDataPromise = fetchCuratedData();
+    curatedDataPromise = fetchCuratedData();
 
     // Local I/O Tasks (Critical - Await group)
     const langPromise = i18n.loadLanguage(savedLang);
@@ -1301,7 +1338,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Matches: "v" followed by digits, or space/dash followed by digits
     clean = clean.replace(/[- _]?v?\d+(\.\d+)*[a-z]?/gi, '');
 
-    // FINAL SWEEP: Keep ONLY letters (a-z). 
+    // FINAL SWEEP: Keep ONLY letters (a-z).
     clean = clean.replace(/[^a-z]/g, '');
 
     return clean;
@@ -1613,7 +1650,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 else break;
               }
 
-              // Prefer higher score. 
+              // Prefer higher score.
               if (score > bestMatchScore) {
                 bestMatchScore = score;
                 bestMatch = fName;
@@ -2439,12 +2476,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const headers = { "apikey": NEXUS_API_KEY };
     try {
-      const response = await fetch(url, { headers });
-      if (!response.ok) {
-        console.error(`API Error ${response.status}:`, await response.text());
+      const response = await invoke('http_request', {
+        url: url,
+        method: 'GET',
+        headers: headers
+      });
+      if (response.status < 200 || response.status >= 300) {
+        console.error(`API Error ${response.status}:`, response.body);
         return null;
       }
-      const data = await response.json();
+      const data = JSON.parse(response.body);
       return data[0]?.URI;
     } catch (error) {
       console.error(`Failed to get download URL for mod ${modId}:`, error);
@@ -2460,9 +2501,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/${modIdStr}/files.json`;
     const headers = { "apikey": NEXUS_API_KEY };
     try {
-      const response = await fetch(url, { headers });
-      if (!response.ok) return null;
-      const data = await response.json();
+      const response = await invoke('http_request', {
+        url: url,
+        method: 'GET',
+        headers: headers
+      });
+      if (response.status < 200 || response.status >= 300) return null;
+      const data = JSON.parse(response.body);
       nexusFileCache.set(modIdStr, data);
       return data;
     } catch (error) {
@@ -2756,7 +2801,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const titleElement = card.querySelector('.mod-card-title');
 
-      card.querySelector('.mod-card-thumbnail').src = modData.picture_url || '/src/assets/placeholder.png';
+      const thumbnailImg = card.querySelector('.mod-card-thumbnail');
+      const imageUrl = modData.picture_url || '/src/assets/placeholder.png';
+      
+      // Load images through Tauri HTTP command to bypass WebKit restrictions
+      if (imageUrl && imageUrl.startsWith('http')) {
+        loadImageViaTauri(thumbnailImg, imageUrl);
+      } else {
+        thumbnailImg.src = imageUrl;
+      }
+      
       titleElement.title = modData.name;
 
       const versionSpan = `<span class="mod-card-version-inline">${modData.version || ''}</span>`;
@@ -2784,7 +2838,16 @@ document.addEventListener('DOMContentLoaded', () => {
   async function openModDetailPanel(modData) {
     modDetailName.textContent = modData.name;
     modDetailName.dataset.modId = modData.mod_id;
-    modDetailImage.src = modData.picture_url || '/src/assets/placeholder.png';
+    
+    const imageUrl = modData.picture_url || '/src/assets/placeholder.png';
+    
+    // Load images through Tauri HTTP command for external URLs
+    if (imageUrl && imageUrl.startsWith('http')) {
+      loadImageViaTauri(modDetailImage, imageUrl);
+    } else {
+      modDetailImage.src = imageUrl;
+    }
+    
     modDetailDescription.innerHTML = bbcodeToHtml(modData.description) || '<p>No description available.</p>';
     modDetailAuthor.textContent = modData.author || 'Unknown';
     modDetailVersion.textContent = modData.version || '?.?';
@@ -4585,10 +4648,15 @@ document.addEventListener('DOMContentLoaded', () => {
       const installedList = await invoke('get_profile_mod_list', { profileName: appState.activeProfile });
     }
 
+    // 2. Wait for curated data to finish loading if it hasn't already
+    if (curatedDataPromise) {
+      await curatedDataPromise;
+    }
+
     if (browseGridContainer.childElementCount === 0) {
       fetchAndRenderBrowseGrid();
     } else {
-      // 2. Refresh the badges on existing cards
+      // 3. Refresh the badges on existing cards
       refreshBrowseTabBadges();
     }
   });
