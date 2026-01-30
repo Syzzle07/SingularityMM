@@ -49,7 +49,7 @@ jobs:
           # Clean previous build artifacts
           echo "Cleaning previous build artifacts..."
           rm -rf flatpak-build flatpak-repo .flatpak-builder portable-package flatpak-source
-          scripts/flatpak/build-binary.sh
+          scripts/build-binary.sh
 
           # Copy the binary
           echo "Copying Singularity binary..."

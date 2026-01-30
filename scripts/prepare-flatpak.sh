@@ -7,15 +7,12 @@ PROJECT_ROOT="$SCRIPT_DIR/.."
 cd "$PROJECT_ROOT"
 
 
-echo "Running flatpak-builder..."
-echo "Creating Flatpak bundle..."
-echo "Flatpak build and bundle complete. Output: SingularityMM.flatpak"
 # Clean previous build artifacts
 echo "Cleaning previous build artifacts..."
 rm -rf flatpak-build flatpak-repo .flatpak-builder flatpak-source
 
 # 1. Build the Tauri project (Rust binary + resources)
-scripts/flatpak/build-binary.sh
+scripts/build-binary.sh
 
 # 2. Prepare flatpak-source directory and copy all resources
 scripts/flatpak/copy-resources.sh
