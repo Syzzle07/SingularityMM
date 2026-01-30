@@ -4,86 +4,41 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    rust-overlay.url = "github:oxalica/rust-overlay";
-    napalm.url = "github:nix-community/napalm";
   };
 
-  outputs = { self, nixpkgs, flake-utils, rust-overlay, napalm }:
+  outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.eachDefaultSystem (system:
       let
-        overlays = [ (import rust-overlay) ];
-        pkgs = import nixpkgs { inherit system overlays; };
-        nodejs = pkgs.nodejs_24;
-        rust = pkgs.rust-bin.stable.latest.default;
-        tauri-deps = with pkgs; [
-          cargo-tauri webkitgtk_4_1 gtk3 librsvg gdk-pixbuf atk cairo pango gobject-introspection glib dbus openssl pkg-config alsa-lib
-          libappindicator-gtk3 libayatana-appindicator libxkbcommon
-          xorg.libXrandr xorg.libX11 xorg.libXcomposite xorg.libXdamage xorg.libXfixes xorg.libXext xorg.libXrender xorg.libxcb xorg.libXinerama xorg.libXi xorg.libXtst xorg.libXScrnSaver xorg.libxshmfence xorg.libXau xorg.libXdmcp libdrm
-          mesa at-spi2-atk at-spi2-core nss nspr cups expat zlib libsecret libdbusmenu-gtk3 libnotify
-          flatpak flatpak-builder patchelf git
-        ];
-        nodePackage = napalm.legacyPackages.${system}.buildPackage ./. { };
+        pkgs = import nixpkgs { inherit system; };
+        pname = "singularitymm";
+        version = "dev";
+        src = ./.;
+        cargoHash = "sha256-WZ8J4tq3ksnx+7beTGYCjho0MXAD6XIoj3r31O6AIcI=";
+        npmDeps = pkgs.fetchNpmDeps {
+          name = "${pname}-${version}-npm-deps";
+          inherit src;
+          hash = "sha256-kerJjj8fg6nPcJHvqcz8jWBbYkvc61pY8TR7wJ77tc0=";
+        };
       in
       {
-        devShells.default = pkgs.mkShell {
-          buildInputs = [ nodejs rust pkgs.bash ] ++ tauri-deps;
-          shellHook = ''
-            export PATH=$PATH:./node_modules/.bin
-            echo "\nSingularityMM Nix dev shell loaded!\n"
-            echo "- Node: $(node --version)"
-            echo "- Rust: $(rustc --version)"
-            echo "- Flatpak: $(flatpak --version)"
-            echo "- Flatpak-builder: $(flatpak-builder --version)"
-
-            # Run npm install if node_modules is missing or outdated
-            if [ ! -d "node_modules" ] || [ "$(find node_modules -type f | wc -l)" -lt 10 ]; then
-              echo "Running npm install..."
-              npm install
-            fi
-
-            # Add alias for launching Tauri dev
-            alias tauri-dev='npm run tauri dev'
-            echo "\nUse 'tauri-dev' to launch the Tauri app in dev mode.\n"
-          '';
-        };
-
-        packages.singularitymm = pkgs.stdenv.mkDerivation {
-          pname = "singularitymm";
-          version = "dev";
-          src = ./.;
-          buildInputs = [ nodejs rust ] ++ tauri-deps;
-          buildPhase = ''
-            npm install
-            npm run tauri build -- --no-bundle --config '{"bundle":{"createUpdaterArtifacts":false},"plugins":{"updater":{"active":false}}}'
-          '';
-          installPhase = ''
-            mkdir -p $out/bin
-            cp src-tauri/target/release/Singularity $out/bin/
-          '';
-        };
-
-        packages.flatpak-build = pkgs.stdenv.mkDerivation {
-          pname = "singularitymm-flatpak";
-          version = "dev";
-          src = ./.;
-          buildInputs = [ nodejs rust nodePackage ] ++ tauri-deps;
-          buildPhase = ''
-            export HOME=$TMPDIR
-            npm config set cache $TMPDIR/.npm-cache
-            npm config set loglevel verbose
-            export PATH=$PATH:${nodePackage}/bin
-            chmod +x ./scripts/prepare-flatpak.sh
-            # Patch the shebang to use Nix bash
-            sed -i "1s|.*|#!${pkgs.bash}/bin/bash|" ./scripts/prepare-flatpak.sh
-            # Replace npm run tauri build with native tauri build
-            sed -i 's|npm run tauri build --|tauri build --|g' ./scripts/prepare-flatpak.sh
-            ./scripts/prepare-flatpak.sh
-          '';
-          installPhase = ''
-            mkdir -p $out
-            cp SingularityMM.flatpak $out/
-          '';
-        };
+        packages.default = pkgs.rustPlatform.buildRustPackage (finalAttrs: {
+          inherit pname version src cargoHash npmDeps;
+          nativeBuildInputs = [
+            pkgs.cargo-tauri.hook
+            pkgs.nodejs
+            pkgs.npmHooks.npmConfigHook
+            pkgs.pkg-config
+          ] ++ pkgs.lib.optionals pkgs.stdenv.hostPlatform.isLinux [ pkgs.wrapGAppsHook4 ];
+          buildInputs = pkgs.lib.optionals pkgs.stdenv.hostPlatform.isLinux [
+            pkgs.glib-networking
+            pkgs.openssl
+            pkgs.webkitgtk_4_1
+          ];
+          cargoRoot = "src-tauri";
+          buildAndTestSubdir = "src-tauri";
+          tauriBuildFlags = [ "--config" src-tauri/tauri.conf.json ];
+          tauriBundleType = "appimage"; # Don't need deb or rpm
+        });
       }
     );
 }
