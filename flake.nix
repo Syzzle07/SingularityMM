@@ -5,10 +5,10 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     rust-overlay.url = "github:oxalica/rust-overlay";
-    npmlock2nix.url = "github:nix-community/npmlock2nix";
+    napalm.url = "github:nix-community/napalm";
   };
 
-  outputs = { self, nixpkgs, flake-utils, rust-overlay, npmlock2nix }:
+  outputs = { self, nixpkgs, flake-utils, rust-overlay, napalm }:
     flake-utils.lib.eachDefaultSystem (system:
       let
         overlays = [ (import rust-overlay) ];
@@ -16,16 +16,13 @@
         nodejs = pkgs.nodejs_24;
         rust = pkgs.rust-bin.stable.latest.default;
         tauri-deps = with pkgs; [
-          webkitgtk_4_1 gtk3 librsvg gdk-pixbuf atk cairo pango gobject-introspection glib dbus openssl pkg-config alsa-lib
+          cargo-tauri webkitgtk_4_1 gtk3 librsvg gdk-pixbuf atk cairo pango gobject-introspection glib dbus openssl pkg-config alsa-lib
           libappindicator-gtk3 libayatana-appindicator libxkbcommon
           xorg.libXrandr xorg.libX11 xorg.libXcomposite xorg.libXdamage xorg.libXfixes xorg.libXext xorg.libXrender xorg.libxcb xorg.libXinerama xorg.libXi xorg.libXtst xorg.libXScrnSaver xorg.libxshmfence xorg.libXau xorg.libXdmcp libdrm
           mesa at-spi2-atk at-spi2-core nss nspr cups expat zlib libsecret libdbusmenu-gtk3 libnotify
           flatpak flatpak-builder patchelf git
         ];
-        nodeModules = npmlock2nix.lib.${system}.node_modules {
-          src = ../.;
-          nodejs = pkgs.nodejs_24;
-        };
+        nodePackage = napalm.legacyPackages.${system}.buildPackage ./. { };
       in
       {
         devShells.default = pkgs.mkShell {
@@ -53,7 +50,7 @@
         packages.singularitymm = pkgs.stdenv.mkDerivation {
           pname = "singularitymm";
           version = "dev";
-          src = ../.;
+          src = ./.;
           buildInputs = [ nodejs rust ] ++ tauri-deps;
           buildPhase = ''
             npm install
@@ -68,12 +65,18 @@
         packages.flatpak-build = pkgs.stdenv.mkDerivation {
           pname = "singularitymm-flatpak";
           version = "dev";
-          src = ../.;
-          buildInputs = [ nodejs rust nodeModules ] ++ tauri-deps;
+          src = ./.;
+          buildInputs = [ nodejs rust nodePackage ] ++ tauri-deps;
           buildPhase = ''
+            export HOME=$TMPDIR
+            npm config set cache $TMPDIR/.npm-cache
+            npm config set loglevel verbose
+            export PATH=$PATH:${nodePackage}/bin
             chmod +x ./scripts/prepare-flatpak.sh
             # Patch the shebang to use Nix bash
             sed -i "1s|.*|#!${pkgs.bash}/bin/bash|" ./scripts/prepare-flatpak.sh
+            # Replace npm run tauri build with native tauri build
+            sed -i 's|npm run tauri build --|tauri build --|g' ./scripts/prepare-flatpak.sh
             ./scripts/prepare-flatpak.sh
           '';
           installPhase = ''
