@@ -56,7 +56,12 @@
           "type": "dir",
           "path": "../flatpak-source"
         }
-      ]
+      ],
+      "build-options": {
+        "build-args": [
+          "--install-deps", "appstream"
+        ]
+      }
     }
   ]
 }

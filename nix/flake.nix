@@ -2,7 +2,7 @@
   description = "Singularity Mod Manager - Nix Flake";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     rust-overlay.url = "github:oxalica/rust-overlay";
   };
@@ -12,10 +12,10 @@
       let
         overlays = [ (import rust-overlay) ];
         pkgs = import nixpkgs { inherit system overlays; };
-        nodejs = pkgs.nodejs_20;
+        nodejs = pkgs.nodejs_24;
         rust = pkgs.rust-bin.stable.latest.default;
         tauri-deps = with pkgs; [
-          webkitgtk gtk3 librsvg gdk-pixbuf atk cairo pango gobject-introspection glib dbus openssl pkg-config alsa-lib
+          webkitgtk_4_1 gtk3 librsvg gdk-pixbuf atk cairo pango gobject-introspection glib dbus openssl pkg-config alsa-lib
           libappindicator-gtk3 libayatana-appindicator libxkbcommon
           xorg.libXrandr xorg.libX11 xorg.libXcomposite xorg.libXdamage xorg.libXfixes xorg.libXext xorg.libXrender xorg.libxcb xorg.libXinerama xorg.libXi xorg.libXtst xorg.libXScrnSaver xorg.libxshmfence xorg.libXau xorg.libXdmcp libdrm
           mesa at-spi2-atk at-spi2-core nss nspr cups expat zlib libsecret libdbusmenu-gtk3 libnotify
@@ -48,11 +48,7 @@
         packages.singularitymm = pkgs.stdenv.mkDerivation {
           pname = "singularitymm";
           version = "dev";
-          src = builtins.filterSource (path: type:
-            baseNameOf path == "scripts/prepare-flatpak.sh" ||
-            type == "directory" ||
-            baseNameOf path != ".git"
-          ) (toString ../.);
+          src = ../.;
           buildInputs = [ nodejs rust ] ++ tauri-deps;
           buildPhase = ''
             npm install
