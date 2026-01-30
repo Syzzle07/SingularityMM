@@ -49,6 +49,7 @@ jobs:
           # Clean previous build artifacts
           echo "Cleaning previous build artifacts..."
           rm -rf flatpak-build flatpak-repo .flatpak-builder portable-package flatpak-source
+          mkdir -p flatpak-build flatpak-repo portable-package/bin flatpak-source
           scripts/build-binary.sh
 
           # Copy the binary
