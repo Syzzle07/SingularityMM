@@ -9,19 +9,21 @@
   "bundle": {
     "createUpdaterArtifacts": true,
     "active": true,
-    "resources": ["locales/*"],
+    "resources": [
+      "locales/*"
+    ],
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",
       "icons/128x128@2x.png",
       "icons/icon.ico"
     ],
-    "targets": ["appimage", "deb", "rpm"]
+    "targets": "all"
   },
   "productName": "Singularity",
   "mainBinaryName": "Singularity",
-  "version": "2.2.8",
-  "identifier": "com.syzzle.Singularity",
+  "version": "2.2.7",
+  "identifier": "com.syzzle.singularity",
   "plugins": {
     "updater": {
       "active": true,
@@ -29,7 +31,7 @@
         "https://gist.githubusercontent.com/Syzzle07/9d29be1615e75e9206520811047be899/raw/latest.json"
       ],
       "dialog": true,
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDIyOTA2OEUxRUVGMzk1NDYKUldSR2xmUHU0V2lRSWxsdDFNa1A2RmROZEZOSzRlMDZTVkNXRDlZaVBNa0lyYmE4cGRJSHZjZTQK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEExMTI1QzA4RDdGNkJCM0EKUldRNnUvYlhDRndTb2IrbDg0bmVjV3BkV2ZXWGFjdGFCTndvK1dVY2hyQjI0S09UMU02enp0bU8K",
       "windows": {
         "installMode": "passive"
       }
@@ -52,8 +54,10 @@
       }
     ],
     "security": {
-      "capabilities": ["default"],
-      "csp": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https:; connect-src * ws: wss: https: http:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; img-src 'self' data: https: http:; font-src 'self' data: https:;"
+      "capabilities": [
+        "default"
+      ],
+      "csp": null
     }
   }
 }

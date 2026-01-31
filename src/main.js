@@ -13,8 +13,6 @@ import iconSteam from './assets/icon-steam.png';
 import iconGog from './assets/icon-gog.png';
 import iconXbox from './assets/icon-xbox.png';
 import iconNexus from './assets/icon-nexus.png';
-import iconMaximize from './assets/icon-maximize.png';
-import iconRestore from './assets/icon-restore.png';
 
 // Get the window instance for listener attachment
 const appWindow = getCurrentWindow();
@@ -23,7 +21,6 @@ const appWindow = getCurrentWindow();
 let NEXUS_API_KEY = "";
 const CURATED_LIST_URL = "https://raw.githubusercontent.com/Syzzle07/SingularityMM/refs/heads/data/curated/curated_list.json";
 let curatedData = [];
-let curatedDataPromise = null;
 let downloadHistory = [];
 const nexusFileCache = new Map();
 
@@ -32,30 +29,6 @@ const PANEL_OPEN_WIDTH = 1300;
 let isPanelOpen = false;
 const SCROLL_SPEED = 5;
 const CACHE_DURATION_MS = 60 * 60 * 1000;
-
-// Function to load images through Tauri HTTP command
-async function loadImageViaTauri(imgElement, url) {
-  try {
-    const response = await invoke('http_request', {
-      url: url,
-      method: 'GET',
-      headers: {}
-    });
-
-    if (response.status >= 200 && response.status < 300) {
-      // The response body is base64 encoded for images
-      const contentType = response.headers['content-type'] || 'image/jpeg';
-      const dataURL = `data:${contentType};base64,${response.body}`;
-
-      imgElement.src = dataURL;
-    } else {
-      throw new Error(`HTTP ${response.status}`);
-    }
-  } catch (error) {
-    console.warn(`Failed to load image via Tauri: ${url}`, error);
-    imgElement.src = '/src/assets/placeholder.png';
-  }
-}
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -278,22 +251,25 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('focus', async () => {
     // Only run if we are fully initialized and on the "My Mods" view
     if (appState.activeProfile && !appState.isPopulating && !myModsView.classList.contains('hidden')) {
-      console.log("[FOCUS] App focused. Syncing with disk...");
+
+      console.log("App focused. Syncing with disk...");
+
       try {
         // 1. Call Rust: This cleans the file on disk and returns the correct list
-        console.log("[FOCUS] Calling get_all_mods_for_render from focus handler");
         const cleanList = await invoke('get_all_mods_for_render');
+
         // 2. Reload the in-memory XML from the disk
-        console.log("[FOCUS] Received cleanList from get_all_mods_for_render, length:", cleanList.length);
         if (appState.currentFilePath) {
           const freshContent = await readTextFile(appState.currentFilePath);
           appState.xmlDoc = new DOMParser().parseFromString(freshContent, "application/xml");
         }
+
         // 3. Update the UI with the clean list
-        console.log("[FOCUS] Calling renderModList with cleanList");
         await renderModList(cleanList);
+
         // 4. Update Profile JSON to match the new reality
         await saveCurrentProfile();
+
         // 5. Sync Download History visuals if the modal happens to be open
         if (!downloadHistoryModalOverlay.classList.contains('hidden')) {
           await syncDownloadHistoryWithProfile(appState.activeProfile);
@@ -491,23 +467,17 @@ document.addEventListener('DOMContentLoaded', () => {
       try {
         // 1. Load English Base
         const enPath = await resolveResource(`locales/en.json`);
-        console.log('[i18n] Resolved en.json path:', enPath);
         const enContent = await readTextFile(enPath);
-        console.log('[i18n] en.json content:', enContent.slice(0, 200));
         const enData = JSON.parse(enContent);
 
         if (lang === 'en') {
           appState.currentTranslations = enData;
-          console.log('[i18n] Set currentTranslations to enData:', Object.keys(enData));
         } else {
           // 2. Load Target & Merge
           const resourcePath = await resolveResource(`locales/${lang}.json`);
-          console.log(`[i18n] Resolved ${lang}.json path:`, resourcePath);
           const content = await readTextFile(resourcePath);
-          console.log(`[i18n] ${lang}.json content:`, content.slice(0, 200));
           const targetData = JSON.parse(content);
           appState.currentTranslations = { ...enData, ...targetData };
-          console.log(`[i18n] Set currentTranslations to merged en+${lang}:`, Object.keys(appState.currentTranslations));
         }
 
         localStorage.setItem('selectedLanguage', lang);
@@ -516,7 +486,7 @@ document.addEventListener('DOMContentLoaded', () => {
         this.updateUI();
 
       } catch (e) {
-        console.error(`[i18n] Failed to load language file for ${lang}`, e);
+        console.error(`Failed to load language file for ${lang}`, e);
         if (lang !== 'en') await this.loadLanguage('en');
       }
     },
@@ -576,13 +546,7 @@ document.addEventListener('DOMContentLoaded', () => {
       this.adjustBannerWidths();
     },
     get(key, placeholders = {}) {
-      const value = appState.currentTranslations[key];
-      if (typeof value === 'undefined') {
-        console.warn(`[i18n.get] Missing translation for key: '${key}'`);
-      } else {
-        console.log(`[i18n.get] Key: '${key}', Value: '${value}'`);
-      }
-      let text = value || key;
+      let text = appState.currentTranslations[key] || key;
       for (const [placeholder, value] of Object.entries(placeholders)) {
         text = text.replace(`{{${placeholder}}}`, value);
       }
@@ -669,11 +633,7 @@ document.addEventListener('DOMContentLoaded', () => {
         headers['If-None-Match'] = cachedObj.etag;
       }
 
-      const response = await invoke('http_request', {
-        url: CURATED_LIST_URL,
-        method: 'GET',
-        headers: headers
-      });
+      const response = await fetch(CURATED_LIST_URL, { headers });
 
       // CASE A: 304 NOT MODIFIED (Server says: "You have the latest version")
       if (response.status === 304 && cachedObj) {
@@ -685,12 +645,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // CASE B: 200 OK (Server sent new data)
-      if (response.status < 200 || response.status >= 300) {
-        throw new Error(`Could not fetch remote curated list. Status: ${response.status} ${response.status_text}`);
-      }
+      if (!response.ok) throw new Error("Could not fetch remote curated list.");
 
-      const freshData = JSON.parse(response.body);
-      const newEtag = response.headers['etag']; // Get the new ETag
+      const freshData = await response.json();
+      const newEtag = response.headers.get('etag'); // Get the new ETag
 
       curatedData = freshData;
       console.log(`Successfully loaded ${curatedData.length} mods from network.`);
@@ -723,16 +681,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const headers = { "apikey": NEXUS_API_KEY };
-      const response = await invoke('http_request', {
-        url: "https://api.nexusmods.com/v1/users/validate.json",
-        method: 'GET',
-        headers: headers
-      });
+      const response = await fetch("https://api.nexusmods.com/v1/users/validate.json", { headers });
 
-      if (response.status >= 200 && response.status < 300) {
-        console.log("DEBUG: Nexus API response is OK, parsing JSON...");
-        const userData = JSON.parse(response.body);
-        console.log("DEBUG: User data received, username:", userData.name);
+      if (response.ok) {
+        const userData = await response.json();
 
         appState.nexusUsername = userData.name;
 
@@ -775,9 +727,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 1. START TASKS IN PARALLEL ---
 
     // Network Tasks (Background - Don't await immediately)
-    // Note: validateLoginState() is deferred until after translations load,
-    // because it calls i18n.get() which needs currentTranslations to be populated.
-    curatedDataPromise = fetchCuratedData();
+    const loginPromise = validateLoginState();
+    const curatedDataPromise = fetchCuratedData();
 
     // Local I/O Tasks (Critical - Await group)
     const langPromise = i18n.loadLanguage(savedLang);
@@ -792,9 +743,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 2. AWAIT CRITICAL SETUP ---
     // We block UI rendering only for these essentials
     await Promise.all([langPromise, historyPromise, migrationPromise]);
-
-    // Start login validation after translations are loaded (uses i18n.get())
-    const loginPromise = validateLoginState();
 
     // --- 3. INITIALIZE UI COMPONENTS ---
 
@@ -860,30 +808,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (hasGamePath && appState.settingsPath) {
       try {
         const settingsFilePath = await join(appState.settingsPath, 'Binaries', 'SETTINGS', 'GCMODSETTINGS.MXML');
-        console.log('[AutoLoad] Attempting to read settings file at:', settingsFilePath);
-        if (!settingsFilePath) {
-          window.addAppLog('[AutoLoad][ERROR] settingsFilePath is undefined/null!', 'ERROR');
-          filePathLabel.textContent = '[AutoLoad][ERROR] settingsFilePath is undefined/null!';
-        }
         const content = await readTextFile(settingsFilePath);
-        if (!content || content.length < 10) {
-          window.addAppLog(`[AutoLoad][ERROR] Settings file at ${settingsFilePath} is empty or too short!`, 'ERROR');
-          filePathLabel.textContent = `[AutoLoad][ERROR] Settings file at ${settingsFilePath} is empty or too short!`;
-        } else {
-          console.log('[AutoLoad] Successfully read settings file, first 200 chars:', content.slice(0, 200));
-          await loadXmlContent(content, settingsFilePath);
-          console.log('[AutoLoad] loadXmlContent completed for:', settingsFilePath);
-          window.addAppLog(`[AutoLoad] Successfully loaded and parsed settings file: ${settingsFilePath}`, 'INFO');
-        }
+        await loadXmlContent(content, settingsFilePath);
       } catch (e) {
-        window.addAppLog(`[AutoLoad][ERROR] Could not auto-load settings file: ${e}`, 'ERROR');
-        filePathLabel.textContent = `[AutoLoad][ERROR] Could not auto-load settings file: ${e}`;
-        console.warn('[AutoLoad] Could not auto-load settings file.', e);
+        console.warn("Could not auto-load settings file.", e);
       }
-    } else {
-      window.addAppLog(`[AutoLoad][DEBUG] Skipped auto-load: hasGamePath=${hasGamePath}, settingsPath=${appState.settingsPath}`, 'DEBUG');
-      if (!hasGamePath) filePathLabel.textContent = '[AutoLoad][DEBUG] No game path detected.';
-      else if (!appState.settingsPath) filePathLabel.textContent = '[AutoLoad][DEBUG] No settings path detected.';
     }
 
     // --- 6. SETUP LISTENERS ---
@@ -986,43 +915,31 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const loadXmlContent = async (content, path) => {
-    try {
-      console.log('[loadXmlContent] Called with path:', path);
-      appState.currentFilePath = path;
-      const fileNameWithExt = await basename(appState.currentFilePath);
-      const fileNameWithoutExt = fileNameWithExt.slice(0, fileNameWithExt.lastIndexOf('.'));
-      filePathLabel.textContent = i18n.get('editingFile', { fileName: fileNameWithoutExt });
-      appState.xmlDoc = new DOMParser().parseFromString(content, "application/xml");
-      console.log('[loadXmlContent] XML parsed, root node:', appState.xmlDoc.documentElement.nodeName);
-      await renderModList();
-      console.log('[loadXmlContent] renderModList completed');
-    } catch (e) {
-      console.error('[loadXmlContent] Error:', e);
-    }
+    appState.currentFilePath = path;
+    const fileNameWithExt = await basename(appState.currentFilePath);
+    const fileNameWithoutExt = fileNameWithExt.slice(0, fileNameWithExt.lastIndexOf('.'));
+    filePathLabel.textContent = i18n.get('editingFile', { fileName: fileNameWithoutExt });
+    appState.xmlDoc = new DOMParser().parseFromString(content, "application/xml");
+    await renderModList();
   };
 
   const renderModList = async (directData = null) => {
     if (!directData && !appState.xmlDoc) return;
-    console.log('[renderModList] Called. directData:', !!directData);
+
     const scrollPos = modListContainer.scrollTop;
     appState.isPopulating = true;
     modListContainer.innerHTML = '';
     appState.installedModsMap.clear();
+
     const suppressUntracked = localStorage.getItem('suppressUntrackedWarning') === 'true';
+
     const disableAllNode = appState.xmlDoc.querySelector('Property[name="DisableAllMods"]');
     if (disableAllNode) {
       disableAllSwitch.checked = disableAllNode.getAttribute('value').toLowerCase() === 'true';
       disableAllSwitch.disabled = false;
     }
-    let modsToRender;
-    if (directData) {
-      console.log('[renderModList] Using directData, length:', directData.length);
-      modsToRender = directData;
-    } else {
-      console.log('[renderModList] Calling get_all_mods_for_render from renderModList');
-      modsToRender = await invoke('get_all_mods_for_render');
-      console.log('[renderModList] Received modsToRender from get_all_mods_for_render, length:', modsToRender.length);
-    }
+
+    const modsToRender = directData ? directData : await invoke('get_all_mods_for_render');
 
     appState.modDataCache.clear();
     modsToRender.forEach(modData => {
@@ -1384,7 +1301,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Matches: "v" followed by digits, or space/dash followed by digits
     clean = clean.replace(/[- _]?v?\d+(\.\d+)*[a-z]?/gi, '');
 
-    // FINAL SWEEP: Keep ONLY letters (a-z).
+    // FINAL SWEEP: Keep ONLY letters (a-z). 
     clean = clean.replace(/[^a-z]/g, '');
 
     return clean;
@@ -1696,7 +1613,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 else break;
               }
 
-              // Prefer higher score.
+              // Prefer higher score. 
               if (score > bestMatchScore) {
                 bestMatchScore = score;
                 bestMatch = fName;
@@ -2522,16 +2439,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const headers = { "apikey": NEXUS_API_KEY };
     try {
-      const response = await invoke('http_request', {
-        url: url,
-        method: 'GET',
-        headers: headers
-      });
-      if (response.status < 200 || response.status >= 300) {
-        console.error(`API Error ${response.status}:`, response.body);
+      const response = await fetch(url, { headers });
+      if (!response.ok) {
+        console.error(`API Error ${response.status}:`, await response.text());
         return null;
       }
-      const data = JSON.parse(response.body);
+      const data = await response.json();
       return data[0]?.URI;
     } catch (error) {
       console.error(`Failed to get download URL for mod ${modId}:`, error);
@@ -2547,13 +2460,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const url = `https://api.nexusmods.com/v1/games/nomanssky/mods/${modIdStr}/files.json`;
     const headers = { "apikey": NEXUS_API_KEY };
     try {
-      const response = await invoke('http_request', {
-        url: url,
-        method: 'GET',
-        headers: headers
-      });
-      if (response.status < 200 || response.status >= 300) return null;
-      const data = JSON.parse(response.body);
+      const response = await fetch(url, { headers });
+      if (!response.ok) return null;
+      const data = await response.json();
       nexusFileCache.set(modIdStr, data);
       return data;
     } catch (error) {
@@ -2847,16 +2756,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const titleElement = card.querySelector('.mod-card-title');
 
-      const thumbnailImg = card.querySelector('.mod-card-thumbnail');
-      const imageUrl = modData.picture_url || '/src/assets/placeholder.png';
-
-      // Load images through Tauri HTTP command to bypass WebKit restrictions
-      if (imageUrl && imageUrl.startsWith('http')) {
-        loadImageViaTauri(thumbnailImg, imageUrl);
-      } else {
-        thumbnailImg.src = imageUrl;
-      }
-
+      card.querySelector('.mod-card-thumbnail').src = modData.picture_url || '/src/assets/placeholder.png';
       titleElement.title = modData.name;
 
       const versionSpan = `<span class="mod-card-version-inline">${modData.version || ''}</span>`;
@@ -2884,16 +2784,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function openModDetailPanel(modData) {
     modDetailName.textContent = modData.name;
     modDetailName.dataset.modId = modData.mod_id;
-
-    const imageUrl = modData.picture_url || '/src/assets/placeholder.png';
-
-    // Load images through Tauri HTTP command for external URLs
-    if (imageUrl && imageUrl.startsWith('http')) {
-      loadImageViaTauri(modDetailImage, imageUrl);
-    } else {
-      modDetailImage.src = imageUrl;
-    }
-
+    modDetailImage.src = modData.picture_url || '/src/assets/placeholder.png';
     modDetailDescription.innerHTML = bbcodeToHtml(modData.description) || '<p>No description available.</p>';
     modDetailAuthor.textContent = modData.author || 'Unknown';
     modDetailVersion.textContent = modData.version || '?.?';
@@ -2962,7 +2853,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const currentSize = await appWindow.innerSize();
         await appWindow.setSize(new LogicalSize(PANEL_OPEN_WIDTH, currentSize.height));
       } else {
-        // If screen is too small, DO NOT resize window.
+        // If screen is small (Steam Deck: 1280px), DO NOT resize window.
         isPanelOpen = false;
       }
     }
@@ -3189,25 +3080,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Event Listeners ---
 
   customCloseBtn.addEventListener('click', () => appWindow.close());
-
-  document.getElementById('minimizeBtn').addEventListener('click', () => appWindow.minimize());
-  document.getElementById('maximizeBtn').addEventListener('click', async () => {
-    if (await appWindow.isMaximized()) {
-      await appWindow.unmaximize();
-    } else {
-      await appWindow.maximize();
-    }
-  });
-
-  const maximizeBtnImg = document.getElementById('maximizeBtn');
-  const updateMaximizeIcon = async () => {
-    const isMax = await appWindow.isMaximized();
-    maximizeBtnImg.src = isMax ? iconRestore : iconMaximize;
-    maximizeBtnImg.alt = isMax ? 'Restore' : 'Maximize';
-    maximizeBtnImg.title = isMax ? 'Restore' : 'Maximize';
-  };
-  updateMaximizeIcon();
-  appWindow.onResized(updateMaximizeIcon);
 
   const removeContextMenu = () => {
     if (contextMenu) {
@@ -4713,15 +4585,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const installedList = await invoke('get_profile_mod_list', { profileName: appState.activeProfile });
     }
 
-    // 2. Wait for curated data to finish loading if it hasn't already
-    if (curatedDataPromise) {
-      await curatedDataPromise;
-    }
-
     if (browseGridContainer.childElementCount === 0) {
       fetchAndRenderBrowseGrid();
     } else {
-      // 3. Refresh the badges on existing cards
+      // 2. Refresh the badges on existing cards
       refreshBrowseTabBadges();
     }
   });
@@ -5142,7 +5009,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // 3. Initialize Drag & Drop
       await setupDragAndDrop();
 
-      // 4. Small Screen Height Fix
+      // 4. Steam Deck / Small Screen Height Fix
       const screenHeight = window.screen.availHeight;
       const windowHeight = window.outerHeight;
 
