@@ -1,4 +1,4 @@
-name: Build Linux (Flatpak, AppImage, Tarball)
+name: Build Linux (Flatpak, AppImage, DEB, RPM)
 
 on:
   workflow_dispatch:
@@ -44,141 +44,46 @@ jobs:
       - name: Install Frontend Dependencies
         run: npm install
 
-      - name: Build Tauri Binary
+      - name: Build Tauri App
         run: |
-          # Clean previous build artifacts
-          echo "Cleaning previous build artifacts..."
-          rm -rf flatpak-build flatpak-repo .flatpak-builder portable-package flatpak-source
-          mkdir -p flatpak-build flatpak-repo portable-package/{bin,lib} flatpak-source
-          scripts/build-binary.sh
+          rm -rf flatpak-build flatpak-repo .flatpak-builder flatpak-source
+          export PATH="$PATH:$(pwd)/node_modules/.bin"
+          npm run tauri build -- --config '{"bundle":{"createUpdaterArtifacts":false},"plugins":{"updater":{"active":false}}}'
 
-          # Copy the binary
-          echo "Copying Singularity binary..."
-          cp src-tauri/target/release/Singularity portable-package/bin/
-
-          # Analyze and copy dynamic library dependencies
-          echo "Analyzing binary dependencies..."
-          if [[ ! -f portable-package/bin/Singularity ]]; then
-            echo "Error: Binary not found at portable-package/bin/Singularity"
+      - name: Collect Build Artifacts
+        run: |
+          # AppImage
+          APPIMAGE=$(find src-tauri/target/release/bundle/appimage -name '*.AppImage' | head -1)
+          if [[ -z "$APPIMAGE" ]]; then
+            echo "Error: No AppImage found"
             exit 1
           fi
-          ldd portable-package/bin/Singularity | grep "=> /" | awk '{print $3}' | sort -u > all_deps.txt
+          cp "$APPIMAGE" SingularityMM-Linux.AppImage
+          echo "AppImage: $(ls -lh SingularityMM-Linux.AppImage)"
 
-          # Copy dependencies, excluding libraries provided by the target system
-          while read -r lib; do
-            if [[ -f "$lib" && "$lib" != "/lib64/ld-linux-x86-64.so.2" ]]; then
-              libname=$(basename "$lib")
-              # Exclude core system libraries, compiler runtimes, and common runtime libraries
-              if [[ ! "$libname" =~ ^(libc\.so\.|libdl\.so\.|libpthread\.so\.|libm\.so\.|librt\.so\.|libresolv\.so\.|libnss_.*\.so\.|libutil\.so\.|ld-linux.*|libstdc\+\+\.so\.|libgcc_s\.so\.|libgtk-3\.so\.|libgdk-3\.so\.|libgdk_pixbuf-2\.0\.so\.|libglib-2\.0\.so\.|libgobject-2\.0\.so\.|libpango-1\.0\.so\.|libpangocairo-1\.0\.so\.|libpangoft2-1\.0\.so\.|libatk-1\.0\.so\.|libatk-bridge-2\.0\.so\.|libcairo\.so\.|libcairo-gobject\.so\.|libgio-2\.0\.so\.|libmount\.so\.1$|libblkid\.so\.1$|libsystemd\.so\.|libatspi\.so\.|libjson-glib-1.0\.so\.|libgpg-error\.so\.|libgcrypt\.so\.|libwebkit2gtk.*|libjavascriptcoregtk.*|libc\.so.*).*$ ]]; then
-                if [[ ! -f "portable-package/lib/$libname" ]]; then
-                  echo "Copying $lib -> portable-package/lib/$libname"
-                  cp "$lib" "portable-package/lib/$libname" || echo "Failed to copy $lib"
-                fi
-              else
-                echo "Excluding runtime library: $libname"
-              fi
-            fi
-          done < all_deps.txt
-
-          # Remove problematic libraries that conflict with Flatpak runtime
-          rm -f portable-package/lib/libmount.so.1 portable-package/lib/libblkid.so.1
-
-          echo "Total libraries bundled: $(ls -1 portable-package/lib/ 2>/dev/null | wc -l)"
-
-          # Create launcher script for tarball/AppImage
-          cat > portable-package/singularity-mm << 'EOF'
-          #!/bin/bash
-          # Linux compatibility (X11 backend for WebKitGTK)
-          export GDK_BACKEND=x11
-          export EGL_PLATFORM=x11
-          export ATK_ADAPTOR=dbus
-
-          # Get the directory of this script
-          DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-
-          # Add our lib directory to library path
-          export LD_LIBRARY_PATH="$DIR/lib:$LD_LIBRARY_PATH"
-
-          # Run the application
-          exec "$DIR/bin/Singularity" "$@"
-          EOF
-          chmod +x portable-package/singularity-mm
-
-          # Create desktop entry for tarball from template
-          if [[ ! -f flatpak/singularity-mm.desktop.template ]]; then
-            echo "Error: Desktop template not found at flatpak/singularity-mm.desktop.template"
+          # DEB
+          DEB=$(find src-tauri/target/release/bundle/deb -name '*.deb' | head -1)
+          if [[ -z "$DEB" ]]; then
+            echo "Error: No .deb found"
             exit 1
           fi
-          sed \
-            -e 's|^Exec=.*$|Exec=./singularity-mm|' \
-            -e 's|^Icon=.*$|Icon=singularity-mm|' \
-            flatpak/singularity-mm.desktop.template > portable-package/singularity-mm.desktop
+          cp "$DEB" SingularityMM-Linux.deb
+          echo "DEB: $(ls -lh SingularityMM-Linux.deb)"
 
-          echo "Package contents:"
-          find portable-package -type f | sort
-          echo "Total package size: $(du -sh portable-package/)"
-
-      - name: Create Tarball
-        run: |
-          tar -czf SingularityMM-Linux.tar.gz -C portable-package .
-          echo "Created tarball: $(ls -lh SingularityMM-Linux.tar.gz)"
-
-      - name: Download AppImageTool
-        run: |
-          wget -O appimagetool https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
-          chmod +x appimagetool
-
-      - name: Create AppImage
-        run: |
-          # Prepare AppDir structure
-          mkdir -p AppDir/usr/bin AppDir/usr/lib
-
-          # Copy files to AppDir
-          cp -r portable-package/* AppDir/usr/
-
-          # Copy icon from Tauri icons
-          if [[ ! -f src-tauri/icons/128x128.png ]]; then
-            echo "Error: Icon not found at src-tauri/icons/128x128.png"
+          # RPM
+          RPM=$(find src-tauri/target/release/bundle/rpm -name '*.rpm' | head -1)
+          if [[ -z "$RPM" ]]; then
+            echo "Error: No .rpm found"
             exit 1
           fi
-          cp src-tauri/icons/128x128.png AppDir/singularity-mm.png
-
-          # Update launcher script for AppImage
-          cat > AppDir/AppRun << 'EOF'
-          #!/bin/bash
-          # Linux compatibility (X11 backend for WebKitGTK)
-          export GDK_BACKEND=x11
-          export EGL_PLATFORM=x11
-          export ATK_ADAPTOR=dbus
-
-          # AppImage environment
-          HERE="$(dirname "$(readlink -f "${0}")")"
-          export LD_LIBRARY_PATH="$HERE/usr/lib:$LD_LIBRARY_PATH"
-
-          # Run the application
-          exec "$HERE/usr/bin/Singularity" "$@"
-          EOF
-          chmod +x AppDir/AppRun
-
-          # Create proper desktop entry for AppImage from template
-          sed \
-            -e 's|^Exec=.*$|Exec=Singularity|' \
-            -e 's|^Icon=.*$|Icon=singularity-mm|' \
-            flatpak/singularity-mm.desktop.template > AppDir/singularity-mm.desktop
-
-          # Create AppImage
-          ./appimagetool --appimage-extract-and-run AppDir SingularityMM-Linux.AppImage
-          echo "Created AppImage: $(ls -lh SingularityMM-Linux.AppImage)"
+          cp "$RPM" SingularityMM-Linux.rpm
+          echo "RPM: $(ls -lh SingularityMM-Linux.rpm)"
 
       - name: Setup Flatpak
         run: |
-          # Add Flathub repository
           sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-          # Install GNOME runtime and SDK matching the manifest
           sudo flatpak install -y flathub org.gnome.Platform//49 org.gnome.Sdk//49
 
-          # Setup user flatpak for build isolation
           export DCONF_PROFILE=/dev/null
           flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
           flatpak --user install -y flathub org.gnome.Platform//49 org.gnome.Sdk//49
@@ -196,7 +101,7 @@ jobs:
 
       - name: Verify Build Artifacts
         run: |
-          for file in SingularityMM-Linux.tar.gz SingularityMM-Linux.AppImage SingularityMM.flatpak; do
+          for file in SingularityMM-Linux.AppImage SingularityMM-Linux.deb SingularityMM-Linux.rpm SingularityMM.flatpak; do
             if [[ ! -f "$file" ]]; then
               echo "Error: Required artifact missing: $file"
               exit 1
@@ -204,17 +109,23 @@ jobs:
             echo "Found: $file ($(du -h "$file" | cut -f1))"
           done
 
-      - name: Upload Tarball
-        uses: actions/upload-artifact@v4
-        with:
-          name: SingularityMM-Linux-Tarball
-          path: SingularityMM-Linux.tar.gz
-
       - name: Upload AppImage
         uses: actions/upload-artifact@v4
         with:
           name: SingularityMM-Linux-AppImage
           path: SingularityMM-Linux.AppImage
+
+      - name: Upload DEB
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Linux-DEB
+          path: SingularityMM-Linux.deb
+
+      - name: Upload RPM
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Linux-RPM
+          path: SingularityMM-Linux.rpm
 
       - name: Upload Flatpak
         uses: actions/upload-artifact@v4
@@ -239,11 +150,14 @@ jobs:
             ```
             Or use your system's software center (Discover, GNOME Software, etc.)
 
-            **Tarball** (Portable):
+            **DEB** (Debian/Ubuntu):
             ```bash
-            tar -xzf SingularityMM-Linux.tar.gz
-            cd singularity
-            ./singularity-mm
+            sudo dpkg -i SingularityMM-Linux.deb
+            ```
+
+            **RPM** (Fedora/openSUSE):
+            ```bash
+            sudo rpm -i SingularityMM-Linux.rpm
             ```
 
             **AppImage** (Portable):
@@ -258,8 +172,9 @@ jobs:
             - Bundled dependencies for maximum compatibility
             - Automatic environment configuration
           files: |
-            SingularityMM-Linux.tar.gz
             SingularityMM-Linux.AppImage
+            SingularityMM-Linux.deb
+            SingularityMM-Linux.rpm
             SingularityMM.flatpak
           draft: false
           prerelease: false

@@ -37,7 +37,7 @@
           cargoRoot = "src-tauri";
           buildAndTestSubdir = "src-tauri";
           tauriBuildFlags = [ "--config" src-tauri/tauri.conf.json ];
-          tauriBundleType = "appimage"; # Don't need deb or rpm
+          tauriBundleType = null; # Build all targets from tauri.conf.json
         });
 
         # Use `nix run .#flatpakBundle` to build the flatpak bundle.
