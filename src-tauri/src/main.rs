@@ -2253,7 +2253,25 @@ fn launch_game(version_type: String, game_path: String) -> Result<(), String> {
     match version_type.as_str() {
         "Steam" => {
             // Launch via Steam Protocol to ensure overlay/logging works
-            open::that("steam://run/275850").map_err(|e| e.to_string())?;
+            #[cfg(target_os = "linux")]
+            {
+                let is_flatpak = std::env::var("FLATPAK_ID").is_ok()
+                    || std::env::var("SINGULARITY_FLATPAK").is_ok();
+                if is_flatpak {
+                    // xdg-open can't handle steam:// URIs inside the Flatpak sandbox,
+                    // so delegate to the host system via flatpak-spawn
+                    std::process::Command::new("flatpak-spawn")
+                        .args(["--host", "xdg-open", "steam://run/275850"])
+                        .spawn()
+                        .map_err(|e| format!("Failed to launch via flatpak-spawn: {}", e))?;
+                } else {
+                    open::that("steam://run/275850").map_err(|e| e.to_string())?;
+                }
+            }
+            #[cfg(not(target_os = "linux"))]
+            {
+                open::that("steam://run/275850").map_err(|e| e.to_string())?;
+            }
         }
         "GOG" | "GamePass" | _ => {
             // For GOG and GamePass, we try to launch the Binary directly
