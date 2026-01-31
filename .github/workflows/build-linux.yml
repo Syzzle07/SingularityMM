@@ -1,11 +1,15 @@
-name: Build Linux Manual
+name: Build Linux (Flatpak, AppImage, DEB, RPM)
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build-linux:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
 
@@ -15,15 +19,19 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libwebkit2gtk-4.1-dev \
-          build-essential \
-          curl \
-          wget \
-          file \
-          libssl-dev \
-          libgtk-3-dev \
-          libayatana-appindicator3-dev \
-          librsvg2-dev
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            build-essential \
+            curl \
+            wget \
+            file \
+            libssl-dev \
+            libgtk-3-dev \
+            libayatana-appindicator3-dev \
+            librsvg2-dev \
+            patchelf \
+            flatpak \
+            flatpak-builder
 
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
@@ -31,19 +39,144 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install Frontend Dependencies
         run: npm install
 
-      - name: Build Singularity
-        uses: tauri-apps/tauri-action@v0
+      - name: Build Tauri App
+        run: |
+          rm -rf flatpak-build flatpak-repo .flatpak-builder flatpak-source
+          export PATH="$PATH:$(pwd)/node_modules/.bin"
+          npm run tauri build -- --config '{"bundle":{"createUpdaterArtifacts":false},"plugins":{"updater":{"active":false}}}'
+
+      - name: Collect Build Artifacts
+        run: |
+          # AppImage
+          APPIMAGE=$(find src-tauri/target/release/bundle/appimage -name '*.AppImage' | head -1)
+          if [[ -z "$APPIMAGE" ]]; then
+            echo "Error: No AppImage found"
+            exit 1
+          fi
+          cp "$APPIMAGE" SingularityMM-Linux.AppImage
+          echo "AppImage: $(ls -lh SingularityMM-Linux.AppImage)"
+
+          # DEB
+          DEB=$(find src-tauri/target/release/bundle/deb -name '*.deb' | head -1)
+          if [[ -z "$DEB" ]]; then
+            echo "Error: No .deb found"
+            exit 1
+          fi
+          cp "$DEB" SingularityMM-Linux.deb
+          echo "DEB: $(ls -lh SingularityMM-Linux.deb)"
+
+          # RPM
+          RPM=$(find src-tauri/target/release/bundle/rpm -name '*.rpm' | head -1)
+          if [[ -z "$RPM" ]]; then
+            echo "Error: No .rpm found"
+            exit 1
+          fi
+          cp "$RPM" SingularityMM-Linux.rpm
+          echo "RPM: $(ls -lh SingularityMM-Linux.rpm)"
+
+      - name: Setup Flatpak
+        run: |
+          sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          sudo flatpak install -y flathub org.gnome.Platform//49 org.gnome.Sdk//49
+
+          export DCONF_PROFILE=/dev/null
+          flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          flatpak --user install -y flathub org.gnome.Platform//49 org.gnome.Sdk//49
+
+      - name: Prepare Flatpak Source
+        run: |
+          scripts/flatpak/copy-resources.sh
+
+      - name: Build Flatpak
+        run: |
+          scripts/flatpak/build-flatpak.sh
+
+          echo "Flatpak build complete!"
+          ls -lh SingularityMM.flatpak
+
+      - name: Verify Build Artifacts
+        run: |
+          for file in SingularityMM-Linux.AppImage SingularityMM-Linux.deb SingularityMM-Linux.rpm SingularityMM.flatpak; do
+            if [[ ! -f "$file" ]]; then
+              echo "Error: Required artifact missing: $file"
+              exit 1
+            fi
+            echo "Found: $file ($(du -h "$file" | cut -f1))"
+          done
+
+      - name: Upload AppImage
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Linux-AppImage
+          path: SingularityMM-Linux.AppImage
+
+      - name: Upload DEB
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Linux-DEB
+          path: SingularityMM-Linux.deb
+
+      - name: Upload RPM
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Linux-RPM
+          path: SingularityMM-Linux.rpm
+
+      - name: Upload Flatpak
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Flatpak
+          path: SingularityMM.flatpak
+
+      - name: Create Release (on push to main)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: "linux-${{ github.run_number }}"
+          name: "Linux Build #${{ github.run_number }}"
+          body: |
+            Linux builds for desktop Linux systems and Steam Deck.
+
+            **Installation Options:**
+
+            **Flatpak** (Recommended):
+            ```bash
+            flatpak install SingularityMM.flatpak
+            ```
+            Or use your system's software center (Discover, GNOME Software, etc.)
+
+            **DEB** (Debian/Ubuntu):
+            ```bash
+            sudo dpkg -i SingularityMM-Linux.deb
+            ```
+
+            **RPM** (Fedora/openSUSE):
+            ```bash
+            sudo rpm -i SingularityMM-Linux.rpm
+            ```
+
+            **AppImage** (Portable):
+            ```bash
+            chmod +x SingularityMM-Linux.AppImage
+            ./SingularityMM-Linux.AppImage
+            ```
+
+            **Features:**
+            - Linux and Steam Deck compatible
+            - X11 and Wayland support via WebKitGTK
+            - Bundled dependencies for maximum compatibility
+            - Automatic environment configuration
+          files: |
+            SingularityMM-Linux.AppImage
+            SingularityMM-Linux.deb
+            SingularityMM-Linux.rpm
+            SingularityMM.flatpak
+          draft: false
+          prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tagName: "linux-build-${{ github.run_number }}"
-          releaseName: "Linux Build #${{ github.run_number }}"
-          releaseBody: "Automated Linux Build"
-          releaseDraft: true
-          prerelease: false
-          args: --target x86_64-unknown-linux-gnu
