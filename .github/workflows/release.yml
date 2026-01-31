@@ -1,6 +1,5 @@
 name: Singularity Release
 
-# Trigger the workflow when you push a tag (e.g., v1.0.0)
 on:
   push:
     tags:
@@ -16,30 +15,34 @@ jobs:
         include:
           # WINDOWS BUILD
           - platform: "windows-latest"
-            args: "" # Default builds .msi/.exe + updater files
+            args: ""
 
           # LINUX BUILD
-          - platform: "ubuntu-22.04"
-            args: "" # Default builds .deb/.AppImage + updater files
+          - platform: "ubuntu-latest"
+            args: ""
 
     runs-on: ${{ matrix.platform }}
     steps:
       - uses: actions/checkout@v4
 
-      # --- LINUX DEPENDENCIES (Only runs on Ubuntu) ---
+      # --- LINUX DEPENDENCIES ---
       - name: Install Linux dependencies
-        if: matrix.platform == 'ubuntu-22.04'
+        if: matrix.platform == 'ubuntu-latest'
         run: |
           sudo apt-get update
-          sudo apt-get install -y libwebkit2gtk-4.1-dev \
-          build-essential \
-          curl \
-          wget \
-          file \
-          libssl-dev \
-          libgtk-3-dev \
-          libayatana-appindicator3-dev \
-          librsvg2-dev
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            build-essential \
+            curl \
+            wget \
+            file \
+            libssl-dev \
+            libgtk-3-dev \
+            libayatana-appindicator3-dev \
+            librsvg2-dev \
+            patchelf \
+            flatpak \
+            flatpak-builder
 
       # --- RUST SETUP ---
       - name: Install Rust
@@ -51,12 +54,12 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install Frontend Dependencies
         run: npm install
 
-      # --- BUILD, SIGN, AND UPLOAD ---
+      # --- MAIN BUILD, SIGN, AND UPLOAD ---
       - name: Build and Release
         uses: tauri-apps/tauri-action@v0
         env:
@@ -70,7 +73,10 @@ jobs:
           releaseDraft: true
           prerelease: false
 
-      # --- RENAME AND UPLOAD PORTABLE ---
+      # =========================================================
+      # WINDOWS SPECIFIC STEPS
+      # =========================================================
+
       - name: Rename and Upload Portable (Windows)
         if: matrix.platform == 'windows-latest'
         run: |
@@ -79,10 +85,9 @@ jobs:
 
           # Rename the raw file to include "Portable"
           mv Singularity.exe Singularity_Portable_${{ github.ref_name }}.exe
-
         shell: bash
 
-      - name: Upload Portable Asset
+      - name: Upload Portable Asset (Windows)
         if: matrix.platform == 'windows-latest'
         uses: softprops/action-gh-release@v1
         with:
@@ -90,3 +95,41 @@ jobs:
           draft: true
           prerelease: false
           files: src-tauri/target/release/Singularity_Portable_${{ github.ref_name }}.exe
+
+      # =========================================================
+      # LINUX SPECIFIC STEPS
+      # =========================================================
+
+      - name: Setup Flatpak Environment
+        if: matrix.platform == 'ubuntu-latest'
+        run: |
+          sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          sudo flatpak install -y flathub org.gnome.Platform//49 org.gnome.Sdk//49
+
+          export DCONF_PROFILE=/dev/null
+          flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          flatpak --user install -y flathub org.gnome.Platform//49 org.gnome.Sdk//49
+
+      - name: Prepare Flatpak Resources
+        if: matrix.platform == 'ubuntu-latest'
+        run: |
+          chmod +x scripts/flatpak/copy-resources.sh
+          scripts/flatpak/copy-resources.sh
+
+      - name: Build Flatpak
+        if: matrix.platform == 'ubuntu-latest'
+        run: |
+          chmod +x scripts/flatpak/build-flatpak.sh
+          scripts/flatpak/build-flatpak.sh
+
+          # List to verify it exists
+          ls -lh SingularityMM.flatpak
+
+      - name: Upload Flatpak Asset
+        if: matrix.platform == 'ubuntu-latest'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          draft: true
+          prerelease: false
+          files: SingularityMM.flatpak
