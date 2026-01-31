@@ -40,12 +40,6 @@
   },
   "modules": [
     {
-      "name": "appstream",
-      "buildsystem": "simple",
-      "build-commands": [],
-      "sources": [{ "type": "package", "package": "appstream" }]
-    },
-    {
       "name": "singularity",
       "buildsystem": "simple",
       "build-commands": [
