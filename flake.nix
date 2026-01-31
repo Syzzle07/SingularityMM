@@ -40,33 +40,77 @@
           tauriBundleType = "appimage"; # Don't need deb or rpm
         });
 
-        packages.flatpakBundle = pkgs.stdenv.mkDerivation {
-          pname = "singularitymm-flatpak";
-          version = version;
-          src = ./.;
-          buildInputs = [ pkgs.flatpak pkgs.flatpak-builder pkgs.bash pkgs.coreutils pkgs.gawk pkgs.findutils pkgs.gnused pkgs.gnutar pkgs.gzip pkgs.jq pkgs.which ];
-          nativeBuildInputs = [ ];
-          unpackPhase = ":";
-          buildPhase = ''
+        # Use `nix run .#flatpakBundle` to build the flatpak bundle.
+        # This runs outside the sandbox since flatpak-builder needs network
+        # access and system flatpak runtimes.
+        packages.flatpakBundle = let
+          builtPackage = self.packages.${system}.default;
+        in pkgs.writeShellApplication {
+          name = "build-flatpak-bundle";
+          runtimeInputs = [
+            pkgs.flatpak
+            pkgs.flatpak-builder
+            pkgs.coreutils
+            pkgs.gawk
+            pkgs.findutils
+            pkgs.gnused
+            pkgs.gnutar
+            pkgs.gzip
+            pkgs.jq
+            pkgs.which
+          ];
+          text = ''
             set -e
-            export PATH=$PATH:${pkgs.coreutils}/bin:${pkgs.gnused}/bin:${pkgs.gawk}/bin:${pkgs.findutils}/bin:${pkgs.gnutar}/bin:${pkgs.gzip}/bin:${pkgs.jq}/bin:${pkgs.which}/bin
+            REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+            cd "$REPO_ROOT"
 
-            # Clean previous build artifacts
             echo "Cleaning previous build artifacts..."
             rm -rf flatpak-build flatpak-repo .flatpak-builder flatpak-source
 
-            # 1. Build the Tauri project (Rust binary + resources)
-            ./scripts/flatpak/build-binary.sh
+            # Prepare flatpak-source directory
+            mkdir -p flatpak-source
 
-            # 2. Prepare flatpak-source directory and copy all resources
-            ./scripts/flatpak/copy-resources.sh
+            # Copy binary from Nix-built package
+            cp "${builtPackage}/bin/Singularity" flatpak-source/Singularity
+            chmod +x flatpak-source/Singularity
 
-            # 3. Build the Flatpak bundle
-            ./scripts/flatpak/build-flatpak.sh
-          '';
-          installPhase = ''
-            mkdir -p $out
-            cp SingularityMM.flatpak $out/
+            # Copy icon
+            if [ -f src-tauri/icons/128x128.png ]; then
+              cp src-tauri/icons/128x128.png flatpak-source/singularity.png
+            fi
+
+            # Copy metainfo.xml
+            cp flatpak/com.syzzle.Singularity.metainfo.xml flatpak-source/singularity.metainfo.xml
+
+            # Copy screenshots
+            mkdir -p flatpak-source/screenshots
+            cp screenshots/Screenshot*.png flatpak-source/screenshots/ 2>/dev/null || true
+
+            # Copy wrapper script
+            cp flatpak/singularity-wrapper flatpak-source/singularity-wrapper
+            chmod +x flatpak-source/singularity-wrapper
+
+            # Copy desktop file
+            cp flatpak/singularity-mm.desktop.template flatpak-source/singularity.desktop
+
+            # Ensure required Flatpak runtimes are installed
+            REQUIRED_SDK="org.gnome.Sdk//49"
+            REQUIRED_PLATFORM="org.gnome.Platform//49"
+
+            if ! flatpak info $REQUIRED_SDK > /dev/null 2>&1; then
+              echo "Flatpak runtime $REQUIRED_SDK not found. Installing from flathub..."
+              flatpak install -y flathub $REQUIRED_SDK
+            fi
+            if ! flatpak info $REQUIRED_PLATFORM > /dev/null 2>&1; then
+              echo "Flatpak platform $REQUIRED_PLATFORM not found. Installing from flathub..."
+              flatpak install -y flathub $REQUIRED_PLATFORM
+            fi
+
+            echo "Running flatpak-builder..."
+            flatpak-builder --repo=flatpak-repo --force-clean flatpak-build flatpak/com.syzzle.Singularity.json
+            echo "Creating Flatpak bundle..."
+            flatpak build-bundle flatpak-repo SingularityMM.flatpak com.syzzle.Singularity
+            echo "Flatpak build and bundle complete. Output: SingularityMM.flatpak"
           '';
         };
       }
