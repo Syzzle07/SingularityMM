@@ -36,6 +36,8 @@ dist-ssr
 curated/
 mod_warnings.json
 
+$HOME/
+
 .flatpak-builder/
 flatpak-build/
 flatpak-repo/
