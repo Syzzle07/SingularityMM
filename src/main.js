@@ -13,6 +13,8 @@ import iconSteam from './assets/icon-steam.png';
 import iconGog from './assets/icon-gog.png';
 import iconXbox from './assets/icon-xbox.png';
 import iconNexus from './assets/icon-nexus.png';
+import iconMaximize from './assets/icon-maximize.png';
+import iconRestore from './assets/icon-restore.png';
 
 // Get the window instance for listener attachment
 const appWindow = getCurrentWindow();
@@ -3200,7 +3202,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const maximizeBtnImg = document.getElementById('maximizeBtn');
   const updateMaximizeIcon = async () => {
     const isMax = await appWindow.isMaximized();
-    maximizeBtnImg.src = isMax ? '/src/assets/icon-restore.png' : '/src/assets/icon-maximize.png';
+    maximizeBtnImg.src = isMax ? iconRestore : iconMaximize;
     maximizeBtnImg.alt = isMax ? 'Restore' : 'Maximize';
     maximizeBtnImg.title = isMax ? 'Restore' : 'Maximize';
   };
