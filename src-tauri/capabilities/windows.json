@@ -5,7 +5,7 @@
   "permissions": [
     {
       "identifier": "fs:scope",
-      "allow": ["**"]
+      "allow": ["**", "$RESOURCE/**", "$APPDATA/**"]
     }
   ]
 }
