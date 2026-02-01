@@ -1,0 +1,91 @@
+name: Build Flatpak
+
+on:
+  workflow_call:
+    inputs:
+      release:
+        description: "Upload to GitHub Release instead of artifacts"
+        type: boolean
+        default: false
+      tag_name:
+        description: "Tag name for release upload"
+        type: string
+        default: ""
+
+jobs:
+  build-flatpak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            build-essential \
+            curl \
+            wget \
+            file \
+            libssl-dev \
+            libgtk-3-dev \
+            libayatana-appindicator3-dev \
+            librsvg2-dev \
+            flatpak \
+            flatpak-builder
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install Frontend Dependencies
+        run: npm install
+
+      - name: Build Binary
+        run: |
+          export PATH="$PATH:$(pwd)/node_modules/.bin"
+          npm run tauri build -- --no-bundle
+
+      - name: Setup Flatpak
+        run: |
+          sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          sudo flatpak install -y flathub org.gnome.Platform//49 org.gnome.Sdk//49
+
+          export DCONF_PROFILE=/dev/null
+          flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          flatpak --user install -y flathub org.gnome.Platform//49 org.gnome.Sdk//49
+
+      - name: Prepare Flatpak Source
+        run: |
+          flatpak/copy-resources.sh
+
+      - name: Build Flatpak
+        run: |
+          flatpak/build-flatpak.sh
+          echo "Flatpak build complete!"
+          ls -lh SingularityMM.flatpak
+
+      - name: Upload Flatpak
+        if: ${{ !inputs.release }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Flatpak
+          path: SingularityMM.flatpak
+
+      - name: Upload Flatpak to Release
+        if: ${{ inputs.release }}
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ inputs.tag_name }}
+          draft: true
+          prerelease: false
+          files: SingularityMM.flatpak
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

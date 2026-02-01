@@ -1,0 +1,74 @@
+name: Build PR
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - "*.md"
+      - "LICENSE"
+      - "screenshots/**"
+      - ".vscode/**"
+      - "flake.nix"
+      - "flake.lock"
+      - "shell.nix"
+      - ".gitignore"
+      - ".github/scripts/**"
+      - ".github/workflows/update_curated_list.yml"
+      - ".github/workflows/release.yml"
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-pc-windows-msvc
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install Frontend Dependencies
+        run: npm install
+
+      - name: Build Singularity
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: --config '{"bundle":{"createUpdaterArtifacts":false},"plugins":{"updater":{"active":false}}}'
+
+      - name: Upload MSI
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Windows-MSI
+          path: src-tauri/target/release/bundle/msi/*.msi
+
+      - name: Upload NSIS Installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Windows-NSIS
+          path: src-tauri/target/release/bundle/nsis/*.exe
+
+      - name: Upload Portable
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Windows-Portable
+          path: src-tauri/target/release/Singularity.exe
+
+  build-linux:
+    uses: ./.github/workflows/build-linux.yml
+    secrets: inherit
+
+  build-flatpak:
+    uses: ./.github/workflows/build-flatpak.yml
+    secrets: inherit

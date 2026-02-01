@@ -36,4 +36,24 @@ dist-ssr
 curated/
 mod_warnings.json
 
-$HOME/
+.flatpak-builder/
+flatpak-build/
+flatpak-repo/
+flatpak-source/
+portable-package/
+
+# AppImage / Flatpak build artifacts
+*.AppImage
+*.AppDir/
+SingularityMM.flatpak
+
+# Nix
+/result
+/result-
+*.drv
+.nix-gc*
+.nix-channels
+.nix-defexpr
+.nix-profile
+.nix-shell-env
+.envrc
