@@ -1,0 +1,6 @@
+#!/bin/bash
+# For Flatpak, let GTK auto-detect the backend (Wayland or X11)
+# The GNOME runtime's WebKitGTK should handle Wayland correctly
+# Set SINGULARITY_FLATPAK to signal to the Rust code not to force X11
+export SINGULARITY_FLATPAK=1
+exec /app/bin/Singularity "$@"

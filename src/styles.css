@@ -108,28 +108,29 @@ body {
    ========================================================================== */
 
 header {
-    position: relative;
+    display: flex;
+    align-items: center;
     height: 60px;
     flex-shrink: 0;
+    padding: 0 15px;
 }
 
 .header-content-wrapper {
-    position: relative;
-    /* Establishes a positioning context for its children */
-    width: 950px;
-    /* Matches DEFAULT_WIDTH */
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
     height: 100%;
     pointer-events: none;
 }
 
 #banner-img {
-    position: absolute;
-    top: 8px;
-    left: 10px;
     height: 80%;
     width: auto;
+    margin-top: 4px;
     -webkit-user-drag: none;
     pointer-events: none;
+    flex-shrink: 0;
 }
 
 .header-controls-right {
@@ -137,11 +138,9 @@ header {
     align-items: center;
     gap: 15px;
     -webkit-app-region: no-drag;
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
     pointer-events: none;
+    flex-shrink: 0;
+    margin-left: auto;
 }
 
 .header-controls-right>img {
@@ -150,11 +149,24 @@ header {
     transition: transform 0.2s ease-in-out, filter 0.2s;
 }
 
-#customCloseBtn {
-    height: 28px;
+.header-controls-right>img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
 }
 
-.header-controls-right>img:hover {
+.window-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.window-controls>img {
+    height: 28px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, filter 0.2s;
+}
+
+.window-controls>img:hover {
     transform: scale(1.1);
     filter: brightness(1.2);
 }
@@ -1259,9 +1271,12 @@ label.switch:has(input:checked)::before {
     font-family: var(--font-secondary);
 }
 
+
 .settings-modal {
     max-width: 500px;
     text-align: left;
+    max-height: 80vh;
+    overflow-y: auto;
 }
 
 .setting-row {
@@ -1386,12 +1401,9 @@ button.context-menu-item.delete:hover {
 /* --- Main Navigation (Tabs) --- */
 .main-nav {
     -webkit-app-region: no-drag;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .nav-button {
@@ -3002,8 +3014,8 @@ button.context-menu-item.delete:hover {
     box-shadow: 0 0 5px rgba(202, 72, 98, 0.5);
 }
 
-/* --- RESPONSIVE / STEAM DECK MODE --- */
-/* If the window width is less than the expanded size (1300px), 
+/* --- RESPONSIVE MODE --- */
+/* If the window width is less than the expanded size (1300px),
    turn the side panel into an overlay. */
 @media (max-width: 1299px) {
     .mod-detail-panel {
@@ -3012,7 +3024,7 @@ button.context-menu-item.delete:hover {
         right: 0;
         height: 100%;
         /* Make it cover the list, but leave the sidebar visible if possible */
-        width: 100% !important; 
+        width: 100% !important;
         max-width: 700px;
         z-index: 50; /* Sit on top of the mod list */
         background-color: var(--c-bg-modal); /* Make sure it's not transparent */
@@ -3023,7 +3035,7 @@ button.context-menu-item.delete:hover {
     .mod-detail-panel.open {
         transform: translateX(0);
     }
-    
+
     /* Ensure the content inside fits nicely */
     .mod-detail-content-wrapper {
         width: 100%;

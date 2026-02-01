@@ -1,7 +1,16 @@
-name: Build Linux Manual
+name: Build Linux
 
 on:
-  workflow_dispatch:
+  workflow_call:
+    inputs:
+      release:
+        description: "Upload to GitHub Release instead of artifacts"
+        type: boolean
+        default: false
+      tag_name:
+        description: "Tag name for release upload"
+        type: string
+        default: ""
 
 jobs:
   build-linux:
@@ -15,15 +24,17 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libwebkit2gtk-4.1-dev \
-          build-essential \
-          curl \
-          wget \
-          file \
-          libssl-dev \
-          libgtk-3-dev \
-          libayatana-appindicator3-dev \
-          librsvg2-dev
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            build-essential \
+            curl \
+            wget \
+            file \
+            libssl-dev \
+            libgtk-3-dev \
+            libayatana-appindicator3-dev \
+            librsvg2-dev \
+            patchelf
 
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
@@ -31,7 +42,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install Frontend Dependencies
         run: npm install
@@ -41,9 +52,68 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tagName: "linux-build-${{ github.run_number }}"
-          releaseName: "Linux Build #${{ github.run_number }}"
-          releaseBody: "Automated Linux Build"
-          releaseDraft: true
+          args: --target x86_64-unknown-linux-gnu --config '{"bundle":{"createUpdaterArtifacts":false},"plugins":{"updater":{"active":false}}}'
+
+      - name: Collect Build Artifacts
+        run: |
+          # AppImage
+          APPIMAGE=$(find src-tauri/target -name '*.AppImage' -type f | head -1)
+          if [[ -z "$APPIMAGE" ]]; then
+            echo "Error: No AppImage found"
+            exit 1
+          fi
+          cp "$APPIMAGE" SingularityMM-Linux.AppImage
+          echo "AppImage: $(ls -lh SingularityMM-Linux.AppImage)"
+
+          # DEB
+          DEB=$(find src-tauri/target -name '*.deb' -type f | head -1)
+          if [[ -z "$DEB" ]]; then
+            echo "Error: No .deb found"
+            exit 1
+          fi
+          cp "$DEB" SingularityMM-Linux.deb
+          echo "DEB: $(ls -lh SingularityMM-Linux.deb)"
+
+          # RPM
+          RPM=$(find src-tauri/target -name '*.rpm' -type f | head -1)
+          if [[ -n "$RPM" ]]; then
+            cp "$RPM" SingularityMM-Linux.rpm
+            echo "RPM: $(ls -lh SingularityMM-Linux.rpm)"
+          else
+            echo "Warning: No .rpm found, skipping"
+          fi
+
+      - name: Upload AppImage
+        if: ${{ !inputs.release }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Linux-AppImage
+          path: SingularityMM-Linux.AppImage
+
+      - name: Upload DEB
+        if: ${{ !inputs.release }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Linux-DEB
+          path: SingularityMM-Linux.deb
+
+      - name: Upload RPM
+        if: ${{ !inputs.release && hashFiles('SingularityMM-Linux.rpm') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: SingularityMM-Linux-RPM
+          path: SingularityMM-Linux.rpm
+
+      - name: Upload to Release
+        if: ${{ inputs.release }}
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ inputs.tag_name }}
+          draft: true
           prerelease: false
-          args: --target x86_64-unknown-linux-gnu
+          files: |
+            SingularityMM-Linux.AppImage
+            SingularityMM-Linux.deb
+            SingularityMM-Linux.rpm
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

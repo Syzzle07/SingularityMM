@@ -9,9 +9,6 @@
   "bundle": {
     "createUpdaterArtifacts": true,
     "active": true,
-    "resources": [
-      "locales/*"
-    ],
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",
@@ -23,7 +20,7 @@
   "productName": "Singularity",
   "mainBinaryName": "Singularity",
   "version": "2.2.7",
-  "identifier": "com.syzzle.singularity",
+  "identifier": "com.syzzle.Singularity",
   "plugins": {
     "updater": {
       "active": true,
@@ -54,10 +51,8 @@
       }
     ],
     "security": {
-      "capabilities": [
-        "default"
-      ],
-      "csp": null
+      "capabilities": ["default", "desktop-capability"],
+      "csp": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https:; connect-src * ws: wss: https: http:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; img-src 'self' data: https: http:; font-src 'self' data: https:;"
     }
   }
 }
