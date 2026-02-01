@@ -16,7 +16,7 @@
       "icons/128x128@2x.png",
       "icons/icon.ico"
     ],
-    "targets": ["appimage", "deb", "rpm"]
+    "targets": "all"
   },
   "productName": "Singularity",
   "mainBinaryName": "Singularity",
