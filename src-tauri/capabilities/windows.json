@@ -1,0 +1,11 @@
+{
+  "identifier": "windows-scope",
+  "platforms": ["windows"],
+  "windows": ["main"],
+  "permissions": [
+    {
+      "identifier": "fs:scope",
+      "allow": ["**"]
+    }
+  ]
+}

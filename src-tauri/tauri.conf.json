@@ -52,7 +52,7 @@
       }
     ],
     "security": {
-      "capabilities": ["default"],
+      "capabilities": ["default", "desktop-capability", "windows-scope", "linux-scope"],
       "csp": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https:; connect-src * ws: wss: https: http:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; img-src 'self' data: https: http:; font-src 'self' data: https:;"
     }
   }

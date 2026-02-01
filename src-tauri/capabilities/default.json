@@ -20,29 +20,6 @@
     "fs:allow-exists",
     "fs:allow-read-text-file",
     "fs:allow-write-text-file",
-    {
-      "identifier": "fs:scope",
-      "allow": [
-        "$RESOURCE/**",
-        "$APPDATA/**",
-        "$HOME/**",
-
-        "C:/Program Files (x86)/Steam/steamapps/common/No Man's Sky/**",
-        "C:/Program Files/Steam/steamapps/common/No Man's Sky/**",
-        "D:/SteamLibrary/steamapps/common/No Man's Sky/**",
-        "E:/SteamLibrary/steamapps/common/No Man's Sky/**",
-        "F:/SteamLibrary/steamapps/common/No Man's Sky/**",
-        "C:/XboxGames/No Man's Sky/Content/**",
-
-        "~/.steam/steam/steamapps/common/No Man's Sky/**",
-        "~/.local/share/Steam/steamapps/common/No Man's Sky/**",
-        "~/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/common/No Man's Sky/**",
-        "~/Games/NoMansSky/**",
-        "/home/*/.steam/steam/steamapps/common/No Man's Sky/**",
-        "/home/*/.local/share/Steam/steamapps/common/No Man's Sky/**",
-        "/mnt/*/SteamLibrary/steamapps/common/No Man's Sky/**"
-      ]
-    },
     "core:window:allow-create",
     "core:window:allow-center",
     "core:window:allow-request-user-attention",

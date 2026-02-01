@@ -1,0 +1,21 @@
+{
+  "identifier": "linux-scope",
+  "platforms": ["linux"],
+  "windows": ["main"],
+  "permissions": [
+    {
+      "identifier": "fs:scope",
+      "allow": [
+        "$RESOURCE/**",
+        "$HOME/**",
+        "~/.steam/steam/steamapps/common/No Man's Sky/**",
+        "~/.local/share/Steam/steamapps/common/No Man's Sky/**",
+        "~/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/common/No Man's Sky/**",
+        "~/Games/NoMansSky/**",
+        "/home/*/.steam/steam/steamapps/common/No Man's Sky/**",
+        "/home/*/.local/share/Steam/steamapps/common/No Man's Sky/**",
+        "/mnt/*/SteamLibrary/steamapps/common/No Man's Sky/**"
+      ]
+    }
+  ]
+}
