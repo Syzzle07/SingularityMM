@@ -27,12 +27,12 @@
         "$APPDATA/**",
         "$HOME/**",
 
-        "C:\\Program Files (x86)\\Steam\\steamapps\\common\\No Man's Sky\\**",
-        "C:\\Program Files\\Steam\\steamapps\\common\\No Man's Sky\\**",
-        "D:\\SteamLibrary\\steamapps\\common\\No Man's Sky\\**",
-        "E:\\SteamLibrary\\steamapps\\common\\No Man's Sky\\**",
-        "F:\\SteamLibrary\\steamapps\\common\\No Man's Sky\\**",
-        "C:\\XboxGames\\No Man's Sky\\Content\\**",
+        "C:/Program Files (x86)/Steam/steamapps/common/No Man's Sky/**",
+        "C:/Program Files/Steam/steamapps/common/No Man's Sky/**",
+        "D:/SteamLibrary/steamapps/common/No Man's Sky/**",
+        "E:/SteamLibrary/steamapps/common/No Man's Sky/**",
+        "F:/SteamLibrary/steamapps/common/No Man's Sky/**",
+        "C:/XboxGames/No Man's Sky/Content/**",
 
         "~/.steam/steam/steamapps/common/No Man's Sky/**",
         "~/.local/share/Steam/steamapps/common/No Man's Sky/**",
