@@ -7144,8 +7144,123 @@
         "id": "4007",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "gLonely Fewer Freighters - EXML",
+        "id": "4042",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gLonely Fewer Pirates - EXML",
+        "id": "4043",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gLonely Pulse Encounters - EXML",
+        "id": "4044",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gLonely Larger System Size - EXML",
+        "id": "4045",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gLonely No Frigate Flybys - EXML",
+        "id": "4046",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gLonely More Dead and Weird Planets - EXML",
+        "id": "4047",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Panelled Window fix (Titan class)",
+        "id": "4050",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Frigate Damage for Fleet Expeditions",
+        "id": "4051",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gBase Sleepy-Time Pillow",
+        "id": "4052",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gBase Sleepy-Time Bed",
+        "id": "4053",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "fnb_PurpleOutlawFilterColor",
+        "id": "4055",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Extreme Weather Planet Chance Modifier",
+        "id": "4056",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Increased Planet Size",
+        "id": "4057",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Orbital Uplink But Tech",
+        "id": "4058",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sleek Journeyman's Font",
+        "id": "4059",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Pirate Freighter Battle Time",
+        "id": "4060",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Immersive Teleport (Teleport Costs - Hardcore)",
+        "id": "4062",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Remnant Loading Log",
+        "id": "4065",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gMultitool Gravitino Coil Push Strength - EXML",
+        "id": "4066",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
