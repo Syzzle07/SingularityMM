@@ -7258,8 +7258,51 @@
         "id": "4066",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "More dangerous scavenging work (Hardcore)",
+        "id": "4067",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zFlatbed Friction v6.21",
+        "id": "4068",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Realistic colossus headlights",
+        "id": "4076",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zColossus Headlights",
+        "id": "4077",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zNo Junk",
+        "id": "4078",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Scrapyard Technology",
+        "id": "4069",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gVehicles Colossus Flatbed High Walls",
+        "id": "4079",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
