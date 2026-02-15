@@ -627,21 +627,16 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       console.log("Cache stale. Fetching fresh list from GitHub...");
 
-      // Simple Fetch (No headers to avoid CORS Preflight)
       const response = await fetch(CURATED_LIST_URL);
 
       if (!response.ok) throw new Error("Could not fetch remote curated list.");
 
       const freshData = await response.json();
-
-      // We still try to grab the ETag from the response to save it for the future
-      // (in case we solve CORS later), but we don't use it for the request right now.
       const newEtag = response.headers.get('etag');
 
       curatedData = freshData;
       console.log(`Successfully loaded ${curatedData.length} mods from network.`);
 
-      // Save new data + new ETag + new Timestamp
       await saveCuratedListToCache(freshData, newEtag);
 
     } catch (error) {
