@@ -19,7 +19,7 @@ const appWindow = getCurrentWindow();
 
 // --- Global State & Constants ---
 let NEXUS_API_KEY = "";
-const CURATED_LIST_URL = "https://raw.githubusercontent.com/Syzzle07/SingularityMM/refs/heads/data/curated/curated_list.json";
+const CURATED_LIST_URL = "https://raw.githubusercontent.com/Syzzle07/SingularityMM/data/curated/curated_list.json";
 let curatedData = [];
 let downloadHistory = [];
 const nexusFileCache = new Map();
@@ -623,37 +623,25 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // 3. It is stale (older than 1 hour). Ask GitHub if it changed.
+    // 3. It is stale (older than 1 hour). Fetch fresh data.
     try {
-      console.log("Checking for curated list updates...");
+      console.log("Cache stale. Fetching fresh list from GitHub...");
 
-      const headers = {};
-      // If it has an ETag from last time, send it
-      if (cachedObj && cachedObj.etag) {
-        headers['If-None-Match'] = cachedObj.etag;
-      }
+      // Simple Fetch (No headers to avoid CORS Preflight)
+      const response = await fetch(CURATED_LIST_URL);
 
-      const response = await fetch(CURATED_LIST_URL, { headers });
-
-      // CASE A: 304 NOT MODIFIED (Server says: "You have the latest version")
-      if (response.status === 304 && cachedObj) {
-        console.log("Remote list hasn't changed. Extending cache duration.");
-        curatedData = cachedObj.data;
-        // Save it again just to update the 'timestamp' so it doesn't check again for another hour
-        await saveCuratedListToCache(cachedObj.data, cachedObj.etag);
-        return;
-      }
-
-      // CASE B: 200 OK (Server sent new data)
       if (!response.ok) throw new Error("Could not fetch remote curated list.");
 
       const freshData = await response.json();
-      const newEtag = response.headers.get('etag'); // Get the new ETag
+
+      // We still try to grab the ETag from the response to save it for the future
+      // (in case we solve CORS later), but we don't use it for the request right now.
+      const newEtag = response.headers.get('etag');
 
       curatedData = freshData;
       console.log(`Successfully loaded ${curatedData.length} mods from network.`);
 
-      // Save new data + new ETag
+      // Save new data + new ETag + new Timestamp
       await saveCuratedListToCache(freshData, newEtag);
 
     } catch (error) {
