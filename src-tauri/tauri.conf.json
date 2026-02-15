@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:1420"
+  },
+  "bundle": {
+    "createUpdaterArtifacts": true,
+    "active": true,
+    "resources": [
+      "locales/*"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ],
+    "targets": "all"
+  },
+  "productName": "Singularity",
+  "mainBinaryName": "Singularity",
+  "version": "2.2.8",
+  "identifier": "com.syzzle.singularity",
+  "plugins": {
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://gist.githubusercontent.com/Syzzle07/9d29be1615e75e9206520811047be899/raw/latest.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDNDNjg5QTE4NTI1Qjc1M0UKUldRK2RWdFNHSnBvUE80ZWc1VHdQWTNlNFFBU0t2Z2s1blhCUnRkUmYreDJNdy9SYmJOYkdoQ2kK",
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Singularity",
+        "width": 950,
+        "height": 900,
+        "resizable": true,
+        "decorations": false,
+        "transparent": true,
+        "fullscreen": false,
+        "visible": false,
+        "minHeight": 671,
+        "useHttpsScheme": true,
+        "minWidth": 950
+      }
+    ],
+    "security": {
+      "capabilities": [
+        "default"
+      ],
+      "csp": null
+    }
+  }
+}

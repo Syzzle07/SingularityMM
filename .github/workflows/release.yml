@@ -1,0 +1,92 @@
+name: Singularity Release
+
+# Trigger the workflow when you push a tag (e.g., v1.0.0)
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  publish-tauri:
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # WINDOWS BUILD
+          - platform: "windows-latest"
+            args: "" # Default builds .msi/.exe + updater files
+
+          # LINUX BUILD
+          - platform: "ubuntu-22.04"
+            args: "" # Default builds .deb/.AppImage + updater files
+
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # --- LINUX DEPENDENCIES (Only runs on Ubuntu) ---
+      - name: Install Linux dependencies
+        if: matrix.platform == 'ubuntu-22.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev \
+          build-essential \
+          curl \
+          wget \
+          file \
+          libssl-dev \
+          libgtk-3-dev \
+          libayatana-appindicator3-dev \
+          librsvg2-dev
+
+      # --- RUST SETUP ---
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.platform == 'windows-latest' && 'x86_64-pc-windows-msvc' || 'x86_64-unknown-linux-gnu' }}
+
+      # --- NODE SETUP ---
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Frontend Dependencies
+        run: npm install
+
+      # --- BUILD, SIGN, AND UPLOAD ---
+      - name: Build and Release
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+        with:
+          tagName: ${{ github.ref_name }}
+          releaseName: "Singularity ${{ github.ref_name }}"
+          releaseBody: "Automatic release for version ${{ github.ref_name }}"
+          releaseDraft: true
+          prerelease: false
+
+      # --- RENAME AND UPLOAD PORTABLE ---
+      - name: Rename and Upload Portable (Windows)
+        if: matrix.platform == 'windows-latest'
+        run: |
+          # Go to the build folder
+          cd src-tauri/target/release/
+
+          # Rename the raw file to include "Portable"
+          mv Singularity.exe Singularity_Portable_${{ github.ref_name }}.exe
+
+        shell: bash
+
+      - name: Upload Portable Asset
+        if: matrix.platform == 'windows-latest'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          draft: true
+          prerelease: false
+          files: src-tauri/target/release/Singularity_Portable_${{ github.ref_name }}.exe
