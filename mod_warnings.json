@@ -7300,8 +7300,33 @@
         "id": "4079",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "More nanites from recycling",
+        "id": "4080",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Free Pillars (Hardcore)",
+        "id": "4082",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bright Lights",
+        "id": "4083",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Gravity Gun Multitool",
+        "id": "4081",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
