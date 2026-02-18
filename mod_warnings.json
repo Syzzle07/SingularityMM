@@ -7324,8 +7324,27 @@
         "id": "4081",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "BB_flatbed_collision",
+        "id": "4086",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosuit Hazard Protection Upgrades From Specialized Waste",
+        "id": "4085",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Industrial Scrapyard Scanner",
+        "id": "4087",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
