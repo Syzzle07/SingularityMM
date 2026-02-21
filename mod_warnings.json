@@ -7342,8 +7342,27 @@
         "id": "4087",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "zCrazy Colossus v6.24b",
+        "id": "4089",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unpredictable Deposits",
+        "id": "4090",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Earthlike Storms (and less fog) on Lush Planets",
+        "id": "4091",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
