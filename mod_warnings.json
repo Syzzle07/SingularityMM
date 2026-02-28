@@ -7360,8 +7360,51 @@
         "id": "4091",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "10x Industrial (and Specialist) Waste Spawn",
+        "id": "4092",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Extractors",
+        "id": "4093",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Supply Depots",
+        "id": "4094",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Pindou Palette (Light box removes the wick)",
+        "id": "3553",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Living Ship Face to Face Reset",
+        "id": "3450",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Increase Player Transfer Range",
+        "id": "3602",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Disable Upload All",
+        "id": "3598",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
+
 
 
 
