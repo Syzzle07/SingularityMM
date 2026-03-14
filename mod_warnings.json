@@ -7402,6 +7402,96 @@
         "id": "3598",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Biogenerator PowerupX1000",
+        "id": "4105",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Disable Profanity Filter",
+        "id": "4106",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Exterior Ramp Switches",
+        "id": "4110",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fix Farmer Daily Reward",
+        "id": "4111",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Strange Colours and Terrain",
+        "id": "4112",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cooking With Cronus RU",
+        "id": "4113",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fix Settlement Production",
+        "id": "4114",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "CrewLocker Appareance Modifier",
+        "id": "4115",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Realistic Stars",
+        "id": "4116",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Space Eggs Remixed",
+        "id": "4117",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cockpit Beam Down Buttons",
+        "id": "4119",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Frequent Organic Frigates",
+        "id": "4118",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Obvious Star Colors",
+        "id": "4120",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "All Ships See Space Eggs",
+        "id": "4121",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Aerial Camera - Modern",
+        "id": "4122",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
