@@ -7492,6 +7492,102 @@
         "id": "4122",
         "state": "normal",
         "warningMessage": ""
+    },
+        {
+        "name": "No 'Target' Pirate Missions",
+        "id": "4123",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Extended Grass Draw Distance",
+        "id": "4125",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Custom Models and Pre-release Model Fixes",
+        "id": "4126",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Large Crystals",
+        "id": "4134",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Quick Loading - plus Lasagna 4 Loading Screen",
+        "id": "4131",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Fast Fade",
+        "id": "4130",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Fly or Walk Underwater",
+        "id": "4129",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Super Jetpack",
+        "id": "4127",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Large Creatures",
+        "id": "4132",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Lasagna Highlights on Gas Giants",
+        "id": "4135",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Cave Biomes",
+        "id": "4133",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Underwater Biomes",
+        "id": "4137",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Lasagna Highlights with Random Details on Weird Biomes",
+        "id": "4136",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Arcane Oddities - Rare Extra Biomes",
+        "id": "4128",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "LSGN4 Lasagna's Biomes",
+        "id": "4138",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hauler Thruster Realignment",
+        "id": "4139",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
