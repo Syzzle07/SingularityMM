@@ -3336,12 +3336,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Lasagna Biome Highlights",
-        "id": "3386",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Improved vehicle speed 1.0",
         "id": "3707",
         "state": "normal",
@@ -3530,12 +3524,6 @@
     {
         "name": "Voodoo's Cinematic No Man's Sky Reshade Preset",
         "id": "3720",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "Better Lasagna Biome Generation 3",
-        "id": "3457",
         "state": "normal",
         "warningMessage": ""
     },
@@ -6960,12 +6948,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Lasagna Obscura - Colors and Fog Overhaul",
-        "id": "3920",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Super Wall Light",
         "id": "3927",
         "state": "normal",
@@ -7502,84 +7484,6 @@
     {
         "name": "Extended Grass Draw Distance",
         "id": "4125",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Custom Models and Pre-release Model Fixes",
-        "id": "4126",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Large Crystals",
-        "id": "4134",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Quick Loading - plus Lasagna 4 Loading Screen",
-        "id": "4131",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Fast Fade",
-        "id": "4130",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Fly or Walk Underwater",
-        "id": "4129",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Super Jetpack",
-        "id": "4127",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Large Creatures",
-        "id": "4132",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Lasagna Highlights on Gas Giants",
-        "id": "4135",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Cave Biomes",
-        "id": "4133",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Underwater Biomes",
-        "id": "4137",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Lasagna Highlights with Random Details on Weird Biomes",
-        "id": "4136",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Arcane Oddities - Rare Extra Biomes",
-        "id": "4128",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "LSGN4 Lasagna's Biomes",
-        "id": "4138",
         "state": "normal",
         "warningMessage": ""
     },
