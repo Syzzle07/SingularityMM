@@ -13,12 +13,12 @@ jobs:
     steps:
       # Step 1: Check out the repository's code
       - name: Checkout data branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: data
       # Step 2: Set up the Node.js environment
       - name: Checkout main branch for script
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: main
           path: ./.github/main-branch-checkout
@@ -26,9 +26,9 @@ jobs:
             .github/scripts
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
 
       # Step 3: Run script
       - name: Generate curated_list.json
@@ -38,7 +38,7 @@ jobs:
 
       # Step 4: Automatically commit the newly generated file back to the repository
       - name: Commit and push changes to the data branch
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "chore: Auto-update curated mod list"
           file_pattern: curated/curated_list.json
