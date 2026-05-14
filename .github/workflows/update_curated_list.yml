@@ -38,7 +38,7 @@ jobs:
 
       # Step 4: Automatically commit the newly generated file back to the repository
       - name: Commit and push changes to the data branch
-        uses: stefanzweifel/git-auto-commit-action@v6
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: Auto-update curated mod list"
           file_pattern: curated/curated_list.json
