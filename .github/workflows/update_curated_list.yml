@@ -13,12 +13,12 @@ jobs:
     steps:
       # Step 1: Check out the repository's code
       - name: Checkout data branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: data
       # Step 2: Set up the Node.js environment
       - name: Checkout main branch for script
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: main
           path: ./.github/main-branch-checkout
@@ -26,7 +26,7 @@ jobs:
             .github/scripts
 
       - name: Setup Node.js
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: '24'
 
