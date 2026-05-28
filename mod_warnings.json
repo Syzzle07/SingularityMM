@@ -7816,6 +7816,48 @@
         "id": "4219",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Invisible Corvette Holopads",
+        "id": "4223",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Cleaner Fleets",
+        "id": "4224",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bigger Fleets",
+        "id": "4225",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "A Big Beautiful Cockpit",
+        "id": "4229",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Xeno No Cooldown",
+        "id": "4231",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Xeno Arena Rewards - WORTH",
+        "id": "4232",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Swarm Splash Screen Logo",
+        "id": "4234",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
