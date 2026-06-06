@@ -7858,6 +7858,102 @@
         "id": "4234",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Equalized Exotic Spawns",
+        "id": "4237",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Instant Freighter Fleet Spawns",
+        "id": "4238",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sleepless Nights",
+        "id": "4239",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Multiplies Plants Harvest",
+        "id": "4240",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Multiplies Stack Sizes(OCD Edition)",
+        "id": "4241",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Multiple Vehicles Speed (Vroom Vroom)",
+        "id": "4242",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "More Useful Bait",
+        "id": "4243",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bio Room and Cultivation Chamber Harvest Range 500u",
+        "id": "4244",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fast Craft for Fusion Igniter and Stasis Device",
+        "id": "4245",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Icons always shown",
+        "id": "4246",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HUD shows the pinned log mission not a guide",
+        "id": "4247",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "All Corvette Parts For Sale",
+        "id": "4248",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Crashed Swarms Everywhere",
+        "id": "4249",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "All ships have a stop and reverse.",
+        "id": "4250",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Offline Mode",
+        "id": "4251",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Starflight Starborn Runner",
+        "id": "4253",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
