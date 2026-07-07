@@ -7954,6 +7954,96 @@
         "id": "4253",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Fast Harvesters and AMU's (NMS 6.44 - Jun 5th '26)",
+        "id": "4254",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Life support and hazard protection upgrades",
+        "id": "4256",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Player Weapons Powerup",
+        "id": "4257",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Ship weapons powerup",
+        "id": "4258",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Itemify Currencies",
+        "id": "4255",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "(updated) More Salvage Data",
+        "id": "4259",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Dissonance Resonators always drop Echo Locators",
+        "id": "4260",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exocraft GTA Liberty City Horn",
+        "id": "4261",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Eidolon Titan Worm",
+        "id": "4263",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Reticles",
+        "id": "4264",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Starflight Utopia Speeder",
+        "id": "4266",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Dancing NPCs",
+        "id": "4267",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "SuperGunz",
+        "id": "4268",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Vehicle mobility upgrade",
+        "id": "4269",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "First person combat camera",
+        "id": "4270",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
