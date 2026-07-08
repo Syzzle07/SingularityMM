@@ -8080,6 +8080,120 @@
         "id": "4287",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Prismatic Core Unlocker",
+        "id": "4317",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Starship Warp Expander",
+        "id": "4315",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Superlative Spelunking (Better Caves)",
+        "id": "4314",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "VitaminArrr's Crazy Terrain 063026",
+        "id": "4313",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Friendly Swarm Follower",
+        "id": "4311",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "fnb_SettlementProductionTimerFix",
+        "id": "4310",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Scatter Blaster Sybaris Incarnon",
+        "id": "4309",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zNautilon Headlights",
+        "id": "4308",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Hazard Protection Overhaul",
+        "id": "4307",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Balanced Incinerator",
+        "id": "4306",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Tech Bonuses Overhaul",
+        "id": "4305",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Sentinel Ship No Repair",
+        "id": "4304",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Robot Weapons for Players",
+        "id": "4303",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "BYE BYE MOTION SICKNESS",
+        "id": "4302",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Oceanus Challange Battle UnLimiter",
+        "id": "4301",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unlimited Electricity Storage",
+        "id": "4299",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Ship mobility upgrade",
+        "id": "4296",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Buy Xeno Arena Invites",
+        "id": "4294",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Fade And No Shadows",
+        "id": "4292",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
