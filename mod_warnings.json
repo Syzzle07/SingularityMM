@@ -8044,6 +8044,42 @@
         "id": "4270",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Scatter Blaster Succession",
+        "id": "4290",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Main Game Swarm Missions",
+        "id": "4293",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "OwenBoogie's Weapon Dyes",
+        "id": "4284",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zSilent Scan",
+        "id": "4285",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Golden Vector Swarm Drone Skin",
+        "id": "4286",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zBio-Dome",
+        "id": "4287",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
