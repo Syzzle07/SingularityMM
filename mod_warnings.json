@@ -8520,12 +8520,6 @@
         "warningMessage": ""
     },
     {
-        "name": "No Man's Sky Save game",
-        "id": "4389",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Oceanus All Abilities",
         "id": "4411",
         "state": "normal",
@@ -8672,12 +8666,6 @@
     {
         "name": "Portal Gun Gravitino Coil",
         "id": "4444",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "NMS Cinematic - vkBasalt preset for Linux",
-        "id": "4446",
         "state": "normal",
         "warningMessage": ""
     },
