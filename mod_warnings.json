@@ -8386,6 +8386,120 @@
         "id": "4097",
         "state": "normal",
         "warningMessage": ""
+    },
+		{
+        "name": "D2 Main Menu",
+        "id": "4371",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Corvette Crop Visual Fix",
+        "id": "4374",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Dreadnought Dust Cloud Disabler",
+        "id": "4376",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "The GekNip Trade",
+        "id": "4375",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "NO MONEY Splash Screen Logo",
+        "id": "4377",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Instant Charts and Discovery",
+        "id": "4378",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "No Motion Sickness Ship Flight Pack for No Asteroids While Pulse Jump",
+        "id": "4379",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "COSMOS Splash Screen Logo",
+        "id": "4380",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Minotaur ATST",
+        "id": "4390",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Legacy Building Pieces Plus",
+        "id": "4391",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Main Menu Game Mode Section Replacer (The Swarm Update)",
+        "id": "4392",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "THE SWARM Splash Screen Logo",
+        "id": "4393",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Better Black Holes",
+        "id": "4394",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Translators Teach Words",
+        "id": "4395",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "SEAN'S REDEMPTION Splash Screen Logo",
+        "id": "4396",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Corvette Harvest All Action",
+        "id": "4401",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Unobstruct Distance in Cockpit",
+        "id": "4402",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Faster Derelict Security Credentials",
+        "id": "4403",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Ambience Removal",
+        "id": "4404",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
