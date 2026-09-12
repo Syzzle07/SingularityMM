@@ -8284,6 +8284,108 @@
         "id": "4339",
         "state": "normal",
         "warningMessage": ""
+    },
+		{
+        "name": "Worse Weather",
+        "id": "4340",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Bring Back Dialogue Backgrounds",
+        "id": "4343",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Better Discovery Banners",
+        "id": "4348",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Auto-Sprint (sort of)",
+        "id": "4350",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "PSI Expanded Base",
+        "id": "4349",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "More Aggressive Predators",
+        "id": "4351",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "SoftPortal",
+        "id": "4352",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "ClearRoute - Thicker Mission Path (Colorblind Friendly)",
+        "id": "4353",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Use Mordite instead of Retroviral Pellets",
+        "id": "4354",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Updated 3rd-Person Sprint Look-Sensitivity Fix",
+        "id": "4355",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Starborn Runner - Skins Collection",
+        "id": "4356",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "zRelic Gate (a Space Portal)",
+        "id": "4357",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "PSI Terminus",
+        "id": "4360",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "zNo Station Glow v7.0",
+        "id": "4361",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "zOperate Hatch",
+        "id": "4362",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Portal Decoration",
+        "id": "3968",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Orbital Uplink Solution",
+        "id": "4097",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
