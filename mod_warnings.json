@@ -8194,6 +8194,54 @@
         "id": "4292",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Bubble Reducer",
+        "id": "4320",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Parallax Effect",
+        "id": "4321",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "AllFossilsShop",
+        "id": "4324",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Floating Boulders on Gas Giants",
+        "id": "4325",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Swarm Battle Mission",
+        "id": "4326",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Super Mario Galaxy",
+        "id": "4327",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Living Lens Unlocker",
+        "id": "4328",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "NGT_Extreme Milestones",
+        "id": "4329",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
