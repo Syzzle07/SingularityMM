@@ -8242,6 +8242,48 @@
         "id": "4329",
         "state": "normal",
         "warningMessage": ""
+    },
+		{
+        "name": "Permadeath Standard Stacks",
+        "id": "4319",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Updated Milestone Icons",
+        "id": "4330",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Unused Cockpit C",
+        "id": "4332",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Gunner's revision of CAMERA TWEAK2",
+        "id": "4334",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Default Camera Person Settings",
+        "id": "4335",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Better Scan Rewards",
+        "id": "4336",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Gunner's revision of Better Rewards",
+        "id": "4339",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
