@@ -8500,6 +8500,24 @@
         "id": "4404",
         "state": "normal",
         "warningMessage": ""
+    },
+	{
+        "name": "Improved Weapons",
+        "id": "4406",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Natural Walking and Longer Sprint",
+        "id": "4407",
+        "state": "normal",
+        "warningMessage": ""
+    },
+	{
+        "name": "Deepwater Guardian Item",
+        "id": "4408",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
 
