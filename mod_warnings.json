@@ -8722,5 +8722,125 @@
         "id": "4456",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Void Black",
+        "id": "4416",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Naked Eye",
+        "id": "4415",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Free Space Stations (Cosmos)",
+        "id": "4458",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "MZZ - Free Station and Directorship - Cosmos",
+        "id": "4459",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No More Compass",
+        "id": "4460",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Not Enough Tractor Beams",
+        "id": "4462",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMS Instant Teleport - Pandora edition",
+        "id": "4464",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fancy Discovery Message",
+        "id": "4465",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Deep Space Haul",
+        "id": "4466",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Targeted Draw Distance - 10x or 5x Grass and 5x Natural Objects",
+        "id": "4467",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Space Station Parts Catalogue",
+        "id": "4468",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Launch Thrusters Reworked",
+        "id": "4469",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Holiday Pulse Drive",
+        "id": "4470",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Population NPCs (September 2026)",
+        "id": "4472",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Space Storms",
+        "id": "4473",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Bigger Suns",
+        "id": "4474",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Engine Trails Disabler",
+        "id": "4476",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Flight - 6DOF",
+        "id": "4475",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Space Momentum (September 2026)",
+        "id": "4477",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Harmless Plants",
+        "id": "4478",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
