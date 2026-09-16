@@ -6006,12 +6006,6 @@
         "warningMessage": ""
     },
     {
-        "name": "HD Clouds (the other one)",
-        "id": "3879",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "BuildableOnPlanet",
         "id": "3872",
         "state": "normal",
