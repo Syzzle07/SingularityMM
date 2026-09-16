@@ -8830,5 +8830,77 @@
         "id": "4478",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "zCamera Station",
+        "id": "4482",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Salvager's Toolkit",
+        "id": "4484",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Modern Flight Essentials",
+        "id": "4485",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Station Architect",
+        "id": "4486",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Universal Cargo Range",
+        "id": "4487",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Perfect Quick Actions",
+        "id": "4505",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ScrapBooster",
+        "id": "4506",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Star Fix VR Cosmos",
+        "id": "4507",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "RP Server Online and Offline with overlay FR - EN",
+        "id": "4508",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Toggle That HUD Off",
+        "id": "4504",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Planet Filters - Cosmos",
+        "id": "4510",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reduced or Removed Storm Dust - Cosmos",
+        "id": "4509",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
