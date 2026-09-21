@@ -8890,5 +8890,143 @@
         "id": "4509",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Salvage Rights",
+        "id": "4417",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "dot crosshairs",
+        "id": "4511",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "IronSlasher Industries - Blood Lance",
+        "id": "4512",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Boltcaster Rework - Bryar pistol to E-11 rifle",
+        "id": "4513",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Operations Console",
+        "id": "4514",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Distant Asteroid Box Fix",
+        "id": "4515",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Quick Warp",
+        "id": "4516",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Ultimate Landing Bays",
+        "id": "4517",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Equal Mouse Sensitivity - 1 to 1 X and Y Axis Fix",
+        "id": "4518",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Legacy (E3) Style Hud",
+        "id": "4519",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zStarship Outfitter v7.03",
+        "id": "4520",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "zHeadlights Vintage Interceptor v7.03",
+        "id": "4522",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unused Pulse Drive Warp Mechanic",
+        "id": "4524",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Analysis Visor In Pilot Mode",
+        "id": "4526",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Developer Commentary Unlocker",
+        "id": "4527",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "GameTranslatorArabic",
+        "id": "4529",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Spotlight",
+        "id": "4530",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Clear Air - Stations",
+        "id": "4525",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMS Inventory Sorter (Save Editor)",
+        "id": "4531",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Better Gravitino Coil",
+        "id": "4532",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Harley Pulse Engine",
+        "id": "4533",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Thai Mods - NMS",
+        "id": "4538",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Wildlife Friendly Exocrafts",
+        "id": "4539",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
