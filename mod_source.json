@@ -8970,12 +8970,6 @@
         "warningMessage": ""
     },
     {
-        "name": "Analysis Visor In Pilot Mode",
-        "id": "4526",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
         "name": "Developer Commentary Unlocker",
         "id": "4527",
         "state": "normal",
@@ -8996,12 +8990,6 @@
     {
         "name": "Clear Air - Stations",
         "id": "4525",
-        "state": "normal",
-        "warningMessage": ""
-    },
-    {
-        "name": "NMS Inventory Sorter (Save Editor)",
-        "id": "4531",
         "state": "normal",
         "warningMessage": ""
     },
