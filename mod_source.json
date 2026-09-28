@@ -9016,5 +9016,227 @@
         "id": "4539",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Loading screens NMS",
+        "id": "4540",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Portable Nexus Suite (6 new buildable devices)",
+        "id": "4542",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "BLACKHOLE",
+        "id": "4543",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Suit Voice Replace ZH",
+        "id": "4544",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMS BootSkip",
+        "id": "4545",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Architect",
+        "id": "4547",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "COSMOS Nova SDR LUT",
+        "id": "4546",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Key Art Worlds and Atmosphere",
+        "id": "4548",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fly Like Iron Man - Spacewalking Fix for Cosmos",
+        "id": "4549",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "OWO Integration - No Man's Sky",
+        "id": "4550",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Hardcore Economy and Module Overhaul",
+        "id": "4551",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Nerfed Life Support Duration",
+        "id": "4554",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Lunatus (distant worlds)",
+        "id": "4555",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Stellarum",
+        "id": "4556",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Gel-Fed Life Support",
+        "id": "4557",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Player mobility upgrade",
+        "id": "4558",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "HardcoreSky - Increased Slot Upgrade Costs",
+        "id": "4560",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Higher FOV and Creature Animation Fix",
+        "id": "4559",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "SBSCV - Slightly Better Ship Cockpit View",
+        "id": "4561",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Key Art Clouds",
+        "id": "4563",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Clean Wrecks (Cosmos)",
+        "id": "4562",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Change the Class Table",
+        "id": "4564",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Infested - Creature Models (BETA)",
+        "id": "4565",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMSAO - No Man's Sky Audio Organizer",
+        "id": "4500",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Settlement Command Center",
+        "id": "4566",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Base Parts Unlocked",
+        "id": "4567",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "PC Clean Starter save perfect for Tailoring on save ditor.",
+        "id": "4568",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Faster Spaceship Docking Rotation Reloaded",
+        "id": "4569",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "CurvedVisor (three different versions)",
+        "id": "4570",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No More Pause - Alt-Tab Without Pausing or Freezing",
+        "id": "4571",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man's Sky Mega Save",
+        "id": "4572",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JIVI's Alternate Cinematic ReShade preset",
+        "id": "4574",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMScribe",
+        "id": "4575",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "JoytoKey profile for dual VKB Gladiators",
+        "id": "4573",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Fully Automated Luxury Space Machines",
+        "id": "4578",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Companion Auto Summon for No Man's Sky - by Lineum Dynamics",
+        "id": "4579",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Derelict Freighter Farming",
+        "id": "4580",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
