@@ -680889,7 +680889,7 @@
     "version": "7.05",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4558/4558-1790249023-1343555283.jpg",
     "author": "jw11-modder",
-    "updated_timestamp": 1791322175,
+    "updated_timestamp": 1791658275,
     "created_timestamp": 1790249439,
     "description": "[size=4][b]Description[/b][/size]\n<br />Greatly enhances suit mobility - on foot, in water, in air or even in space. Also upgrades Neural Stimulator module, so your jetpack gets virtually infinite fuel.\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#d4d4d8]Unpack archive to [/color][color=#ffe599]&#92;GAMEDATA&#92;MODS&#92;[/color][color=#d4d4d8] directory, and you're ready to go. Also you can use [/color][url=https://www.nexusmods.com/about/vortex/]Vortex [/url][color=#d4d4d8]to make installation even easier. [/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]Mod enhances exosuit mobility by increasing maximum movement speed and force in every environment, while reducing stamina and jetpack tank drain. Also it includes increase in all characteristics of Neural Stimulator (basic jetpack upgrade), so you'll get a comfortable flight time. All these parameters are set at the top of the respective LUA file, so you can easily change them with [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url]. [/color]\n<br />\n<br />[color=#D4D4D8]If you want to use [url=https://www.nexusmods.com/nomanssky/mods/3128]Fly Like Iron Man[/url] mod with this one, you should download optional file here and install it as usual (DO NOT install main mod version), then delete file [/color][color=#ffe599]GCPLAYERGLOBALS.GLOBAL.MBIN[/color] from Fly Like Iron Man mod directory (all its changes are included in this optional mod), otherwise they will be conflicting with each other.\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]If you want to change parameters of this mod, you can do it with the help of [url=https://github.com/HolterPhylo/AMUMSS/releases]AMUMSS[/url] (detailed instructions how to use it [url=https://www.nexusmods.com/nomanssky/mods/2626]can be found here[/url]). Mod itself doesn't have any specific requirements to use. [/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]Shout out to all of NMS modding community and AMUMSS team especially![/color]\n<br />[color=#D4D4D8]Special thanks to DooDooDevan for his fun \"Fly Like Iron Man\" mod.[/color]\n<br />\n<br />[size=4][b]Other mods[/b][/size]\n<br />[color=#D4D4D8][b][url=https://www.nexusmods.com/nomanssky/mods/4256]Life support and hazard protection upgrades[/url]\n<br />[/b][b][url=https://www.nexusmods.com/nomanssky/mods/4257]Player Weapons Powerup[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4258]Ship weapons powerup[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4269]Vehicle mobility upgrade[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4296]Ship mobility upgrade[/url][/b][/color]\n<br />[color=#D4D4D8][b][url=https://www.nexusmods.com/nomanssky/mods/4578]Fully Automated Luxury Space Machines[/url][/b][/color]\n<br />\n<br />[size=4][b]Additional information[/b][/size][color=#D4D4D8]\n<br />Source code for the mod can be found on [url=https://github.com/JW11-modder/NoMansSky]Github[/url].\n<br />You can support me on [url=https://boosty.to/jwmodder/donate]Boosty[/url].[/color]",
     "state": "normal",
@@ -680918,7 +680918,7 @@
         "size_kb": 4,
         "size_in_bytes": 4322,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4558/8d/b3/af/8db3af49-5c5d-47a3-acaa-d3023ca4767b.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/8d/b3/af/8db3af49-5c5d-47a3-acaa-d3023ca4767b.json"
       },
       {
         "id": [
@@ -680943,7 +680943,7 @@
         "size_kb": 5,
         "size_in_bytes": 5399,
         "changelog_html": "Updated turning speed parameters.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4558/1e/6d/da/1e6ddabb-8070-4804-a482-e5637a6cf370.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/1e/6d/da/1e6ddabb-8070-4804-a482-e5637a6cf370.json"
       },
       {
         "id": [
@@ -680968,7 +680968,7 @@
         "size_kb": 6,
         "size_in_bytes": 6717,
         "changelog_html": "Updated turning speed parameters.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4558/66/17/30/661730d3-0250-46c8-a37e-53e80d13b66b.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/66/17/30/661730d3-0250-46c8-a37e-53e80d13b66b.json"
       },
       {
         "id": [
@@ -680993,7 +680993,7 @@
         "size_kb": 6,
         "size_in_bytes": 6715,
         "changelog_html": "Updated turning speed parameters.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4558/4a/62/af/4a62af46-e850-4c68-8830-65e1a530d854.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/4a/62/af/4a62af46-e850-4c68-8830-65e1a530d854.json"
       },
       {
         "id": [
@@ -681018,7 +681018,7 @@
         "size_kb": 5,
         "size_in_bytes": 5399,
         "changelog_html": "Updated spacewalk parameters.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4558/bb/0a/7f/bb0a7f00-d2cd-4099-a910-e166a45ceb0d.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/bb/0a/7f/bb0a7f00-d2cd-4099-a910-e166a45ceb0d.json"
       },
       {
         "id": [
@@ -681043,7 +681043,7 @@
         "size_kb": 5,
         "size_in_bytes": 5417,
         "changelog_html": "Updated default parameters for more controllable movement.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4558/df/40/d6/df40d61d-3fad-4013-ba0a-b5770fb654dc.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/df/40/d6/df40d61d-3fad-4013-ba0a-b5770fb654dc.json"
       },
       {
         "id": [
@@ -681068,7 +681068,7 @@
         "size_kb": 6,
         "size_in_bytes": 6733,
         "changelog_html": "Updated default parameters for more controllable movement.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4558/59/c2/8e/59c28e35-766b-4fb3-9dfa-078e3dcce66a.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/59/c2/8e/59c28e35-766b-4fb3-9dfa-078e3dcce66a.json"
       },
       {
         "id": [
@@ -681093,7 +681093,7 @@
         "size_kb": 5,
         "size_in_bytes": 5418,
         "changelog_html": "Updated jetpack parameters for faster rides in open space.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4558/8c/81/d7/8c81d789-7c18-40aa-8437-52488f690663.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/8c/81/d7/8c81d789-7c18-40aa-8437-52488f690663.json"
       },
       {
         "id": [
@@ -681118,7 +681118,7 @@
         "size_kb": 6,
         "size_in_bytes": 6709,
         "changelog_html": "Updated jetpack parameters for faster rides in open space.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4558/d0/3e/5f/d03e5f5f-8c33-4366-9235-e7d603e9e2f8.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/d0/3e/5f/d03e5f5f-8c33-4366-9235-e7d603e9e2f8.json"
       },
       {
         "id": [
@@ -681143,7 +681143,32 @@
         "size_kb": 5,
         "size_in_bytes": 5413,
         "changelog_html": "Fixed options that changed swimming in VR mode - reverted to default values.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4558/45/c8/0d/45c80d80-c95a-431d-9338-547eb67fdc24.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/45/c8/0d/45c80d80-c95a-431d-9338-547eb67fdc24.json"
+      },
+      {
+        "id": [
+          49758,
+          1634
+        ],
+        "uid": 7017976611422,
+        "file_id": 49758,
+        "name": "Player Mobility Upgrade (Slower Jetpack)",
+        "version": "7.05",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "Player Mobility Upgrade (Slower Jetpack) 4558 7.05 2026-10-10T18-51Z cEkp5sVNW.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791658275,
+        "uploaded_time": "2026-10-10T18:51:15.000+00:00",
+        "mod_version": "7.05",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9c7b7ebbb4cb90d9edd480bf4d159223d48f7dfe8a9cddd7ce2c18c473f6ad97",
+        "description": "",
+        "size_kb": 5,
+        "size_in_bytes": 5415,
+        "changelog_html": "Fixed options that changed swimming in VR mode - reverted to default values.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4558/83/4c/c2/834cc253-b278-482c-9a70-cf77c337afef.json"
       }
     ],
     "changelogs": {
