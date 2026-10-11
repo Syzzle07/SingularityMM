@@ -682775,12 +682775,12 @@
     "mod_id": 4575,
     "name": "NMScribe",
     "summary": "Create editable No Man’s Sky text and SVG icons from native Flat Panels or Storage Panel backs in Blender. Five lettering styles, SVG recovery and rebuilding, colour matching, Follow Curve and native JSON export. Requires Base Builder; Charon Forge is optional.",
-    "version": "2.2.12",
+    "version": "2.2.15",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4575/4575-1790552758-1920361099.png",
     "author": "FuriousFurby",
-    "updated_timestamp": 1791669779,
+    "updated_timestamp": 1791736441,
     "created_timestamp": 1790552989,
-    "description": "[size=4][b]NMScribe 2.2.12 — SVG Recovery and Feature Rebuilding[/b][/size]\n<br />\n<br />Create editable No Man’s Sky lettering and SVG icons with native Flat Panels or Storage Panel backs.\n<br />\n<br />[size=4][b]New in 2.2.12[/b][/size]\n<br />[list]\n<br />[*]More robust SVG reading, with efficient rounded stroke joins for traced artwork.[/*]\n<br />[*]Recoverable import failures can rebuild the visible outlines and cutouts, then offer Simplify &amp; Import for approval.[/*]\n<br />[*]Rebuild SVG can strengthen thin features while preserving your original file. Thin-outline panel fitting is also improved.[/*]\n<br />[*]Import failures show useful details and keep your previously loaded icon.[/*]\n<br />[/list]\n<br />[size=4][b]Colour matching and Follow Curve[/b][/size]\n<br />[list]\n<br />[*]Optional SVG colour matching: match solid fills and strokes to the nearest NMS palette colours, then customize individual choices in the Colours popout. Match colours is off by default; station palettes are optional.[/*]\n<br />[*]Follow Curve: select already-generated text/icon panels or their control together with one Blender curve, then click Follow Curve. Either object can be active.[/*]\n<br />[*]Curve Options: fit to length, reverse, facing, Restore Flat Layout, and Around curve angle for circles and other closed curves. Set an angle and click Follow Curve: 90 degrees moves a quarter-turn, negative values move the other way, and 0 resets the start.[/*]\n<br />[*]Animated preview progress with stages and elapsed time. Larger highlighted Generate buttons.[/*]\n<br />[*]Improved straight edges, faceted curves, seam repair, and overlapping backing/colour inlays where useful.[/*]\n<br />[*]Fixed false stretched-text errors and starting orientation on Bezier circles.[/*]\n<br />[/list]\n<br />[size=4][b]Text generation[/b][/size]\n<br />Five custom lettering styles with A–Z, numbers and supported symbols. Live style switching, right-click editing, size and spacing controls, and multiline signs.\n<br />\n<br />[size=4][b]Icon / Sticker generation[/b][/size]\n<br />Import SVG artwork, preview the result, and balance detail against the part limit. Generate, re-edit and export native panels. Colour matching is approximate: materials and lighting affect the final appearance. Complex SVGs may need simplification or more parts.\n<br />\n<br />[size=4][b]Requirements and compatibility[/b][/size]\n<br />Requires the Base Builder Blender plugin by DjMonkey. Charon Forge is optional. Version 2.2.12 was tested on Windows with Blender 5.1.2, including both supplied Heart Pirates SVGs, clean installation and native panel export. Previous 2.2.8 compatibility checks covered Blender 5.1.2 / combined Base Builder 18.0.9 and Blender 5.2.2 LTS / stock Base Builder 6.5.2, with Forge disabled and enabled. NMScribe does not modify either dependency. These Blender tests do not certify console or multiplayer behaviour.\n<br />\n<br />[size=4][b]Install or update[/b][/size]\n<br />Download NMS_Text_Generator_2.2.12.zip. In Blender use Edit &gt; Preferences &gt; Add-ons &gt; Install from Disk and select the ZIP without extracting it. Save your work and restart Blender after updating. Press N over the viewport and open NMS Text.\n<br />\n<br />Existing creations are not rebuilt automatically. Keep a copy before regenerating manually edited artwork. Keep your .blend as the editable master; JSON exports contain native parts. The full offline NMScribe_Instructions.html guide is included in the installer.\n<br />\n<br />[url=https://github.com/slipperystickers/nms-text-generator/releases/tag/v2.2.12]GitHub release, full instructions and checksums[/url]\n<br />\n<br />By FuriousFurby, shared through Corvette Class Builders (CCB). [url=https://discord.gg/arbW3DvM5y]CCB / Traveller Toolkit[/url]",
+    "description": "[size=4][b]NMScribe 2.2.15 — Smarter SVG Fitting and Fewer Panels[/b][/size]\n<br />\n<br />Create editable No Man’s Sky lettering and SVG icons with native Flat Panels or Storage Panel backs.\n<br />\n<br />[size=4][b]New in 2.2.15[/b][/size]\n<br />[list]\n<br />[*]Accuracy now simplifies connected SVG contours consistently, making straighter bands and simpler outside facets that fit larger native panels.[/*]\n<br />[*]Straight stems and rectangular openings retain their orientation. Hole and island checks keep simplification within safe limits; 100% accuracy keeps the original contours.[/*]\n<br />[*]Panel placement checks and repairs visible seams and interior gaps. Fit Details separately reports contour changes and fitted-silhouette coverage.[/*]\n<br />[*]On the supplied Heart Pirates SVG, 60% accuracy uses 147 panels versus 187 at 100% (40 fewer), with 99.8% sampled coverage of the fitted silhouette. Lower accuracy intentionally changes some outer angles.[/*]\n<br />[*]Background preview updates remain responsive while moving the sliders.[/*]\n<br />[/list]\n<br />[size=4][b]SVG recovery added in 2.2.12[/b][/size]\n<br />[list]\n<br />[*]More robust SVG reading, with efficient rounded stroke joins for traced artwork.[/*]\n<br />[*]Recoverable import failures can rebuild the visible outlines and cutouts, then offer Simplify &amp; Import for approval.[/*]\n<br />[*]Rebuild SVG can strengthen thin features while preserving your original file. Thin-outline panel fitting is also improved.[/*]\n<br />[*]Import failures show useful details and keep your previously loaded icon.[/*]\n<br />[/list]\n<br />[size=4][b]Colour matching and Follow Curve[/b][/size]\n<br />[list]\n<br />[*]Optional SVG colour matching: match solid fills and strokes to the nearest NMS palette colours, then customize individual choices in the Colours popout. Match colours is off by default; station palettes are optional.[/*]\n<br />[*]Follow Curve: select already-generated text/icon panels or their control together with one Blender curve, then click Follow Curve. Either object can be active.[/*]\n<br />[*]Curve Options: fit to length, reverse, facing, Restore Flat Layout, and Around curve angle for circles and other closed curves. Set an angle and click Follow Curve: 90 degrees moves a quarter-turn, negative values move the other way, and 0 resets the start.[/*]\n<br />[*]Animated preview progress with stages and elapsed time. Larger highlighted Generate buttons.[/*]\n<br />[*]Improved straight edges, faceted curves, seam repair, and overlapping backing/colour inlays where useful.[/*]\n<br />[*]Fixed false stretched-text errors and starting orientation on Bezier circles.[/*]\n<br />[/list]\n<br />[size=4][b]Text generation[/b][/size]\n<br />Five custom lettering styles with A–Z, numbers and supported symbols. Live style switching, right-click editing, size and spacing controls, and multiline signs.\n<br />\n<br />[size=4][b]Icon / Sticker generation[/b][/size]\n<br />Import SVG artwork, preview the result, and balance detail against the part limit. Generate, re-edit and export native panels. Colour matching is approximate: materials and lighting affect the final appearance. Complex SVGs may need simplification or more parts.\n<br />\n<br />[size=4][b]Requirements and compatibility[/b][/size]\n<br />Requires the Base Builder Blender plugin by DjMonkey. Charon Forge is optional. Version 2.2.15 was tested on Windows with Blender 5.1.2 using the supplied Heart Pirates artwork, a clean installer, native Storage Panel generation and JSON export. The 2.2.12 recovery checks also covered both supplied SVGs. Previous 2.2.8 compatibility checks covered Blender 5.1.2 / combined Base Builder 18.0.9 and Blender 5.2.2 LTS / stock Base Builder 6.5.2, with Forge disabled and enabled. NMScribe does not modify either dependency. These Blender tests do not certify console or multiplayer behaviour.\n<br />\n<br />[size=4][b]Install or update[/b][/size]\n<br />Download NMS_Text_Generator_2.2.15.zip. In Blender use Edit &gt; Preferences &gt; Add-ons &gt; Install from Disk and select the ZIP without extracting it. Save your work and restart Blender after updating. Press N over the viewport and open NMS Text.\n<br />\n<br />Existing creations are not rebuilt automatically. Keep a copy before regenerating manually edited artwork. Keep your .blend as the editable master; JSON exports contain native parts. The full offline NMScribe_Instructions.html guide is included in the installer.\n<br />\n<br />[url=https://github.com/slipperystickers/nms-text-generator/releases/tag/v2.2.15]GitHub release, full instructions and checksums[/url]\n<br />\n<br />By FuriousFurby, shared through Corvette Class Builders (CCB). [url=https://discord.gg/arbW3DvM5y]CCB / Traveller Toolkit[/url]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -682843,9 +682843,9 @@
         "file_id": 49761,
         "name": "NMScribe 2.2.12",
         "version": "2.2.12",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 3166,
         "file_name": "NMScribe 2.2.12 4575 2.2.12 2026-10-10T22-02Z UKXVZqdFv.zip",
         "detected_file_extension": "zip",
@@ -682858,6 +682858,31 @@
         "size_in_bytes": 3242307,
         "changelog_html": "More robust SVG import, including efficient rounded stroke joins for traced artwork.\nRecoverable import failures can rebuild the visible SVG outlines and cutouts, then offer Simplify &amp; Import for approval.\nRebuild SVG can strengthen thin features while preserving the original file.\nClearer import failure details; a failed import keeps the previously loaded icon.\nImproved thin-outline panel fitting.",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4575/8e/dd/14/8edd14fa-43f2-465b-920e-a855b9889d00.json"
+      },
+      {
+        "id": [
+          49771,
+          1634
+        ],
+        "uid": 7017976611435,
+        "file_id": 49771,
+        "name": "NMScribe 2.2.15",
+        "version": "2.2.15",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 3174,
+        "file_name": "NMScribe 2.2.15 4575 2.2.15 2026-10-11T16-34Z xDwj9UAvd.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791736441,
+        "uploaded_time": "2026-10-11T16:34:01.000+00:00",
+        "mod_version": "2.2.15",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8049a8f85e499da38f46e70987d9ae36f97f2ed4d30e32d280d97066f93da40b",
+        "description": "Install this ZIP through Blender: Edit &gt; Preferences &gt; Add-ons &gt; Install from Disk. Restart Blender after updating. Requires No Man's Sky Base Builder; Charon Forge is optional. Full instructions are included.",
+        "size_kb": 3174,
+        "size_in_bytes": 3250466,
+        "changelog_html": "Accuracy now simplifies connected SVG contours consistently, allowing larger native panels while preserving protected straight features and holes.\nImproved panel placement checks for visible seams and missing interior coverage.\nOn the supplied Heart Pirates SVG, 60% accuracy uses 147 panels versus 187 at 100%, with 99.8% sampled coverage of the fitted silhouette.\nFit Details now separates contour changes and fitted coverage; responsive background previews remain in place.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4575/3a/22/40/3a2240ea-928a-4824-a365-e148738aaf39.json"
       }
     ],
     "changelogs": {
@@ -682875,6 +682900,12 @@
         "Rebuild SVG can strengthen thin features while preserving the original file.",
         "Clearer import failure details; a failed import keeps the previously loaded icon.",
         "Improved thin-outline panel fitting."
+      ],
+      "2.2.15": [
+        "Accuracy now simplifies connected SVG contours consistently, allowing larger native panels while preserving protected straight features and holes.",
+        "Improved panel placement checks for visible seams and missing interior coverage.",
+        "On the supplied Heart Pirates SVG, 60% accuracy uses 147 panels versus 187 at 100%, with 99.8% sampled coverage of the fitted silhouette.",
+        "Fit Details now separates contour changes and fitted coverage; responsive background previews remain in place."
       ]
     }
   },
