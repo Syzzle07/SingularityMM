@@ -526492,10 +526492,10 @@
     "mod_id": 3020,
     "name": "Quick Ship Exit",
     "summary": "When in first person mode, exit your ship instantly, without the animation based delay.",
-    "version": "7.01",
+    "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3020/3020-1712275067-1393125921.jpeg",
     "author": "Babscoole",
-    "updated_timestamp": 1789135588,
+    "updated_timestamp": 1791803207,
     "created_timestamp": 1712275278,
     "description": "When in first person mode, it can take several seconds to exit your ship, due to slow animations speed.  This mod solved that problem.\n<br />\n<br />Install:  Extract to GAMEDATA&#92;MODS\n<br />\n<br />Files changed:\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;FIGHTERS&#92;COCKPIT&#92;COCKPITA_INTERIOR&#92;ENTITIES&#92;COCKPITA_INTERIOR.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;SENTINELSHIP&#92;SENTINELCOCKPIT&#92;ENTITIES&#92;COCKPITINTERIOR.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;SAILSHIP&#92;SAILSHIPPARTS&#92;COCKPIT&#92;SAILSHIPCOCKPITA_INTERIOR&#92;ENTITIES&#92;COCKPIT.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;SHUTTLE&#92;INTERIORS&#92;CANOPYA_INTERIOR&#92;ENTITIES&#92;CANOPYA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;SCIENTIFIC&#92;INTERIORS&#92;CANOPYA_INTERIOR&#92;ENTITIES&#92;CANOPYA_INTERIOR.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;SCIENTIFIC&#92;INTERIORS&#92;CANOPYA_INTERIOR&#92;ENTITIES&#92;CANOPYA_INTERIOR.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;S-CLASS&#92;INTERIORS&#92;CANOPYA_INTERIOR&#92;ENTITIES&#92;COCKPIT.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;S-CLASS&#92;BIOPARTS&#92;INTERIOR&#92;CANOPYA_INTERIOR&#92;ENTITIES&#92;COCKPIT.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;DROPSHIPS&#92;COCKPIT&#92;COCKPITB_INTERIOR&#92;ENTITIES&#92;COCKPITB.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;DROPSHIPS&#92;COCKPIT&#92;COCKPITA_INTERIOR&#92;ENTITIES&#92;COCKPITA.ENTITY.MBIN\n<br />\n<br />If you need to combine&#92;merge with other mods, use the included .Lua script with AMUMSS.\n<br />[url=https://www.nexusmods.com/nomanssky/mods/2626]How to use AMUMSS at No Man's Sky Nexus - Mods and Community (nexusmods.com)[/url]",
     "state": "normal",
@@ -526799,7 +526799,7 @@
         "size_kb": 15,
         "size_in_bytes": null,
         "changelog_html": "Fix for NMS 6.44",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3020/59/65/f9/5965f98a-eed2-42df-b675-6ef06189cf39.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3020/59/65/f9/5965f98a-eed2-42df-b675-6ef06189cf39.json"
       },
       {
         "id": [
@@ -526810,8 +526810,8 @@
         "file_id": 48138,
         "name": "Quick Ship Exit",
         "version": "7.01",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 15,
         "file_name": "Quick Ship Exit 3020 7.01 2026-09-11T14-06Z IohEj9KRm.zip",
@@ -526824,7 +526824,32 @@
         "size_kb": 15,
         "size_in_bytes": 15544,
         "changelog_html": "Cosmos Update",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3020/18/a4/e9/18a4e92c-95d3-4a78-af0c-4661157dc066.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3020/18/a4/e9/18a4e92c-95d3-4a78-af0c-4661157dc066.json"
+      },
+      {
+        "id": [
+          49779,
+          1634
+        ],
+        "uid": 7017976611443,
+        "file_id": 49779,
+        "name": "Quick Ship Exit",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 16,
+        "file_name": "Quick Ship Exit 3020 7.06 2026-10-12T11-06Z L5bXM34Gf.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791803207,
+        "uploaded_time": "2026-10-12T11:06:47.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e9a91a18ab9d11b802fc118fa7984268d63d5a7bbdf564c45021f2a5a1d75443",
+        "description": "",
+        "size_kb": 16,
+        "size_in_bytes": 16805,
+        "changelog_html": "Added vintage interceptors",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3020/49/0c/16/490c16a2-bed7-4e30-9e0f-65aec34dd9ab.json"
       }
     ],
     "changelogs": {
@@ -526848,6 +526873,9 @@
       ],
       "7.01": [
         "Cosmos Update"
+      ],
+      "7.06": [
+        "Added vintage interceptors"
       ]
     }
   },
@@ -688980,5 +689008,2171 @@
       }
     ],
     "changelogs": {}
+  },
+  {
+    "mod_id": 4627,
+    "name": "Majestic Crystals -  A Simple Retexture Modification",
+    "summary": "Tried every Crystal textures mods since 2016. Well, time to move on and try something different i guess. So, this is it, as my last NMS modding attempt. Might try something else someday, somewhere in the future, if Humanity still exist.",
+    "version": "1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4627/4627-1791211893-956329771.jpg",
+    "author": "MindDoser",
+    "updated_timestamp": 1791222957,
+    "created_timestamp": 1791222957,
+    "description": "[center][img]https://i.imgur.com/FxKd7Oi.png[/img]\n<br />[img]https://i.imgur.com/4V5xPjo.png[/img]\n<br />Install via Vortex or Manually.\n<br />Amuss Lua script included.[/center]\n<br />[center]Incompatible with any mod touching Crystal Textures.[/center]\n<br />",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49578,
+          1634
+        ],
+        "uid": 7017976611242,
+        "file_id": 49578,
+        "name": "Majestic Crystals   NMS Default Colours",
+        "version": "1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 83952,
+        "file_name": "Majestic Crystals NMS Default Colours 4627 1 2026-10-05T14-52Z VMJOtClRh.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791211948,
+        "uploaded_time": "2026-10-05T14:52:28.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e45ea95ba2deb6610c94fe988dd4ef98bfe759e41027bc1cb8fd3b9b339d66df",
+        "description": "",
+        "size_kb": 83952,
+        "size_in_bytes": 85967055,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4627/e2/3d/23/e23d23b7-e437-4770-b009-f5619c964821.json"
+      },
+      {
+        "id": [
+          49579,
+          1634
+        ],
+        "uid": 7017976611243,
+        "file_id": 49579,
+        "name": "Majestic Crystals",
+        "version": "1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 96492,
+        "file_name": "Majestic Crystals 4627 1 2026-10-05T14-52Z uhKkQ8XDd.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791211969,
+        "uploaded_time": "2026-10-05T14:52:49.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cbf9f9555f62de1dd96c181094eeab79687bab1033f8bab61d2ff71f9b5d4805",
+        "description": "",
+        "size_kb": 96492,
+        "size_in_bytes": 98808194,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4627/ef/31/e6/ef31e6ff-eb7e-4f7f-8a6a-9007019fd708.json"
+      },
+      {
+        "id": [
+          49589,
+          1634
+        ],
+        "uid": 7017976611253,
+        "file_id": 49589,
+        "name": "Majestic Crystals - Vanilla Colours",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 83954,
+        "file_name": "Majestic Crystals - Vanilla Colours 4627 1 2026-10-05T17-50Z eV714avQG.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791222609,
+        "uploaded_time": "2026-10-05T17:50:09.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4f9f46ef71201d2e2688917d65da495a8463e226af219b03f306f9cf0ffd3b0a",
+        "description": "[img]https://i.imgur.com/xCpw8MR.png[/img]",
+        "size_kb": 83954,
+        "size_in_bytes": 85969913,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4627/71/21/0f/71210f33-0bb5-4d2d-8f1c-b6cd639c4794.json"
+      },
+      {
+        "id": [
+          49590,
+          1634
+        ],
+        "uid": 7017976611254,
+        "file_id": 49590,
+        "name": "Majestic Crystals",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 96492,
+        "file_name": "Majestic Crystals 4627 1 2026-10-05T17-50Z s60W14Ck9.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791222640,
+        "uploaded_time": "2026-10-05T17:50:40.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/99ae657aee8bb871b5b2b2404d35fa72c2e5c2cd2e5fecd01309307f5c1dab4c",
+        "description": "[img]https://i.imgur.com/rUdZQNQ.png[/img]",
+        "size_kb": 96492,
+        "size_in_bytes": 98807981,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4627/2d/f2/a0/2df2a0c3-8837-4049-839c-261bc5116774.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4628,
+    "name": "Easy Painter Colours",
+    "summary": "Five colour packs (colors): Neon, Metallic, Military, Pastel and Deep Space, made for NMS Easy Save Editor &amp; Painter. 20 named colours for starships and freighters, plus a fix so painted multi-tools take one colour all over, dark colours and black included. Use one pack at a time.",
+    "version": "1.4",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4628/4628-1791301208-1423510672.jpg",
+    "author": "germinus",
+    "updated_timestamp": 1791633849,
+    "created_timestamp": 1791301863,
+    "description": "[size=5][b]Easy Painter Colours[/b][/size]\n<br />[size=3]Colour packs (colors) made for [url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor &amp; Painter[/url].[/size]\n<br />\n<br />There are other colour mods on Nexus, and they are great. This one is made [b]specifically for NMS Easy Save Editor &amp; Painter[/b]: the colours were chosen for painting, every colour has a proper name in the editor, and it includes a small fix that lets multi-tools take one colour all over.\n<br />\n<br />[size=4][b]Five packs - pick ONE[/b][/size]\n<br />[list]\n<br />[*][b]Neon[/b] - bold, bright colours: hot pink, lime green, turquoise, amber and more.[/*]\n<br />[*][b]Metallic[/b] - metal shades: gold, champagne, rose gold, copper, bronze, silver, steel blue, gunmetal and more.[/*]\n<br />[*][b]Military[/b] [i](new in 1.3)[/i] - olive drab, camo green, desert tan, field grey, gunmetal, matte black, navy, plus rust red and hazard orange.[/*]\n<br />[*][b]Pastel[/b] [i](new in 1.3)[/i] - soft pinks, peach, butter yellow, mint, sage, seafoam, sky blue, periwinkle, lavender, lilac and cream.[/*]\n<br />[*][b]Deep Space[/b] [i](new in 1.4)[/i] - dark space colours: void, midnight and cobalt blues, deep teal, abyss and aurora greens, nebula purple, cosmic plum, black cherry, blood moon, ember, plus lighter comet ice, starlight silver and moon grey for contrast.[/*]\n<br />[/list]Only use one pack at a time, and remove any other colour mod first.\n<br />\n<br />[size=4][b]What it does[/b][/size]\n<br />[list]\n<br />[*]Replaces the 20 colours offered for starships and freighters, in the game and in the editor.[/*]\n<br />[*]Shows each colour with its own name in NMS Easy Save Editor &amp; Painter (Gold, Rose gold, Hot pink...).[/*]\n<br />[*][b]Multi-tool fix:[/b] without it, one part of many multi-tools (for example the lower body of most rifles) always turns the [i]opposite[/i] colour of the one you pick. With the pack, the whole multi-tool takes your colour.[/*]\n<br />[*][b]Black multi-tools (new in 1.1):[/b] dark colours and black now work on multi-tools as well, not just bright ones. [b]1.2:[/b] Experimental multi-tools too.[/*]\n<br />[/list][size=4][b]Good to know[/b][/size]\n<br />[list]\n<br />[*]The Painter in NMS Easy Save Editor &amp; Painter is new and still [b]experimental[/b], so there may be bugs - please report anything odd.[/*]\n<br />[*]Inside the game's own colour menus, the colours keep the game's fixed names (for example Gold may be called \"Red\"). The editor shows the right names.[/*]\n<br />[*][b]New in 1.1:[/b] multi-tools take [b]dark colours and black[/b] too (paint them with NMS Easy Save Editor &amp; Painter 1.37 or later). Without the pack, the game keeps multi-tools bright.[/*]\n<br />[*]Painting starships needs ships built at a Starship Fabricator; the game resets every other ship to its own colours.[/*]\n<br />[/list][size=4][b]Install[/b][/size]\n<br />[list=1]\n<br />[*]Download ONE pack: Neon, Metallic, Military, Pastel OR Deep Space.[/*]\n<br />[*]Copy the folder inside the zip into [b]No Man's Sky&#92;GAMEDATA&#92;MODS[/b].[/*]\n<br />[*]Start the game.[/*]\n<br />[/list]To remove it, delete the folder from GAMEDATA&#92;MODS.\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />Works on its own, but it is made to be used with [url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor &amp; Painter[/url].\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - the friendly save editor these colours are made for.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - an exosuit module that teleports you to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - an exosuit module that teleports you aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - every material shows what it is used to make and what it refines into.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - your helmet torch, brighter and a little wider.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url] - see every item you own and where it is, and move stock live while you play (beta).[/*]\n<br />[/list]\n<br />[i]Colour choices and all in-game testing by germinus; files made with AI assistance.[/i]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49621,
+          1634
+        ],
+        "uid": 7017976611285,
+        "file_id": 49621,
+        "name": "Easy Painter Colours - Neon",
+        "version": "1.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 808,
+        "file_name": "Easy Painter Colours - Neon 4628 1.0 2026-10-06T15-41Z Z3ytCvPHv.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791301302,
+        "uploaded_time": "2026-10-06T15:41:42.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/58afc53e09632c4b9a76995940c16b927ca053f7a0def861de3968fff92c5150",
+        "description": "Bold, bright colours with names for NMS Easy Save Editor &amp; Painter, plus the multi-tool fix. Install only ONE pack (Neon or Metallic).",
+        "size_kb": 808,
+        "size_in_bytes": 828001,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4628/e7/46/ef/e746ef6d-33c2-45ef-905b-f2728d894133.json"
+      },
+      {
+        "id": [
+          49622,
+          1634
+        ],
+        "uid": 7017976611286,
+        "file_id": 49622,
+        "name": "Easy Painter Colours - Metallic",
+        "version": "1.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 808,
+        "file_name": "Easy Painter Colours - Metallic 4628 1.0 2026-10-06T15-43Z SxEYBfkt9.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791301410,
+        "uploaded_time": "2026-10-06T15:43:30.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cc1465e7ff18c2cd4c99f472ae18d4690c266eb930ce516b2120cca058103cc7",
+        "description": "Metal shades (gold, copper, silver...) with names for NMS Easy Save Editor &amp; Painter, plus the multi-tool fix. Install only ONE pack (Neon or Metallic).",
+        "size_kb": 808,
+        "size_in_bytes": 827996,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4628/6a/ba/7b/6aba7bf7-bff1-4931-bd15-38d105075d85.json"
+      },
+      {
+        "id": [
+          49649,
+          1634
+        ],
+        "uid": 7017976611313,
+        "file_id": 49649,
+        "name": "Easy Painter Colours - Neon",
+        "version": "1.1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 900,
+        "file_name": "Easy Painter Colours - Neon 4628 1.1 2026-10-07T13-17Z 2B5KARbNI.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791379052,
+        "uploaded_time": "2026-10-07T13:17:32.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d27a77011a0828c18e0707e94976365bdfefe489e69c60f36b15275c35abf314",
+        "description": "Bold, bright colours with names for NMS Easy Save Editor &amp; Painter, plus the multi-tool fix. Install only ONE pack (Neon or Metallic).",
+        "size_kb": 900,
+        "size_in_bytes": 922420,
+        "changelog_html": "New: multi-tools can now be painted dark colours, black included (with NMS Easy Save Editor &amp; Painter 1.37).\nBright colours still look as bright as before.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4628/58/1a/f2/581af2f8-1fce-4816-ba29-1ebb9be85051.json"
+      },
+      {
+        "id": [
+          49650,
+          1634
+        ],
+        "uid": 7017976611314,
+        "file_id": 49650,
+        "name": "Easy Painter Colours - Metallic",
+        "version": "1.1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 900,
+        "file_name": "Easy Painter Colours - Metallic 4628 1.1 2026-10-07T13-18Z HZO4aroRp.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791379116,
+        "uploaded_time": "2026-10-07T13:18:36.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/bc2041359284a54055204b9869eb9f2b327252451daeeaaebbfdb3a8f813a968",
+        "description": "Metal shades (gold, copper, silver...) with names for NMS Easy Save Editor &amp; Painter, plus the multi-tool fix. Install only ONE pack (Neon or Metallic).",
+        "size_kb": 900,
+        "size_in_bytes": 922423,
+        "changelog_html": "New: multi-tools can now be painted dark colours, black included (with NMS Easy Save Editor &amp; Painter 1.37).\nBright colours still look as bright as before.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4628/cd/d0/aa/cdd0aadc-db11-481c-8f9a-10a0fd2c81e3.json"
+      },
+      {
+        "id": [
+          49653,
+          1634
+        ],
+        "uid": 7017976611317,
+        "file_id": 49653,
+        "name": "Easy Painter Colours - Neon",
+        "version": "1.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 908,
+        "file_name": "Easy Painter Colours - Neon 4628 1.2 2026-10-07T13-59Z GkVHbn7wY.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791381565,
+        "uploaded_time": "2026-10-07T13:59:25.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7299df3b8454b70e0c58ea4123100addbf88aa94a62e4042a9c3332a2eb5e7f0",
+        "description": "Bold, bright colours with names for NMS Easy Save Editor &amp; Painter, plus the multi-tool fix. Install only ONE pack (Neon or Metallic).",
+        "size_kb": 908,
+        "size_in_bytes": 930793,
+        "changelog_html": "New: Experimental multi-tools can now be painted dark colours and black too.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4628/2c/17/7f/2c177f3a-975e-4056-a77a-80057589172a.json"
+      },
+      {
+        "id": [
+          49654,
+          1634
+        ],
+        "uid": 7017976611318,
+        "file_id": 49654,
+        "name": "Easy Painter Colours - Metallic",
+        "version": "1.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 909,
+        "file_name": "Easy Painter Colours - Metallic 4628 1.2 2026-10-07T14-00Z RH1TdJIQp.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791381658,
+        "uploaded_time": "2026-10-07T14:00:58.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1d480fae39e458a2801e71943d9c6ca597557b0730a47c20eb93ed2719b6a617",
+        "description": "Metal shades (gold, copper, silver...) with names for NMS Easy Save Editor &amp; Painter, plus the multi-tool fix. Install only ONE pack (Neon or Metallic).",
+        "size_kb": 909,
+        "size_in_bytes": 930826,
+        "changelog_html": "New: Experimental multi-tools can now be painted dark colours and black too.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4628/91/3e/8c/913e8c9a-69e5-43d3-9cc3-c5d6bcd7e14d.json"
+      },
+      {
+        "id": [
+          49682,
+          1634
+        ],
+        "uid": 7017976611346,
+        "file_id": 49682,
+        "name": "Easy Painter Colours - Military",
+        "version": "1.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 914,
+        "file_name": "Easy Painter Colours - Military 4628 1.3 2026-10-08T05-36Z kAMZq0JU0.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791437782,
+        "uploaded_time": "2026-10-08T05:36:22.000+00:00",
+        "mod_version": "1.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/694082e4db6d42f1cb79f350521fc8ce5484cfc70a0bed6a1502861dcaca69ff",
+        "description": "Military and stealth colours: olive, camo, desert tan, greys, gunmetal, matte black, navy, plus rust red and hazard orange. Use only one colour pack at a time.",
+        "size_kb": 914,
+        "size_in_bytes": 936457,
+        "changelog_html": "New colour packs: Military and Pastel.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4628/a7/d9/7d/a7d97d16-b783-416a-8e77-098f805e292b.json"
+      },
+      {
+        "id": [
+          49683,
+          1634
+        ],
+        "uid": 7017976611347,
+        "file_id": 49683,
+        "name": "Easy Painter Colours - Pastel",
+        "version": "1.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 914,
+        "file_name": "Easy Painter Colours - Pastel 4628 1.3 2026-10-08T05-38Z Z3ytCvPVm.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791437883,
+        "uploaded_time": "2026-10-08T05:38:03.000+00:00",
+        "mod_version": "1.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a11dcdb9fd3fa15ebd101bf044430d2f7e5287871ac2786e78309a3b73d302b0",
+        "description": "Soft pastel colours: pinks, peach, butter yellow, mint, sage, seafoam, sky blue, periwinkle, lavender, lilac, cream and more. Use only one colour pack at a time.",
+        "size_kb": 914,
+        "size_in_bytes": 936375,
+        "changelog_html": "New colour packs: Military and Pastel.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4628/97/4e/09/974e0941-6d5f-430b-9603-e01395f96e08.json"
+      },
+      {
+        "id": [
+          49754,
+          1634
+        ],
+        "uid": 7017976611418,
+        "file_id": 49754,
+        "name": "Easy Painter Colours - Deep Space",
+        "version": "1.4",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 914,
+        "file_name": "Easy Painter Colours - Deep Space 4628 1.4 2026-10-10T12-04Z AeW3Tdr5v.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791633849,
+        "uploaded_time": "2026-10-10T12:04:09.000+00:00",
+        "mod_version": "1.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7d9e7ef53df476728ec0b0a478327298481e2a45fa04bd644a1057ef2d8eefa8",
+        "description": "",
+        "size_kb": 914,
+        "size_in_bytes": 936511,
+        "changelog_html": "1.4 - New colour pack: Deep Space - 19 dark space colours (midnight blues, nebula purples, deep teals, blood reds) plus a few lighter accents. Neon, Metallic, Military and Pastel are unchanged.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4628/cf/11/da/cf11da55-4736-4b1c-a0f5-8e57959dfee5.json"
+      }
+    ],
+    "changelogs": {
+      "1.1": [
+        "New: multi-tools can now be painted dark colours, black included (with NMS Easy Save Editor &amp; Painter 1.37).",
+        "Bright colours still look as bright as before."
+      ],
+      "1.2": [
+        "New: Experimental multi-tools can now be painted dark colours and black too."
+      ],
+      "1.3": [
+        "New colour packs: Military and Pastel."
+      ],
+      "1.4": [
+        "1.4 - New colour pack: Deep Space - 19 dark space colours (midnight blues, nebula purples, deep teals, blood reds) plus a few lighter accents. Neon, Metallic, Military and Pastel are unchanged."
+      ]
+    }
+  },
+  {
+    "mod_id": 4630,
+    "name": "Reduced Pulse Engine Fuel Costs",
+    "summary": "Reduce Pulse Engine fuel cost by Half, Quater or Tenth.",
+    "version": "0.1.0",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4630/4630-1791321786-851615822.jpg",
+    "author": "SavageCore",
+    "updated_timestamp": 1791324175,
+    "created_timestamp": 1791321847,
+    "description": "[center][size=5][b]Reduced Pulse Engine Fuel Costs[/b][/size]\n<br />Scale fuel usage by Half, Quater or Tenth.[/center]\n<br />\n<br />[b]Compatibility[/b]\n<br />[list]\n<br />[*]Modifies [i]METADATA/REALITY/TABLES/NMS_REALITY_GCTECHNOLOGYTABLE[/i]. It may conflict\n<br />with any other mod editing that file[/*]\n<br />[*]Built for Cosmos v7.04[/*]\n<br />[/list]\n<br />Built natively on Linux with my [url=https://github.com/SavageCore/AMUMSS/tree/feat/linux-support]AMUMSS Linux port[/url].\n<br />\n<br />Source: [url=https://github.com/SavageCore/reduced-pulse-drive-fuel-costs]https://github.com/SavageCore/reduced-pulse-engine-fuel-costs[/url]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49632,
+          1634
+        ],
+        "uid": 7017976611296,
+        "file_id": 49632,
+        "name": "Reduced Pulse Drive Fuel Costs 0.1.0",
+        "version": "0.1.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "Reduced Pulse Drive Fuel Costs 0.1.0 4630 0.1.0 2026-10-06T21-23Z yIucYBUOK.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791321801,
+        "uploaded_time": "2026-10-06T21:23:21.000+00:00",
+        "mod_version": "0.1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e6fe091bbba85c95a14ddf9ff367d8a562aba6ab4122470264b4e9efcea311e6",
+        "description": "",
+        "size_kb": 4,
+        "size_in_bytes": 4488,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4630/04/df/ac/04dfac36-4053-4ce7-82f0-d4884dda4a0a.json"
+      },
+      {
+        "id": [
+          49634,
+          1634
+        ],
+        "uid": 7017976611298,
+        "file_id": 49634,
+        "name": "Reduced Pulse Drive Fuel Costs 0.1.0",
+        "version": "0.1.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "Reduced Pulse Drive Fuel Costs 0.1.0 4630 0.1.0 2026-10-06T21-42Z cEkp5sVDq.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791322952,
+        "uploaded_time": "2026-10-06T21:42:32.000+00:00",
+        "mod_version": "0.1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2accf8f4ebecd0312e440b85e6c8559142a58e7f2a7d292f9b6008b86f16b72d",
+        "description": "",
+        "size_kb": 4,
+        "size_in_bytes": 4483,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4630/6e/13/1c/6e131c86-13e9-4336-8875-c5f6599a23ea.json"
+      },
+      {
+        "id": [
+          49635,
+          1634
+        ],
+        "uid": 7017976611299,
+        "file_id": 49635,
+        "name": "Reduced Pulse Drive Fuel Costs 0.1.0",
+        "version": "0.1.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": true,
+        "size": 4,
+        "file_name": "Reduced Pulse Drive Fuel Costs 0.1.0 4630 0.1.0 2026-10-06T21-54Z UKXVZqdfr.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791323678,
+        "uploaded_time": "2026-10-06T21:54:38.000+00:00",
+        "mod_version": "0.1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7153d3977adf28ba4b483a40c535f9804dff5fc6d0e8ea8f0ae18cf93ce37dee",
+        "description": "",
+        "size_kb": 4,
+        "size_in_bytes": 4483,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4630/e8/22/2b/e8222b54-e8f3-4b22-9deb-5a9d2d5ac426.json"
+      },
+      {
+        "id": [
+          49637,
+          1634
+        ],
+        "uid": 7017976611301,
+        "file_id": 49637,
+        "name": "Reduced Pulse Engine Fuel Costs 0.1.0",
+        "version": "0.1.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "Reduced Pulse Engine Fuel Costs 0.1.0 4630 0.1.0 2026-10-06T22-02Z UKXVZqdfS.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791324174,
+        "uploaded_time": "2026-10-06T22:02:54.000+00:00",
+        "mod_version": "0.1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4fab24b1f53adff5336d4d98e9c522388b0708156940d0ccfb29cfff348e9df2",
+        "description": "",
+        "size_kb": 4,
+        "size_in_bytes": 4483,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4630/d0/37/14/d0371471-7e20-45ef-8567-6ba47d6178c0.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4632,
+    "name": "Reduced Hyperdrive Fuel Costs",
+    "summary": "Scale hyperdrive fuel usage to Double, Quadruple or Tenfold warps per Warp Cell",
+    "version": "0.1.0",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4632/4632-1791329378-1302907950.jpg",
+    "author": "SavageCore",
+    "updated_timestamp": 1791329687,
+    "created_timestamp": 1791329687,
+    "description": "[center][size=5][b]Reduced Hyperdrive Fuel Costs[/b][/size]\n<br />Scale hyperdrive fuel usage to Double, Quadruple or Tenfold warps per Warp Cell.[/center]\n<br />\n<br />[b]Compatibility[/b]\n<br />[list]\n<br />[*]Modifies [i]METADATA/REALITY/TABLES/NMS_REALITY_GCTECHNOLOGYTABLE[/i]. It may conflict\n<br />with any other mod editing that file[/*]\n<br />[*]Built for Cosmos v7.04[/*]\n<br />[/list]\n<br />Built natively on Linux with my [url=https://github.com/SavageCore/AMUMSS/tree/feat/linux-support]AMUMSS Linux port[/url].\n<br />\n<br />Source: [url=https://github.com/SavageCore/reduced-hyperdrive-fuel-costs]https://github.com/SavageCore/reduced-hyperdrive-fuel-costs[/url]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49639,
+          1634
+        ],
+        "uid": 7017976611303,
+        "file_id": 49639,
+        "name": "Reduced Hyperdrive Fuel Costs 0.1.0",
+        "version": "0.1.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 4,
+        "file_name": "Reduced Hyperdrive Fuel Costs 0.1.0 4632 0.1.0 2026-10-06T23-34Z EwAQ86McO.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791329671,
+        "uploaded_time": "2026-10-06T23:34:31.000+00:00",
+        "mod_version": "0.1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/53afc7c046701f19d1c56eaa8d7df782a67ddd50fbb87ca6367b7b2cb48b3e0b",
+        "description": "",
+        "size_kb": 4,
+        "size_in_bytes": 4567,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4632/a2/8d/29/a28d29ca-37d8-4e61-8f5b-2120988e4aa7.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4633,
+    "name": "Auto Lawn Care",
+    "summary": "Removes rocks, boulders, and crystal spikes from lush/paradise planets for good — your automatic lawn service. Grass, trees, flowers, and plants stay untouched.",
+    "version": "1.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4633/4633-1791402525-2861007.jpg",
+    "author": "thenewblooddan",
+    "updated_timestamp": 1791426981,
+    "created_timestamp": 1791402600,
+    "description": "[size=5][b]Auto Lawn Care[/b][/size]\n<br />Your paradise planets, mowed.\n<br />\n<br />Tired of lasering the same rocks and crystals every time you land on a paradise planet, only to have them respawn? This mod is your automatic lawn service: it clears them out for good.\n<br />\n<br />[size=4][b]What it does:[/b][/size]\n<br />[list]\n<br />[*]Removes all rocks, boulders, rock fragments, and gravel patches from lush/paradise planets[/*]\n<br />[*]Removes crystal spikes (red, blue, yellow) from all planets (they share one spawn file, so this part is global)[/*]\n<br />[*]Removes Damaged Containers (the yellow cargo drop boxes) from all planets (also global, same reason)[/*]\n<br />[/list][size=4][b]What it keeps:[/b][/size]\n<br />[list]\n<br />[*]Grass, trees, flowers, bushes, and all ordinary plants are untouched[/*]\n<br />[*]Missions on non-paradise planets are unaffected[/*]\n<br />[/list][size=4][b]Tradeoffs to know:[/b][/size]\n<br />[list]\n<br />[*]You lose ferrite sources on paradise planets (all those rocks gave ferrite dust). If a mission needs lush-planet mining, just remove the mod temporarily and put it back after.[/*]\n<br />[*]Crystal and Damaged Container removal is global, not lush-only, so no more free container loot anywhere. If you want either back on other planet types, let me know.[/*]\n<br />[/list][size=4][b]Installation:[/b][/size]\n<br />[list]\n<br />[*]Extract the AutoLawnCare folder from the zip[/*]\n<br />[*]Drop it into your GAMEDATA/MODS folder[/*]\n<br />[*]Delete DISABLEMODS.txt if it exists[/*]\n<br />[*]No AMUMSS or compiling needed[/*]\n<br />[/list][size=4][b]Pairs well with:[/b][/size]\n<br />[list]\n<br />[*]No Hazardous Plants by Lo2k (based on CruizDroid's No Hazard Flora) — removes the bitey, stingy, explody plants so your lawn is actually safe to walk on. Highly recommended alongside this mod.[/*]\n<br />[/list][size=4][b]Compatibility:[/b][/size]\n<br />[list]\n<br />[*]Built and tested on No Man's Sky 7.00[/*]\n<br />[*]Uses loose EXML patch files, so it should play nice with other mods unless they edit the same lush spawn files[/*]\n<br />[/list][size=4][b]Version 1.1[/b][/size]\n<br />[list]\n<br />[*]1.1: Damaged Containers no longer spawn (global removal)[/*]\n<br />[*]1.0: Initial release[/*]\n<br />[/list]\n<br />This mod was AI-assisted.",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49666,
+          1634
+        ],
+        "uid": 7017976611330,
+        "file_id": 49666,
+        "name": "AutoLawnCare 1.0",
+        "version": "1.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 10,
+        "file_name": "AutoLawnCare 1.0 4633 1.0 2026-10-07T19-49Z MWrySmNX0.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791402552,
+        "uploaded_time": "2026-10-07T19:49:12.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/56913f2dfb247f0c77b08e47fc76126cc0dc4194b43b51d2733c2c86eccee378",
+        "description": "",
+        "size_kb": 10,
+        "size_in_bytes": 11074,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4633/60/dc/17/60dc17a9-666b-4a6e-bb6a-bfc1570f0e0e.json"
+      },
+      {
+        "id": [
+          49678,
+          1634
+        ],
+        "uid": 7017976611342,
+        "file_id": 49678,
+        "name": "AutoLawnCare 1.1",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 12,
+        "file_name": "AutoLawnCare 1.1 4633 1.1 2026-10-08T02-36Z JrNPcY9dz.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791426980,
+        "uploaded_time": "2026-10-08T02:36:20.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/eabc2c935212159cec8e9de7154c099db32b39dd61246171e3eb9adc88d8a38a",
+        "description": "",
+        "size_kb": 12,
+        "size_in_bytes": 12312,
+        "changelog_html": "Damaged Containers (cargo drop boxes) no longer spawn. Global removal.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4633/44/08/5b/44085bb9-5b47-4f29-b4b2-6a2b677197bd.json"
+      }
+    ],
+    "changelogs": {
+      "1.1": [
+        "Damaged Containers (cargo drop boxes) no longer spawn. Global removal."
+      ]
+    }
+  },
+  {
+    "mod_id": 4635,
+    "name": "Overseer's Toolkit",
+    "summary": "Overseer's Toolkit gives you stone paths, curbs, lamps that need no power, and proper signage, all from the settlement's own build menu. Optional extras let you fortify the perimeter against Sentinels and dress the place up with hundreds of vanilla props.",
+    "version": "1.0.0",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4635/4635-1791430794-2009723019.png",
+    "author": "kelvin101",
+    "updated_timestamp": 1791431826,
+    "created_timestamp": 1791431826,
+    "description": "[size=5][b]Overseer's Toolkit[/b][/size]\n<br />\n<br />Your settlement deserves better than dirt and fireworks.\n<br />\n<br />Overseer's Toolkit gives settlement overseers the stuff a real town needs: stone paths, curbs, street lamps and proper signs. Everything builds straight from the settlement's own build menu, so you can walk in, open the menu and start laying down a main street.\n<br />\n<br />It comes in three modules so you can grab what you want and skip what you don't. Core works on its own; the other two are optional extras.\n<br />\n<br />[size=4][b]🧱 Core: Overseer's Toolkit[/b][/size]\n<br />A new [b]SETTLEMENT[/b] section under Decoration, with:\n<br />[list]\n<br />[*][b]Path Tile[/b] and [b]Path Triangle[/b] for walkways (they flatten the ground under them, so no more bumpy streets)[/*]\n<br />[*][b]Curb[/b], a short stone edge for borders, steps and raised beds[/*]\n<br />[*][b]Path Lamp[/b], a street lamp that lights up with no power hookup[/*]\n<br />[*][b]24 signs[/b] straight from the game: the Illuminated Sign, Standing Sign, Station Billboard, holographic displays, Gek, Korvax and Vy'keen emblems, and number decals 0 to 9 (for when Hab Block 7 needs a name)[/*]\n<br />[/list]Parts unlock as your settlement grows: the path kit at class B, the signs at class A. In creative mode you get everything right away.\n<br />[i]Disclaimer: the class unlocks haven't been tested in a survival or normal game yet. They load fine and should™ work, but if a part doesn't unlock when your settlement levels up, please [url=https://github.com/ethan-hann/nms-settlement-mod/issues]open an issue[/url].[/i]\n<br />\n<br />[size=4][b]🛡️ Defense (optional)[/b][/size]\n<br />[list]\n<br />[*]A new judgement: [b]\"Fortify the perimeter?\"[/b] Say yes, take on some debt, and your settlement gets the [b]Perimeter Watch[/b] perk, which lowers its Sentinel alert level.[/*]\n<br />[*]It's rare on purpose, about once every 18 hours of judgements, so it won't nag you.[/*]\n<br />[*]The [b]Tower Pillar[/b], a decorative watchtower, unlocks at class S.[/*]\n<br />[/list]\n<br />[size=4][b]🌿 Settlement Decor (optional)[/b][/size]\n<br />Opens up [b]489 vanilla decoration parts[/b] for settlement building: exterior decor, lights, construction props, plants, statues, wall decals and posters. Go nuts. 🎉\n<br />The 13 lights that need power are left out, since settlements don't have a power grid.\n<br />[i]Heads up: with this module installed, these parts can also be placed outside a base.[/i]\n<br />\n<br />[size=4][b]📦 Installation[/b][/size]\n<br />[list=1]\n<br />[*]Download the core file, plus any optional modules you want.[/*]\n<br />[*]Extract each zip into [font=Courier New]GAMEDATA&#92;MODS[/font], or let Vortex handle it.[/*]\n<br />[*]Launch the game. That's it.[/*]\n<br />[/list]\n<br />[size=4][b]🔨 How to use[/b][/size]\n<br />Become your settlement's overseer, stand inside the settlement and open the build menu. The new parts are under [b]Decoration &gt; SETTLEMENT[/b]. With Settlement Decor installed, the other decoration tabs fill up too.\n<br />\n<br />[size=4][b]🤝 Compatibility[/b][/size]\n<br />[list]\n<br />[*]Built and tested on [b]NMS 7.06 (COSMOS)[/b].[/*]\n<br />[*]The mod adds new parts instead of changing vanilla ones wherever it can, so it should play nicely with most mods. Every vanilla entry each module touches is listed in COMPATIBILITY.md on GitHub.[/*]\n<br />[*]Want to build base-only parts (walls, landing pads, tech) right next to your settlement? Pair it with [url=https://www.nexusmods.com/nomanssky/mods/1369]gBase Boundaries[/url].[/*]\n<br />[*]Multiplayer: every part reuses a vanilla model, so friends without the mod should still see what you built.[/*]\n<br />[/list]\n<br />[size=4][b]⚠️ Known limits[/b][/size]\n<br />[list]\n<br />[*]The fortify judgement can still turn up after you already have Perimeter Watch. Just turn it down (it costs a little happiness).[/*]\n<br />[*]No path-drawing tool yet, so paths go down one piece at a time like any other part. A live path tool is on the wishlist once NMS.py supports the current game version.[/*]\n<br />[/list]\n<br />[size=4][b]💬 Feedback[/b][/size]\n<br />Found a bug or have an idea for a part? Please report it on the [url=https://github.com/ethan-hann/nms-settlement-mod/issues]GitHub issue tracker[/url] so it doesn't get lost in the comments. Screenshots of your towns ARE welcome in the comments though 😄",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49679,
+          1634
+        ],
+        "uid": 7017976611343,
+        "file_id": 49679,
+        "name": "OverseersToolkit - Core",
+        "version": "1.0.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 15,
+        "file_name": "OverseersToolkit - Core 4635 1.0.0 2026-10-08T03-45Z tScz2hGO2.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791431137,
+        "uploaded_time": "2026-10-08T03:45:37.000+00:00",
+        "mod_version": "1.0.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8d3e22f25ae98771091b42861419ba3735d42659c458c6550d7c470a65b7c190",
+        "description": "Adds the main Decoration &gt; Settlement tab to the build menu with paths, a curb, lamps, and signs.",
+        "size_kb": 15,
+        "size_in_bytes": 15682,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4635/17/21/78/172178fd-8c24-4fae-a23d-c5519b84edcd.json"
+      },
+      {
+        "id": [
+          49680,
+          1634
+        ],
+        "uid": 7017976611344,
+        "file_id": 49680,
+        "name": "OverseersToolkit - Defense",
+        "version": "1.0.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 9,
+        "file_name": "OverseersToolkit - Defense 4635 1.0.0 2026-10-08T03-46Z N2LUkQgiK.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791431193,
+        "uploaded_time": "2026-10-08T03:46:33.000+00:00",
+        "mod_version": "1.0.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/318aaada14571e7c2276c44e43ed5691e133e933aa4caf65acb67c2fbeedd930",
+        "description": "Optional addon module. Adds the Fortify judgement to your settlement requests pool.",
+        "size_kb": 9,
+        "size_in_bytes": 9682,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4635/1e/4f/ad/1e4fad5d-229c-4649-a480-f814ee68a2e4.json"
+      },
+      {
+        "id": [
+          49681,
+          1634
+        ],
+        "uid": 7017976611345,
+        "file_id": 49681,
+        "name": "OverseersToolkit - Decor",
+        "version": "1.0.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "OverseersToolkit - Decor 4635 1.0.0 2026-10-08T03-47Z XnaJySigC.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791431269,
+        "uploaded_time": "2026-10-08T03:47:49.000+00:00",
+        "mod_version": "1.0.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/54641666d708106944e5a65bb9e40dad75709b5177bf779ee207c715dd652422",
+        "description": "Optional addon module. Adds 489 vanilla decoration parts buildable in settlements (and as a side effect, everywhere on a planet).",
+        "size_kb": 2,
+        "size_in_bytes": 2550,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4635/73/e7/99/73e7994f-fa6a-4080-9529-5f5d12bf489e.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4636,
+    "name": "Disable Multiplayer",
+    "summary": "Disables multiplayer, similar to how consoles act when an online subscription is lacked.",
+    "version": "7.06",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4636/4636-1791441993-48218671.jpg",
+    "author": "Grouch",
+    "updated_timestamp": 1791445225,
+    "created_timestamp": 1791445225,
+    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod fully removes multiplayer from the game in the same way that consoles have multiplayer functionality removed when a paid online subscription is lacked. This could be useful if you wish to fully prevent other players from joining you with a mod instead of using the network options (in case you accidentally forget to disable it in the options or something), or if you want to skip the Play VS Join Friends menu and don't care about multiplayer at all.\n<br />\n<br />I'm not the one to question why you would use this, other than to skip a screen or to easily disable multiplayer via mods when you're using other mods that break it.\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"DisableMultiplayer\" folder inside of GAMEDATA/MODS\n<br />\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCDEBUGOPTIONS.GLOBAL.MBIN",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49685,
+          1634
+        ],
+        "uid": 7017976611349,
+        "file_id": 49685,
+        "name": "DisableMultiplayer",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 0,
+        "file_name": "DisableMultiplayer 4636 7.06 2026-10-08T06-59Z L5bXM34FT.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791442786,
+        "uploaded_time": "2026-10-08T06:59:46.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4578731e626093928e0cf7061cc99352b8ea9604d33a669fc30968d261ef3501",
+        "description": "Disables multiplayer completely, skipping the main menu into save select and removing network options.",
+        "size_kb": 0,
+        "size_in_bytes": 523,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4636/01/eb/a5/01eba5df-4ce0-462d-8557-7db553e477fb.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4637,
+    "name": "Universal Purple System Terrain",
+    "summary": "Makes planets in non-purple star systems use the terrain types of those in purple star systems.",
+    "version": "7.06",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4637/4637-1791449632-2103055205.jpg",
+    "author": "Grouch",
+    "updated_timestamp": 1791445236,
+    "created_timestamp": 1791445236,
+    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod makes it so that all planets/moons in non-purple star systems also use the terrain that those in purple systems use that was added in the [url=https://www.nomanssky.com/worlds-part-ii-update/]Worlds Part II Update[/url]. Any bases made without this mod will most likely appear buried beneath terrain or floating above it. Disabling or removing the mod returns these bases to their original state. Players without this mod in multiplayer will still see regular/prime terrain like normal, and will observe you going inside of the terrain they see or floating above it.\n<br />\n<br />Normally planets in purple star systems cannot have rings, so this is the only way to see purple system terrain in the presence of planetary rings.\n<br />\n<br />Optional files are available that replace the terrain of only prime planets (those added in the [url=https://www.nomanssky.com/origins-update/]Origins Update[/url]) or those with the regular terrain that was last modified in the [url=https://www.nomanssky.com/next-update/]NEXT Update[/url]. These are to be treated as their own mods.\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"PurpleTerrain\" folder inside of GAMEDATA/MODS\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />File Changes\n<br />\n<br />﻿Modifies:\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;VOXELGENERATORSETTINGS.MBIN",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49686,
+          1634
+        ],
+        "uid": 7017976611350,
+        "file_id": 49686,
+        "name": "PurpleTerrain",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 111,
+        "file_name": "PurpleTerrain 4637 7.06 2026-10-08T07-26Z KsnM3TaL4.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791444365,
+        "uploaded_time": "2026-10-08T07:26:05.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a018ee94ddd2bce81a191e6e1680b2882b69a5baa1bff638e495faa93c2d3f9d",
+        "description": "Makes all planets/moons use purple system terrain.",
+        "size_kb": 111,
+        "size_in_bytes": 113693,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4637/cd/b3/3c/cdb33c34-d95e-4cb9-a601-e93889233e1e.json"
+      },
+      {
+        "id": [
+          49687,
+          1634
+        ],
+        "uid": 7017976611351,
+        "file_id": 49687,
+        "name": "NormalTerrToPurple",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 56,
+        "file_name": "NormalTerrToPurple 4637 7.06 2026-10-08T07-27Z hfsARgn2Z.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791444424,
+        "uploaded_time": "2026-10-08T07:27:04.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1a47db73a00fe97b0c4df13220af87f4ed5061005c4134edd242cd0fd51a4ba1",
+        "description": "Makes it so that only planets with normal terrain are given purple system terrain, excluding the Prime planets added in the Origins update.",
+        "size_kb": 56,
+        "size_in_bytes": 57477,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4637/55/8d/86/558d86c5-5697-4fe9-9242-73bf4800e7f5.json"
+      },
+      {
+        "id": [
+          49688,
+          1634
+        ],
+        "uid": 7017976611352,
+        "file_id": 49688,
+        "name": "PrimeTerrToPurple",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 56,
+        "file_name": "PrimeTerrToPurple 4637 7.06 2026-10-08T07-28Z IohEj9Krk.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791444499,
+        "uploaded_time": "2026-10-08T07:28:19.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c052af8b4ac7ff1a6814c92897db13da64058d3954801473424e3beebde5545d",
+        "description": "Makes it so that only the Prime planets that were added in the Origins Update are given purple star system terrain, keeping normal planets with the normal terrain from the NEXT update.",
+        "size_kb": 56,
+        "size_in_bytes": 57478,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4637/1e/cf/f8/1ecff803-96d5-46bc-821a-8f84be14903e.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4638,
+    "name": "Switch 1 Limitations",
+    "summary": "Implements the limitations of the Switch 1 version of No Man's Sky: no settlements, no multiplayer and corvettes can only be 40 modules or less with nearly no interior deco",
+    "version": "7.06",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4638/4638-1791461950-1346886709.jpg",
+    "author": "Grouch",
+    "updated_timestamp": 1791462980,
+    "created_timestamp": 1791462980,
+    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />Enables the restrictions/limitations that the Nintendo Switch 1 release of No Man's Sky, which include:\n<br />[list]\n<br />[*]Disabling multiplayer.[/*]\n<br />[*]Disabling settlements.[/*]\n<br />[*]Limiting corvette building (corvette module limit of 40, interior decorating is heavily restricted).[/*]\n<br />[/list]I'm not sure why you would use this, other than to \"see what it's like to be a Switch 1 player\" but without the framerate/fidelity problems, or to reduce overall performance load on extremely low performance systems.\n<br />\n<br />Loading a save that has any corvettes that exceed 40 corvette modules temporarily overrides them with a default corvette that retains their technology, until the mod is disabled/removed or the save is loaded on a platform that supports full-sized corvettes. These temporary corvettes cannot be modified via base building/corvette workshop nor exchanged to landed pilots. They can still be recolored using the interior decoration system, but this probably isn't persistent.\n<br />\n<br />[b]It is fully safe to load existing saves that have settlements or complex corvettes with this mod, as their state returns upon loading them without this mod enabled.[/b]\n<br />\n<br />If you just want to disable multiplayer, [url=https://www.nexusmods.com/nomanssky/mods/4636]use this mod instead[/url].\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"Switch1Limitations\" folder inside of GAMEDATA/MODS\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCDEBUGOPTIONS.GLOBAL.MBIN",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49699,
+          1634
+        ],
+        "uid": 7017976611363,
+        "file_id": 49699,
+        "name": "Switch1Limitations",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 0,
+        "file_name": "Switch1Limitations 4638 7.06 2026-10-08T12-31Z UKXVZqd9I.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791462685,
+        "uploaded_time": "2026-10-08T12:31:25.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4c691c0367deaa26143310cabb8be12766f5671e4decdca09492acccf26d6098",
+        "description": "Removes and changes features to match the Switch 1 version of the game: no multiplayer, no settlements and corvette building is heavily restricted.",
+        "size_kb": 0,
+        "size_in_bytes": 560,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4638/1e/5c/d2/1e5cd258-941c-4bd6-9642-cba5d8c0f1ef.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4640,
+    "name": "Anomaly Uplink",
+    "summary": "An exosuit technology module that teleports you to the Space Anomaly from anywhere. Research it at the Anomaly, build it, charge it with a Warp Cell and jump straight aboard. Won't work before you've reached the Anomaly in your story. Inspired by Orbital Uplink But Tech.",
+    "version": "1.0",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4640/4640-1791468812-301497134.jpg",
+    "author": "germinus",
+    "updated_timestamp": 1791470781,
+    "created_timestamp": 1791470781,
+    "description": "[size=5][b]Anomaly Uplink[/b][/size]\n<br />An exosuit technology module that teleports you to the [b]Space Anomaly[/b] from anywhere in the system you are in. No more flying to space and summoning it.\n<br />\n<br />[i]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/4058]Orbital Uplink But Tech[/url] by FriendlyFirePL, which teleports you to the local space station. That mod showed the way - go and give it a look.[/i]\n<br />\n<br />[size=4][b]How to get it[/b][/size]\n<br />[list]\n<br />[*]Research it at the Space Anomaly, Exosuit technology tree (after the Personal Refiner upgrade), for [b]1,000 Nanites[/b].[/*]\n<br />[*]Build it: [b]2 Wiring Loom, 500 Chromatic Metal, 3 Warp Cells[/b].[/*]\n<br />[/list][size=4][b]How to use it[/b][/size]\n<br />[list]\n<br />[*]Charge it with a [b]Warp Cell[/b]. Each teleport uses the full charge.[/*]\n<br />[*]Open your exosuit technology, select the Anomaly Uplink and choose [b]Teleport to the Space Anomaly[/b].[/*]\n<br />[*]You arrive aboard the Space Anomaly. When you leave, you are back in the same system.[/*]\n<br />[/list][size=4][b]Built-in safety checks[/b][/size]\n<br />[list]\n<br />[*]It will not work until you have reached the Space Anomaly in your story - new players can't skip ahead.[/*]\n<br />[*]It will not work while you are already aboard the Anomaly.[/*]\n<br />[*]Works on foot only - step out of your starship, exocraft or submarine first.[/*]\n<br />[*]If it refuses for any of these reasons, your [b]Warp Cell is given back[/b].[/*]\n<br />[/list][size=4][b]Install[/b][/size]\n<br />Unzip and put the [b]AnomalyUplink[/b] folder into [b]No Man's Sky&#92;GAMEDATA&#92;MODS[/b]. If the game asks to disable mods, choose No.\n<br />To uninstall, remove the module from your exosuit first, then delete the folder.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Adds new entries only (its own technology, research node, reward and mission), so it should sit alongside other mods. Tested with Orbital Uplink But Tech installed at the same time.\n<br />\n<br />Want to warp to your freighter too? See [url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url], my companion mod (separate download).\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, transfer items between saves, find any item across all your saves and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools (Neon, Metallic, Military, Pastel).[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - the companion to this mod.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - every material shows what it is used to make and what it refines into.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - your helmet torch, brighter and a little wider.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url] - see every item you own and where it is, and move stock live while you play (beta).[/*]\n<br />[/list]\n<br />[i]Idea, design decisions and all in-game testing by germinus; game files and icons made with AI.[/i]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49702,
+          1634
+        ],
+        "uid": 7017976611366,
+        "file_id": 49702,
+        "name": "Anomaly Uplink",
+        "version": "1.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 71,
+        "file_name": "Anomaly Uplink 4640 1.0 2026-10-08T14-45Z VMJOtCl6j.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791470720,
+        "uploaded_time": "2026-10-08T14:45:20.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6fc0358f71a36e90a1ce97263bcafdd720de3a949219747b2a1683119ac0f7c0",
+        "description": "",
+        "size_kb": 71,
+        "size_in_bytes": 73678,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4640/59/a5/71/59a57184-9405-40c6-8495-07697aef9e62.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4641,
+    "name": "Freighter Uplink",
+    "summary": "An exosuit technology module that teleports you aboard your freighter from anywhere - even when your freighter is in another system. Research it at the Anomaly, build it once, free to use. Inspired by Orbital Uplink But Tech.",
+    "version": "1.0",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4641/4641-1791470806-1320066084.jpg",
+    "author": "germinus",
+    "updated_timestamp": 1791470921,
+    "created_timestamp": 1791470921,
+    "description": "[size=5][b]Freighter Uplink[/b][/size]\n<br />An exosuit technology module that teleports you aboard [b]your freighter[/b] from anywhere. Energise!\n<br />\n<br />[i]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/4058]Orbital Uplink But Tech[/url] by FriendlyFirePL, which teleports you to the local space station. That mod showed the way - go and give it a look.[/i]\n<br />\n<br />[size=4][b]How to get it[/b][/size]\n<br />[list]\n<br />[*]Research it at the Space Anomaly, Exosuit technology tree (after the Exo-Skiff), for [b]1,000 Nanites[/b].[/*]\n<br />[*]Build it: [b]2 Wiring Loom, 500 Chromatic Metal, 3 Warp Cells[/b].[/*]\n<br />[/list][size=4][b]How to use it[/b][/size]\n<br />[list]\n<br />[*]Free to use - it never needs charging.[/*]\n<br />[*]Open your exosuit technology, select the Freighter Uplink and choose [b]Teleport to your freighter[/b].[/*]\n<br />[*]Works even when your freighter is in another system.[/*]\n<br />[/list][size=4][b]Built-in safety checks[/b][/size]\n<br />[list]\n<br />[*]Tells you if you don't own a freighter yet.[/*]\n<br />[*]Tells you if you are already aboard.[/*]\n<br />[*]Works on foot only - step out of your starship, exocraft or submarine first.[/*]\n<br />[/list][size=4][b]Install[/b][/size]\n<br />Unzip and put the [b]FreighterUplink[/b] folder into [b]No Man's Sky&#92;GAMEDATA&#92;MODS[/b]. If the game asks to disable mods, choose No.\n<br />To uninstall, remove the module from your exosuit first, then delete the folder.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Adds new entries only (its own technology, research node, reward and mission), so it should sit alongside other mods. Tested with Orbital Uplink But Tech installed at the same time.\n<br />\n<br />Want to warp to the Space Anomaly too? See [url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url], my companion mod (separate download).\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, transfer items between saves, find any item across all your saves and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools (Neon, Metallic, Military, Pastel).[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - the companion to this mod.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - every material shows what it is used to make and what it refines into.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - your helmet torch, brighter and a little wider.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url] - see every item you own and where it is, and move stock live while you play (beta).[/*]\n<br />[/list]\n<br />[i]Idea, design decisions and all in-game testing by germinus; game files and icons made with AI.[/i]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49703,
+          1634
+        ],
+        "uid": 7017976611367,
+        "file_id": 49703,
+        "name": "Freighter Uplink",
+        "version": "1.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 66,
+        "file_name": "Freighter Uplink 4641 1.0 2026-10-08T14-47Z uhKkQ8XNO.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791470873,
+        "uploaded_time": "2026-10-08T14:47:53.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1b446dcf89e3eff70d809bfe814414ef121c05d23d6c0fe0b6ce744962ee594b",
+        "description": "",
+        "size_kb": 66,
+        "size_in_bytes": 67786,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4641/f9/6c/aa/f96caa2d-eaaf-4021-b551-49958c0a548a.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4642,
+    "name": "Procedural Starting Gear",
+    "summary": "Randomises the initial Starship &amp; Multi-Tool on new save creation.",
+    "version": "7.06.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4642/4642-1791474994-512235149.jpg",
+    "author": "Grouch",
+    "updated_timestamp": 1791556013,
+    "created_timestamp": 1791475827,
+    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod makes it so that the initial Starship and Multi-Tool of all newly created saves are random, instead of being forced to be the Radiant Pillar BC1 Starship and Waveform Focuser N56-P Multi-Tool.\n<br />\n<br />The starship can either be a Fighter, Explorer, Hauler or Shuttle, while the Multi-Tool can either be a Pistol or a Rifle. Their visual design is completely random and not tied to the star system you start out in, nor can the specific ship/tool ever be found in the wild.\n<br />\n<br />This even affects Community Expeditions that force a specific starship/multi-tool, like Expedition 23: Our Journey Continues.\n<br />\n<br />Credit to [url=https://www.nexusmods.com/profile/CPN723?gameId=1634]CPN723[/url] for making the [url=https://www.nexusmods.com/nomanssky/mods/1860]original version of this mod[/url] that has not been updated for many years. The listed permissions allow me to upload this mod for modern versions.\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"ProcStartingGear\" folder inside of GAMEDATA/MODS\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCDEBUGOPTIONS.GLOBAL.MBIN",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49705,
+          1634
+        ],
+        "uid": 7017976611369,
+        "file_id": 49705,
+        "name": "ProcStartingGear",
+        "version": "7.06",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 0,
+        "file_name": "ProcStartingGear 4642 7.06 2026-10-08T16-03Z AeW3TdrK2.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791475395,
+        "uploaded_time": "2026-10-08T16:03:15.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4f629386691b0158be25aa75629852b39eb334d58b8b41bce316052e4a9527a5",
+        "description": "Makes it so that new saves are given a randomised initial starship and multi-tool.",
+        "size_kb": 0,
+        "size_in_bytes": 596,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4642/51/95/56/519556d7-098d-4849-a369-037812cc9edd.json"
+      },
+      {
+        "id": [
+          49730,
+          1634
+        ],
+        "uid": 7017976611394,
+        "file_id": 49730,
+        "name": "ProcStartingGear",
+        "version": "7.06.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 0,
+        "file_name": "ProcStartingGear 4642 7.06.1 2026-10-09T14-26Z s60W14CQX.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791556013,
+        "uploaded_time": "2026-10-09T14:26:53.000+00:00",
+        "mod_version": "7.06.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5d2ba8c7c50b09e4006371617adce7058cde972f8b917ec764bbf322638ce60e",
+        "description": "Makes it so that new saves are given a randomised initial starship and multi-tool.",
+        "size_kb": 0,
+        "size_in_bytes": 1021,
+        "changelog_html": "Added lua file for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4642/99/a8/fb/99a8fbc1-909b-4cf8-a831-44a80c002897.json"
+      }
+    ],
+    "changelogs": {
+      "7.06.1": [
+        "Added lua file for rebuilding using AMUMSS."
+      ]
+    }
+  },
+  {
+    "mod_id": 4643,
+    "name": "NMS Shipwright",
+    "summary": "NMS Shipwright is a free, open-source Windows tool for No Man's Sky. Design ships part by part with a live 3D preview Find a seed for your design, or locate that ship in a real system near you Put designs straight into your save (new ship or replace one you own) Recolour any ship with the game's real paint sets Skip quests you don't want to do.",
+    "version": "1.8.3",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4643/4643-1791474517-1666389282.jpg",
+    "author": "S-T-0-7",
+    "updated_timestamp": 1791694341,
+    "created_timestamp": 1791476111,
+    "description": "[b]Description[/b]\n<br />\n<br />NMS Shipwright is a free, open-source Windows tool for No Man's Sky. Design a ship part by part, find a real seed that builds it, drop it into your save, recolour it, skip quests, and edit your save — all read from your own copy of the game, so a seed builds exactly the ship the game builds.\n<br />\n<br />[b]Installation instructions[/b]\n<br />[list=1]\n<br />[*]Download and run NMS Shipwright Setup.exe.[/*]\n<br />[*]Windows warns \"unknown publisher\" (not code-signed) — choose More info → Run anyway.[/*]\n<br />[*]Installs for your user only (no admin rights). On first run it finds your game automatically (Steam, GOG, or Microsoft Store).[/*]\n<br />[/list]Uninstall via Settings → Apps, or Uninstall.exe in the install folder.\n<br />\n<br />[b]Main features[/b]\n<br />[list]\n<br />[*]Design ships part by part with a live 3D preview[/*]\n<br />[*]Find a seed for your design, or locate that ship in a real system[/*]\n<br />[*]Put designs into your save — new ship or replacing one you own[/*]\n<br />[*]Recolour with the game's real paint sets[/*]\n<br />[*]Skip quests you don't want to do[/*]\n<br />[*]Save editor: inventories, ship stats, unlocks[/*]\n<br />[/list]Backs up your save first, refuses to run while the game is open, and doesn't mark your save as modded. No bundled game files, no network access.\n<br />\n<br />[b]Requirements[/b]\n<br />[list]\n<br />[*]Windows 10 or 11[/*]\n<br />[*]No Man's Sky installed (Steam, GOG,etc)[/*]\n<br />[*]Nothing else — no Python, no other mods, no game-file edits[/*]\n<br />[/list]\n<br />",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49704,
+          1634
+        ],
+        "uid": 7017976611368,
+        "file_id": 49704,
+        "name": "NMS Shipwright Setup",
+        "version": "1.8.0",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 61281,
+        "file_name": "NMS Shipwright Setup 4643 1.8.0 2026-10-08T15-55Z OyPDz2f7e.exe",
+        "detected_file_extension": "exe",
+        "uploaded_timestamp": 1791474901,
+        "uploaded_time": "2026-10-08T15:55:01.000+00:00",
+        "mod_version": "1.8.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1b5e62a48cc0cbad85bd1d2481b7fa2dd07c09abe2c2ba8a13adcd916cad5064",
+        "description": "",
+        "size_kb": 61281,
+        "size_in_bytes": 62752734,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4643/18/50/b6/1850b695-9c9f-4fc7-a3c2-24ac9c66717d.json"
+      },
+      {
+        "id": [
+          49755,
+          1634
+        ],
+        "uid": 7017976611419,
+        "file_id": 49755,
+        "name": "NMS Shipwright Setup",
+        "version": "1.8.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 61284,
+        "file_name": "NMS Shipwright Setup 4643 1.8.2 2026-10-10T12-21Z lN9fGp8xH.exe",
+        "detected_file_extension": "exe",
+        "uploaded_timestamp": 1791634886,
+        "uploaded_time": "2026-10-10T12:21:26.000+00:00",
+        "mod_version": "1.8.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2df213b5a9f9b7f7ccffbd4571d5b2f1bf543c813127455c759182990e268548",
+        "description": "",
+        "size_kb": 61284,
+        "size_in_bytes": 62755142,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4643/12/49/38/1249388b-e2df-4ec3-b7b0-ce47a4626634.json"
+      },
+      {
+        "id": [
+          49765,
+          1634
+        ],
+        "uid": 7017976611429,
+        "file_id": 49765,
+        "name": "NMS Shipwright 1.8.3",
+        "version": "1.8.3",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 61082,
+        "file_name": "NMS Shipwright 1.8.3 4643 1.8.3 2026-10-11T04-31Z uhKkQ8XzJ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791693083,
+        "uploaded_time": "2026-10-11T04:31:23.000+00:00",
+        "mod_version": "1.8.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/495b0ddc4d619192d5f448ab93ed3a5d32cfff02f53068a4c17bbda18feadc49",
+        "description": "",
+        "size_kb": 61082,
+        "size_in_bytes": 62548757,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4643/a0/94/11/a09411c9-3b9d-4729-b0f9-7c8dfa34f974.json"
+      },
+      {
+        "id": [
+          49768,
+          1634
+        ],
+        "uid": 7017976611432,
+        "file_id": 49768,
+        "name": "NMS Shipwright Setup 1.8.3 (Zipped)",
+        "version": "1.8.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 61068,
+        "file_name": "NMS Shipwright Setup 1.8.3 (Zipped) 4643 1.8.3 2026-10-11T04-52Z pQZbnWOUz.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791694341,
+        "uploaded_time": "2026-10-11T04:52:21.000+00:00",
+        "mod_version": "1.8.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7b20c7e74c52ffc92c52ffc8a7e2c903f8ca151995af260eb315e6918a51a0d0",
+        "description": "",
+        "size_kb": 61068,
+        "size_in_bytes": 62534566,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4643/87/1e/e9/871ee9c8-1a21-4fa1-a049-ef040b6333b8.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4644,
+    "name": "Legacy Space Stations",
+    "summary": "Replaces all regulated space stations with the versions from before the Orbital update.",
+    "version": "7.06",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4644/4644-1791479035-1627358906.jpg",
+    "author": "Grouch",
+    "updated_timestamp": 1791480274,
+    "created_timestamp": 1791480274,
+    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />Replaces all non-outlaw, non-abandoned space stations with the space station layout introduced in the [url=https://www.nomanssky.com/next-update/]NEXT Update[/url], which was later replaced by the modern layout in the [url=https://www.nomanssky.com/orbital-update/]Orbital Update[/url].\n<br />\n<br />These space stations lack a Starship Fabricator, Corvette Workshops, Bone Collector, any Holo-Arena tables and only have one Multi-Tool Cabinet. They also do not properly support corvettes at all, which is why the game prevents you from teleporting aboard a legacy station with a corvette equipped. Despite this, you may still land aboard them manually with corvettes or switch to owned corvettes aboard them.\n<br />\n<br />This mod could save performance on lower-end devices, but that has not been tested yet.\n<br />\n<br />The [url=https://www.nexusmods.com/nomanssky/mods/3904]Station Colour Fix[/url] mod pairs extremely well with this, as these old stations have been bugged for years to always be Teal.\n<br />\n<br />Credit to [url=https://www.nexusmods.com/nomanssky/users/5842786]CodenameAwesome[/url] for putting in the hard work to make the original version of this mod in 2024 before we had a debug globals boolean to simply enable them across the universe, and for [url=https://www.nexusmods.com/profile/Babscoole]Babscoole[/url] for maintaining that into modern versions. If you would like only a certain % of star systems to use the old space station layout, use [url=https://www.nexusmods.com/nomanssky/mods/3008]that mod instead[/url].\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"LegacyStations\" folder inside of GAMEDATA/MODS\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCDEBUGOPTIONS.GLOBAL.MBIN",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49706,
+          1634
+        ],
+        "uid": 7017976611370,
+        "file_id": 49706,
+        "name": "LegacyStations",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 0,
+        "file_name": "LegacyStations 4644 7.06 2026-10-08T16-57Z pQZbnWOGN.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791478673,
+        "uploaded_time": "2026-10-08T16:57:53.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/77ec3f623e561c086ff5d86fb3c7413877accdcd2b419421620fc1162f977238",
+        "description": "Replaces all regulated space stations with the space stations that were added in the NEXT update, and replaced in the Orbital update.",
+        "size_kb": 0,
+        "size_in_bytes": 524,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4644/91/a1/f6/91a1f6e3-e39d-4956-8a89-d80484f5de9d.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4645,
+    "name": "Bigger Trees Denser Forest",
+    "summary": "increases tree size while also make tree distribution more condensed",
+    "version": "1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4645/4645-1791478829-1739223204.png",
+    "author": "Somnati",
+    "updated_timestamp": 1791479576,
+    "created_timestamp": 1791479576,
+    "description": "[size=4][b]Description[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8][b]Overall:[/b] about 2.4× taller on average, ranging from 1.75× to 3.7×. Trees that were already huge grow the least, so nothing gets absurd.[/color][/*]\n<br />[*][color=#D4D4D8][b]Lush trees:[/b] about 2× (roughly 27 m in vanilla, up to about 64 m now).[/color][/*]\n<br />[*][color=#D4D4D8][b]Frozen pines, mangroves, bone, spore, dead and radioactive trees:[/b] about 2.3–2.5×.[/color][/*]\n<br />[*][color=#D4D4D8][b]Giant mushrooms:[/b] about 2×. The huge toxic fungus gets 1.75×.[/color][/*]\n<br />[*][color=#D4D4D8][b]Desert dracaena, peacock trees and cacti:[/b] about 3.7×, from your earlier “larger desert trees” request.[/color][/*]\n<br />[*][color=#D4D4D8][b]Variety:[/b] the shortest trees are now about 30% shorter than vanilla’s shortest, so you get small and giant trees mixed instead of every tree of a kind being one height.\n<br />\n<br />IT DOES ROCKS TO[/color]\n<br />\n<br />\n<br />[list]\n<br />[*][color=#D4D4D8]The largest rocks of most types are about 2.2× vanilla’s largest.[/color][/*]\n<br />[*][color=#D4D4D8]Sand- and snow-blended rocks and gravel patches get 1.45–1.8×.[/color][/*]\n<br />[*][color=#D4D4D8]The giant spike rocks and rock rings were already huge, so they only get 1.6×.[/color][/*]\n<br />[*][color=#D4D4D8]Like the trees, the smallest rocks also come out a bit smaller, so you get a real mix of sizes.[img]https://staticdelivery.nexusmods.com/mods/1634/images/4645/4645-1791479471-787736969.png[/img][/color][/*]\n<br />[/list][/*]\n<br />[/list]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]1. Download and unzip.\n<br />2. Copy the folder(s) into: No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).\n<br />3. Both folders are separate mods - use both, or only the one you want:\n<br />  Somnati_BigTreesBigRocks = bigger trees + desert rocks\n<br />  Somnati_BigPatches = forests and clearings\n<br />4. Areas you already visited may keep their old placement until the terrain reloads.\n<br />\n<br />Uninstall: delete the folder(s).[/color]\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]No Man's Sky 7.04. No other mods required.\n<br />\n<br />Performance: the longer load distance for trees and large rocks costs some performance on weaker PCs.\n<br />Compatibility: Somnati_BigPatches replaces one file (METADATA/SIMULATION/SOLARSYSTEM/BIOMES/PLACEMENTVALUES/SPAWNDENSITYLIST.MBIN) and conflicts with any other mod that replaces it. Somnati_BigTreesBigRocks merges with other mods.[/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]Thanks to the player who asked for my bigger trees and denser forests to be released - this one's for you.\n<br />\n<br />- Claude AI[/color]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49707,
+          1634
+        ],
+        "uid": 7017976611371,
+        "file_id": 49707,
+        "name": "Somnati BigTrees BigForests 1.0 NMS7.04",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 89,
+        "file_name": "Somnati BigTrees BigForests 1.0 NMS7.04 4645 1 2026-10-08T17-12Z n0CrIxzbK.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791479527,
+        "uploaded_time": "2026-10-08T17:12:07.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2296fd07f5f50b5981917082bfcfa1da484f32a36bf50e5c8fe85ecd33d9bf78",
+        "description": "",
+        "size_kb": 89,
+        "size_in_bytes": 91631,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4645/24/f2/a0/24f2a089-8276-4214-a56e-6eda11520573.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4646,
+    "name": "Outfit color tweaks",
+    "summary": "a small edit to the colors of the outfit editor. includes deeper black.",
+    "version": "1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4646/4646-1791481441-1042502939.png",
+    "author": "Somnati",
+    "updated_timestamp": 1791493279,
+    "created_timestamp": 1791481621,
+    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]i made this mod for myself cause i felt the outfit colors were a little desaturated and the black wasnt as black as i'd like...making my outfit kinda grey.\n<br />[/color]\n<br />did some tweaking with a tool i had and managed to get deeper black and more saturated red that i wanted.\n<br />\n<br />so i did a tweak to all the colors and felt others might want this to.\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]1. Download and unzip.\n<br />2. Copy the Somnati_OutfitColours folder into: No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).\n<br />3. In game, open the Appearance Modifier and re-select a colour on each outfit zone you want updated - outfits keep the colour they had when you picked it.\n<br />\n<br />Uninstall: delete the folder. Outfits you already coloured keep their colours.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]- Hand-tuned outfit colour swatches for every outfit zone: head, torso, armour, gloves, legs, boots and backpack (primary, secondary and tertiary colours).\n<br />- \"Black Dark\" is a deeper black than vanilla allows, while the fabric still shows its detail.\n<br />- Only the outfit colours change. Ships, freighters, vehicles and pets keep their vanilla colours.\n<br />- Save-safe: the game stores each outfit colour as plain RGB when you pick it, so removing the mod never breaks a look.[/color]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]No Man's Sky 7.04. No other mods required.\n<br />\n<br />Compatibility: edits the player outfit colour palette (CUSTOMISATIONCOLOURPALETTES, player list only) and adds swatch names in LOCTABLE.MXML. Conflicts with other mods that replace the outfit colour swatches.[/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]Made with my own Somnati Palette Editor's outfit colour tool.\n<br />\n<br />- Claude AI[/color]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49708,
+          1634
+        ],
+        "uid": 7017976611372,
+        "file_id": 49708,
+        "name": "Somnati OutfitColours 1.0 NMS7.04",
+        "version": "1",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Somnati OutfitColours 1.0 NMS7.04 4646 1 2026-10-08T17-46Z 9Lg6VZTji.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791481618,
+        "uploaded_time": "2026-10-08T17:46:58.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b5c1579ca82c00d1f313034f3742227c0f0912ffd10c54e5bfb69bcd32b99d64",
+        "description": "",
+        "size_kb": 3,
+        "size_in_bytes": 3301,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4646/6a/1e/cb/6a1ecb6a-b7b4-4984-8e94-adecf382ca12.json"
+      },
+      {
+        "id": [
+          49712,
+          1634
+        ],
+        "uid": 7017976611376,
+        "file_id": 49712,
+        "name": "Somnati OutfitColours 1.1 NMS7.04",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 3,
+        "file_name": "Somnati OutfitColours 1.1 NMS7.04 4646 1.1 2026-10-08T21-01Z HZO4aroek.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791493279,
+        "uploaded_time": "2026-10-08T21:01:19.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8504e842dee380eb4fd5858ca398abfc53e965ba01331a732db8c7cc0992d62b",
+        "description": "",
+        "size_kb": 3,
+        "size_in_bytes": 3287,
+        "changelog_html": "- increased color saturation on a few colors as i felt some still were a little desaturated...\n- increased the deep black value from .5 to .6",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4646/43/cd/6f/43cd6f4c-e759-439d-87d8-2a3827d8e737.json"
+      }
+    ],
+    "changelogs": {
+      "1.1": [
+        "- increased color saturation on a few colors as i felt some still were a little desaturated...",
+        "- increased the deep black value from .5 to .6"
+      ]
+    }
+  },
+  {
+    "mod_id": 4647,
+    "name": "No Settlements",
+    "summary": "Removes settlements from the game in the same way that the Switch 1 version of the game lacks settlements.",
+    "version": "7.06",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4647/4647-1791485203-217921169.jpg",
+    "author": "Grouch",
+    "updated_timestamp": 1791485387,
+    "created_timestamp": 1791485387,
+    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod removes settlements using a boolean that's enabled on the Switch 1 version of the game, making the game act as if settlements do not exist. Space station cartographers and Autophage Synthesis Terminals won't sell charts to them anymore, and they won't be found on planetary surfaces.\n<br />\n<br />I do not know how the mission \"A Trace of Metal\" works in conjunction with this mod, but I would assume it would play out how it does on the Switch 1.\n<br />\n<br />This mod could improve the performance of lower end devices, as settlements are easily the most performance intensive structures in the game so encountering/loading one on extremely low-end hardware could result in the game becoming unplayable or even crashing.\n<br />\n<br />Saves that have settlements that are loaded with this mod installed will temporarily have the settlements hidden until the mod is disabled/removed. All settlement progress is retained, just like saves cross-saved to Switch 1 and back.\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"NoSettlements\" folder inside of GAMEDATA/MODS\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCDEBUGOPTIONS.GLOBAL.MBIN",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49709,
+          1634
+        ],
+        "uid": 7017976611373,
+        "file_id": 49709,
+        "name": "NoSettlements",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 0,
+        "file_name": "NoSettlements 4647 7.06 2026-10-08T18-04Z xDwj9UAI7.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791482698,
+        "uploaded_time": "2026-10-08T18:04:58.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ef5bb751cfa8b73f88367c0cda329e1318b4b01865206fec28c83b4d2eb799eb",
+        "description": "Removes settlements from the game.",
+        "size_kb": 0,
+        "size_in_bytes": 473,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4647/15/87/1f/15871fc9-04d5-4a51-b781-b61fb78a2994.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4649,
+    "name": "Trade Terminals Sell Just About Everything  xCosmos",
+    "summary": "An unofficial compatibility update for No Man's Sky, bringing expanded Galactic Trade Terminal inventories back to the latest tested game version.",
+    "version": "1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4649/4649-1791513744-1104353452.png",
+    "author": "ikapozin",
+    "updated_timestamp": 1791515502,
+    "created_timestamp": 1791514572,
+    "description": "[color=#d4d4d8]Tired of traveling between systems trying to find specific resources, crafting materials, or upgrade items?[/color]\n<br />[color=#D4D4D8]This mod dramatically expands the inventory of Galactic Trade Terminals and several other merchants, allowing you to purchase a huge variety of items directly from vendors.\n<br />Originally created by [b]Musty123[/b], with previous work credited to [b]duromo81[/b], this updated version has been rebuilt using current AMUMSS and MBINCompiler tools to restore compatibility with newer versions of No Man's Sky.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Features[/color][/heading]\n<br />[list]\n<br />[*][color=#D4D4D8][b]Expanded trade terminal inventories:[/b] Buy a much wider selection of products, materials, and useful items.[/color][/*]\n<br />[*][color=#D4D4D8][b]Large stock quantities:[/b] Supported merchant inventory quantities are set to 9,999.[/color][/*]\n<br />[*][color=#D4D4D8][b]Convenient access to valuable items:[/b] Purchase items such as Stasis Devices, Fusion Ignitors, and Atlas Stones.[/color][/*]\n<br />[*][color=#D4D4D8][b]Upgrade materials:[/b] Find Exosuit Upgrade Charts, Storage Augmentations, Cargo Bulkheads, and more.[/color][/*]\n<br />[*][color=#D4D4D8][b]Specialty resources:[/b] Access items such as Spawning Sacs, Soul Engines, and frigate fuel.[/color][/*]\n<br />[*][color=#D4D4D8][b]Normal economy pricing:[/b] Items still cost Units, and prices can vary with local market conditions.[/color][/*]\n<br />[*][color=#D4D4D8][b]No food expansion:[/b] This update follows the original mod's no-food approach.[/color][/*]\n<br />[/list][color=#D4D4D8][b]Note:[/b] The mod greatly expands available inventories, but it does not guarantee that literally every item in the game is purchasable.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Compatibility[/color][/heading]\n<br />[color=#D4D4D8][b]Tested game version:[/b] No Man's Sky Public Build 180836 (Cosmos 7.x)\n<br />[b]Built with:[/b]\n<br />[/color]\n<br />[list]\n<br />[*][color=#D4D4D8]AMUMSS v5.6.2.0w[/color][/*]\n<br />[*][color=#D4D4D8]MBINCompiler v7.4.1.3[/color][/*]\n<br />[/list][color=#D4D4D8]The mod was successfully compiled without errors or warnings and tested in-game at a Galactic Trade Terminal.\n<br />[b]Potential conflicts:[/b] This mod modifies\n<br />[/color]\n<br />[code]METADATA&#92;REALITY&#92;DEFAULTREALITY.MBIN[/code][color=#D4D4D8]. Other mods that replace or modify the same file may conflict unless their changes are merged.\n<br />Compatibility with future No Man's Sky updates is not guaranteed.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Installation[/color][/heading]\n<br />[list=1]\n<br />Extract the ZIP and place the included mod folder directly inside No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />[*][color=#D4D4D8]Launch No Man's Sky and visit a Galactic Trade Terminal.[/color][/*]\n<br />[/list][color=#D4D4D8][b]Recommendation:[/b] Back up your save before installing or changing mods.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Optional AMUMSS Source[/color][/heading]\n<br />[color=#D4D4D8]The AMUMSS Lua script is included for users who prefer to rebuild the mod themselves or update it for future game versions.\n<br />To rebuild, place the Lua script inside your AMUMSS\n<br />[/color]\n<br />[code]ModScript[/code][color=#D4D4D8]folder and run\n<br />[/color]\n<br />[code]BUILDMOD.bat[/code][color=#D4D4D8]using a compatible MBINCompiler version.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Changelog[/color][/heading]\n<br />[color=#D4D4D8]v0.2 – Cosmos 7.x Compatibility Update\n<br />[/color]\n<br />[list]\n<br />[*][color=#D4D4D8]Rebuilt the mod for newer No Man's Sky game files.[/color][/*]\n<br />[*][color=#D4D4D8]Updated AMUMSS selectors to work with the current trade settings structure.[/color][/*]\n<br />[*][color=#D4D4D8]Restored expanded product and substance inventories.[/color][/*]\n<br />[*][color=#D4D4D8]Updated supported merchant stock settings to 9,999.[/color][/*]\n<br />[*][color=#D4D4D8]Added support for Pirate economy stock quantities in the updated stock settings.[/color][/*]\n<br />[*][color=#D4D4D8]Successfully compiled with zero AMUMSS errors and warnings.[/color][/*]\n<br />[*][color=#D4D4D8]Verified expanded inventory and stock quantities in-game.[/color][/*]\n<br />[/list][heading][color=#D4D4D8]Credits[/color][/heading]\n<br />[color=#D4D4D8][b]Musty123[/b] – Original mod creator.\n<br />[b]duromo81[/b] – Previous mod work and updates.\n<br />[b]GV[/b] – Unofficial compatibility update, rebuilding, and in-game testing.\n<br />This is an unofficial update and is not affiliated with or endorsed by the original creators or Hello Games.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Final Notes[/color][/heading]\n<br />[color=#D4D4D8]The goal of this update is simple: make it easier to access the materials and products you need without spending hours searching different systems.\n<br />If you encounter missing items, unusual merchant behavior, or compatibility problems, please include your game version and a description of the issue when reporting it.[/color]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49719,
+          1634
+        ],
+        "uid": 7017976611383,
+        "file_id": 49719,
+        "name": "Trade Terminals Everything Cosmos V0.2.Zip",
+        "version": "1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 40,
+        "file_name": "Trade Terminals Everything Cosmos V0.2.Zip 4649 1 2026-10-09T02-49Z CmY2hwpta.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791514182,
+        "uploaded_time": "2026-10-09T02:49:42.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/705295b954e563be7ee9aa05f266e16d8c0d094ace095b54567b61006eb999e4",
+        "description": "",
+        "size_kb": 40,
+        "size_in_bytes": 41397,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4649/e0/48/76/e0487605-8360-48f5-a7af-11f2eccd2375.json"
+      },
+      {
+        "id": [
+          49720,
+          1634
+        ],
+        "uid": 7017976611384,
+        "file_id": 49720,
+        "name": "LUA Trade Terminals Everything Cosmos V0.2",
+        "version": "1",
+        "category_id": 5,
+        "category_name": "MISCELLANEOUS",
+        "is_primary": false,
+        "size": 4,
+        "file_name": "LUA Trade Terminals Everything Cosmos V0.2 4649 1 2026-10-09T02-54Z YjQ5seZcc.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791514446,
+        "uploaded_time": "2026-10-09T02:54:06.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3688e64eb2e00ac367d614e6ed281dd77e9eafaa14a4d9eacb909ce4003931f8",
+        "description": "THIS IS THE .LUA TO CHANGE YOURSELF NOT THE ACTUAL MOD ITSELF. ONLY DOWNLOAD THE .PAK FOR THE MOD TO WORK",
+        "size_kb": 4,
+        "size_in_bytes": 4900,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4649/4b/5e/91/4b5e9147-9e08-44b7-849a-ce4e7f9246f9.json"
+      },
+      {
+        "id": [
+          49721,
+          1634
+        ],
+        "uid": 7017976611385,
+        "file_id": 49721,
+        "name": "Trade Terminals Everything Cosmos V0.2.Zip",
+        "version": "2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 38,
+        "file_name": "Trade Terminals Everything Cosmos V0.2.Zip 4649 2 2026-10-09T03-11Z 58qnW1tpk.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791515502,
+        "uploaded_time": "2026-10-09T03:11:42.000+00:00",
+        "mod_version": "2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fd3dc06e40801a468c42623a3603e555ef510259a5bccd9c2d2944b607fd49c6",
+        "description": "",
+        "size_kb": 38,
+        "size_in_bytes": 39843,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4649/f0/93/0d/f0930d05-395d-4da7-8a0a-2e0dfdf75a55.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4650,
+    "name": "Helpful Descriptions",
+    "summary": "Adds useful lines to item descriptions: what each material is used to make and refines into, and where every trade good is sold - with the galaxy map's own symbols. Works in all 17 game languages. Text only - safe to add or remove at any time.",
+    "version": "1.3",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4650/4650-1791517799-1240364840.jpg",
+    "author": "germinus",
+    "updated_timestamp": 1791776706,
+    "created_timestamp": 1791517992,
+    "description": "[size=5][b]Helpful Descriptions[/b][/size]\n<br />Ever picked up a material and wondered what it's actually for, or which system sells the trade goods you need? This mod adds short, useful lines to item descriptions - right there in your inventory and the Catalogue.\n<br />\n<br />[size=4][b]New in 1.3 - food and cooking[/b][/size]\n<br />Cooking ingredients and cooked foods now explain themselves:\n<br />[list]\n<br />[*][b]Used in cooking:[/b] what an ingredient can be cooked into in the Nutrient Processor.[/*]\n<br />[*][b]Cooked from:[/b] the Nutrient Processor recipes that make a cooked food (\"A + B\" for two-ingredient recipes).[/*]\n<br />[/list]\n<br />Covers 201 ingredients and 333 cooked foods. Thanks to SlashSgt for asking.\n<br />Example - Faecium:\n<br />[i]Used in cooking: Creature Pellets, Questionable Biscuit, Wild Yeast[/i]\n<br />\n<br />[size=4][b]Made in a Refiner from[/b][/size]\n<br />66 refined materials now show what you can put in a Refiner to get them:\n<br />[list]\n<br />[*][b]Made in a Refiner from:[/b] the single ingredients that refine into it.[/*]\n<br />[*][b]Or mix:[/b] recipes that need two or three ingredients (\"and N more\" when the list is long).[/*]\n<br />[/list]\n<br />Example - Chromatic Metal:\n<br />[i]Made in a Refiner from: Activated Cadmium, Activated Copper, Activated Emeril, Activated Indium and 6 more\n<br />Or mix: Activated Cadmium + Pure Ferrite, Activated Copper + Pure Ferrite, Activated Emeril + Pure Ferrite and 12 more[/i]\n<br />\n<br />[size=4][b]Trade goods[/b][/size]\n<br />All 35 trade goods show, with the galaxy map's own symbols:\n<br />[list]\n<br />[*][b]Sold in:[/b] the symbol of the economy whose trade terminals sell it.[/*]\n<br />[*][b]System wealth:[/b] the wealth stars of the systems that carry it. The cheapest goods are sold everywhere; the most valuable only in wealthy (3-star) systems. \"(sometimes ...)\" means it may or may not be in stock there.[/*]\n<br />[*][b]Sells for most in:[/b] the symbol of the economy that pays the most for it.[/*]\n<br />[/list]\n<br />Handy when you're building up a settlement and need to know where to go shopping. The wealth rule isn't in the game files (the game decides it in its own code) - it comes from the NMS wiki and players' experience.\n<br />\n<br />[size=4][b]Materials and components[/b][/size]\n<br />[list]\n<br />[*][b]Used to make:[/b] the items you can craft from it (up to six, then \"and N more\").[/*]\n<br />[*][b]Refines into:[/b] what it turns into on its own in a Refiner.[/*]\n<br />[*][b]Made in a Refiner from / Or mix:[/b] what to refine to get it (see above).[/*]\n<br />[/list]\n<br />Example - Carbon:\n<br />[i]Used to make: Carbon Nanotubes, Hydrothermal Fuel Cell, Life Support Gel\n<br />Refines into: Condensed Carbon[/i]\n<br />\n<br />Base decorations, signs and stickers are left out so the lists stay short and useful.\n<br />\n<br />[size=4][b]All languages[/b][/size]\n<br />Works in all 17 of the game's languages, with item names in your own language. The headings are my own translations - if one reads oddly in your language, let me know in Posts and I'll fix it.\n<br />\n<br />[size=4][b]Install[/b][/size]\n<br />Unzip and put the [b]HelpfulDescriptions[/b] folder into [b]No Man's Sky&#92;GAMEDATA&#92;MODS[/b]. If the game asks to disable mods, choose No. Updating: replace the old folder.\n<br />Text only - no recipes, prices, stock or saves are changed, so it's safe to add or remove at any time.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Changes only the description text of these items, and adds ten small pictures (the economy symbols and wealth stars) to the game's list of symbols text can show. A mod that also rewrites the same item descriptions would clash with it (whichever loads last wins). If Hello Games rewords a description in an update, the old wording may show until I update the mod.\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, find any item across all your saves and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url] - see every item you own and where it is, and move stock live while you play (beta).[/*]\n<br />[/list]\n<br />[i]Idea, design decisions and all in-game testing by germinus; the text lines and translations were made with AI from the game's own data.[/i]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49722,
+          1634
+        ],
+        "uid": 7017976611386,
+        "file_id": 49722,
+        "name": "Helpful Descriptions",
+        "version": "1.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 139,
+        "file_name": "Helpful Descriptions 4650 1.0 2026-10-09T03-51Z FpHgXM1w9.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791517878,
+        "uploaded_time": "2026-10-09T03:51:18.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cf1de2f4a5994172aa4661e3e57176d0305cd575d9b587038bc441c8b40da5dc",
+        "description": "",
+        "size_kb": 139,
+        "size_in_bytes": 143067,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4650/ac/24/99/ac249901-e88d-432f-b279-76b42e08e5c1.json"
+      },
+      {
+        "id": [
+          49728,
+          1634
+        ],
+        "uid": 7017976611392,
+        "file_id": 49728,
+        "name": "Helpful Descriptions",
+        "version": "1.1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 210,
+        "file_name": "Helpful Descriptions 4650 1.1 2026-10-09T14-03Z MWrySmNbT.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791554604,
+        "uploaded_time": "2026-10-09T14:03:24.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/bd54ff7c2f5eb66f264df3625ecbe393623665aa80d4e0089a6e325700c10a5e",
+        "description": "",
+        "size_kb": 210,
+        "size_in_bytes": 215395,
+        "changelog_html": "Trade goods: every trade good now shows where it is sold, which system wealth carries it, and where it sells for most, using the galaxy map's own economy symbols and wealth stars. All 17 languages.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4650/65/cb/8c/65cb8c30-6295-47e6-8b66-9c0c305f00f4.json"
+      },
+      {
+        "id": [
+          49750,
+          1634
+        ],
+        "uid": 7017976611414,
+        "file_id": 49750,
+        "name": "Helpful Descriptions",
+        "version": "1.2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 294,
+        "file_name": "Helpful Descriptions 4650 1.2 2026-10-10T10-47Z IohEj9KCK.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791629232,
+        "uploaded_time": "2026-10-10T10:47:12.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/827e357389c504e7e1a4bdc8eda1cd8edcc1c8004287826686eeef3f6e17ded2",
+        "description": "",
+        "size_kb": 294,
+        "size_in_bytes": 301190,
+        "changelog_html": "1.2 - New 'Made in a Refiner from' lines: 66 refiner results (Chromatic Metal, Sodium Nitrate, Magnetised Ferrite and more) now show what to refine to get them - single ingredients first, then 'Or mix:' recipes. All 17 languages.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4650/6a/27/b4/6a27b484-07e3-49be-ae6f-10f2b5947dcf.json"
+      },
+      {
+        "id": [
+          49774,
+          1634
+        ],
+        "uid": 7017976611438,
+        "file_id": 49774,
+        "name": "Helpful Descriptions",
+        "version": "1.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 610,
+        "file_name": "Helpful Descriptions 4650 1.3 2026-10-12T03-45Z HZO4aro6K.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791776706,
+        "uploaded_time": "2026-10-12T03:45:06.000+00:00",
+        "mod_version": "1.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a569fc8565d97ffc6d0f38338bc397c37ba10195316a9c93295474d4b1789458",
+        "description": "",
+        "size_kb": 610,
+        "size_in_bytes": 625641,
+        "changelog_html": "Food and cooking: ingredients now show 'Used in cooking:' and cooked foods show 'Cooked from:' (Nutrient Processor recipes). 201 ingredients and 333 foods, all 17 languages. Thanks to SlashSgt for the idea.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4650/6b/2e/e3/6b2ee347-1a31-4693-ad81-96e33cadfc10.json"
+      }
+    ],
+    "changelogs": {
+      "1.1": [
+        "Trade goods: every trade good now shows where it is sold, which system wealth carries it, and where it sells for most, using the galaxy map's own economy symbols and wealth stars. All 17 languages."
+      ],
+      "1.2": [
+        "1.2 - New 'Made in a Refiner from' lines: 66 refiner results (Chromatic Metal, Sodium Nitrate, Magnetised Ferrite and more) now show what to refine to get them - single ingredients first, then 'Or mix:' recipes. All 17 languages."
+      ],
+      "1.3": [
+        "Food and cooking: ingredients now show 'Used in cooking:' and cooked foods show 'Cooked from:' (Nutrient Processor recipes). 201 ingredients and 333 foods, all 17 languages. Thanks to SlashSgt for the idea."
+      ]
+    }
+  },
+  {
+    "mod_id": 4651,
+    "name": "Easier Stations",
+    "summary": "Claim a space station with half the standing missions: local race standing 30 -&gt; 15, guild standing 15 -&gt; 8. Salvage contracts and units stay as the game sets them, so the station still feels earned. Changes no saves.",
+    "version": "1.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4651/4651-1791527204-1913157011.jpg",
+    "author": "germinus",
+    "updated_timestamp": 1791775167,
+    "created_timestamp": 1791527457,
+    "description": "[size=5][b]Easier Stations[/b][/size]\n<br />Want to own a space station but can't face the grind? Claiming a station needs a lot of standing with the local race and guild - and in the current game most mission board missions only give +1 standing, so that's 30-45 missions in one system. This mod halves the standing you need. You still earn it by playing, just about half as much.\n<br />\n<br />[size=4][b]What it changes[/b][/size]\n<br />To claim a station (shown at the Station Core):\n<br />[list]\n<br />[*]Local race standing: [b]30 -&gt; 15[/b][/*]\n<br />[*]Guild standing: [b]15 -&gt; 8[/b][/*]\n<br />[*]Salvage contracts: 5 (unchanged)[/*]\n<br />[*]Units: 1,000,000,000 (unchanged)[/*]\n<br />[/list]Nothing else changes - you still do the salvage contracts and raise the units, so the station still feels earned.\n<br />\n<br />[size=4][b]Three versions - pick ONE (new in 1.1)[/b][/size]\n<br />[list]\n<br />[*][b]Easier Stations[/b] (main) - half the standing: race 15, guild 8. Contracts and units unchanged.[/*]\n<br />[*][b]Easier Stations - No Standing[/b] - no standing needed. You still do the 5 salvage contracts and pay the 1,000,000,000 units.[/*]\n<br />[*][b]Easier Stations - Free[/b] - nothing needed at all: no standing, no contracts, no units. Thanks to ffshinji for asking.[/*]\n<br />[/list]Install only one of them at a time.\n<br />\n<br />[size=4][b]Install[/b][/size]\n<br />Unzip and put the [b]EasierStations[/b] folder into [b]No Man's Sky&#92;GAMEDATA&#92;MODS[/b]. If the game asks to disable mods, choose No.\n<br />It changes no saves, so it's safe to add or remove at any time. Stations you've already claimed stay yours.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Changes only these two numbers in the game's settings file (GCGAMEPLAYGLOBALS), so it works alongside other mods that change other settings in the same file.\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, find any item across all your saves and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - every material shows what it is used to make and what it refines into.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - your helmet torch, brighter and a little wider.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url] - see every item you own and where it is, and move stock live while you play (beta).[/*]\n<br />[/list]\n<br />[i]Idea, settings and all in-game testing by germinus; files made with AI assistance.[/i]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49724,
+          1634
+        ],
+        "uid": 7017976611388,
+        "file_id": 49724,
+        "name": "Easier Stations",
+        "version": "1.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1,
+        "file_name": "Easier Stations 4651 1.0 2026-10-09T06-29Z 31ISmlun0.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791527341,
+        "uploaded_time": "2026-10-09T06:29:01.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/178228ffaf843c264dcfa2c01d36e3bd81e71f17cb85242df91b197c51474f9f",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1285,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4651/28/ac/01/28ac0124-3bad-48a8-96a7-9609c3f093fb.json"
+      },
+      {
+        "id": [
+          49772,
+          1634
+        ],
+        "uid": 7017976611436,
+        "file_id": 49772,
+        "name": "Easier Stations - No Standing",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Easier Stations - No Standing 4651 1.1 2026-10-12T03-18Z vlBhwF5S7.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791775125,
+        "uploaded_time": "2026-10-12T03:18:45.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4b436a704761193025bb21e15ccfb68b5d0b968ccf051869b9a2ab4ecddfbcf9",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1393,
+        "changelog_html": "New: two extra versions - No Standing (no standing needed) and Free (nothing needed). The original Easier Stations is unchanged. Use only one at a time.\nNew: two extra versions - No Standing (no standing needed) and Free (nothing needed). The original Easier Stations is unchanged. Use only one at a time.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4651/db/ce/4f/dbce4fad-9942-47b2-b794-e19260352d2a.json"
+      },
+      {
+        "id": [
+          49773,
+          1634
+        ],
+        "uid": 7017976611437,
+        "file_id": 49773,
+        "name": "Easier Stations - Free",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Easier Stations - Free 4651 1.1 2026-10-12T03-19Z 2B5KARbcm.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791775167,
+        "uploaded_time": "2026-10-12T03:19:27.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/08bc150fc6dc2701ac2fa4caad3fce67fdd04055656ff05a04624153e68b25da",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1334,
+        "changelog_html": "New: two extra versions - No Standing (no standing needed) and Free (nothing needed). The original Easier Stations is unchanged. Use only one at a time.\nNew: two extra versions - No Standing (no standing needed) and Free (nothing needed). The original Easier Stations is unchanged. Use only one at a time.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4651/4b/52/ae/4b52ae86-6a8e-4151-842f-bba5ac6c7174.json"
+      }
+    ],
+    "changelogs": {
+      "1.1": [
+        "New: two extra versions - No Standing (no standing needed) and Free (nothing needed). The original Easier Stations is unchanged. Use only one at a time.",
+        "New: two extra versions - No Standing (no standing needed) and Free (nothing needed). The original Easier Stations is unchanged. Use only one at a time."
+      ]
+    }
+  },
+  {
+    "mod_id": 4653,
+    "name": "Brighter Torch",
+    "summary": "Your helmet torch, brighter and a little wider - on the surface and in caves. Pick one of four versions: 1.5x, 2x, 3x or 3.75x. Changes four torch settings only; doesn't touch saves.",
+    "version": "1.0",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4653/4653-1791556764-1446165148.jpg",
+    "author": "germinus",
+    "updated_timestamp": 1791556900,
+    "created_timestamp": 1791556900,
+    "description": "[size=5][b]Brighter Torch[/b][/size]\n<br />Your helmet torch, brighter and a little wider - so you can actually see where you're going at night and in caves.\n<br />\n<br />[size=4][b]Pick your brightness[/b][/size]\n<br />[list]\n<br />[*][b]1.5x[/b] - a bit brighter[/*]\n<br />[*][b]2x[/b] - twice as bright[/*]\n<br />[*][b]3x[/b] - three times as bright[/*]\n<br />[*][b]3.75x[/b] - extra bright. Great in caves and on dark planets; on snow, the patch right in front of you can look a little washed out.[/*]\n<br />[/list]Every version also widens the beam a little (110 to 130, and 90 to 110 underground), and brightens the torch underground as well as on the surface.\n<br />\n<br />[size=4][b]Install[/b][/size]\n<br />Unzip, pick [b]one[/b] of the BrighterTorch folders and put it into [b]No Man's Sky&#92;GAMEDATA&#92;MODS[/b]. If the game asks to disable mods, choose No.\n<br />To change brightness, swap the folder. To remove, delete it. Saves are not touched.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Changes four torch values in the game's gameplay settings. Works alongside mods that change other gameplay settings. A mod that also changes the torch would clash (whichever loads last wins).\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, find any item across all your saves and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - every material shows what it makes and refines into, and every trade good where it's sold.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url] - see every item you own and where it is, and move stock live while you play (beta).[/*]\n<br />[/list]\n<br />[i]Idea, settings and all in-game testing by germinus; files made with AI assistance.[/i]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49734,
+          1634
+        ],
+        "uid": 7017976611398,
+        "file_id": 49734,
+        "name": "Brighter Torch",
+        "version": "1.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2,
+        "file_name": "Brighter Torch 4653 1.0 2026-10-09T14-40Z QR3q07yKZ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791556847,
+        "uploaded_time": "2026-10-09T14:40:47.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/29d4619fb726042be6c160bf70edb75fde064a13419c8641edc436e8dc691555",
+        "description": "",
+        "size_kb": 2,
+        "size_in_bytes": 2301,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4653/5c/5d/90/5c5d90cc-3017-461f-b360-85acc4fe94dc.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4654,
+    "name": "Obvious Star Sizes",
+    "summary": "Makes each colour of star it's own size to distinguish between them easier, or you can specify a star colour to make big and the rest small.",
+    "version": "7.06",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4654/4654-1791559246-1099967164.jpg",
+    "author": "Grouch",
+    "updated_timestamp": 1791559588,
+    "created_timestamp": 1791559588,
+    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod makes the sizes of the stars on the galaxy map very obviously different, so that you can notice the one you're hunting faster. The main file makes yellow stars tiny, red green &amp; blue big and purple really big. The other files make the specified star colour very big and the rest of the colours small. \n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place either the \"ObviousStarSizesBase\", \"ObviousStarSizesYellow\" or \"ObviousStarSizesPurple\" folders inside of GAMEDATA/MODS\n<br />\n<br />﻿For further mod installation/troubleshooting, see [url=https://docs.google.com/document/d/18k5VfvzLXbpBrAGGO7LK30c2Ta_lWQ5F5YgEpuwKZ6M]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCGALAXYGLOBALS.GLOBAL.MBIN\n<br />\n<br />Other helpful exploration things I use:\n<br />\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3914]Simple Colored System Info:[/url] Adds colors to the Galaxy Map's economy and conflict tier icons that help quickly distinguish ideal systems from undesirable ones. Also adds colors to the Water, Dissonant and Gas Giant tag text, as well as contains an optional file to color race and economy type icons.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/1586]No Nebulae[/url]﻿: Removes galaxy map nebulae.[/*]\n<br />[*]Options &gt; Accessibility &gt; Galaxy Map Color Filter: Deuteranopia (makes space dust/nebulae colorless)[/*]\n<br />[*][url=https://www.nexusmods.com/games/nomanssky/mods/4120]Obvious Star Colors[/url]: Makes star colors extremely obvious (red is red, green is green etc).[/*]\n<br />[/list][list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3373]Weather Indicator[/url]﻿: Adds text to weather names so you can know what they mean without having to consult [url=https://nomanssky.miraheze.org/wiki/Weather]the wiki[/url]﻿.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3915]Larger System Holograms (Giant Seeker)[/url]: Helps distinguish giant planets from regular star systems while not making regular systems look too strange.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3779]Corvette Supercomputer[/url]:  Adds planetary probe to corvette mission radar, making corvette exploration very fun.[/*]\n<br />[/list]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49741,
+          1634
+        ],
+        "uid": 7017976611405,
+        "file_id": 49741,
+        "name": "ObviousStarSizesBase",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 0,
+        "file_name": "ObviousStarSizesBase 4654 7.06 2026-10-09T15-22Z tScz2hGJY.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791559348,
+        "uploaded_time": "2026-10-09T15:22:28.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3f9019c3fc181ec50f00750dcf500af767f3880256ab2095700b52d1b473f881",
+        "description": "Makes yellow stars tiny, red green &amp; blue big and purple really big",
+        "size_kb": 0,
+        "size_in_bytes": 603,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4654/f5/ce/7d/f5ce7d4f-6c72-4343-a402-35183601cccf.json"
+      },
+      {
+        "id": [
+          49742,
+          1634
+        ],
+        "uid": 7017976611406,
+        "file_id": 49742,
+        "name": "ObviousStarSizesYellow",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 0,
+        "file_name": "ObviousStarSizesYellow 4654 7.06 2026-10-09T15-23Z N2LUkQgD5.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791559393,
+        "uploaded_time": "2026-10-09T15:23:13.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f740e327a03770845af6f3d440fd013f0b91dc6a1a200568580c5d87ab393977",
+        "description": "Makes yellow stars really big and the rest really small.",
+        "size_kb": 0,
+        "size_in_bytes": 605,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4654/57/70/0a/57700aeb-4ca4-4aee-8b25-1ca301db2b64.json"
+      },
+      {
+        "id": [
+          49743,
+          1634
+        ],
+        "uid": 7017976611407,
+        "file_id": 49743,
+        "name": "ObviousStarSizesPurple",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 0,
+        "file_name": "ObviousStarSizesPurple 4654 7.06 2026-10-09T15-23Z XnaJySiHS.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791559434,
+        "uploaded_time": "2026-10-09T15:23:54.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ec413b734284116a92e299a31e3398db29ea7f1115ee08b4731a14bb805a5dac",
+        "description": "Makes purple stars really big and the rest really small.",
+        "size_kb": 0,
+        "size_in_bytes": 604,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4654/9d/c9/c9/9dc9c994-bf1f-4516-a1e9-b40cdf9f991d.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4655,
+    "name": "Fleet Expedition Boosted Power Ups",
+    "summary": "Boosts the underperforming Fleet Expedition's upgrades / power ups by a small-decent amount. Enough that it might entice you to grind that Quads...",
+    "version": "1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4655/4655-1791567378-50051727.png",
+    "author": "lyoko9011",
+    "updated_timestamp": 1791568121,
+    "created_timestamp": 1791568121,
+    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]All base stat power ups are now [i]+15[/i] instead of [i]+10[/i]. Expedition speed power up is now [i]23%[/i] instead of [i]10%[/i].[/color]\n<br />\n<br />[color=#D4D4D8]Why [i]23%[/i] instead of [i]25%[/i]? You get [i]69%[/i] with all 3 Fuel Oxidisers.[/color]\n<br />\n<br />[color=#D4D4D8]This mod might be the reason why you would grind those tedious Sentinel parts.[/color]\n<br />\n<br />[color=#D4D4D8][size=4][b]Installation[/b][/size][/color]\n<br />Extract the main folder into \"GAMEDATA&#92;MODS\", located in your installation folder\n<br />\n<br />[size=4][b]Inspiration[/b][/size]\n<br />There's no updated version nor new ones for such mod. So I had to pick up modding one random Friday.\n<br />Original outdated mod: [url=https://www.nexusmods.com/nomanssky/mods/1568]Fleet Missions time reduced with PowerUps and more[/url]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49744,
+          1634
+        ],
+        "uid": 7017976611408,
+        "file_id": 49744,
+        "name": "Fleet Expedition Boosted Power Ups",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 0,
+        "file_name": "Fleet Expedition Boosted Power Ups 4655 1 2026-10-09T17-39Z kAMZq0JLT.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791567570,
+        "uploaded_time": "2026-10-09T17:39:30.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/68d853cdb565e8e3149d18271aa76bb0123bdc93650b2d5bf221c34fd037e1a1",
+        "description": "Initial creation",
+        "size_kb": 0,
+        "size_in_bytes": 963,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4655/e7/d0/cb/e7d0cbae-1d59-4268-b254-eec8185714d3.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4656,
+    "name": "zBest Station beta",
+    "summary": "zBest Station is a redesign of the Space Station Interior. The large open space is ideal for custom building where it can be seen!",
+    "version": "0.1-beta",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4656/4656-1791583763-1909443154.png",
+    "author": "JMZawodny",
+    "updated_timestamp": 1791583842,
+    "created_timestamp": 1791583842,
+    "description": "[color=#00ffff][size=5][b][u]zBest Station 0.1-beta[/u][/b][/size]\n<br />\n<br />[size=4]zBest Station is a redesign of the Space Station Interior. The large open space is ideal for custom building where it can be seen![/size][/color]\n<br />\n<br />[color=#ff0000][size=4][b]Please READ all of this.[/b][/size][/color]\n<br />[size=4]This pre-release version is for testing by and feedback from real players. While this is very close to the finished product, your comments and suggestions may alter the final release. Since the station is central to so many missions and much of the game-play, user testing is essential.[/size]\n<br />\n<br />[size=4]zBest Station opens up the massive build area at the back of the station. It also moves many of the vendors and devices to new locations to allow for building from the 2nd floor to the back wall. All of the 2nd floor vendors are now neatly located at the back of the middle tunnel.[/size]\n<br />\n<br />[size=4]Almost all of the decorations you get when you add a station to your alliance have been left where they were so you can delete or reuse as you like.[/size]\n<br />\n<br />[size=4]You may notice the station NPCs are now walking down to the landing pads to (un)load cargo, inspect, permit, and service incoming ships.[/size]\n<br />\n<br />[color=#00ff00][size=4][u]Useful Hints:[/u][/size][/color]\n<br />[size=4]The vertical distance between floors in the space station is 5u. Normal base building walls are 3.3333u tall. If you place 2 short walls on top of a normal wall, the height of that stack is 5u. Alternatively, 3 base walls are 10u tall and equal to the height of 2 station walls. You may find this information useful if you build on top of the tunnels (where the vendors used to be, 5u above the floor) and want to connect to something you built in the rear area.[/size]\n<br />\n<br />[color=#ff0000][size=4][u]Important:[/u][/size][/color]\n<br />[size=4]Because zBest Station moves some major structures around, anything you build may not look right to other players not using this mod. Since all mods run locally, this mod works best when your friends are also playing with it.[/size]\n<br />\n<br />[color=#ff7700][size=4][u]Known Issues:[/u][/size][/color]\n<br />[size=4]The build menu may not open if you are too close to the back or side walls. Step away towards the center and use the build camera to place objects at the extreme limits of the space.[/size]\n<br />[color=#ffff00][size=4]You can currently place building parts beyond the back wall and ceiling collisions. If you do, you will not be able to select them to be moved or deleted. You will have to use a save editor to remove them. You can find the limits by placing temporary walls on the floor in the rear area, sliding them along the floor until just before they turn red. You can then build them up from there as needed to guide the rest of your build. Delete them when finished with your build.  [u]Build carefully in the rear area.[/u][/size][/color]\n<br />[size=4]This mod is of limited scope, and has a mix of MBIN and EXML files. This mod is not compatible with any other mods that replace or edit the MBIN files. The mod that loads last is the one you will see in effect[/size]\n<br />\n<br />[color=#ffff00][size=4]Installation:[/size][/color]\n<br />[size=4]The zBest Station folder should be placed in your No Man’s Sky&#92;GAMEDATA&#92;MODS folder along with all of your other mods.[/size]\n<br />\n<br />[color=#00ff00][size=4][u]Highly recommended mods for use with zBest Station - Make sure all mods are up to date[/u][/size][/color]\n<br />[size=4]zCorvette Station Lighting[/size]\n<br />[size=4]gShip Better Ship Lighting Station Pads[/size]\n<br />[size=4]Space Station Lighting Color (White is my preference)[/size]\n<br />[size=4]Smokeless Stations Full (But remove StationLandPadBurst, StationLandPadSmokeLoop, and StationVentMistLarge .Scene.MBIN files)[/size]\n<br />[size=4]Beyond Base Building[/size]\n<br />\n<br />\n<br />[color=#ffff00][size=4]This mod would not be possible without the use of the fabulous MBINcompiler.[/size][/color]\n<br />\n<br />[color=#00ff00][size=4]I hope you find this mod useful and enjoy it.  If you do like this mod, I ask that you consider taking a moment to endorse it. Endorsements are the only real feedback that is reliable.[/size]\n<br />\n<br />[size=4]Cheers, JMZ[/size][/color]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49745,
+          1634
+        ],
+        "uid": 7017976611409,
+        "file_id": 49745,
+        "name": "ZBest Station Beta",
+        "version": "0.1-beta",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 73,
+        "file_name": "ZBest Station Beta 4656 0.1-beta 2026-10-09T22-10Z Z3ytCvPXx.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791583823,
+        "uploaded_time": "2026-10-09T22:10:23.000+00:00",
+        "mod_version": "0.1-beta",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/091dfc89e81c15688954928148655005a3251df9e25a5090c6ccc0dee61b84cc",
+        "description": "",
+        "size_kb": 73,
+        "size_in_bytes": 75302,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4656/4f/4b/b6/4f4bb6fc-e370-45bc-8871-d4798d3a5ca0.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4658,
+    "name": "NMS Inventory Manager",
+    "summary": "See every item you own and where it is - exosuit, ships, freighter, storage, exocraft - live while you play, and move stock between them without leaving the game. A small standalone app; also built into NMS Easy Save Editor. Beta.",
+    "version": "1.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4658/4658-1791632218-1064760614.jpg",
+    "author": "germinus",
+    "updated_timestamp": 1791693896,
+    "created_timestamp": 1791632495,
+    "description": "[size=5][b]NMS Inventory Manager[/b][/size] [i](beta)[/i]\n<br />\"Where did I put my Chromatic Metal?\" - this small app shows every item you own and exactly where it is: exosuit, freighter, storage containers, starships and exocraft. It updates live while you play, and you can move stock between them without leaving the game.\n<br />\n<br />[size=4][b]New in 1.1[/b][/size]\n<br />[list]\n<br />[*][b]Delete items, with Undo[/b] - \"Delete...\" next to a place removes the amount you choose. Before anything is deleted your save file is copied into the \"Backups\" folder next to the app (the last 10 are kept, with \"How to restore.txt\"), and Undo puts the items back straight away.[/*]\n<br />[*][b]Places view[/b] - switch from Items to Places to see one inventory at a time, tick items, then Move ticked or Delete ticked.[/*]\n<br />[*]Storage containers you haven't built yet are no longer offered as places to move to. A container you build while playing shows up after the game is reloaded.[/*]\n<br />[/list]\n<br />[size=4][b]What it does[/b][/size]\n<br />[list]\n<br />[*][b]See everything:[/b] every item, the total you have, and how many are in each place.[/*]\n<br />[*][b]Live:[/b] it reads the running game, so the numbers change as you play. The green bubble at the top shows the save you're in.[/*]\n<br />[*][b]Move stock:[/b] click Move... next to where it is, pick where it should go and how many (100, 500, half, all), and it's moved straight away in the game - no reloading.[/*]\n<br />[*][b]Find things fast:[/b] search, group buttons (Raw materials, Products, Trade goods, Cooking, Upgrade modules, Other), A to Z letters and your recent searches.[/*]\n<br />[*][b]Second monitor friendly:[/b] \"Always on top\" keeps it above the game.[/*]\n<br />[*][b]Delete, with Undo:[/b] remove what you no longer want. Your save file is copied to a Backups folder first, and Undo puts it back straight away.[/*]\n<br />[*][b]Places:[/b] look at one inventory at a time - a storage container, the freighter, a ship - tick items, then Move ticked or Delete ticked.[/*]\n<br />[/list]\n<br />[size=4][b]Good to know[/b][/size]\n<br />[list]\n<br />[*]Inventory screens in the game can stay open - you'll see the item move.[/*]\n<br />[*]Your moves are kept when the game next saves, as normal.[/*]\n<br />[*]Only cargo is listed and moved - fitted technology is never touched.[/*]\n<br />[*]It doesn't change any game files and isn't a game mod - there's nothing to install in the game.[/*]\n<br />[*]Tested on the Steam version. A big game update may stop it working until I update it - \"About &amp; help\" &gt; \"Check for updates\" opens the Files page. The app never goes online by itself.[/*]\n<br />[*]It's a beta: as with any tool that works on a running game, keep a backup of your saves. Something odd? Please report it in Bugs or Posts.[/*]\n<br />[/list]\n<br />[size=4][b]Install[/b][/size]\n<br />Unzip the folder anywhere and run [b]NMS Inventory Manager.exe[/b] while the game is running. To remove it, delete the folder.\n<br />Needs Windows 10 or 11 with Microsoft Edge WebView2 (Windows 11 has it built in).\n<br />\n<br />[size=4][b]Prefer an editor?[/b][/size]\n<br />The same Inventory Manager is built into [url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] (Tools &gt; Inventory Manager). There it also works with the game closed and searches all your saves at once. This standalone version is for players who'd rather not use an editor.\n<br />\n<br />[size=4][b]Credits[/b][/size]\n<br />Layout of the game's inventories and player state: NMS.py by monkeyman192 (MIT licence). No Man's Sky is a trademark of Hello Games; this tool is not made or supported by Hello Games.\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, Inventory Manager and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - what every material is used to make, what refines into it, and where trade goods are sold.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - a brighter, slightly wider helmet torch.[/*]\n<br />[/list]\n<br />[i]Idea, design decisions and all in-game testing by germinus; code written with AI.[/i]",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49753,
+          1634
+        ],
+        "uid": 7017976611417,
+        "file_id": 49753,
+        "name": "NMS Inventory Manager",
+        "version": "1.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 1278,
+        "file_name": "NMS Inventory Manager 4658 1.0 2026-10-10T11-39Z 6Xd7OtmRl.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791632367,
+        "uploaded_time": "2026-10-10T11:39:27.000+00:00",
+        "mod_version": "1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/04e293ea8f65bcf992758d86fe7564165244b3a6608bd364e4ec0072ec1c88ea",
+        "description": "",
+        "size_kb": 1278,
+        "size_in_bytes": 1308816,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4658/7c/66/1d/7c661d92-75e0-418e-a873-ce419f69f7f4.json"
+      },
+      {
+        "id": [
+          49767,
+          1634
+        ],
+        "uid": 7017976611431,
+        "file_id": 49767,
+        "name": "NMS Inventory Manager",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1425,
+        "file_name": "NMS Inventory Manager 4658 1.1 2026-10-11T04-44Z AeW3Tdr5Y.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791693896,
+        "uploaded_time": "2026-10-11T04:44:56.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/29eb450be1cfb2d7348f23a6cbbe0682f5d65bff2ee26127fa81d4572ec4cd05",
+        "description": "",
+        "size_kb": 1425,
+        "size_in_bytes": 1459704,
+        "changelog_html": "Delete items, with Undo - your save file is copied to the Backups folder first (last 10 kept)\nNew Places view: see one inventory at a time, tick items, then Move ticked or Delete ticked\nStorage containers you have not built yet are no longer offered as places to move to\nInventory screens in the game can stay open while you move items\nVersion shown as 1.1 beta",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4658/88/ec/74/88ec746c-6756-4f34-9121-6f463f00a51b.json"
+      }
+    ],
+    "changelogs": {
+      "1.1": [
+        "Delete items, with Undo - your save file is copied to the Backups folder first (last 10 kept)",
+        "New Places view: see one inventory at a time, tick items, then Move ticked or Delete ticked",
+        "Storage containers you have not built yet are no longer offered as places to move to",
+        "Inventory screens in the game can stay open while you move items",
+        "Version shown as 1.1 beta"
+      ]
+    }
+  },
+  {
+    "mod_id": 4659,
+    "name": "Upgrade Fusion - S Plus",
+    "summary": "A new tier of upgrades approximately 2x more powerful than S.",
+    "version": "1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4659/4659-1791647388-345311396.png",
+    "author": "Camij",
+    "updated_timestamp": 1791647605,
+    "created_timestamp": 1791647605,
+    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8][size=3]Buy the ability to craft the ultimate upgrades. The idea behind this was to combine two S-class modules into one S+ module. Unfortunately, the game is made in such a way that the modules can't act as ingredients. To unlock, go to the Anomaly and talk to some of the people who unlock tech, there should be a new page for S+ modules. The base cost for unlocking the recipes is 15,000 nanites.[/size][/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8][size=3]drop in GAMEDATA/MODS[/size][/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[size=3][color=#D4D4D8]New, stronger upgrades for Multi-tool, backpack, and ships.[/color][/size]\n<br />",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49756,
+          1634
+        ],
+        "uid": 7017976611420,
+        "file_id": 49756,
+        "name": "UpgradeFusion SPlus 1.0 NMS7.04",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 40,
+        "file_name": "UpgradeFusion SPlus 1.0 NMS7.04 4659 1 2026-10-10T15-52Z yIucYBUaQ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791647528,
+        "uploaded_time": "2026-10-10T15:52:08.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/75da4a67ff991ffda733cd7a3bee5246d2aa9351f54841cbc6f454a6990ed089",
+        "description": "",
+        "size_kb": 40,
+        "size_in_bytes": 41675,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4659/c8/21/2b/c8212ba4-0e6e-4901-a169-387b309ab4c3.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4660,
+    "name": "BBB Red Firework Trade Terminal",
+    "summary": "This mod allows you to build a temporary Galactic Trade Terminal anywhere at any time.",
+    "version": "7.05",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4660/4660-1791657234-479804234.png",
+    "author": "BigBuffaloBill",
+    "updated_timestamp": 1791657469,
+    "created_timestamp": 1791657469,
+    "description": "BBB Red Firework Trade Terminal\n<br />Build a temporary Galactic Trade Terminal on demand—wherever you can place a Red Firework!\n<br />\n<br />Inspired by (but code independently developed) existing mod \"Change Blue Firework to Teleporter\" ([url=https://www.nexusmods.com/nomanssky/mods/3336]https://www.nexusmods.com/nomanssky/mods/3336[/url]), this mod repurposes the Red Firework build part as a Galactic Trade Terminal. Select a Red Firework in the build menu, place it, and interact with the terminal to buy and sell items.\n<br />\n<br />The terminal is temporary: it disappears when you exit and reload your game, so it won’t leave your worlds cluttered with terminals.\n<br />\n<br />Recommended companion mod\n<br />For a wider selection of items, consider pairing my mod with 'All items for trade' ([url=https://www.nexusmods.com/nomanssky/mods/218]https://www.nexusmods.com/nomanssky/mods/218[/url]) which allows many inventory items in the game to be purchased at any trade terminal.\n<br />\n<br />\n<br />Installation\n<br />\n<br />Close No Man’s Sky.\n<br />\n<br />Download and extract the ZIP.\n<br />\n<br />Copy the 'BBB Red Firework Trade Terminal' folder into: ...No Man's Sky&#92;GAMEDATA&#92;MODS&#92;\n<br />Create the MODS folder if it doesn’t exist.\n<br />\n<br />Preserve the included folder structure. The mod file should end up at:\n<br />No Man's Sky&#92;GAMEDATA&#92;MODS&#92;BBB Red Firework Trade Terminal&#92;METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGOBJECTSTABLE.EXML\n<br />\n<br />Ensure modding is enabled; open:\n<br />No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML\n<br />in a text editor while the game is closed. Make sure the DisableAllMods property is set to false, then save the file.\n<br />\n<br />Launch the game and place a Red Firework to use your temporary terminal.\n<br />\n<br />Compatibility\n<br />Tested with No Man’s Sky 7.05. Avoid using another mod that also replaces the Red Firework build part (SPEC_FIREWORK02).\n<br />\n<br />Uninstallation\n<br />Close No Man’s Sky and delete the BBB Red Firework Trade Terminal folder from GAMEDATA&#92;MODS.\n<br />\n<br />Credits\n<br />Thanks again to beihaixingchen, creator of Change Blue Firework to Teleporter, for the inspiration. Continued thanks to Babscoole and everyone at Discord server No Man's Sky Modding for all they do!",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49757,
+          1634
+        ],
+        "uid": 7017976611421,
+        "file_id": 49757,
+        "name": "BBB Red Firework Trade Terminal V7.05",
+        "version": "7.05",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2,
+        "file_name": "BBB Red Firework Trade Terminal V7.05 4660 7.05 2026-10-10T18-35Z zYpLKAHPq.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791657313,
+        "uploaded_time": "2026-10-10T18:35:13.000+00:00",
+        "mod_version": "7.05",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/01fb02b72db4ff12c5547e5d1ed775d18e75e9f8dd1b539f2c3fd16e8e2f2a58",
+        "description": "",
+        "size_kb": 2,
+        "size_in_bytes": 2705,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4660/db/aa/bb/dbaabbdb-9d77-45ba-b1aa-d79084f474e3.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4661,
+    "name": "Craftable Modules Refiner Recipes",
+    "summary": "Adds 8x Refiner Recipes for the Mod 'Salvaged Frigate Module...' to recycle them into their base product with the refiner.",
+    "version": "1.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4661/4661-1791803625-429036596.png",
+    "author": "arcprey",
+    "updated_timestamp": 1791802842,
+    "created_timestamp": 1791670208,
+    "description": "[size=4][b]Description[/b][/size]\n<br />Adds 8 Recipes to recycle the craftable modules from the mod [url=https://www.nexusmods.com/nomanssky/mods/1491]Salvaged Frigate Module...[/url]\n<br />\n<br />[b]1x Navigation Data[/b] = Quantum Computer x5\n<br />[b]1x Salvaged Data [/b]=[b] [/b]Quantum Computer x10\n<br />[b]1x Multitool Expansion Slot [/b]=[b] [/b]Quantum Computer x10\n<br />[b]1x Factory override Unot[/b] = Quantum Computer x10\n<br />[b]2x Exosuit Expansion Slot [/b]= Circuit Board x1\n<br />[b]2x Salvaged Frigate Module [/b]= Circuit Board x1\n<br />[b]2x Storage Augmentation [/b]= Circuit Board x1\n<br />[b]2x Cargo Bulkhead[/b] = Circuit Board x1  \n<br />\n<br />The 1 Microprocessor for the Repair Kit wasn't worth it to add a recipe for it.\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Extract .zip into the NMS MODS folder.\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />To Xen0nex for his mod [url=https://www.nexusmods.com/nomanssky/mods/2225]No Man's – Prepare to Sky Edition[/url] which helped to create this mod. Thanks!",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49762,
+          1634
+        ],
+        "uid": 7017976611426,
+        "file_id": 49762,
+        "name": "CraftableModulesRefinerRecipes",
+        "version": "1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 2,
+        "file_name": "CraftableModulesRefinerRecipes 4661 1 2026-10-10T22-05Z gb4dJyxeE.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791669946,
+        "uploaded_time": "2026-10-10T22:05:46.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/07d567b0d05ed2616ec296b5c7083d1705baeeece2a7388b2a214feb2c90f875",
+        "description": "Init Version - .lua included.",
+        "size_kb": 2,
+        "size_in_bytes": 2977,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4661/c9/2c/50/c92c5077-f67d-4003-bc0a-497eedebf571.json"
+      },
+      {
+        "id": [
+          49778,
+          1634
+        ],
+        "uid": 7017976611442,
+        "file_id": 49778,
+        "name": "CraftableModulesRefinerRecipes",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 3,
+        "file_name": "CraftableModulesRefinerRecipes 4661 1.1 2026-10-12T11-00Z RH1TdJIsK.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791802842,
+        "uploaded_time": "2026-10-12T11:00:42.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0007b4c95f8e2e3b024eb260f99b268836fc1c190e3f70f900a15b718ed886ab",
+        "description": "The number of items required for 1x Circuit Board has been doubled.<br />More customization in the .lua file.",
+        "size_kb": 3,
+        "size_in_bytes": 3472,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4661/fc/0a/ab/fc0aab26-48cb-419f-bc3f-e64fc9cb7e6c.json"
+      }
+    ],
+    "changelogs": {}
+  },
+  {
+    "mod_id": 4663,
+    "name": "Ship Shotgun Upgrade Mod Realism-ish Buff",
+    "summary": "A typical shotgun is more accurate than most games depict. Now with the Fragment Supercharger upgrade installed alongside the base weapon, you now have an extra 80% range and... 67% tighter spread.",
+    "version": "1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4663/4663-1791716102-1829047593.jpg",
+    "author": "lyoko9011",
+    "updated_timestamp": 1791716419,
+    "created_timestamp": 1791716419,
+    "description": "[size=4][b]Description[/b][/size]\n<br />[size=3][color=#D4D4D8]Based off real life shotguns, mostly from video demos and gun enthusiasts. So, when translated to a ship sized fragmentation cannon, its accuracy properties should follow.[/color][/size]\n<br />\n<br />[size=3][color=#D4D4D8]When you've researched and installed the Fragment Supercharger mod, you'll get:\n<br />[b][i]67%[/i][/b] accuracy, up from 20% [b]//[/b] 10 dispersion -&gt; 3.3 Disperson (Photon Cannon has 0 dispersion).[/color][/size]\n<br />[size=3][color=#D4D4D8][b][i]80%[/i][/b] range, up from 25%  [b]//[/b] 500u -&gt; 900u range (Photon Cannon has 1500u range).[/color][/size]\n<br />\n<br />[line]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]Extract the main folder into \"GAMEDATA&#92;MODS\", located in your installation folder.[/color]\n<br />\n<br />\n<br />[line]\n<br />\n<br />[b]Modifications[/b]\n<br />Open the \"[b]NMS_REALITY_GCTECHNOLOGYTABLE.EXML[/b]\" with a text editor of your choice and change the \"bonus\" accordingly.\n<br />Index \"0\" is gun dispersion. Lower the value for tighter spread.\n<br />Index \"1\" is gun range. Higher value increases range.\n<br />\n<br />I have no idea how to Lua. So feel free to modify the mod.\n<br />",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49769,
+          1634
+        ],
+        "uid": 7017976611433,
+        "file_id": 49769,
+        "name": "Ship Shotgun Buffs",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 0,
+        "file_name": "Ship Shotgun Buffs 4663 1 2026-10-11T10-59Z n0CrIxzZ5.rar",
+        "detected_file_extension": "rar",
+        "uploaded_timestamp": 1791716342,
+        "uploaded_time": "2026-10-11T10:59:02.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/731fa43ed32895d991825bb61218b2c499fc7cbdd2f678f41cbd0d55c851e98b",
+        "description": "",
+        "size_kb": 0,
+        "size_in_bytes": 689,
+        "changelog_html": "Changed \"Ship_Weapons_Guns_Dispersion\": 0.8 -&gt; 0.33\nChanged \"Ship_Weapons_Guns_Range\": 1.25 -&gt; 1.80",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4663/77/46/64/77466412-cc38-4692-8148-b99c91dde9a1.json"
+      }
+    ],
+    "changelogs": {
+      "1": [
+        "Changed \"Ship_Weapons_Guns_Dispersion\": 0.8 -&gt; 0.33",
+        "Changed \"Ship_Weapons_Guns_Range\": 1.25 -&gt; 1.80"
+      ]
+    }
+  },
+  {
+    "mod_id": 4664,
+    "name": "Scatter Blaster Upgrade Mod Realism-ish buff",
+    "summary": "A typical shotgun is more accurate than most games depict. Now with the Shell Greaser upgrade installed alongside the base weapon, you now have two additional stat. An extra 100% range and... 67% tighter spread.",
+    "version": "1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4664/4664-1791719680-820731761.jpg",
+    "author": "lyoko9011",
+    "updated_timestamp": 1791720106,
+    "created_timestamp": 1791720106,
+    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]Based off real life shotguns, mostly from video demos and gun enthusiasts. The basic Shell Greaser mod only gives 15% reload speed. It's underwhelming.[/color]\n<br />\n<br />[color=#D4D4D8]So, I've added two more stats that affects the how the Scatter Blaster operates\n<br />\n<br />When you've researched and installed the Shell Greaser mod, you'll get:[/color]\n<br />[color=#D4D4D8][i]15%[/i] reload speed. (Unchanged)\n<br />[b][i]67%[/i][/b] accuracy [b]//[/b] 10 dispersion (based stat) -&gt; 3.3 Disperson (Boltcaster has 1 dispersion, Photon Cannon has 0 dispersion)\n<br />[b][i]100%[/i][/b] range  [b]//[/b] 55u (based stat) -&gt; 110u range (Boltcaster has 300u range, Photon Cannon has 1500u range)[/color]\n<br />\n<br />[line]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]Extract the main folder into \"GAMEDATA&#92;MODS\", located in your installation folder.[/color]\n<br />\n<br />[line]\n<br />\n<br />[size=4][b]Modifications[/b][/size]\n<br />Open the \"[b]NMS_REALITY_GCTECHNOLOGYTABLE.EXML[/b]\" with a text editor of your choice and change the \"bonus\" accordingly.\n<br />Index \"1\" is gun dispersion. Lower the value for tighter spread.\n<br />Index \"2\" is gun range. Higher value increases range.\n<br />\n<br />I have no idea how to Lua. So feel free to modify the mod. ",
+    "state": "normal",
+    "warningMessage": "",
+    "files": [
+      {
+        "id": [
+          49770,
+          1634
+        ],
+        "uid": 7017976611434,
+        "file_id": 49770,
+        "name": "Scatter Blaster Realism-ish Buff",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 0,
+        "file_name": "Scatter Blaster Realism-ish Buff 4664 1 2026-10-11T12-01Z 9Lg6VZTwD.rar",
+        "detected_file_extension": "rar",
+        "uploaded_timestamp": 1791720074,
+        "uploaded_time": "2026-10-11T12:01:14.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/217c82905e76bf9d46e91f663e3d081a3bdf6de0a44e81d992a5a5a25fec80d9",
+        "description": "Added new stats to the Shell Greaser mod.<br />\"Weapon_Projectile_Dispersion\": 0.33<br />\"Weapon_Projectile_Range\": 2.0",
+        "size_kb": 0,
+        "size_in_bytes": 860,
+        "changelog_html": "Added new stats to the Shell Greaser mod.\n\"Weapon_Projectile_Dispersion\": 0.33\n\"Weapon_Projectile_Range\": 2.0",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4664/01/8b/d3/018bd34a-ff28-4d65-93c4-0618ae9fc943.json"
+      }
+    ],
+    "changelogs": {
+      "1": [
+        "Added new stats to the Shell Greaser mod.",
+        "\"Weapon_Projectile_Dispersion\": 0.33",
+        "\"Weapon_Projectile_Range\": 2.0"
+      ]
+    }
   }
 ]
