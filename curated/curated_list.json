@@ -659661,10 +659661,10 @@
     "mod_id": 4238,
     "name": "Instant Freighter Fleet Spawns",
     "summary": "System freighter fleets now spawn near-instantly around the player, speeding up checking freighters/documentation.",
-    "version": "7.01",
+    "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4238/4238-1780062113-739955317.jpg",
     "author": "GrouchTheGreat",
-    "updated_timestamp": 1789159710,
+    "updated_timestamp": 1791851136,
     "created_timestamp": 1780062770,
     "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod makes freighter fleets in space spawn near-instantly in 2 star, 3 star and outlaw systems. This makes the two fleets that spawn around you (the near warping in one and the far appearing one) spawn in instantly every moment that they can. I have not done this for 1 star systems as I'm not sure if they even spawn in those systems normally, so I don't want to create some major desync in player discoveries/documentation.\n<br />\n<br />This mod was built off of [url=https://www.nexusmods.com/nomanssky/mods/4042]gLonely Fewer Freighters[/url] but with basically the opposite purpose (far faster spawning instead of slower). If you want less freighters to spawn passively around you than normal, use that mod.\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"FreighterSpawnQuick\" folder inside of GAMEDATA/MODS\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCGAMEPLAYGLOBALS.GLOBAL.MBIN\n<br />",
     "state": "normal",
@@ -659729,9 +659729,9 @@
         "file_id": 48208,
         "name": "FreighterSpawnQuick",
         "version": "7.01",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 0,
         "file_name": "FreighterSpawnQuick 4238 7.01 2026-09-11T20-48Z cEkp5sV3F.zip",
         "detected_file_extension": "zip",
@@ -659739,11 +659739,36 @@
         "uploaded_time": "2026-09-11T20:48:30.000+00:00",
         "mod_version": "7.01",
         "external_virus_scan_url": "https://www.virustotal.com/gui/file/a42262055e1fc810a74bbafac02ab67eab6eccee39aa3e19129540c56969bc78",
-        "description": "Makes freighter fleets instantly spawn around the player when in 2 star, 3 star or outlaw systems.",
+        "description": "Makes freighter fleets instantly spawn around the player when in inhabited systems.",
         "size_kb": 0,
         "size_in_bytes": 607,
         "changelog_html": "Fixed issue where I thought tier 1 systems didn't have passive freighter spawns (I was wrong lol)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4238/7e/ff/45/7eff4558-0b6a-4757-87cb-ddf6534fbe45.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4238/7e/ff/45/7eff4558-0b6a-4757-87cb-ddf6534fbe45.json"
+      },
+      {
+        "id": [
+          49783,
+          1634
+        ],
+        "uid": 7017976611447,
+        "file_id": 49783,
+        "name": "FreighterSpawnQuick",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1,
+        "file_name": "FreighterSpawnQuick 4238 7.06 2026-10-13T00-25Z 58qnW1tkK.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791851136,
+        "uploaded_time": "2026-10-13T00:25:36.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/646539503db7ff380c7d7bf9258642a95ea639d39e3bfd508b47e51e782786f8",
+        "description": "Makes freighter fleets instantly spawn around the player when in inhabited systems.",
+        "size_kb": 1,
+        "size_in_bytes": 1125,
+        "changelog_html": "Added lua file by Babscoole for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4238/fd/45/18/fd451804-45e4-483a-a818-bc21e5d76241.json"
       }
     ],
     "changelogs": {
@@ -659752,6 +659777,9 @@
       ],
       "7.01": [
         "Fixed issue where I thought tier 1 systems didn't have passive freighter spawns (I was wrong lol)"
+      ],
+      "7.06": [
+        "Added lua file by Babscoole for rebuilding using AMUMSS."
       ]
     }
   },
@@ -686886,10 +686914,10 @@
     "mod_id": 4603,
     "name": "Survival Unlimited Refiner",
     "summary": "Sets the refiner stack size limit on Options &gt; Difficulty &gt; Inventory Stack Limits = Restricted/Harsh to 9,999. Other values are offered as optional files.",
-    "version": "7.05",
+    "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4603/4603-1790925399-360678217.jpg",
     "author": "Grouch",
-    "updated_timestamp": 1790926298,
+    "updated_timestamp": 1791852338,
     "created_timestamp": 1790926298,
     "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod makes it so that you can place more than 250/150 of substances in refiners on Options &gt; Inventory Stack Limits = Restricted/Harsh. The main file sets this to 9,999 which is the same as Inventory Stack Limits = Standard, while there are optional files for incremental values if those are desired. If you desire a different limit than the ones offered, you may use any text editing software to modify the  METADATA&#92;GAMESTATE&#92;DIFFICULTYCONFIG.EXML file to tweak the values.\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"RefinerStackSize9999\" folder inside of GAMEDATA/MODS\n<br />\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />METADATA&#92;GAMESTATE&#92;DIFFICULTYCONFIG.MBIN",
     "state": "normal",
@@ -686904,9 +686932,9 @@
         "file_id": 49437,
         "name": "RefinerStackSize9999",
         "version": "7.05",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 0,
         "file_name": "RefinerStackSize9999 4603 7.05 2026-10-02T07-23Z L5bXM34jq.zip",
         "detected_file_extension": "zip",
@@ -686918,7 +686946,7 @@
         "size_kb": 0,
         "size_in_bytes": 761,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4603/81/4c/0d/814c0d17-788d-4bab-8eb8-d773f323986b.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4603/81/4c/0d/814c0d17-788d-4bab-8eb8-d773f323986b.json"
       },
       {
         "id": [
@@ -686929,8 +686957,8 @@
         "file_id": 49438,
         "name": "RefinerStackSize2000",
         "version": "7.05",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 0,
         "file_name": "RefinerStackSize2000 4603 7.05 2026-10-02T07-24Z KsnM3Ta9T.zip",
@@ -686943,7 +686971,7 @@
         "size_kb": 0,
         "size_in_bytes": 761,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4603/44/50/05/445005d2-699e-4068-8fc6-c5790aacbbe6.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4603/44/50/05/445005d2-699e-4068-8fc6-c5790aacbbe6.json"
       },
       {
         "id": [
@@ -686954,8 +686982,8 @@
         "file_id": 49439,
         "name": "RefinerStackSize1000",
         "version": "7.05",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 0,
         "file_name": "RefinerStackSize1000 4603 7.05 2026-10-02T07-24Z hfsARgnNH.zip",
@@ -686968,7 +686996,7 @@
         "size_kb": 0,
         "size_in_bytes": 761,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4603/cd/5b/78/cd5b78fa-26f2-41fe-b4c6-25b5df8e0fb6.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4603/cd/5b/78/cd5b78fa-26f2-41fe-b4c6-25b5df8e0fb6.json"
       },
       {
         "id": [
@@ -686979,8 +687007,8 @@
         "file_id": 49440,
         "name": "RefinerStackSize500",
         "version": "7.05",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 0,
         "file_name": "RefinerStackSize500 4603 7.05 2026-10-02T07-24Z IohEj9KJG.zip",
@@ -686993,7 +687021,7 @@
         "size_kb": 0,
         "size_in_bytes": 754,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4603/6c/98/9e/6c989e1d-be47-4664-bb55-876a50527695.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4603/6c/98/9e/6c989e1d-be47-4664-bb55-876a50527695.json"
       },
       {
         "id": [
@@ -687018,10 +687046,114 @@
         "size_kb": 0,
         "size_in_bytes": 793,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4603/fa/bb/59/fabb59c3-a5e6-4ede-b2e1-651ceacc4686.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4603/fa/bb/59/fabb59c3-a5e6-4ede-b2e1-651ceacc4686.json"
+      },
+      {
+        "id": [
+          49789,
+          1634
+        ],
+        "uid": 7017976611453,
+        "file_id": 49789,
+        "name": "RefinerStackSize500",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "RefinerStackSize500 4603 7.06 2026-10-13T00-44Z 58qnW1tKe.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791852274,
+        "uploaded_time": "2026-10-13T00:44:34.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7648667c477f8aeabc145a378dc40c9918360291bcc48c17ef7b41d9dfce657b",
+        "description": "Changes the refiner input stack size limit for substances on Restricted/Harsh from 250/150 to 500.",
+        "size_kb": 1,
+        "size_in_bytes": 1419,
+        "changelog_html": "Added lua files by Babscoole for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4603/1e/9e/1b/1e9e1bad-199e-478d-9dd1-3eb46cc6f303.json"
+      },
+      {
+        "id": [
+          49790,
+          1634
+        ],
+        "uid": 7017976611454,
+        "file_id": 49790,
+        "name": "RefinerStackSize1000",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "RefinerStackSize1000 4603 7.06 2026-10-13T00-45Z MWrySmNZ1.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791852301,
+        "uploaded_time": "2026-10-13T00:45:01.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8aa90ee4699eccafabbda4c4bcc5f0979500648b214995d0ae37f1f35ec58d94",
+        "description": "Changes the refiner input stack size limit for substances on Restricted/Harsh from 250/150 to 1,000.",
+        "size_kb": 1,
+        "size_in_bytes": 1430,
+        "changelog_html": "Added lua files by Babscoole for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4603/d0/ff/69/d0ff6922-47d4-48bc-b85d-28c22972402b.json"
+      },
+      {
+        "id": [
+          49791,
+          1634
+        ],
+        "uid": 7017976611455,
+        "file_id": 49791,
+        "name": "RefinerStackSize2000",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "RefinerStackSize2000 4603 7.06 2026-10-13T00-45Z pQZbnWOLR.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791852322,
+        "uploaded_time": "2026-10-13T00:45:22.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a556ff89549b2753a10adc7c9d425d8e584ba18f677b621221067bfe3af86bd6",
+        "description": "Changes the refiner input stack size limit for substances on Restricted/Harsh from 250/150 to 2,000.",
+        "size_kb": 1,
+        "size_in_bytes": 1430,
+        "changelog_html": "Added lua files by Babscoole for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4603/16/1f/58/161f5878-9a6f-4bbd-a81e-d61e66e3e7b8.json"
+      },
+      {
+        "id": [
+          49792,
+          1634
+        ],
+        "uid": 7017976611456,
+        "file_id": 49792,
+        "name": "RefinerStackSize9999",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1,
+        "file_name": "RefinerStackSize9999 4603 7.06 2026-10-13T00-45Z s60W14CAb.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791852338,
+        "uploaded_time": "2026-10-13T00:45:38.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3a3047d2b107c4baf8b599386138c8f5bf61eadb35411ba55fbc4e3f41dee433",
+        "description": "Changes the refiner input stack size limit for substances on Restricted/Harsh from 250/150 to 9,999.",
+        "size_kb": 1,
+        "size_in_bytes": 1431,
+        "changelog_html": "Added lua files by Babscoole for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4603/44/cf/f2/44cff211-6133-474b-9e40-fd9d70c9e0f1.json"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "7.06": [
+        "Added lua files by Babscoole for rebuilding using AMUMSS."
+      ]
+    }
   },
   {
     "mod_id": 4607,
@@ -688092,10 +688224,10 @@
     "mod_id": 4612,
     "name": "Waterless Hot n Dry Planets",
     "summary": "Makes it so that Desert/Barren and Scorched worlds either almost never have oceans or never have oceans at all.",
-    "version": "7.05",
+    "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4612/4612-1791017697-414198605.jpg",
     "author": "Grouch",
-    "updated_timestamp": 1791020580,
+    "updated_timestamp": 1791851922,
     "created_timestamp": 1791020580,
     "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod changes the chances for desert/barren and scorched worlds to have oceans. The main files reduce the chances for both to have oceans down to 5%, while the optional files fully remove the chance for them to have oceans. Note that the entire removal of a biome's oceans will block access to it's unique fish (making the squid helmet unobtainable), and possibly mission stuff that seeks a desert or scorched world with oceans.\n<br />\n<br />A separate optional file also makes it so that desert/barren worlds in purple systems can never have \"deep oceans\", which is a property that makes them have 450u deep oceans instead of 120u. Scorched and volcanic worlds in the vanilla game are already blocked from having this.\n<br />\n<br />Each of these files is to be installed as a separate mod, with two mods modifying the water chances for the same biome not being compatible with each other so only one of them will have their changes observed.\n<br />\n<br />Note that taking away oceans from the worlds that normally have them greatly modifies their terrain to remove large flat areas that are normally reserved for oceans/beaches. Bases from before mod installation on worlds that normally have oceans may be buried into terrain or floating, while bases on worlds that have oceans taken away by this mod may be buried or floating above oceans/underwater when the mod is removed, and to other players that do not have this mod installed.\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place either the \"DesertAlmostNoWater\", \"DesertNoWater\", \"HotAlmostNoWater\" or \"HotNoWater\" folders inside of GAMEDATA/MODS\n<br />\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENBIGPROPSBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENCORALBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENHIVESBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENHQBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENINFESTEDBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENOCEANBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENPEACOCKBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENROCKYBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENROCKYWEIRDBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BARREN&#92;BARRENRUINSBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;DESOLATE&#92;DESOLATEBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BURNT&#92;BURNTBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BURNT&#92;BURNTREMIX&#92;BURNTREMIXBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;LAVA&#92;LAVABIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;SCORCHED&#92;SCORCHBIGPROPSBIOMEOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;SCORCHED&#92;SCORCHCORALBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;SCORCHED&#92;SCORCHEDBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;SCORCHED&#92;SCORCHEDRUINSBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;SCORCHED&#92;SCORCHEDSHIELDTREEBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;SCORCHED&#92;SCORCHINFESTEDBIOME.MBIN\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;SCORCHED&#92;SCORCHOCEANBIOME.MBIN",
     "state": "normal",
@@ -688110,9 +688242,9 @@
         "file_id": 49484,
         "name": "DesertAlmostNoWater",
         "version": "7.05",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 6,
         "file_name": "DesertAlmostNoWater 4612 7.05 2026-10-03T09-01Z 8gT07OSkV.zip",
         "detected_file_extension": "zip",
@@ -688124,7 +688256,7 @@
         "size_kb": 6,
         "size_in_bytes": 6454,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4612/d7/8a/00/d78a007b-50e9-44d7-b0c9-3254ad459709.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/d7/8a/00/d78a007b-50e9-44d7-b0c9-3254ad459709.json"
       },
       {
         "id": [
@@ -688149,7 +688281,7 @@
         "size_kb": 5,
         "size_in_bytes": 5916,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4612/0a/53/55/0a5355ca-e46c-4df8-8ec8-dae12423db43.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/0a/53/55/0a5355ca-e46c-4df8-8ec8-dae12423db43.json"
       },
       {
         "id": [
@@ -688174,7 +688306,7 @@
         "size_kb": 5,
         "size_in_bytes": 5690,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4612/b5/d3/b4/b5d3b464-12ca-4379-9eb8-2138378e9c40.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/b5/d3/b4/b5d3b464-12ca-4379-9eb8-2138378e9c40.json"
       },
       {
         "id": [
@@ -688185,8 +688317,8 @@
         "file_id": 49487,
         "name": "DesertNoWater",
         "version": "7.05",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 6,
         "file_name": "DesertNoWater 4612 7.05 2026-10-03T09-03Z QR3q07yUV.zip",
@@ -688199,7 +688331,7 @@
         "size_kb": 6,
         "size_in_bytes": 6226,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4612/df/a3/5b/dfa35be0-3281-4b2b-8329-695a78003849.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/df/a3/5b/dfa35be0-3281-4b2b-8329-695a78003849.json"
       },
       {
         "id": [
@@ -688210,8 +688342,8 @@
         "file_id": 49488,
         "name": "DesertNoDeepOceans",
         "version": "7.05",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 6,
         "file_name": "DesertNoDeepOceans 4612 7.05 2026-10-03T09-04Z 8gT07OSkM.zip",
@@ -688224,7 +688356,7 @@
         "size_kb": 6,
         "size_in_bytes": 6442,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4612/e3/7f/2b/e37f2b44-77c2-4dc7-a073-1dabc23a38ae.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/e3/7f/2b/e37f2b44-77c2-4dc7-a073-1dabc23a38ae.json"
       },
       {
         "id": [
@@ -688235,8 +688367,8 @@
         "file_id": 49489,
         "name": "HotAlmostNoWater",
         "version": "7.05",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 5,
         "file_name": "HotAlmostNoWater 4612 7.05 2026-10-03T09-11Z oPfwFLsCE.zip",
@@ -688249,7 +688381,7 @@
         "size_kb": 5,
         "size_in_bytes": 5916,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4612/e5/4f/1a/e54f1af2-a983-45bd-b363-994e635ff946.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/e5/4f/1a/e54f1af2-a983-45bd-b363-994e635ff946.json"
       },
       {
         "id": [
@@ -688260,8 +688392,8 @@
         "file_id": 49490,
         "name": "HotNoWater",
         "version": "7.05",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 5,
         "file_name": "HotNoWater 4612 7.05 2026-10-03T09-12Z 4tDiNuwWx.zip",
@@ -688274,19 +688406,148 @@
         "size_kb": 5,
         "size_in_bytes": 5690,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4612/2b/d1/1c/2bd11c47-ac7b-4a95-a5ba-be234ebb2880.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/2b/d1/1c/2bd11c47-ac7b-4a95-a5ba-be234ebb2880.json"
+      },
+      {
+        "id": [
+          49784,
+          1634
+        ],
+        "uid": 7017976611448,
+        "file_id": 49784,
+        "name": "DesertAlmostNoWater",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 6,
+        "file_name": "DesertAlmostNoWater 4612 7.06 2026-10-13T00-37Z FpHgXM1fF.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791851822,
+        "uploaded_time": "2026-10-13T00:37:02.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/91452d5afb9ea84c99464807ea65d5ee7d6bfaf29707473a1ca512d9d92884a1",
+        "description": "Makes it so desert/barren worlds only have oceans 5% of the time.",
+        "size_kb": 6,
+        "size_in_bytes": 7167,
+        "changelog_html": "Added lua files by Babscoole for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/f0/16/9d/f0169dae-5f93-4fad-8005-2a40bedc942e.json"
+      },
+      {
+        "id": [
+          49785,
+          1634
+        ],
+        "uid": 7017976611449,
+        "file_id": 49785,
+        "name": "DesertNoDeepOceans",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "DesertNoDeepOceans 4612 7.06 2026-10-13T00-37Z kAMZq0Jp5.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791851852,
+        "uploaded_time": "2026-10-13T00:37:32.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4a9de33fe67e621a9cc4061ccb827d96236d3d7d68f08ca4116f1a80dcb8b8bb",
+        "description": "Makes it so that Desert/Barren worlds in purple star systems do not ever have deep oceans.",
+        "size_kb": 6,
+        "size_in_bytes": 7163,
+        "changelog_html": "Added lua files by Babscoole for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/b3/58/f2/b358f2b4-a4d8-4169-8f80-6e276d33b553.json"
+      },
+      {
+        "id": [
+          49786,
+          1634
+        ],
+        "uid": 7017976611450,
+        "file_id": 49786,
+        "name": "DesertNoWater",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "DesertNoWater 4612 7.06 2026-10-13T00-37Z 31ISmluqT.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791851877,
+        "uploaded_time": "2026-10-13T00:37:57.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8cb47dbb645dcb0ffc234fdd299cee109bee733d2293aa23d499d24d18004d76",
+        "description": "Makes it so that Desert/Barren worlds do not ever have oceans.<br /><br />Note: Makes desert fish impossible to obtain.",
+        "size_kb": 6,
+        "size_in_bytes": 6901,
+        "changelog_html": "Added lua files by Babscoole for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/87/41/d6/8741d69f-5e1e-4977-a3bf-cc782fdfa3fb.json"
+      },
+      {
+        "id": [
+          49787,
+          1634
+        ],
+        "uid": 7017976611451,
+        "file_id": 49787,
+        "name": "HotAlmostNoWater",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "HotAlmostNoWater 4612 7.06 2026-10-13T00-38Z DcGFLKeic.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791851895,
+        "uploaded_time": "2026-10-13T00:38:15.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7896ac3670cebe156e4f5a88128a11bdde8363c9b50e2b09b5e5bf4a68ac3b3e",
+        "description": "Makes it so only 5% of Scorched worlds have oceans.",
+        "size_kb": 6,
+        "size_in_bytes": 6600,
+        "changelog_html": "Added lua files by Babscoole for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/e1/c0/e6/e1c0e614-d9dd-4a12-96e8-809f3b06304f.json"
+      },
+      {
+        "id": [
+          49788,
+          1634
+        ],
+        "uid": 7017976611452,
+        "file_id": 49788,
+        "name": "HotNoWater",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "HotNoWater 4612 7.06 2026-10-13T00-38Z mijBfGQvD.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791851922,
+        "uploaded_time": "2026-10-13T00:38:42.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ab675b52a932308c0bcdb8bc4dde652eca860e8c8f08f09d706238bfb59ee8ba",
+        "description": "Makes it so that Scorched worlds do not ever have oceans.<br /><br />Note: Makes scorched fish impossible to obtain.",
+        "size_kb": 6,
+        "size_in_bytes": 6345,
+        "changelog_html": "Added lua files by Babscoole for rebuilding using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4612/29/0d/4d/290d4d48-8049-4a07-8046-2abe1ddb3c46.json"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "7.06": [
+        "Added lua files by Babscoole for rebuilding using AMUMSS."
+      ]
+    }
   },
   {
     "mod_id": 4613,
     "name": "Actually Extreme Gas Giants",
     "summary": "Makes gas giants' hazard strength actually match extreme worlds that are experiencing a storm.",
-    "version": "7.05",
+    "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4613/4613-1791024473-392774110.jpg",
     "author": "Grouch",
-    "updated_timestamp": 1791024906,
+    "updated_timestamp": 1791850354,
     "created_timestamp": 1791024906,
     "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod makes Gas Giants' hazard strength match the strength of other extreme worlds. Normally their hazard strength is only as strong as a regular world experiencing a storm, or an extreme world that is not experiencing a storm.\n<br />\n<br />This scales with Options &gt; Difficulty &gt; Survival Difficulty, so making that harder makes all hazards even stronger against the regular hazard protection bar.\n<br />\n<br />A set of optional files exists to make water on Gas Giants more dangerous, as normally it can normally be used to avoid the hazards present.\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"EXGasGiants\" folder inside of GAMEDATA/MODS.\n<br />\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;WEATHER&#92;GASGIANTWEATHER.MBIN\n<br />",
     "state": "normal",
@@ -688301,9 +688562,9 @@
         "file_id": 49494,
         "name": "EXGasGiants",
         "version": "7.05",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 1,
         "file_name": "EXGasGiants 4613 7.05 2026-10-03T10-43Z N2LUkQgxL.zip",
         "detected_file_extension": "zip",
@@ -688315,7 +688576,7 @@
         "size_kb": 1,
         "size_in_bytes": 1067,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4613/4c/83/f7/4c83f77c-0d5c-4599-8c90-ad7c5326bbab.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4613/4c/83/f7/4c83f77c-0d5c-4599-8c90-ad7c5326bbab.json"
       },
       {
         "id": [
@@ -688326,8 +688587,8 @@
         "file_id": 49495,
         "name": "EXGasGiantsDangerousWater",
         "version": "7.05",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 1,
         "file_name": "EXGasGiantsDangerousWater 4613 7.05 2026-10-03T10-43Z XnaJySiRt.zip",
@@ -688340,7 +688601,7 @@
         "size_kb": 1,
         "size_in_bytes": 1189,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4613/77/23/1b/77231b44-0a98-412f-94cf-a4e612f5cdd6.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4613/77/23/1b/77231b44-0a98-412f-94cf-a4e612f5cdd6.json"
       },
       {
         "id": [
@@ -688351,8 +688612,8 @@
         "file_id": 49496,
         "name": "EXGasGiantsDangerousWaterEX",
         "version": "7.05",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 1,
         "file_name": "EXGasGiantsDangerousWaterEX 4613 7.05 2026-10-03T10-44Z kAMZq0J9q.zip",
@@ -688365,10 +688626,89 @@
         "size_kb": 1,
         "size_in_bytes": 1208,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4613/03/30/27/0330273c-92d8-4253-9dab-efa91fbb848c.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4613/03/30/27/0330273c-92d8-4253-9dab-efa91fbb848c.json"
+      },
+      {
+        "id": [
+          49780,
+          1634
+        ],
+        "uid": 7017976611444,
+        "file_id": 49780,
+        "name": "EXGasGiants",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1,
+        "file_name": "EXGasGiants 4613 7.06 2026-10-13T00-11Z PuUGp56io.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791850296,
+        "uploaded_time": "2026-10-13T00:11:36.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/eda9942948057cc6b2cbcf79b6b69543104cc3d873902ada9d0b8eff01b57561",
+        "description": "Increases Gas Giant ambient hazard strength to extreme storm levels.",
+        "size_kb": 1,
+        "size_in_bytes": 1613,
+        "changelog_html": "Added lua file by Babscoole to rebuild the mod using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4613/46/94/59/4694597e-8d79-4f02-a24f-bc550d4b2b1e.json"
+      },
+      {
+        "id": [
+          49781,
+          1634
+        ],
+        "uid": 7017976611445,
+        "file_id": 49781,
+        "name": "EXGasGiantsDangerousWater",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "EXGasGiantsDangerousWater 4613 7.06 2026-10-13T00-12Z CmY2hwpyt.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791850332,
+        "uploaded_time": "2026-10-13T00:12:12.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9ff2b3eaab88a0c914512b744858dafee6b53ae97fdeb77c242742726103a2fd",
+        "description": "Increases Gas Giant water hazard strength to storm levels.",
+        "size_kb": 1,
+        "size_in_bytes": 1799,
+        "changelog_html": "Added lua file by Babscoole to rebuild the mod using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4613/32/dd/7d/32dd7d91-cbec-4b27-83de-e3a3fed26cdb.json"
+      },
+      {
+        "id": [
+          49782,
+          1634
+        ],
+        "uid": 7017976611446,
+        "file_id": 49782,
+        "name": "EXGasGiantsDangerousWaterEX",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "EXGasGiantsDangerousWaterEX 4613 7.06 2026-10-13T00-12Z YjQ5seZuu.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791850354,
+        "uploaded_time": "2026-10-13T00:12:34.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/85e9cfa5d8761fd9238e9ba8bdfb9e3b76367869f9a583b44e81b052a154807d",
+        "description": "Increases Gas Giant water hazard strength to extreme storm levels.",
+        "size_kb": 1,
+        "size_in_bytes": 1833,
+        "changelog_html": "Added lua file by Babscoole to rebuild the mod using AMUMSS.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4613/51/d9/a8/51d9a86a-3450-477e-b3bf-9931ba22ef2b.json"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "7.06": [
+        "Added lua file by Babscoole to rebuild the mod using AMUMSS."
+      ]
+    }
   },
   {
     "mod_id": 4614,
