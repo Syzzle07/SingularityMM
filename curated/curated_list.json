@@ -680171,9 +680171,9 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4555/4555-1790584832-1143230330.png",
     "author": "Somnati",
-    "updated_timestamp": 1791199179,
+    "updated_timestamp": 1791861367,
     "created_timestamp": 1790205794,
-    "description": "[size=4][b]Description\n<br />WIP - this mod is tricky so give me some time to iron things out. will update occasionally.\n<br />v1.5 has released, together with Nubilus 1.0, my new cloud mod (check the changelog for info).\n<br />[/b][/size]\n<br />\n<br />I'd always used Crescent Worlds, but it hasn't been updated for Cosmos. Rather than patch someone else's mod, I built my own from scratch. Lunatus contains no code from Crescent Worlds or any other mod. It's made from the game's own shaders, with AI assistance (Claude), and tuned by me in-game.\n<br />Lunatus changes how your sky looks: the worlds in it, and the air around you. Other planets and moons are lit by their real star, sit behind your atmosphere instead of looking pasted on top of it, and change with your day and night. Your own planet gets one physical haze from your feet to the horizon, real dusk and darker nights, rain mist, volcanic ash haze and auroras.\n<br />In vanilla, every world in your sky is lit with your own planet's light. That light is clamped high overhead, tinted by your sunset and swapped for moonlight at night, so other worlds never show a true phase. By day they look like stickers on the sky, and at night their dark sides are black cut-outs. Lunatus fixes all of that with shaders built from the game's own 7.04.1 shaders.\n<br />[b]Clouds have moved out:[/b] the clouds now live in their own mod, Nubilus, released together with Lunatus 1.5. Nubilus has volumetric clouds that match from orbit to the ground, a rewritten water surface, and an SDR highlight fix. Lunatus works on its own too, but I recommend running both.\n<br />I tried my best with this. Expect issues, and I'll fix them as they come. If you don't like a certain visual effect, let me know: I may be able to upload alternate versions.\n<br />Optional comparison files: \"Vanilla vs 1.5\" and \"1.4 vs 1.5\" split-screen builds (left 40% old, right 60% 1.5). They're for screenshots only, not for playing.\n<br />\n<br />\n<br />[b]// PROGRESS UPDATES[/b]\n<br />[size=2][color=#9e9e9e]progress notes (click to expand)[/color][/size]\n<br />[spoiler]\n<br />bug/visual fixes.\n<br />[b]improved FOG.\n<br />altered ring render.\n<br />possible eclipses?\n<br />dimmer clouds from space.(nubilus)\n<br />\n<br />// future mods planned\n<br />expanded planet color pallet.\n<br />new planetary terrain patterns. (striped planets etc.)[/b][/spoiler]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Download and extract the archive.\n<br />When updating, delete your old Lunatus folder first. 1.4's cloud files would otherwise stay behind and fight Nubilus.\n<br />Place the \"Lunatus\" folder in ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;\n<br />Recommended: install Nubilus 1.0 next to it.\n<br />Remove any other mod that replaces the same files (see Requirements).\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />Worlds in your sky\n<br />[list]\n<br />[*]Real crescents: lit by their actual star, not your planet's light. Crescents at dusk, half and full phases, and a world stays lit at night when its sun still reaches it.[/*]\n<br />[*]Behind your sky by day: your air sits in front of them. Their dark side melts into the sky, and their lit side shows through the air in front of it.[/*]\n<br />[*]Night skies: a world's sunlit side shines like a real moon, dims and turns orange-red low in the sky, and its dark side is shaded by the system's space fog instead of a black cut-out. Night sides end in a clean edge.[/*]\n<br />[*]Atmosphere glow: a bright line at the edge, fading into space in each world's own colour. From orbit it sits at the edge of the clouds, not over them.[/*]\n<br />[*]Rings: crisp ringlets and the planet's shadow across its ring. Rings sit behind your air, low rings fade into the horizon haze, and from orbit far rings sit behind a nearer world's glow.[/*]\n<br />[*]Clean climb out of a planet: the worlds around you change from the ground look to the space look in one smooth step, with no grey veil and no white fog on asteroids.[/*]\n<br />[/list]Your own planet\n<br />[list]\n<br />[*]One haze: the game's three fog layers replaced by one. Denser and more atmospheric in 1.5, it settles low (valleys fill, peaks clear), takes the colour of the sky behind it, and always ends in haze at the horizon.[/*]\n<br />[*]Light in the haze: it glows only where sunlight reaches it. At dusk the low haze goes dark first while higher air stays lit.[/*]\n<br />[*]Dusk and night: the sky's light fades with the sunset, nights are darker and keep their star's colour, and the night air clears so the space sky shows through.[/*]\n<br />[*]Sunlight: bright surfaces brighten gently (no blown-out ground at noon), shaded slopes keep more sky light, and cave ceilings are no longer lit cyan.[/*]\n<br />[*]Sun: a real sun disc that reddens near the horizon, and a lens flare that fades gently through thin clouds.[/*]\n<br />[*]Moons: on small moons the sky wraps all the way around you above the clouds.[/*]\n<br />[*]Auroras: on about half the worlds with air, over both poles at night. They hang high above the clouds, keep a steady shape and colour per world, cast a faint glow on the ground, and from orbit their curtains rise above the planet's edge.[/*]\n<br />[*]Particles: smoke, dust, mist and sparks sit in your planet's haze and darken at night. Fireflies and embers keep their glow, and particles no longer cut off hard at the camera.[/*]\n<br />[*]Rain: the haze thins and a deep, close mist gathers low.[/*]\n<br />[*]Volcanic worlds: wrapped in a thick, ash-tinted haze.[/*]\n<br />[*]Glow: bloom that settles at the same speed at every frame rate, and no sky-coloured outlines around objects against fog.[/*]\n<br />[/list]\n<br />\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*]No Man's Sky 7.04.1 (Cosmos), PC. No other mods required. Nubilus 1.0 recommended.[/*]\n<br />[*]Not compatible with other shader mods that replace the same files: CrescentWorlds, Key Art Worlds and Atmosphere, other fog, atmosphere or particle shader mods, and lens-flare shader mods. Only one mod can own each shader file (the full file list is in the README).[/*]\n<br />[*]For clouds, use Nubilus or another cloud mod, not both.[/*]\n<br />[*]Table (MBIN/EXML) mods are fine, including sky colour and weather mods.[/*]\n<br />[*]Shader mods can break when Hello Games updates the game. If things look wrong after a patch, remove Lunatus until an update is posted.[/*]\n<br />[/list]\n<br />\n<br />Known limits\n<br />[list]\n<br />[*]In two- and three-sun systems, the night tint uses the main sun's colour.[/*]\n<br />[*]Worlds seen from very close are left vanilla.[/*]\n<br />[*]Without Nubilus, other worlds' cloud layers are the game's own.[/*]\n<br />[*]The rain mist sits by sea level, so high ground gets less of it.[/*]\n<br />[/list]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*]Hello Games, for No Man's Sky and a universe worth looking up at.[/*]\n<br />[*]The CrescentWorlds mod, whose idea of true crescents in the sky inspired this one. Lunatus is written from scratch; no other mod's code is used.[/*]\n<br />[*]The NMS modding community's tools, MBINCompiler and HGPAKtool, and Khronos' SPIRV-Cross, glslang and SPIRV-Tools.[/*]\n<br />[*]Claude AI[/*]\n<br />[/list]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />",
+    "description": "[size=4][b]Description\n<br />WIP - this mod is tricky so give me some time to iron things out. will update occasionally.\n<br />v1.5 has released, together with Nubilus 1.0, my new cloud mod (check the changelog for info).\n<br />[/b][/size]\n<br />\n<br />I'd always used Crescent Worlds, but it hasn't been updated for Cosmos. Rather than patch someone else's mod, I built my own from scratch. Lunatus contains no code from Crescent Worlds or any other mod. It's made from the game's own shaders, with AI assistance (Claude), and tuned by me in-game.\n<br />Lunatus changes how your sky looks: the worlds in it, and the air around you. Other planets and moons are lit by their real star, sit behind your atmosphere instead of looking pasted on top of it, and change with your day and night. Your own planet gets one physical haze from your feet to the horizon, real dusk and darker nights, rain mist, volcanic ash haze and auroras.\n<br />In vanilla, every world in your sky is lit with your own planet's light. That light is clamped high overhead, tinted by your sunset and swapped for moonlight at night, so other worlds never show a true phase. By day they look like stickers on the sky, and at night their dark sides are black cut-outs. Lunatus fixes all of that with shaders built from the game's own 7.04.1 shaders.\n<br />[b]Clouds have moved out:[/b] the clouds now live in their own mod, Nubilus, released together with Lunatus 1.5. Nubilus has volumetric clouds that match from orbit to the ground, a rewritten water surface, and an SDR highlight fix. Lunatus works on its own too, but I recommend running both.\n<br />I tried my best with this. Expect issues, and I'll fix them as they come. If you don't like a certain visual effect, let me know: I may be able to upload alternate versions.\n<br />Optional comparison files: \"Vanilla vs 1.5\" and \"1.4 vs 1.5\" split-screen builds (left 40% old, right 60% 1.5). They're for screenshots only, not for playing.\n<br />\n<br />\n<br />[b]// PROGRESS UPDATES[/b]\n<br />[size=2][color=#9e9e9e]progress notes (click to expand)[/color][/size]\n<br />[spoiler]\n<br />bug/visual fixes.\n<br />[b]improved FOG.\n<br />altered ring render.\n<br />possible eclipses?\n<br />dimmer clouds from space.(nubilus)\n<br />\n<br />// future mods planned\n<br />expanded planet color pallet.\n<br />new planetary terrain patterns. (striped planets etc.)\n<br />terrain gen overhaul.\n<br />new HUD.\n<br />detailed planet terrain from space (visible mountains etc).[/b][/spoiler]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Download and extract the archive.\n<br />When updating, delete your old Lunatus folder first. 1.4's cloud files would otherwise stay behind and fight Nubilus.\n<br />Place the \"Lunatus\" folder in ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;\n<br />Recommended: install Nubilus 1.0 next to it.\n<br />Remove any other mod that replaces the same files (see Requirements).\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />Worlds in your sky\n<br />[list]\n<br />[*]Real crescents: lit by their actual star, not your planet's light. Crescents at dusk, half and full phases, and a world stays lit at night when its sun still reaches it.[/*]\n<br />[*]Behind your sky by day: your air sits in front of them. Their dark side melts into the sky, and their lit side shows through the air in front of it.[/*]\n<br />[*]Night skies: a world's sunlit side shines like a real moon, dims and turns orange-red low in the sky, and its dark side is shaded by the system's space fog instead of a black cut-out. Night sides end in a clean edge.[/*]\n<br />[*]Atmosphere glow: a bright line at the edge, fading into space in each world's own colour. From orbit it sits at the edge of the clouds, not over them.[/*]\n<br />[*]Rings: crisp ringlets and the planet's shadow across its ring. Rings sit behind your air, low rings fade into the horizon haze, and from orbit far rings sit behind a nearer world's glow.[/*]\n<br />[*]Clean climb out of a planet: the worlds around you change from the ground look to the space look in one smooth step, with no grey veil and no white fog on asteroids.[/*]\n<br />[/list]Your own planet\n<br />[list]\n<br />[*]One haze: the game's three fog layers replaced by one. Denser and more atmospheric in 1.5, it settles low (valleys fill, peaks clear), takes the colour of the sky behind it, and always ends in haze at the horizon.[/*]\n<br />[*]Light in the haze: it glows only where sunlight reaches it. At dusk the low haze goes dark first while higher air stays lit.[/*]\n<br />[*]Dusk and night: the sky's light fades with the sunset, nights are darker and keep their star's colour, and the night air clears so the space sky shows through.[/*]\n<br />[*]Sunlight: bright surfaces brighten gently (no blown-out ground at noon), shaded slopes keep more sky light, and cave ceilings are no longer lit cyan.[/*]\n<br />[*]Sun: a real sun disc that reddens near the horizon, and a lens flare that fades gently through thin clouds.[/*]\n<br />[*]Moons: on small moons the sky wraps all the way around you above the clouds.[/*]\n<br />[*]Auroras: on about half the worlds with air, over both poles at night. They hang high above the clouds, keep a steady shape and colour per world, cast a faint glow on the ground, and from orbit their curtains rise above the planet's edge.[/*]\n<br />[*]Particles: smoke, dust, mist and sparks sit in your planet's haze and darken at night. Fireflies and embers keep their glow, and particles no longer cut off hard at the camera.[/*]\n<br />[*]Rain: the haze thins and a deep, close mist gathers low.[/*]\n<br />[*]Volcanic worlds: wrapped in a thick, ash-tinted haze.[/*]\n<br />[*]Glow: bloom that settles at the same speed at every frame rate, and no sky-coloured outlines around objects against fog.[/*]\n<br />[/list]\n<br />\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*]No Man's Sky 7.04.1 (Cosmos), PC. No other mods required. Nubilus 1.0 recommended.[/*]\n<br />[*]Not compatible with other shader mods that replace the same files: CrescentWorlds, Key Art Worlds and Atmosphere, other fog, atmosphere or particle shader mods, and lens-flare shader mods. Only one mod can own each shader file (the full file list is in the README).[/*]\n<br />[*]For clouds, use Nubilus or another cloud mod, not both.[/*]\n<br />[*]Table (MBIN/EXML) mods are fine, including sky colour and weather mods.[/*]\n<br />[*]Shader mods can break when Hello Games updates the game. If things look wrong after a patch, remove Lunatus until an update is posted.[/*]\n<br />[/list]\n<br />\n<br />Known limits\n<br />[list]\n<br />[*]In two- and three-sun systems, the night tint uses the main sun's colour.[/*]\n<br />[*]Worlds seen from very close are left vanilla.[/*]\n<br />[*]Without Nubilus, other worlds' cloud layers are the game's own.[/*]\n<br />[*]The rain mist sits by sea level, so high ground gets less of it.[/*]\n<br />[/list]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*]Hello Games, for No Man's Sky and a universe worth looking up at.[/*]\n<br />[*]The CrescentWorlds mod, whose idea of true crescents in the sky inspired this one. Lunatus is written from scratch; no other mod's code is used.[/*]\n<br />[*]The NMS modding community's tools, MBINCompiler and HGPAKtool, and Khronos' SPIRV-Cross, glslang and SPIRV-Tools.[/*]\n<br />[*]Claude AI[/*]\n<br />[/list]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -680200,7 +680200,7 @@
         "size_kb": 119,
         "size_in_bytes": 122005,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/5f/b1/34/5fb1345d-1484-4194-8d30-f1e136555b75.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/5f/b1/34/5fb1345d-1484-4194-8d30-f1e136555b75.json"
       },
       {
         "id": [
@@ -680225,7 +680225,7 @@
         "size_kb": 119,
         "size_in_bytes": 122640,
         "changelog_html": "Lunati 1.1\nNew: Earthshine. Seen from your planet, a world's dark side now catches a faint glow of sunlight bounced off your world. It's strongest when that world is a thin crescent near the sun, like the ashen light on a young Moon, and its terrain shows dimly on the unlit side.\nNight and space dark sides are now solid dark silhouettes. The space-fog tint over a world's dark side is down from 90% to 20%. Planets read as solid bodies that hide the stars behind them.\nFixed: planets could look see-through, like glass bubbles, in space.\nFixed: crescents looked too thin at night.\nDaytime: a world's lit side is now 80% blended into your sky (was 85%), so planets are a little easier to see by day.\nFixed: two rare edge cases that could cause flickering black pixels on distant worlds' atmospheres and clouds.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/28/a9/29/28a92926-548a-4583-ab81-67134d36ca17.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/28/a9/29/28a92926-548a-4583-ab81-67134d36ca17.json"
       },
       {
         "id": [
@@ -680250,7 +680250,7 @@
         "size_kb": 139,
         "size_in_bytes": 142667,
         "changelog_html": "1.2\n- Renamed Lunati -&gt; Lunatus. If you're updating, delete the old \"Lunati\" folder first.\n- Night: other worlds' sunlit sides now shine like a real moon (the game's fog was hiding about 95% of them).\n- Moonrise: at night, worlds low in the sky dim and turn orange-red toward the horizon, like our own air does.\n- Sunrise/sunset: the sky's red horizon glow now sits in front of other worlds instead of stopping at their edge.\n- Each world's lit side takes a light tint of its own atmosphere's colour.\n- Rings: a planet now casts its shadow across its ring, seen from anywhere.\n- Rings: one consistent look from space and from the ground, they sit behind your planet's atmosphere, and they no longer dim suddenly as you arrive at a planet.\n- Tweaked the look of distant planets as you enter or leave a planets atmosphere.\n- From space: a planet's haze only glows where its sun reaches. Night sides are dark, with no grey disc on approach and no glowing edge along the night side's horizon.\n- Entering a planet at night: its land shows faintly through the dark, and the game's haze fades in smoothly as you descend.\n- Fixed a sunrise glare where other worlds shone through your clouds.\n- Fixed a world low in the night sky showing far too bright.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/94/75/11/94751166-6bad-4cd9-8e09-85c843fdc615.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/94/75/11/94751166-6bad-4cd9-8e09-85c843fdc615.json"
       },
       {
         "id": [
@@ -680275,7 +680275,7 @@
         "size_kb": 139,
         "size_in_bytes": 142689,
         "changelog_html": "1.2.1 – Fixed other worlds' night sides turning black...hopefully nothing else broke in the process...",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/04/c3/df/04c3dfbc-039b-40e6-bd88-ab8c8a5f69c2.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/04/c3/df/04c3dfbc-039b-40e6-bd88-ab8c8a5f69c2.json"
       },
       {
         "id": [
@@ -680300,7 +680300,7 @@
         "size_kb": 140,
         "size_in_bytes": 143714,
         "changelog_html": "\"\" so im still learning all the things that can be tweaked and improved. With this patch i dialed back some probably rushed/not fully tested changes so i could have a more solid mod to work with. so a few things from 1.2 got stripped in favor of some better methods. imma keep pushing what can be done with this though until i run out of stuff to do.\"\nFrom a planet at night, other worlds' dark sides are now shaded exactly as space shows them (the game's own space fog), instead of a separate tint.\nA world's atmosphere shows as a thin band at its edge that follows its real day side, with a clearer face.\nCrisper terminators.\nRemoved the dark-side silhouette, the cut-away clouds over night sides, and the faint land when entering at night.\nFixed a rare black-pixel risk and the home-planet check on the ground.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/58/5b/c6/585bc686-a095-4f59-b718-59ad87eaf12e.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/58/5b/c6/585bc686-a095-4f59-b718-59ad87eaf12e.json"
       },
       {
         "id": [
@@ -680325,7 +680325,7 @@
         "size_kb": 325,
         "size_in_bytes": 333504,
         "changelog_html": "// DEV NOTE\nv1.4 is a big update...lots of testing and tweaking has been done...overall its improved a ton since v1.3.\ntheres still little things that bug me about the planetary visuals that i've had a hard time fixing but at least we've got this.\nreport any bugs or issues please...i eat those up.\nalso expect further updates...im always trying to find ways to improve stuff.\n--------------------------------------------\nYour planet's air: one physical haze replaces the game's three fog layers - thickens with distance, settles low, sky-coloured, ends in haze at the horizon\nHaze glows only where sunlight reaches it - low haze goes dark first at dusk\nDusk dimming and darker nights, with a clear night air that shows the space sky\nRain: thinner haze with a deep, close ground mist - rain storms included\nVolcanic worlds wrapped in a thick ash haze\nAuroras over both poles of about half the worlds with air, seen from the ground and from orbit\nRebuilt volumetric clouds: correct blending, far less grain, fuller insides\nFar worlds: one lighting law for day and night, lit from their star's real direction\nReal atmosphere glow on far worlds, in each world's own colour\nRings with crisp ringlets and clean edges seen edge-on\nClean climb out of a planet - no bright discs or grey night sides, space fog fades in\nHaze in front of other worlds matches the sky at dawn and dusk\nSofter terminators\nStronger sun glow, brighter bloom, stronger god rays in clear weather\nEarthshine removed for now (returns after its own test)\nCompatibility: now conflicts with cloud shader mods (e.g. Cloud Tweaks) - Lunatus replaces the same cloud files",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/24/00/0c/24000c8f-ed8e-40c1-98a9-552c536dc86c.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/24/00/0c/24000c8f-ed8e-40c1-98a9-552c536dc86c.json"
       },
       {
         "id": [
@@ -680350,7 +680350,7 @@
         "size_kb": 473,
         "size_in_bytes": 484893,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/90/8a/2c/908a2c7e-4ea6-482f-b042-3cae32f2bd97.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/90/8a/2c/908a2c7e-4ea6-482f-b042-3cae32f2bd97.json"
       },
       {
         "id": [
@@ -680375,7 +680375,7 @@
         "size_kb": 499,
         "size_in_bytes": 511512,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/4e/b7/93/4eb7936f-ac00-4c89-97e2-3fa9c94cf494.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/4e/b7/93/4eb7936f-ac00-4c89-97e2-3fa9c94cf494.json"
       },
       {
         "id": [
@@ -680386,9 +680386,9 @@
         "file_id": 49571,
         "name": "Lunatus v1.5 (darker nights)",
         "version": "1.5",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 8418,
         "file_name": "Lunatus v1.5 (darker nights) 4555 1.5 2026-10-05T10-04Z zYpLKAHlZ.zip",
         "detected_file_extension": "zip",
@@ -680400,7 +680400,7 @@
         "size_kb": 8418,
         "size_in_bytes": 8620185,
         "changelog_html": "Important\nRebuilt for No Man's Sky 7.04.1.\nClouds moved out into their own mod, Nubilus 1.0, released together and recommended. Without Nubilus the game's own clouds are used.\nDelete your old Lunatus folder before installing, otherwise 1.4's cloud files stay behind.\nNew\nDistance haze: denser, more atmospheric fog. Far land sits deeper in your planet's haze but never goes solid.\nSunlight: very bright surfaces brighten more gently, with no blown-out ground at noon. Shaded slopes keep more sky light.\nDusk and night: the sky's light fades with the sunset, distant haze stops glowing after dusk, and nights keep their star's colour instead of going grey.\nCaves: ceilings and overhangs are lit by light bounced off the ground, not cyan sky.\nParticles: smoke, dust, mist and sparks sit in the planet's haze and darken at night. Fireflies and embers keep their glow, and particles no longer cut off hard at the camera.\nAuroras: visible over night sides from orbit, with curtains rising above the planet's edge. They hang higher (above the clouds), keep a steady shape and colour per world with no flicker, cast a faint glow on the ground below, and fade softly in the distance.\nRings: low rings fade into your horizon haze. From orbit, a far world's rings sit behind a nearer world's atmosphere glow.\nSun: a real sun disc that reddens near the horizon, and a lens flare that fades gently through thin clouds.\nMoons: on small moons the sky now wraps around you above the clouds too.\nHorizon from orbit: the bright band on a planet's edge sits at the edge of its clouds, not over them.\nWorlds at night: a far world's night side ends in a clean edge, with no dark band inside its rim.\nHorizon: the far landscape always ends in a little haze, even on clear days.\nFixed\nEntering a planet: less haze on big worlds, and giant worlds clear at the same height as normal ones.\nLeaving a planet: the worlds around you switch from ground look to space look in one smooth step. No grey veil over your planet on the way up or down, and no flat white fog on asteroids.\nAirless moons: by day their far land no longer fades to black.\nOutlines: no thin sky-coloured outline around trees, rocks and your ship against fog.\nBloom: settles at the same speed at every frame rate, with no lag at 30 fps and no flicker at high fps.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/22/7f/5a/227f5a53-5bd2-4bf8-b055-7b53e2e1ab7e.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/22/7f/5a/227f5a53-5bd2-4bf8-b055-7b53e2e1ab7e.json"
       },
       {
         "id": [
@@ -680425,7 +680425,7 @@
         "size_kb": 13639,
         "size_in_bytes": 13966946,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/46/7e/a2/467ea2a8-9c5d-49cd-bd97-3c9226f32356.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/46/7e/a2/467ea2a8-9c5d-49cd-bd97-3c9226f32356.json"
       },
       {
         "id": [
@@ -680450,7 +680450,7 @@
         "size_kb": 13565,
         "size_in_bytes": 13890832,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/37/5f/5c/375f5cbf-484d-4cd6-9a43-ae26c9701d8c.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/37/5f/5c/375f5cbf-484d-4cd6-9a43-ae26c9701d8c.json"
       },
       {
         "id": [
@@ -680461,8 +680461,8 @@
         "file_id": 49574,
         "name": "Lunatus 1.5 (VanillaNights)",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 8403,
         "file_name": "Lunatus 1.5 (VanillaNights) 4555 1 2026-10-05T11-19Z bqtarID6Y.zip",
@@ -680475,7 +680475,57 @@
         "size_kb": 8403,
         "size_in_bytes": 8604954,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4555/8a/2e/3e/8a2e3edb-9476-4a2c-959e-312cfd05cf91.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/8a/2e/3e/8a2e3edb-9476-4a2c-959e-312cfd05cf91.json"
+      },
+      {
+        "id": [
+          49794,
+          1634
+        ],
+        "uid": 7017976611458,
+        "file_id": 49794,
+        "name": "Lunatus 1.6 (VanillaNights)",
+        "version": "1.6",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 8380,
+        "file_name": "Lunatus 1.6 (VanillaNights) 4555 1.6 2026-10-13T03-15Z 8gT07OSsn.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791861346,
+        "uploaded_time": "2026-10-13T03:15:46.000+00:00",
+        "mod_version": "1.6",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/430680524253192aef7a508a171698f1f8cbb1c0c63efe42a76f8c0ba46e3d29",
+        "description": "",
+        "size_kb": 8380,
+        "size_in_bytes": 8581543,
+        "changelog_html": "1.6\n- New: land fog. The land now ends in fog just before the terrain stops drawing, and the fog lifts as you climb past 3-6 km so the whole planet shows from high up.\n- New: a light valley fog settles in valleys and canyons from dusk through the morning and burns off as the sun climbs.\n- New: storm, rain and ash fog never get brighter than the fog brightness cap, and a storm's fog comes in more gently.\n- New: thicker air in the distance, clearer air close by. Far land sits deeper in your planet's haze; the haze right around you is thinner (about half of it is back at 500 m, all of it from 2 km).\n- New: the back face of planetary rings is lit by the light passing through the ring instead of being black, and rings seen from the ground by day fade into the sky's haze.\n- New: from orbit, the atmosphere's rim glow hugs the ground where no clouds sit under it, instead of floating above the planet's edge with a dark gap.\n- New: gas giants get their own haze (thick down in the clouds, clear above them) when Nubilus 1.2 is installed.\n- Fixed: space dust / heavy-air smoke near planets turning pale cyan and blocky, or washed green higher up (thanks for the report).\n- Fixed: from space, an aurora with a ring behind it turning into a flat pink blob.\n- Fixed: a dark, saturated stripe along the skyline on small moons when flying up.\n- Update: delete the old Lunatus folder, then drop in the new one. Update Nubilus to 1.2 at the same time.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/a4/41/fe/a441feb6-0728-40a7-9337-4c66de7e329c.json"
+      },
+      {
+        "id": [
+          49795,
+          1634
+        ],
+        "uid": 7017976611459,
+        "file_id": 49795,
+        "name": "Lunatus v1.6 (darker nights)",
+        "version": "1.6",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8395,
+        "file_name": "Lunatus v1.6 (darker nights) 4555 1.6 2026-10-13T03-16Z aCzNuEFJi.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791861367,
+        "uploaded_time": "2026-10-13T03:16:07.000+00:00",
+        "mod_version": "1.6",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b97ec2de8262dcb78591b2c489b2d70f8d4dac18f3b85b72d5c3f7cd873c7c85",
+        "description": "",
+        "size_kb": 8395,
+        "size_in_bytes": 8597139,
+        "changelog_html": "1.6\n- New: land fog. The land now ends in fog just before the terrain stops drawing, and the fog lifts as you climb past 3-6 km so the whole planet shows from high up.\n- New: a light valley fog settles in valleys and canyons from dusk through the morning and burns off as the sun climbs.\n- New: storm, rain and ash fog never get brighter than the fog brightness cap, and a storm's fog comes in more gently.\n- New: thicker air in the distance, clearer air close by. Far land sits deeper in your planet's haze; the haze right around you is thinner (about half of it is back at 500 m, all of it from 2 km).\n- New: the back face of planetary rings is lit by the light passing through the ring instead of being black, and rings seen from the ground by day fade into the sky's haze.\n- New: from orbit, the atmosphere's rim glow hugs the ground where no clouds sit under it, instead of floating above the planet's edge with a dark gap.\n- New: gas giants get their own haze (thick down in the clouds, clear above them) when Nubilus 1.2 is installed.\n- Fixed: space dust / heavy-air smoke near planets turning pale cyan and blocky, or washed green higher up (thanks for the report).\n- Fixed: from space, an aurora with a ring behind it turning into a flat pink blob.\n- Fixed: a dark, saturated stripe along the skyline on small moons when flying up.\n- Update: delete the old Lunatus folder, then drop in the new one. Update Nubilus to 1.2 at the same time.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/f7/0b/50/f70b5013-8b04-4c52-996b-362774821d59.json"
       }
     ],
     "changelogs": {
@@ -680562,6 +680612,20 @@
         "Airless moons: by day their far land no longer fades to black.",
         "Outlines: no thin sky-coloured outline around trees, rocks and your ship against fog.",
         "Bloom: settles at the same speed at every frame rate, with no lag at 30 fps and no flicker at high fps."
+      ],
+      "1.6": [
+        "1.6",
+        "- New: land fog. The land now ends in fog just before the terrain stops drawing, and the fog lifts as you climb past 3-6 km so the whole planet shows from high up.",
+        "- New: a light valley fog settles in valleys and canyons from dusk through the morning and burns off as the sun climbs.",
+        "- New: storm, rain and ash fog never get brighter than the fog brightness cap, and a storm's fog comes in more gently.",
+        "- New: thicker air in the distance, clearer air close by. Far land sits deeper in your planet's haze; the haze right around you is thinner (about half of it is back at 500 m, all of it from 2 km).",
+        "- New: the back face of planetary rings is lit by the light passing through the ring instead of being black, and rings seen from the ground by day fade into the sky's haze.",
+        "- New: from orbit, the atmosphere's rim glow hugs the ground where no clouds sit under it, instead of floating above the planet's edge with a dark gap.",
+        "- New: gas giants get their own haze (thick down in the clouds, clear above them) when Nubilus 1.2 is installed.",
+        "- Fixed: space dust / heavy-air smoke near planets turning pale cyan and blocky, or washed green higher up (thanks for the report).",
+        "- Fixed: from space, an aurora with a ring behind it turning into a flat pink blob.",
+        "- Fixed: a dark, saturated stripe along the skyline on small moons when flying up.",
+        "- Update: delete the old Lunatus folder, then drop in the new one. Update Nubilus to 1.2 at the same time."
       ]
     }
   },
@@ -680572,9 +680636,9 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4556/4556-1790234083-1228908650.png",
     "author": "Somnati",
-    "updated_timestamp": 1791406105,
+    "updated_timestamp": 1791861504,
     "created_timestamp": 1790234489,
-    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]Stellarum replaces No Man's Sky's night sky and space backdrop with a realistic one: a detailed Milky Way band across the sky and a real-looking star field.\n<br />Vanilla fills space with coloured noise stars and soft glowing sprites spread evenly in every direction, and there's no galaxy band at all. Stellarum removes those and paints the sky the way a long-exposure photo of our own galaxy looks. It shows in space, and from a planet's surface at night. Everything is drawn by a small set of shaders built from the game's own 7.04 shaders.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[*][color=#D4D4D8]Download the main file and extract it.[/color][/*]\n<br />[*][color=#D4D4D8]Place the[/color]\n<br />\n<br />[code]Stellarum[/code][color=#D4D4D8]folder in[/color]\n<br />\n<br />[code]...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;[/code][/*]\n<br />[*][color=#D4D4D8]Optional: also extract the [b]mostly black[/b] space colours file and place its[/color]\n<br />\n<br />[code]Stellarum_SpaceColours[/code][color=#D4D4D8]folder in the same[/color]\n<br />\n<br />[code]MODS[/code][color=#D4D4D8]folder.[/color][/*]\n<br />[*][color=#D4D4D8]Remove any other mod that replaces the same shader files (see Requirements).[/color]\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size][/*]\n<br />[*][color=#D4D4D8][b]A Milky Way across the sky:[/b] a band of light wraps the whole sky. It glows warm and creamy toward its core and fades as it wraps around to the far side.[/color][/*]\n<br />[*][color=#D4D4D8][b]Made of stars:[/b] the band is a dense wall of countless faint stars, thickest in its bright star clouds, just like the real one in a long exposure.[/color][/*]\n<br />[*][color=#D4D4D8][b]Dark dust:[/b] a dark rift of dust runs along the band, with softer lanes and long faint wisps reaching out of it. The dust hides and reddens the stars behind it.[/color][/*]\n<br />[*][color=#D4D4D8][b]Colour:[/b] a pink, magenta and purple cast toward the core, blue toward the outer arms, pink emission nebulae and small blue reflection nebulae.[/color][/*]\n<br />[*][color=#D4D4D8][b]Realistic stars:[/b] the game's coloured noise stars and glowing sprite stars are replaced by crisp points in real star colours, from red-orange through white to blue-white. Most are faint and a few are bright, and a small share are larger. They crowd toward the Milky Way and thin out toward its poles.[/color][/*]\n<br />[*][color=#D4D4D8][b]Retuned nebulae:[/b] each system's nebulae are softer and less overpowering, with more variety in shape from one system to the next.[/color][/*]\n<br />[*][color=#D4D4D8][b]Optional mostly-black space colours:[/b] the darker space palettes the screenshots were taken with. Stellarum also works on the vanilla colours.[/color]\n<br />\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size][/*]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04 (Cosmos), PC.[/color][/*]\n<br />[*][color=#D4D4D8]No other mods required. The mostly-black space colours are optional.[/color][/*]\n<br />[*][color=#D4D4D8][b]Not compatible[/b] with other mods that replace the same shader files:[/color]\n<br />\n<br />[code]SKY_FRAG_LIGHTING_0[/code][color=#D4D4D8],[/color]\n<br />\n<br />[code]SKY_FRAG_LIGHTING_LOWQ_0[/code][color=#D4D4D8],[/color]\n<br />\n<br />[code]SKY_FRAG_LIGHTING_FRWD_0[/code][color=#D4D4D8]and[/color]\n<br />\n<br />[code]PSTREAM_VERT_PSTREAM_SYSTEM_0[/code][color=#D4D4D8]. That means other sky or star shader mods. Only one mod can own each shader file.[/color][/*]\n<br />[*][color=#D4D4D8]Other mods that change the nebula settings in[/color]\n<br />\n<br />[code]GCSKYGLOBALS[/code][color=#D4D4D8]may clash with Stellarum's.[/color][/*]\n<br />[*][color=#D4D4D8]The optional space colours replace the two space colour tables whole, so they don't combine with other space colour mods.[/color][/*]\n<br />[*][color=#D4D4D8]Shader mods can break when Hello Games updates the game. If the sky looks wrong after a patch, remove Stellarum until an update is posted.[/color][/*]\n<br />[*][color=#D4D4D8]Known limits:[/color]\n<br />\n<br />[list]\n<br />[*][color=#D4D4D8]The Milky Way is fixed on the sky and looks the same in every system. The game doesn't tell the sky where you are in the galaxy.[/color][/*]\n<br />[*][color=#D4D4D8]Real neighbouring star systems can't be shown; the game never gives the sky their positions.[/color][/*]\n<br />[*][color=#D4D4D8]The Milky Way costs some extra GPU time in space.[/color][/*]\n<br />[*][color=#D4D4D8]Upscalers (DLSS/FSR) can smear the band's finest detail slightly while turning.[/color][/*]\n<br />[/list]\n<br />\n<br />[size=4][b]Shout outs[/b][/size][/*]\n<br />[*][color=#D4D4D8]Hello Games, for No Man's Sky and a sky worth looking up at.[/color][/*]\n<br />[*][color=#D4D4D8]Astrophotographers everywhere; real Milky Way photos were the reference for every layer of the band.[/color][/*]\n<br />[*][color=#D4D4D8]The NMS modding community's tools: MBINCompiler, HGPAKtool and AMUMSS, plus Khronos' SPIRV-Cross, glslang and SPIRV-Tools. Stellarum is written from scratch; no other mod's code is used.[/color]\n<br />\n<br />- Claude AI\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[/*]\n<br />",
+    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]Stellarum replaces No Man's Sky's night sky and space backdrop with a realistic one: a detailed Milky Way band across the sky and a real-looking star field.\n<br />Vanilla fills space with coloured noise stars and soft glowing sprites spread evenly in every direction, and there's no galaxy band at all. Stellarum removes those and paints the sky the way a long-exposure photo of our own galaxy looks. It shows in space, and from a planet's surface at night. Everything is drawn by a small set of shaders built from the game's own 7.04 shaders.\n<br />[/color]\n<br />the latest update brough new nebulas...they are quite a shift from the vanillas rather blury nebulas...the new ones are larger and sharper.\n<br />i feel like theres a way to improve these but im not sure what direction to go...\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[*][color=#D4D4D8]Download the main file and extract it.[/color][/*]\n<br />[*][color=#D4D4D8]Place the[/color]\n<br />\n<br />[code]Stellarum[/code][color=#D4D4D8]folder in[/color]\n<br />\n<br />[code]...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;[/code][/*]\n<br />[*][color=#D4D4D8]Optional: also extract the [b]mostly black[/b] space colours file and place its[/color]\n<br />\n<br />[code]Stellarum_SpaceColours[/code][color=#D4D4D8]folder in the same[/color]\n<br />\n<br />[code]MODS[/code][color=#D4D4D8]folder.[/color][/*]\n<br />[*][color=#D4D4D8]Remove any other mod that replaces the same shader files (see Requirements).[/color]\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size][/*]\n<br />[*][color=#D4D4D8][b]A Milky Way across the sky:[/b] a band of light wraps the whole sky. It glows warm and creamy toward its core and fades as it wraps around to the far side.[/color][/*]\n<br />[*][color=#D4D4D8][b]Made of stars:[/b] the band is a dense wall of countless faint stars, thickest in its bright star clouds, just like the real one in a long exposure.[/color][/*]\n<br />[*][color=#D4D4D8][b]Dark dust:[/b] a dark rift of dust runs along the band, with softer lanes and long faint wisps reaching out of it. The dust hides and reddens the stars behind it.[/color][/*]\n<br />[*][color=#D4D4D8][b]Colour:[/b] a pink, magenta and purple cast toward the core, blue toward the outer arms, pink emission nebulae and small blue reflection nebulae.[/color][/*]\n<br />[*][color=#D4D4D8][b]Realistic stars:[/b] the game's coloured noise stars and glowing sprite stars are replaced by crisp points in real star colours, from red-orange through white to blue-white. Most are faint and a few are bright, and a small share are larger. They crowd toward the Milky Way and thin out toward its poles.[/color][/*]\n<br />[*][color=#D4D4D8][b]Retuned nebulae:[/b] each system's nebulae are softer and less overpowering, with more variety in shape from one system to the next.[/color][/*]\n<br />[*][color=#D4D4D8][b]Optional mostly-black space colours:[/b] the darker space palettes the screenshots were taken with. Stellarum also works on the vanilla colours.[/color]\n<br />\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size][/*]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04 (Cosmos), PC.[/color][/*]\n<br />[*][color=#D4D4D8]No other mods required. The mostly-black space colours are optional.[/color][/*]\n<br />[*][color=#D4D4D8][b]Not compatible[/b] with other mods that replace the same shader files:[/color]\n<br />\n<br />[code]SKY_FRAG_LIGHTING_0[/code][color=#D4D4D8],[/color]\n<br />\n<br />[code]SKY_FRAG_LIGHTING_LOWQ_0[/code][color=#D4D4D8],[/color]\n<br />\n<br />[code]SKY_FRAG_LIGHTING_FRWD_0[/code][color=#D4D4D8]and[/color]\n<br />\n<br />[code]PSTREAM_VERT_PSTREAM_SYSTEM_0[/code][color=#D4D4D8]. That means other sky or star shader mods. Only one mod can own each shader file.[/color][/*]\n<br />[*][color=#D4D4D8]Other mods that change the nebula settings in[/color]\n<br />\n<br />[code]GCSKYGLOBALS[/code][color=#D4D4D8]may clash with Stellarum's.[/color][/*]\n<br />[*][color=#D4D4D8]The optional space colours replace the two space colour tables whole, so they don't combine with other space colour mods.[/color][/*]\n<br />[*][color=#D4D4D8]Shader mods can break when Hello Games updates the game. If the sky looks wrong after a patch, remove Stellarum until an update is posted.[/color][/*]\n<br />[*][color=#D4D4D8]Known limits:[/color]\n<br />\n<br />[list]\n<br />[*][color=#D4D4D8]The Milky Way is fixed on the sky and looks the same in every system. The game doesn't tell the sky where you are in the galaxy.[/color][/*]\n<br />[*][color=#D4D4D8]Real neighbouring star systems can't be shown; the game never gives the sky their positions.[/color][/*]\n<br />[*][color=#D4D4D8]The Milky Way costs some extra GPU time in space.[/color][/*]\n<br />[*][color=#D4D4D8]Upscalers (DLSS/FSR) can smear the band's finest detail slightly while turning.[/color][/*]\n<br />[/list]\n<br />\n<br />[size=4][b]Shout outs[/b][/size][/*]\n<br />[*][color=#D4D4D8]Hello Games, for No Man's Sky and a sky worth looking up at.[/color][/*]\n<br />[*][color=#D4D4D8]Astrophotographers everywhere; real Milky Way photos were the reference for every layer of the band.[/color][/*]\n<br />[*][color=#D4D4D8]The NMS modding community's tools: MBINCompiler, HGPAKtool and AMUMSS, plus Khronos' SPIRV-Cross, glslang and SPIRV-Tools. Stellarum is written from scratch; no other mod's code is used.[/color]\n<br />\n<br />- Claude AI\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[/*]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -680737,9 +680801,9 @@
         "file_id": 49667,
         "name": "Stellarum (vanilla colors) 1.2 NMS7.04",
         "version": "1.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 197,
         "file_name": "Stellarum (vanilla colors) 1.2 NMS7.04 4556 1.2 2026-10-07T20-46Z pQZbnWOGs.zip",
         "detected_file_extension": "zip",
@@ -680787,8 +680851,8 @@
         "file_id": 49669,
         "name": "Stellarum v1.2 (mostly black) NMS7.04",
         "version": "1.2",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 206,
         "file_name": "Stellarum v1.2 (mostly black) NMS7.04 4556 1.2 2026-10-07T20-48Z rv2uEjLal.zip",
@@ -680827,6 +680891,56 @@
         "size_in_bytes": 201973,
         "changelog_html": "Fixed short streaks that could show along a few lines across the sky, most noticeable near the galactic core. Stars sitting where the star field's cube faces meet were smeared along that line; they now draw as normal points. Nothing else changed - same Milky Way, stars, nebulae and colours.",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4556/33/69/a6/3369a657-f13c-4d29-9d7a-1514189e10c3.json"
+      },
+      {
+        "id": [
+          49796,
+          1634
+        ],
+        "uid": 7017976611460,
+        "file_id": 49796,
+        "name": "Stellarum v1.3 (mostly black) NMS7.04",
+        "version": "1.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 281,
+        "file_name": "Stellarum v1.3 (mostly black) NMS7.04 4556 1.3 2026-10-13T03-17Z QR3q07y5M.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791861473,
+        "uploaded_time": "2026-10-13T03:17:53.000+00:00",
+        "mod_version": "1.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/882eecc1939e6c80bbb0dfd6ac431f9b61dec2407bf09c3196432fc953c7aa2c",
+        "description": "[center][img]https://staticdelivery.nexusmods.com/mods/1634/images/4556/4556-1790234087-753079950.png[/img]<br />mostly black skies with the rare occasion of a colored one.[/center]",
+        "size_kb": 281,
+        "size_in_bytes": 287760,
+        "changelog_html": "redid the nebulas",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4556/54/13/ef/5413ef70-5477-4c96-96ad-0c6f0cb6512d.json"
+      },
+      {
+        "id": [
+          49797,
+          1634
+        ],
+        "uid": 7017976611461,
+        "file_id": 49797,
+        "name": "Stellarum (vanilla colors) 1.2 NMS7.04",
+        "version": "1.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 271,
+        "file_name": "Stellarum (vanilla colors) 1.2 NMS7.04 4556 1.3 2026-10-13T03-18Z QR3q07y5n.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791861504,
+        "uploaded_time": "2026-10-13T03:18:24.000+00:00",
+        "mod_version": "1.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/80825aa990a03438087c6c4884885c2990b68641450f0cb716e7dfe46ef823d5",
+        "description": "[center][img]https://staticdelivery.nexusmods.com/mods/1634/images/4556/4556-1790234113-1211782051.png[/img]<br />vanilla sky color pallet[/center]",
+        "size_kb": 271,
+        "size_in_bytes": 278265,
+        "changelog_html": "redid the nebulas",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4556/53/23/ea/5323ea37-d538-4983-ac78-ee27036300fc.json"
       }
     ],
     "changelogs": {
@@ -680835,6 +680949,9 @@
       ],
       "1.2": [
         "Fixed short streaks that could show along a few lines across the sky, most noticeable near the galactic core. Stars sitting where the star field's cube faces meet were smeared along that line; they now draw as normal points. Nothing else changed - same Milky Way, stars, nebulae and colours."
+      ],
+      "1.3": [
+        "redid the nebulas"
       ]
     }
   },
@@ -686913,7 +687030,7 @@
   {
     "mod_id": 4603,
     "name": "Survival Unlimited Refiner",
-    "summary": "Sets the refiner stack size limit on Options &gt; Difficulty &gt; Inventory Stack Limits = Restricted/Harsh to 9,999. Other values are offered as optional files.",
+    "summary": "Sets the refiner input stack size limit on Options &gt; Difficulty &gt; Inventory Stack Limits = Restricted/Harsh to 9,999. Other values are offered as optional files.",
     "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4603/4603-1790925399-360678217.jpg",
     "author": "Grouch",
@@ -687465,12 +687582,12 @@
     "mod_id": 4611,
     "name": "NMS Easy Save Editor and Painter",
     "summary": "A friendly save editor and painter for No Man's Sky. Recolour ships, freighters and multi-tools, max out inventories, upgrade class, enlarge storage, export and import ships and cargo, drag items between saves, pool corvette parts, learn any blueprint, unlock Expedition and Twitch rewards, tick off quests or start story-complete. Always backed up.",
-    "version": "1.43",
+    "version": "1.44",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4611/4611-1791303086-505924216.jpg",
     "author": "germinus",
-    "updated_timestamp": 1791777466,
+    "updated_timestamp": 1791863233,
     "created_timestamp": 1791012372,
-    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]NMS Easy Save Editor &amp; Painter is a small Windows app for the save edits most people actually want, without having to deal with raw save data. Pick your save, click what you want changed, review the list, and save.\n<br />\n<br />Safety comes first. Nothing is written until you press Review &amp; save, and your save is backed up before every change. After saving, the editor checks that only the things you asked for changed and reads each file back to confirm it landed. It won't save while the game is running, because the game would overwrite your changes.\n<br />\n<br />The editor finds your Steam and Microsoft Store / Xbox PC saves by itself, and shows each one with its name, when it was last saved and how long you've played.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]1. Unzip anywhere you like.\n<br />2. Close No Man's Sky, then run NMSEasySaveEditor.exe.\n<br />3. Backups and exports are kept in folders next to the app. To uninstall, delete the folder.\n<br />\n<br />Windows 11 with Smart App Control switched on may block the editor, because Smart App Control only allows programs that are digitally signed, and small free mods like this one usually aren't. It isn't a virus - Microsoft Defender, the other big antivirus programs and Nexus's own scan all pass it as clean.[/color]\n<br />\n<br />[color=#D4D4D8]HOW TO MAKE A STORY-COMPLETE FRESH START\n<br />1. Start a new game in No Man's Sky.\n<br />2. Play a couple of minutes until the saving icon appears in the corner. Walking around near your crashed ship is enough.\n<br />3. Quit to the main menu and close the game.\n<br />4. Open the editor, pick that save, go to Missions and press Complete the story.\n<br />5. Choose your Atlas ending, confirm, and load the save in the game.\n<br />Played further before doing this? That's fine — nothing you've already done is undone.[/color]\n<br />\n<br />[size=4][b]Space battle on next warp (new in 1.43)[/b][/size]\n<br />Under the money bar: makes a space battle due, so the next time you warp you arrive in one - usually pirates attacking a freighter, sometimes a pirate dreadnought. The save needs at least 3 hours of play in total, so a brand-new save has to wait a while (the button tells you how long).\n<br />Also fixed: Twitch rewards unlocked with the editor could vanish when Steam went back online. Thanks to Shaidon7 and Snipx96 for the reports - if yours vanished, unlock them again with 1.43.\n<br />\n<br />[size=4][b]Delete, Places, Add item and tutorial missions (new in 1.42)[/b][/size]\n<br />[list]\n<br />[*][b]Delete items[/b] - in the Inventory Manager's Live mode, \"Delete...\" next to a place removes the amount you choose. Your save file is backed up first (Backups folder, the last 10 are kept) and [b]Undo[/b] puts the items back straight away.[/*]\n<br />[*][b]Places[/b] - switch from Items to Places to see one inventory at a time (a storage container, the freighter, a ship), tick items, then Move ticked or Delete ticked.[/*]\n<br />[*][b]Add item[/b] - with the game closed, \"+ Add item\" puts any product or raw material into a save, in full stacks the same size as the ones you already have. Asked for by a player.[/*]\n<br />[*]Storage containers you haven't built yet are no longer offered as places to move to.[/*]\n<br />[*]Inventory screens in the game can stay open while you move items - you'll see them move.[/*]\n<br />[*][b]Tutorial missions[/b] - the Missions tab has a new group, \"Tutorials the game starts by itself\": finish Industrial Surveying, Signals, Station Director, Freighter Command and Corvette Assembly to clear them from your log for good.[/*]\n<br />[*][b]Import / Export[/b] - the Exports button is renamed, and the Starships, Corvettes, Multi-Tools and Freighter tabs each have their own Import button. Thanks Winj1n![/*]\n<br />[/list]\n<br />[size=4][b]Inventory Manager - live, while you play (new in 1.41)[/b][/size]\n<br />Find my item is now [b]Inventory Manager[/b], on the Tools tab.\n<br />[list]\n<br />[*][b]Game closed:[/b] it searches all your saves, as before - tick where to take an item from, pick where it goes, Review &amp; move (every save is backed up first).[/*]\n<br />[*][b]Game running:[/b] load into a save and it switches to [b]Live[/b] by itself. It shows the save you're playing by name, updates as you play, and moves stock between your exosuit, freighter, storage containers, starships and exocraft straight away in the game - no closing the game, no reloading. Inventory screens in the game can stay open - you'll see the item move. Only cargo is moved; fitted technology is never touched.[/*]\n<br />[*][b]Easier to find things:[/b] group buttons (Raw materials, Products, Trade goods, Cooking, Upgrade modules, Other), A to Z letters, and your recent searches.[/*]\n<br />[/list]Prefer not to use an editor? The same Inventory Manager is also a small standalone app: [url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url].\n<br />Live mode is tested on the Steam version. A big game update may stop live mode until the editor is updated; the rest of the editor keeps working.\n<br />\n<br />[size=4][b]Forget blueprints, paint many at once, bigger pictures (new in 1.40)[/b][/size]\n<br />[b]Forget blueprints[/b] - the Blueprints tool now has a Learn / Forget switch. Bought tech you'll never use clogging up your install list? Switch to Forget, tick what you don't want - technology, crafting recipes or base parts - and it's gone from your lists. Anything already fitted or built stays, and the essentials (life support, hyperdrive, scanner, Base Computer and the like) are never offered. Changed your mind? Learn it again with the Learn switch.\n<br />[b]Paint many at once[/b] - \"Use these colours on others...\" copies one ship's or multi-tool's colours onto as many others as you tick.\n<br />[b]Bigger pictures[/b] - click an export's picture in the Exports window to see it full size.\n<br />\n<br />[size=4][b]Tidy stacks and portal glyphs (new in 1.39)[/b][/size]\n<br />[b]Tidy stacks[/b] is a new card on the Tools tab. It merges half-empty stacks of the same item so they take fewer squares - inside each inventory, or across all your storage containers and the freighter as one store. Nothing is added or lost, only moved, and you see exactly what will change before anything is saved. The save is backed up first.\n<br />[b]Learn all portal glyphs[/b] - a new button under the money bar teaches all 16 portal glyphs at once, instead of earning them slowly along the story.\n<br />\n<br />[size=4][b]Find my item (new in 1.38 - now part of Inventory Manager)[/b][/size]\n<br />A new card on the Tools tab. Type the name of an item and it searches every save at once, showing each place you have it and how many. You can also browse everything you own, A to Z or most first. To move some, tick the places to take it from (any save), choose how much to take from each, pick where it goes (any inventory in any save), then Review and Move it. Nothing changes until you press Move it, and every save involved is backed up first.\n<br />\n<br />[size=4][b]Catalogue and Guide (new in 1.36)[/b][/size]\n<br />A new card on the Tools tab, asked for in the Posts tab. [b]Catalogue[/b] marks every material and item as seen and learns every Technology and Building Parts blueprint into the save you have open. [b]Guide[/b] unlocks and reads every Guide page. Recipes, Collected Knowledge and Wonders come from playing, so they are left alone, and a few special items the game hands out its own way may still show as missing. Your account file and the save are backed up first.\n<br />\n<br />[b]Freighter fix (1.36):[/b] \"Maximum size\" now stops at 10x12, the game's own limit for freighters. Earlier versions gave freighters a 13th row that showed in the game but stayed locked. If yours has one, open the Freighter tab and use [b]Remove the locked bottom row[/b].\n<br />\n<br />[size=4][b]Painter (new in 1.35 - experimental)[/b][/size]\n<br />[color=#D4D4D8][i]The Painter is new and still experimental, so there may be bugs. Every change is backed up first, and if something looks wrong, please tell me in the Posts or Bugs tab.[/i]\n<br />\n<br />Recolour your starships, freighter and multi-tools right in the editor - no JSON, no hex codes. Open the ship or tool, click a colour on its Colours row, pick from the colours your game offers, then Review &amp; save.\n<br />- Starships: ships built at a Starship Fabricator. The game puts every other ship back to its own colours, so the editor tells you when a ship can't be painted. Living ships are left alone.\n<br />- Freighters: three colours. Which parts take which colour depends on your freighter's design.\n<br />- Multi-tools: Main colour and Details. [b]New in 1.37:[/b] with Easy Painter Colours 1.1 installed, every colour works, black included. Without it the game keeps multi-tools bright, so the editor offers bright colours only. Special tools keep their own look.\n<br />- Copy colours from another ship or tool, or go back to the game's own colours at any time.\n<br />The colours on offer come from your game, or from your colour mod if you use one. For more colours with proper names - and multi-tools that take one colour all over - try the free [url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] packs (Neon and Metallic) - version 1.1 also unlocks black and dark multi-tools.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]Your character\n<br />- Set Units, Nanites and Quicksilver (up to the game's limit of 4,294,967,295).\n<br />- Rename your save.\n<br />\n<br />Exosuit, Starships, Corvettes, Multi-tools and Freighter\n<br />- Make any inventory its maximum size in one click.\n<br />- Supercharge every tech slot.\n<br />- Change the class (C, B, A or S).\n<br />- Rename ships, multi-tools and corvettes.\n<br />\n<br />Back to normal (starships and corvettes)\n<br />- Reset stats to normal for its class: puts damage, shield, hyperdrive and manoeuvrability back to the ship's own values, for example after another editor pushed them far too high. The game works them out again when it loads the ship.\n<br />- Back to normal supercharged slots: returns a fully supercharged ship to the normal number (4 for a starship; for a corvette it goes with its class: C 1, B 2, A 3, S 4). Its own slots are kept where the editor can tell, otherwise they're picked at random like the game does.\n<br />\n<br />Storage\n<br />- Make all ten base storage containers 120 slots.\n<br />- Rename the containers, or copy the names from another save so you don't have to type them again.\n<br />\n<br />Export and import\n<br />- Export ships, corvettes, multi-tools and freighters to files, with a screenshot of each in an Exports gallery.\n<br />- Import them into any save or slot, and give them a new name as you import.\n<br />- Use the Import / Export button at the top, or the Import button on the Starships, Corvettes, Multi-Tools and Freighter tabs.\n<br />- Uses the same file types as NomNom (.nmsship, .nmscorv, .nmstool, .frt), so you can share with NomNom users.\n<br />- A ship's cargo travels with it when you export and import it.\n<br />\n<br />Exosuit tech loadouts\n<br />- Export your exosuit's technology to a loadout file and import it into any other save.\n<br />- Choose \"Add what's missing\" to keep your current tech, or \"Replace all exosuit tech\".\n<br />\n<br />Cargo\n<br />- Send a ship's whole cargo to another ship in the same save, as a move or a copy.\n<br />- Export a ship's cargo to a file and import it into any ship, in any save.\n<br />- Tick \"Also empty this ship's cargo\" when exporting to keep collectibles safe outside the game and free up space.\n<br />- If it doesn't all fit, you're told exactly what was left out. The file is never changed, so you can make room and import again.\n<br />\n<br />Tools tab (new in 1.29)\n<br />- Transfer, Inventory Manager, Tidy stacks, Parts Locker, Blueprints, Rewards, Catalogue and Guide, and Save Archive now sit together on one Tools tab, to keep the tab row tidy. Click a card to open a tool, and \"Back to tools\" to return.\n<br />\n<br />Transfer\n<br />- Open two inventories side by side: exosuit, any ship or corvette, the freighter or any storage container.\n<br />- Each side can be a different save, so you can move items between saves.\n<br />- Drag items across. Hold Shift to move half a stack, or use Move all.\n<br />- Rest the mouse on an item to see a big picture with its name and amount.\n<br />- Item pictures are read from your own No Man's Sky install. If the editor can't find the game, it asks for the folder.\n<br />- Nothing is saved until you press Review &amp; save. Every save involved is backed up first, and if the second save can't be written, the first is put back as it was.\n<br />\n<br />Parts Locker\n<br />- One store of corvette parts kept by the editor, outside your saves and shared by all of them.\n<br />- Gather the parts from every save's corvette workshop cache into the locker, then take them out into whichever save you're playing.\n<br />- Drag parts across one at a time, or use Put all in and Take all out.\n<br />- Parts are moved, never copied: what goes into the locker leaves the save, and what comes out leaves the locker.\n<br />- The workshop cache holds 160 different parts. If it fills up, the rest stays safely in the locker.\n<br />- The save and the locker are both backed up first. If anything goes wrong, both are put back as they were.\n<br />\n<br />Blueprints (new in 1.29)\n<br />- Learn base parts, crafting recipes and technology, one at a time, a whole section or a whole group at once.\n<br />- Includes the discontinued legacy base parts (Legacy structures and Legacy freighter modules).\n<br />- Each group shows how many you already know, and you can search across everything.\n<br />- Special rewards normally earned from Expeditions, Twitch drops or the Quicksilver shop are in their own clearly labelled group.\n<br />- Only the lists of known blueprints change, and nothing you already know is added twice.\n<br />- (1.40) Forget: switch to Forget to remove blueprints you never use and keep your build, crafting and install lists short. Fitted tech stays; essentials are never offered.\n<br />\n<br />Rewards (new in 1.29)\n<br />- Unlock Expedition and Twitch rewards: ships, multi-tools, companion eggs, looks, titles and decorations.\n<br />- Then claim them in the game from the Quicksilver Synthesis Companion on the Space Anomaly, just like rewards you earned.\n<br />- Unlocks are for your whole account, so every save on it gets them. Only your account file changes, and it is backed up first.\n<br />- Steam and GOG for now.\n<br />\n<br />Save Archive (new in 1.30)\n<br />- Pack a whole save into one file on your PC, and take it out of the game at the same time if you like, to tidy up your save list.\n<br />- Put it back later into any empty save slot, on the platform it came from: Steam, GOG or Xbox / Game Pass.\n<br />- Nothing is ever overwritten: only empty slots can be used.\n<br />- The archive is checked before anything is removed from the game, and once a save is restored its archive copy goes to the Recycle Bin, so there is no out-of-date second copy.\n<br />\n<br />Missions\n<br />- See every quest line and how far through it you are.\n<br />- Finish quests you don't want to play, start one so it shows in your log, or reset one to play it again.\n<br />- Finishing gives you what the quest would have given: blueprints, tech, items, glyphs, words, nanites and unlocks, taken from the game's own reward tables. Steps you've already done never pay out twice.\n<br />- Skip the base missions too: Base Computer Archives and the specialist lines (Overseer, Scientist, Farmer, Weapons Specialist, Exocraft Technician) with all their blueprints and tech. Build your base, then recruit the specialist and build their terminal in the game first.\n<br />\n<br />Complete the story\n<br />- Turns a new game into one with the tutorial, Artemis Path and Atlas Path finished: the Space Anomaly is open, black holes are revealed, all 16 glyphs are known, and you get the story blueprints, tech and items.\n<br />- Choose your Atlas Path ending: Star Seed or Mark of the Denier.\n<br />- Nothing from anyone else's game is copied — no places, no galaxy data — so every game you make this way is truly your own.\n<br />- The side stories (Autophage, purple systems, Dreams of the Deep, Starbirth, Rebel) are left for you to play, or finish them from the Missions tab.[/color]\n<br />\n<br />[color=#D4D4D8][size=4][b]Good To Know[/b][/size][/color]\n<br />- Always close the game before saving changes.\n<br />- Ships, including the living ship from Starbirth, aren't handed out by the Missions tab. Play those parts or import a ship.\n<br />- Random upgrade modules from quests aren't given, because the game rolls those randomly.\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]- Windows 10 or 11 with the Microsoft Edge WebView2 runtime (already on most PCs).\n<br />- No Man's Sky 7.05 (Steam, or the Microsoft Store / Xbox PC version).[/color]\n<br />\n<br />[size=4][b]Credits[/b][/size]\n<br />[color=#D4D4D8]- Quest order and finish points: NMS Mission Editor by Sam, Avea &amp; Antilitist, and Ok Ranger's nms-mission-progress tables (both MIT licence).\n<br />- Save key names: MBINCompiler / libMBIN mapping.\n<br />- File formats compatible with NomNom.[/color]\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[color=#D4D4D8]- [url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools (Neon, Metallic, Military, Pastel).\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - an exosuit module that teleports you to the Space Anomaly from anywhere.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - an exosuit module that teleports you aboard your freighter from anywhere.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - every material shows what it is used to make and what it refines into.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - your helmet torch, brighter and a little wider.[/color]\n<br />\n<br />[i]Idea, design decisions and all in-game testing by germinus; code written with AI.[/i]",
+    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]NMS Easy Save Editor &amp; Painter is a small Windows app for the save edits most people actually want, without having to deal with raw save data. Pick your save, click what you want changed, review the list, and save.\n<br />\n<br />Safety comes first. Nothing is written until you press Review &amp; save, and your save is backed up before every change. After saving, the editor checks that only the things you asked for changed and reads each file back to confirm it landed. It won't save while the game is running, because the game would overwrite your changes.\n<br />\n<br />The editor finds your Steam and Microsoft Store / Xbox PC saves by itself, and shows each one with its name, when it was last saved and how long you've played.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]1. Unzip anywhere you like.\n<br />2. Close No Man's Sky, then run NMSEasySaveEditor.exe.\n<br />3. Backups and exports are kept in folders next to the app. To uninstall, delete the folder.\n<br />\n<br />Windows 11 with Smart App Control switched on may block the editor, because Smart App Control only allows programs that are digitally signed, and small free mods like this one usually aren't. It isn't a virus - Microsoft Defender, the other big antivirus programs and Nexus's own scan all pass it as clean.[/color]\n<br />\n<br />[color=#D4D4D8]HOW TO MAKE A STORY-COMPLETE FRESH START\n<br />1. Start a new game in No Man's Sky.\n<br />2. Play a couple of minutes until the saving icon appears in the corner. Walking around near your crashed ship is enough.\n<br />3. Quit to the main menu and close the game.\n<br />4. Open the editor, pick that save, go to Missions and press Complete the story.\n<br />5. Choose your Atlas ending, confirm, and load the save in the game.\n<br />Played further before doing this? That's fine — nothing you've already done is undone.[/color]\n<br />\n<br />[size=4][b]What changed? (new in 1.44)[/b][/size]\n<br />A new card on the Tools tab. Pick one of the open save's backups and see, in plain words, what is different between then and now - money, ships, multi-tools and every item that went up or down. Handy for checking what a play session (or an edit) really changed. Read only: it never changes anything.\n<br />\n<br />[size=4][b]Space battle on next warp (new in 1.43)[/b][/size]\n<br />Under the money bar: makes a space battle due, so the next time you warp you arrive in one - usually pirates attacking a freighter, sometimes a pirate dreadnought. The save needs at least 3 hours of play in total, so a brand-new save has to wait a while (the button tells you how long).\n<br />Also fixed: Twitch rewards unlocked with the editor could vanish when Steam went back online. Thanks to Shaidon7 and Snipx96 for the reports - if yours vanished, unlock them again with 1.43.\n<br />\n<br />[size=4][b]Delete, Places, Add item and tutorial missions (new in 1.42)[/b][/size]\n<br />[list]\n<br />[*][b]Delete items[/b] - in the Inventory Manager's Live mode, \"Delete...\" next to a place removes the amount you choose. Your save file is backed up first (Backups folder, the last 10 are kept) and [b]Undo[/b] puts the items back straight away.[/*]\n<br />[*][b]Places[/b] - switch from Items to Places to see one inventory at a time (a storage container, the freighter, a ship), tick items, then Move ticked or Delete ticked.[/*]\n<br />[*][b]Add item[/b] - with the game closed, \"+ Add item\" puts any product or raw material into a save, in full stacks the same size as the ones you already have. Asked for by a player.[/*]\n<br />[*]Storage containers you haven't built yet are no longer offered as places to move to.[/*]\n<br />[*]Inventory screens in the game can stay open while you move items - you'll see them move.[/*]\n<br />[*][b]Tutorial missions[/b] - the Missions tab has a new group, \"Tutorials the game starts by itself\": finish Industrial Surveying, Signals, Station Director, Freighter Command and Corvette Assembly to clear them from your log for good.[/*]\n<br />[*][b]Import / Export[/b] - the Exports button is renamed, and the Starships, Corvettes, Multi-Tools and Freighter tabs each have their own Import button. Thanks Winj1n![/*]\n<br />[/list][size=4][b]Inventory Manager - live, while you play (new in 1.41)[/b][/size]\n<br />Find my item is now [b]Inventory Manager[/b], on the Tools tab.\n<br />[list]\n<br />[*][b]Game closed:[/b] it searches all your saves, as before - tick where to take an item from, pick where it goes, Review &amp; move (every save is backed up first).[/*]\n<br />[*][b]Game running:[/b] load into a save and it switches to [b]Live[/b] by itself. It shows the save you're playing by name, updates as you play, and moves stock between your exosuit, freighter, storage containers, starships and exocraft straight away in the game - no closing the game, no reloading. Inventory screens in the game can stay open - you'll see the item move. Only cargo is moved; fitted technology is never touched.[/*]\n<br />[*][b]Easier to find things:[/b] group buttons (Raw materials, Products, Trade goods, Cooking, Upgrade modules, Other), A to Z letters, and your recent searches.[/*]\n<br />[/list]Prefer not to use an editor? The same Inventory Manager is also a small standalone app: [url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url].\n<br />Live mode is tested on the Steam version. A big game update may stop live mode until the editor is updated; the rest of the editor keeps working.\n<br />\n<br />[size=4][b]Forget blueprints, paint many at once, bigger pictures (new in 1.40)[/b][/size]\n<br />[b]Forget blueprints[/b] - the Blueprints tool now has a Learn / Forget switch. Bought tech you'll never use clogging up your install list? Switch to Forget, tick what you don't want - technology, crafting recipes or base parts - and it's gone from your lists. Anything already fitted or built stays, and the essentials (life support, hyperdrive, scanner, Base Computer and the like) are never offered. Changed your mind? Learn it again with the Learn switch.\n<br />[b]Paint many at once[/b] - \"Use these colours on others...\" copies one ship's or multi-tool's colours onto as many others as you tick.\n<br />[b]Bigger pictures[/b] - click an export's picture in the Exports window to see it full size.\n<br />\n<br />[size=4][b]Tidy stacks and portal glyphs (new in 1.39)[/b][/size]\n<br />[b]Tidy stacks[/b] is a new card on the Tools tab. It merges half-empty stacks of the same item so they take fewer squares - inside each inventory, or across all your storage containers and the freighter as one store. Nothing is added or lost, only moved, and you see exactly what will change before anything is saved. The save is backed up first.\n<br />[b]Learn all portal glyphs[/b] - a new button under the money bar teaches all 16 portal glyphs at once, instead of earning them slowly along the story.\n<br />\n<br />[size=4][b]Find my item (new in 1.38 - now part of Inventory Manager)[/b][/size]\n<br />A new card on the Tools tab. Type the name of an item and it searches every save at once, showing each place you have it and how many. You can also browse everything you own, A to Z or most first. To move some, tick the places to take it from (any save), choose how much to take from each, pick where it goes (any inventory in any save), then Review and Move it. Nothing changes until you press Move it, and every save involved is backed up first.\n<br />\n<br />[size=4][b]Catalogue and Guide (new in 1.36)[/b][/size]\n<br />A new card on the Tools tab, asked for in the Posts tab. [b]Catalogue[/b] marks every material and item as seen and learns every Technology and Building Parts blueprint into the save you have open. [b]Guide[/b] unlocks and reads every Guide page. Recipes, Collected Knowledge and Wonders come from playing, so they are left alone, and a few special items the game hands out its own way may still show as missing. Your account file and the save are backed up first.\n<br />\n<br />[b]Freighter fix (1.36):[/b] \"Maximum size\" now stops at 10x12, the game's own limit for freighters. Earlier versions gave freighters a 13th row that showed in the game but stayed locked. If yours has one, open the Freighter tab and use [b]Remove the locked bottom row[/b].\n<br />\n<br />[size=4][b]Painter (new in 1.35 - experimental)[/b][/size]\n<br />[color=#D4D4D8][i]The Painter is new and still experimental, so there may be bugs. Every change is backed up first, and if something looks wrong, please tell me in the Posts or Bugs tab.[/i]\n<br />\n<br />Recolour your starships, freighter and multi-tools right in the editor - no JSON, no hex codes. Open the ship or tool, click a colour on its Colours row, pick from the colours your game offers, then Review &amp; save.\n<br />- Starships: ships built at a Starship Fabricator. The game puts every other ship back to its own colours, so the editor tells you when a ship can't be painted. Living ships are left alone.\n<br />- Freighters: three colours. Which parts take which colour depends on your freighter's design.\n<br />- Multi-tools: Main colour and Details. [b]New in 1.37:[/b] with Easy Painter Colours 1.1 installed, every colour works, black included. Without it the game keeps multi-tools bright, so the editor offers bright colours only. Special tools keep their own look.\n<br />- Copy colours from another ship or tool, or go back to the game's own colours at any time.\n<br />The colours on offer come from your game, or from your colour mod if you use one. For more colours with proper names - and multi-tools that take one colour all over - try the free [url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] packs (Neon and Metallic) - version 1.1 also unlocks black and dark multi-tools.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]Your character\n<br />- Set Units, Nanites and Quicksilver (up to the game's limit of 4,294,967,295).\n<br />- Rename your save.\n<br />\n<br />Exosuit, Starships, Corvettes, Multi-tools and Freighter\n<br />- Make any inventory its maximum size in one click.\n<br />- Supercharge every tech slot.\n<br />- Change the class (C, B, A or S).\n<br />- Rename ships, multi-tools and corvettes.\n<br />\n<br />Back to normal (starships and corvettes)\n<br />- Reset stats to normal for its class: puts damage, shield, hyperdrive and manoeuvrability back to the ship's own values, for example after another editor pushed them far too high. The game works them out again when it loads the ship.\n<br />- Back to normal supercharged slots: returns a fully supercharged ship to the normal number (4 for a starship; for a corvette it goes with its class: C 1, B 2, A 3, S 4). Its own slots are kept where the editor can tell, otherwise they're picked at random like the game does.\n<br />\n<br />Storage\n<br />- Make all ten base storage containers 120 slots.\n<br />- Rename the containers, or copy the names from another save so you don't have to type them again.\n<br />\n<br />Export and import\n<br />- Export ships, corvettes, multi-tools and freighters to files, with a screenshot of each in an Exports gallery.\n<br />- Import them into any save or slot, and give them a new name as you import.\n<br />- Use the Import / Export button at the top, or the Import button on the Starships, Corvettes, Multi-Tools and Freighter tabs.\n<br />- Uses the same file types as NomNom (.nmsship, .nmscorv, .nmstool, .frt), so you can share with NomNom users.\n<br />- A ship's cargo travels with it when you export and import it.\n<br />\n<br />Exosuit tech loadouts\n<br />- Export your exosuit's technology to a loadout file and import it into any other save.\n<br />- Choose \"Add what's missing\" to keep your current tech, or \"Replace all exosuit tech\".\n<br />\n<br />Cargo\n<br />- Send a ship's whole cargo to another ship in the same save, as a move or a copy.\n<br />- Export a ship's cargo to a file and import it into any ship, in any save.\n<br />- Tick \"Also empty this ship's cargo\" when exporting to keep collectibles safe outside the game and free up space.\n<br />- If it doesn't all fit, you're told exactly what was left out. The file is never changed, so you can make room and import again.\n<br />\n<br />Tools tab (new in 1.29)\n<br />- Transfer, Inventory Manager, Tidy stacks, Parts Locker, Blueprints, Rewards, Catalogue and Guide, and Save Archive now sit together on one Tools tab, to keep the tab row tidy. Click a card to open a tool, and \"Back to tools\" to return.\n<br />\n<br />Transfer\n<br />- Open two inventories side by side: exosuit, any ship or corvette, the freighter or any storage container.\n<br />- Each side can be a different save, so you can move items between saves.\n<br />- Drag items across. Hold Shift to move half a stack, or use Move all.\n<br />- Rest the mouse on an item to see a big picture with its name and amount.\n<br />- Item pictures are read from your own No Man's Sky install. If the editor can't find the game, it asks for the folder.\n<br />- Nothing is saved until you press Review &amp; save. Every save involved is backed up first, and if the second save can't be written, the first is put back as it was.\n<br />\n<br />Parts Locker\n<br />- One store of corvette parts kept by the editor, outside your saves and shared by all of them.\n<br />- Gather the parts from every save's corvette workshop cache into the locker, then take them out into whichever save you're playing.\n<br />- Drag parts across one at a time, or use Put all in and Take all out.\n<br />- Parts are moved, never copied: what goes into the locker leaves the save, and what comes out leaves the locker.\n<br />- The workshop cache holds 160 different parts. If it fills up, the rest stays safely in the locker.\n<br />- The save and the locker are both backed up first. If anything goes wrong, both are put back as they were.\n<br />\n<br />Blueprints (new in 1.29)\n<br />- Learn base parts, crafting recipes and technology, one at a time, a whole section or a whole group at once.\n<br />- Includes the discontinued legacy base parts (Legacy structures and Legacy freighter modules).\n<br />- Each group shows how many you already know, and you can search across everything.\n<br />- Special rewards normally earned from Expeditions, Twitch drops or the Quicksilver shop are in their own clearly labelled group.\n<br />- Only the lists of known blueprints change, and nothing you already know is added twice.\n<br />- (1.40) Forget: switch to Forget to remove blueprints you never use and keep your build, crafting and install lists short. Fitted tech stays; essentials are never offered.\n<br />\n<br />Rewards (new in 1.29)\n<br />- Unlock Expedition and Twitch rewards: ships, multi-tools, companion eggs, looks, titles and decorations.\n<br />- Then claim them in the game from the Quicksilver Synthesis Companion on the Space Anomaly, just like rewards you earned.\n<br />- Unlocks are for your whole account, so every save on it gets them. Only your account file changes, and it is backed up first.\n<br />- Steam and GOG for now.\n<br />\n<br />Save Archive (new in 1.30)\n<br />- Pack a whole save into one file on your PC, and take it out of the game at the same time if you like, to tidy up your save list.\n<br />- Put it back later into any empty save slot, on the platform it came from: Steam, GOG or Xbox / Game Pass.\n<br />- Nothing is ever overwritten: only empty slots can be used.\n<br />- The archive is checked before anything is removed from the game, and once a save is restored its archive copy goes to the Recycle Bin, so there is no out-of-date second copy.\n<br />\n<br />Missions\n<br />- See every quest line and how far through it you are.\n<br />- Finish quests you don't want to play, start one so it shows in your log, or reset one to play it again.\n<br />- Finishing gives you what the quest would have given: blueprints, tech, items, glyphs, words, nanites and unlocks, taken from the game's own reward tables. Steps you've already done never pay out twice.\n<br />- Skip the base missions too: Base Computer Archives and the specialist lines (Overseer, Scientist, Farmer, Weapons Specialist, Exocraft Technician) with all their blueprints and tech. Build your base, then recruit the specialist and build their terminal in the game first.\n<br />\n<br />Complete the story\n<br />- Turns a new game into one with the tutorial, Artemis Path and Atlas Path finished: the Space Anomaly is open, black holes are revealed, all 16 glyphs are known, and you get the story blueprints, tech and items.\n<br />- Choose your Atlas Path ending: Star Seed or Mark of the Denier.\n<br />- Nothing from anyone else's game is copied — no places, no galaxy data — so every game you make this way is truly your own.\n<br />- The side stories (Autophage, purple systems, Dreams of the Deep, Starbirth, Rebel) are left for you to play, or finish them from the Missions tab.[/color]\n<br />\n<br />[color=#D4D4D8][size=4][b]Good To Know[/b][/size][/color]\n<br />- Always close the game before saving changes.\n<br />- Ships, including the living ship from Starbirth, aren't handed out by the Missions tab. Play those parts or import a ship.\n<br />- Random upgrade modules from quests aren't given, because the game rolls those randomly.\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]- Windows 10 or 11 with the Microsoft Edge WebView2 runtime (already on most PCs).\n<br />- No Man's Sky 7.05 (Steam, or the Microsoft Store / Xbox PC version).[/color]\n<br />\n<br />[size=4][b]Credits[/b][/size]\n<br />[color=#D4D4D8]- Quest order and finish points: NMS Mission Editor by Sam, Avea &amp; Antilitist, and Ok Ranger's nms-mission-progress tables (both MIT licence).\n<br />- Save key names: MBINCompiler / libMBIN mapping.\n<br />- File formats compatible with NomNom.[/color]\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[color=#D4D4D8]- [url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools (Neon, Metallic, Military, Pastel).\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - an exosuit module that teleports you to the Space Anomaly from anywhere.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - an exosuit module that teleports you aboard your freighter from anywhere.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - every material shows what it is used to make and what it refines into.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - your helmet torch, brighter and a little wider.[/color]\n<br />\n<br />[i]Idea, design decisions and all in-game testing by germinus; code written with AI.[/i]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -688083,9 +688200,9 @@
         "file_id": 49775,
         "name": "NMS Easy Save Editor and Painter 1.43",
         "version": "1.43",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 2528,
         "file_name": "NMS Easy Save Editor and Painter 1.43 4611 1.43 2026-10-12T03-57Z eV714av8p.zip",
         "detected_file_extension": "zip",
@@ -688098,6 +688215,31 @@
         "size_in_bytes": 2589549,
         "changelog_html": "New: \"Space battle on next warp\" - your next warp drops you into a space battle, usually pirates attacking a freighter, sometimes a pirate dreadnought. The save needs at least 3 hours of play in total.\nFixed: Twitch rewards unlocked with the editor could vanish when Steam went back online. Thanks to Shaidon7 and Snipx96.",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4611/44/fd/4d/44fd4d24-e070-4e8a-9b3a-71ff8511a5ae.json"
+      },
+      {
+        "id": [
+          49802,
+          1634
+        ],
+        "uid": 7017976611466,
+        "file_id": 49802,
+        "name": "NMS Easy Save Editor and Painter 1.44",
+        "version": "1.44",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2528,
+        "file_name": "NMS Easy Save Editor and Painter 1.44 4611 1.44 2026-10-13T03-47Z JrNPcY9Ou.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791863233,
+        "uploaded_time": "2026-10-13T03:47:13.000+00:00",
+        "mod_version": "1.44",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cbe8f1f459a351fbff79d8075ca0540a1a9f0012c9237be23ad7ec74a3092fd9",
+        "description": "",
+        "size_kb": 2528,
+        "size_in_bytes": 2589632,
+        "changelog_html": "New: What changed? (Tools tab) - compare the save you have open with one of its backups, in plain words: money, ships, multi-tools and every item that went up or down. Read only.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4611/fc/cc/3a/fccc3a63-133a-493d-9278-978e22a9e4c3.json"
       }
     ],
     "changelogs": {
@@ -688217,6 +688359,9 @@
       "1.43": [
         "New: \"Space battle on next warp\" - your next warp drops you into a space battle, usually pirates attacking a freighter, sometimes a pirate dreadnought. The save needs at least 3 hours of play in total.",
         "Fixed: Twitch rewards unlocked with the editor could vanish when Steam went back online. Thanks to Shaidon7 and Snipx96."
+      ],
+      "1.44": [
+        "New: What changed? (Tools tab) - compare the save you have open with one of its backups, in plain words: money, ships, multi-tools and every item that went up or down. Read only."
       ]
     }
   },
@@ -689070,9 +689215,9 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4622/4622-1791179457-2012069261.png",
     "author": "Somnati",
-    "updated_timestamp": 1791336113,
+    "updated_timestamp": 1791860821,
     "created_timestamp": 1791197253,
-    "description": "[size=4][b]Expect updates as i am always fixing/improving stuff...or atleast trying to...\n<br />\n<br />Description\n<br />[/b][/size]CLOUDS NOW MATCH THE SPACE CLOUDS.\n<br />fly to a spot with no clouds...guess what...no clouds...\n<br />fly to a spot thats dense with clouds...heavy overcast!!!\n<br />\n<br />[color=#D4D4D8]Nubilus replaces No Man's Sky's clouds with real volumetric clouds that match from orbit to the ground. The cloud pattern you see from space is the same one you fly through, lit and fogged to match the sky around it, day and night.[/color]\n<br />\n<br />expect future updates/improvements. im always trying to fix little things that bug me when i play. Report any issues you have to me and i'll investigate.\n<br />\n<br />// KNOWN ISSUES\n<br />Ill have fixes for these hopefully by Monday...\n<br />\n<br />gas giants were never tested so theres a handful of issues with their atmosphere/clouds...im working on it but its tricky.\n<br />distant planets clouds are pretty bright.\n<br />\n<br />[size=4][b]Installation instructions\n<br />[/b][/size]\n<br />// Why is Lunatus required:\n<br />[list]\n<br />[*][b]It's built as a pair:[/b] Nubilus was cut against Lunatus 1.5's exact build, and the clouds were tuned against Lunatus' fog and sky. The cloud colours, night look and planet transitions all assume Lunatus' haze.[/*]\n<br />[*][b]Some cloud behaviour lives in Lunatus' files:[/b] the far-world cloud hand-over, the climb-out transition, and the horizon band hugging the clouds from orbit.[/*]\n<br />[*][b]It's never been tested without Lunatus:[/b] it might run, but the clouds would sit in vanilla fog they weren't designed for.[/*]\n<br />[/list]\n<br />[list=1]\n<br />[*][color=#D4D4D8]Install Lunatus first (required).[/color][/*]\n<br />[*][color=#D4D4D8]Extract the zip.[/color][/*]\n<br />[*][color=#D4D4D8]Drop the Nubilus folder into ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).[/color][/*]\n<br />[*][color=#D4D4D8]Restart the game. Works with new and existing saves.[/color][/*]\n<br />[/list][color=#D4D4D8]To uninstall, delete the Nubilus folder.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]One cloud pattern per planet: what you see from orbit is what you fly into, with a smooth fade from space down to the in-air clouds.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds take Lunatus' fog and sky colours, so they sit in the atmosphere instead of floating on top of it.[/color][/*]\n<br />[*][color=#D4D4D8]Shared day/night lighting from orbit and in the air: lit until sunset, a short warm afterglow, then dark night silhouettes.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds stay solid in front of moons and distant planets.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds cast shadows on the ground, and lakes and oceans reflect them.[/color][/*]\n<br />[/list]\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04.[/color][/*]\n<br />[*][color=#D4D4D8]Lunatus (required: Nubilus reads Lunatus' fog and sky).[/color][/*]\n<br />[*][color=#D4D4D8]Conflicts with other mods that replace the cloud shaders.[/color]\n<br />Conflicts with other mods that change the SDR tone mapping. [/*]\n<br />[/list]\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]Hello Games, for the game's cloud and atmosphere systems this builds on.[/color][/*]\n<br />[*][color=#D4D4D8]monkeyman192 and contributors, for MBINCompiler and HGPAKtool.\n<br />- Claude AI[/color][/*]\n<br />[/list]",
+    "description": "[size=4][b]Expect updates as i am always fixing/improving stuff...or atleast trying to...\n<br />\n<br />Description\n<br />[/b][/size]CLOUDS NOW MATCH THE SPACE CLOUDS.\n<br />fly to a spot with no clouds...guess what...no clouds...\n<br />fly to a spot thats dense with clouds...heavy overcast!!!\n<br />\n<br />[color=#D4D4D8]Nubilus replaces No Man's Sky's clouds with real volumetric clouds that match from orbit to the ground. The cloud pattern you see from space is the same one you fly through, lit and fogged to match the sky around it, day and night.[/color]\n<br />\n<br />expect future updates/improvements. im always trying to fix little things that bug me when i play. Report any issues you have to me and i'll investigate.\n<br />\n<br />// KNOWN ISSUES\n<br />regarding v1.2 that just dropped...\n<br />as i play i still notice subtle things that bug me so this mod still has a way to go.\n<br />gas giants still need tweaking as well as moons but overall they work \"fine\".\n<br />\n<br />eclipses will hopefully come eventually but i pulled them cause they could be better.\n<br />stay tuned...\n<br />\n<br />[size=4][b]Installation instructions\n<br />[/b][/size]\n<br />// Why is Lunatus required:\n<br />[list]\n<br />[*][b]It's built as a pair:[/b] Nubilus was cut against Lunatus 1.5's exact build, and the clouds were tuned against Lunatus' fog and sky. The cloud colours, night look and planet transitions all assume Lunatus' haze.[/*]\n<br />[*][b]Some cloud behaviour lives in Lunatus' files:[/b] the far-world cloud hand-over, the climb-out transition, and the horizon band hugging the clouds from orbit.[/*]\n<br />[*][b]It's never been tested without Lunatus:[/b] it might run, but the clouds would sit in vanilla fog they weren't designed for.[/*]\n<br />[/list]\n<br />[list=1]\n<br />[*][color=#D4D4D8]Install Lunatus first (required).[/color][/*]\n<br />[*][color=#D4D4D8]Extract the zip.[/color][/*]\n<br />[*][color=#D4D4D8]Drop the Nubilus folder into ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).[/color][/*]\n<br />[*][color=#D4D4D8]Restart the game. Works with new and existing saves.[/color][/*]\n<br />[/list][color=#D4D4D8]To uninstall, delete the Nubilus folder.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]One cloud pattern per planet: what you see from orbit is what you fly into, with a smooth fade from space down to the in-air clouds.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds take Lunatus' fog and sky colours, so they sit in the atmosphere instead of floating on top of it.[/color][/*]\n<br />[*][color=#D4D4D8]Shared day/night lighting from orbit and in the air: lit until sunset, a short warm afterglow, then dark night silhouettes.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds stay solid in front of moons and distant planets.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds cast shadows on the ground, and lakes and oceans reflect them.[/color][/*]\n<br />[/list]\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04.[/color][/*]\n<br />[*][color=#D4D4D8]Lunatus (required: Nubilus reads Lunatus' fog and sky).[/color][/*]\n<br />[*][color=#D4D4D8]Conflicts with other mods that replace the cloud shaders.[/color]\n<br />Conflicts with other mods that change the SDR tone mapping. [/*]\n<br />[/list]\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]Hello Games, for the game's cloud and atmosphere systems this builds on.[/color][/*]\n<br />[*][color=#D4D4D8]monkeyman192 and contributors, for MBINCompiler and HGPAKtool.\n<br />- Claude AI[/color][/*]\n<br />[/list]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -689099,7 +689244,7 @@
         "size_kb": 24755,
         "size_in_bytes": 25349742,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4622/b6/65/d1/b665d1d2-4dca-4c39-9fa2-e7ff5768d6c1.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/b6/65/d1/b665d1d2-4dca-4c39-9fa2-e7ff5768d6c1.json"
       },
       {
         "id": [
@@ -689124,7 +689269,7 @@
         "size_kb": 24755,
         "size_in_bytes": 25350064,
         "changelog_html": "-possibly fixed a bug where planets clouds would spin very fast when viewing the system map.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4622/56/e2/2c/56e22c46-ed6a-4146-9071-2ecd23c2ba21.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/56/e2/2c/56e22c46-ed6a-4146-9071-2ecd23c2ba21.json"
       },
       {
         "id": [
@@ -689149,7 +689294,7 @@
         "size_kb": 24757,
         "size_in_bytes": 25351886,
         "changelog_html": "Nubilus 1.1.1 - patch\n- Fixed: repeating patterns in water reflections. On rough water, small bright things (exocraft lights and edges, lamps, glints) and shorelines were reflected as several stacked copies. Reflections now blur smoothly.\n- Nothing else changed; clouds are exactly as in 1.1. Still pairs with Lunatus 1.5.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4622/a5/35/0d/a5350d85-9303-4276-8d3d-c5a6c702c917.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/a5/35/0d/a5350d85-9303-4276-8d3d-c5a6c702c917.json"
       },
       {
         "id": [
@@ -689160,9 +689305,9 @@
         "file_id": 49641,
         "name": "Nubilus 1.1.2 NMS7.04",
         "version": "1.1.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 24757,
         "file_name": "Nubilus 1.1.2 NMS7.04 4622 1.1.2 2026-10-07T01-21Z uhKkQ8XP4.zip",
         "detected_file_extension": "zip",
@@ -689174,7 +689319,32 @@
         "size_kb": 24757,
         "size_in_bytes": 25352130,
         "changelog_html": "1.1.2\n- Fixed: hard colored foam along shorelines on coloured-water planets. Foam (shore lines, shore band, whitecaps) took the planet's foam colour at full strength; it's now near-white with only a hint of the planet's tint.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4622/ea/d7/d1/ead7d116-d66c-4a6c-9a98-8a7b6d28ed30.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/ea/d7/d1/ead7d116-d66c-4a6c-9a98-8a7b6d28ed30.json"
+      },
+      {
+        "id": [
+          49793,
+          1634
+        ],
+        "uid": 7017976611457,
+        "file_id": 49793,
+        "name": "Nubilus 1.2 NMS7.04",
+        "version": "1.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 29493,
+        "file_name": "Nubilus 1.2 NMS7.04 4622 1.2 2026-10-13T03-07Z rv2uEjLyD.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791860821,
+        "uploaded_time": "2026-10-13T03:07:01.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/88ad06940eb132058ccd661a200ce70fd3773b9e17dc6a597244689dfcfbb9bf",
+        "description": "",
+        "size_kb": 29493,
+        "size_in_bytes": 30200896,
+        "changelog_html": "1.2\n- New: gas giants. The clouds you fly through follow the planet's bands: the belts are a solid, flat-topped cloud layer in the band's colour, the lanes between them keep broken, lower clouds, and the bands drift with the planet's winds. Down in the clouds a thick gas-giant fog closes in.\n- Fixed: far planets' cloud layers glowing and flickering (seen with FSR 2 - thanks for the report).\n- Fixed: flat-looking clouds on giant rocky worlds (thanks for the report).\n- The cloud layer seen from orbit is a little dimmer where the cover is heavy, so very cloudy worlds no longer read as flat white discs.\n- Fuller clouds: more relief inside the clouds (deeper shade under and inside, open tops a little brighter). At night, cloud edges no longer glow brighter than the cloud on worlds with a bright night light.\n- Clouds take Lunatus 1.6's thicker distant air, and clouds behind foggy land get the same fog depth as the land in front of them.\n- Fixed: rectangles and faint ghost copies of the ship, trees and other near objects in the haze over big planets and moons in your sky.\n- Requires Lunatus 1.6. Update: replace the Nubilus folder (and Nubilus_StellarumWater if you use it).",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/8c/fa/63/8cfa63ac-e741-4365-a987-6bc346f5e990.json"
       }
     ],
     "changelogs": {
@@ -689189,6 +689359,17 @@
       "1.1.2": [
         "1.1.2",
         "- Fixed: hard colored foam along shorelines on coloured-water planets. Foam (shore lines, shore band, whitecaps) took the planet's foam colour at full strength; it's now near-white with only a hint of the planet's tint."
+      ],
+      "1.2": [
+        "1.2",
+        "- New: gas giants. The clouds you fly through follow the planet's bands: the belts are a solid, flat-topped cloud layer in the band's colour, the lanes between them keep broken, lower clouds, and the bands drift with the planet's winds. Down in the clouds a thick gas-giant fog closes in.",
+        "- Fixed: far planets' cloud layers glowing and flickering (seen with FSR 2 - thanks for the report).",
+        "- Fixed: flat-looking clouds on giant rocky worlds (thanks for the report).",
+        "- The cloud layer seen from orbit is a little dimmer where the cover is heavy, so very cloudy worlds no longer read as flat white discs.",
+        "- Fuller clouds: more relief inside the clouds (deeper shade under and inside, open tops a little brighter). At night, cloud edges no longer glow brighter than the cloud on worlds with a bright night light.",
+        "- Clouds take Lunatus 1.6's thicker distant air, and clouds behind foggy land get the same fog depth as the land in front of them.",
+        "- Fixed: rectangles and faint ghost copies of the ship, trees and other near objects in the haze over big planets and moons in your sky.",
+        "- Requires Lunatus 1.6. Update: replace the Nubilus folder (and Nubilus_StellarumWater if you use it)."
       ]
     }
   },
@@ -690990,12 +691171,12 @@
     "mod_id": 4653,
     "name": "Brighter Torch",
     "summary": "Your helmet torch, brighter and a little wider - on the surface and in caves. Pick one of four versions: 1.5x, 2x, 3x or 3.75x. Changes four torch settings only; doesn't touch saves.",
-    "version": "1.0",
+    "version": "1.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4653/4653-1791556764-1446165148.jpg",
     "author": "germinus",
-    "updated_timestamp": 1791556900,
+    "updated_timestamp": 1791862745,
     "created_timestamp": 1791556900,
-    "description": "[size=5][b]Brighter Torch[/b][/size]\n<br />Your helmet torch, brighter and a little wider - so you can actually see where you're going at night and in caves.\n<br />\n<br />[size=4][b]Pick your brightness[/b][/size]\n<br />[list]\n<br />[*][b]1.5x[/b] - a bit brighter[/*]\n<br />[*][b]2x[/b] - twice as bright[/*]\n<br />[*][b]3x[/b] - three times as bright[/*]\n<br />[*][b]3.75x[/b] - extra bright. Great in caves and on dark planets; on snow, the patch right in front of you can look a little washed out.[/*]\n<br />[/list]Every version also widens the beam a little (110 to 130, and 90 to 110 underground), and brightens the torch underground as well as on the surface.\n<br />\n<br />[size=4][b]Install[/b][/size]\n<br />Unzip, pick [b]one[/b] of the BrighterTorch folders and put it into [b]No Man's Sky&#92;GAMEDATA&#92;MODS[/b]. If the game asks to disable mods, choose No.\n<br />To change brightness, swap the folder. To remove, delete it. Saves are not touched.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Changes four torch values in the game's gameplay settings. Works alongside mods that change other gameplay settings. A mod that also changes the torch would clash (whichever loads last wins).\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, find any item across all your saves and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - every material shows what it makes and refines into, and every trade good where it's sold.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url] - see every item you own and where it is, and move stock live while you play (beta).[/*]\n<br />[/list]\n<br />[i]Idea, settings and all in-game testing by germinus; files made with AI assistance.[/i]",
+    "description": "[size=5][b]Brighter Torch[/b][/size]\n<br />Your helmet torch, brighter and a little wider - so you can actually see where you're going at night and in caves.\n<br />\n<br />[size=4][b]Pick your brightness[/b][/size]\n<br />[list]\n<br />[*][b]1.5x[/b] - a bit brighter[/*]\n<br />[*][b]2x[/b] - twice as bright[/*]\n<br />[*][b]3x[/b] - three times as bright[/*]\n<br />[*][b]3.75x[/b] - extra bright. Great in caves and on dark planets; on snow, the patch right in front of you can look a little washed out.[/*]\n<br />[/list]Every version also widens the beam a little (110 to 130, and 90 to 110 underground), and brightens the torch underground as well as on the surface.\n<br />\n<br />[size=4][b]Install[/b][/size]\n<br />Each brightness is its own download on the Files tab - download [b]one[/b] (Vortex installs it for you), or unzip it and put the BrighterTorch folder into [b]No Man's Sky&#92;GAMEDATA&#92;MODS[/b]. If the game asks to disable mods, choose No.\n<br />Use only one version at a time. To change brightness, remove the one you have and install another. Saves are not touched.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Changes four torch values in the game's gameplay settings. Works alongside mods that change other gameplay settings. A mod that also changes the torch would clash (whichever loads last wins).\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, find any item across all your saves and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - every material shows what it makes and refines into, and every trade good where it's sold.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url] - see every item you own and where it is, and move stock live while you play (beta).[/*]\n<br />[/list]\n<br />[i]Idea, settings and all in-game testing by germinus; files made with AI assistance.[/i]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -691008,9 +691189,9 @@
         "file_id": 49734,
         "name": "Brighter Torch",
         "version": "1.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 2,
         "file_name": "Brighter Torch 4653 1.0 2026-10-09T14-40Z QR3q07yKZ.zip",
         "detected_file_extension": "zip",
@@ -691023,9 +691204,113 @@
         "size_in_bytes": 2301,
         "changelog_html": null,
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4653/5c/5d/90/5c5d90cc-3017-461f-b360-85acc4fe94dc.json"
+      },
+      {
+        "id": [
+          49798,
+          1634
+        ],
+        "uid": 7017976611462,
+        "file_id": 49798,
+        "name": "Brighter Torch - 2x",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1,
+        "file_name": "Brighter Torch - 2x 4653 1.1 2026-10-13T03-34Z 8gT07OSs0.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791862499,
+        "uploaded_time": "2026-10-13T03:34:59.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/21f2821bfeb874991f6fffa43315ec9c94152a13d2fefc60b8f87a3447debe55",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1053,
+        "changelog_html": "Each brightness (1.5x, 2x, 3x, 3.75x) is now its own download, so Vortex installs only the one you pick. Thanks to ArchangelLegion for the report.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4653/93/0c/cd/930ccd64-f7a9-4596-81e6-5f845e3d8177.json"
+      },
+      {
+        "id": [
+          49799,
+          1634
+        ],
+        "uid": 7017976611463,
+        "file_id": 49799,
+        "name": "Brighter Torch - 1.5x",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Brighter Torch - 1.5x 4653 1.1 2026-10-13T03-36Z oPfwFLsxf.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791862595,
+        "uploaded_time": "2026-10-13T03:36:35.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9ad4ba619e9531e484c590a07f38116dbb6a56f3bc3a9e1b5019bd428143b21c",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1066,
+        "changelog_html": "Each brightness (1.5x, 2x, 3x, 3.75x) is now its own download, so Vortex installs only the one you pick. Thanks to ArchangelLegion for the report.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4653/a7/e8/1b/a7e81b0f-83db-4b41-8c6d-548ac2938246.json"
+      },
+      {
+        "id": [
+          49800,
+          1634
+        ],
+        "uid": 7017976611464,
+        "file_id": 49800,
+        "name": "Brighter Torch - 3x",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Brighter Torch - 3x 4653 1.1 2026-10-13T03-37Z 4tDiNuwdP.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791862672,
+        "uploaded_time": "2026-10-13T03:37:52.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c9818641a71b1b58b66463099b7f8e257581f9f27e9312a3e72f1379fc0d440e",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1057,
+        "changelog_html": "Each brightness (1.5x, 2x, 3x, 3.75x) is now its own download, so Vortex installs only the one you pick. Thanks to ArchangelLegion for the report.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4653/af/9d/ad/af9dad97-a8b4-4c2c-bfca-d0a10407a7b6.json"
+      },
+      {
+        "id": [
+          49801,
+          1634
+        ],
+        "uid": 7017976611465,
+        "file_id": 49801,
+        "name": "Brighter Torch - 3.75x",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Brighter Torch - 3.75x 4653 1.1 2026-10-13T03-39Z qTSCvocnv.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791862745,
+        "uploaded_time": "2026-10-13T03:39:05.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/66336df67cd8b90e90be9d7fd0ad410f373c8491976d1a7d7d7d95f599280c71",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1125,
+        "changelog_html": "Each brightness (1.5x, 2x, 3x, 3.75x) is now its own download, so Vortex installs only the one you pick. Thanks to ArchangelLegion for the report.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4653/22/66/7b/22667b09-7140-4f09-bb9a-5671681a82af.json"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "1.1": [
+        "Each brightness (1.5x, 2x, 3x, 3.75x) is now its own download, so Vortex installs only the one you pick. Thanks to ArchangelLegion for the report."
+      ]
+    }
   },
   {
     "mod_id": 4654,
@@ -691204,12 +691489,12 @@
     "mod_id": 4658,
     "name": "NMS Inventory Manager",
     "summary": "See every item you own and where it is - exosuit, ships, freighter, storage, exocraft - live while you play, and move stock between them without leaving the game. A small standalone app; also built into NMS Easy Save Editor. Beta.",
-    "version": "1.1",
+    "version": "1.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4658/4658-1791632218-1064760614.jpg",
     "author": "germinus",
-    "updated_timestamp": 1791693896,
+    "updated_timestamp": 1791866924,
     "created_timestamp": 1791632495,
-    "description": "[size=5][b]NMS Inventory Manager[/b][/size] [i](beta)[/i]\n<br />\"Where did I put my Chromatic Metal?\" - this small app shows every item you own and exactly where it is: exosuit, freighter, storage containers, starships and exocraft. It updates live while you play, and you can move stock between them without leaving the game.\n<br />\n<br />[size=4][b]New in 1.1[/b][/size]\n<br />[list]\n<br />[*][b]Delete items, with Undo[/b] - \"Delete...\" next to a place removes the amount you choose. Before anything is deleted your save file is copied into the \"Backups\" folder next to the app (the last 10 are kept, with \"How to restore.txt\"), and Undo puts the items back straight away.[/*]\n<br />[*][b]Places view[/b] - switch from Items to Places to see one inventory at a time, tick items, then Move ticked or Delete ticked.[/*]\n<br />[*]Storage containers you haven't built yet are no longer offered as places to move to. A container you build while playing shows up after the game is reloaded.[/*]\n<br />[/list]\n<br />[size=4][b]What it does[/b][/size]\n<br />[list]\n<br />[*][b]See everything:[/b] every item, the total you have, and how many are in each place.[/*]\n<br />[*][b]Live:[/b] it reads the running game, so the numbers change as you play. The green bubble at the top shows the save you're in.[/*]\n<br />[*][b]Move stock:[/b] click Move... next to where it is, pick where it should go and how many (100, 500, half, all), and it's moved straight away in the game - no reloading.[/*]\n<br />[*][b]Find things fast:[/b] search, group buttons (Raw materials, Products, Trade goods, Cooking, Upgrade modules, Other), A to Z letters and your recent searches.[/*]\n<br />[*][b]Second monitor friendly:[/b] \"Always on top\" keeps it above the game.[/*]\n<br />[*][b]Delete, with Undo:[/b] remove what you no longer want. Your save file is copied to a Backups folder first, and Undo puts it back straight away.[/*]\n<br />[*][b]Places:[/b] look at one inventory at a time - a storage container, the freighter, a ship - tick items, then Move ticked or Delete ticked.[/*]\n<br />[/list]\n<br />[size=4][b]Good to know[/b][/size]\n<br />[list]\n<br />[*]Inventory screens in the game can stay open - you'll see the item move.[/*]\n<br />[*]Your moves are kept when the game next saves, as normal.[/*]\n<br />[*]Only cargo is listed and moved - fitted technology is never touched.[/*]\n<br />[*]It doesn't change any game files and isn't a game mod - there's nothing to install in the game.[/*]\n<br />[*]Tested on the Steam version. A big game update may stop it working until I update it - \"About &amp; help\" &gt; \"Check for updates\" opens the Files page. The app never goes online by itself.[/*]\n<br />[*]It's a beta: as with any tool that works on a running game, keep a backup of your saves. Something odd? Please report it in Bugs or Posts.[/*]\n<br />[/list]\n<br />[size=4][b]Install[/b][/size]\n<br />Unzip the folder anywhere and run [b]NMS Inventory Manager.exe[/b] while the game is running. To remove it, delete the folder.\n<br />Needs Windows 10 or 11 with Microsoft Edge WebView2 (Windows 11 has it built in).\n<br />\n<br />[size=4][b]Prefer an editor?[/b][/size]\n<br />The same Inventory Manager is built into [url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] (Tools &gt; Inventory Manager). There it also works with the game closed and searches all your saves at once. This standalone version is for players who'd rather not use an editor.\n<br />\n<br />[size=4][b]Credits[/b][/size]\n<br />Layout of the game's inventories and player state: NMS.py by monkeyman192 (MIT licence). No Man's Sky is a trademark of Hello Games; this tool is not made or supported by Hello Games.\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, Inventory Manager and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - what every material is used to make, what refines into it, and where trade goods are sold.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - a brighter, slightly wider helmet torch.[/*]\n<br />[/list]\n<br />[i]Idea, design decisions and all in-game testing by germinus; code written with AI.[/i]",
+    "description": "[size=5][b]NMS Inventory Manager[/b][/size] [i](beta)[/i]\n<br />\"Where did I put my Chromatic Metal?\" - this small app shows every item you own and exactly where it is: exosuit, freighter, storage containers, starships and exocraft. It updates live while you play, and you can move stock between them without leaving the game.\n<br />\n<br />[size=4][b]New in 1.2[/b][/size]\n<br />[list]\n<br />[*][b]Item names in your language[/b] - pick a language in the box at the top: Français, Deutsch, Español, Русский, 日本語 and more, 15 in all. The names come from the game itself, so they match what you see in your game. Search finds items by that name or by the English one, and your choice is remembered. The app's own buttons stay in English. Thanks to Reqvime for asking.[/*]\n<br />[/list]\n<br />[size=4][b]New in 1.1[/b][/size]\n<br />[list]\n<br />[*][b]Delete items, with Undo[/b] - \"Delete...\" next to a place removes the amount you choose. Before anything is deleted your save file is copied into the \"Backups\" folder next to the app (the last 10 are kept, with \"How to restore.txt\"), and Undo puts the items back straight away.[/*]\n<br />[*][b]Places view[/b] - switch from Items to Places to see one inventory at a time, tick items, then Move ticked or Delete ticked.[/*]\n<br />[*]Storage containers you haven't built yet are no longer offered as places to move to. A container you build while playing shows up after the game is reloaded.[/*]\n<br />[/list][size=4][b]What it does[/b][/size]\n<br />[list]\n<br />[*][b]See everything:[/b] every item, the total you have, and how many are in each place.[/*]\n<br />[*][b]Live:[/b] it reads the running game, so the numbers change as you play. The green bubble at the top shows the save you're in.[/*]\n<br />[*][b]Move stock:[/b] click Move... next to where it is, pick where it should go and how many (100, 500, half, all), and it's moved straight away in the game - no reloading.[/*]\n<br />[*][b]Find things fast:[/b] search, group buttons (Raw materials, Products, Trade goods, Cooking, Upgrade modules, Other), A to Z letters and your recent searches.[/*]\n<br />[*][b]Second monitor friendly:[/b] \"Always on top\" keeps it above the game.[/*]\n<br />[*][b]Delete, with Undo:[/b] remove what you no longer want. Your save file is copied to a Backups folder first, and Undo puts it back straight away.[/*]\n<br />[*][b]Places:[/b] look at one inventory at a time - a storage container, the freighter, a ship - tick items, then Move ticked or Delete ticked.[/*]\n<br />[/list][size=4][b]Good to know[/b][/size]\n<br />[list]\n<br />[*]Inventory screens in the game can stay open - you'll see the item move.[/*]\n<br />[*]Your moves are kept when the game next saves, as normal.[/*]\n<br />[*]Only cargo is listed and moved - fitted technology is never touched.[/*]\n<br />[*]It doesn't change any game files and isn't a game mod - there's nothing to install in the game.[/*]\n<br />[*]Tested on the Steam version. A big game update may stop it working until I update it - \"About &amp; help\" &gt; \"Check for updates\" opens the Files page. The app never goes online by itself.[/*]\n<br />[*]It's a beta: as with any tool that works on a running game, keep a backup of your saves. Something odd? Please report it in Bugs or Posts.[/*]\n<br />[/list][size=4][b]Install[/b][/size]\n<br />Unzip the folder anywhere and run [b]NMS Inventory Manager.exe[/b] while the game is running. To remove it, delete the folder.\n<br />Needs Windows 10 or 11 with Microsoft Edge WebView2 (Windows 11 has it built in).\n<br />\n<br />[size=4][b]Prefer an editor?[/b][/size]\n<br />The same Inventory Manager is built into [url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] (Tools &gt; Inventory Manager). There it also works with the game closed and searches all your saves at once. This standalone version is for players who'd rather not use an editor.\n<br />\n<br />[size=4][b]Credits[/b][/size]\n<br />Layout of the game's inventories and player state: NMS.py by monkeyman192 (MIT licence). No Man's Sky is a trademark of Hello Games; this tool is not made or supported by Hello Games.\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, Inventory Manager and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - what every material is used to make, what refines into it, and where trade goods are sold.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4651]Easier Stations[/url] - claim a space station with half the standing missions.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - a brighter, slightly wider helmet torch.[/*]\n<br />[/list][i]Idea, design decisions and all in-game testing by germinus; code written with AI.[/i]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -691247,9 +691532,9 @@
         "file_id": 49767,
         "name": "NMS Inventory Manager",
         "version": "1.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 1425,
         "file_name": "NMS Inventory Manager 4658 1.1 2026-10-11T04-44Z AeW3Tdr5Y.zip",
         "detected_file_extension": "zip",
@@ -691262,6 +691547,31 @@
         "size_in_bytes": 1459704,
         "changelog_html": "Delete items, with Undo - your save file is copied to the Backups folder first (last 10 kept)\nNew Places view: see one inventory at a time, tick items, then Move ticked or Delete ticked\nStorage containers you have not built yet are no longer offered as places to move to\nInventory screens in the game can stay open while you move items\nVersion shown as 1.1 beta",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4658/88/ec/74/88ec746c-6756-4f34-9121-6f463f00a51b.json"
+      },
+      {
+        "id": [
+          49804,
+          1634
+        ],
+        "uid": 7017976611468,
+        "file_id": 49804,
+        "name": "NMS Inventory Manager",
+        "version": "1.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1874,
+        "file_name": "NMS Inventory Manager 4658 1.2 2026-10-13T04-48Z N2LUkQgPQ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791866924,
+        "uploaded_time": "2026-10-13T04:48:44.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/eb7e720b00f459620921ce87cf375782ca4adaa266117f726fe0f7954528a74d",
+        "description": "",
+        "size_kb": 1874,
+        "size_in_bytes": 1919896,
+        "changelog_html": "New: item names in your language - pick it in the box at the top (15 languages, names taken from the game itself). Search finds items by that name or the English one. Thanks to Reqvime for asking.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4658/fe/23/00/fe2300d0-b87a-4ca9-9fd8-a19340c53367.json"
       }
     ],
     "changelogs": {
@@ -691271,6 +691581,9 @@
         "Storage containers you have not built yet are no longer offered as places to move to",
         "Inventory screens in the game can stay open while you move items",
         "Version shown as 1.1 beta"
+      ],
+      "1.2": [
+        "New: item names in your language - pick it in the box at the top (15 languages, names taken from the game itself). Search finds items by that name or the English one. Thanks to Reqvime for asking."
       ]
     }
   },
