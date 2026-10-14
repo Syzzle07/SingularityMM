@@ -690582,12 +690582,12 @@
     "mod_id": 4638,
     "name": "Switch 1 Limitations",
     "summary": "Implements the limitations of the Switch 1 version of No Man's Sky: no settlements, no multiplayer and corvettes can only be 40 modules or less with nearly no interior deco",
-    "version": "7.06.1",
+    "version": "7.06.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4638/4638-1791461950-1346886709.jpg",
     "author": "Grouch",
-    "updated_timestamp": 1791989060,
+    "updated_timestamp": 1791994855,
     "created_timestamp": 1791462980,
-    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />Enables the restrictions/limitations that the Nintendo Switch 1 release of No Man's Sky, which include:\n<br />[list]\n<br />[*]Disabling multiplayer.[/*]\n<br />[*]Disabling settlements.[/*]\n<br />[*]Limiting corvette building (corvette module limit of 40, interior decorating is heavily restricted).[/*]\n<br />[*]Simpler/easier Nexus Missions[/*]\n<br />[/list]I'm not sure why you would use this, other than to \"see what it's like to be a Switch 1 player\" but without the framerate/fidelity problems, or to reduce overall performance load on extremely low performance systems.\n<br />\n<br />Loading a save that has any corvettes that exceed 40 corvette modules temporarily overrides them with a default corvette that retains their technology, until the mod is disabled/removed or the save is loaded on a platform that supports full-sized corvettes. These temporary corvettes cannot be modified via base building/corvette workshop nor exchanged to landed pilots. They can still be recolored using the interior decoration system, but this probably isn't persistent.\n<br />\n<br />[b]It is fully safe to load existing saves that have settlements or complex corvettes with this mod, as their state returns upon loading them without this mod enabled.[/b]\n<br />\n<br />If you just want to disable multiplayer, [url=https://www.nexusmods.com/nomanssky/mods/4636]use this mod instead[/url].\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"Switch1Limitations\" folder inside of GAMEDATA/MODS\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCDEBUGOPTIONS.GLOBAL.MBIN\n<br />METADATA&#92;SIMULATION&#92;MISSIONS&#92;TABLES&#92;MULTIPLAYERMISSIONTABLE.MBIN",
+    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />Enables the restrictions/limitations that the Nintendo Switch 1 release of No Man's Sky, which include:\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4636]Disabling multiplayer[/url][/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4647]Disabling settlements[/url][/*]\n<br />[*]Limiting corvette building (corvette module limit of 40, interior decorating is heavily restricted)[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4669]Simpler/easier Nexus Missions[/url][/*]\n<br />[/list]I'm not sure why you would use this, other than to \"see what it's like to be a Switch 1 player\" but without the framerate/fidelity problems, or to reduce overall performance load on extremely low performance systems.\n<br />\n<br />3 of these 4 features are also present as [url=https://www.nexusmods.com/profile/GrouchTheGreat/mods]their own mods[/url], in case you wish to use a specific feature separately.\n<br />\n<br />Loading a save that has any corvettes that exceed 40 corvette modules temporarily overrides them with a default corvette that retains their technology, until the mod is disabled/removed or the save is loaded on a platform that supports full-sized corvettes. These temporary corvettes cannot be modified via base building/corvette workshop nor exchanged to landed pilots. They can still be recolored using the interior decoration system, but this probably isn't persistent.\n<br />\n<br />[b]It is fully safe to load existing saves that have settlements or complex corvettes with this mod, as their state returns upon loading them without this mod enabled.[/b]\n<br />\n<br />If you just want to disable multiplayer, [url=https://www.nexusmods.com/nomanssky/mods/4636]use this mod instead[/url].\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"Switch1Limitations\" folder inside of GAMEDATA/MODS\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCDEBUGOPTIONS.GLOBAL.MBIN\n<br />METADATA&#92;SIMULATION&#92;MISSIONS&#92;TABLES&#92;MULTIPLAYERMISSIONTABLE.MBIN",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -690625,9 +690625,9 @@
         "file_id": 49822,
         "name": "Switch1Limitations",
         "version": "7.06.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 18,
         "file_name": "Switch1Limitations 4638 7.06.1 2026-10-14T14-42Z bqtarIDXj.zip",
         "detected_file_extension": "zip",
@@ -690650,8 +690650,8 @@
         "file_id": 49823,
         "name": "Switch1LimitationsExceptCorvettes",
         "version": "7.06.1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 18,
         "file_name": "Switch1LimitationsExceptCorvettes 4638 7.06.1 2026-10-14T14-44Z UKXVZqdGm.zip",
@@ -690665,12 +690665,65 @@
         "size_in_bytes": 18778,
         "changelog_html": "Added easier/simpler Nexus Missions missions from the Switch 1 version.\nAdded new file that is identical to the main file but without the corvette limitations.",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4638/1d/50/25/1d50259a-fb70-4bab-94ff-22ef70650910.json"
+      },
+      {
+        "id": [
+          49828,
+          1634
+        ],
+        "uid": 7017976611492,
+        "file_id": 49828,
+        "name": "Switch1Limitations",
+        "version": "7.06.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 7,
+        "file_name": "Switch1Limitations 4638 7.06.2 2026-10-14T16-20Z OyPDz2f4g.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791994840,
+        "uploaded_time": "2026-10-14T16:20:40.000+00:00",
+        "mod_version": "7.06.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/eaf6ef8247de488f909b7ae6d689b2289620b6400e9d44dd7bb5c43c4f2060d5",
+        "description": "Removes and changes features to match the Switch 1 version of the game: no multiplayer, no settlements and corvette building is heavily restricted.",
+        "size_kb": 7,
+        "size_in_bytes": 7694,
+        "changelog_html": "Trimmed parts of the nexus missions EXML that I forgot to trim out.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4638/f6/69/b4/f669b450-698f-4670-961c-4e9066d90611.json"
+      },
+      {
+        "id": [
+          49829,
+          1634
+        ],
+        "uid": 7017976611493,
+        "file_id": 49829,
+        "name": "Switch1LimitationsExceptCorvettes",
+        "version": "7.06.2",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 7,
+        "file_name": "Switch1LimitationsExceptCorvettes 4638 7.06.2 2026-10-14T16-20Z AeW3TdrQE.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1791994855,
+        "uploaded_time": "2026-10-14T16:20:55.000+00:00",
+        "mod_version": "7.06.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5db68927a914a7be5efb6a9c8f97bbec7b434b306e82d37b2411066064a8b035",
+        "description": "Same as main file, except without the corvette-related limitations.",
+        "size_kb": 7,
+        "size_in_bytes": 7879,
+        "changelog_html": "Trimmed parts of the nexus missions EXML that I forgot to trim out.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4638/bf/b3/76/bfb3767b-01b8-401c-85e3-8e7ccb3ade52.json"
       }
     ],
     "changelogs": {
       "7.06.1": [
         "Added easier/simpler Nexus Missions missions from the Switch 1 version.",
         "Added new file that is identical to the main file but without the corvette limitations."
+      ],
+      "7.06.2": [
+        "Trimmed parts of the nexus missions EXML that I forgot to trim out."
       ]
     }
   },
