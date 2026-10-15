@@ -691065,10 +691065,10 @@
     "mod_id": 4645,
     "name": "Bigger Trees Denser Forest",
     "summary": "increases tree size while also make tree distribution more condensed",
-    "version": "1",
+    "version": "1.0.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4645/4645-1791478829-1739223204.png",
     "author": "Somnati",
-    "updated_timestamp": 1791981932,
+    "updated_timestamp": 1792030678,
     "created_timestamp": 1791479576,
     "description": "[size=4][b]Description[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8][b]Overall:[/b] about 2.4× taller on average, ranging from 1.75× to 3.7×. Trees that were already huge grow the least, so nothing gets absurd.[/color][/*]\n<br />[*][color=#D4D4D8][b]Lush trees:[/b] about 2× (roughly 27 m in vanilla, up to about 64 m now).[/color][/*]\n<br />[*][color=#D4D4D8][b]Frozen pines, mangroves, bone, spore, dead and radioactive trees:[/b] about 2.3–2.5×.[/color][/*]\n<br />[*][color=#D4D4D8][b]Giant mushrooms:[/b] about 2×. The huge toxic fungus gets 1.75×.[/color][/*]\n<br />[*][color=#D4D4D8][b]Desert dracaena, peacock trees and cacti:[/b] about 3.7×, from your earlier “larger desert trees” request.[/color][/*]\n<br />[*][color=#D4D4D8][b]Variety:[/b] the shortest trees are now about 30% shorter than vanilla’s shortest, so you get small and giant trees mixed instead of every tree of a kind being one height.\n<br />\n<br />IT DOES ROCKS TO[/color]\n<br />\n<br />\n<br />[list]\n<br />[*][color=#D4D4D8]The largest rocks of most types are about 2.2× vanilla’s largest.[/color][/*]\n<br />[*][color=#D4D4D8]Sand- and snow-blended rocks and gravel patches get 1.45–1.8×.[/color][/*]\n<br />[*][color=#D4D4D8]The giant spike rocks and rock rings were already huge, so they only get 1.6×.[/color][/*]\n<br />[*][color=#D4D4D8]Like the trees, the smallest rocks also come out a bit smaller, so you get a real mix of sizes.[img]https://staticdelivery.nexusmods.com/mods/1634/images/4645/4645-1791479471-787736969.png[/img][/color][/*]\n<br />[/list][/*]\n<br />[/list]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]1. Download and unzip.\n<br />2. Copy the folder(s) into: No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).\n<br />3. Both folders are separate mods - use both, or only the one you want:\n<br />  Somnati_BigTreesBigRocks = bigger trees + desert rocks\n<br />  Somnati_BigPatches = forests and clearings\n<br />4. Areas you already visited may keep their old placement until the terrain reloads.\n<br />\n<br />Uninstall: delete the folder(s).[/color]\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]No Man's Sky 7.04. No other mods required.\n<br />\n<br />Performance: the longer load distance for trees and large rocks costs some performance on weaker PCs.\n<br />Compatibility: Somnati_BigPatches replaces one file (METADATA/SIMULATION/SOLARSYSTEM/BIOMES/PLACEMENTVALUES/SPAWNDENSITYLIST.MBIN) and conflicts with any other mod that replaces it. Somnati_BigTreesBigRocks merges with other mods.[/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]Thanks to the player who asked for my bigger trees and denser forests to be released - this one's for you.\n<br />\n<br />- Claude AI[/color]",
     "state": "normal",
@@ -691085,7 +691085,7 @@
         "version": "1",
         "category_id": 1,
         "category_name": "MAIN",
-        "is_primary": true,
+        "is_primary": false,
         "size": 89,
         "file_name": "Somnati BigTrees BigForests (big rock types) 4645 1 2026-10-08T17-12Z n0CrIxzbK.zip",
         "detected_file_extension": "zip",
@@ -691096,7 +691096,7 @@
         "description": "",
         "size_kb": 89,
         "size_in_bytes": 91631,
-        "changelog_html": null,
+        "changelog_html": "added a new file that effects (ONLY TREES) to solve a bug where floating islands were changed due them being attached to the large rocks/desert arches.",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4645/24/f2/a0/24f2a089-8276-4214-a56e-6eda11520573.json"
       },
       {
@@ -691108,8 +691108,8 @@
         "file_id": 49821,
         "name": "Somnati BigTrees BigForests (ONLY TREES)",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 180,
         "file_name": "Somnati BigTrees BigForests (ONLY TREES) 4645 1 2026-10-14T12-45Z UKXVZqdGI.zip",
@@ -691121,13 +691121,41 @@
         "description": "",
         "size_kb": 180,
         "size_in_bytes": 185307,
-        "changelog_html": null,
+        "changelog_html": "added a new file that effects (ONLY TREES) to solve a bug where floating islands were changed due them being attached to the large rocks/desert arches.",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4645/80/38/9c/80389cac-4f4b-461d-b204-8ebb9c78c16a.json"
+      },
+      {
+        "id": [
+          49836,
+          1634
+        ],
+        "uid": 7017976611500,
+        "file_id": 49836,
+        "name": "Somnati BigTrees BigForests 1.0.2 NMS7.04",
+        "version": "1.0.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 180,
+        "file_name": "Somnati BigTrees BigForests 1.0.2 NMS7.04 4645 1.0.2 2026-10-15T02-17Z HZO4arog5.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792030678,
+        "uploaded_time": "2026-10-15T02:17:58.000+00:00",
+        "mod_version": "1.0.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/acee363602e2a4636b8b17a605e6324c715e74b4ea8039a8b4e66ac06aa31acf",
+        "description": null,
+        "size_kb": 180,
+        "size_in_bytes": 184583,
+        "changelog_html": "FIXED: endless load screen / missing grass on lush worlds when used together with Grass Fix. 1.0.1 patched a few entries in the building-dressing object lists that Grass Fix empties; 1.0.2 leaves those lists alone. Works with Grass Fix in any load order. Nothing else changed.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4645/fd/1d/e8/fd1de807-a212-4b5d-a422-ce7d8ba29b33.json"
       }
     ],
     "changelogs": {
       "1": [
         "added a new file that effects (ONLY TREES) to solve a bug where floating islands were changed due them being attached to the large rocks/desert arches."
+      ],
+      "1.0.2": [
+        "FIXED: endless load screen / missing grass on lush worlds when used together with Grass Fix. 1.0.1 patched a few entries in the building-dressing object lists that Grass Fix empties; 1.0.2 leaves those lists alone. Works with Grass Fix in any load order. Nothing else changed."
       ]
     }
   },
