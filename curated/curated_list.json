@@ -690638,7 +690638,7 @@
     "author": "Grouch",
     "updated_timestamp": 1791445225,
     "created_timestamp": 1791445225,
-    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod fully removes multiplayer from the game in the same way that consoles have multiplayer functionality removed when a paid online subscription is lacked. This could be useful if you wish to fully prevent other players from joining you with a mod instead of using the network options (in case you accidentally forget to disable it in the options or something), or if you want to skip the Play VS Join Friends menu and don't care about multiplayer at all.\n<br />\n<br />I'm not the one to question why you would use this, other than to skip a screen or to easily disable multiplayer via mods when you're using other mods that break it.\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"DisableMultiplayer\" folder inside of GAMEDATA/MODS\n<br />\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCDEBUGOPTIONS.GLOBAL.MBIN",
+    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod fully removes multiplayer from the game in the same way that consoles have multiplayer functionality removed when a paid online subscription is lacked. This could be useful if you wish to fully prevent other players from joining you with a mod instead of using the network options (in case you accidentally forget to disable it in the options or something), or if you want to skip the Play VS Join Friends menu and don't care about multiplayer at all.\n<br />\n<br />I'm not the one to question why you would use this, other than to skip a screen or to easily disable multiplayer via mods when you're using other mods that break it.\n<br />\n<br />If you would like to disable the Online Discovery Services instead, which control player discovery downloading, player base downloading and expedition file downloading, [url=https://www.nexusmods.com/nomanssky/mods/4251]use this mod instead[/url].\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"DisableMultiplayer\" folder inside of GAMEDATA/MODS\n<br />\n<br />﻿For further mod installation/troubleshooting, see [url=http://tinyurl.com/nmsmodding550]NMS Modding after 5.58 (to 6.x)[/url]﻿.\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />GCDEBUGOPTIONS.GLOBAL.MBIN",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -691094,7 +691094,7 @@
     "version": "1.8.5",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4643/4643-1791474517-1666389282.jpg",
     "author": "S-T-0-7",
-    "updated_timestamp": 1792165937,
+    "updated_timestamp": 1792166171,
     "created_timestamp": 1791476111,
     "description": "[b]Description[/b]\n<br />\n<br />NMS Shipwright is a free, open-source Windows tool for No Man's Sky. Design a ship part by part, find a real seed that builds it, drop it into your save, recolour it, skip quests, and edit your save — all read from your own copy of the game, so a seed builds exactly the ship the game builds.\n<br />\n<br />[b]Installation instructions[/b]\n<br />[list=1]\n<br />[*]Download and run NMS Shipwright Setup.exe.[/*]\n<br />[*]Windows warns \"unknown publisher\" (not code-signed) — choose More info → Run anyway.[/*]\n<br />[*]Installs for your user only (no admin rights). On first run it finds your game automatically (Steam, GOG, or Microsoft Store).[/*]\n<br />[/list]Uninstall via Settings → Apps, or Uninstall.exe in the install folder.\n<br />\n<br />[b]Main features[/b]\n<br />[list]\n<br />[*]Design ships part by part with a live 3D preview[/*]\n<br />[*]Find a seed for your design, or locate that ship in a real system[/*]\n<br />[*]Put designs into your save — new ship or replacing one you own[/*]\n<br />[*]Recolour with the game's real paint sets[/*]\n<br />[*]Skip quests you don't want to do[/*]\n<br />[*]Save editor: inventories, ship stats, unlocks[/*]\n<br />[/list]Backs up your save first, refuses to run while the game is open, and doesn't mark your save as modded. No bundled game files, no network access.\n<br />\n<br />[b]Requirements[/b]\n<br />[list]\n<br />[*]Windows 10 or 11[/*]\n<br />[*]No Man's Sky installed (Steam, GOG,etc)[/*]\n<br />[*]Nothing else — no Python, no other mods, no game-file edits[/*]\n<br />[/list]\n<br />",
     "state": "normal",
@@ -691184,8 +691184,8 @@
         "file_id": 49768,
         "name": "NMS Shipwright Setup 1.8.3 (Zipped)",
         "version": "1.8.3",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 61068,
         "file_name": "NMS Shipwright Setup 1.8.3 (Zipped) 4643 1.8.3 2026-10-11T04-52Z pQZbnWOUz.zip",
@@ -691274,6 +691274,31 @@
         "size_in_bytes": 27161187,
         "changelog_html": null,
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4643/f1/e8/5c/f1e85cb0-14ed-4751-8241-7bc3fe31174d.json"
+      },
+      {
+        "id": [
+          49899,
+          1634
+        ],
+        "uid": 7017976611563,
+        "file_id": 49899,
+        "name": "NMS Shipwright Setup (Linux)",
+        "version": "1.8.5",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 55042,
+        "file_name": "NMS Shipwright Setup (Linux) 4643 1.8.5 2026-10-16T15-56Z eV714aveK.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792166171,
+        "uploaded_time": "2026-10-16T15:56:11.000+00:00",
+        "mod_version": "1.8.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/71674a4e826021f87a56195baa7a77792ae9e6aa94b55397f8215bdb340da2b1",
+        "description": "",
+        "size_kb": 55042,
+        "size_in_bytes": 56363039,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4643/9d/d2/80/9dd28072-4d73-4de5-9d9a-837ae04e1285.json"
       }
     ],
     "changelogs": {}
