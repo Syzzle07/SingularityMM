@@ -679417,9 +679417,9 @@
     "version": "2.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4547/4547-1790125108-645506707.png",
     "author": "razpdr",
-    "updated_timestamp": 1790327866,
+    "updated_timestamp": 1792230207,
     "created_timestamp": 1790125266,
-    "description": "[center][size=6][b]Corvette Architect[/b][/size]\n<br />Existing snap settings. More exterior rotation freedom.[/center]\n<br />\n<br />[line]\n<br />[size=5]Overview[/size]\n<br />Corvette Architect tunes existing Corvette snap acquisition and enables the 3D-rotation setting for exterior hull structures, connectors, wings and decorations. One download, one patch, no presets.\n<br />\n<br />Habs, windows and functional modules receive the snap-distance adjustment while retaining their vanilla orientation restrictions. Existing sockets and interior doorway rules are preserved. Complexity limits, resource costs and part scale are unchanged.\n<br />\n<br />[line]\n<br />[size=5]Examples to Try[/size]\n<br />Joining habs: when lining up a 1x1 hab beside a 1x2 hab, the wider snap-distance setting is intended to make the existing connection easier to acquire. The doorway location stays the same.\n<br />\n<br />Shaping the hull: try tilting a wing or an exterior structural panel in free placement to explore an angled silhouette. These parts have the 3D-rotation setting enabled; their size stays unchanged.\n<br />\n<br />Finishing the exterior: try rotating a connector or decorative module to suit your hull layout. This does not create a new walkable passage or a new socket.\n<br />[line]\n<br />[size=5]Installation[/size]\n<br />Requires the PC version of No Man's Sky Cosmos 7.04.\n<br />\n<br />1. Close the game and back up your test save.\n<br />2. Extract the player ZIP into No Man's Sky/GAMEDATA/MODS/.\n<br />3. Confirm this path:\n<br />GAMEDATA/MODS/CorvetteArchitect/METADATA/REALITY/TABLES/BASEBUILDINGOBJECTSTABLE.EXML\n<br />4. In the Corvette Workshop, use free placement to check the added exterior rotation controls.\n<br />\n<br />No modding tools are required. If mods are disabled globally, set DisableAllMods to false in Binaries/SETTINGS/GCMODSETTINGS.MXML while the game is closed.\n<br />\n<br />[line]\n<br />[size=5]Scope[/size]\n<br />This version changes existing placement settings. It does not add socket positions, a half-step grid, sideways habs or new walkable corridors. The free-placement toggle itself is vanilla functionality restored in patch 7.02.\n<br />[line]\n<br />[size=5]Uninstallation[/size]\n<br />Close the game and remove GAMEDATA/MODS/CorvetteArchitect. This restores the vanilla settings; it does not automatically undo rotations stored in a save.\n<br />[line]\n<br />[size=5]Compatibility &amp; Technical Info[/size]\n<br />One sparse patch to BASEBUILDINGOBJECTSTABLE. It adjusts SnappingDistanceOverride for Corvette entries and CanRotate3D for selected exterior entries. Mods changing those same fields on the same parts may conflict. \n<br />[line]\n<br />[size=5]Credits[/size]\n<br />Hello Games: No Man's Sky\n<br />monkeyman192 and MBINCompiler contributors: MBINCompiler 7.04.0-pre1 and matching libMBIN schemas.\n<br />monkeyman192 and HGPAKtool contributors: HGPAKtool 1.1.3 archive extraction.\n<br />OpenAI image generation: generated banner and thumbnail.\n<br />\n<br />",
+    "description": "[center][size=6][b][color=#e5a823]CORVETTE ARCHITECT[/color][/b][/size]\n<br />[b][color=#f39c12]Tuned Snap Acquisition &amp; Exterior 3D Rotation Freedom[/color][/b]\n<br />[size=2][i][color=#bdc3c7]Responsive Snap Pull • Full 3D Pitch/Roll/Yaw • Preserved Doorway Integrity • Zero Bloat[/color][/i][/size]\n<br />\n<br />[b][color=#2ecc71]✓ Cosmos / Latest Update Ready[/color]  [color=#7f8c8d]|[/color]  [color=#3498db]✓ Clean PAK Mod[/color]  [color=#7f8c8d]|[/color]  [color=#9b59b6]✓ Vortex Compatible[/color][/b][/center]\n<br />\n<br />[line]\n<br />\n<br />[center][b][size=4][color=#e5a823]✦  WHAT THIS MOD DOES  ✦[/color][/size][/b][/center]\n<br />\n<br />Take full architectural control of your Corvette builds! [b][color=#e5a823]Corvette Architect[/color][/b] eliminates the frustratingly narrow snap acquisition zone and restores complete 3-axis rotation freedom for exterior ship parts in No Man's Sky.\n<br />\n<br />Vanilla Corvette construction limits your snapping acquisition radius to an ultra-tight 0.10m, forcing you to fight the camera and micro-wiggle pieces to get habs and hull panels to connect. [b][color=#f1c40f]Corvette Architect widens the snap acquisition threshold by 500% (to 0.50m)[/color][/b] to match standard base building, while unlocking full [b][color=#f1c40f]3D pitch, roll, and yaw rotation across 602 exterior hull parts, wings, and connectors[/color][/b]—all while keeping interior habs, cockpits, and doorways 100% vanilla-aligned and room-seal safe.\n<br />\n<br />[line]\n<br />\n<br />[center][b][size=4][color=#e5a823]✦  FEATURES AT A GLANCE  ✦[/color][/size][/b][/center]\n<br />\n<br />[list]\n<br />[*][b][color=#3498db]5x Wider Snap Acquisition (0.50m):[/color][/b] Expands the magnetic snap radius from vanilla's restrictive 0.10m to 0.50m across all 643 Corvette parts. Snapping 1x1, 1x2, and 2x2 habs, wings, and structural hull sections is now effortless and instant.[/*]\n<br />[*][b][color=#f1c40f]Full 3D Exterior Rotation Freedom:[/color][/b] Enables [b]CanRotate3D[/b] on 602 exterior Corvette components. Freely pitch, roll, tilt, and yaw hull pieces in free placement mode for aggressive angles and custom silhouettes.[/*]\n<br />[*][b][color=#2ecc71]Complete Exterior Category Coverage:[/color][/b] Unlocks 3D rotation across 480 structural hull panels, 44 wings, 25 connectors, 22 exterior decorations, and 31 exterior systems (thrusters, turrets, generators, landing gear, shields, hoppers, and magnets).[/*]\n<br />[*][b][color=#e74c3c]Interior Integrity &amp; Room Seals Protected:[/color][/b] Habs, cockpits, landing bays, airlocks, ladders, and interior doors retain vanilla rotation locks in the standard edition. Room pressurization, walkable doorways, and traversal alignment never break.[/*]\n<br />[*][b][color=#9b59b6]Vanilla Scale, Costs &amp; Physics Intact:[/color][/b] Complexity limits, part scaling, building costs, and vanilla socket positions are untouched. 100% clean vanilla balance.[/*]\n<br />[*][b][color=#e67e22]Multiplayer Safe &amp; Native Engine Friendly:[/color][/b] Uses the game's built-in free placement toggle and rotation gizmo. Other players see your angled ships without needing the mod.[/*]\n<br />[*][b][color=#e5a823]Optional Unlocked Edition Included:[/color][/b] For experimental builders who want full 3D rotation unlocked across all 643 parts including interior habs and walls.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][b][size=4][color=#e5a823]✦  INSTALLATION &amp; COMPATIBILITY  ✦[/color][/size][/b][/center]\n<br />\n<br />[list]\n<br />[*][b][color=#2ecc71]Vortex / Mod Manager:[/color][/b] Click [b]Mod Manager Download[/b], install, and enable. Fully structured for 1-click Vortex deployment.[/*]\n<br />[*][b][color=#2ecc71]Manual Installation:[/color][/b] Drop\n<br />[code]_CorvetteArchitect.pak[/code]directly into your\n<br />[code]No Man's Sky&#92;GAMEDATA&#92;MODS[/code]folder.[/*]\n<br />[*][b][color=#3498db]Enable Mods:[/color][/b] Ensure mods are enabled by setting\n<br />[code]DisableAllMods[/code]to\n<br />[code]false[/code]in\n<br />[code]Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/code](and delete or rename\n<br />[code]DISABLEMODS.TXT[/code]in\n<br />[code]GAMEDATA&#92;PCBANKS[/code]if present on older game builds).[/*]\n<br />[*][b][color=#3498db]Compatibility:[/color][/b] Fully compatible with Cosmos 7.04+ and latest updates. Modifies\n<br />[code]METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGOBJECTSTABLE.MBIN[/code].[/*]\n<br />[*][b][color=#9b59b6]Safe &amp; Reversible:[/color][/b] Safe to install or remove anytime—deleting the .pak restores vanilla placement behavior without corrupting your save.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][b][size=4][color=#e5a823]✦  RECOMMENDED COMPANION MODS  ✦[/color][/size][/b][/center]\n<br />\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4469][b][color=#f39c12]Launch Thrusters Reworked[/color][/b][/url] — Rebalances launch costs and landing efficiency for a smoother planetary exploration loop![/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4452][b][color=#3498db]Steady Horizon[/color][/b][/url] — Stabilizes the flight horizon camera to prevent dizzying screen roll during low-altitude cruising![/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4466][b][color=#2ecc71]Deep Space Haul[/color][/b][/url] — Expands space encounter loot and salvage rewards so space travel is always lucrative![/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][url=https://ko-fi.com/razpdr][img]https://i.imgur.com/Q3HK8Yt.jpeg[/img][/url]\n<br />[size=2][i][color=#f39c12]If you enjoy my mods and want to support my late-night modding sessions, feel free to buy this fire mage a brew! ☕[/color][/i][/size][/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -679446,7 +679446,7 @@
         "size_kb": 2,
         "size_in_bytes": 2515,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4547/8c/b5/98/8cb598b6-fb16-4703-b136-fefa0495bb5a.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4547/8c/b5/98/8cb598b6-fb16-4703-b136-fefa0495bb5a.json"
       },
       {
         "id": [
@@ -679457,9 +679457,9 @@
         "file_id": 49107,
         "name": "Corvette Architect",
         "version": "2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 2,
         "file_name": "Corvette Architect 4547 2 2026-09-25T09-16Z 58qnW1thG.zip",
         "detected_file_extension": "zip",
@@ -679471,7 +679471,7 @@
         "size_kb": 2,
         "size_in_bytes": 2254,
         "changelog_html": "Rebuilt from current local game data: 602 exterior parts now get 3D rotation, including all 44 wings.\nInterior rooms, doors, cockpits, and stairs remain protected.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4547/eb/2c/93/eb2c9303-a091-48fb-bf11-06bb9fdef7ae.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4547/eb/2c/93/eb2c9303-a091-48fb-bf11-06bb9fdef7ae.json"
       },
       {
         "id": [
@@ -679482,8 +679482,8 @@
         "file_id": 49108,
         "name": " Architect Rotation Unlocked",
         "version": "2.1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 2,
         "file_name": "Architect Rotation Unlocked 4547 2.1 2026-09-25T09-17Z MWrySmNQH.zip",
@@ -679496,13 +679496,161 @@
         "size_kb": 2,
         "size_in_bytes": 2518,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4547/1e/da/fd/1edafde1-ac6a-45c8-b8d2-25c291fea972.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4547/1e/da/fd/1edafde1-ac6a-45c8-b8d2-25c291fea972.json"
+      },
+      {
+        "id": [
+          49907,
+          1634
+        ],
+        "uid": 7017976611571,
+        "file_id": 49907,
+        "name": "Corvette Architect",
+        "version": "4",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 70,
+        "file_name": "Corvette Architect 4547 4 2026-10-17T08-54Z 58qnW1yAA.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792227276,
+        "uploaded_time": "2026-10-17T08:54:36.000+00:00",
+        "mod_version": "4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5bf78f69bfb345a3fcd3704b96bd5819a897cc9ac6f3a9e0f23ce0a7dbe031af",
+        "description": "Recommended. 602 exterior parts, including all wings and hull modules.",
+        "size_kb": 70,
+        "size_in_bytes": 72062,
+        "changelog_html": "Version 4.0.0 - Complete Ground-Up Rebuild &amp; Engine Fix\n[CRITICAL ENGINE FIXES]\n• Engine-Native PAK Packaging:\n- Replaced the non-functional loose .EXML files with compiled binary .MBINs inside compressed .pak archives.\n- Built with MBINCompiler v7.4.0.1 and HGPAKtool v1.1.3 for 100% vanilla engine compatibility.\n• Full Vortex Mod Manager Support:\n- Formatted player ZIPs with root-level .pak files for seamless 1-click Vortex install, enable, and clean removal.\n• Ground-Truth Table Integrity:\n- Decompiled directly from the live game's Precache archive; all 1,481 non-Corvette building objects remain 100% untouched.\n[NEW FEATURES &amp; IMPROVEMENTS]\n• 5x Wider Snap Acquisition:\n- Implemented the missing snap acquisition tuning (SnappingDistanceOverride) across all 643 Corvette parts.\n- Expanded snap detection threshold from vanilla's restrictive 0.10m to 0.50m (matching general base building attach distance).\n- Joining 1x1, 1x2, and 2x2 habs, wings, and hull modules is now instant and responsive—no more cursor wiggling.\n• Full 3D Exterior Rotation Freedom:\n- Enabled CanRotate3D on 602 exterior parts: 480 hull panels, 44 wings, 25 connectors, 22 exterior decorations, and 31 exterior systems (thrusters, turrets, generators, gear, shields, etc.).\n- Pitch, roll, yaw, and tilt hull pieces freely in free-placement mode.\n• Interior Integrity &amp; Room Seals Protected:\n- Habs, cockpits, landing bays, airlocks, and interior doors retain vanilla orientation locks to ensure pressurized room seals, ladders, and doorway walkability never break.\n• Optional \"Unlocked\" Flavor:\n- Added an optional package for experimental builders who want full 3D rotation unlocked on all 643 parts including interior habs and walls.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4547/41/35/31/413531e0-1e54-4847-94ee-5f2935025283.json"
+      },
+      {
+        "id": [
+          49908,
+          1634
+        ],
+        "uid": 7017976611572,
+        "file_id": 49908,
+        "name": "Corvette Architect",
+        "version": "4",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 70,
+        "file_name": "Corvette Architect 4547 4 2026-10-17T08-55Z FpHgXM7UL.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792227333,
+        "uploaded_time": "2026-10-17T08:55:33.000+00:00",
+        "mod_version": "4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e50cc925ff5f094538d81a594db50abd0d97694093b7b70801b17d9598833b92",
+        "description": "Recommended. 602 exterior parts, including all wings and hull modules.",
+        "size_kb": 70,
+        "size_in_bytes": 72034,
+        "changelog_html": "Version 4.0.0 - Complete Ground-Up Rebuild &amp; Engine Fix\n[CRITICAL ENGINE FIXES]\n• Engine-Native PAK Packaging:\n- Replaced the non-functional loose .EXML files with compiled binary .MBINs inside compressed .pak archives.\n- Built with MBINCompiler v7.4.0.1 and HGPAKtool v1.1.3 for 100% vanilla engine compatibility.\n• Full Vortex Mod Manager Support:\n- Formatted player ZIPs with root-level .pak files for seamless 1-click Vortex install, enable, and clean removal.\n• Ground-Truth Table Integrity:\n- Decompiled directly from the live game's Precache archive; all 1,481 non-Corvette building objects remain 100% untouched.\n[NEW FEATURES &amp; IMPROVEMENTS]\n• 5x Wider Snap Acquisition:\n- Implemented the missing snap acquisition tuning (SnappingDistanceOverride) across all 643 Corvette parts.\n- Expanded snap detection threshold from vanilla's restrictive 0.10m to 0.50m (matching general base building attach distance).\n- Joining 1x1, 1x2, and 2x2 habs, wings, and hull modules is now instant and responsive—no more cursor wiggling.\n• Full 3D Exterior Rotation Freedom:\n- Enabled CanRotate3D on 602 exterior parts: 480 hull panels, 44 wings, 25 connectors, 22 exterior decorations, and 31 exterior systems (thrusters, turrets, generators, gear, shields, etc.).\n- Pitch, roll, yaw, and tilt hull pieces freely in free-placement mode.\n• Interior Integrity &amp; Room Seals Protected:\n- Habs, cockpits, landing bays, airlocks, and interior doors retain vanilla orientation locks to ensure pressurized room seals, ladders, and doorway walkability never break.\n• Optional \"Unlocked\" Flavor:\n- Added an optional package for experimental builders who want full 3D rotation unlocked on all 643 parts including interior habs and walls.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4547/70/e4/bc/70e4bc1e-b011-4e8a-bdec-eb13326ff4f6.json"
+      },
+      {
+        "id": [
+          49909,
+          1634
+        ],
+        "uid": 7017976611573,
+        "file_id": 49909,
+        "name": " Architect Rotation Unlocked",
+        "version": "3",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 70,
+        "file_name": "Architect Rotation Unlocked 4547 3 2026-10-17T08-56Z kAMZq0a5A.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792227372,
+        "uploaded_time": "2026-10-17T08:56:12.000+00:00",
+        "mod_version": "3",
+        "external_virus_scan_url": null,
+        "description": "All modules unlocked.",
+        "size_kb": 70,
+        "size_in_bytes": 72062,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4547/0e/cf/65/0ecf65a2-3036-44a6-a155-849da14f6683.json"
+      },
+      {
+        "id": [
+          49915,
+          1634
+        ],
+        "uid": 7017976611579,
+        "file_id": 49915,
+        "name": "Corvette Architect",
+        "version": "5",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 247,
+        "file_name": "Corvette Architect 4547 5 2026-10-17T09-43Z pQZbnWJK6.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792230197,
+        "uploaded_time": "2026-10-17T09:43:17.000+00:00",
+        "mod_version": "5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5fea458391d6f5aa1ab1c07750b3c56a7b69744433f051c95d2b97c3abdb5d6f",
+        "description": "Recommended. 602 exterior parts, including all wings and hull modules.",
+        "size_kb": 247,
+        "size_in_bytes": 253437,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4547/a7/cb/33/a7cb3339-dc04-4bb5-96b4-7f75feb11a0c.json"
+      },
+      {
+        "id": [
+          49916,
+          1634
+        ],
+        "uid": 7017976611580,
+        "file_id": 49916,
+        "name": " Architect Rotation Unlocked",
+        "version": "4",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 247,
+        "file_name": "Architect Rotation Unlocked 4547 4 2026-10-17T09-43Z s60W14SRM.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792230207,
+        "uploaded_time": "2026-10-17T09:43:27.000+00:00",
+        "mod_version": "4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9252801d067829b1b961229106aab9f292828706014b2d52eae7c23a572ef4c1",
+        "description": "All modules unlocked.",
+        "size_kb": 247,
+        "size_in_bytes": 253370,
+        "changelog_html": "Version 4.0.0 - Complete Ground-Up Rebuild &amp; Engine Fix\n[CRITICAL ENGINE FIXES]\n• Engine-Native PAK Packaging:\n- Replaced the non-functional loose .EXML files with compiled binary .MBINs inside compressed .pak archives.\n- Built with MBINCompiler v7.4.0.1 and HGPAKtool v1.1.3 for 100% vanilla engine compatibility.\n• Full Vortex Mod Manager Support:\n- Formatted player ZIPs with root-level .pak files for seamless 1-click Vortex install, enable, and clean removal.\n• Ground-Truth Table Integrity:\n- Decompiled directly from the live game's Precache archive; all 1,481 non-Corvette building objects remain 100% untouched.\n[NEW FEATURES &amp; IMPROVEMENTS]\n• 5x Wider Snap Acquisition:\n- Implemented the missing snap acquisition tuning (SnappingDistanceOverride) across all 643 Corvette parts.\n- Expanded snap detection threshold from vanilla's restrictive 0.10m to 0.50m (matching general base building attach distance).\n- Joining 1x1, 1x2, and 2x2 habs, wings, and hull modules is now instant and responsive—no more cursor wiggling.\n• Full 3D Exterior Rotation Freedom:\n- Enabled CanRotate3D on 602 exterior parts: 480 hull panels, 44 wings, 25 connectors, 22 exterior decorations, and 31 exterior systems (thrusters, turrets, generators, gear, shields, etc.).\n- Pitch, roll, yaw, and tilt hull pieces freely in free-placement mode.\n• Interior Integrity &amp; Room Seals Protected:\n- Habs, cockpits, landing bays, airlocks, and interior doors retain vanilla orientation locks to ensure pressurized room seals, ladders, and doorway walkability never break.\n• Optional \"Unlocked\" Flavor:\n- Added an optional package for experimental builders who want full 3D rotation unlocked on all 643 parts including interior habs and walls.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4547/96/ea/59/96ea59d1-d4fb-4360-acb9-7b38c6d77563.json"
       }
     ],
     "changelogs": {
       "2": [
         "Rebuilt from current local game data: 602 exterior parts now get 3D rotation, including all 44 wings.",
         "Interior rooms, doors, cockpits, and stairs remain protected."
+      ],
+      "4": [
+        "Version 4.0.0 - Complete Ground-Up Rebuild &amp; Engine Fix",
+        "[CRITICAL ENGINE FIXES]",
+        "• Engine-Native PAK Packaging:",
+        "- Replaced the non-functional loose .EXML files with compiled binary .MBINs inside compressed .pak archives.",
+        "- Built with MBINCompiler v7.4.0.1 and HGPAKtool v1.1.3 for 100% vanilla engine compatibility.",
+        "• Full Vortex Mod Manager Support:",
+        "- Formatted player ZIPs with root-level .pak files for seamless 1-click Vortex install, enable, and clean removal.",
+        "• Ground-Truth Table Integrity:",
+        "- Decompiled directly from the live game's Precache archive; all 1,481 non-Corvette building objects remain 100% untouched.",
+        "[NEW FEATURES &amp; IMPROVEMENTS]",
+        "• 5x Wider Snap Acquisition:",
+        "- Implemented the missing snap acquisition tuning (SnappingDistanceOverride) across all 643 Corvette parts.",
+        "- Expanded snap detection threshold from vanilla's restrictive 0.10m to 0.50m (matching general base building attach distance).",
+        "- Joining 1x1, 1x2, and 2x2 habs, wings, and hull modules is now instant and responsive—no more cursor wiggling.",
+        "• Full 3D Exterior Rotation Freedom:",
+        "- Enabled CanRotate3D on 602 exterior parts: 480 hull panels, 44 wings, 25 connectors, 22 exterior decorations, and 31 exterior systems (thrusters, turrets, generators, gear, shields, etc.).",
+        "- Pitch, roll, yaw, and tilt hull pieces freely in free-placement mode.",
+        "• Interior Integrity &amp; Room Seals Protected:",
+        "- Habs, cockpits, landing bays, airlocks, and interior doors retain vanilla orientation locks to ensure pressurized room seals, ladders, and doorway walkability never break.",
+        "• Optional \"Unlocked\" Flavor:",
+        "- Added an optional package for experimental builders who want full 3D rotation unlocked on all 643 parts including interior habs and walls."
       ]
     }
   },
@@ -682526,9 +682674,9 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4566/4566-1790328542-350672459.png",
     "author": "razpdr",
-    "updated_timestamp": 1790328662,
+    "updated_timestamp": 1792230152,
     "created_timestamp": 1790328662,
-    "description": "[center][size=6][b]Settlement Command Center[/b][/size]\n<br />Settlement management that rewards progress instead of making you wait for it.[/center]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Overview[/b][/size]\n<br />Settlement Command Center is a focused quality-of-life overhaul for three recurring pain points: inverse productivity, long construction delays, and sparse judgement events. Both presets fix the production penalty, improve output, and make visitor and dispute decisions arrive sooner.\n<br />\n<br />[line]\n<br />[size=5][b]Production &amp; Bug Fix[/b][/size]\n<br />Vanilla's population, happiness, and production timer weights are reduced to a nonzero minimum. Improving those settlement stats no longer meaningfully slows production cycles.\n<br />\n<br />Both presets also change production from a 10-hour cycle to a 6-hour cycle, with doubled product and substance output per cycle. This is a deliberate economy boost, not a claim that every item or settlement output behaves identically.\n<br />\n<br />[line]\n<br />[size=5][b]Visitors, Disputes &amp; Decisions[/b][/size]\n<br />Both presets increase the selection weights for stranger visits and conflicts. The judgement timer is also much tighter, so settlements are less likely to feel idle between decisions.\n<br />\n<br />[b]Balanced:[/b] judgement events arrive after 5 to 30 minutes.\n<br />[b]Instant and Free:[/b] judgement events arrive after 1 to 5 minutes.\n<br />\n<br />[line]\n<br />[size=5][b]Choose Your Preset[/b][/size]\n<br />[b]Balanced (recommended)[/b]\n<br />Construction timers are substantially reduced and normal material costs remain. Use this for a faster settlement loop without removing build requirements.\n<br />\n<br />[b]Instant and Free[/b]\n<br />Settlement construction timers are set to zero. Construction product and substance lists are cleared, and material amounts are set to zero.\n<br />\n<br />[b]Install one preset only.[/b] Both downloads edit GCSETTLEMENTGLOBALS.MBIN and must not be combined.\n<br />\n<br />[line]\n<br />[size=5][b]Installation[/b][/size]\n<br />1. Download and open the ZIP for one preset from the Main Files section.\n<br />2. Extract its [b]METADATA[/b] folder into your No Man's Sky GAMEDATA&#92;MODS folder.\n<br />3. If GAMEDATA&#92;PCBANKS&#92;DISABLEMODS.TXT exists, delete it or rename it.\n<br />4. Launch the game.\n<br />\n<br />[line]\n<br />[size=5][b]Compatibility &amp; Technical Info[/b][/size]\n<br />This mod uses the current player-MBIN layout. Any other mod that edits GCSETTLEMENTGLOBALS.MBIN needs a compatible merge; do not install both files unchanged.\n<br />\n<br />Built against the locally installed No Man's Sky settlement globals. Data and package validation passed. \n<br />\n<br />This fixes the data-level inverse productivity issue. It does not repair a save already stuck on a stored judgement timer or broken quest state.\n<br />\n<br />[line]\n<br />[size=5][b]Credits[/b][/size]\n<br />MBINCompiler 7.04.0.1: conversion and validation.\n<br />Hello Games: No Man's Sky and the local vanilla data source.\n<br />OpenAI: image generation\n<br />",
+    "description": "[center][size=6][b][color=#e5a823]SETTLEMENT COMMAND CENTER[/color][/b][/size]\n<br />[b][color=#f39c12]Dynamic Judgements, Faster Construction &amp; 2x Production Economy[/color][/b]\n<br />[size=2][i][color=#bdc3c7]Frequent Decisions • Reduced Wait Times • Fixed Inverse Production • Balanced &amp; Instant Presets[/color][/i][/size]\n<br />\n<br />[b][color=#2ecc71]✓ Cosmos / Latest Update Ready[/color]  [color=#7f8c8d]|[/color]  [color=#3498db]✓ Clean PAK Mod[/color]  [color=#7f8c8d]|[/color]  [color=#9b59b6]✓ Vortex Compatible[/color][/b][/center]\n<br />\n<br />[line]\n<br />\n<br />[center][b][size=4][color=#e5a823]✦  WHAT THIS MOD DOES  ✦[/color][/size][/b][/center]\n<br />\n<br />Take real command of your planetary settlement! [b][color=#e5a823]Settlement Command Center[/color][/b] removes the agonizing downtime and solves the three biggest frustrations with settlement management in No Man's Sky:\n<br />\n<br />No more waiting hours between visitor decisions, no more grueling multi-hour construction phases, and no more [b][color=#f1c40f]bugged inverse productivity penalties[/color][/b] where growing your population accidentally slows down your production timers!\n<br />\n<br />Enjoy rapid decision-making events, doubled resource yields on shorter 6-hour cycles, and drastically streamlined building timers—available in a [b][color=#2ecc71]Balanced[/color][/b] flavor for natural progression or an [b][color=#e74c3c]Instant &amp; Free[/color][/b] flavor for effortless creative expansion.\n<br />\n<br />[line]\n<br />\n<br />[center][b][size=4][color=#e5a823]✦  FEATURES AT A GLANCE  ✦[/color][/size][/b][/center]\n<br />\n<br />[list]\n<br />[*][b][color=#3498db]Fixed Inverse Productivity Bug:[/color][/b] In vanilla NMS, higher population and happiness stat weights unintentionally penalize production cycle rates. This mod minimizes those timer weights to a clean floor, ensuring growing your settlement always speeds up and rewards your economy.[/*]\n<br />[*][b][color=#f1c40f]Doubled Production &amp; 6-Hour Cycles:[/color][/b] Replaces the sluggish 10-hour cycle with a brisk 6-hour cycle (with slot offset reduced to 3 hours) and doubles product/substance yield modifiers (10x product / 1,000x substance) so logging in always rewards you with substantial hauls.[/*]\n<br />[*][b][color=#2ecc71]Frequent Judgements &amp; Visitor Events:[/color][/b] Decision wait times are massively reduced. Stranger visit weights are boosted from 0.35 to 0.80 and conflict resolution weights from 0.20 to 0.60, keeping your Overseer terminal constantly active.[/*]\n<br />[*][b][color=#e74c3c]Streamlined Construction Timers:[/color][/b] Slashes multi-hour construction stages across all settlement building types (Landing Pads, Markets, Bars, Towers, Factories, Farms, and Small/Medium/Large dwellings) down to quick 10-30 minute phases.[/*]\n<br />[*][b][color=#9b59b6]Engine-Native PAK Packaging:[/color][/b] Replaces previous non-functional loose files with clean, native HGPAK archives correctly placed at the engine root for 100% reliable loading.[/*]\n<br />[*][b][color=#e67e22]Two Tailored Flavors:[/color][/b] Choose between [b]Balanced[/b] (reduced timers with normal material costs) or [b]Instant and Free[/b] (zero timers and zero material costs).[/*]\n<br />[*][b][color=#e5a823]Safe &amp; Reversible:[/color][/b] Pure globals modification that leaves zero permanent script edits in your save file. Safe to install or remove anytime.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][b][size=4][color=#e5a823]✦  PRESET COMPARISON  ✦[/color][/size][/b][/center]\n<br />\n<br />\n<br />[table][tr][th]Feature[/th]\n<br />[th]Vanilla[/th]\n<br />[th]Balanced (Recommended)[/th]\n<br />[th]Instant and Free[/th]\n<br />[/tr]\n<br />[tr][td]Judgement Wait Time[/td]\n<br />[td]15m – 120m[/td]\n<br />[td][b]5m – 30m[/b][/td]\n<br />[td][b]1m – 5m[/b][/td]\n<br />[/tr]\n<br />[tr][td]Production Cycle[/td]\n<br />[td]10 Hours[/td]\n<br />[td][b]6 Hours[/b][/td]\n<br />[td][b]6 Hours[/b][/td]\n<br />[/tr]\n<br />[tr][td]Output Per Cycle[/td]\n<br />[td]1x Standard[/td]\n<br />[td][b]2x Doubled[/b][/td]\n<br />[td][b]2x Doubled[/b][/td]\n<br />[/tr]\n<br />[tr][td]Building Upgrade Time[/td]\n<br />[td]13 Hours[/td]\n<br />[td][b]30 Minutes[/b][/td]\n<br />[td][b]Instant (0s)[/b][/td]\n<br />[/tr]\n<br />[tr][td]Construction Stages[/td]\n<br />[td]20m – 120m[/td]\n<br />[td][b]10m – 30m[/b][/td]\n<br />[td][b]Instant (0s)[/b][/td]\n<br />[/tr]\n<br />[tr][td]Building Material Costs[/td]\n<br />[td]Normal[/td]\n<br />[td]Normal[/td]\n<br />[td][b]Free (0 Items)[/b][/td]\n<br />[/tr]\n<br />[/table]\n<br />[line]\n<br />\n<br />[center][b][size=4][color=#e5a823]✦  INSTALLATION &amp; COMPATIBILITY  ✦[/color][/size][/b][/center]\n<br />\n<br />[list]\n<br />[*][b][color=#2ecc71]Vortex / Mod Manager:[/color][/b] Click [b]Mod Manager Download[/b] on your preferred flavor, install, and enable. Fully structured for 1-click Vortex deployment.[/*]\n<br />[*][b][color=#2ecc71]Manual Installation:[/color][/b] Drop your chosen\n<br />[code].pak[/code]file into:\n<br />[code]No Man's Sky&#92;GAMEDATA&#92;MODS&#92;[/code][i](Install ONLY ONE preset at a time)[/i].[/*]\n<br />[*][b][color=#3498db]Enable Mods:[/color][/b] Ensure mods are enabled by verifying\n<br />[code]DisableAllMods[/code]is set to\n<br />[code]false[/code]in\n<br />[code]Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/code].[/*]\n<br />[*][b][color=#3498db]Compatibility:[/color][/b] Fully compatible with Cosmos 7.04+ and latest updates. Modifies\n<br />[code]GCSETTLEMENTGLOBALS.MBIN[/code].[/*]\n<br />[*][b][color=#9b59b6]Safe &amp; Reversible:[/color][/b] Safe to install or remove anytime without corrupting save progression.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][b][size=4][color=#e5a823]✦  RECOMMENDED COMPANION MODS  ✦[/color][/size][/b][/center]\n<br />\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4469][b][color=#f39c12]Launch Thrusters Reworked[/color][/b][/url] — Rebalances launch costs and landing efficiency for a smoother planetary exploration loop![/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4452][b][color=#3498db]Steady Horizon[/color][/b][/url] — Stabilizes the flight horizon camera to prevent dizzying screen roll during low-altitude cruising![/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4466][b][color=#2ecc71]Deep Space Haul[/color][/b][/url] — Expands space encounter loot and salvage rewards so space travel is always lucrative![/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][url=https://ko-fi.com/razpdr][img]https://i.imgur.com/Q3HK8Yt.jpeg[/img][/url]\n<br />[size=2][i][color=#f39c12]If you enjoy my mods and want to support my late-night modding sessions, feel free to buy this fire mage a brew! ☕[/color][/i][/size][/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -682541,9 +682689,9 @@
         "file_id": 49109,
         "name": "Settlement Command Center Balanced",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 9,
         "file_name": "Settlement Command Center Balanced 4566 1 2026-09-25T09-30Z pQZbnWO2F.zip",
         "detected_file_extension": "zip",
@@ -682555,7 +682703,7 @@
         "size_kb": 9,
         "size_in_bytes": 10094,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4566/af/08/33/af0833d9-5199-4c92-a819-1e3ddc2b1e5b.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4566/af/08/33/af0833d9-5199-4c92-a819-1e3ddc2b1e5b.json"
       },
       {
         "id": [
@@ -682566,8 +682714,8 @@
         "file_id": 49110,
         "name": "Settlement Command Center Instant And Free",
         "version": "1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 8,
         "file_name": "Settlement Command Center Instant And Free 4566 1 2026-09-25T09-30Z s60W14Cw5.zip",
@@ -682580,10 +682728,140 @@
         "size_kb": 8,
         "size_in_bytes": 9080,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4566/1f/63/45/1f634532-ec33-49ff-bc5c-6c72d641a8b4.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4566/1f/63/45/1f634532-ec33-49ff-bc5c-6c72d641a8b4.json"
+      },
+      {
+        "id": [
+          49911,
+          1634
+        ],
+        "uid": 7017976611575,
+        "file_id": 49911,
+        "name": "Settlement Command Center Balanced",
+        "version": "2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 16,
+        "file_name": "Settlement Command Center Balanced 4566 2 2026-10-17T09-07Z DcGFLK6N2.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792228067,
+        "uploaded_time": "2026-10-17T09:07:47.000+00:00",
+        "mod_version": "2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5d7b1179804c915cda2c1092cde521343c33b3f10ab5d66df3349b8935bdd847",
+        "description": "Fixes the inverse productivity penalty, shifts production to 6-hour cycles with doubled output, gives visitor/dispute events more weight, and shortens build times while keeping material costs.<br />",
+        "size_kb": 16,
+        "size_in_bytes": 17316,
+        "changelog_html": "Version 2.0.0 — Ground-Up Engine Fix &amp; True PAK Packaging\n--------------------------------------------------------------------------------\n[CRITICAL ENGINE &amp; LOADING FIXES]\n• Fixed Engine Archive Path:\n- Fixed the primary reason the mod never worked: previous releases placed the\nfile inside 'METADATA/REALITY/TABLES/GCSETTLEMENTGLOBALS.MBIN'. In No Man's Sky,\nthe game engine specifically searches for '/gcsettlementglobals.mbin' at the\nroot of the globals archive. The path has been corrected.\n• Native Compressed HGPAK (.pak) Packaging:\n- Replaced the non-functional loose METADATA folder distribution with authentic,\nengine-native compressed .pak archives created via monkeyman192's HGPAKtool.\n• 100% Vortex Mod Manager Compatible:\n- Player ZIPs now feature root-level .pak archives for seamless 1-click install,\ndeployment, and clean removal via Vortex or Mod Organizer.\n[BALANCED PRESET ENHANCEMENTS]\n• Judgements arrive in 5 to 30 minutes (vanilla: 15 to 120 minutes).\n• Production cycle shortened to 6 hours with 2x doubled output.\n• Fixed the data-level inverse productivity bug (timer contribution weights floored).\n• Slashed construction stages across all building types from 1-2 hours down to 10-30 mins.\n• Building upgrade timer reduced from 13 hours to 30 minutes.\n• Normal material costs preserved for legitimate progression.\n[INSTANT &amp; FREE PRESET ENHANCEMENTS]\n• Judgements arrive in 1 to 5 minutes for non-stop Overseer gameplay.\n• All building construction timers set to instant (0 seconds).\n• All building upgrade timers set to instant (0 seconds).\n• All building material costs and item lists cleared to 0 (free construction).\n• Same 6-hour doubled production and fixed inverse productivity.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4566/2f/4e/66/2f4e6662-dea0-4065-873b-17f47a237754.json"
+      },
+      {
+        "id": [
+          49912,
+          1634
+        ],
+        "uid": 7017976611576,
+        "file_id": 49912,
+        "name": "Settlement Command Center Instant And Free",
+        "version": "2",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 14,
+        "file_name": "Settlement Command Center Instant And Free 4566 2 2026-10-17T09-08Z mijBfGAoN.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792228084,
+        "uploaded_time": "2026-10-17T09:08:04.000+00:00",
+        "mod_version": "2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c46455f1810944f0fc116efeb2ce58bbc0aeabdd928a30defc58da7f52b02dce",
+        "description": "Includes the shared production and event improvements, plus immediate settlement construction with construction materials removed.<br />",
+        "size_kb": 14,
+        "size_in_bytes": 15359,
+        "changelog_html": "Version 2.0.0 — Ground-Up Engine Fix &amp; True PAK Packaging\n--------------------------------------------------------------------------------\n[CRITICAL ENGINE &amp; LOADING FIXES]\n• Fixed Engine Archive Path:\n- Fixed the primary reason the mod never worked: previous releases placed the\nfile inside 'METADATA/REALITY/TABLES/GCSETTLEMENTGLOBALS.MBIN'. In No Man's Sky,\nthe game engine specifically searches for '/gcsettlementglobals.mbin' at the\nroot of the globals archive. The path has been corrected.\n• Native Compressed HGPAK (.pak) Packaging:\n- Replaced the non-functional loose METADATA folder distribution with authentic,\nengine-native compressed .pak archives created via monkeyman192's HGPAKtool.\n• 100% Vortex Mod Manager Compatible:\n- Player ZIPs now feature root-level .pak archives for seamless 1-click install,\ndeployment, and clean removal via Vortex or Mod Organizer.\n[BALANCED PRESET ENHANCEMENTS]\n• Judgements arrive in 5 to 30 minutes (vanilla: 15 to 120 minutes).\n• Production cycle shortened to 6 hours with 2x doubled output.\n• Fixed the data-level inverse productivity bug (timer contribution weights floored).\n• Slashed construction stages across all building types from 1-2 hours down to 10-30 mins.\n• Building upgrade timer reduced from 13 hours to 30 minutes.\n• Normal material costs preserved for legitimate progression.\n[INSTANT &amp; FREE PRESET ENHANCEMENTS]\n• Judgements arrive in 1 to 5 minutes for non-stop Overseer gameplay.\n• All building construction timers set to instant (0 seconds).\n• All building upgrade timers set to instant (0 seconds).\n• All building material costs and item lists cleared to 0 (free construction).\n• Same 6-hour doubled production and fixed inverse productivity.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4566/3c/79/2f/3c792fbf-d6dc-45af-ab70-c77afb28f0bb.json"
+      },
+      {
+        "id": [
+          49913,
+          1634
+        ],
+        "uid": 7017976611577,
+        "file_id": 49913,
+        "name": "Settlement Command Center Balanced",
+        "version": "3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 32,
+        "file_name": "Settlement Command Center Balanced 4566 3 2026-10-17T09-42Z 58qnW1yAg.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792230141,
+        "uploaded_time": "2026-10-17T09:42:21.000+00:00",
+        "mod_version": "3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3c3c81578722f44dd2139888046a52815086a7a2ead8c777a72b958bff06c226",
+        "description": "Fixes the inverse productivity penalty, shifts production to 6-hour cycles with doubled output, gives visitor/dispute events more weight, and shortens build times while keeping material costs.<br />",
+        "size_kb": 32,
+        "size_in_bytes": 33475,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4566/01/43/79/014379e1-c395-49e1-9aec-10e22cbf89b4.json"
+      },
+      {
+        "id": [
+          49914,
+          1634
+        ],
+        "uid": 7017976611578,
+        "file_id": 49914,
+        "name": "Settlement Command Center Instant And Free",
+        "version": "3",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 30,
+        "file_name": "Settlement Command Center Instant And Free 4566 3 2026-10-17T09-42Z MWrySmzqd.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792230152,
+        "uploaded_time": "2026-10-17T09:42:32.000+00:00",
+        "mod_version": "3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1acd905d9689c7262a0a8cbcececcc099666ccce37ab3ebf31d72d3de5d9fd2f",
+        "description": "Includes the shared production and event improvements, plus immediate settlement construction with construction materials removed.<br />",
+        "size_kb": 30,
+        "size_in_bytes": 31654,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4566/76/f9/c9/76f9c962-fa97-4f70-a943-21efd39d7853.json"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "2": [
+        "Version 2.0.0 — Ground-Up Engine Fix &amp; True PAK Packaging",
+        "--------------------------------------------------------------------------------",
+        "[CRITICAL ENGINE &amp; LOADING FIXES]",
+        "• Fixed Engine Archive Path:",
+        "- Fixed the primary reason the mod never worked: previous releases placed the",
+        "file inside 'METADATA/REALITY/TABLES/GCSETTLEMENTGLOBALS.MBIN'. In No Man's Sky,",
+        "the game engine specifically searches for '/gcsettlementglobals.mbin' at the",
+        "root of the globals archive. The path has been corrected.",
+        "• Native Compressed HGPAK (.pak) Packaging:",
+        "- Replaced the non-functional loose METADATA folder distribution with authentic,",
+        "engine-native compressed .pak archives created via monkeyman192's HGPAKtool.",
+        "• 100% Vortex Mod Manager Compatible:",
+        "- Player ZIPs now feature root-level .pak archives for seamless 1-click install,",
+        "deployment, and clean removal via Vortex or Mod Organizer.",
+        "[BALANCED PRESET ENHANCEMENTS]",
+        "• Judgements arrive in 5 to 30 minutes (vanilla: 15 to 120 minutes).",
+        "• Production cycle shortened to 6 hours with 2x doubled output.",
+        "• Fixed the data-level inverse productivity bug (timer contribution weights floored).",
+        "• Slashed construction stages across all building types from 1-2 hours down to 10-30 mins.",
+        "• Building upgrade timer reduced from 13 hours to 30 minutes.",
+        "• Normal material costs preserved for legitimate progression.",
+        "[INSTANT &amp; FREE PRESET ENHANCEMENTS]",
+        "• Judgements arrive in 1 to 5 minutes for non-stop Overseer gameplay.",
+        "• All building construction timers set to instant (0 seconds).",
+        "• All building upgrade timers set to instant (0 seconds).",
+        "• All building material costs and item lists cleared to 0 (free construction).",
+        "• Same 6-hour doubled production and fixed inverse productivity."
+      ]
+    }
   },
   {
     "mod_id": 4567,
@@ -683145,13 +683423,13 @@
   {
     "mod_id": 4575,
     "name": "NMScribe",
-    "summary": "Create editable No Man’s Sky text and SVG icons from native Flat Panels or Storage Panel backs in Blender. Five lettering styles, SVG recovery and rebuilding, colour matching, Follow Curve and native JSON export. Requires Base Builder; Charon Forge is optional.",
-    "version": "2.2.15",
+    "summary": "Create editable No Man’s Sky text and SVG icons from native panels in Blender. NMScribe 2.2.16 works without the Detailed Proxy pack. Compatible with BBE 18.1.79 or stock Base Builder 6.5.2 plus Charon Forge (BBE and Charon cannot run together).",
+    "version": "2.2.16",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4575/4575-1790552758-1920361099.png",
     "author": "FuriousFurby",
-    "updated_timestamp": 1791736441,
+    "updated_timestamp": 1792227559,
     "created_timestamp": 1790552989,
-    "description": "[size=4][b]NMScribe 2.2.15 — Smarter SVG Fitting and Fewer Panels[/b][/size]\n<br />\n<br />Create editable No Man’s Sky lettering and SVG icons with native Flat Panels or Storage Panel backs.\n<br />\n<br />[size=4][b]New in 2.2.15[/b][/size]\n<br />[list]\n<br />[*]Accuracy now simplifies connected SVG contours consistently, making straighter bands and simpler outside facets that fit larger native panels.[/*]\n<br />[*]Straight stems and rectangular openings retain their orientation. Hole and island checks keep simplification within safe limits; 100% accuracy keeps the original contours.[/*]\n<br />[*]Panel placement checks and repairs visible seams and interior gaps. Fit Details separately reports contour changes and fitted-silhouette coverage.[/*]\n<br />[*]On the supplied Heart Pirates SVG, 60% accuracy uses 147 panels versus 187 at 100% (40 fewer), with 99.8% sampled coverage of the fitted silhouette. Lower accuracy intentionally changes some outer angles.[/*]\n<br />[*]Background preview updates remain responsive while moving the sliders.[/*]\n<br />[/list]\n<br />[size=4][b]SVG recovery added in 2.2.12[/b][/size]\n<br />[list]\n<br />[*]More robust SVG reading, with efficient rounded stroke joins for traced artwork.[/*]\n<br />[*]Recoverable import failures can rebuild the visible outlines and cutouts, then offer Simplify &amp; Import for approval.[/*]\n<br />[*]Rebuild SVG can strengthen thin features while preserving your original file. Thin-outline panel fitting is also improved.[/*]\n<br />[*]Import failures show useful details and keep your previously loaded icon.[/*]\n<br />[/list]\n<br />[size=4][b]Colour matching and Follow Curve[/b][/size]\n<br />[list]\n<br />[*]Optional SVG colour matching: match solid fills and strokes to the nearest NMS palette colours, then customize individual choices in the Colours popout. Match colours is off by default; station palettes are optional.[/*]\n<br />[*]Follow Curve: select already-generated text/icon panels or their control together with one Blender curve, then click Follow Curve. Either object can be active.[/*]\n<br />[*]Curve Options: fit to length, reverse, facing, Restore Flat Layout, and Around curve angle for circles and other closed curves. Set an angle and click Follow Curve: 90 degrees moves a quarter-turn, negative values move the other way, and 0 resets the start.[/*]\n<br />[*]Animated preview progress with stages and elapsed time. Larger highlighted Generate buttons.[/*]\n<br />[*]Improved straight edges, faceted curves, seam repair, and overlapping backing/colour inlays where useful.[/*]\n<br />[*]Fixed false stretched-text errors and starting orientation on Bezier circles.[/*]\n<br />[/list]\n<br />[size=4][b]Text generation[/b][/size]\n<br />Five custom lettering styles with A–Z, numbers and supported symbols. Live style switching, right-click editing, size and spacing controls, and multiline signs.\n<br />\n<br />[size=4][b]Icon / Sticker generation[/b][/size]\n<br />Import SVG artwork, preview the result, and balance detail against the part limit. Generate, re-edit and export native panels. Colour matching is approximate: materials and lighting affect the final appearance. Complex SVGs may need simplification or more parts.\n<br />\n<br />[size=4][b]Requirements and compatibility[/b][/size]\n<br />Requires the Base Builder Blender plugin by DjMonkey. Charon Forge is optional. Version 2.2.15 was tested on Windows with Blender 5.1.2 using the supplied Heart Pirates artwork, a clean installer, native Storage Panel generation and JSON export. The 2.2.12 recovery checks also covered both supplied SVGs. Previous 2.2.8 compatibility checks covered Blender 5.1.2 / combined Base Builder 18.0.9 and Blender 5.2.2 LTS / stock Base Builder 6.5.2, with Forge disabled and enabled. NMScribe does not modify either dependency. These Blender tests do not certify console or multiplayer behaviour.\n<br />\n<br />[size=4][b]Install or update[/b][/size]\n<br />Download NMS_Text_Generator_2.2.15.zip. In Blender use Edit &gt; Preferences &gt; Add-ons &gt; Install from Disk and select the ZIP without extracting it. Save your work and restart Blender after updating. Press N over the viewport and open NMS Text.\n<br />\n<br />Existing creations are not rebuilt automatically. Keep a copy before regenerating manually edited artwork. Keep your .blend as the editable master; JSON exports contain native parts. The full offline NMScribe_Instructions.html guide is included in the installer.\n<br />\n<br />[url=https://github.com/slipperystickers/nms-text-generator/releases/tag/v2.2.15]GitHub release, full instructions and checksums[/url]\n<br />\n<br />By FuriousFurby, shared through Corvette Class Builders (CCB). [url=https://discord.gg/arbW3DvM5y]CCB / Traveller Toolkit[/url]",
+    "description": "[size=4][b]NMScribe 2.2.16 — Native Panel Compatibility[/b][/size]\n<br />\n<br />Create editable No Man’s Sky lettering and SVG icons with native Flat Panels or Storage Panel backs.\n<br />\n<br />[size=4][b]New in 2.2.16[/b][/size]\n<br />[list]\n<br />[*]Storage Panel generation now resolves the native part by its part ID, including setups without the Detailed Proxy pack.[/*]\n<br />[*]Tested with Blender 5.2.2 LTS and stock Base Builder 6.5.2, with Charon Forge 0.1.2 both enabled and disabled.[/*]\n<br />[*]Also tested with BBE 18.1.79 in Blender 5.1.2 and 5.2.2 LTS. BBE and Charon Forge cannot run together; NMScribe works with either supported Base Builder setup.[/*]\n<br />[/list]\n<br />[size=4][b]SVG fitting added in 2.2.15[/b][/size]\n<br />[list]\n<br />[*]Accuracy now simplifies connected SVG contours consistently, making straighter bands and simpler outside facets that fit larger native panels.[/*]\n<br />[*]Straight stems and rectangular openings retain their orientation. Hole and island checks keep simplification within safe limits; 100% accuracy keeps the original contours.[/*]\n<br />[*]Panel placement checks and repairs visible seams and interior gaps. Fit Details separately reports contour changes and fitted-silhouette coverage.[/*]\n<br />[*]On the supplied Heart Pirates SVG, 60% accuracy uses 147 panels versus 187 at 100% (40 fewer), with 99.8% sampled coverage of the fitted silhouette. Lower accuracy intentionally changes some outer angles.[/*]\n<br />[*]Background preview updates remain responsive while moving the sliders.[/*]\n<br />[/list]\n<br />[size=4][b]SVG recovery added in 2.2.12[/b][/size]\n<br />[list]\n<br />[*]More robust SVG reading, with efficient rounded stroke joins for traced artwork.[/*]\n<br />[*]Recoverable import failures can rebuild the visible outlines and cutouts, then offer Simplify &amp; Import for approval.[/*]\n<br />[*]Rebuild SVG can strengthen thin features while preserving your original file. Thin-outline panel fitting is also improved.[/*]\n<br />[*]Import failures show useful details and keep your previously loaded icon.[/*]\n<br />[/list]\n<br />[size=4][b]Colour matching and Follow Curve[/b][/size]\n<br />[list]\n<br />[*]Optional SVG colour matching: match solid fills and strokes to the nearest NMS palette colours, then customize individual choices in the Colours popout. Match colours is off by default; station palettes are optional.[/*]\n<br />[*]Follow Curve: select already-generated text/icon panels or their control together with one Blender curve, then click Follow Curve. Either object can be active.[/*]\n<br />[*]Curve Options: fit to length, reverse, facing, Restore Flat Layout, and Around curve angle for circles and other closed curves. Set an angle and click Follow Curve: 90 degrees moves a quarter-turn, negative values move the other way, and 0 resets the start.[/*]\n<br />[*]Animated preview progress with stages and elapsed time. Larger highlighted Generate buttons.[/*]\n<br />[*]Improved straight edges, faceted curves, seam repair, and overlapping backing/colour inlays where useful.[/*]\n<br />[*]Fixed false stretched-text errors and starting orientation on Bezier circles.[/*]\n<br />[/list]\n<br />[size=4][b]Text generation[/b][/size]\n<br />Five custom lettering styles with A–Z, numbers and supported symbols. Live style switching, right-click editing, size and spacing controls, and multiline signs.\n<br />\n<br />[size=4][b]Icon / Sticker generation[/b][/size]\n<br />Import SVG artwork, preview the result, and balance detail against the part limit. Generate, re-edit and export native panels. Colour matching is approximate: materials and lighting affect the final appearance. Complex SVGs may need simplification or more parts.\n<br />\n<br />[size=4][b]Requirements and compatibility[/b][/size]\n<br />Requires the Base Builder Blender plugin by DjMonkey. The Detailed Proxy pack is optional for native Storage Panel generation. NMScribe 2.2.16 was tested on Windows with Blender 5.1.2 and 5.2.2 LTS using BBE 18.1.79, and on Blender 5.2.2 LTS using stock Base Builder 6.5.2 with Charon Forge 0.1.2 in both enable orders. Charon Forge and BBE are incompatible with each other; use one Base Builder setup at a time. NMScribe does not modify either dependency. These Blender tests do not certify console or multiplayer behaviour.\n<br />\n<br />[size=4][b]Install or update[/b][/size]\n<br />Download NMS_Text_Generator_2.2.16.zip. In Blender use Edit &gt; Preferences &gt; Add-ons &gt; Install from Disk and select the ZIP without extracting it. Save your work and restart Blender after updating. Press N over the viewport and open NMS Text.\n<br />\n<br />Existing creations are not rebuilt automatically. Keep a copy before regenerating manually edited artwork. Keep your .blend as the editable master; JSON exports contain native parts. The full offline NMScribe_Instructions.html guide is included in the installer.\n<br />\n<br />[url=https://github.com/slipperystickers/nms-text-generator/releases/tag/v2.2.16]GitHub release, full instructions and checksums[/url]\n<br />\n<br />By FuriousFurby, shared through Corvette Class Builders (CCB). [url=https://discord.gg/arbW3DvM5y]CCB / Traveller Toolkit[/url]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -683239,9 +683517,9 @@
         "file_id": 49771,
         "name": "NMScribe 2.2.15",
         "version": "2.2.15",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 3174,
         "file_name": "NMScribe 2.2.15 4575 2.2.15 2026-10-11T16-34Z xDwj9UAvd.zip",
         "detected_file_extension": "zip",
@@ -683254,6 +683532,31 @@
         "size_in_bytes": 3250466,
         "changelog_html": "Accuracy now simplifies connected SVG contours consistently, allowing larger native panels while preserving protected straight features and holes.\nImproved panel placement checks for visible seams and missing interior coverage.\nOn the supplied Heart Pirates SVG, 60% accuracy uses 147 panels versus 187 at 100%, with 99.8% sampled coverage of the fitted silhouette.\nFit Details now separates contour changes and fitted coverage; responsive background previews remain in place.",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4575/3a/22/40/3a2240ea-928a-4824-a365-e148738aaf39.json"
+      },
+      {
+        "id": [
+          49910,
+          1634
+        ],
+        "uid": 7017976611574,
+        "file_id": 49910,
+        "name": "NMScribe 2.2.16",
+        "version": "2.2.16",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 3175,
+        "file_name": "NMScribe 2.2.16 4575 2.2.16 2026-10-17T08-59Z 31ISml207.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792227559,
+        "uploaded_time": "2026-10-17T08:59:19.000+00:00",
+        "mod_version": "2.2.16",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fea5201ba7cbe16111d454801b1358381b6ad0bc750f21ac934d80b3bed66cd6",
+        "description": "Install this ZIP in Blender via Edit &gt; Preferences &gt; Add-ons &gt; Install from Disk; restart after updating. Detailed Proxy pack optional. Use either BBE 18.1.79 or stock Base Builder 6.5.2 with Charon Forge. BBE and Charon cannot run together.",
+        "size_kb": 3175,
+        "size_in_bytes": 3251641,
+        "changelog_html": "Fix false missing native panel error when the optional Detailed Proxy pack is absent.\nUse Base Builder’s native Storage Panel and Flat Panel proxy fallback.\nWait for BBE’s Charon Forge compatibility choice before generating parts.\nVerified on Blender 5.1.2 and 5.2.2; stock Base Builder 6.5.2 with Charon Forge 0.1.2 remains supported.\nIn-development decals are not included.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4575/c1/af/79/c1af792f-7829-4482-a845-dce5138dbce8.json"
       }
     ],
     "changelogs": {
@@ -683277,6 +683580,13 @@
         "Improved panel placement checks for visible seams and missing interior coverage.",
         "On the supplied Heart Pirates SVG, 60% accuracy uses 147 panels versus 187 at 100%, with 99.8% sampled coverage of the fitted silhouette.",
         "Fit Details now separates contour changes and fitted coverage; responsive background previews remain in place."
+      ],
+      "2.2.16": [
+        "Fix false missing native panel error when the optional Detailed Proxy pack is absent.",
+        "Use Base Builder’s native Storage Panel and Flat Panel proxy fallback.",
+        "Wait for BBE’s Charon Forge compatibility choice before generating parts.",
+        "Verified on Blender 5.1.2 and 5.2.2; stock Base Builder 6.5.2 with Charon Forge 0.1.2 remains supported.",
+        "In-development decals are not included."
       ]
     }
   },
