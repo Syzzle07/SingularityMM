@@ -382026,7 +382026,7 @@
     "author": "Xen0nex",
     "updated_timestamp": 1792260458,
     "created_timestamp": 1650042934,
-    "description": "[center][size=5][b]Goals of This Mod[/b][/size][/center]\n<br />\n<br />Certain Airless Planets (Especially the Frozen Airless subtype) have both [b]hazardous [/b]&amp; [b]decorative plants[/b] all over the surface, which tends to break the isolated, sterile, &amp; still \"Moon\" vibe I like about Airless Planets.\n<br />\n<br />This mod prevents those plants from appearing, including in the \"[b]Mountainous[/b]\" sub-regions of the Airless Planets (e.g. the dark, rocky patches at the top of mountains, some hills, etc.). Luckily those are easier to avoid going near, and the plants in them tend to blend in with the terrain better.\n<br />[b]Oxygen-rich plants[/b], or plants [b]underground in caves[/b] on Airless planets are unaffected by this mod.\n<br />\n<br />\n<br />[center][b][size=5]Side Effects[/size][/b][/center]\n<br />\n<br />This mod will also remove these decorative plants from some \"Mountainous\" sub-regions on some non-Airless planets. \n<br />\n<br />If you prefer not to alter anything except Airless planets, there is an optional version which leaves the decorative plants in all  \"Mountainous\" sub-regions (which means the \"Mountainous\" sub-regions on Airless planets will sometimes still have some decorative plants).\n<br />\n<br />[center][b][size=5]Installa[/size][/b][b][size=5]tion[/size]\n<br />[/b][/center]\n<br />[size=2][url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]\n<br />From the wiki:[/url]﻿[/size]\n<br />[list=1]\n<br />[*]Browse to No Man's Sky&#92;GAMEDATA&#92;MODS.[/*]\n<br />[*]Place mod folder into the MODS folder.[/*]\n<br />[*]Start the game and wait for the splash screen to disappear.[/*]\n<br />[*]If done correctly the game will display a warning just before displaying the selection of saved games.[/*]\n<br />[/list]\n<br />\n<br />[center][b][size=5]Compatibility[/size][/b][/center]\n<br />\n<br />This mod is unlikely to conflict with any other mods, as it is an .EXML mod and affects only a few lines in a few specific .MBIN files:\n<br />[list]\n<br />[*]METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BIOMEFILENAMES.MBIN[/*]\n<br />[*]METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;OBJECTS&#92;ROCK&#92;DEAD.MBIN[/*]\n<br />[*]METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;DEAD&#92;FROZENDEADOBJECTS.MBIN[/*]\n<br />[*]METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;DEAD&#92;FROZENDEADWEIRDOBJECTS.MBIN[/*]\n<br />[*]METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;OBJECTS&#92;ROCK&#92;DEAD.MBIN[/*]\n<br />[/list]\n<br />\n<br />[center][b][size=5]Recommended Mods[/size][/b][/center]\n<br />\n<br />If you're interested in keeping Airless Planets lifeless &amp; interesting, here are some great mods to help:\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3588]No Atmosphere No Dust (and No Fog) II[/url] by degraaaff and Babscoole [/*]\n<br />[/list]  ﻿  ﻿  ﻿  ﻿ Essential mod for Airless Planets: removes unsightly (and unscientific) dust and/or fog from Airless Planets. \n<br />\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/1273]Exosolar's Dead Wreckoning[/url]﻿ by Exosolar &amp; Babscoole[/*]\n<br />[/list]  ﻿  ﻿  ﻿  ﻿  ﻿Adds a variety of useful structures to Airless Planets such as Crashed ships/Freighters, Monoliths, Ruins, etc. while still keeping the planets feeling dead &amp; uninhabited. Helps give more justification &amp; reward for visiting &amp; exploring Airless Planets.\n<br />\n<br />\n<br />[center][/center]\n<br />[center][b][size=5]Special Thanks[/size][/b][/center]\n<br />\n<br />A huge thanks to [url=https://www.nexusmods.com/nomanssky/users/62067056?tab=user+files]Babscoole[/url], [url=https://www.nexusmods.com/nomanssky/users/38106355?tab=user+files]Gumsk[/url], [url=https://www.nexusmods.com/nomanssky/users/1932252?tab=user+files]jackty89[/url], as well as the rest of the modders here and the No Man's Sky Modding discord for all their help and guidance for getting into NMS modding, and maintaining the tools &amp; mods to do so.",
+    "description": "[center][size=5][b]Goals of This Mod[/b][/size][/center]\n<br />\n<br />Certain Airless Planets (Especially the Frozen Airless subtype) have both [b]hazardous [/b]&amp; [b]decorative plants[/b] all over the surface, which tends to break the isolated, sterile, &amp; still \"Moon\" vibe I like about Airless Planets.\n<br />\n<br />This mod prevents those plants from appearing, including in the \"[b]Mountainous[/b]\" sub-regions of the Airless Planets (e.g. the dark, rocky patches at the top of mountains, some hills, etc.). \n<br />\n<br />[b]Oxygen-rich plants[/b], or plants [b]underground in caves[/b] on Airless planets are unaffected by this mod and will remain.\n<br />\n<br />\n<br />[center][b][size=5]Side Effects[/size][/b][/center]\n<br />\n<br />This mod will also remove these decorative plants from some \"Mountainous\" sub-regions on some non-Airless planets. \n<br />\n<br />If you prefer not to alter anything except Airless planets, there is an optional version which leaves the decorative plants in all  \"Mountainous\" sub-regions (which means the \"Mountainous\" sub-regions on Airless planets will sometimes still have some decorative plants).\n<br />\n<br />[center][b][size=5]Installa[/size][/b][b][size=5]tion[/size]\n<br />[/b][/center]\n<br />[size=2][url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]\n<br />From the wiki:[/url]﻿[/size]\n<br />[list=1]\n<br />[*]Browse to No Man's Sky&#92;GAMEDATA&#92;MODS.[/*]\n<br />[*]Place mod folder into the MODS folder.[/*]\n<br />[*]Start the game and wait for the splash screen to disappear.[/*]\n<br />[*]If done correctly the game will display a warning just before displaying the selection of saved games.[/*]\n<br />[/list]\n<br />\n<br />[center][b][size=5]Compatibility[/size][/b][/center]\n<br />\n<br />This mod is unlikely to conflict with any other mods, as it is an .EXML mod and affects only a few lines in a few specific .MBIN files:\n<br />[list]\n<br />[*]METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;BIOMEFILENAMES.MBIN[/*]\n<br />[*]METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;OBJECTS&#92;ROCK&#92;DEAD.MBIN[/*]\n<br />[*]METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;DEAD&#92;FROZENDEADOBJECTS.MBIN[/*]\n<br />[*]METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;DEAD&#92;FROZENDEADWEIRDOBJECTS.MBIN[/*]\n<br />[*]METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;BIOMES&#92;OBJECTS&#92;ROCK&#92;DEAD.MBIN[/*]\n<br />[/list]\n<br />\n<br />[center][b][size=5]Recommended Mods[/size][/b][/center]\n<br />\n<br />If you're interested in keeping Airless Planets lifeless &amp; interesting, here are some great mods to help:\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3588]No Atmosphere No Dust (and No Fog) II[/url] by degraaaff and Babscoole [/*]\n<br />[/list]  ﻿  ﻿  ﻿  ﻿ Essential mod for Airless Planets: removes unsightly (and unscientific) dust and/or fog from Airless Planets. \n<br />\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/1273]Exosolar's Dead Wreckoning[/url]﻿ by Exosolar &amp; Babscoole[/*]\n<br />[/list]  ﻿  ﻿  ﻿  ﻿  ﻿Adds a variety of useful structures to Airless Planets such as Crashed ships/Freighters, Monoliths, Ruins, etc. while still keeping the planets feeling dead &amp; uninhabited. Helps give more justification &amp; reward for visiting &amp; exploring Airless Planets.\n<br />\n<br />\n<br />[center][/center]\n<br />[center][b][size=5]Special Thanks[/size][/b][/center]\n<br />\n<br />A huge thanks to [url=https://www.nexusmods.com/nomanssky/users/62067056?tab=user+files]Babscoole[/url], [url=https://www.nexusmods.com/nomanssky/users/38106355?tab=user+files]Gumsk[/url], [url=https://www.nexusmods.com/nomanssky/users/1932252?tab=user+files]jackty89[/url], as well as the rest of the modders here and the No Man's Sky Modding discord for all their help and guidance for getting into NMS modding, and maintaining the tools &amp; mods to do so.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -659470,7 +659470,7 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4232/4232-1779664417-2082891939.png",
     "author": "MurdockBerk",
-    "updated_timestamp": 1781665347,
+    "updated_timestamp": 1792278057,
     "created_timestamp": 1779664762,
     "description": "[size=4][b]Description[/b][/size]\n<br />[size=3][color=#D4D4D8]Increases Nanite rewards from all PVE Xeno Arena battles by 10x.[/color][/size]\n<br />[size=3][color=#D4D4D8]Increases chance of Retroviral Pellet rewards from PVE battles from EZ fights 3% to 15%, Hard fights 8% to 40%, and Champions from 60% to 90%. Also increases the potential amount of Pellets awarded from 1 flat to 1-3 for EZ/Hard fights and 1-5 for beating Champions.[/color][/size]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#d4d4d8]Extract folder contained in zip archive to your local \"GAMEDATA&#92;MODS&#92;\" folder in the proper directory for your installation platform.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[size=3][color=#D4D4D8]Makes Xeno Arena battles more WORTH your time with more WORTHWHILE rewards for WORTHY challengers![/color][/size]",
     "state": "normal",
@@ -659485,11 +659485,12 @@
         "file_id": 46711,
         "name": "XenoNanitesWorth10x",
         "version": "1",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 2,
         "file_name": "XenoNanitesWorth-4232-1-1779664600.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1779664600,
         "uploaded_time": "2026-05-24T23:16:40.000+00:00",
         "mod_version": "1",
@@ -659509,11 +659510,12 @@
         "file_id": 46773,
         "name": "XenoNanitesWorth5x",
         "version": "1",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 2,
         "file_name": "XenoNanitesWorth5x-4232-1-1780001956.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1780001956,
         "uploaded_time": "2026-05-28T20:59:16.000+00:00",
         "mod_version": "1",
@@ -659533,11 +659535,12 @@
         "file_id": 47274,
         "name": "XenoNanitesWorth100x",
         "version": "1",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 2,
-        "file_name": "XenoNanitesWorth100x.zip",
+        "file_name": "XenoNanitesWorth100x 4232 1 2026-06-13T07-51Z AeW3Tdr1F.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1781337092,
         "uploaded_time": "2026-06-13T07:51:32.000+00:00",
         "mod_version": "1",
@@ -659546,7 +659549,7 @@
         "size_kb": 2,
         "size_in_bytes": 0,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4232/0d/81/9c/0d819c70-992b-4a29-8254-a430d80e8013.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4232/0d/81/9c/0d819c70-992b-4a29-8254-a430d80e8013.json"
       },
       {
         "id": [
@@ -659561,7 +659564,8 @@
         "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 2,
-        "file_name": "XenoNanitesWorth10xExtraPellets.zip",
+        "file_name": "XenoNanitesWorth10xExtraPellets 4232 1 2026-06-16T21-26Z pQZbnWO3s.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1781645215,
         "uploaded_time": "2026-06-16T21:26:55.000+00:00",
         "mod_version": "1",
@@ -659570,7 +659574,7 @@
         "size_kb": 2,
         "size_in_bytes": 0,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4232/48/6e/71/486e714c-f87b-4f59-a0d8-3ef582a0a33d.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4232/48/6e/71/486e714c-f87b-4f59-a0d8-3ef582a0a33d.json"
       },
       {
         "id": [
@@ -659585,7 +659589,8 @@
         "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 2,
-        "file_name": "Garbage.zip",
+        "file_name": "Garbage 4232 2 2026-06-17T02-22Z vlBhwF59c.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1781662963,
         "uploaded_time": "2026-06-17T02:22:43.000+00:00",
         "mod_version": "2",
@@ -659594,7 +659599,7 @@
         "size_kb": 2,
         "size_in_bytes": 0,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4232/29/56/41/295641e9-cf8c-477a-97f1-c372eab3d388.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4232/29/56/41/295641e9-cf8c-477a-97f1-c372eab3d388.json"
       },
       {
         "id": [
@@ -659609,7 +659614,8 @@
         "category_name": "MISCELLANEOUS",
         "is_primary": false,
         "size": 2,
-        "file_name": "XenoNanitesWorth10xMegaPellet.zip",
+        "file_name": "XenoNanitesWorth10xMegaPellet 4232 1 2026-06-17T02-44Z 2B5KARb8U.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1781664291,
         "uploaded_time": "2026-06-17T02:44:51.000+00:00",
         "mod_version": "1",
@@ -659618,7 +659624,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4232/97/db/49/97db49c9-19f7-4c32-a12a-975c450ac228.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4232/97/db/49/97db49c9-19f7-4c32-a12a-975c450ac228.json"
       },
       {
         "id": [
@@ -659633,7 +659639,8 @@
         "category_name": "MISCELLANEOUS",
         "is_primary": false,
         "size": 2,
-        "file_name": "XenoNanitesWorth100xMegaPellet.zip",
+        "file_name": "XenoNanitesWorth100xMegaPellet 4232 1 2026-06-17T02-45Z HZO4aroy1.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1781664317,
         "uploaded_time": "2026-06-17T02:45:17.000+00:00",
         "mod_version": "1",
@@ -659642,7 +659649,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4232/b7/19/f7/b719f7b0-1916-43a1-bfe3-3a7b2056d9f3.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4232/b7/19/f7/b719f7b0-1916-43a1-bfe3-3a7b2056d9f3.json"
       },
       {
         "id": [
@@ -659657,7 +659664,8 @@
         "category_name": "MISCELLANEOUS",
         "is_primary": false,
         "size": 2,
-        "file_name": "XenoNanitesWorth5x.zip",
+        "file_name": "XenoNanitesWorth5x 4232 2 2026-06-17T02-59Z eV714avJ0.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1781665162,
         "uploaded_time": "2026-06-17T02:59:22.000+00:00",
         "mod_version": "2",
@@ -659666,7 +659674,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4232/31/20/1d/31201dc4-75eb-49ff-bdda-3f0c657971ed.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4232/31/20/1d/31201dc4-75eb-49ff-bdda-3f0c657971ed.json"
       },
       {
         "id": [
@@ -659681,7 +659689,8 @@
         "category_name": "MAIN",
         "is_primary": true,
         "size": 2,
-        "file_name": "XenoNanitesWorth10x.zip",
+        "file_name": "XenoNanitesWorth10x 4232 2 2026-06-17T02-59Z s60W14Cd3.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1781665182,
         "uploaded_time": "2026-06-17T02:59:42.000+00:00",
         "mod_version": "2",
@@ -659690,7 +659699,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4232/89/5d/49/895d49c7-2730-4f6e-a950-9578ca38b37c.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4232/89/5d/49/895d49c7-2730-4f6e-a950-9578ca38b37c.json"
       },
       {
         "id": [
@@ -659705,7 +659714,8 @@
         "category_name": "MISCELLANEOUS",
         "is_primary": false,
         "size": 2,
-        "file_name": "XenoNanitesWorth100x.zip",
+        "file_name": "XenoNanitesWorth100x 4232 2 2026-06-17T03-02Z GkVHbn7MH.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1781665346,
         "uploaded_time": "2026-06-17T03:02:26.000+00:00",
         "mod_version": "2",
@@ -659714,7 +659724,57 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4232/a7/ba/4e/a7ba4e63-73c5-43af-abfb-e164c6d94cb2.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4232/a7/ba/4e/a7ba4e63-73c5-43af-abfb-e164c6d94cb2.json"
+      },
+      {
+        "id": [
+          49926,
+          1634
+        ],
+        "uid": 7017976611590,
+        "file_id": 49926,
+        "name": "XenoWorthMegaPellet",
+        "version": "1",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "XenoWorthMegaPellet 4232 1 2026-10-17T22-57Z JrNPcYFtY.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792277823,
+        "uploaded_time": "2026-10-17T22:57:03.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7f03a2290a600b44b86d4a6e1c13f1eb334af72d35e68d009f5bad596e4f8586",
+        "description": "No changes to nanite rewards, lots of retroviral pellets awarded after most wins.",
+        "size_kb": 1,
+        "size_in_bytes": 1769,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4232/ef/ee/bb/efeebb22-164b-4ae3-9866-a259eab884ab.json"
+      },
+      {
+        "id": [
+          49927,
+          1634
+        ],
+        "uid": 7017976611591,
+        "file_id": 49927,
+        "name": "XenoWorthMegaPellet",
+        "version": "2",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "XenoWorthMegaPellet 4232 2 2026-10-17T23-00Z tScz2hUrB.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792278057,
+        "uploaded_time": "2026-10-17T23:00:57.000+00:00",
+        "mod_version": "2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7f03a2290a600b44b86d4a6e1c13f1eb334af72d35e68d009f5bad596e4f8586",
+        "description": "No changes to nanite rewards, lots of retroviral pellets awarded after most wins.",
+        "size_kb": 1,
+        "size_in_bytes": 1769,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4232/ab/16/c9/ab16c988-e28d-446a-b0d2-a86cacfa6bd4.json"
       }
     ],
     "changelogs": {}
