@@ -584655,12 +584655,12 @@
     "mod_id": 3449,
     "name": "Stone Guardian Exomech",
     "summary": "ROCK AND STO... wait wrong game",
-    "version": "6.45",
+    "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3449/3449-1743950487-1968414237.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1782754405,
+    "updated_timestamp": 1792313518,
     "created_timestamp": 1743950957,
-    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod adds the Stone Guardian armor pieces and dedicated technologies for the Minotaur exocraft. In order to acquire these parts, players need to fight the ancient stone automata (the mechs, not the floaters). Upon death these enemies will drop new Memory Stones (similarly to loot barrels dropped by Sentinels). Interacting with these stones will trigger a reward action:\n<br />\n<br />[list]\n<br />[*]a blueprint for 1 of 4 stone mech technology modules: legs, right arm, left arm, chassis\n<br />[*]after all blueprints have been discovered, a Glowing Mineral item (which can be examined for various rock-related goodies)\n<br />[/list]\n<br />The technology modules have been based off existing Sentinel Hardframe modules, but since they are ancient technology their stats and class have been reduced.\n<br />\n<br />[quote][b]DISCLAIMER:[/b]\n<br />\n<br />The execution of the mod is far from perfect, there are some obvious issues that couldn't be addressed properly at this time (ex. mech firing laser / projectiles from invisble top turret instead of its arms).[/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />GCVEHICLEGLOBALS.GLOBAL.MBIN\n<br />\n<br />METADATA&#92;REALITY&#92;TABLES&#92;REWARDTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_REALITY_GCTECHNOLOGYTABLE.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CHARACTERCUSTOMISATIONDESCRIPTORGROUPSDATA.MBIN\n<br />\n<br />MODELS&#92;COMMON&#92;VEHICLES&#92;MECH_SUIT&#92;MECH_SUIT.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;VEHICLES&#92;MECH_SUIT&#92;MECH_SUIT.DESCRIPTOR.MBIN\n<br />MODELS&#92;COMMON&#92;ROBOTS&#92;MECH&#92;ENTITIES&#92;RUINMECH.ENTITY.MBIN\n<br />\n<br />+ a healthy amount of new files added[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️✅ mixed mod (MBIN + EXML files)\n<br />\n<br />This mod will conflict with any other mod affecting the same MBIN game files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
+    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod adds the Stone Guardian armor pieces and dedicated technologies for the Minotaur exocraft. In order to acquire these parts, players need to fight the ancient stone automata (the mechs, not the floaters). Upon death these enemies will drop new Memory Stones (similarly to loot barrels dropped by Sentinels). Interacting with these stones will trigger a reward action:\n<br />\n<br />[list]\n<br />[*]a blueprint for 1 of 4 stone mech technology modules: legs, right arm, left arm, chassis[/*]\n<br />[*]after all blueprints have been discovered, a Glowing Mineral item (which can be examined for various rock-related goodies)[/*]\n<br />[/list]\n<br />The technology modules have been based off existing Sentinel Hardframe modules, but since they are ancient technology their stats and class have been reduced.\n<br />\n<br />[quote][b]DISCLAIMER:[/b]\n<br />\n<br />The execution of the mod is far from perfect, there are some obvious issues that couldn't be addressed properly at this time (ex. mech firing laser / projectiles from invisble top turret instead of its arms).[/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />GCVEHICLEGLOBALS.GLOBAL.MBIN\n<br />\n<br />METADATA&#92;REALITY&#92;TABLES&#92;REWARDTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_REALITY_GCTECHNOLOGYTABLE.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CHARACTERCUSTOMISATIONDESCRIPTORGROUPSDATA.MBIN\n<br />\n<br />MODELS&#92;COMMON&#92;VEHICLES&#92;MECH_SUIT&#92;MECH_SUIT.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;VEHICLES&#92;MECH_SUIT&#92;MECH_SUIT.DESCRIPTOR.MBIN\n<br />MODELS&#92;COMMON&#92;ROBOTS&#92;MECH&#92;ENTITIES&#92;RUINMECH.ENTITY.MBIN\n<br />\n<br />+ a healthy amount of new files added[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️✅ mixed mod (MBIN + EXML files)\n<br />\n<br />This mod will conflict with any other mod affecting the same MBIN game files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -584678,6 +584678,7 @@
         "is_primary": false,
         "size": 220,
         "file_name": "Stone Guardian Exomech - ZIP-3449-5-62-1743950760.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1743950760,
         "uploaded_time": "2025-04-06T14:46:00.000+00:00",
         "mod_version": "5.62",
@@ -584702,6 +584703,7 @@
         "is_primary": false,
         "size": 89,
         "file_name": "Stone Guardian Exomech - ZIP-3449-5-73-1752244907.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1752244907,
         "uploaded_time": "2025-07-11T14:41:47.000+00:00",
         "mod_version": "5.73",
@@ -584726,6 +584728,7 @@
         "is_primary": false,
         "size": 85,
         "file_name": "Stone Guardian Exomech - ZIP-3449-6-20-1770976412.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1770976412,
         "uploaded_time": "2026-02-13T09:53:32.000+00:00",
         "mod_version": "6.20",
@@ -584747,9 +584750,10 @@
         "version": "6.20.1",
         "category_id": 7,
         "category_name": "ARCHIVED",
-        "is_primary": true,
+        "is_primary": false,
         "size": 80,
         "file_name": "Stone Guardian Exomech - ZIP-3449-6-20-1-1771570429.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1771570429,
         "uploaded_time": "2026-02-20T06:53:49.000+00:00",
         "mod_version": "6.20.1",
@@ -584769,20 +584773,46 @@
         "file_id": 47474,
         "name": "Stone Guardian Exomech",
         "version": "6.45",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 86,
-        "file_name": "Stone_Guardian_Exomech_6.45_pQZbnWOTe.zip",
+        "file_name": "Stone Guardian Exomech 3449 6.45 2026-06-29T17-33Z pQZbnWOTe.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1782754405,
         "uploaded_time": "2026-06-29T17:33:25.000+00:00",
         "mod_version": "6.45",
         "external_virus_scan_url": "https://www.virustotal.com/gui/file/5e93b99ca80c1b7e42e21062ec2c16a8db707619a3c4910879f4c156c62f2e33",
         "description": "",
         "size_kb": 86,
-        "size_in_bytes": null,
+        "size_in_bytes": 0,
         "changelog_html": "updated for game version 6.45 (Swarm)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3449/db/5c/52/db5c5268-d412-492f-9687-df7f25c956e1.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3449/db/5c/52/db5c5268-d412-492f-9687-df7f25c956e1.json"
+      },
+      {
+        "id": [
+          49947,
+          1634
+        ],
+        "uid": 7017976611611,
+        "file_id": 49947,
+        "name": "Stone Guardian Exomech",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 110,
+        "file_name": "Stone Guardian Exomech 3449 7.06 2026-10-18T08-51Z UKXVZq4po.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792313518,
+        "uploaded_time": "2026-10-18T08:51:58.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8c06a5114c64033cd1cd90c5fce0b1ab38c3db50712c234ed1f7de6caa8eb851",
+        "description": "",
+        "size_kb": 110,
+        "size_in_bytes": 113079,
+        "changelog_html": "updated for game version 7.06 (Cosmos)",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3449/3f/94/c8/3f94c8e4-9d93-4a55-8434-609ebb1bd25c.json"
       }
     ],
     "changelogs": {
@@ -584801,6 +584831,9 @@
       ],
       "6.45": [
         "updated for game version 6.45 (Swarm)"
+      ],
+      "7.06": [
+        "updated for game version 7.06 (Cosmos)"
       ]
     }
   },
