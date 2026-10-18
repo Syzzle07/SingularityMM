@@ -631055,10 +631055,10 @@
     "mod_id": 3780,
     "name": "gShip Corvette Medbay Bacta Tank",
     "summary": "Allows you to heal at the corvette medbay.",
-    "version": "6.2.0.0a",
+    "version": "7.0.7.0a",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3780/3780-1757749599-2089415882.jpg",
     "author": "Gumsk",
-    "updated_timestamp": 1770886166,
+    "updated_timestamp": 1792298194,
     "created_timestamp": 1757749653,
     "description": "⚠️ Replacement mod - unlikely to work well with other Replacement mods\n<br />\n<br />\n<br />\n<br />[size=4]This mod simply adds a bacta tank function to the medbay on corvettes that heals you. Works on all three hab styles.[/size]\n<br />[list]\n<br />[/list]\n<br />[size=4]My corvette mods:\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3830]gBase Corvette Super Bunk[/url]﻿ - Take a nap (create restore point) or change clothes (use appearance modifier).\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3805]gBase Corvette Landing Zone[/url]﻿ - Build a landing zone at your bases.\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3779]gShip Corvette Supercomputer[/url]﻿ - Use galactic trade terminal, teleporter, and system scan from the corvette mission terminal.\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3780]gShip Corvette Medbay Bacta Tank[/url]﻿ - Heal yourself at the corvette medbay.\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/3781]gShip Corvette Cockpit Interact Fix[/url]﻿ - Move the piloting interaction forward to fix it disappearing if too far into the cockpit.\n<br />[/list][/size]\n<br />\n<br />\n<br />[size=2]Use Vortex or put the entire contents of the zip file in your GAMEDATA&#92;MODS folder, [i]not [/i]PCBANKS, similar to this:\n<br />[img]https://i.ibb.co/ZRHHnjJK/image.png[/img]\n<br />\n<br />You can find information about and links to all my mods, files affected by each of my mods, instructions for installing mods, and instructions for extracting LUA files here:\n<br />[url=https://www.nexusmods.com/nomanssky/mods/1541/]https://www.nexusmods.com/nomanssky/mods/1541/[/url][/size]",
     "state": "normal",
@@ -631078,6 +631078,7 @@
         "is_primary": false,
         "size": 36,
         "file_name": "gShip Corvette Medbay Bacta Tank-3780-6-0-5-0a-1757749650.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1757749650,
         "uploaded_time": "2025-09-13T07:47:30.000+00:00",
         "mod_version": "6.0.5.0a",
@@ -631102,6 +631103,7 @@
         "is_primary": false,
         "size": 36,
         "file_name": "gShip Corvette Medbay Bacta Tank-3780-6-1-8-0a-1768558291.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1768558291,
         "uploaded_time": "2026-01-16T10:11:31.000+00:00",
         "mod_version": "6.1.8.0a",
@@ -631121,11 +631123,12 @@
         "file_id": 45529,
         "name": "gShip Corvette Medbay Bacta Tank",
         "version": "6.2.0.0a",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 16,
         "file_name": "gShip Corvette Medbay Bacta Tank-3780-6-2-0-0a-1770886166.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1770886166,
         "uploaded_time": "2026-02-12T08:49:26.000+00:00",
         "mod_version": "6.2.0.0a",
@@ -631135,6 +631138,31 @@
         "size_in_bytes": 16369,
         "changelog_html": "Updated for 6.20.0\nCleaned up ENTITY structure",
         "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3780/gShip Corvette Medbay Bacta Tank-3780-6-2-0-0a-1770886166.zip.json"
+      },
+      {
+        "id": [
+          49939,
+          1634
+        ],
+        "uid": 7017976611603,
+        "file_id": 49939,
+        "name": "gShip Corvette Medbay Bacta Tank",
+        "version": "7.0.7.0a",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 35,
+        "file_name": "gShip Corvette Medbay Bacta Tank 3780 7.0.7.0a 2026-10-18T04-36Z 6Xd7OtxHP.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792298194,
+        "uploaded_time": "2026-10-18T04:36:34.000+00:00",
+        "mod_version": "7.0.7.0a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/20a44400bdd604f3bb60a424389b852ec9a9188dff3efbeae2871804e3391dcd",
+        "description": "",
+        "size_kb": 35,
+        "size_in_bytes": 35915,
+        "changelog_html": "Updated for Cosmos 7.07.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3780/82/23/b0/8223b0e5-1cc5-4c47-a791-7e10768cbf1e.json"
       }
     ],
     "changelogs": {
@@ -631144,6 +631172,9 @@
       "6.2.0.0a": [
         "Updated for 6.20.0",
         "Cleaned up ENTITY structure"
+      ],
+      "7.0.7.0a": [
+        "Updated for Cosmos 7.07."
       ]
     }
   },
@@ -636208,10 +636239,10 @@
     "mod_id": 3830,
     "name": "gBase Sleepy-Time Corvette Bunk",
     "summary": "Makes corvette bunks functional; you can take a nap (create restore point)!.",
-    "version": "6.2.0.0a",
+    "version": "7.0.7.0a",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3830/3830-1759047095-2104704413.jpg",
     "author": "Gumsk",
-    "updated_timestamp": 1770887662,
+    "updated_timestamp": 1792297272,
     "created_timestamp": 1759047186,
     "description": "⚠️ Replacement mod - unlikely to work well with other Replacement mods\n<br />[size=2]\n<br />\n<br />[/size]\n<br />[size=4]This mod makes bunks on corvettes functional; you can take a nap (create a restore point save)! Works on all three hab styles.\n<br />[/size][list]\n<br />[/list][size=4]\n<br />Other corvette mods:\n<br />[/size][list]\n<br />[*][size=4][url=https://www.nexusmods.com/nomanssky/mods/3830]gBase Corvette Super Bunk[/url]﻿ - Take a nap (create restore point) or change clothes (use appearance modifier).[/size]\n<br />[*][size=4][url=https://www.nexusmods.com/nomanssky/mods/3805]gBase Corvette Landing Zone[/url]﻿ - Build a landing zone at your bases.[/size]\n<br />[*][size=4][url=https://www.nexusmods.com/nomanssky/mods/3779]gShip Corvette Supercomputer[/url]﻿ - Use galactic trade terminal, teleporter, and system scan from the corvette mission terminal.[/size]\n<br />[*][size=4][url=https://www.nexusmods.com/nomanssky/mods/3780]gShip Corvette Medbay Bacta Tank[/url]﻿ - Heal yourself at the corvette medbay.[/size]\n<br />[*][size=4][url=https://www.nexusmods.com/nomanssky/mods/3781]gShip Corvette Cockpit Interact Fix[/url]﻿ - Move the piloting interaction forward to fix it disappearing if too far into the cockpit.[/size]\n<br />[/list][size=2]\n<br />\n<br />[/size]\n<br />[size=2]Use Vortex or put the entire contents of the zip file in your GAMEDATA&#92;MODS folder, [i]not [/i]PCBANKS, similar to this:\n<br />[img]https://i.ibb.co/ZRHHnjJK/image.png[/img][/size]",
     "state": "normal",
@@ -636231,6 +636262,7 @@
         "is_primary": false,
         "size": 41,
         "file_name": "gShip Corvette Super Bunk-3830-6-0-6-0a-1759047181.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1759047181,
         "uploaded_time": "2025-09-28T08:13:01.000+00:00",
         "mod_version": "6.0.6.0a",
@@ -636255,6 +636287,7 @@
         "is_primary": false,
         "size": 34,
         "file_name": "gShip Corvette Super Bunk-3830-6-1-8-0a-1768561266.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1768561266,
         "uploaded_time": "2026-01-16T11:01:06.000+00:00",
         "mod_version": "6.1.8.0a",
@@ -636279,6 +636312,7 @@
         "is_primary": false,
         "size": 34,
         "file_name": "gBase Sleepy-Time Bunk-3830-6-1-8-0b-1768806589.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1768806589,
         "uploaded_time": "2026-01-19T07:09:49.000+00:00",
         "mod_version": "6.1.8.0b",
@@ -636298,11 +636332,12 @@
         "file_id": 45540,
         "name": "gBase Sleepy-Time Bunk",
         "version": "6.2.0.0a",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 15,
         "file_name": "gBase Sleepy-Time Bunk-3830-6-2-0-0a-1770887662.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1770887662,
         "uploaded_time": "2026-02-12T09:14:22.000+00:00",
         "mod_version": "6.2.0.0a",
@@ -636312,6 +636347,31 @@
         "size_in_bytes": 15105,
         "changelog_html": "Fixed for 6.20.0\nCleaned up ENTITY",
         "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3830/gBase Sleepy-Time Bunk-3830-6-2-0-0a-1770887662.zip.json"
+      },
+      {
+        "id": [
+          49936,
+          1634
+        ],
+        "uid": 7017976611600,
+        "file_id": 49936,
+        "name": "gBase Sleepy-Time Bunk",
+        "version": "7.0.7.0a",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 32,
+        "file_name": "gBase Sleepy-Time Bunk 3830 7.0.7.0a 2026-10-18T04-21Z IohEj95mA.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792297272,
+        "uploaded_time": "2026-10-18T04:21:12.000+00:00",
+        "mod_version": "7.0.7.0a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3eda893e27f28a12ba581a70775ae5d191d7cc6ef304e622fa9739d520f51549",
+        "description": "",
+        "size_kb": 32,
+        "size_in_bytes": 33321,
+        "changelog_html": "Updated for Cosmos 7.07.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3830/7b/33/9b/7b339be5-fd40-48d1-9ba6-5758a6ab7ba2.json"
       }
     ],
     "changelogs": {
@@ -636329,6 +636389,9 @@
       "6.2.0.0a": [
         "Fixed for 6.20.0",
         "Cleaned up ENTITY"
+      ],
+      "7.0.7.0a": [
+        "Updated for Cosmos 7.07."
       ]
     }
   },
@@ -636336,10 +636399,10 @@
     "mod_id": 3831,
     "name": "gNexus Galactic Trade Terminal on Nexus Anomaly",
     "summary": "Adds a trade terminal next to the quicksilver vendor on the Nexus Anomaly.",
-    "version": "6.2.0.0a",
+    "version": "7.0.7.0a",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3831/3831-1759058961-2004441868.jpg",
     "author": "Gumsk",
-    "updated_timestamp": 1770888901,
+    "updated_timestamp": 1792298541,
     "created_timestamp": 1759058681,
     "description": "[size=2]⚠️ Replacement mod - unlikely to work well with other Replacement mods[/size]\n<br />\n<br />\n<br />\n<br />[size=4]Fairly simple mod that adds a galactic trade terminal to the left of the quicksilver vendor on the Nexus Anomaly.[/size]\n<br />\n<br />\n<br />\n<br />[size=2]Use Vortex or put the entire contents of the zip file in your GAMEDATA&#92;MODS folder, [i]not [/i]PCBANKS, similar to this:\n<br />[img]https://i.ibb.co/ZRHHnjJK/image.png[/img][/size]",
     "state": "normal",
@@ -636359,6 +636422,7 @@
         "is_primary": false,
         "size": 22,
         "file_name": "gNexus Galactic Trade Terminal-3831-6-0-6-0a-1759058672.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1759058672,
         "uploaded_time": "2025-09-28T11:24:32.000+00:00",
         "mod_version": "6.0.6.0a",
@@ -636378,11 +636442,12 @@
         "file_id": 45542,
         "name": "gNexus Galactic Trade Terminal",
         "version": "6.2.0.0a",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 21,
         "file_name": "gNexus Galactic Trade Terminal-3831-6-2-0-0a-1770888901.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1770888901,
         "uploaded_time": "2026-02-12T09:35:01.000+00:00",
         "mod_version": "6.2.0.0a",
@@ -636392,6 +636457,31 @@
         "size_in_bytes": 21171,
         "changelog_html": "Fixed for 6.20.0",
         "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3831/gNexus Galactic Trade Terminal-3831-6-2-0-0a-1770888901.zip.json"
+      },
+      {
+        "id": [
+          49940,
+          1634
+        ],
+        "uid": 7017976611604,
+        "file_id": 49940,
+        "name": "gNexus Galactic Trade Terminal",
+        "version": "7.0.7.0a",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 20,
+        "file_name": "gNexus Galactic Trade Terminal 3831 7.0.7.0a 2026-10-18T04-42Z AeW3TdC8o.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792298541,
+        "uploaded_time": "2026-10-18T04:42:21.000+00:00",
+        "mod_version": "7.0.7.0a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/998edc3ae45a6e72142857c5224edb6d274652d3d3e27559ecc080df90a5ba07",
+        "description": "",
+        "size_kb": 20,
+        "size_in_bytes": 21316,
+        "changelog_html": "Updated for Cosmos 7.07.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3831/4f/22/48/4f2248a1-ac3d-434c-a4a8-be104c9d2650.json"
       }
     ],
     "changelogs": {
@@ -636400,6 +636490,9 @@
       ],
       "6.2.0.0a": [
         "Fixed for 6.20.0"
+      ],
+      "7.0.7.0a": [
+        "Updated for Cosmos 7.07."
       ]
     }
   },
@@ -649483,10 +649576,10 @@
     "mod_id": 4052,
     "name": "gBase Sleepy-Time Pillow",
     "summary": "Adds a \"nap\" option to the cement mix bag that a many people use as a pillow, creating a restore point save.",
-    "version": "6.2.0.0a",
+    "version": "7.0.7.0a",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4052/4052-1768805769-741842962.jpg",
     "author": "Gumsk",
-    "updated_timestamp": 1770888277,
+    "updated_timestamp": 1792297348,
     "created_timestamp": 1768805857,
     "description": "⚠️ Replacement mod - unlikely to work well with other Replacement mods\n<br />\n<br />\n<br />\n<br />[size=4]This mod adds a \"Take an Uncomfortable Nap\" option to the cement mix bag that many people use as a pillow in base builds, creating a restore point save.[/size]\n<br />\n<br />\n<br />\n<br />[size=2]Use Vortex or put the entire contents of the zip file in your GAMEDATA&#92;MODS folder, [i]not [/i]PCBANKS, similar to this:\n<br />[img]https://i.ibb.co/ZRHHnjJK/image.png[/img][/size]",
     "state": "normal",
@@ -649506,6 +649599,7 @@
         "is_primary": false,
         "size": 10,
         "file_name": "gBase Sleepy-Time Pillow-4052-6-1-8-0a-1768805852.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1768805852,
         "uploaded_time": "2026-01-19T06:57:32.000+00:00",
         "mod_version": "6.1.8.0a",
@@ -649525,11 +649619,12 @@
         "file_id": 45541,
         "name": "gBase Sleepy-Time Pillow",
         "version": "6.2.0.0a",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 9,
         "file_name": "gBase Sleepy-Time Pillow-4052-6-2-0-0a-1770888277.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1770888277,
         "uploaded_time": "2026-02-12T09:24:37.000+00:00",
         "mod_version": "6.2.0.0a",
@@ -649539,6 +649634,31 @@
         "size_in_bytes": 9562,
         "changelog_html": "Recompiled for 6.20.0\nCleaned up ENTITY file",
         "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4052/gBase Sleepy-Time Pillow-4052-6-2-0-0a-1770888277.zip.json"
+      },
+      {
+        "id": [
+          49938,
+          1634
+        ],
+        "uid": 7017976611602,
+        "file_id": 49938,
+        "name": "gBase Sleepy-Time Pillow",
+        "version": "7.0.7.0a",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 9,
+        "file_name": "gBase Sleepy-Time Pillow 4052 7.0.7.0a 2026-10-18T04-22Z izF9UkePV.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792297348,
+        "uploaded_time": "2026-10-18T04:22:28.000+00:00",
+        "mod_version": "7.0.7.0a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/aeb1e0634bcb28876894a4ea4d7c6b738b2d29fc86be51ecd61c0a6d5f989959",
+        "description": "",
+        "size_kb": 9,
+        "size_in_bytes": 9868,
+        "changelog_html": "Updated for Cosmos 7.07.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4052/0a/89/1b/0a891b82-1d68-46ab-9ffe-261771216b87.json"
       }
     ],
     "changelogs": {
@@ -649548,6 +649668,9 @@
       "6.2.0.0a": [
         "Recompiled for 6.20.0",
         "Cleaned up ENTITY file"
+      ],
+      "7.0.7.0a": [
+        "Updated for Cosmos 7.07."
       ]
     }
   },
@@ -649555,10 +649678,10 @@
     "mod_id": 4053,
     "name": "gBase Sleepy-Time Bed",
     "summary": "Adds a 'nap' option to the bed, creating a restore point save.",
-    "version": "6.1.8.0a",
+    "version": "7.0.7.0a",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4053/4053-1768808580-1035550967.jpg",
     "author": "Gumsk",
-    "updated_timestamp": 1768808652,
+    "updated_timestamp": 1792297311,
     "created_timestamp": 1768808652,
     "description": "⚠️ Replacement mod - unlikely to work well with other Replacement mods\n<br />\n<br />\n<br />\n<br />[size=4]This mod adds a \"Take a Nap\" option to the bed, which creates a restore point save.[/size]\n<br />\n<br />\n<br />\n<br />[size=2]Use Vortex or put the entire contents of the zip file in your GAMEDATA&#92;MODS folder, [i]not [/i]PCBANKS, similar to this:\n<br />[img]https://i.ibb.co/ZRHHnjJK/image.png[/img][/size]",
     "state": "normal",
@@ -649573,11 +649696,12 @@
         "file_id": 45440,
         "name": "gBase Sleepy-Time Bed",
         "version": "6.1.8.0a",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 9,
         "file_name": "gBase Sleepy-Time Bed-4053-6-1-8-0a-1768808645.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1768808645,
         "uploaded_time": "2026-01-19T07:44:05.000+00:00",
         "mod_version": "6.1.8.0a",
@@ -649587,11 +649711,39 @@
         "size_in_bytes": 9071,
         "changelog_html": "Initial release",
         "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4053/gBase Sleepy-Time Bed-4053-6-1-8-0a-1768808645.zip.json"
+      },
+      {
+        "id": [
+          49937,
+          1634
+        ],
+        "uid": 7017976611601,
+        "file_id": 49937,
+        "name": "gBase Sleepy-Time Bed",
+        "version": "7.0.7.0a",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8,
+        "file_name": "gBase Sleepy-Time Bed 4053 7.0.7.0a 2026-10-18T04-21Z KsnM3TtQC.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792297311,
+        "uploaded_time": "2026-10-18T04:21:51.000+00:00",
+        "mod_version": "7.0.7.0a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7f4f968e91d53da080ed19460c8a3ff6779abb8eaea86c098940d19a0e4751ef",
+        "description": "",
+        "size_kb": 8,
+        "size_in_bytes": 8968,
+        "changelog_html": "Updated for Cosmos 7.07.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4053/ae/17/e5/ae17e5a0-7ba1-4ab9-8dd8-28b73e2a8474.json"
       }
     ],
     "changelogs": {
       "6.1.8.0a": [
         "Initial release"
+      ],
+      "7.0.7.0a": [
+        "Updated for Cosmos 7.07."
       ]
     }
   },
@@ -669402,7 +669554,7 @@
     "name": "Naked Eye",
     "summary": "See more of No Man's Sky through a cleaner, clearer view. Naked Eye clears distracting bloom, flares and light halos while keeping selected glows that give the universe its character.",
     "version": "1.3",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4415/4415-1789941882-254991521.png",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4415/4415-1792289723-939562259.png",
     "author": "Tez367",
     "updated_timestamp": 1789935816,
     "created_timestamp": 1787424247,
@@ -669579,7 +669731,7 @@
     "name": "Void Black",
     "summary": "Deep black space gives stars, planets and passing ships room to stand out. Void Black clears ambient space clutter and makes galaxy-map star colors easier to read while preserving native station color palettes.",
     "version": "1.3",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4416/4416-1787423384-1507831587.png",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4416/4416-1792289773-1980845304.png",
     "author": "Tez367",
     "updated_timestamp": 1789862204,
     "created_timestamp": 1787423520,
@@ -669728,7 +669880,7 @@
     "name": "Salvage Rights",
     "summary": "Bring home parts for the corvette you want to build. Salvage Rights makes the functional component roll a sure thing in planetary Salvage Containers and supported space wrecks, so each find moves your project forward.",
     "version": "1",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4417/4417-1787422458-1209151454.png",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4417/4417-1792289902-731719297.png",
     "author": "Tez367",
     "updated_timestamp": 1790291741,
     "created_timestamp": 1787422711,
@@ -677593,7 +677745,7 @@
     "name": "Clear Air - Stations",
     "summary": "See the detail behind the haze. Clear Air: Stations clears drifting mist, smoke and atmospheric haze from station interiors while keeping their lighting and selected glowing accents. A natural companion to Naked Eye.",
     "version": "1.0",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4525/4525-1789934246-177626450.png",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4525/4525-1792289945-1176931100.png",
     "author": "Tez367",
     "updated_timestamp": 1789936509,
     "created_timestamp": 1789936509,
@@ -691060,12 +691212,12 @@
     "mod_id": 4635,
     "name": "Overseer's Toolkit",
     "summary": "Overseer's Toolkit gives you stone paths, curbs, lamps that need no power, and proper signage, all from the settlement's own build menu. Optional extras let you fortify the perimeter against Sentinels, dress the place up with hundreds of vanilla props, and more!",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4635/4635-1791430794-2009723019.png",
     "author": "kelvin101",
-    "updated_timestamp": 1792122180,
+    "updated_timestamp": 1792296781,
     "created_timestamp": 1791431826,
-    "description": "[size=5][b]Overseer's Toolkit[/b][/size]\n<br />\n<br />Your settlement deserves better than dirt and fireworks.\n<br />\n<br />Overseer's Toolkit gives settlement overseers the stuff a real town needs: stone paths, curbs, street lamps and proper signs. Everything builds straight from the settlement's own build menu, so you can walk in, open the menu and start laying down a main street. And now your settlers have stories to tell, too.\n<br />\n<br />It comes in four modules so you can grab what you want and skip what you don't. Core works on its own; the other three are optional, and none of them needs another.\n<br />\n<br />[size=4][b]⚠️ Before you remove a module[/b][/size]\n<br />[b]Removing a module deletes what you built with it.[/b] The moment the game saves without a module installed (autosaves count), every part that module added disappears from that save for good: paths, curbs, lamps and signs from core, and the Tower Pillar from Defense. Settlement Decor only unlocks the game's own parts, so those stay. See [b]Uninstalling[/b] below before you remove anything.\n<br />\n<br />[size=4][b]🧱 Core: Overseer's Toolkit[/b][/size]\n<br />A new [b]SETTLEMENT[/b] section under Decoration, with:\n<br />[list]\n<br />[*][b]Path Tile[/b] and [b]Path Triangle[/b] for walkways (they flatten the ground under them, so no more bumpy streets)[/*]\n<br />[*][b]Curb[/b], a short stone edge for borders, steps and raised beds[/*]\n<br />[*][b]Path Lamp[/b], a street lamp that lights up with no power hookup[/*]\n<br />[*][b]24 signs[/b] straight from the game: the Illuminated Sign, Standing Sign, Station Billboard, holographic displays, Gek, Korvax and Vy'keen emblems, and number decals 0 to 9 (for when Hab Block 7 needs a name)[/*]\n<br />[/list]Parts unlock as your settlement grows: the path kit at class B, the signs at class A. In creative mode you get everything right away.\n<br />[i]Disclaimer: the class unlocks haven't been tested in a survival or normal game yet. They load fine and should™ work, but if a part doesn't unlock when your settlement levels up, please [url=https://github.com/ethan-hann/nms-settlement-mod/issues]open an issue[/url].[/i]\n<br />\n<br />[size=4][b]🛡️ Defense (optional)[/b][/size]\n<br />[list]\n<br />[*]A new judgement: [b]\"Fortify the perimeter?\"[/b] Say yes, take on some debt, and your settlement gets the [b]Perimeter Watch[/b] perk, which lowers its Sentinel alert level.[/*]\n<br />[*]It's rare on purpose, about once every 18 hours of judgements (about 30 with Settler Stories installed), so it won't nag you.[/*]\n<br />[*]The [b]Tower Pillar[/b], a decorative watchtower, unlocks at class S.[/*]\n<br />[/list]\n<br />[size=4][b]🌿 Settlement Decor (optional)[/b][/size]\n<br />Opens up [b]489 vanilla decoration parts[/b] for settlement building: exterior decor, lights, construction props, plants, statues, wall decals and posters. Go nuts. 🎉\n<br />The 13 lights that need power are left out, since settlements don't have a power grid.\n<br />[i]Heads up: with this module installed, these parts can also be placed outside a base.[/i]\n<br />\n<br />[size=4][b]📜 Settler Stories (optional, new in 1.1.0)[/b][/size]\n<br />[b]⚠️ Finish any story before you remove Settler Stories.[/b] If you remove it while a story step is waiting at a settlement, that settlement's terminal shows a broken decision you can't answer, and you may have to close the game. To fix it, reinstall Settler Stories, answer the waiting decision, then remove it again.\n<br />\n<br />New decisions that mix in with the ones your settlement already asks you to make:\n<br />[list]\n<br />[*][b]Six one-off decisions:[/b] a night market, salvage from a crashed freighter, a fevered traveller, a buried signal booster, a festival and a wage dispute.[/*]\n<br />[*][b]Three short stories[/b] that play out over two or three decisions: a stranger at the gate with pirates on their trail, a vault of ancient seeds, and a survey team overdue from the ridge.[/*]\n<br />[*][b]Every outcome is shown before you choose,[/b] and most are good or mixed. About half the options reward you (units, nanites, quicksilver, items, alien words, standing) and half reward the settlement (happiness, productivity, a fireworks party, and three new settlement features: [b]Sanctuary[/b], [b]Ancient Orchard[/b] and [b]Relic Hall[/b]).[/*]\n<br />[/list][i]Story steps don't send an alert. The next step comes straight after your choice, so check the overseer's terminal before you walk away.[/i]\n<br />\n<br />[size=4][b]📦 Installation[/b][/size]\n<br />[list=1]\n<br />[*]Download the core file, plus any optional modules you want.[/*]\n<br />[*]Extract each zip into [font=Courier New]GAMEDATA&#92;MODS[/font], or let Vortex handle it. Each zip already contains its own module folder.[/*]\n<br />[*]Launch the game. That's it.[/*]\n<br />[/list][b]Updating from 1.0.0?[/b] Core, Defense and Settlement Decor are unchanged, so your builds and settlements carry over. Just add Settler Stories if you want it.\n<br />\n<br />[size=4][b]🗑️ Uninstalling[/b][/size]\n<br />[list=1]\n<br />[*][b]Back up your saves first.[/b] They live in [font=Courier New]%APPDATA%&#92;HelloGames&#92;NMS&#92;[/font].[/*]\n<br />[*]Replace anything you want to keep with the game's own parts. Settlement Decor parts are the game's own, so they're safe.[/*]\n<br />[*]Removing Settler Stories? Answer any story step still waiting at your settlements first. Its settlement features hide while it's gone and come back if you reinstall it.[/*]\n<br />[*]Remove the module in Vortex, or delete its folder from [font=Courier New]GAMEDATA&#92;MODS[/font].[/*]\n<br />[/list][b]Parts missing after an uninstall or a game update?[/b] Quit without saving, reinstall the module (or wait for an update if a game patch broke it), then load again. Your parts are still in the save until the game saves without them.\n<br />\n<br />[size=4][b]🔨 How to use[/b][/size]\n<br />Become your settlement's overseer, stand inside the settlement and open the build menu. The new parts are under [b]Decoration &gt; SETTLEMENT[/b]. With Settlement Decor installed, the other decoration tabs fill up too. Settler Stories decisions turn up at the overseer's terminal alongside the game's own.\n<br />\n<br />[size=4][b]🤝 Compatibility[/b][/size]\n<br />[list]\n<br />[*]Built and tested on [b]NMS 7.06 (COSMOS)[/b].[/*]\n<br />[*]The mod adds new parts and decisions instead of changing vanilla ones wherever it can, so it should play nicely with most mods and survive most game updates. Every vanilla entry each module touches is listed in [url=https://github.com/ethan-hann/nms-settlement-mod/blob/main/COMPATIBILITY.md]COMPATIBILITY.md[/url] on GitHub.[/*]\n<br />[*]Want to build base-only parts (walls, landing pads, tech) right next to your settlement? Pair it with [url=https://www.nexusmods.com/nomanssky/mods/1369]gBase Boundaries[/url].[/*]\n<br />[*]Multiplayer: every part reuses a vanilla model, so friends without the mod should still see what you built.[/*]\n<br />[/list]\n<br />[size=4][b]⚠️ Known limits[/b][/size]\n<br />[list]\n<br />[*]The fortify judgement can still turn up after you already have Perimeter Watch. Just turn it down (it costs a little happiness).[/*]\n<br />[*]Story steps don't send an alert; check the overseer's terminal.[/*]\n<br />[*]No path-drawing tool yet, so paths go down one piece at a time like any other part. A live path tool is on the wishlist once NMS.py supports the current game version.[/*]\n<br />[*]After a game update, check that your paths and signs are still there before you save. If they're gone, the update may have stopped the mod from loading: quit without saving and check the comments or the issue tracker.[/*]\n<br />[/list]\n<br />[size=4][b]💬 Feedback[/b][/size]\n<br />Found a bug or have an idea for a part or a story? Please report it on the [url=https://github.com/ethan-hann/nms-settlement-mod/issues]GitHub issue tracker[/url] so it doesn't get lost in the comments. Include your game version, which modules you have installed, and your other mods if you can. Screenshots of your towns ARE welcome in the comments though 😄",
+    "description": "[size=5][b]Overseer's Toolkit 🏘️[/b][/size]\n<br />[font=Arial][i]Your settlement deserves better than dirt and fireworks.[/i][/font]\n<br />\n<br />Overseer's Toolkit gives settlement overseers the stuff a real town needs: stone paths, curbs, street lamps and proper signs. Everything builds straight from the settlement's own build menu, so you can walk in, open the menu and start laying down a main street. Your settlers have stories to tell, and now you can finally pay down that settlement debt too.\n<br />\n<br />It comes in six modules, each with its own version. Every one works on its own, and none of them needs another.\n<br />\n<br />[size=4][b]📥 What to download[/b][/size]\n<br />[list]\n<br />[*][b]OverseersToolkit-AllInOne[/b] (main file) holds core, Defense, Settler Stories and Fair Ledger.[/*]\n<br />[*][b]Settlement Decor[/b] and [b]Fair Ledger Rebalance[/b] are separate optional files, since they change the game's own content broadly.[/*]\n<br />[*]Or skip AllInOne and pick just the single modules you want.[/*]\n<br />[/list]Removing a module later can delete what you built with it, so read [b]Removing modules[/b] before you take anything out.\n<br />\n<br />[size=4][b]🔨 How to use[/b][/size]\n<br />Become your settlement's overseer, stand inside the settlement and open the build menu. The new parts are under [b]Decoration &gt; SETTLEMENT[/b]. With Settlement Decor installed, the other decoration tabs fill up too. Settler Stories decisions turn up at the overseer's terminal alongside the game's own, and Fair Ledger's payments are on the Administration Terminal.\n<br />\n<br />[size=4][b]🧱 Core: Overseer's Toolkit[/b][/size]\n<br />A new [b]SETTLEMENT[/b] section under Decoration, with:\n<br />[list]\n<br />[*][b]Path Tile[/b] and [b]Path Triangle[/b] for walkways (they flatten the ground under them, so no more bumpy streets)[/*]\n<br />[*][b]Curb[/b], a short stone edge for borders, steps and raised beds[/*]\n<br />[*][b]Path Lamp[/b], a street lamp that lights up with no power hookup[/*]\n<br />[*][b]24 signs[/b] straight from the game: the Illuminated Sign, Standing Sign, Station Billboard, holographic displays, Gek, Korvax and Vy'keen emblems, and number decals 0 to 9 (for when Hab Block 7 needs a name)[/*]\n<br />[/list]Parts unlock as your settlement grows: the path kit at class B, the signs at class A. In creative mode you get everything right away.\n<br />There's no path-drawing tool yet, so paths go down one piece at a time like any other part. It's on the roadmap.\n<br />[i]Disclaimer: the class unlocks haven't been tested in a survival or normal game yet. They load fine and should™ work, but if a part doesn't unlock when your settlement levels up, please [url=https://github.com/ethan-hann/nms-settlement-mod/issues]open an issue[/url].[/i]\n<br />\n<br />[size=4][b]🛡️ Defense[/b][/size]\n<br />[list]\n<br />[*]A new judgement: [b]\"Fortify the perimeter?\"[/b] Say yes, take on some debt, and your settlement gets the [b]Perimeter Watch[/b] perk, which lowers its Sentinel alert level.[/*]\n<br />[*]It's rare on purpose, about once every 18 hours of judgements (about 30 with Settler Stories installed), so it won't nag you.[/*]\n<br />[*]It can still turn up after you already have Perimeter Watch. Just turn it down (it costs a little happiness).[/*]\n<br />[*]The [b]Tower Pillar[/b], a decorative watchtower, unlocks at class S.[/*]\n<br />[/list]\n<br />[size=4][b]📜 Settler Stories[/b][/size]\n<br />New decisions that mix in with the ones your settlement already asks you to make:\n<br />[list]\n<br />[*][b]Six one-off decisions:[/b] a night market, salvage from a crashed freighter, a fevered traveller, a buried signal booster, a festival and a wage dispute.[/*]\n<br />[*][b]Three short stories[/b] that play out over two or three decisions: a stranger at the gate with pirates on their trail, a vault of ancient seeds, and a survey team overdue from the ridge.[/*]\n<br />[*][b]Every outcome is shown before you choose,[/b] and most are good or mixed. About half the options reward you (units, nanites, quicksilver, items, alien words, standing) and half reward the settlement (happiness, productivity, a fireworks party, and three new settlement features: [b]Sanctuary[/b], [b]Ancient Orchard[/b] and [b]Relic Hall[/b]).[/*]\n<br />[/list][i]Story steps don't send an alert. The next step comes straight after your choice, so check the overseer's terminal before you walk away.[/i]\n<br />\n<br />[size=4][b]💰 Fair Ledger (new in 1.2.0)[/b][/size]\n<br />Pay down a settlement's debt instead of waiting it out. The overseer's Administration Terminal gets two new options:\n<br />[list]\n<br />[*][b]\"Pay 100,000 debt\"[/b] for 200,000 units[/*]\n<br />[*][b]\"Pay 1,000,000 debt\"[/b] for 2,000,000 units[/*]\n<br />[/list]Each one clears exactly the debt it names, in that town. Those prices are for the Standard [b]Purchases[/b] setting (2 units per debt). On Free it's free, on Discounted it's a third of that, and on Expensive it's 3.32 units per debt. It also makes the debt text clearer: \"Maintenance Cost\" becomes \"Upkeep\", and the two debt tips explain how debt goes down, where to pay it, and that overpaying is lost.\n<br />[list]\n<br />[*][b]Paying more than the remaining debt wastes the extra.[/b] The game says \"Settlement reserves increased\", but reserves aren't actually stored anywhere.[/*]\n<br />[*]The 1,000,000 payment only shows \"Settlement debt reduced: 100,000 units\", but the debt really does drop by the full 1,000,000.[/*]\n<br />[*]Side effect: the debt cut from a good expedition debrief becomes a flat 100,000, instead of anywhere from 50,000 to 100,000.[/*]\n<br />[/list]\n<br />[size=4][b]🌿 Settlement Decor (separate file)[/b][/size]\n<br />Opens up [b]489 vanilla decoration parts[/b] for settlement building: exterior decor, lights, construction props, plants, statues, wall decals and posters. Go nuts. 🎉\n<br />The 13 lights that need power are left out, since settlements don't have a power grid.\n<br />[i]Heads up: with this module installed, these parts can also be placed outside a base.[/i]\n<br />\n<br />[size=4][b]⚖️ Fair Ledger Rebalance (separate file, new in 1.2.0)[/b][/size]\n<br />Makes the town's working buildings break even at class C: the starport, infrastructure, trade center, small industrial, administrative building, storage facility, farm, factory and Autophage RoboArm each cost exactly as much upkeep as they produce. Upgrades are still how you turn a profit. Residences, the bar and the fish pond keep their usual upkeep.\n<br />It takes effect on your existing buildings right away, and removing it puts the game's own upkeep back right away too.\n<br />\n<br />[size=4][b]📦 Installation and updating[/b][/size]\n<br />[b]With Vortex:[/b] install AllInOne for the full set, or pick the single modules you want. Use one or the other, not both. Settlement Decor and Rebalance are separate either way.\n<br />[b]Switching to AllInOne?[/b] Remove the separate core, Defense, Settler Stories and Fair Ledger files first. If both stay installed, Vortex reports a file conflict and its load order decides which version loads. Switching keeps your builds, since the folders and part IDs are the same.\n<br />[b]By hand:[/b]\n<br />[list=1]\n<br />[*]Download the files you want.[/*]\n<br />[*]Extract each zip into [font=Courier New]GAMEDATA&#92;MODS[/font]. Each zip already contains its own module folder, and the AllInOne zip contains four.[/*]\n<br />[*]Launch the game. That's it.[/*]\n<br />[/list]You only get updates for the modules you installed. [b]Updating from 1.1.0 or 1.0.0?[/b] Folder names haven't changed, so your builds and settlements carry over.\n<br />\n<br />[size=4][b]🗑️ Removing modules[/b][/size]\n<br />[b]⚠️ Removing a module deletes what you built with it.[/b] The moment the game saves without a module installed (autosaves count), every part that module added disappears from that save for good: paths, curbs, lamps and signs from core, and the Tower Pillar from Defense. Settlement Decor only unlocks the game's own parts, so those stay, and Fair Ledger and Rebalance don't add any parts at all.\n<br />\n<br />[b]⚠️ Finish any story before you remove Settler Stories.[/b] If you remove it while a story step is waiting at a settlement, that settlement's terminal shows a broken decision you can't answer, and you may have to close the game. To fix it, reinstall Settler Stories, answer the waiting decision, then remove it again.\n<br />\n<br />[list=1]\n<br />[*][b]Back up your saves first.[/b] They live in [font=Courier New]%APPDATA%&#92;HelloGames&#92;NMS&#92;[/font].[/*]\n<br />[*]Replace anything you want to keep with the game's own parts. Settlement Decor parts are the game's own, so they're safe.[/*]\n<br />[*]Removing Settler Stories? Answer any story step still waiting at your settlements first. Its settlement features hide while it's gone and come back if you reinstall it.[/*]\n<br />[*]Remove the module in Vortex, or delete its folder from [font=Courier New]GAMEDATA&#92;MODS[/font].[/*]\n<br />[/list]Removing Fair Ledger loses nothing, and debt you already paid stays paid.\n<br />[b]Parts missing after an uninstall or a game update?[/b] Quit without saving, reinstall the module (or wait for an update if a game patch broke it), then load again. Your parts are still in the save until the game saves without them.\n<br />\n<br />[size=4][b]🤝 Compatibility[/b][/size]\n<br />[list]\n<br />[*]Built and tested on [b]NMS 7.06 (COSMOS)[/b].[/*]\n<br />[*]The mod adds new parts and decisions instead of changing vanilla ones wherever it can, so it should play nicely with most mods and survive most game updates. [url=https://github.com/ethan-hann/nms-settlement-mod/blob/main/COMPATIBILITY.md]COMPATIBILITY.md[/url] on GitHub lists every vanilla entry each module touches, plus the vanilla text each module replaces.[/*]\n<br />[*]Don't add Fair Ledger Rebalance alongside an economy overhaul that changes what buildings contribute, such as [url=https://www.nexusmods.com/nomanssky/mods/2855]BetterSettlements[/url]. They conflict.[/*]\n<br />[*]The overseer's terminal shows six options at most and the game uses four, so Fair Ledger takes the last two. Another mod that adds a terminal option pushes one of them off.[/*]\n<br />[*]Want to build base-only parts (walls, landing pads, tech) right next to your settlement? Pair it with [url=https://www.nexusmods.com/nomanssky/mods/1369]gBase Boundaries[/url].[/*]\n<br />[*]Multiplayer: every part reuses a vanilla model, so friends without the mod should still see what you built.[/*]\n<br />[/list]\n<br />[size=4][b]⚠️ Known limits[/b][/size]\n<br />After a game update, check that your paths and signs are still there before you save. If they're gone, the update may have stopped the mod from loading: quit without saving and check the comments or the issue tracker.\n<br />\n<br />[size=4][b]🌐 Translations[/b][/size]\n<br />Every module's text is in every language the game offers, built from the game's own words. Native speakers haven't checked them yet, so if something reads wrong in your language, corrections are welcome on [url=https://github.com/ethan-hann/nms-settlement-mod/issues]GitHub[/url].\n<br />\n<br />[size=4][b]💬 Feedback[/b][/size]\n<br />Found a bug or have an idea for a part or a story? Please report it on the [url=https://github.com/ethan-hann/nms-settlement-mod/issues]GitHub issue tracker[/url] so it doesn't get lost in the comments. Include your game version, which modules you have installed, and your other mods if you can. Screenshots of your towns ARE welcome in the comments though 😄",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -691153,9 +691305,9 @@
         "file_id": 49894,
         "name": "OverseersToolkit - Core",
         "version": "1.1.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 15,
         "file_name": "OverseersToolkit - Core 4635 1.1.0 2026-10-16T03-39Z 9Lg6VZT9N.zip",
         "detected_file_extension": "zip",
@@ -691203,8 +691355,8 @@
         "file_id": 49896,
         "name": "OverseersToolkit - Defense",
         "version": "1.1.0",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 9,
         "file_name": "OverseersToolkit - Defense 4635 1.1.0 2026-10-16T03-40Z vlBhwF5v4.zip",
@@ -691228,8 +691380,8 @@
         "file_id": 49897,
         "name": "OverseersToolkit - Settler Stories",
         "version": "1.1.0",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 5,
         "file_name": "OverseersToolkit - Settler Stories 4635 1.1.0 2026-10-16T03-43Z 2B5KARb2o.zip",
@@ -691243,9 +691395,166 @@
         "size_in_bytes": 5579,
         "changelog_html": null,
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4635/38/52/06/385206b4-a406-45d4-8a41-538b31576e6c.json"
+      },
+      {
+        "id": [
+          49930,
+          1634
+        ],
+        "uid": 7017976611594,
+        "file_id": 49930,
+        "name": "OverseersToolkit - Core",
+        "version": "1.2.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 19,
+        "file_name": "OverseersToolkit - Core 4635 1.2.0 2026-10-18T04-04Z kAMZq0a5d.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792296289,
+        "uploaded_time": "2026-10-18T04:04:49.000+00:00",
+        "mod_version": "1.2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/edb9ba3332513b1a79ebbd434384454da1c7102d72a5a01dde29211b4be807af",
+        "description": "Adds the main Decoration &gt; Settlement tab to the build menu with paths, a curb, lamps, and signs.",
+        "size_kb": 19,
+        "size_in_bytes": 19516,
+        "changelog_html": "Each module has its own version and changes version only when its own files change. Players get an update only for the modules they installed.\nPart names, descriptions, perks and decisions are translated into every language the game offers. Before, players in any language but English saw raw text keys such as OT_PATH_TILE_NAME.\nThe translations reuse the game's own words for settlements, settlers, the overseer, debt, Sentinels, units and nanites. They have not been checked by native speakers: corrections are welcome as a bug report on GitHub.\nFiles now use LF line endings. Files from earlier releases mixed CRLF and LF. The game loads both, and the change is line endings only.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4635/5b/0c/51/5b0c51b4-3dd5-42b9-9dea-b11a7f40f210.json"
+      },
+      {
+        "id": [
+          49931,
+          1634
+        ],
+        "uid": 7017976611595,
+        "file_id": 49931,
+        "name": "OverseersToolkit - Defense",
+        "version": "1.2.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 13,
+        "file_name": "OverseersToolkit - Defense 4635 1.2.0 2026-10-18T04-06Z Z3ytCvNni.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792296362,
+        "uploaded_time": "2026-10-18T04:06:02.000+00:00",
+        "mod_version": "1.2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d75038bfa39ccb7a4a615b7d24e6836516dedd5a0ea5cf6c88ca7d1fb873bd66",
+        "description": "Optional addon module. Adds the Fortify judgement to your settlement requests pool.",
+        "size_kb": 13,
+        "size_in_bytes": 14049,
+        "changelog_html": "Each module has its own version and changes version only when its own files change. Players get an update only for the modules they installed.\nPart names, descriptions, perks and decisions are translated into every language the game offers. Before, players in any language but English saw raw text keys such as OT_PATH_TILE_NAME.\nThe translations reuse the game's own words for settlements, settlers, the overseer, debt, Sentinels, units and nanites. They have not been checked by native speakers: corrections are welcome as a bug report on GitHub.\nFiles now use LF line endings. Files from earlier releases mixed CRLF and LF. The game loads both, and the change is line endings only.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4635/de/94/93/de9493a3-9c8e-4a6b-90f5-6d1561e9701f.json"
+      },
+      {
+        "id": [
+          49932,
+          1634
+        ],
+        "uid": 7017976611596,
+        "file_id": 49932,
+        "name": "OverseersToolkit - Settler Stories",
+        "version": "1.2.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 36,
+        "file_name": "OverseersToolkit - Settler Stories 4635 1.2.0 2026-10-18T04-07Z SxEYBfKvp.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792296429,
+        "uploaded_time": "2026-10-18T04:07:09.000+00:00",
+        "mod_version": "1.2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/24bc88a50625f161c20c427add0d1d1ef8c02bc37452ffdce9eefd2db73b4d42",
+        "description": "Adds six new settlement decisions and three short stories of two or three steps. Every outcome shown before choosing. Rewards split 50-50 between you and settlement.",
+        "size_kb": 36,
+        "size_in_bytes": 37179,
+        "changelog_html": "Each module has its own version and changes version only when its own files change. Players get an update only for the modules they installed.\nPart names, descriptions, perks and decisions are translated into every language the game offers. Before, players in any language but English saw raw text keys such as OT_PATH_TILE_NAME.\nThe translations reuse the game's own words for settlements, settlers, the overseer, debt, Sentinels, units and nanites. They have not been checked by native speakers: corrections are welcome as a bug report on GitHub.\nFiles now use LF line endings. Files from earlier releases mixed CRLF and LF. The game loads both, and the change is line endings only.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4635/a5/60/a0/a560a01b-5090-4ec5-8cb9-280970ef10c3.json"
+      },
+      {
+        "id": [
+          49933,
+          1634
+        ],
+        "uid": 7017976611597,
+        "file_id": 49933,
+        "name": "Overseers Toolkit - All In One",
+        "version": "1.2.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 74,
+        "file_name": "Overseers Toolkit - All In One 4635 1.2.0 2026-10-18T04-09Z L5bXM3Ok4.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792296556,
+        "uploaded_time": "2026-10-18T04:09:16.000+00:00",
+        "mod_version": "1.2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4540290c4d3f96bb7552b499514503e5baf73fd970979e3451e2b771ac0904c2",
+        "description": "Bundle holding Core, Defense, Settler Stories and Fair Ledger.<br /><br />Settlement Decor and Fair Ledger Rebalance stay separate optional downloads because they change vanilla content broadly.",
+        "size_kb": 74,
+        "size_in_bytes": 76763,
+        "changelog_html": "Each module has its own version and changes version only when its own files change. Players get an update only for the modules they installed.\nPart names, descriptions, perks and decisions are translated into every language the game offers. Before, players in any language but English saw raw text keys such as OT_PATH_TILE_NAME.\nThe translations reuse the game's own words for settlements, settlers, the overseer, debt, Sentinels, units and nanites. They have not been checked by native speakers: corrections are welcome as a bug report on GitHub.\nFiles now use LF line endings. Files from earlier releases mixed CRLF and LF. The game loads both, and the change is line endings only.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4635/98/1b/89/981b894a-3daa-454a-aa3e-d15e76b8f3ef.json"
+      },
+      {
+        "id": [
+          49934,
+          1634
+        ],
+        "uid": 7017976611598,
+        "file_id": 49934,
+        "name": "OverseersToolkit - Fair Ledger",
+        "version": "1.0.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "OverseersToolkit - Fair Ledger 4635 1.0.0 2026-10-18T04-11Z KsnM3TtQt.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792296700,
+        "uploaded_time": "2026-10-18T04:11:40.000+00:00",
+        "mod_version": "1.0.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6a3740e08240b1104c16120677b1db2ac51bd9871ef1418f7bd20d85e74519c3",
+        "description": "Adds \"Pay 100,000 debt\" and \"Pay 1,000,000 debt\" to the administration terminal.<br />Clearer text for upkeep and debt.",
+        "size_kb": 5,
+        "size_in_bytes": 6085,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4635/a3/03/04/a303040b-e664-420b-b514-cc725020c39c.json"
+      },
+      {
+        "id": [
+          49935,
+          1634
+        ],
+        "uid": 7017976611599,
+        "file_id": 49935,
+        "name": "OverseersToolkit - Fair Ledger Rebalance",
+        "version": "1.0.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 0,
+        "file_name": "OverseersToolkit - Fair Ledger Rebalance 4635 1.0.0 2026-10-18T04-13Z hfsARgqj3.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792296781,
+        "uploaded_time": "2026-10-18T04:13:01.000+00:00",
+        "mod_version": "1.0.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c71798056b5de96e7bcbfe2023d85a18800d17de0b51b177f188ca8a86c5bb18",
+        "description": "At class C, most production buildings cost exactly as much upkeep as they produce, instead of more, so each one breaks even.<br /><br />Conflicts with economy overhauls that change building contributions, such as BetterSettlements.",
+        "size_kb": 0,
+        "size_in_bytes": 578,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4635/47/d3/16/47d3165d-facd-4569-9122-84a0ce513467.json"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "1.2.0": [
+        "Each module has its own version and changes version only when its own files change. Players get an update only for the modules they installed.",
+        "Part names, descriptions, perks and decisions are translated into every language the game offers. Before, players in any language but English saw raw text keys such as OT_PATH_TILE_NAME.",
+        "The translations reuse the game's own words for settlements, settlers, the overseer, debt, Sentinels, units and nanites. They have not been checked by native speakers: corrections are welcome as a bug report on GitHub.",
+        "Files now use LF line endings. Files from earlier releases mixed CRLF and LF. The game loads both, and the change is line endings only."
+      ]
+    }
   },
   {
     "mod_id": 4636,
