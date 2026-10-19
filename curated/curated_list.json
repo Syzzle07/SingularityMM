@@ -692772,9 +692772,9 @@
     "version": "1.3",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4650/4650-1791517799-1240364840.jpg",
     "author": "germinus",
-    "updated_timestamp": 1791776706,
+    "updated_timestamp": 1792399333,
     "created_timestamp": 1791517992,
-    "description": "[size=5][b]Helpful Descriptions[/b][/size]\n<br />Ever picked up a material and wondered what it's actually for, or which system sells the trade goods you need? This mod adds short, useful lines to item descriptions - right there in your inventory and the Catalogue.\n<br />\n<br />[size=4][b]New in 1.3 - food and cooking[/b][/size]\n<br />Cooking ingredients and cooked foods now explain themselves:\n<br />[list]\n<br />[*][b]Used in cooking:[/b] what an ingredient can be cooked into in the Nutrient Processor.[/*]\n<br />[*][b]Cooked from:[/b] the Nutrient Processor recipes that make a cooked food (\"A + B\" for two-ingredient recipes).[/*]\n<br />[/list]Covers 201 ingredients and 333 cooked foods. Thanks to SlashSgt for asking.\n<br />Example - Faecium:\n<br />[i]Used in cooking: Creature Pellets, Questionable Biscuit, Wild Yeast[/i]\n<br />\n<br />[size=4][b]Made in a Refiner from[/b][/size]\n<br />66 refined materials now show what you can put in a Refiner to get them:\n<br />[list]\n<br />[*][b]Made in a Refiner from:[/b] the single ingredients that refine into it.[/*]\n<br />[*][b]Or mix:[/b] recipes that need two or three ingredients (\"and N more\" when the list is long).[/*]\n<br />[/list]Example - Chromatic Metal:\n<br />[i]Made in a Refiner from: Activated Cadmium, Activated Copper, Activated Emeril, Activated Indium and 6 more\n<br />Or mix: Activated Cadmium + Pure Ferrite, Activated Copper + Pure Ferrite, Activated Emeril + Pure Ferrite and 12 more[/i]\n<br />\n<br />[size=4][b]Trade goods[/b][/size]\n<br />All 35 trade goods show, with the galaxy map's own symbols:\n<br />[list]\n<br />[*][b]Sold in:[/b] the symbol of the economy whose trade terminals sell it.[/*]\n<br />[*][b]System wealth:[/b] the wealth stars of the systems that carry it. The cheapest goods are sold everywhere; the most valuable only in wealthy (3-star) systems. \"(sometimes ...)\" means it may or may not be in stock there.[/*]\n<br />[*][b]Sells for most in:[/b] the symbol of the economy that pays the most for it.[/*]\n<br />[/list]Handy when you're building up a settlement and need to know where to go shopping. The wealth rule isn't in the game files (the game decides it in its own code) - it comes from the NMS wiki and players' experience.\n<br />\n<br />[size=4][b]Materials and components[/b][/size]\n<br />[list]\n<br />[*][b]Used to make:[/b] the items you can craft from it (up to six, then \"and N more\").[/*]\n<br />[*][b]Refines into:[/b] what it turns into on its own in a Refiner.[/*]\n<br />[*][b]Made in a Refiner from / Or mix:[/b] what to refine to get it (see above).[/*]\n<br />[/list]Example - Carbon:\n<br />[i]Used to make: Carbon Nanotubes, Hydrothermal Fuel Cell, Life Support Gel\n<br />Refines into: Condensed Carbon[/i]\n<br />\n<br />Base decorations, signs and stickers are left out so the lists stay short and useful.\n<br />\n<br />[size=4][b]All languages[/b][/size]\n<br />Works in all 17 of the game's languages, with item names in your own language. The headings are my own translations - if one reads oddly in your language, let me know in Posts and I'll fix it.\n<br />\n<br />[size=4][b]Install[/b][/size]\n<br />Unzip and put the [b]HelpfulDescriptions[/b] folder into [b]No Man's Sky&#92;GAMEDATA&#92;MODS[/b]. If the game asks to disable mods, choose No. Updating: replace the old folder.\n<br />Text only - no recipes, prices, stock or saves are changed, so it's safe to add or remove at any time.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Changes only the description text of these items, and adds ten small pictures (the economy symbols and wealth stars) to the game's list of symbols text can show. A mod that also rewrites the same item descriptions would clash with it (whichever loads last wins). If Hello Games rewords a description in an update, the old wording may show until I update the mod.\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, find any item across all your saves and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url] - see every item you own and where it is, and move stock live while you play (beta).[/*]\n<br />[/list][i]Idea, design decisions and all in-game testing by germinus; the text lines and translations were made with AI from the game's own data.[/i]",
+    "description": "[size=5][b]Helpful Descriptions[/b][/size]\n<br />Ever picked up a material and wondered what it's actually for, or which system sells the trade goods you need? This mod adds short, useful lines to item descriptions - right there in your inventory and the Catalogue.\n<br />\n<br />[size=4][b]Lighter versions (optional files)[/b][/size]\n<br />Want less text? On the Files tab there are three optional versions. Use one of them INSTEAD of the normal file, not as well:\n<br />[list]\n<br />[*][b]Without Used to make[/b] - everything except the \"Used to make\", \"Refines into\" and \"Used in cooking\" lines.[/*]\n<br />[*][b]Value only[/b] - just the trade goods info (Sold in, System wealth, Sells for most in).[/*]\n<br />[*][b]Ingredients only[/b] - just what an item is made from (Made in a Refiner from / Or mix, Cooked from).[/*]\n<br />[/list]They are made from the tested 1.3 text with lines taken out; they have not been checked in game yet. Thanks to SlimSlader for the idea.\n<br />\n<br />[size=4][b]New in 1.3 - food and cooking[/b][/size]\n<br />Cooking ingredients and cooked foods now explain themselves:\n<br />[list]\n<br />[*][b]Used in cooking:[/b] what an ingredient can be cooked into in the Nutrient Processor.[/*]\n<br />[*][b]Cooked from:[/b] the Nutrient Processor recipes that make a cooked food (\"A + B\" for two-ingredient recipes).[/*]\n<br />[/list]Covers 201 ingredients and 333 cooked foods. Thanks to SlashSgt for asking.\n<br />Example - Faecium:\n<br />[i]Used in cooking: Creature Pellets, Questionable Biscuit, Wild Yeast[/i]\n<br />\n<br />[size=4][b]Made in a Refiner from[/b][/size]\n<br />66 refined materials now show what you can put in a Refiner to get them:\n<br />[list]\n<br />[*][b]Made in a Refiner from:[/b] the single ingredients that refine into it.[/*]\n<br />[*][b]Or mix:[/b] recipes that need two or three ingredients (\"and N more\" when the list is long).[/*]\n<br />[/list]Example - Chromatic Metal:\n<br />[i]Made in a Refiner from: Activated Cadmium, Activated Copper, Activated Emeril, Activated Indium and 6 more\n<br />Or mix: Activated Cadmium + Pure Ferrite, Activated Copper + Pure Ferrite, Activated Emeril + Pure Ferrite and 12 more[/i]\n<br />\n<br />[size=4][b]Trade goods[/b][/size]\n<br />All 35 trade goods show, with the galaxy map's own symbols:\n<br />[list]\n<br />[*][b]Sold in:[/b] the symbol of the economy whose trade terminals sell it.[/*]\n<br />[*][b]System wealth:[/b] the wealth stars of the systems that carry it. The cheapest goods are sold everywhere; the most valuable only in wealthy (3-star) systems. \"(sometimes ...)\" means it may or may not be in stock there.[/*]\n<br />[*][b]Sells for most in:[/b] the symbol of the economy that pays the most for it.[/*]\n<br />[/list]Handy when you're building up a settlement and need to know where to go shopping. The wealth rule isn't in the game files (the game decides it in its own code) - it comes from the NMS wiki and players' experience.\n<br />\n<br />[size=4][b]Materials and components[/b][/size]\n<br />[list]\n<br />[*][b]Used to make:[/b] the items you can craft from it (up to six, then \"and N more\").[/*]\n<br />[*][b]Refines into:[/b] what it turns into on its own in a Refiner.[/*]\n<br />[*][b]Made in a Refiner from / Or mix:[/b] what to refine to get it (see above).[/*]\n<br />[/list]Example - Carbon:\n<br />[i]Used to make: Carbon Nanotubes, Hydrothermal Fuel Cell, Life Support Gel\n<br />Refines into: Condensed Carbon[/i]\n<br />\n<br />Base decorations, signs and stickers are left out so the lists stay short and useful.\n<br />\n<br />[size=4][b]All languages[/b][/size]\n<br />Works in all 17 of the game's languages, with item names in your own language. The headings are my own translations - if one reads oddly in your language, let me know in Posts and I'll fix it.\n<br />\n<br />[size=4][b]Install[/b][/size]\n<br />Unzip and put the [b]HelpfulDescriptions[/b] folder into [b]No Man's Sky&#92;GAMEDATA&#92;MODS[/b]. If the game asks to disable mods, choose No. Updating: replace the old folder.\n<br />Text only - no recipes, prices, stock or saves are changed, so it's safe to add or remove at any time.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Changes only the description text of these items, and adds ten small pictures (the economy symbols and wealth stars) to the game's list of symbols text can show. A mod that also rewrites the same item descriptions would clash with it (whichever loads last wins). If Hello Games rewords a description in an update, the old wording may show until I update the mod.\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, find any item across all your saves and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url] - see every item you own and where it is, and move stock live while you play (beta).[/*]\n<br />[/list][i]Idea, design decisions and all in-game testing by germinus; the text lines and translations were made with AI from the game's own data.[/i]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -692877,6 +692877,81 @@
         "size_in_bytes": 625641,
         "changelog_html": "Food and cooking: ingredients now show 'Used in cooking:' and cooked foods show 'Cooked from:' (Nutrient Processor recipes). 201 ingredients and 333 foods, all 17 languages. Thanks to SlashSgt for the idea.",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4650/6b/2e/e3/6b2ee347-1a31-4693-ad81-96e33cadfc10.json"
+      },
+      {
+        "id": [
+          50000,
+          1634
+        ],
+        "uid": 7017976611664,
+        "file_id": 50000,
+        "name": "Helpful Descriptions - Without Used to make",
+        "version": "1.3",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 371,
+        "file_name": "Helpful Descriptions - Without Used to make 4650 1.3 2026-10-19T08-39Z izF9UkeNX.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792399172,
+        "uploaded_time": "2026-10-19T08:39:32.000+00:00",
+        "mod_version": "1.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9f8fa1b53b6f4ef5aac15a0e8b202a03d1d3c0d57158cd6d2500b3cbd085ef3e",
+        "description": "Optional lighter version: same as the normal 1.3 but without the \"Used to make\", \"Refines into\" and \"Used in cooking\" lines. Use INSTEAD of the normal file. Made from the tested 1.3 text; not checked in game yet.",
+        "size_kb": 371,
+        "size_in_bytes": 380388,
+        "changelog_html": "Food and cooking: ingredients now show 'Used in cooking:' and cooked foods show 'Cooked from:' (Nutrient Processor recipes). 201 ingredients and 333 foods, all 17 languages. Thanks to SlashSgt for the idea.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4650/e6/ec/eb/e6eceb92-6dee-4711-91c6-aef907cda30d.json"
+      },
+      {
+        "id": [
+          50001,
+          1634
+        ],
+        "uid": 7017976611665,
+        "file_id": 50001,
+        "name": "Helpful Descriptions - Value only",
+        "version": "1.3",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 72,
+        "file_name": "Helpful Descriptions - Value only 4650 1.3 2026-10-19T08-41Z 6Xd7OtxVN.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792399269,
+        "uploaded_time": "2026-10-19T08:41:09.000+00:00",
+        "mod_version": "1.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0442040e15475f66d3932da0689253d2913fc33ac6a94b653af2c1a5098ace2d",
+        "description": "Optional lighter version: only the trade goods info (Sold in, System wealth, Sells for most in) - no crafting, refining or cooking lines. Use INSTEAD of the normal file. Made from the tested 1.3 text; not checked in game yet.",
+        "size_kb": 72,
+        "size_in_bytes": 73948,
+        "changelog_html": "Food and cooking: ingredients now show 'Used in cooking:' and cooked foods show 'Cooked from:' (Nutrient Processor recipes). 201 ingredients and 333 foods, all 17 languages. Thanks to SlashSgt for the idea.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4650/0e/cb/5f/0ecb5f7d-f9c4-4c7d-a9c3-aae47471674d.json"
+      },
+      {
+        "id": [
+          50002,
+          1634
+        ],
+        "uid": 7017976611666,
+        "file_id": 50002,
+        "name": "Helpful Descriptions - Ingredients only",
+        "version": "1.3",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 301,
+        "file_name": "Helpful Descriptions - Ingredients only 4650 1.3 2026-10-19T08-42Z AeW3TdCRl.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792399333,
+        "uploaded_time": "2026-10-19T08:42:13.000+00:00",
+        "mod_version": "1.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/19014c1ddfa493acc37f03f55c756ed6af2d51440151bfc2f567ceb406968cd9",
+        "description": "Optional lighter version: only what an item is made from (Made in a Refiner from / Or mix, Cooked from). Use INSTEAD of the normal file. Made from the tested 1.3 text; not checked in game yet.",
+        "size_kb": 301,
+        "size_in_bytes": 309157,
+        "changelog_html": "Food and cooking: ingredients now show 'Used in cooking:' and cooked foods show 'Cooked from:' (Nutrient Processor recipes). 201 ingredients and 333 foods, all 17 languages. Thanks to SlashSgt for the idea.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4650/fa/74/39/fa74396b-9810-4618-8a03-f92b4932430e.json"
       }
     ],
     "changelogs": {
