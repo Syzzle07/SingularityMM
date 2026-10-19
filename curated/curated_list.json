@@ -664923,10 +664923,10 @@
     "mod_id": 4311,
     "name": "Friendly Swarm Follower",
     "summary": "Lay-who?",
-    "version": "6.45",
+    "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4311/4311-1782837803-1505288821.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1782847227,
+    "updated_timestamp": 1792387809,
     "created_timestamp": 1782847227,
     "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />This mod reskins the Laylaps / The Sentry companion drone acquired from 'A Trace of Metal' mission to resemble a Swarm planetary drone. Changes include new model with animated eye, new marker icons, new name and custom chat messages (although with reduced frequency). In addition, the mod will also equip the drone with slightly better weapons that will deal some limited damage to Sentinel drones, as well as add the option to scan for fallen Swarmer wrecks (which spawn on dissonant planets).\n<br />\n<br />To get started, players need to finish the 'A Trace of Metal' quest from base game to get their hands on Sentinel Flare item to spawn Laylaps. Upon installing the mod, the item and the drone will be transformed.\n<br />\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />GCROBOTGLOBALS.MBIN\n<br />\n<br />METADATA&#92;REALITY&#92;DEFAULTREALITY.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;REWARDTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_DIALOG_GCALIENPUZZLETABLE.MBIN\n<br />METADATA&#92;SIMULATION&#92;SCANNING&#92;SCANEVENTTABLEPLANET.MBIN\n<br />METADATA&#92;GAMESTATE&#92;MESSAGES&#92;STATUSMESSAGEDEFINITIONS.MBIN\n<br />METADATA&#92;PROJECTILES&#92;PROJECTILETABLE.MBIN\n<br />\n<br />TEXTURES&#92;UI&#92;FRONTEND&#92;ICONS&#92;U4PRODUCTS&#92;PRODUCT.DRONEFRIEND.DDS\n<br />TEXTURES&#92;UI&#92;FRONTEND&#92;ICONS&#92;U4PRODUCTS&#92;PRODUCT.DRONEFRIENDX.DDS\n<br />TEXTURES&#92;UI&#92;HUD&#92;ICONS&#92;PICKUPS&#92;PICKUP.FRIENDLYDRONE.DDS\n<br />TEXTURES&#92;UI&#92;HUD&#92;ICONS&#92;SCANNING&#92;PICKUP.FRIENDLYDRONE.DDS\n<br />\n<br />+ some new MBIN files and textures[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️✅ mixed mod (MBIN + EXML files)\n<br />\n<br />This mod will conflict with any other mod affecting the same MBIN game files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script and the TEXTURES folder.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory and the TEXTURES folder into [b]AMUMMS&#92;ModScript&#92;GlobalMEFTI[/b] directory.\n<br />\n<br />Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
     "state": "normal",
@@ -664941,25 +664941,54 @@
         "file_id": 47479,
         "name": "Friendly Swarm Follower",
         "version": "6.45",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": true,
         "size": 339,
         "file_name": "Friendly Swarm Follower 4311 6.45 2026-06-30T19-06Z 2B5KARb6k.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1782846375,
         "uploaded_time": "2026-06-30T19:06:15.000+00:00",
         "mod_version": "6.45",
         "external_virus_scan_url": "https://www.virustotal.com/gui/file/73402e150cf426b5c0d7a7c877d943bf56fd9f30509b66f552f0313939190d90",
         "description": "",
         "size_kb": 339,
-        "size_in_bytes": null,
+        "size_in_bytes": 0,
         "changelog_html": "initial release for game version 6.45",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4311/34/57/e8/3457e86c-e468-4073-a63c-2902d68baff6.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4311/34/57/e8/3457e86c-e468-4073-a63c-2902d68baff6.json"
+      },
+      {
+        "id": [
+          49994,
+          1634
+        ],
+        "uid": 7017976611658,
+        "file_id": 49994,
+        "name": "Friendly Swarm Follower",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 339,
+        "file_name": "Friendly Swarm Follower 4311 7.06 2026-10-19T05-30Z SxEYBfKmk.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792387809,
+        "uploaded_time": "2026-10-19T05:30:09.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c7bd10b277a27a45f9023489bfc98b7425bac7cc4b1479f87885dcd7187c62c6",
+        "description": "",
+        "size_kb": 339,
+        "size_in_bytes": 347551,
+        "changelog_html": "updated for game version 7.06 (Cosmos)",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4311/11/d1/56/11d15652-3ad5-41cc-a185-997b95640c83.json"
       }
     ],
     "changelogs": {
       "6.45": [
         "initial release for game version 6.45"
+      ],
+      "7.06": [
+        "updated for game version 7.06 (Cosmos)"
       ]
     }
   },
@@ -669911,13 +669940,13 @@
   {
     "mod_id": 4417,
     "name": "Salvage Rights",
-    "summary": "Bring home parts for the corvette you want to build. Salvage Rights makes the functional component roll a sure thing in planetary Salvage Containers and supported space wrecks, so each find moves your project forward.",
-    "version": "1",
+    "summary": "Get more useful rewards from your salvage runs, with guaranteed functional corvette components from supported salvage sites and a 35% Salvaged Frigate Module chance in derelict freighter loot crates.",
+    "version": "1.4",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4417/4417-1792289902-731719297.png",
     "author": "Tez367",
-    "updated_timestamp": 1790291741,
+    "updated_timestamp": 1792376738,
     "created_timestamp": 1787422711,
-    "description": "[size=4][b]Make your next salvage count[/b][/size]\n<br />\n<br />You found the site. You dug out the container. Bring home something for the ship you're building.\n<br />\n<br />Salvage Rights turns the functional corvette-component reward from a 40% chance into a guaranteed roll when you salvage a planetary Salvage Container or a supported space wreck. Reactors, shields, weapons and thrusters become a more dependable part of your hunt for the right build.\n<br />\n<br />The part you get is still random, so there's still a reason to chase the next signal. Finding a site and opening it stays part of the adventure; the reward is simply more reliable. Prices, workshop stock and salvage locations keep their original behavior.\n<br />\n<br />If collecting components is how you want to build your corvette, Salvage Rights makes that time more rewarding.\n<br />\n<br />[size=4][b]Installation[/b][/size]\n<br />\n<br />[b]Vortex:[/b] Click Mod manager download, then install, enable and deploy in Vortex.\n<br />\n<br />Remove any older SalvageRights folder, then extract SalvageRights into No Man's Sky&#92;GAMEDATA&#92;MODS&#92; and enable the mod in game. Remove its folder to uninstall. No build tools are needed.\n<br />\n<br />[size=4][b]My other No Man's Sky mods[/b][/size]\n<br />\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4415]Naked Eye[/url][/b]: A cleaner view of lights and stars.\n<br />\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4416]Void Black[/url][/b]: Deep black space and clearer galaxy-map star colors.\n<br />\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4525]Clear Air: Stations[/url][/b]: Clearer station interiors with mist and haze removed.\n<br />\n<br />Use them individually or together; these four releases have no overlapping game files.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />\n<br />Applies to the functional component roll in planetary Salvage Containers and supported space-wreck salvage. Planetary containers were checked in gameplay; the space-wreck entry was verified in game data. Other mods replacing REWARDTABLE.MBIN require a combined version. Removing the mod restores normal reward chances and leaves collected parts in your inventory. Built for PC game build 25442159. Compatibility may change with game updates.\n<br />\n<br />[size=4][b]Source for compatibility merges[/b][/size]\n<br />\n<br />The optional MXML source download is for modders combining Salvage Rights with another mod that replaces REWARDTABLE.MBIN. It is not installed directly: merge the intended changes into the other mod's matching reward table, then compile the complete MXML back to REWARDTABLE.MBIN. The package identifies the two component-chance changes and warns not to change the unrelated generic salvage roll.\n<br />\n<br />[size=4][b]Credits[/b][/size]\n<br />\n<br />MBINCompiler / libMBIN and contributors; AMUMSS contributors for earlier tooling; Hello Games.",
+    "description": "[size=4][b]Salvage Rights[/b][/size]\n<br />\n<br />Salvage Rights makes collecting parts for your corvette and upgrades for your freighter a little less of a grind.\n<br />\n<br />When you open a planetary Salvage Container or salvage a supported space wreck, you'll get a functional corvette component every time. The part is still random, so there's still some hunting involved if you're after something specific.\n<br />\n<br />Derelict freighter loot crates also get a boost, with a [b]35% chance of giving you one Salvaged Frigate Module[/b]. It's a better reason to check the crates as you explore. How many you find will still vary from run to run.\n<br />\n<br />Both changes are part of the same mod. If you already use Salvage Rights, just update to the latest version.\n<br />\n<br />[size=4][b]Installation[/b][/size]\n<br />\n<br />[b]Vortex:[/b] Click Mod manager download, then install, enable and deploy in Vortex. Replace the previous version when prompted.\n<br />\n<br />[b]Manual:[/b] With the game closed, replace your previous SalvageRights folder with the one from this download in No Man's Sky&#92;GAMEDATA&#92;MODS&#92;, then enable SalvageRights in the game.\n<br />\n<br />[size=4][b]My other No Man's Sky mods[/b][/size]\n<br />\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4415]Naked Eye[/url][/b]: A cleaner view of lights and stars.\n<br />\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4416]Void Black[/url][/b]: Deep black space and clearer galaxy-map star colors.\n<br />\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4525]Clear Air - Stations[/url][/b]: Clearer station interiors with mist and haze removed.\n<br />\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4684]Steady Signal[/url][/b]: Emergency Signal Scanners stay at 5 million units, purchase after purchase.\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />\n<br />Built for PC game build 25732212. The module boost applies to eligible derelict crates. Cargo Bulkheads and frigate expedition rewards are unchanged.\n<br />\n<br />Replaces REWARDTABLE.MBIN. Other mods replacing this file require a compatibility merge. Removing the mod restores normal reward chances; collected items stay in your inventory.\n<br />\n<br />[size=4][b]Source[/b][/size]\n<br />\n<br />The optional source download contains the verified MXML table and Python generator for compatibility merges. It is not an installable mod.\n<br />\n<br />[size=4][b]Credits[/b][/size]\n<br />\n<br />MBINCompiler / libMBIN and contributors; AMUMSS contributors for earlier tooling; Hello Games.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -669944,7 +669973,7 @@
         "size_kb": 103,
         "size_in_bytes": 105897,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4417/f9/3c/04/f93c04de-dfb3-48f0-8453-091d0f2f5446.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4417/f9/3c/04/f93c04de-dfb3-48f0-8453-091d0f2f5446.json"
       },
       {
         "id": [
@@ -669969,7 +669998,7 @@
         "size_kb": 110,
         "size_in_bytes": 112713,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4417/90/d1/ae/90d1ae93-d9b7-4ccb-8074-e5f75a7de3fa.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4417/90/d1/ae/90d1ae93-d9b7-4ccb-8074-e5f75a7de3fa.json"
       },
       {
         "id": [
@@ -669994,7 +670023,7 @@
         "size_kb": 110,
         "size_in_bytes": 113003,
         "changelog_html": "Fixes the AMUMSS build script included in the download. The mod's game file (REWARDTABLE.MBIN) is byte-identical to 1.1 - if you already have the mod installed, nothing changes and there is no need to re-download.\nThe included SalvageRights.lua used WHERE_IN_SECTION to target the corvette-component roll. That is a section filter, not a selector: it keeps the whole reward entry, so rebuilding from that script also raised the generic salvage roll from 40% to 100%, which this mod is specifically meant not to do. The script now uses PRECEDING_KEY_WORDS with SECTION_ACTIVE, and a rebuild reproduces the shipped MBIN exactly.\nOnly people who rebuilt the mod from the included script were affected. The previous file is kept under File archive.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4417/12/45/09/12450952-a235-441a-90cd-cdfa56ca0071.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4417/12/45/09/12450952-a235-441a-90cd-cdfa56ca0071.json"
       },
       {
         "id": [
@@ -670019,7 +670048,7 @@
         "size_kb": 108,
         "size_in_bytes": 111185,
         "changelog_html": "Rebuilt from current game build 25351301.\nExactly two component chances changed from 40% to 100%.\nPreserves the current unrelated recipe flag and all other reward data.\nCorrects the documented component group size to 36.\nPlanetary container testing accepted; space-wreck gameplay verification remains separate.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4417/c8/16/ca/c816ca45-88a5-4597-b809-3fb9cc80a8cf.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4417/c8/16/ca/c816ca45-88a5-4597-b809-3fb9cc80a8cf.json"
       },
       {
         "id": [
@@ -670044,7 +670073,7 @@
         "size_kb": 108,
         "size_in_bytes": 111225,
         "changelog_html": "Rebuilt from current game build 25351301.\nExactly two component chances changed from 40% to 100%.\nPreserves the current unrelated recipe flag and all other reward data.\nCorrects the documented component group size to 36.\nPlanetary container testing accepted; space-wreck gameplay verification remains separate.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4417/cb/f1/e8/cbf1e8df-14ec-4242-8eb4-eaf7ad089df0.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4417/cb/f1/e8/cbf1e8df-14ec-4242-8eb4-eaf7ad089df0.json"
       },
       {
         "id": [
@@ -670055,9 +670084,9 @@
         "file_id": 48991,
         "name": "Salvage Rights 1.3",
         "version": "1.3",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 108,
         "file_name": "Salvage Rights 1.3 4417 1.3 2026-09-23T20-08Z QR3q07yEQ.zip",
         "detected_file_extension": "zip",
@@ -670069,7 +670098,7 @@
         "size_kb": 108,
         "size_in_bytes": 111580,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4417/8d/ef/36/8def367f-d263-4107-8866-2e0b9bf1b2e0.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4417/8d/ef/36/8def367f-d263-4107-8866-2e0b9bf1b2e0.json"
       },
       {
         "id": [
@@ -670080,8 +670109,8 @@
         "file_id": 49078,
         "name": "SalvageRights 1.2 MXML Source",
         "version": "1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 269,
         "file_name": "SalvageRights 1.2 MXML Source 4417 1 2026-09-24T23-15Z bqtarIDKi.zip",
@@ -670094,7 +670123,57 @@
         "size_kb": 269,
         "size_in_bytes": 276449,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4417/9b/7f/98/9b7f98a1-043b-48a3-b7c4-d9a3b710b797.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4417/9b/7f/98/9b7f98a1-043b-48a3-b7c4-d9a3b710b797.json"
+      },
+      {
+        "id": [
+          49990,
+          1634
+        ],
+        "uid": 7017976611654,
+        "file_id": 49990,
+        "name": "Salvage Rights 1.4",
+        "version": "1.4",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 110,
+        "file_name": "Salvage Rights 1.4 4417 1.4 2026-10-19T02-25Z N2LUkQHu8.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792376725,
+        "uploaded_time": "2026-10-19T02:25:25.000+00:00",
+        "mod_version": "1.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a7a4e6fb781eb7fd3706fcd0a8759820fae1963c2653208ca90966d7a646f6b7",
+        "description": "",
+        "size_kb": 110,
+        "size_in_bytes": 113056,
+        "changelog_html": "Added a 35% chance of one Salvaged Frigate Module from eligible derelict freighter loot crates.\nRetained the guaranteed functional corvette-component rolls for planetary Salvage Containers and supported space wrecks.\nRebuilt from PC game build 25732212, preserving current reward data outside the three intended changes.\nUpdated installation guidance, compatibility source and links to all four other published NMS mods.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4417/73/d0/c9/73d0c984-6c59-4bb1-bd65-2cfefb853e8b.json"
+      },
+      {
+        "id": [
+          49991,
+          1634
+        ],
+        "uid": 7017976611655,
+        "file_id": 49991,
+        "name": "Salvage Rights 1.4 - Compatibility Source",
+        "version": "1.4",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 288,
+        "file_name": "Salvage Rights 1.4 - Compatibility Source 4417 1.4 2026-10-19T02-25Z XnaJySDMx.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792376738,
+        "uploaded_time": "2026-10-19T02:25:38.000+00:00",
+        "mod_version": "1.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/943c984852698d86a44bb8f9646d68d6366c4dbe938ccef27a160853f8642842",
+        "description": "",
+        "size_kb": 288,
+        "size_in_bytes": 295163,
+        "changelog_html": "Added a 35% chance of one Salvaged Frigate Module from eligible derelict freighter loot crates.\nRetained the guaranteed functional corvette-component rolls for planetary Salvage Containers and supported space wrecks.\nRebuilt from PC game build 25732212, preserving current reward data outside the three intended changes.\nUpdated installation guidance, compatibility source and links to all four other published NMS mods.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4417/6b/b1/a3/6bb1a39d-e0aa-49b7-93e8-9667d26b638b.json"
       }
     ],
     "changelogs": {
@@ -670109,6 +670188,12 @@
         "Preserves the current unrelated recipe flag and all other reward data.",
         "Corrects the documented component group size to 36.",
         "Planetary container testing accepted; space-wreck gameplay verification remains separate."
+      ],
+      "1.4": [
+        "Added a 35% chance of one Salvaged Frigate Module from eligible derelict freighter loot crates.",
+        "Retained the guaranteed functional corvette-component rolls for planetary Salvage Containers and supported space wrecks.",
+        "Rebuilt from PC game build 25732212, preserving current reward data outside the three intended changes.",
+        "Updated installation guidance, compatibility source and links to all four other published NMS mods."
       ]
     }
   },
@@ -676878,7 +676963,7 @@
     "version": "7.09",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1789712031-1757622688.png",
     "author": "Jank7s",
-    "updated_timestamp": 1791008833,
+    "updated_timestamp": 1792392113,
     "created_timestamp": 1789712911,
     "description": "[center][size=6][b][color=#3c78d8]What does it do?[/color][/b][/size][/center]\n<br />[center]This mod changes the landing bays by repositioning the default controls, removing the automatic opening and making bays independent of each other.[/center]\n<br />\n<br />[list]\n<br />[*][b][color=#3c78d8]Disables the Automatic Opening:[/color][/b] This mod removes the on-landing opening behavior by intercepting the game engine, then rebuilds the bay opening and closing logic.[/*]\n<br />[*][b][color=#3c78d8]Independent Ramp Controls:[/color][/b] The controls of one bay control only that bay, independent of all others.[/*]\n<br />[*][b][color=#3c78d8]Reposition the Default Bay Controls:[/color][/b] Moves the landing bay controls from the default position, which has them floating in space depending on which style of habitat they're attached to.[/*]\n<br />[*][b][color=#3c78d8]Restores the Landing Bay Light:[/color][/b] Rewires the broken logic of the old warning light that used to flash when the landing bay opened.[/*]\n<br />[/list][line]\n<br />\n<br />[size=5][b][color=#3c78d8]Quirks[/color][/b][/size]\n<br />[list]\n<br />[*][b][color=#3c78d8]Door State Cache:[/color][/b] Sometimes after installing and moving mods around, the door states get mixed up, with a non-mod state stuck in the game's door cache. You can get double door animations when using the ramp control, plus the auto-open behavior. If this happens, try:\n<br />[list=1]\n<br />[*]Close all the bay doors, make a restore point and an auto-save, then restart the game, this usually solves it.[/*]\n<br />[*]If it's particularly persistent you can do a complete reinstall. Delete the mod from your GAMEDATA&#92;MODS folder, empty your recycle bin, then install the current version (7.08).[/*]\n<br />[/list][/*]\n<br />[*][b][color=#3c78d8]Multiplayer Behavior: [/color][/b][color=#ffffff]The way multiplayer works is everyone has their own instance of the game and mods only effect their game so this means that you will see your bays closed and others without the mod will see it's behavior as vanilla with auto open and everything. There is also a mix up of the toggle states so when you open your bay to leave others might see it actually closing from the automatic open state from landing, More testing is needed to fully understand multiplayer behavior. [/color][/*]\n<br />[*][b][color=#3c78d8]Half Open Bays:[/color][/b] The half-opening behavior was lost when the engine-driven state logic was disabled. The in-flight opening behavior is now a fully open bay.[/*]\n<br />[*][b][color=#3c78d8]Beta Mod:[/color][/b] This mod is in beta. I have not done thorough testing of all possible scenarios, and there could very well be bugs I haven't encountered. I want to make this mod as stable and polished as possible, and I urge anyone experiencing bugs to file a detailed bug report so I can make this the best mod I can.[/*]\n<br />[/list][line]\n<br />\n<br />[size=5][b][color=#3c78d8]Why I made it[/color][/b][/size]\n<br />I wanted a more polished and realistic role-play feel to the landing bays. This mod makes you do a bit more of the basic actions of leaving and entering your spacecraft. It adds to the immersion of exploring space and new worlds while giving you a little more control over your ship.\n<br />[line]\n<br />\n<br />[size=5][b][color=#3c78d8]Installation[/color][/b][/size]\n<br />Extract the zip file and place the folder [color=#f1c232]Jank7.Ultimate_Landing_Bays_****[/color] into [color=#f1c232]~&#92;No Man's Sky&#92;GAMEDATA&#92;MODS[/color]\n<br />[line]\n<br />\n<br />[size=5][b][color=#3c78d8]Mod Conflicts[/color][/b][/size]\n<br />The Main mod version 7.08 modifies or adds the following files.\n<br />[list]\n<br />[*]&#92;MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C&#92;ENTITIES&#92;[color=#f1c232]LIFTDATA.ENTITY.EXML[/color][/*]\n<br />[*]&#92;MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_[color=#38761d](A,B)[/color]&#92;ENTITIES&#92;[color=#f1c232]RAMPDATA.ENTITY.EXML[/color][/*]\n<br />[*]&#92;MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;[color=#f1c232]AIRLOCK_NESW_[/color][color=#38761d](A,B,C)[/color][color=#f1c232].SCENE.MBIN[/color][/*]\n<br />[*][color=#ffffff]&#92;MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;LIGHTS&#92;AIRLOCKLIGHT&#92;ENTITIES&#92;[/color][color=#f1c232]LIGHTCONTROLS.ENTITY.EXML[/color][/*]\n<br />[*][color=#ffffff]&#92;MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A&#92;ENTITIES&#92;[/color][color=#f1c232]JANK7_VENTS.ENTITY.MBIN[/color][/*]\n<br />[*][color=#ffffff]&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;[/color][color=#f1c232]AIRLOCK_NESW_B_RAMPCONTROLS.ENTITY.EXML[/color][/*]\n<br />[/list][b][color=#cc0000][size=4]To avoid overwrites:[/size][/color][/b] All Lua scripts are included so you can merge these mod/s with others that edit the same files using [url=https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide]AMUMSS[/url].\n<br />[line]\n<br />\n<br />[size=5][b][color=#3c78d8]Disclaimer[/color][/b][/size]\n<br />I use AI tools in the process of creating my mods.",
     "state": "normal",
@@ -676907,7 +676992,7 @@
         "size_kb": 35,
         "size_in_bytes": 36364,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/b5/9c/72/b59c7281-b6c1-40e3-83a8-5b2f059a11bd.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/b5/9c/72/b59c7281-b6c1-40e3-83a8-5b2f059a11bd.json"
       },
       {
         "id": [
@@ -676932,7 +677017,7 @@
         "size_kb": 35,
         "size_in_bytes": 36374,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/54/fc/46/54fc46cf-a4c3-4f0d-9361-f6085e3b63e7.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/54/fc/46/54fc46cf-a4c3-4f0d-9361-f6085e3b63e7.json"
       },
       {
         "id": [
@@ -676957,7 +677042,7 @@
         "size_kb": 78,
         "size_in_bytes": 80648,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/1e/11/c4/1e11c4ad-b8a3-498c-8419-22995e1ef341.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/1e/11/c4/1e11c4ad-b8a3-498c-8419-22995e1ef341.json"
       },
       {
         "id": [
@@ -676982,7 +677067,7 @@
         "size_kb": 45,
         "size_in_bytes": 46457,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/0e/84/05/0e8405a9-e296-4ef7-a6af-e7970070a0b7.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/0e/84/05/0e8405a9-e296-4ef7-a6af-e7970070a0b7.json"
       },
       {
         "id": [
@@ -677007,7 +677092,7 @@
         "size_kb": 32,
         "size_in_bytes": 33613,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/19/7d/54/197d541f-55a1-4ce5-be3d-cf0697e4129c.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/19/7d/54/197d541f-55a1-4ce5-be3d-cf0697e4129c.json"
       },
       {
         "id": [
@@ -677032,7 +677117,7 @@
         "size_kb": 82,
         "size_in_bytes": 84224,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/64/d1/6b/64d16bd9-c1a2-4df0-8103-164e46fc7eef.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/64/d1/6b/64d16bd9-c1a2-4df0-8103-164e46fc7eef.json"
       },
       {
         "id": [
@@ -677057,7 +677142,7 @@
         "size_kb": 36,
         "size_in_bytes": 37090,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/ae/46/ea/ae46eaba-74a0-4fb7-aa9d-ec0d1f1d055c.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/ae/46/ea/ae46eaba-74a0-4fb7-aa9d-ec0d1f1d055c.json"
       },
       {
         "id": [
@@ -677082,7 +677167,7 @@
         "size_kb": 36,
         "size_in_bytes": 37080,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/64/17/25/641725bf-020f-45bf-9aee-54b6d968e748.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/64/17/25/641725bf-020f-45bf-9aee-54b6d968e748.json"
       },
       {
         "id": [
@@ -677107,7 +677192,7 @@
         "size_kb": 8,
         "size_in_bytes": 8649,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/52/ca/e8/52cae88b-2660-4391-9d21-c69737c91200.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/52/ca/e8/52cae88b-2660-4391-9d21-c69737c91200.json"
       },
       {
         "id": [
@@ -677132,7 +677217,7 @@
         "size_kb": 79,
         "size_in_bytes": 81684,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/c2/6c/35/c26c35bd-3250-4f1e-a145-51dffd7f36f7.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/c2/6c/35/c26c35bd-3250-4f1e-a145-51dffd7f36f7.json"
       },
       {
         "id": [
@@ -677157,7 +677242,7 @@
         "size_kb": 36,
         "size_in_bytes": 37423,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/74/a4/26/74a4266e-cb6b-42cf-85e2-1b6969247cb8.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/74/a4/26/74a4266e-cb6b-42cf-85e2-1b6969247cb8.json"
       },
       {
         "id": [
@@ -677182,7 +677267,7 @@
         "size_kb": 36,
         "size_in_bytes": 37435,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/77/23/f5/7723f51e-6a36-4d77-85db-83f91b4f2e07.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/77/23/f5/7723f51e-6a36-4d77-85db-83f91b4f2e07.json"
       },
       {
         "id": [
@@ -677207,7 +677292,7 @@
         "size_kb": 33,
         "size_in_bytes": 34647,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/29/0e/45/290e455c-3863-4901-a054-c25d3809995c.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/29/0e/45/290e455c-3863-4901-a054-c25d3809995c.json"
       },
       {
         "id": [
@@ -677232,7 +677317,7 @@
         "size_kb": 43,
         "size_in_bytes": 44884,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/29/c1/9a/29c19a39-b56e-4a2c-bc7e-a624f1cb19ad.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/29/c1/9a/29c19a39-b56e-4a2c-bc7e-a624f1cb19ad.json"
       },
       {
         "id": [
@@ -677257,7 +677342,7 @@
         "size_kb": 43,
         "size_in_bytes": 44895,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/cd/a2/2f/cda22fa0-1173-4000-9444-eb734e82a8f7.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/cd/a2/2f/cda22fa0-1173-4000-9444-eb734e82a8f7.json"
       },
       {
         "id": [
@@ -677282,7 +677367,7 @@
         "size_kb": 44,
         "size_in_bytes": 45372,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/1a/f6/7e/1af67e90-3ce8-4ae1-8c9a-6f4ab6477fbf.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/1a/f6/7e/1af67e90-3ce8-4ae1-8c9a-6f4ab6477fbf.json"
       },
       {
         "id": [
@@ -677307,7 +677392,7 @@
         "size_kb": 44,
         "size_in_bytes": 45382,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/67/99/c2/6799c2fa-174e-44ec-9dcb-4412c6a8195f.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/67/99/c2/6799c2fa-174e-44ec-9dcb-4412c6a8195f.json"
       },
       {
         "id": [
@@ -677332,7 +677417,7 @@
         "size_kb": 40,
         "size_in_bytes": 41867,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/ea/94/89/ea9489b5-3e9e-4eb4-b310-30a0b74534ec.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/ea/94/89/ea9489b5-3e9e-4eb4-b310-30a0b74534ec.json"
       },
       {
         "id": [
@@ -677343,8 +677428,8 @@
         "file_id": 49474,
         "name": "Ultimate Landing Bays",
         "version": "7.09",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 37,
         "file_name": "Ultimate Landing Bays 4517 7.09 2026-10-03T04-42Z FpHgXM1EB.zip",
@@ -677357,7 +677442,7 @@
         "size_kb": 37,
         "size_in_bytes": 38168,
         "changelog_html": "Restores switches animations.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/ef/e8/bb/efe8bb38-b416-439d-a1b1-785a5a120b28.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/ef/e8/bb/efe8bb38-b416-439d-a1b1-785a5a120b28.json"
       },
       {
         "id": [
@@ -677368,8 +677453,8 @@
         "file_id": 49476,
         "name": "Ultimate Landing Bays - B",
         "version": "7.10",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 78,
         "file_name": "Ultimate Landing Bays - B 4517 7.10 2026-10-03T06-26Z 31ISmluVM.zip",
@@ -677382,7 +677467,7 @@
         "size_kb": 78,
         "size_in_bytes": 80102,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/73/7a/36/737a367a-4b29-4a0a-874f-98f086d0ff63.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/73/7a/36/737a367a-4b29-4a0a-874f-98f086d0ff63.json"
       },
       {
         "id": [
@@ -677393,8 +677478,8 @@
         "file_id": 49477,
         "name": "Ultimate Landing Bays - A",
         "version": "7.10",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 78,
         "file_name": "Ultimate Landing Bays - A 4517 7.10 2026-10-03T06-27Z DcGFLKeIl.zip",
@@ -677407,7 +677492,82 @@
         "size_kb": 78,
         "size_in_bytes": 80103,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4517/af/7e/01/af7e0177-a4b1-456e-a60a-4b27841b51ce.json"
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/af/7e/01/af7e0177-a4b1-456e-a60a-4b27841b51ce.json"
+      },
+      {
+        "id": [
+          49996,
+          1634
+        ],
+        "uid": 7017976611660,
+        "file_id": 49996,
+        "name": "Ultimate Landing Bays",
+        "version": "7.11.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 38,
+        "file_name": "Ultimate Landing Bays 4517 7.11.1 2026-10-19T06-40Z KsnM3TtAy.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792392044,
+        "uploaded_time": "2026-10-19T06:40:44.000+00:00",
+        "mod_version": "7.11.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f0ec5fa6715ddb96d5b3528c66da1d7c5e03c86afbe4e9e7022f791123d7e56d",
+        "description": "Independent Controls Version.<br />Solo mod making use of new vanilla exterior bay control.<br />Compiled for Cosmos 7.05",
+        "size_kb": 38,
+        "size_in_bytes": 39555,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/28/12/29/28122961-0597-4100-b719-20573def2895.json"
+      },
+      {
+        "id": [
+          49997,
+          1634
+        ],
+        "uid": 7017976611661,
+        "file_id": 49997,
+        "name": "Ultimate Landing Bays - A",
+        "version": "7.11.1",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 79,
+        "file_name": "Ultimate Landing Bays - A 4517 7.11.1 2026-10-19T06-41Z hfsARgqwW.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792392067,
+        "uploaded_time": "2026-10-19T06:41:07.000+00:00",
+        "mod_version": "7.11.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d0cb1d809ebf8db4369b34d2f0c73ea82e4139ba59b91a39a09ec30c0d61e8d4",
+        "description": "Independent Controls Version.<br />Combined package includes Cockpit Landing Bay Controls &amp; Ultimate Landing Bays.<br />Compiled for Cosmos 7.05",
+        "size_kb": 79,
+        "size_in_bytes": 81242,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/53/d5/4d/53d54d5a-2e81-4572-ad1d-d6c858cb44b8.json"
+      },
+      {
+        "id": [
+          49998,
+          1634
+        ],
+        "uid": 7017976611662,
+        "file_id": 49998,
+        "name": "Ultimate Landing Bays - B",
+        "version": "7.11.1",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 79,
+        "file_name": "Ultimate Landing Bays - B 4517 7.11.1 2026-10-19T06-41Z IohEj95xs.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792392113,
+        "uploaded_time": "2026-10-19T06:41:53.000+00:00",
+        "mod_version": "7.11.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/99c8c5f7b5b42b803a1bd463ade44aea5a5737821bc7a580e9287391181093df",
+        "description": "Non-independent Controls Version.<br />Combined package includes Cockpit Landing Bay Controls &amp; Ultimate Landing Bays.<br />Compiled for Cosmos 7.05<br />",
+        "size_kb": 79,
+        "size_in_bytes": 81241,
+        "changelog_html": null,
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4517/00/b7/24/00b724f5-3bde-4ecd-a39a-dbe3b9a52c20.json"
       }
     ],
     "changelogs": {
