@@ -9628,5 +9628,125 @@
         "id": "4664",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "- HQ Icon Rework -",
+        "id": "4665",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "- No Meta Economy -",
+        "id": "4666",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "phasebeam colors",
+        "id": "4667",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "star trek pulse engine warp",
+        "id": "4668",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Simpler Singleplayer Nexus Missions",
+        "id": "4669",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Hulk Meltdowns",
+        "id": "4670",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corrupted Quad Atlantid Recolor",
+        "id": "4671",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Texto en Spanish y Lat - Voces en Ingles",
+        "id": "4672",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "E3 Modern Overhaul - v0.97 (COSMOS)",
+        "id": "4673",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Man's Legacy Map",
+        "id": "4674",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Force Wave Condition",
+        "id": "4675",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Force Water Color",
+        "id": "4676",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Trade Walkways",
+        "id": "4677",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Trade Basic Modules",
+        "id": "4678",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Trade Expedition Modules",
+        "id": "4679",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Freighter Building Expansion",
+        "id": "4680",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corrupted Quad Recolors",
+        "id": "4682",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Steady Signal - Fixed Scanner Prices",
+        "id": "4684",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Thunderbird Storage Rework.",
+        "id": "4685",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "gShip Starborn Runner Texture Metal-Matte",
+        "id": "4686",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
