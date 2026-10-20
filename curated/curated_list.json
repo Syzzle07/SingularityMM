@@ -695951,13 +695951,13 @@
   {
     "mod_id": 4679,
     "name": "Trade Expedition Modules",
-    "summary": "Enables you to trade the expedition reward corvette modules for advanced corvette modules, or trade for them if you wish.",
+    "summary": "Enables you to trade the expedition reward corvette modules for advanced corvette modules.",
     "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4679/4679-1792094008-1857521846.jpg",
     "author": "Grouch",
     "updated_timestamp": 1792094145,
     "created_timestamp": 1792094145,
-    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod adds the 10 corvette modules awarded from Expedition 19: Corvette and Expedition 20: Breach to the list of corvette modules that can be traded for advanced modules. In the vanilla game, you cannot normally use them to barter for advanced modules, probably due to our ability to craft them using resources.\n<br />\n<br />An optional file is also available that allows you to trade [b]for[/b] them, if that is what you were looking for instead. \n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"Trade Expedition Modules\" folder inside of GAMEDATA/MODS\n<br />﻿For further mod installation/troubleshooting, see [url=https://docs.google.com/document/d/18k5VfvzLXbpBrAGGO7LK30c2Ta_lWQ5F5YgEpuwKZ6M/edit]NMS Modding after 5.58 (to 7.x and more)[/url].\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />METADATA&#92;REALITY&#92;DEFAULTREALITY.MBIN",
+    "description": "[b]Confirmed to be working still as of 7.06[/b]\n<br />\n<br />This mod adds the 10 corvette modules awarded from Expedition 19: Corvette and Expedition 20: Breach to the list of corvette modules that can be traded for advanced modules. In the vanilla game, you cannot normally use them to barter for advanced modules, probably due to our ability to craft them using resources.\n<br />\n<br />If you would like to acquire the expedition modules instead, use [url=https://www.nexusmods.com/nomanssky/mods/2062]Consumerism[/url] instead (alongside [url=https://www.nexusmods.com/nomanssky/mods/3420]Communism[/url] if you wish for them to be free).\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />﻿Place the \"Trade Expedition Modules\" folder inside of GAMEDATA/MODS\n<br />﻿For further mod installation/troubleshooting, see [url=https://docs.google.com/document/d/18k5VfvzLXbpBrAGGO7LK30c2Ta_lWQ5F5YgEpuwKZ6M/edit]NMS Modding after 5.58 (to 7.x and more)[/url].\n<br />\n<br />[size=5]File Changes[/size]\n<br />\n<br />﻿Modifies:\n<br />METADATA&#92;REALITY&#92;DEFAULTREALITY.MBIN",
     "state": "normal",
     "warningMessage": "",
     "files": [
