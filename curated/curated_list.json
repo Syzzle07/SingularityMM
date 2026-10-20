@@ -681068,10 +681068,10 @@
     "mod_id": 4555,
     "name": "Lunatus (distant worlds)",
     "summary": "my personal replacement for Crescent Worlds. makes distant planets blend better with sky/fog.",
-    "version": "1",
+    "version": "1.7",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4555/4555-1790584832-1143230330.png",
     "author": "Somnati",
-    "updated_timestamp": 1791861367,
+    "updated_timestamp": 1792458730,
     "created_timestamp": 1790205794,
     "description": "[size=4][b]Description\n<br />WIP - this mod is tricky so give me some time to iron things out. will update occasionally.\n<br />v1.5 has released, together with Nubilus 1.0, my new cloud mod (check the changelog for info).\n<br />[/b][/size]\n<br />\n<br />I'd always used Crescent Worlds, but it hasn't been updated for Cosmos. Rather than patch someone else's mod, I built my own from scratch. Lunatus contains no code from Crescent Worlds or any other mod. It's made from the game's own shaders, with AI assistance (Claude), and tuned by me in-game.\n<br />Lunatus changes how your sky looks: the worlds in it, and the air around you. Other planets and moons are lit by their real star, sit behind your atmosphere instead of looking pasted on top of it, and change with your day and night. Your own planet gets one physical haze from your feet to the horizon, real dusk and darker nights, rain mist, volcanic ash haze and auroras.\n<br />In vanilla, every world in your sky is lit with your own planet's light. That light is clamped high overhead, tinted by your sunset and swapped for moonlight at night, so other worlds never show a true phase. By day they look like stickers on the sky, and at night their dark sides are black cut-outs. Lunatus fixes all of that with shaders built from the game's own 7.04.1 shaders.\n<br />[b]Clouds have moved out:[/b] the clouds now live in their own mod, Nubilus, released together with Lunatus 1.5. Nubilus has volumetric clouds that match from orbit to the ground, a rewritten water surface, and an SDR highlight fix. Lunatus works on its own too, but I recommend running both.\n<br />I tried my best with this. Expect issues, and I'll fix them as they come. If you don't like a certain visual effect, let me know: I may be able to upload alternate versions.\n<br />Optional comparison files: \"Vanilla vs 1.5\" and \"1.4 vs 1.5\" split-screen builds (left 40% old, right 60% 1.5). They're for screenshots only, not for playing.\n<br />\n<br />\n<br />[b]// PROGRESS UPDATES[/b]\n<br />[size=2][color=#9e9e9e]progress notes (click to expand)[/color][/size]\n<br />[spoiler]\n<br />bug/visual fixes.\n<br />[b]improved FOG.\n<br />altered ring render.\n<br />possible eclipses?\n<br />dimmer clouds from space.(nubilus)\n<br />\n<br />// future mods planned\n<br />expanded planet color pallet.\n<br />new planetary terrain patterns. (striped planets etc.)\n<br />terrain gen overhaul.\n<br />new HUD.\n<br />detailed planet terrain from space (visible mountains etc).[/b][/spoiler]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Download and extract the archive.\n<br />When updating, delete your old Lunatus folder first. 1.4's cloud files would otherwise stay behind and fight Nubilus.\n<br />Place the \"Lunatus\" folder in ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;\n<br />Recommended: install Nubilus 1.0 next to it.\n<br />Remove any other mod that replaces the same files (see Requirements).\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />Worlds in your sky\n<br />[list]\n<br />[*]Real crescents: lit by their actual star, not your planet's light. Crescents at dusk, half and full phases, and a world stays lit at night when its sun still reaches it.[/*]\n<br />[*]Behind your sky by day: your air sits in front of them. Their dark side melts into the sky, and their lit side shows through the air in front of it.[/*]\n<br />[*]Night skies: a world's sunlit side shines like a real moon, dims and turns orange-red low in the sky, and its dark side is shaded by the system's space fog instead of a black cut-out. Night sides end in a clean edge.[/*]\n<br />[*]Atmosphere glow: a bright line at the edge, fading into space in each world's own colour. From orbit it sits at the edge of the clouds, not over them.[/*]\n<br />[*]Rings: crisp ringlets and the planet's shadow across its ring. Rings sit behind your air, low rings fade into the horizon haze, and from orbit far rings sit behind a nearer world's glow.[/*]\n<br />[*]Clean climb out of a planet: the worlds around you change from the ground look to the space look in one smooth step, with no grey veil and no white fog on asteroids.[/*]\n<br />[/list]Your own planet\n<br />[list]\n<br />[*]One haze: the game's three fog layers replaced by one. Denser and more atmospheric in 1.5, it settles low (valleys fill, peaks clear), takes the colour of the sky behind it, and always ends in haze at the horizon.[/*]\n<br />[*]Light in the haze: it glows only where sunlight reaches it. At dusk the low haze goes dark first while higher air stays lit.[/*]\n<br />[*]Dusk and night: the sky's light fades with the sunset, nights are darker and keep their star's colour, and the night air clears so the space sky shows through.[/*]\n<br />[*]Sunlight: bright surfaces brighten gently (no blown-out ground at noon), shaded slopes keep more sky light, and cave ceilings are no longer lit cyan.[/*]\n<br />[*]Sun: a real sun disc that reddens near the horizon, and a lens flare that fades gently through thin clouds.[/*]\n<br />[*]Moons: on small moons the sky wraps all the way around you above the clouds.[/*]\n<br />[*]Auroras: on about half the worlds with air, over both poles at night. They hang high above the clouds, keep a steady shape and colour per world, cast a faint glow on the ground, and from orbit their curtains rise above the planet's edge.[/*]\n<br />[*]Particles: smoke, dust, mist and sparks sit in your planet's haze and darken at night. Fireflies and embers keep their glow, and particles no longer cut off hard at the camera.[/*]\n<br />[*]Rain: the haze thins and a deep, close mist gathers low.[/*]\n<br />[*]Volcanic worlds: wrapped in a thick, ash-tinted haze.[/*]\n<br />[*]Glow: bloom that settles at the same speed at every frame rate, and no sky-coloured outlines around objects against fog.[/*]\n<br />[/list]\n<br />\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*]No Man's Sky 7.04.1 (Cosmos), PC. No other mods required. Nubilus 1.0 recommended.[/*]\n<br />[*]Not compatible with other shader mods that replace the same files: CrescentWorlds, Key Art Worlds and Atmosphere, other fog, atmosphere or particle shader mods, and lens-flare shader mods. Only one mod can own each shader file (the full file list is in the README).[/*]\n<br />[*]For clouds, use Nubilus or another cloud mod, not both.[/*]\n<br />[*]Table (MBIN/EXML) mods are fine, including sky colour and weather mods.[/*]\n<br />[*]Shader mods can break when Hello Games updates the game. If things look wrong after a patch, remove Lunatus until an update is posted.[/*]\n<br />[/list]\n<br />\n<br />Known limits\n<br />[list]\n<br />[*]In two- and three-sun systems, the night tint uses the main sun's colour.[/*]\n<br />[*]Worlds seen from very close are left vanilla.[/*]\n<br />[*]Without Nubilus, other worlds' cloud layers are the game's own.[/*]\n<br />[*]The rain mist sits by sea level, so high ground gets less of it.[/*]\n<br />[/list]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*]Hello Games, for No Man's Sky and a universe worth looking up at.[/*]\n<br />[*]The CrescentWorlds mod, whose idea of true crescents in the sky inspired this one. Lunatus is written from scratch; no other mod's code is used.[/*]\n<br />[*]The NMS modding community's tools, MBINCompiler and HGPAKtool, and Khronos' SPIRV-Cross, glslang and SPIRV-Tools.[/*]\n<br />[*]Claude AI[/*]\n<br />[/list]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />",
     "state": "normal",
@@ -681386,8 +681386,8 @@
         "file_id": 49794,
         "name": "Lunatus 1.6 (VanillaNights)",
         "version": "1.6",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 8380,
         "file_name": "Lunatus 1.6 (VanillaNights) 4555 1.6 2026-10-13T03-15Z 8gT07OSsn.zip",
@@ -681411,9 +681411,9 @@
         "file_id": 49795,
         "name": "Lunatus v1.6 (darker nights)",
         "version": "1.6",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 8395,
         "file_name": "Lunatus v1.6 (darker nights) 4555 1.6 2026-10-13T03-16Z aCzNuEFJi.zip",
         "detected_file_extension": "zip",
@@ -681426,6 +681426,56 @@
         "size_in_bytes": 8597139,
         "changelog_html": "1.6\n- New: land fog. The land now ends in fog just before the terrain stops drawing, and the fog lifts as you climb past 3-6 km so the whole planet shows from high up.\n- New: a light valley fog settles in valleys and canyons from dusk through the morning and burns off as the sun climbs.\n- New: storm, rain and ash fog never get brighter than the fog brightness cap, and a storm's fog comes in more gently.\n- New: thicker air in the distance, clearer air close by. Far land sits deeper in your planet's haze; the haze right around you is thinner (about half of it is back at 500 m, all of it from 2 km).\n- New: the back face of planetary rings is lit by the light passing through the ring instead of being black, and rings seen from the ground by day fade into the sky's haze.\n- New: from orbit, the atmosphere's rim glow hugs the ground where no clouds sit under it, instead of floating above the planet's edge with a dark gap.\n- New: gas giants get their own haze (thick down in the clouds, clear above them) when Nubilus 1.2 is installed.\n- Fixed: space dust / heavy-air smoke near planets turning pale cyan and blocky, or washed green higher up (thanks for the report).\n- Fixed: from space, an aurora with a ring behind it turning into a flat pink blob.\n- Fixed: a dark, saturated stripe along the skyline on small moons when flying up.\n- Update: delete the old Lunatus folder, then drop in the new one. Update Nubilus to 1.2 at the same time.",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/f7/0b/50/f70b5013-8b04-4c52-996b-362774821d59.json"
+      },
+      {
+        "id": [
+          50011,
+          1634
+        ],
+        "uid": 7017976611675,
+        "file_id": 50011,
+        "name": "Lunatus v1.7 (darker nights)",
+        "version": "1.7",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8589,
+        "file_name": "Lunatus v1.7 (darker nights) 4555 1.7 2026-10-20T01-12Z EwAQ86njC.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792458726,
+        "uploaded_time": "2026-10-20T01:12:06.000+00:00",
+        "mod_version": "1.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a3c3989cdd0d9421569b07d9d3d1b9d71339443dc90854c9d47acd62f56937f4",
+        "description": "Darker nights: land, sky and fog dim to 60% at full night, with a ceiling on the night light.",
+        "size_kb": 8589,
+        "size_in_bytes": 8795981,
+        "changelog_html": "NEW - God rays and shadows rewritten (finer, steadier shafts; fog volumes take real sun shadows; smooth lamp/torch light cones; sun shadows without steps between distances, sharp at contact, softer further out). NEW - Haze: about 70% thinner coming down from orbit from roughly 4 km above the ground, easing back in near the ground (unchanged on foot); the sudden switch-on around 9-10 km is smoothed and the haze colour changes gradually between 4 and 6 km; by day other planets and moons show through the haze about 30% more (nights unchanged); near and middle haze about half as dense so land around 1 km keeps more colour.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/0f/a5/41/0fa54158-0d78-41f9-a19b-aa6996bafb24.json"
+      },
+      {
+        "id": [
+          50012,
+          1634
+        ],
+        "uid": 7017976611676,
+        "file_id": 50012,
+        "name": "Lunatus 1.7 (VanillaNights)",
+        "version": "1.7",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 8574,
+        "file_name": "Lunatus 1.7 (VanillaNights) 4555 1.7 2026-10-20T01-12Z VMJOtCiZG.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792458730,
+        "uploaded_time": "2026-10-20T01:12:10.000+00:00",
+        "mod_version": "1.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ba64b3cf892bd0d0fe1239374d72b2cd48acd803ef08f1898ce0bce5cb9f19b8",
+        "description": "Everything as the main file, but nights keep the game's own brightness (no extra night dimming, no ceiling).",
+        "size_kb": 8574,
+        "size_in_bytes": 8780767,
+        "changelog_html": "NEW - God rays and shadows rewritten (finer, steadier shafts; fog volumes take real sun shadows; smooth lamp/torch light cones; sun shadows without steps between distances, sharp at contact, softer further out). NEW - Haze: about 70% thinner coming down from orbit from roughly 4 km above the ground, easing back in near the ground (unchanged on foot); the sudden switch-on around 9-10 km is smoothed and the haze colour changes gradually between 4 and 6 km; by day other planets and moons show through the haze about 30% more (nights unchanged); near and middle haze about half as dense so land around 1 km keeps more colour.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/fe/44/76/fe4476a2-b016-47f6-abaf-b0cdb1995b1a.json"
       }
     ],
     "changelogs": {
@@ -681526,6 +681576,9 @@
         "- Fixed: from space, an aurora with a ring behind it turning into a flat pink blob.",
         "- Fixed: a dark, saturated stripe along the skyline on small moons when flying up.",
         "- Update: delete the old Lunatus folder, then drop in the new one. Update Nubilus to 1.2 at the same time."
+      ],
+      "1.7": [
+        "NEW - God rays and shadows rewritten (finer, steadier shafts; fog volumes take real sun shadows; smooth lamp/torch light cones; sun shadows without steps between distances, sharp at contact, softer further out). NEW - Haze: about 70% thinner coming down from orbit from roughly 4 km above the ground, easing back in near the ground (unchanged on foot); the sudden switch-on around 9-10 km is smoothed and the haze colour changes gradually between 4 and 6 km; by day other planets and moons show through the haze about 30% more (nights unchanged); near and middle haze about half as dense so land around 1 km keeps more colour."
       ]
     }
   },
@@ -690635,10 +690688,10 @@
     "mod_id": 4622,
     "name": "Nubilus (cloud overhaul)",
     "summary": "Overhauls the Clouds both on-ground and in-space.",
-    "version": "1",
+    "version": "1.2.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4622/4622-1791179457-2012069261.png",
     "author": "Somnati",
-    "updated_timestamp": 1791860821,
+    "updated_timestamp": 1792458738,
     "created_timestamp": 1791197253,
     "description": "[size=4][b]Expect updates as i am always fixing/improving stuff...or atleast trying to...\n<br />\n<br />Description\n<br />[/b][/size]CLOUDS NOW MATCH THE SPACE CLOUDS.\n<br />fly to a spot with no clouds...guess what...no clouds...\n<br />fly to a spot thats dense with clouds...heavy overcast!!!\n<br />\n<br />[color=#D4D4D8]Nubilus replaces No Man's Sky's clouds with real volumetric clouds that match from orbit to the ground. The cloud pattern you see from space is the same one you fly through, lit and fogged to match the sky around it, day and night.[/color]\n<br />\n<br />expect future updates/improvements. im always trying to fix little things that bug me when i play. Report any issues you have to me and i'll investigate.\n<br />\n<br />// KNOWN ISSUES\n<br />regarding v1.2 that just dropped...\n<br />as i play i still notice subtle things that bug me so this mod still has a way to go.\n<br />gas giants still need tweaking as well as moons but overall they work \"fine\".\n<br />\n<br />eclipses will hopefully come eventually but i pulled them cause they could be better.\n<br />stay tuned...\n<br />\n<br />[size=4][b]Installation instructions\n<br />[/b][/size]\n<br />// Why is Lunatus required:\n<br />[list]\n<br />[*][b]It's built as a pair:[/b] Nubilus was cut against Lunatus 1.5's exact build, and the clouds were tuned against Lunatus' fog and sky. The cloud colours, night look and planet transitions all assume Lunatus' haze.[/*]\n<br />[*][b]Some cloud behaviour lives in Lunatus' files:[/b] the far-world cloud hand-over, the climb-out transition, and the horizon band hugging the clouds from orbit.[/*]\n<br />[*][b]It's never been tested without Lunatus:[/b] it might run, but the clouds would sit in vanilla fog they weren't designed for.[/*]\n<br />[/list]\n<br />[list=1]\n<br />[*][color=#D4D4D8]Install Lunatus first (required).[/color][/*]\n<br />[*][color=#D4D4D8]Extract the zip.[/color][/*]\n<br />[*][color=#D4D4D8]Drop the Nubilus folder into ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).[/color][/*]\n<br />[*][color=#D4D4D8]Restart the game. Works with new and existing saves.[/color][/*]\n<br />[/list][color=#D4D4D8]To uninstall, delete the Nubilus folder.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]One cloud pattern per planet: what you see from orbit is what you fly into, with a smooth fade from space down to the in-air clouds.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds take Lunatus' fog and sky colours, so they sit in the atmosphere instead of floating on top of it.[/color][/*]\n<br />[*][color=#D4D4D8]Shared day/night lighting from orbit and in the air: lit until sunset, a short warm afterglow, then dark night silhouettes.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds stay solid in front of moons and distant planets.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds cast shadows on the ground, and lakes and oceans reflect them.[/color][/*]\n<br />[/list]\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04.[/color][/*]\n<br />[*][color=#D4D4D8]Lunatus (required: Nubilus reads Lunatus' fog and sky).[/color][/*]\n<br />[*][color=#D4D4D8]Conflicts with other mods that replace the cloud shaders.[/color]\n<br />Conflicts with other mods that change the SDR tone mapping. [/*]\n<br />[/list]\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]Hello Games, for the game's cloud and atmosphere systems this builds on.[/color][/*]\n<br />[*][color=#D4D4D8]monkeyman192 and contributors, for MBINCompiler and HGPAKtool.\n<br />- Claude AI[/color][/*]\n<br />[/list]",
     "state": "normal",
@@ -690753,9 +690806,9 @@
         "file_id": 49793,
         "name": "Nubilus 1.2 NMS7.04",
         "version": "1.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 29493,
         "file_name": "Nubilus 1.2 NMS7.04 4622 1.2 2026-10-13T03-07Z rv2uEjLyD.zip",
         "detected_file_extension": "zip",
@@ -690768,6 +690821,31 @@
         "size_in_bytes": 30200896,
         "changelog_html": "1.2\n- New: gas giants. The clouds you fly through follow the planet's bands: the belts are a solid, flat-topped cloud layer in the band's colour, the lanes between them keep broken, lower clouds, and the bands drift with the planet's winds. Down in the clouds a thick gas-giant fog closes in.\n- Fixed: far planets' cloud layers glowing and flickering (seen with FSR 2 - thanks for the report).\n- Fixed: flat-looking clouds on giant rocky worlds (thanks for the report).\n- The cloud layer seen from orbit is a little dimmer where the cover is heavy, so very cloudy worlds no longer read as flat white discs.\n- Fuller clouds: more relief inside the clouds (deeper shade under and inside, open tops a little brighter). At night, cloud edges no longer glow brighter than the cloud on worlds with a bright night light.\n- Clouds take Lunatus 1.6's thicker distant air, and clouds behind foggy land get the same fog depth as the land in front of them.\n- Fixed: rectangles and faint ghost copies of the ship, trees and other near objects in the haze over big planets and moons in your sky.\n- Requires Lunatus 1.6. Update: replace the Nubilus folder (and Nubilus_StellarumWater if you use it).",
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/8c/fa/63/8cfa63ac-e741-4365-a987-6bc346f5e990.json"
+      },
+      {
+        "id": [
+          50013,
+          1634
+        ],
+        "uid": 7017976611677,
+        "file_id": 50013,
+        "name": "Nubilus 1.2.1 NMS7.04",
+        "version": "1.2.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 30274,
+        "file_name": "Nubilus 1.2.1 NMS7.04 4622 1.2.1 2026-10-20T01-12Z uhKkQ8bEr.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792458737,
+        "uploaded_time": "2026-10-20T01:12:17.000+00:00",
+        "mod_version": "1.2.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/23e14b4057f28baa5fdfba59fbc9f826cccc556099ee760cb0b87f89789828ae",
+        "description": null,
+        "size_kb": 30274,
+        "size_in_bytes": 31000890,
+        "changelog_html": "Fixed dark cloud-shaped blotches on distant planets at night; fixed checkerboard / jagged cloud edges in front of big planets; night clouds can no longer be brighter than the sky behind them (colour mods with very bright night skies no longer make them glow). Vanilla-colour look unchanged. Works with Lunatus 1.6 and 1.7.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/8c/27/9b/8c279b4f-dd8b-405d-8581-142b6c5be31a.json"
       }
     ],
     "changelogs": {
@@ -690793,6 +690871,9 @@
         "- Clouds take Lunatus 1.6's thicker distant air, and clouds behind foggy land get the same fog depth as the land in front of them.",
         "- Fixed: rectangles and faint ghost copies of the ship, trees and other near objects in the haze over big planets and moons in your sky.",
         "- Requires Lunatus 1.6. Update: replace the Nubilus folder (and Nubilus_StellarumWater if you use it)."
+      ],
+      "1.2.1": [
+        "Fixed dark cloud-shaped blotches on distant planets at night; fixed checkerboard / jagged cloud edges in front of big planets; night clouds can no longer be brighter than the sky behind them (colour mods with very bright night skies no longer make them glow). Vanilla-colour look unchanged. Works with Lunatus 1.6 and 1.7."
       ]
     }
   },
@@ -694072,10 +694153,10 @@
     "mod_id": 4666,
     "name": "- No Meta Economy -",
     "summary": "rebalances the unit economy so whether you're fishing, trading, mining or hunting they all should give similar unit payouts...play how you want to play.",
-    "version": "1",
+    "version": "1.0.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4666/4666-1791887153-564097174.png",
     "author": "Somnati",
-    "updated_timestamp": 1791888909,
+    "updated_timestamp": 1792458740,
     "created_timestamp": 1791888909,
     "description": "[size=4][b]Description\n<br />[/b][/size] Community feedback is greatly encouraged!!!\n<br />\n<br />No more money meta. Every way of earning units (trading, missions, scanning, salvage, crafting, farming, fishing, digging up bones, frigates, settlements) pays about the same per hour of play, so you earn by playing the way you like instead of playing (Stasis Farm Simulator™) or (How Fast Can I Scan All These Creatures Simulator™).\n<br />\n<br />I haven't had time to actually sit down and play with this mod in full, so... THIS MOD HAS NOT BEEN THOROUGHLY TESTED. If I waited until I had, this mod wouldn't drop for ages. What I have tested is mainly item costs in my inventory, and those at least check out.\n<br />\n<br />If you like the intentions of this mod and think something in-game needs tweaking, please let me know. I'd like this mod to be as polished and well rounded as it can be.\n<br />\n<br />say it with me now...\"Community feedback is greatly encouraged!!!\"\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]1. Unzip.\n<br />2. Drop the Somnati_Economy folder into: No Man's Sky&#92;GAMEDATA&#92;MODS&#92;\n<br />3. Start the game.\n<br />\n<br />Uninstall: delete the Somnati_Economy folder.\n<br />Note: your existing units balance is not changed - an old save keeps its money. Start a new save (or spend down) for the intended experience.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]- Units scaled down 50x across the game (prices, rewards, sell values, costs), with a 1-unit floor so cheap raw resources still sell.\n<br />- Every money-making mechanic tuned toward the same hourly rate - active and passive income alike.\n<br />- Big buys priced in hours of play: roughly 8 h for an A-class ship, 10 h for an S-class multi-tool, 20 h for an S-class ship, 30-40 h for a freighter; inventory slots from minutes to a few hours.\n<br />- Missions, rewards, expedition rewards, settlements, base parts, customization parts, frigates and scrapped-ship parts all on the same scale.[/color]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]No Man's Sky 7.04. No other mods needed.\n<br />\n<br />Compatibility: partial patches (only the values it changes), so it works with mods that edit other parts of the same tables (icons, stats, weapons...). Other economy or price mods that change the same values will clash - use one economy mod.[/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]- Claude AI (ran sims on the games economy and built a tool that lets me edit it)[/color]",
     "state": "normal",
@@ -694090,9 +694171,9 @@
         "file_id": 49807,
         "name": "NoMetaEconomy v1.0",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 32,
         "file_name": "NoMetaEconomy v1.0 4666 1 2026-10-13T10-35Z Z3ytCvPbo.zip",
         "detected_file_extension": "zip",
@@ -694105,9 +694186,38 @@
         "size_in_bytes": 33385,
         "changelog_html": null,
         "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4666/32/cc/de/32ccdeae-b126-410d-af77-979578627a82.json"
+      },
+      {
+        "id": [
+          50014,
+          1634
+        ],
+        "uid": 7017976611678,
+        "file_id": 50014,
+        "name": "NoMetaEconomy v1.0.1",
+        "version": "1.0.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 29,
+        "file_name": "NoMetaEconomy v1.0.1 4666 1.0.1 2026-10-20T01-12Z OyPDz29tX.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792458740,
+        "uploaded_time": "2026-10-20T01:12:20.000+00:00",
+        "mod_version": "1.0.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/258b02e0ff0d0e0dacb04b7017ca8e89fbf9c197e80ed445bea6f1d1d3ba37d5",
+        "description": null,
+        "size_kb": 29,
+        "size_in_bytes": 30197,
+        "changelog_html": "Fixed nanite, quicksilver, builder scrap and Contaminated Metal prices (only units are rescaled now). Ships, multi-tools and exocraft now cost the same time-to-afford as vanilla. Freighters and inventory slots stay as in 1.0.",
+        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4666/78/38/33/78383382-8637-483c-bcf7-098c91c4ef9b.json"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "1.0.1": [
+        "Fixed nanite, quicksilver, builder scrap and Contaminated Metal prices (only units are rescaled now). Ships, multi-tools and exocraft now cost the same time-to-afford as vanilla. Freighters and inventory slots stay as in 1.0."
+      ]
+    }
   },
   {
     "mod_id": 4667,
