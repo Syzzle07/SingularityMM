@@ -620781,10 +620781,10 @@
     "mod_id": 3687,
     "name": "Colorized Diamond Non-Building Icons",
     "summary": "Replaces scanning non-building icons with better colored ones",
-    "version": "7.01",
+    "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3687/3687-1755300121-1171229092.png",
     "author": "Lyravega and Babscoole",
-    "updated_timestamp": 1789197496,
+    "updated_timestamp": 1792726815,
     "created_timestamp": 1755300226,
     "description": "Replaces the scanning icons for non-buildings with colored ones.\n<br />\n<br />This mod is made with the overt consent of the original mod author, Lyravega.\n<br />\n<br />Installation:\n<br />Extract archive contents to GAMEDATA&#92;MODS\n<br />\n<br />Files modified:\n<br />METADATA&#92;UI&#92;HUD&#92;SCANNERICONS.MBIN",
     "state": "normal",
@@ -620874,8 +620874,8 @@
         "file_id": 48309,
         "name": "Colorized Diamond Non-Building Icons",
         "version": "7.01",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 99,
         "file_name": "Colorized Diamond Non-Building Icons 3687 7.01 2026-09-12T07-18Z QR3q07yow.zip",
@@ -620888,7 +620888,32 @@
         "size_kb": 99,
         "size_in_bytes": 101437,
         "changelog_html": "Cosmos Update",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3687/c9/ed/47/c9ed4780-b9de-4a21-8cf9-33866207a794.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c9/ed/47/c9ed4780-b9de-4a21-8cf9-33866207a794"
+      },
+      {
+        "id": [
+          50037,
+          1634
+        ],
+        "uid": 7017976611701,
+        "file_id": 50037,
+        "name": "Colorized Diamond Non-Building Icons",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 99,
+        "file_name": "Colorized Diamond Non-Building Icons 3687 7.06 2026-10-23T03-40Z 58qnW1y8V.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792726815,
+        "uploaded_time": "2026-10-23T03:40:15.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a7bd52e9f56781dc1b4ace55c603df905bc32e36516deeb05e553003283965f2",
+        "description": "",
+        "size_kb": 99,
+        "size_in_bytes": 101438,
+        "changelog_html": "Changed icon for Oxygen Sacs",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/23/62/d2/2362d2ae-5cb2-4b13-bb90-403d3d6fb533"
       }
     ],
     "changelogs": {
@@ -620903,6 +620928,9 @@
       ],
       "7.01": [
         "Cosmos Update"
+      ],
+      "7.06": [
+        "Changed icon for Oxygen Sacs"
       ]
     }
   },
@@ -678472,12 +678500,12 @@
     "mod_id": 4538,
     "name": "Thai Mods - NMS",
     "summary": "ม็อดภาษาไทยแปลด้วย Gemini AI 3.8 flash + สร้าง skill ที่ใช้ช่วยแปลจาก Gemini 4 argon เพื่อให้ได้เป็นธรรมชาติ",
-    "version": "1.2",
+    "version": "1.5",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4538/4538-1789998514-800350682.png",
     "author": "NYZEN1998",
-    "updated_timestamp": 1790544953,
+    "updated_timestamp": 1792740160,
     "created_timestamp": 1789998538,
-    "description": "[b]ขั้นตอนการติดตั้ง:[/b]\n<br />[list=1]\n<br />[*]ดาวน์โหลดไฟล์จากแท็บ [b]Files[/b] แล้วทำการแตกไฟล์ (Extract)[/*]\n<br />[*]นำไฟล์  .pak ทั้ง 2 ไฟล์ ไปวางไว้ที่โฟลเดอร์ Mod ของตัวเกม:\n<br />&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />[/*]\n<br />[/list]เข้าเกมและสนุกไปกับภาษาไทยได้เลย! ถ้าเจอตรงไหนที่แปลแปลกๆจะพยายามเช็คครับและอัพแก้ให้ ทำคนเดียว มันดูไม่หมดจริงๆ จะพยายามอัพแก้ให้เรื่อยๆครับ\n<br />",
+    "description": "[b]ขั้นตอนการติดตั้ง:[/b]\n<br />[list=1]\n<br />[*]ดาวน์โหลดไฟล์จากแท็บ [b]Files[/b] แล้วทำการแตกไฟล์ [/*]\n<br />[*]นำ[b]โฟลเดอร์ [/b]\n<br />[code]NMS-Thai[/code][b]ทั้งโฟลเดอร์[/b]ไปวางไว้ที่โฟลเดอร์ MODS ของตัวเกม (ถ้ายังไม่มีโฟลเดอร์ MODS ให้สร้างขึ้นมาเอง):\n<br /> &#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS[/*]\n<br />[*]ตรวจดูว่าโครงสร้างโฟลเดอร์ต้องเป็นแบบนี้ (ห้ามมีโฟลเดอร์ซ้อนเกินมา):\n<br /> &#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;NMS-Thai&#92;LANGUAGE&#92;NMS_LOC1_ENGLISH.MBIN[/*]\n<br />[*]เข้าเกม แล้วตั้งภาษาเป็น [b]English[/b] หรือ [b]English (US)[/b][/*]\n<br />[/list][b]หมายเหตุ:[/b]\n<br />[list]\n<br />[*]ถ้าเคยติดตั้ง mod เวอร์ชันเก่าแบบไฟล์ .pak ให้ลบไฟล์ \n<br />[code]_NMS_Thai_Language.pak[/code]และ \n<br />[code]_NMS_Thai_Fonts.pak[/code]ออกก่อน[/*]\n<br />[*]เกมเวอร์ชันปัจจุบันไม่ต้องใช้ไฟล์ DISABLEMODS.TXT แล้ว[/*]\n<br />[*]ถอนการติดตั้งได้โดยลบโฟลเดอร์ \n<br />[code]GAMEDATA&#92;MODS&#92;NMS-Thai[/code][/*]\n<br />[*]mod เวอร์ชันนี้รองรับเกมเวอร์ชัน 7.06 (Cosmos)\n<br />[/*]\n<br />[/list]เข้าเกมและสนุกไปกับภาษาไทยได้เลย! ถ้าเจอตรงไหนที่แปลแปลกๆจะพยายามเช็คครับและอัพแก้ให้ ทำคนเดียว มันดูไม่หมดจริงๆ จะพยายามอัพแก้ให้เรื่อยๆครับ\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -678504,7 +678532,7 @@
         "size_kb": 63997,
         "size_in_bytes": 65533537,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4538/52/1d/cc/521dcc57-5660-47bc-a1d9-ea928cb726c0.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/52/1d/cc/521dcc57-5660-47bc-a1d9-ea928cb726c0"
       },
       {
         "id": [
@@ -678529,7 +678557,7 @@
         "size_kb": 64001,
         "size_in_bytes": 65537461,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4538/86/68/31/866831aa-bcd1-46da-aec1-cc527e1c2fe4.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/68/31/866831aa-bcd1-46da-aec1-cc527e1c2fe4"
       },
       {
         "id": [
@@ -678554,7 +678582,7 @@
         "size_kb": 64055,
         "size_in_bytes": 65592479,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4538/83/ae/e3/83aee321-2f88-4369-b3bc-cfbdc958146f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/83/ae/e3/83aee321-2f88-4369-b3bc-cfbdc958146f"
       },
       {
         "id": [
@@ -678565,9 +678593,9 @@
         "file_id": 49183,
         "name": "NMS Thai Language Mod Windows",
         "version": "1.3",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 64027,
         "file_name": "NMS Thai Language Mod Windows 4538 1.3 2026-09-27T21-35Z tScz2hG3l.zip",
         "detected_file_extension": "zip",
@@ -678579,7 +678607,57 @@
         "size_kb": 64027,
         "size_in_bytes": 65564401,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4538/94/e6/a2/94e6a224-d35a-430c-b358-baf6235006ca.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/94/e6/a2/94e6a224-d35a-430c-b358-baf6235006ca"
+      },
+      {
+        "id": [
+          50038,
+          1634
+        ],
+        "uid": 7017976611702,
+        "file_id": 50038,
+        "name": "NMS Thai Language Mod Windows",
+        "version": "1.4",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
+        "size": 64015,
+        "file_name": "NMS Thai Language Mod Windows 4538 1.4 2026-10-23T06-55Z MWrySmzWO.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792738556,
+        "uploaded_time": "2026-10-23T06:55:56.000+00:00",
+        "mod_version": "1.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/291ff98bf8d772a425973da1a90a2433ca430f4dda1517eb747bcfe902317a34",
+        "description": "",
+        "size_kb": 64015,
+        "size_in_bytes": 65552192,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/98/81/74/98817429-55d6-48b5-9f87-efb4b8146b86"
+      },
+      {
+        "id": [
+          50039,
+          1634
+        ],
+        "uid": 7017976611703,
+        "file_id": 50039,
+        "name": "NMS Thai Language Mod Windows",
+        "version": "1.5",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 9198,
+        "file_name": "NMS Thai Language Mod Windows 4538 1.5 2026-10-23T07-22Z pQZbnWJQH.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792740160,
+        "uploaded_time": "2026-10-23T07:22:40.000+00:00",
+        "mod_version": "1.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b43ca6a0c5f59101f54a8ebfc1a60cd3eb226773b1ac80526c78f6a178b2f8a6",
+        "description": "",
+        "size_kb": 9198,
+        "size_in_bytes": 9419054,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/f5/c2/86f5c2cd-4fb3-4233-9bbe-9136f501f67d"
       }
     ],
     "changelogs": {}
