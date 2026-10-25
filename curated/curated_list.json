@@ -693057,7 +693057,7 @@
     "version": "1.8.6",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4643/4643-1791474517-1666389282.jpg",
     "author": "S-T-0-7",
-    "updated_timestamp": 1792814717,
+    "updated_timestamp": 1792929599,
     "created_timestamp": 1791476111,
     "description": "[b]Description[/b]\n<br />\n<br />NMS Shipwright is a free, open-source Windows tool for No Man's Sky. Design a ship part by part, find a real seed that builds it, drop it into your save, recolour it, skip quests, and edit your save — all read from your own copy of the game, so a seed builds exactly the ship the game builds.\n<br />\n<br />[b]Installation instructions[/b]\n<br />[list=1]\n<br />[*]Download and run NMS Shipwright Setup.exe.[/*]\n<br />[*]Windows warns \"unknown publisher\" (not code-signed) — choose More info → Run anyway.[/*]\n<br />[*]Installs for your user only (no admin rights). On first run it finds your game automatically (Steam, GOG, or Microsoft Store).[/*]\n<br />[/list]Uninstall via Settings → Apps, or Uninstall.exe in the install folder.\n<br />\n<br />[b]Main features[/b]\n<br />[list]\n<br />[*]Design ships part by part with a live 3D preview[/*]\n<br />[*]Find a seed for your design, or locate that ship in a real system[/*]\n<br />[*]Put designs into your save — new ship or replacing one you own[/*]\n<br />[*]Recolour with the game's real paint sets[/*]\n<br />[*]Skip quests you don't want to do[/*]\n<br />[*]Save editor: inventories, ship stats, unlocks[/*]\n<br />[/list]Backs up your save first, refuses to run while the game is open, and doesn't mark your save as modded. No bundled game files, no network access.\n<br />\n<br />[b]Requirements[/b]\n<br />[list]\n<br />[*]Windows 10 or 11[/*]\n<br />[*]No Man's Sky installed (Steam, GOG,etc)[/*]\n<br />[*]Nothing else — no Python, no other mods, no game-file edits[/*]\n<br />[/list]\n<br />",
     "state": "normal",
@@ -693272,8 +693272,8 @@
         "file_id": 50050,
         "name": "NMS Shipwright Setup (Linux)",
         "version": "1.8.6",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 55095,
         "file_name": "NMS Shipwright Setup (Linux) 4643 1.8.6 2026-10-24T04-04Z JrNPcYFrh.zip",
@@ -693312,6 +693312,31 @@
         "size_in_bytes": 27917706,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/7c/63/1b/7c631bf4-57ce-4a51-b98b-d0f3d7c48542"
+      },
+      {
+        "id": [
+          50072,
+          1634
+        ],
+        "uid": 7017976611736,
+        "file_id": 50072,
+        "name": "NMS Shipwright Setup (Linux)",
+        "version": "1.8.7",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 48026,
+        "file_name": "NMS Shipwright Setup (Linux) 4643 1.8.7 2026-10-25T11-59Z gb4dJyobf.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1792929599,
+        "uploaded_time": "2026-10-25T11:59:59.000+00:00",
+        "mod_version": "1.8.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1b34c1b6d191f29ed7a3ac93d0c30b719d31b393f654a2d73300ff459ee25c58",
+        "description": "",
+        "size_kb": 48026,
+        "size_in_bytes": 49179037,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4d/71/e1/4d71e100-7414-4438-8eee-40aab1985ce9"
       }
     ],
     "changelogs": {}
