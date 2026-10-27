@@ -698863,7 +698863,7 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4702/4702-1792913659-834312746.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1793041528,
+    "updated_timestamp": 1793082399,
     "created_timestamp": 1792922109,
     "description": "[b][color=#ff7700][size=5]Finally Open Habs (Corvette)[/size][/color][/b]\n<br />\n<br />Turn connected Corvette habitats into larger, open interiors. Finally Open Habs conditionally opens the shared walls between habitats of the same style, including taller rooms in supported vertical stacks. Choose Titan, Ambassador, Thunderbird, or any combination of the three.\n<br />\n<br />The mod works with the existing vanilla habitat parts. Connections between different styles keep their normal doorways.\n<br />\n<br />[b][color=#ff7700][size=4]Three independent style variants[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*][b][color=#f6b26b]Titan [/color][/b]— opens connections within Titan habitats.[/*]\n<br />[*][b][color=#f6b26b]Ambassador [/color][/b]— opens connections within Ambassador habitats, with adjustments made for its own interior models.[/*]\n<br />[*][b][color=#f6b26b]Thunderbird [/color][/b]— opens connections within Thunderbird habitats, with adjustments made for its own interior models.[/*]\n<br />[/list]Each variant works independently. Install one, two or all three. You can open up one style while leaving the others in their original form. Installing all three still preserves normal doorways between different styles; it does not create open mixed-style rooms. Each style file includes both horizontal openings and the supported vertical behavior; this build has no separate vertical toggle.\n<br />\n<br />[b][color=#ff7700]Horizontal Version Only[/color][/b]\n<br />\n<br />As the name indicates, there's an optional version just for the horizontal level.\n<br />[b][color=#1e84cc]IMPORTANT NOTE: just use one version, either horizontal OR full![/color][/b]\n<br />\n<br />[b][color=#ff7700][size=4]Main features[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*]Conditional removal of shared dividing walls, door frames and associated collision creates open interiors.[/*]\n<br />[*]Side and end connections between short and long habitats of the same style.[/*]\n<br />[*]Conditional vertical openings for fully aligned habitats of the same style and native size.[/*]\n<br />[*]Exterior walls, the lowest floor and the highest roof follow the remaining room boundaries.[/*]\n<br />[*]Metal trim, wall backings and end caps for exposed edges; retained wall returns keep their existing collision.[/*]\n<br />[*]Existing vanilla building IDs and snapping data, with no new habitat entries to unlock.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=3]Taller rooms: supported layouts[/size][/color][/b]\n<br />\n<br />Use a fully aligned stack of the same style and native size: short over short, or long over long. A long habitat requires both vertical connections to match that style and size before its internal floor or roof plane can open.\n<br />\n<br />Mixed-size stacks, partial coverage, offset layouts and more complex combinations are outside the supported vertical scope. Their results are not guaranteed: floor or roof sections may remain, and an arrangement that happens to satisfy the connection checks should not be treated as a supported partial opening.\n<br />\n<br />Native stairs and their platforms remain in place. The mod does not reposition furniture or player-built decorations.\n<br />\n<br />[color=#ff7700][size=4][b]Current test status[/b][/size][/color]\n<br />\n<br />[i][color=#f6b26b]This is a test release. Its current in-game testing is still in progress.[/color][/i]\n<br />\n<br />Earlier Titan prototypes had successful in-game reports for horizontal openings, mixed-style doorways and wall-mounted decorations. Vertical opening also worked in principle. Those results do not confirm every change in v1.\n<br />\n<br />v1 reworks Titan's edge finishing to address previously reported spikes, projecting strips and exposed edges. Ambassador and Thunderbird are new standalone test variants. All three have passed static file, geometry and connection-rule checks, including seven installation combinations. **The current appearance, movement and multiplayer behaviour still need in-game confirmation.**\n<br />\n<br />[b][color=#ff7700][size=4]Installation[/size][/color][/b]\n<br />\n<br />[list=1]\n<br />[*]Close No Man's Sky and extract the ZIP for each style you want, or extract the combined download.[/*]\n<br />[*]When updating, remove the previous folder for that same style completely. Keep only one installed version of each style; do not merge the new files into an old folder.[/*]\n<br />[*]Copy `OpenCorvetteHabs_Titan`, `OpenCorvetteHabs_Ambassador` and/or `OpenCorvetteHabs_Thunderbird` into `No Man's Sky/GAMEDATA/MODS/`.[/*]\n<br />[*]Launch the game with mod support enabled and inspect your habitat connections.[/*]\n<br />[/list]\n<br />The combined download contains the same three mod folders as the individual downloads. Choose either delivery method. Each folder includes the resources that its variant needs; no base variant, installer or separate command is required.\n<br />\n<br />[b][color=#ff7700][size=3]Existing Corvettes and removal[/size][/color][/b]\n<br />\n<br />The mod targets the existing vanilla habitat parts, so existing Corvettes are intended to benefit without replacing their habitats. It introduces no new placeable habitat IDs and requires no save conversion or save-editor operation. Existing construction and decoration are not deleted by the mod.\n<br />\n<br />To uninstall, close the game and remove the corresponding mod folder. The game then uses its vanilla habitat models and divisions again. Check your room layout and furnishings after switching versions, and include saving/reloading in your tests.\n<br />\n<br />[color=#ff7700][size=4][b]Multiplayer and compatibility[/b][/size][/color]\n<br />\n<br />[b][color=#f6b26b]Multiplayer has not been tested. [/color][/b]Keeping the vanilla building IDs avoids making your Corvette layout depend on new custom habitat IDs. It does not give every client the same room geometry.\n<br />\n<br />Players without the relevant variant still see the original walls, floors and ceilings and use their vanilla collision. A space that you can cross may therefore remain a wall or floor for another player. Uploading or sharing a Corvette does not distribute these mod files. Matching versions and style variants give players matching local assets, but network movement still needs testing.\n<br />\n<br />Other mods that change the same habitat core assignments, placement rules or table entries may conflict.\n<br />\n<br />This mod does not replace landing-pad resources. Full in-game compatibility with our landing-pad mods or every other mod has not been established. Game updates may also require a new build.\n<br />\n<br />[b][color=#ff7700][size=4]Limitations and known issues[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*]Supported vertical rooms require fully aligned, matching-size habitats of one style. Mixed-size and offset arrangements are outside the supported scope.[/*]\n<br />[*]There still might be some graphical or textural glitches and issues, that I'm working on. If you find any, please report them in the \"Posts\" section. Thanks![/*]\n<br />[*]Retained wall returns and ledges keep their existing collision, especially around irregular room outlines. Some small collision edges at the backings may remain.[/*]\n<br />[*]Edge finishing is still under test. Please check short/long corners, exposed floor and roof edges, retained end frames, and the outside of stacked rooms.[/*]\n<br />[*]Stairs, their platforms and existing decorations are retained. Please check furnished rooms as well as empty test layouts.[/*]\n<br />[*]Automated geometry checks sample specific conditions and surfaces. They do not cover every layout, camera angle or possible movement through a room.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Feedback and bug reports[/size][/color][/b]\n<br />\n<br />Bug reports, test results and screenshots are welcome in the Posts and Bugs sections. Please include:\n<br />\n<br />[list]\n<br />[*]Your game version, platform, mod version and installed style variants.[/*]\n<br />[*]The habitat style and sizes, which sides connect, and whether the stack is aligned or offset. A simple layout sketch helps with larger rooms.[/*]\n<br />[*]Whether the problem is visual, a collision, snapping in the build menu, or connected rooms failing to open.[/*]\n<br />[*]Inside and outside screenshots of the same spot, plus short steps to reproduce it.[/*]\n<br />[*]Whether it affects an existing or newly built room, and whether it remains after saving and reloading.[/*]\n<br />[*]Other habitat/building mods in use, and whether stairs or manually placed walls are involved.[/*]\n<br />[/list]\n<br />For a quick test, start with a single habitat, then a side connection, an end connection, a short/long corner and an aligned stack. Please also check a mixed-style doorway with your chosen variants installed.\n<br />\n<br />[b][color=#ff7700][size=4]Credits and tools[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*][url=https://github.com/monkeyman192/MBINCompiler]MBINCompiler[/url] and [url=https://github.com/monkeyman192/HGPAKtool]HGPAKtool[/url] and their maintainers for the build tools.[/*]\n<br />[*][url=https://github.com/monkeyman192/NMSDK]NMSDK[/url] as a technical format/exporter reference. The mod was built with its own Python/NumPy scripts.[/*]\n<br />[*]Substantial development, code and documentation assistance: [b]ChatGPT/Codex[/b].[/*]\n<br />[/list]\n<br />The cover and thumbnail are AI-generated promotional illustrations, not gameplay screenshots. The in-game models and materials are based on the game's native assets; the promotional artwork is not installed into the game.\n<br />\n<br />[b][color=#ff7700][size=4]More Corvette building[/size][/color][/b]\n<br />\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4619]Outpost Corvette Landing Pad[/url] is a separate project. It is not required for Finally Open Habs.\n<br />",
     "state": "normal",
@@ -698891,7 +698891,7 @@
         "description": "",
         "size_kb": 16766,
         "size_in_bytes": 17169157,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/9e/35/3d/9e353d8f-68c9-437f-89bb-04fef22af7c7"
       },
       {
@@ -698916,7 +698916,7 @@
         "description": "",
         "size_kb": 15643,
         "size_in_bytes": 16018533,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/7c/01/97/7c019768-b24a-49ed-a10c-58787baefc6c"
       },
       {
@@ -698941,7 +698941,7 @@
         "description": "",
         "size_kb": 10507,
         "size_in_bytes": 10759400,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/38/ec/ef/38ecef6d-1c98-4782-8419-f2bea64c65ac"
       },
       {
@@ -698966,7 +698966,7 @@
         "description": "",
         "size_kb": 15621,
         "size_in_bytes": 15996108,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/30/e6/ce/30e6ce91-6407-400f-9ffa-65ccd04499d6"
       },
       {
@@ -698991,7 +698991,7 @@
         "description": "",
         "size_kb": 16777,
         "size_in_bytes": 17180444,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/92/f7/5f/92f75fd5-be10-438c-a69c-567d9f620e19"
       },
       {
@@ -699016,7 +699016,7 @@
         "description": "",
         "size_kb": 10519,
         "size_in_bytes": 10771635,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/d6/59/ab/d659abad-6de1-4abe-9a2a-fbec07f04a6b"
       },
       {
@@ -699116,7 +699116,7 @@
         "description": "",
         "size_kb": 16098,
         "size_in_bytes": 16484741,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/17/92/75/1792752e-5338-43cd-9e2c-452a73e19bb4"
       },
       {
@@ -699141,7 +699141,7 @@
         "description": "",
         "size_kb": 17949,
         "size_in_bytes": 18379945,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/17/45/1a/17451a3f-9395-4508-8480-f6b0a06cc9f0"
       },
       {
@@ -699166,7 +699166,7 @@
         "description": "",
         "size_kb": 11096,
         "size_in_bytes": 11363042,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/a8/46/cc/a846ccca-cd1d-4f52-9876-356f635f9416"
       },
       {
@@ -699191,7 +699191,7 @@
         "description": "",
         "size_kb": 16095,
         "size_in_bytes": 16481733,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/6e/ac/12/6eac12dc-017a-459b-9e99-027e1a56f19b"
       },
       {
@@ -699216,7 +699216,7 @@
         "description": "",
         "size_kb": 17285,
         "size_in_bytes": 17700438,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/7e/4a/6f/7e4a6fc2-a5d7-4474-8416-302301e77414"
       },
       {
@@ -699241,8 +699241,33 @@
         "description": "",
         "size_kb": 11093,
         "size_in_bytes": 11360009,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/c2/64/e4/c264e450-c72b-4f8b-8639-5b1309147feb"
+      },
+      {
+        "id": [
+          50127,
+          1634
+        ],
+        "uid": 7017976611791,
+        "file_id": 50127,
+        "name": "FinallyOpenHabs ManualControl V0.19 (experimental)",
+        "version": "0.19",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 11160,
+        "file_name": "FinallyOpenHabs ManualControl V0.19 (experimental) 4702 0.19 2026-10-27T06-26Z lN9fGpRzn.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793082399,
+        "uploaded_time": "2026-10-27T06:26:39.000+00:00",
+        "mod_version": "0.19",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4cc4d6283cfde6b4c74e000611e69922cdaa436f0d75fc7cf4b8ffeee798d660",
+        "description": "",
+        "size_kb": 11160,
+        "size_in_bytes": 11428351,
+        "changelog_html": "Added a highly experimental alternative version for precise control of openings and so on... feel free to test.\nJust for Titan habs at the moment. The others will follow once I quality checked this one ;)",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/03/80/ea/0380eac5-3082-4643-925e-f1c7d88b55dc"
       }
     ],
     "changelogs": {
@@ -699256,6 +699281,10 @@
         "Ambassador should look closed like the others",
         "Thunderbird: removed some leftover textures",
         "Titan: removed some leftover textures"
+      ],
+      "0.19": [
+        "Added a highly experimental alternative version for precise control of openings and so on... feel free to test.",
+        "Just for Titan habs at the moment. The others will follow once I quality checked this one ;)"
       ]
     }
   },
