@@ -662424,12 +662424,12 @@
     "mod_id": 4257,
     "name": "Player Weapons Powerup",
     "summary": "Upgrades player weapons to make them faster and more powerful. Increases weapons damage, fire rate and range.",
-    "version": "7.01",
+    "version": "7.06",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4257/4257-1780759235-1136807901.jpg",
     "author": "wayfarer82",
-    "updated_timestamp": 1791236306,
+    "updated_timestamp": 1793059047,
     "created_timestamp": 1780759955,
-    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#d4d4d8]If you find combat in NMS a bit too slow and sluggish, this mod is for you! It will help you clear out these pesky Sentinel waves much faster, and will greatly reduce time spent on defending your settlements.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]Unpack archive to &#92;GAMEDATA&#92;MODS&#92; directory, and you're ready to go. This mod will only conflict with other mods that change weapon parameters.[/color]\n<br />\n<br />USE ONLY ONE MULTIPLIER VERSION! Choose x2, x5 or x10 weapon damage for player weapons.\n<br />\n<br />You can install optional mod for vehicle weapons, it is independent from the main one. Again, use only one version of the archive with the desired multiplier.\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]Mod increases parameters of player weapons: damage, fire rate, range. You can choose the damage multiplier by downloading corresponding mod file (2x for faster and easier combat, 5x for steamrolling through your opponents, and 10x for when you want to kill Cthulhu with a spoon). There are optional files that give the same bonuses to vehicle weapons.[/color]\n<br />\n<br />[color=#D4D4D8]I've added an optional file with upgrades to mining laser (including Sentinel and Atlas versions). Now it mines faster, gives more materials, never overheats and spends way less energy.[/color]\n<br />\n<br />[color=#D4D4D8]All these parameters are set at the top of the LUA file, so you can easily change them with [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url]. [/color]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]If you want to change parameters of this mod, you can do it with the help of [url=https://github.com/HolterPhylo/AMUMSS/releases]AMUMSS[/url] (detailed instructions how to use it [url=https://www.nexusmods.com/nomanssky/mods/2626]can be found here[/url]). Mod itself doesn't have any specific requirements to use. [/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]Shout out to all of NMS modding community and AMUMSS team especially![/color]\n<br />\n<br />[color=#D4D4D8][b][size=4]Other mods[/size][/b][/color]\n<br />[b][color=#D4D4D8][url=https://www.nexusmods.com/nomanssky/mods/4258]Ship weapons powerup[/url][/color][/b]\n<br />[b][color=#D4D4D8][url=https://www.nexusmods.com/nomanssky/mods/4558]Player mobility upgrade[/url] [/color][/b]\n<br />[b][color=#D4D4D8][url=https://www.nexusmods.com/nomanssky/mods/4269]Vehicle mobility upgrade[/url][/color][/b]\n<br />[b][color=#D4D4D8][url=https://www.nexusmods.com/nomanssky/mods/4296]Ship mobility upgrade[/url][/color][/b]\n<br />[b][color=#D4D4D8][url=https://www.nexusmods.com/nomanssky/mods/4256]Life support and hazard protection upgrades[/url][/color][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4578]Fully Automated Luxury Space Machines[/url][/b]\n<br />\n<br />[color=#D4D4D8][b][size=4]Additional information[/size][/b]\n<br />Source code for the mod can be found on [url=https://github.com/JW11-modder/NoMansSky]Github[/url].\n<br />You can support me on [url=https://boosty.to/jwmodder/donate]Boosty[/url]. [/color]",
+    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#d4d4d8]If you find combat in NMS a bit too slow and sluggish, this mod is for you! It will help you clear out these pesky Sentinel waves much faster, and will greatly reduce time spent on defending your settlements.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]Unpack archive to &#92;GAMEDATA&#92;MODS&#92; directory, and you're ready to go. This mod will only conflict with other mods that change weapon parameters.[/color]\n<br />\n<br />USE ONLY ONE MULTIPLIER VERSION! Choose x2, x5 or x10 weapon damage for player weapons.\n<br />\n<br />You can install optional mod for vehicle weapons, it is independent from the main one. Again, use only one version of the archive with the desired multiplier.\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]Mod increases parameters of player weapons: damage, fire rate, range. Also reduces reload times and recoil for main weapons. You can choose the damage multiplier by downloading corresponding mod file (2x for faster and easier combat, 5x for steamrolling through your opponents, and 10x for when you want to kill Cthulhu with a spoon). There are optional files that give the same bonuses to vehicle weapons.[/color]\n<br />\n<br />[color=#D4D4D8]I've added an optional file with upgrades to mining laser (including Sentinel and Atlas versions). Now it mines faster, gives more materials, never overheats and spends almost zero energy.[/color]\n<br />\n<br />[color=#D4D4D8]All these parameters are set at the top of the LUA file, so you can easily change them with [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url]. [/color]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]If you want to change parameters of this mod, you can do it with the help of [url=https://github.com/HolterPhylo/AMUMSS/releases]AMUMSS[/url] (detailed instructions how to use it [url=https://www.nexusmods.com/nomanssky/mods/2626]can be found here[/url]). Mod itself doesn't have any specific requirements to use. [/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]Shout out to all of NMS modding community and AMUMSS team especially![/color]\n<br />\n<br />[color=#D4D4D8][b][size=4]Other mods[/size][/b][/color]\n<br />[b][color=#D4D4D8][url=https://www.nexusmods.com/nomanssky/mods/4258]Ship weapons powerup[/url][/color][/b]\n<br />[b][color=#D4D4D8][url=https://www.nexusmods.com/nomanssky/mods/4558]Player mobility upgrade[/url] [/color][/b]\n<br />[b][color=#D4D4D8][url=https://www.nexusmods.com/nomanssky/mods/4269]Vehicle mobility upgrade[/url][/color][/b]\n<br />[b][color=#D4D4D8][url=https://www.nexusmods.com/nomanssky/mods/4296]Ship mobility upgrade[/url][/color][/b]\n<br />[b][color=#D4D4D8][url=https://www.nexusmods.com/nomanssky/mods/4256]Life support and hazard protection upgrades[/url][/color][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4578]Fully Automated Luxury Space Machines[/url][/b]\n<br />\n<br />[color=#D4D4D8][b][size=4]Additional information[/size][/b]\n<br />Source code for the mod can be found on [url=https://github.com/JW11-modder/NoMansSky]Github[/url].\n<br />You can support me on [url=https://boosty.to/jwmodder/donate]Boosty[/url]. [/color]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -662606,7 +662606,7 @@
         "size_kb": 3,
         "size_in_bytes": 3098,
         "changelog_html": "Recompiled mod for the new game version.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4257/0c/a1/bd/0ca1bdd9-f203-49df-969d-504ef06d0c13.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0c/a1/bd/0ca1bdd9-f203-49df-969d-504ef06d0c13"
       },
       {
         "id": [
@@ -662631,7 +662631,7 @@
         "size_kb": 3,
         "size_in_bytes": 3097,
         "changelog_html": "Recompiled mod for the new game version.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4257/8d/f9/26/8df92666-1500-4887-bcde-276ffeb213b6.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/8d/f9/26/8df92666-1500-4887-bcde-276ffeb213b6"
       },
       {
         "id": [
@@ -662656,7 +662656,7 @@
         "size_kb": 3,
         "size_in_bytes": 3098,
         "changelog_html": "Recompiled mod for the new game version.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4257/57/cd/aa/57cdaa9a-3831-4f7e-873b-e10b86ab43bd.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/57/cd/aa/57cdaa9a-3831-4f7e-873b-e10b86ab43bd"
       },
       {
         "id": [
@@ -662667,9 +662667,9 @@
         "file_id": 48154,
         "name": "Player Weapons Mod X2",
         "version": "7.01",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 3,
         "file_name": "Player Weapons Mod X2 4257 7.01 2026-09-11T15-36Z OyPDz2fpz.zip",
         "detected_file_extension": "zip",
@@ -662681,7 +662681,7 @@
         "size_kb": 3,
         "size_in_bytes": 3569,
         "changelog_html": "Recompiled mod for the new game version.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4257/ba/8a/48/ba8a486c-f6c2-4f57-869b-3fbdaa65c67e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ba/8a/48/ba8a486c-f6c2-4f57-869b-3fbdaa65c67e"
       },
       {
         "id": [
@@ -662692,8 +662692,8 @@
         "file_id": 48155,
         "name": "Player Weapons Mod X5",
         "version": "7.01",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 3,
         "file_name": "Player Weapons Mod X5 4257 7.01 2026-09-11T15-36Z AeW3Tdrx1.zip",
@@ -662706,7 +662706,7 @@
         "size_kb": 3,
         "size_in_bytes": 3564,
         "changelog_html": "Recompiled mod for the new game version.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4257/6b/37/21/6b372152-b1fb-4d89-b4f4-d46672e63104.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6b/37/21/6b372152-b1fb-4d89-b4f4-d46672e63104"
       },
       {
         "id": [
@@ -662717,8 +662717,8 @@
         "file_id": 48156,
         "name": "Player Weapons Mod X10",
         "version": "7.01",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 3,
         "file_name": "Player Weapons Mod X10 4257 7.01 2026-09-11T15-37Z pQZbnWOC3.zip",
@@ -662731,7 +662731,7 @@
         "size_kb": 3,
         "size_in_bytes": 3573,
         "changelog_html": "Recompiled mod for the new game version.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4257/b2/96/40/b296406f-3226-40f8-a158-9d94dface81f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b2/96/40/b296406f-3226-40f8-a158-9d94dface81f"
       },
       {
         "id": [
@@ -662742,8 +662742,8 @@
         "file_id": 49602,
         "name": "Mining Laser Upgrade",
         "version": "7.05",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 2,
         "file_name": "Mining Laser Upgrade 4257 7.05 2026-10-05T21-38Z mijBfGQCo.zip",
@@ -662756,12 +662756,115 @@
         "size_kb": 2,
         "size_in_bytes": 2747,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4257/70/7a/0f/707a0f75-2c7f-4857-a872-63fbf3bc406f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/70/7a/0f/707a0f75-2c7f-4857-a872-63fbf3bc406f"
+      },
+      {
+        "id": [
+          50122,
+          1634
+        ],
+        "uid": 7017976611786,
+        "file_id": 50122,
+        "name": "Player Weapons Mod X10",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "Player Weapons Mod X10 4257 7.06 2026-10-26T23-55Z IohEj95lR.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793058926,
+        "uploaded_time": "2026-10-26T23:55:26.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0c48287adb979f9f9ae47231731d8c8e69aa8cc8c300cb12fb3132d3836b7e8a",
+        "description": "Weapon damage increased by 10",
+        "size_kb": 5,
+        "size_in_bytes": 5162,
+        "changelog_html": "Blazing javelin now holds much more charge, reduced recoil an reload times for main weapons, tuned down Pulse Spitter fire rate.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/55/e0/4b/55e04b70-fc1d-4499-ac6e-33cd1b808d43"
+      },
+      {
+        "id": [
+          50123,
+          1634
+        ],
+        "uid": 7017976611787,
+        "file_id": 50123,
+        "name": "Player Weapons Mod X5",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "Player Weapons Mod X5 4257 7.06 2026-10-26T23-56Z KsnM3Tt8v.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793058976,
+        "uploaded_time": "2026-10-26T23:56:16.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5c5c710486fd5d34948934054e865b1fb733b86b2669d8f0c5fe032e00e70de7",
+        "description": "Weapon damage increased by 5",
+        "size_kb": 5,
+        "size_in_bytes": 5158,
+        "changelog_html": "Blazing javelin now holds much more charge, reduced recoil an reload times for main weapons, tuned down Pulse Spitter fire rate.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e8/94/29/e8942998-f465-4448-803b-7291a43d852c"
+      },
+      {
+        "id": [
+          50124,
+          1634
+        ],
+        "uid": 7017976611788,
+        "file_id": 50124,
+        "name": "Player Weapons Mod X2",
+        "version": "7.06",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 5,
+        "file_name": "Player Weapons Mod X2 4257 7.06 2026-10-26T23-56Z izF9UkecZ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793058991,
+        "uploaded_time": "2026-10-26T23:56:31.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/bb4f36bd174c12e14935b7ba217d877cf154f5337b8819b31ff6ac2ba141557c",
+        "description": "Weapon damage increased by 2",
+        "size_kb": 5,
+        "size_in_bytes": 5163,
+        "changelog_html": "Blazing javelin now holds much more charge, reduced recoil an reload times for main weapons, tuned down Pulse Spitter fire rate.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/d1/b8/79/d1b87924-8bde-447e-8cb8-d8a305686363"
+      },
+      {
+        "id": [
+          50125,
+          1634
+        ],
+        "uid": 7017976611789,
+        "file_id": 50125,
+        "name": "Mining Laser Upgrade",
+        "version": "7.06",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Mining Laser Upgrade 4257 7.06 2026-10-26T23-57Z 6Xd7Otxbc.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793059047,
+        "uploaded_time": "2026-10-26T23:57:27.000+00:00",
+        "mod_version": "7.06",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d7696e2403aaaee379721fa5a31f25ed8b1474a11ea0c9236b5d9aa5bee9331c",
+        "description": "",
+        "size_kb": 3,
+        "size_in_bytes": 3409,
+        "changelog_html": "Blazing javelin now holds much more charge, reduced recoil an reload times for main weapons, tuned down Pulse Spitter fire rate.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a9/70/27/a9702722-e7db-40dd-ab46-1b636d52bfd5"
       }
     ],
     "changelogs": {
       "7.01": [
         "Recompiled mod for the new game version."
+      ],
+      "7.06": [
+        "Blazing javelin now holds much more charge, reduced recoil an reload times for main weapons, tuned down Pulse Spitter fire rate."
       ]
     }
   },
@@ -681554,10 +681657,10 @@
     "mod_id": 4555,
     "name": "Lunatus (distant worlds)",
     "summary": "my personal replacement for Crescent Worlds. makes distant planets blend better with sky/fog.",
-    "version": "1.7",
+    "version": "1.7.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4555/4555-1790584832-1143230330.png",
     "author": "Somnati",
-    "updated_timestamp": 1792458730,
+    "updated_timestamp": 1793052820,
     "created_timestamp": 1790205794,
     "description": "[size=4][b]Description\n<br />WIP - this mod is tricky so give me some time to iron things out. will update occasionally.\n<br />v1.5 has released, together with Nubilus 1.0, my new cloud mod (check the changelog for info).\n<br />[/b][/size]\n<br />\n<br />I'd always used Crescent Worlds, but it hasn't been updated for Cosmos. Rather than patch someone else's mod, I built my own from scratch. Lunatus contains no code from Crescent Worlds or any other mod. It's made from the game's own shaders, with AI assistance (Claude), and tuned by me in-game.\n<br />Lunatus changes how your sky looks: the worlds in it, and the air around you. Other planets and moons are lit by their real star, sit behind your atmosphere instead of looking pasted on top of it, and change with your day and night. Your own planet gets one physical haze from your feet to the horizon, real dusk and darker nights, rain mist, volcanic ash haze and auroras.\n<br />In vanilla, every world in your sky is lit with your own planet's light. That light is clamped high overhead, tinted by your sunset and swapped for moonlight at night, so other worlds never show a true phase. By day they look like stickers on the sky, and at night their dark sides are black cut-outs. Lunatus fixes all of that with shaders built from the game's own 7.04.1 shaders.\n<br />[b]Clouds have moved out:[/b] the clouds now live in their own mod, Nubilus, released together with Lunatus 1.5. Nubilus has volumetric clouds that match from orbit to the ground, a rewritten water surface, and an SDR highlight fix. Lunatus works on its own too, but I recommend running both.\n<br />I tried my best with this. Expect issues, and I'll fix them as they come. If you don't like a certain visual effect, let me know: I may be able to upload alternate versions.\n<br />Optional comparison files: \"Vanilla vs 1.5\" and \"1.4 vs 1.5\" split-screen builds (left 40% old, right 60% 1.5). They're for screenshots only, not for playing.\n<br />\n<br />\n<br />[b]// PROGRESS UPDATES[/b]\n<br />[size=2][color=#9e9e9e]progress notes (click to expand)[/color][/size]\n<br />[spoiler]\n<br />bug/visual fixes.\n<br />[b]improved FOG.\n<br />altered ring render.\n<br />possible eclipses?\n<br />dimmer clouds from space.(nubilus)\n<br />\n<br />// future mods planned\n<br />expanded planet color pallet.\n<br />new planetary terrain patterns. (striped planets etc.)\n<br />terrain gen overhaul.\n<br />new HUD.\n<br />detailed planet terrain from space (visible mountains etc).[/b][/spoiler]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Download and extract the archive.\n<br />When updating, delete your old Lunatus folder first. 1.4's cloud files would otherwise stay behind and fight Nubilus.\n<br />Place the \"Lunatus\" folder in ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;\n<br />Recommended: install Nubilus 1.0 next to it.\n<br />Remove any other mod that replaces the same files (see Requirements).\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />Worlds in your sky\n<br />[list]\n<br />[*]Real crescents: lit by their actual star, not your planet's light. Crescents at dusk, half and full phases, and a world stays lit at night when its sun still reaches it.[/*]\n<br />[*]Behind your sky by day: your air sits in front of them. Their dark side melts into the sky, and their lit side shows through the air in front of it.[/*]\n<br />[*]Night skies: a world's sunlit side shines like a real moon, dims and turns orange-red low in the sky, and its dark side is shaded by the system's space fog instead of a black cut-out. Night sides end in a clean edge.[/*]\n<br />[*]Atmosphere glow: a bright line at the edge, fading into space in each world's own colour. From orbit it sits at the edge of the clouds, not over them.[/*]\n<br />[*]Rings: crisp ringlets and the planet's shadow across its ring. Rings sit behind your air, low rings fade into the horizon haze, and from orbit far rings sit behind a nearer world's glow.[/*]\n<br />[*]Clean climb out of a planet: the worlds around you change from the ground look to the space look in one smooth step, with no grey veil and no white fog on asteroids.[/*]\n<br />[/list]Your own planet\n<br />[list]\n<br />[*]One haze: the game's three fog layers replaced by one. Denser and more atmospheric in 1.5, it settles low (valleys fill, peaks clear), takes the colour of the sky behind it, and always ends in haze at the horizon.[/*]\n<br />[*]Light in the haze: it glows only where sunlight reaches it. At dusk the low haze goes dark first while higher air stays lit.[/*]\n<br />[*]Dusk and night: the sky's light fades with the sunset, nights are darker and keep their star's colour, and the night air clears so the space sky shows through.[/*]\n<br />[*]Sunlight: bright surfaces brighten gently (no blown-out ground at noon), shaded slopes keep more sky light, and cave ceilings are no longer lit cyan.[/*]\n<br />[*]Sun: a real sun disc that reddens near the horizon, and a lens flare that fades gently through thin clouds.[/*]\n<br />[*]Moons: on small moons the sky wraps all the way around you above the clouds.[/*]\n<br />[*]Auroras: on about half the worlds with air, over both poles at night. They hang high above the clouds, keep a steady shape and colour per world, cast a faint glow on the ground, and from orbit their curtains rise above the planet's edge.[/*]\n<br />[*]Particles: smoke, dust, mist and sparks sit in your planet's haze and darken at night. Fireflies and embers keep their glow, and particles no longer cut off hard at the camera.[/*]\n<br />[*]Rain: the haze thins and a deep, close mist gathers low.[/*]\n<br />[*]Volcanic worlds: wrapped in a thick, ash-tinted haze.[/*]\n<br />[*]Glow: bloom that settles at the same speed at every frame rate, and no sky-coloured outlines around objects against fog.[/*]\n<br />[/list]\n<br />\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*]No Man's Sky 7.04.1 (Cosmos), PC. No other mods required. Nubilus 1.0 recommended.[/*]\n<br />[*]Not compatible with other shader mods that replace the same files: CrescentWorlds, Key Art Worlds and Atmosphere, other fog, atmosphere or particle shader mods, and lens-flare shader mods. Only one mod can own each shader file (the full file list is in the README).[/*]\n<br />[*]For clouds, use Nubilus or another cloud mod, not both.[/*]\n<br />[*]Table (MBIN/EXML) mods are fine, including sky colour and weather mods.[/*]\n<br />[*]Shader mods can break when Hello Games updates the game. If things look wrong after a patch, remove Lunatus until an update is posted.[/*]\n<br />[/list]\n<br />\n<br />Known limits\n<br />[list]\n<br />[*]In two- and three-sun systems, the night tint uses the main sun's colour.[/*]\n<br />[*]Worlds seen from very close are left vanilla.[/*]\n<br />[*]Without Nubilus, other worlds' cloud layers are the game's own.[/*]\n<br />[*]The rain mist sits by sea level, so high ground gets less of it.[/*]\n<br />[/list]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*]Hello Games, for No Man's Sky and a universe worth looking up at.[/*]\n<br />[*]The CrescentWorlds mod, whose idea of true crescents in the sky inspired this one. Lunatus is written from scratch; no other mod's code is used.[/*]\n<br />[*]The NMS modding community's tools, MBINCompiler and HGPAKtool, and Khronos' SPIRV-Cross, glslang and SPIRV-Tools.[/*]\n<br />[*]Claude AI[/*]\n<br />[/list]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />",
     "state": "normal",
@@ -681586,7 +681689,7 @@
         "size_kb": 119,
         "size_in_bytes": 122005,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/5f/b1/34/5fb1345d-1484-4194-8d30-f1e136555b75.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/5f/b1/34/5fb1345d-1484-4194-8d30-f1e136555b75"
       },
       {
         "id": [
@@ -681611,7 +681714,7 @@
         "size_kb": 119,
         "size_in_bytes": 122640,
         "changelog_html": "Lunati 1.1\nNew: Earthshine. Seen from your planet, a world's dark side now catches a faint glow of sunlight bounced off your world. It's strongest when that world is a thin crescent near the sun, like the ashen light on a young Moon, and its terrain shows dimly on the unlit side.\nNight and space dark sides are now solid dark silhouettes. The space-fog tint over a world's dark side is down from 90% to 20%. Planets read as solid bodies that hide the stars behind them.\nFixed: planets could look see-through, like glass bubbles, in space.\nFixed: crescents looked too thin at night.\nDaytime: a world's lit side is now 80% blended into your sky (was 85%), so planets are a little easier to see by day.\nFixed: two rare edge cases that could cause flickering black pixels on distant worlds' atmospheres and clouds.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/28/a9/29/28a92926-548a-4583-ab81-67134d36ca17.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/28/a9/29/28a92926-548a-4583-ab81-67134d36ca17"
       },
       {
         "id": [
@@ -681636,7 +681739,7 @@
         "size_kb": 139,
         "size_in_bytes": 142667,
         "changelog_html": "1.2\n- Renamed Lunati -&gt; Lunatus. If you're updating, delete the old \"Lunati\" folder first.\n- Night: other worlds' sunlit sides now shine like a real moon (the game's fog was hiding about 95% of them).\n- Moonrise: at night, worlds low in the sky dim and turn orange-red toward the horizon, like our own air does.\n- Sunrise/sunset: the sky's red horizon glow now sits in front of other worlds instead of stopping at their edge.\n- Each world's lit side takes a light tint of its own atmosphere's colour.\n- Rings: a planet now casts its shadow across its ring, seen from anywhere.\n- Rings: one consistent look from space and from the ground, they sit behind your planet's atmosphere, and they no longer dim suddenly as you arrive at a planet.\n- Tweaked the look of distant planets as you enter or leave a planets atmosphere.\n- From space: a planet's haze only glows where its sun reaches. Night sides are dark, with no grey disc on approach and no glowing edge along the night side's horizon.\n- Entering a planet at night: its land shows faintly through the dark, and the game's haze fades in smoothly as you descend.\n- Fixed a sunrise glare where other worlds shone through your clouds.\n- Fixed a world low in the night sky showing far too bright.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/94/75/11/94751166-6bad-4cd9-8e09-85c843fdc615.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/94/75/11/94751166-6bad-4cd9-8e09-85c843fdc615"
       },
       {
         "id": [
@@ -681661,7 +681764,7 @@
         "size_kb": 139,
         "size_in_bytes": 142689,
         "changelog_html": "1.2.1 – Fixed other worlds' night sides turning black...hopefully nothing else broke in the process...",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/04/c3/df/04c3dfbc-039b-40e6-bd88-ab8c8a5f69c2.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/04/c3/df/04c3dfbc-039b-40e6-bd88-ab8c8a5f69c2"
       },
       {
         "id": [
@@ -681686,7 +681789,7 @@
         "size_kb": 140,
         "size_in_bytes": 143714,
         "changelog_html": "\"\" so im still learning all the things that can be tweaked and improved. With this patch i dialed back some probably rushed/not fully tested changes so i could have a more solid mod to work with. so a few things from 1.2 got stripped in favor of some better methods. imma keep pushing what can be done with this though until i run out of stuff to do.\"\nFrom a planet at night, other worlds' dark sides are now shaded exactly as space shows them (the game's own space fog), instead of a separate tint.\nA world's atmosphere shows as a thin band at its edge that follows its real day side, with a clearer face.\nCrisper terminators.\nRemoved the dark-side silhouette, the cut-away clouds over night sides, and the faint land when entering at night.\nFixed a rare black-pixel risk and the home-planet check on the ground.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/58/5b/c6/585bc686-a095-4f59-b718-59ad87eaf12e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/58/5b/c6/585bc686-a095-4f59-b718-59ad87eaf12e"
       },
       {
         "id": [
@@ -681711,7 +681814,7 @@
         "size_kb": 325,
         "size_in_bytes": 333504,
         "changelog_html": "// DEV NOTE\nv1.4 is a big update...lots of testing and tweaking has been done...overall its improved a ton since v1.3.\ntheres still little things that bug me about the planetary visuals that i've had a hard time fixing but at least we've got this.\nreport any bugs or issues please...i eat those up.\nalso expect further updates...im always trying to find ways to improve stuff.\n--------------------------------------------\nYour planet's air: one physical haze replaces the game's three fog layers - thickens with distance, settles low, sky-coloured, ends in haze at the horizon\nHaze glows only where sunlight reaches it - low haze goes dark first at dusk\nDusk dimming and darker nights, with a clear night air that shows the space sky\nRain: thinner haze with a deep, close ground mist - rain storms included\nVolcanic worlds wrapped in a thick ash haze\nAuroras over both poles of about half the worlds with air, seen from the ground and from orbit\nRebuilt volumetric clouds: correct blending, far less grain, fuller insides\nFar worlds: one lighting law for day and night, lit from their star's real direction\nReal atmosphere glow on far worlds, in each world's own colour\nRings with crisp ringlets and clean edges seen edge-on\nClean climb out of a planet - no bright discs or grey night sides, space fog fades in\nHaze in front of other worlds matches the sky at dawn and dusk\nSofter terminators\nStronger sun glow, brighter bloom, stronger god rays in clear weather\nEarthshine removed for now (returns after its own test)\nCompatibility: now conflicts with cloud shader mods (e.g. Cloud Tweaks) - Lunatus replaces the same cloud files",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/24/00/0c/24000c8f-ed8e-40c1-98a9-552c536dc86c.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/24/00/0c/24000c8f-ed8e-40c1-98a9-552c536dc86c"
       },
       {
         "id": [
@@ -681736,7 +681839,7 @@
         "size_kb": 473,
         "size_in_bytes": 484893,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/90/8a/2c/908a2c7e-4ea6-482f-b042-3cae32f2bd97.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/90/8a/2c/908a2c7e-4ea6-482f-b042-3cae32f2bd97"
       },
       {
         "id": [
@@ -681761,7 +681864,7 @@
         "size_kb": 499,
         "size_in_bytes": 511512,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/4e/b7/93/4eb7936f-ac00-4c89-97e2-3fa9c94cf494.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4e/b7/93/4eb7936f-ac00-4c89-97e2-3fa9c94cf494"
       },
       {
         "id": [
@@ -681786,7 +681889,7 @@
         "size_kb": 8418,
         "size_in_bytes": 8620185,
         "changelog_html": "Important\nRebuilt for No Man's Sky 7.04.1.\nClouds moved out into their own mod, Nubilus 1.0, released together and recommended. Without Nubilus the game's own clouds are used.\nDelete your old Lunatus folder before installing, otherwise 1.4's cloud files stay behind.\nNew\nDistance haze: denser, more atmospheric fog. Far land sits deeper in your planet's haze but never goes solid.\nSunlight: very bright surfaces brighten more gently, with no blown-out ground at noon. Shaded slopes keep more sky light.\nDusk and night: the sky's light fades with the sunset, distant haze stops glowing after dusk, and nights keep their star's colour instead of going grey.\nCaves: ceilings and overhangs are lit by light bounced off the ground, not cyan sky.\nParticles: smoke, dust, mist and sparks sit in the planet's haze and darken at night. Fireflies and embers keep their glow, and particles no longer cut off hard at the camera.\nAuroras: visible over night sides from orbit, with curtains rising above the planet's edge. They hang higher (above the clouds), keep a steady shape and colour per world with no flicker, cast a faint glow on the ground below, and fade softly in the distance.\nRings: low rings fade into your horizon haze. From orbit, a far world's rings sit behind a nearer world's atmosphere glow.\nSun: a real sun disc that reddens near the horizon, and a lens flare that fades gently through thin clouds.\nMoons: on small moons the sky now wraps around you above the clouds too.\nHorizon from orbit: the bright band on a planet's edge sits at the edge of its clouds, not over them.\nWorlds at night: a far world's night side ends in a clean edge, with no dark band inside its rim.\nHorizon: the far landscape always ends in a little haze, even on clear days.\nFixed\nEntering a planet: less haze on big worlds, and giant worlds clear at the same height as normal ones.\nLeaving a planet: the worlds around you switch from ground look to space look in one smooth step. No grey veil over your planet on the way up or down, and no flat white fog on asteroids.\nAirless moons: by day their far land no longer fades to black.\nOutlines: no thin sky-coloured outline around trees, rocks and your ship against fog.\nBloom: settles at the same speed at every frame rate, with no lag at 30 fps and no flicker at high fps.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/22/7f/5a/227f5a53-5bd2-4bf8-b055-7b53e2e1ab7e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/22/7f/5a/227f5a53-5bd2-4bf8-b055-7b53e2e1ab7e"
       },
       {
         "id": [
@@ -681811,7 +681914,7 @@
         "size_kb": 13639,
         "size_in_bytes": 13966946,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/46/7e/a2/467ea2a8-9c5d-49cd-bd97-3c9226f32356.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/46/7e/a2/467ea2a8-9c5d-49cd-bd97-3c9226f32356"
       },
       {
         "id": [
@@ -681836,7 +681939,7 @@
         "size_kb": 13565,
         "size_in_bytes": 13890832,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/37/5f/5c/375f5cbf-484d-4cd6-9a43-ae26c9701d8c.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/37/5f/5c/375f5cbf-484d-4cd6-9a43-ae26c9701d8c"
       },
       {
         "id": [
@@ -681861,7 +681964,7 @@
         "size_kb": 8403,
         "size_in_bytes": 8604954,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/8a/2e/3e/8a2e3edb-9476-4a2c-959e-312cfd05cf91.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/8a/2e/3e/8a2e3edb-9476-4a2c-959e-312cfd05cf91"
       },
       {
         "id": [
@@ -681886,7 +681989,7 @@
         "size_kb": 8380,
         "size_in_bytes": 8581543,
         "changelog_html": "1.6\n- New: land fog. The land now ends in fog just before the terrain stops drawing, and the fog lifts as you climb past 3-6 km so the whole planet shows from high up.\n- New: a light valley fog settles in valleys and canyons from dusk through the morning and burns off as the sun climbs.\n- New: storm, rain and ash fog never get brighter than the fog brightness cap, and a storm's fog comes in more gently.\n- New: thicker air in the distance, clearer air close by. Far land sits deeper in your planet's haze; the haze right around you is thinner (about half of it is back at 500 m, all of it from 2 km).\n- New: the back face of planetary rings is lit by the light passing through the ring instead of being black, and rings seen from the ground by day fade into the sky's haze.\n- New: from orbit, the atmosphere's rim glow hugs the ground where no clouds sit under it, instead of floating above the planet's edge with a dark gap.\n- New: gas giants get their own haze (thick down in the clouds, clear above them) when Nubilus 1.2 is installed.\n- Fixed: space dust / heavy-air smoke near planets turning pale cyan and blocky, or washed green higher up (thanks for the report).\n- Fixed: from space, an aurora with a ring behind it turning into a flat pink blob.\n- Fixed: a dark, saturated stripe along the skyline on small moons when flying up.\n- Update: delete the old Lunatus folder, then drop in the new one. Update Nubilus to 1.2 at the same time.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/a4/41/fe/a441feb6-0728-40a7-9337-4c66de7e329c.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a4/41/fe/a441feb6-0728-40a7-9337-4c66de7e329c"
       },
       {
         "id": [
@@ -681911,7 +682014,7 @@
         "size_kb": 8395,
         "size_in_bytes": 8597139,
         "changelog_html": "1.6\n- New: land fog. The land now ends in fog just before the terrain stops drawing, and the fog lifts as you climb past 3-6 km so the whole planet shows from high up.\n- New: a light valley fog settles in valleys and canyons from dusk through the morning and burns off as the sun climbs.\n- New: storm, rain and ash fog never get brighter than the fog brightness cap, and a storm's fog comes in more gently.\n- New: thicker air in the distance, clearer air close by. Far land sits deeper in your planet's haze; the haze right around you is thinner (about half of it is back at 500 m, all of it from 2 km).\n- New: the back face of planetary rings is lit by the light passing through the ring instead of being black, and rings seen from the ground by day fade into the sky's haze.\n- New: from orbit, the atmosphere's rim glow hugs the ground where no clouds sit under it, instead of floating above the planet's edge with a dark gap.\n- New: gas giants get their own haze (thick down in the clouds, clear above them) when Nubilus 1.2 is installed.\n- Fixed: space dust / heavy-air smoke near planets turning pale cyan and blocky, or washed green higher up (thanks for the report).\n- Fixed: from space, an aurora with a ring behind it turning into a flat pink blob.\n- Fixed: a dark, saturated stripe along the skyline on small moons when flying up.\n- Update: delete the old Lunatus folder, then drop in the new one. Update Nubilus to 1.2 at the same time.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/f7/0b/50/f70b5013-8b04-4c52-996b-362774821d59.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f7/0b/50/f70b5013-8b04-4c52-996b-362774821d59"
       },
       {
         "id": [
@@ -681922,9 +682025,9 @@
         "file_id": 50011,
         "name": "Lunatus v1.7 (darker nights)",
         "version": "1.7",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 8589,
         "file_name": "Lunatus v1.7 (darker nights) 4555 1.7 2026-10-20T01-12Z EwAQ86njC.zip",
         "detected_file_extension": "zip",
@@ -681936,7 +682039,7 @@
         "size_kb": 8589,
         "size_in_bytes": 8795981,
         "changelog_html": "NEW - God rays and shadows rewritten (finer, steadier shafts; fog volumes take real sun shadows; smooth lamp/torch light cones; sun shadows without steps between distances, sharp at contact, softer further out). NEW - Haze: about 70% thinner coming down from orbit from roughly 4 km above the ground, easing back in near the ground (unchanged on foot); the sudden switch-on around 9-10 km is smoothed and the haze colour changes gradually between 4 and 6 km; by day other planets and moons show through the haze about 30% more (nights unchanged); near and middle haze about half as dense so land around 1 km keeps more colour.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/0f/a5/41/0fa54158-0d78-41f9-a19b-aa6996bafb24.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0f/a5/41/0fa54158-0d78-41f9-a19b-aa6996bafb24"
       },
       {
         "id": [
@@ -681947,8 +682050,8 @@
         "file_id": 50012,
         "name": "Lunatus 1.7 (VanillaNights)",
         "version": "1.7",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 8574,
         "file_name": "Lunatus 1.7 (VanillaNights) 4555 1.7 2026-10-20T01-12Z VMJOtCiZG.zip",
@@ -681961,7 +682064,57 @@
         "size_kb": 8574,
         "size_in_bytes": 8780767,
         "changelog_html": "NEW - God rays and shadows rewritten (finer, steadier shafts; fog volumes take real sun shadows; smooth lamp/torch light cones; sun shadows without steps between distances, sharp at contact, softer further out). NEW - Haze: about 70% thinner coming down from orbit from roughly 4 km above the ground, easing back in near the ground (unchanged on foot); the sudden switch-on around 9-10 km is smoothed and the haze colour changes gradually between 4 and 6 km; by day other planets and moons show through the haze about 30% more (nights unchanged); near and middle haze about half as dense so land around 1 km keeps more colour.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4555/fe/44/76/fe4476a2-b016-47f6-abaf-b0cdb1995b1a.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/fe/44/76/fe4476a2-b016-47f6-abaf-b0cdb1995b1a"
+      },
+      {
+        "id": [
+          50112,
+          1634
+        ],
+        "uid": 7017976611776,
+        "file_id": 50112,
+        "name": "Lunatus v1.7.1 (darker nights)",
+        "version": "1.7.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8589,
+        "file_name": "Lunatus v1.7.1 (darker nights) 4555 1.7.1 2026-10-26T22-13Z JrNPcYFCB.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793052811,
+        "uploaded_time": "2026-10-26T22:13:31.000+00:00",
+        "mod_version": "1.7.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/19bfb6b6d8d5a3ca997873e47a63b73b9cc4636c6ac33a49ea08295343ee18e7",
+        "description": "Darker nights: land, sky and fog dim to 60% at full night, with a ceiling on the night light.",
+        "size_kb": 8589,
+        "size_in_bytes": 8795946,
+        "changelog_html": "FIXES from player reports: short pinkish streaks beside plants, birds and your character against the sky (seen on some graphics cards) are gone; the glow around distant planets now sits snug on their edge instead of a few pixels off it; with Nubilus 1.2.2, auroras no longer shine through clouds. Works with Nubilus 1.2.1 too (the aurora fix needs both Lunatus 1.7.1 and Nubilus 1.2.2).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/99/33/6a/99336a20-05e8-436e-80b3-8c3c22e01a0a"
+      },
+      {
+        "id": [
+          50113,
+          1634
+        ],
+        "uid": 7017976611777,
+        "file_id": 50113,
+        "name": "Lunatus 1.7.1 (VanillaNights)",
+        "version": "1.7.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 8574,
+        "file_name": "Lunatus 1.7.1 (VanillaNights) 4555 1.7.1 2026-10-26T22-13Z tScz2hUIf.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793052820,
+        "uploaded_time": "2026-10-26T22:13:40.000+00:00",
+        "mod_version": "1.7.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9b826d4db89c47290cd68c666fddbbd0be6b2ebbee0b028dcd836f53a2ee63f5",
+        "description": "Everything as the main file, but nights keep the game's own brightness (no extra night dimming, no ceiling).",
+        "size_kb": 8574,
+        "size_in_bytes": 8780796,
+        "changelog_html": "FIXES from player reports: short pinkish streaks beside plants, birds and your character against the sky (seen on some graphics cards) are gone; the glow around distant planets now sits snug on their edge instead of a few pixels off it; with Nubilus 1.2.2, auroras no longer shine through clouds. Works with Nubilus 1.2.1 too (the aurora fix needs both Lunatus 1.7.1 and Nubilus 1.2.2).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e1/c9/ff/e1c9ffbc-8a38-4471-8702-03e6ef4f38c9"
       }
     ],
     "changelogs": {
@@ -682065,6 +682218,9 @@
       ],
       "1.7": [
         "NEW - God rays and shadows rewritten (finer, steadier shafts; fog volumes take real sun shadows; smooth lamp/torch light cones; sun shadows without steps between distances, sharp at contact, softer further out). NEW - Haze: about 70% thinner coming down from orbit from roughly 4 km above the ground, easing back in near the ground (unchanged on foot); the sudden switch-on around 9-10 km is smoothed and the haze colour changes gradually between 4 and 6 km; by day other planets and moons show through the haze about 30% more (nights unchanged); near and middle haze about half as dense so land around 1 km keeps more colour."
+      ],
+      "1.7.1": [
+        "FIXES from player reports: short pinkish streaks beside plants, birds and your character against the sky (seen on some graphics cards) are gone; the glow around distant planets now sits snug on their edge instead of a few pixels off it; with Nubilus 1.2.2, auroras no longer shine through clouds. Works with Nubilus 1.2.1 too (the aurora fix needs both Lunatus 1.7.1 and Nubilus 1.2.2)."
       ]
     }
   },
@@ -685339,10 +685495,10 @@
     "mod_id": 4582,
     "name": "Pre-release Crystals",
     "summary": "swaps the vanilla crystal model with the pre-release crystals found in the game files.",
-    "version": "1",
+    "version": "1.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4582/4582-1790640611-1016585322.png",
     "author": "Somnati",
-    "updated_timestamp": 1791118182,
+    "updated_timestamp": 1793052842,
     "created_timestamp": 1790641311,
     "description": "[size=4][b]Description\n<br />[/b][/size]i swear there was a mod that did this at one point but i cant find it for the life of me and i want it back...so i made it again.\n<br />\n<br />[color=#D4D4D8]swaps the vanilla crystal model with the pre-release crystals found in the game files.[/color]\n<br />textures have been upscaled/improved to reduce artifacts.\n<br />\n<br />[list]\n<br />[*][b]Resolution:[/b] 1024x1024, up from 256x256 - the original texture was stretched over a 6 m crystal, which is where the smeared, low-res look came from. &lt; (this is prob wrong cause i found some other textures for it after this was wrote)[/*]\n<br />[*][b]No more blocky artifacts:[/b] the old compression blocks are removed before enlarging, and the new textures use BC7, the higher-quality compression the game itself uses for many of its colour textures.[/*]\n<br />[*][b]Detail:[/b] fine growth lines along each crystal and a faint mineral grain, so the surface holds up close.[/*]\n<br />[*][b]Normal map and surface masks[/b] rebuilt at 1024 too - the growth lines catch the light as subtle relief.[/*]\n<br />[*][b]Look and colours:[/b] the original pre-release mottling is kept, and every crystal keeps its vanilla colour (red, green, blue, yellow).[/*]\n<br />[*][b]Sizes:[/b] each pre-release model is scaled to the crystal it replaces and sits on the same ground.\n<br />\n<br />// Optional files\n<br />a very close replica of the pre-release carbon color. i have the exact color for it but i already had an approximate color made\n<br />which was close enough. if anyone wants me to update it with the EXACT color from the files let me know.\n<br />a black carbon variant that goes good with Lo2k's https://www.nexusmods.com/nomanssky/mods/1231\n<br />\n<br />if you want just a specific crystal type/size replaced let me know.\n<br />\n<br />I took those screenshots before i upscaled them so the crystals that you download will be higher quality than those.\n<br />\n<br />// PLANNED STUFF\n<br />idk...nothing right now[/*]\n<br />[/list]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />\n<br />1. Download and unzip.\n<br />2. Drop the \"Somnati_PrereleaseCrystals\" folder into ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it isn't there).\n<br />3. Restart the game. It works in new and existing saves.\n<br />\n<br />To uninstall, delete the \"Somnati_PrereleaseCrystals\" folder.\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04. No other mods or tools are needed.[/color][/*]\n<br />[*][color=#D4D4D8]It replaces the game's 16 common crystal models (large, medium, small and fragments, in all four colours). Another mod that replaces the same crystal files will conflict, so use one or the other.[/color][/*]\n<br />[*][color=#D4D4D8]Special crystals (sentinel, storm, gas giant, deep water, rare gem) are not changed.[/color][/*]\n<br />[*][color=#D4D4D8]Colour, palette, shader and biome mods work fine alongside it.[/color][/*]\n<br />[*][color=#D4D4D8]Mining, scanning and resources are unchanged.[/color][/*]\n<br />[*][color=#D4D4D8]If crystals vanish or look wrong after a game patch, remove the mod until an update is posted.[/color][/*]\n<br />[/list]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8][b]Hello Games,[/b] for the pre-release crystals: the models and their original texture still ship unused in the game's files. This mod just brings them back.[/color][/*]\n<br />[*][color=#D4D4D8][b]The 2014–2015 pre-release trailers,[/b] which inspired this.[/color][/*]\n<br />[*][color=#D4D4D8][b]monkeyman192 and the MBINCompiler / HGPAKtool contributors,[/b] whose tools made it possible.[/color][/*]\n<br />[*][color=#D4D4D8]No other mod's files are used.\n<br />\n<br />- Claude AI[/color][/*]\n<br />[/list]",
     "state": "normal",
@@ -685371,7 +685527,7 @@
         "size_kb": 10393,
         "size_in_bytes": 10642941,
         "changelog_html": "added prerelease-COLORS optional file.\nred - pulled from pre-release footage\nyellow - custom tweak\nblue - custom tweak",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/79/70/0b/79700b83-ad65-463f-a309-843277fffc0e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/79/70/0b/79700b83-ad65-463f-a309-843277fffc0e"
       },
       {
         "id": [
@@ -685396,7 +685552,7 @@
         "size_kb": 3586,
         "size_in_bytes": 3672646,
         "changelog_html": "added prerelease-COLORS optional file.\nred - pulled from pre-release footage\nyellow - custom tweak\nblue - custom tweak",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/86/3a/75/863a753e-cefc-48b4-a25e-5ae426b8e432.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/3a/75/863a753e-cefc-48b4-a25e-5ae426b8e432"
       },
       {
         "id": [
@@ -685421,7 +685577,7 @@
         "size_kb": 6261,
         "size_in_bytes": 6411435,
         "changelog_html": "added prerelease-COLORS optional file.\nred - pulled from pre-release footage\nyellow - custom tweak\nblue - custom tweak",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/d5/cb/14/d5cb1437-6f5f-4bd6-b929-dc2406dd6f7f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/d5/cb/14/d5cb1437-6f5f-4bd6-b929-dc2406dd6f7f"
       },
       {
         "id": [
@@ -685446,7 +685602,7 @@
         "size_kb": 6030,
         "size_in_bytes": 6175705,
         "changelog_html": "added prerelease-COLORS optional file.\nred - pulled from pre-release footage\nyellow - custom tweak\nblue - custom tweak",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/1c/86/5f/1c865fbd-83d3-46c3-8197-83ef1063f0cf.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1c/86/5f/1c865fbd-83d3-46c3-8197-83ef1063f0cf"
       },
       {
         "id": [
@@ -685471,7 +685627,7 @@
         "size_kb": 6032,
         "size_in_bytes": 6177082,
         "changelog_html": "added prerelease-COLORS optional file.\nred - pulled from pre-release footage\nyellow - custom tweak\nblue - custom tweak",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/2a/21/89/2a218920-c3ad-45a5-9b66-aa6ceb119c34.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/2a/21/89/2a218920-c3ad-45a5-9b66-aa6ceb119c34"
       },
       {
         "id": [
@@ -685496,7 +685652,7 @@
         "size_kb": 6032,
         "size_in_bytes": 6177234,
         "changelog_html": "added prerelease-COLORS optional file.\nred - pulled from pre-release footage\nyellow - custom tweak\nblue - custom tweak",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/94/f9/cf/94f9cf92-6571-476a-80d1-22a1dba3b0ab.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/94/f9/cf/94f9cf92-6571-476a-80d1-22a1dba3b0ab"
       },
       {
         "id": [
@@ -685507,9 +685663,9 @@
         "file_id": 49238,
         "name": "PrereleaseCrystals 1.1 NMS7.04",
         "version": "1.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 10200,
         "file_name": "PrereleaseCrystals 1.1 NMS7.04 4582 1.1 2026-09-29T03-31Z QR3q07yfR.zip",
         "detected_file_extension": "zip",
@@ -685521,7 +685677,7 @@
         "size_kb": 10200,
         "size_in_bytes": 10445780,
         "changelog_html": "found the actual OG textures. fixed some issues with them and attached them to the crystals.\nremoved the seperate optional crystal replacements until requested...i had to update the textures for the main mod and am busy with other things right now...if you want just a specific crystal type/size replaced let me know",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/12/53/bc/1253bc96-30ef-4cae-90ad-19690b8b87b5.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/12/53/bc/1253bc96-30ef-4cae-90ad-19690b8b87b5"
       },
       {
         "id": [
@@ -685532,8 +685688,8 @@
         "file_id": 49239,
         "name": "BlackCarbon (only carbon crystals)",
         "version": "1.1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 3720,
         "file_name": "BlackCarbon (only carbon crystals) 4582 1.1 2026-09-29T03-31Z QR3q07yfe.zip",
@@ -685546,7 +685702,7 @@
         "size_kb": 3720,
         "size_in_bytes": 3810005,
         "changelog_html": "found the actual OG textures. fixed some issues with them and attached them to the crystals.\nremoved the seperate optional crystal replacements until requested...i had to update the textures for the main mod and am busy with other things right now...if you want just a specific crystal type/size replaced let me know",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/e7/62/30/e76230c9-f8e5-468a-a9d7-a034d84a4687.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e7/62/30/e76230c9-f8e5-468a-a9d7-a034d84a4687"
       },
       {
         "id": [
@@ -685571,7 +685727,7 @@
         "size_kb": 10404,
         "size_in_bytes": 10653979,
         "changelog_html": "added prerelease-COLORS optional file.\nred - pulled from pre-release footage\nyellow - custom tweak\nblue - custom tweak",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/20/d9/36/20d936d1-67f2-4828-a388-0513aa088554.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/20/d9/36/20d936d1-67f2-4828-a388-0513aa088554"
       },
       {
         "id": [
@@ -685582,8 +685738,8 @@
         "file_id": 49241,
         "name": "Prerelease-carbon color 1.1 NMS7.04",
         "version": "1.1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 4073,
         "file_name": "Prerelease-carbon color 1.1 NMS7.04 4582 1.1 2026-09-29T03-36Z oPfwFLsac.zip",
@@ -685596,7 +685752,7 @@
         "size_kb": 4073,
         "size_in_bytes": 4171109,
         "changelog_html": "found the actual OG textures. fixed some issues with them and attached them to the crystals.\nremoved the seperate optional crystal replacements until requested...i had to update the textures for the main mod and am busy with other things right now...if you want just a specific crystal type/size replaced let me know",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/3d/c5/67/3dc56783-1bc1-425a-9864-fa617c7e29ce.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/3d/c5/67/3dc56783-1bc1-425a-9864-fa617c7e29ce"
       },
       {
         "id": [
@@ -685607,8 +685763,8 @@
         "file_id": 49531,
         "name": "Black Carbon_prerelease others",
         "version": "1",
-        "category_id": 5,
-        "category_name": "MISCELLANEOUS",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 9965,
         "file_name": "Black Carbon_prerelease others 4582 1 2026-10-04T12-49Z L5bXM34wh.zip",
@@ -685621,7 +685777,107 @@
         "size_kb": 9965,
         "size_in_bytes": 10204174,
         "changelog_html": "added prerelease-COLORS optional file.\nred - pulled from pre-release footage\nyellow - custom tweak\nblue - custom tweak",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4582/4a/41/52/4a4152c1-2c28-42a1-a2aa-3e12f2b4db0f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4a/41/52/4a4152c1-2c28-42a1-a2aa-3e12f2b4db0f"
+      },
+      {
+        "id": [
+          50115,
+          1634
+        ],
+        "uid": 7017976611779,
+        "file_id": 50115,
+        "name": "PrereleaseCrystals 1.2 NMS7.04",
+        "version": "1.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 10209,
+        "file_name": "PrereleaseCrystals 1.2 NMS7.04 4582 1.2 2026-10-26T22-13Z XnaJySDql.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793052831,
+        "uploaded_time": "2026-10-26T22:13:51.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cf3b645e09d890af0592f8e5bb10cb16c951893eb5aff02a9c209fa4847f485d",
+        "description": null,
+        "size_kb": 10209,
+        "size_in_bytes": 10454616,
+        "changelog_html": "Better collision: each crystal now has ONE collision shape that follows the crystal itself instead of a box - shots and the mining beam hit what you see, and you can walk right up to a crystal without bumping into empty air. Looks unchanged. All four files updated (Complete Black Carbon is 1.1).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a1/06/1a/a1061a91-6531-4541-8f09-91fb9be8b58d"
+      },
+      {
+        "id": [
+          50116,
+          1634
+        ],
+        "uid": 7017976611780,
+        "file_id": 50116,
+        "name": "Prerelease-carbon color 1.2 NMS7.04",
+        "version": "1.2",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 4081,
+        "file_name": "Prerelease-carbon color 1.2 NMS7.04 4582 1.2 2026-10-26T22-13Z kAMZq0asJ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793052835,
+        "uploaded_time": "2026-10-26T22:13:55.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/97660e55b0f428f132fb89e4642030887bd91a5667ca161b1feeed0ae1b76f11",
+        "description": null,
+        "size_kb": 4081,
+        "size_in_bytes": 4179908,
+        "changelog_html": "Better collision: each crystal now has ONE collision shape that follows the crystal itself instead of a box - shots and the mining beam hit what you see, and you can walk right up to a crystal without bumping into empty air. Looks unchanged. All four files updated (Complete Black Carbon is 1.1).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/41/1b/26/411b2697-0977-4ffa-8bb1-ac258c340fcb"
+      },
+      {
+        "id": [
+          50117,
+          1634
+        ],
+        "uid": 7017976611781,
+        "file_id": 50117,
+        "name": "BlackCarbon (only carbon crystals) 1.2",
+        "version": "1.2",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 3729,
+        "file_name": "BlackCarbon (only carbon crystals) 1.2 4582 1.2 2026-10-26T22-13Z Z3ytCvNWN.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793052838,
+        "uploaded_time": "2026-10-26T22:13:58.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ce751db28bfc9d5bd4839e735aec6797633b9fe820eedb607dfca26eb9bb90ac",
+        "description": null,
+        "size_kb": 3729,
+        "size_in_bytes": 3818760,
+        "changelog_html": "Better collision: each crystal now has ONE collision shape that follows the crystal itself instead of a box - shots and the mining beam hit what you see, and you can walk right up to a crystal without bumping into empty air. Looks unchanged. All four files updated (Complete Black Carbon is 1.1).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/88/13/c2/8813c29e-8584-4c0e-9e95-d4cb493830eb"
+      },
+      {
+        "id": [
+          50118,
+          1634
+        ],
+        "uid": 7017976611782,
+        "file_id": 50118,
+        "name": "Black Carbon_prerelease others 1.1",
+        "version": "1.1",
+        "category_id": 5,
+        "category_name": "MISCELLANEOUS",
+        "is_primary": false,
+        "size": 9973,
+        "file_name": "Black Carbon_prerelease others 1.1 4582 1.1 2026-10-26T22-14Z SxEYBfKo5.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793052842,
+        "uploaded_time": "2026-10-26T22:14:02.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/aef8f4558e267fc5e3610afbac41212be363b6c96e82911d25345fe806eb64d2",
+        "description": null,
+        "size_kb": 9973,
+        "size_in_bytes": 10213172,
+        "changelog_html": "found the actual OG textures. fixed some issues with them and attached them to the crystals.\nremoved the seperate optional crystal replacements until requested...i had to update the textures for the main mod and am busy with other things right now...if you want just a specific crystal type/size replaced let me know",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e3/49/bb/e349bb93-c963-47cd-ac4f-5653248de09b"
       }
     ],
     "changelogs": {
@@ -685634,6 +685890,9 @@
       "1.1": [
         "found the actual OG textures. fixed some issues with them and attached them to the crystals.",
         "removed the seperate optional crystal replacements until requested...i had to update the textures for the main mod and am busy with other things right now...if you want just a specific crystal type/size replaced let me know"
+      ],
+      "1.2": [
+        "Better collision: each crystal now has ONE collision shape that follows the crystal itself instead of a box - shots and the mining beam hit what you see, and you can walk right up to a crystal without bumping into empty air. Looks unchanged. All four files updated (Complete Black Carbon is 1.1)."
       ]
     }
   },
@@ -691527,10 +691786,10 @@
     "mod_id": 4622,
     "name": "Nubilus (cloud overhaul)",
     "summary": "Overhauls the Clouds both on-ground and in-space.",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4622/4622-1791179457-2012069261.png",
     "author": "Somnati",
-    "updated_timestamp": 1792458738,
+    "updated_timestamp": 1793052827,
     "created_timestamp": 1791197253,
     "description": "[size=4][b]Expect updates as i am always fixing/improving stuff...or atleast trying to...\n<br />\n<br />Description\n<br />[/b][/size]CLOUDS NOW MATCH THE SPACE CLOUDS.\n<br />fly to a spot with no clouds...guess what...no clouds...\n<br />fly to a spot thats dense with clouds...heavy overcast!!!\n<br />\n<br />[color=#D4D4D8]Nubilus replaces No Man's Sky's clouds with real volumetric clouds that match from orbit to the ground. The cloud pattern you see from space is the same one you fly through, lit and fogged to match the sky around it, day and night.[/color]\n<br />\n<br />expect future updates/improvements. im always trying to fix little things that bug me when i play. Report any issues you have to me and i'll investigate.\n<br />\n<br />// KNOWN ISSUES\n<br />regarding v1.2 that just dropped...\n<br />as i play i still notice subtle things that bug me so this mod still has a way to go.\n<br />gas giants still need tweaking as well as moons but overall they work \"fine\".\n<br />\n<br />eclipses will hopefully come eventually but i pulled them cause they could be better.\n<br />stay tuned...\n<br />\n<br />[size=4][b]Installation instructions\n<br />[/b][/size]\n<br />// Why is Lunatus required:\n<br />[list]\n<br />[*][b]It's built as a pair:[/b] Nubilus was cut against Lunatus 1.5's exact build, and the clouds were tuned against Lunatus' fog and sky. The cloud colours, night look and planet transitions all assume Lunatus' haze.[/*]\n<br />[*][b]Some cloud behaviour lives in Lunatus' files:[/b] the far-world cloud hand-over, the climb-out transition, and the horizon band hugging the clouds from orbit.[/*]\n<br />[*][b]It's never been tested without Lunatus:[/b] it might run, but the clouds would sit in vanilla fog they weren't designed for.[/*]\n<br />[/list]\n<br />[list=1]\n<br />[*][color=#D4D4D8]Install Lunatus first (required).[/color][/*]\n<br />[*][color=#D4D4D8]Extract the zip.[/color][/*]\n<br />[*][color=#D4D4D8]Drop the Nubilus folder into ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).[/color][/*]\n<br />[*][color=#D4D4D8]Restart the game. Works with new and existing saves.[/color][/*]\n<br />[/list][color=#D4D4D8]To uninstall, delete the Nubilus folder.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]One cloud pattern per planet: what you see from orbit is what you fly into, with a smooth fade from space down to the in-air clouds.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds take Lunatus' fog and sky colours, so they sit in the atmosphere instead of floating on top of it.[/color][/*]\n<br />[*][color=#D4D4D8]Shared day/night lighting from orbit and in the air: lit until sunset, a short warm afterglow, then dark night silhouettes.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds stay solid in front of moons and distant planets.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds cast shadows on the ground, and lakes and oceans reflect them.[/color][/*]\n<br />[/list]\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04.[/color][/*]\n<br />[*][color=#D4D4D8]Lunatus (required: Nubilus reads Lunatus' fog and sky).[/color][/*]\n<br />[*][color=#D4D4D8]Conflicts with other mods that replace the cloud shaders.[/color]\n<br />Conflicts with other mods that change the SDR tone mapping. [/*]\n<br />[/list]\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]Hello Games, for the game's cloud and atmosphere systems this builds on.[/color][/*]\n<br />[*][color=#D4D4D8]monkeyman192 and contributors, for MBINCompiler and HGPAKtool.\n<br />- Claude AI[/color][/*]\n<br />[/list]",
     "state": "normal",
@@ -691559,7 +691818,7 @@
         "size_kb": 24755,
         "size_in_bytes": 25349742,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/b6/65/d1/b665d1d2-4dca-4c39-9fa2-e7ff5768d6c1.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b6/65/d1/b665d1d2-4dca-4c39-9fa2-e7ff5768d6c1"
       },
       {
         "id": [
@@ -691584,7 +691843,7 @@
         "size_kb": 24755,
         "size_in_bytes": 25350064,
         "changelog_html": "-possibly fixed a bug where planets clouds would spin very fast when viewing the system map.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/56/e2/2c/56e22c46-ed6a-4146-9071-2ecd23c2ba21.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/56/e2/2c/56e22c46-ed6a-4146-9071-2ecd23c2ba21"
       },
       {
         "id": [
@@ -691609,7 +691868,7 @@
         "size_kb": 24757,
         "size_in_bytes": 25351886,
         "changelog_html": "Nubilus 1.1.1 - patch\n- Fixed: repeating patterns in water reflections. On rough water, small bright things (exocraft lights and edges, lamps, glints) and shorelines were reflected as several stacked copies. Reflections now blur smoothly.\n- Nothing else changed; clouds are exactly as in 1.1. Still pairs with Lunatus 1.5.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/a5/35/0d/a5350d85-9303-4276-8d3d-c5a6c702c917.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a5/35/0d/a5350d85-9303-4276-8d3d-c5a6c702c917"
       },
       {
         "id": [
@@ -691634,7 +691893,7 @@
         "size_kb": 24757,
         "size_in_bytes": 25352130,
         "changelog_html": "1.1.2\n- Fixed: hard colored foam along shorelines on coloured-water planets. Foam (shore lines, shore band, whitecaps) took the planet's foam colour at full strength; it's now near-white with only a hint of the planet's tint.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/ea/d7/d1/ead7d116-d66c-4a6c-9a98-8a7b6d28ed30.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ea/d7/d1/ead7d116-d66c-4a6c-9a98-8a7b6d28ed30"
       },
       {
         "id": [
@@ -691659,7 +691918,7 @@
         "size_kb": 29493,
         "size_in_bytes": 30200896,
         "changelog_html": "1.2\n- New: gas giants. The clouds you fly through follow the planet's bands: the belts are a solid, flat-topped cloud layer in the band's colour, the lanes between them keep broken, lower clouds, and the bands drift with the planet's winds. Down in the clouds a thick gas-giant fog closes in.\n- Fixed: far planets' cloud layers glowing and flickering (seen with FSR 2 - thanks for the report).\n- Fixed: flat-looking clouds on giant rocky worlds (thanks for the report).\n- The cloud layer seen from orbit is a little dimmer where the cover is heavy, so very cloudy worlds no longer read as flat white discs.\n- Fuller clouds: more relief inside the clouds (deeper shade under and inside, open tops a little brighter). At night, cloud edges no longer glow brighter than the cloud on worlds with a bright night light.\n- Clouds take Lunatus 1.6's thicker distant air, and clouds behind foggy land get the same fog depth as the land in front of them.\n- Fixed: rectangles and faint ghost copies of the ship, trees and other near objects in the haze over big planets and moons in your sky.\n- Requires Lunatus 1.6. Update: replace the Nubilus folder (and Nubilus_StellarumWater if you use it).",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/8c/fa/63/8cfa63ac-e741-4365-a987-6bc346f5e990.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/8c/fa/63/8cfa63ac-e741-4365-a987-6bc346f5e990"
       },
       {
         "id": [
@@ -691670,9 +691929,9 @@
         "file_id": 50013,
         "name": "Nubilus 1.2.1 NMS7.04",
         "version": "1.2.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 30274,
         "file_name": "Nubilus 1.2.1 NMS7.04 4622 1.2.1 2026-10-20T01-12Z uhKkQ8bEr.zip",
         "detected_file_extension": "zip",
@@ -691684,7 +691943,32 @@
         "size_kb": 30274,
         "size_in_bytes": 31000890,
         "changelog_html": "Fixed dark cloud-shaped blotches on distant planets at night; fixed checkerboard / jagged cloud edges in front of big planets; night clouds can no longer be brighter than the sky behind them (colour mods with very bright night skies no longer make them glow). Vanilla-colour look unchanged. Works with Lunatus 1.6 and 1.7.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4622/8c/27/9b/8c279b4f-dd8b-405d-8581-142b6c5be31a.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/8c/27/9b/8c279b4f-dd8b-405d-8581-142b6c5be31a"
+      },
+      {
+        "id": [
+          50114,
+          1634
+        ],
+        "uid": 7017976611778,
+        "file_id": 50114,
+        "name": "Nubilus 1.2.2 NMS7.04",
+        "version": "1.2.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 30275,
+        "file_name": "Nubilus 1.2.2 NMS7.04 4622 1.2.2 2026-10-26T22-13Z N2LUkQHYe.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793052827,
+        "uploaded_time": "2026-10-26T22:13:47.000+00:00",
+        "mod_version": "1.2.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/91bb0762a78eb84f99252db3ea504e09871268ceb68c0d5beebe46ade9806d7f",
+        "description": null,
+        "size_kb": 30275,
+        "size_in_bytes": 31001671,
+        "changelog_html": "Fix from a player report: auroras no longer shine through or on top of the clouds, and cloud edges in front of the sky melt into the real sky haze colour (no coloured fringe around gas-giant clouds). Needs Lunatus 1.7.1 (released together).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/03/19/58/03195831-6534-464a-96af-e13b31cdc6c7"
       }
     ],
     "changelogs": {
@@ -691713,6 +691997,9 @@
       ],
       "1.2.1": [
         "Fixed dark cloud-shaped blotches on distant planets at night; fixed checkerboard / jagged cloud edges in front of big planets; night clouds can no longer be brighter than the sky behind them (colour mods with very bright night skies no longer make them glow). Vanilla-colour look unchanged. Works with Lunatus 1.6 and 1.7."
+      ],
+      "1.2.2": [
+        "Fix from a player report: auroras no longer shine through or on top of the clouds, and cloud edges in front of the sky melt into the real sky haze colour (no coloured fringe around gas-giant clouds). Needs Lunatus 1.7.1 (released together)."
       ]
     }
   },
@@ -695154,10 +695441,10 @@
     "mod_id": 4666,
     "name": "- No Meta Economy -",
     "summary": "rebalances the unit economy so whether you're fishing, trading, mining or hunting they all should give similar unit payouts...play how you want to play.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4666/4666-1791887153-564097174.png",
     "author": "Somnati",
-    "updated_timestamp": 1792458740,
+    "updated_timestamp": 1793056985,
     "created_timestamp": 1791888909,
     "description": "[size=4][b]Description\n<br />[/b][/size] Community feedback is greatly encouraged!!!\n<br />\n<br />No more money meta. Every way of earning units (trading, missions, scanning, salvage, crafting, farming, fishing, digging up bones, frigates, settlements) pays about the same per hour of play, so you earn by playing the way you like instead of playing (Stasis Farm Simulator™) or (How Fast Can I Scan All These Creatures Simulator™).\n<br />\n<br />I haven't had time to actually sit down and play with this mod in full, so... THIS MOD HAS NOT BEEN THOROUGHLY TESTED. If I waited until I had, this mod wouldn't drop for ages. What I have tested is mainly item costs in my inventory, and those at least check out.\n<br />\n<br />If you like the intentions of this mod and think something in-game needs tweaking, please let me know. I'd like this mod to be as polished and well rounded as it can be.\n<br />\n<br />say it with me now...\"Community feedback is greatly encouraged!!!\"\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]1. Unzip.\n<br />2. Drop the Somnati_Economy folder into: No Man's Sky&#92;GAMEDATA&#92;MODS&#92;\n<br />3. Start the game.\n<br />\n<br />Uninstall: delete the Somnati_Economy folder.\n<br />Note: your existing units balance is not changed - an old save keeps its money. Start a new save (or spend down) for the intended experience.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]- Units scaled down 50x across the game (prices, rewards, sell values, costs), with a 1-unit floor so cheap raw resources still sell.\n<br />- Every money-making mechanic tuned toward the same hourly rate - active and passive income alike.\n<br />- Big buys priced in hours of play: roughly 8 h for an A-class ship, 10 h for an S-class multi-tool, 20 h for an S-class ship, 30-40 h for a freighter; inventory slots from minutes to a few hours.\n<br />- Missions, rewards, expedition rewards, settlements, base parts, customization parts, frigates and scrapped-ship parts all on the same scale.[/color]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]No Man's Sky 7.04. No other mods needed.\n<br />\n<br />Compatibility: partial patches (only the values it changes), so it works with mods that edit other parts of the same tables (icons, stats, weapons...). Other economy or price mods that change the same values will clash - use one economy mod.[/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]- Claude AI (ran sims on the games economy and built a tool that lets me edit it)[/color]",
     "state": "normal",
@@ -695186,7 +695473,7 @@
         "size_kb": 32,
         "size_in_bytes": 33385,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4666/32/cc/de/32ccdeae-b126-410d-af77-979578627a82.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/32/cc/de/32ccdeae-b126-410d-af77-979578627a82"
       },
       {
         "id": [
@@ -695197,9 +695484,9 @@
         "file_id": 50014,
         "name": "NoMetaEconomy v1.0.1",
         "version": "1.0.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 29,
         "file_name": "NoMetaEconomy v1.0.1 4666 1.0.1 2026-10-20T01-12Z OyPDz29tX.zip",
         "detected_file_extension": "zip",
@@ -695211,12 +695498,40 @@
         "size_kb": 29,
         "size_in_bytes": 30197,
         "changelog_html": "Fixed nanite, quicksilver, builder scrap and Contaminated Metal prices (only units are rescaled now). Ships, multi-tools and exocraft now cost the same time-to-afford as vanilla. Freighters and inventory slots stay as in 1.0.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4666/78/38/33/78383382-8637-483c-bcf7-098c91c4ef9b.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/78/38/33/78383382-8637-483c-bcf7-098c91c4ef9b"
+      },
+      {
+        "id": [
+          50120,
+          1634
+        ],
+        "uid": 7017976611784,
+        "file_id": 50120,
+        "name": "NoMetaEconomy v1.0.2",
+        "version": "1.0.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 29,
+        "file_name": "NoMetaEconomy v1.0.2 4666 1.0.2 2026-10-26T23-23Z KsnM3Tt8C.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793056985,
+        "uploaded_time": "2026-10-26T23:23:05.000+00:00",
+        "mod_version": "1.0.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/805a9ce3815b3a8d32bef9a93949757b848760b2f3cf6b86133215d11945d390",
+        "description": null,
+        "size_kb": 29,
+        "size_in_bytes": 30355,
+        "changelog_html": "Element prices follow their rarity again: Silver 2 &lt; Gold 3 &lt; Platinum 6 units each (Gold was cheaper than Silver), Tritium 1. Junk from loot containers sells for 1 unit (Residual Goop, Runaway Mould, Living Slime, Viscous Fluids and the rolled dismantle scraps; Rusted Metal 2). Suspicious Packets sell for about 20 units (15 / 20 / 35); buying them costs vanilla. A few items made from Tritium got slightly cheaper to match; income per hour unchanged. Fixed: Projectile Ammunition was priced per craft (109 units a round) - now per round (4). The Suspicious upgrade modules and the Scrap Dealer's decorations cost their vanilla Nanites / Tainted Metal again.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4f/7f/e0/4f7fe0b7-e0d3-4fb3-9ff4-3edb2518edd7"
       }
     ],
     "changelogs": {
       "1.0.1": [
         "Fixed nanite, quicksilver, builder scrap and Contaminated Metal prices (only units are rescaled now). Ships, multi-tools and exocraft now cost the same time-to-afford as vanilla. Freighters and inventory slots stay as in 1.0."
+      ],
+      "1.0.2": [
+        "Element prices follow their rarity again: Silver 2 &lt; Gold 3 &lt; Platinum 6 units each (Gold was cheaper than Silver), Tritium 1. Junk from loot containers sells for 1 unit (Residual Goop, Runaway Mould, Living Slime, Viscous Fluids and the rolled dismantle scraps; Rusted Metal 2). Suspicious Packets sell for about 20 units (15 / 20 / 35); buying them costs vanilla. A few items made from Tritium got slightly cheaper to match; income per hour unchanged. Fixed: Projectile Ammunition was priced per craft (109 units a round) - now per round (4). The Suspicious upgrade modules and the Scrap Dealer's decorations cost their vanilla Nanites / Tainted Metal again."
       ]
     }
   },
@@ -698048,12 +698363,12 @@
     "mod_id": 4696,
     "name": "Nomad Biomes - Modpack (formerly Lasagna)",
     "summary": "Adds hundreds of immersive, custom biomes (land, cave, &amp; underwater). Also overhauls terrain, colors, jetpack &amp; more.",
-    "version": "1.0",
+    "version": "1.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774113-701501391.jpg",
     "author": "SereiusBusiness",
-    "updated_timestamp": 1792777078,
+    "updated_timestamp": 1793054208,
     "created_timestamp": 1792777078,
-    "description": "[center][b][size=6]Nomad Biomes[/size][/b]\n<br />(formerly Lasagna)[/center]\n<br />\n<br />\n<br />[b][size=5]‣Description[/size][/b]\n<br />\n<br />[b][size=4][i]New custom pre-made biomes[/i][/size][/b], set of 500\n<br />[list]\n<br />[*]Each biome is themed with its own “story”, whether it’s a frozen jungle, a mushroom forest, a toxic egg field, a glowing radioactive garden, a lava field broken up by shield trees, sand dunes with giant cacti, or a dead moon covered in ship wrecks. No more random flora/props thrown together without reason.[/*]\n<br />[*]Planets feel more immersive and natural than ever. Flora/props are often found grouped together via. a new, advanced system of prop placements I developed. Plants grow next to trees, small rocks next to larger rocks, and so on and so forth.[/*]\n<br />[*]Includes giant forests, city biomes, rare colossal props, rare custom model trees, and forests on worlds that don't usually have them. [/*]\n<br />[*]Covers every planet type, from lush and frozen to toxic, radioactive, gas giant and weird/exotic worlds.[/*]\n<br />[*]Also includes spawner files for all 103 planet types.[/*]\n<br />[*]*Performance is mostly close to vanilla, from nearly empty planets up to about 3–4x vanilla for the heaviest biomes.[/*]\n<br />[*]*High density biomes in the screenshots may look intimidating, but the current game engine handles instanced objects far better than it used to. [i]If performance is an issue, try lowering \"Planet Quality\" settings and shadow settings for much better performance.[/i][/*]\n<br />[/list]\n<br />[b][i][size=4]Reworked underwater and cave biomes[/size][/i][/b], set of 197 (138 underwater, 59 caves)\n<br />[list]\n<br />[*]Improved variety: From underwater forests with grass, kelp, coral, vents and urchins to glowing caves with tall stalagmites.[/*]\n<br />[*]*Reworked and optimized for vanilla-like performance.[/*]\n<br />[/list]\n<br />[size=4][i][b]New terrain mod[/b][/i][/size], set of 31. Each terrain type has a different landform, including:\n<br />   -terraced canyons with marshy floors\n<br />   - flat plains with rock arches and mesas.\n<br />   - badlands with rock pillars\n<br />   - tall rock towers with floating islands\n<br />   - wide glacial valleys\n<br />   - rare worlds covered in worm-like ridges and ravines.\n<br />[list]\n<br />[*]Brings back the \"worm\" terrain and tall resource deposit shapes from the Foundation update.[/*]\n<br />[*]Adds unique structures with (relatively) open ground in-between, so planets are fun to explore on-foot and flora/props have room to spawn.[/*]\n<br />[*]The lowest terrain sits lower than vanilla, so ground fog is more common.[/*]\n<br />[*]Water worlds have large landmasses instead of only small islands.[/*]\n<br />[/list]\n<br />[b][size=4][i]Nomad Colors[/i][/size][/b] (formerly Lasagna Obscura)\n<br />[list]\n<br />[*]A stylized color mod. Aggregate of all sky color/lighting/QOL/etc. mods I've made via. my Lasagna mods, plus several new additions.[/*]\n<br />[*]New colors for: flora, terrain, rings and fauna. Flora and rings span the full rainbow.[/*]\n<br />[*]Darker space with bright nebulas (some vanilla space colors remain).[/*]\n<br />[*]Choose extra fog or less fog. Fog appears darker (and colorful) near you and fades into the sky at a distance. Lighter fog on prime planets, vanilla fog on empty planets.[/*]\n<br />[*]Less instances of the old smoke effect that follows the player, and fewer gravity bubbles.[/*]\n<br />[*]No high clouds on regular planets, and some planets have few or no clouds depending on elevation.[/*]\n<br />[*]Storms are 25% as long and less frequent on very stormy planets.[/*]\n<br />[*]Spore hazard plants replaced with tentacle hazard plants.[/*]\n<br />[*]Slightly brighter sun and clouds.[/*]\n<br />[*]No photo mode vignette.[/*]\n<br />[/list]\n<br />[size=5][b]‣Mods Included[/b][/size]\n<br />[list]\n<br />[*]Nomad Biomes - Planets: 500 base terrain biomes, includes custom models and updates to pre-release models. *protip: you can land on the top of city structures with your ship. :)[/*]\n<br />[*]Nomad Biomes - Caves: 59 caves[/*]\n<br />[*]Nomad Biomes - Underwater: 138 underwater biomes[/*]\n<br />[*]Nomad Biomes - Spawner: Spawns the above biomes[/*]\n<br />[*]Nomad Biomes - Terrain: 31 terrain variants (each with sub-variants)[/*]\n<br />[*]Nomad Colors - FOG: From less fog (0.1) to more (0.3). Choose the variant you want.[/*]\n<br />[*]Nomad Colors &amp; QOL - KEEP: All color sets &amp; misc. QOL changes.[/*]\n<br />[*]Nomad Jetpack: Subtle improvements to jetpack lift, refill etc[/*]\n<br />[*]Nomad Large Crystals - Large E3-style crystals, crystals spawn at all angles[/*]\n<br />[/list]\n<br />\n<br />[b][size=5]‣Frequently Asked Questions (FAQ)[/size][/b]\n<br />\n<br />[u]I can't get any mods to work?[/u]\n<br />Look for the [url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]mod warning[/url] on launch, if you don't see that:\n<br />Delete the Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML and launch NMS again.\n<br />\n<br />[u]Does this work with multiplayer?[/u]\n<br />Yes, but mods are client-side. Everyone must install the same mods to see the same things.\n<br />Terrain will differ, for example, between players using and not using the mod.\n<br />\n<br />[u]Is this compatible with xyz mod?[/u]\n<br />90% chance yes, see 'Mod Compatibility' section on mod page.\n<br />\n<br />[u]Will this mess with my base or settlement?[/u]\n<br />Existing bases and settlements may no longer align with the terrain.\n<br />Save at a space station first when adding or removing Nomad Terrain with an existing save.\n<br />\n<br />[u]What about your old mods?[/u]\n<br />Mods come and go due to demanding game updates, obligations, etc. I'm also someone who wants to experiment and make new things, not spend hours and hours maintaining old content. Finally, this is purely a passion project for me. Haters gonna hate.\n<br />That said, most of my old mods feature open permissions, anyone can update them if they so desire. Thanks for the support. :)\n<br />\n<br />[u]Are the new biomes added to the vanilla ones, or are some vanilla ones replaced?[/u]\n<br />You can find vanilla biomes, but it's rare.\n<br />\n<br />[u]How to update this mod?[/u]\n<br />Biomes (and models) are made via. my program Plumgen 2. I might share at some point, but for now it's under construction.\n<br />Some are made via. LUA scripts (included in the folders).\n<br />Some are EXMLs.\n<br />\n<br />[u]Will you keep updating this mod?[/u]\n<br />I plan to for the foreseeable future, but sometimes it's hard to stay motivated. I suggest keeping a backup of this version of No Man's Sky (Cosmos 7.06 as of writing this), just to be safe.\n<br />\n<br />[u]I crashed on the loading screen?[/u]\n<br />Hopefully this issue doesn't happen anymore. But if it does, lmk. If you crash on a planet, try going to a space station first then loading the mod.\n<br />\n<br />\n<br />[size=5][b]‣Mod Compatibility[/b][/size] [vanila MBINs changed]\n<br />\n<br />Nomad Biomes/Spawner:\n<br />[list]\n<br />[*]Misc. pre-release and spacestation SCENES within MODELS[/*]\n<br />[*]The rest are all EXML files.[/*]\n<br />[*]Mods created and exported with Plumgen 2 are typically compatible with this[/*]\n<br />[/list]\n<br />Nomad Terrain:\n<br />[list]\n<br />[*]METADATA/SIMULATION/SOLARSYSTEM/VOXELGENERATORSETTINGS.MBIN[/*]\n<br />[/list]\n<br />Nomad colors [see bottom advanced section for more info]:\n<br />[list]\n<br />[*]METADATA/SIMULATION/SOLARSYSTEM/WEATHER/SKYSETTINGS/SPACESKYCOLOURS.MBIN[/*]\n<br />[*]All COLOURPALETTES.MBIN files within METADATA/SIMULATION/SOLARSYSTEM/BIOMES/[/*]\n<br />[*]The rest are all EXML files[/*]\n<br />[/list]\n<br />\n<br />\n<br />[size=5][b]‣How to Install[/b][/size]\n<br />\n<br />[color=#f1c232]PLEASE READ&gt;&gt;[/color] Save at a space station first when adding or removing this mod with an existing save. [color=#f1c232]&lt;&lt;PLEASE READ[/color]\n<br />\n<br />[list=1]\n<br />[*]Place extracted mod folders inside of No Man's Sky/GAMEDATA/MODS [*not* PCBANKS/MODS].\n<br />-If a MODS folder does not exist yet, create it.-Each mod will have its own dedicated folder inside of GAMEDATA/MODS.-Make sure that the mod folders aren't an extra folder deep.[/*]\n<br />[*]Start the game and wait for the splash screen to disappear.[/*]\n<br />[*]If done correctly the game will display a mod warning.[/*]\n<br />[/list]\n<br />\n<br />[b][size=5]‣Known issues[/size][/b]\n<br />-Fog can hide the ground from high up. Issue seems to get worse or better depending on weather/vfx/etc.\n<br />-Glitched floor on a terrain type.\n<br />\n<br />\n<br />[b][size=5]‣Advanced customization[/size][/b]\n<br />[spoiler]\n<br />There are many ways to customize [b][u]Nomad Colors[/u][/b], in particular. Edit or remove any of these files/subfolders from the mod if you want. Keep in mind, this mod was made so different parts complement each other. Obviously, you might encounter issues if you dramatically change the mod:\n<br />\n<br />1. Mod files:\n<br />[quote][size=2]All COLOURPALETTES.MBIN files within METADATA/SIMULATION/SOLARSYSTEM/BIOMES/ [color=#00ff00]directory[/color] [u][b][color=#e06666]except[/color][/b][/u] 'OBJECTS' and 'WEATHER' folders[/size][/quote][u]Effect:[/u] Individual sub-biome colors for: grass, plants, leaves, terrain, rocks, stones, dirt, sand, snow, planet rings, &amp; fauna\n<br />*Remove e.g. the LAVA folder if you no longer want the above color changes on lava biomes.\n<br />\n<br />2. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Spore hazard plants replaced with tentacle hazard plants.\n<br />\n<br />3. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/WEATHER/ [color=#00ff00]directory[/color] [u][b][color=#e06666]except[/color][/b][/u] SKYSETTINGS[/size][/quote][u]Effect:[/u] Individual sub-biome fog settings.\n<br />*If you adjust any settings in the gcskyglobals.globals.EXML file, you'll also need to adjust each of these (and vice versa).\n<br />\n<br />4. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/WEATHER/SKYSETTINGS [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Changes to darken day &amp; dusk fog, and new space colors.\n<br />\n<br />5. Mod files:\n<br />[quote][size=2]models/effects/heavyair [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Reduces \"old\" omnipresent smoke effects, gravity bubbles, &amp; snow effects.\n<br />\n<br />6. Mod files:\n<br />[quote][size=2]globals/gcenvironmentglobals.global.EXML [color=#c27ba0]file[/color][/size][/quote][u]Effect:[/u] Edits upper stratosphere clouds &amp; increases brightness.\n<br />\n<br />7. Mod files:\n<br />[quote][size=2]gcskyglobals.globals.EXML [color=#c27ba0]file[/color][/size][/quote]Effect: Every other change not mentioned above, including: changes *most* sub-biome fog (not all [this is just how the game is designed], see 3), reduces storms, &amp; removes vignette.[/spoiler]\n<br />\n<br />[b][size=5]‣Credits[/size][/b]\n<br />[list]\n<br />[*]VitaminArrr's NoMansTerrain to make the terrain mod: [url=https://github.com/gistya/nomansterrain]https://github.com/gistya/nomansterrain[/url][/*]\n<br />[*]Monkeyman192's MBINCompiler and NMSDK to do many things, including viewing models.[/*]\n<br />[*]Monkeyman192's HGPAKtool to make custom models.[/*]\n<br />[*]AMUMSS by Mjjstral aka MetaIdea and Wbertro aka TheBossBoy to make LUA-based mods.[/*]\n<br />[*]WinderTP for walking me through Blender/NMSDK to edit models.[/*]\n<br />[/list]",
+    "description": "[center][b][size=6]Nomad Biomes[/size][/b]\n<br />(formerly Lasagna)[/center]\n<br />\n<br />\n<br />[b][size=5]‣Description[/size][/b]\n<br />\n<br />[b][size=4][i]New custom pre-made biomes[/i][/size][/b], set of 500\n<br />[list]\n<br />[*]Each biome is themed with its own “story”, whether it’s a frozen jungle, a mushroom forest, a toxic egg field, a glowing radioactive garden, a lava field broken up by shield trees, sand dunes with giant cacti, or a dead moon covered in ship wrecks. No more random flora/props thrown together without reason.[/*]\n<br />[*]Planets feel more immersive and natural than ever. Flora/props are often found grouped together via. a new, advanced system of prop placements I developed. Plants grow next to trees, small rocks next to larger rocks, and so on and so forth.[/*]\n<br />[*]Includes giant forests, city biomes, rare colossal props, rare custom model trees, and forests on worlds that don't usually have them. [/*]\n<br />[*]Covers every planet type, from lush and frozen to toxic, radioactive, gas giant and weird/exotic worlds.[/*]\n<br />[*]Also includes spawner files for all 103 planet types.[/*]\n<br />[*]*Performance is mostly close to vanilla, from nearly empty planets up to about 3–4x vanilla for the heaviest biomes.[/*]\n<br />[*]*High density biomes in the screenshots may look intimidating, but the current game engine handles instanced objects far better than it used to. [i]If performance is an issue, try lowering \"Planet Quality\" settings and shadow settings for much better performance.[/i][/*]\n<br />[/list]\n<br />[b][i][size=4]Reworked underwater and cave biomes[/size][/i][/b], set of 197 (138 underwater, 59 caves)\n<br />[list]\n<br />[*]Improved variety: From underwater forests with grass, kelp, coral, vents and urchins to glowing caves with tall stalagmites.[/*]\n<br />[*]*Reworked and optimized for vanilla-like performance.[/*]\n<br />[/list]\n<br />[size=4][i][b]New terrain mod[/b][/i][/size], set of 31. Each terrain type has a different landform, including:\n<br />   -terraced canyons with marshy floors\n<br />   - flat plains with rock arches and mesas.\n<br />   - badlands with rock pillars\n<br />   - tall rock towers with floating islands\n<br />   - wide glacial valleys\n<br />   - rare worlds covered in worm-like ridges and ravines.\n<br />[list]\n<br />[*]Brings back the \"worm\" terrain and tall resource deposit shapes from the Foundation update.[/*]\n<br />[*]Adds unique structures with (relatively) open ground in-between, so planets are fun to explore on-foot and flora/props have room to spawn.[/*]\n<br />[*]The lowest terrain sits lower than vanilla, so ground fog is more common.[/*]\n<br />[*]Water worlds have large landmasses instead of only small islands.[/*]\n<br />[/list]\n<br />[b][size=4][i]Nomad Colors[/i][/size][/b] (formerly Lasagna Obscura)\n<br />[list]\n<br />[*]A stylized color mod. Aggregate of all sky color/lighting/QOL/etc. mods I've made via. my Lasagna mods, plus several new additions.[/*]\n<br />[*]New colors for: flora, terrain, rings and fauna. Flora and rings span the full rainbow.[/*]\n<br />[*]Darker space with bright nebulas (some vanilla space colors remain).[/*]\n<br />[*]Choose extra fog or less fog. Fog appears darker (and colorful) near you and fades into the sky at a distance. Lighter fog on prime planets, vanilla fog on empty planets.[/*]\n<br />[*]Less instances of the old smoke effect that follows the player, and fewer gravity bubbles.[/*]\n<br />[*]No high clouds on regular planets, and some planets have few or no clouds depending on elevation.[/*]\n<br />[*]Storms are 25% as long and less frequent on very stormy planets.[/*]\n<br />[*]Spore hazard plants replaced with tentacle hazard plants.[/*]\n<br />[*]Slightly brighter sun and clouds.[/*]\n<br />[*]No photo mode vignette.[/*]\n<br />[/list]\n<br />[size=5][b]‣Mods Included[/b][/size]\n<br />[list]\n<br />[*]Nomad Biomes - Planets: 500 base terrain biomes. *protip: you can land on the top of city structures with your ship. :)[/*]\n<br />[*]           CHOOSE ONE: Maxima = high flora/prop density, Minima = slightly lower density on the highest density planets.[/*]\n<br />[*]Nomad Biomes - Caves: 59 caves[/*]\n<br />[*]Nomad Biomes - Underwater: 138 underwater biomes[/*]\n<br />[*]Nomad Biomes - Spawner: Spawns the above biomes[/*]\n<br />[*]Nomad Biomes - Terrain: 31 terrain variants (each with sub-variants)[/*]\n<br />[*]Nomad Colors - FOG: Just the fog part of Nomad Colors.[/*]\n<br />[*]           CHOOSE ONE: less fog (0.1) to more (0.3). [/*]\n<br />[*]Nomad Colors &amp; QOL - KEEP: All color sets &amp; misc. QOL changes.[/*]\n<br />[*]Nomad Jetpack: Subtle improvements to jetpack lift, refill etc[/*]\n<br />[*]Nomad Large Crystals - Large E3-style crystals, crystals spawn at all angles[/*]\n<br />[*]Nomad Models - Custom models and updates to pre-release models.[/*]\n<br />[/list]\n<br />\n<br />[b][size=5]‣Frequently Asked Questions (FAQ)[/size][/b]\n<br />\n<br />[u]I can't get any mods to work?[/u]\n<br />Look for the [url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]mod warning[/url] on launch, if you don't see that:\n<br />Delete the Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML and launch NMS again.\n<br />\n<br />[u]Does this work with multiplayer?[/u]\n<br />Yes, but mods are client-side. Everyone must install the same mods to see the same things.\n<br />Terrain will differ, for example, between players using and not using the mod.\n<br />\n<br />[u]Is this compatible with xyz mod?[/u]\n<br />90% chance yes, see 'Mod Compatibility' section on mod page.\n<br />\n<br />[u]Will this mess with my base or settlement?[/u]\n<br />Existing bases and settlements may no longer align with the terrain.\n<br />Save at a space station first when adding or removing Nomad Terrain with an existing save.\n<br />\n<br />[u]What about your old mods?[/u]\n<br />Mods come and go due to demanding game updates, obligations, etc. I'm also someone who wants to experiment and make new things, not spend hours and hours maintaining old content. Finally, this is purely a passion project for me. Haters gonna hate.\n<br />That said, most of my old mods feature open permissions, anyone can update them if they so desire. Thanks for the support. :)\n<br />\n<br />[u]Are the new biomes added to the vanilla ones, or are some vanilla ones replaced?[/u]\n<br />You can find vanilla biomes, but it's rare.\n<br />\n<br />[u]How to update this mod?[/u]\n<br />Biomes (and models) are made via. my program Plumgen 2. I might share at some point, but for now it's under construction.\n<br />Some are made via. LUA scripts (included in the folders).\n<br />Some are EXMLs.\n<br />\n<br />[u]Will you keep updating this mod?[/u]\n<br />I plan to for the foreseeable future, but sometimes it's hard to stay motivated. I suggest keeping a backup of this version of No Man's Sky (Cosmos 7.06 as of writing this), just to be safe.\n<br />\n<br />[u]I crashed on the loading screen?[/u]\n<br />Hopefully this issue doesn't happen anymore. But if it does, lmk. If you crash on a planet, try going to a space station first then loading the mod.\n<br />\n<br />\n<br />[size=5][b]‣Mod Compatibility[/b][/size] [vanila MBINs changed]\n<br />\n<br />Nomad Biomes/Spawner:\n<br />[list]\n<br />[*]Misc. pre-release and spacestation SCENES within MODELS[/*]\n<br />[*]The rest are all EXML files.[/*]\n<br />[*]Mods created and exported with Plumgen 2 are typically compatible with this[/*]\n<br />[/list]\n<br />Nomad Terrain:\n<br />[list]\n<br />[*]METADATA/SIMULATION/SOLARSYSTEM/VOXELGENERATORSETTINGS.MBIN[/*]\n<br />[/list]\n<br />Nomad colors [see bottom advanced section for more info]:\n<br />[list]\n<br />[*]METADATA/SIMULATION/SOLARSYSTEM/WEATHER/SKYSETTINGS/SPACESKYCOLOURS.MBIN[/*]\n<br />[*]All COLOURPALETTES.MBIN files within METADATA/SIMULATION/SOLARSYSTEM/BIOMES/[/*]\n<br />[*]The rest are all EXML files[/*]\n<br />[/list]\n<br />\n<br />\n<br />[size=5][b]‣How to Install[/b][/size]\n<br />\n<br />[color=#f1c232]PLEASE READ&gt;&gt;[/color] Save at a space station first when adding or removing this mod with an existing save. [color=#f1c232]&lt;&lt;PLEASE READ[/color]\n<br />\n<br />[list=1]\n<br />[*]Place extracted mod folders inside of No Man's Sky/GAMEDATA/MODS [*not* PCBANKS/MODS].\n<br />-If a MODS folder does not exist yet, create it.-Each mod will have its own dedicated folder inside of GAMEDATA/MODS.-Make sure that the mod folders aren't an extra folder deep.[/*]\n<br />[*]Start the game and wait for the splash screen to disappear.[/*]\n<br />[*]If done correctly the game will display a mod warning.[/*]\n<br />[/list]\n<br />\n<br />[b][size=5]‣Known issues[/size][/b]\n<br />-Fog can hide the ground from high up. Issue seems to get worse or better depending on weather/vfx/etc.\n<br />-Glitched floor on a terrain type.\n<br />\n<br />\n<br />[b][size=5]‣Advanced customization[/size][/b]\n<br />[spoiler]\n<br />There are many ways to customize [b][u]Nomad Colors[/u][/b], in particular. Edit or remove any of these files/subfolders from the mod if you want. Keep in mind, this mod was made so different parts complement each other. Obviously, you might encounter issues if you dramatically change the mod:\n<br />\n<br />1. Mod files:\n<br />[quote][size=2]All COLOURPALETTES.MBIN files within METADATA/SIMULATION/SOLARSYSTEM/BIOMES/ [color=#00ff00]directory[/color] [u][b][color=#e06666]except[/color][/b][/u] 'OBJECTS' and 'WEATHER' folders[/size][/quote][u]Effect:[/u] Individual sub-biome colors for: grass, plants, leaves, terrain, rocks, stones, dirt, sand, snow, planet rings, &amp; fauna\n<br />*Remove e.g. the LAVA folder if you no longer want the above color changes on lava biomes.\n<br />\n<br />2. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Spore hazard plants replaced with tentacle hazard plants.\n<br />\n<br />3. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/WEATHER/ [color=#00ff00]directory[/color] [u][b][color=#e06666]except[/color][/b][/u] SKYSETTINGS[/size][/quote][u]Effect:[/u] Individual sub-biome fog settings.\n<br />*If you adjust any settings in the gcskyglobals.globals.EXML file, you'll also need to adjust each of these (and vice versa).\n<br />\n<br />4. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/WEATHER/SKYSETTINGS [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Changes to darken day &amp; dusk fog, and new space colors.\n<br />\n<br />5. Mod files:\n<br />[quote][size=2]models/effects/heavyair [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Reduces \"old\" omnipresent smoke effects, gravity bubbles, &amp; snow effects.\n<br />\n<br />6. Mod files:\n<br />[quote][size=2]globals/gcenvironmentglobals.global.EXML [color=#c27ba0]file[/color][/size][/quote][u]Effect:[/u] Edits upper stratosphere clouds &amp; increases brightness.\n<br />\n<br />7. Mod files:\n<br />[quote][size=2]gcskyglobals.globals.EXML [color=#c27ba0]file[/color][/size][/quote]Effect: Every other change not mentioned above, including: changes *most* sub-biome fog (not all [this is just how the game is designed], see 3), reduces storms, &amp; removes vignette.[/spoiler]\n<br />\n<br />[b][size=5]‣Credits[/size][/b]\n<br />[list]\n<br />[*]VitaminArrr's NoMansTerrain to make the terrain mod: [url=https://github.com/gistya/nomansterrain]https://github.com/gistya/nomansterrain[/url][/*]\n<br />[*]Monkeyman192's MBINCompiler and NMSDK to do many things, including viewing models.[/*]\n<br />[*]Monkeyman192's HGPAKtool to make custom models.[/*]\n<br />[*]AMUMSS by Mjjstral aka MetaIdea and Wbertro aka TheBossBoy to make LUA-based mods.[/*]\n<br />[*]WinderTP for walking me through Blender/NMSDK to edit models.[/*]\n<br />[*]Ruffles for permission to use LOD and distance code. View InsaneRuffles' \"[url=https://www.nexusmods.com/nomanssky/mods/1990]View Distance Increase[/url]\" mod.[/*]\n<br />[/list]\n<br />[b][size=5]‣A few images[/size][/b]\n<br />[center]\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1793053771-1071994223.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774108-1100460332.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774103-733972479.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774102-1691244889.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1793053771-718620032.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774113-701501391.jpg[/img]\n<br />[/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -698066,9 +698381,9 @@
         "file_id": 50048,
         "name": "Nomad Biomes",
         "version": "1.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 8285,
         "file_name": "Nomad Biomes 4696 1.0 2026-10-23T16-51Z 4tDiNuftu.zip",
         "detected_file_extension": "zip",
@@ -698081,9 +698396,42 @@
         "size_in_bytes": 8484691,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/a7/2e/d4/a72ed469-2a16-4850-b133-7ded18663fe2"
+      },
+      {
+        "id": [
+          50119,
+          1634
+        ],
+        "uid": 7017976611783,
+        "file_id": 50119,
+        "name": "Nomad Biomes",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 10446,
+        "file_name": "Nomad Biomes 4696 1.1 2026-10-26T22-36Z L5bXM3OQa.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793054208,
+        "uploaded_time": "2026-10-26T22:36:48.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d71df131cdd7616f5d145d79acb951fa15ac18e5b36919d07625b38185361550",
+        "description": "",
+        "size_kb": 10446,
+        "size_in_bytes": 10697445,
+        "changelog_html": "-Added performance variant 'Nomad Biomes - Planets MINIMA' = lower density on highest density planets. Separated models to its own mod, 'Nomad Models'\n-Giant biomes: lowered density for wide giant props, so they're easier to walk through.\n-Burnt, lava, noxious and irradiated worlds: 12 repetitive biomes reworked into forests.\n-Frozen worlds: most HQ pines swapped for frozen trees or oaks (improved variety).\n-Swapped some lush trees for improved variety.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/2b/7c/06/2b7c06af-48c7-44fe-a178-eb500838395d"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "1.1": [
+        "-Added performance variant 'Nomad Biomes - Planets MINIMA' = lower density on highest density planets. Separated models to its own mod, 'Nomad Models'",
+        "-Giant biomes: lowered density for wide giant props, so they're easier to walk through.",
+        "-Burnt, lava, noxious and irradiated worlds: 12 repetitive biomes reworked into forests.",
+        "-Frozen worlds: most HQ pines swapped for frozen trees or oaks (improved variety).",
+        "-Swapped some lush trees for improved variety."
+      ]
+    }
   },
   {
     "mod_id": 4697,
