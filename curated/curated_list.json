@@ -691814,10 +691814,10 @@
     "mod_id": 4622,
     "name": "Nubilus (cloud overhaul)",
     "summary": "Overhauls the Clouds both on-ground and in-space.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4622/4622-1791179457-2012069261.png",
     "author": "Somnati",
-    "updated_timestamp": 1793052827,
+    "updated_timestamp": 1793197335,
     "created_timestamp": 1791197253,
     "description": "[size=4][b]Expect updates as i am always fixing/improving stuff...or atleast trying to...\n<br />\n<br />Description\n<br />[/b][/size]CLOUDS NOW MATCH THE SPACE CLOUDS.\n<br />fly to a spot with no clouds...guess what...no clouds...\n<br />fly to a spot thats dense with clouds...heavy overcast!!!\n<br />\n<br />[color=#D4D4D8]Nubilus replaces No Man's Sky's clouds with real volumetric clouds that match from orbit to the ground. The cloud pattern you see from space is the same one you fly through, lit and fogged to match the sky around it, day and night.[/color]\n<br />\n<br />expect future updates/improvements. im always trying to fix little things that bug me when i play. Report any issues you have to me and i'll investigate.\n<br />\n<br />// KNOWN ISSUES\n<br />regarding v1.2 that just dropped...\n<br />as i play i still notice subtle things that bug me so this mod still has a way to go.\n<br />gas giants still need tweaking as well as moons but overall they work \"fine\".\n<br />\n<br />eclipses will hopefully come eventually but i pulled them cause they could be better.\n<br />stay tuned...\n<br />\n<br />[size=4][b]Installation instructions\n<br />[/b][/size]\n<br />// Why is Lunatus required:\n<br />[list]\n<br />[*][b]It's built as a pair:[/b] Nubilus was cut against Lunatus 1.5's exact build, and the clouds were tuned against Lunatus' fog and sky. The cloud colours, night look and planet transitions all assume Lunatus' haze.[/*]\n<br />[*][b]Some cloud behaviour lives in Lunatus' files:[/b] the far-world cloud hand-over, the climb-out transition, and the horizon band hugging the clouds from orbit.[/*]\n<br />[*][b]It's never been tested without Lunatus:[/b] it might run, but the clouds would sit in vanilla fog they weren't designed for.[/*]\n<br />[/list]\n<br />[list=1]\n<br />[*][color=#D4D4D8]Install Lunatus first (required).[/color][/*]\n<br />[*][color=#D4D4D8]Extract the zip.[/color][/*]\n<br />[*][color=#D4D4D8]Drop the Nubilus folder into ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).[/color][/*]\n<br />[*][color=#D4D4D8]Restart the game. Works with new and existing saves.[/color][/*]\n<br />[/list][color=#D4D4D8]To uninstall, delete the Nubilus folder.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]One cloud pattern per planet: what you see from orbit is what you fly into, with a smooth fade from space down to the in-air clouds.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds take Lunatus' fog and sky colours, so they sit in the atmosphere instead of floating on top of it.[/color][/*]\n<br />[*][color=#D4D4D8]Shared day/night lighting from orbit and in the air: lit until sunset, a short warm afterglow, then dark night silhouettes.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds stay solid in front of moons and distant planets.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds cast shadows on the ground, and lakes and oceans reflect them.[/color][/*]\n<br />[/list]\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04.[/color][/*]\n<br />[*][color=#D4D4D8]Lunatus (required: Nubilus reads Lunatus' fog and sky).[/color][/*]\n<br />[*][color=#D4D4D8]Conflicts with other mods that replace the cloud shaders.[/color]\n<br />Conflicts with other mods that change the SDR tone mapping. [/*]\n<br />[/list]\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]Hello Games, for the game's cloud and atmosphere systems this builds on.[/color][/*]\n<br />[*][color=#D4D4D8]monkeyman192 and contributors, for MBINCompiler and HGPAKtool.\n<br />- Claude AI[/color][/*]\n<br />[/list]",
     "state": "normal",
@@ -691982,9 +691982,9 @@
         "file_id": 50114,
         "name": "Nubilus 1.2.2 NMS7.04",
         "version": "1.2.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 30275,
         "file_name": "Nubilus 1.2.2 NMS7.04 4622 1.2.2 2026-10-26T22-13Z N2LUkQHYe.zip",
         "detected_file_extension": "zip",
@@ -691997,6 +691997,31 @@
         "size_in_bytes": 31001671,
         "changelog_html": "Fix from a player report: auroras no longer shine through or on top of the clouds, and cloud edges in front of the sky melt into the real sky haze colour (no coloured fringe around gas-giant clouds). Needs Lunatus 1.7.1 (released together).",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/03/19/58/03195831-6534-464a-96af-e13b31cdc6c7"
+      },
+      {
+        "id": [
+          50138,
+          1634
+        ],
+        "uid": 7017976611802,
+        "file_id": 50138,
+        "name": "Nubilus 1.2.3 NMS7.10",
+        "version": "1.2.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 30276,
+        "file_name": "Nubilus 1.2.3 NMS7.10 4622 1.2.3 2026-10-28T14-22Z OyPDz29rZ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793197335,
+        "uploaded_time": "2026-10-28T14:22:15.000+00:00",
+        "mod_version": "1.2.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a39af913f5d2fef083f8775731e6eff13c452b225dc09037f8902ed57db0a17e",
+        "description": null,
+        "size_kb": 30276,
+        "size_in_bytes": 31002837,
+        "changelog_html": "Updated for No Man's Sky 7.10 (Forsaken): the render pipeline file is rebuilt on the game's new one (Hello Games changed how the renderer shares its buffers - the old file could cause water reflection or upscaler glitches on the new version). Clouds look the same. Still needs Lunatus 1.7.1 or newer.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/46/9c/a0/469ca06b-0217-49a3-891a-d327ea6b8b6b"
       }
     ],
     "changelogs": {
@@ -692028,6 +692053,9 @@
       ],
       "1.2.2": [
         "Fix from a player report: auroras no longer shine through or on top of the clouds, and cloud edges in front of the sky melt into the real sky haze colour (no coloured fringe around gas-giant clouds). Needs Lunatus 1.7.1 (released together)."
+      ],
+      "1.2.3": [
+        "Updated for No Man's Sky 7.10 (Forsaken): the render pipeline file is rebuilt on the game's new one (Hello Games changed how the renderer shares its buffers - the old file could cause water reflection or upscaler glitches on the new version). Clouds look the same. Still needs Lunatus 1.7.1 or newer."
       ]
     }
   },
@@ -699481,7 +699509,7 @@
     "author": "Carbonster",
     "updated_timestamp": 1792953097,
     "created_timestamp": 1792939486,
-    "description": "You either love this minigame or you hate it. I've picked my side! [b]STARDEW VALLEY FISHING IS HERE![/b]\n<br />[b]\n<br />\n<br />How to install\n<br />[/b]\n<br />[list=1]\n<br />[*]Download Oreo Launcher and unpack it into No Man's Sky&#92;Binaries[/*]\n<br />[*]Download this mod and unpack it into your MODS folder[/*]\n<br />[*]Launch No Man's Sky[/*]\n<br />[*]Click \"Install\" in the launcher. This installs the tools the mod needs, like [url=https://github.com/monkeyman192/NMS.py]NMS.py[/url] and [url=https://github.com/Carbonster/ProjectOreoLauncher][/url][url=https://github.com/Carbonster/ProjectOreoRuntime]Oreo Runtime[/url].[/*]\n<br />[*]Play![/*]\n<br />[/list]\n<br />[b]\n<br />NOTE:[/b] Your antivirus may complain during installation. Don't worry. This is a technically complex mod: it hooks into the game's memory and uses .dll files to draw its interface. The source code of the mod and every library it uses is linked at the bottom of this page.\n<br />\n<br />[b]NOTE 2:[/b] The mod is only tested on the Windows Steam version of No Man's Sky.\n<br />\n<br />[b]NOTE 3:[/b] With HDR turned on you may see graphical glitches. A fix is in progress.\n<br />\n<br />Controller supported\n<br />Press [b]F8[/b] to open settings\n<br />\n<br />VR is not supported at this time\n<br />\n<br />\n<br />And yes, guys, this is more of a tech demo than a finished piece of gameplay. I balanced it by eye. In the future I'll try to add progression to make higher-tier fish easier to catch. Right now landing them can be pretty tough!\n<br />\n<br />\n<br />https://github.com/Carbonster/Immersive-Fishing\n<br />https://github.com/Carbonster/ProjectOreoLauncher\n<br />https://github.com/monkeyman192/NMS.py\n<br />\n<br />Warning: Always backup your saves before installing any mods. ",
+    "description": "You either love this minigame or you hate it. I've picked my side! [b]STARDEW VALLEY FISHING IS HERE![/b]\n<br />[b]\n<br />\n<br />How to install\n<br />[/b]\n<br />[list=1]\n<br />[*]Download Oreo Launcher and unpack it into No Man's Sky&#92;Binaries[/*]\n<br />[*]Download this mod and unpack it into your MODS folder[/*]\n<br />[*]Launch No Man's Sky[/*]\n<br />[*]Click \"Install\" in the launcher. This installs the tools the mod needs, like [url=https://github.com/monkeyman192/NMS.py]NMS.py[/url] and [url=https://github.com/Carbonster/ProjectOreoLauncher][/url][url=https://github.com/Carbonster/ProjectOreoRuntime]Oreo Runtime[/url].[/*]\n<br />[*]Play![/*]\n<br />[/list][b]\n<br />NOTE:[/b] Your antivirus may complain during installation. Don't worry. This is a technically complex mod: it hooks into the game's memory and uses .dll files to draw its interface. The source code of the mod and every library it uses is linked at the bottom of this page.\n<br />\n<br />[b]NOTE 2:[/b] The mod is only tested on the Windows Steam version of No Man's Sky.\n<br />\n<br />[b]NOTE 3:[/b] With HDR turned on you may see graphical glitches. A fix is in progress.\n<br />\n<br />Controller supported\n<br />Press [b]F8[/b] to open settings\n<br />\n<br />VR is not supported at this time\n<br />\n<br />[b]Compatibility[/b]:\n<br />\n<br />This mod hooks the game's rendering and input, so it MAY conflict with other mods that do the same: ReShade, custom ImGui overlays, and third-party overlays (RTSS/MSI Afterburner, Discord, NVIDIA, OBS game capture). It MAY also work fine for you: some overlays run without issues (e.g. the Discord overlay), others don't (e.g. RTSS). Injection mods that don't touch rendering or input (e.g. .asi gameplay patches) are generally fine, unless they hook the same game functions. I'm working on improving compatibility.\n<br />\n<br />Launcher loaded through a proxy version.dll placed next to the game executable. Other mods or loaders that ship their own version.dll will overwrite it, so only one of them can be used at a time. \n<br />\n<br />\n<br />And yes, guys, this is more of a tech demo than a finished piece of gameplay. I balanced it by eye. In the future I'll try to add progression to make higher-tier fish easier to catch. Right now landing them can be pretty tough!\n<br />\n<br />\n<br />https://github.com/Carbonster/Immersive-Fishing\n<br />https://github.com/Carbonster/ProjectOreoLauncher\n<br />https://github.com/monkeyman192/NMS.py\n<br />\n<br />Warning: Always backup your saves before installing any mods. ",
     "state": "normal",
     "warningMessage": "",
     "files": [
