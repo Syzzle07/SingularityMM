@@ -633071,10 +633071,10 @@
     "mod_id": 3797,
     "name": "Normans Guy Loading Screen",
     "summary": "As a running joke between my friends, we call the game Normans Guy. I decided to humor us and make a small mod that changes the loading screen into Normans Guy, Normans Guy Voyagers, Norman's Guy Remnant, Norma's Guy Da Sworm, Norman's Guy The Swarm, Norman's Guy Cosmos, and so forth ad infinitum",
-    "version": "1.22",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3797/3797-1788988791-1882885655.jpg",
+    "version": "1.24",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3797/3797-1793227826-514468536.jpg",
     "author": "shadowcat19",
-    "updated_timestamp": 1788988445,
+    "updated_timestamp": 1793227805,
     "created_timestamp": 1758233818,
     "description": "Inside joke mod warning. One of my friends just said \"Hey wanna play Normans Guy?\" and since we're on the same wavelength, I knew what he meant. So now It can be Normans Guy. This is Good News.\n<br />\n<br />INSTALLATION: Download the version you want\n<br />extract the zip\n<br />put new folder in (Steam directory)&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />Delete or rename DISABLEMODS.txt\n<br />make sure \"disable all mods\" is set to \"false\" in (Steam directory)&#92;steamapps&#92;common&#92;No Man's Sky&#92;binaries&#92;GCMODSETTINGS.MXML\n<br />???\n<br />normans guy",
     "state": "normal",
@@ -633303,7 +633303,32 @@
         "size_kb": 18,
         "size_in_bytes": 19167,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3797/6b/8f/1c/6b8f1cae-6095-4688-ba3a-951464f9708d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6b/8f/1c/6b8f1cae-6095-4688-ba3a-951464f9708d"
+      },
+      {
+        "id": [
+          50170,
+          1634
+        ],
+        "uid": 7017976611834,
+        "file_id": 50170,
+        "name": "Normans Guy Forsaken",
+        "version": "1.24",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 20,
+        "file_name": "Normans Guy Forsaken 3797 1.24 2026-10-28T22-50Z 8gT07OIVO.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793227805,
+        "uploaded_time": "2026-10-28T22:50:05.000+00:00",
+        "mod_version": "1.24",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d0d58d0a2fc7abf54b61d5cb6e6bb4eba7b1348fcea5621573c4bec2eae92da3",
+        "description": "",
+        "size_kb": 20,
+        "size_in_bytes": 20487,
+        "changelog_html": "forsaken",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/09/87/92/098792d6-db6e-44c9-9b58-dfcfa991e9de"
       }
     ],
     "changelogs": {
@@ -633316,6 +633341,9 @@
       ],
       "1.21": [
         "aded Norman's Guy Remnant"
+      ],
+      "1.24": [
+        "forsaken"
       ]
     }
   },
@@ -689752,7 +689780,7 @@
   },
   {
     "mod_id": 4609,
-    "name": "Snap Angles",
+    "name": "Snap Angles - Expanded Base and Corvette Building",
     "summary": "Angle your building pieces without losing snap. Hinge, lift and twist base parts and corvette modules in 15 or 5 degree steps while they stay snapped, or nudge them part of a step like glitch building. Plus a pattern key, adjustable snap range, chaining half stairs and a corvette camera. Other players see your builds without the mod.",
     "version": "1.3.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4609/4609-1790970788-651288868.jpg",
@@ -696402,10 +696430,10 @@
     "mod_id": 4672,
     "name": "Texto en Spanish y Lat - Voces en Ingles",
     "summary": "Este mod es para quienes quieres las voces en inglés (Femenina y Masculina), pero con los textos en Español y LatinoAmericano. Se debe poner el juego previamente en Inglés antes de poner este mod.",
-    "version": "1",
+    "version": "2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4672/4672-1792027717-2103753753.png",
     "author": "AniaDawson",
-    "updated_timestamp": 1792028231,
+    "updated_timestamp": 1793221134,
     "created_timestamp": 1792028231,
     "description": "[b][u][size=5]~ Descripción ~[/size][/u][/b]\n<br />[size=3][color=#D4D4D8]Este mod es para quienes quieren las voces del Exotraje en inglés, pero jugarlo con Español o Latino. Es solamente un mod que cambia los textos a el Español deseado, el juego debe estar primero en inglés de Estados Unidos y luego aplicar el mod.[/color][/size]\n<br />\n<br />\n<br />[color=#D4D4D8][b][u][size=5]~ Requisitos ~[/size][/u][/b]\n<br />\n<br />- El juego debe estar si o sí en inglés. Este mod es exclusivo para la tener las voces en inglés, por ende el juego necesita estar primero en inglés.[/color]\n<br />[color=#D4D4D8]- Obviamente, el juego debe estar actualizado a la última versión actual. (A medida que sigan actualizando el juego, iré actualizando el mod, no os preocupéis)[/color]\n<br />\n<br />\n<br />\n<br />[b][u][size=5]~Instrucciones de Instalación~[/size][/u][/b]\n<br />\n<br />[b]-Primero-[/b]\n<br />[list]\n<br />[*]Pon el juego en Inglés, ya sea de Steam o Microsoft Store.\n<br />- En Steam he visto que se puede poner en inglés desde el propio launcher de Steam, antes de entrar al juego. Pero recomiendo también poner el juego en inglés dentro del juego, en Opciones - Generales. (Abajo del todo).- Para quienes lo tengan desde Microsoft Store, el juego se pone en inglés desde Opciones - Generales. (Abajo del todo)[/*]\n<br />[/list]\n<br />[b]-Segundo-[/b]\n<br />[list]\n<br />[*]Descarga el mod que te interesa, el Español de España o el LatinoAmericano.[/*]\n<br />[/list]\n<br />[b]-Tercero-[/b]\n<br />[list]\n<br />[*]Extrae el mod donde quieras y coloca la carpeta que viene dentro en la carpeta MODS, localizada en:\n<br />- Para Microsoft Store: [La unidad/disco donde lo tengas instalado] XboxGames&#92;No Man's Sky&#92;Content&#92;GAMEDATA- Para Steam:  [La unidad/disco donde lo tengas instalado]  Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA[/*]\n<br />[/list]*Nota: Si no está la carpeta MODS créala. Si en la carpeta donde estás, GAMEDATA, ves un archivo llamado \"DISABLEMODS.TXT\", bórralo o cámbiale el nombre para que el juego lea los mods.\n<br />Cabe decir que el juego se dará cuenta de que has puesto un mod y te saldrá un mensaje al iniciar el juego. Es solamente un mensaje de advertencia sobre el uso de mods y que podrían romper el juego.\n<br />\n<br />¡Y ya está! Voces en inglés con juego en Español ¡Yeeeey!  &#92;(&gt;w&lt;)/\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[color=#D4D4D8][size=4]*Para este mod he utilizado la ayuda e Claude.AI como guía, puesto que no sé nada sobre Python fue de gran ayuda, y también me ayudó a encontrar los programas necesarios para realizar el mod.\n<br />Pero el mod lo he hecho yo misma extrayendo los archivos y preparándolos con los programas utilizados.*[/size][/color]",
     "state": "normal",
@@ -696420,8 +696448,8 @@
         "file_id": 49834,
         "name": "NMS  Textos En Spanish (Spain)",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": true,
         "size": 12795,
         "file_name": "NMS Textos En Spanish (Spain) 4672 1 2026-10-15T01-31Z vlBhwF5Id.rar",
@@ -696434,7 +696462,7 @@
         "size_kb": 12795,
         "size_in_bytes": 13102668,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4672/f9/84/e7/f984e73f-149f-491b-8236-eac4b938871f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f9/84/e7/f984e73f-149f-491b-8236-eac4b938871f"
       },
       {
         "id": [
@@ -696445,8 +696473,8 @@
         "file_id": 49835,
         "name": "NMS - Textos En Spanish (LatinoAmerica)",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 12795,
         "file_name": "NMS - Textos En Spanish (LatinoAmerica) 4672 1 2026-10-15T01-32Z 2B5KARbux.rar",
@@ -696459,7 +696487,57 @@
         "size_kb": 12795,
         "size_in_bytes": 13103101,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4672/03/91/39/039139b0-8b1e-4174-919f-c083170e7f25.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/03/91/39/039139b0-8b1e-4174-919f-c083170e7f25"
+      },
+      {
+        "id": [
+          50167,
+          1634
+        ],
+        "uid": 7017976611831,
+        "file_id": 50167,
+        "name": "NMS Textos En Spanish (Spain) UPDATED",
+        "version": "2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 12928,
+        "file_name": "NMS Textos En Spanish (Spain) UPDATED 4672 2 2026-10-28T20-57Z aCzNuEGIu.rar",
+        "detected_file_extension": "rar",
+        "uploaded_timestamp": 1793221051,
+        "uploaded_time": "2026-10-28T20:57:31.000+00:00",
+        "mod_version": "2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7ceaf7b9589c30d3b23a37117342852b4086ccb647e4f2751f47f429e17deda4",
+        "description": "",
+        "size_kb": 12928,
+        "size_in_bytes": 13239165,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/8c/c6/1e/8cc61eaf-5200-41e7-8d19-afe3dc01f2c6"
+      },
+      {
+        "id": [
+          50168,
+          1634
+        ],
+        "uid": 7017976611832,
+        "file_id": 50168,
+        "name": "NMS - Textos En Spanish (LatinoAmerica) (UPDATED)",
+        "version": "2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 13131,
+        "file_name": "NMS - Textos En Spanish (LatinoAmerica) (UPDATED) 4672 2 2026-10-28T20-58Z QR3q07r6T.rar",
+        "detected_file_extension": "rar",
+        "uploaded_timestamp": 1793221134,
+        "uploaded_time": "2026-10-28T20:58:54.000+00:00",
+        "mod_version": "2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/be084f66a5ea22362f64b699f777e11e18fd390eb68ed10ad110d4c5be23ba71",
+        "description": "Esta versión es para LatinoAmerica.",
+        "size_kb": 13131,
+        "size_in_bytes": 13446433,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/84/3a/91/843a9165-d9dd-4359-8206-f061d255d327"
       }
     ],
     "changelogs": {}
@@ -698888,7 +698966,7 @@
     "author": "ReVoltaire",
     "updated_timestamp": 1792770491,
     "created_timestamp": 1792770491,
-    "description": "[size=5][b]Description[/b][/size]\n<br />In No Man's Sky VR the SteamVR keyboard is broken: when renaming ships, bases, discoveries or saves, only the [b]last typed character[/b] ends up as the name.\n<br />\n<br />This small ASI plugin fixes that. It catches every SteamVR keyboard input, collects the typed characters and hands the complete text to the game. No game files are changed, and flat mode is not affected.\n<br />\n<br />I originally made this fix for myself. Since others may run into the same problem, I'm sharing the solution here. It works on my setup, but feel free to report any issues in the comments.\n<br />\n<br />[size=5][b]Main features[/b][/size]\n<br />[list]\n<br />[*]Full names instead of a single letter when renaming anything in VR[/*]\n<br />[*]Special characters (UTF-8, e.g. ä, ö, é) are supported[/*]\n<br />[*]Backspace works[/*]\n<br />[*]Respects the game's maximum name length[/*]\n<br />[*]Optional log file for troubleshooting (off by default, typed text is never logged)[/*]\n<br />[*]Source code included[/*]\n<br />[/list]\n<br />[size=5][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases]Ultimate ASI Loader (x64)[/url] - if you already use other ASI mods for No Man's Sky, you probably have it installed.[/*]\n<br />[/list]Tested with NMS 7.x (GOG) and SteamVR.\n<br />\n<br />[size=5][b]Installation instructions[/b][/size]\n<br />[list=1]\n<br />[*]Install the Ultimate ASI Loader, e.g. as [b]winmm.dll[/b] in [b]No Man's Sky&#92;Binaries[/b].[/*]\n<br />[*]Copy the [b]Binaries[/b] folder from this archive into your No Man's Sky folder, so that you get:\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;NMS_VRKeyboardFix.asi\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;NMS_VRKeyboardFix.ini[/*]\n<br />[*]Start the game in VR and rename as usual.[/*]\n<br />[/list]\n<br />[b]Note:[/b] SteamVR does not show an input field, so you are typing \"blind\". Type the [b]complete[/b] new name, the old name is not kept.\n<br />\n<br />[b]Troubleshooting:[/b] Set [b]Log=1[/b] in NMS_VRKeyboardFix.ini. A NMS_VRKeyboardFix.log is then written next to it.\n<br />\n<br />[b]Uninstall:[/b] Delete both files.\n<br />\n<br />[size=5][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/TsudaKageyu/minhook]MinHook[/url] by Tsuda Kageyu (BSD 2-Clause license, included)[/*]\n<br />[*][url=https://github.com/ThirteenAG/Ultimate-ASI-Loader]Ultimate ASI Loader[/url] by ThirteenAG[/*]\n<br />[/list]",
+    "description": "[size=5][b]Description[/b][/size]\n<br />In No Man's Sky VR the SteamVR keyboard is broken: when renaming ships, bases, discoveries or saves, only the [b]last typed character[/b] ends up as the name.\n<br />\n<br />This small ASI plugin fixes that. It catches every SteamVR keyboard input, collects the typed characters and hands the complete text to the game. No game files are changed, and flat mode is not affected.\n<br />\n<br />I originally made this fix for myself. Since others may run into the same problem, I'm sharing the solution here. It works on my setup, but feel free to report any issues in the comments.\n<br />\n<br />[size=5][b]Main features[/b][/size]\n<br />[list]\n<br />[*]Full names instead of a single letter when renaming anything in VR[/*]\n<br />[*]Special characters (UTF-8, e.g. ä, ö, é) are supported[/*]\n<br />[*]Backspace works[/*]\n<br />[*]Respects the game's maximum name length[/*]\n<br />[*]Optional log file for troubleshooting (off by default, typed text is never logged)[/*]\n<br />[*]Source code included[/*]\n<br />[/list]\n<br />[size=5][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases]Ultimate ASI Loader (x64)[/url] - if you already use other ASI mods for No Man's Sky, you probably have it installed.[/*]\n<br />[/list]\n<br />Compatible with: No Man's Sky 7.06 (Cosmos). Not yet tested with 7.10.\n<br />\n<br />\n<br />[size=5][b]Installation instructions[/b][/size]\n<br />[list=1]\n<br />[*]Install the Ultimate ASI Loader, e.g. as [b]winmm.dll[/b] in [b]No Man's Sky&#92;Binaries[/b].[/*]\n<br />[*]Copy the [b]Binaries[/b] folder from this archive into your No Man's Sky folder, so that you get:\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;NMS_VRKeyboardFix.asi\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;NMS_VRKeyboardFix.ini[/*]\n<br />[*]Start the game in VR and rename as usual.[/*]\n<br />[/list]\n<br />[b]Note:[/b] SteamVR does not show an input field, so you are typing \"blind\". Type the [b]complete[/b] new name, the old name is not kept.\n<br />\n<br />[b]Troubleshooting:[/b] Set [b]Log=1[/b] in NMS_VRKeyboardFix.ini. A NMS_VRKeyboardFix.log is then written next to it.\n<br />\n<br />[b]Uninstall:[/b] Delete both files.\n<br />\n<br />[size=5][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/TsudaKageyu/minhook]MinHook[/url] by Tsuda Kageyu (BSD 2-Clause license, included)[/*]\n<br />[*][url=https://github.com/ThirteenAG/Ultimate-ASI-Loader]Ultimate ASI Loader[/url] by ThirteenAG[/*]\n<br />[/list]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -699470,10 +699548,10 @@
     "mod_id": 4702,
     "name": "Finally Open Habs (Corvette)",
     "summary": "Build the Corvette interior you want: open selected walls, create taller rooms, or add solid interior walls where the game normally creates a doorway.",
-    "version": "1",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4702/4702-1792913659-834312746.png",
+    "version": "1.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4702/4702-1793223127-970152913.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1793134110,
+    "updated_timestamp": 1793222395,
     "created_timestamp": 1792922109,
     "description": "[b][color=#ff7700][size=5]Finally Open Habs (Corvette)[/size][/color][/b]\n<br />\n<br />Build the Corvette interior you want: open selected walls, create taller rooms, or add solid interior walls where the game normally creates a doorway.\n<br />\n<br />[b][color=#f6b26b]Manual Control v1.0 supports Titan, Thunderbird and Ambassador, including short (1x1) and long (1x2) Habs, in one mod folder.[/color][/b] Horizontal openings can connect different styles as well as different Hab sizes. Vertical openings require aligned Habs of the same style and size.\n<br />\n<br />[b][color=#1e84cc]Choose one system: the current Manual Control version OR the older automatic Full/Horizontal files. Do not install them together.[/color][/b] The older files remain available as alternatives for players who prefer automatic openings.\n<br />\n<br />[b][color=#ff7700][size=4]Three tools, individual control[/size][/color][/b]\n<br />\n<br />Find all three at the end of the Corvette build menu's [b][color=#f6b26b]Internal Configuration[/color][/b] group. They share the subtitle [b][color=#f6b26b]Corvette Core Module[/color][/b].\n<br />\n<br />[b][color=#f6b26b]Hab Wall Removal[/color][/b]\n<br />\n<br />Remove a selected shared wall to join two connected Habs into an open room. Works on side and end connections, with short and long Habs and any combination of Titan, Thunderbird and Ambassador.\n<br />\n<br />The opening removes the relevant dividing geometry and collision. Delete the control to restore the standard connection. Installing the manual version alone does not turn every connected room into an open room: you choose where to place the controls.\n<br />\n<br />[b][color=#f6b26b]Hab Wall[/color][/b]\n<br />\n<br />Replace an automatic doorway with a solid interior wall and collision. Each face uses the style of the Hab on that side, so a Titan/Ambassador connection has a Titan interior on one face and an Ambassador interior on the other.\n<br />\n<br />Delete the control to restore the doorway.\n<br />\n<br />[b][color=#f6b26b]Hab Ceiling Removal[/color][/b]\n<br />\n<br />Open the shared ceiling and floor between vertically stacked Habs to create a taller interior. Uses the native stair attachment points without adding a staircase.\n<br />\n<br />Supported layouts are fully aligned [b][color=#f6b26b]short over short[/color][/b] or [b][color=#f6b26b]long over long[/color][/b], with the [b][color=#f6b26b]same style on both levels[/color][/b]. A matching long pair needs one control; both structural footprint connections must match. Additional matching levels can create taller rooms.\n<br />\n<br />[b][color=#1e84cc]Mixed-style vertical openings, short/long vertical combinations, partial overlap and offset stacks are outside the supported scope. Delete the control to restore that floor/ceiling boundary.[/color][/b]\n<br />\n<br />[b][color=#ff7700][size=4]Features[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*]Selective horizontal wall removal, solid interior walls and supported vertical openings.[/*]\n<br />[*]All three Hab styles and both native Hab sizes in one package.[/*]\n<br />[*]Mixed-style horizontal rooms and individually styled faces on mixed-style walls.[/*]\n<br />[*]Existing vanilla Hab parts: no replacement Habs or save-editor conversion required.[/*]\n<br />[*]Reworked edge closures, corner backings and top/bottom surfaces for exposed wall sections.[/*]\n<br />[*]Decorative cleanup for unsupported floating details.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Installing Manual Control[/size][/color][/b]\n<br />\n<br />[list=1]\n<br />[*]Back up the save you intend to use, then close No Man's Sky.[/*]\n<br />[*]Remove previous Finally Open Habs/Open Corvette Habs versions from the active MODS directory. See the upgrade instructions below if you are switching from automatic files.[/*]\n<br />[*]Extract [b][color=#f6b26b]FinallyOpenHabs_ManualControl.zip[/color][/b].[/*]\n<br />[*]Copy the complete [b][color=#f6b26b]FinallyOpenHabs_ManualControl[/color][/b] folder into [b][color=#f6b26b]No Man's Sky/GAMEDATA/MODS/[/color][/b].[/*]\n<br />[*]Start the game with mods enabled. Find the three tools under [b][color=#f6b26b]Internal Configuration[/color][/b] and place them at the relevant Hab attachment points.[/*]\n<br />[/list]\n<br />[i]The same mod folder also contains METADATA, MODELS and TEXTURES. Keep its contents together. Use GAMEDATA/MODS, not the old PCBANKS/MODS location. No installer, CMD file, AMUMSS, compiler or other mod is required to use the supplied download.[/i]\n<br />\n<br />[b][color=#ff7700][size=4]Important: upgrading from the older automatic versions[/size][/color][/b]\n<br />\n<br />The older [b][color=#f6b26b]Full[/color][/b] and [b][color=#f6b26b]Horizontal[/color][/b] files remain alternative downloads. They are not dependencies or optional add-ons for Manual Control.\n<br />\n<br />[list=1]\n<br />[*]With your old version still installed, move your character onto an intact Hab floor, away from shared walls and floor openings. Save and quit.[/*]\n<br />[*]Move all old Hab-mod folders out of GAMEDATA/MODS. This includes [b][color=#f6b26b]OpenCorvetteHabs_Titan[/color][/b], [b][color=#f6b26b]OpenCorvetteHabs_Ambassador[/color][/b] and [b][color=#f6b26b]OpenCorvetteHabs_Thunderbird[/color][/b], including copies inside Full/Horizontal bundles or backup folders.[/*]\n<br />[*]Keep backups [b][color=#f6b26b]outside[/color][/b] the MODS directory. Renaming a folder with an underscore or calling it a backup is not a reliable way to disable it.[/*]\n<br />[*]Install the single Manual Control folder using the instructions above.[/*]\n<br />[*]Reopen your Corvette and add the removal controls wherever you want open connections.[/*]\n<br />[/list]\n<br />[b][color=#1e84cc]Previously automatic openings are not converted into placed manual controls.[/color][/b] Those connections may return to their normal walls, doors or floors until you place the appropriate tools. Your existing Hab modules do not need to be rebuilt. Inspect decorations when boundaries return; the mod does not reposition furniture to accommodate them.\n<br />\n<br />Keep unrelated mods, including separate landing-pad mods, installed as appropriate. Remove the old Hab variants specifically.\n<br />\n<br />[b][color=#ff7700]Updating an existing Manual Control installation[/color][/b]\n<br />\n<br />For compatible updates using the same three control IDs, such as v0.22 to v0.23, existing controls are retained. Close the game, move the previous [b][color=#f6b26b]FinallyOpenHabs_ManualControl[/color][/b] folder out of MODS, and copy in the complete new folder.\n<br />\n<br />[b][color=#1e84cc]Replace the folder; do not merge files over an old installation.[/color][/b] Obsolete files must be removed. Deleting all your placed controls is not required for this compatible update.\n<br />\n<br />[b][color=#ff7700][size=4]Uninstalling Manual Control or returning to the automatic version[/size][/color][/b]\n<br />\n<br />[b][color=#1e84cc]Remove placed manual controls in game before removing the mod.[/color][/b] Unlike the older automatic variants, the manual version includes custom placeable tools saved with your construction.\n<br />\n<br />[list=1]\n<br />[*]Keep Manual Control installed and load each save/Corvette where you have used its tools.[/*]\n<br />[*]In build edit/delete mode, remove every [b][color=#f6b26b]Hab Wall Removal[/color][/b], [b][color=#f6b26b]Hab Wall[/color][/b] and [b][color=#f6b26b]Hab Ceiling Removal[/color][/b] control. Stand clear of the boundary being restored.[/*]\n<br />[*]Removal controls use invisible selection areas near the floor/connection where they were placed. Aim carefully and confirm the selected item is the control before deleting. A placed Hab Wall can also be selected through its wall geometry. [b][color=#f6b26b]There is no blue selection outline and there are no upper rim handles. Do not delete the Hab itself to remove a control.[/color][/b][/*]\n<br />[*]Check that the normal connections and floor/ceiling boundaries have returned. Save normally, then quit the game.[/*]\n<br />[*]Remove [b][color=#f6b26b]FinallyOpenHabs_ManualControl[/color][/b] from GAMEDATA/MODS.[/*]\n<br />[*]If returning to an older automatic version, install only the legacy file(s) you want after completing this cleanup.[/*]\n<br />[/list]\n<br />Do not rely on the game safely handling leftover custom controls after the mod is removed. If you removed the mod first, reinstall the same manual version and attempt the cleanup before uninstalling again. Keep a backup: recovery after loading and resaving without the custom definitions is not guaranteed.\n<br />\n<br />The older automatic variants do not add these manual controls. When removing those variants, close the game and remove their own mod folders; allow for vanilla boundaries returning when you next load.\n<br />\n<br />[b][color=#ff7700][size=4]Manual Control vs. the older alternatives[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*][b][color=#f6b26b]Manual Control:[/color][/b] one folder for all three styles; place tools to open or close individual connections. Mixed-style horizontal openings are supported. Vertical openings are selected separately.[/*]\n<br />[*][b][color=#f6b26b]Legacy Full:[/color][/b] the older automatic approach, with its own style files and supported automatic horizontal/vertical behavior.[/*]\n<br />[*][b][color=#f6b26b]Legacy Horizontal:[/color][/b] the older automatic wall-opening approach while retaining floors/ceilings, where provided by that download.[/*]\n<br />[/list]\n<br />Use the instructions belonging to the download you choose. The legacy files retain their own features and limitations; they do not gain the manual tools by being listed on the same page.\n<br />\n<br />[b][color=#ff7700][size=4]Compatibility and multiplayer[/size][/color][/b]\n<br />\n<br />Manual Control retains the vanilla Hab IDs, but it also adds custom control objects and changes local geometry/collision. [b][color=#f6b26b]Multiplayer and unmodded-client behaviour have not been fully validated.[/color][/b] A wall or floor you have removed locally may remain solid for a player without the mod. Uploading or sharing a Corvette does not distribute these files.\n<br />\n<br />Do not treat this version as a guaranteed client-only cosmetic mod. Matching manual versions are recommended for players who want matching interiors; they do not constitute a multiplayer compatibility guarantee.\n<br />\n<br />This version replaces [b][color=#f6b26b]BASEBUILDINGOBJECTSTABLE.MBIN[/color][/b] to maintain the three tools' menu order and [b][color=#f6b26b]DIFFICULTYCONFIG.MBIN[/color][/b] for the added build entries. Other complete replacements of those tables, or mods changing the same Hab parts/placement rules, require compatibility checks. Partial EXML mods and load order also need testing where they overlap.\n<br />\n<br />Compatibility with every separate building mod is not established, and game updates may require a rebuild.\n<br />\n<br />[b][color=#ff7700][size=4]Known limits and feedback[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*]Snapping can require careful aiming, particularly at ceiling/stair connections.[/*]\n<br />[*]Invisible deletion targets can be difficult to find, especially after opening a floor. They retain small physical selection colliders and do not show a blue outline.[/*]\n<br />[*]Vertical openings require aligned Habs of the same style and size. Do not use unsupported layouts as a reliable partial-floor tool.[/*]\n<br />[*]Native stairs/platforms, furnishings and retained wall returns may still occupy an otherwise open room. The mod does not automatically move player-built decorations.[/*]\n<br />[/list]\n<br />For a bug report, include the game/mod version, Hab styles and sizes, connection direction, which tool was placed, a simple layout sketch or screenshots, whether the issue is visual/collision/snapping, and whether it persists after reloading. Mention other building mods. For multiplayer reports, include host/guest roles and each player's installed version.\n<br />\n<br />[b][color=#ff7700][size=4]Credits[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*][url=https://github.com/monkeyman192/MBINCompiler]MBINCompiler/libMBIN,[/url][/*]\n<br />[*][url=https://github.com/monkeyman192/NMSDK]NMSDK as a technical format reference. Builds use project-specific Python/NumPy scripts.[/url][/*]\n<br />[*]Substantial development, code and documentation assistance: [b][color=#f6b26b]ChatGPT/Codex (GPT-6.1 Sol; Yuki)[/color][/b].[/*]\n<br />[/list]\n<br />The page's existing cover/thumbnail are AI-generated promotional illustrations, not gameplay screenshots. The ceiling-tool icon is an AI-assisted edit of a native game icon; the other two tool icons use original Legacy Structures artwork.\n<br />\n<br />[b][color=#ff7700][size=4]More Corvette building[/size][/color][/b]\n<br />\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4619]Orbital Corvette Landing Pad[/url] is a separate project of mine.\n<br />I'm also working on a mod two bring NPC's to live within Corvettes, stay tuned for that.",
     "state": "normal",
@@ -699501,7 +699579,7 @@
         "description": "",
         "size_kb": 16766,
         "size_in_bytes": 17169157,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/9e/35/3d/9e353d8f-68c9-437f-89bb-04fef22af7c7"
       },
       {
@@ -699526,7 +699604,7 @@
         "description": "",
         "size_kb": 15643,
         "size_in_bytes": 16018533,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/7c/01/97/7c019768-b24a-49ed-a10c-58787baefc6c"
       },
       {
@@ -699551,7 +699629,7 @@
         "description": "",
         "size_kb": 10507,
         "size_in_bytes": 10759400,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/38/ec/ef/38ecef6d-1c98-4782-8419-f2bea64c65ac"
       },
       {
@@ -699576,7 +699654,7 @@
         "description": "",
         "size_kb": 15621,
         "size_in_bytes": 15996108,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/30/e6/ce/30e6ce91-6407-400f-9ffa-65ccd04499d6"
       },
       {
@@ -699601,7 +699679,7 @@
         "description": "",
         "size_kb": 16777,
         "size_in_bytes": 17180444,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/92/f7/5f/92f75fd5-be10-438c-a69c-567d9f620e19"
       },
       {
@@ -699626,7 +699704,7 @@
         "description": "",
         "size_kb": 10519,
         "size_in_bytes": 10771635,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/d6/59/ab/d659abad-6de1-4abe-9a2a-fbec07f04a6b"
       },
       {
@@ -699713,8 +699791,8 @@
         "file_id": 50076,
         "name": "OpenCorvetteHabs Ambassador",
         "version": "1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 16098,
         "file_name": "OpenCorvetteHabs Ambassador 4702 1 2026-10-25T15-42Z OyPDz29yb.zip",
@@ -699726,7 +699804,7 @@
         "description": "",
         "size_kb": 16098,
         "size_in_bytes": 16484741,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/17/92/75/1792752e-5338-43cd-9e2c-452a73e19bb4"
       },
       {
@@ -699738,8 +699816,8 @@
         "file_id": 50105,
         "name": "OpenCorvetteHabs Thunderbird",
         "version": "1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 17949,
         "file_name": "OpenCorvetteHabs Thunderbird 4702 1 2026-10-26T19-03Z aCzNuEGSc.zip",
@@ -699751,7 +699829,7 @@
         "description": "",
         "size_kb": 17949,
         "size_in_bytes": 18379945,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/17/45/1a/17451a3f-9395-4508-8480-f6b0a06cc9f0"
       },
       {
@@ -699763,8 +699841,8 @@
         "file_id": 50106,
         "name": "OpenCorvetteHabs Titan",
         "version": "1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 11096,
         "file_name": "OpenCorvetteHabs Titan 4702 1 2026-10-26T19-03Z QR3q07re0.zip",
@@ -699776,7 +699854,7 @@
         "description": "",
         "size_kb": 11096,
         "size_in_bytes": 11363042,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/a8/46/cc/a846ccca-cd1d-4f52-9876-356f635f9416"
       },
       {
@@ -699788,8 +699866,8 @@
         "file_id": 50107,
         "name": "OpenCorvetteHabs Ambassador (Horizontal)",
         "version": "1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 16095,
         "file_name": "OpenCorvetteHabs Ambassador (Horizontal) 4702 1 2026-10-26T19-04Z QR3q07reT.zip",
@@ -699801,7 +699879,7 @@
         "description": "",
         "size_kb": 16095,
         "size_in_bytes": 16481733,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/6e/ac/12/6eac12dc-017a-459b-9e99-027e1a56f19b"
       },
       {
@@ -699813,8 +699891,8 @@
         "file_id": 50108,
         "name": "OpenCorvetteHabs Thunderbird (Horizontal)",
         "version": "1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 17285,
         "file_name": "OpenCorvetteHabs Thunderbird (Horizontal) 4702 1 2026-10-26T19-04Z 8gT07OIH4.zip",
@@ -699826,7 +699904,7 @@
         "description": "",
         "size_kb": 17285,
         "size_in_bytes": 17700438,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/7e/4a/6f/7e4a6fc2-a5d7-4474-8416-302301e77414"
       },
       {
@@ -699838,8 +699916,8 @@
         "file_id": 50109,
         "name": "OpenCorvetteHabs Titan (Horizontal)",
         "version": "1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 11093,
         "file_name": "OpenCorvetteHabs Titan (Horizontal) 4702 1 2026-10-26T19-05Z oPfwFL8NL.zip",
@@ -699851,7 +699929,7 @@
         "description": "",
         "size_kb": 11093,
         "size_in_bytes": 11360009,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/c2/64/e4/c264e450-c72b-4f8b-8639-5b1309147feb"
       },
       {
@@ -699886,13 +699964,13 @@
         ],
         "uid": 7017976611798,
         "file_id": 50134,
-        "name": "FinallyOpenHabs ManualControl v1.0",
+        "name": "BROKEN - FinallyOpenHabs ManualControl v1.0",
         "version": "1.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 46444,
-        "file_name": "FinallyOpenHabs ManualControl v1.0 4702 1.0 2026-10-27T20-47Z gb4dJyoZ9.zip",
+        "file_name": "BROKEN - FinallyOpenHabs ManualControl v1.0 4702 1.0 2026-10-27T20-47Z gb4dJyoZ9.zip",
         "detected_file_extension": "zip",
         "uploaded_timestamp": 1793134067,
         "uploaded_time": "2026-10-27T20:47:47.000+00:00",
@@ -699903,6 +699981,31 @@
         "size_in_bytes": 47559214,
         "changelog_html": "Added: Standalone Version the gives you full control over open, closed walls and ceilings.\n- - - Don't use together with other versions! - - -",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ab/a7/40/aba74007-772d-4302-ab9e-94b6438f37d8"
+      },
+      {
+        "id": [
+          50169,
+          1634
+        ],
+        "uid": 7017976611833,
+        "file_id": 50169,
+        "name": "FinallyOpenHabs (Forsaken Update Ready)",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 54689,
+        "file_name": "FinallyOpenHabs (Forsaken Update Ready) 4702 1.1 2026-10-28T21-19Z QR3q07r61.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793222394,
+        "uploaded_time": "2026-10-28T21:19:54.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/63a6ac15bbdeaaec8569618120a91d910e63dc2d8e50f5bf93b72be7b0d8cc23",
+        "description": "Standalone Version the gives you full control over open, closed walls and ceilings.<br />Don't use together with other versions!",
+        "size_kb": 54689,
+        "size_in_bytes": 56002193,
+        "changelog_html": "compatibility restored after the Forsaken Update\nadded the new Legion Habs as editable parts",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/78/67/05/786705ac-f43f-41cf-9010-5695df5c628d"
       }
     ],
     "changelogs": {
@@ -699924,6 +700027,10 @@
       "1.0": [
         "Added: Standalone Version the gives you full control over open, closed walls and ceilings.",
         "- - - Don't use together with other versions! - - -"
+      ],
+      "1.1": [
+        "compatibility restored after the Forsaken Update",
+        "added the new Legion Habs as editable parts"
       ]
     }
   },
