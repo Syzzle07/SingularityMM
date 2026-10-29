@@ -624209,13 +624209,13 @@
   {
     "mod_id": 3701,
     "name": "Corvette No Complexity Limit",
-    "summary": "Corvette-class ships no complexity limit. 克尔维特级星舰(小型护卫舰)无复杂度限制。",
-    "version": "7.01",
+    "summary": "Corvette-class ships no complexity limit. Now updated for NMS FORSAKEN 7.11 克尔维特级星舰(小型护卫舰)无复杂度限制。 现已适配无人深空《遗落》7.11",
+    "version": "7.11",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3701/3701-1758172631-120228289.png",
     "author": "DY230",
-    "updated_timestamp": 1789302549,
+    "updated_timestamp": 1793296303,
     "created_timestamp": 1756324548,
-    "description": "Corvette-class ships no complexity limit.\n<br />克尔维特级星舰(小型护卫舰)无复杂度限制。\n<br />\n<br />[b]#IMPORTANT / 重点#[/b]\n<br />[color=#ff0000][b]Too many parts can make the game STUCK!!![/b][/color]\n<br />[color=#ff0000][b]太多部件会让游戏很卡！！！[/b][/color]\n<br />\n<br />[b]#INSTALL / 安装#[/b]\n<br />Download and extract the archive.\n<br />Place the entire \"___230_CorvetteNoComplexityLimit\" folder into: [u][b]GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />下载并解压压缩包。\n<br />将整个 \"___230_CorvetteNoComplexityLimit\" 文件夹放入：[u][b]GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />\n<br />[b]#GUIDE / 指南#[/b]\n<br />Manual mod installation guide:\n<br />[url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]https://nomanssky.fandom.com/wiki/Mods#Installing_Mods[/url]\n<br />无人深空 MOD 安装教学（B站@我值500G噢）：\n<br />[url=https://www.bilibili.com/video/BV1AGKWeyE1J/]https://www.bilibili.com/video/BV1AGKWeyE1J/[/url]\n<br />\n<br />[b]#Troubleshooting / 排错#[/b]\n<br />📌If the mod is installed correctly but not working, try deleting:\n<br />[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]\n<br />and restart the game.\n<br />📌如果正确安装后无效，尝试删除：\n<br />[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]\n<br />并重启游戏。\n<br />\n<br />[b]#CREDITS / 鸣谢#[/b]\n<br />Hello Games / Nexus Mods / MBINCompiler / AMUMSS\n<br />and All amazing modders\n<br />以及所有其他了不起的mod作者",
+    "description": "Corvette-class ships no complexity limit.\n<br />Now updated for NMS FORSAKEN 7.11\n<br />克尔维特级星舰(小型护卫舰)无复杂度限制。\n<br />现已适配无人深空《遗落》7.11\n<br />\n<br />[b]#IMPORTANT / 重点#[/b]\n<br />[color=#ff0000][b]Too many parts can make the game STUCK!!![/b][/color]\n<br />[color=#ff0000][b]太多部件会让游戏很卡！！！[/b][/color]\n<br />\n<br />[b]#INSTALL / 安装#[/b]\n<br />Download and extract the archive.\n<br />Place the entire \"___230_CorvetteNoComplexityLimit\" folder into: [u][b]No Man's Sky&#92;GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />下载并解压压缩包。\n<br />将整个 \"___230_CorvetteNoComplexityLimit\" 文件夹放入：[u][b]No Man's Sky&#92;GAMEDATA&#92;MODS&#92;[/b][/u]\n<br />\n<br />[b]#GUIDE / 指南#[/b]\n<br />Manual mod installation guide:\n<br />[url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]https://nomanssky.fandom.com/wiki/Mods#Installing_Mods[/url]\n<br />无人深空 MOD 安装教学（B站@我值500G噢）：\n<br />[url=https://www.bilibili.com/video/BV1AGKWeyE1J/]https://www.bilibili.com/video/BV1AGKWeyE1J/[/url]\n<br />\n<br />[b]#Troubleshooting / 排错#[/b]\n<br />📌If the mod is installed correctly but not working, try deleting:\n<br />[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]\n<br />and restart the game.\n<br />📌如果正确安装后无效，尝试删除：\n<br />[u][b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b][/u]\n<br />并重启游戏。\n<br />\n<br />[b]#CREDITS / 鸣谢#[/b]\n<br />Hello Games / Nexus Mods / MBINCompiler / AMUMSS\n<br />and All amazing modders\n<br />以及所有其他了不起的mod作者",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -624342,7 +624342,7 @@
         "size_kb": 2,
         "size_in_bytes": 2923,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/4d/74/f2/4d74f2c7-ae68-4a70-bf36-2dc19a944036.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4d/74/f2/4d74f2c7-ae68-4a70-bf36-2dc19a944036"
       },
       {
         "id": [
@@ -624367,7 +624367,7 @@
         "size_kb": 0,
         "size_in_bytes": 791,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/18/d9/8c/18d98c54-8cdf-44b8-9c71-75bd95837f7f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/18/d9/8c/18d98c54-8cdf-44b8-9c71-75bd95837f7f"
       },
       {
         "id": [
@@ -624392,7 +624392,7 @@
         "size_kb": 2,
         "size_in_bytes": 2883,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/67/91/d8/6791d876-75bc-4dd9-b3aa-70d251940c10.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/67/91/d8/6791d876-75bc-4dd9-b3aa-70d251940c10"
       },
       {
         "id": [
@@ -624403,9 +624403,9 @@
         "file_id": 48514,
         "name": "Corvette No Complexity Limit",
         "version": "7.01",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 2,
         "file_name": "Corvette No Complexity Limit 3701 7.01 2026-09-13T12-27Z AeW3TdrNM.zip",
         "detected_file_extension": "zip",
@@ -624417,7 +624417,7 @@
         "size_kb": 2,
         "size_in_bytes": 2881,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/07/c7/fd/07c7fdd0-6253-4003-b1cd-d731931fb129.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/07/c7/fd/07c7fdd0-6253-4003-b1cd-d731931fb129"
       },
       {
         "id": [
@@ -624428,8 +624428,8 @@
         "file_id": 48515,
         "name": "CorvetteNoComplexityLimit_LUA",
         "version": "7.01",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 0,
         "file_name": "CorvetteNoComplexityLimit_LUA 3701 7.01 2026-09-13T12-29Z lN9fGp8qj.zip",
@@ -624442,7 +624442,57 @@
         "size_kb": 0,
         "size_in_bytes": 797,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3701/1d/6f/60/1d6f6089-2bf0-45b0-adc6-26ff6850bac9.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1d/6f/60/1d6f6089-2bf0-45b0-adc6-26ff6850bac9"
+      },
+      {
+        "id": [
+          50206,
+          1634
+        ],
+        "uid": 7017976611870,
+        "file_id": 50206,
+        "name": "Corvette No Complexity Limit",
+        "version": "7.11",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 14,
+        "file_name": "Corvette No Complexity Limit 3701 7.11 2026-10-29T17-51Z vlBhwFQDy.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793296272,
+        "uploaded_time": "2026-10-29T17:51:12.000+00:00",
+        "mod_version": "7.11",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/78d9a8b28fc5f019d28ac7647a8cfe017bbbc6f3b4c237e40ee35cf5768d541f",
+        "description": "Corvette-class ships no complexity limit.<br />Now updated for NMS FORSAKEN 7.11<br />克尔维特级星舰(小型护卫舰)无复杂度限制。<br />现已适配无人深空《遗落》7.11",
+        "size_kb": 14,
+        "size_in_bytes": 14384,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/7a/4f/d4/7a4fd4d6-36bd-4ec7-98ac-0c113bbd94c8"
+      },
+      {
+        "id": [
+          50207,
+          1634
+        ],
+        "uid": 7017976611871,
+        "file_id": 50207,
+        "name": "CorvetteNoComplexityLimit_LUA",
+        "version": "7.11",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 0,
+        "file_name": "CorvetteNoComplexityLimit_LUA 3701 7.11 2026-10-29T17-51Z 2B5KARZwN.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793296303,
+        "uploaded_time": "2026-10-29T17:51:43.000+00:00",
+        "mod_version": "7.11",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6c5a14952f118d50b0939d7d9dddeb19822a0f2616e4778ac7eaf3a94ddc8074",
+        "description": "Requirements 需求 :<br />[url=https://github.com/HolterPhylo/AMUMSS/releases]AMUMSS v5.6.2.0w[/url] + [url=https://github.com/monkeyman192/MBINCompiler/releases]MBINCompiler v7.10.0-pre1[/url]",
+        "size_kb": 0,
+        "size_in_bytes": 858,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/eb/da/43/ebda43aa-84bb-407a-87b7-b2ff3868884d"
       }
     ],
     "changelogs": {}
@@ -633128,10 +633178,10 @@
     "mod_id": 3796,
     "name": "Custom Corvette Interior Modules",
     "summary": "Lets introduce more bugs into the corvettes, shall we?",
-    "version": "7.00",
+    "version": "7.10",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3796/3796-1758195172-575838461.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1789050903,
+    "updated_timestamp": 1793299018,
     "created_timestamp": 1758195516,
     "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod adds 3 new functional wall modules for players to build inside habitation parts of their Corvette starships: the apperance modifier, the weapon rack and the stellar extractor module and an additional \"blank wall\" module which can be used to cover up doors between habs.The new modules have been included into a brand new section of corvette build menu and will be available to players automatically after installing the mod (no need to buy / research those blueprints). The modules are compatible with all 3 styles of interiors offered by the game and feature slight variations between positioning of the items.\n<br />\n<br />With the positives laid out, one must acknowledge the limitations of this mod. The new modules are extremely simplistic - they consist only of rigged machinery attached to \"empty\" walls of given interior. No additional decorations were included as I lack the creativity and skill to set them up. There are no options to apply colours / finishes like with exterior corvette parts.\n<br />\n<br />In general: consider it a \"proof of concept\" that custom interior modules can be added with mods and imagine how awesome they would be if an actually competent person did the work.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;GAMESTATE&#92;DIFFICULTYCONFIG.MBIN\n<br />\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_BASEPARTPRODUCTS.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGOBJECTSTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGPARTSTABLE.MBIN\n<br />\n<br />+ a bunch of new files added[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️✅ mixed mod (EXML patch + new MBIN files)\n<br />\n<br />This mod is likely to work with other mods modifying the same files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
     "state": "normal",
@@ -633246,8 +633296,8 @@
         "file_id": 47979,
         "name": "Custom Corvette Interior Modules",
         "version": "7.00",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 79,
         "file_name": "Custom Corvette Interior Modules 3796 7.00 2026-09-10T14-35Z GkVHbn7OT.zip",
@@ -633260,7 +633310,32 @@
         "size_kb": 79,
         "size_in_bytes": 80967,
         "changelog_html": "updated for game version 7.00 (Cosmos)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3796/78/22/72/78227276-903c-4f8c-b19b-85c24de58700.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/78/22/72/78227276-903c-4f8c-b19b-85c24de58700"
+      },
+      {
+        "id": [
+          50208,
+          1634
+        ],
+        "uid": 7017976611872,
+        "file_id": 50208,
+        "name": "Custom Corvette Interior Modules",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 79,
+        "file_name": "Custom Corvette Interior Modules 3796 7.10 2026-10-29T18-36Z HZO4arlne.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793299018,
+        "uploaded_time": "2026-10-29T18:36:58.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/dddec2caa749fe98eccf000fb5e7169785f857a9a458cb2eca509eeac9e803a0",
+        "description": "",
+        "size_kb": 79,
+        "size_in_bytes": 81056,
+        "changelog_html": "updated for game version 7.10 (Forsaken)\nchanged location of interaction camera for corvette stellar extactor module\nnote that this release does not include the new Legion-style habs yet!!!",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c7/ae/25/c7ae2502-8f1f-4017-8145-becf9883da46"
       }
     ],
     "changelogs": {
@@ -633279,6 +633354,11 @@
       ],
       "7.00": [
         "updated for game version 7.00 (Cosmos)"
+      ],
+      "7.10": [
+        "updated for game version 7.10 (Forsaken)",
+        "changed location of interaction camera for corvette stellar extactor module",
+        "note that this release does not include the new Legion-style habs yet!!!"
       ]
     }
   },
@@ -669923,7 +670003,7 @@
     "author": "M4R1T1",
     "updated_timestamp": 1789847798,
     "created_timestamp": 1786827509,
-    "description": "[size=4][b]Description[/b][/size]\n<br />[size=3][color=#D4D4D8]Removes the (white? pink? brown? idk) background noise from the game while leaving weather noise and other ambience effects (chords, tones, one shots, etc) untouched. This is especially noticeable in the freighter, and after using this mod your ship engines might feel a bit louder...[/color][/size]\n<br />[size=3][color=#D4D4D8]Three parts to this mod, though I recommend just downloading the combined main version.[/color][/size]\n<br />[size=3][color=#D4D4D8][youtube]IQkTJPGWq_8[/youtube][/color][/size]\n<br />[color=#D4D4D8][size=3]This is what the game will (not) sound like with this mod (doesn't really do it justice since you can't hear stuff like footsteps but oh well). Keep in mind I also record previews with 1% music volume[/size][/color]\n<br />\n<br />\n<br />[size=4][b]Install:[/b][/size]\n<br />[size=3][color=#D4D4D8]Extract to GAMEDATA/MODS[/color][/size]\n<br />\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />[size=3][color=#D4D4D8]This mod modifies various .wem files in AUDIO&#92;WINDOWS&#92;MEDIA[/color][/size]",
+    "description": "[size=4][b]Description[/b][/size]\n<br />[size=3][color=#D4D4D8]Removes the (white? pink? brown? idk) background noise from the game while leaving weather noise and other ambience effects (chords, tones, one shots, etc) untouched. This is especially noticeable in the freighter, and after using this mod your ship engines might feel a bit louder...[/color][/size]\n<br />[size=3][color=#D4D4D8]Three parts to this mod, though I recommend just downloading the combined main version.[/color][/size]\n<br />[size=3][color=#D4D4D8][youtube]IQkTJPGWq_8[/youtube][/color][/size]\n<br />[color=#D4D4D8][size=3]This is what the game will (not) sound like with this mod (doesn't really do it justice since you can't hear stuff like footsteps but oh well). I record previews with 1% music volume[/size][/color]\n<br />\n<br />\n<br />[size=4][b]Install:[/b][/size]\n<br />[size=3][color=#D4D4D8]Extract to GAMEDATA/MODS[/color][/size]\n<br />\n<br />\n<br />[size=4][b]Compatibility[/b][/size]\n<br />[size=3][color=#D4D4D8]This mod modifies various .wem files in AUDIO&#92;WINDOWS&#92;MEDIA[/color][/size]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -692197,12 +692277,12 @@
     "mod_id": 4619,
     "name": "Outpost Corvette Landing Pad",
     "summary": "FORSAKEN-compatible - Bring the Outpost’s orbital Corvette landing platform to your own base. This mod adds a separate “Orbital Pad” entry to the base-building menu, with Corvette summoning, landing and takeoff, three integrated terminals, and customizable colors and materials. Vanilla landing pads remain unchanged.",
-    "version": "1.3",
+    "version": "1.4",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4619/4619-1791353538-243825552.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1793215462,
+    "updated_timestamp": 1793303350,
     "created_timestamp": 1791056639,
-    "description": "[color=#ff7700][size=5][b]Orbital Corvette Landing Pad[/b][/size][/color][size=3]\n<br />\n<br />Build the Outpost's orbital Corvette platform at your own base, on a planet or in space. Each variant adds its own base-building entry, with three integrated terminals, color and material customization, and Corvette summoning, landing and take-off. Vanilla landing pads are unchanged.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Pad variants[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3][color=#f9cb9c][b]Orbital Pad[/b][/color] — the standard platform with its three terminals.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Props)[/b][/color] — the same functional platform with an integrated decoration layout, including cargo, technical equipment and workstations.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Salvage Processor)[/b][/color] — the standard platform with the working Outpost salvage processor. Feed recovered physical salvage objects into its intake to receive the normal processing rewards in your personal inventory. The processor housing also supports color and material customization. [color=#38761d][b]Added the newly introduced Forsaken Trader, who can be called and interacted with like on the Outpost pads.[/b][/color][/size][/*]\n<br />[/list]Each variant works independently. Install one, two or all three: their separate building IDs, menu entries and resource paths allow them to coexist in the same base. \n<br />[color=#f6b26b][s]The Salvage Processor variant still uses the folder name \"OrbitalLandingPadFurnace\"; do not rename it when installing.[/s] [/color]\n<br />[color=#1e84cc]Changed the name to \"OutpostLandingPadRecycler\" with v1.2.1. Make sure to delete the old [...]Furnace before using the updated one.[/color]\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3]Three terminals: summon your Corvette, edit your Corvette, and access starship outfitting/upgrades.[/size][/*]\n<br />[*][size=3]Corvette-only landing and take-off.[/size][/*]\n<br />[*][size=3]Color and material changes for the pad and terminal housings, retained after saving and reloading.[/size][/*]\n<br />[*][size=3]Entrance, terminal and access-route lighting, with adjusted collisions.[/size][/*]\n<br />[*][size=3]Optional snapping at the main entrance, on the terminal side.[/size][/*]\n<br />[*][size=3]Suitable for planetary and orbital base builds.[/size][/*]\n<br />[*][size=3]Up to 10 pads of each type per planetary base, with construction costs set at 10 times the standard landing pad recipe.[/size][/*]\n<br />[*][size=3]Functional salvage intake, processing and rewards with the Salvage Processor variant.[/size][/*]\n<br />[/list]\n<br />[size=4][color=#ff7700][b]Installing the pads[/b][/color][/size]\n<br />\n<br />[list=1]\n<br />[*][size=3]Close No Man's Sky and extract the ZIP for each variant you want.[/size][/*]\n<br />[*][size=3]When updating, remove the previous folder for that same variant. Keep only one installed copy of each variant.[/size][/*]\n<br />[*]Copy [i]\"OrbitalLandingPad\"[/i], [i]\"OrbitalLandingPadProps\"[/i] and/or[i] \"OutpostLandingPadRecycler\"[/i] into [i]\"No Man's Sky/GAMEDATA/MODS/\"[/i].[/*]\n<br />[*][size=3]Launch the game with mod support enabled.[/size][/*]\n<br />[*][size=3]Find [b]Orbital Pad[/b], [b]Orbital Pad (Props)[/b] and/or [b]Orbital Pad (Salvage Processor)[/b] in the base-building menu.[/size][/*]\n<br />[/list][size=3]The pad packages contain their required custom resources. You do not need the standard variant installed to use Props or Salvage Processor.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Optional add-on: Teleport Return[/b][/size][/color][size=3]\n<br />\n<br />With a Corvette selected as your active ship, Teleport Return adds automatic arrival when you teleport to a base containing one of these pads. It waits for the destination's dock to load, selects the closest compatible free pad to your arrival point, and uses the game's normal Corvette summon and docking process. Allow a few seconds after arriving.\n<br />\n<br />[b][color=#f6b26b]One DLL supports all three pad variants.[/color][/b] It is separate from the pad mods: no pad files need changing, and all normal pad functions remain available without it. Without the add-on, summon your Corvette manually after teleporting.\n<br />\n<br />[b][color=#ff7700]Install once, then start normally:[/color][/b][/size]\n<br />[list=1]\n<br />[*][size=3]Close the game and stop any older Teleport Return test helpers.[/size][/*]\n<br />[*][size=3]Place the optional [i]\"winmm.dll\"[/i] in [i]\"No Man's Sky/Binaries/\"[/i], beside [i]\"NMS.exe\"[/i]. It does not belong in [i]\"GAMEDATA/MODS\"[/i].[/size][/*]\n<br />[*][size=3]If updating our earlier Teleport Return DLL, replace that file. If another mod already provides a different [i]\"winmm.dll\"[/i], do not overwrite it; the two files cannot simply occupy the same path.[/size][/*]\n<br />[*][size=3]Start the game normally through Steam. No separate helper, repeated PowerShell command or special launcher is needed.[/size][/*]\n<br />[/list][size=3]To remove the DLL-only add-on, close the game and remove our [i]\"Binaries/winmm.dll\"[/i]. The pad mods remain installed and usable. [i]\"OrbitalPadTeleport.log\"[/i] is its diagnostic log; older installer versions may also have created an installation receipt.\n<br />\n<br />[b][color=#f6b26b]Compatibility:[/color][/b] Teleport Return is for Windows PC and requires a matching game build. It checks the executable before activating; a game update may leave it inactive until a compatible DLL is provided. The original [i]\"NMS.exe\"[/i] is not modified on disk.\n<br />\n<br />[color=#f6b26b][b]Current test status:[/b][/color] The standard-pad Teleport Return implementation has been confirmed in-game. The expanded DLL supports all three IDs and has passed automated checks; live testing of that expanded build is still in progress.[/size]\n<br />\n<br />[size=4][color=#ff7700][b]Multiplayer and compatibility[/b][/color][/size][size=3]\n<br />\n<br />These pads add custom building entries instead of replacing vanilla pads. Other players need the corresponding pad variant installed to see its custom parts; uploading a base does not distribute the mod assets.\n<br />\n<br />Separate IDs and resource paths help avoid conflicts, but compatibility with every other mod or future game update is not guaranteed. Teleport Return has its own game-version and DLL compatibility requirements, as described above.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Limitations and known issues[/color][/b][/size]\n<br />\n<br />[list]\n<br />[*][size=3][b]Regular starships cannot dock on these pads.[/b] They can still be summoned through the quick menu. The outfitting terminal does not change the Corvette-only docking restriction.[/size][/*]\n<br />[*][size=3]Automatic Corvette arrival after a base teleport requires the optional Teleport Return DLL and a suitable free pad.[/size][/*]\n<br />[*][size=3]The large platform can take some time to finish loading/rendering.[/size][/*]\n<br />[*][size=3]Check clearance with very large Corvette layouts, especially around the Salvage Processor assembly; collision issues with every possible layout have not been ruled out.[/size][/*]\n<br />[/list]\n<br />[size=4][b][color=#ff7700]Credits and shout-outs[/color][/b][/size][size=3]\n<br />\n<br />- [url=https://www.nexusmods.com/profile/JJhookah]JJhookah[/url] provided the inspiration.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/2626?tab=description]AMUMSS[/url] provided the mod-editing tools.\n<br />- [url=https://www.nexusmods.com/profile/Thrawn1636262]Thrawn1636262[/url] suggested the salvage processor variant.\n<br />- Thanks also to ChatGPT-6.1 Sol for development assistance. Spare time is limited, and the help made a big difference.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Feedback and community creations[/color][/b][/size][size=3]\n<br />\n<br />Bug reports, test results and suggestions are welcome in the Posts and Bugs sections. If you have a decorated layout or an idea for another standalone variant, get in touch — we'll see what we can do. ;)\n<br />\n<br />Please check Permissions and credits before reusing files. Credit is appreciated, and please do not monetize derivatives. Updates after major game releases may take time.[/size]",
+    "description": "[color=#ff7700][size=5][b]Orbital Corvette Landing Pad[/b][/size][/color][size=3]\n<br />\n<br />Build the Outpost's orbital Corvette platform at your own base, on a planet or in space. Each variant adds its own base-building entry, with three integrated terminals, color and material customization, and Corvette summoning, landing and take-off. Vanilla landing pads are unchanged.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Pad variants[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3][color=#f9cb9c][b]Orbital Pad[/b][/color] — the standard platform with its three terminals.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Props)[/b][/color] — the same functional platform with an integrated decoration layout, including cargo, technical equipment and workstations.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Salvage Processor)[/b][/color] — the standard platform with the working Outpost salvage processor. Feed recovered physical salvage objects into its intake to receive the normal processing rewards in your personal inventory. The processor housing also supports color and material customization. [color=#38761d][b]Added the newly introduced Forsaken Trader, who can be called and interacted with like on the Outpost pads.[/b][/color][/size][/*]\n<br />[*][color=#f6b26b][b]Outpost Platform[/b][/color][color=#ffffff] — [/color]simple building in the looks of the landing pads without any functionalities except snapping enabled[/*]\n<br />[/list]Each variant works independently. Install one, two or all three: their separate building IDs, menu entries and resource paths allow them to coexist in the same base. \n<br />[color=#f6b26b][s]The Salvage Processor variant still uses the folder name \"OrbitalLandingPadFurnace\"; do not rename it when installing.[/s] [/color]\n<br />[color=#1e84cc]Changed the name to \"OutpostLandingPadRecycler\" with v1.2.1. Make sure to delete the old [...]Furnace before using the updated one.[/color]\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3]Three terminals: summon your Corvette, edit your Corvette, and access starship outfitting/upgrades.[/size][/*]\n<br />[*][size=3]Corvette-only landing and take-off.[/size][/*]\n<br />[*][size=3]Color and material changes for the pad and terminal housings, retained after saving and reloading.[/size][/*]\n<br />[*][size=3]Entrance, terminal and access-route lighting, with adjusted collisions.[/size][/*]\n<br />[*][size=3]Optional snapping at the main entrance, on the terminal side.[/size][/*]\n<br />[*][size=3]Suitable for planetary and orbital base builds.[/size][/*]\n<br />[*][size=3]Up to 10 pads of each type per planetary base, with construction costs set at 10 times the standard landing pad recipe.[/size][/*]\n<br />[*][size=3]Functional salvage intake, processing and rewards with the Salvage Processor variant.[/size][/*]\n<br />[/list]\n<br />[size=4][color=#ff7700][b]Installing the pads[/b][/color][/size]\n<br />\n<br />[list=1]\n<br />[*][size=3]Close No Man's Sky and extract the ZIP for each variant you want.[/size][/*]\n<br />[*][size=3]When updating, remove the previous folder for that same variant. Keep only one installed copy of each variant.[/size][/*]\n<br />[*]Copy [i]\"OrbitalLandingPad\"[/i], [i]\"OrbitalLandingPadProps\"[/i] and/or[i] \"OutpostLandingPadRecycler\"[/i] into [i]\"No Man's Sky/GAMEDATA/MODS/\"[/i].[/*]\n<br />[*][size=3]Launch the game with mod support enabled.[/size][/*]\n<br />[*][size=3]Find [b]Orbital Pad[/b], [b]Orbital Pad (Props)[/b] and/or [b]Orbital Pad (Salvage Processor)[/b] in the base-building menu.[/size][/*]\n<br />[/list][size=3]The pad packages contain their required custom resources. You do not need the standard variant installed to use Props or Salvage Processor.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Optional add-on: Teleport Return[/b][/size][/color][size=3]\n<br />\n<br />With a Corvette selected as your active ship, Teleport Return adds automatic arrival when you teleport to a base containing one of these pads. It waits for the destination's dock to load, selects the closest compatible free pad to your arrival point, and uses the game's normal Corvette summon and docking process. Allow a few seconds after arriving.\n<br />\n<br />[b][color=#f6b26b]One DLL supports all three pad variants.[/color][/b] It is separate from the pad mods: no pad files need changing, and all normal pad functions remain available without it. Without the add-on, summon your Corvette manually after teleporting.\n<br />\n<br />[b][color=#ff7700]Install once, then start normally:[/color][/b][/size]\n<br />[list=1]\n<br />[*][size=3]Close the game and stop any older Teleport Return test helpers.[/size][/*]\n<br />[*][size=3]Place the optional [i]\"winmm.dll\"[/i] in [i]\"No Man's Sky/Binaries/\"[/i], beside [i]\"NMS.exe\"[/i]. It does not belong in [i]\"GAMEDATA/MODS\"[/i].[/size][/*]\n<br />[*][size=3]If updating our earlier Teleport Return DLL, replace that file. If another mod already provides a different [i]\"winmm.dll\"[/i], do not overwrite it; the two files cannot simply occupy the same path.[/size][/*]\n<br />[*][size=3]Start the game normally through Steam. No separate helper, repeated PowerShell command or special launcher is needed.[/size][/*]\n<br />[/list][size=3]To remove the DLL-only add-on, close the game and remove our [i]\"Binaries/winmm.dll\"[/i]. The pad mods remain installed and usable. [i]\"OrbitalPadTeleport.log\"[/i] is its diagnostic log; older installer versions may also have created an installation receipt.\n<br />\n<br />[b][color=#f6b26b]Compatibility:[/color][/b] Teleport Return is for Windows PC and requires a matching game build. It checks the executable before activating; a game update may leave it inactive until a compatible DLL is provided. The original [i]\"NMS.exe\"[/i] is not modified on disk.\n<br />\n<br />[color=#f6b26b][b]Current test status:[/b][/color] The standard-pad Teleport Return implementation has been confirmed in-game. The expanded DLL supports all three IDs and has passed automated checks; live testing of that expanded build is still in progress.[/size]\n<br />\n<br />[size=4][color=#ff7700][b]Multiplayer and compatibility[/b][/color][/size][size=3]\n<br />\n<br />These pads add custom building entries instead of replacing vanilla pads. Other players need the corresponding pad variant installed to see its custom parts; uploading a base does not distribute the mod assets.\n<br />\n<br />Separate IDs and resource paths help avoid conflicts, but compatibility with every other mod or future game update is not guaranteed. Teleport Return has its own game-version and DLL compatibility requirements, as described above.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Limitations and known issues[/color][/b][/size]\n<br />\n<br />[list]\n<br />[*][size=3][b]Regular starships cannot dock on these pads.[/b] They can still be summoned through the quick menu. The outfitting terminal does not change the Corvette-only docking restriction.[/size][/*]\n<br />[*][size=3]Automatic Corvette arrival after a base teleport requires the optional Teleport Return DLL and a suitable free pad.[/size][/*]\n<br />[*][size=3]The large platform can take some time to finish loading/rendering.[/size][/*]\n<br />[*][size=3]Check clearance with very large Corvette layouts, especially around the Salvage Processor assembly; collision issues with every possible layout have not been ruled out.[/size][/*]\n<br />[/list]\n<br />[size=4][b][color=#ff7700]Credits and shout-outs[/color][/b][/size][size=3]\n<br />\n<br />- [url=https://www.nexusmods.com/profile/JJhookah]JJhookah[/url] provided the inspiration.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/2626?tab=description]AMUMSS[/url] provided the mod-editing tools.\n<br />- [url=https://www.nexusmods.com/profile/Thrawn1636262]Thrawn1636262[/url] suggested the salvage processor variant.\n<br />- Thanks also to ChatGPT-6.1 Sol for development assistance. Spare time is limited, and the help made a big difference.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Feedback and community creations[/color][/b][/size][size=3]\n<br />\n<br />Bug reports, test results and suggestions are welcome in the Posts and Bugs sections. If you have a decorated layout or an idea for another standalone variant, get in touch — we'll see what we can do. ;)\n<br />\n<br />Please check Permissions and credits before reusing files. Credit is appreciated, and please do not monetize derivatives. Updates after major game releases may take time.[/size]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -692253,7 +692333,7 @@
         "description": "Version 1.1 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 347,
         "size_in_bytes": 356282,
-        "changelog_html": "Version 1.1 — Standard Pad Update\n• Added colour and material customisation, with selections retained after saving and reloading.\n• Extended colour and material customisation to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle white entrance lights, terminal lighting and access-route lights.\n• Corrected the light position beneath the Corvette summoning terminal.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing regular starships from being summoned through the quick menu while a Corvette was docked.\nRegular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props)\n• Added a separate decorated pad based on a manually built layout containing 57 decoration objects.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.\n• Corrected the placement reference to load the Props model.\n• Corrected the orientation of the bench and left crane.\n• Retained the standard pad’s terminals, lighting, docking and customisation features.\nDecorative props currently retain their original colours and materials.",
+        "changelog_html": "Version 1.1 — Standard Pad Update:\n• Added color and material customization, with selections retained after saving and reloading.\n• Extended color and material customization to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship/Corvette outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle entrance lights, terminal lighting and access-route lights.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing starships and Corvettes from being summoned through the quick menu while a ship or Corvette was docked.\n• Regular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props):\n• Added a separate decorated pad based on a manually built layout.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e2/61/a6/e261a671-75cc-4f7d-9e72-bfff68a1090a"
       },
       {
@@ -692278,7 +692358,7 @@
         "description": "V1.1 with props",
         "size_kb": 350,
         "size_in_bytes": 359197,
-        "changelog_html": "Version 1.1 — Standard Pad Update\n• Added colour and material customisation, with selections retained after saving and reloading.\n• Extended colour and material customisation to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle white entrance lights, terminal lighting and access-route lights.\n• Corrected the light position beneath the Corvette summoning terminal.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing regular starships from being summoned through the quick menu while a Corvette was docked.\nRegular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props)\n• Added a separate decorated pad based on a manually built layout containing 57 decoration objects.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.\n• Corrected the placement reference to load the Props model.\n• Corrected the orientation of the bench and left crane.\n• Retained the standard pad’s terminals, lighting, docking and customisation features.\nDecorative props currently retain their original colours and materials.",
+        "changelog_html": "Version 1.1 — Standard Pad Update:\n• Added color and material customization, with selections retained after saving and reloading.\n• Extended color and material customization to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship/Corvette outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle entrance lights, terminal lighting and access-route lights.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing starships and Corvettes from being summoned through the quick menu while a ship or Corvette was docked.\n• Regular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props):\n• Added a separate decorated pad based on a manually built layout.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/d3/f9/80/d3f980b6-cf91-4783-8802-addf9677e250"
       },
       {
@@ -692303,7 +692383,7 @@
         "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 347,
         "size_in_bytes": 356294,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e5/f7/cb/e5f7cb04-ef75-45d9-88d2-3598de249a1c"
       },
       {
@@ -692328,7 +692408,7 @@
         "description": "V1.2 with props",
         "size_kb": 350,
         "size_in_bytes": 359186,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ac/23/92/ac23923b-e5db-4453-908b-d9530fa6c116"
       },
       {
@@ -692353,7 +692433,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367110,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/22/3a/e1/223ae111-9248-45c8-8b4e-d584b5f21a62"
       },
       {
@@ -692403,7 +692483,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367156,
-        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls",
+        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls\nv1.2.1 - Recycler and Collision Fix\n- Fixed oversized invisible collisions above the entrance and Recycler.\n- IMPORTANT: folder renamed - make sure to delete the old \"OrbitalLandingPadFurnace\" first!",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/bd/25/85/bd2585ee-45ba-4680-8232-2c9cd44235ec"
       },
       {
@@ -692428,7 +692508,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367205,
-        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls",
+        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls\nv1.2.1 - Recycler and Collision Fix\n- Fixed oversized invisible collisions above the entrance and Recycler.\n- IMPORTANT: folder renamed - make sure to delete the old \"OrbitalLandingPadFurnace\" first!",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/ed/3e/86ed3eb2-0f63-48f4-8912-a543a136150f"
       },
       {
@@ -692440,9 +692520,9 @@
         "file_id": 50162,
         "name": "OrbitalLandingPad",
         "version": "1.3",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 340,
         "file_name": "OrbitalLandingPad 4619 1.3 2026-10-28T19-22Z MWrySmzTa.zip",
         "detected_file_extension": "zip",
@@ -692453,7 +692533,7 @@
         "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 340,
         "size_in_bytes": 348215,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/cc/25/c5/cc25c59c-9da5-4087-b196-d0b39e6c9013"
       },
       {
@@ -692465,8 +692545,8 @@
         "file_id": 50163,
         "name": "OrbitalLandingPad with Props",
         "version": "1.3",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 342,
         "file_name": "OrbitalLandingPad with Props 4619 1.3 2026-10-28T19-23Z pQZbnWJsX.zip",
@@ -692478,7 +692558,7 @@
         "description": "V1.2 with props",
         "size_kb": 342,
         "size_in_bytes": 350913,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ef/72/34/ef723487-4b97-4de0-86bd-1080bd80450a"
       },
       {
@@ -692490,8 +692570,8 @@
         "file_id": 50164,
         "name": "OrbitalLandingPad SalvageProcessor",
         "version": "1.3",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 360,
         "file_name": "OrbitalLandingPad SalvageProcessor 4619 1.3 2026-10-28T19-24Z s60W14SHW.zip",
@@ -692503,8 +692583,108 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 360,
         "size_in_bytes": 369200,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/1c/e4/f4/1ce4f478-2441-42e2-8747-7969f3ca0fe8"
+      },
+      {
+        "id": [
+          50209,
+          1634
+        ],
+        "uid": 7017976611873,
+        "file_id": 50209,
+        "name": "OrbitalLandingPad SalvageProcessor",
+        "version": "1.4",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 370,
+        "file_name": "OrbitalLandingPad SalvageProcessor 4619 1.4 2026-10-29T19-48Z eV714amb8.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793303292,
+        "uploaded_time": "2026-10-29T19:48:12.000+00:00",
+        "mod_version": "1.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/812e8e86ea88e0735bf0ecb9d05b97784003ac13ba80cc8933d031e919ede113",
+        "description": "V1.2 with the Outpost Salvage Processor without Props",
+        "size_kb": 370,
+        "size_in_bytes": 379608,
+        "changelog_html": "ALL LANDING PADS:\n- added snapping points on all sides\n- enabled snapping for all types of building (big structures, floors, cubes, etc)\nNEW:\n- added a seperate version of the pad without any functionalities as a simple building",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/fb/53/4c/fb534cc2-d18d-42a6-9982-f1506017f2fe"
+      },
+      {
+        "id": [
+          50210,
+          1634
+        ],
+        "uid": 7017976611874,
+        "file_id": 50210,
+        "name": "OrbitalLandingPad with Props",
+        "version": "1.4",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 351,
+        "file_name": "OrbitalLandingPad with Props 4619 1.4 2026-10-29T19-48Z s60W14SHA.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793303311,
+        "uploaded_time": "2026-10-29T19:48:31.000+00:00",
+        "mod_version": "1.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/87269eee8c6423d2e6db0a83ed86494fa3d5329f6173768953b5c2a00ef84a51",
+        "description": "V1.2 with props",
+        "size_kb": 351,
+        "size_in_bytes": 359736,
+        "changelog_html": "ALL LANDING PADS:\n- added snapping points on all sides\n- enabled snapping for all types of building (big structures, floors, cubes, etc)\nNEW:\n- added a seperate version of the pad without any functionalities as a simple building",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0d/66/ad/0d66ad7c-b406-4ebf-a0fe-18187b6cafa8"
+      },
+      {
+        "id": [
+          50211,
+          1634
+        ],
+        "uid": 7017976611875,
+        "file_id": 50211,
+        "name": "OrbitalLandingPad",
+        "version": "1.4",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 348,
+        "file_name": "OrbitalLandingPad 4619 1.4 2026-10-29T19-48Z GkVHbnd5G.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793303323,
+        "uploaded_time": "2026-10-29T19:48:43.000+00:00",
+        "mod_version": "1.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1c6d2c1c6e7fd18fe5bf489372d6714a777b9874334c988b5eef9a0ec2c849fb",
+        "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
+        "size_kb": 348,
+        "size_in_bytes": 356850,
+        "changelog_html": "ALL LANDING PADS:\n- added snapping points on all sides\n- enabled snapping for all types of building (big structures, floors, cubes, etc)\nNEW:\n- added a seperate version of the pad without any functionalities as a simple building",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/db/67/cb/db67cb74-7461-41e1-82e4-7ec0906c54ea"
+      },
+      {
+        "id": [
+          50212,
+          1634
+        ],
+        "uid": 7017976611876,
+        "file_id": 50212,
+        "name": "Simple Outpost Platform as Building",
+        "version": "1.4",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 335,
+        "file_name": "Simple Outpost Platform as Building 4619 1.4 2026-10-29T19-49Z RH1TdJvb6.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793303350,
+        "uploaded_time": "2026-10-29T19:49:10.000+00:00",
+        "mod_version": "1.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/468efce8a1e314c662219658ecc02adf27fa9071c06cbf54967a010e69d66a5b",
+        "description": "",
+        "size_kb": 335,
+        "size_in_bytes": 343544,
+        "changelog_html": "ALL LANDING PADS:\n- added snapping points on all sides\n- enabled snapping for all types of building (big structures, floors, cubes, etc)\nNEW:\n- added a seperate version of the pad without any functionalities as a simple building",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/91/61/a1/9161a132-4e26-40ea-92d0-2b27b7f0fe6c"
       }
     ],
     "changelogs": {
@@ -692548,6 +692728,13 @@
       "1.3": [
         "removed some newly introduced collisions with the Forsaken update",
         "--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---"
+      ],
+      "1.4": [
+        "ALL LANDING PADS:",
+        "- added snapping points on all sides",
+        "- enabled snapping for all types of building (big structures, floors, cubes, etc)",
+        "NEW:",
+        "- added a seperate version of the pad without any functionalities as a simple building"
       ]
     }
   },
