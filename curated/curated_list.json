@@ -50879,10 +50879,10 @@
     "mod_id": 1096,
     "name": "Exosolar's and Babs' Beyond Base Building",
     "summary": "★ FULLY MP compatible, this mod adds an extreme degree of freedom to the vanilla base-building options",
-    "version": "7.06",
+    "version": "7.10",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1096/1096-1676239400-1128733167.png",
     "author": "Exosolar Sparky NeptuneX3 Babscoole",
-    "updated_timestamp": 1792600400,
+    "updated_timestamp": 1793246478,
     "created_timestamp": 1566025938,
     "description": "[b][color=#f1c232][size=4]What is this Mod?[/size][/color][/b]\n<br />[size=4]There are now over 1,000 buildable base parts in vanilla No Man's Sky! It's a dream come true!\n<br />This mod adds an extreme degree of freedom to the vanilla base-building options.\n<br />This does NOT mean the mod gives you access to all buildable parts.  You still need to learn the blueprints for each.  :)\n<br />Beyond Base Building does NOT add any new build parts to the game.\n<br />\n<br />Now includes all the functionality of gBase Items, [color=#ff0000]if chosen by running the Lua script[/color]:[/size]\n<br />\n<br />[list]\n<br />[*][size=4]Can multiply power, extraction, and storage rates by 2, 5, or 10. WARNING: Bases built with this mod cannot be uploaded for multiplayer when using 2x, 5x, or 10x multiplied rates.[/size][/*]\n<br />[/list]\n<br />[list]\n<br />[*][size=4]EM Generators do not need a hotspot and produce 250 power.  Not enabled by default.  Must run Lua through ANUMSS and answer question \"Choose a multiplier for Storage and Rates and EMAnywhere status\" to generate custom mod file to enable.[/size][/*]\n<br />[/list][size=4]\n<br />\n<br />It is [b]fully compatible[/b] with multiplayer, co-op building, uploading, etc, because it [i]does not add[/i] any parts, which would cause issues in multiplayer.[/size]\n<br />\n<br />[size=4][color=#f1c232][b]★ Beyond Basebuilding[/b] is fully Lua scripted, with script provided for easy updating and merging [b]★[/b][/color] and carries over all of the official updates and improvements offered by Hello Games [b]plus[/b]:[/size]\n<br />\n<br />[list]\n<br />[*][size=4]Most parts can be Scaled [i][color=#fff2cc]except[/color][/i] prefab building parts, [color=#fff2cc]Exocraft Geobays, Mineral/Gas Extractors and Base Computer[/color] (Door attachment points bug out when scaled, and issues persist with scaled base computers and geobays).  There may be others not listed.  Be aware, scaling breaks snapping.[/size][/*]\n<br />[*][size=4]Many parts can be built in a Freighter.  [color=#fff2cc][i]Exceptions[/i][/color]  include the Base Computer, Industrial Mining parts, Vehicle Summoners and planet-based teleporter.[/size][/*]\n<br />[*][size=4]Many parts can be built at a Planetary Base [i][color=#fff2cc]except[/color][/i] the freighter teleporter and the Orbital Exocraft Materialiser[/size][/*]\n<br />[*][size=4]All parts can be built above and below water[/size][/*]\n<br />[*][size=4]All parts can change color and material[/size][/*]\n<br />[*][size=4]All parts, which can be deleted, can be deleted without also deleting attached objects [color=#fff2cc][i]except[/i][/color] Decals and Posters[/size][/*]\n<br />[*][size=4]No build-count limits [i][color=#fff2cc]except[/color][/i] for parts related to resources harvesting, certain terminals, beacons and message capsules (and others with limits that are hard coded into the game, as they are added or changed by Hello Games).[/size][/*]\n<br />[*][size=4]Unlimited Storage Containers[color=#cccccc][size=3][i]—*This does not increase actual storage amounts: Each numbered container acts as an index to the store rather than a physical box[/i][/size][/color][/size][/*]\n<br />[*][size=4]Foundation, Pavings and Communications Station can be placed anywhere (not only on bare terrain)[/size][/*]\n<br />[*][size=4]Non corvette parts buildable with corvettes[/size][/*]\n<br />[/list][size=4]\n<br />Some customization of the mod is available just by running it through AMUMSS, where you'll be prompted about enabling several feature.  Even more customization can be had by editing the top portion of the Lua before processing.  See Lua usage below for link to AMUMSS install and basic usage How to.[/size]\n<br />\n<br />[color=#f1c232][b][u][size=5]Disclaimer:[/size][/u][/b][/color]\n<br />[size=3]This MOD makes changes to the placement and usage setting of vanilla parts.  If the MOD is removed, the vanilla settings will be restored and parts that \"violate\" a vanilla setting as well as those connected may go \"poof\".  Best practice is to regularly backup your saves for semi-painless recovery from the unexpected.[/size]\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />\n<br />[size=5][b][u][color=#f1c232]Installation[/color]\n<br />[/u][/b][/size]\n<br />[b]Extract archive contents to GAMEDATA&#92;MODS\n<br />\n<br />[color=#f1c232][size=4][u]Lua usage[/u][/size][/color]\n<br />[size=4][b]✦[url=https://www.nexusmods.com/nomanssky/mods/2626]How to use AMUMSS at No Man's Sky Nexus - Mods and Community (nexusmods.com)[/url]✦[/b][/size][/b]\n<br />\n<br />[size=4][u][b][color=#f1c232]Modified Files[/color][/b][/u][/size]\n<br />[color=#d8d8d8][size=3]METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGOBJECTSTABLE.MBIN[/size][/color]\n<br />\n<br />[i][color=#cccccc][size=3]Also check out...[/size][/color][/i]\n<br />[size=5]✦[b][color=#ffdd00][url=https://www.nexusmods.com/users/58018181?tab=user+files]Exosolar's Other Mods[/url][/color][/b]✦[/size]\n<br />\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />\n<br />[size=5][u][b][color=#f1c232]Is this Mod up-to-date?[/color][/b][/u][/size]\n<br />[size=4][i][b]Any mod files which are not hidden or demoted to the \"Old Files\" area can be expected to work.[/b][/i]\n<br />All uploaded files (on the Files page) are maintained with their packing date and version of the MBINCompiler used to pack it. Older mod versions, no longer compatible with the current version of No Man's Sky will be demoted to the \"Old Files\" subsection, but will remain available for download. There are no side-effects to using this mod.[/size]\n<br />\n<br />[size=4][u][b][color=#f1c232]How to update, tweak, combine, or patch the mod with AMUMSS?[/color][/b][/u][/size]\n<br />[size=4]As this mod is now Lua scripted, you can [color=#fff2cc]easily [b]update[/b], [b]tweak[/b] or [b]merge[/b] the mod yourself[/color] (if a game update breaks this PAK of the mod, or you have other PAK or Lua mods that could conflict with this one). [color=#cccccc][size=3][i]—*Click on the spoiler below for more[/i][/size][/color][/size]\n<br />[spoiler]\n<br />[size=3][u]Notes on AMUMSS:[/u]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url] tries to update [url=https://github.com/monkeyman192/MBINCompiler/releases]MBINcompiler[/url] automatically. If it fails to convert EXML/MBIN files, its likely due to a very recent NMS version update and MBINcompiler is awaiting an update too.\n<br />If so, I highly recommend you to disable your mods and wait for MBINCompiler to be updated (it's pretty quick in general).[/size]\n<br />\n<br />\n<br />[size=3][u][b][color=#f1c232]Updating the mod after a game update:[/color][/b][/u][/size]\n<br />[spoiler][list]\n<br />[*] [size=3]Download [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url], and extract it locally,  avoid placing the AMUMSS folder in a path with special characters or in a system folder like [color=#fff2cc][i]\"C:&#92;Program Files (x86)&#92;(...)\"[/i][/color].[/size][/*]\n<br />[*][size=3]Place the mod Lua script (only the .LUA file, not the .PAK file) in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]AMUMSS will normally auto-detect the NMS installation folder, but you can also manually edit the path in the [color=#fff2cc][i]NMS_FOLDER.txt[/i][/color] file.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root of the AMUMSS folder and follow the steps, selecting the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[*][size=3]A new modded PAK file will be created, using the last update of the MBIN game files duly amended by the script.[/size][/*]\n<br />[/list]\n<br />[size=3]Most of the time simply recompiling the mod using the Lua script will make it compatible again. Use the latest script to ensure you adopt any mod adjustments to accommodate the latest NMS build.[/size][size=3] There are two main causes of mods not correctly updating with this method:\n<br />1) MBINCompiler needs an update to be able to decompile the latest version of the game MBIN files.\n<br />2) Structural changes have been made to the MBIN files called by this Lua script. Whilst unlikely, this will require some script rewrite and other mods are likely affected.[/size][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Tweaking the mod:[/color][/b][/u][/size]\n<br />[spoiler][size=3]Use the same process as described in [color=#fff2cc][i]Updating the mod[/i][/color].\n<br />Just modify the script as you want before recompiling it. Look at the top of my scripts, you can generally edit modifiers there, or even disable/enable some features very easily.[/size]\n<br />\n<br />[size=3][color=#cccccc][i]*[url=https://notepad-plus-plus.org/]Notepad++[/url] or [url=https://code.visualstudio.com/download/]VSCode[/url] are generally recommended to read EXML and Lua files, due to large file support and automatic highlighting. The [url=https://sourceforge.net/projects/npp-compare/]Compare plugin[/url] for Notepad++, and Lua is also a must-have to highlight file differences.[/i][/color][/size][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Combining mods that provide Lua scripts:[/color][/b][/u][/size]\n<br />[spoiler][size=3]You'll want to do this if multiple mods affect the same MBIN file.[/size]\n<br />\n<br />[list]\n<br />[*] [size=3]Place all the scripts in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Follow the step, selecting that you want to combine all the scripts into one PAK file, and the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[/list]\n<br />[size=3]AMUMSS will output a PAK file that will contain the modifications of all the scripts.[/size]\n<br />[color=#cccccc][size=3][i]*If the scripts modify the exact same values in the MBIN file, the last loaded script will overwrite the preceding script values.[/i][/size][/color][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Patch in the mod to make it compatible with other PAK files:[/color][/b][/u][/size]\n<br />[spoiler][size=3]You will want to do this if another mods isn't Lua scripted, and affects the same MBIN file as the Lua scripted mod.\n<br />\n<br />It will work when :\n<br />Case 1) you patch a Lua scripted mod for only one other PAK.\n<br />Case 2) you patch a Lua scripted mod for several other PAKs, but only if the other PAKs don't modify the same MBIN files between them.[/size]\n<br />\n<br />[size=3][b]How to create a patched PAK:[/b][/size]\n<br />\n<br />[list]\n<br />[*] [size=3]Copy the script and the other mod(s) PAK(s) in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root folder of AMUMSS, and follow the steps, selecting the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[*][size=3]The new PAK file will contain all the Lua script modifications, and a compatibility patch for the other mod(s) PAK(s).[/size][/*]\n<br />[*][size=3]Rename it something like [color=#fff2cc][i]\"__zzz Scripted Mod Name -Patched For- The Other Mod Name.pak\"[/i][/color].[/size]\n<br />[size=3][color=#fff2cc][i]\"__zzz\"[/i][/color] prefix is to ensure that it'll be loaded after the mod(s) it was patched for (for NMS loading order, underscore [i]\"_\"[/i] came after every other characters).[/size][/*]\n<br />[*][size=3]Remove the original scripted mod PAK from the [color=#fff2cc][i]MODS[/i][/color] folder, and copy both the new patched one, and the other mod(s) PAK(s), into it.[/size][/*]\n<br />[/list][size=3][u]Notes:[/u]\n<br />[b]Be sure the mod PAK you want to create a compatibility patch for, is updated for the latest NMS version.[/b]\n<br />-&gt; When AMUSS find an MBIN file affected by a script and by a PAK in the [color=#fff2cc][i]ModScript[/i][/color] folder, it will take the MBIN file from the mod PAK over the original one of the game, and will apply to it the modifications listed in the script.\n<br />So, if the MBIN file of the mod PAK is not updated, the one in the resulting patched PAK won't be either.[/size][/spoiler]\n<br />[/spoiler]\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />[color=#f1c232][u][b][size=5]Philosophy[/size][/b][/u][/color]\n<br />[size=4]All the erroneous limitations in building are pretty silly, aren't they? In making this mod, I paid specific attention to making sure I did not make changes that will invalidate the bases built with it from online play. Any base made with Beyond BaseBuilding will be fully viable and visible in online play, even when other players don't have this mod! It does this by only editing placement rules while you are in the building editor and not modifying any of the actual base parts themselves.\n<br />We hope you enjoy the mod and naturally, your comments are most welcome. We can also be found on the No Man's Sky Discord or reached directly at: [color=#f1c232]Babscoole #6326 [/color]or [color=#f1c232]Exosolar#5120[/color], or if its about the Lua script: [color=#f1c232]NeptuneX3#8095[/color] [size=3][i][size=4]or [/size][/i][/size][color=#f1c232]s p a r k y#0536[/color][/size]\n<br />\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />[color=#f1c232][size=5][u][b]Credits and Special Thanks![/b][/u][/size][/color]\n<br />[size=4][i]Hello Games for making the wonderful, vast, and fun game, No Man's Sky!\n<br />monkeyman192 for the MBINCompiler and his continued efforts to keep it up-to-date\n<br />Mjjstral &amp; Wbertro for the AMUMSS script-based auto modbuilder/updater,\n<br />Tub0Crisco for the No Man's Sky Mod Station A.K.A. NMSMS\n<br />\n<br />[b]Big thanks[/b] to all of you lovely people who offer donations! It is greatly appreciated, and will help Exosolar buy lunch as a busy and broke college student! :D\n<br />\n<br />And, of course, thanks to all of the other modders who make mods too, as we often inspect the work of other modders to learn how things are done: [url=https://www.nexusmods.com/users/12249518]RangerDulann[/url], [url=https://www.nexusmods.com/users/1964784]WoodyMontana[/url], [url=https://www.nexusmods.com/users/42286415]jasondude[/url], [url=https://www.nexusmods.com/nomanssky/users/38106355?tab=user+files]Gumsk[/url], [url=https://www.nexusmods.com/users/45932167?tab=user+files]Mjjstral[/url], [url=https://www.nexusmods.com/users/41291360]moddinaccount[/url], Devilin Pixy, saa044, and others have all helped us learn to mod effectively! Without the above-mentioned, their mods and applications, we would be unable to make any mods at all![/i][/size]\n<br />\n<br />[size=5][i]\"If I have seen further than others, it is by standing upon the shoulders of giants\"[/i][/size]\n<br />[right][size=4]﻿-Sir Isaac Newton  [/size][/right]\n<br />",
     "state": "normal",
@@ -54060,7 +54060,7 @@
         "description": "★ FULLY MP compatible and LUA scripted for easy updating and merging ★ this mod adds an extreme degree of freedom to the vanilla base-building options.",
         "size_kb": 29,
         "size_in_bytes": 30062,
-        "changelog_html": null,
+        "changelog_html": "Update for NMS 7.03",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/53/ec/46/53ec46f6-5d16-47b6-9883-205bfd1d4ce6"
       },
       {
@@ -54097,9 +54097,9 @@
         "file_id": 50033,
         "name": "Beyond Base Building",
         "version": "7.06",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 29,
         "file_name": "Beyond Base Building 1096 7.06 2026-10-21T16-33Z kAMZq0aA8.zip",
         "detected_file_extension": "zip",
@@ -54110,8 +54110,33 @@
         "description": "★ FULLY MP compatible and LUA scripted for easy updating and merging ★ this mod adds an extreme degree of freedom to the vanilla base-building options.",
         "size_kb": 29,
         "size_in_bytes": 30157,
-        "changelog_html": "Remove ability to place deep space base computers anywhere but in deep space",
+        "changelog_html": "Remove ability to place deep space base computers anywhere buy in deep space",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/25/78/9f/25789f81-4e42-4b35-ac8b-12c0deebd26f"
+      },
+      {
+        "id": [
+          50177,
+          1634
+        ],
+        "uid": 7017976611841,
+        "file_id": 50177,
+        "name": "Beyond Base Building",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 31,
+        "file_name": "Beyond Base Building 1096 7.10 2026-10-29T04-01Z XnaJySD3i.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793246478,
+        "uploaded_time": "2026-10-29T04:01:18.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6c7b660d00c163b43390f74946f755a8d57ce1e4ea134a44cb90466bb7406e95",
+        "description": "★ FULLY MP compatible and LUA scripted for easy updating and merging ★ this mod adds an extreme degree of freedom to the vanilla base-building options.",
+        "size_kb": 31,
+        "size_in_bytes": 31863,
+        "changelog_html": "Update for Forsaken",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0a/b2/43/0ab24340-e12d-4422-94a4-7016ee6bf607"
       }
     ],
     "changelogs": {
@@ -54213,6 +54238,9 @@
       ],
       "7.06": [
         "Remove ability to place deep space base computers anywhere but in deep space"
+      ],
+      "7.10": [
+        "Update for Forsaken"
       ]
     }
   },
@@ -403348,10 +403376,10 @@
     "mod_id": 2333,
     "name": "More Words",
     "summary": "More Words increases the amount of words learn from NPCs, Knowledge Stones, Encyclopedias, Monoliths, and Atlas Orbs.",
-    "version": "7.03",
+    "version": "7.10",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2333/2333-1655170485-319297837.png",
     "author": "Reikokuu and Babscoole",
-    "updated_timestamp": 1789798885,
+    "updated_timestamp": 1793245826,
     "created_timestamp": 1655170704,
     "description": "Don't settle for a cheap rehash of an old abandoned mod.  Get an original words mod, used by thousands and been continually updated for years.  :)\n<br />\n<br />All settings are completely customizable in the lua script.\n<br />Must process changed lua script through AMUMSS to generate a new mod folder with the changes.\n<br />\n<br />[b]Word Reward Amounts :[/b]\n<br />﻿NPCs: 2\n<br />﻿Knowledge Stone: 3\n<br />﻿Encyclopedia: 4\n<br />﻿Monolith: 5\n<br />﻿Monolith Atlas: 3\n<br />﻿Atlas Orb: 2\n<br />\n<br />[b]Manual Installation :[/b]\n<br />﻿Extract to GAMEDATA&#92;MODS\n<br />\n<br />[b]Mod Edits :[/b]\n<br />﻿METADATA/REALITY/TABLES/REWARDTABLE.MBIN\n<br />﻿METADATA/REALITY/TABLES/NMS_DIALOG_GCALIENPUZZLETABLE.MBIN\n<br />﻿MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PARTS/RUINPARTS/WORDSTONE/ENTITIES/WORDSTONE.ENTITY.MBIN\n<br />﻿MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PROPS/INTERACTIVE/WORDSTATION/ENTITIES/WORDSTATION.ENTITY.MBIN\n<br />﻿MODELS/SPACE/ATLASSTATION/MODULARPARTS/INTERIOR/PATHORB/PATHORB/ENTITIES/ORBSTONE_1.ENTITY.MBIN\n<br />\n<br />For install and usage of AMUMSS to self update the mod or combine with other mods using the included Lua script please see [url=https://www.nexusmods.com/nomanssky/mods/2626]AMUMSS How To[/url]\n<br />\n<br />[b]Other Mods : \n<br />[/b]  ﻿[url=https://www.nexusmods.com/users/21587394?tab=user+files&amp;BH=0]Reikokuu Mods[/url]",
     "state": "normal",
@@ -403359,28 +403387,28 @@
     "files": [
       {
         "id": [
-          48789,
+          50176,
           1634
         ],
-        "uid": 7017976610453,
-        "file_id": 48789,
+        "uid": 7017976611840,
+        "file_id": 50176,
         "name": "More Words",
-        "version": "7.03",
+        "version": "7.10",
         "category_id": 1,
         "category_name": "MAIN",
         "is_primary": true,
         "size": 14,
-        "file_name": "More Words 2333 7.03 2026-09-19T06-21Z CmY2hwpZb.zip",
+        "file_name": "More Words 2333 7.10 2026-10-29T03-50Z N2LUkQHE6.zip",
         "detected_file_extension": "zip",
-        "uploaded_timestamp": 1789798885,
-        "uploaded_time": "2026-09-19T06:21:25.000+00:00",
-        "mod_version": "7.03",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e419c5d4994aec00482574e44cb756306a7c78b60f183e6e37ebabc0cc7196fd",
+        "uploaded_timestamp": 1793245826,
+        "uploaded_time": "2026-10-29T03:50:26.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/50f9067f8ba8459f70815639adeec82f21d806eecd8795dc384962babf7ff57b",
         "description": "Lua Script Included",
         "size_kb": 14,
-        "size_in_bytes": 15328,
-        "changelog_html": "Fix for wordstation",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2333/5b/65/aa/5b65aa14-db3e-4c3c-bdc9-f702e7749711.json"
+        "size_in_bytes": 15333,
+        "changelog_html": "Update for Forsaken",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/25/78/da/2578da9e-c53a-4393-ab93-6b7198c03741"
       }
     ],
     "changelogs": {
@@ -403427,6 +403455,9 @@
       ],
       "7.03": [
         "Fix for wordstation"
+      ],
+      "7.10": [
+        "Update for Forsaken"
       ]
     }
   },
@@ -554774,10 +554805,10 @@
     "mod_id": 3211,
     "name": "Better Space Stations Sell Everything (EISS)",
     "summary": "Makes most items available for sale at the trade terminal and space station tech specialists.",
-    "version": "7.03",
+    "version": "7.10",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3211/3211-1727026662-944372233.jpeg",
     "author": "Musty123 and MasterNetra and Babscoole",
-    "updated_timestamp": 1789930807,
+    "updated_timestamp": 1793246588,
     "created_timestamp": 1727933142,
     "description": "Tired of hunting for those annoying rare resources and want to just spend your hard earned Units/Nanites? While this mod is for you! Here we make most things available at the Galactic trade terminal and/or specialists! Looking for those nice illegal upgrades? We got it! Looking for those crusty ship parts to build a rust bucket of your own? Got em too! Looking for a Storm Crystal to spice things up in the bedroom? Yep you guessed it, got it!\n<br />\n<br />Four versions, the \"regular\", with everything, a WOE (WithOut Edibles) version, where food items have been removed, WOSP (WithOut Ship Parts), and finally WOE&amp;WOSP (WithOut Food or Ship Parts).  Use ONLY ONE at a time.\n<br />\n<br />NOTE: [u]This will NOT apply to Abandoned Space Stations or Smuggler/Pirate Stations.\n<br />[/u]NOTE #2:[i] [/i][u]To make sure all items are available be sure to set \"Goods Availability\" in the Difficulty settings to abundent otherwise some items will not show, [/u]\n<br />\n<br />Installation\n<br />﻿\n<br />﻿[i][u]Manual[/u][/i]\n<br />[list]\n<br />[*]Download &amp; Extract archive[/*]\n<br />[*]Four versions in the archive, use ONLY ONE at a time.[/*]\n<br />[*]﻿Copy and Paste the mod folder into your MODS folder (...No Mans Sky&#92;GAMEDATA&#92;MODS).[/*]\n<br />[/list]\n<br />﻿[u][i]AMUMSS\n<br />[/i][/u]\n<br />[list]\n<br />[*]Download the mod archive.[/*]\n<br />[*]Extract and move the lua script, for the version you want to use, to your AMUMSS's ModScript folder (along side the other LUA files from other mods).[/*]\n<br />[*]Run AMUMSS's BUILDMOD.bat, select the options appropriate for you during the process.[/*]\n<br />[*]Move resulting .pak from AMUMSS's \"CreatedModPaks\" to your MODS folder (...No Mans Sky/GAMEDATA/PCBANKS/MODS).[/*]\n<br />[*]Delete or rename the DISABLEMODS.txt in the PCBANKS folder (If Needed).[/*]\n<br />[/list]\n<br />[u]Uninstallation[/u]\n<br />\n<br />[list]\n<br />[*]Delete the Better Space Stations Sell Everything (EISS) folder from your (No Mans Sky&#92;GAMEDATA&#92;MODS)  or rerun AMUMSS without the Better Space Stations Sell Everything (EISS).lua script in AMUMSS's Modscript folder like you did during AMUMSS installation process and replace old pak file with new one.[/*]\n<br />[/list]\n<br />[u]Troubleshooting[/u]\n<br />[list]\n<br />[*]Folder No Mans Sky&#92;GAMEDATA&#92;MODS[/*]\n<br />[*]Only ONE EISS version in use[/*]\n<br />[*]Try deleting No Mans Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/*]\n<br />[/list][url=https://www.nexusmods.com/nomanssky/mods/2626]How to use AMUMSS at No Man's Sky Nexus - Mods and Community\n<br />[/url]\n<br />Compatibility\n<br />This  mod modifies METADATA&#92;REALITY&#92;DEFAULTREALITY.MBIN.\n<br />\n<br />Special Notes:\n<br />This is a update and improvement to Musty123's Original mod  \"\"Space Stations Sell Everything\" (which is no longer available and outdated) and its' progeny, Not Another Trade Mod by MasterNetra.",
     "state": "normal",
@@ -556456,7 +556487,7 @@
         "size_kb": 22,
         "size_in_bytes": 23046,
         "changelog_html": "Added missing substance, Polished Stone",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/67/d1/eb/67d1ebdf-cc83-4543-b81e-8894da94f0e7.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/67/d1/eb/67d1ebdf-cc83-4543-b81e-8894da94f0e7"
       },
       {
         "id": [
@@ -556481,7 +556512,7 @@
         "size_kb": 16,
         "size_in_bytes": 16552,
         "changelog_html": "Added missing substance, Polished Stone",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/a8/3a/26/a83a2645-c6a9-4439-b06f-f9a7dc94fb42.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a8/3a/26/a83a2645-c6a9-4439-b06f-f9a7dc94fb42"
       },
       {
         "id": [
@@ -556506,7 +556537,7 @@
         "size_kb": 18,
         "size_in_bytes": 19184,
         "changelog_html": "Added missing substance, Polished Stone",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/5c/de/22/5cde2245-0bb6-4461-962f-702196d72a6b.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/5c/de/22/5cde2245-0bb6-4461-962f-702196d72a6b"
       },
       {
         "id": [
@@ -556531,7 +556562,7 @@
         "size_kb": 25,
         "size_in_bytes": 25640,
         "changelog_html": "Added missing substance, Polished Stone",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/6e/3a/71/6e3a7195-03f9-4550-8c95-b002be2ae9d2.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6e/3a/71/6e3a7195-03f9-4550-8c95-b002be2ae9d2"
       },
       {
         "id": [
@@ -556556,7 +556587,7 @@
         "size_kb": 25,
         "size_in_bytes": 25669,
         "changelog_html": "Cosmos update",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/e0/f9/09/e0f90961-96fd-46d8-a3cd-a8a7deea7814.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e0/f9/09/e0f90961-96fd-46d8-a3cd-a8a7deea7814"
       },
       {
         "id": [
@@ -556581,7 +556612,7 @@
         "size_kb": 18,
         "size_in_bytes": 19217,
         "changelog_html": "Cosmos update",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/ed/06/3c/ed063cab-3faf-4627-8675-29c1d8be7626.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ed/06/3c/ed063cab-3faf-4627-8675-29c1d8be7626"
       },
       {
         "id": [
@@ -556606,7 +556637,7 @@
         "size_kb": 16,
         "size_in_bytes": 16579,
         "changelog_html": "Cosmos update",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/4a/a0/82/4aa08262-ee10-4af1-9f0a-4aaec4feed16.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4a/a0/82/4aa08262-ee10-4af1-9f0a-4aaec4feed16"
       },
       {
         "id": [
@@ -556631,7 +556662,7 @@
         "size_kb": 22,
         "size_in_bytes": 23064,
         "changelog_html": "Cosmos update",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/48/77/4e/48774e85-aca1-4c1c-a987-f2a0a91ff901.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/48/77/4e/48774e85-aca1-4c1c-a987-f2a0a91ff901"
       },
       {
         "id": [
@@ -556656,7 +556687,7 @@
         "size_kb": 25,
         "size_in_bytes": 25684,
         "changelog_html": "Updated ship parts lists, both regular and corvette",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/61/06/f4/6106f44e-f127-4b19-b0d9-f989547f83b8.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/61/06/f4/6106f44e-f127-4b19-b0d9-f989547f83b8"
       },
       {
         "id": [
@@ -556681,7 +556712,7 @@
         "size_kb": 18,
         "size_in_bytes": 19231,
         "changelog_html": "Updated ship parts lists, both regular and corvette",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/ae/96/ee/ae96ee2c-8342-4712-9495-f72fd27b24fd.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ae/96/ee/ae96ee2c-8342-4712-9495-f72fd27b24fd"
       },
       {
         "id": [
@@ -556706,7 +556737,7 @@
         "size_kb": 16,
         "size_in_bytes": 16582,
         "changelog_html": "Updated ship parts lists, both regular and corvette",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/51/b6/28/51b628fc-2c03-4684-adc4-84ed4291c66b.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/51/b6/28/51b628fc-2c03-4684-adc4-84ed4291c66b"
       },
       {
         "id": [
@@ -556731,7 +556762,7 @@
         "size_kb": 22,
         "size_in_bytes": 23066,
         "changelog_html": "Updated ship parts lists, both regular and corvette",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/b8/87/d2/b887d27a-06f6-415b-b324-1e46a9b42cf6.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b8/87/d2/b887d27a-06f6-415b-b324-1e46a9b42cf6"
       },
       {
         "id": [
@@ -556742,8 +556773,8 @@
         "file_id": 48837,
         "name": "Better Space Stations Sell Everything (EISS)",
         "version": "7.03",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 25,
         "file_name": "Better Space Stations Sell Everything (EISS) 3211 7.03 2026-09-20T18-59Z AeW3TdrYS.zip",
@@ -556756,7 +556787,7 @@
         "size_kb": 25,
         "size_in_bytes": 25781,
         "changelog_html": "Added some new products and substances",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/28/bd/82/28bd82c1-6b62-4dff-a439-10a8bc664db0.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/28/bd/82/28bd82c1-6b62-4dff-a439-10a8bc664db0"
       },
       {
         "id": [
@@ -556767,8 +556798,8 @@
         "file_id": 48838,
         "name": "Better Space Stations Sell Everything (EISS)-WOE",
         "version": "7.03",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 18,
         "file_name": "Better Space Stations Sell Everything (EISS)-WOE 3211 7.03 2026-09-20T18-59Z pQZbnWONt.zip",
@@ -556781,7 +556812,7 @@
         "size_kb": 18,
         "size_in_bytes": 19393,
         "changelog_html": "Added some new products and substances",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/50/a5/97/50a597b5-189e-413f-8bc1-8f32f42c8361.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/50/a5/97/50a597b5-189e-413f-8bc1-8f32f42c8361"
       },
       {
         "id": [
@@ -556792,8 +556823,8 @@
         "file_id": 48839,
         "name": "Better Space StationsSellEverything(EISS)-WOE-WOSP",
         "version": "7.03",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 16,
         "file_name": "Better Space StationsSellEverything(EISS)-WOE-WOSP 3211 7.03 2026-09-20T18-59Z n0CrIxzkY.zip",
@@ -556806,7 +556837,7 @@
         "size_kb": 16,
         "size_in_bytes": 16750,
         "changelog_html": "Added some new products and substances",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/4e/b8/6e/4eb86e64-54de-42be-9251-d5354af6390c.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4e/b8/6e/4eb86e64-54de-42be-9251-d5354af6390c"
       },
       {
         "id": [
@@ -556817,8 +556848,8 @@
         "file_id": 48840,
         "name": "Better Space Stations Sell Everything (EISS)-WOSP",
         "version": "7.03",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 22,
         "file_name": "Better Space Stations Sell Everything (EISS)-WOSP 3211 7.03 2026-09-20T19-00Z 9Lg6VZToO.zip",
@@ -556831,7 +556862,107 @@
         "size_kb": 22,
         "size_in_bytes": 23166,
         "changelog_html": "Added some new products and substances",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3211/4e/35/aa/4e35aaf6-d52b-4797-8651-4eaeaced0dc2.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4e/35/aa/4e35aaf6-d52b-4797-8651-4eaeaced0dc2"
+      },
+      {
+        "id": [
+          50178,
+          1634
+        ],
+        "uid": 7017976611842,
+        "file_id": 50178,
+        "name": "Better Space Stations Sell Everything (EISS)",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 26,
+        "file_name": "Better Space Stations Sell Everything (EISS) 3211 7.10 2026-10-29T04-02Z kAMZq0a8a.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793246526,
+        "uploaded_time": "2026-10-29T04:02:06.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6982752ad5c6925bb69bda9984c0818e576cf8c5c241ed862617f4f7880aab4e",
+        "description": "Everything version.  Lua Script Included.  USE ONLY ONE VERSION AT A TIME!!",
+        "size_kb": 26,
+        "size_in_bytes": 26875,
+        "changelog_html": "Update for Forsaken",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/cd/75/b3/cd75b3cc-6483-4751-955e-ede141bd913f"
+      },
+      {
+        "id": [
+          50179,
+          1634
+        ],
+        "uid": 7017976611843,
+        "file_id": 50179,
+        "name": "Better Space Stations Sell Everything (EISS)-WOSP",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 22,
+        "file_name": "Better Space Stations Sell Everything (EISS)-WOSP 3211 7.10 2026-10-29T04-02Z Z3ytCvN0z.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793246546,
+        "uploaded_time": "2026-10-29T04:02:26.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9729d220c15250fcc57f272e80f330ad6b8e1db8a974718fc1363e9acdea6cb3",
+        "description": "Without ship parts version.  Lua Script Included.  USE ONLY ONE VERSION AT A TIME!!",
+        "size_kb": 22,
+        "size_in_bytes": 23315,
+        "changelog_html": "Update for Forsaken",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/75/72/8f/75728f21-55f2-4ca9-8ccc-49829784cae3"
+      },
+      {
+        "id": [
+          50180,
+          1634
+        ],
+        "uid": 7017976611844,
+        "file_id": 50180,
+        "name": "Better Space Stations Sell Everything (EISS)-WOE",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 20,
+        "file_name": "Better Space Stations Sell Everything (EISS)-WOE 3211 7.10 2026-10-29T04-02Z SxEYBfKlQ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793246568,
+        "uploaded_time": "2026-10-29T04:02:48.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/827254e326be8758087ac5b196b6efc9c68748ae5d9f7d0b32d0de12dcbdc020",
+        "description": "Without edibles version.  Lua Script Included.  USE ONLY ONE VERSION AT A TIME!!",
+        "size_kb": 20,
+        "size_in_bytes": 20511,
+        "changelog_html": "Update for Forsaken",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/64/23/29/642329df-1e09-4cea-b12e-42c4e977a001"
+      },
+      {
+        "id": [
+          50181,
+          1634
+        ],
+        "uid": 7017976611845,
+        "file_id": 50181,
+        "name": "Better Space StationsSellEverything(EISS)-WOE-WOSP",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 16,
+        "file_name": "Better Space StationsSellEverything(EISS)-WOE-WOSP 3211 7.10 2026-10-29T04-03Z L5bXM3OAt.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793246588,
+        "uploaded_time": "2026-10-29T04:03:08.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/dc0c8444b43d3d20b0646867caf65fc0d77d47dacd9298b7ccebe84224bb41f1",
+        "description": "Without edibles and ship parts version.  Lua Script Included.  USE ONLY ONE VERSION AT A TIME!!",
+        "size_kb": 16,
+        "size_in_bytes": 16952,
+        "changelog_html": "Update for Forsaken",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/b3/e8/86b3e8f0-97be-49d6-b8a1-b63627afa195"
       }
     ],
     "changelogs": {
@@ -556894,6 +557025,9 @@
       ],
       "7.03": [
         "Added some new products and substances"
+      ],
+      "7.10": [
+        "Update for Forsaken"
       ]
     }
   },
@@ -686354,7 +686488,7 @@
     "author": "MindDoser",
     "updated_timestamp": 1791133814,
     "created_timestamp": 1790711688,
-    "description": "[center][img]https://i.imgur.com/gtBvqef.png[/img] [/center]\n<br />[center]\n<br />[color=#ea9999]Check video for a quick comparison between NMS Default sounds &amp; No Man's Sound.[/color]\n<br />[i](And pardon my mistake for writing NMA instead of NMS at demonstration video[/i].)[/center]\n<br />[center][/center]\n<br />[center][b][color=#ea9999]Installation[/color][/b]:[/center]\n<br />[center]Vortex or Manually.[/center]\n<br />[center]If you used previously similar mod(s) that editing some of same files, please goto:[/center]\n<br />[center][/center]\n<br />[center]'[color=#ea9999]'&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries&#92;SETTINGS[/color]''[/center]\n<br />[center]delete '[b][i][color=#ffff00]GCMODSETTINGS[/color][/i][/b].MXML''[/center]\n<br />[center]and re-start the game to clear any traces of old/unused similar sound mods.[/center]\n<br />[center]([i][color=#dbb0a7]Basically, you should do this anytime after installing&gt;uninstalling any mod(s)[/color][/i].)\n<br />\n<br />And now few things to keep in mind:\n<br />This was a super tedious &amp; tiresome process, since i edited \n<br />[img]https://i.imgur.com/H5Bbt31.png[/img]\n<br />and choose only a selection of good sounds\n<br />[i][color=#93c47d] (the most played, ie, Ships, Weather effects, Jetpack, etc[/color][/i])\n<br />to include in NMS. [/center]\n<br />[center]Also added some [b][i][color=#f6b26b]Reverb[/color][/i][/b] as well, to provide a better acoustic ''experience'',[/center]\n<br />[center]and slightly lowered specific sounds, ie, [b][i][color=#ff7700]Explosions ([/color][color=#ffffff]and especially[/color][color=#00ffff] Jetpack[/color][color=#ff7700])[/color][/i][/b], to protect our precious body parts called Ears.\n<br />Pretty sure i forgot a lot of sounds ([i][color=#ea9999]i hope minor ones[/color][/i]), since as i said,\n<br />selecting one-by-one[color=#ea9999]&gt;[/color]editing[color=#ea9999]&gt;[/color]testing[color=#ea9999]&gt;[/color]editing again, etc, etc,  [color=#ffe599]3[/color],[color=#ffe599]656 files[/color][color=#f4cccc], [/color]\n<br />was one-of-a-kind ongoing ([b][i][color=#cc0000]nightmarish[/color][/i][/b]) process.\n<br />So, i want to apologize in advance for any missing sounds, wrong sounds, quality ([i][color=#f9cb9c]wav&gt;wem[/color][/i]) and such.[/center]\n<br />[center]Hence the reason labeled it as ''[b][i][color=#f1c232]Experimental[/color][/i][/b]''.\n<br />Now, in case and you want to try [i][b][color=#f6b26b]No Man's Sound[/color][/b][/i], i suggest you to use quality vs/3d headphones ([i][color=#ea9999]not ear buds[/color][/i]),[/center]\n<br />[center]or, a good [b][color=#1e84cc]Surround[/color][/b] speaker system with a [b][color=#00ffff]subwoofer[/color][/b].[/center]\n<br />[center]Lot of sounds are muffled ([i][color=#cc4125]dampened[/color][/i]), especially [color=#ffff00]Ships[/color]/[color=#ffff00]Weather Effects[/color], and so on, to give a better feeling of the infinite space void.[/center]\n<br />[center]-[/center]\n<br />[center][b]It's compatible with every [color=#ffff00]Ui[/color][color=#f4cccc] / [/color][color=#ffff00]Voice[/color]-[color=#ffff00]over[/color] &amp; [color=#ffff00]music[/color] mods[/b][/center]\n<br />[center][b]until further notice regarding new additions.[/b][/center]\n<br />[center][b][font=Trebuchet MS][u][size=4]And edited [/size][color=#3d85c6][size=5]VR[/size][/color][size=4] sounds also included[/size][/u][size=4].[/size][/font][/b][/center]\n<br />[center][b][color=#ff0000][size=5]-[/size][/color][/b][/center]\n<br />[center][b][color=#ff0000][size=5][u][font=Arial Black]Fair warning[/font][/u] [/size][/color][size=4]:[/size][/b][size=4] [/size][/center]\n<br />[center][/center]\n<br />[center][size=4][u]If you have [b][color=#00ff00]any[/color][/b] medical ear conditions which can be affected by low frequency sounds,[/u][/size][/center]\n<br />[center][size=4][u][b][color=#ffff00]please[/color][/b] reduce[color=#ffff00][b][i] basses[/i][/b][/color] via your software/amplifier, before [color=#ffff00]using[/color] the mod[/u].[/size][/center]\n<br />[center][size=4]-[/size][/center]\n<br />[center][size=4]I had to cut &amp; lowering high frequencies at[/size][/center]\n<br />[center][i][size=4][b][color=#f9cb9c]600/400/200/100[/color][/b][/size][/i][size=4] [/size][i][size=4][color=#f9cb9c][b]Hz [/b][/color][/size][/i][size=4]- [/size][b][size=4][i][color=#ffe599]6/12/24 db[/color][/i][/size][/b][/center]\n<br />[center][size=4]to simulate the muffled sound effect.[/size][/center]\n<br />[center][size=4]-[/size][/center]\n<br />[center][size=4]And if you are using [b][i][color=#980000]Asus Sonic Studio III[/color][/i][/b][/size][/center]\n<br />[center]set '[i][color=#dd7e6b]Smart Volume[/color][/i]' to Soft/Balanced ([i][color=#f9cb9c]or better turn it off[/color][/i]), AND, disable '[color=#dd7e6b]Bass Boost[/color]'.[/center]\n<br />[center]Made the mod by using Windows 11 native sound without enchancements, and tested first with A.S.Studio III, and then with [b][i][color=#f9cb9c]Dolby Atmos[/color][/i][/b].[/center]\n<br />[center]Dolby Atmos works wonders with the edited sounds ([i][color=#f9cb9c]especially with headphones[/color][/i]), without bringing ear pain.[/center]\n<br />[center]-[/center]\n<br />[center]That's all, thanks for stopping by, and please Endorse the mod if you like it.[/center]\n<br />[center][/center]\n<br />[center]Nexus&gt;Paypal direct donations are not working for some reason for my PP account.\n<br />So, in case of any kind of donations, please use the direct PP button below.\n<br />Thank you.\n<br />\n<br />[url=https://paypal.me/theotsel][img]https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif[/img][/url] \n<br />\n<br />[/center]\n<br />",
+    "description": "[center][img]https://i.imgur.com/gtBvqef.png[/img] [/center]\n<br />[center]\n<br />[color=#ea9999]Check video for a quick comparison between NMS Default sounds &amp; No Man's Sound.[/color]\n<br />[i](And pardon my mistake for writing NMA instead of NMS at demonstration video[/i].)[/center]\n<br />[center][/center]\n<br />[center][b][color=#ea9999]Installation[/color][/b]:[/center]\n<br />[center]Vortex or Manually.[/center]\n<br />[center]If you used previously similar mod(s) that editing some of same files, please goto:[/center]\n<br />[center][/center]\n<br />[center]'[color=#ea9999]'&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries&#92;SETTINGS[/color]''[/center]\n<br />[center]delete '[b][i][color=#ffff00]GCMODSETTINGS[/color][/i][/b].MXML''[/center]\n<br />[center]and re-start the game to clear any traces of old/unused similar sound mods.[/center]\n<br />[center]([i][color=#dbb0a7]Basically, you should do this anytime after installing&gt;uninstalling any mod(s)[/color][/i].)\n<br />\n<br />And now few things to keep in mind:\n<br />This was a super tedious &amp; tiresome process, since i edited \n<br />[img]https://i.imgur.com/H5Bbt31.png[/img]\n<br />and choose only a selection of good sounds\n<br />[i][color=#93c47d] (the most played, ie, Ships, Weather effects, Jetpack, etc[/color][/i])\n<br />to include in NMS. [/center]\n<br />[center]Also added some [b][i][color=#f6b26b]Reverb[/color][/i][/b] as well, to provide a better acoustic ''experience'',[/center]\n<br />[center]and slightly lowered specific sounds, ie, [b][i][color=#ff7700]Explosions ([/color][color=#ffffff]and especially[/color][color=#00ffff] Jetpack[/color][color=#ff7700])[/color][/i][/b], to protect our precious body parts called Ears.\n<br />Pretty sure i forgot a lot of sounds ([i][color=#ea9999]i hope minor ones[/color][/i]), since as i said,\n<br />selecting one-by-one[color=#ea9999]&gt;[/color]editing[color=#ea9999]&gt;[/color]testing[color=#ea9999]&gt;[/color]editing again, etc, etc,  over [b][i][color=#ffe599]15K[/color][color=#ffe599] files[/color][/i][/b][color=#f4cccc], [/color]\n<br />was one-of-a-kind ongoing ([b][i][color=#cc0000]nightmarish[/color][/i][/b]) process.\n<br />So, i want to apologize in advance for any missing sounds, wrong sounds, quality ([i][color=#f9cb9c]wav&gt;wem[/color][/i]) and such.[/center]\n<br />[center]Hence the reason labeled it as ''[b][i][color=#f1c232]Experimental[/color][/i][/b]''.\n<br />Now, in case and you want to try [i][b][color=#f6b26b]No Man's Sound[/color][/b][/i], i suggest you to use quality vs/3d headphones ([i][color=#ea9999]not ear buds[/color][/i]),[/center]\n<br />[center]or, a good [b][color=#1e84cc]Surround[/color][/b] speaker system with a [b][color=#00ffff]subwoofer[/color][/b].[/center]\n<br />[center]Lot of sounds are muffled ([i][color=#cc4125]dampened[/color][/i]), especially [color=#ffff00]Ships[/color]/[color=#ffff00]Weather Effects[/color], and so on, to give a better feeling of the infinite space void.[/center]\n<br />[center]-[/center]\n<br />[center][b]It's compatible with every [color=#ffff00]Ui[/color][color=#f4cccc] / [/color][color=#ffff00]Voice[/color]-[color=#ffff00]over[/color] &amp; [color=#ffff00]music[/color] mods[/b][/center]\n<br />[center][b]until further notice regarding new additions.[/b][/center]\n<br />[center][b][font=Trebuchet MS][u][size=4]And edited [/size][color=#3d85c6][size=5]VR[/size][/color][size=4] sounds also included[/size][/u][size=4].[/size][/font][/b][/center]\n<br />[center][b][color=#ff0000][size=5]-[/size][/color][/b][/center]\n<br />[center][b][color=#ff0000][size=5][u][font=Arial Black]Fair warning[/font][/u] [/size][/color][size=4]:[/size][/b][size=4] [/size][/center]\n<br />[center][/center]\n<br />[center][size=4][u]If you have [b][color=#00ff00]any[/color][/b] medical ear conditions which can be affected by low frequency sounds,[/u][/size][/center]\n<br />[center][size=4][u][b][color=#ffff00]please[/color][/b] reduce[color=#ffff00][b][i] basses[/i][/b][/color] via your software/amplifier, before [color=#ffff00]using[/color] the mod[/u].[/size][/center]\n<br />[center][size=4]-[/size][/center]\n<br />[center][size=4]I had to cut &amp; lowering high frequencies at[/size][/center]\n<br />[center][i][size=4][b][color=#f9cb9c]600/400/200/100[/color][/b][/size][/i][size=4] [/size][i][size=4][color=#f9cb9c][b]Hz [/b][/color][/size][/i][size=4]- [/size][b][size=4][i][color=#ffe599]6/12/24 db[/color][/i][/size][/b][/center]\n<br />[center][size=4]to simulate the muffled sound effect.[/size][/center]\n<br />[center][size=4]-[/size][/center]\n<br />[center][size=4]And if you are using [b][i][color=#980000]Asus Sonic Studio III[/color][/i][/b][/size][/center]\n<br />[center]set '[i][color=#dd7e6b]Smart Volume[/color][/i]' to Soft/Balanced ([i][color=#f9cb9c]or better turn it off[/color][/i]), AND, disable '[color=#dd7e6b]Bass Boost[/color]'.[/center]\n<br />[center]Made the mod by using Windows 11 native sound without enchancements, and tested first with A.S.Studio III, and then with [b][i][color=#f9cb9c]Dolby Atmos[/color][/i][/b].[/center]\n<br />[center]Dolby Atmos works wonders with the edited sounds ([i][color=#f9cb9c]especially with headphones[/color][/i]), without bringing ear pain.[/center]\n<br />[center]-[/center]\n<br />[center]That's all, thanks for stopping by, and please Endorse the mod if you like it.[/center]\n<br />[center][/center]\n<br />[center]Nexus&gt;Paypal direct donations are not working for some reason for my PP account.\n<br />So, in case of any kind of donations, please use the direct PP button below.\n<br />Thank you.\n<br />\n<br />[url=https://paypal.me/theotsel][img]https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif[/img][/url]\n<br />\n<br />[/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -689865,7 +689999,7 @@
   },
   {
     "mod_id": 4609,
-    "name": "Snap Angles - Expanded Base and Corvette Building",
+    "name": "Snap Angles for Corvettes and Bases",
     "summary": "Angle your building pieces without losing snap. Hinge, lift and twist base parts and corvette modules in 15 or 5 degree steps while they stay snapped, or nudge them part of a step like glitch building. Plus a pattern key, adjustable snap range, chaining half stairs and a corvette camera. Other players see your builds without the mod.",
     "version": "1.3.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4609/4609-1790970788-651288868.jpg",
@@ -694029,12 +694163,12 @@
     "mod_id": 4643,
     "name": "NMS Shipwright",
     "summary": "NMS Shipwright is a free, open-source Windows tool for No Man's Sky. Design ships part by part with a live 3D preview Find a seed for your design, or locate that ship in a real system near you Put designs straight into your save (new ship or replace one you own) Recolour any ship with the game's real paint sets Skip quests you don't want to do.",
-    "version": "1.8.7",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4643/4643-1791474517-1666389282.jpg",
+    "version": "1.8.7.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4643/4643-1793263527-513062668.png",
     "author": "S-T-0-7",
-    "updated_timestamp": 1793204462,
+    "updated_timestamp": 1793265187,
     "created_timestamp": 1791476111,
-    "description": "[b]Description[/b]\n<br />\n<br />NMS Shipwright is a free, open-source Windows tool for No Man's Sky. Design a ship part by part, find a real seed that builds it, drop it into your save, recolour it, skip quests, and edit your save — all read from your own copy of the game, so a seed builds exactly the ship the game builds.\n<br />\n<br />[b]Installation instructions[/b]\n<br />[list=1]\n<br />[*]Download and run NMS Shipwright Setup.exe.[/*]\n<br />[*]Windows warns \"unknown publisher\" (not code-signed) — choose More info → Run anyway.[/*]\n<br />[*]Installs for your user only (no admin rights). On first run it finds your game automatically (Steam, GOG, or Microsoft Store).[/*]\n<br />[/list]Uninstall via Settings → Apps, or Uninstall.exe in the install folder.\n<br />\n<br />[b]Main features[/b]\n<br />[list]\n<br />[*]Design ships part by part with a live 3D preview[/*]\n<br />[*]Find a seed for your design, or locate that ship in a real system[/*]\n<br />[*]Put designs into your save — new ship or replacing one you own[/*]\n<br />[*]Recolour with the game's real paint sets[/*]\n<br />[*]Skip quests you don't want to do[/*]\n<br />[*]Save editor: inventories, ship stats, unlocks[/*]\n<br />[/list]Backs up your save first, refuses to run while the game is open, and doesn't mark your save as modded. No bundled game files, no network access.\n<br />\n<br />[b]Requirements[/b]\n<br />[list]\n<br />[*]Windows 10 or 11[/*]\n<br />[*]No Man's Sky installed (Steam, GOG,etc)[/*]\n<br />[*]Nothing else — no Python, no other mods, no game-file edits[/*]\n<br />[/list]\n<br />",
+    "description": "[b]Description[/b]\n<br />NMS Shipwright is a free, open-source tool for No Man’s Sky, on Windows and Linux. Design a ship part by part, find a real seed that builds it, drop it into your save, recolour it, skip quests, and edit your save — all read from your own copy of the game, so a seed builds exactly the ship the game builds.\n<br />[b]Installation instructions[/b]\n<br />[b]Windows[/b]\n<br />[list=1]\n<br />[*]Download and run \n<br />[code]NMS Shipwright Setup.exe[/code].[/*]\n<br />[*]Windows warns “unknown publisher” (not code-signed) — choose [b]More info → Run anyway[/b].[/*]\n<br />[*]Installs for your user only (no admin rights). On first run it finds your game automatically (Steam, GOG, or Microsoft Store).[/*]\n<br />[/list]Uninstall via Settings → Apps, or \n<br />[code]unins000.exe[/code]in the install folder.\n<br />[b]Linux[/b]\n<br />[list=1]\n<br />[*]Download \n<br />[code]NMS Shipwright 1.8.7 Linux.zip[/code]and unzip it.[/*]\n<br />[*][code]chmod +x NMS_Shipwright-x86_64.AppImage[/code]then run it. If you get a FUSE error, run it with \n<br />[code]--appimage-extract-and-run[/code].[/*]\n<br />[*]There’s no native window on Linux — it serves a local page and opens your browser. Close the terminal to stop it. Finds Steam and Proton installs automatically.[/*]\n<br />[/list][b]Main features[/b]\n<br />[list]\n<br />[*]Design ships part by part with a live 3D preview — park them or show them flying[/*]\n<br />[*]Find a seed for your design, on all your cores, with a live estimate of the wait[/*]\n<br />[*]Hunt a ship down in a real star system instead, if you’d rather fly to it[/*]\n<br />[*]Put designs into your save — new ship, or replacing one you own[/*]\n<br />[*]Recolour with the game’s real paints: every colour on screen at once, no paint sets to guess at[/*]\n<br />[*]Search interceptors by colour, including the pure-black ones that no paint can give you[/*]\n<br />[*]Skip quests you don’t want to do[/*]\n<br />[*]Save editor: inventories, ship stats, unlocks, multi-tools, freighters, frigates, companions[/*]\n<br />[/list]Backs up your save first, refuses to run while the game is open, and doesn’t mark your save as modded. No bundled game files, no network access.\n<br />[b]Requirements[/b]\n<br />[list]\n<br />[*]Windows 10 or 11, or Linux with glibc 2.35 or newer (Ubuntu 22.04 and later)[/*]\n<br />[*]No Man’s Sky installed (Steam, GOG, etc)[/*]\n<br />[*]Nothing else — no Python, no other mods, no game-file edits[/*]\n<br />[/list]\n<br />\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -694297,8 +694431,8 @@
         "file_id": 50072,
         "name": "NMS Shipwright Setup (Linux)",
         "version": "1.8.7",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 48026,
         "file_name": "NMS Shipwright Setup (Linux) 4643 1.8.7 2026-10-25T11-59Z gb4dJyobf.zip",
@@ -694322,9 +694456,9 @@
         "file_id": 50150,
         "name": "NMS Shipwright Setup (Windows)",
         "version": "1.8.7",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 23265,
         "file_name": "NMS Shipwright Setup (Windows) 4643 1.8.7 2026-10-28T16-21Z RH1TdJvVR.exe",
         "detected_file_extension": "exe",
@@ -694337,6 +694471,56 @@
         "size_in_bytes": 23823560,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/42/72/4f/42724fc4-4bc3-43a7-b1b3-c90f54ce34d8"
+      },
+      {
+        "id": [
+          50182,
+          1634
+        ],
+        "uid": 7017976611846,
+        "file_id": 50182,
+        "name": "NMS Shipwright Setup (Linux)",
+        "version": "1.8.7.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 48037,
+        "file_name": "NMS Shipwright Setup (Linux) 4643 1.8.7.1 2026-10-29T09-12Z KsnM3TtRS.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793265163,
+        "uploaded_time": "2026-10-29T09:12:43.000+00:00",
+        "mod_version": "1.8.7.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6ded0c5dd6f996ef166faf5fd320474f097dcc225dd2c7f057eb1b62a018375e",
+        "description": "",
+        "size_kb": 48037,
+        "size_in_bytes": 49190276,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/8d/d1/00/8dd100ee-f51c-44c5-bf3f-e005ad68e96a"
+      },
+      {
+        "id": [
+          50183,
+          1634
+        ],
+        "uid": 7017976611847,
+        "file_id": 50183,
+        "name": "NMS Shipwright Setup (Windows)",
+        "version": "1.8.7.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 23265,
+        "file_name": "NMS Shipwright Setup (Windows) 4643 1.8.7.1 2026-10-29T09-13Z hfsARgqF1.exe",
+        "detected_file_extension": "exe",
+        "uploaded_timestamp": 1793265187,
+        "uploaded_time": "2026-10-29T09:13:07.000+00:00",
+        "mod_version": "1.8.7.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/08c1ae2e88d27da2f424b274f453f630e495d5310ddabf92107c2f2335fc72aa",
+        "description": "",
+        "size_kb": 23265,
+        "size_in_bytes": 23823420,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/44/c1/a9/44c1a9de-da76-4b4c-862c-50b4f7df59ad"
       }
     ],
     "changelogs": {}
@@ -699029,12 +699213,12 @@
     "mod_id": 4694,
     "name": "Yellow Salvage Stations",
     "summary": "Reveal your secrets, o mysterious yellow machine!",
-    "version": "7.06",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4694/4694-1792755091-564063868.png",
+    "version": "7.10",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4694/4694-1793269168-858013986.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1792755557,
+    "updated_timestamp": 1793269349,
     "created_timestamp": 1792755557,
-    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />This mod adds the Multi-tool scrapping functionality to the yellow machines found on space stations, as well as some planetary structures (planetary archives, trading outposts, minor settlements).\n<br />\n<br />I never understood what was so special about the MT salvaging process that it was locked to Space Anomaly only, so I decided to copy this functionality and assign it to these (for-now) non-functional constructs. The mod doesn't affect the rewards players can get from scrapping their MTs or any other mechanics related to this process, it only allows to perform the same process in new locations.\n<br />\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />MODELS&#92;SPACE&#92;PROPS&#92;PACKAGELOCKER_DROPOFF.SCENE.MBIN\n<br />\n<br />+ 1 new entity MBIN file[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️ Full MBIN replacement\n<br />\n<br />This mod will conflict with any other mod affecting the same MBIN game files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory.\n<br />\n<br />Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
+    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />This mod adds the Multi-tool scrapping functionality to the yellow machines found on space stations, as well as some planetary structures (planetary archives, trading outposts, minor settlements).\n<br />\n<br />I never understood what was so special about the MT salvaging process that it was locked to Space Anomaly only, so I decided to copy this functionality and assign it to these (for-now) non-functional constructs. The mod doesn't affect the rewards players can get from scrapping their MTs or any other mechanics related to this process, it only allows to perform the same process in new locations.\n<br />\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />MODELS&#92;SPACE&#92;PROPS&#92;PACKAGELOCKER_DROPOFF.SCENE.MBIN\n<br />MODELS&#92;SPACE&#92;PROPS&#92;PACKAGELOCKER_DROPOFF_STATION.SCENE.MBIN\n<br />\n<br />+ 1 new entity MBIN file[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️ Full MBIN replacement\n<br />\n<br />This mod will conflict with any other mod affecting the same MBIN game files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory.\n<br />\n<br />Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -699047,8 +699231,8 @@
         "file_id": 50041,
         "name": "Yellow Salvage Stations",
         "version": "7.06",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": true,
         "size": 5,
         "file_name": "Yellow Salvage Stations 4694 7.06 2026-10-23T11-33Z rv2uEjpvc.zip",
@@ -699062,11 +699246,40 @@
         "size_in_bytes": 5807,
         "changelog_html": "initial release for game version 7.06 (Cosmos)",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/59/3d/21/593d21c4-0311-4dc8-a475-4ca32efa4837"
+      },
+      {
+        "id": [
+          50184,
+          1634
+        ],
+        "uid": 7017976611848,
+        "file_id": 50184,
+        "name": "Yellow Salvage Stations",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 5,
+        "file_name": "Yellow Salvage Stations 4694 7.10 2026-10-29T10-22Z IohEj95ie.zip",
+        "detected_file_extension": null,
+        "uploaded_timestamp": 1793269349,
+        "uploaded_time": "2026-10-29T10:22:29.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": null,
+        "description": "",
+        "size_kb": 5,
+        "size_in_bytes": 5943,
+        "changelog_html": "updated for game version 7.10 (Forsaken)\nmoved interaction point lower to prevent issue where players are not able to deposit packages due to collision with said point",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/bc/dd/86bcdd56-a948-4ce6-8308-d201282914bf"
       }
     ],
     "changelogs": {
       "7.06": [
         "initial release for game version 7.06 (Cosmos)"
+      ],
+      "7.10": [
+        "updated for game version 7.10 (Forsaken)",
+        "moved interaction point lower to prevent issue where players are not able to deposit packages due to collision with said point"
       ]
     }
   },
