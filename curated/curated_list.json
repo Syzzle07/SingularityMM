@@ -667710,7 +667710,7 @@
     "version": "2.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4351/4351-1785814372-1834913216.png",
     "author": "AldrichDDD",
-    "updated_timestamp": 1787119133,
+    "updated_timestamp": 1793336307,
     "created_timestamp": 1785814881,
     "description": "[code]\n<br />\n<br />What it does\n<br />\n<br />The predators that hunt you spawn one at a time in vanilla, and give up\n<br />as soon as they are wounded. This mod sends them in packs, lets them spot you sooner\n<br />and keeps them coming. Four presets, from a light nudge to hardcore.\n<br />\n<br />No new assets. It only retunes numbers the game already ships.\n<br />\n<br />How the game builds a hostile planet\n<br />\n<br />Two steps, and the mod only turns those two dials:\n<br />\n<br />\n<br />The planet rolls an archetype. One of them is DANGEROUS, and on a DANGEROUS\n<br />planet every ground species is drawn from the two player-predator tables — there\n<br />is no peaceful species left to roll. Vanilla gives that archetype roughly a 9%\n<br />share of planets.The spawn tables place the creatures. In the player-hunting tables vanilla\n<br />sets minimum and maximum group size to 1. They arrive alone by design, and no\n<br />amount of creature density changes that.\n<br />What gets more aggressive\n<br />\n<br />\n<br />Ground predators — the medium and large ones that hunt you. Packs, longer\n<br />sight, less retreating, and they lose interest later.Biological Horrors and their brood — Normal and up. They see further, hold\n<br />aggro longer, hatch closer together and hit harder.Sand worms — Normal and up. They hold until you are almost on top of them,\n<br />then erupt.Freighter and derelict nests — Hardcore only. They react to your torch and\n<br />to gunfire.Everything else on the ground — in numbers only: more fauna per km² and a\n<br />higher live-creature cap. Peaceful species stay peaceful.\n<br />Untouched: flying creatures, water creatures, Sentinels and anything in space.\n<br />\n<br />Pick ONE difficulty\n<br />\n<br />Install a single file. All four edit the same game files — installing two means\n<br />one silently overrides the other.\n<br />\n<br />1. Easy — vanilla with a nudge. It does not change which planets are\n<br />hostile. More fauna, predators in twos, spotted a little sooner, and they still back\n<br />off when wounded.\n<br />2. Normal — about one planet in four is hostile, and the Biological Horrors\n<br />start pulling their weight.\n<br />3. Hard — almost every planet, packs of 3-5, and they never run.\n<br />4. Hardcore — packs of 5-7, spotted at 80 m, chased to 150 m, and the nests\n<br />smell you coming.\n<br />\n<br />Too much? Say so\n<br />\n<br />2.1.0 tones down Easy and Normal. Easy no longer changes which planets are\n<br />hostile, so the planet your save sits on will not turn on you. Normal goes from half\n<br />the galaxy down to about one planet in four. Hard and Hardcore are untouched — if you\n<br />picked those, you asked for it.\n<br />\n<br />Balance is the hard part of a mod like this and I only get to play my own save.\n<br />If a preset feels overwhelming or plain unfair, post it in the Posts tab: which\n<br />preset, and what happened. That is exactly how 2.1.0 came about.\n<br />\n<br />What is in the download\n<br />\n<br />\n<br />HorribleTerror_Predators_&lt;tier&gt;&#92;   &lt;- the mod. This is what you install.\n<br />HorribleTerror_Predators_&lt;tier&gt;.pak   legacy single-file build (not needed on 6.x)\n<br />Source&#92;                               the .lua build script for THIS preset\n<br />README.txt                            install notes\n<br />Installation\n<br />\n<br />\n<br />Open one zip and take the folder HorribleTerror_Predators_&lt;tier&gt;&#92;Drop it into No Man's Sky&#92;GAMEDATA&#92;MODS&#92;You should end up with GAMEDATA&#92;MODS&#92;HorribleTerror_Predators_&lt;tier&gt;&#92;GLOBALS&#92;Restart the game — mods only load on startup\n<br />To switch difficulty, delete the old folder first, then extract the new one.\n<br />\n<br />Compatibility\n<br />\n<br />Shipped as partial EXML patches: it claims only the properties it changes, not the\n<br />whole file. Which files depends on the preset.\n<br />\n<br />\n<br />Easy touches 4:\n<br />  METADATA&#92;SIMULATION&#92;ECOSYSTEM&#92;CREATUREGENERATIONDATA.MBIN\n<br />  METADATA&#92;SIMULATION&#92;ECOSYSTEM&#92;GROUND&#92;GROUNDTABLEPLAYERPREDATORMED.MBIN\n<br />  METADATA&#92;SIMULATION&#92;ECOSYSTEM&#92;GROUND&#92;GROUNDTABLEPLAYERPREDATORLARGE.MBIN\n<br />  GLOBALS&#92;GCCREATUREGLOBALS.MBIN\n<br />\n<br />Normal and Hard add 2:\n<br />  METADATA&#92;SIMULATION&#92;ECOSYSTEM&#92;CREATUREDATATABLE.MBIN\n<br />  METADATA&#92;SIMULATION&#92;ECOSYSTEM&#92;CREATUREBEHAVIOURTREES.MBIN\n<br />\n<br />Hardcore adds 3 more:\n<br />  GLOBALS&#92;GCUIGLOBALS.GLOBAL.MBIN\n<br />  MODELS&#92;...&#92;INFESTATION&#92;LARGEPILLARSLIME&#92;ENTITIES&#92;LARGEPILLARSLIME.ENTITY.MBIN\n<br />  MODELS&#92;...&#92;INFESTATION&#92;MEDIUMHANGSLIME&#92;ENTITIES&#92;MEDIUMHANGSLIME.ENTITY.MBIN\n<br />Any mod touching a different part of those files should coexist. Incompatible with\n<br />anything else that edits creature spawn density, archetype weights or predator globals.\n<br />\n<br />Performance\n<br />\n<br />The only setting with a real cost is the creature cap (40 → 45/50/60/70). If your frame\n<br />rate drops, that is the one — step down a tier.\n<br />\n<br />Notes\n<br />\n<br />\n<br />Only planets with full life have ground fauna. That is vanilla, not the mod —\n<br />barren planets stay barren.Planets you have already visited may keep the archetype they were given. Warp\n<br />somewhere new to see the change.Vortex users: install one file through Vortex as usual. Remove any other tier\n<br />in Vortex first, or it will warn you about the file conflict.Built with AMUMSS and MBINCompiler.[/code]",
     "state": "normal",
@@ -667739,7 +667739,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/08/1c/e6/081ce6c9-555e-458a-ba86-d6a1282e0d6e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/08/1c/e6/081ce6c9-555e-458a-ba86-d6a1282e0d6e"
       },
       {
         "id": [
@@ -667764,7 +667764,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/d5/77/44/d57744ed-a09a-44ba-8a16-2c4762cad4cf.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/d5/77/44/d57744ed-a09a-44ba-8a16-2c4762cad4cf"
       },
       {
         "id": [
@@ -667789,7 +667789,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/f9/d4/3a/f9d43a40-2311-4e6d-82b3-db1a8504f408.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f9/d4/3a/f9d43a40-2311-4e6d-82b3-db1a8504f408"
       },
       {
         "id": [
@@ -667814,7 +667814,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/a4/d6/d8/a4d6d88f-339f-4363-9f7c-6eacb19f2613.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a4/d6/d8/a4d6d88f-339f-4363-9f7c-6eacb19f2613"
       },
       {
         "id": [
@@ -667839,7 +667839,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/d0/94/25/d09425c4-eea9-4f6b-aa20-2db96e9778ea.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/d0/94/25/d09425c4-eea9-4f6b-aa20-2db96e9778ea"
       },
       {
         "id": [
@@ -667864,7 +667864,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/ca/fc/e0/cafce0ca-3cb0-4fdf-938b-ffbe9d691c3f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ca/fc/e0/cafce0ca-3cb0-4fdf-938b-ffbe9d691c3f"
       },
       {
         "id": [
@@ -667889,7 +667889,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/6e/a7/2b/6ea72bb8-eb78-4888-8868-6bf79f26753e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6e/a7/2b/6ea72bb8-eb78-4888-8868-6bf79f26753e"
       },
       {
         "id": [
@@ -667914,7 +667914,7 @@
         "size_kb": 2,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/6d/10/58/6d105867-6a95-4a8b-83e5-bfc68a9d2dc3.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6d/10/58/6d105867-6a95-4a8b-83e5-bfc68a9d2dc3"
       },
       {
         "id": [
@@ -667939,7 +667939,7 @@
         "size_kb": 18,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/6d/64/90/6d6490a5-207d-4bd0-a0b0-b831311e4b61.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6d/64/90/6d6490a5-207d-4bd0-a0b0-b831311e4b61"
       },
       {
         "id": [
@@ -667964,7 +667964,7 @@
         "size_kb": 18,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/f3/e4/f0/f3e4f096-3fb9-4506-bc68-a8ee73d449d0.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f3/e4/f0/f3e4f096-3fb9-4506-bc68-a8ee73d449d0"
       },
       {
         "id": [
@@ -667989,7 +667989,7 @@
         "size_kb": 18,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/f2/63/e8/f263e8a0-5527-4871-bf65-2ddb87096e8c.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f2/63/e8/f263e8a0-5527-4871-bf65-2ddb87096e8c"
       },
       {
         "id": [
@@ -668014,7 +668014,7 @@
         "size_kb": 18,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/3c/1e/58/3c1e58fe-3c0d-4049-bcbd-5c0784e733a8.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/3c/1e/58/3c1e58fe-3c0d-4049-bcbd-5c0784e733a8"
       },
       {
         "id": [
@@ -668025,9 +668025,9 @@
         "file_id": 47762,
         "name": "More Aggresive Predators Hard V2.1.0",
         "version": "4",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 11,
         "file_name": "More Aggresive Predators Hard V2.1.0 4351 4 2026-08-19T05-57Z SxEYBfkpd.zip",
         "detected_file_extension": null,
@@ -668039,7 +668039,7 @@
         "size_kb": 11,
         "size_in_bytes": 12088,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/31/23/d7/3123d721-aa63-424a-9c13-ddbda948efa2.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/31/23/d7/3123d721-aa63-424a-9c13-ddbda948efa2"
       },
       {
         "id": [
@@ -668050,8 +668050,8 @@
         "file_id": 47763,
         "name": "More Aggresive Predators Normal V2.1.0",
         "version": "4",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 11,
         "file_name": "More Aggresive Predators Normal V2.1.0 4351 4 2026-08-19T05-58Z L5bXM34dB.zip",
@@ -668064,7 +668064,7 @@
         "size_kb": 11,
         "size_in_bytes": 11496,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/b1/00/88/b1008863-d559-4d1a-b555-f2d7a7dc9c92.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b1/00/88/b1008863-d559-4d1a-b555-f2d7a7dc9c92"
       },
       {
         "id": [
@@ -668075,8 +668075,8 @@
         "file_id": 47764,
         "name": "More Aggresive Predators easy V2.1.0",
         "version": "4",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 6,
         "file_name": "More Aggresive Predators easy V2.1.0 4351 4 2026-08-19T05-58Z KsnM3TaJ9.zip",
@@ -668089,7 +668089,7 @@
         "size_kb": 6,
         "size_in_bytes": 6682,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/0a/f2/3b/0af23b57-f4e7-495e-8f6c-feff31fa63cc.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0a/f2/3b/0af23b57-f4e7-495e-8f6c-feff31fa63cc"
       },
       {
         "id": [
@@ -668100,8 +668100,8 @@
         "file_id": 47765,
         "name": "More Aggresive Predators Hardcore V2.1.0",
         "version": "4",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 18,
         "file_name": "More Aggresive Predators Hardcore V2.1.0 4351 4 2026-08-19T05-58Z hfsARgnMz.zip",
@@ -668114,7 +668114,107 @@
         "size_kb": 18,
         "size_in_bytes": 19030,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4351/03/79/b8/0379b8fe-a178-4581-a9c0-46165cb60a3e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/03/79/b8/0379b8fe-a178-4581-a9c0-46165cb60a3e"
+      },
+      {
+        "id": [
+          50228,
+          1634
+        ],
+        "uid": 7017976611892,
+        "file_id": 50228,
+        "name": "More Aggresive Predators easy V2.1.0",
+        "version": "2.1.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 7,
+        "file_name": "More Aggresive Predators easy V2.1.0 4351 2.1.0 2026-10-30T04-57Z 8gT07OIX7.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793336275,
+        "uploaded_time": "2026-10-30T04:57:55.000+00:00",
+        "mod_version": "2.1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e48180e64b0d35cf66ad334dbb9692b10ac9c8690bd4d58036cdf0c93327dee9",
+        "description": "install only one",
+        "size_kb": 7,
+        "size_in_bytes": 7509,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4d/42/e6/4d42e62d-5a2e-4fc8-a57f-95398615b62d"
+      },
+      {
+        "id": [
+          50229,
+          1634
+        ],
+        "uid": 7017976611893,
+        "file_id": 50229,
+        "name": "More Aggresive Predators Normal V2.1.0",
+        "version": "2.1.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 26,
+        "file_name": "More Aggresive Predators Normal V2.1.0 4351 2.1.0 2026-10-30T04-58Z aCzNuEGv2.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793336286,
+        "uploaded_time": "2026-10-30T04:58:06.000+00:00",
+        "mod_version": "2.1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/96cadb106d5917d6fa2dc6572e80623c8eaca9a2d0d91b11ba073b043eaf8700",
+        "description": "",
+        "size_kb": 26,
+        "size_in_bytes": 27095,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c7/50/cf/c750cf4c-6bcd-4e42-812e-e8082c1b316d"
+      },
+      {
+        "id": [
+          50230,
+          1634
+        ],
+        "uid": 7017976611894,
+        "file_id": 50230,
+        "name": "More Aggresive Predators Hard V2.1.0",
+        "version": "2.1.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 26,
+        "file_name": "More Aggresive Predators Hard V2.1.0 4351 2.1.0 2026-10-30T04-58Z QR3q07rg1.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793336299,
+        "uploaded_time": "2026-10-30T04:58:19.000+00:00",
+        "mod_version": "2.1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d886520cad7976b672195eebb7a3e4c8ccf9d75436efaedc16c076ecdeaca06d",
+        "description": "install only one",
+        "size_kb": 26,
+        "size_in_bytes": 27359,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e8/36/d5/e836d56e-0901-4c17-9f19-9abb9e4fbbcc"
+      },
+      {
+        "id": [
+          50231,
+          1634
+        ],
+        "uid": 7017976611895,
+        "file_id": 50231,
+        "name": "More Aggresive Predators Hardcore V2.1.0",
+        "version": "2.1.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 40,
+        "file_name": "More Aggresive Predators Hardcore V2.1.0 4351 2.1.0 2026-10-30T04-58Z QR3q07rg7.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793336307,
+        "uploaded_time": "2026-10-30T04:58:27.000+00:00",
+        "mod_version": "2.1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e0cd46ae83fb0a1fe0f70cc8702ad56f43750aa51c5f0d099f9f2fddc32b04b7",
+        "description": "install only one",
+        "size_kb": 40,
+        "size_in_bytes": 41178,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b5/39/25/b53925b6-4ee7-4766-b89c-ccaa2d393861"
       }
     ],
     "changelogs": {}
@@ -671989,7 +672089,7 @@
     "version": "1.0.3",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4431/4431-1790312887-594954452.jpg",
     "author": "AldrichDDD",
-    "updated_timestamp": 1791009857,
+    "updated_timestamp": 1793336221,
     "created_timestamp": 1788683571,
     "description": "[size=5]Something lives here[/size]\n<br />\n<br />No Man's Sky already ships a horror game inside it. Almost nobody sees it.\n<br />\n<br />Biological horrors that spawn brood while they fight you, spit, pounce, and nest inside\n<br />abandoned freighters - all of it is in the game already, and all of it is locked behind a roll\n<br />you can miss for a hundred hours.\n<br />\n<br />[b]This mod does not invent monsters. It takes the horror you already paid for and puts it in\n<br />front of you.[/b]\n<br />\n<br />[size=5]The abandoned freighter finally bites back[/size]\n<br />\n<br />It was always the best horror location in the game - dark corridors, flesh on the walls, that\n<br />sound - and nothing ever happened in it.\n<br />\n<br />Now the nests wake to your torch and to your gunfire, and breaking one calls horrors down on\n<br />you. In a corridor. With nowhere to run.\n<br />\n<br />[size=5]Looting wakes them up[/size]\n<br />\n<br />Crack open a crate, pull a biome plant or dig up a fossil, and the game counts it the same as\n<br />robbing a horror egg. Most of the time nothing happens. Sometimes the ground answers. You keep\n<br />the loot either way - the question is whether you get to enjoy it.\n<br />\n<br />[size=5]Four gameplay files. Pick ONE.[/size]\n<br />\n<br />[b]They edit the same game files[/b] - installing two means one silently overrides the other,\n<br />and nothing tells you which won. To switch, delete the old folder first.\n<br />\n<br />[b]INFESTED[/b] - the full thing, the ceiling of the range.\n<br />Twenty times the horror eggs and the sand worm nests. Predators in packs of 5-7 that see you from\n<br />80 m and never flee. Twenty-four horrors on you at once, spawning brood mid-fight, pouncing from\n<br />three times the reach, spitting constantly. Freighter nests that wake to your torch. No warning markers on your HUD at all. Almost every planet rolls\n<br />hostile.\n<br />\n<br />[b]INFESTED - HARD[/b] - everything above it except the last four switches.\n<br />Twenty times the eggs and worms, packs of 3-5, they never flee, twelve horrors engaged and all\n<br />twelve hitting, 3-5 hits per flurry, pounce at 2.4x, spit with no wind-up, and no horror markers on the HUD. [b]No brood, no freighter nests, and predators still get a marker.[/b] Almost every\n<br />planet rolls hostile.\n<br />\n<br />[b]INFESTED - NORMAL[/b] - the middle, and the one to start with.\n<br />Five times the eggs and worms, three times the ground fauna, packs of 1-2, eight horrors on you\n<br />at once, pounce at 2.0x, and half the stalking time.\n<br />Roughly [b]one planet in four[/b] rolls hostile instead of one in eleven. HUD markers stay, freighter nests stay asleep, nothing spawns brood.\n<br />\n<br />[b]INFESTED - EASY[/b] - the same world, without the teeth.\n<br />Twice the eggs, twice the worm nests, twice the ground fauna, predators in twos instead of alone,\n<br />and they notice you a little sooner. That is the whole list: the horrors behave exactly as\n<br />vanilla, your HUD markers stay, and the freighter nests stay asleep.\n<br />\n<br />[b]Easy does NOT change which planets are hostile, and that is deliberate.[/b] That is not a\n<br />dial for how many dangerous creatures spawn - it decides whether an entire planet is a predator\n<br />world. The first release of my predator mod pushed it, and people loaded a save to find the\n<br />planet they were standing on had turned against them. Easy leaves it alone. [i]The world you are\n<br />already in stays the world you left.[/i] Normal moves it to about one planet in four; Hard and\n<br />Infested take it to nearly all of them, because that is what you asked for by picking them.\n<br />\n<br />[code]\n<br />                            Vanilla    Easy  Normal    Hard  Infested\n<br />------------------------------------------------------------------------\n<br />Horror eggs / worm nests        x1      x2      x5      x20        x20\n<br />Ground fauna per km2            x1      x2      x3      x20        x20\n<br />Hostile-planet chance            9%      9%      27%      99%        99%\n<br />Predator pack size              1/1    1/2      1/2      3/5        5/7\n<br />They spot you at                40m    45m      50m      60m        80m\n<br />They give up the chase at      80m    80m    100m    120m      150m\n<br />Max creatures loaded            40      45      50      60        70\n<br />Horror spots you at            60m    60m      65m      70m      120m\n<br />Flees at % health              40%    40%      25%      0%        0%\n<br />Horrors hitting you at once      2      2        8      12        24\n<br />Hits per flurry                2-4    2-4      2-4      3-5        4-8\n<br />Pounce reach                  x1.7    x1.7    x2.0    x2.4      x3.0\n<br />Vertical a pounce clears      0.3m    0.3m    0.5m    0.7m      1.0m\n<br />Spits with no wind-up            no      no      no      yes        yes\n<br />Stalking before it charges      4s      4s      2s    0.5s      none\n<br />Spawns brood mid-fight          no      no      no      no    yes, 5s\n<br />HUD warning markers            yes    yes      yes  no horror    none\n<br />Freighter nests wake up          no      no      no      no        yes\n<br />Looting calls horrors            no      no    1/20      1/7        1/3[/code]\n<br />[b]Either file CONTAINS \"More Aggressive Predators\".[/b] Install one of these or that one, never\n<br />both - they write the same files.\n<br />\n<br />[size=5]Four of them get a new face - optional[/size]\n<br />\n<br />Four creatures were rebuilt from scratch in Blender and grafted onto the skeletons the game\n<br />already animates. Each is a [b]separate optional download[/b]. Take as many as you like, or none.\n<br />\n<br />[list]\n<br />[*][b]Cry Wolf[/b] - the big horror that erupts out of the ground eggs and chases you across the\n<br />surface. Now a long-necked quadruped.[/*]\n<br />[*][b]Warrior Bug[/b] - the smaller brood it spawns while it fights you, the ones that pour out\n<br />around it. Now an armoured insect.[/*]\n<br />[*][b]Skull Crawler[/b] - the one that nests inside abandoned freighters, waiting in the dark\n<br />corridors. An original creature.[/*]\n<br />[*][b]Marker Egg[/b] - the eggs on infested planets, the ones that crack open and bring the\n<br />horrors down on you. Now a carved standing monolith.[/*]\n<br />[/list]\n<br />The models change [b]nothing[/b] about behaviour, spawn rates or damage - only how things look.\n<br />They stack with each other, with either gameplay file, and with other mods.\n<br />\n<br />[b]They are worth far more with a gameplay file installed.[/b] Horrors are rare in vanilla; the\n<br />gameplay file is what puts them in front of you. Models on their own can go a long time unseen.\n<br />\n<br />There is no all-in-one download on purpose: it would ship the same files twice, and a leftover\n<br />folder would silently override the new one.\n<br />\n<br />[size=5]This is a BETA - read this part[/size]\n<br />\n<br />[list]\n<br />[*][b]Too much? Not enough?[/b] Say which file you took and what you were doing when it went\n<br />wrong. That is what decides where the middle levels land.[/*]\n<br />[*][b]Normal and Hard are new in 0.9.2.[/b] They sit between Easy and the full file, and where\n<br />exactly they sit is the thing reports decide. Say which one you took.[/*]\n<br />[*][b]Horrors still break off and walk away[/b] - and it happens the moment they roar. The roar\n<br />is what spawns their brood, so the two are connected. Not solved yet; it is next.[/*]\n<br />[*][b]Cry Wolf and Warrior Bug have stiff legs.[/b] The lower leg follows the body instead of\n<br />planting on the ground. Being worked on.[/*]\n<br />[*][b]Cry Wolf is taller than what it replaces[/b], so it can clip into low scenery.[/*]\n<br />[*][b]Warrior Bug's skin reads flat[/b] under some lighting. More texture resolution did not fix\n<br />it, so it is a material problem and it is still open.[/*]\n<br />[*][b]The heavier files cost frames.[/b] Far more live creatures than vanilla, a lot of them\n<br />engaged at once, and brood spawning on top of that. If your frame rate drops, that is where it is\n<br />going - drop a level; Easy costs almost nothing by comparison.[/*]\n<br />[/list]\n<br />[b]Post problems in the Posts tab:[/b] what happened and where you were. Screenshots help more\n<br />than anything else.\n<br />\n<br />[size=5]Installation[/size]\n<br />\n<br />[list=1]\n<br />[*]Extract the folder inside each zip into\n<br />[code]No Man's Sky&#92;GAMEDATA&#92;MODS&#92;[/code][/*]\n<br />[*]Restart the game - mods only load on startup[/*]\n<br />[/list]\n<br />To uninstall, delete the folder. Never keep two versions of the same file - delete the old folder\n<br />first, do not extract alongside it.\n<br />\n<br />[size=5]Credits[/size]\n<br />\n<br />The base models are free to use, including commercially, under their Creative Commons licences.\n<br />Each is credited exactly as its licence requires:\n<br />\n<br />[list]\n<br />[*]\"Cry Wolf Game Character\" ([url=https://skfb.ly/6VFUz]link[/url]) by [b]SkinRender[/b],\n<br />licensed under [url=http://creativecommons.org/licenses/by/4.0/]CC BY 4.0[/url].[/*]\n<br />[*]\"Warrior bug from 'Starship Troopers'\" ([url=https://skfb.ly/o87nr]link[/url]) by\n<br />[b]wtf_fox[/b], licensed under [url=http://creativecommons.org/licenses/by/4.0/]CC BY 4.0[/url].[/*]\n<br />[*]\"Marker 1\" ([url=https://skfb.ly/6SzLo]link[/url]) by [b]username11420[/b], licensed under\n<br />[url=http://creativecommons.org/licenses/by-sa/4.0/]CC BY-SA 4.0[/url]. Because that licence is\n<br />ShareAlike, [b]the Marker Egg files stay under CC BY-SA 4.0[/b] - reuse and adapt them as long as\n<br />you credit and share alike.[/*]\n<br />[*]The Skull Crawler is an original model, not derived from anything.[/*]\n<br />[/list]\n<br />All four were remeshed, re-textured and re-rigged for No Man's Sky in Blender.\n<br />\n<br />No Man's Sky (c) Hello Games. Not affiliated with or endorsed by Hello Games, and no Hello Games\n<br />assets are redistributed - everything here is a new model, a new texture, or a changed value.\n<br />\n<br />[size=5]Tested on[/size]\n<br />\n<br />No Man's Sky 178763 / 7.5 Cosmos (Public branch). Infested, Hard and Normal 0.9.5,\n<br />Easy 0.6.4, models 0.1.0.",
     "state": "normal",
@@ -672018,7 +672118,7 @@
         "size_kb": 39,
         "size_in_bytes": 40415,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/c5/1a/66/c51a66ee-2027-4ff0-b6a8-d6b1f020d483.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c5/1a/66/c51a66ee-2027-4ff0-b6a8-d6b1f020d483"
       },
       {
         "id": [
@@ -672043,7 +672143,7 @@
         "size_kb": 9,
         "size_in_bytes": 9221,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/a4/74/5a/a4745ac7-59e6-418b-a5c9-bc57ccdd1f07.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a4/74/5a/a4745ac7-59e6-418b-a5c9-bc57ccdd1f07"
       },
       {
         "id": [
@@ -672068,7 +672168,7 @@
         "size_kb": 6283,
         "size_in_bytes": 6434591,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/de/2a/51/de2a5156-22b8-44f0-9387-479c3cbdd82c.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/de/2a/51/de2a5156-22b8-44f0-9387-479c3cbdd82c"
       },
       {
         "id": [
@@ -672093,7 +672193,7 @@
         "size_kb": 3438,
         "size_in_bytes": 3520587,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/ca/f7/a9/caf7a997-8715-4dce-9429-e5e2332abb02.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ca/f7/a9/caf7a997-8715-4dce-9429-e5e2332abb02"
       },
       {
         "id": [
@@ -672118,7 +672218,7 @@
         "size_kb": 6844,
         "size_in_bytes": 7008272,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/05/3a/fc/053afc74-c0db-48c4-8122-a05ce48d3a1f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/05/3a/fc/053afc74-c0db-48c4-8122-a05ce48d3a1f"
       },
       {
         "id": [
@@ -672143,7 +672243,7 @@
         "size_kb": 11625,
         "size_in_bytes": 11904935,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/7c/d1/4b/7cd14bab-38dc-4405-85d3-3426410ef508.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/7c/d1/4b/7cd14bab-38dc-4405-85d3-3426410ef508"
       },
       {
         "id": [
@@ -672168,7 +672268,7 @@
         "size_kb": 39,
         "size_in_bytes": 40415,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/e6/d3/2a/e6d32a48-530f-45de-9e39-2a5f65a5e95f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e6/d3/2a/e6d32a48-530f-45de-9e39-2a5f65a5e95f"
       },
       {
         "id": [
@@ -672193,7 +672293,7 @@
         "size_kb": 9,
         "size_in_bytes": 9221,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/fc/ff/c6/fcffc6a1-56ed-45e1-82e4-6c7cddc87deb.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/fc/ff/c6/fcffc6a1-56ed-45e1-82e4-6c7cddc87deb"
       },
       {
         "id": [
@@ -672218,7 +672318,7 @@
         "size_kb": 25,
         "size_in_bytes": 26504,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/4e/93/96/4e93968e-c53e-4060-a4e3-f5e65d64f862.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4e/93/96/4e93968e-c53e-4060-a4e3-f5e65d64f862"
       },
       {
         "id": [
@@ -672243,7 +672343,7 @@
         "size_kb": 25,
         "size_in_bytes": 26498,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/c4/6d/d7/c46dd71e-cbb9-4b3d-9d06-c82285453dfd.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c4/6d/d7/c46dd71e-cbb9-4b3d-9d06-c82285453dfd"
       },
       {
         "id": [
@@ -672268,7 +672368,7 @@
         "size_kb": 38,
         "size_in_bytes": 39140,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/5c/6e/e8/5c6ee8be-f004-48c5-8c5f-817942731873.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/5c/6e/e8/5c6ee8be-f004-48c5-8c5f-817942731873"
       },
       {
         "id": [
@@ -672293,7 +672393,7 @@
         "size_kb": 8,
         "size_in_bytes": 8417,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/0c/28/5c/0c285c71-88ed-403b-a8b1-8fc4cf11f5c4.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0c/28/5c/0c285c71-88ed-403b-a8b1-8fc4cf11f5c4"
       },
       {
         "id": [
@@ -672318,7 +672418,7 @@
         "size_kb": 38,
         "size_in_bytes": 39140,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/68/c9/15/68c915cb-6796-4c8c-8421-e4e073ca6513.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/68/c9/15/68c915cb-6796-4c8c-8421-e4e073ca6513"
       },
       {
         "id": [
@@ -672343,7 +672443,7 @@
         "size_kb": 965,
         "size_in_bytes": 988454,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/d3/71/e3/d371e34d-d83d-4911-8c6c-be43ab67c68a.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/d3/71/e3/d371e34d-d83d-4911-8c6c-be43ab67c68a"
       },
       {
         "id": [
@@ -672368,7 +672468,7 @@
         "size_kb": 11594,
         "size_in_bytes": 11872945,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/9f/8a/91/9f8a911f-5973-450e-88a8-11376ec73c70.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9f/8a/91/9f8a911f-5973-450e-88a8-11376ec73c70"
       },
       {
         "id": [
@@ -672393,7 +672493,7 @@
         "size_kb": 6792,
         "size_in_bytes": 6955509,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/0b/5a/18/0b5a1863-4e88-443b-8aa4-e9ff8d8714ce.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0b/5a/18/0b5a1863-4e88-443b-8aa4-e9ff8d8714ce"
       },
       {
         "id": [
@@ -672418,7 +672518,7 @@
         "size_kb": 3433,
         "size_in_bytes": 3515550,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/5a/fb/f4/5afbf4d6-0480-4dbd-a965-eb9649db1325.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/5a/fb/f4/5afbf4d6-0480-4dbd-a965-eb9649db1325"
       },
       {
         "id": [
@@ -672443,7 +672543,7 @@
         "size_kb": 6241,
         "size_in_bytes": 6391099,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/eb/28/72/eb2872a5-9df0-4d30-a1f5-7a5fcc0f18b0.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/eb/28/72/eb2872a5-9df0-4d30-a1f5-7a5fcc0f18b0"
       },
       {
         "id": [
@@ -672468,7 +672568,7 @@
         "size_kb": 6241,
         "size_in_bytes": 6391468,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/19/ae/e4/19aee4e7-ac79-4e8f-a82d-cdcd8c9aa825.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/19/ae/e4/19aee4e7-ac79-4e8f-a82d-cdcd8c9aa825"
       },
       {
         "id": [
@@ -672493,7 +672593,7 @@
         "size_kb": 3433,
         "size_in_bytes": 3515666,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/09/11/db/0911db6d-6f05-4a2f-be31-999cb923a988.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/09/11/db/0911db6d-6f05-4a2f-be31-999cb923a988"
       },
       {
         "id": [
@@ -672518,7 +672618,7 @@
         "size_kb": 6792,
         "size_in_bytes": 6955719,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/0d/80/fa/0d80fae9-a87e-4fa8-87cc-db570824e6e2.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0d/80/fa/0d80fae9-a87e-4fa8-87cc-db570824e6e2"
       },
       {
         "id": [
@@ -672543,7 +672643,7 @@
         "size_kb": 11594,
         "size_in_bytes": 11873066,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/a9/a4/47/a9a44705-4b76-4f58-b213-1a4f4db3ab88.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a9/a4/47/a9a44705-4b76-4f58-b213-1a4f4db3ab88"
       },
       {
         "id": [
@@ -672568,7 +672668,7 @@
         "size_kb": 965,
         "size_in_bytes": 988669,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/19/a3/4d/19a34de3-e737-4b80-a965-230cc95d9464.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/19/a3/4d/19a34de3-e737-4b80-a965-230cc95d9464"
       },
       {
         "id": [
@@ -672593,7 +672693,7 @@
         "size_kb": 10367,
         "size_in_bytes": 10616679,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/60/68/60/606860f8-ffc6-4446-b569-39f4fce4a872.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/60/68/60/606860f8-ffc6-4446-b569-39f4fce4a872"
       },
       {
         "id": [
@@ -672618,7 +672718,7 @@
         "size_kb": 28,
         "size_in_bytes": 29055,
         "changelog_html": "[b]0.9.3 - mining calls the horrors[/b]\n[list]\n[*]Breaking crystals or ferrite can now bring a wave down on you. Four objects carry it: the\nsmall crystal, the mountain shards, the large underwater crystal and the medium ferrite rock.\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own wanted-level hook, so it has no effect in Creative and it needs\non-foot combat enabled in your save settings.\n[*]Nothing else changed: no creature values, no spawn rates, no models. If a file behaved a\ncertain way in 0.9.2, it still does.\n[*][b]Infested - Hard[/b] ships as a main file from here on, alongside Infested and\nInfested - Normal.\n[/list]\n[b]0.9.2 - two more difficulty levels[/b]\n[list]\n[*][b]Infested - Normal[/b] and [b]Infested - Hard[/b] fill the gap between Easy and the full\nfile. Still one file at a time: they write the same things.\n[*]Normal: eggs and worms x5, ground fauna x3, about one planet in four hostile, eight horrors\non you at once, pounce reach 2.0x, half the stalking time. HUD markers stay, nothing spawns\nbrood, freighter nests stay asleep.\n[*]Hard: eggs and worms x20, packs of 3-5, predators never flee, twelve horrors engaged and all\ntwelve hitting, 3-5 hits per flurry, pounce reach 2.4x, spit with no wind-up, no horror markers.\n[*]Both got the levers that 0.7.0, 0.8.0 and 0.9.0 had only given the full file - longer\ninterest, waves that do not burn themselves out, every engaged horror actually attacking -\nscaled down and always below it.\n[*]The brood, the predator marker and the waking freighter nests stay exclusive to the full file.\n[*]Infested and Infested - Easy are unchanged: the 0.9.1 and 0.6.4 files are still the right ones.\n[/list]\n[b]0.9.1 - rebuilt for 7.0 Cosmos[/b]\nRebuilt against NMS 7.0 (build 178763) with MBINCompiler 7.00. No values changed - the 0.9.0\nfiles carried pre-7.0 templates and would not load.\n[b]0.9.0 - first public beta[/b]\n[list]\n[*]Two gameplay files: [b]Infested[/b], tuned at the hard end, and [b]Infested - Easy[/b], which\nadds creatures without touching how any of them behave. Install one.\n[*]Easy deliberately does not change which planets are hostile - the lesson from the first\nrelease of More Aggressive Predators.\n[*]More aggression levels are coming between the two, shaped by what gets reported here.\n[*]Four creature models as optional downloads: Cry Wolf, Warrior Bug, Skull Crawler and Marker\nEgg. They install side by side with each other and with either gameplay file.\n[*]Either gameplay file contains More Aggressive Predators. Do not run both.\n[*]Known issues are in the description and in the README inside each zip.\n[/list]\n[b]0.9.3 - mining calls the horrors[/b]\n[list]\n[*]Breaking crystals or ferrite can now bring a wave down on you. Four objects carry it: the\nsmall crystal, the mountain shards, the large underwater crystal and the medium ferrite rock.\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own wanted-level hook, so it has no effect in Creative and it needs\non-foot combat enabled in your save settings.\n[*]Nothing else changed: no creature values, no spawn rates, no models. If a file behaved a\ncertain way in 0.9.2, it still does.\n[*][b]Infested - Hard[/b] ships as a main file from here on, alongside Infested and\nInfested - Normal.\n[/list]\n[b]0.9.2 - two more difficulty levels[/b]\n[list]\n[*][b]Infested - Normal[/b] and [b]Infested - Hard[/b] fill the gap between Easy and the full\nfile. Still one file at a time: they write the same things.\n[*]Normal: eggs and worms x5, ground fauna x3, about one planet in four hostile, eight horrors\non you at once, pounce reach 2.0x, half the stalking time. HUD markers stay, nothing spawns\nbrood, freighter nests stay asleep.\n[*]Hard: eggs and worms x20, packs of 3-5, predators never flee, twelve horrors engaged and all\ntwelve hitting, 3-5 hits per flurry, pounce reach 2.4x, spit with no wind-up, no horror markers.\n[*]Both got the levers that 0.7.0, 0.8.0 and 0.9.0 had only given the full file - longer\ninterest, waves that do not burn themselves out, every engaged horror actually attacking -\nscaled down and always below it.\n[*]The brood, the predator marker and the waking freighter nests stay exclusive to the full file.\n[*]Infested and Infested - Easy are unchanged: the 0.9.1 and 0.6.4 files are still the right ones.\n[/list]\n[b]0.9.1 - rebuilt for 7.0 Cosmos[/b]\nRebuilt against NMS 7.0 (build 178763) with MBINCompiler 7.00. No values changed - the 0.9.0\nfiles carried pre-7.0 templates and would not load.\n[b]0.9.0 - first public beta[/b]\n[list]\n[*]Two gameplay files: [b]Infested[/b], tuned at the hard end, and [b]Infested - Easy[/b], which\nadds creatures without touching how any of them behave. Install one.\n[*]Easy deliberately does not change which planets are hostile - the lesson from the first\nrelease of More Aggressive Predators.\n[*]More aggression levels are coming between the two, shaped by what gets reported here.\n[*]Four creature models as optional downloads: Cry Wolf, Warrior Bug, Skull Crawler and Marker\nEgg. They install side by side with each other and with either gameplay file.\n[*]Either gameplay file contains More Aggressive Predators. Do not run both.\n[*]Known issues are in the description and in the README inside each zip.\n[/list]\n[b]0.9.3 - mining calls the horrors[/b]\n[list]\n[*]Breaking crystals or ferrite can now bring a wave down on you. Four objects carry it: the\nsmall crystal, the mountain shards, the large underwater crystal and the medium ferrite rock.\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own wanted-level hook, so it has no effect in Creative and it needs\non-foot combat enabled in your save settings.\n[*]Nothing else changed: no creature values, no spawn rates, no models. If a file behaved a\ncertain way in 0.9.2, it still does.\n[*][b]Infested - Hard[/b] ships as a main file from here on, alongside Infested and\nInfested - Normal.\n[/list]\n[b]0.9.2 - two more difficulty levels[/b]\n[list]\n[*][b]Infested - Normal[/b] and [b]Infested - Hard[/b] fill the gap between Easy and the full\nfile. Still one file at a time: they write the same things.\n[*]Normal: eggs and worms x5, ground fauna x3, about one planet in four hostile, eight horrors\non you at once, pounce reach 2.0x, half the stalking time. HUD markers stay, nothing spawns\nbrood, freighter nests stay asleep.\n[*]Hard: eggs and worms x20, packs of 3-5, predators never flee, twelve horrors engaged and all\ntwelve hitting, 3-5 hits per flurry, pounce reach 2.4x, spit with no wind-up, no horror markers.\n[*]Both got the levers that 0.7.0, 0.8.0 and 0.9.0 had only given the full file - longer\ninterest, waves that do not burn themselves out, every engaged horror actually attacking -\nscaled down and always below it.\n[*]The brood, the predator marker and the waking freighter nests stay exclusive to the full file.\n[*]Infested and Infested - Easy are unchanged: the 0.9.1 and 0.6.4 files are still the right ones.\n[/list]\n[b]0.9.1 - rebuilt for 7.0 Cosmos[/b]\nRebuilt against NMS 7.0 (build 178763) with MBINCompiler 7.00. No values changed - the 0.9.0\nfiles carried pre-7.0 templates and would not load.\n[b]0.9.0 - first public beta[/b]\n[list]\n[*]Two gameplay files: [b]Infested[/b], tuned at the hard end, and [b]Infested - Easy[/b], which\nadds creatures without touching how any of them behave. Install one.\n[*]Easy deliberately does not change which planets are hostile - the lesson from the first\nrelease of More Aggressive Predators.\n[*]More aggression levels are coming between the two, shaped by what gets reported here.\n[*]Four creature models as optional downloads: Cry Wolf, Warrior Bug, Skull Crawler and Marker\nEgg. They install side by side with each other and with either gameplay file.\n[*]Either gameplay file contains More Aggressive Predators. Do not run both.\n[*]Known issues are in the description and in the README inside each zip.\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/00/0c/9b/000c9b35-6a17-473b-865c-3c082521e027.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/00/0c/9b/000c9b35-6a17-473b-865c-3c082521e027"
       },
       {
         "id": [
@@ -672643,7 +672743,7 @@
         "size_kb": 28,
         "size_in_bytes": 29054,
         "changelog_html": "[b]0.9.3 - mining calls the horrors[/b]\n[list]\n[*]Breaking crystals or ferrite can now bring a wave down on you. Four objects carry it: the\nsmall crystal, the mountain shards, the large underwater crystal and the medium ferrite rock.\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own wanted-level hook, so it has no effect in Creative and it needs\non-foot combat enabled in your save settings.\n[*]Nothing else changed: no creature values, no spawn rates, no models. If a file behaved a\ncertain way in 0.9.2, it still does.\n[*][b]Infested - Hard[/b] ships as a main file from here on, alongside Infested and\nInfested - Normal.\n[/list]\n[b]0.9.2 - two more difficulty levels[/b]\n[list]\n[*][b]Infested - Normal[/b] and [b]Infested - Hard[/b] fill the gap between Easy and the full\nfile. Still one file at a time: they write the same things.\n[*]Normal: eggs and worms x5, ground fauna x3, about one planet in four hostile, eight horrors\non you at once, pounce reach 2.0x, half the stalking time. HUD markers stay, nothing spawns\nbrood, freighter nests stay asleep.\n[*]Hard: eggs and worms x20, packs of 3-5, predators never flee, twelve horrors engaged and all\ntwelve hitting, 3-5 hits per flurry, pounce reach 2.4x, spit with no wind-up, no horror markers.\n[*]Both got the levers that 0.7.0, 0.8.0 and 0.9.0 had only given the full file - longer\ninterest, waves that do not burn themselves out, every engaged horror actually attacking -\nscaled down and always below it.\n[*]The brood, the predator marker and the waking freighter nests stay exclusive to the full file.\n[*]Infested and Infested - Easy are unchanged: the 0.9.1 and 0.6.4 files are still the right ones.\n[/list]\n[b]0.9.1 - rebuilt for 7.0 Cosmos[/b]\nRebuilt against NMS 7.0 (build 178763) with MBINCompiler 7.00. No values changed - the 0.9.0\nfiles carried pre-7.0 templates and would not load.\n[b]0.9.0 - first public beta[/b]\n[list]\n[*]Two gameplay files: [b]Infested[/b], tuned at the hard end, and [b]Infested - Easy[/b], which\nadds creatures without touching how any of them behave. Install one.\n[*]Easy deliberately does not change which planets are hostile - the lesson from the first\nrelease of More Aggressive Predators.\n[*]More aggression levels are coming between the two, shaped by what gets reported here.\n[*]Four creature models as optional downloads: Cry Wolf, Warrior Bug, Skull Crawler and Marker\nEgg. They install side by side with each other and with either gameplay file.\n[*]Either gameplay file contains More Aggressive Predators. Do not run both.\n[*]Known issues are in the description and in the README inside each zip.\n[/list]\n[b]0.9.3 - mining calls the horrors[/b]\n[list]\n[*]Breaking crystals or ferrite can now bring a wave down on you. Four objects carry it: the\nsmall crystal, the mountain shards, the large underwater crystal and the medium ferrite rock.\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own wanted-level hook, so it has no effect in Creative and it needs\non-foot combat enabled in your save settings.\n[*]Nothing else changed: no creature values, no spawn rates, no models. If a file behaved a\ncertain way in 0.9.2, it still does.\n[*][b]Infested - Hard[/b] ships as a main file from here on, alongside Infested and\nInfested - Normal.\n[/list]\n[b]0.9.2 - two more difficulty levels[/b]\n[list]\n[*][b]Infested - Normal[/b] and [b]Infested - Hard[/b] fill the gap between Easy and the full\nfile. Still one file at a time: they write the same things.\n[*]Normal: eggs and worms x5, ground fauna x3, about one planet in four hostile, eight horrors\non you at once, pounce reach 2.0x, half the stalking time. HUD markers stay, nothing spawns\nbrood, freighter nests stay asleep.\n[*]Hard: eggs and worms x20, packs of 3-5, predators never flee, twelve horrors engaged and all\ntwelve hitting, 3-5 hits per flurry, pounce reach 2.4x, spit with no wind-up, no horror markers.\n[*]Both got the levers that 0.7.0, 0.8.0 and 0.9.0 had only given the full file - longer\ninterest, waves that do not burn themselves out, every engaged horror actually attacking -\nscaled down and always below it.\n[*]The brood, the predator marker and the waking freighter nests stay exclusive to the full file.\n[*]Infested and Infested - Easy are unchanged: the 0.9.1 and 0.6.4 files are still the right ones.\n[/list]\n[b]0.9.1 - rebuilt for 7.0 Cosmos[/b]\nRebuilt against NMS 7.0 (build 178763) with MBINCompiler 7.00. No values changed - the 0.9.0\nfiles carried pre-7.0 templates and would not load.\n[b]0.9.0 - first public beta[/b]\n[list]\n[*]Two gameplay files: [b]Infested[/b], tuned at the hard end, and [b]Infested - Easy[/b], which\nadds creatures without touching how any of them behave. Install one.\n[*]Easy deliberately does not change which planets are hostile - the lesson from the first\nrelease of More Aggressive Predators.\n[*]More aggression levels are coming between the two, shaped by what gets reported here.\n[*]Four creature models as optional downloads: Cry Wolf, Warrior Bug, Skull Crawler and Marker\nEgg. They install side by side with each other and with either gameplay file.\n[*]Either gameplay file contains More Aggressive Predators. Do not run both.\n[*]Known issues are in the description and in the README inside each zip.\n[/list]\n[b]0.9.3 - mining calls the horrors[/b]\n[list]\n[*]Breaking crystals or ferrite can now bring a wave down on you. Four objects carry it: the\nsmall crystal, the mountain shards, the large underwater crystal and the medium ferrite rock.\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own wanted-level hook, so it has no effect in Creative and it needs\non-foot combat enabled in your save settings.\n[*]Nothing else changed: no creature values, no spawn rates, no models. If a file behaved a\ncertain way in 0.9.2, it still does.\n[*][b]Infested - Hard[/b] ships as a main file from here on, alongside Infested and\nInfested - Normal.\n[/list]\n[b]0.9.2 - two more difficulty levels[/b]\n[list]\n[*][b]Infested - Normal[/b] and [b]Infested - Hard[/b] fill the gap between Easy and the full\nfile. Still one file at a time: they write the same things.\n[*]Normal: eggs and worms x5, ground fauna x3, about one planet in four hostile, eight horrors\non you at once, pounce reach 2.0x, half the stalking time. HUD markers stay, nothing spawns\nbrood, freighter nests stay asleep.\n[*]Hard: eggs and worms x20, packs of 3-5, predators never flee, twelve horrors engaged and all\ntwelve hitting, 3-5 hits per flurry, pounce reach 2.4x, spit with no wind-up, no horror markers.\n[*]Both got the levers that 0.7.0, 0.8.0 and 0.9.0 had only given the full file - longer\ninterest, waves that do not burn themselves out, every engaged horror actually attacking -\nscaled down and always below it.\n[*]The brood, the predator marker and the waking freighter nests stay exclusive to the full file.\n[*]Infested and Infested - Easy are unchanged: the 0.9.1 and 0.6.4 files are still the right ones.\n[/list]\n[b]0.9.1 - rebuilt for 7.0 Cosmos[/b]\nRebuilt against NMS 7.0 (build 178763) with MBINCompiler 7.00. No values changed - the 0.9.0\nfiles carried pre-7.0 templates and would not load.\n[b]0.9.0 - first public beta[/b]\n[list]\n[*]Two gameplay files: [b]Infested[/b], tuned at the hard end, and [b]Infested - Easy[/b], which\nadds creatures without touching how any of them behave. Install one.\n[*]Easy deliberately does not change which planets are hostile - the lesson from the first\nrelease of More Aggressive Predators.\n[*]More aggression levels are coming between the two, shaped by what gets reported here.\n[*]Four creature models as optional downloads: Cry Wolf, Warrior Bug, Skull Crawler and Marker\nEgg. They install side by side with each other and with either gameplay file.\n[*]Either gameplay file contains More Aggressive Predators. Do not run both.\n[*]Known issues are in the description and in the README inside each zip.\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/bb/9e/e2/bb9ee2fa-9ecf-4cdc-9b9e-175b6311bbe0.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/bb/9e/e2/bb9ee2fa-9ecf-4cdc-9b9e-175b6311bbe0"
       },
       {
         "id": [
@@ -672668,7 +672768,7 @@
         "size_kb": 40,
         "size_in_bytes": 41678,
         "changelog_html": "[b]0.9.3 - mining calls the horrors[/b]\n[list]\n[*]Breaking crystals or ferrite can now bring a wave down on you. Four objects carry it: the\nsmall crystal, the mountain shards, the large underwater crystal and the medium ferrite rock.\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own wanted-level hook, so it has no effect in Creative and it needs\non-foot combat enabled in your save settings.\n[*]Nothing else changed: no creature values, no spawn rates, no models. If a file behaved a\ncertain way in 0.9.2, it still does.\n[*][b]Infested - Hard[/b] ships as a main file from here on, alongside Infested and\nInfested - Normal.\n[/list]\n[b]0.9.2 - two more difficulty levels[/b]\n[list]\n[*][b]Infested - Normal[/b] and [b]Infested - Hard[/b] fill the gap between Easy and the full\nfile. Still one file at a time: they write the same things.\n[*]Normal: eggs and worms x5, ground fauna x3, about one planet in four hostile, eight horrors\non you at once, pounce reach 2.0x, half the stalking time. HUD markers stay, nothing spawns\nbrood, freighter nests stay asleep.\n[*]Hard: eggs and worms x20, packs of 3-5, predators never flee, twelve horrors engaged and all\ntwelve hitting, 3-5 hits per flurry, pounce reach 2.4x, spit with no wind-up, no horror markers.\n[*]Both got the levers that 0.7.0, 0.8.0 and 0.9.0 had only given the full file - longer\ninterest, waves that do not burn themselves out, every engaged horror actually attacking -\nscaled down and always below it.\n[*]The brood, the predator marker and the waking freighter nests stay exclusive to the full file.\n[*]Infested and Infested - Easy are unchanged: the 0.9.1 and 0.6.4 files are still the right ones.\n[/list]\n[b]0.9.1 - rebuilt for 7.0 Cosmos[/b]\nRebuilt against NMS 7.0 (build 178763) with MBINCompiler 7.00. No values changed - the 0.9.0\nfiles carried pre-7.0 templates and would not load.\n[b]0.9.0 - first public beta[/b]\n[list]\n[*]Two gameplay files: [b]Infested[/b], tuned at the hard end, and [b]Infested - Easy[/b], which\nadds creatures without touching how any of them behave. Install one.\n[*]Easy deliberately does not change which planets are hostile - the lesson from the first\nrelease of More Aggressive Predators.\n[*]More aggression levels are coming between the two, shaped by what gets reported here.\n[*]Four creature models as optional downloads: Cry Wolf, Warrior Bug, Skull Crawler and Marker\nEgg. They install side by side with each other and with either gameplay file.\n[*]Either gameplay file contains More Aggressive Predators. Do not run both.\n[*]Known issues are in the description and in the README inside each zip.\n[/list]\n[b]0.9.3 - mining calls the horrors[/b]\n[list]\n[*]Breaking crystals or ferrite can now bring a wave down on you. Four objects carry it: the\nsmall crystal, the mountain shards, the large underwater crystal and the medium ferrite rock.\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own wanted-level hook, so it has no effect in Creative and it needs\non-foot combat enabled in your save settings.\n[*]Nothing else changed: no creature values, no spawn rates, no models. If a file behaved a\ncertain way in 0.9.2, it still does.\n[*][b]Infested - Hard[/b] ships as a main file from here on, alongside Infested and\nInfested - Normal.\n[/list]\n[b]0.9.2 - two more difficulty levels[/b]\n[list]\n[*][b]Infested - Normal[/b] and [b]Infested - Hard[/b] fill the gap between Easy and the full\nfile. Still one file at a time: they write the same things.\n[*]Normal: eggs and worms x5, ground fauna x3, about one planet in four hostile, eight horrors\non you at once, pounce reach 2.0x, half the stalking time. HUD markers stay, nothing spawns\nbrood, freighter nests stay asleep.\n[*]Hard: eggs and worms x20, packs of 3-5, predators never flee, twelve horrors engaged and all\ntwelve hitting, 3-5 hits per flurry, pounce reach 2.4x, spit with no wind-up, no horror markers.\n[*]Both got the levers that 0.7.0, 0.8.0 and 0.9.0 had only given the full file - longer\ninterest, waves that do not burn themselves out, every engaged horror actually attacking -\nscaled down and always below it.\n[*]The brood, the predator marker and the waking freighter nests stay exclusive to the full file.\n[*]Infested and Infested - Easy are unchanged: the 0.9.1 and 0.6.4 files are still the right ones.\n[/list]\n[b]0.9.1 - rebuilt for 7.0 Cosmos[/b]\nRebuilt against NMS 7.0 (build 178763) with MBINCompiler 7.00. No values changed - the 0.9.0\nfiles carried pre-7.0 templates and would not load.\n[b]0.9.0 - first public beta[/b]\n[list]\n[*]Two gameplay files: [b]Infested[/b], tuned at the hard end, and [b]Infested - Easy[/b], which\nadds creatures without touching how any of them behave. Install one.\n[*]Easy deliberately does not change which planets are hostile - the lesson from the first\nrelease of More Aggressive Predators.\n[*]More aggression levels are coming between the two, shaped by what gets reported here.\n[*]Four creature models as optional downloads: Cry Wolf, Warrior Bug, Skull Crawler and Marker\nEgg. They install side by side with each other and with either gameplay file.\n[*]Either gameplay file contains More Aggressive Predators. Do not run both.\n[*]Known issues are in the description and in the README inside each zip.\n[/list]\n[b]0.9.3 - mining calls the horrors[/b]\n[list]\n[*]Breaking crystals or ferrite can now bring a wave down on you. Four objects carry it: the\nsmall crystal, the mountain shards, the large underwater crystal and the medium ferrite rock.\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own wanted-level hook, so it has no effect in Creative and it needs\non-foot combat enabled in your save settings.\n[*]Nothing else changed: no creature values, no spawn rates, no models. If a file behaved a\ncertain way in 0.9.2, it still does.\n[*][b]Infested - Hard[/b] ships as a main file from here on, alongside Infested and\nInfested - Normal.\n[/list]\n[b]0.9.2 - two more difficulty levels[/b]\n[list]\n[*][b]Infested - Normal[/b] and [b]Infested - Hard[/b] fill the gap between Easy and the full\nfile. Still one file at a time: they write the same things.\n[*]Normal: eggs and worms x5, ground fauna x3, about one planet in four hostile, eight horrors\non you at once, pounce reach 2.0x, half the stalking time. HUD markers stay, nothing spawns\nbrood, freighter nests stay asleep.\n[*]Hard: eggs and worms x20, packs of 3-5, predators never flee, twelve horrors engaged and all\ntwelve hitting, 3-5 hits per flurry, pounce reach 2.4x, spit with no wind-up, no horror markers.\n[*]Both got the levers that 0.7.0, 0.8.0 and 0.9.0 had only given the full file - longer\ninterest, waves that do not burn themselves out, every engaged horror actually attacking -\nscaled down and always below it.\n[*]The brood, the predator marker and the waking freighter nests stay exclusive to the full file.\n[*]Infested and Infested - Easy are unchanged: the 0.9.1 and 0.6.4 files are still the right ones.\n[/list]\n[b]0.9.1 - rebuilt for 7.0 Cosmos[/b]\nRebuilt against NMS 7.0 (build 178763) with MBINCompiler 7.00. No values changed - the 0.9.0\nfiles carried pre-7.0 templates and would not load.\n[b]0.9.0 - first public beta[/b]\n[list]\n[*]Two gameplay files: [b]Infested[/b], tuned at the hard end, and [b]Infested - Easy[/b], which\nadds creatures without touching how any of them behave. Install one.\n[*]Easy deliberately does not change which planets are hostile - the lesson from the first\nrelease of More Aggressive Predators.\n[*]More aggression levels are coming between the two, shaped by what gets reported here.\n[*]Four creature models as optional downloads: Cry Wolf, Warrior Bug, Skull Crawler and Marker\nEgg. They install side by side with each other and with either gameplay file.\n[*]Either gameplay file contains More Aggressive Predators. Do not run both.\n[*]Known issues are in the description and in the README inside each zip.\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/52/f3/8e/52f38ef7-8ed9-4302-8107-3ee1f092b57d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/52/f3/8e/52f38ef7-8ed9-4302-8107-3ee1f092b57d"
       },
       {
         "id": [
@@ -672693,7 +672793,7 @@
         "size_kb": 25,
         "size_in_bytes": 26499,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/35/05/86/3505867b-f436-4a39-83a6-35521537af30.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/35/05/86/3505867b-f436-4a39-83a6-35521537af30"
       },
       {
         "id": [
@@ -672718,7 +672818,7 @@
         "size_kb": 25,
         "size_in_bytes": 26506,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/4f/d2/4a/4fd24a6c-c47d-4a2d-9323-0f283395cbe6.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4f/d2/4a/4fd24a6c-c47d-4a2d-9323-0f283395cbe6"
       },
       {
         "id": [
@@ -672743,7 +672843,7 @@
         "size_kb": 38,
         "size_in_bytes": 39169,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/a9/34/f8/a934f8c8-2a10-4f79-ae1e-89d7730ff55b.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a9/34/f8/a934f8c8-2a10-4f79-ae1e-89d7730ff55b"
       },
       {
         "id": [
@@ -672768,7 +672868,7 @@
         "size_kb": 35,
         "size_in_bytes": 36830,
         "changelog_html": "[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]\n[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]\n[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/e0/13/e2/e013e2f5-93c6-4423-86b7-f84c3fcec545.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e0/13/e2/e013e2f5-93c6-4423-86b7-f84c3fcec545"
       },
       {
         "id": [
@@ -672779,8 +672879,8 @@
         "file_id": 49479,
         "name": "InfestedNormal V0.9.5",
         "version": "0.9.5",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 35,
         "file_name": "InfestedNormal V0.9.5 4431 0.9.5 2026-10-03T06-43Z 58qnW1tF5.zip",
@@ -672793,7 +672893,7 @@
         "size_kb": 35,
         "size_in_bytes": 36830,
         "changelog_html": "[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]\n[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]\n[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/ab/c2/8e/abc28ecd-bdca-4088-9103-624455684d7a.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ab/c2/8e/abc28ecd-bdca-4088-9103-624455684d7a"
       },
       {
         "id": [
@@ -672804,8 +672904,8 @@
         "file_id": 49480,
         "name": "InfestedHard V0.9.5",
         "version": "0.9.5",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 35,
         "file_name": "InfestedHard V0.9.5 4431 0.9.5 2026-10-03T06-43Z MWrySmNgq.zip",
@@ -672818,7 +672918,7 @@
         "size_kb": 35,
         "size_in_bytes": 36797,
         "changelog_html": "[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]\n[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]\n[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/19/96/6e/19966e48-1736-48a3-857e-7f8794156cf2.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/19/96/6e/19966e48-1736-48a3-857e-7f8794156cf2"
       },
       {
         "id": [
@@ -672829,9 +672929,9 @@
         "file_id": 49481,
         "name": "Infested Hardcore V0.9.5",
         "version": "0.9.5",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 48,
         "file_name": "Infested Hardcore V0.9.5 4431 0.9.5 2026-10-03T06-44Z pQZbnWOf5.zip",
         "detected_file_extension": "zip",
@@ -672843,7 +672943,82 @@
         "size_kb": 48,
         "size_in_bytes": 49346,
         "changelog_html": "[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]\n[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]\n[b]0.9.5 - looting calls the horrors[/b]\n[list]\n[*]Opening crates, picking biome plants and digging up fossils now counts as robbing a horror\negg. 13 objects: the three crates, the six biome plants and the four fossils. [b]You keep the\nloot.[/b]\n[*]The odds scale with the file you installed: [b]Normal 1 in 20[/b] (0.05),\n[b]Hard about 1 in 7[/b] (0.15), [b]Infested 1 in 3[/b] (0.35). Easy does not get it.\n[*]It uses the game's own pickup hook, not the mining one from 0.9.3. No effect in Creative,\nand it needs on-foot combat enabled in your save settings.\n[*]Inspired by [url=https://www.nexusmods.com/nomanssky/mods/911]Jaros Fiends[/url] by\nJJHookah - different trigger, different mechanism.\n[*]Rebuilt against the 30/09 game patch. Nothing else changed. [b]Delete the 0.9.4 folder\nbefore extracting 0.9.5.[/b]\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4431/31/11/d2/3111d2bd-cb49-4d7d-8433-9c49fd9ec979.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/31/11/d2/3111d2bd-cb49-4d7d-8433-9c49fd9ec979"
+      },
+      {
+        "id": [
+          50225,
+          1634
+        ],
+        "uid": 7017976611889,
+        "file_id": 50225,
+        "name": "InfestedNormal V0.9.6",
+        "version": "0.9.6",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 36,
+        "file_name": "InfestedNormal V0.9.6 4431 0.9.6 2026-10-30T04-56Z pQZbnWJ8b.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793336201,
+        "uploaded_time": "2026-10-30T04:56:41.000+00:00",
+        "mod_version": "0.9.6",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5416f8005244daf4427e4241dd695a6e85707d2dd0a2f5e02e7074accf90cc48",
+        "description": "",
+        "size_kb": 36,
+        "size_in_bytes": 36990,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/83/9d/f2/839df2c9-a3cb-4364-b09e-0eea1ada421a"
+      },
+      {
+        "id": [
+          50226,
+          1634
+        ],
+        "uid": 7017976611890,
+        "file_id": 50226,
+        "name": "InfestedHard V0.9.6",
+        "version": "0.9.6",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 36,
+        "file_name": "InfestedHard V0.9.6 4431 0.9.6 2026-10-30T04-56Z s60W14SV0.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793336211,
+        "uploaded_time": "2026-10-30T04:56:51.000+00:00",
+        "mod_version": "0.9.6",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/40a624d56497c2025eb381e22bf94737241e2178db65b79376cef1feef3eff19",
+        "description": "",
+        "size_kb": 36,
+        "size_in_bytes": 36953,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/bf/6c/12/bf6c1258-ef77-4a8a-9b9a-3fd3fd125e49"
+      },
+      {
+        "id": [
+          50227,
+          1634
+        ],
+        "uid": 7017976611891,
+        "file_id": 50227,
+        "name": "Infested Hardcore V0.9.6",
+        "version": "0.9.6",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 48,
+        "file_name": "Infested Hardcore V0.9.6 4431 0.9.6 2026-10-30T04-57Z rv2uEjpoY.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793336220,
+        "uploaded_time": "2026-10-30T04:57:00.000+00:00",
+        "mod_version": "0.9.6",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2d645a1b1391489f56624482e6b5a05f3b79edbf6babec29b3d2db01b230c23c",
+        "description": "This is the main version , the HARDCORE version, Either file CONTAINS \"More Aggressive Predators\". Install one of these or that one, never<br />both - they write the same files.",
+        "size_kb": 48,
+        "size_in_bytes": 49840,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c0/84/a0/c084a06c-9b98-47f2-b3ce-2ab8f8aa731d"
       }
     ],
     "changelogs": {
@@ -690657,10 +690832,10 @@
     "mod_id": 4611,
     "name": "NMS Easy Save Editor and Painter",
     "summary": "A friendly save editor and painter for No Man's Sky. Recolour ships, freighters and multi-tools, max out inventories, upgrade class, enlarge storage, export and import ships and cargo, drag items between saves, pool corvette parts, learn any blueprint, unlock Expedition and Twitch rewards, tick off quests or start story-complete. Always backed up.",
-    "version": "1.49.2",
+    "version": "1.49.3",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4611/4611-1791303086-505924216.jpg",
     "author": "FarmerLee73",
-    "updated_timestamp": 1792898041,
+    "updated_timestamp": 1793330139,
     "created_timestamp": 1791012372,
     "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]NMS Easy Save Editor &amp; Painter is a small Windows app for the save edits most people actually want, without having to deal with raw save data. Pick your save, click what you want changed, review the list, and save.\n<br />\n<br />Safety comes first. Nothing is written until you press Review &amp; save, and your save is backed up before every change. After saving, the editor checks that only the things you asked for changed and reads each file back to confirm it landed. It won't save while the game is running, because the game would overwrite your changes.\n<br />\n<br />The editor finds your Steam and Microsoft Store / Xbox PC saves by itself, and shows each one with its name, when it was last saved and how long you've played.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]1. Unzip anywhere you like.\n<br />2. Close No Man's Sky, then run NMSEasySaveEditor.exe.\n<br />3. Backups and exports are kept in folders next to the app. To uninstall, delete the folder.\n<br />\n<br />Windows 11 with Smart App Control switched on may block the editor, because Smart App Control only allows programs that are digitally signed, and small free mods like this one usually aren't. It isn't a virus - Microsoft Defender, the other big antivirus programs and Nexus's own scan all pass it as clean.[/color]\n<br />\n<br />[color=#D4D4D8]HOW TO MAKE A STORY-COMPLETE FRESH START\n<br />1. Start a new game in No Man's Sky.\n<br />2. Play a couple of minutes until the saving icon appears in the corner. Walking around near your crashed ship is enough.\n<br />3. Quit to the main menu and close the game.\n<br />4. Open the editor, pick that save, go to Missions and press Complete the story.\n<br />5. Choose your Atlas ending, confirm, and load the save in the game.\n<br />Played further before doing this? That's fine — nothing you've already done is undone.[/color]\n<br />\n<br />[size=4][b]Gather (new in 1.49)[/b][/size]\n<br />[b]Inventory Manager &gt; open an item &gt; Gather:[/b] bring an item together in one place. While you play, pick a place under \"Gather all of it into\" and press Gather - it moves from every other place straight away. With the game closed, \"Gather all of it into one place...\" ticks every place it's in; pick where it goes, then Review &amp; move. If that place fills up, the rest stays where it was. Thanks to Br0stradamus and BiNaRyFrEaKk.\n<br />\n<br />[size=4][b]Add corvette parts (new in 1.48)[/b][/size]\n<br />[b]Tools tab &gt; Add corvette parts:[/b] a list of the corvette parts the game sells. Tick the ones you want, type how many of each, then press Add. They go into your corvette parts store (where the game keeps parts for the corvette builder), never your exosuit. Each kind of part takes one free square: the counter at the top shows how many are free, and Add stays off if they won't all fit. Your save is backed up first. Thanks to sludgypudge3505 for the idea.\n<br />\n<br />[size=4][b]Locked tech and A Trace of Metal (new in 1.47)[/b][/size]\n<br />[b]Locked tech:[/b] on the Multi-Tools tab, the \"Locked tech\" box lists the technology the game won't let you remove - the Mining Beam (and the Sentinel and Atlas versions). Tick Remove and save to free the slot. Removing one is for good: you can only fit it again in the game if you know its blueprint. Thanks to ArchangelLegion. (1.47.1: corvettes are no longer offered - we tested it, and the game puts a corvette's Photon Cannon back every time it loads.)\n<br />[b]A Trace of Metal:[/b] the Sentinel drone story can now be finished on the Missions tab (Side stories) once you own a settlement. It gives the Sentinel Flare that calls your drone, the Hardframe Minotaur parts, the Minotaur AI Pilot, the Paralysis Mortar and the Minotaur Geobay blueprint. Settlement decisions from the story are left to you. Thanks to philomelus.\n<br />\n<br />[size=4][b]Remove this base (new in 1.46)[/b][/size]\n<br />[i](Lightly tested)[/i] On the Tools tab, open Repaint a base, pick a base and press [b]Remove this base...[/b] to take it and all its parts out of the save - for example a broken copy that still shows in your base list but isn't really there. Your save is backed up first, as always. If it had a teleporter, remove its teleport afterwards with Leftover base teleports. Thanks to Kailuah.\n<br />\n<br />[size=4][b]Compare, Repaint a base and Leftover base teleports (new in 1.45)[/b][/size]\n<br />[list]\n<br />[*][b]Compare[/b] - Tools tab: put up to 4 starships, corvettes or multi-tools side by side - type, class, slots, supercharged slots, fitted tech and base stats. The best in each row is shown in green. Read only.[/*]\n<br />[*][b]Repaint a base[/b] [i](lightly tested)[/i] - Tools tab: repaint a whole planet base in one go - every wooden, stone or metal part, or every part of one colour. Only the colours the game offers for each kind of part. Base builders, please tell me how it goes.[/*]\n<br />[*][b]Leftover base teleports[/b] [i](lightly tested)[/i] - when you delete a base, the game keeps its teleport destination, so it can still show in the teleporter list. This lists only teleports of bases that no longer exist; tick the ones to remove. Stations, your freighter, settlements and other players' bases are never touched. Thanks to Kailuah for the report.[/*]\n<br />[*][b]Fixed:[/b] living ships were labelled as Exotic in the Starships list. Thanks to Ratara.[/*]\n<br />[/list][size=4][b]What changed? (new in 1.44)[/b][/size]\n<br />A new card on the Tools tab. Pick one of the open save's backups and see, in plain words, what is different between then and now - money, ships, multi-tools and every item that went up or down. Handy for checking what a play session (or an edit) really changed. Read only: it never changes anything.\n<br />\n<br />[size=4][b]Space battle on next warp (new in 1.43)[/b][/size]\n<br />Under the money bar: makes a space battle due, so the next time you warp you arrive in one - usually pirates attacking a freighter, sometimes a pirate dreadnought. The save needs at least 3 hours of play in total, so a brand-new save has to wait a while (the button tells you how long).\n<br />Also fixed: Twitch rewards unlocked with the editor could vanish when Steam went back online. Thanks to Shaidon7 and Snipx96 for the reports - if yours vanished, unlock them again with 1.43.\n<br />\n<br />[size=4][b]Delete, Places, Add item and tutorial missions (new in 1.42)[/b][/size]\n<br />[list]\n<br />[*][b]Delete items[/b] - in the Inventory Manager's Live mode, \"Delete...\" next to a place removes the amount you choose. Your save file is backed up first (Backups folder, the last 10 are kept) and [b]Undo[/b] puts the items back straight away.[/*]\n<br />[*][b]Places[/b] - switch from Items to Places to see one inventory at a time (a storage container, the freighter, a ship), tick items, then Move ticked or Delete ticked.[/*]\n<br />[*][b]Add item[/b] - with the game closed, \"+ Add item\" puts any product or raw material into a save, in full stacks the same size as the ones you already have. Asked for by a player.[/*]\n<br />[*]Storage containers you haven't built yet are no longer offered as places to move to.[/*]\n<br />[*]Inventory screens in the game can stay open while you move items - you'll see them move.[/*]\n<br />[*][b]Tutorial missions[/b] - the Missions tab has a new group, \"Tutorials the game starts by itself\": finish Industrial Surveying, Signals, Station Director, Freighter Command and Corvette Assembly to clear them from your log for good.[/*]\n<br />[*][b]Import / Export[/b] - the Exports button is renamed, and the Starships, Corvettes, Multi-Tools and Freighter tabs each have their own Import button. Thanks Winj1n![/*]\n<br />[/list][size=4][b]Inventory Manager - live, while you play (new in 1.41)[/b][/size]\n<br />Find my item is now [b]Inventory Manager[/b], on the Tools tab.\n<br />[list]\n<br />[*][b]Game closed:[/b] it searches all your saves, as before - tick where to take an item from, pick where it goes, Review &amp; move (every save is backed up first).[/*]\n<br />[*][b]Game running:[/b] load into a save and it switches to [b]Live[/b] by itself. It shows the save you're playing by name, updates as you play, and moves stock between your exosuit, freighter, storage containers, starships and exocraft straight away in the game - no closing the game, no reloading. Inventory screens in the game can stay open - you'll see the item move. Only cargo is moved; fitted technology is never touched.[/*]\n<br />[*][b]Easier to find things:[/b] group buttons (Raw materials, Products, Trade goods, Cooking, Upgrade modules, Other), A to Z letters, and your recent searches.[/*]\n<br />[/list]Prefer not to use an editor? The same Inventory Manager is also a small standalone app: [url=https://www.nexusmods.com/nomanssky/mods/4658]NMS Inventory Manager[/url].\n<br />Live mode is tested on the Steam version. A big game update may stop live mode until the editor is updated; the rest of the editor keeps working.\n<br />\n<br />[size=4][b]Forget blueprints, paint many at once, bigger pictures (new in 1.40)[/b][/size]\n<br />[b]Forget blueprints[/b] - the Blueprints tool now has a Learn / Forget switch. Bought tech you'll never use clogging up your install list? Switch to Forget, tick what you don't want - technology, crafting recipes or base parts - and it's gone from your lists. Anything already fitted or built stays, and the essentials (life support, hyperdrive, scanner, Base Computer and the like) are never offered. Changed your mind? Learn it again with the Learn switch.\n<br />[b]Paint many at once[/b] - \"Use these colours on others...\" copies one ship's or multi-tool's colours onto as many others as you tick.\n<br />[b]Bigger pictures[/b] - click an export's picture in the Exports window to see it full size.\n<br />\n<br />[size=4][b]Tidy stacks and portal glyphs (new in 1.39)[/b][/size]\n<br />[b]Tidy stacks[/b] is a new card on the Tools tab. It merges half-empty stacks of the same item so they take fewer squares - inside each inventory, or across all your storage containers and the freighter as one store. Nothing is added or lost, only moved, and you see exactly what will change before anything is saved. The save is backed up first.\n<br />[b]Learn all portal glyphs[/b] - a new button under the money bar teaches all 16 portal glyphs at once, instead of earning them slowly along the story.\n<br />\n<br />[size=4][b]Find my item (new in 1.38 - now part of Inventory Manager)[/b][/size]\n<br />A new card on the Tools tab. Type the name of an item and it searches every save at once, showing each place you have it and how many. You can also browse everything you own, A to Z or most first. To move some, tick the places to take it from (any save), choose how much to take from each, pick where it goes (any inventory in any save), then Review and Move it. Nothing changes until you press Move it, and every save involved is backed up first.\n<br />\n<br />[size=4][b]Catalogue and Guide (new in 1.36)[/b][/size]\n<br />A new card on the Tools tab, asked for in the Posts tab. [b]Catalogue[/b] marks every material and item as seen and learns every Technology and Building Parts blueprint into the save you have open. [b]Guide[/b] unlocks and reads every Guide page. Recipes, Collected Knowledge and Wonders come from playing, so they are left alone, and a few special items the game hands out its own way may still show as missing. Your account file and the save are backed up first.\n<br />\n<br />[b]Freighter fix (1.36):[/b] \"Maximum size\" now stops at 10x12, the game's own limit for freighters. Earlier versions gave freighters a 13th row that showed in the game but stayed locked. If yours has one, open the Freighter tab and use [b]Remove the locked bottom row[/b].\n<br />\n<br />[size=4][b]Painter (new in 1.35 - experimental)[/b][/size]\n<br />[color=#D4D4D8][i]The Painter is new and still experimental, so there may be bugs. Every change is backed up first, and if something looks wrong, please tell me in the Posts or Bugs tab.[/i]\n<br />\n<br />Recolour your starships, freighter and multi-tools right in the editor - no JSON, no hex codes. Open the ship or tool, click a colour on its Colours row, pick from the colours your game offers, then Review &amp; save.\n<br />- Starships: ships built at a Starship Fabricator. The game puts every other ship back to its own colours, so the editor tells you when a ship can't be painted. Living ships are left alone.\n<br />- Freighters: three colours. Which parts take which colour depends on your freighter's design.\n<br />- Multi-tools: Main colour and Details. [b]New in 1.37:[/b] with Easy Painter Colours 1.1 installed, every colour works, black included. Without it the game keeps multi-tools bright, so the editor offers bright colours only. Special tools keep their own look.\n<br />- Copy colours from another ship or tool, or go back to the game's own colours at any time.\n<br />The colours on offer come from your game, or from your colour mod if you use one. For more colours with proper names - and multi-tools that take one colour all over - try the free [url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] packs (Neon and Metallic) - version 1.1 also unlocks black and dark multi-tools.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]Your character\n<br />- Set Units, Nanites and Quicksilver (up to the game's limit of 4,294,967,295).\n<br />- Rename your save.\n<br />\n<br />Exosuit, Starships, Corvettes, Multi-tools and Freighter\n<br />- Make any inventory its maximum size in one click.\n<br />- Supercharge every tech slot.\n<br />- Change the class (C, B, A or S).\n<br />- Rename ships, multi-tools and corvettes.\n<br />\n<br />Back to normal (starships and corvettes)\n<br />- Reset stats to normal for its class: puts damage, shield, hyperdrive and manoeuvrability back to the ship's own values, for example after another editor pushed them far too high. The game works them out again when it loads the ship.\n<br />- Back to normal supercharged slots: returns a fully supercharged ship to the normal number (4 for a starship; for a corvette it goes with its class: C 1, B 2, A 3, S 4). Its own slots are kept where the editor can tell, otherwise they're picked at random like the game does.\n<br />\n<br />Storage\n<br />- Make all ten base storage containers 120 slots.\n<br />- Rename the containers, or copy the names from another save so you don't have to type them again.\n<br />\n<br />Export and import\n<br />- Export ships, corvettes, multi-tools and freighters to files, with a screenshot of each in an Exports gallery.\n<br />- Import them into any save or slot, and give them a new name as you import.\n<br />- Use the Import / Export button at the top, or the Import button on the Starships, Corvettes, Multi-Tools and Freighter tabs.\n<br />- Uses the same file types as NomNom (.nmsship, .nmscorv, .nmstool, .frt), so you can share with NomNom users.\n<br />- A ship's cargo travels with it when you export and import it.\n<br />\n<br />Exosuit tech loadouts\n<br />- Export your exosuit's technology to a loadout file and import it into any other save.\n<br />- Choose \"Add what's missing\" to keep your current tech, or \"Replace all exosuit tech\".\n<br />\n<br />Cargo\n<br />- Send a ship's whole cargo to another ship in the same save, as a move or a copy.\n<br />- Export a ship's cargo to a file and import it into any ship, in any save.\n<br />- Tick \"Also empty this ship's cargo\" when exporting to keep collectibles safe outside the game and free up space.\n<br />- If it doesn't all fit, you're told exactly what was left out. The file is never changed, so you can make room and import again.\n<br />\n<br />Tools tab (new in 1.29)\n<br />- Transfer, Inventory Manager, Tidy stacks, Parts Locker, Blueprints, Rewards, Catalogue and Guide, and Save Archive now sit together on one Tools tab, to keep the tab row tidy. Click a card to open a tool, and \"Back to tools\" to return.\n<br />\n<br />Transfer\n<br />- Open two inventories side by side: exosuit, any ship or corvette, the freighter or any storage container.\n<br />- Each side can be a different save, so you can move items between saves.\n<br />- Drag items across. Hold Shift to move half a stack, or use Move all.\n<br />- Rest the mouse on an item to see a big picture with its name and amount.\n<br />- Item pictures are read from your own No Man's Sky install. If the editor can't find the game, it asks for the folder.\n<br />- Nothing is saved until you press Review &amp; save. Every save involved is backed up first, and if the second save can't be written, the first is put back as it was.\n<br />\n<br />Parts Locker\n<br />- One store of corvette parts kept by the editor, outside your saves and shared by all of them.\n<br />- Gather the parts from every save's corvette workshop cache into the locker, then take them out into whichever save you're playing.\n<br />- Drag parts across one at a time, or use Put all in and Take all out.\n<br />- Parts are moved, never copied: what goes into the locker leaves the save, and what comes out leaves the locker.\n<br />- The workshop cache holds 160 different parts. If it fills up, the rest stays safely in the locker.\n<br />- The save and the locker are both backed up first. If anything goes wrong, both are put back as they were.\n<br />\n<br />Blueprints (new in 1.29)\n<br />- Learn base parts, crafting recipes and technology, one at a time, a whole section or a whole group at once.\n<br />- Includes the discontinued legacy base parts (Legacy structures and Legacy freighter modules).\n<br />- Each group shows how many you already know, and you can search across everything.\n<br />- Special rewards normally earned from Expeditions, Twitch drops or the Quicksilver shop are in their own clearly labelled group.\n<br />- Only the lists of known blueprints change, and nothing you already know is added twice.\n<br />- (1.40) Forget: switch to Forget to remove blueprints you never use and keep your build, crafting and install lists short. Fitted tech stays; essentials are never offered.\n<br />\n<br />Rewards (new in 1.29)\n<br />- Unlock Expedition and Twitch rewards: ships, multi-tools, companion eggs, looks, titles and decorations.\n<br />- Then claim them in the game from the Quicksilver Synthesis Companion on the Space Anomaly, just like rewards you earned.\n<br />- Unlocks are for your whole account, so every save on it gets them. Only your account file changes, and it is backed up first.\n<br />- Steam and GOG for now.\n<br />\n<br />Save Archive (new in 1.30)\n<br />- Pack a whole save into one file on your PC, and take it out of the game at the same time if you like, to tidy up your save list.\n<br />- Put it back later into any empty save slot, on the platform it came from: Steam, GOG or Xbox / Game Pass.\n<br />- Nothing is ever overwritten: only empty slots can be used.\n<br />- The archive is checked before anything is removed from the game, and once a save is restored its archive copy goes to the Recycle Bin, so there is no out-of-date second copy.\n<br />\n<br />Missions\n<br />- See every quest line and how far through it you are.\n<br />- Finish quests you don't want to play, start one so it shows in your log, or reset one to play it again.\n<br />- Finishing gives you what the quest would have given: blueprints, tech, items, glyphs, words, nanites and unlocks, taken from the game's own reward tables. Steps you've already done never pay out twice.\n<br />- Skip the base missions too: Base Computer Archives and the specialist lines (Overseer, Scientist, Farmer, Weapons Specialist, Exocraft Technician) with all their blueprints and tech. Build your base, then recruit the specialist and build their terminal in the game first.\n<br />\n<br />Complete the story\n<br />- Turns a new game into one with the tutorial, Artemis Path and Atlas Path finished: the Space Anomaly is open, black holes are revealed, all 16 glyphs are known, and you get the story blueprints, tech and items.\n<br />- Choose your Atlas Path ending: Star Seed or Mark of the Denier.\n<br />- Nothing from anyone else's game is copied — no places, no galaxy data — so every game you make this way is truly your own.\n<br />- The side stories (Autophage, purple systems, Dreams of the Deep, Starbirth, Rebel) are left for you to play, or finish them from the Missions tab.[/color]\n<br />\n<br />[color=#D4D4D8][size=4][b]Good To Know[/b][/size][/color]\n<br />- Always close the game before saving changes.\n<br />- Ships, including the living ship from Starbirth, aren't handed out by the Missions tab. Play those parts or import a ship.\n<br />- Random upgrade modules from quests aren't given, because the game rolls those randomly.\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]- Windows 10 or 11 with the Microsoft Edge WebView2 runtime (already on most PCs).\n<br />- No Man's Sky 7.05 (Steam, or the Microsoft Store / Xbox PC version).[/color]\n<br />\n<br />[size=4][b]Credits[/b][/size]\n<br />[color=#D4D4D8]- Quest order and finish points: NMS Mission Editor by Sam, Avea &amp; Antilitist, and Ok Ranger's nms-mission-progress tables (both MIT licence).\n<br />- Save key names: MBINCompiler / libMBIN mapping.\n<br />- File formats compatible with NomNom.[/color]\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[color=#D4D4D8]- [url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools (Neon, Metallic, Military, Pastel).\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - an exosuit module that teleports you to the Space Anomaly from anywhere.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - an exosuit module that teleports you aboard your freighter from anywhere.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - every material shows what it is used to make and what it refines into.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - your helmet torch, brighter and a little wider.[/color]\n<br />\n<br />[i]Idea, design decisions and all in-game testing by germinus; code written with AI.[/i]",
     "state": "normal",
@@ -691500,9 +691675,9 @@
         "file_id": 50060,
         "name": "NMS Easy Save Editor and Painter 1.49.2",
         "version": "1.49.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 2561,
         "file_name": "NMS Easy Save Editor and Painter 1.49.2 4611 1.49.2 2026-10-25T03-14Z IohEj95o8.zip",
         "detected_file_extension": "zip",
@@ -691515,6 +691690,31 @@
         "size_in_bytes": 2622751,
         "changelog_html": "Fixed: Inventory Manager (live) didn't show Storage Container 9. Thanks to Sol2510.\nNew: Inventory Manager \"In 2+ places\" button - shows only the things you keep in more than one place. Thanks to incarn.\nNew: Inventory Manager Places tab has the group buttons too (Raw materials, Products...). Thanks to Pontiac76.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/bd/0f/fc/bd0ffc95-3b13-4764-a881-36c09dd25a63"
+      },
+      {
+        "id": [
+          50224,
+          1634
+        ],
+        "uid": 7017976611888,
+        "file_id": 50224,
+        "name": "NMS Easy Save Editor and Painter 1.49.3",
+        "version": "1.49.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2561,
+        "file_name": "NMS Easy Save Editor and Painter 1.49.3 4611 1.49.3 2026-10-30T03-15Z MWrySmz1t.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793330139,
+        "uploaded_time": "2026-10-30T03:15:39.000+00:00",
+        "mod_version": "1.49.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/35cc15e755979622c063bcd9ad8b063ab262ebf40398a178e3762da8495ef952",
+        "description": "",
+        "size_kb": 2561,
+        "size_in_bytes": 2622638,
+        "changelog_html": "Fixed: the live Inventory Manager works again with No Man's Sky 7.10 (it said \"this version of No Man's Sky isn't supported yet\"). Thanks to mrvms and shadvalentine.\nChanged: the Inventory Manager's \"no room\" message now says how to fix it for good. Thanks to redfalcon.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f9/82/ba/f982baa6-79af-4868-b76a-9ff6e1d24123"
       }
     ],
     "changelogs": {
@@ -691669,6 +691869,10 @@
         "Fixed: Inventory Manager (live) didn't show Storage Container 9. Thanks to Sol2510.",
         "New: Inventory Manager \"In 2+ places\" button - shows only the things you keep in more than one place. Thanks to incarn.",
         "New: Inventory Manager Places tab has the group buttons too (Raw materials, Products...). Thanks to Pontiac76."
+      ],
+      "1.49.3": [
+        "Fixed: the live Inventory Manager works again with No Man's Sky 7.10 (it said \"this version of No Man's Sky isn't supported yet\"). Thanks to mrvms and shadvalentine.",
+        "Changed: the Inventory Manager's \"no room\" message now says how to fix it for good. Thanks to redfalcon."
       ]
     }
   },
@@ -692305,10 +692509,10 @@
     "mod_id": 4619,
     "name": "Outpost Corvette Landing Pad",
     "summary": "FORSAKEN-compatible - Bring the Outpost’s orbital Corvette landing platform to your own base. This mod adds a separate “Orbital Pad” entry to the base-building menu, with Corvette summoning, landing and takeoff, three integrated terminals, and customizable colors and materials. Vanilla landing pads remain unchanged.",
-    "version": "1.4",
+    "version": "1.4.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4619/4619-1791353538-243825552.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1793303350,
+    "updated_timestamp": 1793341949,
     "created_timestamp": 1791056639,
     "description": "[color=#ff7700][size=5][b]Orbital Corvette Landing Pad[/b][/size][/color][size=3]\n<br />\n<br />Build the Outpost's orbital Corvette platform at your own base, on a planet or in space. Each variant adds its own base-building entry, with three integrated terminals, color and material customization, and Corvette summoning, landing and take-off. Vanilla landing pads are unchanged.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Pad variants[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3][color=#f9cb9c][b]Orbital Pad[/b][/color] — the standard platform with its three terminals.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Props)[/b][/color] — the same functional platform with an integrated decoration layout, including cargo, technical equipment and workstations.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Salvage Processor)[/b][/color] — the standard platform with the working Outpost salvage processor. Feed recovered physical salvage objects into its intake to receive the normal processing rewards in your personal inventory. The processor housing also supports color and material customization. [color=#38761d][b]Added the newly introduced Forsaken Trader, who can be called and interacted with like on the Outpost pads.[/b][/color][/size][/*]\n<br />[*][color=#f6b26b][b]Outpost Platform[/b][/color][color=#ffffff] — [/color]simple building in the looks of the landing pads without any functionalities except snapping enabled[/*]\n<br />[/list]Each variant works independently. Install one, two or all three: their separate building IDs, menu entries and resource paths allow them to coexist in the same base. \n<br />[color=#f6b26b][s]The Salvage Processor variant still uses the folder name \"OrbitalLandingPadFurnace\"; do not rename it when installing.[/s] [/color]\n<br />[color=#1e84cc]Changed the name to \"OutpostLandingPadRecycler\" with v1.2.1. Make sure to delete the old [...]Furnace before using the updated one.[/color]\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3]Three terminals: summon your Corvette, edit your Corvette, and access starship outfitting/upgrades.[/size][/*]\n<br />[*][size=3]Corvette-only landing and take-off.[/size][/*]\n<br />[*][size=3]Color and material changes for the pad and terminal housings, retained after saving and reloading.[/size][/*]\n<br />[*][size=3]Entrance, terminal and access-route lighting, with adjusted collisions.[/size][/*]\n<br />[*][size=3]Optional snapping at the main entrance, on the terminal side.[/size][/*]\n<br />[*][size=3]Suitable for planetary and orbital base builds.[/size][/*]\n<br />[*][size=3]Up to 10 pads of each type per planetary base, with construction costs set at 10 times the standard landing pad recipe.[/size][/*]\n<br />[*][size=3]Functional salvage intake, processing and rewards with the Salvage Processor variant.[/size][/*]\n<br />[/list]\n<br />[size=4][color=#ff7700][b]Installing the pads[/b][/color][/size]\n<br />\n<br />[list=1]\n<br />[*][size=3]Close No Man's Sky and extract the ZIP for each variant you want.[/size][/*]\n<br />[*][size=3]When updating, remove the previous folder for that same variant. Keep only one installed copy of each variant.[/size][/*]\n<br />[*]Copy [i]\"OrbitalLandingPad\"[/i], [i]\"OrbitalLandingPadProps\"[/i] and/or[i] \"OutpostLandingPadRecycler\"[/i] into [i]\"No Man's Sky/GAMEDATA/MODS/\"[/i].[/*]\n<br />[*][size=3]Launch the game with mod support enabled.[/size][/*]\n<br />[*][size=3]Find [b]Orbital Pad[/b], [b]Orbital Pad (Props)[/b] and/or [b]Orbital Pad (Salvage Processor)[/b] in the base-building menu.[/size][/*]\n<br />[/list][size=3]The pad packages contain their required custom resources. You do not need the standard variant installed to use Props or Salvage Processor.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Optional add-on: Teleport Return[/b][/size][/color][size=3]\n<br />\n<br />With a Corvette selected as your active ship, Teleport Return adds automatic arrival when you teleport to a base containing one of these pads. It waits for the destination's dock to load, selects the closest compatible free pad to your arrival point, and uses the game's normal Corvette summon and docking process. Allow a few seconds after arriving.\n<br />\n<br />[b][color=#f6b26b]One DLL supports all three pad variants.[/color][/b] It is separate from the pad mods: no pad files need changing, and all normal pad functions remain available without it. Without the add-on, summon your Corvette manually after teleporting.\n<br />\n<br />[b][color=#ff7700]Install once, then start normally:[/color][/b][/size]\n<br />[list=1]\n<br />[*][size=3]Close the game and stop any older Teleport Return test helpers.[/size][/*]\n<br />[*][size=3]Place the optional [i]\"winmm.dll\"[/i] in [i]\"No Man's Sky/Binaries/\"[/i], beside [i]\"NMS.exe\"[/i]. It does not belong in [i]\"GAMEDATA/MODS\"[/i].[/size][/*]\n<br />[*][size=3]If updating our earlier Teleport Return DLL, replace that file. If another mod already provides a different [i]\"winmm.dll\"[/i], do not overwrite it; the two files cannot simply occupy the same path.[/size][/*]\n<br />[*][size=3]Start the game normally through Steam. No separate helper, repeated PowerShell command or special launcher is needed.[/size][/*]\n<br />[/list][size=3]To remove the DLL-only add-on, close the game and remove our [i]\"Binaries/winmm.dll\"[/i]. The pad mods remain installed and usable. [i]\"OrbitalPadTeleport.log\"[/i] is its diagnostic log; older installer versions may also have created an installation receipt.\n<br />\n<br />[b][color=#f6b26b]Compatibility:[/color][/b] Teleport Return is for Windows PC and requires a matching game build. It checks the executable before activating; a game update may leave it inactive until a compatible DLL is provided. The original [i]\"NMS.exe\"[/i] is not modified on disk.\n<br />\n<br />[color=#f6b26b][b]Current test status:[/b][/color] The standard-pad Teleport Return implementation has been confirmed in-game. The expanded DLL supports all three IDs and has passed automated checks; live testing of that expanded build is still in progress.[/size]\n<br />\n<br />[size=4][color=#ff7700][b]Multiplayer and compatibility[/b][/color][/size][size=3]\n<br />\n<br />These pads add custom building entries instead of replacing vanilla pads. Other players need the corresponding pad variant installed to see its custom parts; uploading a base does not distribute the mod assets.\n<br />\n<br />Separate IDs and resource paths help avoid conflicts, but compatibility with every other mod or future game update is not guaranteed. Teleport Return has its own game-version and DLL compatibility requirements, as described above.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Limitations and known issues[/color][/b][/size]\n<br />\n<br />[list]\n<br />[*][size=3][b]Regular starships cannot dock on these pads.[/b] They can still be summoned through the quick menu. The outfitting terminal does not change the Corvette-only docking restriction.[/size][/*]\n<br />[*][size=3]Automatic Corvette arrival after a base teleport requires the optional Teleport Return DLL and a suitable free pad.[/size][/*]\n<br />[*][size=3]The large platform can take some time to finish loading/rendering.[/size][/*]\n<br />[*][size=3]Check clearance with very large Corvette layouts, especially around the Salvage Processor assembly; collision issues with every possible layout have not been ruled out.[/size][/*]\n<br />[/list]\n<br />[size=4][b][color=#ff7700]Credits and shout-outs[/color][/b][/size][size=3]\n<br />\n<br />- [url=https://www.nexusmods.com/profile/JJhookah]JJhookah[/url] provided the inspiration.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/2626?tab=description]AMUMSS[/url] provided the mod-editing tools.\n<br />- [url=https://www.nexusmods.com/profile/Thrawn1636262]Thrawn1636262[/url] suggested the salvage processor variant.\n<br />- Thanks also to ChatGPT-6.1 Sol for development assistance. Spare time is limited, and the help made a big difference.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Feedback and community creations[/color][/b][/size][size=3]\n<br />\n<br />Bug reports, test results and suggestions are welcome in the Posts and Bugs sections. If you have a decorated layout or an idea for another standalone variant, get in touch — we'll see what we can do. ;)\n<br />\n<br />Please check Permissions and credits before reusing files. Credit is appreciated, and please do not monetize derivatives. Updates after major game releases may take time.[/size]",
     "state": "normal",
@@ -692361,7 +692565,7 @@
         "description": "Version 1.1 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 347,
         "size_in_bytes": 356282,
-        "changelog_html": "Version 1.1 — Standard Pad Update:\n• Added color and material customization, with selections retained after saving and reloading.\n• Extended color and material customization to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship/Corvette outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle entrance lights, terminal lighting and access-route lights.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing starships and Corvettes from being summoned through the quick menu while a ship or Corvette was docked.\n• Regular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props):\n• Added a separate decorated pad based on a manually built layout.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.",
+        "changelog_html": "Version 1.1 — Standard Pad Update\n• Added colour and material customisation, with selections retained after saving and reloading.\n• Extended colour and material customisation to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle white entrance lights, terminal lighting and access-route lights.\n• Corrected the light position beneath the Corvette summoning terminal.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing regular starships from being summoned through the quick menu while a Corvette was docked.\nRegular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props)\n• Added a separate decorated pad based on a manually built layout containing 57 decoration objects.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.\n• Corrected the placement reference to load the Props model.\n• Corrected the orientation of the bench and left crane.\n• Retained the standard pad’s terminals, lighting, docking and customisation features.\nDecorative props currently retain their original colours and materials.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e2/61/a6/e261a671-75cc-4f7d-9e72-bfff68a1090a"
       },
       {
@@ -692386,7 +692590,7 @@
         "description": "V1.1 with props",
         "size_kb": 350,
         "size_in_bytes": 359197,
-        "changelog_html": "Version 1.1 — Standard Pad Update:\n• Added color and material customization, with selections retained after saving and reloading.\n• Extended color and material customization to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship/Corvette outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle entrance lights, terminal lighting and access-route lights.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing starships and Corvettes from being summoned through the quick menu while a ship or Corvette was docked.\n• Regular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props):\n• Added a separate decorated pad based on a manually built layout.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.",
+        "changelog_html": "Version 1.1 — Standard Pad Update\n• Added colour and material customisation, with selections retained after saving and reloading.\n• Extended colour and material customisation to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle white entrance lights, terminal lighting and access-route lights.\n• Corrected the light position beneath the Corvette summoning terminal.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing regular starships from being summoned through the quick menu while a Corvette was docked.\nRegular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props)\n• Added a separate decorated pad based on a manually built layout containing 57 decoration objects.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.\n• Corrected the placement reference to load the Props model.\n• Corrected the orientation of the bench and left crane.\n• Retained the standard pad’s terminals, lighting, docking and customisation features.\nDecorative props currently retain their original colours and materials.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/d3/f9/80/d3f980b6-cf91-4783-8802-addf9677e250"
       },
       {
@@ -692411,7 +692615,7 @@
         "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 347,
         "size_in_bytes": 356294,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e5/f7/cb/e5f7cb04-ef75-45d9-88d2-3598de249a1c"
       },
       {
@@ -692436,7 +692640,7 @@
         "description": "V1.2 with props",
         "size_kb": 350,
         "size_in_bytes": 359186,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ac/23/92/ac23923b-e5db-4453-908b-d9530fa6c116"
       },
       {
@@ -692461,7 +692665,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367110,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/22/3a/e1/223ae111-9248-45c8-8b4e-d584b5f21a62"
       },
       {
@@ -692511,7 +692715,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367156,
-        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls\nv1.2.1 - Recycler and Collision Fix\n- Fixed oversized invisible collisions above the entrance and Recycler.\n- IMPORTANT: folder renamed - make sure to delete the old \"OrbitalLandingPadFurnace\" first!",
+        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/bd/25/85/bd2585ee-45ba-4680-8232-2c9cd44235ec"
       },
       {
@@ -692536,7 +692740,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367205,
-        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls\nv1.2.1 - Recycler and Collision Fix\n- Fixed oversized invisible collisions above the entrance and Recycler.\n- IMPORTANT: folder renamed - make sure to delete the old \"OrbitalLandingPadFurnace\" first!",
+        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/ed/3e/86ed3eb2-0f63-48f4-8912-a543a136150f"
       },
       {
@@ -692561,7 +692765,7 @@
         "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 340,
         "size_in_bytes": 348215,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/cc/25/c5/cc25c59c-9da5-4087-b196-d0b39e6c9013"
       },
       {
@@ -692586,7 +692790,7 @@
         "description": "V1.2 with props",
         "size_kb": 342,
         "size_in_bytes": 350913,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ef/72/34/ef723487-4b97-4de0-86bd-1080bd80450a"
       },
       {
@@ -692611,7 +692815,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 360,
         "size_in_bytes": 369200,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/1c/e4/f4/1ce4f478-2441-42e2-8747-7969f3ca0fe8"
       },
       {
@@ -692623,8 +692827,8 @@
         "file_id": 50209,
         "name": "OrbitalLandingPad SalvageProcessor",
         "version": "1.4",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 370,
         "file_name": "OrbitalLandingPad SalvageProcessor 4619 1.4 2026-10-29T19-48Z eV714amb8.zip",
@@ -692648,8 +692852,8 @@
         "file_id": 50210,
         "name": "OrbitalLandingPad with Props",
         "version": "1.4",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 351,
         "file_name": "OrbitalLandingPad with Props 4619 1.4 2026-10-29T19-48Z s60W14SHA.zip",
@@ -692673,9 +692877,9 @@
         "file_id": 50211,
         "name": "OrbitalLandingPad",
         "version": "1.4",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 348,
         "file_name": "OrbitalLandingPad 4619 1.4 2026-10-29T19-48Z GkVHbnd5G.zip",
         "detected_file_extension": "zip",
@@ -692698,8 +692902,8 @@
         "file_id": 50212,
         "name": "Simple Outpost Platform as Building",
         "version": "1.4",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 335,
         "file_name": "Simple Outpost Platform as Building 4619 1.4 2026-10-29T19-49Z RH1TdJvb6.zip",
@@ -692713,6 +692917,106 @@
         "size_in_bytes": 343544,
         "changelog_html": "ALL LANDING PADS:\n- added snapping points on all sides\n- enabled snapping for all types of building (big structures, floors, cubes, etc)\nNEW:\n- added a seperate version of the pad without any functionalities as a simple building",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/91/61/a1/9161a132-4e26-40ea-92d0-2b27b7f0fe6c"
+      },
+      {
+        "id": [
+          50232,
+          1634
+        ],
+        "uid": 7017976611896,
+        "file_id": 50232,
+        "name": "Simple Outpost Platform as Building",
+        "version": "1.4.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 4705,
+        "file_name": "Simple Outpost Platform as Building 4619 1.4.1 2026-10-30T06-31Z 8gT07OIXJ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793341870,
+        "uploaded_time": "2026-10-30T06:31:10.000+00:00",
+        "mod_version": "1.4.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/65bd5003ed875331d0e18f870c4de82c7dad9960ecd12cf519b5e81e2aa05536",
+        "description": "",
+        "size_kb": 4705,
+        "size_in_bytes": 4818196,
+        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/93/05/b3/9305b31b-ae06-4d34-8ed5-8ed315ab2272"
+      },
+      {
+        "id": [
+          50233,
+          1634
+        ],
+        "uid": 7017976611897,
+        "file_id": 50233,
+        "name": "OrbitalLandingPad",
+        "version": "1.4.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 348,
+        "file_name": "OrbitalLandingPad 4619 1.4.1 2026-10-30T06-32Z oPfwFL8ck.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793341922,
+        "uploaded_time": "2026-10-30T06:32:02.000+00:00",
+        "mod_version": "1.4.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ef0696fe555875a3d69817d52446fd5310191440772e194d9f7255be94e42db6",
+        "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
+        "size_kb": 348,
+        "size_in_bytes": 356857,
+        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0b/f4/b6/0bf4b630-96d5-4275-ab44-0e3d22672d96"
+      },
+      {
+        "id": [
+          50234,
+          1634
+        ],
+        "uid": 7017976611898,
+        "file_id": 50234,
+        "name": "OrbitalLandingPad with Props",
+        "version": "1.4.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 351,
+        "file_name": "OrbitalLandingPad with Props 4619 1.4.1 2026-10-30T06-32Z 4tDiNufCE.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793341937,
+        "uploaded_time": "2026-10-30T06:32:17.000+00:00",
+        "mod_version": "1.4.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/855d7572347289f667a3237b45dbd8cf0548b3985c1a66456644191b16be2e22",
+        "description": "V1.2 with props",
+        "size_kb": 351,
+        "size_in_bytes": 359746,
+        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/68/5f/bc/685fbc4f-6ac4-4ef2-a303-f05ce5d62139"
+      },
+      {
+        "id": [
+          50235,
+          1634
+        ],
+        "uid": 7017976611899,
+        "file_id": 50235,
+        "name": "OrbitalLandingPad SalvageProcessor",
+        "version": "1.4.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 370,
+        "file_name": "OrbitalLandingPad SalvageProcessor 4619 1.4.1 2026-10-30T06-32Z qTSCvoudP.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793341949,
+        "uploaded_time": "2026-10-30T06:32:29.000+00:00",
+        "mod_version": "1.4.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/24df6be3a3c31c49499429a07ca6f6db539b43767b9929caa6cb9488a3f3e766",
+        "description": "V1.2 with the Outpost Salvage Processor without Props",
+        "size_kb": 370,
+        "size_in_bytes": 379616,
+        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/70/e7/fd/70e7fd59-5529-4bc5-a643-05b1f661739a"
       }
     ],
     "changelogs": {
@@ -692763,6 +693067,13 @@
         "- enabled snapping for all types of building (big structures, floors, cubes, etc)",
         "NEW:",
         "- added a seperate version of the pad without any functionalities as a simple building"
+      ],
+      "1.4.1": [
+        "Outpost Platform:",
+        "- corrected some too bright lights",
+        "All Pads:",
+        "- corrected some weird leftover collisions",
+        "- corrected the middle section to be beneath the walkable platform"
       ]
     }
   },
@@ -696067,10 +696378,10 @@
     "mod_id": 4658,
     "name": "NMS Inventory Manager",
     "summary": "See every item you own and where it is - exosuit, ships, freighter, storage, exocraft - live while you play, and move stock between them without leaving the game. A small standalone app; also built into NMS Easy Save Editor. Beta.",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4658/4658-1791632218-1064760614.jpg",
-    "author": "germinus",
-    "updated_timestamp": 1792898113,
+    "author": "FarmerLee73",
+    "updated_timestamp": 1793330056,
     "created_timestamp": 1791632495,
     "description": "[size=5][b]NMS Inventory Manager[/b][/size] [i](beta)[/i]\n<br />\"Where did I put my Chromatic Metal?\" - this small app shows every item you own and exactly where it is: exosuit, freighter, storage containers, starships and exocraft. It updates live while you play, and you can move stock between them without leaving the game.\n<br />\n<br />[size=4][b]New in 1.3[/b][/size]\n<br />[list]\n<br />[*][b]Gather[/b] - open an item that's in more than one place, pick a place under \"Gather all of it into one place\" and press Gather. Every bit of it from your exosuit, ships, freighter and storage moves there, straight away in the game. If that place fills up, the rest stays where it was and the app tells you how much. Thanks to Br0stradamus and BiNaRyFrEaKk.[/*]\n<br />[/list][size=4][b]New in 1.2[/b][/size]\n<br />[list]\n<br />[*][b]Item names in your language[/b] - pick a language in the box at the top: Français, Deutsch, Español, Русский, 日本語 and more, 15 in all. The names come from the game itself, so they match what you see in your game. Search finds items by that name or by the English one, and your choice is remembered. The app's own buttons stay in English. Thanks to Reqvime for asking.[/*]\n<br />[/list][size=4][b]New in 1.1[/b][/size]\n<br />[list]\n<br />[*][b]Delete items, with Undo[/b] - \"Delete...\" next to a place removes the amount you choose. Before anything is deleted your save file is copied into the \"Backups\" folder next to the app (the last 10 are kept, with \"How to restore.txt\"), and Undo puts the items back straight away.[/*]\n<br />[*][b]Places view[/b] - switch from Items to Places to see one inventory at a time, tick items, then Move ticked or Delete ticked.[/*]\n<br />[*]Storage containers you haven't built yet are no longer offered as places to move to. A container you build while playing shows up after the game is reloaded.[/*]\n<br />[/list][size=4][b]What it does[/b][/size]\n<br />[list]\n<br />[*][b]See everything:[/b] every item, the total you have, and how many are in each place.[/*]\n<br />[*][b]Live:[/b] it reads the running game, so the numbers change as you play. The green bubble at the top shows the save you're in.[/*]\n<br />[*][b]Move stock:[/b] click Move... next to where it is, pick where it should go and how many (100, 500, half, all), and it's moved straight away in the game - no reloading.[/*]\n<br />[*][b]Find things fast:[/b] search, group buttons (Raw materials, Products, Trade goods, Cooking, Upgrade modules, Other), A to Z letters and your recent searches.[/*]\n<br />[*][b]Second monitor friendly:[/b] \"Always on top\" keeps it above the game.[/*]\n<br />[*][b]Delete, with Undo:[/b] remove what you no longer want. Your save file is copied to a Backups folder first, and Undo puts it back straight away.[/*]\n<br />[*][b]Places:[/b] look at one inventory at a time - a storage container, the freighter, a ship - tick items, then Move ticked or Delete ticked.[/*]\n<br />[/list][size=4][b]Good to know[/b][/size]\n<br />[list]\n<br />[*]Inventory screens in the game can stay open - you'll see the item move.[/*]\n<br />[*]Your moves are kept when the game next saves, as normal.[/*]\n<br />[*]Only cargo is listed and moved - fitted technology is never touched.[/*]\n<br />[*]It doesn't change any game files and isn't a game mod - there's nothing to install in the game.[/*]\n<br />[*]Tested on the Steam version. A big game update may stop it working until I update it - \"About &amp; help\" &gt; \"Check for updates\" opens the Files page. The app never goes online by itself.[/*]\n<br />[*]It's a beta: as with any tool that works on a running game, keep a backup of your saves. Something odd? Please report it in Bugs or Posts.[/*]\n<br />[/list][size=4][b]Install[/b][/size]\n<br />Unzip the folder anywhere and run [b]NMS Inventory Manager.exe[/b] while the game is running. To remove it, delete the folder.\n<br />Needs Windows 10 or 11 with Microsoft Edge WebView2 (Windows 11 has it built in).\n<br />\n<br />[size=4][b]Prefer an editor?[/b][/size]\n<br />The same Inventory Manager is built into [url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] (Tools &gt; Inventory Manager). There it also works with the game closed and searches all your saves at once. This standalone version is for players who'd rather not use an editor.\n<br />\n<br />[size=4][b]Credits[/b][/size]\n<br />Layout of the game's inventories and player state: NMS.py by monkeyman192 (MIT licence). No Man's Sky is a trademark of Hello Games; this tool is not made or supported by Hello Games.\n<br />\n<br />[size=4][b]More mods by germinus[/b][/size]\n<br />[list]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4611]NMS Easy Save Editor and Painter[/url] - a friendly save editor: recolour ships, max inventories, Inventory Manager and more.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4650]Helpful Descriptions[/url] - what every material is used to make, what refines into it, and where trade goods are sold.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4628]Easy Painter Colours[/url] - new colour packs for ships, freighters and multi-tools.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4640]Anomaly Uplink[/url] - teleport to the Space Anomaly from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4641]Freighter Uplink[/url] - teleport aboard your freighter from anywhere.[/*]\n<br />[*][url=https://www.nexusmods.com/nomanssky/mods/4653]Brighter Torch[/url] - a brighter, slightly wider helmet torch.[/*]\n<br />[/list][i]Idea, design decisions and all in-game testing by germinus; code written with AI.[/i]",
     "state": "normal",
@@ -696210,9 +696521,9 @@
         "file_id": 50061,
         "name": "NMS Inventory Manager",
         "version": "1.3.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 1879,
         "file_name": "NMS Inventory Manager 4658 1.3.2 2026-10-25T03-15Z KsnM3TtsI.zip",
         "detected_file_extension": "zip",
@@ -696225,6 +696536,31 @@
         "size_in_bytes": 1924273,
         "changelog_html": "Fixed: Storage Container 9 (the last one) wasn't shown. Thanks to Sol2510.\nNew: \"In 2+ places\" button - shows only the things you keep in more than one place. Thanks to incarn.\nNew: the Places view has the group buttons too (Raw materials, Products...); Tick all ticks only what's shown. Thanks to Pontiac76.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/5a/ce/fe/5acefeec-1226-4769-a47e-40eca790e7d9"
+      },
+      {
+        "id": [
+          50223,
+          1634
+        ],
+        "uid": 7017976611887,
+        "file_id": 50223,
+        "name": "NMS Inventory Manager",
+        "version": "1.3.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1879,
+        "file_name": "NMS Inventory Manager 4658 1.3.3 2026-10-30T03-14Z 58qnW1y6Z.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793330056,
+        "uploaded_time": "2026-10-30T03:14:16.000+00:00",
+        "mod_version": "1.3.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/dc08f1bb6aa1b17c8a66c72c7ede03a7e26be9f3fdad021c4743805622bf25a5",
+        "description": "",
+        "size_kb": 1879,
+        "size_in_bytes": 1924198,
+        "changelog_html": "Fixed: works again with No Man's Sky 7.10 (it said \"this version of No Man's Sky isn't supported yet\"). Thanks to mrvms and shadvalentine.\nChanged: the \"no room\" message now says how to fix it for good. Thanks to redfalcon.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/7b/09/32/7b093294-30fd-4c9d-8a87-4b1e5e659b2e"
       }
     ],
     "changelogs": {
@@ -696249,6 +696585,10 @@
         "Fixed: Storage Container 9 (the last one) wasn't shown. Thanks to Sol2510.",
         "New: \"In 2+ places\" button - shows only the things you keep in more than one place. Thanks to incarn.",
         "New: the Places view has the group buttons too (Raw materials, Products...); Tick all ticks only what's shown. Thanks to Pontiac76."
+      ],
+      "1.3.3": [
+        "Fixed: works again with No Man's Sky 7.10 (it said \"this version of No Man's Sky isn't supported yet\"). Thanks to mrvms and shadvalentine.",
+        "Changed: the \"no room\" message now says how to fix it for good. Thanks to redfalcon."
       ]
     }
   },
@@ -698789,13 +699129,13 @@
   {
     "mod_id": 4680,
     "name": "Freighter Building Expansion",
-    "summary": "Expand your construction options aboard freighters additional building materials, furniture, decorations, and equipment.",
-    "version": "1",
+    "summary": "Updated to Forsaken Update Expand your construction options aboard freighters additional building materials, furniture, decorations, and equipment.",
+    "version": "2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4680/4680-1792173039-1675470040.png",
     "author": "ikapozin",
-    "updated_timestamp": 1792194662,
+    "updated_timestamp": 1793346714,
     "created_timestamp": 1792189739,
-    "description": "Freighter Building Expansion\n<br />[b]Expanded Structures, Technology &amp; Exocraft Displays[/b]\n<br />Transform your No Man's Sky freighter into a more customizable base with additional planetary building pieces, refiners, utility equipment, doors, and decorative Exocraft displays.\n<br />[heading]Features[/heading]\n<br />[list]\n<br />[*]Expanded Timber, Stone, Builders, Fibreglass, and legacy construction options.[/*]\n<br />[*]Additional large rooms, foundations, windows, and corridors.[/*]\n<br />[*]Holo Doors and other entrance options.[/*]\n<br />[*]Large and Medium Refiners.[/*]\n<br />[*]Expanded utility and technology construction options.[/*]\n<br />[*]Minotaur and other Exocraft Geobays.[/*]\n<br />[*]Additional building freedom for creating hangars, workshops, vehicle displays, and custom freighter interiors.[/*]\n<br />[/list][heading]Exocraft Geobays and Vehicles[/heading]\n<br />This mod allows you to build Exocraft Geobays aboard your freighter, creating custom vehicle garages, hangars, and display areas.\n<br />[b]Most Exocraft are drivable aboard freighters![/b] The Minotaur is the exception and is currently intended for cosmetic display.\n<br />Minotaur Geobay: Spawning and Placement\n<br />When you first summon the Minotaur aboard your freighter, it may appear floating in the sky above its Geobay rather than standing on the platform.\n<br />[b]How to fix this:[/b]\n<br />[list=1]\n<br />[*]Build temporary stairs or platforms to reach the Minotaur.[/*]\n<br />[*]Place a floor underneath it.[/*]\n<br />[*]Resummon the Minotaur.[/*]\n<br />[*]The Minotaur should reposition onto its Geobay.[/*]\n<br />[/list]Minotaur Leaning After Reloading\n<br />After saving, exiting, and reloading the game, the Minotaur may appear slightly tilted or leaning to one side.\n<br />[b]Fix:[/b] Simply resummon the Minotaur. It should return to its normal position.\n<br />The Minotaur and its Geobay remain present after restarting the game, but its position may need to be corrected.\n<br />Known Limitations\n<br />[list]\n<br />[*][b]Minotaur:[/b] Can be summoned and displayed, but cannot currently be driven aboard the freighter.[/*]\n<br />[*][b]Other Exocraft:[/b] Can be driven aboard the freighter based on in-game testing.[/*]\n<br />[*]Vehicle movement and physics may behave differently from planetary environments.[/*]\n<br />[*]Exocraft spawning and placement may require adjustments depending on your freighter layout.[/*]\n<br />[/list]These features are experimental, so save your game before making major changes to your vehicle hangar.\n<br />\n<br />[heading]Known Limitations[/heading]\n<br />[list]\n<br />[*]Exocraft may not be drivable aboard freighters.[/*]\n<br />[*]Some planetary building objects may have unusual snapping or placement behavior.[/*]\n<br />[*]Individual Geobays may behave differently.[/*]\n<br />[*]This mod changes \n<br />[code]BASEBUILDINGOBJECTSTABLE.MBIN[/code]and may conflict with other mods that replace the same file.[/*]\n<br />[*]Game updates may require a compatibility update.[/*]\n<br />[/list][heading]Installation[/heading]\n<br />[list=1]\n<br />[*]Extract the downloaded ZIP.[/*]\n<br />[*]Copy the included mod folder into your No Man's Sky \n<br />[code]GAMEDATA&#92;MODS[/code]folder.[/*]\n<br />[*]Make sure conflicting building-table mods are disabled.[/*]\n<br />[*]Start the game and open the freighter construction menu.[/*]\n<br />[/list][heading]Compatibility[/heading]\n<br />Tested on PC/Steam. Large structures, refiners, Geobays, doors, and saving/reloading were tested successfully.\n<br />[heading]Version 1.0.0[/heading]\n<br />Initial public release of the expanded freighter construction system.",
+    "description": "[b]Freighter Building Expansion[/b]\n<br />[b]Expanded Structures, Technology &amp; Exocraft Displays[/b]\n<br />[b]Transform your No Man's Sky freighter into a more customizable base with additional planetary building pieces, refiners, utility equipment, doors, and decorative Exocraft displays.[/b]\n<br />[heading][b]Features[/b][/heading]\n<br />[list]\n<br />[*][b]Expanded Timber, Stone, Builders, Fibreglass, and legacy construction options.[/b][/*]\n<br />[*][b]Additional large rooms, foundations, windows, and corridors.[/b][/*]\n<br />[*][b]Holo Doors and other entrance options.[/b][/*]\n<br />[*][b]Large and Medium Refiners.[/b][/*]\n<br />[*][b]Expanded utility and technology construction options.[/b][/*]\n<br />[*][b]Minotaur and other Exocraft Geobays.[/b][/*]\n<br />[*][b]Additional building freedom for creating hangars, workshops, vehicle displays, and custom freighter interiors.[/b][/*]\n<br />[/list][heading][b]Exocraft Geobays and Vehicles[/b][/heading]\n<br />[b]This mod allows you to build Exocraft Geobays aboard your freighter, creating custom vehicle garages, hangars, and display areas.[/b]\n<br />[b]Most Exocraft are drivable aboard freighters! The Minotaur is the exception and is currently intended for cosmetic display.[/b]\n<br />[b]Minotaur Geobay: Spawning and Placement[/b]\n<br />[b]When you first summon the Minotaur aboard your freighter, it may appear floating in the sky above its Geobay rather than standing on the platform.[/b]\n<br />[b]How to fix this:[/b]\n<br />[list=1]\n<br />[*][b]Build temporary stairs or platforms to reach the Minotaur.[/b][/*]\n<br />[*][b]Place a floor underneath it.[/b][/*]\n<br />[*][b]Resummon the Minotaur.[/b][/*]\n<br />[*][b]The Minotaur should reposition onto its Geobay.[/b][/*]\n<br />[/list][b]Minotaur Leaning After Reloading[/b]\n<br />[b]After saving, exiting, and reloading the game, the Minotaur may appear slightly tilted or leaning to one side.[/b]\n<br />[b]Fix: Simply resummon the Minotaur. It should return to its normal position.[/b]\n<br />[b]The Minotaur and its Geobay remain present after restarting the game, but its position may need to be corrected.[/b]\n<br />[b]Known Limitations[/b]\n<br />[list]\n<br />[*][b]Minotaur: Can be summoned and displayed, but cannot currently be driven aboard the freighter.[/b][/*]\n<br />[*][b]Other Exocraft: Can be driven aboard the freighter based on in-game testing.[/b][/*]\n<br />[*][b]Vehicle movement and physics may behave differently from planetary environments.[/b][/*]\n<br />[*][b]Exocraft spawning and placement may require adjustments depending on your freighter layout.[/b][/*]\n<br />[/list][b]These features are experimental, so save your game before making major changes to your vehicle hangar.[/b]\n<br />\n<br />\n<br />[heading][b]Known Limitations[/b][/heading]\n<br />[list]\n<br />[*][b]Exocraft may not be drivable aboard freighters.[/b][/*]\n<br />[*][b]Some planetary building objects may have unusual snapping or placement behavior.[/b][/*]\n<br />[*][b]Individual Geobays may behave differently.[/b][/*]\n<br />[*][b]This mod changes\n<br />\n<br />BASEBUILDINGOBJECTSTABLE.MBIN\n<br />and may conflict with other mods that replace the same file.[/b][/*]\n<br />[*][b]Game updates may require a compatibility update.[/b][/*]\n<br />[/list][heading][b]Installation[/b][/heading]\n<br />[list=1]\n<br />[*][b]Extract the downloaded ZIP.[/b][/*]\n<br />[*][b]Copy the included mod folder into your No Man's Sky\n<br />\n<br />GAMEDATA&#92;MODS\n<br />folder.[/b][/*]\n<br />[*][b]Make sure conflicting building-table mods are disabled.[/b][/*]\n<br />[*][b]Start the game and open the freighter construction menu.[/b][/*]\n<br />[/list][heading][b]Compatibility[/b][/heading]\n<br />[b]Tested on PC/Steam. Large structures, refiners, Geobays, doors, and saving/reloading were tested successfully.[/b]\n<br />[heading][b]Version 2.0.0[/b][/heading]\n<br />[b]Initial public release of the expanded freighter construction system.[/b]\n<br />\n<br /> ",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -698822,7 +699162,7 @@
         "size_kb": 246,
         "size_in_bytes": 252911,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4680/4b/da/7e/4bda7e38-f1a2-4021-8198-2c1590a97ccf.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4b/da/7e/4bda7e38-f1a2-4021-8198-2c1590a97ccf"
       },
       {
         "id": [
@@ -698833,8 +699173,8 @@
         "file_id": 49903,
         "name": "Freighter Building Expansion   Nexus",
         "version": "2",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": true,
         "size": 92,
         "file_name": "Freighter Building Expansion Nexus 4680 2 2026-10-16T23-51Z L5bXM34LF.zip",
@@ -698847,7 +699187,32 @@
         "size_kb": 92,
         "size_in_bytes": 95170,
         "changelog_html": "Added a Readme to the zip if there are any questions and also updated name for my records",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4680/84/8b/cf/848bcf1e-eb18-416e-9591-e80fdcf95369.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/84/8b/cf/848bcf1e-eb18-416e-9591-e80fdcf95369"
+      },
+      {
+        "id": [
+          50236,
+          1634
+        ],
+        "uid": 7017976611900,
+        "file_id": 50236,
+        "name": "Freighter Building Expansion",
+        "version": "2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 276,
+        "file_name": "Freighter Building Expansion 4680 2 2026-10-30T07-51Z JrNPcYFIw.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793346713,
+        "uploaded_time": "2026-10-30T07:51:53.000+00:00",
+        "mod_version": "2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/770d47822c8c80b74d6b57811d692d4044a28e638c2e5c996bab0d14dcae5723",
+        "description": "",
+        "size_kb": 276,
+        "size_in_bytes": 283634,
+        "changelog_html": "Added a Readme to the zip if there are any questions and also updated name for my records",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/2b/f2/19/2bf219b6-227d-4acf-8c38-7c38c87506c0"
       }
     ],
     "changelogs": {
