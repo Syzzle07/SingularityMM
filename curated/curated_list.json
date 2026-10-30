@@ -685805,12 +685805,12 @@
     "mod_id": 4578,
     "name": "Fully Automated Luxury Space Machines",
     "summary": "Supercharges all basic machines on your base: Oxygen and Gas Harvesters, Gas and Mineral Extractors, AMUs, Antimatter Reactors, Refiners, Biogenerators and Batteries. They now produce more output, work faster and do not require fuel to operate!",
-    "version": "7.05.2",
+    "version": "7.10",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4578/4578-1790591799-1351131909.jpg",
     "author": "jw11-modder",
-    "updated_timestamp": 1791490104,
+    "updated_timestamp": 1793311785,
     "created_timestamp": 1790591908,
-    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]Tired of constantly refueling your machines and then waiting for them to finish their work? This mod helps you with this predicament:  Oxygen and Gas Harvesters, AMUs, Antimatter Reactors, Refiners and Biogenerators now work faster, don't require fuel, and have some other quality of life upgrades.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]Unpack archive to [/color][color=#ffe599]&#92;GAMEDATA&#92;MODS&#92;[/color][color=#D4D4D8] directory, and you're ready to go. Also you can use [url=https://www.nexusmods.com/about/vortex/]Vortex [/url]to make installation even easier. [/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]Oxygen harvesters, Gas harvesters and Automated Mining Units now have their output increased to 2500 units, don't need fuel to work and finish production in 5 seconds.[/color]\n<br />\n<br />[color=#D4D4D8]Antimatter reactor also produces full stack of antimatter in 5 seconds without ay fuel input.[/color]\n<br />\n<br />[color=#D4D4D8]Gas and Mineral Extractors now work faster and can store up to 750 units of material. Supply Depot now stores up to 9000 units of material.[/color]\n<br />\n<br />Biogenerator now produces 100 times more power and works without need for fuel.\n<br />\n<br />Battery now stores 50 times more power.\n<br />\n<br />Portable refiner now has two inputs, and again - doesn't need fuel. \n<br />\n<br />Personal refiners in exosuit have increased input slots (2 for normal and 3 for MK2), and need to be charged only once.\n<br />\n<br />All refiners (including Medium, Large, Freighter, Corvette, etc.) now share speedup bonus to their production, working 60 times faster than usual.\n<br />\n<br />And as a small bonus - Health and Shield Stations now recharge fast and work for free, respectively.\n<br />\n<br />All these parameters are set at the top of the respective LUA file, so you can easily change them with [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url].\n<br />\n<br />[color=#e06666][size=4][b]!!! IMPORTANT !!! [/b][/size][/color]\n<br />If you already have these machines deployed, they may be bugged - especially harvesters and portable refiner. You'll have to pick them up and deploy again for them to work properly. \n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]If you want to change parameters of this mod, you can do it with the help of [url=https://github.com/HolterPhylo/AMUMSS/releases]AMUMSS[/url] (detailed instructions how to use it [url=https://www.nexusmods.com/nomanssky/mods/2626]can be found here[/url]). Mod itself doesn't have any specific requirements to use. [/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]Shout out to all of NMS modding community and AMUMSS team especially!\n<br />Special thanks to all modders who already created similar mods. This mod is fully written by me, but I got several ideas from other mod authors.[/color]\n<br />\n<br />[b][size=4]Other mods[/size][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4256]Life support and hazard protection upgrades[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4558]Player mobility upgrade[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4257]Player Weapons Powerup[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4258]Ship weapons powerup[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4269]Vehicle mobility upgrade[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4296]Ship mobility upgrade[/url][/b]\n<br />\n<br />[b][size=4]Additional information[/size][/b]\n<br />Source code for the mod can be found on [url=https://github.com/JW11-modder/NoMansSky]Github[/url].\n<br />You can support me on [url=https://boosty.to/jwmodder/donate]Boosty[/url]. ",
+    "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]Tired of constantly refueling your machines and then waiting for them to finish their work? This mod helps you with this predicament:  Oxygen and Gas Harvesters, AMUs, Antimatter Reactors, Refiners and Biogenerators now work faster, don't require fuel, and have some other quality of life upgrades.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]Unpack archive to [/color][color=#ffe599]&#92;GAMEDATA&#92;MODS&#92;[/color][color=#D4D4D8] directory, and you're ready to go. Also you can use [url=https://www.nexusmods.com/about/vortex/]Vortex [/url]to make installation even easier. [/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]Oxygen harvesters, Gas harvesters and Automated Mining Units now have their output increased to 3250 units, don't need fuel to work and finish production in 5 seconds. Also they are now portable - you can pick them up into you inventory.[/color]\n<br />\n<br />[color=#D4D4D8]Antimatter reactor also produces full stack of antimatter in 5 seconds without ay fuel input.[/color]\n<br />\n<br />[color=#D4D4D8]Gas and Mineral Extractors now work faster and can store up to 750 units of material. Supply Depot now stores up to 9000 units of material.[/color]\n<br />\n<br />Biogenerator now produces 100 times more power and works without need for fuel.\n<br />\n<br />Battery now stores 50 times more power.\n<br />\n<br />Portable refiner now has two inputs, and again - doesn't need fuel. \n<br />\n<br />Personal refiners in exosuit have increased input slots (2 for normal and 3 for MK2), and need to be charged only once.\n<br />\n<br />All refiners (including Medium, Large, Freighter, Corvette, etc.) now share speedup bonus to their production, working 60 times faster than usual.\n<br />\n<br />Creature feeder and Creature harvester are also now portable, plus feeder now spends a bit less food.\n<br />\n<br />And as a small bonus - Health and Shield Stations now recharge fast and work for free, respectively.\n<br />\n<br />All these parameters are set at the top of the respective LUA file, so you can easily change them with [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url].\n<br />\n<br />[color=#e06666][size=4][b]!!! IMPORTANT !!! [/b][/size][/color]\n<br />If you already have these machines deployed, they may be bugged - especially harvesters and portable refiner. You'll have to pick them up and deploy again for them to work properly. \n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]If you want to change parameters of this mod, you can do it with the help of [url=https://github.com/HolterPhylo/AMUMSS/releases]AMUMSS[/url] (detailed instructions how to use it [url=https://www.nexusmods.com/nomanssky/mods/2626]can be found here[/url]). Mod itself doesn't have any specific requirements to use. [/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]Shout out to all of NMS modding community and AMUMSS team especially!\n<br />Special thanks to all modders who already created similar mods. This mod is fully written by me, but I got several ideas from other mod authors.[/color]\n<br />\n<br />[b][size=4]Other mods[/size][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4256]Life support and hazard protection upgrades[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4558]Player mobility upgrade[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4257]Player Weapons Powerup[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4258]Ship weapons powerup[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4269]Vehicle mobility upgrade[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4296]Ship mobility upgrade[/url][/b]\n<br />\n<br />[b][size=4]Additional information[/size][/b]\n<br />Source code for the mod can be found on [url=https://github.com/JW11-modder/NoMansSky]Github[/url].\n<br />You can support me on [url=https://boosty.to/jwmodder/donate]Boosty[/url]. ",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -685837,7 +685837,7 @@
         "size_kb": 15,
         "size_in_bytes": 16373,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4578/59/11/df/5911df2a-7a2c-4e43-9456-5cad59419039.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/59/11/df/5911df2a-7a2c-4e43-9456-5cad59419039"
       },
       {
         "id": [
@@ -685862,7 +685862,7 @@
         "size_kb": 20,
         "size_in_bytes": 20480,
         "changelog_html": "Upgraded Gas and Mineral Extractors and Storage Depots. Also increased capacity of Batteries and made Health and Shield Stations free to use.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4578/b0/83/a0/b083a04c-b3c9-4ba9-9894-5973cfd81cec.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b0/83/a0/b083a04c-b3c9-4ba9-9894-5973cfd81cec"
       },
       {
         "id": [
@@ -685887,7 +685887,7 @@
         "size_kb": 20,
         "size_in_bytes": 20554,
         "changelog_html": "Made harvesters and AMUs placeable in inventory, like Portable Refinery.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4578/b3/4f/e3/b34fe3fc-8f91-41b7-95e9-dfc6fac78f91.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b3/4f/e3/b34fe3fc-8f91-41b7-95e9-dfc6fac78f91"
       },
       {
         "id": [
@@ -685898,9 +685898,9 @@
         "file_id": 49711,
         "name": "Fully Automated Luxury Space Machines",
         "version": "7.05.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 20,
         "file_name": "Fully Automated Luxury Space Machines 4578 7.05.2 2026-10-08T20-08Z 2B5KARbzv.zip",
         "detected_file_extension": "zip",
@@ -685912,7 +685912,32 @@
         "size_kb": 20,
         "size_in_bytes": 20682,
         "changelog_html": "Made all extractors and harvesters portable.",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4578/3d/c5/2d/3dc52db2-1d3b-4f87-8689-a0f29ac129c4.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/3d/c5/2d/3dc52db2-1d3b-4f87-8689-a0f29ac129c4"
+      },
+      {
+        "id": [
+          50219,
+          1634
+        ],
+        "uid": 7017976611883,
+        "file_id": 50219,
+        "name": "Fully Automated Luxury Space Machines",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 23,
+        "file_name": "Fully Automated Luxury Space Machines 4578 7.10 2026-10-29T22-09Z kAMZq0aR6.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793311785,
+        "uploaded_time": "2026-10-29T22:09:45.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f0c4b2a6ef1e8d7f58c0f433e6050f11cac80e0613a78e7d2daa378e02e8c849",
+        "description": "",
+        "size_kb": 23,
+        "size_in_bytes": 23650,
+        "changelog_html": "Added default output capacity for harvesters and made creature feeder and creature harvester portable.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a0/78/ec/a078ec24-b746-4d60-8f22-130269bb20b8"
       }
     ],
     "changelogs": {
@@ -685924,6 +685949,9 @@
       ],
       "7.05.2": [
         "Made all extractors and harvesters portable."
+      ],
+      "7.10": [
+        "Added default output capacity for harvesters and made creature feeder and creature harvester portable."
       ]
     }
   },
@@ -700016,12 +700044,12 @@
     "mod_id": 4697,
     "name": "Bigger Item Grids and Smaller Inventory Slots",
     "summary": "See more items on screen in the inventory and Crafting/Transfer pop-ups with optional Intro and Mod warning skip.",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4697/4697-1792973253-429179887.jpg",
     "author": "SavageCore",
-    "updated_timestamp": 1792973430,
+    "updated_timestamp": 1793311635,
     "created_timestamp": 1792871848,
-    "description": "[center][size=5][b]Bigger Item Grids and Smaller Inventory Slots[/b][/size]\n<br />Inventory increases from 5 rows to [b]7 rows[/b] visible, technology from 3 to [b]4 rows[/b], and the\n<br />Transfer/Craft popups from 8 slots to [b]24 slots[/b] per page[/center]\n<br />[b]What it does[/b]\n<br />[list]\n<br />[*][b]Inventory: [/b]Increase visible rows from 5 to [b]7[/b], Technology from 3 to [b]4[/b].[/*]\n<br />[*][b]Transfer Items and Craft Product popups: [/b]Increase from 4 by 2 (8 slots per page) to [b]8 by 3 (24 slots per page)[/b][/*]\n<br />[/list]\n<br />[b]Requires:[/b] the [b]Nozavolochen Framework[/b] file (provides the host DLL).\n<br />\n<br />[b]Toggles:[/b]\n<br />\n<br />Edit the included [b]mod.toml[/b] in the mod folder under [b]GAMEDATA/MODS[/b]. `popup_pages` and `inventory_grid` must both be `true` for the bigger inventory to function.\n<br />\n<br />Part of the [b]Nozavolochen[/b] mod family (one shared host DLL, spec-driven mods - no closed-source loaders). Intro skip and mod-warning skip are separate mods.\n<br />\n<br />[b]Install[/b]\n<br />\n<br />Import the zip as a normal mod (Amethyst/Vortex) or drop its contents\n<br />into the game folder.\n<br />\n<br />\n<br />\n<br />[b]Compatibility[/b]\n<br />[list]\n<br />[*]Modifies the popup, inventory page, slot and box UI files, plus\n<br />pattern-scanned hooks for the grid and page size.\n<br />Nothing else[/*]\n<br />[*]Built for Forsaken - a game update can shift the patterns, and the log\n<br />will say so instead of misbehaving[/*]\n<br />[*][b].lua [/b]included so you can merge with AMUMSS[/*]\n<br />[/list]Built natively on Linux with my [url=https://github.com/SavageCore/AMUMSS/tree/feat/linux-support]AMUMSS Linux port[/url].\n<br />\n<br />Source: [url=https://github.com/SavageCore/bigger-item-grids-and-smaller-inventory-slots]https://github.com/SavageCore/bigger-item-grids-and-smaller-inventory-slots[/url]",
+    "description": "[center][size=5][b]Bigger Item Grids and Smaller Inventory Slots[/b][/size]\n<br />Inventory increases from 5 rows to [b]7 rows[/b] visible, technology from 3 to [b]4 rows[/b], and the\n<br />Transfer/Craft popups from 8 slots to [b]24 slots[/b] per page[/center]\n<br />[b]What it does[/b]\n<br />[list]\n<br />[*][b]Inventory: [/b]Increase visible rows from 5 to [b]7[/b], Technology from 3 to [b]4[/b].[/*]\n<br />[*][b]Transfer Items and Craft Product popups: [/b]Increase from 4 by 2 (8 slots per page) to [b]8 by 3 (24 slots per page)[/b][/*]\n<br />[/list]\n<br />[b]Requires:[/b] the [b]Nozavolochen Framework[/b] file (provides the host DLL).\n<br />\n<br />[b]Toggles:[/b]\n<br />\n<br />Edit the included [b]mod.toml[/b] in the mod folder under [b]GAMEDATA/MODS[/b]. `popup_pages` and `inventory_grid` must both be `true` for the bigger inventory to function.\n<br />Press backtick (`) in game to open the settings panel and change the toggles live instead.\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4697/4697-1793309175-397528712.png[/img]\n<br />\n<br />Part of the [b]Nozavolochen[/b] mod family (one shared host DLL, spec-driven mods - no closed-source loaders). Intro skip and mod-warning skip are separate mods.\n<br />\n<br />[b]Install[/b]\n<br />\n<br />Import the zip as a normal mod (Amethyst/Vortex) or drop its contents\n<br />into the game folder.\n<br />\n<br />\n<br />\n<br />[b]Compatibility[/b]\n<br />[list]\n<br />[*]Modifies the popup, inventory page, slot and box UI files, plus\n<br />pattern-scanned hooks for the grid and page size.\n<br />Nothing else[/*]\n<br />[*]Built for Forsaken - a game update can shift the patterns, and the log\n<br />will say so instead of misbehaving[/*]\n<br />[*][b].lua [/b]included so you can merge with AMUMSS[/*]\n<br />[/list]Built natively on Linux with my [url=https://github.com/SavageCore/AMUMSS/tree/feat/linux-support]AMUMSS Linux port[/url].\n<br />\n<br />Source: [url=https://github.com/SavageCore/bigger-item-grids-and-smaller-inventory-slots]https://github.com/SavageCore/bigger-item-grids-and-smaller-inventory-slots[/url]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -700109,9 +700137,9 @@
         "file_id": 50099,
         "name": "Bigger Item Grids And Smaller Inventory Slots",
         "version": "0.2.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 58,
         "file_name": "Bigger Item Grids And Smaller Inventory Slots 4697 0.2.1 2026-10-26T00-10Z 58qnW1yRX.zip",
         "detected_file_extension": "zip",
@@ -700124,6 +700152,31 @@
         "size_in_bytes": 59904,
         "changelog_html": "Scale slot fonts so symbols and quantities fit the smaller slots",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/74/cb/65/74cb6574-7b3e-491b-9682-3365cbf0fb89"
+      },
+      {
+        "id": [
+          50217,
+          1634
+        ],
+        "uid": 7017976611881,
+        "file_id": 50217,
+        "name": "Bigger Item Grids And Smaller Inventory Slots",
+        "version": "0.3.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 60,
+        "file_name": "Bigger Item Grids And Smaller Inventory Slots 4697 0.3.0 2026-10-29T22-07Z 58qnW1y66.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793311635,
+        "uploaded_time": "2026-10-29T22:07:15.000+00:00",
+        "mod_version": "0.3.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2c3f79327b0554dfdf51f74d1e6776d263f8ced99b2242259a1951e9ed28fbb9",
+        "description": "",
+        "size_kb": 60,
+        "size_in_bytes": 62335,
+        "changelog_html": "Added in-game overlay support\nFixed Forsaken support",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f8/9b/e6/f89be6d9-40f3-4847-b94e-7097fc85a353"
       }
     ],
     "changelogs": {
@@ -700138,6 +700191,10 @@
       ],
       "0.2.1": [
         "Scale slot fonts so symbols and quantities fit the smaller slots"
+      ],
+      "0.3.0": [
+        "Added in-game overlay support",
+        "Fixed Forsaken support"
       ]
     }
   },
@@ -700323,10 +700380,10 @@
     "mod_id": 4700,
     "name": "Nozavolochen",
     "summary": "Modding framework for No Man's Sky",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4700/4700-1792901252-1276692538.jpg",
     "author": "SavageCore",
-    "updated_timestamp": 1792958952,
+    "updated_timestamp": 1793311578,
     "created_timestamp": 1792949059,
     "description": "[center][size=5][b]Nozavolochen[/b][/size]\n<br />One shared host DLL for independent spec-driven runtime mods[/center]\n<br />[b]What it does[/b]\n<br />\n<br />Nozavolochen (Korvax for \"convergence\") is a single `xinput9_1_0.dll` that hosts any number of mods. Each mod is a folder with a `mod.toml` describing pattern patches the loader applies at game boot. Mods that are static data only need no framework support at all.\n<br />\n<br />On its own, Nozavolochen does nothing. It only provides the infrastructure for mods to hook into the game.\n<br />\n<br />[b]Why[/b]\n<br />\n<br />Nozavolochen exists to unify mod loading under a single DLL, reducing conflicts and simplifying the modding process. When I built [url=https://www.nexusmods.com/nomanssky/mods/4697]Bigger Item Grids and Smaller Inventory Slots[/url] I needed to include the functionality of [url=https://www.nexusmods.com/nomanssky/mods/4545]NMS BootSkip[/url] as only one DLL can load at a time, which motivated the creation of a shared host for multiple mods.\n<br />\n<br />[b]Install[/b]\n<br />[list]\n<br />[*][b]Vortex:[/b] install with no extra steps. It routes the DLL into `Binaries/` for you.[/*]\n<br />[*][b]Amethyst (Routing Rule, one-time):[/b] [b]Data tab &gt; Routing Rules[/b] (bottom, near Search) [b]&gt; Add &gt; Destinations:[/b] `Binaries`, [b]Extensions:[/b] `.dll` [b]&gt; Save[/b], then deploy.[/*]\n<br />[*][b]Manual install (no manager):[/b] drop `xinput9_1_0.dll` into the game's `Binaries/` folder.[/*]\n<br />[/list]Then install any Nozavolochen mods normally; each declares this mod as a required dependency.\n<br />\n<br />On Linux (Proton), add this line to the game's Launch Options:\n<br />\n<br />[code]WINEDLLOVERRIDES=\"xinput9_1_0=n,b\" %command%[/code]\n<br />After launch, `Binaries/nozavolochen.log` records per-mod results to help with debugging.\n<br />\n<br />[b]Compatibility[/b]\n<br />[list]\n<br />[*]Pattern-scanned hooks against NMS.exe, built for Forsaken. A game update can shift the patterns, and the log will say which patch refused to apply instead of misbehaving[/*]\n<br />[*]Forward the 7 XInput exports to the system DLL, so controllers keep working with or without patches applied[/*]\n<br />[/list]\n<br />[b]Documentation[/b]\n<br />\n<br />[url=https://nozavolochen.github.io/docs/]https://nozavolochen.github.io/docs/[/url]\n<br />\n<br />[b]Source[/b]\n<br />\n<br />[url=https://github.com/Nozavolochen/framework]https://github.com/Nozavolochen/framework[/url]\n<br />\n<br />[b]License[/b]\n<br />\n<br />[url=https://github.com/Nozavolochen/framework/blob/main/LICENSE]MIT[/url]",
     "state": "normal",
@@ -700466,9 +700523,9 @@
         "file_id": 50093,
         "name": "Nozavolochen Framework 0.1.1",
         "version": "0.1.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 292,
         "file_name": "Nozavolochen Framework 0.1.1 4700 0.1.1 2026-10-25T20-09Z 58qnW1yRR.zip",
         "detected_file_extension": "zip",
@@ -700481,11 +700538,73 @@
         "size_in_bytes": 299411,
         "changelog_html": "Fixed nested Binaries folder on Vortex, will now work with one-click. Amethyst will need a Routing Rule setup or manual install for the \".dll\" to go into the Binaries folder of the game. Instructions in description.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e2/d0/45/e2d045d6-030a-4316-a3f1-aaa8feb978b7"
+      },
+      {
+        "id": [
+          50215,
+          1634
+        ],
+        "uid": 7017976611879,
+        "file_id": 50215,
+        "name": "Nozavolochen Framework 0.2.0",
+        "version": "0.2.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 428,
+        "file_name": "Nozavolochen Framework 0.2.0 4700 0.2.0 2026-10-29T22-02Z CmY2hwklx.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793311334,
+        "uploaded_time": "2026-10-29T22:02:14.000+00:00",
+        "mod_version": "0.2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/421289024b732c721fd5d4f4a8138cbcc8864a289c76e375ea96fcc23c66bae8",
+        "description": "",
+        "size_kb": 428,
+        "size_in_bytes": 439110,
+        "changelog_html": "In-game overlay (backtick to open, Tab switches pages):\n- Settings page: live-adjustable rows under collapsible mod headers, edits apply instantly and save into each mod's own mod.toml. Values stay amber until the reload confirms them, Delete resets to default.\n- Mods page: every installed mod with its version and on/off switch, toggles apply live without a restart. Folders with a broken mod.toml show their error.\n- Rows of a switched-off mod render dimmed; switch it back on from the Mods page.\nLanguages:\n- Panel and mod descriptions follow the game language (Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Brazilian Portuguese, Russian, Latin American Spanish, Spanish, Traditional Chinese, Simplified Chinese), English fallback. Mods can now ship their own translations.\nMod authors:\n- page-size-override anchors and xref policy are per-mod keys, so game drift (like the Forsaken duplicate anchor) is fixed in mod.toml, not the host.\n- retarget-jmp handles the Forsaken compiler output.\n- Smaller inventory slots keep vanilla scroll alignment.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/7f/97/ea/7f97eaf2-07ba-4d5f-8eb0-e878bf56caf5"
+      },
+      {
+        "id": [
+          50216,
+          1634
+        ],
+        "uid": 7017976611880,
+        "file_id": 50216,
+        "name": "Nozavolochen Framework 0.2.0",
+        "version": "0.2.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 435,
+        "file_name": "Nozavolochen Framework 0.2.0 4700 0.2.0 2026-10-29T22-06Z YjQ5seM9f.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793311578,
+        "uploaded_time": "2026-10-29T22:06:18.000+00:00",
+        "mod_version": "0.2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e94e4584c1f934f81cb490b3987f59f17fcdf667ae8ffe6a804e3ece2f3c4630",
+        "description": "",
+        "size_kb": 435,
+        "size_in_bytes": 446294,
+        "changelog_html": "In-game overlay (backtick to open, Tab switches pages):\n- Settings page: live-adjustable rows under collapsible mod headers, edits apply instantly and save into each mod's own mod.toml. Values stay amber until the reload confirms them, Delete resets to default.\n- Mods page: every installed mod with its version and on/off switch, toggles apply live without a restart. Folders with a broken mod.toml show their error.\n- Rows of a switched-off mod render dimmed; switch it back on from the Mods page.\nLanguages:\n- Panel and mod descriptions follow the game language (Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Brazilian Portuguese, Russian, Latin American Spanish, Spanish, Traditional Chinese, Simplified Chinese), English fallback. Mods can now ship their own translations.\nMod authors:\n- page-size-override anchors and xref policy are per-mod keys, so game drift (like the Forsaken duplicate anchor) is fixed in mod.toml, not the host.\n- retarget-jmp handles the Forsaken compiler output.\n- Smaller inventory slots keep vanilla scroll alignment.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b3/94/34/b3943416-cd39-44fa-b78c-ae80b46955ec"
       }
     ],
     "changelogs": {
       "0.1.1": [
         "Fixed nested Binaries folder on Vortex, will now work with one-click. Amethyst will need a Routing Rule setup or manual install for the \".dll\" to go into the Binaries folder of the game. Instructions in description."
+      ],
+      "0.2.0": [
+        "In-game overlay (backtick to open, Tab switches pages):",
+        "- Settings page: live-adjustable rows under collapsible mod headers, edits apply instantly and save into each mod's own mod.toml. Values stay amber until the reload confirms them, Delete resets to default.",
+        "- Mods page: every installed mod with its version and on/off switch, toggles apply live without a restart. Folders with a broken mod.toml show their error.",
+        "- Rows of a switched-off mod render dimmed; switch it back on from the Mods page.",
+        "Languages:",
+        "- Panel and mod descriptions follow the game language (Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Brazilian Portuguese, Russian, Latin American Spanish, Spanish, Traditional Chinese, Simplified Chinese), English fallback. Mods can now ship their own translations.",
+        "Mod authors:",
+        "- page-size-override anchors and xref policy are per-mod keys, so game drift (like the Forsaken duplicate anchor) is fixed in mod.toml, not the host.",
+        "- retarget-jmp handles the Forsaken compiler output.",
+        "- Smaller inventory slots keep vanilla scroll alignment."
       ]
     }
   },
@@ -701231,10 +701350,10 @@
     "mod_id": 4706,
     "name": "Intro Skip",
     "summary": "Skips the No Man's Sky startup logos.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4706/4706-1792948704-787660390.jpg",
     "author": "SavageCore",
-    "updated_timestamp": 1792949308,
+    "updated_timestamp": 1793312258,
     "created_timestamp": 1792949308,
     "description": "[center][size=5][b]Intro Skip[/b][/size]\n<br />Skips the No Man's Sky startup logos.[/center]\n<br />\n<br />[b]What it does[/b]\n<br />The logos are replaced with a black screen while the game keeps loading\n<br />behind it. Once loading finishes you reach the mod-warning dialog (if you\n<br />run mods) and then the title. Pair with [url=https://www.nexusmods.com/nomanssky/mods/4707/]Mod Warning Skip[/url] to go straight to the Main Menu.\n<br />\n<br />[b]Toggles[/b]\n<br />Edit [b]mod.toml[/b] in the mod folder under [b]GAMEDATA/MODS/Intro Skip[/b]:\n<br />[list]\n<br />[*][b]logo_texture[/b] - skips the logo texture loads[/*]\n<br />[*][b]logo_wait[/b] - skips the splash wait branch[/*]\n<br />[/list]\n<br />[b]Requires:[/b] the [b][url=https://www.nexusmods.com/nomanssky/mods/4700]Nozavolochen Framework[/url][/b] (provides the shared host DLL - spec-driven, no closed-source loaders).\n<br />\n<br />[b]Install[/b]\n<br />Install like any other mod into [b]GAMEDATA/MODS[/b] so you end up with [b]GAMEDATA/MODS/Intro Skip/mod.toml[/b]. The Nozavolochen framework provides the host DLL. After launch [i]Binaries/nozavolochen.log[/i] shows what was applied or any errors.\n<br />\n<br />[b]Compatibility[/b]\n<br />[list]\n<br />[*]Runtime memory patches applied by the host DLL at boot. No game files\n<br />are modified, so there is nothing to merge and nothing to conflict with[/*]\n<br />[*]Patterns are checked before patching - a game update that shifts them is\n<br />reported in the log instead of misbehaving[/*]\n<br />[/list]\n<br />Source: [url=https://github.com/SavageCore/nms-intro-skip]https://github.com/SavageCore/nms-intro-skip[/url]",
     "state": "normal",
@@ -701249,9 +701368,9 @@
         "file_id": 50083,
         "name": "Intro Skip",
         "version": "0.1.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 0,
         "file_name": "Intro Skip 4706 0.1.0 2026-10-25T17-28Z 2B5KARZBD.zip",
         "detected_file_extension": "zip",
@@ -701264,18 +701383,73 @@
         "size_in_bytes": 616,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/79/67/b6/7967b6d0-a243-463d-9087-6e124aabbaae"
+      },
+      {
+        "id": [
+          50220,
+          1634
+        ],
+        "uid": 7017976611884,
+        "file_id": 50220,
+        "name": "Intro Skip",
+        "version": "0.2.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Intro Skip 4706 0.2.0 2026-10-29T22-10Z 31ISml24a.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793311855,
+        "uploaded_time": "2026-10-29T22:10:55.000+00:00",
+        "mod_version": "0.2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/adbea01a1babf1c4d628bfdc72add458c746c5c650c8363b7b9d56c511f10b94",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1966,
+        "changelog_html": "Added in-game overlay support\nAdded in-game overlay support",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/56/b4/70/56b470ba-2584-412f-994a-b492e6ea090b"
+      },
+      {
+        "id": [
+          50221,
+          1634
+        ],
+        "uid": 7017976611885,
+        "file_id": 50221,
+        "name": "Intro Skip",
+        "version": "0.2.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1,
+        "file_name": "Intro Skip 4706 0.2.0 2026-10-29T22-17Z DcGFLK6Yj.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793312258,
+        "uploaded_time": "2026-10-29T22:17:38.000+00:00",
+        "mod_version": "0.2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/aacabe7903c683d67b69da3cb811731b0564f2d472237e9353554fb15075846f",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1966,
+        "changelog_html": "Added in-game overlay support\nAdded in-game overlay support",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/5e/bb/4d/5ebb4d5e-0329-40a9-832f-269e2b0d060b"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "0.2.0": [
+        "Added in-game overlay support",
+        "Added in-game overlay support"
+      ]
+    }
   },
   {
     "mod_id": 4707,
     "name": "Mod Warning Skip",
     "summary": "Skips the No Man's Sky \"mods detected\" warning dialog.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4707/4707-1792948878-402898597.jpg",
     "author": "SavageCore",
-    "updated_timestamp": 1792949336,
+    "updated_timestamp": 1793312280,
     "created_timestamp": 1792949336,
     "description": "[center][size=5][b]Mod Warning Skip[/b][/size]\n<br />Skips the No Man's Sky \"mods detected\" warning dialog.[/center]\n<br />\n<br />[b]What it does[/b]\n<br />The warning dialog is dismissed automatically, so you go straight to the Main Menu. Pair with [url=https://www.nexusmods.com/nomanssky/mods/4706]Intro Skip[/url] to skip the startup logos too.\n<br />\n<br />[b]Toggles[/b]\n<br />None - the single patch applies whenever the mod folder is present. Remove\n<br />the folder or set [i]enabled = false[/i] in [b]mod.toml[/b] to turn it off.\n<br />\n<br />[b]Requires:[/b] the [b][url=https://www.nexusmods.com/nomanssky/mods/4700]Nozavolochen Framework[/url][/b] (provides the shared host DLL - spec-driven, no closed-source loaders).\n<br />\n<br />[b]Install[/b]\n<br />Install like any other mod into [b]GAMEDATA/MODS[/b] so you end up with [b]GAMEDATA/MODS/Mod Warning Skip/mod.toml[/b]. The Nozavolochen framework provides the host DLL. After launch [i]Binaries/nozavolochen.log[/i] shows what was applied or any errors.\n<br />\n<br />[b]Compatibility[/b]\n<br />[list]\n<br />[*]Runtime memory patches applied by the host DLL at boot. No game files\n<br />are modified, so there is nothing to merge and nothing to conflict with[/*]\n<br />[*]Patterns are checked before patching - a game update that shifts them is\n<br />reported in the log instead of misbehaving[/*]\n<br />[/list]\n<br />Source: [url=https://github.com/SavageCore/nms-mod-warning-skip]https://github.com/SavageCore/nms-mod-warning-skip[/url]",
     "state": "normal",
@@ -701290,9 +701464,9 @@
         "file_id": 50084,
         "name": "Mod Warning Skip",
         "version": "0.1.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 0,
         "file_name": "Mod Warning Skip 4707 0.1.0 2026-10-25T17-28Z HZO4arlZ8.zip",
         "detected_file_extension": "zip",
@@ -701305,9 +701479,64 @@
         "size_in_bytes": 569,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/dd/8b/8c/dd8b8c97-1df1-45f4-a1e3-51712d723490"
+      },
+      {
+        "id": [
+          50218,
+          1634
+        ],
+        "uid": 7017976611882,
+        "file_id": 50218,
+        "name": "Mod Warning Skip",
+        "version": "0.2.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Mod Warning Skip 4707 0.2.0 2026-10-29T22-09Z FpHgXM75Q.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793311777,
+        "uploaded_time": "2026-10-29T22:09:37.000+00:00",
+        "mod_version": "0.2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/937a120bc2872d465e06ad72739402c55ca43e49d18d22fb48aeb6e331d60d45",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1223,
+        "changelog_html": "Added in-game overlay support\nAdded in-game overlay support",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9d/bb/f8/9dbbf83d-3529-4c62-98eb-3acd3b4113aa"
+      },
+      {
+        "id": [
+          50222,
+          1634
+        ],
+        "uid": 7017976611886,
+        "file_id": 50222,
+        "name": "Mod Warning Skip",
+        "version": "0.2.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1,
+        "file_name": "Mod Warning Skip 4707 0.2.0 2026-10-29T22-18Z mijBfGANY.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793312280,
+        "uploaded_time": "2026-10-29T22:18:00.000+00:00",
+        "mod_version": "0.2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e13515588a58bc23c34c23f793c2ed617291316b32a8f9c566285d9737a8c9d5",
+        "description": "",
+        "size_kb": 1,
+        "size_in_bytes": 1223,
+        "changelog_html": "Added in-game overlay support\nAdded in-game overlay support",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c7/66/ca/c766ca49-928d-4fec-91ff-70b08690d83b"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "0.2.0": [
+        "Added in-game overlay support",
+        "Added in-game overlay support"
+      ]
+    }
   },
   {
     "mod_id": 4709,
