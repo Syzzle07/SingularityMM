@@ -536976,10 +536976,10 @@
     "mod_id": 3070,
     "name": "Raw materials icons",
     "summary": "Collection of replacement icons for substation",
-    "version": "3.2",
+    "version": "4.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3070/3070-1747618190-37213279.jpeg",
     "author": "Phantom",
-    "updated_timestamp": 1791373043,
+    "updated_timestamp": 1793480644,
     "created_timestamp": 1717908725,
     "description": "[quote][b][i][color=#6aa84f][size=4]Description:[/size][/color][/i][/b]\n<br />\n<br />[b][i]Replace the icons of chemical elements with more understandable ones. As much as possible. [/i][/b][/quote]\n<br />[quote][b][i][color=#6aa84f][size=4]ADDED:[/size][/color][/i][/b]\n<br />\n<br />[color=#efefef][i]Ver.2.0 A significant part of the mod has been redesigned. With a general increase in detail and texture quality. New ones have been added and the current ones have been changed. [/i][/color][/quote]\n<br />[quote][b][color=#6aa84f][size=4][i]ADDED:[/i][/size][/color][/b]\n<br />\n<br />[i]Ver.3.0 The gases were received by containers. Modification and replacement of some old textures. Improving the quality and conformity of materials[/i][/quote]\n<br />[quote][color=#6aa84f][b][i][size=4]ADDED:[/size][/i]\n<br />\n<br />[/b][/color][i]An optional file for black carbon has been added.[/i][/quote]\n<br />[quote][b][color=#6aa84f][size=4][i]ADDED:[/i][/size][/color][/b]\n<br />\n<br />[i]A version with internal and external glow of icon items has been added. In accordance with the NMS style.[/i][/quote]\n<br />[quote][b][i][color=#6aa84f][size=4]Compatibility:[/size][/color][/i][/b]\n<br />\n<br />[i]The mod contains textures.[/i][/quote]\n<br />[quote][b][i][color=#6aa84f][size=4]Recommended Mod:[/size][/color][/i][/b]\n<br />\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3458][i]Borderless Icons[/i][/url][/quote]\n<br />[quote][b][i][color=#980000][size=4]Conflict Mod:[/size][/color][/i][/b]\n<br />\n<br />[url=https://www.nexusmods.com/nomanssky/mods/1277?tab=files][i]Colorless Inventories[/i][/url][/quote]\n<br />[quote][b][color=#6aa84f][size=4][i]Installation:[/i][/size][/color][/b]\n<br />\n<br />Install like any no man's sky's mods :\n<br />\n<br />Create a folder called MODS in the folder &lt;No man's sky installation directory&gt;/GAMEDATA/\n<br />\n<br />Extract the content of the zip file in &lt;No man's sky installation directory&gt;/GAMEDATA/MODS/[/quote]\n<br />[quote][size=4][b][url=https://www.nexusmods.com/profile/Phantom7z1/mods][size=4][i]Click HERE to see links to all my mods.[/i][/size][/url][/b][/size][/quote]\n<br />[quote]You can support me on [url=https://boosty.to/phantom7z/donate?forPost=10988835]Boosty[/url].[/quote]",
     "state": "normal",
@@ -537183,7 +537183,7 @@
         "size_kb": 1900,
         "size_in_bytes": 1946504,
         "changelog_html": "An optional file for black carbon has been added.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3070/3b/e2/85/3be28570-44bd-4308-9fe4-d66c7cfc5a18.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/3b/e2/85/3be28570-44bd-4308-9fe4-d66c7cfc5a18"
       },
       {
         "id": [
@@ -537208,7 +537208,7 @@
         "size_kb": 3550,
         "size_in_bytes": 3635806,
         "changelog_html": "An optional file for black carbon has been added.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3070/64/2d/b8/642db884-ad85-4609-a74c-a571c5372a7b.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/64/2d/b8/642db884-ad85-4609-a74c-a571c5372a7b"
       },
       {
         "id": [
@@ -537233,7 +537233,7 @@
         "size_kb": 2034,
         "size_in_bytes": 2083027,
         "changelog_html": "An optional file for black carbon has been added.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3070/47/66/b4/4766b411-da64-40e3-961e-d51d14e17e76.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/47/66/b4/4766b411-da64-40e3-961e-d51d14e17e76"
       },
       {
         "id": [
@@ -537244,8 +537244,8 @@
         "file_id": 49645,
         "name": "IconRawMaterials",
         "version": "3.2",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 2287,
         "file_name": "IconRawMaterials 3070 3.2 2026-10-07T11-36Z n0CrIxzXk.7z",
@@ -537258,7 +537258,7 @@
         "size_kb": 2287,
         "size_in_bytes": 2342687,
         "changelog_html": "Raw Materials Exotic, page 2 in the catalog — now in this pack. See the screenshot. The mod folder name has changed. Delete the old version of the mod before installing.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3070/3c/fa/22/3cfa2228-03bd-49d0-87b0-9563203b1442.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/3c/fa/22/3cfa2228-03bd-49d0-87b0-9563203b1442"
       },
       {
         "id": [
@@ -537269,9 +537269,9 @@
         "file_id": 49646,
         "name": "IconRawMaterialsGlow",
         "version": "3.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 2456,
         "file_name": "IconRawMaterialsGlow 3070 3.2 2026-10-07T11-37Z 9Lg6VZTBl.7z",
         "detected_file_extension": "7z",
@@ -537283,7 +537283,57 @@
         "size_kb": 2456,
         "size_in_bytes": 2515809,
         "changelog_html": "Raw Materials Exotic, page 2 in the catalog — now in this pack. See the screenshot. The mod folder name has changed. Delete the old version of the mod before installing.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3070/77/36/cb/7736cbec-4390-49b1-8517-67ec95323b33.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/77/36/cb/7736cbec-4390-49b1-8517-67ec95323b33"
+      },
+      {
+        "id": [
+          50278,
+          1634
+        ],
+        "uid": 7017976611942,
+        "file_id": 50278,
+        "name": "IconRawMaterialsGlow",
+        "version": "4.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2604,
+        "file_name": "IconRawMaterialsGlow 3070 4.0 2026-10-31T21-03Z YjQ5seMF9.7z",
+        "detected_file_extension": "7z",
+        "uploaded_timestamp": 1793480617,
+        "uploaded_time": "2026-10-31T21:03:37.000+00:00",
+        "mod_version": "4.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/193d4a8134f43b552137c849770cff407e43c5a6f2dde95edbbd97d82606c361",
+        "description": "",
+        "size_kb": 2604,
+        "size_in_bytes": 2667386,
+        "changelog_html": "Important! Now the mod uses its own background colors for icons in the inventory. For the correct display of replaced icons and sorting by color. The previously recommended mod Colorless Inventories will conflict with my mod. There is no need to install it.\nThe mod structure has changed. Before installing the mod, delete the old version. In the Glow version, the blending parameters have been changed (inner outer glow, inner outer shadow). See the last 3 screenshots.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ec/b5/f0/ecb5f0c4-1166-4bdf-a0f1-f664bc4a3b95"
+      },
+      {
+        "id": [
+          50279,
+          1634
+        ],
+        "uid": 7017976611943,
+        "file_id": 50279,
+        "name": "IconRawMaterials",
+        "version": "4.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 2288,
+        "file_name": "IconRawMaterials 3070 4.0 2026-10-31T21-04Z 58qnW1ygg.7z",
+        "detected_file_extension": "7z",
+        "uploaded_timestamp": 1793480644,
+        "uploaded_time": "2026-10-31T21:04:04.000+00:00",
+        "mod_version": "4.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0f89555ae4e1731058a730585f376ff773bdf8fb006ab4edc3ff634ade4ca74e",
+        "description": "",
+        "size_kb": 2288,
+        "size_in_bytes": 2343860,
+        "changelog_html": "Important! Now the mod uses its own background colors for icons in the inventory. For the correct display of replaced icons and sorting by color. The previously recommended mod Colorless Inventories will conflict with my mod. There is no need to install it.\nThe mod structure has changed. Before installing the mod, delete the old version. In the Glow version, the blending parameters have been changed (inner outer glow, inner outer shadow). See the last 3 screenshots.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/04/e3/8f/04e38fe9-d84a-42b0-9c4e-c153ca1511dd"
       }
     ],
     "changelogs": {
@@ -537298,6 +537348,10 @@
       ],
       "3.2": [
         "Raw Materials Exotic, page 2 in the catalog — now in this pack. See the screenshot. The mod folder name has changed. Delete the old version of the mod before installing."
+      ],
+      "4.0": [
+        "Important! Now the mod uses its own background colors for icons in the inventory. For the correct display of replaced icons and sorting by color. The previously recommended mod Colorless Inventories will conflict with my mod. There is no need to install it.",
+        "The mod structure has changed. Before installing the mod, delete the old version. In the Glow version, the blending parameters have been changed (inner outer glow, inner outer shadow). See the last 3 screenshots."
       ]
     }
   },
@@ -605036,10 +605090,10 @@
     "mod_id": 3606,
     "name": "Replace Icon Exotic Goods and Trade Goods",
     "summary": "Global replacement of game icons!.",
-    "version": "2.0",
+    "version": "3.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3606/3606-1791390180-2118901928.jpg",
     "author": "Phantom",
-    "updated_timestamp": 1791394060,
+    "updated_timestamp": 1793477052,
     "created_timestamp": 1751569962,
     "description": "\n<br />[quote][b][color=#6aa84f][size=4][i]Description:[/i][/size][/color][/b]\n<br />\n<br />[b][color=#ffffff][size=3][i]Collection of replacement icon.  Replacing the categories Exotic Goods, Trade Goods. Install separately or both at once.\n<br />\n<br />Versions with internal and external icon glow have been added. In accordance with the NMS style. Look at the screenshots.[/i][/size][/color][/b][/quote]\n<br />[quote][b][color=#6aa84f][size=4][i]Recommendation Mod:[/i][/size][/color][/b]\n<br />\n<br />[i][url=http://www.nexusmods.com/nomanssky/mods/3458]Borderless Icons[/url]      ﻿ [/i][/quote]\n<br />[quote][i][b][color=#a61c00][size=4]Conflict Mod:[/size][/color][/b][/i]\n<br />\n<br />[i][url=http://www.nexusmods.com/nomanssky/mods/1277?tab=files]Colorless Inventories[/url]          ﻿    ﻿ [/i][/quote]\n<br />[quote][i][color=#6aa84f][size=4][b]Compatibility:[/b][/size][/color][/i]\n<br />\n<br />[b][color=#ffffff][size=3][i]The mod contains textures.[/i][/size][/color][/b][/quote]\n<br />[quote][i][color=#6aa84f][size=4][b]Installation:[/b][/size][/color][/i]\n<br />\n<br />[size=3][i][b][color=#ffffff]Install like any no man's sky's mods :[/color][/b]\n<br />\n<br />[b][color=#ffffff]Create a folder called MODS in the folder &lt;No man's sky installation directory&gt;/GAMEDATA/[/color][/b]\n<br />\n<br />[b][color=#ffffff]Extract the content of the zip file in &lt;No man's sky installation directory&gt;/GAMEDATA/MODS/[/color][/b][/i][/size][/quote]\n<br />[quote][b][color=#ffffff][size=4][i][url=https://www.nexusmods.com/profile/Phantom7z1/mods]Click HERE to see links to all my mods.[/url][/i][/size][/color][/b][/quote]\n<br />[quote][i][color=#ffffff][size=3]You can support me on [url=https://boosty.to/phantom7z/donate?forPost=10988835]Boosty[/url].[/size][/color][/i][/quote]",
     "state": "normal",
@@ -605104,9 +605158,9 @@
         "file_id": 49661,
         "name": "IconExoticGoods",
         "version": "2.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 1089,
         "file_name": "IconExoticGoods 3606 2.0 2026-10-07T17-26Z kAMZq0JGp.7z",
         "detected_file_extension": "7z",
@@ -605118,7 +605172,7 @@
         "size_kb": 1089,
         "size_in_bytes": 1115492,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3606/47/a9/36/47a936ae-4f97-4d57-89f4-e1cbbcac016b.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/47/a9/36/47a936ae-4f97-4d57-89f4-e1cbbcac016b"
       },
       {
         "id": [
@@ -605129,8 +605183,8 @@
         "file_id": 49662,
         "name": "IconExoticGoodsGlow",
         "version": "2.0",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 1124,
         "file_name": "IconExoticGoodsGlow 3606 2.0 2026-10-07T17-26Z 31ISmluZ3.7z",
@@ -605143,7 +605197,7 @@
         "size_kb": 1124,
         "size_in_bytes": 1151224,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3606/ce/34/a2/ce34a2d6-f4e8-445e-a5e4-87d93421d90e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ce/34/a2/ce34a2d6-f4e8-445e-a5e4-87d93421d90e"
       },
       {
         "id": [
@@ -605154,8 +605208,8 @@
         "file_id": 49663,
         "name": "IconTradeGoods",
         "version": "2.0",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 4896,
         "file_name": "IconTradeGoods 3606 2.0 2026-10-07T17-27Z DcGFLKeoN.7z",
@@ -605168,7 +605222,7 @@
         "size_kb": 4896,
         "size_in_bytes": 5014128,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3606/65/58/4f/65584fe8-c17f-4c00-b35d-4a446daa02a6.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/65/58/4f/65584fe8-c17f-4c00-b35d-4a446daa02a6"
       },
       {
         "id": [
@@ -605179,8 +605233,8 @@
         "file_id": 49664,
         "name": "IconTradeGoodsGlow",
         "version": "2.0",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 2808,
         "file_name": "IconTradeGoodsGlow 3606 2.0 2026-10-07T17-27Z mijBfGQSl.7z",
@@ -605193,12 +605247,117 @@
         "size_kb": 2808,
         "size_in_bytes": 2875713,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/3606/5e/c9/37/5ec937d1-185a-4b29-ade6-22f89842a659.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/5e/c9/37/5ec937d1-185a-4b29-ade6-22f89842a659"
+      },
+      {
+        "id": [
+          50273,
+          1634
+        ],
+        "uid": 7017976611937,
+        "file_id": 50273,
+        "name": "IconExoticGoods",
+        "version": "3.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1285,
+        "file_name": "IconExoticGoods 3606 3.0 2026-10-31T20-02Z GkVHbndAL.7z",
+        "detected_file_extension": "7z",
+        "uploaded_timestamp": 1793476950,
+        "uploaded_time": "2026-10-31T20:02:30.000+00:00",
+        "mod_version": "3.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1f327775956ab37dc8efbd80f04cb12642eefda414878270da45598eedc845e8",
+        "description": "",
+        "size_kb": 1285,
+        "size_in_bytes": 1316442,
+        "changelog_html": "Important! Now the mod uses its own background colors for icons in the inventory. For the correct display of replaced icons and sorting by color.\nAlso, the background colors of trade products will have a corresponding background color based on the economy filter used on the galactic map. The previously recommended mod Colorless Inventories will conflict with my mod. There is no need to install it.\nThe mod structure has changed. Before installing the mod, delete the old version.  In the Glow version, the blending parameters have been changed (inner outer glow, inner outer shadow).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f1/4e/bd/f14ebdc8-1f5d-48f1-9e21-c8aeef92d363"
+      },
+      {
+        "id": [
+          50274,
+          1634
+        ],
+        "uid": 7017976611938,
+        "file_id": 50274,
+        "name": "IconExoticGoodsGlow",
+        "version": "3.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 1391,
+        "file_name": "IconExoticGoodsGlow 3606 3.0 2026-10-31T20-03Z RH1TdJvZg.7z",
+        "detected_file_extension": "7z",
+        "uploaded_timestamp": 1793476994,
+        "uploaded_time": "2026-10-31T20:03:14.000+00:00",
+        "mod_version": "3.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f414d8370022ecd2642725c9149d00687f33ae05bd557ab0328848f366caee99",
+        "description": "",
+        "size_kb": 1391,
+        "size_in_bytes": 1424711,
+        "changelog_html": "Important! Now the mod uses its own background colors for icons in the inventory. For the correct display of replaced icons and sorting by color.\nAlso, the background colors of trade products will have a corresponding background color based on the economy filter used on the galactic map. The previously recommended mod Colorless Inventories will conflict with my mod. There is no need to install it.\nThe mod structure has changed. Before installing the mod, delete the old version.  In the Glow version, the blending parameters have been changed (inner outer glow, inner outer shadow).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/35/65/23/35652324-52b8-437b-9f75-accc28d19e78"
+      },
+      {
+        "id": [
+          50275,
+          1634
+        ],
+        "uid": 7017976611939,
+        "file_id": 50275,
+        "name": "IconTradeGoods",
+        "version": "3.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 2338,
+        "file_name": "IconTradeGoods 3606 3.0 2026-10-31T20-03Z L5bXM3O85.7z",
+        "detected_file_extension": "7z",
+        "uploaded_timestamp": 1793477025,
+        "uploaded_time": "2026-10-31T20:03:45.000+00:00",
+        "mod_version": "3.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f11700ca196388e8892d7561667053b4f2e563a382198f5208d88be9f45ce841",
+        "description": "",
+        "size_kb": 2338,
+        "size_in_bytes": 2394897,
+        "changelog_html": "Important! Now the mod uses its own background colors for icons in the inventory. For the correct display of replaced icons and sorting by color.\nAlso, the background colors of trade products will have a corresponding background color based on the economy filter used on the galactic map. The previously recommended mod Colorless Inventories will conflict with my mod. There is no need to install it.\nThe mod structure has changed. Before installing the mod, delete the old version.  In the Glow version, the blending parameters have been changed (inner outer glow, inner outer shadow).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/83/c7/11/83c711c6-6d23-43d2-8c50-6062aa582bff"
+      },
+      {
+        "id": [
+          50276,
+          1634
+        ],
+        "uid": 7017976611940,
+        "file_id": 50276,
+        "name": "IconTradeGoodsGlow",
+        "version": "3.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 2525,
+        "file_name": "IconTradeGoodsGlow 3606 3.0 2026-10-31T20-04Z PuUGp5gh2.7z",
+        "detected_file_extension": "7z",
+        "uploaded_timestamp": 1793477052,
+        "uploaded_time": "2026-10-31T20:04:12.000+00:00",
+        "mod_version": "3.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0f1c96a2cfa125744f77b013bca1aabfbe0b49a4fd7aaf3345046de5a1c05356",
+        "description": "",
+        "size_kb": 2525,
+        "size_in_bytes": 2586499,
+        "changelog_html": "Important! Now the mod uses its own background colors for icons in the inventory. For the correct display of replaced icons and sorting by color.\nAlso, the background colors of trade products will have a corresponding background color based on the economy filter used on the galactic map. The previously recommended mod Colorless Inventories will conflict with my mod. There is no need to install it.\nThe mod structure has changed. Before installing the mod, delete the old version.  In the Glow version, the blending parameters have been changed (inner outer glow, inner outer shadow).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/bf/a9/d2/bfa9d2c9-766b-4fa5-b168-811cf9def773"
       }
     ],
     "changelogs": {
       "1.1": [
         "Refinement of textures. Some kind of substitution. See the screenshots."
+      ],
+      "3.0": [
+        "Important! Now the mod uses its own background colors for icons in the inventory. For the correct display of replaced icons and sorting by color.",
+        "Also, the background colors of trade products will have a corresponding background color based on the economy filter used on the galactic map. The previously recommended mod Colorless Inventories will conflict with my mod. There is no need to install it.",
+        "The mod structure has changed. Before installing the mod, delete the old version.  In the Glow version, the blending parameters have been changed (inner outer glow, inner outer shadow)."
       ]
     }
   },
@@ -690928,14 +691087,14 @@
   },
   {
     "mod_id": 4609,
-    "name": "Snap Angles for Corvettes and Bases",
-    "summary": "Angle your building pieces without losing snap. Hinge, lift and twist base parts and corvette modules in 15 or 5 degree steps while they stay snapped, or nudge them part of a step like glitch building. Plus a pattern key, adjustable snap range, chaining half stairs and a corvette camera. Other players see your builds without the mod.",
-    "version": "2.0",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4609/4609-1790970788-651288868.jpg",
+    "name": "Snap Angles - Corvette and Base Building Overhaul",
+    "summary": "Angle, nudge and resize your building pieces without losing snap. Hinge, lift and twist in 15, 5 or 1 degree steps, nudge in 1/8 steps, and keep your size for the next piece. Plus cross-snapping and shared build menus for bases, corvettes and freighters, gamepad support and an on-screen controls list. Other players see your builds without the mod.",
+    "version": "2.0.1",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4609/4609-1793470943-1905711022.jpg",
     "author": "ModG0blin",
-    "updated_timestamp": 1793469259,
+    "updated_timestamp": 1793479194,
     "created_timestamp": 1790975060,
-    "description": "[b][size=5]Full 360° Rotation in 15° or 5° Steps. Position &amp; Angle Base &amp; Corvette Pieces In-Game, Without Losing Snap. Now with nudge.[/size][/b]\n<br />\n<br />[size=4][b][color=#26A69A]Controls[/color][/b][/size] (keyboard - the game window must be active)\n<br />Snap a piece first (as normal), then:\n<br />[list]\n<br />[*][b][color=#ff964f]]    [[/color][/b]  - [b]Hinge[/b]: swing or fold the piece around the joint[/*]\n<br />[*][b][color=#ff964f]=  -[/color][/b]  - [b]Lift[/b]: turn the piece within its own flat side[/*]\n<br />[*][b][color=#ff964f]'    ; [/color][/b]- [b]Twist[/b]: roll the piece around the line into it[/*]\n<br />[*][b][color=#ff964f]&#92;      [/color][/b]- [b]Reset[/b]: all angles back to straight[/*]\n<br />[*][b][color=#ff964f]?      [/color][/b]- [b]Rotation step[/b]: switch between 15 and 5 degrees per press (the / ? key, no Shift needed)[/*]\n<br />[*][b][color=#ff964f]&gt;      [/color][/b]- [b]Angle / Nudge[/b]: switch the six angle keys between turning the piece and nudging it (the . &gt; key, no Shift needed)[/*]\n<br />[*][b][color=#ff964f]0[/color][/b][color=#26A69A]      - [/color][b]Pattern direction[/b]: turn a floor's pattern, or flip a gable / diagonal panel / half arch[/*]\n<br />[*][b][color=#ff964f]PageDown / PageUp[/color][/b] - [b]Snap range[/b] tighter / looser (only snap to closer pieces)[/*]\n<br />[*][b][color=#ff964f]Insert[/color][/b] - [b]Corvette camera[/b]: normal / pulled back (while flying)[/*]\n<br />[/list]15 degrees per press, or 5 after pressing ? (Reset keeps the step you chose); hold a key to keep turning. Hinge, lift and twist combine, and the angle stays set for the next piece until you press &#92; - handy for building a whole row at one angle. Then place the piece as usual. The keys only work while you are placing a piece, so they never interfere with the rest of the game (Insert works while flying).\n<br />\n<br />[size=4][b][color=#26A69A]What it does[/color][/b][/size]\n<br />Snap a piece as usual - walls, floors, ramps, roofs, stairs, prefabs, large structures or corvette modules - then turn it around the joint and place it. It stays attached while you turn it.\n<br />\n<br />[b]Also included[/b]\n<br />[list]\n<br />[*][b]Nudge[/b] - shift a snapped piece part of a step off its snap point, the way glitch building does.[/*]\n<br />[*][b]Fine steps[/b] - switch between 15 and 5 degree steps with ?.[/*]\n<br />[*][b]Pattern key[/b] - choose which way a floor's pattern faces, or flip a gable, diagonal panel or half arch.[/*]\n<br />[*][b]Snap range[/b] - stop pieces grabbing things far away.[/*]\n<br />[*][b]Half stairs[/b] connect top-to-bottom, so staircases chain.[/*]\n<br />[*][b]Large triangle floor[/b] attaches to everything the square floor does: on top of and under full walls, to stairs, onto quarter floors and small triangles.[/*]\n<br />[*][b]Corvette camera[/b] - pull the corvette's flight camera back with one key.[/*]\n<br />[/list][b]Multiplayer:[/b] other players see your builds exactly as you placed them. They do [b]not[/b] need the mod. It adds no new parts and no new colours.\n<br />\n<br />[size=4][b][color=#26A69A]Install[/color][/b][/size] (about one minute)\n<br />[list=1]\n<br />[*]In Steam: right-click No Man's Sky &gt; Manage &gt; Browse local files.[/*]\n<br />[*]Drag both folders from the download ([b]Binaries[/b] and [b]GAMEDATA[/b]) into the No Man's Sky folder. Click Yes if Windows asks to merge.[/*]\n<br />[*]First time using mods? Delete [b]No Man's Sky&#92;GAMEDATA&#92;DISABLEMODS.TXT[/b] (or rename it). While it exists, the game ignores the MODS folder. The angle keys work without this step - only the half-stairs and large-triangle improvements need it.[/*]\n<br />[*]Start the game from Steam as normal.[/*]\n<br />[/list]The file [b]No Man's Sky&#92;Binaries&#92;XINPUT9_1_0.dll[/b] must end up directly next to NMS.exe. Mod managers usually only handle the GAMEDATA folder, so place the DLL by hand.\n<br />\n<br />[size=4][b][color=#26A69A]Uninstall[/color][/b][/size]\n<br />Delete [b]Binaries&#92;XINPUT9_1_0.dll[/b] and [b]GAMEDATA&#92;MODS&#92;SnapAngles[/b].\n<br />[b]Safe to remove at any time (tested):[/b] your bases stay exactly as built, and corvettes still fly and can still be edited and flown away. Angled pieces keep their angles - only if you pick one up again can it not be put back at that angle without the mod.\n<br />\n<br />[size=4][b][color=#26A69A]Nudge[/color][/b][/size] (the &gt; key)\n<br />Shift a snapped piece off its snap point by a set step - the in-between placements that normally need glitch building. The piece stays snapped and can be placed as usual.\n<br />Snap the piece, then press &gt; (the . &gt; key, no Shift needed). The screen shows \"Keys: Nudge\" and the six angle keys now [i]move[/i] the piece:\n<br />[list]\n<br />[*][b][color=#ff964f]]    [[/color][/b]  - right / left[/*]\n<br />[*][b][color=#ff964f]'    ; [/color][/b]- forward / back (as seen from your camera)[/*]\n<br />[*][b][color=#ff964f]=  -[/color][/b]  - up / down[/*]\n<br />[/list]Press &gt; again (\"Keys: Angle\") to get the angle keys back. How far one press moves the piece:\n<br />[list]\n<br />[*][b]Base parts[/b]: 1.33 m sideways or forward (half a quarter floor), 0.83 m up or down (a quarter of a wall). Up to 2 presses each way - half a floor, half a wall.[/*]\n<br />[*][b]Corvette parts[/b]: 1.5 m sideways or forward, 0.75 m up or down (a quarter of a small hab). Up to 3 presses each way; 2 presses = half a small hab. A nudged module lines up with a small hab nudged the same way.[/*]\n<br />[/list]The screen shows where you are (\"Nudge left: 1 of 2\", \"back on the snap\"). The opposite key steps back towards the snap, and &#92; clears the nudge. The nudge clears itself after every piece you place; angles stay until you press &#92;. A nudge can be combined with an angle.\n<br />\n<br />[size=4][b][color=#26A69A]Snap range[/color][/b][/size]\n<br />PageDown / PageUp step through: [b]any distance[/b] (every game start - the normal game), [b]50 m[/b], [b]40 m[/b], [b]30 m[/b], [b]20 m[/b] (tightest - good for close-up building). The setting shows on screen. A snap further away than the setting is ignored; the piece stays free at your aim until you get closer. Corvette parts always snap as normal.\n<br />\n<br />[size=4][b][color=#26A69A]Pattern direction[/color][/b][/size] (0 or numpad 0)\n<br />Some pieces can snap to the same spot facing different ways - the pattern on a floor, or which way a gable or panel slopes. Normally the game picks the way that matches your camera, so it flips when you move. Snap the piece (green), then press 0: it turns to the next direction and stays snapped - it is the game's own snap, so the angle keys still hinge on the right edge. The screen shows \"Pattern direction 1 of 4\" and so on.\n<br />[list]\n<br />[*][b]4 directions[/b]: square floors, quarter floors, flat roof tiles[/*]\n<br />[*][b]3 directions[/b]: large and small triangle floors[/*]\n<br />[*][b]2 (flip)[/b]: sloping roof ends / gables, diagonal wall panels, half arches (panels and arches also in their bottom / middle / top versions)[/*]\n<br />[/list]The direction stays for the next pieces until you press &#92;. Never pressed = the normal game.\n<br />\n<br />\n<br />[size=4][b][color=#26A69A]Good to know[/color][/b][/size]\n<br />[list]\n<br />[*]A piece that turns red at an angle or after a nudge is refused by the game for a normal reason (for example it would sit inside another piece). Try another angle or step.[/*]\n<br />[*]Corvette modules can be tipped at any angle. Doors between two modules only appear when the modules line up exactly, as in the normal game.[/*]\n<br />[*]Tested with base and corvette parts.[/*]\n<br />[*]A base part that touched a parked corvette can keep saying it must attach to the corvette. That is the game itself (it also happens without the mod): move away from the corvette, leave build mode and enter it again.[/*]\n<br />[*]Works alongside build-menu, color and build-limit mods (for example Beyond Base Building). If another mod replaces the half-stairs or large-triangle files, use the optional AMUMSS script (Files tab) instead of the GAMEDATA folder - you still need the DLL.[/*]\n<br />[*]If another mod also installs a file called XINPUT9_1_0.dll, only one of the two can be used at a time.[/*]\n<br />[*][b]Antivirus:[/b] some antivirus programs (including Windows Defender) may flag XINPUT9_1_0.dll. This is a false positive: the DLL reads your keys for its hotkeys and patches the game's building code in memory, which automatic scanners also see in harmful programs. Microsoft reviewed v1.1 and removed its detection. If Defender removed it: Windows Security &gt; Virus &amp; threat protection &gt; Protection history &gt; click the entry &gt; Actions &gt; [b]Allow on device[/b] (or Restore). To stop it happening again, add the file as an exclusion (Virus &amp; threat protection settings &gt; Manage settings &gt; Exclusions).[/*]\n<br />[*]Game updates: the mod checks the game at every start and switches itself off if an update changed what it needs (the game then runs normally). If anything looks odd after an update, remove the mod until an update is out.[/*]\n<br />[/list][size=4][b][color=#26A69A]How it works[/color][/b][/size]\n<br />The mod is one small DLL, XINPUT9_1_0.dll. Windows loads it with the game because the game asks for a file of that name - the common \"proxy DLL\" method. Every controller call is passed straight on to Windows unchanged.\n<br />It hooks the game's base-building functions: after the game has chosen a snap, the mod turns that pose around the joint and shows it on the game's own ghost; the placed piece gets the same pose. The game's own snapping and its red/green checks still run. For corvette parts only, the mod lets the game's \"must be upright\" check through.\n<br />The nudge moves that same pose by a fixed step after the game has snapped the piece; the game still checks and places it.\n<br />The pattern key only changes which of the game's own snap choices at a spot is kept; the game still snaps, checks and places the piece.\n<br />The two building files only [i]add[/i] snap points copied from existing parts.\n<br />[b]It does not[/b] connect to the internet, change your save files, or write any file except its own log (Binaries&#92;SnapAngles_log.txt).\n<br />\n<br />[size=4][b][color=#26A69A]Credits[/color][/b][/size]\n<br />[list]\n<br />[*][b]MinHook[/b] by Tsuda Kageyu (with Michael Maltsev and Andrey Unis), including the Hacker Disassembler Engine by Vyacheslav Patkov - the hooking library built into the DLL (BSD license, full text in THIRD_PARTY_LICENSES.txt in the download).[/*]\n<br />[*][b]Hello Games[/b] - No Man's Sky. The two building files are the game's own files with snap points copied from the game's own parts.[/*]\n<br />[*][b]MBINCompiler[/b] (monkeyman192 and contributors) - used to convert the building files.[/*]\n<br />[*][b]NMS.py / pyMHF[/b] (monkeyman192 and contributors) - the first version of this mod was built and researched with them.[/*]\n<br />[*][b]AMUMSS[/b] (Wbertro and contributors) - used by the optional merge script.[/*]\n<br />[/list]Snap Angles is a fan-made mod, not affiliated with or endorsed by Hello Games or Microsoft.\n<br />\n<br />[size=4][b][color=#26A69A]Made with AI[/color][/b][/size]\n<br />The code for this mod was written with an AI (Anthropic's Claude), working under my direction. I planned every feature, tested every change in game, and decided what shipped. This page text was also drafted with AI. Tagged \"AI-Generated Content\" and \"AI Media\" as Nexus requires.\n<br />\n<br />[size=4][b][color=#26A69A]Bugs and help[/color][/b][/size]\n<br />Post in the Bugs tab: say which piece you were placing and which key you pressed, and attach [b]Binaries&#92;SnapAngles_log.txt[/b].\n<br />\n<br />[b]Tested on:[/b] No Man's Sky PC (Steam), game version of October 2026.",
+    "description": "[font=Arial Black][b][size=6][color=#26A69A]Snap Angles 2.0[/color]: The Corvette &amp; Base Building Overhaul[/size][/b][/font]\n<br />\n<br />[b][size=4]Turn, nudge, and resize pieces without losing snap. Cross-snapping between bases, corvettes, and freighters, expanded build menus, and gamepad support.[/size][/b]\n<br />\n<br />No more glitch building for angles and offsets. Snap a piece as usual: walls, floors, ramps, roofs, stairs, prefabs, large structures, or corvette modules. Then rotate it on three axes, nudge it off the grid, or resize it live while it stays snapped.\n<br />\n<br />Version 2.0 turns building in No Man's Sky into one connected toolkit. Build across planet bases, corvettes, and freighters, with gamepad support, on-screen controls, and a live size readout.\n<br />\n<br />[line]\n<br />\n<br />[font=Arial Black][size=6][b][color=#26A69A]Core Features[/color][/b][/size][/font]\n<br />\n<br />[size=4][b][color=#ff964f]◆ Cross-Snapping &amp; Shared Menus[/color][/b][/size]\n<br />Planet bases, corvettes, and freighters now share build menus and snap points:\n<br />[list]\n<br />[*][b]Corvette Parts at Bases:[/b] The corvette hull and exterior parts you have unlocked appear in your planetary base building menu (locked parts show grayed out, matching the workshop).[/*]\n<br />[*][b]Base Parts on Corvettes &amp; Freighters:[/b] Walls, floors, roofs, doors, and rooms are available in the corvette editor, in the build menu aboard your corvette, and aboard your freighter. On corvettes they place, pick up, and delete normally, and count as decoration rather than as corvette parts.[/*]\n<br />[*][b]Cross-Snaps:[/b] Base floors attach edge-to-edge onto corvette modules, base corridors line up with the center of hab modules, and corvette modules snap onto base parts. Base parts snap to your freighter too.[/*]\n<br />[*][b]Upgraded Geometry Snaps:[/b] Large triangle floors now snap like square floors (under or over walls, to stairs, and onto quarter floors), and half stairs chain top-to-bottom with other stairs. Thin walls now attach under other thin walls, not just on top.[/*]\n<br />[*][b]Hidden Variants Unlocked:[/b] Bottom, middle, and top versions of walls, doors, and arches are listed in your menus once you know the part.[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ 360° Multi-Axis Precision Angles[/color][/b][/size]\n<br />Swing a snapped piece around its joint a full 360° while it stays connected:\n<br />[list]\n<br />[*][b]Hinge:[/b] Folds the piece around the attachment joint.[/*]\n<br />[*][b]Lift:[/b] Rotates the piece within its own flat plane.[/*]\n<br />[*][b]Twist:[/b] Rolls the piece along its connection axis.[/*]\n<br />[/list]Combine all three for compound angles. Tap [b]?[/b] to switch between [b]15°[/b], [b]5°[/b], and fine [b]1°[/b] steps. Angles carry over to the next pieces until you reset, so you can lay down curved halls or angled roofs in a row.\n<br />\n<br />[size=4][b][color=#ff964f]◆ 1/8 Micro-Nudging[/color][/b][/size]\n<br />Slide a snapped piece off its snap point for custom offsets without breaking the snap or resorting to wire glitches.\n<br />[list]\n<br />[*]Moves in [b]1/8[/b] grid steps, up to [b]7/8[/b] each way, so pieces never jump to the next snap point.[/*]\n<br />[*]Live on-screen count: [i]\"Nudge left: 3/8\"[/i], [i]\"as far as it goes (7/8)\"[/i], or [i]\"back on the snap\"[/i].[/*]\n<br />[*]Nudges combine with angles and reset after each placed piece (or right away with [b]&#92;[/b]).[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Live Scaling &amp; Scale Memory[/color][/b][/size]\n<br />Resize pieces while holding them, with a live on-screen readout ([b]\"Size: 100%\"[/b], [b]\"Size: 150%\"[/b]).\n<br />[list]\n<br />[*][b]Held Scale Memory:[/b] Your chosen size sticks for the next pieces you pick from the menu, until you reset it or leave build mode.[/*]\n<br />[*][b]Sample &amp; Match:[/b] Copying a placed piece makes its size the held size for your next placements.[/*]\n<br />[*][b]Expanded Resizing:[/b] Scale parts the base game won't let you resize, corvette parts included. The base computer and vehicle-summoning parts keep their size, so they can't break a base.[/*]\n<br />[*][b]Snap Limit:[/b] Resized parts can lose their snap past a certain size (floors at around 140%, walls at around 240%) - the game's own snapping was not made for parts this big.[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Gamepad Support[/color][/b][/size]\n<br />Build from the couch through Steam Input, with the game's own button pictures and your own Steam layout:\n<br />[list]\n<br />[*][b]D-Pad Down:[/b] Cycle mode ([b]Scale / Angle / Nudge[/b])[/*]\n<br />[*][b]R3 (Stick Click):[/b] Cycle direction (tilt, twist, lift, or nudge direction)[/*]\n<br />[*][b]D-Pad Left / Right:[/b] Less / more in the current mode[/*]\n<br />[*][b]Menu Button:[/b] Cycle angle step (15° / 5° / 1°)[/*]\n<br />[*][b]LB + RB:[/b] Reset the active mode only (Scale: back to 100% and held size cleared; Angle: angles cleared; Nudge: nudge cleared)[/*]\n<br />[*][b]RB:[/b] Pattern cycle / mirror flip[/*]\n<br />[*][b]L3 + R3:[/b] Toggle daylight (corvette editor &amp; space station build menu)[/*]\n<br />[*][b]L3:[/b] Free camera in the build menu aboard your corvette[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ On-Screen Controls &amp; Numpad Layout[/color][/b][/size]\n<br />[list]\n<br />[*][b]On-Screen Controls List:[/b] The corvette editor and base building show the Snap Angles controls on the left of the screen, switching by themselves between keyboard, numpad, and gamepad based on what you used last.[/*]\n<br />[*][b]Numpad Layout:[/b] With Num Lock on: [b]7[/b] (Angle/Nudge toggle), [b]8/2[/b] (Twist / forward-back), [b]4/6[/b] (Hinge / left-right), [b]9/3[/b] (Lift / up-down), [b]5[/b] (Reset), [b]1[/b] (Step size), and [b]0[/b] (Pattern cycle).[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Quality of Life &amp; Corvette Helpers[/color][/b][/size]\n<br />[list]\n<br />[*][b]Adjustable Snap Range:[/b] Cycle snap distances ([b]Any / 50m / 40m / 30m / 20m[/b]) with PageUp/PageDown to stop distant snap-jumping during close-up work.[/*]\n<br />[*][b]Pattern &amp; Flip Direction Control:[/b] Cycle floor patterns or flip roof gables, diagonal panels, and half arches with [b]0[/b] or [b]RB[/b].[/*]\n<br />[*][b]Expanded Part Customization:[/b] Rotate base parts on three axes, recolor them, and apply other materials where the game normally doesn't allow it.[/*]\n<br />[*][b]Corvette Workflow Upgrades:[/b] Free camera in the corvette editor, daylight while building, a pulled-back flight camera for big ships, and long corvettes are no longer shoved into the station walls on the way out.[/*]\n<br />[/list][size=5][b][color=#26A69A]Multiplayer &amp; Compatibility[/color][/b][/size]\n<br />\n<br />[list]\n<br />[*][b]Multiplayer:[/b] Other players see your builds exactly as you placed them, and they don't need the mod. It adds no new parts and no new colors - it only lets the game's own parts go where you want them.[/*]\n<br />[*][b]Save Files:[/b] Does not change your save files and does not connect to the internet. If uninstalled, angled, nudged, and scaled pieces stay exactly where you placed them.[/*]\n<br />[/list][line]\n<br />\n<br />[size=5][b][color=#26A69A]Keyboard Reference[/color][/b][/size]\n<br />[i]Snap a piece first, then adjust:[/i]\n<br />[list]\n<br />[*][b][color=#ff964f]]  [[/color][/b]: [b]Hinge:[/b] Swing/fold around the joint[/*]\n<br />[*][b][color=#ff964f]=  -[/color][/b]: [b]Lift:[/b] Rotate within its flat side[/*]\n<br />[*][b][color=#ff964f]'  ;[/color][/b]: [b]Twist:[/b] Roll around the connection line[/*]\n<br />[*][b][color=#ff964f]?[/color][/b]: [b]Step Angle:[/b] Cycle 15°, 5°, or 1°[/*]\n<br />[*][b][color=#ff964f]&gt;[/color][/b]: [b]Mode Switch:[/b] Toggle the six keys between turning and nudging[/*]\n<br />[*][b][color=#ff964f]&#92;[/color][/b]: [b]Reset:[/b] Angles, nudge, and pattern back to normal (size stays)[/*]\n<br />[*][b][color=#ff964f]0[/color][/b]: [b]Pattern / Flip:[/b] Cycle floor patterns or flip gables/arches[/*]\n<br />[*][b][color=#ff964f]PageDown / PageUp[/color][/b]: [b]Snap Range:[/b] Tighter / looser snap distance[/*]\n<br />[*][b][color=#ff964f]Up / Down Arrows[/color][/b]: [b]Resize:[/b] Scale the held piece[/*]\n<br />[*][b][color=#ff964f]End[/color][/b]: [b]Reset Scale:[/b] Back to 100%, held size cleared[/*]\n<br />[*][b][color=#ff964f]B[/color][/b]: [b]Free Camera:[/b] Corvette editor[/*]\n<br />[*][b][color=#ff964f]Home[/color][/b]: [b]Daylight Toggle:[/b] Corvette editor / station build menu[/*]\n<br />[*][b][color=#ff964f]Insert[/color][/b]: [b]Corvette Flight Camera:[/b] Toggle normal / pulled back\n<br />[/*]\n<br />[/list][size=5][b][color=#26A69A]Numpad Reference[/color][/b][/size]\n<br />[i]Num Lock on. Snap a piece first, then adjust:[/i]\n<br />[list]\n<br />[*][b][color=#ff964f]7[/color][/b]: [b]Mode Switch:[/b] Toggle between turning and nudging[/*]\n<br />[*][b][color=#ff964f]4  6[/color][/b]: [b]Hinge[/b] / nudge left and right[/*]\n<br />[*][b][color=#ff964f]9  3[/color][/b]: [b]Lift[/b] / nudge up and down[/*]\n<br />[*][b][color=#ff964f]8  2[/color][/b]: [b]Twist[/b] / nudge forward and back[/*]\n<br />[*][b][color=#ff964f]5[/color][/b]: [b]Reset:[/b] Angles, nudge, and pattern back to normal (size stays)[/*]\n<br />[*][b][color=#ff964f]1[/color][/b]: [b]Step Angle:[/b] Cycle 15°, 5°, or 1°[/*]\n<br />[*][b][color=#ff964f]0[/color][/b]: [b]Pattern / Flip:[/b] Cycle floor patterns or flip gables/arches[/*]\n<br />[/list]Snap range, resize, End, and the camera keys stay on the normal keyboard keys. With Num Lock off, the numpad works as the game normally uses it.\n<br />\n<br />[size=5][b][color=#26A69A]Gamepad Reference[/color][/b][/size]\n<br />[i]Through Steam Input. While a piece is snapped:[/i]\n<br />[list]\n<br />[*][b][color=#ff964f]D-Pad Down[/color][/b]: [b]Mode:[/b] Cycle Scale / Angle / Nudge[/*]\n<br />[*][b][color=#ff964f]R3[/color][/b]: [b]Direction:[/b] Which angle to turn or which way to nudge[/*]\n<br />[*][b][color=#ff964f]D-Pad Left / Right[/color][/b]: [b]Less / More:[/b] In the current mode[/*]\n<br />[*][b][color=#ff964f]Menu Button[/color][/b]: [b]Step Angle:[/b] Cycle 15°, 5°, or 1° (while holding a piece)[/*]\n<br />[*][b][color=#ff964f]LB + RB[/color][/b]: [b]Reset Mode:[/b] Only the mode you are in (Scale: back to 100% and held size cleared)[/*]\n<br />[*][b][color=#ff964f]RB[/color][/b]: [b]Pattern / Mirror[/b][/*]\n<br />[*][b][color=#ff964f]L3 + R3[/color][/b]: [b]Daylight Toggle:[/b] Corvette editor / station build menu[/*]\n<br />[*][b][color=#ff964f]L3[/color][/b]: [b]Free Camera:[/b] Build menu aboard your corvette[/*]\n<br />[/list]When a piece is not snapped, every button does what the game normally does. D-Pad Up is never used by the mod.\n<br />\n<br />[line]\n<br />\n<br />[font=Arial Black][size=6][b][color=#26A69A]How It Works[/color][/b][/size][/font]\n<br />\n<br />Packaged as a small proxy DLL ([b]winmm.dll[/b]), the mod hooks the game's building functions in memory. Once the game has chosen a snap, the mod turns, nudges, or scales that pose on the game's own placement ghost, and the placed piece gets the same pose. The game's own snapping and its red/green placement checks still run. Expanded menus work by answering the game's own \"may this part be built here?\" check differently for the parts and places listed above - the parts are the game's own.\n<br />\n<br />[size=5][b][color=#26A69A]Installation[/color][/b][/size]\n<br />\n<br />[list=1]\n<br />[*]In Steam, right-click [b]No Man's Sky[/b] &gt; [b]Manage[/b] &gt; [b]Browse local files[/b].[/*]\n<br />[*]Extract the contents of [b]SnapAngles_v2.0.zip[/b] ([b]Binaries[/b] and [b]GAMEDATA[/b] folders) directly into your No Man's Sky folder. (Make sure [b]winmm.dll[/b] sits right next to [b]NMS.exe[/b].)[/*]\n<br />[*]If using mods for the first time, delete or rename [b]No Man's Sky&#92;GAMEDATA&#92;DISABLEMODS.TXT[/b] (only the on-screen controls list needs this).[/*]\n<br />[*]Launch the game as normal.[/*]\n<br />[/list]\n<br />[b]Upgrading from v1.x:[/b] Remove your old [b]GAMEDATA&#92;MODS&#92;SnapAngles&#92;MODELS[/b] folder. If you used the previous XInput build, remove [b]XINPUT9_1_0.dll[/b] (unless it belongs to Nozavolochen's framework).\n<br />\n<br />[b]Prefer the simpler 1.3.1?[/b] It is still in the Files tab under Old versions (angles and nudge only). Install [b]one version only[/b] - never 1.3.1 and 2.0 together. Before switching, remove the other version's [b]Binaries&#92;winmm.dll[/b] or [b]Binaries&#92;XINPUT9_1_0.dll[/b] (only if it is Snap Angles', not Nozavolochen's framework) and its [b]GAMEDATA&#92;MODS&#92;SnapAngles[/b] folder.\n<br />[b]Nozavolochen's framework[/b] (needed for SavageCore's mods): works alongside it - just install as above.\n<br />\n<br />[b]Linux / Steam Deck (Proton):[/b] should work, but it is untested. Install as above, then tell Proton to load the mod's winmm.dll: in Steam, right-click No Man's Sky &gt; Properties &gt; General &gt; Launch Options, and enter\n<br />\n<br />WINEDLLOVERRIDES=\"winmm=n,b\" %command%\n<br />\n<br />(if you already have launch options, keep them and add this in front of %command%). Without it, Proton uses its own winmm.dll and the mod stays off - there is then no Binaries&#92;SnapAngles_log.txt. Gamepad support works through Steam Input. On a Steam Deck, copy the files in Desktop Mode (Steam &gt; No Man's Sky &gt; Manage &gt; Browse local files).\n<br />\n<br />[b]Game Pass / Microsoft Store (PC):[/b] should work, but it is untested. Put the DLL in [b]XboxGames&#92;No Man's Sky&#92;Content&#92;Binaries[/b]. Gamepad support needs the Steam version (it uses Steam Input).\n<br />\n<br />[b]Uninstall:[/b] delete [b]Binaries&#92;winmm.dll[/b] and [b]GAMEDATA&#92;MODS&#92;SnapAngles[/b]. Safe to remove at any time.\n<br />\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#26A69A]Optional Add-Ons[/color][/b][/size] (Files tab)\n<br />\n<br />[list]\n<br />[*][b]Base Corvette Dock:[/b] Adds an invisible corvette dock to the base Landing Pad and Landing Zone (with the updated Landing Zone dock), so your corvette can land at your bases. Install its GAMEDATA folder the same way. A friend needs it too to land their corvette on your pads.[/*]\n<br />[*][b]Expanded Palette (AllBuildColours):[/b] Up to 150 colors per color group with a bigger color picker. It replaces the game's base parts table, so with Beyond Base Building, BuildFrame, or other mods that change that table, use its AMUMSS version instead.[/*]\n<br />[*][b]AMUMSS Versions:[/b] AMUMSS scripts for the controls lists, Base Corvette Dock, and AllBuildColours, for merging with other mods that change the same game files. Each was test-built with AMUMSS and matches the normal downloads. The Snap Angles DLL is still needed.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />\n<br />[size=5][b][color=#26A69A]Bugs &amp; Help[/color][/b][/size]\n<br />Post in the Bugs tab: say which piece you were placing and which key or button you pressed, and attach [b]Binaries&#92;SnapAngles_log.txt[/b]. After a game update, the top of that log lists anything the mod had to switch off. Antivirus programs may flag winmm.dll as a false positive (it patches the game's building code in memory) - if Windows Defender removes it, restore it from Protection history and add it as an exclusion.\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#26A69A]Credits &amp; Acknowledgments[/color][/b][/size]\n<br />[list]\n<br />[*][b]MinHook:[/b] Tsuda Kageyu, Michael Maltsev, Andrey Unis, and Vyacheslav Patkov (BSD License, full text in THIRD_PARTY_LICENSES.txt).[/*]\n<br />[*][b]Hello Games:[/b] For No Man's Sky.[/*]\n<br />[*][b]MBINCompiler &amp; pyMHF/NMS.py:[/b] monkeyman192 and the modding research community.[/*]\n<br />[*][b]AMUMSS:[/b] Wbertro and contributors.[/*]\n<br />[*][b]Community Contribution:[/b] Special thanks to the player who designed the numpad layout.[/*]\n<br />[/list][size=2][i]Disclaimer: Snap Angles is an unofficial fan mod and is not affiliated with or endorsed by Hello Games or Microsoft. The code was written with AI (Anthropic's Claude) under my direction; I planned and tested every change in game. This page text was also drafted with AI. Tagged \"AI-Generated Content\" and \"AI Media\" as Nexus requires. Tested on No Man's Sky PC (Steam), game version of October 2026.[/i][/size]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -691098,8 +691257,8 @@
         "file_id": 50265,
         "name": "SnapAngles V2.0",
         "version": "2.0",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 312,
         "file_name": "SnapAngles V2.0 4609 2.0 2026-10-31T17-43Z n0CrIxc7g.zip",
@@ -691188,6 +691347,31 @@
         "size_in_bytes": 503143,
         "changelog_html": "Added resizing with a live size readout\nAdded size memory: your size carries over until you reset or leave build mode\nAdded copying a piece's size when you copy it\nAdded resizing for parts the game normally can't scale\nAdded corvette parts to the base building menu (unlocked parts only)\nAdded base parts to the corvette editor, corvette build menu and freighter\nAdded cross-snapping between bases, corvettes and freighters\nAdded triangle floor, half stair and thin wall snapping\nAdded hidden bottom, middle and top versions of walls, doors and arches\nAdded gamepad support through Steam Input\nAdded on-screen controls list (keyboard, numpad, gamepad)\nAdded numpad layout\nAdded End key to reset size\nAdded corvette editor free camera and daylight\nAdded pulled-back corvette flight camera\nFixed long corvettes getting pushed into station walls on exit\nChanged nudge to 1/8 steps with a live count\nChanged building connections to live in winmm.dll - remove GAMEDATA&#92;MODS&#92;SnapAngles&#92;MODELS when updating from 1.x\nImproved frame rate while holding pieces",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/57/84/6d/57846dca-617c-468d-9403-ece453e2df22"
+      },
+      {
+        "id": [
+          50277,
+          1634
+        ],
+        "uid": 7017976611941,
+        "file_id": 50277,
+        "name": "SnapAngles V2.0.1",
+        "version": "2.0.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 312,
+        "file_name": "SnapAngles V2.0.1 4609 2.0.1 2026-10-31T20-39Z CmY2hwkio.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793479194,
+        "uploaded_time": "2026-10-31T20:39:54.000+00:00",
+        "mod_version": "2.0.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/447fd656b0d55f287724656380b5f40c1847f511803738d3c2e4750c8eee5930",
+        "description": "The mod: Binaries&#92;winmm.dll + the on-screen controls lists. Drag the Binaries and GAMEDATA folders into your No Man's Sky folder. Install this OR 1.3.1, never both. Coming from 1.x? Remove the old Snap Angles files first.",
+        "size_kb": 312,
+        "size_in_bytes": 319994,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/d3/b5/af/d3b5afaa-7a2e-4ff7-b8ca-04dd361c1636"
       }
     ],
     "changelogs": {
