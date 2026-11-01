@@ -66920,14 +66920,14 @@
   },
   {
     "mod_id": 1186,
-    "name": "Traduction Francaise 3.89",
+    "name": "Traduction Francaise 3.90",
     "summary": "New french translation",
-    "version": "3.89",
+    "version": "3.90",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1186/1186-1622882013-1239820987.jpeg",
     "author": "Lo2k",
-    "updated_timestamp": 1791232740,
+    "updated_timestamp": 1793542876,
     "created_timestamp": 1566645092,
-    "description": "This mod is a total rework of all the french texts and dialogs. So description is obviously in french :)\n<br />\n<br />Bonjour à tous,\n<br />\n<br />Ce mod propose une amélioration aussi complète que possible des textes français du jeu. Il a commencé par une retraduction complète du jeu commencé avec Atlas Rises et s'est poursuivi depuis lors avec l'ajout et l'amélioration des textes de chaque mise à jour.\n<br />\n<br />Je veux préciser qu'il s'agit ici d'un travail impliquant des choix personnels sur les termes utilisés, sur la mise en forme générale, sur le souhait de clarté et de simplification quand c'est possible des textes du jeu.\n<br />Pour autant, ayant désormais la connaissance de toutes les trames \"scénaristiques\" du jeu, ce mod se veut respecter aussi fidèlement que possible l'esprit du jeu original et les différents fils conducteurs que Hello Games a créé pour son univers.\n<br />\n<br />Vu la taille de la tâche, et même si ce mod reprend tout le travail déjà effectué en amont pour les autres versions, il reste toujours des textes à améliorer, des corrections à apporter et parfois des ajouts de fonctionnalité possibles. Aussi, comme je l'ai toujours fait, ce mod sera mis à jour au fil de mes propres modifications afin que ceux qui souhaitent profiter de cette nouvelle lecture puissent le faire au fur et à mesure de son développement.\n<br />\n<br />J'espère que vous apprécierez ce mod autant que j'apprécie l'utiliser dans mes propres parties et si vous croisez une erreur, n'hésitez pas à me la soumettre dans les commentaires pour que je puisse la corriger.\n<br />\n<br />Voici quelques notes générales concernant les apports de ce mod par rapport aux textes originaux\n<br />- amélioration des dialogues et textes sur la base du texte anglais original.\n<br />- clarification des menus de vente/achat\n<br />- coloration des dialogues en fonction des interlocuteurs (jaune Gek, rouge Vykeen, bleu Korvax...)\n<br />- coloration des dialogues des différentes histoires\n<br />- suppression des professions factices des formes de vies\n<br />- correction de bugs restés dans la traduction FR originale\n<br />\n<br />Bon jeu à tous,\n<br />\n<br /> Lo2k\n<br />\n<br />Optionnel :\n<br />  - Bénéficiez de nouvelles énigmes pour les observatoires et les usines avec [url=https://www.nexusmods.com/nomanssky/mods/2039][color=#ffd966]Renewed Riddles[/color][/url] (à installer après Traduction FR pour qu'il s'applique par dessus)\n<br />\n<br />\n<br />Compatibilité:\n<br /> - Vous pouvez vérifier la compatibilité de tous mes mods avec la dernière version du jeu [url=https://www.nexusmods.com/nomanssky/mods/880][color=#f1c232]sur cette page[/color][/url]\n<br /> - Ce mod est incompatible avec tout autre mod modifiant un des fichiers suivants :\n<br />    - LANGUAGE&#92;NMS_LOC1_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC4_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC5_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC6_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC7_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC8_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC9_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC10_FRENCH.MBIN \n<br />    - LANGUAGE&#92;NMS_UPDATE3_FRENCH.MBIN\n<br />    - METADATA&#92;UI&#92;SPECIALSTYLESDATA.MBIN\n<br />    - UI&#92;COMPONENTS&#92;BUTTONACCEPT.MBIN\n<br />    - UI&#92;INTERACTION&#92;SQUADRONPILOTPAGE.MBIN\n<br />\n<br />\n<br />Historique :\n<br />[color=#ffd966]3.89 :  Ajout des textes des mises à jour 7.05 [/color]\n<br />[color=#ffffff]3.88 :  Ajout des textes des mises à jour 7.04\n<br />  remplacement de certaines occurences restantes de \"Nautilon\" par \"Nautile\"[/color]\n<br />[color=#ffffff]3.87 : Ajout des textes des mises à jour 7.0 à 7.03\n<br />  remplacement de \"spécialiste Polo\" par \"Polo\"[/color]\n<br />[color=#ffffff]3.86 : Ajout des textes des mises à jour 6.43[/color]\n<br />[color=#ffffff]3.85 : Ajout des textes des mises à jour 6.40 à 6.42[/color]\n<br />[color=#ffffff]3.84 : Ajout des textes des mises à jour 6.24 à 6.36[/color]\n<br />[color=#ffffff]3.83 : Ajout des textes des mises à jour 6.20 à 6.23[/color]\n<br />3.82 : ajout des textes (anglais) de la mise à jour 6.18\n<br />3.81 : ajout des textes (anglais) de la mise à jour 6.16\n<br />3.80 : Ajout des textes de la mise à jour 6.11\n<br />3.79 : Ajout des textes de la mise à jour 6.10\n<br />  DIverses améliorations\n<br />3.78 : Ajout des textes de la mise à jour 6.05\n<br />  DIverses améliorations\n<br />3.77 : Ajout des textes de la mise à jour 6.04\n<br />  DIverses améliorations\n<br />3.76 : Ajout des textes de la mise à jour 6.01\n<br />  remplacement de \"équipement d'atterrissage\" en \"train d'atterrissage\"\n<br />  remplacement de \"vaisseau Corvette\" en \"corvette\"\n<br />  remplacement de \"modules Corvette\" en \"modules de corvette\"\n<br />  remplacement de \"porte-bagages\" en \"rangement\"\n<br />  remplacement des derniers \"cargo\" en \"croiseur\"\n<br />3.75 : nombreuses améliorations\n<br />  correction du faux amis \"avant-poste inhabité\" par \"avant-poste habité\"\n<br />  correction de multiples mentions de \"raffineur\" au lieu de \"raffinerie\"\n<br />  plusieurs corrections de \"qu'àrtémis\" en \"qu'Artémis\"\n<br />3.74B : correction de l'archive du mod.\n<br />3.74 : ajout des textes des mise à jour 3.73\n<br />3.73 : ajout des textes des mise à jour 3.72\n<br />3.72 : correction de certaines couleurs de texte restant blanches\n<br />  diverses améliorations\n<br />3.71 : ajout des textes des mise à jour 3.63\n<br />  restauration des indications longues des lieux de sauvegarde\n<br />3.70 : ajout des textes des mise à jour 3.62\n<br />  correction des catégories de lignes et de flotteurs (merci hogofogo)\n<br />  correction du statut \"en mission\" au Nexus (merci hogofogo)\n<br />3.69 : Ajout des textes de la mise à jour 5.61\n<br />  Correction de l'affichage des remises des marchands\n<br />3.68 : Ajout des textes de la mise à jour 5.58\n<br />3.67B : Ajout des notes d'installation en français pour World Parts 2\n<br />3.67 : ajout des textes de la mise à jour 5.55 (dont certains sont toujours en anglais)\n<br />3.66 : ajout des textes des mises à jour 5.50 à 5.54\n<br />  correction du bouton pour apprendre un mot gek au lieu d'autophage\n<br />  Indication des lieux de sauvegarde plus courts\n<br />3.65 : ajout des textes de la mise à jour 5.29\n<br />3.64 : ajout des textes de la mise à jour 5.27\n<br />3.63 : ajout des textes de la mise à jour 5.20\n<br />  diverses améliorations dans les dialogues du tutorial\n<br />3.62 : ajout des textes de la mise à jour 5.12\n<br />3.61 : ajout des textes de la mise à jour 5.11\n<br />  diverses améliorations\n<br />3.60 : ajout des textes de la mise à jour 5.03\n<br />diverses améliorations dans les dialogues du tutorial\n<br />3.59 : ajout des textes de la mise à jour 5.1.1\n<br />3.58 : ajout des textes de la mise à jour 5.00.1\n<br />  passe de vérification de la synchronisation des 7 fichiers de langue du mod avec le jeu\n<br />  ajout de quelques descriptions de récompenses twitch manquantes\n<br />  ajout de dialogues de récompenses de PNJ manquants\n<br />3.57 : ajout des textes de la mise à jour 4.70\n<br />3.56 :[color=#ffd966] [/color]ajout des textes de la mise à jour 4.65 \n<br />3.55 : ajout des textes de la mise à jour 4.64\n<br />3.54 : ajout des textes de la mise à jour 4.46\n<br />3.53 : ajout des textes de la mise à jour 4.45\n<br />3.52 : ajout des textes de la mise à jour 4.44 plus quelques améliorations.\n<br />3.51 : ajout des textes de la mise à jour 4.43\n<br />3.50 : remplacement de \"coquille-ici\" par \"enveloppe-actuelle\" bien mieux adapté à la nouvelle race robotique",
+    "description": "This mod is a total rework of all the french texts and dialogs. So description is obviously in french :)\n<br />\n<br />Bonjour à tous,\n<br />\n<br />Ce mod propose une amélioration aussi complète que possible des textes français du jeu. Il a commencé par une retraduction complète du jeu commencé avec Atlas Rises et s'est poursuivi depuis lors avec l'ajout et l'amélioration des textes de chaque mise à jour.\n<br />\n<br />Je veux préciser qu'il s'agit ici d'un travail impliquant des choix personnels sur les termes utilisés, sur la mise en forme générale, sur le souhait de clarté et de simplification quand c'est possible des textes du jeu.\n<br />Pour autant, ayant désormais la connaissance de toutes les trames \"scénaristiques\" du jeu, ce mod se veut respecter aussi fidèlement que possible l'esprit du jeu original et les différents fils conducteurs que Hello Games a créé pour son univers.\n<br />\n<br />Vu la taille de la tâche, et même si ce mod reprend tout le travail déjà effectué en amont pour les autres versions, il reste toujours des textes à améliorer, des corrections à apporter et parfois des ajouts de fonctionnalité possibles. Aussi, comme je l'ai toujours fait, ce mod sera mis à jour au fil de mes propres modifications afin que ceux qui souhaitent profiter de cette nouvelle lecture puissent le faire au fur et à mesure de son développement.\n<br />\n<br />J'espère que vous apprécierez ce mod autant que j'apprécie l'utiliser dans mes propres parties et si vous croisez une erreur, n'hésitez pas à me la soumettre dans les commentaires pour que je puisse la corriger.\n<br />\n<br />Voici quelques notes générales concernant les apports de ce mod par rapport aux textes originaux\n<br />- amélioration des dialogues et textes sur la base du texte anglais original.\n<br />- clarification des menus de vente/achat\n<br />- coloration des dialogues en fonction des interlocuteurs (jaune Gek, rouge Vykeen, bleu Korvax...)\n<br />- coloration des dialogues des différentes histoires\n<br />- suppression des professions factices des formes de vies\n<br />- correction de bugs restés dans la traduction FR originale\n<br />\n<br />Bon jeu à tous,\n<br />\n<br /> Lo2k\n<br />\n<br />Optionnel :\n<br />  - Bénéficiez de nouvelles énigmes pour les observatoires et les usines avec [url=https://www.nexusmods.com/nomanssky/mods/2039][color=#ffd966]Renewed Riddles[/color][/url] (à installer après Traduction FR pour qu'il s'applique par dessus)\n<br />\n<br />\n<br />Compatibilité:\n<br /> - Vous pouvez vérifier la compatibilité de tous mes mods avec la dernière version du jeu [url=https://www.nexusmods.com/nomanssky/mods/880][color=#f1c232]sur cette page[/color][/url]\n<br /> - Ce mod est incompatible avec tout autre mod modifiant un des fichiers suivants :\n<br />    - LANGUAGE&#92;NMS_LOC1_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC4_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC5_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC6_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC7_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC8_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC9_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_LOC10_FRENCH.MBIN\n<br />    - LANGUAGE&#92;NMS_UPDATE3_FRENCH.MBIN\n<br />    - METADATA&#92;UI&#92;SPECIALSTYLESDATA.MBIN\n<br />    - UI&#92;COMPONENTS&#92;BUTTONACCEPT.MBIN\n<br />    - UI&#92;INTERACTION&#92;SQUADRONPILOTPAGE.MBIN\n<br />\n<br />\n<br />Historique :\n<br />[color=#ffd966]3.90 :  Ajout des textes de la mise à jour 7.12[/color]\n<br />[color=#ffffff]3.89 :  Ajout des textes de la mise à jour 7.05 [/color]\n<br />[color=#ffffff]3.88 :  Ajout des textes de la mise à jour 7.04\n<br />  remplacement de certaines occurences restantes de \"Nautilon\" par \"Nautile\"[/color]\n<br />[color=#ffffff]3.87 : Ajout des textes des mises à jour 7.0 à 7.03\n<br />  remplacement de \"spécialiste Polo\" par \"Polo\"[/color]\n<br />[color=#ffffff]3.86 : Ajout des textes des mises à jour 6.43[/color]\n<br />[color=#ffffff]3.85 : Ajout des textes des mises à jour 6.40 à 6.42[/color]\n<br />[color=#ffffff]3.84 : Ajout des textes des mises à jour 6.24 à 6.36[/color]\n<br />[color=#ffffff]3.83 : Ajout des textes des mises à jour 6.20 à 6.23[/color]\n<br />3.82 : ajout des textes (anglais) de la mise à jour 6.18\n<br />3.81 : ajout des textes (anglais) de la mise à jour 6.16\n<br />3.80 : Ajout des textes de la mise à jour 6.11\n<br />3.79 : Ajout des textes de la mise à jour 6.10\n<br />  DIverses améliorations\n<br />3.78 : Ajout des textes de la mise à jour 6.05\n<br />  DIverses améliorations\n<br />3.77 : Ajout des textes de la mise à jour 6.04\n<br />  DIverses améliorations\n<br />3.76 : Ajout des textes de la mise à jour 6.01\n<br />  remplacement de \"équipement d'atterrissage\" en \"train d'atterrissage\"\n<br />  remplacement de \"vaisseau Corvette\" en \"corvette\"\n<br />  remplacement de \"modules Corvette\" en \"modules de corvette\"\n<br />  remplacement de \"porte-bagages\" en \"rangement\"\n<br />  remplacement des derniers \"cargo\" en \"croiseur\"\n<br />3.75 : nombreuses améliorations\n<br />  correction du faux amis \"avant-poste inhabité\" par \"avant-poste habité\"\n<br />  correction de multiples mentions de \"raffineur\" au lieu de \"raffinerie\"\n<br />  plusieurs corrections de \"qu'àrtémis\" en \"qu'Artémis\"\n<br />3.74B : correction de l'archive du mod.\n<br />3.74 : ajout des textes des mise à jour 3.73\n<br />3.73 : ajout des textes des mise à jour 3.72\n<br />3.72 : correction de certaines couleurs de texte restant blanches\n<br />  diverses améliorations\n<br />3.71 : ajout des textes des mise à jour 3.63\n<br />  restauration des indications longues des lieux de sauvegarde\n<br />3.70 : ajout des textes des mise à jour 3.62\n<br />  correction des catégories de lignes et de flotteurs (merci hogofogo)\n<br />  correction du statut \"en mission\" au Nexus (merci hogofogo)\n<br />3.69 : Ajout des textes de la mise à jour 5.61\n<br />  Correction de l'affichage des remises des marchands\n<br />3.68 : Ajout des textes de la mise à jour 5.58\n<br />3.67B : Ajout des notes d'installation en français pour World Parts 2\n<br />3.67 : ajout des textes de la mise à jour 5.55 (dont certains sont toujours en anglais)\n<br />3.66 : ajout des textes des mises à jour 5.50 à 5.54\n<br />  correction du bouton pour apprendre un mot gek au lieu d'autophage\n<br />  Indication des lieux de sauvegarde plus courts\n<br />3.65 : ajout des textes de la mise à jour 5.29\n<br />3.64 : ajout des textes de la mise à jour 5.27\n<br />3.63 : ajout des textes de la mise à jour 5.20\n<br />  diverses améliorations dans les dialogues du tutorial\n<br />3.62 : ajout des textes de la mise à jour 5.12\n<br />3.61 : ajout des textes de la mise à jour 5.11\n<br />  diverses améliorations\n<br />3.60 : ajout des textes de la mise à jour 5.03\n<br />diverses améliorations dans les dialogues du tutorial\n<br />3.59 : ajout des textes de la mise à jour 5.1.1\n<br />3.58 : ajout des textes de la mise à jour 5.00.1\n<br />  passe de vérification de la synchronisation des 7 fichiers de langue du mod avec le jeu\n<br />  ajout de quelques descriptions de récompenses twitch manquantes\n<br />  ajout de dialogues de récompenses de PNJ manquants\n<br />3.57 : ajout des textes de la mise à jour 4.70\n<br />3.56 :[color=#ffd966] [/color]ajout des textes de la mise à jour 4.65 \n<br />3.55 : ajout des textes de la mise à jour 4.64\n<br />3.54 : ajout des textes de la mise à jour 4.46\n<br />3.53 : ajout des textes de la mise à jour 4.45\n<br />3.52 : ajout des textes de la mise à jour 4.44 plus quelques améliorations.\n<br />3.51 : ajout des textes de la mise à jour 4.43\n<br />3.50 : remplacement de \"coquille-ici\" par \"enveloppe-actuelle\" bien mieux adapté à la nouvelle race robotique",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -69879,7 +69879,7 @@
         "size_kb": 2756,
         "size_in_bytes": 2822398,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1186/1a/8e/0f/1a8e0f5d-bc8e-4332-b9dc-3a4bbd38e800.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1a/8e/0f/1a8e0f5d-bc8e-4332-b9dc-3a4bbd38e800"
       },
       {
         "id": [
@@ -69904,7 +69904,7 @@
         "size_kb": 2756,
         "size_in_bytes": 2822563,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1186/39/b1/eb/39b1eb82-7257-40bd-9683-24c3610a4d85.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/39/b1/eb/39b1eb82-7257-40bd-9683-24c3610a4d85"
       },
       {
         "id": [
@@ -69915,8 +69915,8 @@
         "file_id": 49599,
         "name": "Traduction Fr 3.89",
         "version": "3.89",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 2758,
         "file_name": "Traduction Fr 3.89 1186 3.89 2026-10-05T20-39Z kAMZq0JFL.zip",
@@ -69929,7 +69929,32 @@
         "size_kb": 2758,
         "size_in_bytes": 2824370,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1186/d7/34/4f/d7344f61-b6ab-47b5-9a6d-a186f87e37f1.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/d7/34/4f/d7344f61-b6ab-47b5-9a6d-a186f87e37f1"
+      },
+      {
+        "id": [
+          50297,
+          1634
+        ],
+        "uid": 7017976611961,
+        "file_id": 50297,
+        "name": "Traduction Fr 3.90",
+        "version": "3.90",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 2778,
+        "file_name": "Traduction Fr 3.90 1186 3.90 2026-11-01T14-21Z qTSCvou4N.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793542876,
+        "uploaded_time": "2026-11-01T14:21:16.000+00:00",
+        "mod_version": "3.90",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/30746f5878a2dbd294f4a6904176bdc56f4529f86d1ecab36a5bffaff642f7fe",
+        "description": "Amélioration de la traduction française du jeu.",
+        "size_kb": 2778,
+        "size_in_bytes": 2845389,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/bc/8a/c7/bc8ac77a-6b6e-4e51-872c-8ab0161a491c"
       }
     ],
     "changelogs": {}
@@ -165600,14 +165625,14 @@
   },
   {
     "mod_id": 1471,
-    "name": "Black Space 4.4",
+    "name": "Black Space 4.5",
     "summary": "Makes space much darker",
-    "version": "4.4",
+    "version": "4.5",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1471/1471-1583589806-1333405593.jpeg",
     "author": "Lo2k",
-    "updated_timestamp": 1789043416,
+    "updated_timestamp": 1793542720,
     "created_timestamp": 1583590040,
-    "description": "This mod replaces fully colored space by a more common black space.\n<br />\n<br />You can choose between 2 versions :\n<br />  - Black Space : Pure black space, white suns, no nebulae\n<br />  - Black Space + Nebulae : Black space but colored suns and colored nebulae\n<br />\n<br />Since 2.2B, you can now also remove the too numerous stars from the sky with the No Stars optional mod (there's sadly no available slider yet in the game to just reduce the amount of stars visible in the sky).\n<br />\n<br />\n<br />Enjoy.\n<br />\n<br />Optional : \n<br />- Enjoy black space even more with [url=https://www.nexusmods.com/nomanssky/mods/1084][color=#ffd966]No Space Dust and No Space Plasma[/color][/url]\n<br />- Enjoy black space without bloom everywhere with [url=https://www.nexusmods.com/nomanssky/mods/2315][color=#ffd966]No Bloom Effect[/color]\n<br />[/url]- Enjoy Station and other indoor place independent of (black) space color with [url=https://www.nexusmods.com/nomanssky/mods/2440][color=#ffd966]Indoors Lighting Fix[/color][/url]\n<br />\n<br />[color=#ffd966]\n<br />News in v4.4 : updated for 7.0 Cosmos game version[/color]\n<br />\n<br />[size=2]Compatibility : [/size]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/880][color=#ffd966]- [u]CHECK IF THIS MOD IS COMPATIBLE WITH LATEST GAME VERSION[/u][/color][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/articles/85][color=#f6b26b]- [u]CHECK IF THIS MOD NEEDS TO BE MERGED WITH ANOTHER OF MY MODS[/u][/color][/url]\n<br />These mods edit the following files :\n<br />    - METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;WEATHER&#92;SKYSETTINGS&#92;SPACESKYCOLOURS.MBIN\n<br />    - METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;WEATHER&#92;SKYSETTINGS&#92;SPACERARESKYCOLOURS.MBIN\n<br />\n<br />\n<br />Credits : Thanks to Rayrod who pointed me toward the right files now that shaders can't be edited anymore.",
+    "description": "This mod replaces fully colored space by a more common black space.\n<br />\n<br />You can choose between 2 versions :\n<br />  - Black Space : Pure black space, white suns, no nebulae\n<br />  - Black Space + Nebulae : Black space but colored suns and colored nebulae\n<br />\n<br />Since 2.2B, you can now also remove the too numerous stars from the sky with the No Stars optional mod (there's sadly no available slider yet in the game to just reduce the amount of stars visible in the sky).\n<br />\n<br />\n<br />Enjoy.\n<br />\n<br />Optional : \n<br />- Enjoy black space even more with [url=https://www.nexusmods.com/nomanssky/mods/1084][color=#ffd966]No Space Dust and No Space Plasma[/color][/url]\n<br />- Enjoy black space without bloom everywhere with [url=https://www.nexusmods.com/nomanssky/mods/2315][color=#ffd966]No Bloom Effect[/color]\n<br />[/url]- Enjoy Station and other indoor place independent of (black) space color with [url=https://www.nexusmods.com/nomanssky/mods/2440][color=#ffd966]Indoors Lighting Fix[/color][/url]\n<br />\n<br />[color=#ffd966]\n<br />News in v4.5 : updated for 7.12 Forsaken game version (Only No Star mod needed an update to 4.5, the 2 others are fine in 4.4)[/color]\n<br />\n<br />[size=2]Compatibility : [/size]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/880][color=#ffd966]- [u]CHECK IF THIS MOD IS COMPATIBLE WITH LATEST GAME VERSION[/u][/color][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/articles/85][color=#f6b26b]- [u]CHECK IF THIS MOD NEEDS TO BE MERGED WITH ANOTHER OF MY MODS[/u][/color][/url]\n<br />These mods edit the following files :\n<br />    - METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;WEATHER&#92;SKYSETTINGS&#92;SPACESKYCOLOURS.MBIN\n<br />    - METADATA&#92;SIMULATION&#92;SOLARSYSTEM&#92;WEATHER&#92;SKYSETTINGS&#92;SPACERARESKYCOLOURS.MBIN\n<br />\n<br />\n<br />Credits : Thanks to Rayrod who pointed me toward the right files now that shaders can't be edited anymore.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -166734,7 +166759,7 @@
         "size_kb": 55,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/f0/f9/a7/f0f9a7a9-9b62-4f30-b812-83a2583fef7b.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f0/f9/a7/f0f9a7a9-9b62-4f30-b812-83a2583fef7b"
       },
       {
         "id": [
@@ -166745,8 +166770,8 @@
         "file_id": 47963,
         "name": "No Stars 4.4",
         "version": "4.4",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 57,
         "file_name": "No Stars 4.4 1471 4.4 2026-09-10T12-28Z UKXVZqdJR.zip",
@@ -166759,7 +166784,7 @@
         "size_kb": 57,
         "size_in_bytes": 59063,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/93/41/52/93415201-81fc-4738-8672-79bd0bb48e53.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/93/41/52/93415201-81fc-4738-8672-79bd0bb48e53"
       },
       {
         "id": [
@@ -166784,7 +166809,7 @@
         "size_kb": 7,
         "size_in_bytes": 7549,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/26/27/95/26279522-df0d-481c-bde8-7ed96aef5dd1.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/26/27/95/26279522-df0d-481c-bde8-7ed96aef5dd1"
       },
       {
         "id": [
@@ -166809,7 +166834,32 @@
         "size_kb": 6,
         "size_in_bytes": 6693,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1471/56/41/50/5641506c-4d8d-4bdc-a50f-fa135cfc6833.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/56/41/50/5641506c-4d8d-4bdc-a50f-fa135cfc6833"
+      },
+      {
+        "id": [
+          50295,
+          1634
+        ],
+        "uid": 7017976611959,
+        "file_id": 50295,
+        "name": "No Stars 4.5",
+        "version": "4.5",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 60,
+        "file_name": "No Stars 4.5 1471 4.5 2026-11-01T14-18Z oPfwFL8uK.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793542720,
+        "uploaded_time": "2026-11-01T14:18:40.000+00:00",
+        "mod_version": "4.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7e6f30fb43bd11bf01eb936828496fdbc3e7a7235fd6a2a0c3f7d3dea5a05955",
+        "description": "Removes stars from the sky/space. Includes an AMUMSS 5.0+ .lua script and installation notes.",
+        "size_kb": 60,
+        "size_in_bytes": 61611,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/47/c4/15/47c415ab-68c0-4f4f-893e-0dfef8c264e3"
       }
     ],
     "changelogs": {}
@@ -316899,14 +316949,14 @@
   },
   {
     "mod_id": 2039,
-    "name": "Renewed Riddles 4.0",
+    "name": "Renewed Riddles 4.1",
     "summary": "New riddles for french and english languages",
-    "version": "4.0",
+    "version": "4.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2039/2039-1628432579-634320173.jpeg",
     "author": "Lo2k",
-    "updated_timestamp": 1789407582,
+    "updated_timestamp": 1793542647,
     "created_timestamp": 1628432691,
-    "description": "This mod is a simple retake on radio-stations and observatories riddles to find beacon recorded signals.\n<br />\n<br />Radio-stations riddles get new mathematical progressions along usual ones but with new figures.\n<br />Observatories are more diversified with pure numerical values for Geks, pure hexadecimal for Korvax and pure Vy'keen letters for Vy'keens :p\n<br />\n<br />Nothing fancy but just some fresh air in these riddles we all know by heart by now :)\n<br />\n<br />Enjoy.\n<br />\n<br />\n<br />[color=#ffd966]New : v4.0 has been updated for latest 7.01 game version.[/color]\n<br />\n<br />[size=2]Compatibility : [/size]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/880][color=#ffd966]- [u]CHECK IF THIS MOD IS COMPATIBLE WITH LATEST GAME VERSION[/u][/color][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/articles/85][color=#f6b26b]- [u]CHECK IF THIS MOD NEEDS TO BE MERGED WITH ANOTHER OF MY MODS[/u][/color][/url]\n<br />- An [url=https://www.nexusmods.com/nomanssky/mods/957][color=#ffd966]AMUMSS[/color][/url] (5.0 or higher) .lua script is provided as this mod can't be used along any other mod editing LANGUAGE&#92;NMS_LOC1_ENGLISH.MBIN file.",
+    "description": "This mod is a simple retake on radio-stations and observatories riddles to find beacon recorded signals.\n<br />\n<br />Radio-stations riddles get new mathematical progressions along usual ones but with new figures.\n<br />Observatories are more diversified with pure numerical values for Geks, pure hexadecimal for Korvax and pure Vy'keen letters for Vy'keens :p\n<br />\n<br />Nothing fancy but just some fresh air in these riddles we all know by heart by now :)\n<br />\n<br />Enjoy.\n<br />\n<br />\n<br />[color=#ffd966]New : v4.1 has been updated for latest 7.12 game version.[/color]\n<br />\n<br />[size=2]Compatibility : [/size]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/880][color=#ffd966]- [u]CHECK IF THIS MOD IS COMPATIBLE WITH LATEST GAME VERSION[/u][/color][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/articles/85][color=#f6b26b]- [u]CHECK IF THIS MOD NEEDS TO BE MERGED WITH ANOTHER OF MY MODS[/u][/color][/url]\n<br />- An [url=https://www.nexusmods.com/nomanssky/mods/957][color=#ffd966]AMUMSS[/color][/url] (5.0 or higher) .lua script is provided as this mod can't be used along any other mod editing LANGUAGE&#92;NMS_LOC1_ENGLISH.MBIN file.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -317694,8 +317744,8 @@
         "file_id": 48586,
         "name": "Renewed Riddles 4.0",
         "version": "4.0",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 6,
         "file_name": "Renewed Riddles 4.0 2039 4.0 2026-09-14T17-39Z VMJOtCljI.zip",
@@ -317708,7 +317758,32 @@
         "size_kb": 6,
         "size_in_bytes": 6627,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2039/7d/d7/72/7dd77262-33ba-40ef-8630-a3ee66857b1d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/7d/d7/72/7dd77262-33ba-40ef-8630-a3ee66857b1d"
+      },
+      {
+        "id": [
+          50294,
+          1634
+        ],
+        "uid": 7017976611958,
+        "file_id": 50294,
+        "name": "Renewed Riddles 4.1",
+        "version": "4.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 6,
+        "file_name": "Renewed Riddles 4.1 2039 4.1 2026-11-01T14-17Z 8gT07OIba.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793542647,
+        "uploaded_time": "2026-11-01T14:17:27.000+00:00",
+        "mod_version": "4.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/42d48c4a770abbf290e3e5637bd2079e6663a8c3dff1a797e2b2cc364a2f4576",
+        "description": "Rework of french and english riddles. includes an AMUMSS .lua file and installation notes",
+        "size_kb": 6,
+        "size_in_bytes": 6627,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9c/ab/ba/9cabbab4-11c5-41b4-a73a-692e3d5a0c5d"
       }
     ],
     "changelogs": {}
@@ -522060,12 +522135,12 @@
     "mod_id": 2987,
     "name": "Liminal Opportunities - Custom Nexus Mission",
     "summary": "Variety is the spice of space or something...",
-    "version": "7.06",
+    "version": "7.10",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2987/2987-1709498078-452926025.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1791315639,
+    "updated_timestamp": 1793546432,
     "created_timestamp": 1709568521,
-    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />Liminal Opportunities is my 2nd attempt at custom missions for No Man's Sky. This time I'm breaking the game by introducing a new type of Nexus mission available at Space Anomaly - Retrieve Lost Artifact:\n<br />\n<br />[quote]A freighter carrying an elusive artifact has dissapeared from Space Anomaly's radars. Nada and Polo are looking for brave Travellers ready to embark on a scavenger hunt in deep space. The explorers will be tasked with surviving the dangers lurking in the lost freighter and retrieving the mysterious item.[/quote]\n<br />[quote][b]DISCLAIMER:[/b] this mod does not support any Multiplayer aspect of Nexus missions! Consider it an addon for the singleplayer experience only![/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_REALITY_GCPRODUCTTABLE.MBIN\n<br />\n<br />METADATA&#92;SIMULATION&#92;MISSIONS&#92;TABLES&#92;MULTIPLAYERMISSIONTABLE.MBIN\n<br />METADATA&#92;SIMULATION&#92;MISSIONS&#92;TABLES&#92;COMMUNITYMISSIONTABLE.MBIN\n<br />\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;SPACEBASE&#92;PROPS&#92;DATA_PAD&#92;ENTITIES&#92;DATA_PAD.ENTITY.MBIN\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;NPCROOMS&#92;NPC_ABANDFRIGATECAPTAIN&#92;ENTITIES&#92;ABANFRIGATETERMINALCAPTAIN.ENTITY.MBIN[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />✅ EXML patch mod\n<br />\n<br />This mod is likely to work with other mods modifying the same file.\n<br />\n<br />Because of the simplicity of this mod and new mod loading system, LUA script will be no longer provided.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]",
+    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />Liminal Opportunities is my 2nd attempt at custom missions for No Man's Sky. This time I'm breaking the game by introducing a new type of Nexus mission available at Space Anomaly - Retrieve Lost Artifact:\n<br />\n<br />[quote]A freighter carrying an elusive artifact has dissapeared from Space Anomaly's radars. Nada and Polo are looking for brave Travellers ready to embark on a scavenger hunt in deep space. The explorers will be tasked with surviving the dangers lurking in the lost freighter and retrieving the mysterious item.[/quote]\n<br />[quote][b]DISCLAIMER:[/b] this mod does not support any Multiplayer aspect of Nexus missions! Consider it an addon for the singleplayer experience only![/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;REALITY&#92;DEFAULTREALITY.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_REALITY_GCPRODUCTTABLE.MBIN\n<br />\n<br />METADATA&#92;SIMULATION&#92;MISSIONS&#92;TABLES&#92;MULTIPLAYERMISSIONTABLE.MBIN\n<br />METADATA&#92;SIMULATION&#92;MISSIONS&#92;TABLES&#92;COMMUNITYMISSIONTABLE.MBIN\n<br />\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;SPACEBASE&#92;PROPS&#92;DATA_PAD&#92;ENTITIES&#92;DATA_PAD.ENTITY.MBIN\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;NPCROOMS&#92;NPC_ABANDFRIGATECAPTAIN&#92;ENTITIES&#92;ABANFRIGATETERMINALCAPTAIN.ENTITY.MBIN[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />✅ EXML patch mod\n<br />\n<br />This mod is likely to work with other mods modifying the same file.\n<br />\n<br />Because of the simplicity of this mod and new mod loading system, LUA script will be no longer provided.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -522517,7 +522592,7 @@
         "size_kb": 26,
         "size_in_bytes": 0,
         "changelog_html": "updated for game version 6.45 (Swarm)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2987/6d/7d/60/6d7d60a7-678e-410c-9bf7-3a6836d1971c.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6d/7d/60/6d7d60a7-678e-410c-9bf7-3a6836d1971c"
       },
       {
         "id": [
@@ -522542,7 +522617,7 @@
         "size_kb": 25,
         "size_in_bytes": 26343,
         "changelog_html": "updated for game version 7.03 (Cosmos), hopefully working properly with new space POIs system\nchanged texture on one of the custom artifact items",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2987/ef/6e/4c/ef6e4c5a-0e53-41ba-8fee-52eb65882b42.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ef/6e/4c/ef6e4c5a-0e53-41ba-8fee-52eb65882b42"
       },
       {
         "id": [
@@ -522553,8 +522628,8 @@
         "file_id": 49628,
         "name": "Liminal Opportunities",
         "version": "7.06",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 25,
         "file_name": "Liminal Opportunities 2987 7.06 2026-10-06T19-40Z izF9UkRmR.zip",
@@ -522567,7 +522642,32 @@
         "size_kb": 25,
         "size_in_bytes": 26367,
         "changelog_html": "updated for game version 7.06 (Cosmos)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2987/76/f2/e8/76f2e881-914c-4456-a43f-d43dea650b78.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/76/f2/e8/76f2e881-914c-4456-a43f-d43dea650b78"
+      },
+      {
+        "id": [
+          50300,
+          1634
+        ],
+        "uid": 7017976611964,
+        "file_id": 50300,
+        "name": "Liminal Opportunities",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 26,
+        "file_name": "Liminal Opportunities 2987 7.10 2026-11-01T15-20Z N2LUkQHBH.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793546432,
+        "uploaded_time": "2026-11-01T15:20:32.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7646048bececa1653cea442a50ca2a2509eda0dbf928fac0935dfa79fd91ee52",
+        "description": "",
+        "size_kb": 26,
+        "size_in_bytes": 26980,
+        "changelog_html": "changed item value of custom artifact items\ncustom artifact items can now be traded with the Forsaken traders found on deep space outposts",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/25/71/6b/25716bd5-e13f-4dc1-8ae2-4f742a33f408"
       }
     ],
     "changelogs": {
@@ -522590,6 +522690,10 @@
       ],
       "7.06": [
         "updated for game version 7.06 (Cosmos)"
+      ],
+      "7.10": [
+        "changed item value of custom artifact items",
+        "custom artifact items can now be traded with the Forsaken traders found on deep space outposts"
       ]
     }
   },
@@ -525358,10 +525462,10 @@
     "mod_id": 3007,
     "name": "Exotic Starship Fabricator",
     "summary": "New version, total rework!",
-    "version": "7.00",
+    "version": "7.10",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3007/3007-1725280940-509567227.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1789365408,
+    "updated_timestamp": 1793553666,
     "created_timestamp": 1711644563,
     "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />This mod enables players to synthesize an exotic starship using the space stations' fabricator machines added with Orbitals update. Players can use advanced crafting and trading goods and S class reactor core modules to assemble their favourite exotic combination... with some caveats.\n<br />\n<br />A couple important disclaimers:\n<br />\n<br />[quote]DISCLAIMER 1\n<br />\n<br />Only Guppy / ball cockpit exotics are supported by this mod! There is no option to assemble a Squid-type exotic ship![/quote]\n<br />\n<br />[quote]DISCLAIMER 2\n<br />\n<br />This mod makes use of the shuttle assembly functionality which was originally prepared by HG and disabled from actual gameplay. This mod enables this functionality back and makes extensive changes to it in order to fit even simplified exotic starship synthesis. It's not perfect, there are still some issues that can not be addressed properly![/quote]\n<br />\n<br />[quote]DISCLAIMER 3\n<br />\n<br />This mod [b]is not compatible with any other mod that adds new ship types[/b] to the starship fabricator - all of these mods are affecting the only free assembly functionality we have and there is no way to get these mods working together![/quote]\n<br />\n<br />[quote]DISCLAIMER 4\n<br />\n<br />This mod has been reworked from the ground up - the new version allows players to pick desired colour combination of exotic starship from the vanilla colour picker. It also introduces the option to apply the 5 vanilla textures (yellow, red, blue, grey, orange) and a brand new black texture. Version 5.05 also supports customizing the colour of metallic bits / decals found on exotic ships.\n<br />\n<br />Whereas previous version required the Royal Palette mod by lMonk to function, this new version ditches it completely. Moreover, [b]it is not compatible with lMonk's mod anymore[/b]. Make sure to uninstall their mod when using the new version my exotic fabricator mod![/quote]\n<br />\n<br />[quote]DISCLAIMER 5\n<br />\n<br />For any question like \"do other players see my custom ship colours?\" or \"does the exotic keep its appearance once the mod is removed?\", assume the answer is NO.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />UI&#92;SHIP_BUILDER_PAGE.MBIN\n<br />\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;MODULARCUSTOMISATIONDATATABLE.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CHARACTERCUSTOMISATIONDESCRIPTORGROUPSDATA.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CHARACTERCUSTOMISATIONTEXTUREOPTIONDATA.MBIN\n<br />\n<br />TEXTURES&#92;COMMON&#92;SPACECRAFT&#92;S-CLASS&#92;ROYALSCLASS_TRIM.TEXTURE.MBIN\n<br />TEXTURES&#92;COMMON&#92;SPACECRAFT&#92;S-CLASS&#92;DETAILS.TEXTURE.MBIN\n<br />TEXTURES&#92;COMMON&#92;SPACECRAFT&#92;S-CLASS&#92;ROYALSCLASS_TRIM.BASE.DDS[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />✅ EXML patch mod +⚠️ Full MBIN replacement\n<br />\n<br />This mod is likely to work with other mods modifying the same files. The MBIN replacement is required for the file responsible for UI portion of the mod.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script and the TEXTURES folder.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory and the TEXTURES folder into [b]AMUMMS&#92;ModScript&#92;GlobalMEFTI[/b] directory.\n<br />\n<br />Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
     "state": "normal",
@@ -525926,8 +526030,8 @@
         "file_id": 48564,
         "name": "Exotic Starship Fabricator",
         "version": "7.00",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 525,
         "file_name": "Exotic Starship Fabricator 3007 7.00 2026-09-14T05-56Z N2LUkQgTN.zip",
@@ -525940,7 +526044,32 @@
         "size_kb": 525,
         "size_in_bytes": 538172,
         "changelog_html": "updated for game version 7.00 (Cosmos)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3007/eb/f5/56/ebf556a7-a763-44e3-baab-4f9008508eaf.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/eb/f5/56/ebf556a7-a763-44e3-baab-4f9008508eaf"
+      },
+      {
+        "id": [
+          50302,
+          1634
+        ],
+        "uid": 7017976611966,
+        "file_id": 50302,
+        "name": "Exotic Starship Fabricator",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 511,
+        "file_name": "Exotic Starship Fabricator 3007 7.10 2026-11-01T17-21Z kAMZq0aey.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793553666,
+        "uploaded_time": "2026-11-01T17:21:06.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4c12abc3457f52433e464ade9211561d5b0401f59e073afebd4d7ed77aaabae9",
+        "description": "",
+        "size_kb": 511,
+        "size_in_bytes": 523393,
+        "changelog_html": "updated for game version 7.10 (Forsaken)\npotentially fixed an issue where the custom black texture would appear purple in game",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/90/f8/db/90f8dbd1-d28a-44ff-ba6d-9ce0638aa3cc"
       }
     ],
     "changelogs": {
@@ -525960,6 +526089,10 @@
       ],
       "7.00": [
         "updated for game version 7.00 (Cosmos)"
+      ],
+      "7.10": [
+        "updated for game version 7.10 (Forsaken)",
+        "potentially fixed an issue where the custom black texture would appear purple in game"
       ]
     }
   },
@@ -525972,7 +526105,7 @@
     "author": "CodenameAwesome",
     "updated_timestamp": 1755821284,
     "created_timestamp": 1711646762,
-    "description": "Adds a 5% chance for space stations to use the old model (including interior). That's it. They don't have the ship fabricator station.\n<br />\n<br />Modifies GCSIMULATIONGLOBALS.GLOBAL.MBIN",
+    "description": "[size=6][url=https://www.nexusmods.com/nomanssky/mods/4752]New version by Babscoole![/url][/size]\n<br />\n<br />Adds a 5% chance for space stations to use the old model (including interior). That's it. They don't have the ship fabricator station.\n<br />\n<br />Modifies GCSIMULATIONGLOBALS.GLOBAL.MBIN",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -531970,12 +532103,12 @@
     "mod_id": 3044,
     "name": "(Simplified) Sentinel Starship Fabricator",
     "summary": "\"We have nms.center at home\". nms.center at home:",
-    "version": "7.00",
+    "version": "7.10",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3044/3044-1735126216-637097996.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1789103424,
+    "updated_timestamp": 1793555047,
     "created_timestamp": 1715357063,
-    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />This mod allows players to synthesize an Interceptor-type starship using the space stations' fabricator machines added with Orbitals update.\n<br />\n<br />A couple important disclaimers:\n<br />\n<br />[quote]DISCLAIMER 1\n<br />\n<br />This mod offers only a [b]very simplified[/b] assembly procedure for the Interceptor starships. Lots of liberties were taken, lots of corners were cut, lots of parts / nodes were purposefully omitted to get this functionality to the current state. If you are looking for a proper recreation of Sentinel ship spawning algorithm used by the game, use [url=https://nms.center/]Mjstral's customizer bot and ship delivery services[/url] instead.[/quote]\n<br />\n<br />[quote]DISCLAIMER 2\n<br />\n<br />This mod makes use of the shuttle assembly functionality which was originally prepared by HG and disabled from actual gameplay. This mod enables this functionality back and makes extensive changes to it in order to fit even simplified Interceptor starship synthesis. It's far from perfect, there are still some issues that can not be addressed properly![/quote]\n<br />\n<br />[quote]DISCLAIMER 3\n<br />\n<br />This mod [b]is not compatible with any other mod that adds new ship types[/b] to the starship fabricator, such as my previous Exotic Starship Fabricator mod or ThatBomberBoi's mods for shuttles and solar starships  - all of these mods are affecting the only free assembly functionality we have and there is no way to get these mods working together![/quote]\n<br />\n<br />[quote]DISCLAIMER 4\n<br />\n<br />For any question like \"do other players see my assembled Interceptor ship?\" or \"does the Interceptor keep its appearance once the mod is removed?\", assume the answer is NO.[/quote]\n<br />\n<br />[quote]﻿DISCLAIMER 5\n<br />\n<br />Version 6.45.1 brings some technical changes in form of moving specific mod files to EXML patch format to improve compatibility with other mods and future game updates. Because of this, it's highly recommended to manually remove the previous version of the mod before installing the new version to prevent conflicts between the old MBIN files and new EXML files provided by this mod.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Features and substance map[/b][/size]\n<br />\n<br />At its current state, this mod allows players to build an Interceptor starship using following parts:\n<br />\n<br />[spoiler]\n<br />[quote][b]Cockpit[/b] - 3 variants:\n<br />\n<br />Medium [Pit A] - Ferrite Dust\n<br />Wide [Pit B] - Pure Ferrite\n<br />Narrow [Pit C] - Magnetized Ferrite[/quote]\n<br />\n<br />[quote][b]Lights // Decal[/b] - up to 12 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />Wide cockpit - decals can be selected with stellar metals (regular and activated Copper, Cadmium, Emeril, Indium) and asteroid metals (Silver, Gold, Platinum)\n<br />Narrow cockpit - decals can be selected with biome resources (eg. Basalt, Dioxite) and ferrite metals\n<br />\n<br />Note: medium sized cockpit (Pit A) does not allow any lights / decals to be installed.[/quote]\n<br />\n<br />[quote][b]Grill // Maxilla[/b] - 9 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />4 non-teeth variants - Parafinium, Pyrite, Amonia, Dioxite\n<br />4 teeth variants [snout22] - Phosphorus, Basalt, Uranium, Mordite\n<br />\n<br />Note: any sleek or \"None\" variant of the hull (skirt B) does not allow any grill to be installed.[/quote]\n<br />\n<br />[quote][b]Hull // Chasis[/b] - 41 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />\n<br />Full chasis [skirt A] dark - 4 variants, each available in 3 types: no addons [asides A2], extra plates [asides A], extra winglets [asides Ae]:\n<br />\n<br />Variant 1 [askirting A6] - Phosphorus, Carbon, Condensed Carbon\n<br />Variant 2 [A1S6] - Uranium, Sodium, Sodium Nitrate\n<br />Variant 3 [A1S3] - Ammonia, Salt, Chlorine\n<br />Variant 4 [A1S] - Dioxite, Cobalt, Ionized Cobalt\n<br />\n<br />Full chasis [skirt A] light - 4 variants, each available in 3 types:\n<br />\n<br />Variant 1 [askirting A8] - Mordite, Pugneum, Atlantideum\n<br />Variant 2 [A1S10]- Pyrite, Gold, Liquid Sun\n<br />Variant 3 [A1S11] - Parafinium, Basalt, Chromatic Metal\n<br />Variant 4 [A1S12] - Tritium, Silver, Platinum\n<br />\n<br />Sleek chasis [skirt B] dark - 4 variants, each available in 2 types: with or without elytra [askirting A]:\n<br />\n<br />Variant 1 [askirting A7] - Copper, Activated Copper\n<br />Variant 2 [A1S7] - Cadmium, Activated Cadmium\n<br />Variant 3 [A1S8] - Emeril, Activated Emeril\n<br />Variant 4 [A1S9] - Indium, Acitvated Indium\n<br />\n<br />Sleek chasis [skirt B] light - 4 variants, each available in 2 types:\n<br />\n<br />Variant 1 [askirting A9] - Residual Goop, Runaway Mould\n<br />Variant 2 [A1S13] - Rusted Metal, Living Slime\n<br />Variant 3 [A1S14] - Viscous Fluids, Faecium\n<br />Variant 4 [A1S15] - Tainted Metal, Void Motes[/quote]\n<br />\n<br />[quote][b]Top Vertical Wings // Upper Wings[/b] - 14 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />\"Empty\" variant - Atlantideum\n<br />Closed wings - Pugneum\n<br />\n<br />4 Flip variants (no plate, black, white, coloured) - selected with ferrite metals + Silicone Powder\n<br />4 Prong variants (no plate, black, white, coloured) with no sub-wing - selected with regular stellar metals\n<br />4 Prong variants (no plate, black, white, coloured) with sub-wing - selected with activated stellar metals\n<br />\n<br />Note: Vertical, Horizontal and Back Wings slots are not compatible with each other - player can use only one group of wings! Once decided on using one type of wings (in this case: Upper + Lower Wings), the other slots (Side and Back Wings) should be set to \"None\" option by selecting Oxygen.[/quote]\n<br />\n<br />[quote][b]Bottom Vertical Wings // Lower Wings[/b] - 7 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />\"Empty\" variant - Atlantideum\n<br />Closed wings - Pugneum\n<br />Tank legs - Chromatic Metal\n<br />\n<br />4 Prong variants (no plate, black, white, coloured) - selected with regular stellar metals\n<br />\n<br />Note: Vertical, Horizontal and Back Wings slots are not compatible with each other - player can use only one group of wings! Once decided on using one type of wings (in this case: Upper + Lower Wings), the other slots (Side and Back Wings) should be set to \"None\" option by selecting Oxygen.[/quote]\n<br />\n<br />[quote][b]Horizontal Wings // Side Wings[/b] - 21 variants\n<br />\n<br />\"None\" option - Oxygen\n<br />\"Empty\" variant - Atlantideum\n<br />Closed wings - Pugneum\n<br />\n<br />4 symmetrical Prong variants (extra plates, subwings) - selected with ferrite metals + Silicone Powder\n<br />4 bottom Prong variants with no sub-wing - selected with regular stellar metals + Chromatic Metal\n<br />4 bottom Prong variants with sub-wing - selected with activated stellar metals\n<br />7 top Prong variants - selected with biome resources (eg. Basalt, Dioxite)\n<br />\n<br />Note: Vertical, Horizontal and Back Wings slots are not compatible with each other - player can use only one group of wings! Once decided on using one type of wings (in this case: Side Wings), the other slots (Upper, Lower and Back Wings) should be set to \"None\" option by selecting Oxygen.[/quote]\n<br />\n<br />[quote][b]Back Wings[/b] - 21 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />\n<br />9 Carriage A variants - selected with biome resources + Mordite + Tritium\n<br />4 Carriage B variants with full bottom wings - selected with activated stellar metals\n<br />4 Carriage B variants with half bottom wings - selected with regular stellar metals\n<br />4 Carriage B variants with bottom Carriage parts - selected with ferrite metals + Silicone Powder\n<br />\n<br />Note: Vertical, Horizontal and Back Wings slots are not compatible with each other - player can use only one group of wings! Once decided on using one type of wings (in this case: Back Wings), the other slots (Upper, Lower and Side Wings) should be set to \"None\" option by selecting Oxygen.[/quote]\n<br />\n<br />[quote][b]Top Flap // Aileron[/b] - 2 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />Flap A variant - Pugneum[/quote]\n<br />\n<br />[quote][b]Flame[/b] - 7 variants:\n<br />\n<br />[img]https://i.imgur.com/mrqOZqx.jpeg[/img]\n<br />\n<br />Option 1 - Parafinium\n<br />Option 2 - Pyrite\n<br />Option 3 - Ammonia\n<br />Option 4 - Dioxite\n<br />Option 5 - Phosphorus\n<br />Option 6 - Basalt\n<br />Option 7 - Uranium\n<br />\n<br />Note: engine flame customization is only possible with full hull (skirt A) options selected.[/quote]\n<br />\n<br />[quote][b]Accessory[/b]\n<br />\n<br />\"None\" option - Oxygen\n<br />\n<br />Accessories for sleek / none hull (skirt B):\n<br />Long engine [Engine A] - Tritium\n<br />\n<br />\n<br />Accessories for full hull (skirt A):\n<br />\n<br />Extra exhausts on selected vertical and horizontal wings - Cadmium\n<br />Extra antennas on selected vertical and horizontal wings - Activated Cadmium\n<br />\n<br />Side engines with pipes [side engines A2] - Emeril\n<br />Additional weapons on outer rim [aendwings Ant] - Activated Emeril\n<br />\n<br />Additional black wings [altskirtA VarA7] - Indium\n<br />Additional white wings [altskirtA VarA8] - Activated Indium.[/quote]\n<br />\n<br />[quote][b]Core // Nucleus[/b]\n<br />\n<br />Standard reactor core upgrade modules were replaced with Sentinel-themed items as follows:\n<br />\n<br />Inverted Mirror - C class\n<br />Crystallized Heart - B class\n<br />Hyaline Brain - A class\n<br />Carrier AI Fragment - S class[/quote][/spoiler]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Colour options[/b][/size]\n<br />\n<br />\n<br />[quote]Since version 5.29 this mod offers further customisation by introducing paint styles similar to ship types supported in vanilla game. For Interceptors these options include:\n<br />\n<br />[b]Painted[/b] - allows user to pick the primary colour for the hull / chassis and secondary colour for [u]parts that support custom colours[/u], such as: the engine / spine module, the elytra piece added with Activated Indium in Accessory slot and any of the light skirt A and light skirt B hull types added with various substances in Chassis slot (ex. Gold, Tritium, Tainted Metal, Residual Goop). The colours are picked from a bright palette.\n<br />\n<br />[b]Weathered[/b] - similar principle but the colours are picked from a more dull / pastel-like palette.\n<br />\n<br />[b]Sentinel[/b] - fixed color palette featuring orange hull and black and white plating and other addons. This option [u]offerrs no colour customisation[/u] as it aims to mimick the style of the NPC Interceptors ships that attack players while in space.\n<br />\n<br />[b]Black[/b] - the elusive black primary colour for hull with addition of user-selected colour for the parts that support custom colours.  The one user-selected colour is picked from a bright palette.\n<br />\n<br />[b]Starlight [/b]- new custom colour palette composed of unapologetic tones inspired by the plethora of galaxies found in the game. These colours are applied to main hull of crafted ships and will be accompanied by white accents found throughout the other parts.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;MODULARCUSTOMISATIONDATATABLE.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CHARACTERCUSTOMISATIONDESCRIPTORGROUPSDATA.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CHARACTERCUSTOMISATIONTEXTUREOPTIONDATA.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CUSTOMISATIONCOLOURPALETTES.MBIN\n<br />\n<br />UI&#92;SHIP_BUILDER_PAGE.MBIN\n<br />UI&#92;SLOTS&#92;SLOT_SHIPITEM.MBIN[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️✅ mixed mod (MBIN + EXML files)\n<br />\n<br />This mod combines EXML patches and full MBIN replacements for specific files This mod offers partial compatibility with other mods affecting the same game files.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Credits[/b][/size]\n<br />\n<br />Mjstral - for providing info regarding Sentinel starship assembly in form of their ship customizer service",
+    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />This mod allows players to synthesize an Interceptor-type starship using the space stations' fabricator machines added with Orbitals update.\n<br />\n<br />A couple important disclaimers:\n<br />\n<br />[quote]DISCLAIMER 1\n<br />\n<br />This mod offers only a [b]very simplified[/b] assembly procedure for the Interceptor starships. Lots of liberties were taken, lots of corners were cut, lots of parts / nodes were purposefully omitted to get this functionality to the current state. If you are looking for a proper recreation of Sentinel ship spawning algorithm used by the game, use [url=https://nms.center/]Mjstral's customizer bot and ship delivery services[/url] instead.[/quote]\n<br />[quote]DISCLAIMER 2\n<br />\n<br />This mod makes use of the shuttle assembly functionality which was originally prepared by HG and disabled from actual gameplay. This mod enables this functionality back and makes extensive changes to it in order to fit even simplified Interceptor starship synthesis. It's far from perfect, there are still some issues that can not be addressed properly![/quote]\n<br />[quote]DISCLAIMER 3\n<br />\n<br />This mod [b]is not compatible with any other mod that adds new ship types[/b] to the starship fabricator, such as my previous Exotic Starship Fabricator mod or ThatBomberBoi's mods for shuttles and solar starships  - all of these mods are affecting the only free assembly functionality we have and there is no way to get these mods working together![/quote]\n<br />[quote]DISCLAIMER 4\n<br />\n<br />For any question like \"do other players see my assembled Interceptor ship?\" or \"does the Interceptor keep its appearance once the mod is removed?\", assume the answer is NO.[/quote]\n<br />[quote]﻿DISCLAIMER 5\n<br />\n<br />Version 6.45.1 brings some technical changes in form of moving specific mod files to EXML patch format to improve compatibility with other mods and future game updates. Because of this, it's highly recommended to manually remove the previous version of the mod before installing the new version to prevent conflicts between the old MBIN files and new EXML files provided by this mod.[/quote]\n<br />[line]\n<br />\n<br />[size=5][b]Features and substance map[/b][/size]\n<br />\n<br />At its current state, this mod allows players to build an Interceptor starship using following parts:\n<br />\n<br />[spoiler]\n<br />[quote][b]Cockpit[/b] - 3 variants:\n<br />\n<br />Medium [Pit A] - Ferrite Dust\n<br />Wide [Pit B] - Pure Ferrite\n<br />Narrow [Pit C] - Magnetized Ferrite[/quote]\n<br />[quote][b]Lights // Decal[/b] - up to 12 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />Wide cockpit - decals can be selected with stellar metals (regular and activated Copper, Cadmium, Emeril, Indium) and asteroid metals (Silver, Gold, Platinum)\n<br />Narrow cockpit - decals can be selected with biome resources (eg. Basalt, Dioxite) and ferrite metals\n<br />\n<br />Note: medium sized cockpit (Pit A) does not allow any lights / decals to be installed.[/quote]\n<br />[quote][b]Grill // Maxilla[/b] - 9 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />4 non-teeth variants - Parafinium, Pyrite, Amonia, Dioxite\n<br />4 teeth variants [snout22] - Phosphorus, Basalt, Uranium, Mordite\n<br />\n<br />Note: any sleek or \"None\" variant of the hull (skirt B) does not allow any grill to be installed.[/quote]\n<br />[quote][b]Hull // Chasis[/b] - 41 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />\n<br />Full chasis [skirt A] dark - 4 variants, each available in 3 types: no addons [asides A2], extra plates [asides A], extra winglets [asides Ae]:\n<br />\n<br />Variant 1 [askirting A6] - Phosphorus, Carbon, Condensed Carbon\n<br />Variant 2 [A1S6] - Uranium, Sodium, Sodium Nitrate\n<br />Variant 3 [A1S3] - Ammonia, Salt, Chlorine\n<br />Variant 4 [A1S] - Dioxite, Cobalt, Ionized Cobalt\n<br />\n<br />Full chasis [skirt A] light - 4 variants, each available in 3 types:\n<br />\n<br />Variant 1 [askirting A8] - Mordite, Pugneum, Atlantideum\n<br />Variant 2 [A1S10]- Pyrite, Gold, Liquid Sun\n<br />Variant 3 [A1S11] - Parafinium, Basalt, Chromatic Metal\n<br />Variant 4 [A1S12] - Tritium, Silver, Platinum\n<br />\n<br />Sleek chasis [skirt B] dark - 4 variants, each available in 2 types: with or without elytra [askirting A]:\n<br />\n<br />Variant 1 [askirting A7] - Copper, Activated Copper\n<br />Variant 2 [A1S7] - Cadmium, Activated Cadmium\n<br />Variant 3 [A1S8] - Emeril, Activated Emeril\n<br />Variant 4 [A1S9] - Indium, Acitvated Indium\n<br />\n<br />Sleek chasis [skirt B] light - 4 variants, each available in 2 types:\n<br />\n<br />Variant 1 [askirting A9] - Residual Goop, Runaway Mould\n<br />Variant 2 [A1S13] - Rusted Metal, Living Slime\n<br />Variant 3 [A1S14] - Viscous Fluids, Faecium\n<br />Variant 4 [A1S15] - Tainted Metal, Void Motes[/quote]\n<br />[quote][b]Top Vertical Wings // Upper Wings[/b] - 14 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />\"Empty\" variant - Atlantideum\n<br />Closed wings - Pugneum\n<br />\n<br />4 Flip variants (no plate, black, white, coloured) - selected with ferrite metals + Silicone Powder\n<br />4 Prong variants (no plate, black, white, coloured) with no sub-wing - selected with regular stellar metals\n<br />4 Prong variants (no plate, black, white, coloured) with sub-wing - selected with activated stellar metals\n<br />\n<br />Note: Vertical, Horizontal and Back Wings slots are not compatible with each other - player can use only one group of wings! Once decided on using one type of wings (in this case: Upper + Lower Wings), the other slots (Side and Back Wings) should be set to \"None\" option by selecting Oxygen.[/quote]\n<br />[quote][b]Bottom Vertical Wings // Lower Wings[/b] - 7 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />\"Empty\" variant - Atlantideum\n<br />Closed wings - Pugneum\n<br />Tank legs - Chromatic Metal\n<br />\n<br />4 Prong variants (no plate, black, white, coloured) - selected with regular stellar metals\n<br />\n<br />Note: Vertical, Horizontal and Back Wings slots are not compatible with each other - player can use only one group of wings! Once decided on using one type of wings (in this case: Upper + Lower Wings), the other slots (Side and Back Wings) should be set to \"None\" option by selecting Oxygen.[/quote]\n<br />[quote][b]Horizontal Wings // Side Wings[/b] - 21 variants\n<br />\n<br />\"None\" option - Oxygen\n<br />\"Empty\" variant - Atlantideum\n<br />Closed wings - Pugneum\n<br />\n<br />4 symmetrical Prong variants (extra plates, subwings) - selected with ferrite metals + Silicone Powder\n<br />4 bottom Prong variants with no sub-wing - selected with regular stellar metals + Chromatic Metal\n<br />4 bottom Prong variants with sub-wing - selected with activated stellar metals\n<br />7 top Prong variants - selected with biome resources (eg. Basalt, Dioxite)\n<br />\n<br />Note: Vertical, Horizontal and Back Wings slots are not compatible with each other - player can use only one group of wings! Once decided on using one type of wings (in this case: Side Wings), the other slots (Upper, Lower and Back Wings) should be set to \"None\" option by selecting Oxygen.[/quote]\n<br />[quote][b]Back Wings[/b] - 21 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />\n<br />9 Carriage A variants - selected with biome resources + Mordite + Tritium\n<br />4 Carriage B variants with full bottom wings - selected with activated stellar metals\n<br />4 Carriage B variants with half bottom wings - selected with regular stellar metals\n<br />4 Carriage B variants with bottom Carriage parts - selected with ferrite metals + Silicone Powder\n<br />\n<br />Note: Vertical, Horizontal and Back Wings slots are not compatible with each other - player can use only one group of wings! Once decided on using one type of wings (in this case: Back Wings), the other slots (Upper, Lower and Side Wings) should be set to \"None\" option by selecting Oxygen.[/quote]\n<br />[quote][b]Top Flap // Aileron[/b] - 2 variants:\n<br />\n<br />\"None\" option - Oxygen\n<br />Flap A variant - Pugneum[/quote]\n<br />[quote][b]Flame[/b] - 7 variants:\n<br />\n<br />[img]https://i.imgur.com/mrqOZqx.jpeg[/img]\n<br />\n<br />Option 1 - Parafinium\n<br />Option 2 - Pyrite\n<br />Option 3 - Ammonia\n<br />Option 4 - Dioxite\n<br />Option 5 - Phosphorus\n<br />Option 6 - Basalt\n<br />Option 7 - Uranium\n<br />\n<br />Note: engine flame customization is only possible with full hull (skirt A) options selected.[/quote]\n<br />[quote][b]Accessory[/b]\n<br />\n<br />\"None\" option - Oxygen\n<br />\n<br />Accessories for sleek / none hull (skirt B):\n<br />Long engine [Engine A] - Tritium\n<br />\n<br />\n<br />Accessories for full hull (skirt A):\n<br />\n<br />Extra exhausts on selected vertical and horizontal wings - Cadmium\n<br />Extra antennas on selected vertical and horizontal wings - Activated Cadmium\n<br />\n<br />Side engines with pipes [side engines A2] - Emeril\n<br />Additional weapons on outer rim [aendwings Ant] - Activated Emeril\n<br />\n<br />Additional black wings [altskirtA VarA7] - Indium\n<br />Additional white wings [altskirtA VarA8] - Activated Indium.[/quote]\n<br />[quote][b]Core // Nucleus[/b]\n<br />\n<br />Standard reactor core upgrade modules were replaced with Sentinel-themed items as follows:\n<br />\n<br />Inverted Mirror - C class\n<br />Crystallized Heart - B class\n<br />Hyaline Brain - A class\n<br />Carrier AI Fragment - S class[/quote][/spoiler]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Colour options[/b][/size]\n<br />\n<br />\n<br />[quote]Since version 5.29 this mod offers further customisation by introducing paint styles similar to ship types supported in vanilla game. For Interceptors these options include:\n<br />\n<br />[b]Painted[/b] - allows user to pick the primary colour for the hull / chassis and secondary colour for [u]parts that support custom colours[/u], such as: the engine / spine module, the elytra piece added with Activated Indium in Accessory slot and any of the light skirt A and light skirt B hull types added with various substances in Chassis slot (ex. Gold, Tritium, Tainted Metal, Residual Goop). The colours are picked from a bright palette.\n<br />\n<br />[b]Weathered[/b] - similar principle but the colours are picked from a more dull / pastel-like palette.\n<br />\n<br />[b]Sentinel[/b] - fixed color palette featuring orange hull and black and white plating and other addons. This option [u]offerrs no colour customisation[/u] as it aims to mimick the style of the NPC Interceptors ships that attack players while in space.\n<br />\n<br />[b]Black[/b] - the elusive black primary colour for hull with addition of user-selected colour for the parts that support custom colours.  The one user-selected colour is picked from a bright palette.\n<br />\n<br />[b]Starlight [/b]- new custom colour palette composed of unapologetic tones inspired by the plethora of galaxies found in the game. These colours are applied to main hull of crafted ships and will be accompanied by white accents found throughout the other parts.[/quote]\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;MODULARCUSTOMISATIONDATATABLE.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CHARACTERCUSTOMISATIONDESCRIPTORGROUPSDATA.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CHARACTERCUSTOMISATIONTEXTUREOPTIONDATA.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CUSTOMISATIONCOLOURPALETTES.MBIN\n<br />\n<br />UI&#92;SHIP_BUILDER_PAGE.MBIN\n<br />UI&#92;SLOTS&#92;SLOT_SHIPITEM.MBIN[/quote]\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️✅ mixed mod (MBIN + EXML files)\n<br />\n<br />This mod combines EXML patches and full MBIN replacements for specific files This mod offers partial compatibility with other mods affecting the same game files.[/quote]\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]\n<br />[line]\n<br />\n<br />[size=5][b]Credits[/b][/size]\n<br />\n<br />Mjstral - for providing info regarding Sentinel starship assembly in form of their ship customizer service",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -532577,7 +532710,7 @@
         "size_kb": 59,
         "size_in_bytes": 0,
         "changelog_html": "updated for game version 6.45 (Swarm)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3044/e8/d4/95/e8d495be-1965-47c6-b738-4abba7f59ce3.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e8/d4/95/e8d495be-1965-47c6-b738-4abba7f59ce3"
       },
       {
         "id": [
@@ -532602,7 +532735,7 @@
         "size_kb": 37,
         "size_in_bytes": 38199,
         "changelog_html": "fixed an issue where a specific side wings variant would not get the antennas accessory\nadded new colour option Starlight inspired by glow colours of various galaxies\npartially reworked the mod to move towards EXML patches for specific files for better compatibility with game updates\nbecause of this change it's recommended to manually remove old version of the mod to prevent conflicts between old MBIN files and new EXML files of this mod !!",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3044/ee/85/79/ee8579c6-e975-4cec-b98a-6a6a50a69e1e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ee/85/79/ee8579c6-e975-4cec-b98a-6a6a50a69e1e"
       },
       {
         "id": [
@@ -532613,8 +532746,8 @@
         "file_id": 48073,
         "name": "Sentinel Starship Fabricator",
         "version": "7.00",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 37,
         "file_name": "Sentinel Starship Fabricator 3044 7.00 2026-09-11T05-10Z L5bXM34tF.zip",
@@ -532627,7 +532760,32 @@
         "size_kb": 37,
         "size_in_bytes": 38520,
         "changelog_html": "updated for game version 7.00 (Cosmos)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3044/9c/ec/99/9cec991e-f6f7-49fb-825f-c2afc3dc26ec.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9c/ec/99/9cec991e-f6f7-49fb-825f-c2afc3dc26ec"
+      },
+      {
+        "id": [
+          50303,
+          1634
+        ],
+        "uid": 7017976611967,
+        "file_id": 50303,
+        "name": "Sentinel Starship Fabricator",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 37,
+        "file_name": "Sentinel Starship Fabricator 3044 7.10 2026-11-01T17-44Z Z3ytCvN1u.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793555047,
+        "uploaded_time": "2026-11-01T17:44:07.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/88e935f6eb93b9d6adead20ea08df095c4ec313de9db50df4366a3b9e1fafa3e",
+        "description": "",
+        "size_kb": 37,
+        "size_in_bytes": 38532,
+        "changelog_html": "updated for game version 7.10 (Forsaken)",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/36/09/69/360969e1-0173-46c0-8f2b-58dffffd619c"
       }
     ],
     "changelogs": {
@@ -532659,6 +532817,9 @@
       ],
       "7.00": [
         "updated for game version 7.00 (Cosmos)"
+      ],
+      "7.10": [
+        "updated for game version 7.10 (Forsaken)"
       ]
     }
   },
@@ -629296,14 +629457,14 @@
   },
   {
     "mod_id": 3753,
-    "name": "Convenient Corvette Teleporters 2.2",
+    "name": "Convenient Corvette Teleporters 2.3",
     "summary": "Improves placement and orientation of Corvette Teleporters",
-    "version": "2.2",
+    "version": "2.3",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3753/3753-1757745545-545268999.jpg",
     "author": "Lo2k",
-    "updated_timestamp": 1789577112,
+    "updated_timestamp": 1793542771,
     "created_timestamp": 1757231963,
-    "description": "Corvettes have been added in Voyagers update and they are great, but Teleporters to reach or exit them are not the most optimal.\n<br />\n<br />So this mod changes them slightly to improve our quality of life :\n<br />- Moved standard and pirate freighters Corvette teleporters from the very back [color=#ffd966]to the front of the entry toward the bridge teleporter, giving quick access to the bridge from the teleporter but also from the bridge as the bridge teleporter is facing that direction (new in 1.4).[/color]\n<br />- Moved Space Station landing pad corvette teleporters from the right to before the corvette board, to prevent searching for the board after you teleport\n<br />- Turned Space Station corvette teleporters in order you face the opposite wall instead of the ship landing pad when coming back from corvette pads, giving an immediate sense or where you are, shops being on your left, ships on your right.\n<br />\n<br />Enjoy.﻿\n<br />\n<br />\n<br />[color=#ffd966]New in v2.2 : updated for 7.03 Cosmos game version and fixes out of space station teleportations.[/color]\n<br />\n<br />[size=2]Compatibility : [/size]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/880][color=#ffd966]- [u]CHECK IF THIS MOD IS COMPATIBLE WITH LATEST GAME VERSION[/u][/color][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/articles/85][color=#f6b26b]- [u]CHECK IF THIS MOD NEEDS TO BE MERGED WITH ANOTHER OF MY MODS[/u][/color][/url]",
+    "description": "Corvettes have been added in Voyagers update and they are great, but Teleporters to reach or exit them are not the most optimal.\n<br />\n<br />So this mod changes them slightly to improve our quality of life :\n<br />- Moved standard and pirate freighters Corvette teleporters from the very back [color=#ffd966]to the front of the entry toward the bridge teleporter, giving quick access to the bridge from the teleporter but also from the bridge as the bridge teleporter is facing that direction (new in 1.4).[/color]\n<br />- Moved Space Station landing pad corvette teleporters from the right to before the corvette board, to prevent searching for the board after you teleport\n<br />- Turned Space Station corvette teleporters in order you face the opposite wall instead of the ship landing pad when coming back from corvette pads, giving an immediate sense or where you are, shops being on your left, ships on your right.\n<br />\n<br />Enjoy.﻿\n<br />\n<br />\n<br />[color=#ffd966]New in v2.3 : updated for 7.12 Forsaken game version.[/color]\n<br />\n<br />[size=2]Compatibility : [/size]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/880][color=#ffd966]- [u]CHECK IF THIS MOD IS COMPATIBLE WITH LATEST GAME VERSION[/u][/color][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/articles/85][color=#f6b26b]- [u]CHECK IF THIS MOD NEEDS TO BE MERGED WITH ANOTHER OF MY MODS[/u][/color][/url]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -629555,7 +629716,7 @@
         "size_kb": 157,
         "size_in_bytes": 161653,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3753/07/71/78/07717803-ea97-43a0-b661-10905f6b900d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/07/71/78/07717803-ea97-43a0-b661-10905f6b900d"
       },
       {
         "id": [
@@ -629580,7 +629741,7 @@
         "size_kb": 157,
         "size_in_bytes": 161758,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3753/94/e3/9c/94e39c73-3184-44dd-a76b-2e7e57d8555e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/94/e3/9c/94e39c73-3184-44dd-a76b-2e7e57d8555e"
       },
       {
         "id": [
@@ -629605,7 +629766,7 @@
         "size_kb": 158,
         "size_in_bytes": 161797,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3753/26/7f/db/267fdb32-0aa3-46c1-be58-e087c060fa94.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/26/7f/db/267fdb32-0aa3-46c1-be58-e087c060fa94"
       },
       {
         "id": [
@@ -629616,8 +629777,8 @@
         "file_id": 48677,
         "name": "Convenient Corvette Teleporters 2.2",
         "version": "2.2",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 157,
         "file_name": "Convenient Corvette Teleporters 2.2 3753 2.2 2026-09-16T16-45Z rv2uEjLV1.zip",
@@ -629630,7 +629791,32 @@
         "size_kb": 157,
         "size_in_bytes": 161635,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3753/5f/85/98/5f859880-c57b-4b66-9189-7fef6cbf3286.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/5f/85/98/5f859880-c57b-4b66-9189-7fef6cbf3286"
+      },
+      {
+        "id": [
+          50296,
+          1634
+        ],
+        "uid": 7017976611960,
+        "file_id": 50296,
+        "name": "Convenient Corvette Teleporters 2.3",
+        "version": "2.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 157,
+        "file_name": "Convenient Corvette Teleporters 2.3 3753 2.3 2026-11-01T14-19Z 4tDiNufSh.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793542771,
+        "uploaded_time": "2026-11-01T14:19:31.000+00:00",
+        "mod_version": "2.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/356fba45d4077ce95cfd616a0f909da8f36171d48b1cda572c20e98bc9b1e49f",
+        "description": "Improves corvette teleporters placement. Includes a .lua files and installation notes.",
+        "size_kb": 157,
+        "size_in_bytes": 161413,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4d/ce/67/4dce6794-06e0-4cbe-82eb-839daac2d6dd"
       }
     ],
     "changelogs": {}
@@ -686478,10 +686664,10 @@
     "mod_id": 4578,
     "name": "Fully Automated Luxury Space Machines",
     "summary": "Supercharges all basic machines on your base: Oxygen and Gas Harvesters, Gas and Mineral Extractors, AMUs, Antimatter Reactors, Refiners, Biogenerators and Batteries. They now produce more output, work faster and do not require fuel to operate!",
-    "version": "7.10.1",
+    "version": "7.10.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4578/4578-1790591799-1351131909.jpg",
     "author": "jw11-modder",
-    "updated_timestamp": 1793367040,
+    "updated_timestamp": 1793553363,
     "created_timestamp": 1790591908,
     "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]Tired of constantly refueling your machines and then waiting for them to finish their work? This mod helps you with this predicament:  Oxygen and Gas Harvesters, AMUs, Antimatter Reactors, Refiners and Biogenerators now work faster, don't require fuel, and have some other quality of life upgrades.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[color=#D4D4D8]Unpack archive to [/color][color=#ffe599]&#92;GAMEDATA&#92;MODS&#92;[/color][color=#D4D4D8] directory, and you're ready to go. Also you can use [url=https://www.nexusmods.com/about/vortex/]Vortex [/url]to make installation even easier. [/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]Oxygen harvesters, Gas harvesters and Automated Mining Units now have their output increased to 3250 units, don't need fuel to work and finish production in 5 seconds. Also they are now portable - you can pick them up into you inventory.[/color]\n<br />\n<br />[color=#D4D4D8]Antimatter reactor also produces full stack of antimatter in 5 seconds without ay fuel input.[/color]\n<br />\n<br />[color=#D4D4D8]Gas and Mineral Extractors now work faster and can store up to 750 units of material. Supply Depot now stores up to 9000 units of material.[/color]\n<br />\n<br />Biogenerator now produces 100 times more power and works without need for fuel.\n<br />\n<br />Battery now stores 50 times more power.\n<br />\n<br />Portable refiner now has two inputs, and again - doesn't need fuel. \n<br />\n<br />Personal refiners in exosuit have increased input slots (2 for normal and 3 for MK2), and need to be charged only once.\n<br />\n<br />All refiners (including Medium, Large, Freighter, Corvette, etc.) now share speedup bonus to their production, working 60 times faster than usual.\n<br />\n<br />Creature feeder and Creature harvester are also now portable, plus feeder now spends a bit less food.\n<br />\n<br />Fish trap now provides resources much faster (thanks to [url=https://next.nexusmods.com/profile/keywal]keywal[/url] for the idea).\n<br />\n<br />And as a small bonus - Health and Shield Stations now recharge fast and work for free, respectively.\n<br />\n<br />All these parameters are set at the top of the respective LUA file, so you can easily change them with [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url].\n<br />\n<br />[color=#e06666][size=4][b]!!! IMPORTANT !!! [/b][/size][/color]\n<br />If you already have these machines deployed, they may be bugged - especially harvesters and portable refiner. You'll have to pick them up and deploy again for them to work properly. \n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]If you want to change parameters of this mod, you can do it with the help of [url=https://github.com/HolterPhylo/AMUMSS/releases]AMUMSS[/url] (detailed instructions how to use it [url=https://www.nexusmods.com/nomanssky/mods/2626]can be found here[/url]). Mod itself doesn't have any specific requirements to use. [/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]Shout out to all of NMS modding community and AMUMSS team especially!\n<br />Special thanks to all modders who already created similar mods. This mod is fully written by me, but I got several ideas from other mod authors.[/color]\n<br />\n<br />[b][size=4]Other mods[/size][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4256]Life support and hazard protection upgrades[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4558]Player mobility upgrade[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4257]Player Weapons Powerup[/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4258]Ship weapons powerup[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4269]Vehicle mobility upgrade[/url][/b]\n<br />[b][url=https://www.nexusmods.com/nomanssky/mods/4296]Ship mobility upgrade[/url][/b]\n<br />\n<br />[b][size=4]Additional information[/size][/b]\n<br />Source code for the mod can be found on [url=https://github.com/JW11-modder/NoMansSky]Github[/url].\n<br />You can support me on [url=https://boosty.to/jwmodder/donate]Boosty[/url]. ",
     "state": "normal",
@@ -686621,9 +686807,9 @@
         "file_id": 50240,
         "name": "Fully Automated Luxury Space Machines",
         "version": "7.10.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 23,
         "file_name": "Fully Automated Luxury Space Machines 4578 7.10.1 2026-10-30T13-30Z kAMZq0aRt.zip",
         "detected_file_extension": "zip",
@@ -686636,6 +686822,31 @@
         "size_in_bytes": 24172,
         "changelog_html": "Added speedup for fish trap.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/22/d9/d3/22d9d3c5-ad21-4906-8d1c-b05415c2546d"
+      },
+      {
+        "id": [
+          50301,
+          1634
+        ],
+        "uid": 7017976611965,
+        "file_id": 50301,
+        "name": "Fully Automated Luxury Space Machines",
+        "version": "7.10.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 23,
+        "file_name": "Fully Automated Luxury Space Machines 4578 7.10.2 2026-11-01T17-16Z XnaJySD0P.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793553363,
+        "uploaded_time": "2026-11-01T17:16:03.000+00:00",
+        "mod_version": "7.10.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8915ff697c29144fdd351d225122381b1c1713acbd4b1642738cc7c02292b43e",
+        "description": "",
+        "size_kb": 23,
+        "size_in_bytes": 24320,
+        "changelog_html": "Moved biogenerator fuel consumption to variable.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/69/d5/5b/69d55b91-3d05-4c1f-9c36-495c174c8696"
       }
     ],
     "changelogs": {
@@ -686653,6 +686864,9 @@
       ],
       "7.10.1": [
         "Added speedup for fish trap."
+      ],
+      "7.10.2": [
+        "Moved biogenerator fuel consumption to variable."
       ]
     }
   },
