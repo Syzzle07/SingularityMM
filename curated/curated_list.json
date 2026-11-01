@@ -485636,12 +485636,12 @@
     "mod_id": 2833,
     "name": "No Slow Cursor In Menus",
     "summary": "Making the game playable again one step at a time",
-    "version": "7.00",
+    "version": "7.10",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2833/2833-1692279271-1185684244.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1789310367,
+    "updated_timestamp": 1793563401,
     "created_timestamp": 1692279398,
-    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod removes the cursor slow down effect added to various menus and their elements with the 4.0 Waypoint update. Since this update each button and list has a hitbox that severly limits the speed of the cursor moving through it when analog sticks are used as input device. In the patch notes HG claims that:\n<br />\n<br />[quote]Cursor control for players using a gamepad has been improved.[/quote]\n<br />which is 100% bullshit when players have to push the sticks more in order to compensate for the each element capable of slowing down the cursor.\n<br />\n<br />[quote][b]DISCLAIMER:[/b]\n<br />\n<br />If you use mouse and keyboard only, this mod is not for you!![/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />[spoiler]\n<br />UI&#92;ACTIONSETSELECTOR.MBIN\n<br />UI&#92;APPLYTOSHIPBUTTON.MBIN\n<br />UI&#92;BUYSCREEN.MBIN\n<br />UI&#92;CONTROLSPAGE.MBIN\n<br />UI&#92;CONTROLSPAGE2PSVR2.MBIN\n<br />UI&#92;CONTROLSPAGEPC.MBIN\n<br />UI&#92;CONTROLSPAGESWITCH.MBIN\n<br />UI&#92;CONTROLSPAGESWITCH2.MBIN\n<br />UI&#92;CONTROLSPAGESWITCH2PRO.MBIN\n<br />UI&#92;CONTROLSPAGESWITCHPRO.MBIN\n<br />UI&#92;CONTROLSPAGEXBOX.MBIN\n<br />UI&#92;CONTROLSREMAPPAGECONSOLE.MBIN\n<br />UI&#92;DISCOVERYPAGE.MBIN\n<br />UI&#92;FRIENDSBLOCKEDPAGE.MBIN\n<br />UI&#92;FRIENDSINVITESPAGE.MBIN\n<br />UI&#92;FRIGATERECRUITPAGE.MBIN\n<br />UI&#92;INTERACTIONDIALOGPAGE.MBIN\n<br />UI&#92;INTERACTIONINTERMEDIATE.MBIN\n<br />UI&#92;INTERACTIONJUDGEMENTPAGE.MBIN\n<br />UI&#92;INTERACTIONMISSIONDESCRIPTION.MBIN\n<br />UI&#92;INTERACTIONSETTLEMENTSPAGE.MBIN\n<br />UI&#92;INTERACTIONTELEPORTERNEXUSPAGE.MBIN\n<br />UI&#92;INTERACTIONUPLOADBASE.MBIN\n<br />UI&#92;INVENTORYPAGE.MBIN\n<br />UI&#92;LOBBYPAGE.MBIN\n<br />UI&#92;NETWORKPAGENEW.MBIN\n<br />UI&#92;PCCONTROLSPAGE.MBIN\n<br />UI&#92;PCDIFFICULTYPAGE.MBIN\n<br />UI&#92;PCMISCPAGENEW.MBIN\n<br />UI&#92;PETS.MBIN\n<br />UI&#92;POPUP_BUILD.MBIN\n<br />UI&#92;POPUP_BYTEBEATSELECT.MBIN\n<br />UI&#92;POPUP_CHARGE.MBIN\n<br />UI&#92;POPUP_OUTFITTING.MBIN\n<br />UI&#92;POPUP_TRANSFER.MBIN\n<br />UI&#92;POPUP_TRANSFERSEND.MBIN\n<br />UI&#92;PS4MISCPAGENEW.MBIN\n<br />UI&#92;PSVRCONTROLSPAGE.MBIN\n<br />UI&#92;REDEEMPAGE.MBIN\n<br />UI&#92;REMAPCONTROLSBUTTON.MBIN\n<br />UI&#92;SHIP_BUILDER_PAGE.MBIN\n<br />UI&#92;SLOT.MBIN\n<br />UI&#92;SQUADRONPILOTSPAGE.MBIN\n<br />UI&#92;SQUADRONRECRUITPAGE.MBIN\n<br />UI&#92;SWAPPAGE.MBIN\n<br />UI&#92;SWAPPAGENEW.MBIN\n<br />UI&#92;SWITCHERPAGE.MBIN\n<br />UI&#92;SWITCHERPAGENEW.MBIN\n<br />UI&#92;TELEPORTERPAGE.MBIN\n<br />UI&#92;TRADEPAGE.MBIN\n<br />UI&#92;BOOT&#92;FRIENDCODE.MBIN\n<br />UI&#92;BOOT&#92;ROOTMENU2.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATOPTIONSBAR.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATOPTIONSBARHORIZ.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATOPTIONSBARVERT.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATPAGE.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATTOGGLE.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATTOGGLE2.MBIN\n<br />UI&#92;COMPONENTS&#92;ACCEPTDECLINEDIALOG.MBIN\n<br />UI&#92;COMPONENTS&#92;ACCEPTDECLINEDIALOG3.MBIN\n<br />UI&#92;COMPONENTS&#92;ARROWBOXSCROLL.MBIN\n<br />UI&#92;COMPONENTS&#92;BASETHUMBBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;BUILDCOLOUR.MBIN\n<br />UI&#92;COMPONENTS&#92;BUILDMATERIAL.MBIN\n<br />UI&#92;COMPONENTS&#92;BUTTONACCEPT.MBIN\n<br />UI&#92;COMPONENTS&#92;BUTTONDECLINE.MBIN\n<br />UI&#92;COMPONENTS&#92;CONTENTPAGE.MBIN\n<br />UI&#92;COMPONENTS&#92;CONTROLSTABBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;CONTROLSTABBUTTONWIDE.MBIN\n<br />UI&#92;COMPONENTS&#92;CURSORLAYER.MBIN\n<br />UI&#92;COMPONENTS&#92;FIVECHOICEBOX.MBIN\n<br />UI&#92;COMPONENTS&#92;FOURCHOICEBOX.MBIN\n<br />UI&#92;COMPONENTS&#92;FOURCHOICEBOXSPECIAL.MBIN\n<br />UI&#92;COMPONENTS&#92;INVSELECTICON.MBIN\n<br />UI&#92;COMPONENTS&#92;KEYBUTTONS.MBIN\n<br />UI&#92;COMPONENTS&#92;KEYBUTTONSCOMPONENT.MBIN\n<br />UI&#92;COMPONENTS&#92;NETWORKBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;NEWARROWBOX.MBIN\n<br />UI&#92;COMPONENTS&#92;NEWARROWBOXLONG.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONSAMOUNTBAR.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONSBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;POPUPTITLEWITHSUBTITLE.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONFRAME.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONSCROLL.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONSCROLLFRAME.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONSCROLLFRAMEROUND.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONSCROLLROUND.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONTELE.MBIN\n<br />UI&#92;COMPONENTS&#92;SETTINGSBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;SETTLEMENTBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;SHOPAMOUNTBAR.MBIN\n<br />UI&#92;COMPONENTS&#92;SHOPARROW.MBIN\n<br />UI&#92;COMPONENTS&#92;SHOPITEMBAR.MBIN\n<br />UI&#92;COMPONENTS&#92;SHOPWHOLEITEMBAR.MBIN\n<br />UI&#92;COMPONENTS&#92;SHOPWHOLEITEMBARNEW.MBIN\n<br />UI&#92;COMPONENTS&#92;TECHSHOPWHOLEITEMBAR.MBIN\n<br />UI&#92;COMPONENTS&#92;TELEPORTERWINDOW.MBIN\n<br />UI&#92;COMPONENTS&#92;THINARROWBOX.MBIN\n<br />UI&#92;COMPONENTS&#92;THINNERARROWBOX.MBIN\n<br />UI&#92;COMPONENTS&#92;INTERACTION&#92;OFFERPANEL.MBIN\n<br />UI&#92;COMPONENTS&#92;INVENTORY&#92;SQU_INV_BOXREGULAR.MBIN\n<br />UI&#92;COMPONENTS&#92;INVENTORY&#92;SQU_INV_BOXTECH.MBIN\n<br />UI&#92;COMPONENTS&#92;INVENTORY&#92;SQU_SLOT_ITEM.MBIN\n<br />UI&#92;COMPONENTS&#92;INVENTORY&#92;SQU_SLOT.MBIN\n<br />UI&#92;COMPONENTS&#92;MODULARCUSTOMISATION&#92;FOSSILSLOT.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONS&#92;OPTIONARROWS.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONS&#92;OPTIONBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONS&#92;OPTIONMULTIBUTTONS.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONS&#92;QUALITYOPTION.MBIN\n<br />UI&#92;COMPONENTS&#92;SCREENSTYLE&#92;SCREENPANEL.MBIN\n<br />UI&#92;FRIENDS&#92;FRIENDINVITEBUTTON.MBIN\n<br />UI&#92;FRIENDS&#92;LOBBYFRIENDBUTTON.MBIN\n<br />UI&#92;MANAGEFLEET&#92;FRIGATEDETAILS.MBIN\n<br />UI&#92;MISSIONS&#92;ABANDONBUTTON.MBIN\n<br />UI&#92;MISSIONS&#92;MISSIONLOGPAGE.MBIN\n<br />UI&#92;PAGEDISCOVERY&#92;DISCOVERYBEACON.MBIN\n<br />UI&#92;PAGEDISCOVERY&#92;DISCOVERYINVENTORY.MBIN\n<br />UI&#92;PAGEDISCOVERY&#92;DISCOVERYPLANETBUTTONS.MBIN\n<br />UI&#92;PAGEDISCOVERY&#92;DISCOVERYPLANETITEM.MBIN\n<br />UI&#92;PAGEDISCOVERY&#92;DISCOVERYSLOT.MBIN\n<br />UI&#92;PHOTOMODE&#92;PHOTOOPTION.MBIN\n<br />UI&#92;PORTAL&#92;DISPLAYUAPAGE.MBIN\n<br />UI&#92;PORTAL&#92;POPUP_RUNES.MBIN\n<br />UI&#92;PORTAL&#92;PORTALPAGE.MBIN\n<br />UI&#92;PORTAL&#92;RUNESLOT.MBIN\n<br />UI&#92;SETTLEMENT&#92;SETTLEMENTPAGE.MBIN\n<br />UI&#92;SLOTS&#92;SLOT_BROKEN.MBIN\n<br />UI&#92;SLOTS&#92;SLOT_DISCOVERY.MBIN\n<br />UI&#92;SLOTS&#92;SLOT_ITEM.MBIN\n<br />UI&#92;SLOTS&#92;SLOT_SHIPITEM.MBIN\n<br />UI&#92;SWITCH&#92;SWITCH_ROOT2.MBIN\n<br />UI&#92;VEHICLERACE&#92;MAINPAGE.MBIN[/spoiler]\n<br />[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️ Full MBIN replacement\n<br />\n<br />This mod will conflict with any other mod affecting the same game files. Currently it's not possible to create an EXML patch version of this mod.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Credits[/size][/b]\n<br />\n<br />Babscoole - help with LUA script",
+    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod removes the cursor slow down effect added to various menus and their elements with the 4.0 Waypoint update. Since this update each button and list has a hitbox that severly limits the speed of the cursor moving through it when analog sticks are used as input device. In the patch notes HG claims that:\n<br />\n<br />[quote]Cursor control for players using a gamepad has been improved.[/quote]which is 100% bullshit when players have to push the sticks more in order to compensate for the each element capable of slowing down the cursor.\n<br />\n<br />[quote][b]DISCLAIMER:[/b]\n<br />\n<br />If you use mouse and keyboard only, this mod is not for you!![/quote]\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />[spoiler]\n<br />UI&#92;ACTIONSETSELECTOR.MBIN\n<br />UI&#92;APPLYTOSHIPBUTTON.MBIN\n<br />UI&#92;BUYSCREEN.MBIN\n<br />UI&#92;CONTROLSPAGE.MBIN\n<br />UI&#92;CONTROLSPAGE2PSVR2.MBIN\n<br />UI&#92;CONTROLSPAGEGENERIC.MBIN\n<br />UI&#92;CONTROLSPAGEPC.MBIN\n<br />UI&#92;CONTROLSPAGESWITCH.MBIN\n<br />UI&#92;CONTROLSPAGESWITCH2.MBIN\n<br />UI&#92;CONTROLSPAGESWITCH2PRO.MBIN\n<br />UI&#92;CONTROLSPAGESWITCHPRO.MBIN\n<br />UI&#92;CONTROLSPAGEXBOX.MBIN\n<br />UI&#92;CONTROLSREMAPPAGECONSOLE.MBIN\n<br />UI&#92;DISCOVERYPAGE.MBIN\n<br />UI&#92;FRIENDSBLOCKEDPAGE.MBIN\n<br />UI&#92;FRIENDSINVITESPAGE.MBIN\n<br />UI&#92;FRIGATERECRUITPAGE.MBIN\n<br />UI&#92;INTERACTIONDIALOGPAGE.MBIN\n<br />UI&#92;INTERACTIONINTERMEDIATE.MBIN\n<br />UI&#92;INTERACTIONJUDGEMENTPAGE.MBIN\n<br />UI&#92;INTERACTIONMISSIONDESCRIPTION.MBIN\n<br />UI&#92;INTERACTIONSETTLEMENTSPAGE.MBIN\n<br />UI&#92;INTERACTIONTELEPORTERNEXUSPAGE.MBIN\n<br />UI&#92;INTERACTIONUPLOADBASE.MBIN\n<br />UI&#92;INVENTORYPAGE.MBIN\n<br />UI&#92;LOBBYPAGE.MBIN\n<br />UI&#92;NETWORKPAGENEW.MBIN\n<br />UI&#92;PCCONTROLSPAGE.MBIN\n<br />UI&#92;PCDIFFICULTYPAGE.MBIN\n<br />UI&#92;PCMISCPAGENEW.MBIN\n<br />UI&#92;PETS.MBIN\n<br />UI&#92;POPUP_BUILD.MBIN\n<br />UI&#92;POPUP_BYTEBEATSELECT.MBIN\n<br />UI&#92;POPUP_CHARGE.MBIN\n<br />UI&#92;POPUP_OUTFITTING.MBIN\n<br />UI&#92;POPUP_TRANSFER.MBIN\n<br />UI&#92;POPUP_TRANSFERSEND.MBIN\n<br />UI&#92;PS4MISCPAGENEW.MBIN\n<br />UI&#92;PSVRCONTROLSPAGE.MBIN\n<br />UI&#92;REDEEMPAGE.MBIN\n<br />UI&#92;REMAPCONTROLSBUTTON.MBIN\n<br />UI&#92;SHIP_BUILDER_PAGE.MBIN\n<br />UI&#92;SLOT.MBIN\n<br />UI&#92;SQUADRONPILOTSPAGE.MBIN\n<br />UI&#92;SQUADRONRECRUITPAGE.MBIN\n<br />UI&#92;SWAPPAGE.MBIN\n<br />UI&#92;SWAPPAGENEW.MBIN\n<br />UI&#92;SWITCHERPAGE.MBIN\n<br />UI&#92;SWITCHERPAGENEW.MBIN\n<br />UI&#92;TELEPORTERPAGE.MBIN\n<br />UI&#92;TRADEPAGE.MBIN\n<br />UI&#92;BOOT&#92;FRIENDCODE.MBIN\n<br />UI&#92;BOOT&#92;ROOTMENU2.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATOPTIONSBAR.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATOPTIONSBARHORIZ.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATOPTIONSBARVERT.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATPAGE.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATTOGGLE.MBIN\n<br />UI&#92;BYTEBEAT&#92;BYTEBEATTOGGLE2.MBIN\n<br />UI&#92;COMPONENTS&#92;ACCEPTDECLINEDIALOG.MBIN\n<br />UI&#92;COMPONENTS&#92;ACCEPTDECLINEDIALOG3.MBIN\n<br />UI&#92;COMPONENTS&#92;ARROWBOXSCROLL.MBIN\n<br />UI&#92;COMPONENTS&#92;BASETHUMBBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;BUILDCOLOUR.MBIN\n<br />UI&#92;COMPONENTS&#92;BUILDMATERIAL.MBIN\n<br />UI&#92;COMPONENTS&#92;BUTTONACCEPT.MBIN\n<br />UI&#92;COMPONENTS&#92;BUTTONDECLINE.MBIN\n<br />UI&#92;COMPONENTS&#92;CONTENTPAGE.MBIN\n<br />UI&#92;COMPONENTS&#92;CONTROLSTABBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;CONTROLSTABBUTTONWIDE.MBIN\n<br />UI&#92;COMPONENTS&#92;CURSORLAYER.MBIN\n<br />UI&#92;COMPONENTS&#92;FIVECHOICEBOX.MBIN\n<br />UI&#92;COMPONENTS&#92;FOURCHOICEBOX.MBIN\n<br />UI&#92;COMPONENTS&#92;FOURCHOICEBOXSPECIAL.MBIN\n<br />UI&#92;COMPONENTS&#92;INVSELECTICON.MBIN\n<br />UI&#92;COMPONENTS&#92;KEYBUTTONS.MBIN\n<br />UI&#92;COMPONENTS&#92;KEYBUTTONSCOMPONENT.MBIN\n<br />UI&#92;COMPONENTS&#92;NETWORKBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;NEWARROWBOX.MBIN\n<br />UI&#92;COMPONENTS&#92;NEWARROWBOXLONG.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONSAMOUNTBAR.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONSBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;POPUPTITLEWITHSUBTITLE.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONFRAME.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONSCROLL.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONSCROLLFRAME.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONSCROLLFRAMEROUND.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONSCROLLROUND.MBIN\n<br />UI&#92;COMPONENTS&#92;RESPONDBUTTONTELE.MBIN\n<br />UI&#92;COMPONENTS&#92;SETTINGSBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;SETTLEMENTBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;SHOPAMOUNTBAR.MBIN\n<br />UI&#92;COMPONENTS&#92;SHOPARROW.MBIN\n<br />UI&#92;COMPONENTS&#92;SHOPITEMBAR.MBIN\n<br />UI&#92;COMPONENTS&#92;SHOPWHOLEITEMBAR.MBIN\n<br />UI&#92;COMPONENTS&#92;SHOPWHOLEITEMBARNEW.MBIN\n<br />UI&#92;COMPONENTS&#92;TECHSHOPWHOLEITEMBAR.MBIN\n<br />UI&#92;COMPONENTS&#92;TELEPORTERWINDOW.MBIN\n<br />UI&#92;COMPONENTS&#92;THINARROWBOX.MBIN\n<br />UI&#92;COMPONENTS&#92;THINNERARROWBOX.MBIN\n<br />UI&#92;COMPONENTS&#92;INTERACTION&#92;OFFERPANEL.MBIN\n<br />UI&#92;COMPONENTS&#92;INVENTORY&#92;SQU_INV_BOXREGULAR.MBIN\n<br />UI&#92;COMPONENTS&#92;INVENTORY&#92;SQU_INV_BOXTECH.MBIN\n<br />UI&#92;COMPONENTS&#92;INVENTORY&#92;SQU_SLOT_ITEM.MBIN\n<br />UI&#92;COMPONENTS&#92;INVENTORY&#92;SQU_SLOT.MBIN\n<br />UI&#92;COMPONENTS&#92;MODULARCUSTOMISATION&#92;FOSSILSLOT.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONS&#92;OPTIONARROWS.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONS&#92;OPTIONBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONS&#92;OPTIONMULTIBUTTONS.MBIN\n<br />UI&#92;COMPONENTS&#92;OPTIONS&#92;QUALITYOPTION.MBIN\n<br />UI&#92;COMPONENTS&#92;SCREENSTYLE&#92;SCREENPANEL.MBIN\n<br />UI&#92;FRIENDS&#92;FRIENDINVITEBUTTON.MBIN\n<br />UI&#92;FRIENDS&#92;LOBBYFRIENDBUTTON.MBIN\n<br />UI&#92;MANAGEFLEET&#92;FRIGATEDETAILS.MBIN\n<br />UI&#92;MISSIONS&#92;ABANDONBUTTON.MBIN\n<br />UI&#92;MISSIONS&#92;MISSIONLOGPAGE.MBIN\n<br />UI&#92;PAGEDISCOVERY&#92;DISCOVERYBEACON.MBIN\n<br />UI&#92;PAGEDISCOVERY&#92;DISCOVERYINVENTORY.MBIN\n<br />UI&#92;PAGEDISCOVERY&#92;DISCOVERYPLANETBUTTONS.MBIN\n<br />UI&#92;PAGEDISCOVERY&#92;DISCOVERYPLANETITEM.MBIN\n<br />UI&#92;PAGEDISCOVERY&#92;DISCOVERYSLOT.MBIN\n<br />UI&#92;PHOTOMODE&#92;PHOTOOPTION.MBIN\n<br />UI&#92;PORTAL&#92;DISPLAYUAPAGE.MBIN\n<br />UI&#92;PORTAL&#92;POPUP_RUNES.MBIN\n<br />UI&#92;PORTAL&#92;PORTALPAGE.MBIN\n<br />UI&#92;PORTAL&#92;RUNESLOT.MBIN\n<br />UI&#92;SETTLEMENT&#92;SETTLEMENTPAGE.MBIN\n<br />UI&#92;SLOTS&#92;SLOT_BROKEN.MBIN\n<br />UI&#92;SLOTS&#92;SLOT_DISCOVERY.MBIN\n<br />UI&#92;SLOTS&#92;SLOT_ITEM.MBIN\n<br />UI&#92;SLOTS&#92;SLOT_SHIPITEM.MBIN\n<br />UI&#92;SWITCH&#92;SWITCH_ROOT2.MBIN\n<br />UI&#92;VEHICLERACE&#92;MAINPAGE.MBIN[/spoiler]\n<br />[/quote]\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️ Full MBIN replacement\n<br />\n<br />This mod will conflict with any other mod affecting the same game files. Currently it's not possible to create an EXML patch version of this mod.[/quote]\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]\n<br />[line]\n<br />\n<br />[b][size=5]Credits[/size][/b]\n<br />\n<br />Babscoole - help with LUA script",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -486404,8 +486404,8 @@
         "file_id": 48524,
         "name": "No Slow Cursor In Menus",
         "version": "7.00",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": true,
         "size": 344,
         "file_name": "No Slow Cursor In Menus 2833 7.00 2026-09-13T14-39Z VMJOtClBS.zip",
@@ -486418,7 +486418,32 @@
         "size_kb": 344,
         "size_in_bytes": 352673,
         "changelog_html": "updated for game version 7.00 (Cosmos)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2833/1e/00/bf/1e00bf12-d490-4078-827f-479d4bcce4b3.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1e/00/bf/1e00bf12-d490-4078-827f-479d4bcce4b3"
+      },
+      {
+        "id": [
+          50305,
+          1634
+        ],
+        "uid": 7017976611969,
+        "file_id": 50305,
+        "name": "No Slow Cursor In Menus",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 348,
+        "file_name": "No Slow Cursor In Menus 2833 7.10 2026-11-01T20-03Z L5bXM3O8r.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793563401,
+        "uploaded_time": "2026-11-01T20:03:21.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/26a67fd984b655df2da43aa7a18c89fb412beaf5917169fbfa91b9f14474e435",
+        "description": "",
+        "size_kb": 348,
+        "size_in_bytes": 356494,
+        "changelog_html": "updated for game version 7.10 (Forsaken)",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/d8/f4/59/d8f45937-5581-4772-b115-7cea49e67427"
       }
     ],
     "changelogs": {
@@ -486446,6 +486471,9 @@
       ],
       "7.00": [
         "updated for game version 7.00 (Cosmos)"
+      ],
+      "7.10": [
+        "updated for game version 7.10 (Forsaken)"
       ]
     }
   },
@@ -525047,12 +525075,12 @@
     "mod_id": 3005,
     "name": "Restore Old Popup Backgrounds",
     "summary": "WISS MY BELOBED",
-    "version": "7.00",
+    "version": "7.10",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3005/3005-1711613456-166532707.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1789308868,
+    "updated_timestamp": 1793565702,
     "created_timestamp": 1711613681,
-    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod restores the dark grey and less translucent backgrounds  that were used for various UI elements (mostly on-hover pop-ups) before the Orbital update. With the new version of the game HG opted for pitch black background colour with higher transparency value, which makes the popups look like they utilize a shitty high-contrast mode.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />[spoiler]UI&#92;POPUP_BUILD.MBIN\n<br />UI&#92;POPUP_BUILDINFO.MBIN\n<br />UI&#92;POPUP_BUILDMENUITEM.MBIN\n<br />UI&#92;POPUP_BUYSELL.MBIN\n<br />UI&#92;POPUP_BUYSELLTECH.MBIN\n<br />UI&#92;POPUP_BYTEBEAT_LIBRARY.MBIN\n<br />UI&#92;POPUP_BYTEBEAT.MBIN\n<br />UI&#92;POPUP_CHARGE.MBIN\n<br />UI&#92;POPUP_DISCOVERY.MBIN\n<br />UI&#92;POPUP_DISCOVERYITEM.MBIN\n<br />UI&#92;POPUP_EMPTYSLOT.MBIN\n<br />UI&#92;POPUP_GALAXY_SYSTEMINFO.MBIN\n<br />UI&#92;POPUP_NEWMULTITECH.MBIN\n<br />UI&#92;POPUP_NEWTECHNOLOGY.MBIN\n<br />UI&#92;POPUP_OUTFITTING.MBIN\n<br />UI&#92;POPUP_PET.MBIN\n<br />UI&#92;POPUP_REPAIRSLOT.MBIN\n<br />UI&#92;POPUP_SEASONMILESTONE.MBIN\n<br />UI&#92;POPUP_SOLARSYSTEMMAP.MBIN\n<br />UI&#92;POPUP_TECHNOLOGY.MBIN\n<br />UI&#92;POPUP_TRANSFER.MBIN\n<br />UI&#92;POPUP_TRANSFERSEND.MBIN\n<br />UI&#92;POPUP_WIKI.MBIN\n<br />\n<br />UI&#92;COMPONENTS&#92;ACTIONBUTTONDISCOVERY.MBIN\n<br />UI&#92;COMPONENTS&#92;NETWORKPOPUPBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;TRANSFERBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;HEROIMGSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;SUBSTANCEAMOUNTSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHBUILDSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHCHARGESECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHINSTALLSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHREFINERSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHREPAIRSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHSTATSSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHSTATSSECTIONSMALL.MBIN[/spoiler]\n<br />[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️ Full MBIN replacement\n<br />\n<br />This mod will conflict with any other mod affecting the same game files. Currently it's not possible to create an EXML patch version of this mod.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
+    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod restores the dark grey and less translucent backgrounds  that were used for various UI elements (mostly on-hover pop-ups) before the Orbital update. With the new version of the game HG opted for pitch black background colour with higher transparency value, which makes the popups look like they utilize a shitty high-contrast mode.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />[spoiler]UI&#92;POPUP_BUILD.MBIN\n<br />UI&#92;POPUP_BUILDINFO.MBIN\n<br />UI&#92;POPUP_BUILDMENUITEM.MBIN\n<br />UI&#92;POPUP_BUYSELL.MBIN\n<br />UI&#92;POPUP_BUYSELLTECH.MBIN\n<br />UI&#92;POPUP_BYTEBEAT_LIBRARY.MBIN\n<br />UI&#92;POPUP_BYTEBEAT.MBIN\n<br />UI&#92;POPUP_CHARGE.MBIN\n<br />UI&#92;POPUP_DISCOVERY.MBIN\n<br />UI&#92;POPUP_DISCOVERYITEM.MBIN\n<br />UI&#92;POPUP_DISCOVERYUPLOAD.MBIN\n<br />UI&#92;POPUP_EMPTYSLOT.MBIN\n<br />UI&#92;POPUP_GALAXY_SYSTEMINFO.MBIN\n<br />UI&#92;POPUP_NEWMULTITECH.MBIN\n<br />UI&#92;POPUP_NEWTECHNOLOGY.MBIN\n<br />UI&#92;POPUP_OUTFITTING.MBIN\n<br />UI&#92;POPUP_PET.MBIN\n<br />UI&#92;POPUP_REPAIRSLOT.MBIN\n<br />UI&#92;POPUP_SEASONMILESTONE.MBIN\n<br />UI&#92;POPUP_SOLARSYSTEMMAP.MBIN\n<br />UI&#92;POPUP_TECHNOLOGY.MBIN\n<br />UI&#92;POPUP_TRANSFER.MBIN\n<br />UI&#92;POPUP_TRANSFERSEND.MBIN\n<br />UI&#92;POPUP_WIKI.MBIN\n<br />\n<br />UI&#92;COMPONENTS&#92;ACTIONBUTTONDISCOVERY.MBIN\n<br />UI&#92;COMPONENTS&#92;NETWORKPOPUPBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;TRANSFERBUTTON.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;HEROIMGSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;SUBSTANCEAMOUNTSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHBUILDSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHCHARGESECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHINSTALLSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHREFINERSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHREPAIRSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHSTATSSECTION.MBIN\n<br />UI&#92;COMPONENTS&#92;TECH&#92;TECHSTATSSECTIONSMALL.MBIN[/spoiler]\n<br />[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️ Full MBIN replacement\n<br />\n<br />This mod will conflict with any other mod affecting the same game files. Currently it's not possible to create an EXML patch version of this mod.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -525415,8 +525443,8 @@
         "file_id": 48523,
         "name": "Restore Old Popup Backgrounds",
         "version": "7.00",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 41,
         "file_name": "Restore Old Popup Backgrounds 3005 7.00 2026-09-13T14-14Z EwAQ86MJ6.zip",
@@ -525429,7 +525457,32 @@
         "size_kb": 41,
         "size_in_bytes": 42945,
         "changelog_html": "updated for game version 7.00 (Cosmos)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3005/13/8e/51/138e5164-b116-424a-92d4-db9671bbe5ff.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/13/8e/51/138e5164-b116-424a-92d4-db9671bbe5ff"
+      },
+      {
+        "id": [
+          50309,
+          1634
+        ],
+        "uid": 7017976611973,
+        "file_id": 50309,
+        "name": "Restore Old Popup Backgrounds",
+        "version": "7.10",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 46,
+        "file_name": "Restore Old Popup Backgrounds 3005 7.10 2026-11-01T20-41Z KsnM3Tt6o.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793565702,
+        "uploaded_time": "2026-11-01T20:41:42.000+00:00",
+        "mod_version": "7.10",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/11ab01f89a92a08814f24f053259790483b2bd9284bf549fe433f7039af1c841",
+        "description": "",
+        "size_kb": 46,
+        "size_in_bytes": 48043,
+        "changelog_html": "updated for game version 7.10 (Forsaken)",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/cf/68/17/cf6817d7-7a54-4820-abc8-a90f3ef98de3"
       }
     ],
     "changelogs": {
@@ -525455,6 +525508,9 @@
       ],
       "7.00": [
         "updated for game version 7.00 (Cosmos)"
+      ],
+      "7.10": [
+        "updated for game version 7.10 (Forsaken)"
       ]
     }
   },
@@ -638121,7 +638177,7 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3835/3835-1759165266-742116261.png",
     "author": "Ulfyn",
-    "updated_timestamp": 1790615549,
+    "updated_timestamp": 1793565545,
     "created_timestamp": 1759164533,
     "description": "[center][b][size=6]If you make something massive and silly, please turn off multiplayer before using it, its not great for console players trying to load in ships with thousands of parts.[/size]\n<br />[size=5](Also, I would recommend turning off this mod, or at least swapping to a non corvette ship before base building. The build area for the corvette is massive and will almost definitely interfere to some degree with it)[/size][/b][/center]\n<br />\n<br />[size=4]-Optional file increases the camera radius to the same massive distance. the space station walls will still block you getting out of it, but theres a hole where the main space station starts in the roof/wall where it starts, then you can just fly the camera out the side of the front.[/size]\n<br />\n<br />\n<br />To install place the (extracted) file within your C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS, or wherever your steamapps&#92;No Mans Sky may be.\n<br />The file structure when installed should be MODS&#92;ColossalCorvettes&#92;GLOBALS&#92;GCBUILDINGGLOBALS.GLOBAL.EXML\n<br />\n<br />\n<br />Adjusts the following properties to the given values. Some of these probably arent needed honestly this was my first look into messing with NMS mods, and I figured I'd rather go a bit overboard with what I was changing and have it work than miss a value and it not work.\n<br />\n<br />&lt;Property name=\"RadiusMultiplier_DoNotPlace\" value=\"0.000000\" /&gt;\n<br />    &lt;Property name=\"RadiusMultiplier_DoNotPlaceClose\" value=\"0.000000\" /&gt;\n<br />    &lt;Property name=\"RadiusMultiplier_DoNotPlaceAnywhereNear\" value=\"0.000000\" /&gt;\n<br />    &lt;Property name=\"RadiusMultiplier_OnlyPlaceAround\" value=\"300.000000\" /&gt;\n<br />    &lt;Property name=\"AddToRadius_DoNotPlaceClose\" value=\"0.000000\" /&gt;\n<br />    &lt;Property name=\"Radius_DoNotPlaceAnywhereNear\" value=\"0.000000\" /&gt;\n<br />    &lt;Property name=\"UnknownBuildingRange\" value=\"60000.000000\" /&gt;\n<br />    &lt;Property name=\"MaxRadiusForSpaceBases\" value=\"40000.000000\" /&gt;\n<br />    &lt;Property name=\"BuildingPlacementMaxShipBaseRadius\" value=\"40000.000000\" /&gt;\n<br />\n<br />This allows you to build massive distances away from your corvette, as well as putting decor all throughout the ship without the annoying \"base too far away\" message when scaling objects down / being on the edges of the normal area.\n<br />\n<br />This mod does not add base parts to the corvette build menu or anything, you'll need other mods for that, this is just specifically a larger build area.",
     "state": "normal",
@@ -638275,7 +638331,7 @@
         "size_kb": 0,
         "size_in_bytes": 0,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3835/aa/e7/fe/aae7fe6f-6fb4-475e-be06-72fcaa1bd33d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/aa/e7/fe/aae7fe6f-6fb4-475e-be06-72fcaa1bd33d"
       },
       {
         "id": [
@@ -638300,7 +638356,7 @@
         "size_kb": 2,
         "size_in_bytes": 2432,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3835/4e/4c/1c/4e4c1c43-0420-4b44-87c1-9bd511410941.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4e/4c/1c/4e4c1c43-0420-4b44-87c1-9bd511410941"
       },
       {
         "id": [
@@ -638311,9 +638367,9 @@
         "file_id": 49205,
         "name": "Colossal Corvettes - Our Journey Continues",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 2,
         "file_name": "Colossal Corvettes - Our Journey Continues 3835 1 2026-09-28T17-12Z EwAQ86MoW.zip",
         "detected_file_extension": "zip",
@@ -638325,7 +638381,32 @@
         "size_kb": 2,
         "size_in_bytes": 2434,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3835/fe/cd/8c/fecd8c79-0984-4a4a-bea3-a917a5e2ba14.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/fe/cd/8c/fecd8c79-0984-4a4a-bea3-a917a5e2ba14"
+      },
+      {
+        "id": [
+          50307,
+          1634
+        ],
+        "uid": 7017976611971,
+        "file_id": 50307,
+        "name": "Colossal Corvettes - Forsaken",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2,
+        "file_name": "Colossal Corvettes - Forsaken 3835 1 2026-11-01T20-39Z hfsARgqUd.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793565545,
+        "uploaded_time": "2026-11-01T20:39:05.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/25f40abea1e4e40fba337b178dda625b9d7d6705063e16232ee5f762ea4e2dbd",
+        "description": "",
+        "size_kb": 2,
+        "size_in_bytes": 2432,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1b/78/f3/1b78f310-463b-4a58-8432-c1ab1246e3f1"
       }
     ],
     "changelogs": {
@@ -701252,10 +701333,10 @@
     "mod_id": 4696,
     "name": "Nomad Biomes - Modpack (formerly Lasagna)",
     "summary": "Adds hundreds of immersive, custom biomes (land, cave, &amp; underwater). Also overhauls terrain, colors, jetpack &amp; more.",
-    "version": "1.1",
+    "version": "1.1a",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774113-701501391.jpg",
     "author": "SereiusBusiness",
-    "updated_timestamp": 1793054208,
+    "updated_timestamp": 1793565598,
     "created_timestamp": 1792777078,
     "description": "[center][b][size=6]Nomad Biomes[/size][/b]\n<br />(formerly Lasagna)[/center]\n<br />\n<br />\n<br />[b][size=5]‣Description[/size][/b]\n<br />\n<br />[b][size=4][i]New custom pre-made biomes[/i][/size][/b], set of 500\n<br />[list]\n<br />[*]Each biome is themed with its own “story”, whether it’s a frozen jungle, a mushroom forest, a toxic egg field, a glowing radioactive garden, a lava field broken up by shield trees, sand dunes with giant cacti, or a dead moon covered in ship wrecks. No more random flora/props thrown together without reason.[/*]\n<br />[*]Planets feel more immersive and natural than ever. Flora/props are often found grouped together via. a new, advanced system of prop placements I developed. Plants grow next to trees, small rocks next to larger rocks, and so on and so forth.[/*]\n<br />[*]Includes giant forests, city biomes, rare colossal props, rare custom model trees, and forests on worlds that don't usually have them. [/*]\n<br />[*]Covers every planet type, from lush and frozen to toxic, radioactive, gas giant and weird/exotic worlds.[/*]\n<br />[*]Also includes spawner files for all 103 planet types.[/*]\n<br />[*]*Performance is mostly close to vanilla, from nearly empty planets up to about 3–4x vanilla for the heaviest biomes.[/*]\n<br />[*]*High density biomes in the screenshots may look intimidating, but the current game engine handles instanced objects far better than it used to. [i]If performance is an issue, try lowering \"Planet Quality\" settings and shadow settings for much better performance.[/i][/*]\n<br />[/list]\n<br />[b][i][size=4]Reworked underwater and cave biomes[/size][/i][/b], set of 197 (138 underwater, 59 caves)\n<br />[list]\n<br />[*]Improved variety: From underwater forests with grass, kelp, coral, vents and urchins to glowing caves with tall stalagmites.[/*]\n<br />[*]*Reworked and optimized for vanilla-like performance.[/*]\n<br />[/list]\n<br />[size=4][i][b]New terrain mod[/b][/i][/size], set of 31. Each terrain type has a different landform, including:\n<br />   -terraced canyons with marshy floors\n<br />   - flat plains with rock arches and mesas.\n<br />   - badlands with rock pillars\n<br />   - tall rock towers with floating islands\n<br />   - wide glacial valleys\n<br />   - rare worlds covered in worm-like ridges and ravines.\n<br />[list]\n<br />[*]Brings back the \"worm\" terrain and tall resource deposit shapes from the Foundation update.[/*]\n<br />[*]Adds unique structures with (relatively) open ground in-between, so planets are fun to explore on-foot and flora/props have room to spawn.[/*]\n<br />[*]The lowest terrain sits lower than vanilla, so ground fog is more common.[/*]\n<br />[*]Water worlds have large landmasses instead of only small islands.[/*]\n<br />[/list]\n<br />[b][size=4][i]Nomad Colors[/i][/size][/b] (formerly Lasagna Obscura)\n<br />[list]\n<br />[*]A stylized color mod. Aggregate of all sky color/lighting/QOL/etc. mods I've made via. my Lasagna mods, plus several new additions.[/*]\n<br />[*]New colors for: flora, terrain, rings and fauna. Flora and rings span the full rainbow.[/*]\n<br />[*]Darker space with bright nebulas (some vanilla space colors remain).[/*]\n<br />[*]Choose extra fog or less fog. Fog appears darker (and colorful) near you and fades into the sky at a distance. Lighter fog on prime planets, vanilla fog on empty planets.[/*]\n<br />[*]Less instances of the old smoke effect that follows the player, and fewer gravity bubbles.[/*]\n<br />[*]No high clouds on regular planets, and some planets have few or no clouds depending on elevation.[/*]\n<br />[*]Storms are 25% as long and less frequent on very stormy planets.[/*]\n<br />[*]Spore hazard plants replaced with tentacle hazard plants.[/*]\n<br />[*]Slightly brighter sun and clouds.[/*]\n<br />[*]No photo mode vignette.[/*]\n<br />[/list]\n<br />[size=5][b]‣Mods Included[/b][/size]\n<br />[list]\n<br />[*]Nomad Biomes - Planets: 500 base terrain biomes. *protip: you can land on the top of city structures with your ship. :)[/*]\n<br />[*]           CHOOSE ONE: Maxima = high flora/prop density, Minima = slightly lower density on the highest density planets.[/*]\n<br />[*]Nomad Biomes - Caves: 59 caves[/*]\n<br />[*]Nomad Biomes - Underwater: 138 underwater biomes[/*]\n<br />[*]Nomad Biomes - Spawner: Spawns the above biomes[/*]\n<br />[*]Nomad Biomes - Terrain: 31 terrain variants (each with sub-variants)[/*]\n<br />[*]Nomad Colors - FOG: Just the fog part of Nomad Colors.[/*]\n<br />[*]           CHOOSE ONE: less fog (0.1) to more (0.3). [/*]\n<br />[*]Nomad Colors &amp; QOL - KEEP: All color sets &amp; misc. QOL changes.[/*]\n<br />[*]Nomad Jetpack: Subtle improvements to jetpack lift, refill etc[/*]\n<br />[*]Nomad Large Crystals - Large E3-style crystals, crystals spawn at all angles[/*]\n<br />[*]Nomad Models - Custom models and updates to pre-release models.[/*]\n<br />[/list]\n<br />\n<br />[b][size=5]‣Frequently Asked Questions (FAQ)[/size][/b]\n<br />\n<br />[u]I can't get any mods to work?[/u]\n<br />Look for the [url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]mod warning[/url] on launch, if you don't see that:\n<br />Delete the Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML and launch NMS again.\n<br />\n<br />[u]Does this work with multiplayer?[/u]\n<br />Yes, but mods are client-side. Everyone must install the same mods to see the same things.\n<br />Terrain will differ, for example, between players using and not using the mod.\n<br />\n<br />[u]Is this compatible with xyz mod?[/u]\n<br />90% chance yes, see 'Mod Compatibility' section on mod page.\n<br />\n<br />[u]Will this mess with my base or settlement?[/u]\n<br />Existing bases and settlements may no longer align with the terrain.\n<br />Save at a space station first when adding or removing Nomad Terrain with an existing save.\n<br />\n<br />[u]What about your old mods?[/u]\n<br />Mods come and go due to demanding game updates, obligations, etc. I'm also someone who wants to experiment and make new things, not spend hours and hours maintaining old content. Finally, this is purely a passion project for me. Haters gonna hate.\n<br />That said, most of my old mods feature open permissions, anyone can update them if they so desire. Thanks for the support. :)\n<br />\n<br />[u]Are the new biomes added to the vanilla ones, or are some vanilla ones replaced?[/u]\n<br />You can find vanilla biomes, but it's rare.\n<br />\n<br />[u]How to update this mod?[/u]\n<br />Biomes (and models) are made via. my program Plumgen 2. I might share at some point, but for now it's under construction.\n<br />Some are made via. LUA scripts (included in the folders).\n<br />Some are EXMLs.\n<br />\n<br />[u]Will you keep updating this mod?[/u]\n<br />I plan to for the foreseeable future, but sometimes it's hard to stay motivated. I suggest keeping a backup of this version of No Man's Sky (Cosmos 7.06 as of writing this), just to be safe.\n<br />\n<br />[u]I crashed on the loading screen?[/u]\n<br />Hopefully this issue doesn't happen anymore. But if it does, lmk. If you crash on a planet, try going to a space station first then loading the mod.\n<br />\n<br />\n<br />[size=5][b]‣Mod Compatibility[/b][/size] [vanila MBINs changed]\n<br />\n<br />Nomad Biomes/Spawner:\n<br />[list]\n<br />[*]Misc. pre-release and spacestation SCENES within MODELS[/*]\n<br />[*]The rest are all EXML files.[/*]\n<br />[*]Mods created and exported with Plumgen 2 are typically compatible with this[/*]\n<br />[/list]\n<br />Nomad Terrain:\n<br />[list]\n<br />[*]METADATA/SIMULATION/SOLARSYSTEM/VOXELGENERATORSETTINGS.MBIN[/*]\n<br />[/list]\n<br />Nomad colors [see bottom advanced section for more info]:\n<br />[list]\n<br />[*]METADATA/SIMULATION/SOLARSYSTEM/WEATHER/SKYSETTINGS/SPACESKYCOLOURS.MBIN[/*]\n<br />[*]All COLOURPALETTES.MBIN files within METADATA/SIMULATION/SOLARSYSTEM/BIOMES/[/*]\n<br />[*]The rest are all EXML files[/*]\n<br />[/list]\n<br />\n<br />\n<br />[size=5][b]‣How to Install[/b][/size]\n<br />\n<br />[color=#f1c232]PLEASE READ&gt;&gt;[/color] Save at a space station first when adding or removing this mod with an existing save. [color=#f1c232]&lt;&lt;PLEASE READ[/color]\n<br />\n<br />[list=1]\n<br />[*]Place extracted mod folders inside of No Man's Sky/GAMEDATA/MODS [*not* PCBANKS/MODS].\n<br />-If a MODS folder does not exist yet, create it.-Each mod will have its own dedicated folder inside of GAMEDATA/MODS.-Make sure that the mod folders aren't an extra folder deep.[/*]\n<br />[*]Start the game and wait for the splash screen to disappear.[/*]\n<br />[*]If done correctly the game will display a mod warning.[/*]\n<br />[/list]\n<br />\n<br />[b][size=5]‣Known issues[/size][/b]\n<br />-Fog can hide the ground from high up. Issue seems to get worse or better depending on weather/vfx/etc.\n<br />-Glitched floor on a terrain type.\n<br />\n<br />\n<br />[b][size=5]‣Advanced customization[/size][/b]\n<br />[spoiler]\n<br />There are many ways to customize [b][u]Nomad Colors[/u][/b], in particular. Edit or remove any of these files/subfolders from the mod if you want. Keep in mind, this mod was made so different parts complement each other. Obviously, you might encounter issues if you dramatically change the mod:\n<br />\n<br />1. Mod files:\n<br />[quote][size=2]All COLOURPALETTES.MBIN files within METADATA/SIMULATION/SOLARSYSTEM/BIOMES/ [color=#00ff00]directory[/color] [u][b][color=#e06666]except[/color][/b][/u] 'OBJECTS' and 'WEATHER' folders[/size][/quote][u]Effect:[/u] Individual sub-biome colors for: grass, plants, leaves, terrain, rocks, stones, dirt, sand, snow, planet rings, &amp; fauna\n<br />*Remove e.g. the LAVA folder if you no longer want the above color changes on lava biomes.\n<br />\n<br />2. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Spore hazard plants replaced with tentacle hazard plants.\n<br />\n<br />3. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/WEATHER/ [color=#00ff00]directory[/color] [u][b][color=#e06666]except[/color][/b][/u] SKYSETTINGS[/size][/quote][u]Effect:[/u] Individual sub-biome fog settings.\n<br />*If you adjust any settings in the gcskyglobals.globals.EXML file, you'll also need to adjust each of these (and vice versa).\n<br />\n<br />4. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/WEATHER/SKYSETTINGS [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Changes to darken day &amp; dusk fog, and new space colors.\n<br />\n<br />5. Mod files:\n<br />[quote][size=2]models/effects/heavyair [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Reduces \"old\" omnipresent smoke effects, gravity bubbles, &amp; snow effects.\n<br />\n<br />6. Mod files:\n<br />[quote][size=2]globals/gcenvironmentglobals.global.EXML [color=#c27ba0]file[/color][/size][/quote][u]Effect:[/u] Edits upper stratosphere clouds &amp; increases brightness.\n<br />\n<br />7. Mod files:\n<br />[quote][size=2]gcskyglobals.globals.EXML [color=#c27ba0]file[/color][/size][/quote]Effect: Every other change not mentioned above, including: changes *most* sub-biome fog (not all [this is just how the game is designed], see 3), reduces storms, &amp; removes vignette.[/spoiler]\n<br />\n<br />[b][size=5]‣Credits[/size][/b]\n<br />[list]\n<br />[*]VitaminArrr's NoMansTerrain to make the terrain mod: [url=https://github.com/gistya/nomansterrain]https://github.com/gistya/nomansterrain[/url][/*]\n<br />[*]Monkeyman192's MBINCompiler and NMSDK to do many things, including viewing models.[/*]\n<br />[*]Monkeyman192's HGPAKtool to make custom models.[/*]\n<br />[*]AMUMSS by Mjjstral aka MetaIdea and Wbertro aka TheBossBoy to make LUA-based mods.[/*]\n<br />[*]WinderTP for walking me through Blender/NMSDK to edit models.[/*]\n<br />[*]Ruffles for permission to use LOD and distance code. View InsaneRuffles' \"[url=https://www.nexusmods.com/nomanssky/mods/1990]View Distance Increase[/url]\" mod.[/*]\n<br />[/list]\n<br />[b][size=5]‣A few images[/size][/b]\n<br />[center]\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1793053771-1071994223.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774108-1100460332.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774103-733972479.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774102-1691244889.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1793053771-718620032.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774113-701501391.jpg[/img]\n<br />[/center]\n<br />",
     "state": "normal",
@@ -701295,9 +701376,9 @@
         "file_id": 50119,
         "name": "Nomad Biomes",
         "version": "1.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 10446,
         "file_name": "Nomad Biomes 4696 1.1 2026-10-26T22-36Z L5bXM3OQa.zip",
         "detected_file_extension": "zip",
@@ -701310,6 +701391,31 @@
         "size_in_bytes": 10697445,
         "changelog_html": "-Added performance variant 'Nomad Biomes - Planets MINIMA' = lower density on highest density planets. Separated models to its own mod, 'Nomad Models'\n-Giant biomes: lowered density for wide giant props, so they're easier to walk through.\n-Burnt, lava, noxious and irradiated worlds: 12 repetitive biomes reworked into forests.\n-Frozen worlds: most HQ pines swapped for frozen trees or oaks (improved variety).\n-Swapped some lush trees for improved variety.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/2b/7c/06/2b7c06af-48c7-44fe-a178-eb500838395d"
+      },
+      {
+        "id": [
+          50308,
+          1634
+        ],
+        "uid": 7017976611972,
+        "file_id": 50308,
+        "name": "Nomad Biomes",
+        "version": "1.1a",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 10869,
+        "file_name": "Nomad Biomes 4696 1.1a 2026-11-01T20-39Z IohEj95Pg.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793565598,
+        "uploaded_time": "2026-11-01T20:39:58.000+00:00",
+        "mod_version": "1.1a",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/60ffa169441f9532198719a939205f789a7038f4deaa6073a92325bdbcac72eb",
+        "description": "",
+        "size_kb": 10869,
+        "size_in_bytes": 11130423,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/7f/fc/20/7ffc20d4-307d-495d-b859-106d6710b898"
       }
     ],
     "changelogs": {
