@@ -9886,5 +9886,185 @@
         "id": "4712",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "VR Direction Fix",
+        "id": "4713",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Holster mod (Beta)",
+        "id": "4715",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Minimal Interface - HUD",
+        "id": "4716",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Figurine Replacer - Alien Tentacle",
+        "id": "4717",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Renewed Loading Screens",
+        "id": "4719",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Update Notes Skip",
+        "id": "4721",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Large Corvette Station Exit Clearance",
+        "id": "4739",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Forsaken Splash Screen Logo",
+        "id": "4740",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Nearby Warp Countdown Skip",
+        "id": "4741",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "ACORAZADO CLASE ANDALUCIA",
+        "id": "4742",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Trading Post Mission Filter",
+        "id": "4744",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Recharge Priority",
+        "id": "4745",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Always Max X-Class upgrade modules - Cosmos Patch",
+        "id": "4746",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "VR HUD Marker Fix",
+        "id": "4750",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Deep Space Outpost Teleporter",
+        "id": "4751",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Old Space Station Restoration",
+        "id": "4752",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Realistic Planet Terrain Extreme Mountains and Wide Plains",
+        "id": "4755",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "IMPERIAL GALACTIC MAP",
+        "id": "4756",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "New Biome Spawn.Normal Terrain Extreme Hard Mountains. Wide Plains",
+        "id": "4757",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "For(n)ever Alone - Your Corvette Crew",
+        "id": "4758",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Mobile Farmer",
+        "id": "4699",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Zero-G VR - Free-Axis Spacewalking",
+        "id": "4759",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DIABLO'S BLACK HOLE",
+        "id": "4763",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Returner's Drape Bugfix",
+        "id": "4764",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Unmute Pulse Drive (Forsaken)",
+        "id": "4765",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Halloween Figurines",
+        "id": "4760",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Xeno Legendaries",
+        "id": "4766",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DIABLO'S MENU MUSIC",
+        "id": "4767",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DIABLO'S GALAXY",
+        "id": "4768",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "QUICK PORTAL GLYPHS - BOOKMARKS",
+        "id": "4769",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
