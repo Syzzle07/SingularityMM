@@ -313901,7 +313901,7 @@
     "author": "dbeachy1",
     "updated_timestamp": 1791137865,
     "created_timestamp": 1624147469,
-    "description": "This new voice pack replaces the default, harsh exosuit A.I. voice in the game with a new A.I. named MEGAN, performed by voice actress [url=https://www.backstage.com/u/daceyelse/]Dacey Else[/url]. After posting the job on voices.com and receiving 67 voice actor applications and demos, Dacey was my first choice!\n<br />\n<br />[b]Demo[/b]\n<br />A short demo created by Faisal50 is here: [url=http://www.youtube.com/watch?v=06cUkMgiyxU]MEGAN Exosuit Voice[/url]﻿﻿.  This demo features version 1 of the voice pack, recorded before No Man’s Sky offered separate volume controls for voice, music, and sound effects. Everything shared the sound effects volume setting, which is why MEGAN sounds so quiet in the video.\n<br />\n<br />[b]IMPORTANT:[/b] The game’s default audio mix can make sound effects and music overpower MEGAN’s voice callouts. In the game’s audio settings, set [b]Voice to 100%[/b], then start with [b]Sound Effects and Music at around 60%[/b]. Lower either setting further to taste until the voice callouts are clear and comfortably audible for you.\n<br />\n<br />The voice recordings are already compressed to balance loudness with natural speech quality. To make MEGAN stand out more, adjust the game’s audio settings as described above. \n<br />\n<br />[b]Optional Download: 3.0 Extra Compression[/b]\n<br />The original [b]3.0 pack remains unchanged and is still my recommended version[/b] for the best natural speech quality. If you prefer more volume without further lowering your game's effects and music audio settings, an optional [b]3.0 Extra Compression[/b] download is available.\n<br />\n<br />Note that the voice recordings were already compressed in versions 2.0 and 3.0. For this alternative version, I checked each recording individually and adjusted the additional compression and levels to produce more consistent results. [b]194 callouts received extra processing; 17 retain their original audio.[/b] Eleven were already at my acceptable limit, and six more were left unchanged after peak checks rather than pushing the processing further.\n<br />\n<br />I compared several settings using high-quality earbuds and chose only the lighter processing. Even this level of extra compression introduces some audible quality loss and harshness. Depending on your speakers, headphones, and preferences, you may find the extra loudness worthwhile.\n<br />\n<br />[b]NOTE: this is an alternative -- it is not an upgrade. Install only one version: Standard 3.0 or Extra Compression.[/b] The game’s audio settings described above still apply.\n<br />\n<br />[b]Manual Installation[/b]\n<br />If automatic installation through Vortex or your mod manager doesn’t work for you, close No Man’s Sky and extract your chosen ZIP into [b]No Man’s Sky&#92;GAMEDATA&#92;MODS[/b]. The resulting folder should be [b]No Man’s Sky&#92;GAMEDATA&#92;MODS&#92;MeganExosuitAI[/b].\n<br />\n<br />[b]Install only one version:[/b] standard 3.0 or Extra Compression. When switching versions, replace the existing MeganExosuitAI folder.\n<br />If the mod doesn’t load, check [b]Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b] and confirm [b]DisableAllMods=false[/b] and [b]MEGANEXOSUITAI Enabled=true[/b].\n<br />\n<br />[b]A NOTE ABOUT GAME UPDATES[/b]\n<br />***  Please remember that you have to RE-DELETE your 'C:&#92;SteamLibrary&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;PCBANKS&#92;DISABLEMODS.TXT' file whenever Steam installs a new game version! ***\n<br />\n<br />The reason is that the No Man's Sky installer *recreates* that file every time it installs a new version, which *disables* all mods again. If you deleted that file and installed the mod correctly, you should see a \"You are running a modded version of No Man's Sky\" screen pop up every time you start No Man's Sky. If you don't, it means you need to (re-)delete that file, or the mod is not installed to the correct folder.\n<br />\n<br />If MEGAN still doesn’t load, check [b]Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b] and confirm [b]DisableAllMods=false[/b] and [b]MEGANEXOSUITAI Enabled=true[/b]. Normally the game sets that automatically when the mod is detected.\n<br />\n<br />[b]Special thanks to these NexusMods members for helping with version 2.0:[/b]\n<br />[list]\n<br />[*][url=https://next.nexusmods.com/profile/sdgg00]sdgg00[/url] and [url=https://next.nexusmods.com/profile/Norkotah]Norkotah[/url] for discovering the solution to get this working with the NMS Beacons update.[/*]\n<br />[*][url=https://next.nexusmods.com/profile/fiskin1]fiskin1[/url]﻿ for reaching out to me via DM and alerting me to this.[/*]\n<br />[/list][b]\n<br />Known Conflicts[/b]\n<br />[list]\n<br />[*]None. However, you can only have one custom exosuit voice mod installed at a time.[/*]\n<br />[/list]\n<br />[b]Known Limitations[/b]\n<br />[list]\n<br />[*]None as of version 3.0; all voice callouts should be replaced now. If you find one that still uses the stock voice, please send me a DM.[/*]\n<br />[/list]Happy exploring!",
+    "description": "This new voice pack replaces the default, harsh exosuit A.I. voice in the game with a new A.I. named MEGAN, performed by voice actress [url=https://www.backstage.com/u/daceyelse/]Dacey Else[/url]. After posting the job on voices.com and receiving 67 voice actor applications and demos, Dacey was my first choice!\n<br />\n<br />[b]Demo[/b]\n<br />A short demo created by Faisal50 is here: [url=http://www.youtube.com/watch?v=06cUkMgiyxU]MEGAN Exosuit Voice[/url]﻿﻿.  This demo features version 1 of the voice pack, recorded before No Man’s Sky offered separate volume controls for voice, music, and sound effects. Everything shared the sound effects volume setting, which is why MEGAN sounds so quiet in the video.\n<br />\n<br />[b]IMPORTANT:[/b] The game’s default audio mix can make sound effects and music overpower MEGAN’s voice callouts. In the game’s audio settings, set [b]Voice to 100%[/b], then start with [b]Sound Effects and Music at around 60%[/b]. Lower either setting further to taste until the voice callouts are clear and comfortably audible for you.\n<br />\n<br />The voice recordings are already compressed to balance loudness with natural speech quality. To make MEGAN stand out more, adjust the game’s audio settings as described above.\n<br />\n<br />[b]Optional Download: 3.0 Extra Compression[/b]\n<br />The original [b]3.0 pack remains unchanged and is still my recommended version[/b] for the best natural speech quality. If you prefer more volume without further lowering your game's effects and music audio settings, an optional [b]3.0 Extra Compression[/b] download is available.\n<br />\n<br />Note that the voice recordings were already compressed in versions 2.0 and 3.0. For this alternative version, I checked each recording individually and adjusted the additional compression and levels to produce more consistent results. [b]194 callouts received extra processing; 17 retain their original audio.[/b] Eleven were already at my acceptable limit, and six more were left unchanged after peak checks rather than pushing the processing further.\n<br />\n<br />I compared several settings using high-quality earbuds and chose only the lighter processing. Even this level of extra compression introduces some audible quality loss and harshness. Depending on your speakers, headphones, and preferences, you may find the extra loudness worthwhile.\n<br />\n<br />[b]NOTE: this is an alternative -- it is not an upgrade. Install only one version: Standard 3.0 or Extra Compression.[/b] The game’s audio settings described above still apply.\n<br />\n<br />[b]Manual Installation[/b]\n<br />If automatic installation through Vortex or your mod manager doesn’t work for you, close No Man’s Sky and extract your chosen ZIP into [b]No Man’s Sky&#92;GAMEDATA&#92;MODS[/b]. The resulting folder should be [b]No Man’s Sky&#92;GAMEDATA&#92;MODS&#92;MeganExosuitAI[/b].\n<br />\n<br />[b]Install only one version:[/b] standard 3.0 or Extra Compression. When switching versions, replace the existing MeganExosuitAI folder.\n<br />If the mod doesn’t load, check [b]Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b] and confirm [b]DisableAllMods=false[/b] and [b]MEGANEXOSUITAI Enabled=true[/b].\n<br />\n<br />[b]A NOTE ABOUT GAME UPDATES[/b]\n<br />***  Please remember that you have to RE-DELETE your 'C:&#92;SteamLibrary&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;PCBANKS&#92;DISABLEMODS.TXT' file whenever Steam installs a new game version! ***\n<br />\n<br />The reason is that the No Man's Sky installer *recreates* that file every time it installs a new version, which *disables* all mods again. If you deleted that file and installed the mod correctly, you should see a \"You are running a modded version of No Man's Sky\" screen pop up every time you start No Man's Sky. If you don't, it means you need to (re-)delete that file, or the mod is not installed to the correct folder.\n<br />\n<br />If MEGAN still doesn’t load, check [b]Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b] and confirm [b]DisableAllMods=false[/b] and [b]MEGANEXOSUITAI Enabled=true[/b]. Normally the game sets that automatically when the mod is detected.\n<br />\n<br />[b]Special thanks to these NexusMods members for helping with version 2.0:[/b]\n<br />[list]\n<br />[*][url=https://next.nexusmods.com/profile/sdgg00]sdgg00[/url] and [url=https://next.nexusmods.com/profile/Norkotah]Norkotah[/url] for discovering the solution to get this working with the NMS Beacons update.[/*]\n<br />[*][url=https://next.nexusmods.com/profile/fiskin1]fiskin1[/url]﻿ for reaching out to me via DM and alerting me to this.[/*]\n<br />[/list][b]\n<br />Known Conflicts[/b]\n<br />[list]\n<br />[*]None. However, you can only have one custom exosuit voice mod installed at a time.[/*]\n<br />[/list]\n<br />[b]Known Limitations[/b]\n<br />[list]\n<br />[*]None as of version 3.0; all voice callouts should be replaced now. If you find one that still uses the stock voice, please send me a DM.[/*]\n<br />[/list]Happy exploring!",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -436670,10 +436670,10 @@
     "mod_id": 2533,
     "name": "No Man Sky Turkish Translate",
     "summary": "No Man Sky için Çeviri Her Zaman Güncel",
-    "version": "7.10",
+    "version": "7.13",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2533/2533-1665423203-2101989679.jpeg",
     "author": "erdeminoff",
-    "updated_timestamp": 1793287270,
+    "updated_timestamp": 1793725080,
     "created_timestamp": 1665423484,
     "description": "[center][b][u]﻿Çevirmen:[/u][/b][/center]\n<br />\n<br />[center]Erdem Sarp\n<br />\n<br />[b][u]Çeviri Durumu:[/u][/b]\n<br />\n<br />[b]Genel : %100 ± 0.01[/b]\n<br />[b]Test ve Düzeltmeler: Tamamlandı[/b]\n<br />[b]Uyumlu Olduğu Oyun Sürümünü Çeviri Notları Linkinden Görebilirsiniz[/b]\n<br />\n<br />[b][u]Çeviri Notları:\n<br />\n<br />[/u][/b][url=https://docs.google.com/document/d/1VVtuGom_Ml3rJ2Kcvd9jS4ZL0qpUmQ5pTz7l0jgDbh8/edit?tab=t.0]Çeviri Notları\n<br />[/url]﻿\n<br />[b][u]Açıklama:[/u][/b]\n<br />﻿\n<br />2018 yılında askere gitmeden önce bulduğum 1 aylık boşlukta başladığım, geldikten sonra da çeşitli meşguliyetlerden dolayı devam edemeyerek bıraktığım ve gördüğüm talep üzerinde 2019 yılının son baharında tekrar başlamaya karar verdiğim No Man's Sky Türkçe Çeviri projesi en sonunda meyvesini verdi. Toplamda 16 ay boyunca devam eden bu çeviri ve test sürecinde beni destekleyen herkese çok teşekkür ederim.\n<br />13 Şubat 2021 itibarıyla test ve düzeltmelerin de bitmesiyle birlikte yamayı tamamlamış bulunuyorum. Bundan sonra haftalık güncelleme yapmayacağım. Sadece gerekli durumlarda ve yeni oyun güncellemeleri geldiği zaman yamayı güncelleyeceğim.\n<br />İyi Oyunlar\n<br />\n<br />[b][u]Yama Notları:\n<br />[/u][/b]\n<br />-\"Emeği Geçenler\" kısmı hariç dil dosyalarının tamamı çevrilmesine rağmen oyunda ufak çaplı kısa İngilizce metinler görebilirsiniz. Bunlar oyun kaynaklıdır ve geliştiricinin yayınladığı güncellemelerle birlikte ileride düzelebilirler.\n<br />-Türkçe yamayı uyguladığınızda uzaylı dilindeki metinler (çevrilmemiş halleri), bu kısmı Türkçe dil yapısına uyarlarken zorunlu olarak izlediğim bir yöntemden dolayı oyunun orijinalinden farklı olacaktır.\n<br />-Oyundaki birçok isimlendirme, bir kelime havuzundaki kelimelerin belirli dil kurallarına göre yan yana getirilmesiyle oluşturulur. Bu kelimeler ve yan yana geldiklerinde oluşturdukları isimlendirmeler İngilizce dil kurallarına göre ayarlandığı için tuhaf isimlendirmelerle karşılaşabilirsiniz.\n<br />-Uzaylı dilindeki özel isimler oyun tarafından otomatik olarak oluşturulduğu için, bunlara sadece tek tip bir ek getirme imkânı mevcuttur. Kesmeyle ayrılan -nı -ni -nın -nin gibi ekler \"'n\" şeklinde karşınıza çıkacaktır. \"Drigart'n Zaferi\" gibi.\n<br />-Türkçe yama kullanmayan diğer oyuncuların otomatik chat mesajlarını, o oyuncuların oyunları hangi dildeyse o şekilde göreceksiniz. Bu durum oyun kaynaklıdır.\n<br />-Türkçe karakter sorunu geliştirici tarafından düzeltilmiş olmasına rağmen \"i\" harfini yazamama sorunu devam etmektedir. Ancak bir çözümü vardır. \"Alt Gr + ı\" ile veya Windows ayarlarından klavye dilini İngilizce olarak değiştirerek \"i\" harfini yazabilirsiniz.\n<br />\n<br />[b][u]Yükleme Talimatı:[/u][/b]\n<br />\n<br />Not: 5.50 sürümüyle birlikte oyunun mod sistemi ve mod dizini değiştiği için yükleme talimatı da değişmiştir. Yeni yükleme talimatı aşağıdadır. Oyun sürümleri 5.50 öncesi olanlar eski yükleme talimatlarına \"5.50 Sürümü Öncesi için Eski Yükleme Talimatı\" kısmından ulaşabilirler.\n<br />-\"No Man's Sky&#92;GAMEDATA\" dizinine gidin. Eğer Steam sürümüyse \"Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA\" dizininden bulabilirsiniz. Bulamazsanız masaüstündeki \"Bu bilgisayar\" 'ı açıp, sağ üst köşeden \"No Man's Sky\" 'ı aratarak gerekli dizinlere erişebilirsiniz.\n<br />-Bu dizinde eğer yoksa \"MODS\" adında bir klasör oluşturun.\n<br />-İndirdiğiniz .zip uzantılı dosyanın içinde bulunan \"Turkish Localisation\" isimli klasörü oluşturduğunuz \"MODS\" adlı klasöre taşıyın.\n<br />-Artık oyuna girebilirsiniz. Eğer oyunu açtığınızda hala Türkçe değilse Options-General'e giderek Language kısmında Default veya English (UK) ayarlarından birini seçip uygulayın.\n<br />-Eğer yamayı kaldırmak isterseniz MODS klasörü içindeki \"Turkish Localisation\" klasörünü silmeniz yeterli olacaktır.\n<br />\n<br />[b][u]Uyarılar:\n<br />[/u][/b]\n<br />-Türkçe yama, eğer değişmediyse oyunun Windows işletim sistemi için olan Steam ve Gamepass sürümlerinde çalışmaktadır. Bunların dışında kalan platformlarda ve işletim sistemlerinde çalışıp çalışmayacağı kesin değildir. Oyunu oynamak istediğiniz platformda yer alan No Man's Sky sürümünün mod destekleyip desteklemediğini öğrenmek için internette arama yapın. Eğer mod desteği varsa çalışması olasıdır.\n<br />-Bir oyun güncellemesi geldiği zaman Steam harici platformlarda oyunun güncellenmesi biraz zaman alabilir. Bu sırada yeni oyun sürümüne uygun Türkçe yama sürümü yayınlanmış olabilir. Oyuna sahip olduğunuz platformda oyununuz güncellenene kadar yamanın doğru çalışması için oyun sürümünüze en uygun olan Türkçe Yama dosyasını indirin. Önceki sürüm yamalarını indirme linkindeki \"Eski Sürümler\" klasöründe bulabilirsiniz.\n<br />-Türkçe yamanın yeni sürümünü yüklerken \"MODS\" klasörü içindeki eski yama klasörünü silin veya üzerine yazın.\n<br />\n<br />[b]\n<br />[u]Eski Sürümler:\n<br />[/u]\n<br />[/b] [url=https://drive.google.com/drive/folders/1Lp_QeidFtIhHOiP6944hdQttniPUBuKe]Eski Sürümler[/url][url=https://drive.google.com/drive/folders/1Lp_QeidFtIhHOiP6944hdQttniPUBuKe][/url][/center]\n<br />[center][/center]\n<br />[center][/center]\n<br />[center][b][u]Güncel ForumTakip Link:[/u][/b][/center]\n<br />[center][/center]\n<br />[center][b][u][url=https://forum.shiftdelete.net/konular/no-mans-sky-turkce-yama-guncel.585180/][/url][url=https://forum.shiftdelete.net/konular/no-mans-sky-turkce-yama-guncel.585180/]Güncel Forum Linki[/url][/u][/b][/center]\n<br />[center][/center]\n<br />[center][/center]\n<br />[center][/center]\n<br />",
     "state": "normal",
@@ -438063,8 +438063,8 @@
         "file_id": 50198,
         "name": "No Man Sky Turkish Translate 7.10",
         "version": "7.10",
-        "category_id": 2,
-        "category_name": "UPDATE",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 2465,
         "file_name": "No Man Sky Turkish Translate 7.10 2533 7.10 2026-10-29T15-21Z VMJOtCiqp.rar",
@@ -438078,6 +438078,31 @@
         "size_in_bytes": 2524168,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/b0/7e/36/b07e366e-afa4-405c-9321-ffadbf405761"
+      },
+      {
+        "id": [
+          50375,
+          1634
+        ],
+        "uid": 7017976612039,
+        "file_id": 50375,
+        "name": "No Man Sky Turkish Translate 7.13",
+        "version": "7.13",
+        "category_id": 2,
+        "category_name": "UPDATE",
+        "is_primary": false,
+        "size": 2463,
+        "file_name": "No Man Sky Turkish Translate 7.13 2533 7.13 2026-11-03T16-58Z lN9fGpRY0.rar",
+        "detected_file_extension": "rar",
+        "uploaded_timestamp": 1793725080,
+        "uploaded_time": "2026-11-03T16:58:00.000+00:00",
+        "mod_version": "7.13",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/58afe96f4a220f9503f972a1bf72fec5205f1dcbac080a37f29fc4181ed9a0cc",
+        "description": "- Türkçe yama oyunun 7.13 sürümüne uyarlandı. Yeni eklenen satırlar çevrilerek aktarıldı.<br />",
+        "size_kb": 2463,
+        "size_in_bytes": 2522991,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a2/b3/d2/a2b3d293-7877-423c-b595-4e9a306fc394"
       }
     ],
     "changelogs": {}
@@ -681008,7 +681033,7 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4530/4530-1789936286-1778565643.jpg",
     "author": "OwenBoogie",
-    "updated_timestamp": 1789936480,
+    "updated_timestamp": 1793730069,
     "created_timestamp": 1789936480,
     "description": "[size=4][b]Description[/b][/size]\n<br />some starships have headlights, but they are completely useless! this mod fixes that by increasing the range and brightness by a more than reasonable amount to allow you to see stuff clearly from the sky at night!\n<br />\n<br />WARNING: you cannot turn the lights off. Use at your own risk!\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Simply extract the zip file and put it into GAMEDATA&#92;MODS.\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />there are three ships that have headlights that work: fighters, explorers, and shuttles. This mod expands their range by a couple hundred units.\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#d4d4d8]Thank you to JMZawodny for the original concept.[/color]",
     "state": "normal",
@@ -681023,9 +681048,9 @@
         "file_id": 48845,
         "name": "Spotlight",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 8,
         "file_name": "Spotlight 4530 1 2026-09-20T20-33Z eV714avjc.zip",
         "detected_file_extension": "zip",
@@ -681037,10 +681062,39 @@
         "size_kb": 8,
         "size_in_bytes": 8614,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4530/54/5e/31/545e313f-addc-4d43-a7e4-edff189a18e1.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/54/5e/31/545e313f-addc-4d43-a7e4-edff189a18e1"
+      },
+      {
+        "id": [
+          50377,
+          1634
+        ],
+        "uid": 7017976612041,
+        "file_id": 50377,
+        "name": "Spotlight",
+        "version": "1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8,
+        "file_name": "Spotlight 4530 1.1 2026-11-03T18-21Z zYpLKAVwJ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793730068,
+        "uploaded_time": "2026-11-03T18:21:08.000+00:00",
+        "mod_version": "1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6db6b54a344e4b0baa8b854fe8187bdfc6a49fc4bee147254644f4b8f1fb0a1b",
+        "description": "",
+        "size_kb": 8,
+        "size_in_bytes": 8619,
+        "changelog_html": "Lowered the brightness and raised the range by about 50% each",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0b/07/c7/0b07c76f-b752-415b-bfec-513c08989789"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "1.1": [
+        "Lowered the brightness and raised the range by about 50% each"
+      ]
+    }
   },
   {
     "mod_id": 4532,
@@ -694208,7 +694262,7 @@
     "version": "1.4.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4619/4619-1791353538-243825552.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1793341949,
+    "updated_timestamp": 1793741342,
     "created_timestamp": 1791056639,
     "description": "[color=#ff7700][size=5][b]Orbital Corvette Landing Pad[/b][/size][/color][size=3]\n<br />\n<br />Build the Outpost's orbital Corvette platform at your own base, on a planet or in space. Each variant adds its own base-building entry, with three integrated terminals, color and material customization, and Corvette summoning, landing and take-off. Vanilla landing pads are unchanged.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Pad variants[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3][color=#f9cb9c][b]Orbital Pad[/b][/color] — the standard platform with its three terminals.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Props)[/b][/color] — the same functional platform with an integrated decoration layout, including cargo, technical equipment and workstations.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Salvage Processor)[/b][/color] — the standard platform with the working Outpost salvage processor. Feed recovered physical salvage objects into its intake to receive the normal processing rewards in your personal inventory. The processor housing also supports color and material customization. [color=#38761d][b]Added the newly introduced Forsaken Trader, who can be called and interacted with like on the Outpost pads.[/b][/color][/size][/*]\n<br />[*][color=#f6b26b][b]Outpost Platform[/b][/color][color=#ffffff] — [/color]simple building in the looks of the landing pads without any functionalities except snapping enabled[/*]\n<br />[/list]Each variant works independently. Install one, two or all three: their separate building IDs, menu entries and resource paths allow them to coexist in the same base. \n<br />[color=#f6b26b][s]The Salvage Processor variant still uses the folder name \"OrbitalLandingPadFurnace\"; do not rename it when installing.[/s] [/color]\n<br />[color=#1e84cc]Changed the name to \"OutpostLandingPadRecycler\" with v1.2.1. Make sure to delete the old [...]Furnace before using the updated one.[/color]\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3]Three terminals: summon your Corvette, edit your Corvette, and access starship outfitting/upgrades.[/size][/*]\n<br />[*][size=3]Corvette-only landing and take-off.[/size][/*]\n<br />[*][size=3]Color and material changes for the pad and terminal housings, retained after saving and reloading.[/size][/*]\n<br />[*][size=3]Entrance, terminal and access-route lighting, with adjusted collisions.[/size][/*]\n<br />[*][size=3]Optional snapping at the main entrance, on the terminal side.[/size][/*]\n<br />[*][size=3]Suitable for planetary and orbital base builds.[/size][/*]\n<br />[*][size=3]Up to 10 pads of each type per planetary base, with construction costs set at 10 times the standard landing pad recipe.[/size][/*]\n<br />[*][size=3]Functional salvage intake, processing and rewards with the Salvage Processor variant.[/size][/*]\n<br />[/list]\n<br />[size=4][color=#ff7700][b]Installing the pads[/b][/color][/size]\n<br />\n<br />[list=1]\n<br />[*][size=3]Close No Man's Sky and extract the ZIP for each variant you want.[/size][/*]\n<br />[*][size=3]When updating, remove the previous folder for that same variant. Keep only one installed copy of each variant.[/size][/*]\n<br />[*]Copy [i]\"OrbitalLandingPad\"[/i], [i]\"OrbitalLandingPadProps\"[/i] and/or[i] \"OutpostLandingPadRecycler\"[/i] into [i]\"No Man's Sky/GAMEDATA/MODS/\"[/i].[/*]\n<br />[*][size=3]Launch the game with mod support enabled.[/size][/*]\n<br />[*][size=3]Find [b]Orbital Pad[/b], [b]Orbital Pad (Props)[/b] and/or [b]Orbital Pad (Salvage Processor)[/b] in the base-building menu.[/size][/*]\n<br />[/list][size=3]The pad packages contain their required custom resources. You do not need the standard variant installed to use Props or Salvage Processor.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Optional add-on: Teleport Return[/b][/size][/color][size=3]\n<br />\n<br />With a Corvette selected as your active ship, Teleport Return adds automatic arrival when you teleport to a base containing one of these pads. It waits for the destination's dock to load, selects the closest compatible free pad to your arrival point, and uses the game's normal Corvette summon and docking process. Allow a few seconds after arriving.\n<br />\n<br />[b][color=#f6b26b]One DLL supports all three pad variants.[/color][/b] It is separate from the pad mods: no pad files need changing, and all normal pad functions remain available without it. Without the add-on, summon your Corvette manually after teleporting.\n<br />\n<br />[b][color=#ff7700]Install once, then start normally:[/color][/b][/size]\n<br />[list=1]\n<br />[*][size=3]Close the game and stop any older Teleport Return test helpers.[/size][/*]\n<br />[*][size=3]Place the optional [i]\"winmm.dll\"[/i] in [i]\"No Man's Sky/Binaries/\"[/i], beside [i]\"NMS.exe\"[/i]. It does not belong in [i]\"GAMEDATA/MODS\"[/i].[/size][/*]\n<br />[*][size=3]If updating our earlier Teleport Return DLL, replace that file. If another mod already provides a different [i]\"winmm.dll\"[/i], do not overwrite it; the two files cannot simply occupy the same path.[/size][/*]\n<br />[*][size=3]Start the game normally through Steam. No separate helper, repeated PowerShell command or special launcher is needed.[/size][/*]\n<br />[/list][size=3]To remove the DLL-only add-on, close the game and remove our [i]\"Binaries/winmm.dll\"[/i]. The pad mods remain installed and usable. [i]\"OrbitalPadTeleport.log\"[/i] is its diagnostic log; older installer versions may also have created an installation receipt.\n<br />\n<br />[b][color=#f6b26b]Compatibility:[/color][/b] Teleport Return is for Windows PC and requires a matching game build. It checks the executable before activating; a game update may leave it inactive until a compatible DLL is provided. The original [i]\"NMS.exe\"[/i] is not modified on disk.\n<br />\n<br />[color=#f6b26b][b]Current test status:[/b][/color] The standard-pad Teleport Return implementation has been confirmed in-game. The expanded DLL supports all three IDs and has passed automated checks; live testing of that expanded build is still in progress.[/size]\n<br />\n<br />[size=4][color=#ff7700][b]Multiplayer and compatibility[/b][/color][/size][size=3]\n<br />\n<br />These pads add custom building entries instead of replacing vanilla pads. Other players need the corresponding pad variant installed to see its custom parts; uploading a base does not distribute the mod assets.\n<br />\n<br />Separate IDs and resource paths help avoid conflicts, but compatibility with every other mod or future game update is not guaranteed. Teleport Return has its own game-version and DLL compatibility requirements, as described above.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Limitations and known issues[/color][/b][/size]\n<br />\n<br />[list]\n<br />[*][size=3][b]Regular starships cannot dock on these pads.[/b] They can still be summoned through the quick menu. The outfitting terminal does not change the Corvette-only docking restriction.[/size][/*]\n<br />[*][size=3]Automatic Corvette arrival after a base teleport requires the optional Teleport Return DLL and a suitable free pad.[/size][/*]\n<br />[*][size=3]The large platform can take some time to finish loading/rendering.[/size][/*]\n<br />[*][size=3]Check clearance with very large Corvette layouts, especially around the Salvage Processor assembly; collision issues with every possible layout have not been ruled out.[/size][/*]\n<br />[/list]\n<br />[size=4][b][color=#ff7700]Credits and shout-outs[/color][/b][/size][size=3]\n<br />\n<br />- [url=https://www.nexusmods.com/profile/JJhookah]JJhookah[/url] provided the inspiration.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/2626?tab=description]AMUMSS[/url] provided the mod-editing tools.\n<br />- [url=https://www.nexusmods.com/profile/Thrawn1636262]Thrawn1636262[/url] suggested the salvage processor variant.\n<br />- Thanks also to ChatGPT-6.1 Sol for development assistance. Spare time is limited, and the help made a big difference.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Feedback and community creations[/color][/b][/size][size=3]\n<br />\n<br />Bug reports, test results and suggestions are welcome in the Posts and Bugs sections. If you have a decorated layout or an idea for another standalone variant, get in touch — we'll see what we can do. ;)\n<br />\n<br />Please check Permissions and credits before reusing files. Credit is appreciated, and please do not monetize derivatives. Updates after major game releases may take time.[/size]",
     "state": "normal",
@@ -694261,7 +694315,7 @@
         "description": "Version 1.1 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 347,
         "size_in_bytes": 356282,
-        "changelog_html": "Version 1.1 — Standard Pad Update\n• Added colour and material customisation, with selections retained after saving and reloading.\n• Extended colour and material customisation to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle white entrance lights, terminal lighting and access-route lights.\n• Corrected the light position beneath the Corvette summoning terminal.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing regular starships from being summoned through the quick menu while a Corvette was docked.\nRegular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props)\n• Added a separate decorated pad based on a manually built layout containing 57 decoration objects.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.\n• Corrected the placement reference to load the Props model.\n• Corrected the orientation of the bench and left crane.\n• Retained the standard pad’s terminals, lighting, docking and customisation features.\nDecorative props currently retain their original colours and materials.",
+        "changelog_html": "Version 1.1 — Standard Pad Update:\n• Added color and material customization, with selections retained after saving and reloading.\n• Extended color and material customization to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship/Corvette outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle entrance lights, terminal lighting and access-route lights.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing starships and Corvettes from being summoned through the quick menu while a ship or Corvette was docked.\n• Regular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props):\n• Added a separate decorated pad based on a manually built layout.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e2/61/a6/e261a671-75cc-4f7d-9e72-bfff68a1090a"
       },
       {
@@ -694286,7 +694340,7 @@
         "description": "V1.1 with props",
         "size_kb": 350,
         "size_in_bytes": 359197,
-        "changelog_html": "Version 1.1 — Standard Pad Update\n• Added colour and material customisation, with selections retained after saving and reloading.\n• Extended colour and material customisation to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle white entrance lights, terminal lighting and access-route lights.\n• Corrected the light position beneath the Corvette summoning terminal.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing regular starships from being summoned through the quick menu while a Corvette was docked.\nRegular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props)\n• Added a separate decorated pad based on a manually built layout containing 57 decoration objects.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.\n• Corrected the placement reference to load the Props model.\n• Corrected the orientation of the bench and left crane.\n• Retained the standard pad’s terminals, lighting, docking and customisation features.\nDecorative props currently retain their original colours and materials.",
+        "changelog_html": "Version 1.1 — Standard Pad Update:\n• Added color and material customization, with selections retained after saving and reloading.\n• Extended color and material customization to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship/Corvette outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle entrance lights, terminal lighting and access-route lights.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing starships and Corvettes from being summoned through the quick menu while a ship or Corvette was docked.\n• Regular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props):\n• Added a separate decorated pad based on a manually built layout.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/d3/f9/80/d3f980b6-cf91-4783-8802-addf9677e250"
       },
       {
@@ -694311,7 +694365,7 @@
         "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 347,
         "size_in_bytes": 356294,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e5/f7/cb/e5f7cb04-ef75-45d9-88d2-3598de249a1c"
       },
       {
@@ -694336,7 +694390,7 @@
         "description": "V1.2 with props",
         "size_kb": 350,
         "size_in_bytes": 359186,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ac/23/92/ac23923b-e5db-4453-908b-d9530fa6c116"
       },
       {
@@ -694361,7 +694415,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367110,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/22/3a/e1/223ae111-9248-45c8-8b4e-d584b5f21a62"
       },
       {
@@ -694373,8 +694427,8 @@
         "file_id": 50046,
         "name": "TeleportCorvetteReturn (Experimental)",
         "version": "0.1",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 47,
         "file_name": "TeleportCorvetteReturn (Experimental) 4619 0.1 2026-10-23T14-37Z 8gT07OIgd.zip",
@@ -694411,7 +694465,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367156,
-        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls",
+        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls\nv1.2.1 - Recycler and Collision Fix\n- Fixed oversized invisible collisions above the entrance and Recycler.\n- IMPORTANT: folder renamed - make sure to delete the old \"OrbitalLandingPadFurnace\" first!",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/bd/25/85/bd2585ee-45ba-4680-8232-2c9cd44235ec"
       },
       {
@@ -694436,7 +694490,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367205,
-        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls",
+        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls\nv1.2.1 - Recycler and Collision Fix\n- Fixed oversized invisible collisions above the entrance and Recycler.\n- IMPORTANT: folder renamed - make sure to delete the old \"OrbitalLandingPadFurnace\" first!",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/ed/3e/86ed3eb2-0f63-48f4-8912-a543a136150f"
       },
       {
@@ -694461,7 +694515,7 @@
         "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 340,
         "size_in_bytes": 348215,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/cc/25/c5/cc25c59c-9da5-4087-b196-d0b39e6c9013"
       },
       {
@@ -694486,7 +694540,7 @@
         "description": "V1.2 with props",
         "size_kb": 342,
         "size_in_bytes": 350913,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ef/72/34/ef723487-4b97-4de0-86bd-1080bd80450a"
       },
       {
@@ -694511,7 +694565,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 360,
         "size_in_bytes": 369200,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/1c/e4/f4/1ce4f478-2441-42e2-8747-7969f3ca0fe8"
       },
       {
@@ -694636,7 +694690,7 @@
         "description": "",
         "size_kb": 4705,
         "size_in_bytes": 4818196,
-        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/93/05/b3/9305b31b-ae06-4d34-8ed5-8ed315ab2272"
       },
       {
@@ -694661,7 +694715,7 @@
         "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 348,
         "size_in_bytes": 356857,
-        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/0b/f4/b6/0bf4b630-96d5-4275-ab44-0e3d22672d96"
       },
       {
@@ -694686,7 +694740,7 @@
         "description": "V1.2 with props",
         "size_kb": 351,
         "size_in_bytes": 359746,
-        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/68/5f/bc/685fbc4f-6ac4-4ef2-a303-f05ce5d62139"
       },
       {
@@ -694711,8 +694765,33 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 370,
         "size_in_bytes": 379616,
-        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/70/e7/fd/70e7fd59-5529-4bc5-a643-05b1f661739a"
+      },
+      {
+        "id": [
+          50380,
+          1634
+        ],
+        "uid": 7017976612044,
+        "file_id": 50380,
+        "name": "TeleportCorvetteReturn",
+        "version": "1.2",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 60,
+        "file_name": "TeleportCorvetteReturn 4619 1.2 2026-11-03T21-29Z bqtarIP1k.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793741342,
+        "uploaded_time": "2026-11-03T21:29:02.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b2c3478a3b76513d3fec7321e50a77946fdb8f0cd82050acbf2f7ef95bcd2e43",
+        "description": "Finalized (experimental) AddOn for the Landing Pad Mods.<br />It provides a fix, that Corvettes automatically spawn and land on the nearest, free and available Corvette Landing Pad.<br />Patched for Forsaken &amp; self-healing.",
+        "size_kb": 60,
+        "size_in_bytes": 61475,
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/2a/41/4f/2a414f29-335b-4516-b24a-fe272deadb4d"
       }
     ],
     "changelogs": {
@@ -694738,7 +694817,10 @@
         "As per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:",
         "- Functional salvage attraction, intake, processing and rewards (original functionality)",
         "- Colour and material customisation for the  processor housing",
-        "- Third Separate build-menu entry; Standard and Props can remain installed."
+        "- Third Separate build-menu entry; Standard and Props can remain installed.",
+        "Automatic Corvette Call after teleport:",
+        "- fixed for FORSAKEN update",
+        "- made it a bit more resilient for future updates"
       ],
       "1.2.1": [
         "Added a third version (Orbital Pad (Salvage Processor)):",
@@ -697367,12 +697449,12 @@
     "mod_id": 4649,
     "name": "Trade Terminals Sell Just About Everything  xCosmos",
     "summary": "An unofficial compatibility update for No Man's Sky, bringing expanded Galactic Trade Terminal inventories back to the latest tested game version.",
-    "version": "1",
+    "version": "3",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4649/4649-1791513744-1104353452.png",
     "author": "ikapozin",
-    "updated_timestamp": 1791515502,
+    "updated_timestamp": 1793729159,
     "created_timestamp": 1791514572,
-    "description": "[color=#d4d4d8]Tired of traveling between systems trying to find specific resources, crafting materials, or upgrade items?[/color]\n<br />[color=#D4D4D8]This mod dramatically expands the inventory of Galactic Trade Terminals and several other merchants, allowing you to purchase a huge variety of items directly from vendors.\n<br />Originally created by [b]Musty123[/b], with previous work credited to [b]duromo81[/b], this updated version has been rebuilt using current AMUMSS and MBINCompiler tools to restore compatibility with newer versions of No Man's Sky.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Features[/color][/heading]\n<br />[list]\n<br />[*][color=#D4D4D8][b]Expanded trade terminal inventories:[/b] Buy a much wider selection of products, materials, and useful items.[/color][/*]\n<br />[*][color=#D4D4D8][b]Large stock quantities:[/b] Supported merchant inventory quantities are set to 9,999.[/color][/*]\n<br />[*][color=#D4D4D8][b]Convenient access to valuable items:[/b] Purchase items such as Stasis Devices, Fusion Ignitors, and Atlas Stones.[/color][/*]\n<br />[*][color=#D4D4D8][b]Upgrade materials:[/b] Find Exosuit Upgrade Charts, Storage Augmentations, Cargo Bulkheads, and more.[/color][/*]\n<br />[*][color=#D4D4D8][b]Specialty resources:[/b] Access items such as Spawning Sacs, Soul Engines, and frigate fuel.[/color][/*]\n<br />[*][color=#D4D4D8][b]Normal economy pricing:[/b] Items still cost Units, and prices can vary with local market conditions.[/color][/*]\n<br />[*][color=#D4D4D8][b]No food expansion:[/b] This update follows the original mod's no-food approach.[/color][/*]\n<br />[/list][color=#D4D4D8][b]Note:[/b] The mod greatly expands available inventories, but it does not guarantee that literally every item in the game is purchasable.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Compatibility[/color][/heading]\n<br />[color=#D4D4D8][b]Tested game version:[/b] No Man's Sky Public Build 180836 (Cosmos 7.x)\n<br />[b]Built with:[/b]\n<br />[/color]\n<br />[list]\n<br />[*][color=#D4D4D8]AMUMSS v5.6.2.0w[/color][/*]\n<br />[*][color=#D4D4D8]MBINCompiler v7.4.1.3[/color][/*]\n<br />[/list][color=#D4D4D8]The mod was successfully compiled without errors or warnings and tested in-game at a Galactic Trade Terminal.\n<br />[b]Potential conflicts:[/b] This mod modifies\n<br />[/color]\n<br />[code]METADATA&#92;REALITY&#92;DEFAULTREALITY.MBIN[/code][color=#D4D4D8]. Other mods that replace or modify the same file may conflict unless their changes are merged.\n<br />Compatibility with future No Man's Sky updates is not guaranteed.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Installation[/color][/heading]\n<br />[list=1]\n<br />Extract the ZIP and place the included mod folder directly inside No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />[*][color=#D4D4D8]Launch No Man's Sky and visit a Galactic Trade Terminal.[/color][/*]\n<br />[/list][color=#D4D4D8][b]Recommendation:[/b] Back up your save before installing or changing mods.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Optional AMUMSS Source[/color][/heading]\n<br />[color=#D4D4D8]The AMUMSS Lua script is included for users who prefer to rebuild the mod themselves or update it for future game versions.\n<br />To rebuild, place the Lua script inside your AMUMSS\n<br />[/color]\n<br />[code]ModScript[/code][color=#D4D4D8]folder and run\n<br />[/color]\n<br />[code]BUILDMOD.bat[/code][color=#D4D4D8]using a compatible MBINCompiler version.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Changelog[/color][/heading]\n<br />[color=#D4D4D8]v0.2 – Cosmos 7.x Compatibility Update\n<br />[/color]\n<br />[list]\n<br />[*][color=#D4D4D8]Rebuilt the mod for newer No Man's Sky game files.[/color][/*]\n<br />[*][color=#D4D4D8]Updated AMUMSS selectors to work with the current trade settings structure.[/color][/*]\n<br />[*][color=#D4D4D8]Restored expanded product and substance inventories.[/color][/*]\n<br />[*][color=#D4D4D8]Updated supported merchant stock settings to 9,999.[/color][/*]\n<br />[*][color=#D4D4D8]Added support for Pirate economy stock quantities in the updated stock settings.[/color][/*]\n<br />[*][color=#D4D4D8]Successfully compiled with zero AMUMSS errors and warnings.[/color][/*]\n<br />[*][color=#D4D4D8]Verified expanded inventory and stock quantities in-game.[/color][/*]\n<br />[/list][heading][color=#D4D4D8]Credits[/color][/heading]\n<br />[color=#D4D4D8][b]Musty123[/b] – Original mod creator.\n<br />[b]duromo81[/b] – Previous mod work and updates.\n<br />[b]GV[/b] – Unofficial compatibility update, rebuilding, and in-game testing.\n<br />This is an unofficial update and is not affiliated with or endorsed by the original creators or Hello Games.\n<br />[/color]\n<br />[heading][color=#D4D4D8]Final Notes[/color][/heading]\n<br />[color=#D4D4D8]The goal of this update is simple: make it easier to access the materials and products you need without spending hours searching different systems.\n<br />If you encounter missing items, unusual merchant behavior, or compatibility problems, please include your game version and a description of the issue when reporting it.[/color]",
+    "description": "Tired of traveling between systems to find specific resources, crafting materials, or ship parts? This mod expands the stock at Galactic Trade Terminals, supported merchants, and the Corvette Workshop.\n<br />Originally created by [b]Musty123[/b], with previous work by [b]duromo81[/b], this unofficial update refreshes the inventory for No Man’s Sky [b]Forsaken 7.10[/b].\n<br />[heading]Where to buy items[/heading]\n<br />[list]\n<br />[*]Galactic Trade Terminals and supported merchants carry expanded stocks of resources, crafting materials, upgrade items, and specialty goods.[/*]\n<br />[*]Corvette Workshop → Buy →Buy Basic Modules is where you’ll find standard starship fabrication parts and Corvette modules. Both types of parts are stocked exclusively at the Workshop in this mod.[/*]\n<br />[/list][b]Aeron expedition parts are excluded.[/b] In testing, the Aeron parts we added appeared with zero stock and could not be purchased, even on a save where they were already unlocked. We haven’t found a working way around the expedition reward restriction.\n<br />[heading]Features[/heading]\n<br />[list]\n<br />[*][b]Expanded inventories[/b] include crafting materials, valuable products, upgrade items, and specialty resources such as Soul Engines and frigate fuel.[/*]\n<br />[*][b]Larger stock quantities[/b] of up to 9,999 at supported merchants.[/*]\n<br />[*][b]Normal economy pricing.[/b] Items cost Units, and prices can vary with local market conditions.[/*]\n<br />[*][b]No food expansion.[/b] This update follows the original mod’s approach.[/*]\n<br />[/list]The mod expands vendor inventories substantially. Some items may still be unavailable through shops.\n<br />[heading]Compatibility[/heading]\n<br />The updated inventory was built using data from [b]No Man’s Sky Forsaken 7.10[/b]. The installed mod uses \n<br />\n<br />METADATA&#92;REALITY&#92;DEFAULTREALITY.EXML\n<br />\n<br />to edit the game’s trade settings. Other mods that change the same shop lists may conflict unless their changes are merged.\n<br />[heading]Installation[/heading]\n<br />[list=1]\n<br />[*]Extract the ZIP and place the included mod folder directly inside[/*]\n<br />[*]No Man's Sky&#92;GAMEDATA&#92;MODS[/*]\n<br />[*]Remove or disable older versions of this mod and standalone Corvette Workshop patches that edit the same stock lists.[/*]\n<br />[*]Launch the game. Visit a Galactic Trade Terminal for general goods or the Corvette Workshop for ship parts.[/*]\n<br />[/list][heading]Forsaken update changelog[/heading]\n<br />[list]\n<br />[*]Added standard starship fabrication parts and updated Corvette modules to the Corvette Workshop.[/*]\n<br />[*]Separated Workshop parts from the regular trade terminal’s expanded inventory.[/*]\n<br />[*]Removed Aeron expedition parts from the Workshop after testing showed they could not be purchased.[/*]\n<br />[/list][heading]Credits[/heading]\n<br />[list]\n<br />[*][b]Musty123[/b] — Original mod creator.[/*]\n<br />[*][b]duromo81[/b] — Previous mod work and updates.[/*]\n<br />[*][b]Ikapozin[/b]— Unofficial compatibility update, inventory changes, and in-game testing.[/*]\n<br />[/list]If you report a missing item or unusual stock behavior, please include your game version, the item name, and the vendor you visited.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -697399,7 +697481,7 @@
         "size_kb": 40,
         "size_in_bytes": 41397,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4649/e0/48/76/e0487605-8360-48f5-a7af-11f2eccd2375.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e0/48/76/e0487605-8360-48f5-a7af-11f2eccd2375"
       },
       {
         "id": [
@@ -697410,8 +697492,8 @@
         "file_id": 49720,
         "name": "LUA Trade Terminals Everything Cosmos V0.2",
         "version": "1",
-        "category_id": 5,
-        "category_name": "MISCELLANEOUS",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 4,
         "file_name": "LUA Trade Terminals Everything Cosmos V0.2 4649 1 2026-10-09T02-54Z YjQ5seZcc.zip",
@@ -697424,7 +697506,7 @@
         "size_kb": 4,
         "size_in_bytes": 4900,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4649/4b/5e/91/4b5e9147-9e08-44b7-849a-ce4e7f9246f9.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4b/5e/91/4b5e9147-9e08-44b7-849a-ce4e7f9246f9"
       },
       {
         "id": [
@@ -697435,9 +697517,9 @@
         "file_id": 49721,
         "name": "Trade Terminals Everything Cosmos V0.2.Zip",
         "version": "2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 38,
         "file_name": "Trade Terminals Everything Cosmos V0.2.Zip 4649 2 2026-10-09T03-11Z 58qnW1tpk.zip",
         "detected_file_extension": "zip",
@@ -697449,7 +697531,32 @@
         "size_kb": 38,
         "size_in_bytes": 39843,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/4649/f0/93/0d/f0930d05-395d-4da7-8a0a-2e0dfdf75a55.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f0/93/0d/f0930d05-395d-4da7-8a0a-2e0dfdf75a55"
+      },
+      {
+        "id": [
+          50376,
+          1634
+        ],
+        "uid": 7017976612040,
+        "file_id": 50376,
+        "name": "Trade Terminals Everything Forsaken",
+        "version": "3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 9,
+        "file_name": "Trade Terminals Everything Forsaken 4649 3 2026-11-03T18-05Z yIucYBLlX.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793729159,
+        "uploaded_time": "2026-11-03T18:05:59.000+00:00",
+        "mod_version": "3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/119098516c0633c051be2e37622a5a2372381693b4836693cfa92a531bcd2d16",
+        "description": "",
+        "size_kb": 9,
+        "size_in_bytes": 9305,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/18/fb/27/18fb279e-d8cf-4856-a749-33693f3edca6"
       }
     ],
     "changelogs": {}
@@ -704001,7 +704108,7 @@
     "author": "ReVoltaire",
     "updated_timestamp": 1793715966,
     "created_timestamp": 1793039546,
-    "description": "[size=5][b]Description[/b][/size]\n<br />In No Man's Sky VR the game only knows where your character's body points, not where your head looks. If you play room-scale and turn physically, this leads to several annoying problems:\n<br />[list]\n<br />[*]The HUD stays where your body points instead of in front of your eyes.[/*]\n<br />[*]When you talk to an NPC or use a terminal or chest, the game fades out and turns your character towards it. Because your head looks elsewhere, you end up facing the wrong way, sometimes even standing inside furniture.[/*]\n<br />[*]Interaction windows and menus can open beside or behind you.[/*]\n<br />[*]On-screen messages (top left, e.g. \"Area discovered\") stay on screen while you look away from your body direction.[/*]\n<br />[*]The \"You have left the play area\" warning keeps popping up, although walking around is normal in room-scale.[/*]\n<br />[/list]This ASI plugin fixes all of them. No game files are changed, and flat mode is not affected.\n<br />\n<br />I originally made this fix for myself. Even though AI did a large part of the implementation, the testing and cross-checking took a great deal of time. ;-)\n<br />\n<br />Since others may run into the same problem, I'm sharing the solution here. It works on my setup, but feel free to report any issues in the comments.\n<br />\n<br />To see what the mod does, here is a comparison video:\n<br />[youtube]J74sAB9wOLs[/youtube]\n<br />\n<br />Compatible with 7.1x (Forsaken) and 7.06 (Cosmos). I play the GOG version, but it should also work with the Steam version. If a game update changes the code the plugin looks for, the affected part switches itself off and the game runs normally. Set [b]Log=1[/b] in the ini to see which part, and let me know in the comments.\n<br />\n<br />[size=5][b]Main features[/b][/size]\n<br />[list]\n<br />[*][b]Head-locked HUD:[/b] the main HUD follows your head, on foot and in the cockpit (can be switched off). [/*]\n<br />[*][b]Correct interactions:[/b] when the game turns you towards an NPC, terminal or chest, your view is turned to it and you are centred over your character, just like a manual \"reset position\" before interacting. When the interaction ends, everything returns to the game's own state[/*]\n<br />[*][b]Window facing:[/b] windows and menus that would still open far off your view are turned towards your head when they open[/*]\n<br />[*][b]On-screen messages:[/b] messages in the top left fade out normally again (no MBIN mod needed, can be switched off)[/*]\n<br />[*][b]No play area warning:[/b] the \"You have left the play area\" warning is also hidden (can be switched back on)[/*]\n<br />[/list]                  [img]https://staticdelivery.nexusmods.com/mods/1634/images/4713/4713-1793271558-1746683151.jpg[/img]\n<br />[list]\n<br />[*]Optional log file for troubleshooting (off by default) [/*]\n<br />[*]Not changed: getting into the ship. You sit where your head is relative to your character, as in the unmodded game. Use the game's \"reset position\" if needed.[/*]\n<br />[/list]\n<br />[size=5][b]Installation instructions[/b][/size]\n<br />[list=1]\n<br />[*]Install the [url=https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/tag/x64-latest]Ultimate ASI Loader (x64)[/url] if you do not have it yet: copy the 64-bit winmm.dll into your No Man's Sky&#92;Binaries folder.[/*]\n<br />[*]Copy the Binaries folder from this archive into your No Man's Sky folder, so that you get:\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;VRDirectionFix.asi\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;VRDirectionFix.ini[/*]\n<br />[*]Start the game in VR.[/*]\n<br />[/list]\n<br />[b]Settings[/b] (VRDirectionFix.ini):\n<br />[list]\n<br />[*][b]HUD_HeadLock[/b]\n<br />\"1\" means HUD follows your head. This is the head-locked HUD, i.e. what Better VR HUD does. If you don't want it, set it to 0; the interaction and window fixes keep working.[/*]\n<br />[*][b]OSDFix[/b]\n<br />1 (Default) = on-screen messages fade out normally in room-scale. 0 = game default. Replaces MBIN mods that change OSDMessagePauseOffscreenAngle.[/*]\n<br />[*][b]PlayAreaWarning[/b]\n<br />0 (Default) = the \"You have left the play area\" warning is hidden. 1 = game default.[/*]\n<br />[*][b]Log[/b]\n<br />0 (Default) = OFF. 1 writes VRDirectionFix.log next to the plugin[/*]\n<br />[/list]\n<br />[size=5][b]Known issues[/b][/size]\n<br />[list]\n<br />[*]The shoulder gesture (drawing and holstering the Multi-Tool) can sometimes be misplaced and not work correctly, depending on which way the player character is facing. This is a body-related bug that cannot be fixed in the mod (at the moment).[/*]\n<br />[*]Some objects (e.g. damaged machinery, the Fleet Command Post on the freighter) move you to a fixed spot when you interact. In room scale this can leave you in odd places, even inside a wall. This is vanilla behaviour the mod can't prevent, but the window still opens in front of you.[/*]\n<br />[/list]\n<br />[size=5][b]Compatibility[/b][/size]\n<br />\n<br />Do not install Better VR HUD alongside this mod. The functionality of Better VR HUD is already built in.\n<br />\n<br />[size=5][b]Uninstall:[/b][/size]\n<br />\n<br />Delete VRDirectionFix.asi and VRDirectionFix.ini (and VRDirectionFix.log, if present).\n<br />\n<br />[size=5][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/Cycrus/NMS-Better-VR-HUD]Better VR HUD[/url] by Cycrus - the head-locked HUD and the game-code signatures are based on it (BSD 3-Clause license, included)[/*]\n<br />[*]harpone - head-locked HUD implementation and reverse-engineering notes for Better VR HUD[/*]\n<br />[*][url=https://github.com/TsudaKageyu/minhook]MinHook[/url] by Tsuda Kageyu (BSD 2-Clause license, included)[/*]\n<br />[*][url=https://github.com/ThirteenAG/Ultimate-ASI-Loader]Ultimate ASI Loader[/url] by ThirteenAG[/*]\n<br />[/list]",
+    "description": "[size=5][b]Description[/b][/size]\n<br />In No Man's Sky VR the game only knows where your character's body points, not where your head looks. If you play room-scale and turn physically, this leads to several annoying problems:\n<br />[list]\n<br />[*]The HUD stays where your body points instead of in front of your eyes.[/*]\n<br />[*]When you talk to an NPC or use a terminal or chest, the game fades out and turns your character towards it. Because your head looks elsewhere, you end up facing the wrong way, sometimes even standing inside furniture.[/*]\n<br />[*]Interaction windows and menus can open beside or behind you.[/*]\n<br />[*]On-screen messages (top left, e.g. \"Area discovered\") stay on screen while you look away from your body direction.[/*]\n<br />[*]The \"You have left the play area\" warning keeps popping up, although walking around is normal in room-scale.[/*]\n<br />[/list]This ASI plugin fixes all of them. No game files are changed, and flat mode is not affected.\n<br />\n<br />I originally made this fix for myself. Even though AI did a large part of the implementation, the testing and cross-checking took a great deal of time. ;-)\n<br />\n<br />Since others may run into the same problem, I'm sharing the solution here. It works on my setup, but feel free to report any issues in the comments.\n<br />\n<br />To see what the mod does, here is a comparison video:\n<br />[youtube]J74sAB9wOLs[/youtube]\n<br />\n<br />Compatible with 7.1x (Forsaken) and 7.06 (Cosmos). I play the GOG version, but it should also work with the Steam version. If a game update changes the code the plugin looks for, the affected part switches itself off and the game runs normally. Set [b]Log=1[/b] in the ini to see which part, and let me know in the comments.\n<br />\n<br />[size=5][b]Main features[/b][/size]\n<br />[list]\n<br />[*][b]Head-locked HUD:[/b] the main HUD follows your head, on foot and in the cockpit (can be switched off). [/*]\n<br />[*][b]Correct interactions:[/b] when the game turns you towards an NPC, terminal or chest, your view is turned to it and you are centred over your character, just like a manual \"reset position\" before interacting. When the interaction ends, everything returns to the game's own state[/*]\n<br />[*][b]Window facing:[/b] windows and menus that would still open far off your view are turned towards your head when they open[/*]\n<br />[*][b]On-screen messages:[/b] messages in the top left fade out normally again (no MBIN mod needed, can be switched off)[/*]\n<br />[*][b]No play area warning:[/b] the \"You have left the play area\" warning is also hidden (can be switched back on)[/*]\n<br />[/list]                  [img]https://staticdelivery.nexusmods.com/mods/1634/images/4713/4713-1793271558-1746683151.jpg[/img]\n<br />[list]\n<br />[*]Optional log file for troubleshooting (off by default) [/*]\n<br />[*]Not changed: getting into the ship. You sit where your head is relative to your character, as in the unmodded game. Use the game's \"reset position\" if needed.[/*]\n<br />[/list]\n<br />[size=5][b]Installation instructions[/b][/size]\n<br />[list=1]\n<br />[*]Install the [url=https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/tag/x64-latest]Ultimate ASI Loader (x64)[/url] if you do not have it yet: copy the 64-bit winmm.dll into your No Man's Sky&#92;Binaries folder.[/*]\n<br />[*]Copy the Binaries folder from this archive into your No Man's Sky folder, so that you get:\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;VRDirectionFix.asi\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;VRDirectionFix.ini[/*]\n<br />[*]Start the game in VR.[/*]\n<br />[/list]\n<br />[b]Settings[/b] (VRDirectionFix.ini):\n<br />[list]\n<br />[*][b]HUD_HeadLock[/b]\n<br />\"1\" means HUD follows your head. This is the head-locked HUD, i.e. what Better VR HUD does. If you don't want it, set it to 0; the interaction and window fixes keep working.[/*]\n<br />[*][b]OSDFix[/b]\n<br />1 (Default) = on-screen messages fade out normally in room-scale. 0 = game default. Replaces MBIN mods that change OSDMessagePauseOffscreenAngle.[/*]\n<br />[*][b]PlayAreaWarning[/b]\n<br />0 (Default) = the \"You have left the play area\" warning is hidden. 1 = game default.[/*]\n<br />[*][b]Log[/b]\n<br />0 (Default) = OFF. 1 writes VRDirectionFix.log next to the plugin[/*]\n<br />[/list]\n<br />[size=5][b]Known issues[/b][/size]\n<br />[list]\n<br />[*]The shoulder gesture (drawing and holstering the Multi-Tool) can sometimes be misplaced and not work correctly, depending on which way the player character is facing. This is a body-related bug that cannot be fixed in the mod (at the moment).[/*]\n<br />[*]Some interactions move you to a fixed spot chosen by the game (e.g. damaged machinery, terminals in the freighter’s rooms like the Fleet Command Post, some ancient ruins). In room scale this can leave you in odd places: inside a wall, behind the terminal, or high above a ruin facing away from it. This is vanilla behaviour the mod can’t prevent, but the window still opens in front of you. [/*]\n<br />[/list]\n<br />[size=5][b]Compatibility[/b][/size]\n<br />\n<br />Do not install Better VR HUD alongside this mod. The functionality of Better VR HUD is already built in.\n<br />\n<br />[size=5][b]Uninstall:[/b][/size]\n<br />\n<br />Delete VRDirectionFix.asi and VRDirectionFix.ini (and VRDirectionFix.log, if present).\n<br />\n<br />[size=5][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/Cycrus/NMS-Better-VR-HUD]Better VR HUD[/url] by Cycrus - the head-locked HUD and the game-code signatures are based on it (BSD 3-Clause license, included)[/*]\n<br />[*]harpone - head-locked HUD implementation and reverse-engineering notes for Better VR HUD[/*]\n<br />[*][url=https://github.com/TsudaKageyu/minhook]MinHook[/url] by Tsuda Kageyu (BSD 2-Clause license, included)[/*]\n<br />[*][url=https://github.com/ThirteenAG/Ultimate-ASI-Loader]Ultimate ASI Loader[/url] by ThirteenAG[/*]\n<br />[/list]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -705030,12 +705137,12 @@
     "mod_id": 4751,
     "name": "Deep Space Outpost Teleporter",
     "summary": "seriously, more xeno-arena tables? ugh",
-    "version": "7.10",
+    "version": "7.13",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4751/4751-1793379792-581793503.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1793380457,
+    "updated_timestamp": 1793739721,
     "created_timestamp": 1793380457,
-    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />This mod replaces the Xeno-Arena game tables found on deep space outposts' landing platforms with special one-way teleporters leading to local space stations. These telepoters can be found on platforms right next to outposts' mission boards.\n<br />\n<br />Before anyone asks - no, I have no idea what would happen if I put a fully fledged teleporter there and tried to teleport to given system, I don't want to give the game a stroke. I just wanted a quick way to return to the station.\n<br />\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />MODELS&#92;SPACE&#92;POI&#92;OUTPOST&#92;PARTS&#92;GAMETABLE.SCENE.MBIN\n<br />MODELS&#92;SPACE&#92;POI&#92;OUTPOST&#92;PARTS&#92;PADWALKG.SCENE.MBIN[/quote]\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️ Full MBIN replacement\n<br />\n<br />This mod will conflict with any other mod affecting the same MBIN game files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory.\n<br />\n<br />Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
+    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />This mod replaces the Xeno-Arena game tables found on deep space outposts' landing platforms with special one-way teleporters leading to local space stations. These telepoters can be found on platforms right next to outposts' mission boards.\n<br />\n<br />Before anyone asks - no, I have no idea what would happen if I put a fully fledged teleporter there and tried to teleport to given system, I don't want to give the game a stroke. I just wanted a quick way to return to the station.\n<br />\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />MODELS&#92;SPACE&#92;POI&#92;OUTPOST&#92;PARTS&#92;GAMETABLE.SCENE.MBIN\n<br />MODELS&#92;SPACE&#92;POI&#92;OUTPOST&#92;PARTS&#92;PADWALKG.SCENE.MBIN\n<br />\n<br />+ some new files added[/quote]\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️ Full MBIN replacement\n<br />\n<br />This mod will conflict with any other mod affecting the same MBIN game files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory.\n<br />\n<br />Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -705048,8 +705155,8 @@
         "file_id": 50247,
         "name": "Deep Space Outpost Teleporter",
         "version": "7.10",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": true,
         "size": 21,
         "file_name": "Deep Space Outpost Teleporter 4751 7.10 2026-10-30T17-04Z KsnM3Ttex.zip",
@@ -705063,11 +705170,39 @@
         "size_in_bytes": 21662,
         "changelog_html": "initial release for game version 7.10 (Forsaken)",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ee/26/6a/ee266aca-2bc3-44cc-bc9b-44286a8fdf02"
+      },
+      {
+        "id": [
+          50378,
+          1634
+        ],
+        "uid": 7017976612042,
+        "file_id": 50378,
+        "name": "Deep Space Outpost Teleporter",
+        "version": "7.13",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 22,
+        "file_name": "Deep Space Outpost Teleporter 4751 7.13 2026-11-03T21-02Z cEkp5sXft.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793739721,
+        "uploaded_time": "2026-11-03T21:02:01.000+00:00",
+        "mod_version": "7.13",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b08d96238e3dbb82d74dc1f1f7f945bedf5f171e96f275525ab24c254f0562dd",
+        "description": "",
+        "size_kb": 22,
+        "size_in_bytes": 22716,
+        "changelog_html": "changed the appearance of the teleporter device from black blob to white more detailed blob",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/13/82/b7/1382b769-d748-493f-88b5-3954cb26eb5c"
       }
     ],
     "changelogs": {
       "7.10": [
         "initial release for game version 7.10 (Forsaken)"
+      ],
+      "7.13": [
+        "changed the appearance of the teleporter device from black blob to white more detailed blob"
       ]
     }
   },
@@ -705903,7 +706038,7 @@
     "version": "1.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4767/4767-1793580378-566814188.jpg",
     "author": "Xdiablo6six6X",
-    "updated_timestamp": 1793619415,
+    "updated_timestamp": 1793740537,
     "created_timestamp": 1793580768,
     "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]Diablos Menu Music brings my own music into No Man’s Sky.\n<br />It replaces the menu and loading music with one dedicated custom track, and adds that song plus two more of my tracks to the planet and space music selection alongside the remaining original soundtrack.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[list=1]\n<br />[*][color=#D4D4D8]Close No Man’s Sky.[/color][/*]\n<br />[*][color=#D4D4D8]Download and extract the mod archive into a normal folder.[/color][/*]\n<br />[*][color=#D4D4D8]Open your No Man’s Sky installation folder. On Steam, right-click the game in your Library, then select Manage → Browse local files.[/color][/*]\n<br />[*][color=#D4D4D8]If you have an older version installed, move its Diablos_Menu_Music folder outside the MODS folder before installing this version.[/color][/*]\n<br />[*][color=#D4D4D8]Copy the newly created payload&#92;Diablos_Menu_Music folder into:\n<br />No Man's Sky&#92;GAMEDATA&#92;MODS[/color][/*]\n<br />[*][color=#D4D4D8]Launch the game with mods enabled and make sure your Music volume is turned up.[/color][/*]\n<br />[/list][color=#D4D4D8]If mods are disabled, close the game and check:\n<br />No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML\n<br />Set DisableAllMods to false. If the DIABLOS_MENU_MUSIC entry is present, make sure its Enabled value is true, then restart the game.\n<br />To uninstall, close the game and remove the Diablos_Menu_Music folder from GAMEDATA&#92;MODS.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[color=#D4D4D8]• One dedicated custom song for the menu and loading screens.\n<br />• Three custom tracks included, with all three added to the planet and space exploration music selection.\n<br />• Most of the original gameplay music arrangements remain available.[/color]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[color=#D4D4D8]• No Man’s Sky on Windows PC, with mods enabled.\n<br />• No additional mods or audio-conversion software are required.\n<br />Compatibility: Other mods that replace the same menu music or modify the planet and space music arrangements may conflict with this mod.[/color]\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[color=#D4D4D8]Thanks to Hello Games for creating No Man’s Sky, and to the No Man’s Sky modding community for its tools, documentation, and shared knowledge.\n<br />The custom music included in this mod was created by me.\n<br />Thanks to everyone who downloads the mod, gives it a listen, and shares feedback![/color]",
     "state": "normal",
@@ -705966,13 +706101,13 @@
         ],
         "uid": 7017976611999,
         "file_id": 50335,
-        "name": "Diablos Music",
+        "name": "Diablo's Music",
         "version": "1.2",
         "category_id": 1,
         "category_name": "MAIN",
         "is_primary": true,
         "size": 187252,
-        "file_name": "Diablos Music 4767 1.2 2026-11-02T11-36Z GkVHbndsp.zip",
+        "file_name": "Diablo's Music 4767 1.2 2026-11-02T11-36Z GkVHbndsp.zip",
         "detected_file_extension": "zip",
         "uploaded_timestamp": 1793619415,
         "uploaded_time": "2026-11-02T11:36:55.000+00:00",
@@ -705983,6 +706118,31 @@
         "size_in_bytes": 191746591,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/b9/61/88/b9618873-3a62-4231-9437-a9bce4ea6492"
+      },
+      {
+        "id": [
+          50379,
+          1634
+        ],
+        "uid": 7017976612043,
+        "file_id": 50379,
+        "name": "Diablo's Music .WAV",
+        "version": "1",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 98113,
+        "file_name": "Diablo's Music .WAV 4767 1 2026-11-03T21-15Z UKXVZq48N.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793740537,
+        "uploaded_time": "2026-11-03T21:15:37.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ad38f2403fe3886d3ebe3bfd894db257f80dec46ebe55a83918064a8ee125bd3",
+        "description": "So you can listen before downloading main mod",
+        "size_kb": 98113,
+        "size_in_bytes": 100468002,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/49/ce/0c/49ce0ce1-2351-4aef-897e-5d93f2f09d36"
       }
     ],
     "changelogs": {}
@@ -706130,14 +706290,14 @@
   },
   {
     "mod_id": 4769,
-    "name": "QUICK PORTAL GLYPHS - BOOKMARKS",
+    "name": "PORTAL GLYPHS - BOOKMARKS",
     "summary": "Quickly enter saved portal addresses from your Imperial Galactic Map bookmarks without manually selecting all 12 glyphs.",
     "version": "0.6.2",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4769/4769-1793622665-1203461032.png",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4769/4769-1793737425-268148451.png",
     "author": "ersalva",
     "updated_timestamp": 1793648980,
     "created_timestamp": 1793623067,
-    "description": "[center]\n<br />[size=6][color=#39DDF2][b]QUICK PORTAL GLYPHS[/b][/color][/size]\n<br />[size=5][color=#F2C66D][b]— BOOKMARKS —[/b][/color][/size]\n<br />[i]Your favourite destinations. One portal. No more manual glyph entry.[/i]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=4][color=#F2C66D][b]AN IMPERIAL GALACTIC MAP EXTENSION[/b][/color][/size]\n<br />[b]Version 0.6.1 | No Man's Sky | Windows / Steam\n<br />[/b]\n<br />[youtube]XUHi6LtRVZI[/youtube]\n<br />[/center]\n<br />[quote]\n<br />[color=#FFCA70][b]IMPORTANT — IMPERIAL GALACTIC MAP IS REQUIRED[/b][/color]\n<br />[b]Quick Portal Glyphs – Bookmarks is NOT a standalone mod.[/b]\n<br />This extension requires [b]Imperial Galactic Map (IGM) 0.65/b] to be installed and working correctly.\n<br />It uses IGM's existing system, favourites and data. Without the compatible IGM core, the extension will not activate.\n<br />[b]Required Mod:[/b] [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] on Nexus[/quote][size=5][color=#39DDF2][b]DISCOVER. BOOKMARK. TRAVEL.[/b][/color][/size]\n<br />Exploring the universe is one of the greatest experiences in No Man's Sky. But travelling back to your favourite discoveries shouldn't mean entering twelve portal glyphs manually every single time.\n<br />[b]Quick Portal Glyphs – Bookmarks[/b] extends Imperial Galactic Map with a convenient portal interface, allowing you to select saved destinations and use their portal addresses directly.\n<br />Whether you're returning to a beautiful paradise planet, visiting a distant base or travelling to a favourite discovery, your saved destinations are only a few steps away.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]FEATURES[/b][/color][/size]\n<br />[list]\n<br />[*][b]Quick portal address entry[/b]\n<br />Use your saved destinations without manually selecting all twelve glyphs.[/*]\n<br />[*][b]Integrated bookmarks[/b]\n<br />Access your favourite locations through a compact interface connected to Imperial Galactic Map.[/*]\n<br />[*][b]Native portal interaction[/b]\n<br />Uses the game's internal portal functionality.[/*]\n<br />[*][b]12-glyph address support[/b]\n<br />Designed to work with complete portal addresses.[/*]\n<br />[*][b]Multiple galaxies[/b]\n<br />Supports destinations across different galaxies, with appropriate destination checks.[/*]\n<br />[*][b]Safety checks[/b]\n<br />Checks portal state and destination requirements before attempting address entry.[/*]\n<br />[*][b]Manual confirmation[/b]\n<br />Addresses are used through an explicit player action, rather than automatic activation when opening a portal.[/*]\n<br />[*][b]Optional extension[/b]\n<br />Remove the extension without uninstalling Imperial Galactic Map.[/*]\n<br />[*][b]No save editing[/b]\n<br />Does not directly modify your No Man's Sky save files.[/*]\n<br />[/list][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D][b]HOW IT WORKS[/b][/color][/size]\n<br />[b][color=#39DDF2]01 —  PRESS F8 AND SAVE YOUR DESTINATIONS[/color][/b]\n<br />Use [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] your favourite planets and star systems.\n<br />[b][color=#39DDF2]02 — OPEN A PORTAL[/color][/b]\n<br />Find and activate a planetary portal in No Man's Sky, then open its glyph-entry interface.\n<br />[b][color=#39DDF2]03 — CHOOSE A BOOKMARK[/color][/b]\n<br />Access the compact favourites interface and select your saved destination.\n<br />[b][color=#39DDF2]04 — USE THE ADDRESS[/color][/b]\n<br />Confirm your selection to let the extension enter the portal address through the game's native functionality, subject to its compatibility and safety checks.\n<br />[center]\n<br />[color=#F2C66D][i]Spend less time entering glyphs. Spend more time exploring.[/i][/color]\n<br />[/center]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]REQUIREMENTS[/b][/color][/size]\n<br />[list]\n<br />[]No Man's Sky — Steam version for Windows. Required Mod: Imperial Galactic Map (IGM) 0.65 The matching IGM installation, including its main xinput9_1_0.dll.Your existing IGM data and bookmarks.[/list][color=#FFCA70][b]Compatibility warning:[/b][/color]\n<br />Version 0.6.1 was built specifically for the matching [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] core.\n<br />The extension verifies the exact IGM core build and required APIs. Replacing the main DLL with a different version may prevent the portal extension from loading.\n<br />[b]Do not mix different IGM and Quick Portal Glyphs versions unless their compatibility has been confirmed.[/b]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]INSTALLATION[/b][/color][/size]\n<br />[b]1.[/b] Install the required version of Imperial Galactic Map first: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] on Nexus\n<br />[b]2.[/b] Completely close No Man's Sky.\n<br />[b]3.[/b] Open your No Man's Sky installation directory and locate the [b]Binaries[/b] folder containing NMS.exe.\n<br />[b]4.[/b] Extract the extension ZIP into that directory, preserving its folder structure.\n<br />Your installation should look like this:\n<br />[code]\n<br />No Man's Sky/\n<br />└── Binaries/\n<br />├── NMS.exe\n<br />├── xinput9_1_0.dll (Imperial Galactic Map)\n<br />├── IGM_Portal.dll (Quick Portal Glyphs)\n<br />└── IGM/ (Existing IGM data)[/code][b]5.[/b] Launch No Man's Sky normally through Steam.\n<br />[color=#F2C66D][b]IMPORTANT:[/b][/color] Do not replace the main IGM DLL when installing this extension. Do not delete or overwrite your existing IGM data folder.\n<br />[b]Updating Quick Portal Glyphs:[/b]\n<br />With the game closed, replace only [b]IGM_Portal.dll[/b] with the version compatible with your installed IGM core.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]UNINSTALLATION[/b][/color][/size]\n<br />Quick Portal Glyphs is an optional extension.\n<br />To uninstall it, close No Man's Sky and remove:\n<br />[code]\n<br />Binaries/IGM_Portal.dll[/code]Your main Imperial Galactic Map installation, existing bookmarks and data can remain untouched.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D][b]COMPATIBILITY &amp; LIMITATIONS[/b][/color][/size]\n<br />- The extension does not bypass the game's glyph knowledge requirements.[]The extension does not modify station ownership, missions or save-game progression.\n<br />- The extension does not include Imperial Galactic Map itself.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]VERSION HISTORY[/b][/color][/size]\n<br />[b]0.6.1 — IGM 0.64.3 Compatibility[/b]\n<br />[list]\n<br />[]Updated compatibility with Imperial Galactic Map 0.64.3.[]Updated the required core dependency verification.[]Preserved the existing portal behaviour from version 0.6.[]No intentional changes to portal input or rendering logic.[/list][center][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]QUICK PORTAL GLYPHS — BOOKMARKS[/b][/color][/size]\n<br />[color=#F2C66D][i]The universe is yours to rediscover.[/i][/color]\n<br />[b]\n<br />Required Mod: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] — Not a standalone mod.[/b]\n<br />[/center]\n<br />",
+    "description": "[center]\n<br />[size=6][color=#39DDF2][b]PORTAL GLYPHS[/b][/color][/size]\n<br />[size=5][color=#F2C66D][b]— BOOKMARKS —[/b][/color][/size]\n<br />[i]Your favourite destinations. One portal. No more manual glyph entry.[/i]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=4][color=#F2C66D][b]AN IMPERIAL GALACTIC MAP EXTENSION[/b][/color][/size]\n<br />[b]Version 0.6.1 | No Man's Sky | Windows / Steam\n<br />[/b]\n<br />[youtube]XUHi6LtRVZI[/youtube]\n<br />[/center]\n<br />[quote]\n<br />[color=#FFCA70][b]IMPORTANT — IMPERIAL GALACTIC MAP IS REQUIRED[/b][/color]\n<br />[b]Quick Portal Glyphs – Bookmarks is NOT a standalone mod.[/b]\n<br />This extension requires [b]Latest Imperial Galactic Map (IGM)/b] to be installed and working correctly.\n<br />It uses IGM's existing system, favourites and data. Without the compatible IGM core, the extension will not activate.\n<br />[b]Required Mod:[/b] [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] on Nexus[/b][/quote][b][size=5][color=#39DDF2][b]DISCOVER. BOOKMARK. TRAVEL.[/b][/color][/size]\n<br />Exploring the universe is one of the greatest experiences in No Man's Sky. But travelling back to your favourite discoveries shouldn't mean entering twelve portal glyphs manually every single time.\n<br />[b]Quick Portal Glyphs – Bookmarks[/b] extends Imperial Galactic Map with a convenient portal interface, allowing you to select saved destinations and use their portal addresses directly.\n<br />Whether you're returning to a beautiful paradise planet, visiting a distant base or travelling to a favourite discovery, your saved destinations are only a few steps away.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]FEATURES[/b][/color][/size][/b]\n<br />[list]\n<br />[*][b][b]Quick portal address entry[/b]\n<br />Use your saved destinations without manually selecting all twelve glyphs.[/b][/*]\n<br />[*][b][b]Integrated bookmarks[/b]\n<br />Access your favourite locations through a compact interface connected to Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]Native portal interaction[/b]\n<br />Uses the game's internal portal functionality.[/b][/*]\n<br />[*][b][b]12-glyph address support[/b]\n<br />Designed to work with complete portal addresses.[/b][/*]\n<br />[*][b][b]Multiple galaxies[/b]\n<br />Supports destinations across different galaxies, with appropriate destination checks.[/b][/*]\n<br />[*][b][b]Safety checks[/b]\n<br />Checks portal state and destination requirements before attempting address entry.[/b][/*]\n<br />[*][b][b]Manual confirmation[/b]\n<br />Addresses are used through an explicit player action, rather than automatic activation when opening a portal.[/b][/*]\n<br />[*][b][b]Optional extension[/b]\n<br />Remove the extension without uninstalling Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]No save editing[/b]\n<br />Does not directly modify your No Man's Sky save files.[/b][/*]\n<br />[/list][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D][b]HOW IT WORKS[/b][/color][/size]\n<br />[b][color=#39DDF2]01 —  PRESS F8 AND SAVE YOUR DESTINATIONS[/color][/b]\n<br />Use [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] your favourite planets and star systems.\n<br />[b][color=#39DDF2]02 — OPEN A PORTAL[/color][/b]\n<br />Find and activate a planetary portal in No Man's Sky, then open its glyph-entry interface.\n<br />[b][color=#39DDF2]03 — CHOOSE A BOOKMARK[/color][/b]\n<br />Access the compact favourites interface and select your saved destination.\n<br />[b][color=#39DDF2]04 — USE THE ADDRESS[/color][/b]\n<br />Confirm your selection to let the extension enter the portal address through the game's native functionality, subject to its compatibility and safety checks.[/b]\n<br />[center][b]\n<br />[color=#F2C66D][i]Spend less time entering glyphs. Spend more time exploring.[/i][/color]\n<br />[/b][/center]\n<br />[b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]REQUIREMENTS[/b][/color][/size][/b]\n<br />[list]\n<br />[]No Man's Sky — Steam version for Windows. Required Mod: Latest Imperial Galactic Map (IGM) The matching IGM installation, including its main xinput9_1_0.dll.Your existing IGM data and bookmarks.[/list][b][color=#FFCA70][b]Compatibility warning:[/b][/color]\n<br />Each Version update was built specifically for the matching [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] core.\n<br />The extension verifies the exact IGM core build and required APIs. Replacing the main DLL with a different version may prevent the portal extension from loading.\n<br />[b]Do not mix different IGM and Quick Portal Glyphs versions unless their compatibility has been confirmed.[/b]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]INSTALLATION[/b][/color][/size]\n<br />[b]1.[/b] Install the required version of Imperial Galactic Map first: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] on Nexus\n<br />[b]2.[/b] Completely close No Man's Sky.\n<br />[b]3.[/b] Open your No Man's Sky installation directory and locate the [b]Binaries[/b] folder containing NMS.exe.\n<br />[b]4.[/b] Extract the extension ZIP into that directory, preserving its folder structure.\n<br />Your installation should look like this:[/b]\n<br />[code]\n<br />No Man's Sky/\n<br />└── Binaries/\n<br />├── NMS.exe\n<br />├── xinput9_1_0.dll (Imperial Galactic Map)\n<br />├── IGM_Portal.dll (Quick Portal Glyphs)\n<br />└── IGM/ (Existing IGM data)[/code][b][b]5.[/b] Launch No Man's Sky normally through Steam.\n<br />[color=#F2C66D][b]IMPORTANT:[/b][/color] Do not replace the main IGM DLL when installing this extension. Do not delete or overwrite your existing IGM data folder.\n<br />[b]Updating Quick Portal Glyphs:[/b]\n<br />With the game closed, replace only [b]IGM_Portal.dll[/b] with the version compatible with your installed IGM core.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]UNINSTALLATION[/b][/color][/size]\n<br />Quick Portal Glyphs is an optional extension.\n<br />To uninstall it, close No Man's Sky and remove:[/b]\n<br />[code]\n<br />Binaries/IGM_Portal.dll[/code][b]Your main Imperial Galactic Map installation, existing bookmarks and data can remain untouched.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D]COMPATIBILITY &amp; LIMITATIONS[/color][/size]\n<br />- The extension does not bypass the game's glyph knowledge requirements.[]The extension does not modify station ownership, missions or save-game progression.\n<br />- The extension does not include Imperial Galactic Map itself.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2]VERSION HISTORY\n<br />[/color][/size] 0.6.2 --- IGM 0.65  Compatibility[/b]\n<br />[list]\n<br />[*]Quick Portal Glyphs - Bookmarks 0.6.2[/*]\n<br />[*]- Updated for the latest supported No Man’s Sky update.[/*]\n<br />[*]- Requires IGM 0.65.0.[/*]\n<br />[*]- Automatically disables on unsupported game versions.[/*]\n<br />[*]Updating: Close the game and replace only IGM_Portal.dll. Update IGM to 0.65.0 and keep your existing IGM folder to preserve your favourites and settings.[/*]\n<br />[/list][b]\n<br />0.6.1 — IGM 0.64.C Compatibility[/b]\n<br />[list]\n<br />* Updated compatibility with Latest Imperial Galactic Map (IGM)[]Updated the required core dependency verification.Preserved the existing portal behaviour from version 0.6. No intentional changes to portal input or rendering logic.[/list][center][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]PORTAL GLYPHS — BOOKMARKS[/b][/color][/size]\n<br />[color=#F2C66D][i]The universe is yours to rediscover.[/i][/color]\n<br />[b]\n<br />Required Mod: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] — Not a standalone mod.[/b]\n<br />[/b][/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
