@@ -245973,7 +245973,7 @@
   {
     "mod_id": 1752,
     "name": "AntiBloom -the original",
-    "summary": "Updated for NMS Cosmos 7.06 +experimental. No more annoying Bloom Effects in No Man's Sky! Enjoy the new crystal clear gaming experience! Maybe with some little FPS boost too, at least for weaker Graphic Cards. Now with VR Support all in One.",
+    "summary": "Updated for NMS Forsaken 7.13 +experimental. No more annoying Bloom Effects in No Man's Sky! Enjoy the new crystal clear gaming experience! Maybe with some little FPS boost too, at least for weaker Graphic Cards. Now with VR Support all in One.",
     "version": "7.01",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1752/1752-1603908578-1259889815.jpeg",
     "author": "AndiPro66 aka UserPro66",
@@ -249190,13 +249190,13 @@
   {
     "mod_id": 1766,
     "name": "Fast Text View (Cosmos)",
-    "summary": "Still works = NMS:COSMOS 7.06 +experimental. This mod displays nearly instantly all comunication &amp; dialog text messages. All languages supported. Use left mouse click to accelerate even more the interactivity dialogs. Updated for NMS-Voyagers ... and maybe upcoming versions as so often before.",
+    "summary": "Still works = NMS:Forsaken 7.13 +experimental. This mod displays nearly instantly all comunication &amp; dialog text messages. All languages supported. Use left mouse click to accelerate even more the interactivity dialogs. Updated for NMS-Voyagers ... and maybe upcoming versions as so often before.",
     "version": "6.1x",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1766/1766-1789262252-785263177.png",
     "author": "AndiPro66 aka UserPro66",
     "updated_timestamp": 1762665416,
     "created_timestamp": 1604622835,
-    "description": "[color=#00ffff][b]This mod[/b] is conform within the latest officially updated developer packing structure. Coding was done carefully in a minimalistic invasive manner. So indefinable strange side effects should be reduced to zero. [/color]\n<br />\n<br />[b][color=#e69138]Install instructions:[/color][/b]\n<br />Extract (Unzip) file into your MODS folder, somewhere there ... X:&#92;...Steam...&#92;steamapps&#92;common[b]&#92;No Man's Sky&#92;GAMEDATA&#92;MODS[/b]\n<br />If no MODS Folder exist, then create it and name it exactly MODS\n<br />[i][b]If you have problems[/b] [/i]after installing mods in general try to [b]Delete[/b] the Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML file. When you launch NMS again, it will recreate the file. Other mod problems can be solved by verifying game files via Steam or deleting old/previous mods from the mod folder.\n<br />Enjoy!\n<br />[color=#00ff00][b]\n<br />File coding[/b] was done in ...&#92;METADATA&#92;UI&#92;SPECIALTEXTPUNCTUATIONDELAYDATA.MBIN files only. It [b]conflicts[/b] with other mods which modify the same file too (which was very very rare in the past).[/color]\n<br />\n<br />[color=#ffd966][b]I've done[/b] this Mod for my personal use, but decided to share it with people which are tired like me of this crazy destructive heavy-mouse-button-multiple-click-fingersport orgy, to speed up all the comunication/dialog text messages display. No more need of crazy mouse clicking!\n<br />[b]Please[/b] consider to [b]Endorse and/or to Vote[/b] for \"Fast Text View\" if you like it. It shows that you [u]appreciate[/u] that Modders/Coders share their private work with you. Cheers![/color]\n<br />\n<br />[color=#f1c232][color=#ffffff][b]Thanks[/b] to [i][b]monkeyman192[/b][/i] consistently updating his MBINCompiler [/color][color=#ffffff]and making modding NMS possible![/color][/color]",
+    "description": "[color=#00ffff][b]This mod[/b] is conform within the latest officially updated developer packing structure. Coding was done carefully in a minimalistic invasive manner. So indefinable strange side effects should be reduced to zero. [/color]\n<br />\n<br />[b][color=#e69138]Install instructions:[/color][/b]\n<br />Extract (Unzip) file into your MODS folder, somewhere there ... X:&#92;...Steam...&#92;steamapps&#92;common[b]&#92;No Man's Sky&#92;GAMEDATA&#92;MODS[/b]\n<br />If no MODS Folder exist, then create it and name it exactly MODS\n<br />[i][b]If you have problems[/b] [/i]after installing mods in general try to [b]Delete[/b] the Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML file. When you launch NMS again, it will recreate the file. Other mod problems can be solved by verifying game files via Steam or deleting old/previous mods from the mod folder.\n<br />Enjoy!\n<br />[color=#00ff00][b]\n<br />File coding[/b] was done in ...&#92;METADATA&#92;UI&#92;SPECIALTEXTPUNCTUATIONDELAYDATA.MBIN files only. It [b]conflicts[/b] with other mods which modify the same file too (which was very very rare).[/color]\n<br />\n<br />[color=#ffd966][b]I've done[/b] this Mod for my personal use, but decided to share it with people which are tired like me of this crazy destructive heavy-mouse-button-multiple-click-fingersport orgy, to speed up all the comunication/dialog text messages display. No more need of crazy mouse clicking!\n<br />[b]Please[/b] consider to [b]Endorse and/or to Vote[/b] for \"Fast Text View\" if you like it. It shows that you [u]appreciate[/u] that Modders/Coders share their private work with you. Cheers![/color]\n<br />\n<br />[color=#f1c232][color=#ffffff][b]Thanks[/b] to [i][b]monkeyman192[/b][/i] consistently updating his MBINCompiler [/color][color=#ffffff]and making modding NMS possible![/color][/color]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -442818,10 +442818,10 @@
     "mod_id": 2554,
     "name": "Cooking with Cronus",
     "summary": "An interaction overhaul of Iteration Cronus that includes new culinary profit opportunities, a dynamic ingredients market, and expanded whalesong encounters.",
-    "version": "7.10-1.9.0",
+    "version": "7.10-1.9.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2554/2554-1666256175-999926177.png",
     "author": "alchemist1654",
-    "updated_timestamp": 1793595298,
+    "updated_timestamp": 1793675853,
     "created_timestamp": 1666325929,
     "description": "[size=5]Cooking With Cronus[/size]\n<br />\n<br />An interaction overhaul of Iteration Cronus that includes new culinary profit opportunities, a dynamic ingredients market, and expanded whalesong encounters.\n<br />\n<br />[color=#ffe599][size=4]FEATURES[/size][/color]\n<br />\n<br />[b][color=#b6d7a8]Appetizer[/color][/b]\n<br />\n<br />[list]\n<br />[*][b]Memory [/b][b]Synchronization[/b] ~ During your first encounter with Cronus after installing this mod, they will ask you a few questions to synchronize your mission progress and acquisitions from this mod. This ensures any investment by the player in this mod's mechanics can be restored after an update.[/*]\n<br />[*][b]Collected Knowledge[/b] ~ As the Traveler progresses through the unique interactions and dialogue presented in this mod's narrative, a [i]Journey Record[/i] will unlock in the [i]Collected Knowledge[/i] section of the player's [i]Catalogue[/i].[/*]\n<br />[/list]\n<br />[b][color=#b6d7a8]Main Course[/color][/b]\n<br />\n<br />[list]\n<br />[*][b]Profit Opportunities[/b] ~ Cronus is willing to pay a premium for some of their [b][color=#f1c232]favorite dishes[/color][/b], but what they are in the mood for changes daily. Items can be exchanged in bulk and always yield a consistent value in nanites.[/*]\n<br />[*][b]Dynamic Economy[/b]  ~ Through the [color=#6aa84f][b]Ingredients Market[/b][/color], Cronus allows Travelers to sell their excess farm and harvest products at a consistent market value in nanites. Supply and demand change daily, but Cronus can be bribed to change what the Traveler can sell on that day.[/*]\n<br />[*][b]Whalesong Encounters[/b] ~ Cronus can help Travelers locate Living Frigates by cooking an [b][color=#1e84cc]Offering of a Forgotten Song[/color][/b], a special dessert that attracts the attention of nearby cosmic megafauna. A short story mission will accompany your first offering.[/*]\n<br />[/list]\n<br />[b][color=#b6d7a8]Dessert[/color][/b]\n<br />\n<br />[list]\n<br />[*][b]Streamlined Critiques[/b] ~ Cronus is still willing to pass judgement on the Traveler's culinary skills. The dialogue will now remain open after each dish is presented.[/*]\n<br />[/list]\n<br />[color=#ffe599][size=4]TODAY'S FAVORITE[/size][/color]\n<br />\n<br />Cronus will select a high-tier food product each day for exchange as their [color=#f1c232][b]Daily Favorite[/b][/color], and will pay a premium plus a randomized bonus of up to 25%. The guaranteed exchange value for each dish is equal to or slightly above maximum critique value; Cronus will give you exact pricing during the exchange. Furthermore, exchanges can be made in bulk.\n<br />\n<br />[spoiler]\n<br />[list]\n<br />[*][b]The Stellarator [/b]~[i] ([/i][i]Lumpen Doughnut + Stellar Custard)[/i][/*]\n<br />[*][b]Fungal Omelette*[/b] ~ [i](Eggs + Cheese + Foraged Mushrooms)[/i][/*]\n<br />[*][b]Chocolate Curiosity[/b] ~ [i](Proto-Batter + Bittersweet Cocoa)[/i][/*]\n<br />[*][b]The Spawning Tart [/b]~ [i](Pie Case + Monstrous Custard)[/i][/*]\n<br />[*][b]Cake of Burning Dread*[/b] ~ [i](Wailing Batter + Ever-burning Jam + Cream)[/i][/*]\n<br />[/list]\n<br />[i][b]* Note:[/b] Some of these products have alternate recipes, but this should get you started. Please consult your friendly wiki.[/i][/spoiler]\n<br />[color=#ffe599][size=4]INGREDIENTS MARKET[/size][/color]\n<br />\n<br />The [b][color=#6aa84f]Ingredients Market[/color][/b] allows the Traveler to buy and sell creature products, meat, and biome food items. One product from each category will be available to buy and sell at any given time, with supply and demand changing daily. Furthermore, one of those opportunities will be either in [b]high demand[/b] to sell at a premium value or [b]on sale[/b] for purchase at a discount. All transactions are in Nanites.\n<br />\n<br />[list]\n<br />[*]Cronus can be bribed to change what the Traveler can sell at the market, but not what can be purchased from the market. Manipulating the market will remove any [b]high demand[/b] sell opportunities, even if the categories were different.[/*]\n<br />[*]The Traveler can sell an unlimited quantity to the market per day, but daily purchases are limited. Cronus will indicate the day's initial stock when purchasing from them.[/*]\n<br />[*][u]Purchases[/u] from the market are modified by your save's [b][i]Crafting and Item Settings &gt; Purchases[/i][/b] difficulty setting. This overhaul is balanced for [b]Standard[/b] or [b]Difficult[/b]. While the other settings in this category should work, they will not be supported or tested. [/*]\n<br />[*][u]Sales[/u] made to the market are not effected by custom difficulties.[/*]\n<br />[/list]\n<br />[color=#ffe599][size=4]WHALESONG[/size][/color]\n<br />\n<br />Upon completion of the Dream Aerial mission, Cronus will offer to cook a food item known as an [b][color=#1e84cc]Offering of a Forgotten Song[/color][/b], a special dessert that attracts the attention of nearby cosmic megafauna. It works like an [i]Abandoned Freighter[/i] locator: while in your ship, activate it in your inventory and then enter pulse. A few seconds later an encounter with a Living Frigate is guaranteed\n<br />\n<br />[list]\n<br />[*]The first offering Cronus creates is free and will begin a short story mission. Upon completing the mission more offerings can be purchased with nanites.[/*]\n<br />[*]When asked to join the fleet, the Living Frigate will inquire as to it's initial stat bonus. Furthermore, the Traveler will not be charged for its adoption. As with all Living Frigates, they can be offered food products from your Fleet Management screen for subsequent customization.[/*]\n<br />[*]As an alternative to asking the Frigate to join the fleet the Traveler could instead ask for fleet upgrades, the location of a Living Ship, or Living Ship upgrades.[/*]\n<br />[/list]\n<br />[b][color=#b6d7a8]Obtaining the Recipe[/color][/b]\n<br />\n<br />Cronus can also teach the recipe for an [b][color=#1e84cc]Offering of a Forgotten Song[/color][/b] for a donation of nanites. It must be crafted as product through the inventory screen, but it's ingredients are normal food products that will need to be prepared in a [i]Nutrient Processor[/i]. \n<br />\n<br />[spoiler]\n<br />[list]\n<br />[*][b]1 x Writhing, Roiling Batter[/b] ~ [i]((Eggs + Sugar) + Flour + Larval Core)[/i][/*]\n<br />[*][b]1 x Monstrous Custard[/b] ~ [i](Cream + Sugar + Larval Core)[/i][/*]\n<br />[*][b]1 x Anomalous Jam[/b] ~ [i](Sugar + Hexaberry)[/i][/*]\n<br />[/list][/spoiler]\n<br />[color=#ffe599][size=4]GETTING STARTED[/size][/color]\n<br />\n<br />[b][color=#b6d7a8]Installation[/color][/b]\n<br />\n<br />Cooking with Cronus is provided as either pre-built *.pak files or as *.lua scripts for [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url]. Please compare the files listed below to your existing mods. If you have any conflicts, you must use AMUMSS to create a combined build for conflict resolution.\n<br />\n<br />[list]\n<br />[*][b]PAK ~[/b] Place both *.pak files in [u]&lt;No Man's Sky&gt;&#92;GAMEDATA&#92;PCBANKS&#92;MODS[/u] and delete [u]&lt;No Man's Sky&gt;&#92;GAMEDATA&#92;PCBANKS&#92;DISABLEMODS.txt[/u].[/*]\n<br />[*][b]AMUMSS ~[/b] Place both *.lua files in your [u]ModScript[/u] folder, along with the .lua for any conflicting mods, and then execute [u]BUILDMOD.bat[/u] for perfect conflict resolution. Additional information is available at the [url=https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide]AMUMSS Guide[/url]﻿.[/*]\n<br />[/list]\n<br />[b][color=#b6d7a8]Conflict Files[/color][/b]\n<br />\n<br />[list]\n<br />[*]METADATA/GAMESTATE/MESSAGES/STATUSMESSAGEDEFINITIONS.MBIN[/*]\n<br />[*]METADATA/GAMESTATE/STATS/STATDEFINITIONSTABLE.MBIN[/*]\n<br />[*]METADATA/GAMESTATE/STATS/STATGROUPSTABLE.MBIN[/*]\n<br />[*]METADATA/REALITY/TABLES/CONSUMABLEITEMTABLE.MBIN[/*]\n<br />[*]METADATA/REALITY/TABLES/NMS_DIALOG_GCALIENPUZZLETABLE.MBIN[/*]\n<br />[*]METADATA/REALITY/TABLES/NMS_REALITY_GCPRODUCTTABLE.MBIN[/*]\n<br />[*]METADATA/REALITY/TABLES/REWARDTABLE.MBIN[/*]\n<br />[*]METADATA/REALITY/TABLES/STORIESTABLE.MBIN[/*]\n<br />[*]METADATA/SIMULATION/MISSIONS/COREMISSIONTABLE.MBIN[/*]\n<br />[*]METADATA/SIMULATION/MISSIONS/ENABLINGCONDITIONSTABLE.MBIN[/*]\n<br />[*]METADATA/SIMULATION/MISSIONS/MISSIONSCHEDULESTABLE.MBIN[/*]\n<br />[*]METADATA/SIMULATION/MISSIONS/RECURRINGMISSIONTABLE.MBIN[/*]\n<br />[*]METADATA/SIMULATION/MISSIONS/SPACEPOIMISSIONTABLE.MBIN[/*]\n<br />[*]METADATA/SIMULATION/SCENE/EXPERIENCESPAWNTABLE.MBIN[/*]\n<br />[*]GCDEBUGOPTIONS.GLOBAL.MBIN[/*]\n<br />[/list]\n<br />[b][color=#b6d7a8]Translation Support[/color][/b]\n<br />\n<br />The new language entries used by this mod are provided separately from the mods core functionality to make it easy for community supported translations. The only technical skills required are a basic understanding of Lua and the ability to build AMUMSS script-based mods.\n<br />\n<br />[i]To create a translation:\n<br />[/i]\n<br />[list]\n<br />[*]Ensure you have a functioning installation of [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url].[/*]\n<br />[*]Download this mod's [i]AMUMSS Source[/i] from the download section[/*]\n<br />[*]Create a copy of the language .lua file, renaming accordingly[/*]\n<br />[*]Follow the in-file instructions for setup, then translate each language entry[/*]\n<br />[*]Build and test, then publish to the Nexus. When creating a Nexus page, be sure to flag it as a translation.[/*]\n<br />[/list]\n<br />Please only publish the language [i].lua[/i] and [i].pak[/i], send your users to this Nexus page for the core functionality. When I update the mod, I’ll publish a list of changed language keys, but you will be responsible for keeping your translation up to date.\n<br />\n<br />[color=#ffe599][size=4]THANKS[/size][/color]\n<br />\n<br />[list]\n<br />[*]Hello Games for galaxies, stars, and all the worlds and life within.[/*]\n<br />[*]monkeyman192, WinderTP, and team for MBinCompiler so we can see behind the curtain.[/*]\n<br />[*]Mjjstral, Wbertro, and team for AMUMSS, making it easier to tug on the threads.[/*]\n<br />[/list]",
     "state": "normal",
@@ -444336,9 +444336,9 @@
         "file_id": 50328,
         "name": "Cooking With Cronus",
         "version": "7.10-1.9.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 173,
         "file_name": "Cooking With Cronus 2554 7.10-1.9.0 2026-11-02T04-54Z 9Lg6VZ15h.zip",
         "detected_file_extension": "zip",
@@ -444351,6 +444351,31 @@
         "size_in_bytes": 177883,
         "changelog_html": "Rebuilt for 7.10 (Forsaken)\nA new category of daily specials has been added. \"Certified Forsaken\" features 8 horror themed dishes purchased at 2x rate with Quicksilver bonus.\n\"From the Sea\" specials have moved to the second page of \"Events &amp; Specials\".\nThe daily menu rotation has been regenerated.\nFixed a typo in the \"Syrupy Viscera\" description.\n(Build) Events keep their language entries when disabled, so events and bonuses can be turned on and off without changes for translators.\n(Build) Daily menu chat messages now use language keys tied to their text. A changed message now shows untranslated instead of with an outdated translation.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/d3/d0/f0/d3d0f0e9-219c-4769-a56a-bf6efec5e43c"
+      },
+      {
+        "id": [
+          50365,
+          1634
+        ],
+        "uid": 7017976612029,
+        "file_id": 50365,
+        "name": "Cooking With Cronus",
+        "version": "7.10-1.9.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 173,
+        "file_name": "Cooking With Cronus 2554 7.10-1.9.1 2026-11-03T03-17Z Z3ytCvN72.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793675852,
+        "uploaded_time": "2026-11-03T03:17:32.000+00:00",
+        "mod_version": "7.10-1.9.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f2ebd9078b8748cf96ca9ce706dcfe816454cb78526af620d2bf425a12c0d9b0",
+        "description": "Mod as EXML + English for all client languages.",
+        "size_kb": 173,
+        "size_in_bytes": 177552,
+        "changelog_html": "Renamed the \"Certified Forsaken\" specials to \"Eldritch Confections\" to better describe the dishes they feature. Thanks to RedAlertRU for the feedback.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c3/8f/3f/c38f3f40-d3ba-46c7-bd88-f38c5038ea5f"
       }
     ],
     "changelogs": {
@@ -444488,6 +444513,9 @@
         "Fixed a typo in the \"Syrupy Viscera\" description.",
         "(Build) Events keep their language entries when disabled, so events and bonuses can be turned on and off without changes for translators.",
         "(Build) Daily menu chat messages now use language keys tied to their text. A changed message now shows untranslated instead of with an outdated translation."
+      ],
+      "7.10-1.9.1": [
+        "Renamed the \"Certified Forsaken\" specials to \"Eldritch Confections\" to better describe the dishes they feature. Thanks to RedAlertRU for the feedback."
       ]
     }
   },
@@ -679579,7 +679607,7 @@
     "author": "Jank7s",
     "updated_timestamp": 1793656660,
     "created_timestamp": 1789712911,
-    "description": "[center][color=#3c78d8][size=6][b]What does it do?[/b][/size][/color][/center]\n<br />[center]This mod aims to improve the experience of using landing bays.[/center]\n<br />[center][line]\n<br />[table][tr][td][list]\n<br />[*][b][color=#6d9eeb]Disables the Auto Opening:[/color] [/b]This mod removes the on-landing Auto-Open behavior by intercepting the game engine, then rebuilds the bay opening and closing logic.[/*]\n<br />[*][b][color=#6d9eeb]Independent Ramp Controls:[/color][/b] The controls of one bay control only that bay, independent of all others.[/*]\n<br />[*][b][color=#6d9eeb]Reposition the Default Bay Controls:[/color][/b] Moves the landing bay controls from the default position, which has them floating in space depending on which style of habitat they're attached to.[/*]\n<br />[/list][/td]\n<br />[td][left][list]\n<br />[*][b][color=#6d9eeb]Restores the Landing Bay Light:[/color][/b] Rewires the broken logic of the old warning light that used to flash when the landing bay opened.[/*]\n<br />[*][b][color=#fff2cc][i]Optional[/i] -[/color][color=#6d9eeb] Cockpit Bay Controls:[/color][/b] Adds the Beam Down and Operate Hatch controls to each cockpit variant. The cockpit Operate Hatch switch toggles with the last Landing Bay switch used. [/*]\n<br />[*][b][color=#fff2cc][i]Optional[/i] -[/color][color=#6d9eeb] Auto Closing: [/color][/b]Option that allows you to keep the Auto-Close of Landing Bays on Take Of [/*]\n<br />[/list][/left]\n<br />[/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[/center]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658012-2057757889.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658030-1355944049.png[/img][/td]\n<br />[/tr]\n<br />[/table][center][line]\n<br />[color=#3c78d8][size=6][font=Verdana][b]Quirks[/b][/font][/size][/color][/center]\n<br />[table][tr][td][b][color=#6d9eeb]Beam Aboard Destination:[/color] [/b]The way the destination is picked for the Beam Aboard function is by build order. The first, or oldest, part with a destination built will be the destination. Build the cockpit first and you will Beam Aboard directly to your cockpit.\n<br />\n<br />[b][color=#6d9eeb]Multiplayer Behavior:[/color] [/b]The mod only effect your version of the game so this means that you will see your bays closed and others without the mod will see it's behavior as vanilla with auto open and everything.\n<br />\n<br />[b][color=#6d9eeb]Half Open Bays:[/color] [/b]The half-opening behavior was lost when the engine-driven state logic was disabled. The in-flight opening behavior is now a fully open bay. [/td]\n<br />[td][list]\n<br />[*][b][color=#6d9eeb]Door State Cache:[/color][/b] Sometimes after installing and moving mods around, the door states get mixed up, with a non-mod state stuck in the game's door cache. If this happens, try:[/*]\n<br />[*]Close all the bay doors, make a restore point and an auto-save, then restart the game, this usually solves it.[/*]\n<br />[*]If it's particularly persistent you can do a complete reinstall. Delete the mod from your GAMEDATA&#92;MODS folder, empty your recycle bin, then install the current version. [/*]\n<br />[/list][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658211-1951210380.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658225-1593167567.png[/img][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[color=#3c78d8][size=5][font=Verdana][b]Why I made it[/b][/font][/size][/color]\n<br />I wanted a more polished and realistic role-play feel to the landing bays. This mod makes you do a bit more of the basic actions of leaving and entering your spacecraft. It adds to the immersion of exploring space and new worlds while giving you a little more control over your ship.\n<br />[line]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658863-1780944903.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658873-1535750395.png[/img][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[color=#3c78d8][size=5][b]Installation[/b][/size][/color]\n<br />[b]Extract the zip file and place the folder[/b]\n<br />[code]Jank7.Ultimate_Landing_Bays_****[/code][b]into[/b]\n<br />[code]~&#92;No Man's Sky&#92;GAMEDATA&#92;MODS[/code][line]\n<br />\n<br />[color=#3c78d8][size=5][b]Contents[/b][/size][/color]\n<br />\n<br />[b]Added (new files, whole MBINs):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_RELAYOPEN.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_RELAYCLOSE.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_COCKPITSWITCH.ENTITY.MBIN[/code][b]Edited vanilla scenes (whole MBINs, replace the vanilla file):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_A.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_B.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_C_INT.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_D.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_E.SCENE.MBIN[/code][b]Edited vanilla entities (EXML patches, merge with other mods):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;BIGGS&#92;ENTITIES&#92;BIGGS.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A&#92;ENTITIES&#92;RAMPDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;RAMPDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C&#92;ENTITIES&#92;LIFTDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;AIRLOCK_NESW_B_RAMPCONTROLS.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;RAMPCONTROL&#92;ENTITIES&#92;QDRCONTROLS.ENTITY.EXML[/code][b][color=#6d9eeb][size=3]To avoid overwrites:[/size][/color][/b] All Lua scripts are included so you can merge these mod/s with others that edit the same files using [url=https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide]AMUMSS[/url].\n<br />[line]\n<br />\n<br />[color=#3c78d8][size=5][b]Disclaimer[/b][/size][/color]\n<br />I use AI tools in the process of creating my mods.\n<br />\n<br />",
+    "description": "[center][color=#3c78d8][size=6][b]What does it do?[/b][/size][/color][/center]\n<br />[center]This mod aims to improve the experience of using landing bays.[/center]\n<br />[center][line]\n<br />[table][tr][td][list]\n<br />[*][b][color=#6d9eeb]Disables the Auto Opening:[/color] [/b]This mod removes the on-landing Auto-Open behavior by intercepting the game engine, then rebuilds the bay opening and closing logic.[/*]\n<br />[*][b][color=#6d9eeb]Independent Ramp Controls:[/color][/b] The controls of one bay control only that bay, independent of all others.[/*]\n<br />[*][b][color=#6d9eeb]Reposition the Default Bay Controls:[/color][/b] Moves the landing bay controls from the default position, which has them floating in space depending on which style of habitat they're attached to.[/*]\n<br />[/list][/td]\n<br />[td][list]\n<br />[*][b][color=#6d9eeb]Restores the Landing Bay Light:[/color][/b] Rewires the broken logic of the old warning light that used to flash when the landing bay opened.[/*]\n<br />[*][b][color=#fff2cc][i]Optional[/i] -[/color][color=#6d9eeb] Cockpit Bay Controls:[/color][/b] Adds the Beam Down and Operate Hatch controls to each cockpit variant. The cockpit switch toggles with the last Landing Bay switch used. [/*]\n<br />[*][b][color=#fff2cc][i]Optional[/i] -[/color][color=#6d9eeb] Auto Closing: [/color][/b]Option that allows you to keep the Auto-Close of Landing Bays on Take Off[/*]\n<br />[/list][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[/center]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658012-2057757889.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658030-1355944049.png[/img][/td]\n<br />[/tr]\n<br />[/table][center][line]\n<br />[color=#3c78d8][size=6][font=Verdana][b]Quirks[/b][/font][/size][/color][/center]\n<br />[table][tr][td][list]\n<br />[*][b][color=#6d9eeb]Beam Aboard Destination:[/color] [/b]The way the destination is picked for the Beam Aboard function is by build order. The first, or oldest, part with a destination built will be the destination. Build the cockpit first and you will Beam Aboard directly to your cockpit.[/*]\n<br />[*][b][color=#6d9eeb]Multiplayer Behavior:[/color] [/b]The mod only effect your version of the game so this means that you will see your bays closed and others without the mod will see it's behavior as vanilla with auto open and everything.[/*]\n<br />[*][b][color=#6d9eeb]Half Open Bays:[/color] [/b]The half-opening behavior was lost when the engine-driven state logic was disabled. The in-flight opening behavior is now a fully open bay.[/*]\n<br />[/list][/td]\n<br />[td][list]\n<br />[*][b][color=#6d9eeb]Door State Cache:[/color][/b] Sometimes after installing and moving mods around, the door states get mixed up, with a non-mod state stuck in the game's door cache. If this happens, try:[/*]\n<br />[*]Close all the bay doors, make a restore point and an auto-save, then restart the game, this usually solves it.[/*]\n<br />[*]If it's particularly persistent you can do a complete reinstall. Delete the mod from your GAMEDATA&#92;MODS folder, empty your recycle bin, then install the current version. [/*]\n<br />[/list][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658211-1951210380.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658225-1593167567.png[/img][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[color=#3c78d8][size=5][font=Verdana][b]Why I made it[/b][/font][/size][/color]\n<br />I wanted a more polished and realistic role-play feel to the landing bays. This mod makes you do a bit more of the basic actions of leaving and entering your spacecraft. It adds to the immersion of exploring space and new worlds while giving you a little more control over your ship.\n<br />[line]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658863-1780944903.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658873-1535750395.png[/img][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[color=#3c78d8][size=5][b]Installation[/b][/size][/color]\n<br />[b]Extract the zip file and place the folder[/b]\n<br />[code]Jank7.Ultimate_Landing_Bays_****[/code][b]into[/b]\n<br />[code]~&#92;No Man's Sky&#92;GAMEDATA&#92;MODS[/code][line]\n<br />\n<br />[color=#3c78d8][size=5][b]Contents[/b][/size][/color]\n<br />\n<br />[b]Added (new files, whole MBINs):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_RELAYOPEN.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_RELAYCLOSE.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_COCKPITSWITCH.ENTITY.MBIN[/code][b]Edited vanilla scenes (whole MBINs, replace the vanilla file):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_A.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_B.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_C_INT.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_D.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_E.SCENE.MBIN[/code][b]Edited vanilla entities (EXML patches, merge with other mods):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;BIGGS&#92;ENTITIES&#92;BIGGS.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A&#92;ENTITIES&#92;RAMPDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;RAMPDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C&#92;ENTITIES&#92;LIFTDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;AIRLOCK_NESW_B_RAMPCONTROLS.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;RAMPCONTROL&#92;ENTITIES&#92;QDRCONTROLS.ENTITY.EXML[/code][b][color=#6d9eeb][size=3]To avoid overwrites:[/size][/color][/b] All Lua scripts are included so you can merge these mod/s with others that edit the same files using [url=https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide]AMUMSS[/url].\n<br />[line]\n<br />\n<br />[color=#3c78d8][size=5][b]Disclaimer[/b][/size][/color]\n<br />I use AI tools in the process of creating my mods.\n<br />\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -694826,10 +694854,10 @@
     "mod_id": 4622,
     "name": "Nubilus (cloud overhaul)",
     "summary": "Overhauls the Clouds both on-ground and in-space.",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4622/4622-1791179457-2012069261.png",
     "author": "Somnati",
-    "updated_timestamp": 1793234121,
+    "updated_timestamp": 1793672815,
     "created_timestamp": 1791197253,
     "description": "[size=4][b]Expect updates as i am always fixing/improving stuff...or atleast trying to...\n<br />\n<br />Description\n<br />[/b][/size]CLOUDS NOW MATCH THE SPACE CLOUDS.\n<br />fly to a spot with no clouds...guess what...no clouds...\n<br />fly to a spot thats dense with clouds...heavy overcast!!!\n<br />\n<br />[color=#D4D4D8]Nubilus replaces No Man's Sky's clouds with real volumetric clouds that match from orbit to the ground. The cloud pattern you see from space is the same one you fly through, lit and fogged to match the sky around it, day and night.[/color]\n<br />\n<br />expect future updates/improvements. im always trying to fix little things that bug me when i play. Report any issues you have to me and i'll investigate.\n<br />\n<br />// KNOWN ISSUES\n<br />regarding v1.2 that just dropped...\n<br />as i play i still notice subtle things that bug me so this mod still has a way to go.\n<br />gas giants still need tweaking as well as moons but overall they work \"fine\".\n<br />\n<br />eclipses will hopefully come eventually but i pulled them cause they could be better.\n<br />stay tuned...\n<br />\n<br />[size=4][b]Installation instructions\n<br />[/b][/size]\n<br />// Why is Lunatus required:\n<br />[list]\n<br />[*][b]It's built as a pair:[/b] Nubilus was cut against Lunatus 1.5's exact build, and the clouds were tuned against Lunatus' fog and sky. The cloud colours, night look and planet transitions all assume Lunatus' haze.[/*]\n<br />[*][b]Some cloud behaviour lives in Lunatus' files:[/b] the far-world cloud hand-over, the climb-out transition, and the horizon band hugging the clouds from orbit.[/*]\n<br />[*][b]It's never been tested without Lunatus:[/b] it might run, but the clouds would sit in vanilla fog they weren't designed for.[/*]\n<br />[/list]\n<br />[list=1]\n<br />[*][color=#D4D4D8]Install Lunatus first (required).[/color][/*]\n<br />[*][color=#D4D4D8]Extract the zip.[/color][/*]\n<br />[*][color=#D4D4D8]Drop the Nubilus folder into ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).[/color][/*]\n<br />[*][color=#D4D4D8]Restart the game. Works with new and existing saves.[/color][/*]\n<br />[/list][color=#D4D4D8]To uninstall, delete the Nubilus folder.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]One cloud pattern per planet: what you see from orbit is what you fly into, with a smooth fade from space down to the in-air clouds.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds take Lunatus' fog and sky colours, so they sit in the atmosphere instead of floating on top of it.[/color][/*]\n<br />[*][color=#D4D4D8]Shared day/night lighting from orbit and in the air: lit until sunset, a short warm afterglow, then dark night silhouettes.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds stay solid in front of moons and distant planets.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds cast shadows on the ground, and lakes and oceans reflect them.[/color][/*]\n<br />[/list]\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04.[/color][/*]\n<br />[*][color=#D4D4D8]Lunatus (required: Nubilus reads Lunatus' fog and sky).[/color][/*]\n<br />[*][color=#D4D4D8]Conflicts with other mods that replace the cloud shaders.[/color]\n<br />Conflicts with other mods that change the SDR tone mapping. [/*]\n<br />[/list]\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]Hello Games, for the game's cloud and atmosphere systems this builds on.[/color][/*]\n<br />[*][color=#D4D4D8]monkeyman192 and contributors, for MBINCompiler and HGPAKtool.\n<br />- Claude AI[/color][/*]\n<br />[/list]",
     "state": "normal",
@@ -695044,9 +695072,9 @@
         "file_id": 50172,
         "name": "Nubilus 1.2.4 NMS7.10",
         "version": "1.2.4",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 30272,
         "file_name": "Nubilus 1.2.4 NMS7.10 4622 1.2.4 2026-10-29T00-35Z 4tDiNufrY.zip",
         "detected_file_extension": "zip",
@@ -695059,6 +695087,31 @@
         "size_in_bytes": 30999501,
         "changelog_html": "VR fix from a player report: clouds were pitch black in VR since 1.2.1. A 1.2.1 night-cloud fix read a buffer the game's VR renderer never fills; VR now uses the game's own final cloud step again, as in 1.2. Desktop is unchanged. 1 file removed - delete the old Nubilus folder before installing (copying over it keeps the old file). Still needs Lunatus 1.7.1 or newer.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/09/08/67/090867a2-0cfe-46cc-b57a-045a3e42c2ae"
+      },
+      {
+        "id": [
+          50363,
+          1634
+        ],
+        "uid": 7017976612027,
+        "file_id": 50363,
+        "name": "Nubilus 1.2.5 NMS7.10",
+        "version": "1.2.5",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 30273,
+        "file_name": "Nubilus 1.2.5 NMS7.10 4622 1.2.5 2026-11-03T02-26Z XnaJySDTN.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793672815,
+        "uploaded_time": "2026-11-03T02:26:55.000+00:00",
+        "mod_version": "1.2.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1b130780e76ce99010134f5e128f4ae3fa0327c20cd50fef5a88c7e8fc5bc077",
+        "description": null,
+        "size_kb": 30273,
+        "size_in_bytes": 30999751,
+        "changelog_html": "Fix from a player report: a distant planet sitting on a sea horizon showed a block of clouds painted onto the water below the horizon. The clouds took the part of the planet hidden behind the ocean for open sky; the sea now hides it. 1 file changed (the pipeline), copying over 1.2.4 is fine. Still needs Lunatus 1.7.1 or newer.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e1/0c/cd/e10ccd48-f123-4ecc-90f8-9df096e49b17"
       }
     ],
     "changelogs": {
@@ -695096,6 +695149,9 @@
       ],
       "1.2.4": [
         "VR fix from a player report: clouds were pitch black in VR since 1.2.1. A 1.2.1 night-cloud fix read a buffer the game's VR renderer never fills; VR now uses the game's own final cloud step again, as in 1.2. Desktop is unchanged. 1 file removed - delete the old Nubilus folder before installing (copying over it keeps the old file). Still needs Lunatus 1.7.1 or newer."
+      ],
+      "1.2.5": [
+        "Fix from a player report: a distant planet sitting on a sea horizon showed a block of clouds painted onto the water below the horizon. The clouds took the part of the planet hidden behind the ocean for open sky; the sea now hides it. 1 file changed (the pipeline), copying over 1.2.4 is fine. Still needs Lunatus 1.7.1 or newer."
       ]
     }
   },
@@ -704670,12 +704726,12 @@
     "mod_id": 4745,
     "name": "Recharge Priority",
     "summary": "Recharge from your Ion Batteries and Life Support Gel, not your oxygen.",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4745/4745-1793306658-488324387.jpg",
     "author": "SavageCore",
-    "updated_timestamp": 1793369981,
+    "updated_timestamp": 1793669388,
     "created_timestamp": 1793307364,
-    "description": "[center][size=5][b]Recharge Priority[/b][/size]\n<br />Recharge from your Ion Batteries and Life Support Gel, not your oxygen.[/center]\n<br />\n<br />Requested by [b][url=https://www.nexusmods.com/profile/TrueWhiteKnight]TrueWhiteKnight[/url][/b]\n<br />\n<br />[b]What it does[/b]\n<br />The quick menu spends the first recharge fuel it can find in a technology's fuel list. The vanilla lists start with the raw substance, so a Life Support recharge reaches for Oxygen and a Hazard Protection recharge reaches for Sodium.\n<br />This mod rewrites those lists so the crafted consumable comes first: Ion Batteries for hazard protection and the four environmental shields, Life Support Gel for life support and the underwater shield. The Terrain Manipulator ships no fuel list at all, so its option writes one: Silicate Powder first, the three ferrites behind it.\n<br />\n<br />[b]Recharge order[/b]\n<br />[list]\n<br />[*][b]Life Support[/b]: Life Support Gel, Oxygen, Dioxite[/*]\n<br />[*][b]Hazard Protection[/b]: Ion Battery, Sodium, Sodium Nitrate[/*]\n<br />[*][b]Thermal shield[/b]: Ion Battery, Phosphorus[/*]\n<br />[*][b]Cold shield[/b]: Ion Battery, Dioxite[/*]\n<br />[*][b]Radiation shield[/b]: Ion Battery, Uranium[/*]\n<br />[*][b]Toxic shield[/b]: Ion Battery, Ammonia[/*]\n<br />[*][b]Underwater shield[/b]: Life Support Gel, Oxygen[/*]\n<br />[*][b]Terrain Manipulator[/b]: Silicate Powder, Ferrite Dust, Pure Ferrite, Magnetised Ferrite[/*]\n<br />[/list]\n<br />[b]Install[/b]\n<br />Import the zip with Amethyst or Vortex and pick suit and Terrain Manipulator, suit only, or Terrain Manipulator only.\n<br />\n<br />[b]Compatibility[/b]\n<br />[list]\n<br />[*]Built for Forsaken[/*]\n<br />[*]Edits the recharge fuel lists in [i]METADATA/REALITY/TABLES/NMS_REALITY_GCTECHNOLOGYTABLE.MBIN[/i] as EXML line replacements, so it works alongside mods that change other lines of that table[/*]\n<br />[*]Conflicts with any other mod that rewrites these same eight fuel lists[/*]\n<br />[*][b].lua [/b]scripts included so you can merge with AMUMSS[/*]\n<br />[/list]\n<br />Built natively on Linux with my [url=https://github.com/SavageCore/AMUMSS/tree/feat/linux-support]AMUMSS Linux port[/url].\n<br />\n<br />Source: [url=https://github.com/SavageCore/recharge-priority]https://github.com/SavageCore/recharge-priority[/url]",
+    "description": "[center][size=5][b]Recharge Priority[/b][/size]\n<br />Recharge from your Ion Batteries and Life Support Gel, not your oxygen.[/center]\n<br />\n<br />Requested by [b][url=https://www.nexusmods.com/profile/TrueWhiteKnight]TrueWhiteKnight[/url][/b]\n<br />\n<br />[b]What it does[/b]\n<br />The quick menu spends the first recharge fuel it can find in a technology's fuel list. The vanilla lists start with the raw substance, so a Life Support recharge reaches for Oxygen and a Hazard Protection recharge reaches for Sodium.\n<br />This mod rewrites those lists so the crafted consumable comes first: Ion Batteries for hazard protection and the four environmental shields, Life Support Gel for life support and the underwater shield. The Terrain Manipulator and the Gravitino Coil ship no fuel list at all, so their option writes one each: Silicate Powder first, the three ferrites behind it.\n<br />\n<br />[b]Recharge order[/b]\n<br />[list]\n<br />[*][b]Life Support[/b]: Life Support Gel, Oxygen, Dioxite[/*]\n<br />[*][b]Hazard Protection[/b]: Ion Battery, Sodium, Sodium Nitrate[/*]\n<br />[*][b]Thermal shield[/b]: Ion Battery, Phosphorus[/*]\n<br />[*][b]Cold shield[/b]: Ion Battery, Dioxite[/*]\n<br />[*][b]Radiation shield[/b]: Ion Battery, Uranium[/*]\n<br />[*][b]Toxic shield[/b]: Ion Battery, Ammonia[/*]\n<br />[*][b]Underwater shield[/b]: Life Support Gel, Oxygen[/*]\n<br />[*][b]Terrain Manipulator[/b]: Silicate Powder, Ferrite Dust, Pure Ferrite, Magnetised Ferrite[/*]\n<br />[*][b]Gravitino Coil[/b]: Silicate Powder, Ferrite Dust, Pure Ferrite, Magnetised Ferrite[/*]\n<br />[/list]\n<br />[b]Install[/b]\n<br />Import the zip with Amethyst or Vortex and pick Full, suit only, or Terrain Manipulator and Gravitino Coil.\n<br />\n<br />[b]Compatibility[/b]\n<br />[list]\n<br />[*]Built for Forsaken[/*]\n<br />[*]Edits the recharge fuel lists in [i]METADATA/REALITY/TABLES/NMS_REALITY_GCTECHNOLOGYTABLE.MBIN[/i] as EXML line replacements, so it works alongside mods that change other lines of that table[/*]\n<br />[*]Conflicts with any other mod that rewrites these same nine fuel lists[/*]\n<br />[*][b].lua [/b]scripts included so you can merge with AMUMSS[/*]\n<br />[/list]\n<br />Built natively on Linux with my [url=https://github.com/SavageCore/AMUMSS/tree/feat/linux-support]AMUMSS Linux port[/url].\n<br />\n<br />Source: [url=https://github.com/SavageCore/recharge-priority]https://github.com/SavageCore/recharge-priority[/url]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -704713,9 +704769,9 @@
         "file_id": 50241,
         "name": "Recharge Priority",
         "version": "0.2.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 8,
         "file_name": "Recharge Priority 4745 0.2.0 2026-10-30T14-19Z Z3ytCvNTc.zip",
         "detected_file_extension": "zip",
@@ -704728,11 +704784,39 @@
         "size_in_bytes": 8545,
         "changelog_html": "Updated to FOMOD so people have the choice of what they want, \"Suit and Terrain Manipulator\", \"Suit only\", and \"Terrain Manipulator only\"",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e8/83/ef/e883ef49-64ac-4aa1-9be3-6aef73703b73"
+      },
+      {
+        "id": [
+          50361,
+          1634
+        ],
+        "uid": 7017976612025,
+        "file_id": 50361,
+        "name": "Recharge Priority",
+        "version": "0.3.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8,
+        "file_name": "Recharge Priority 4745 0.3.0 2026-11-03T01-29Z tScz2hUoU.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793669388,
+        "uploaded_time": "2026-11-03T01:29:48.000+00:00",
+        "mod_version": "0.3.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8e8aa5822a82cb71917fb19349165d40f2c0aa2971979f000a1e5699fc35540c",
+        "description": "",
+        "size_kb": 8,
+        "size_in_bytes": 8651,
+        "changelog_html": "Gravitino Coil silicate-first alongside the Terrain Manipulator",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ae/04/88/ae04883d-470e-432b-8d73-7a0e221897ab"
       }
     ],
     "changelogs": {
       "0.2.0": [
         "Updated to FOMOD so people have the choice of what they want, \"Suit and Terrain Manipulator\", \"Suit only\", and \"Terrain Manipulator only\""
+      ],
+      "0.3.0": [
+        "Gravitino Coil silicate-first alongside the Terrain Manipulator"
       ]
     }
   },
@@ -705301,9 +705385,9 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4759/4759-1793487689-335357415.png",
     "author": "LunaSkylana",
-    "updated_timestamp": 1793605940,
+    "updated_timestamp": 1793690043,
     "created_timestamp": 1793484041,
-    "description": "[b]The added controls work only in space.[/b] Entering a ship interior or returning to the ground disables them and clears the added tilt.\n<br />[b]Quest Touch controls[/b]\n<br />[list]\n<br />[*][b]Left grip + right stick:[/b] up/down pitches; left/right rolls.[/*]\n<br />[*][b]Without grip:[/b] right-stick left/right turns around your new up axis; up/down provides vertical movement.[/*]\n<br />[*][b]Left trigger:[/b] thrusters follow your rotated headset’s up direction.[/*]\n<br />[*][b]Left grip + right-stick click:[/b] reset upright.[/*]\n<br />[/list]Rotation defaults to [b]15[/b][b]0°/second[/b], adjustable through\n<br />[code]freeRotationSpeed[/code]in\n<br />[code]opencomposite.ini OR\n<br />zerogvr-steamvr.ini[/code]\n<br />[b]Bring your VR legs—free pitch and roll can speedrun motion sickness. Start slowly.\n<br />\n<br />Installation\n<br />[/b]\n<br />[list=1]\n<br />[*] Unpack Zip in the BInaries folder of your No Man's Sky installation, overwrite/replace files if prompted.[/*]\n<br />[/list][b]This is a VR DLL replacement, not a PAK mod. Install manually—not through a mod manager. [/b]\n<br />[b]\n<br />The added controls activate only while spacewalking. Test gently at first!\n<br />\n<br />[/b]\n<br />[b]Credits[/b]\n<br />Built on [b]J0ta4p3’s [/b][url=https://www.nexusmods.com/nomanssky/mods/4363][b]OpenComposite for No Man’s Sky VR — VDXR[/b][/url] and published source. Their compatibility work made this possible. Thanks also to the OpenComposite and MinHook contributors.\n<br />Created through user-directed development and in-game testing, with coding, debugging, writing, and artwork assistance from OpenAI’s Codex/ChatGPT.",
+    "description": "[b]The added controls work only in space.[/b] Entering a ship interior or returning to the ground disables them.\n<br />[b]Quest Touch controls[/b]\n<br />[list]\n<br />[*][b]Left grip + right stick:[/b] up/down pitches; left/right rolls.[/*]\n<br />[*][b]Without grip:[/b] right-stick left/right turns around your new up axis; up/down provides vertical movement.[/*]\n<br />[*][b]Left trigger:[/b] thrusters follow your rotated headset’s up direction.[/*]\n<br />[*][b]Left grip + right-stick click:[/b] reset upright.[/*]\n<br />[/list]Rotation defaults to [b]15[/b][b]0°/second[/b], adjustable through\n<br />[code]freeRotationSpeed[/code]in\n<br />[code]opencomposite.ini OR\n<br />zerogvr-steamvr.ini[/code]\n<br />[b]Go slowly at first, free rotation in space could speedrun motion sickness if you're prone. \n<br />\n<br />Installation\n<br />[/b]\n<br />\n<br />[list=1]\n<br />[*][b] Unpack Zip in the BInaries folder of your No Man's Sky installation, overwrite/replace files if prompted.[/b][/*]\n<br />[/list][b]This is a VR DLL replacement, not a PAK mod. Install manually—not through a mod manager. [/b]\n<br />\n<br />\n<br />\n<br />\n<br />[b]Credits[/b]\n<br />Built on [b]J0ta4p3’s [/b][url=https://www.nexusmods.com/nomanssky/mods/4363][b]OpenComposite for No Man’s Sky VR — VDXR[/b][/url] and published source. Their compatibility work made this possible. Thanks also to the OpenComposite and MinHook contributors.\n<br />Created through user-directed development and in-game testing, with coding, debugging, writing, and artwork assistance from Ecco, OpenAI’s Codex/ChatGPT. ",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -705366,9 +705450,9 @@
         "file_id": 50331,
         "name": "ZeroGVR",
         "version": "1.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 818,
         "file_name": "ZeroGVR 4759 1.1 2026-11-02T07-47Z 2B5KARZ9c.zip",
         "detected_file_extension": "zip",
@@ -705391,8 +705475,8 @@
         "file_id": 50332,
         "name": "Zero G VR SteamVR",
         "version": "1.1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 572,
         "file_name": "Zero G VR SteamVR 4759 1.1 2026-11-02T07-52Z HZO4arl3g.zip",
@@ -705406,12 +705490,66 @@
         "size_in_bytes": 586143,
         "changelog_html": "reduced rotation speed to 150 degrees per second.  You can customize this in the opencomposite.ini file\nreduced rotation speed to 150, you can edit this to your liking in zergvr-steamvr.ini",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/42/59/1d/42591d9e-a598-4072-8525-e58dcf748c58"
+      },
+      {
+        "id": [
+          50367,
+          1634
+        ],
+        "uid": 7017976612031,
+        "file_id": 50367,
+        "name": "ZeroGVR",
+        "version": "1.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 818,
+        "file_name": "ZeroGVR 4759 1.2 2026-11-03T07-11Z L5bXM3ORC.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793689906,
+        "uploaded_time": "2026-11-03T07:11:46.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8eec62f746d67f3cbd39e743e2d2e366d57f43dff153d2f76b4b318b2ff602a1",
+        "description": "use this version if you use VDXR or open composite.",
+        "size_kb": 818,
+        "size_in_bytes": 837793,
+        "changelog_html": "update for version 7.13\nupdate for patch 7.13 (Steam VR)",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/08/68/69/0868692e-a78f-4fe9-96c3-bf1725501100"
+      },
+      {
+        "id": [
+          50368,
+          1634
+        ],
+        "uid": 7017976612032,
+        "file_id": 50368,
+        "name": "Zero G VR SteamVR",
+        "version": "1.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 572,
+        "file_name": "Zero G VR SteamVR 4759 1.2 2026-11-03T07-14Z KsnM3Ttgm.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793690043,
+        "uploaded_time": "2026-11-03T07:14:03.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cb9c923465dceb696a5ae87c18dce7c3c3353c0eb4493e8f038111090614827a",
+        "description": "Steam VR version.",
+        "size_kb": 572,
+        "size_in_bytes": 586210,
+        "changelog_html": "update for version 7.13\nupdate for patch 7.13 (Steam VR)",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/fe/f8/9c/fef89ca2-eeab-47c3-b36e-edebd8dad9fa"
       }
     ],
     "changelogs": {
       "1.1": [
         "reduced rotation speed to 150 degrees per second.  You can customize this in the opencomposite.ini file",
         "reduced rotation speed to 150, you can edit this to your liking in zergvr-steamvr.ini"
+      ],
+      "1.2": [
+        "update for version 7.13",
+        "update for patch 7.13 (Steam VR)"
       ]
     }
   },
