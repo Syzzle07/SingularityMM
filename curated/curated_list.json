@@ -393069,7 +393069,7 @@
     "version": "6.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2252/2252-1793802281-664844422.jpg",
     "author": "Silent369",
-    "updated_timestamp": 1793802545,
+    "updated_timestamp": 1793831857,
     "created_timestamp": 1651139503,
     "description": "[center][size=6][b]Unified Warps v6.1[/b][/size][/center]\n<br />\n<br />[quote]Simply unifies all warps for consistency and visual appeal. It downplays the bright flashing effects by darkening the overall warping effects. There are four versions available, one with speed lines, one without and one with stars and one with stars without speed lines. Only use one!\n<br />\n<br />I have also swapped out the original LightArms material for a more subtle version which should further remove some brightness.\n<br />\n<br />** NOTE: The method by which the warps are constructed has changed slightly, so please let me know if you have any issues! Thanks :)[/quote]\n<br />[quote]The mod also now modifies the warp cameras for ships and freighters (including pirate freighter) when warping in an attempt to reposition them better during warp which should fix the reverse animation for freighter warps. Feedback is welcomed since this is a new feature and might still need tweaking.[/quote]\n<br />\n<br />[quote][b]Modifies[/b]:\n<br />[size=2][u]GCCAMERAGLOBALS.GLOBAL.MBIN\n<br />GCSIMULATIONGLOBALS.GLOBAL.MBIN\n<br />MATERIALS&#92;LIGHT_WARPTUNNEL.MATERIAL.MBIN\n<br />MODELS&#92;EFFECTS&#92;WARP&#92;WARPLARGEPORTAL&#92;LIGHTARMSREDMAT.MATERIAL.MBIN\n<br />MODELS&#92;EFFECTS&#92;WARP&#92;WARPTUNNEL&#92;ENGGLOWCAPMAT.MATERIAL.MBIN\n<br />MODELS&#92;EFFECTS&#92;WARP&#92;WARPTUNNEL&#92;LIGHTARMSMAT.MATERIAL.MBIN\n<br />MODELS&#92;EFFECTS&#92;WARP&#92;WARPTUNNEL&#92;SCROLLINGWAVES2MAT.MATERIAL.MBIN\n<br />MODELS&#92;EFFECTS&#92;WARP&#92;WARPTUNNEL&#92;TUNNELMAT1.MATERIAL.MBIN\n<br />MODELS&#92;EFFECTS&#92;WARP&#92;WARPTUNNEL&#92;WARPBGMAT.MATERIAL.MBIN\n<br />MODELS&#92;EFFECTS&#92;WARP&#92;WARPTUNNEL.SCENE.MBIN[/u][/size][/quote]\n<br />\n<br />[quote][b][size=3]Installing No Man's Sky Mods[/size][/b] (Steam).\n<br />\n<br />[b][u]Default Steam installation location:[/u][/b]\n<br />C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />\n<br />[b][u]Custom Steam installation location:[/u][/b]\n<br />E:&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />\n<br />1. Browse to the \"No Man's Sky&#92;GAMEDATA\" folder.\n<br />2. Ensure there is a folder named MODS (Uppercase!) within, if not create it!\n<br />3. Place the &lt;modname&gt; folder into the GAMEDATA&#92;MODS folder.\n<br />4. (Not necessary but can help when installing new mods).\n<br />    Optionally delete the file: GCMODSETTINGS.MXML from No Man's Sky&#92;Binaries&#92;SETTINGS\n<br />    It will be auto-regenerated with a new load order based on the mods you have)\n<br />\n<br />If done correctly the game will display a MOD Warning Page: [u]Click to continue[/u].\n<br />You should now be presented with your save games list to choose from to start playing.[/quote]\n<br />Made with [url=https://www.nexusmods.com/nomanssky/mods/957][i]AMUMSS[/i][/url]. Check my other [url=https://www.nexusmods.com/nomanssky/users/122177308?tab=user+files]MODS[/url].\n<br />Lua's included in the main download. ¯&#92;_(ツ)_/¯",
     "state": "normal",
@@ -393174,6 +393174,31 @@
         "size_in_bytes": 13507,
         "changelog_html": "Updated for 7.13\nResolved the white central disk when warping, found a simple method to deal with this.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/b6/3f/5d/b63f5ddc-75cb-4877-b5fb-471db143335a"
+      },
+      {
+        "id": [
+          50450,
+          1634
+        ],
+        "uid": 7017976612114,
+        "file_id": 50450,
+        "name": "Unified Warps Ship Only",
+        "version": "6.1",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 13,
+        "file_name": "Unified Warps Ship Only 2252 6.1 2026-11-04T22-37Z pQZbnWJ69.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793831857,
+        "uploaded_time": "2026-11-04T22:37:37.000+00:00",
+        "mod_version": "6.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/76207de418bccf9ec45999f535234c0bd26995dde877c7a2b247d9c425ce93d6",
+        "description": "By user request Unified Warps Ship Only version. All other Warps remain as game default.",
+        "size_kb": 13,
+        "size_in_bytes": 13346,
+        "changelog_html": "Updated for 7.13\nResolved the white central disk when warping, found a simple method to deal with this.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/56/fa/64/56fa64a8-7c45-44a8-a93f-a9728f382a96"
       }
     ],
     "changelogs": {
@@ -393274,7 +393299,8 @@
       ],
       "6.1": [
         "Updated for 7.13",
-        "Resolved the white central disk when warping, found a simple method to deal with this."
+        "Resolved the white central disk when warping, found a simple method to deal with this.",
+        "By user request a Ship Only warp. All other warps remain as game default."
       ]
     }
   },
@@ -694950,12 +694976,12 @@
     "mod_id": 4619,
     "name": "Outpost Corvette Landing Pad",
     "summary": "FORSAKEN-compatible - Bring the Outpost’s orbital Corvette landing platform to your own base. This mod adds a separate “Orbital Pad” entry to the base-building menu, with Corvette summoning, landing and takeoff, three integrated terminals, and customizable colors and materials. Vanilla landing pads remain unchanged.",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4619/4619-1791353538-243825552.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1793741342,
+    "updated_timestamp": 1793825415,
     "created_timestamp": 1791056639,
-    "description": "[color=#ff7700][size=5][b]Orbital Corvette Landing Pad[/b][/size][/color][size=3]\n<br />\n<br />Build the Outpost's orbital Corvette platform at your own base, on a planet or in space. Each variant adds its own base-building entry, with three integrated terminals, color and material customization, and Corvette summoning, landing and take-off. Vanilla landing pads are unchanged.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Pad variants[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3][color=#f9cb9c][b]Orbital Pad[/b][/color] — the standard platform with its three terminals.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Props)[/b][/color] — the same functional platform with an integrated decoration layout, including cargo, technical equipment and workstations.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Salvage Processor)[/b][/color] — the standard platform with the working Outpost salvage processor. Feed recovered physical salvage objects into its intake to receive the normal processing rewards in your personal inventory. The processor housing also supports color and material customization. [color=#38761d][b]Added the newly introduced Forsaken Trader, who can be called and interacted with like on the Outpost pads.[/b][/color][/size][/*]\n<br />[*][color=#f6b26b][b]Outpost Platform[/b][/color][color=#ffffff] — [/color]simple building in the looks of the landing pads without any functionalities except snapping enabled[/*]\n<br />[/list]Each variant works independently. Install one, two or all three: their separate building IDs, menu entries and resource paths allow them to coexist in the same base. \n<br />[color=#f6b26b][s]The Salvage Processor variant still uses the folder name \"OrbitalLandingPadFurnace\"; do not rename it when installing.[/s] [/color]\n<br />[color=#1e84cc]Changed the name to \"OutpostLandingPadRecycler\" with v1.2.1. Make sure to delete the old [...]Furnace before using the updated one.[/color]\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3]Three terminals: summon your Corvette, edit your Corvette, and access starship outfitting/upgrades.[/size][/*]\n<br />[*][size=3]Corvette-only landing and take-off.[/size][/*]\n<br />[*][size=3]Color and material changes for the pad and terminal housings, retained after saving and reloading.[/size][/*]\n<br />[*][size=3]Entrance, terminal and access-route lighting, with adjusted collisions.[/size][/*]\n<br />[*][size=3]Optional snapping at the main entrance, on the terminal side.[/size][/*]\n<br />[*][size=3]Suitable for planetary and orbital base builds.[/size][/*]\n<br />[*][size=3]Up to 10 pads of each type per planetary base, with construction costs set at 10 times the standard landing pad recipe.[/size][/*]\n<br />[*][size=3]Functional salvage intake, processing and rewards with the Salvage Processor variant.[/size][/*]\n<br />[/list]\n<br />[size=4][color=#ff7700][b]Installing the pads[/b][/color][/size]\n<br />\n<br />[list=1]\n<br />[*][size=3]Close No Man's Sky and extract the ZIP for each variant you want.[/size][/*]\n<br />[*][size=3]When updating, remove the previous folder for that same variant. Keep only one installed copy of each variant.[/size][/*]\n<br />[*]Copy [i]\"OrbitalLandingPad\"[/i], [i]\"OrbitalLandingPadProps\"[/i] and/or[i] \"OutpostLandingPadRecycler\"[/i] into [i]\"No Man's Sky/GAMEDATA/MODS/\"[/i].[/*]\n<br />[*][size=3]Launch the game with mod support enabled.[/size][/*]\n<br />[*][size=3]Find [b]Orbital Pad[/b], [b]Orbital Pad (Props)[/b] and/or [b]Orbital Pad (Salvage Processor)[/b] in the base-building menu.[/size][/*]\n<br />[/list][size=3]The pad packages contain their required custom resources. You do not need the standard variant installed to use Props or Salvage Processor.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Optional add-on: Teleport Return[/b][/size][/color][size=3]\n<br />\n<br />With a Corvette selected as your active ship, Teleport Return adds automatic arrival when you teleport to a base containing one of these pads. It waits for the destination's dock to load, selects the closest compatible free pad to your arrival point, and uses the game's normal Corvette summon and docking process. Allow a few seconds after arriving.\n<br />\n<br />[b][color=#f6b26b]One DLL supports all three pad variants.[/color][/b] It is separate from the pad mods: no pad files need changing, and all normal pad functions remain available without it. Without the add-on, summon your Corvette manually after teleporting.\n<br />\n<br />[b][color=#ff7700]Install once, then start normally:[/color][/b][/size]\n<br />[list=1]\n<br />[*][size=3]Close the game and stop any older Teleport Return test helpers.[/size][/*]\n<br />[*][size=3]Place the optional [i]\"winmm.dll\"[/i] in [i]\"No Man's Sky/Binaries/\"[/i], beside [i]\"NMS.exe\"[/i]. It does not belong in [i]\"GAMEDATA/MODS\"[/i].[/size][/*]\n<br />[*][size=3]If updating our earlier Teleport Return DLL, replace that file. If another mod already provides a different [i]\"winmm.dll\"[/i], do not overwrite it; the two files cannot simply occupy the same path.[/size][/*]\n<br />[*][size=3]Start the game normally through Steam. No separate helper, repeated PowerShell command or special launcher is needed.[/size][/*]\n<br />[/list][size=3]To remove the DLL-only add-on, close the game and remove our [i]\"Binaries/winmm.dll\"[/i]. The pad mods remain installed and usable. [i]\"OrbitalPadTeleport.log\"[/i] is its diagnostic log; older installer versions may also have created an installation receipt.\n<br />\n<br />[b][color=#f6b26b]Compatibility:[/color][/b] Teleport Return is for Windows PC and requires a matching game build. It checks the executable before activating; a game update may leave it inactive until a compatible DLL is provided. The original [i]\"NMS.exe\"[/i] is not modified on disk.\n<br />\n<br />[color=#f6b26b][b]Current test status:[/b][/color] The standard-pad Teleport Return implementation has been confirmed in-game. The expanded DLL supports all three IDs and has passed automated checks; live testing of that expanded build is still in progress.[/size]\n<br />\n<br />[size=4][color=#ff7700][b]Multiplayer and compatibility[/b][/color][/size][size=3]\n<br />\n<br />These pads add custom building entries instead of replacing vanilla pads. Other players need the corresponding pad variant installed to see its custom parts; uploading a base does not distribute the mod assets.\n<br />\n<br />Separate IDs and resource paths help avoid conflicts, but compatibility with every other mod or future game update is not guaranteed. Teleport Return has its own game-version and DLL compatibility requirements, as described above.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Limitations and known issues[/color][/b][/size]\n<br />\n<br />[list]\n<br />[*][size=3][b]Regular starships cannot dock on these pads.[/b] They can still be summoned through the quick menu. The outfitting terminal does not change the Corvette-only docking restriction.[/size][/*]\n<br />[*][size=3]Automatic Corvette arrival after a base teleport requires the optional Teleport Return DLL and a suitable free pad.[/size][/*]\n<br />[*][size=3]The large platform can take some time to finish loading/rendering.[/size][/*]\n<br />[*][size=3]Check clearance with very large Corvette layouts, especially around the Salvage Processor assembly; collision issues with every possible layout have not been ruled out.[/size][/*]\n<br />[/list]\n<br />[size=4][b][color=#ff7700]Credits and shout-outs[/color][/b][/size][size=3]\n<br />\n<br />- [url=https://www.nexusmods.com/profile/JJhookah]JJhookah[/url] provided the inspiration.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/2626?tab=description]AMUMSS[/url] provided the mod-editing tools.\n<br />- [url=https://www.nexusmods.com/profile/Thrawn1636262]Thrawn1636262[/url] suggested the salvage processor variant.\n<br />- Thanks also to ChatGPT-6.1 Sol for development assistance. Spare time is limited, and the help made a big difference.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Feedback and community creations[/color][/b][/size][size=3]\n<br />\n<br />Bug reports, test results and suggestions are welcome in the Posts and Bugs sections. If you have a decorated layout or an idea for another standalone variant, get in touch — we'll see what we can do. ;)\n<br />\n<br />Please check Permissions and credits before reusing files. Credit is appreciated, and please do not monetize derivatives. Updates after major game releases may take time.[/size]",
+    "description": "[color=#ff7700][size=5][b]Orbital Corvette Landing Pad[/b][/size][/color][size=3]\n<br />\n<br />Build the Outpost's orbital Corvette platform at your own base, on a planet or in space. Each variant adds its own base-building entry, with three integrated terminals, color and material customization, and Corvette summoning, landing and take-off. Vanilla landing pads are unchanged.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Pad variants[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3][color=#f9cb9c][b]Orbital Pad[/b][/color] — the standard platform with its three terminals.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Props)[/b][/color] — the same functional platform with an integrated decoration layout, including cargo, technical equipment and workstations.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Salvage Processor)[/b][/color] — the standard platform with the working Outpost salvage processor. Feed recovered physical salvage objects into its intake to receive the normal processing rewards in your personal inventory. The processor housing also supports color and material customization. [color=#38761d][b]Added the newly introduced Forsaken Trader, who can be called and interacted with like on the Outpost pads.[/b][/color][/size][/*]\n<br />[*][color=#f6b26b][b]Outpost Platform[/b][/color][color=#ffffff] — [/color]simple building in the looks of the landing pads without any functionalities except snapping enabled[/*]\n<br />[/list]Each variant works independently. Install one, two or all three: their separate building IDs, menu entries and resource paths allow them to coexist in the same base. \n<br />[color=#f6b26b][s]The Salvage Processor variant still uses the folder name \"OrbitalLandingPadFurnace\"; do not rename it when installing.[/s] [/color]\n<br />[color=#1e84cc]Changed the name to \"OutpostLandingPadRecycler\" with v1.2.1. Make sure to delete the old [...]Furnace before using the updated one.[/color]\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3]Three terminals: summon your Corvette, edit your Corvette, and access starship outfitting/upgrades.[/size][/*]\n<br />[*][size=3]Corvette-only landing and take-off.[/size][/*]\n<br />[*][size=3]Color and material changes for the pad and terminal housings, retained after saving and reloading.[/size][/*]\n<br />[*][size=3]Entrance, terminal and access-route lighting, with adjusted collisions.[/size][/*]\n<br />[*][size=3]Optional snapping at the main entrance, on the terminal side.[/size][/*]\n<br />[*][size=3]Suitable for planetary and orbital base builds.[/size][/*]\n<br />[*][size=3]Up to 10 pads of each type per planetary base, with construction costs set at 10 times the standard landing pad recipe.[/size][/*]\n<br />[*][size=3]Functional salvage intake, processing and rewards with the Salvage Processor variant.[/size][/*]\n<br />[*][size=3]Workshop Cache Inventory accessible via the existing Corvette editing terminal on the Standard, Props, and Salvage Processor pads.[/size][/*]\n<br />[/list]\n<br />[size=4][color=#ff7700][b]Installing the pads[/b][/color][/size]\n<br />\n<br />[list=1]\n<br />[*][size=3]Close No Man's Sky and extract the ZIP for each variant you want.[/size][/*]\n<br />[*][size=3]When updating, remove the previous folder for that same variant. Keep only one installed copy of each variant.[/size][/*]\n<br />[*]Copy [i]\"OrbitalLandingPad\"[/i], [i]\"OrbitalLandingPadProps\"[/i] and/or[i] \"OutpostLandingPadRecycler\"[/i] into [i]\"No Man's Sky/GAMEDATA/MODS/\"[/i].[/*]\n<br />[*][size=3]Launch the game with mod support enabled.[/size][/*]\n<br />[*][size=3]Find [b]Orbital Pad[/b], [b]Orbital Pad (Props)[/b] and/or [b]Orbital Pad (Salvage Processor)[/b] in the base-building menu.[/size][/*]\n<br />[/list][size=3]The pad packages contain their required custom resources. You do not need the standard variant installed to use Props or Salvage Processor.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Optional add-on: Teleport Return[/b][/size][/color][size=3]\n<br />\n<br />With a Corvette selected as your active ship, Teleport Return adds automatic arrival when you teleport to a base containing one of these pads. It waits for the destination's dock to load, selects the closest compatible free pad to your arrival point, and uses the game's normal Corvette summon and docking process. Allow a few seconds after arriving.\n<br />\n<br />[b][color=#f6b26b]One DLL supports all three pad variants.[/color][/b] It is separate from the pad mods: no pad files need changing, and all normal pad functions remain available without it. Without the add-on, summon your Corvette manually after teleporting.\n<br />\n<br />[b][color=#ff7700]Install once, then start normally:[/color][/b][/size]\n<br />[list=1]\n<br />[*][size=3]Close the game and stop any older Teleport Return test helpers.[/size][/*]\n<br />[*][size=3]Place the optional [i]\"winmm.dll\"[/i] in [i]\"No Man's Sky/Binaries/\"[/i], beside [i]\"NMS.exe\"[/i]. It does not belong in [i]\"GAMEDATA/MODS\"[/i].[/size][/*]\n<br />[*][size=3]If updating our earlier Teleport Return DLL, replace that file. If another mod already provides a different [i]\"winmm.dll\"[/i], do not overwrite it; the two files cannot simply occupy the same path.[/size][/*]\n<br />[*][size=3]Start the game normally through Steam. No separate helper, repeated PowerShell command or special launcher is needed.[/size][/*]\n<br />[/list][size=3]To remove the DLL-only add-on, close the game and remove our [i]\"Binaries/winmm.dll\"[/i]. The pad mods remain installed and usable. [i]\"OrbitalPadTeleport.log\"[/i] is its diagnostic log; older installer versions may also have created an installation receipt.\n<br />\n<br />[b][color=#f6b26b]Compatibility:[/color][/b] Teleport Return is for Windows PC and requires a matching game build. It checks the executable before activating; a game update may leave it inactive until a compatible DLL is provided. The original [i]\"NMS.exe\"[/i] is not modified on disk.\n<br />\n<br />[color=#f6b26b][b]Current test status:[/b][/color] The standard-pad Teleport Return implementation has been confirmed in-game. The expanded DLL supports all three IDs and has passed automated checks; live testing of that expanded build is still in progress.[/size]\n<br />\n<br />[size=4][color=#ff7700][b]Multiplayer and compatibility[/b][/color][/size][size=3]\n<br />\n<br />These pads add custom building entries instead of replacing vanilla pads. Other players need the corresponding pad variant installed to see its custom parts; uploading a base does not distribute the mod assets.\n<br />\n<br />Separate IDs and resource paths help avoid conflicts, but compatibility with every other mod or future game update is not guaranteed. Teleport Return has its own game-version and DLL compatibility requirements, as described above.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Limitations and known issues[/color][/b][/size]\n<br />\n<br />[list]\n<br />[*][size=3][b]Regular starships cannot dock on these pads.[/b] They can still be summoned through the quick menu. The outfitting terminal does not change the Corvette-only docking restriction.[/size][/*]\n<br />[*][size=3]Automatic Corvette arrival after a base teleport requires the optional Teleport Return DLL and a suitable free pad.[/size][/*]\n<br />[*][size=3]The large platform can take some time to finish loading/rendering.[/size][/*]\n<br />[*][size=3]Check clearance with very large Corvette layouts, especially around the Salvage Processor assembly; collision issues with every possible layout have not been ruled out.[/size][/*]\n<br />[/list]\n<br />[size=4][b][color=#ff7700]Credits and shout-outs[/color][/b][/size][size=3]\n<br />\n<br />- [url=https://www.nexusmods.com/profile/JJhookah]JJhookah[/url] provided the inspiration.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/2626?tab=description]AMUMSS[/url] provided the mod-editing tools.\n<br />- [url=https://www.nexusmods.com/profile/Thrawn1636262]Thrawn1636262[/url] suggested the salvage processor variant.\n<br />- Thanks also to ChatGPT-6.1 Sol for development assistance. Spare time is limited, and the help made a big difference.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Feedback and community creations[/color][/b][/size][size=3]\n<br />\n<br />Bug reports, test results and suggestions are welcome in the Posts and Bugs sections. If you have a decorated layout or an idea for another standalone variant, get in touch — we'll see what we can do. ;)\n<br />\n<br />Please check Permissions and credits before reusing files. Credit is appreciated, and please do not monetize derivatives. Updates after major game releases may take time.[/size]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -695006,7 +695032,7 @@
         "description": "Version 1.1 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 347,
         "size_in_bytes": 356282,
-        "changelog_html": "Version 1.1 — Standard Pad Update:\n• Added color and material customization, with selections retained after saving and reloading.\n• Extended color and material customization to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship/Corvette outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle entrance lights, terminal lighting and access-route lights.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing starships and Corvettes from being summoned through the quick menu while a ship or Corvette was docked.\n• Regular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props):\n• Added a separate decorated pad based on a manually built layout.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.",
+        "changelog_html": "Version 1.1 — Standard Pad Update\n• Added colour and material customisation, with selections retained after saving and reloading.\n• Extended colour and material customisation to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle white entrance lights, terminal lighting and access-route lights.\n• Corrected the light position beneath the Corvette summoning terminal.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing regular starships from being summoned through the quick menu while a Corvette was docked.\nRegular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props)\n• Added a separate decorated pad based on a manually built layout containing 57 decoration objects.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.\n• Corrected the placement reference to load the Props model.\n• Corrected the orientation of the bench and left crane.\n• Retained the standard pad’s terminals, lighting, docking and customisation features.\nDecorative props currently retain their original colours and materials.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e2/61/a6/e261a671-75cc-4f7d-9e72-bfff68a1090a"
       },
       {
@@ -695031,7 +695057,7 @@
         "description": "V1.1 with props",
         "size_kb": 350,
         "size_in_bytes": 359197,
-        "changelog_html": "Version 1.1 — Standard Pad Update:\n• Added color and material customization, with selections retained after saving and reloading.\n• Extended color and material customization to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship/Corvette outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle entrance lights, terminal lighting and access-route lights.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing starships and Corvettes from being summoned through the quick menu while a ship or Corvette was docked.\n• Regular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props):\n• Added a separate decorated pad based on a manually built layout.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.",
+        "changelog_html": "Version 1.1 — Standard Pad Update\n• Added colour and material customisation, with selections retained after saving and reloading.\n• Extended colour and material customisation to the terminal housings.\n• Added an integrated Corvette editing terminal.\n• Added an integrated starship outfitting and upgrade terminal.\n• Updated terminal models and arranged all three terminals around a shared access point.\n• Added subtle white entrance lights, terminal lighting and access-route lights.\n• Corrected the light position beneath the Corvette summoning terminal.\n• Updated the build-menu icon, name and description.\n• Fixed the issue preventing regular starships from being summoned through the quick menu while a Corvette was docked.\nRegular starship docking remains unsupported.\nOptional Download — Orbital Pad (Props)\n• Added a separate decorated pad based on a manually built layout containing 57 decoration objects.\n• Added its own building ID and custom resource paths, allowing installation alongside the standard pad.\n• Corrected the placement reference to load the Props model.\n• Corrected the orientation of the bench and left crane.\n• Retained the standard pad’s terminals, lighting, docking and customisation features.\nDecorative props currently retain their original colours and materials.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/d3/f9/80/d3f980b6-cf91-4783-8802-addf9677e250"
       },
       {
@@ -695056,7 +695082,7 @@
         "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 347,
         "size_in_bytes": 356294,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e5/f7/cb/e5f7cb04-ef75-45d9-88d2-3598de249a1c"
       },
       {
@@ -695081,7 +695107,7 @@
         "description": "V1.2 with props",
         "size_kb": 350,
         "size_in_bytes": 359186,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ac/23/92/ac23923b-e5db-4453-908b-d9530fa6c116"
       },
       {
@@ -695106,7 +695132,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367110,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/22/3a/e1/223ae111-9248-45c8-8b4e-d584b5f21a62"
       },
       {
@@ -695156,7 +695182,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367156,
-        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls\nv1.2.1 - Recycler and Collision Fix\n- Fixed oversized invisible collisions above the entrance and Recycler.\n- IMPORTANT: folder renamed - make sure to delete the old \"OrbitalLandingPadFurnace\" first!",
+        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/bd/25/85/bd2585ee-45ba-4680-8232-2c9cd44235ec"
       },
       {
@@ -695181,7 +695207,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 358,
         "size_in_bytes": 367205,
-        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls\nv1.2.1 - Recycler and Collision Fix\n- Fixed oversized invisible collisions above the entrance and Recycler.\n- IMPORTANT: folder renamed - make sure to delete the old \"OrbitalLandingPadFurnace\" first!",
+        "changelog_html": "Added a third version (Orbital Pad (Salvage Processor)):\n- fully functional Salvage Processor added, know from the Outposts\n--- --- ---\nAdded an experimental version as per request for the corvettes to spawn/land on a nearby pad after teleporting to a base.\n- if you find bugs/issues, pls inform me, thanks! :)\nOnly Salvage Processor Pad:\n- edited and improved some wrong collisions\n- changed folder name: remove old \"OrbitalLandingPadFurnace\" before using the updated version pls",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/ed/3e/86ed3eb2-0f63-48f4-8912-a543a136150f"
       },
       {
@@ -695206,7 +695232,7 @@
         "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 340,
         "size_in_bytes": 348215,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/cc/25/c5/cc25c59c-9da5-4087-b196-d0b39e6c9013"
       },
       {
@@ -695231,7 +695257,7 @@
         "description": "V1.2 with props",
         "size_kb": 342,
         "size_in_bytes": 350913,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ef/72/34/ef723487-4b97-4de0-86bd-1080bd80450a"
       },
       {
@@ -695256,7 +695282,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 360,
         "size_in_bytes": 369200,
-        "changelog_html": "removed some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nremoved some newly introduced collisions with the Forsaken update\nadded the newly introduced Forsaken Trader to this version of the Landing Pad",
+        "changelog_html": "removed some newly introduced collisions with the Forsaken update\n--- SPECIAL FEATURE: added the newly introduced Forsaken Trader to the salvage processor version of the Landing Pad ---",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/1c/e4/f4/1ce4f478-2441-42e2-8747-7969f3ca0fe8"
       },
       {
@@ -695378,10 +695404,10 @@
         "uploaded_time": "2026-10-30T06:31:10.000+00:00",
         "mod_version": "1.4.1",
         "external_virus_scan_url": "https://www.virustotal.com/gui/file/65bd5003ed875331d0e18f870c4de82c7dad9960ecd12cf519b5e81e2aa05536",
-        "description": "",
+        "description": "Pad as building / platform",
         "size_kb": 4705,
         "size_in_bytes": 4818196,
-        "changelog_html": null,
+        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/93/05/b3/9305b31b-ae06-4d34-8ed5-8ed315ab2272"
       },
       {
@@ -695393,9 +695419,9 @@
         "file_id": 50233,
         "name": "OrbitalLandingPad",
         "version": "1.4.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 348,
         "file_name": "OrbitalLandingPad 4619 1.4.1 2026-10-30T06-32Z oPfwFL8ck.zip",
         "detected_file_extension": "zip",
@@ -695406,7 +695432,7 @@
         "description": "Version 1.2 — Standard Orbital Corvette Landing Pad without Props (see Changelog)",
         "size_kb": 348,
         "size_in_bytes": 356857,
-        "changelog_html": null,
+        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/0b/f4/b6/0bf4b630-96d5-4275-ab44-0e3d22672d96"
       },
       {
@@ -695418,8 +695444,8 @@
         "file_id": 50234,
         "name": "OrbitalLandingPad with Props",
         "version": "1.4.1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 351,
         "file_name": "OrbitalLandingPad with Props 4619 1.4.1 2026-10-30T06-32Z 4tDiNufCE.zip",
@@ -695431,7 +695457,7 @@
         "description": "V1.2 with props",
         "size_kb": 351,
         "size_in_bytes": 359746,
-        "changelog_html": null,
+        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/68/5f/bc/685fbc4f-6ac4-4ef2-a303-f05ce5d62139"
       },
       {
@@ -695443,8 +695469,8 @@
         "file_id": 50235,
         "name": "OrbitalLandingPad SalvageProcessor",
         "version": "1.4.1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 370,
         "file_name": "OrbitalLandingPad SalvageProcessor 4619 1.4.1 2026-10-30T06-32Z qTSCvoudP.zip",
@@ -695456,7 +695482,7 @@
         "description": "V1.2 with the Outpost Salvage Processor without Props",
         "size_kb": 370,
         "size_in_bytes": 379616,
-        "changelog_html": null,
+        "changelog_html": "Outpost Platform:\n- corrected some too bright lights\nAll Pads:\n- corrected some weird leftover collisions\n- corrected the middle section to be beneath the walkable platform",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/70/e7/fd/70e7fd59-5529-4bc5-a643-05b1f661739a"
       },
       {
@@ -695481,8 +695507,83 @@
         "description": "Finalized (experimental) AddOn for the Landing Pad Mods.<br />It provides a fix, that Corvettes automatically spawn and land on the nearest, free and available Corvette Landing Pad.<br />Patched for Forsaken &amp; self-healing.",
         "size_kb": 60,
         "size_in_bytes": 61475,
-        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.\nAs per request from @Thrawn1636262 (thanks for the idea): added a third version with the salvage processor from the Outpost, including:\n- Functional salvage attraction, intake, processing and rewards (original functionality)\n- Colour and material customisation for the  processor housing\n- Third Separate build-menu entry; Standard and Props can remain installed.",
+        "changelog_html": "Fixed Corvette creation and editing failing when regular landing pads were placed too close nearby.\nMoved the OrbitalLandingPad docking registration closer to the terminals while keeping the landing point unchanged.\nApplied the fix to both OrbitalLandingPad and OrbitalLandingPadProps. Regular landing pads are unaffected.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/2a/41/4f/2a414f29-335b-4516-b24a-fe272deadb4d"
+      },
+      {
+        "id": [
+          50447,
+          1634
+        ],
+        "uid": 7017976612111,
+        "file_id": 50447,
+        "name": "OrbitalLandingPad",
+        "version": "1.4.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 353,
+        "file_name": "OrbitalLandingPad 4619 1.4.2 2026-11-04T20-49Z uhKkQ8bFo.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793825388,
+        "uploaded_time": "2026-11-04T20:49:48.000+00:00",
+        "mod_version": "1.4.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1ec58dd6e4584d4af5f7fa7bf0f5361edbd543f5808016920fe69c8510ab1ba4",
+        "description": "Standard Outpost Corvette Landing Pad",
+        "size_kb": 353,
+        "size_in_bytes": 361832,
+        "changelog_html": "Added the Workshop Cache Inventory to the Corvette editing terminal on all three landing pad variants.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c3/f9/a9/c3f9a9c4-587d-4cc8-9337-bd16c0a341f7"
+      },
+      {
+        "id": [
+          50448,
+          1634
+        ],
+        "uid": 7017976612112,
+        "file_id": 50448,
+        "name": "OrbitalLandingPad with Props",
+        "version": "1.4.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 356,
+        "file_name": "OrbitalLandingPad with Props 4619 1.4.2 2026-11-04T20-50Z OyPDz29mW.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793825405,
+        "uploaded_time": "2026-11-04T20:50:05.000+00:00",
+        "mod_version": "1.4.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0ee0a0f06b93184cefd0513d2ebd555698f714ecb478000400b19dc102caf511",
+        "description": "Pad with props",
+        "size_kb": 356,
+        "size_in_bytes": 364948,
+        "changelog_html": "Added the Workshop Cache Inventory to the Corvette editing terminal on all three landing pad variants.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ff/34/62/ff3462ab-f046-4003-9b59-2ff63f463a5a"
+      },
+      {
+        "id": [
+          50449,
+          1634
+        ],
+        "uid": 7017976612113,
+        "file_id": 50449,
+        "name": "OrbitalLandingPad SalvageProcessor",
+        "version": "1.4.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 375,
+        "file_name": "OrbitalLandingPad SalvageProcessor 4619 1.4.2 2026-11-04T20-50Z AeW3TdCbL.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793825415,
+        "uploaded_time": "2026-11-04T20:50:15.000+00:00",
+        "mod_version": "1.4.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e3cf15356159e6b0d3caf65ccb12043c79241ff5cc0ea50b25526a8676048df6",
+        "description": "Pad with the Outpost Salvage Processor without Props",
+        "size_kb": 375,
+        "size_in_bytes": 384863,
+        "changelog_html": "Added the Workshop Cache Inventory to the Corvette editing terminal on all three landing pad variants.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/5b/ef/2e/5bef2e85-b91c-4af4-9991-cbf80cc73a73"
       }
     ],
     "changelogs": {
@@ -695543,6 +695644,9 @@
         "All Pads:",
         "- corrected some weird leftover collisions",
         "- corrected the middle section to be beneath the walkable platform"
+      ],
+      "1.4.2": [
+        "Added the Workshop Cache Inventory to the Corvette editing terminal on all three landing pad variants."
       ]
     }
   },
@@ -702913,10 +703017,10 @@
     "mod_id": 4696,
     "name": "Nomad Biomes - Modpack (formerly Lasagna)",
     "summary": "Adds hundreds of immersive, custom biomes (land, cave, &amp; underwater). Also overhauls terrain, colors, jetpack &amp; more.",
-    "version": "1.1a",
+    "version": "1.1b",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774113-701501391.jpg",
     "author": "SereiusBusiness",
-    "updated_timestamp": 1793565598,
+    "updated_timestamp": 1793832174,
     "created_timestamp": 1792777078,
     "description": "[center][b][size=6]Nomad Biomes[/size][/b]\n<br />(formerly Lasagna)[/center]\n<br />\n<br />\n<br />[b][size=5]‣Description[/size][/b]\n<br />\n<br />[b][size=4][i]New custom pre-made biomes[/i][/size][/b], set of 500\n<br />[list]\n<br />[*]Each biome is themed with its own “story”, whether it’s a frozen jungle, a mushroom forest, a toxic egg field, a glowing radioactive garden, a lava field broken up by shield trees, sand dunes with giant cacti, or a dead moon covered in ship wrecks. No more random flora/props thrown together without reason.[/*]\n<br />[*]Planets feel more immersive and natural than ever. Flora/props are often found grouped together via. a new, advanced system of prop placements I developed. Plants grow next to trees, small rocks next to larger rocks, and so on and so forth.[/*]\n<br />[*]Includes giant forests, city biomes, rare colossal props, rare custom model trees, and forests on worlds that don't usually have them. [/*]\n<br />[*]Covers every planet type, from lush and frozen to toxic, radioactive, gas giant and weird/exotic worlds.[/*]\n<br />[*]Also includes spawner files for all 103 planet types.[/*]\n<br />[*]*Performance is mostly close to vanilla, from nearly empty planets up to about 3–4x vanilla for the heaviest biomes.[/*]\n<br />[*]*High density biomes in the screenshots may look intimidating, but the current game engine handles instanced objects far better than it used to. [i]If performance is an issue, try lowering \"Planet Quality\" settings and shadow settings for much better performance.[/i][/*]\n<br />[/list]\n<br />[b][i][size=4]Reworked underwater and cave biomes[/size][/i][/b], set of 197 (138 underwater, 59 caves)\n<br />[list]\n<br />[*]Improved variety: From underwater forests with grass, kelp, coral, vents and urchins to glowing caves with tall stalagmites.[/*]\n<br />[*]*Reworked and optimized for vanilla-like performance.[/*]\n<br />[/list]\n<br />[size=4][i][b]New terrain mod[/b][/i][/size], set of 31. Each terrain type has a different landform, including:\n<br />   -terraced canyons with marshy floors\n<br />   - flat plains with rock arches and mesas.\n<br />   - badlands with rock pillars\n<br />   - tall rock towers with floating islands\n<br />   - wide glacial valleys\n<br />   - rare worlds covered in worm-like ridges and ravines.\n<br />[list]\n<br />[*]Brings back the \"worm\" terrain and tall resource deposit shapes from the Foundation update.[/*]\n<br />[*]Adds unique structures with (relatively) open ground in-between, so planets are fun to explore on-foot and flora/props have room to spawn.[/*]\n<br />[*]The lowest terrain sits lower than vanilla, so ground fog is more common.[/*]\n<br />[*]Water worlds have large landmasses instead of only small islands.[/*]\n<br />[/list]\n<br />[b][size=4][i]Nomad Colors[/i][/size][/b] (formerly Lasagna Obscura)\n<br />[list]\n<br />[*]A stylized color mod. Aggregate of all sky color/lighting/QOL/etc. mods I've made via. my Lasagna mods, plus several new additions.[/*]\n<br />[*]New colors for: flora, terrain, rings and fauna. Flora and rings span the full rainbow.[/*]\n<br />[*]Darker space with bright nebulas (some vanilla space colors remain).[/*]\n<br />[*]Choose extra fog or less fog. Fog appears darker (and colorful) near you and fades into the sky at a distance. Lighter fog on prime planets, vanilla fog on empty planets.[/*]\n<br />[*]Less instances of the old smoke effect that follows the player, and fewer gravity bubbles.[/*]\n<br />[*]No high clouds on regular planets, and some planets have few or no clouds depending on elevation.[/*]\n<br />[*]Storms are 25% as long and less frequent on very stormy planets.[/*]\n<br />[*]Spore hazard plants replaced with tentacle hazard plants.[/*]\n<br />[*]Slightly brighter sun and clouds.[/*]\n<br />[*]No photo mode vignette.[/*]\n<br />[/list]\n<br />[size=5][b]‣Mods Included[/b][/size]\n<br />[list]\n<br />[*]Nomad Biomes - Planets: 500 base terrain biomes. *protip: you can land on the top of city structures with your ship. :)[/*]\n<br />[*]           CHOOSE ONE: Maxima = high flora/prop density, Minima = slightly lower density on the highest density planets.[/*]\n<br />[*]Nomad Biomes - Caves: 59 caves[/*]\n<br />[*]Nomad Biomes - Underwater: 138 underwater biomes[/*]\n<br />[*]Nomad Biomes - Spawner: Spawns the above biomes[/*]\n<br />[*]Nomad Biomes - Terrain: 31 terrain variants (each with sub-variants)[/*]\n<br />[*]Nomad Colors - FOG: Just the fog part of Nomad Colors.[/*]\n<br />[*]           CHOOSE ONE: less fog (0.1) to more (0.3). [/*]\n<br />[*]Nomad Colors &amp; QOL - KEEP: All color sets &amp; misc. QOL changes.[/*]\n<br />[*]Nomad Jetpack: Subtle improvements to jetpack lift, refill etc[/*]\n<br />[*]Nomad Large Crystals - Large E3-style crystals, crystals spawn at all angles[/*]\n<br />[*]Nomad Models - Custom models and updates to pre-release models.[/*]\n<br />[/list]\n<br />\n<br />[b][size=5]‣Frequently Asked Questions (FAQ)[/size][/b]\n<br />\n<br />[u]I can't get any mods to work?[/u]\n<br />Look for the [url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]mod warning[/url] on launch, if you don't see that:\n<br />Delete the Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML and launch NMS again.\n<br />\n<br />[u]Does this work with multiplayer?[/u]\n<br />Yes, but mods are client-side. Everyone must install the same mods to see the same things.\n<br />Terrain will differ, for example, between players using and not using the mod.\n<br />\n<br />[u]Is this compatible with xyz mod?[/u]\n<br />90% chance yes, see 'Mod Compatibility' section on mod page.\n<br />\n<br />[u]Will this mess with my base or settlement?[/u]\n<br />Existing bases and settlements may no longer align with the terrain.\n<br />Save at a space station first when adding or removing Nomad Terrain with an existing save.\n<br />\n<br />[u]What about your old mods?[/u]\n<br />Mods come and go due to demanding game updates, obligations, etc. I'm also someone who wants to experiment and make new things, not spend hours and hours maintaining old content. Finally, this is purely a passion project for me. Haters gonna hate.\n<br />That said, most of my old mods feature open permissions, anyone can update them if they so desire. Thanks for the support. :)\n<br />\n<br />[u]Are the new biomes added to the vanilla ones, or are some vanilla ones replaced?[/u]\n<br />You can find vanilla biomes, but it's rare.\n<br />\n<br />[u]How to update this mod?[/u]\n<br />Biomes (and models) are made via. my program Plumgen 2. I might share at some point, but for now it's under construction.\n<br />Some are made via. LUA scripts (included in the folders).\n<br />Some are EXMLs.\n<br />\n<br />[u]Will you keep updating this mod?[/u]\n<br />I plan to for the foreseeable future, but sometimes it's hard to stay motivated. I suggest keeping a backup of this version of No Man's Sky (Cosmos 7.06 as of writing this), just to be safe.\n<br />\n<br />[u]I crashed on the loading screen?[/u]\n<br />Hopefully this issue doesn't happen anymore. But if it does, lmk. If you crash on a planet, try going to a space station first then loading the mod.\n<br />\n<br />\n<br />[size=5][b]‣Mod Compatibility[/b][/size] [vanila MBINs changed]\n<br />\n<br />Nomad Biomes/Spawner:\n<br />[list]\n<br />[*]Misc. pre-release and spacestation SCENES within MODELS[/*]\n<br />[*]The rest are all EXML files.[/*]\n<br />[*]Mods created and exported with Plumgen 2 are typically compatible with this[/*]\n<br />[/list]\n<br />Nomad Terrain:\n<br />[list]\n<br />[*]METADATA/SIMULATION/SOLARSYSTEM/VOXELGENERATORSETTINGS.MBIN[/*]\n<br />[/list]\n<br />Nomad colors [see bottom advanced section for more info]:\n<br />[list]\n<br />[*]METADATA/SIMULATION/SOLARSYSTEM/WEATHER/SKYSETTINGS/SPACESKYCOLOURS.MBIN[/*]\n<br />[*]All COLOURPALETTES.MBIN files within METADATA/SIMULATION/SOLARSYSTEM/BIOMES/[/*]\n<br />[*]The rest are all EXML files[/*]\n<br />[/list]\n<br />\n<br />\n<br />[size=5][b]‣How to Install[/b][/size]\n<br />\n<br />[color=#f1c232]PLEASE READ&gt;&gt;[/color] Save at a space station first when adding or removing this mod with an existing save. [color=#f1c232]&lt;&lt;PLEASE READ[/color]\n<br />\n<br />[list=1]\n<br />[*]Place extracted mod folders inside of No Man's Sky/GAMEDATA/MODS [*not* PCBANKS/MODS].\n<br />-If a MODS folder does not exist yet, create it.-Each mod will have its own dedicated folder inside of GAMEDATA/MODS.-Make sure that the mod folders aren't an extra folder deep.[/*]\n<br />[*]Start the game and wait for the splash screen to disappear.[/*]\n<br />[*]If done correctly the game will display a mod warning.[/*]\n<br />[/list]\n<br />\n<br />[b][size=5]‣Known issues[/size][/b]\n<br />-Fog can hide the ground from high up. Issue seems to get worse or better depending on weather/vfx/etc.\n<br />-Glitched floor on a terrain type.\n<br />\n<br />\n<br />[b][size=5]‣Advanced customization[/size][/b]\n<br />[spoiler]\n<br />There are many ways to customize [b][u]Nomad Colors[/u][/b], in particular. Edit or remove any of these files/subfolders from the mod if you want. Keep in mind, this mod was made so different parts complement each other. Obviously, you might encounter issues if you dramatically change the mod:\n<br />\n<br />1. Mod files:\n<br />[quote][size=2]All COLOURPALETTES.MBIN files within METADATA/SIMULATION/SOLARSYSTEM/BIOMES/ [color=#00ff00]directory[/color] [u][b][color=#e06666]except[/color][/b][/u] 'OBJECTS' and 'WEATHER' folders[/size][/quote][u]Effect:[/u] Individual sub-biome colors for: grass, plants, leaves, terrain, rocks, stones, dirt, sand, snow, planet rings, &amp; fauna\n<br />*Remove e.g. the LAVA folder if you no longer want the above color changes on lava biomes.\n<br />\n<br />2. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Spore hazard plants replaced with tentacle hazard plants.\n<br />\n<br />3. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/WEATHER/ [color=#00ff00]directory[/color] [u][b][color=#e06666]except[/color][/b][/u] SKYSETTINGS[/size][/quote][u]Effect:[/u] Individual sub-biome fog settings.\n<br />*If you adjust any settings in the gcskyglobals.globals.EXML file, you'll also need to adjust each of these (and vice versa).\n<br />\n<br />4. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/WEATHER/SKYSETTINGS [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Changes to darken day &amp; dusk fog, and new space colors.\n<br />\n<br />5. Mod files:\n<br />[quote][size=2]models/effects/heavyair [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Reduces \"old\" omnipresent smoke effects, gravity bubbles, &amp; snow effects.\n<br />\n<br />6. Mod files:\n<br />[quote][size=2]globals/gcenvironmentglobals.global.EXML [color=#c27ba0]file[/color][/size][/quote][u]Effect:[/u] Edits upper stratosphere clouds &amp; increases brightness.\n<br />\n<br />7. Mod files:\n<br />[quote][size=2]gcskyglobals.globals.EXML [color=#c27ba0]file[/color][/size][/quote]Effect: Every other change not mentioned above, including: changes *most* sub-biome fog (not all [this is just how the game is designed], see 3), reduces storms, &amp; removes vignette.[/spoiler]\n<br />\n<br />[b][size=5]‣Credits[/size][/b]\n<br />[list]\n<br />[*]VitaminArrr's NoMansTerrain to make the terrain mod: [url=https://github.com/gistya/nomansterrain]https://github.com/gistya/nomansterrain[/url][/*]\n<br />[*]Monkeyman192's MBINCompiler and NMSDK to do many things, including viewing models.[/*]\n<br />[*]Monkeyman192's HGPAKtool to make custom models.[/*]\n<br />[*]AMUMSS by Mjjstral aka MetaIdea and Wbertro aka TheBossBoy to make LUA-based mods.[/*]\n<br />[*]WinderTP for walking me through Blender/NMSDK to edit models.[/*]\n<br />[*]Ruffles for permission to use LOD and distance code. View InsaneRuffles' \"[url=https://www.nexusmods.com/nomanssky/mods/1990]View Distance Increase[/url]\" mod.[/*]\n<br />[/list]\n<br />[b][size=5]‣A few images[/size][/b]\n<br />[center]\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1793053771-1071994223.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774108-1100460332.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774103-733972479.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774102-1691244889.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1793053771-718620032.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774113-701501391.jpg[/img]\n<br />[/center]\n<br />",
     "state": "normal",
@@ -702981,9 +703085,9 @@
         "file_id": 50308,
         "name": "Nomad Biomes",
         "version": "1.1a",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 10869,
         "file_name": "Nomad Biomes 4696 1.1a 2026-11-01T20-39Z IohEj95Pg.zip",
         "detected_file_extension": "zip",
@@ -702996,6 +703100,31 @@
         "size_in_bytes": 11130423,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/7f/fc/20/7ffc20d4-307d-495d-b859-106d6710b898"
+      },
+      {
+        "id": [
+          50451,
+          1634
+        ],
+        "uid": 7017976612115,
+        "file_id": 50451,
+        "name": "Nomad Biomes",
+        "version": "1.1b",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 10456,
+        "file_name": "Nomad Biomes 4696 1.1b 2026-11-04T22-42Z n0CrIxcOX.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793832174,
+        "uploaded_time": "2026-11-04T22:42:54.000+00:00",
+        "mod_version": "1.1b",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8af8d95e0b012176accd2d61b77d3386041d5127e2855de434528ffb8f120e41",
+        "description": "",
+        "size_kb": 10456,
+        "size_in_bytes": 10707950,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1b/a5/ba/1ba5bace-ba68-44ab-930c-088808bbbb2e"
       }
     ],
     "changelogs": {
@@ -703741,10 +703870,10 @@
     "mod_id": 4702,
     "name": "Finally Open Habs (Corvette)",
     "summary": "Build the Corvette interior you want: open selected walls, create taller rooms, or add solid interior walls where the game normally creates a doorway.",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4702/4702-1793223127-970152913.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1793743743,
+    "updated_timestamp": 1793821918,
     "created_timestamp": 1792922109,
     "description": "[b][color=#ff7700][size=5]Finally Open Habs (Corvette)[/size][/color][/b]\n<br />\n<br />Build the Corvette interior you want: open selected walls, create taller rooms, or add solid interior walls where the game normally creates a doorway.\n<br />\n<br />[b][color=#f6b26b]Manual Control v1.0 supports Titan, Thunderbird and Ambassador, including short (1x1) and long (1x2) Habs, in one mod folder.[/color][/b] Horizontal openings can connect different styles as well as different Hab sizes. Vertical openings require aligned Habs of the same style and size.\n<br />\n<br />[b][color=#1e84cc]Choose one system: the current Manual Control version OR the older automatic Full/Horizontal files. Do not install them together.[/color][/b] The older files remain available as alternatives for players who prefer automatic openings.\n<br />\n<br />[b][color=#ff7700][size=4]Three tools, individual control[/size][/color][/b]\n<br />\n<br />Find all three at the end of the Corvette build menu's [b][color=#f6b26b]Internal Configuration[/color][/b] group. They share the subtitle [b][color=#f6b26b]Corvette Core Module[/color][/b].\n<br />\n<br />[b][color=#f6b26b]Hab Wall Removal[/color][/b]\n<br />\n<br />Remove a selected shared wall to join two connected Habs into an open room. Works on side and end connections, with short and long Habs and any combination of Titan, Thunderbird and Ambassador.\n<br />\n<br />The opening removes the relevant dividing geometry and collision. Delete the control to restore the standard connection. Installing the manual version alone does not turn every connected room into an open room: you choose where to place the controls.\n<br />\n<br />[b][color=#f6b26b]Hab Wall[/color][/b]\n<br />\n<br />Replace an automatic doorway with a solid interior wall and collision. Each face uses the style of the Hab on that side, so a Titan/Ambassador connection has a Titan interior on one face and an Ambassador interior on the other.\n<br />\n<br />Delete the control to restore the doorway.\n<br />\n<br />[b][color=#f6b26b]Hab Ceiling Removal[/color][/b]\n<br />\n<br />Open the shared ceiling and floor between vertically stacked Habs to create a taller interior. Uses the native stair attachment points without adding a staircase.\n<br />\n<br />Supported layouts are fully aligned [b][color=#f6b26b]short over short[/color][/b] or [b][color=#f6b26b]long over long[/color][/b], with the [b][color=#f6b26b]same style on both levels[/color][/b]. A matching long pair needs one control; both structural footprint connections must match. Additional matching levels can create taller rooms.\n<br />\n<br />[b][color=#1e84cc]Mixed-style vertical openings, short/long vertical combinations, partial overlap and offset stacks are outside the supported scope. Delete the control to restore that floor/ceiling boundary.[/color][/b]\n<br />\n<br />[b][color=#ff7700][size=4]Features[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*]Selective horizontal wall removal, solid interior walls and supported vertical openings.[/*]\n<br />[*]All three Hab styles and both native Hab sizes in one package.[/*]\n<br />[*]Mixed-style horizontal rooms and individually styled faces on mixed-style walls.[/*]\n<br />[*]Existing vanilla Hab parts: no replacement Habs or save-editor conversion required.[/*]\n<br />[*]Reworked edge closures, corner backings and top/bottom surfaces for exposed wall sections.[/*]\n<br />[*]Decorative cleanup for unsupported floating details.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Installing Manual Control[/size][/color][/b]\n<br />\n<br />[list=1]\n<br />[*]Back up the save you intend to use, then close No Man's Sky.[/*]\n<br />[*]Remove previous Finally Open Habs/Open Corvette Habs versions from the active MODS directory. See the upgrade instructions below if you are switching from automatic files.[/*]\n<br />[*]Extract [b][color=#f6b26b]FinallyOpenHabs_ManualControl.zip[/color][/b].[/*]\n<br />[*]Copy the complete [b][color=#f6b26b]FinallyOpenHabs_ManualControl[/color][/b] folder into [b][color=#f6b26b]No Man's Sky/GAMEDATA/MODS/[/color][/b].[/*]\n<br />[*]Start the game with mods enabled. Find the three tools under [b][color=#f6b26b]Internal Configuration[/color][/b] and place them at the relevant Hab attachment points.[/*]\n<br />[/list]\n<br />[i]The same mod folder also contains METADATA, MODELS and TEXTURES. Keep its contents together. Use GAMEDATA/MODS, not the old PCBANKS/MODS location. No installer, CMD file, AMUMSS, compiler or other mod is required to use the supplied download.[/i]\n<br />\n<br />[b][color=#ff7700][size=4]Important: upgrading from the older automatic versions[/size][/color][/b]\n<br />\n<br />The older [b][color=#f6b26b]Full[/color][/b] and [b][color=#f6b26b]Horizontal[/color][/b] files remain alternative downloads. They are not dependencies or optional add-ons for Manual Control.\n<br />\n<br />[list=1]\n<br />[*]With your old version still installed, move your character onto an intact Hab floor, away from shared walls and floor openings. Save and quit.[/*]\n<br />[*]Move all old Hab-mod folders out of GAMEDATA/MODS. This includes [b][color=#f6b26b]OpenCorvetteHabs_Titan[/color][/b], [b][color=#f6b26b]OpenCorvetteHabs_Ambassador[/color][/b] and [b][color=#f6b26b]OpenCorvetteHabs_Thunderbird[/color][/b], including copies inside Full/Horizontal bundles or backup folders.[/*]\n<br />[*]Keep backups [b][color=#f6b26b]outside[/color][/b] the MODS directory. Renaming a folder with an underscore or calling it a backup is not a reliable way to disable it.[/*]\n<br />[*]Install the single Manual Control folder using the instructions above.[/*]\n<br />[*]Reopen your Corvette and add the removal controls wherever you want open connections.[/*]\n<br />[/list]\n<br />[b][color=#1e84cc]Previously automatic openings are not converted into placed manual controls.[/color][/b] Those connections may return to their normal walls, doors or floors until you place the appropriate tools. Your existing Hab modules do not need to be rebuilt. Inspect decorations when boundaries return; the mod does not reposition furniture to accommodate them.\n<br />\n<br />Keep unrelated mods, including separate landing-pad mods, installed as appropriate. Remove the old Hab variants specifically.\n<br />\n<br />[b][color=#ff7700]Updating an existing Manual Control installation[/color][/b]\n<br />\n<br />For compatible updates using the same three control IDs, such as v0.22 to v0.23, existing controls are retained. Close the game, move the previous [b][color=#f6b26b]FinallyOpenHabs_ManualControl[/color][/b] folder out of MODS, and copy in the complete new folder.\n<br />\n<br />[b][color=#1e84cc]Replace the folder; do not merge files over an old installation.[/color][/b] Obsolete files must be removed. Deleting all your placed controls is not required for this compatible update.\n<br />\n<br />[b][color=#ff7700][size=4]Uninstalling Manual Control or returning to the automatic version[/size][/color][/b]\n<br />\n<br />[b][color=#1e84cc]Remove placed manual controls in game before removing the mod.[/color][/b] Unlike the older automatic variants, the manual version includes custom placeable tools saved with your construction.\n<br />\n<br />[list=1]\n<br />[*]Keep Manual Control installed and load each save/Corvette where you have used its tools.[/*]\n<br />[*]In build edit/delete mode, remove every [b][color=#f6b26b]Hab Wall Removal[/color][/b], [b][color=#f6b26b]Hab Wall[/color][/b] and [b][color=#f6b26b]Hab Ceiling Removal[/color][/b] control. Stand clear of the boundary being restored.[/*]\n<br />[*]Removal controls use invisible selection areas near the floor/connection where they were placed. Aim carefully and confirm the selected item is the control before deleting. A placed Hab Wall can also be selected through its wall geometry. [b][color=#f6b26b]There is no blue selection outline and there are no upper rim handles. Do not delete the Hab itself to remove a control.[/color][/b][/*]\n<br />[*]Check that the normal connections and floor/ceiling boundaries have returned. Save normally, then quit the game.[/*]\n<br />[*]Remove [b][color=#f6b26b]FinallyOpenHabs_ManualControl[/color][/b] from GAMEDATA/MODS.[/*]\n<br />[*]If returning to an older automatic version, install only the legacy file(s) you want after completing this cleanup.[/*]\n<br />[/list]\n<br />Do not rely on the game safely handling leftover custom controls after the mod is removed. If you removed the mod first, reinstall the same manual version and attempt the cleanup before uninstalling again. Keep a backup: recovery after loading and resaving without the custom definitions is not guaranteed.\n<br />\n<br />The older automatic variants do not add these manual controls. When removing those variants, close the game and remove their own mod folders; allow for vanilla boundaries returning when you next load.\n<br />\n<br />[b][color=#ff7700][size=4]Manual Control vs. the older alternatives[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*][b][color=#f6b26b]Manual Control:[/color][/b] one folder for all three styles; place tools to open or close individual connections. Mixed-style horizontal openings are supported. Vertical openings are selected separately.[/*]\n<br />[*][b][color=#f6b26b]Legacy Full:[/color][/b] the older automatic approach, with its own style files and supported automatic horizontal/vertical behavior.[/*]\n<br />[*][b][color=#f6b26b]Legacy Horizontal:[/color][/b] the older automatic wall-opening approach while retaining floors/ceilings, where provided by that download.[/*]\n<br />[/list]\n<br />Use the instructions belonging to the download you choose. The legacy files retain their own features and limitations; they do not gain the manual tools by being listed on the same page.\n<br />\n<br />[b][color=#ff7700][size=4]Compatibility and multiplayer[/size][/color][/b]\n<br />\n<br />Manual Control retains the vanilla Hab IDs, but it also adds custom control objects and changes local geometry/collision. [b][color=#f6b26b]Multiplayer and unmodded-client behaviour have not been fully validated.[/color][/b] A wall or floor you have removed locally may remain solid for a player without the mod. Uploading or sharing a Corvette does not distribute these files.\n<br />\n<br />Do not treat this version as a guaranteed client-only cosmetic mod. Matching manual versions are recommended for players who want matching interiors; they do not constitute a multiplayer compatibility guarantee.\n<br />\n<br />This version replaces [b][color=#f6b26b]BASEBUILDINGOBJECTSTABLE.MBIN[/color][/b] to maintain the three tools' menu order and [b][color=#f6b26b]DIFFICULTYCONFIG.MBIN[/color][/b] for the added build entries. Other complete replacements of those tables, or mods changing the same Hab parts/placement rules, require compatibility checks. Partial EXML mods and load order also need testing where they overlap.\n<br />\n<br />Compatibility with every separate building mod is not established, and game updates may require a rebuild.\n<br />\n<br />[b][color=#ff7700][size=4]Known limits and feedback[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*]Snapping can require careful aiming, particularly at ceiling/stair connections.[/*]\n<br />[*]Invisible deletion targets can be difficult to find, especially after opening a floor. They retain small physical selection colliders and do not show a blue outline.[/*]\n<br />[*]Vertical openings require aligned Habs of the same style and size. Do not use unsupported layouts as a reliable partial-floor tool.[/*]\n<br />[*]Native stairs/platforms, furnishings and retained wall returns may still occupy an otherwise open room. The mod does not automatically move player-built decorations.[/*]\n<br />[/list]\n<br />For a bug report, include the game/mod version, Hab styles and sizes, connection direction, which tool was placed, a simple layout sketch or screenshots, whether the issue is visual/collision/snapping, and whether it persists after reloading. Mention other building mods. For multiplayer reports, include host/guest roles and each player's installed version.\n<br />\n<br />[b][color=#ff7700][size=4]Credits[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*][url=https://github.com/monkeyman192/MBINCompiler]MBINCompiler/libMBIN,[/url][/*]\n<br />[*][url=https://github.com/monkeyman192/NMSDK]NMSDK as a technical format reference. Builds use project-specific Python/NumPy scripts.[/url][/*]\n<br />[*]Substantial development, code and documentation assistance: [b][color=#f6b26b]ChatGPT/Codex (GPT-6.1 Sol; Yuki)[/color][/b].[/*]\n<br />[/list]\n<br />The page's existing cover/thumbnail are AI-generated promotional illustrations, not gameplay screenshots. The ceiling-tool icon is an AI-assisted edit of a native game icon; the other two tool icons use original Legacy Structures artwork.\n<br />\n<br />[b][color=#ff7700][size=4]More Corvette building[/size][/color][/b]\n<br />\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4619]Orbital Corvette Landing Pad[/url] is a separate project of mine.\n<br />I'm also working on a mod two bring NPC's to live within Corvettes, stay tuned for that.",
     "state": "normal",
@@ -703772,7 +703901,7 @@
         "description": "",
         "size_kb": 16766,
         "size_in_bytes": 17169157,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/9e/35/3d/9e353d8f-68c9-437f-89bb-04fef22af7c7"
       },
       {
@@ -703797,7 +703926,7 @@
         "description": "",
         "size_kb": 15643,
         "size_in_bytes": 16018533,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/7c/01/97/7c019768-b24a-49ed-a10c-58787baefc6c"
       },
       {
@@ -703822,7 +703951,7 @@
         "description": "",
         "size_kb": 10507,
         "size_in_bytes": 10759400,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/38/ec/ef/38ecef6d-1c98-4782-8419-f2bea64c65ac"
       },
       {
@@ -703847,7 +703976,7 @@
         "description": "",
         "size_kb": 15621,
         "size_in_bytes": 15996108,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/30/e6/ce/30e6ce91-6407-400f-9ffa-65ccd04499d6"
       },
       {
@@ -703872,7 +704001,7 @@
         "description": "",
         "size_kb": 16777,
         "size_in_bytes": 17180444,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/92/f7/5f/92f75fd5-be10-438c-a69c-567d9f620e19"
       },
       {
@@ -703897,7 +704026,7 @@
         "description": "",
         "size_kb": 10519,
         "size_in_bytes": 10771635,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/d6/59/ab/d659abad-6de1-4abe-9a2a-fbec07f04a6b"
       },
       {
@@ -703997,7 +704126,7 @@
         "description": "",
         "size_kb": 16098,
         "size_in_bytes": 16484741,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/17/92/75/1792752e-5338-43cd-9e2c-452a73e19bb4"
       },
       {
@@ -704022,7 +704151,7 @@
         "description": "",
         "size_kb": 17949,
         "size_in_bytes": 18379945,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/17/45/1a/17451a3f-9395-4508-8480-f6b0a06cc9f0"
       },
       {
@@ -704047,7 +704176,7 @@
         "description": "",
         "size_kb": 11096,
         "size_in_bytes": 11363042,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/a8/46/cc/a846ccca-cd1d-4f52-9876-356f635f9416"
       },
       {
@@ -704072,7 +704201,7 @@
         "description": "",
         "size_kb": 16095,
         "size_in_bytes": 16481733,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/6e/ac/12/6eac12dc-017a-459b-9e99-027e1a56f19b"
       },
       {
@@ -704097,7 +704226,7 @@
         "description": "",
         "size_kb": 17285,
         "size_in_bytes": 17700438,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/7e/4a/6f/7e4a6fc2-a5d7-4474-8416-302301e77414"
       },
       {
@@ -704122,7 +704251,7 @@
         "description": "",
         "size_kb": 11093,
         "size_in_bytes": 11360009,
-        "changelog_html": "added horizontal Ambassador version\nAdded horizontal Thunderbird version\nAdded horizontal Titan version",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/c2/64/e4/c264e450-c72b-4f8b-8639-5b1309147feb"
       },
       {
@@ -704209,9 +704338,9 @@
         "file_id": 50381,
         "name": "FinallyOpenHabs (Forsaken Update Ready)",
         "version": "1.1.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 54993,
         "file_name": "FinallyOpenHabs (Forsaken Update Ready) 4702 1.1.1 2026-11-03T22-09Z UKXVZq48c.zip",
         "detected_file_extension": "zip",
@@ -704224,6 +704353,31 @@
         "size_in_bytes": 56313653,
         "changelog_html": "Fixed the disappearing of the large vantage-class cockpit (thanks to \"creatorofgod\" for reporting)",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/4d/70/3f/4d703f47-22e0-4fdc-9733-d13a5f8c9199"
+      },
+      {
+        "id": [
+          50444,
+          1634
+        ],
+        "uid": 7017976612108,
+        "file_id": 50444,
+        "name": "FinallyOpenHabs (Forsaken Update Ready)",
+        "version": "1.1.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 54993,
+        "file_name": "FinallyOpenHabs (Forsaken Update Ready) 4702 1.1.2 2026-11-04T19-51Z gb4dJyoWp.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793821918,
+        "uploaded_time": "2026-11-04T19:51:58.000+00:00",
+        "mod_version": "1.1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/355e7354d238711b86766092a27ad3a11e3506474512b1cb624b78e38556a0f2",
+        "description": "Standalone Version the gives you full control over open, closed walls and ceilings.<br />Don't use together with other versions!",
+        "size_kb": 54993,
+        "size_in_bytes": 56313655,
+        "changelog_html": "Correct utility modules should be displayed now when using the new Legion Habs",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0d/3d/13/0d3d1321-a338-41c3-a19b-e7b92ad0a41e"
       }
     ],
     "changelogs": {
@@ -704252,6 +704406,9 @@
       ],
       "1.1.1": [
         "Fixed the disappearing of the large vantage-class cockpit (thanks to \"creatorofgod\" for reporting)"
+      ],
+      "1.1.2": [
+        "Correct utility modules should be displayed now when using the new Legion Habs"
       ]
     }
   },
@@ -706096,10 +706253,10 @@
     "mod_id": 4756,
     "name": "IMPERIAL GALACTIC MAP",
     "summary": "Put your alliance on the Galactic Map. Display alliances flags and mark your favourite discoveries with stars, screenshot previews and portal glyphs.",
-    "version": "0.65",
+    "version": "0.66",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4756/4756-1793401542-1265562991.png",
     "author": "ersalva",
-    "updated_timestamp": 1793649160,
+    "updated_timestamp": 1793816415,
     "created_timestamp": 1793402582,
     "description": "[center][size=6][color=#E8BE68][b]IMPERIAL GALACTIC MAP[/b][/color][/size]\n<br />\n<br />[size=4][b]YOUR FAVOURITE WORLDS.\n<br />YOUR ALLIANCE’S TERRITORIES.\n<br />VISIBLE ON THE GALACTIC MAP.[/b][/size]\n<br />\n<br />Bookmark planets and systems with visible star markers,\n<br />screenshot previews and portal glyphs.\n<br />Display alliances flags and highlight your territories.\n<br />\n<br />[youtube]ky0pHLnsSdE[/youtube][/center]\n<br />\n<br />\n<br />[size=5][color=#65D4DF][b]FOUND A PLANET YOU DON’T WANT TO LOSE?[/b][/color][/size]\n<br />\n<br />[b]Press F8 to save a planet or system as a favourite.[/b]\n<br />\n<br />The mod takes a screenshot and adds a [b]star marker to its system on the Galactic Map[/b]. Your bookmark becomes something you can actually see while browsing the galaxy.\n<br />\n<br />Open your favourites to view the saved location, its screenshot and portal glyphs.\n<br />\n<br />[b]Perfect planets, useful systems, memorable discoveries — keep them marked on your map.[/b]\n<br />\n<br />You don’t need to belong to an alliance to use these features.\n<br />\n<br />\n<br />[size=5][color=#E8BE68][b]SEE ALLIANCE TERRITORIES AS YOU EXPLORE[/b][/color][/size]\n<br />\n<br />[b]See who controls the systems around you — directly on the Galactic Map.[/b]\n<br />\n<br />[b]* Your alliance and other alliances appear with their own flags.[/b] When you visit a system belonging to another alliance, the mod automatically detects its alliance and adds that territory to your local map catalogue.\n<br />\n<br />* Alliances without a custom emblem receive a consistent colour and symbol based on their ID, so you can recognise them again as you explore.\n<br />\n<br />[color=#67E89B][b]* Neon-green rings[/b][/color] make your own alliance’s systems stand out.\n<br />\n<br />* Browse the alliance catalogue and independently show or hide your alliance, other alliances and pirate systems.\n<br />\n<br />[b]* Discover their territory. See their flag. Keep it on your map.[/b]\n<br />\n<br />[size=5][color=#65D4DF][b]CREATE YOUR OWN ALLIANCE FLAG[/b][/color][/size]\n<br />\n<br />The download includes an [b]optional Companion application[/b] for importing save information, managing your catalogue and customising alliance emblems.\n<br />\n<br />Choose from [b]178 symbols[/b] and configure your flag, then export it for the in-game mod.\n<br />\n<br />[b]The Companion is optional.[/b] You can use the in-game features without importing your save first.\n<br />\n<br />\n<br />[size=5][color=#E8BE68][b]FEATURES AT A GLANCE[/b][/color][/size]\n<br />\n<br />• [b]ONE KEY TO REMEMBER A WORLD[/b] — Press F8 to bookmark a planet or system, place a visible star marker on the Galactic Map and create its favourites entry with a screenshot and portal glyphs.\n<br />\n<br />• [b]YOUR DISCOVERIES, IN PICTURES[/b] — Browse your favourites and select a location to view its screenshot, details and portal address.\n<br />\n<br />• [b]ALLIANCE FLAGS ON THE MAP[/b] — See your alliance’s territories and automatically detect other alliances when visiting their systems, adding their flags to your local map catalogue.\n<br />\n<br />• [b]GLOWING TERRITORY RINGS[/b] — Recognise your alliance’s systems at a glance with neon-green highlights.\n<br />\n<br />• [b]CONTROL WHAT YOU SEE[/b] — Independently show or hide your alliance, other alliances and pirate systems.\n<br />\n<br />• [b]DISTINCTIVE AUTOMATIC EMBLEMS[/b] — Recognise alliances through consistent colours and contrasting symbols assigned to their IDs.\n<br />\n<br />• [b]OPTIONAL COMPANION[/b] — Import save information, manage your catalogue and customise your alliance flag.\n<br />\n<br />• [b]MULTILINGUAL INTERFACE[/b] — Use the interface in your preferred supported language while keeping original alliance and territory names intact.\n<br />\n<br />\n<br />[size=5][color=#65D4DF][b]INSTALLATION[/b][/color][/size]\n<br />\n<br />[b]1.[/b] Close No Man’s Sky completely.\n<br />\n<br />[b]2.[/b] In Steam, right-click No Man’s Sky and select:\n<br />[b]Manage → Browse local files.[/b]\n<br />\n<br />[b]3.[/b] Open the [b]Binaries[/b] folder.\n<br />\n<br />[b]4.[/b] Extract the installation ZIP directly into [b]Binaries[/b].\n<br />\n<br />These items must sit alongside [b]NMS.exe[/b]:\n<br />\n<br />• [b]xinput9_1_0.dll[/b]\n<br />• [b]IGM[/b] folder\n<br />\n<br />[b]Install this package in Binaries, not PCBANKS/MODS.[/b]\n<br />\n<br />[b]5. OPTIONAL — Configure your alliance flag.[/b]\n<br />Open [b]IGM_Companion.exe[/b] inside [b]Binaries&#92;IGM[/b].\n<br />Load your save, customise your alliance flag and export the configuration to your installed IGM folder.\n<br />\n<br />[b]6.[/b] Launch No Man’s Sky normally through Steam.\n<br />\n<br />\n<br />[size=5][color=#E8BE68][b]GET STARTED[/b][/color][/size]\n<br />\n<br />[b]Save a discovery:[/b]\n<br />Press [b]F8[/b] to bookmark a planet or system and capture a screenshot.\n<br />\n<br />[b]Find your bookmark on the map:[/b]\n<br />Open the Galactic Map and look for its [b]star marker[/b].\n<br />\n<br />[b]View your saved discoveries:[/b]\n<br />Open the mod’s favourites panel and select an entry to see its screenshot and portal glyphs.\n<br />\n<br />[b]Explore alliance territories:[/b]\n<br />Look for alliance flags and use the visibility settings to choose which categories appear.\n<br />\n<br />\n<br />[size=4][b]REQUIREMENTS &amp; SCOPE[/b][/size]\n<br />\n<br />• [b]No Man’s Sky — Steam version for Windows.[/b]\n<br />• The Companion is optional for basic in-game use.\n<br />• Territory information comes from the built-in catalogue, local imports and in-game detection.\n<br />• This is not a live online database of every alliance.\n<br />• Markers display territory information; they do not change station ownership.\n<br />• Automatic alliance identification depends on successfully reading the supported game version.\n<br />\n<br />[size=2][b]v0.64B — Changelog 01/11/26[/b]\n<br />• Redesigned interface and navigation.\n<br />• Single-DLL installation.\n<br />• Optional extension support.\n<br />• Unnamed systems listed last.\n<br />• Legacy RSSH/APF catalogue cleanup with backup.\n<br />\n<br />[u][b]Update:[/b] Replace only [b]xinput9_1_0.dll[/b]. Keep your existing [b]IGM[/b] folder to preserve your data.[/u][/size]\n<br />\n<br />",
     "state": "normal",
@@ -706214,9 +706371,9 @@
         "file_id": 50348,
         "name": "IGM STEAM 0.65",
         "version": "0.65",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 1298,
         "file_name": "IGM STEAM 0.65 4756 0.65 2026-11-02T19-52Z MWrySmzdr.zip",
         "detected_file_extension": "zip",
@@ -706229,6 +706386,31 @@
         "size_in_bytes": 1329188,
         "changelog_html": "Imperial Galactic Map 0.65\n- Updated for the latest supported No Man’s Sky update.\n- Automatically disables on unsupported game versions.\n- Added automatic backups for favourites, catalogue and settings.\n- Improved data saving to preserve existing files if a write fails.\nUpdating: Close the game and replace only xinput9_1_0.dll. Do not replace or delete your existing IGM folder.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/cc/4c/d0/cc4cd023-3b2a-4953-a61d-faad3542b71c"
+      },
+      {
+        "id": [
+          50442,
+          1634
+        ],
+        "uid": 7017976612106,
+        "file_id": 50442,
+        "name": "IGM STEAM 0.66",
+        "version": "0.66",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1300,
+        "file_name": "IGM STEAM 0.66 4756 0.66 2026-11-04T18-20Z bqtarIP7K.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793816415,
+        "uploaded_time": "2026-11-04T18:20:15.000+00:00",
+        "mod_version": "0.66",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0aa6b9d6b1fc99e81be711e12422dd7999a19af746c2f20dbdc45bde70756573",
+        "description": "* Extract the contents of the ZIP's Binaries folder into [b]Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries[/b]<br />* [u]Updating:[/u] Replace only xinput9_1_0.dll.<br />[b][size=4]Keep your existing IGM folder when updating.[/size][/b]",
+        "size_kb": 1300,
+        "size_in_bytes": 1332191,
+        "changelog_html": "IGM 0.66\n- Added Russian language.\n- English is now the default for new installations. Existing language settings are preserved.\n- Improved menu rendering efficiency with cached layouts, glyphs and text.\n- Improved spacing in the Alliances and Favourites detail panels.\n- Screenshots now appear above portal glyphs, with glyphs centred underneath. Without a screenshot, glyphs remain centred directly below the divider.\n- Fixed favourite marker visibility on the galactic map. Markers can now be toggled independently of alliance and pirate system icons.\n- Reordered visibility options: My alliance, Other alliances, Markers, Pirate systems.\n- Adjusted cursor drawing order to display above the mod menu.\n- Improved internal compatibility checks and removed obsolete code.\n- Synchronised version numbering between IGM and Quick Portal Glyphs.\n- Improved resilience to game updates: Centralised portal compatibility data, reduced reliance on obsolete internal signatures and improved validation to simplify adaptation to future No Man’s Sky updates. This will keep improving every patch",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c3/3c/39/c33c3931-e9d3-41ae-a6ce-36cf66b9cc4e"
       }
     ],
     "changelogs": {
@@ -706253,6 +706435,20 @@
         "- Added automatic backups for favourites, catalogue and settings.",
         "- Improved data saving to preserve existing files if a write fails.",
         "Updating: Close the game and replace only xinput9_1_0.dll. Do not replace or delete your existing IGM folder."
+      ],
+      "0.66": [
+        "IGM 0.66",
+        "- Added Russian language.",
+        "- English is now the default for new installations. Existing language settings are preserved.",
+        "- Improved menu rendering efficiency with cached layouts, glyphs and text.",
+        "- Improved spacing in the Alliances and Favourites detail panels.",
+        "- Screenshots now appear above portal glyphs, with glyphs centred underneath. Without a screenshot, glyphs remain centred directly below the divider.",
+        "- Fixed favourite marker visibility on the galactic map. Markers can now be toggled independently of alliance and pirate system icons.",
+        "- Reordered visibility options: My alliance, Other alliances, Markers, Pirate systems.",
+        "- Adjusted cursor drawing order to display above the mod menu.",
+        "- Improved internal compatibility checks and removed obsolete code.",
+        "- Synchronised version numbering between IGM and Quick Portal Glyphs.",
+        "- Improved resilience to game updates: Centralised portal compatibility data, reduced reliance on obsolete internal signatures and improved validation to simplify adaptation to future No Man’s Sky updates. This will keep improving every patch"
       ]
     }
   },
@@ -706260,12 +706456,12 @@
     "mod_id": 4758,
     "name": "For(n)ever Alone - Your Corvette Crew",
     "summary": "Your Corvette has room for a crew. Give it one.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4758/4758-1793459008-1643385800.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1793600744,
+    "updated_timestamp": 1793823631,
     "created_timestamp": 1793461115,
-    "description": "[b][color=#ff7700][size=5]For(n)ever Alone - Your Corvette Crew[/size][/color][/b]\n<br />\n<br />Your Corvette has room for a crew. Give it one.\n<br />\n<br />[b][color=#f6b26b]For(n)ever Alone[/color][/b] adds ten configurable, placeable crew posts to the Corvette build menu. Put a Korvax at a workstation, let a Gek keep an eye on the cargo, or invite a Vy'keen, Traveller or custom Anomaly aboard. Crew members stay where you place them, use the game's native idle behaviour, and remain attached to the Corvette as it moves.\n<br />\n<br />[b][color=#f6b26b]This first release is about stationary crew.[/color][/b] Free roaming and routes through connected Habitats are being researched separately for a future version.\n<br />\n<br />[b][color=#ff7700][size=4]Build your crew[/size][/color][/b]\n<br />[list]\n<br />[*]Ten independently configurable crew slots in their own Corvette build-menu category.[/*]\n<br />[*]Those ten NPC can be placed on each of your corvettes simultaneously.[/*]\n<br />[*]Choose Korvax, Gek, Vy'keen, Traveller or a custom Anomaly for each slot.[/*]\n<br />[*]Set an appearance seed. Custom Anomalies also have supported head, armour and colour choices. Other species do not yet have separate head/armour/colour selectors.[/*]\n<br />[*]Start with empty hands, or choose a tablet, staff, cup, container, box, holographic ship, frigate, solar system, multitool or drone. These choices come from the game's existing NPC prop list; the multitool option is a hologram, not a randomly generated weapon.[/*]\n<br />[*]Set an optional build-menu name and service for each slot.[/*]\n<br />[*]Place crew in the Corvette interior without replacing existing Habitat or Pad objects.[/*]\n<br />[*]Each post costs 1 Quantum Computer, 30 Carbon Nanotubes and 50 Wiring Loom.[/*]\n<br />[/list]\n<br />Crew Studio is a separate Windows configuration tool included with the mod. It has a dark interface in English, German, Spanish and French, plus a rotatable and zoomable 3D model preview. Use the dice controls to generate a seed or build-menu name, or randomize all configurable values of the selected NPC at once. The preview is a visual guide: the exact procedural seed, pose and held object may differ in game. Crew Studio keeps profiles in a separate user-data folder so a mod update does not erase your choices.\n<br />\n<br />[b][color=#ff7700][size=4]Optional NPC services[/size][/color][/b]\n<br />\n<br />Choose one service per crew slot, or leave the NPC without an interaction:\n<br />[list]\n<br />[*]Fleet management overview[/*]\n<br />[*]Planetary Probe[/*]\n<br />[*]Galactic Trade Terminal[/*]\n<br />[*]Galaxy Teleporter[/*]\n<br />[*]Quicksilver vendor[/*]\n<br />[*]Cronus food service[/*]\n<br />[*]Guild Envoy[/*]\n<br />[*]Mission Agent[/*]\n<br />[/list]\n<br />These use existing game interactions and may depend on your current game state. Fleet management opens the fleet overview; [b][color=#f6b26b]it does not dispatch expeditions or open individual expedition reports[/color][/b]. The Cartographer is not offered because it did not work reliably.\n<br />\n<br />[b][color=#ff7700][size=4]Installation[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*]Back up the save you intend to use, then close No Man's Sky and Crew Studio.[/*]\n<br />[*]Remove or back up an older [b][color=#f6b26b]CorvetteNPCCrew_v...[/color][/b] folder outside [b][color=#f6b26b]GAMEDATA/MODS[/color][/b]. Keep only one active Crew version.[/*]\n<br />[*]Extract the ZIP and copy its complete [b][color=#f6b26b]CorvetteNPCCrew_v1.0[/color][/b] folder into [b][color=#f6b26b]No Man's Sky/GAMEDATA/MODS/[/color][/b].[/*]\n<br />[*]Open [b][color=#f6b26b]GAMEDATA/MODS/CorvetteNPCCrew_v1.0/CREW_CONFIGURATOR/Start_Crew_Configurator.cmd[/color][/b], set up your slots and choose [b][color=#f6b26b]Save to Mod[/color][/b] before starting NMS.[/*]\n<br />[*]Build the crew posts from their Corvette build-menu category.[/*]\n<br />[/list]\n<br />The ZIP contains only the mod folder. Keep [b][color=#f6b26b]GAMEDATA/MODS/_CorvetteNPCCrew_UserData[/color][/b] when updating; it stores your profiles separately. The game mod needs no installer, pyMHF hook, save editor, AMUMSS or local AI model. Crew Studio is a Windows tool; its interactive 3D preview requires Microsoft Edge/WebView2.\n<br />\n<br />[b][color=#f6b26b]On first installation: [/color][/b]run the [b][color=#f6b26b]Start_Crew_Configurator.cmd[/color][/b] at least once for the NPC to get a random config and show up.\n<br />\n<br />[b][color=#ff7700][size=4]Compatibility and removal[/size][/color][/b]\n<br />\n<br />For(n)ever Alone uses its own crew IDs and custom resources. \n<br />Compatibility with every other table-editing mod or future NMS version is not guaranteed.\n<br />\n<br />To uninstall, remove your placed crew posts in game first, save and close NMS, then remove [b][color=#f6b26b]CorvetteNPCCrew_v1.0[/color][/b] from GAMEDATA/MODS. The separate [b][color=#f6b26b]_CorvetteNPCCrew_UserData[/color][/b] folder holds your profiles; keep it if you may reinstall. Multiplayer behaviour with unmodded clients has not been separately validated. Sharing a Corvette does not distribute the mod to other players.\n<br />\n<br />[b][color=#ff7700][size=4]Current limits[/size][/color][/b]\n<br />[list]\n<br />[*]Crew members stay at their placed positions; they do not navigate between rooms or sit in chairs in v1.0.[/*]\n<br />[*]Native idle behaviour is used; custom H/I gestures and freely selectable animation sequences are not part of this release.[/*]\n<br />[*]Exact seed appearance is not rendered in Crew Studio's preview.[/*]\n<br />[*]Fleet expedition dispatch and individual expedition reports are unavailable.[/*]\n<br />[*]Placement, interaction and persistence should be rechecked after major NMS updates.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Release status, credits and feedback[/size][/color][/b]\n<br />\n<br />Built with the NMS modding toolchain, including AMUMSS/MBINCompiler and NMSPE. Crew Studio uses Three.js for its 3D preview; its license is included with the tool. Development assistance was provided by ChatGPT.\n<br />\n<br />Bug reports are most useful with the NMS version, installed mods, selected crew species/prop/service, the steps to reproduce and whether the issue persists after reloading. Screenshots are welcome, especially of your crews in custom Habitat layouts.",
+    "description": "[b][color=#ff7700][size=5]For(n)ever Alone - Your Corvette Crew[/size][/color][/b]\n<br />\n<br />Your Corvette has room for a crew. Give it one.\n<br />\n<br />[b][color=#f6b26b]For(n)ever Alone[/color][/b] adds a configurable crew roster to the Corvette build menu. A new configuration starts with one Korvax; Crew Studio lets you add more members whenever you want, up to 32 active crew slots. Put a Korvax at a workstation, let a Gek keep an eye on the cargo, or invite a Vy'keen, Traveller or custom Anomaly aboard. Crew members stay where you place them, use the game's native idle behaviour, and remain attached to the Corvette as it moves.\n<br />\n<br />[b][color=#f6b26b]This release focuses on stationary crew.[/color][/b] Free roaming and routes through connected Habitats are being researched separately.\n<br />\n<br />[b][color=#ff7700][size=4]Build your crew[/size][/color][/b]\n<br />[list]\n<br />[*]Start with one crew member and add or remove members in Crew Studio. Up to 32 slots can be active at once.[/*]\n<br />[*]Only active crew slots appear in their own Corvette build-menu category after you save the configuration.[/*]\n<br />[*]Choose Korvax, Gek, Vy'keen, Traveller or a custom Anomaly for each slot.[/*]\n<br />[*]Set an appearance seed. Custom Anomalies also have supported head, armour and colour choices. Other species do not yet have separate head/armour/colour selectors.[/*]\n<br />[*]Start with empty hands, or choose a tablet, staff, cup, container, box, holographic ship, frigate, solar system, multitool or drone. These choices come from the game's existing NPC prop list; the multitool option is a hologram, not a randomly generated weapon.[/*]\n<br />[*]Set an optional build-menu name and service for each slot.[/*]\n<br />[*]Place crew in the Corvette interior without replacing existing Habitat or Pad objects.[/*]\n<br />[*]Each post costs 1 Quantum Computer, 30 Carbon Nanotubes and 50 Wiring Loom.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Crew Studio[/size][/color][/b]\n<br />\n<br />Crew Studio is the separate Windows configuration tool included with the mod. Its interface is available in English, German, Spanish, French and Simplified Chinese [b](AI translated; not independently reviewed)[/b]. It includes a rotatable and zoomable 3D model preview. The dice controls generate a seed or build-menu name, or randomize all configurable values of the selected NPC. The preview is a visual guide: the exact procedural seed, pose and held object may differ in game.\n<br />\n<br />Use the button below the crew list to add a member; use the red X on a member to remove that slot. Close No Man's Sky, then click [b][color=#f6b26b]Save to Mod[/color][/b]. The build menu will reflect your active slots the next time you start the game.\n<br />\n<br />[b][color=#f6b26b]Removing a slot does not delete NPCs already placed in a Corvette.[/color][/b] Remove those NPCs in game if you no longer want them. A removed slot becomes available again; if you reuse its ID, any NPC already placed with that ID will take on the new configuration.\n<br />\n<br />Crew Studio stores profiles separately in [b][color=#f6b26b]GAMEDATA/MODS/_CorvetteNPCCrew_UserData[/color][/b] and makes backups when saving. Keep that folder when updating.\n<br />\n<br />[b][color=#ff7700][size=4]Optional NPC services[/size][/color][/b]\n<br />\n<br />Choose one service per crew slot, or leave the NPC without an interaction:\n<br />[list]\n<br />[*]Fleet management overview[/*]\n<br />[*]Planetary Probe[/*]\n<br />[*]Galactic Trade Terminal[/*]\n<br />[*]Galaxy Teleporter[/*]\n<br />[*]Quicksilver vendor[/*]\n<br />[*]Cronus food service[/*]\n<br />[*]Guild Envoy[/*]\n<br />[*]Mission Agent[/*]\n<br />[/list]\n<br />These use existing game interactions and may depend on your current game state. Fleet management opens the fleet overview; [b][color=#f6b26b]it does not dispatch expeditions or open individual expedition reports[/color][/b]. The Cartographer is not offered because it did not work reliably.\n<br />\n<br />[b][color=#ff7700][size=4]Installation and updates[/size][/color][/b]\n<br />[list]\n<br />[*]Back up the save you intend to use, then close No Man's Sky and Crew Studio.[/*]\n<br />[*]Remove or back up an older [b][color=#f6b26b]CorvetteNPCCrew_v...[/color][/b] folder outside [b][color=#f6b26b]GAMEDATA/MODS[/color][/b]. Keep only one active Crew version. [b]Do not delete _CorvetteNPCCrew_UserData.[/b][/*]\n<br />[*]Extract the ZIP and copy its complete [b][color=#f6b26b]CorvetteNPCCrew[/color][/b] folder into [b][color=#f6b26b]No Man's Sky/GAMEDATA/MODS/[/color][/b].[/*]\n<br />[*]Before starting NMS, open [b][color=#f6b26b]CorvetteNPCCrew/CREW_CONFIGURATOR/Start_Crew_Configurator.cmd[/color][/b] and click [b][color=#f6b26b]Save to Mod[/color][/b]. On an update, this restores your existing roster to the new mod files; on a fresh installation, it sets up your first member.[/*]\n<br />[*]Start NMS and build your active crew posts from their Corvette build-menu category.[/*]\n<br />[/list]\n<br />[b][color=#f6b26b]Important for updates:[/color][/b] The ZIP contains a one-member default. Your existing profiles are kept in the separate user-data folder, but the game cannot read that JSON directly. You must save once in Crew Studio [b]before launching NMS[/b] so the mod's build-menu files match your roster.\n<br />\n<br />The ZIP contains only the mod folder. The game mod needs no installer, pyMHF hook, save editor, AMUMSS or local AI model. Crew Studio is a Windows tool; its interactive 3D preview requires Microsoft Edge/WebView2.\n<br />\n<br />[b][color=#ff7700][size=4]Compatibility and removal[/size][/color][/b]\n<br />\n<br />For(n)ever Alone uses its own crew IDs and custom resources. Compatibility with every other table-editing mod or future NMS version is not guaranteed.\n<br />\n<br />To uninstall, remove your placed crew posts in game first, save and close NMS, then remove [b][color=#f6b26b]CorvetteNPCCrew[/color][/b] from GAMEDATA/MODS. Keep [b][color=#f6b26b]_CorvetteNPCCrew_UserData[/color][/b] if you may reinstall. Multiplayer behaviour with unmodded clients has not been separately validated. Sharing a Corvette does not distribute the mod to other players.\n<br />\n<br />[b][color=#ff7700][size=4]Current limits[/size][/color][/b]\n<br />[list]\n<br />[*]Crew members stay at their placed positions; they do not navigate between rooms or sit in chairs.[/*]\n<br />[*]Native idle behaviour is used; custom H/I gestures and freely selectable animation sequences are not part of this release.[/*]\n<br />[*]Exact seed appearance is not rendered in Crew Studio's preview.[/*]\n<br />[*]Fleet expedition dispatch and individual expedition reports are unavailable.[/*]\n<br />[*]Removing a crew slot in Crew Studio does not remove already placed NPCs.[/*]\n<br />[*]Placement, interaction and persistence should be rechecked after major NMS updates.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Credits and feedback[/size][/color][/b]\n<br />\n<br />Built with the NMS modding toolchain, including AMUMSS/MBINCompiler and NMSPE. Crew Studio uses Three.js for its 3D preview; its license is included with the tool. Development assistance was provided by ChatGPT.\n<br />\n<br />Bug reports are most useful with the NMS version, installed mods, selected crew species/prop/service, the steps to reproduce and whether the issue persists after reloading. Screenshots are welcome, especially of your crews in custom Habitat layouts.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -706303,9 +706499,9 @@
         "file_id": 50329,
         "name": "CorvetteNPCCrew V1.0.1",
         "version": "1.0.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 28117,
         "file_name": "CorvetteNPCCrew V1.0.1 4758 1.0.1 2026-11-02T06-25Z xDwj9UscS.zip",
         "detected_file_extension": "zip",
@@ -706318,11 +706514,44 @@
         "size_in_bytes": 28792302,
         "changelog_html": "Added Chinese translation as requested",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/75/e5/9b/75e59b2b-103f-44c6-a083-624f225bde7f"
+      },
+      {
+        "id": [
+          50445,
+          1634
+        ],
+        "uid": 7017976612109,
+        "file_id": 50445,
+        "name": "CorvetteNPCCrew",
+        "version": "1.0.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 28267,
+        "file_name": "CorvetteNPCCrew 4758 1.0.2 2026-11-04T20-20Z EwAQ86nLl.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793823631,
+        "uploaded_time": "2026-11-04T20:20:31.000+00:00",
+        "mod_version": "1.0.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c3c6db5cfa9064bbcf1648526fa1447f6d0c7896f846bda9aa2488d8134e124e",
+        "description": "",
+        "size_kb": 28267,
+        "size_in_bytes": 28945516,
+        "changelog_html": "Replaced the fixed ten-member roster with a flexible list.\nNew configurations start with one crew member; up to 32 can be active at once (&gt;32 can lead to instability).\nAdded a button to create crew members and a red X to remove them from Crew Studio and the build menu.\nRemoved slots can be reused, so deleting members frees capacity again.\nIMPORTANT: After this update, open Crew Studio and click Save to Mod &gt;&gt; before &lt;&lt; launching NMS.\nAfter the update: already placed NPCs stay in the Corvette when their Crew Studio slot is removed. (Remove them in game if unwanted; reusing their ID changes their configuration.)",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a3/7d/b4/a37db45b-d415-4ddc-bbf7-6e85bbf7cd47"
       }
     ],
     "changelogs": {
       "1.0.1": [
         "Added Chinese translation as requested"
+      ],
+      "1.0.2": [
+        "Replaced the fixed ten-member roster with a flexible list.",
+        "New configurations start with one crew member; up to 32 can be active at once (&gt;32 can lead to instability).",
+        "Added a button to create crew members and a red X to remove them from Crew Studio and the build menu.",
+        "Removed slots can be reused, so deleting members frees capacity again.",
+        "IMPORTANT: After this update, open Crew Studio and click Save to Mod &gt;&gt; before &lt;&lt; launching NMS.",
+        "After the update: already placed NPCs stay in the Corvette when their Crew Studio slot is removed. (Remove them in game if unwanted; reusing their ID changes their configuration.)"
       ]
     }
   },
@@ -706551,7 +706780,7 @@
     "author": "Xdiablo6six6X",
     "updated_timestamp": 1793643908,
     "created_timestamp": 1793500634,
-    "description": "\n<br />[b][size=5]Description[/size][/b]\n<br />[b]Diablos Black Hole[/b] gives black-hole encounters a new look with a sculpted 3D model, flowing folds, softer edges, and a distinctive accretion disc.\n<br />This is a standalone visual mod. No overhaul is required.\n<br />[heading]Installation instructions[/heading]\n<br />[list=1]\n<br />[*]Close No Man’s Sky and back up your saves.[/*]\n<br />[*]Open the game’s installation folder. On Steam, use [b]Manage → Browse local files[/b].[/*]\n<br />[*]Open [b]GAMEDATA → MODS[/b]. Create the MODS folder if needed.[/*]\n<br />[*]If upgrading, move the [b]entire previous Diablos_Black_Hole folder outside MODS[/b] and keep it as a backup. [b]Do not merge the new version into the old folder[/b], as this can leave files from earlier versions active.[/*]\n<br />[*]Extract the downloaded ZIP and place [b]Diablos_Black_Hole[/b] directly inside [b]GAMEDATA&#92;MODS[/b]. The [b]MODELS[/b], [b]TEXTURES[/b], and [b]SHADERS[/b] folders should sit directly inside it.[/*]\n<br />[*]Launch the game and enable mods and this mod’s entry through the game’s mod controls.[/*]\n<br />[/list]Install the extracted folder, not the ZIP itself. Keep only one version of Diablos Black Hole active.\n<br />To uninstall, close the game and move the mod folder outside MODS.\n<br />[heading]Main features[/heading]\n<br />[list]\n<br />[*][b]Sculpted 3D black hole:[/b] A custom model with folded forms, softer edges, and a detailed accretion-disc effect.[/*]\n<br />[/list][heading]Requirements[/heading]\n<br />[list]\n<br />[*][b]No Man’s Sky on PC[/b], with mods enabled.[/*]\n<br />[*]Built against [b]NMS executable build 183877 / Steam build 26305319[/b]. Compatibility with other builds has not been verified.[/*]\n<br />[*][b]No additional mods are required.[/b][/*]\n<br />[/list]Other mods that replace the same black-hole scene or planet shaders may conflict. To retain the default backgrounds, disable other mods that replace the sky or galaxy-map background.\n<br />[b]Current status: preview build.[/b] This revision is awaiting a separate in-game verification pass.\n<br />",
+    "description": "\n<br />[b][size=5]Description[/size][/b]\n<br />[b]Diablos Black Hole[/b] gives black-hole encounters a new look with a sculpted 3D model, flowing folds, softer edges, and a distinctive accretion disc.\n<br />This is a standalone visual mod. No overhaul is required.\n<br />[heading]Installation instructions[/heading]\n<br />[list=1]\n<br />[*]Close No Man’s Sky and back up your saves.[/*]\n<br />[*]Open the game’s installation folder. On Steam, use [b]Manage → Browse local files[/b].[/*]\n<br />[*]Open [b]GAMEDATA → MODS[/b]. Create the MODS folder if needed.[/*]\n<br />[*]If upgrading, move the [b]entire previous Diablos_Black_Hole folder outside MODS[/b] and keep it as a backup. [b]Do not merge the new version into the old folder[/b], as this can leave files from earlier versions active.[/*]\n<br />[*]Extract the downloaded ZIP and place [b]Diablos_Black_Hole[/b] directly inside [b]GAMEDATA&#92;MODS[/b]. The [b]MODELS[/b], [b]TEXTURES[/b], and [b]SHADERS[/b] folders should sit directly inside it.[/*]\n<br />[*]Launch the game and enable mods and this mod’s entry through the game’s mod controls.[/*]\n<br />[/list]Install the extracted folder, not the ZIP itself. Keep only one version of Diablos Black Hole active.\n<br />To uninstall, close the game and move the mod folder outside MODS.\n<br />[heading]Main features[/heading]\n<br />[list]\n<br />[*][b]Sculpted 3D black hole:[/b] A custom model with folded forms, softer edges, and a detailed accretion-disc effect.[/*]\n<br />[/list][heading]Requirements[/heading]\n<br />[list]\n<br />[*][b]No Man’s Sky on PC[/b], with mods enabled.[/*]\n<br />[*]Built against [b]NMS executable build 183877 / Steam build 26305319[/b]. Compatibility with other builds has not been verified.[/*]\n<br />[*][b]No additional mods are required.[/b][/*]\n<br />[/list]Other mods that replace the same black-hole scene or planet shaders may conflict. To retain the default backgrounds, disable other mods that replace the sky or galaxy-map background.\n<br />[b]Current status: preview build.[/b] This revision is awaiting a separate in-game verification pass.\n<br />\n<br />[size=6]Shout Out[/size]\n<br />[b]WinderTP[/b] for his knowledge/solutions that helped assist in creating this mod.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -707117,12 +707346,12 @@
     "mod_id": 4769,
     "name": "PORTAL GLYPHS - BOOKMARKS",
     "summary": "Quickly enter saved portal addresses from your Imperial Galactic Map bookmarks without manually selecting all 12 glyphs.",
-    "version": "0.6.2",
+    "version": "0.6.6",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4769/4769-1793737425-268148451.png",
     "author": "ersalva",
-    "updated_timestamp": 1793648980,
+    "updated_timestamp": 1793816775,
     "created_timestamp": 1793623067,
-    "description": "[center]\n<br />[size=6][color=#39DDF2][b]PORTAL GLYPHS[/b][/color][/size]\n<br />[size=5][color=#F2C66D][b]— BOOKMARKS —[/b][/color][/size]\n<br />[i]Your favourite destinations. One portal. No more manual glyph entry.[/i]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=4][color=#F2C66D][b]AN IMPERIAL GALACTIC MAP EXTENSION[/b][/color][/size]\n<br />[b]Version 0.6.1 | No Man's Sky | Windows / Steam\n<br />[/b]\n<br />[youtube]XUHi6LtRVZI[/youtube]\n<br />[/center]\n<br />[quote]\n<br />[color=#FFCA70][b]IMPORTANT — IMPERIAL GALACTIC MAP IS REQUIRED[/b][/color]\n<br />[b]Quick Portal Glyphs – Bookmarks is NOT a standalone mod.[/b]\n<br />This extension requires [b]Latest Imperial Galactic Map (IGM)/b] to be installed and working correctly.\n<br />It uses IGM's existing system, favourites and data. Without the compatible IGM core, the extension will not activate.\n<br />[b]Required Mod:[/b] [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] on Nexus[/b][/quote][b][size=5][color=#39DDF2][b]DISCOVER. BOOKMARK. TRAVEL.[/b][/color][/size]\n<br />Exploring the universe is one of the greatest experiences in No Man's Sky. But travelling back to your favourite discoveries shouldn't mean entering twelve portal glyphs manually every single time.\n<br />[b]Quick Portal Glyphs – Bookmarks[/b] extends Imperial Galactic Map with a convenient portal interface, allowing you to select saved destinations and use their portal addresses directly.\n<br />Whether you're returning to a beautiful paradise planet, visiting a distant base or travelling to a favourite discovery, your saved destinations are only a few steps away.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]FEATURES[/b][/color][/size][/b]\n<br />[list]\n<br />[*][b][b]Quick portal address entry[/b]\n<br />Use your saved destinations without manually selecting all twelve glyphs.[/b][/*]\n<br />[*][b][b]Integrated bookmarks[/b]\n<br />Access your favourite locations through a compact interface connected to Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]Native portal interaction[/b]\n<br />Uses the game's internal portal functionality.[/b][/*]\n<br />[*][b][b]12-glyph address support[/b]\n<br />Designed to work with complete portal addresses.[/b][/*]\n<br />[*][b][b]Multiple galaxies[/b]\n<br />Supports destinations across different galaxies, with appropriate destination checks.[/b][/*]\n<br />[*][b][b]Safety checks[/b]\n<br />Checks portal state and destination requirements before attempting address entry.[/b][/*]\n<br />[*][b][b]Manual confirmation[/b]\n<br />Addresses are used through an explicit player action, rather than automatic activation when opening a portal.[/b][/*]\n<br />[*][b][b]Optional extension[/b]\n<br />Remove the extension without uninstalling Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]No save editing[/b]\n<br />Does not directly modify your No Man's Sky save files.[/b][/*]\n<br />[/list][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D][b]HOW IT WORKS[/b][/color][/size]\n<br />[b][color=#39DDF2]01 —  PRESS F8 AND SAVE YOUR DESTINATIONS[/color][/b]\n<br />Use [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] your favourite planets and star systems.\n<br />[b][color=#39DDF2]02 — OPEN A PORTAL[/color][/b]\n<br />Find and activate a planetary portal in No Man's Sky, then open its glyph-entry interface.\n<br />[b][color=#39DDF2]03 — CHOOSE A BOOKMARK[/color][/b]\n<br />Access the compact favourites interface and select your saved destination.\n<br />[b][color=#39DDF2]04 — USE THE ADDRESS[/color][/b]\n<br />Confirm your selection to let the extension enter the portal address through the game's native functionality, subject to its compatibility and safety checks.[/b]\n<br />[center][b]\n<br />[color=#F2C66D][i]Spend less time entering glyphs. Spend more time exploring.[/i][/color]\n<br />[/b][/center]\n<br />[b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]REQUIREMENTS[/b][/color][/size][/b]\n<br />[list]\n<br />[]No Man's Sky — Steam version for Windows. Required Mod: Latest Imperial Galactic Map (IGM) The matching IGM installation, including its main xinput9_1_0.dll.Your existing IGM data and bookmarks.[/list][b][color=#FFCA70][b]Compatibility warning:[/b][/color]\n<br />Each Version update was built specifically for the matching [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] core.\n<br />The extension verifies the exact IGM core build and required APIs. Replacing the main DLL with a different version may prevent the portal extension from loading.\n<br />[b]Do not mix different IGM and Quick Portal Glyphs versions unless their compatibility has been confirmed.[/b]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]INSTALLATION[/b][/color][/size]\n<br />[b]1.[/b] Install the required version of Imperial Galactic Map first: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] on Nexus\n<br />[b]2.[/b] Completely close No Man's Sky.\n<br />[b]3.[/b] Open your No Man's Sky installation directory and locate the [b]Binaries[/b] folder containing NMS.exe.\n<br />[b]4.[/b] Extract the extension ZIP into that directory, preserving its folder structure.\n<br />Your installation should look like this:[/b]\n<br />[code]\n<br />No Man's Sky/\n<br />└── Binaries/\n<br />├── NMS.exe\n<br />├── xinput9_1_0.dll (Imperial Galactic Map)\n<br />├── IGM_Portal.dll (Quick Portal Glyphs)\n<br />└── IGM/ (Existing IGM data)[/code][b][b]5.[/b] Launch No Man's Sky normally through Steam.\n<br />[color=#F2C66D][b]IMPORTANT:[/b][/color] Do not replace the main IGM DLL when installing this extension. Do not delete or overwrite your existing IGM data folder.\n<br />[b]Updating Quick Portal Glyphs:[/b]\n<br />With the game closed, replace only [b]IGM_Portal.dll[/b] with the version compatible with your installed IGM core.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]UNINSTALLATION[/b][/color][/size]\n<br />Quick Portal Glyphs is an optional extension.\n<br />To uninstall it, close No Man's Sky and remove:[/b]\n<br />[code]\n<br />Binaries/IGM_Portal.dll[/code][b]Your main Imperial Galactic Map installation, existing bookmarks and data can remain untouched.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D]COMPATIBILITY &amp; LIMITATIONS[/color][/size]\n<br />- The extension does not bypass the game's glyph knowledge requirements.[]The extension does not modify station ownership, missions or save-game progression.\n<br />- The extension does not include Imperial Galactic Map itself.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2]VERSION HISTORY\n<br />[/color][/size] 0.6.2 --- IGM 0.65  Compatibility[/b]\n<br />[list]\n<br />[*]Quick Portal Glyphs - Bookmarks 0.6.2[/*]\n<br />[*]- Updated for the latest supported No Man’s Sky update.[/*]\n<br />[*]- Requires IGM 0.65.0.[/*]\n<br />[*]- Automatically disables on unsupported game versions.[/*]\n<br />[*]Updating: Close the game and replace only IGM_Portal.dll. Update IGM to 0.65.0 and keep your existing IGM folder to preserve your favourites and settings.[/*]\n<br />[/list][b]\n<br />0.6.1 — IGM 0.64.C Compatibility[/b]\n<br />[list]\n<br />* Updated compatibility with Latest Imperial Galactic Map (IGM)[]Updated the required core dependency verification.Preserved the existing portal behaviour from version 0.6. No intentional changes to portal input or rendering logic.[/list][center][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]PORTAL GLYPHS — BOOKMARKS[/b][/color][/size]\n<br />[color=#F2C66D][i]The universe is yours to rediscover.[/i][/color]\n<br />[b]\n<br />Required Mod: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] — Not a standalone mod.[/b]\n<br />[/b][/center]\n<br />",
+    "description": "[center]\n<br />[size=6][color=#39DDF2][b]PORTAL GLYPHS[/b][/color][/size]\n<br />[size=5][color=#F2C66D][b]— BOOKMARKS —[/b][/color][/size]\n<br />[i]Your favourite destinations. One portal. No more manual glyph entry.[/i]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=4][color=#F2C66D][b]AN IMPERIAL GALACTIC MAP EXTENSION[/b][/color][/size]\n<br />[b]Version 0.6.1 | No Man's Sky | Windows / Steam\n<br />[/b]\n<br />[youtube]XUHi6LtRVZI[/youtube]\n<br />[/center]\n<br />[quote]\n<br />[color=#FFCA70][b]IMPORTANT — IMPERIAL GALACTIC MAP IS REQUIRED[/b][/color]\n<br />[b]Quick Portal Glyphs – Bookmarks is NOT a standalone mod.[/b]\n<br />This extension requires [b]Latest Imperial Galactic Map (IGM)/b] to be installed and working correctly.\n<br />It uses IGM's existing system, favourites and data. Without the compatible IGM core, the extension will not activate.\n<br />[b]Required Mod:[/b] [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] on Nexus[/b][/quote][b][size=5][color=#39DDF2][b]DISCOVER. BOOKMARK. TRAVEL.[/b][/color][/size]\n<br />Exploring the universe is one of the greatest experiences in No Man's Sky. But travelling back to your favourite discoveries shouldn't mean entering twelve portal glyphs manually every single time.\n<br />[b]Quick Portal Glyphs – Bookmarks[/b] extends Imperial Galactic Map with a convenient portal interface, allowing you to select saved destinations and use their portal addresses directly.\n<br />Whether you're returning to a beautiful paradise planet, visiting a distant base or travelling to a favourite discovery, your saved destinations are only a few steps away.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]FEATURES[/b][/color][/size][/b]\n<br />[list]\n<br />[*][b][b]Quick portal address entry[/b]\n<br />Use your saved destinations without manually selecting all twelve glyphs.[/b][/*]\n<br />[*][b][b]Integrated bookmarks[/b]\n<br />Access your favourite locations through a compact interface connected to Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]Native portal interaction[/b]\n<br />Uses the game's internal portal functionality.[/b][/*]\n<br />[*][b][b]12-glyph address support[/b]\n<br />Designed to work with complete portal addresses.[/b][/*]\n<br />[*][b][b]Multiple galaxies[/b]\n<br />Supports destinations across different galaxies, with appropriate destination checks.[/b][/*]\n<br />[*][b][b]Safety checks[/b]\n<br />Checks portal state and destination requirements before attempting address entry.[/b][/*]\n<br />[*][b][b]Manual confirmation[/b]\n<br />Addresses are used through an explicit player action, rather than automatic activation when opening a portal.[/b][/*]\n<br />[*][b][b]Optional extension[/b]\n<br />Remove the extension without uninstalling Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]No save editing[/b]\n<br />Does not directly modify your No Man's Sky save files.[/b][/*]\n<br />[/list][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D][b]HOW IT WORKS[/b][/color][/size]\n<br />[b][color=#39DDF2]01 —  PRESS F8 AND SAVE YOUR DESTINATIONS[/color][/b]\n<br />Use [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] your favourite planets and star systems.\n<br />[b][color=#39DDF2]02 — OPEN A PORTAL[/color][/b]\n<br />Find and activate a planetary portal in No Man's Sky, then open its glyph-entry interface.\n<br />[b][color=#39DDF2]03 — CHOOSE A BOOKMARK[/color][/b]\n<br />Access the compact favourites interface and select your saved destination.\n<br />[b][color=#39DDF2]04 — USE THE ADDRESS[/color][/b]\n<br />Confirm your selection to let the extension enter the portal address through the game's native functionality, subject to its compatibility and safety checks.[/b]\n<br />[center][b]\n<br />[color=#F2C66D][i]Spend less time entering glyphs. Spend more time exploring.[/i][/color]\n<br />[/b][/center]\n<br />[b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]REQUIREMENTS[/b][/color][/size][/b]\n<br />[list]\n<br />[]No Man's Sky — Steam version for Windows. Required Mod: Latest Imperial Galactic Map (IGM) The matching IGM installation, including its main xinput9_1_0.dll.Your existing IGM data and bookmarks.[/list][b][color=#FFCA70][b]Compatibility warning:[/b][/color]\n<br />Each Version update was built specifically for the matching [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] core.\n<br />The extension verifies the exact IGM core build and required APIs. Replacing the main DLL with a different version may prevent the portal extension from loading.\n<br />[b]Do not mix different IGM and Quick Portal Glyphs versions unless their compatibility has been confirmed.[/b]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]INSTALLATION[/b][/color][/size]\n<br />[b]1.[/b] Install the required version of Imperial Galactic Map first: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] on Nexus\n<br />[b]2.[/b] Completely close No Man's Sky.\n<br />[b]3.[/b] Open your No Man's Sky installation directory and locate the [b]Binaries[/b] folder containing NMS.exe.\n<br />[b]4.[/b] Extract the extension ZIP into that directory, preserving its folder structure.\n<br />Your installation should look like this:[/b]\n<br />[code]\n<br />No Man's Sky/\n<br />└── Binaries/\n<br />├── NMS.exe\n<br />├── xinput9_1_0.dll (Imperial Galactic Map)\n<br />├── IGM_Portal.dll (Quick Portal Glyphs)\n<br />└── IGM/ (Existing IGM data)[/code][b][b]5.[/b] Launch No Man's Sky normally through Steam.\n<br />[color=#F2C66D][b]IMPORTANT:[/b][/color] Do not replace the main IGM DLL when installing this extension. Do not delete or overwrite your existing IGM data folder.\n<br />[b]Updating Quick Portal Glyphs:[/b]\n<br />With the game closed, replace only [b]IGM_Portal.dll[/b] with the version compatible with your installed IGM core.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]UNINSTALLATION[/b][/color][/size]\n<br />Quick Portal Glyphs is an optional extension.\n<br />To uninstall it, close No Man's Sky and remove:[/b]\n<br />[code]\n<br />Binaries/IGM_Portal.dll[/code][b]Your main Imperial Galactic Map installation, existing bookmarks and data can remain untouched.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D]COMPATIBILITY &amp; LIMITATIONS[/color][/size]\n<br />- The extension does not bypass the game's glyph knowledge requirements.[]The extension does not modify station ownership, missions or save-game progression.\n<br />- The extension does not include Imperial Galactic Map itself.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2]VERSION HISTORY[/color]\n<br />[/size] 0.6.2 --- IGM 0.65  Compatibility[/b]\n<br />[list]\n<br />[*]Quick Portal Glyphs - Bookmarks 0.6.2[/*]\n<br />[*]- Updated for the latest supported No Man’s Sky update.[/*]\n<br />[*]- Requires IGM 0.65.0.[/*]\n<br />[*]- Automatically disables on unsupported game versions.[/*]\n<br />[*]Updating: Close the game and replace only IGM_Portal.dll. Update IGM to 0.65.0 and keep your existing IGM folder to preserve your favourites and settings.[/*]\n<br />[/list][b]\n<br />0.6.1 — IGM 0.64.C Compatibility[/b]\n<br />[list]\n<br />* Updated compatibility with Latest Imperial Galactic Map (IGM)[]Updated the required core dependency verification.Preserved the existing portal behaviour from version 0.6. No intentional changes to portal input or rendering logic.[/list][center][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]PORTAL GLYPHS — BOOKMARKS[/b][/color][/size]\n<br />[color=#F2C66D][i]The universe is yours to rediscover.[/i][/color]\n<br />[b]\n<br />Required Mod: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] — Not a standalone mod.[/b]\n<br />[/b][/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -707160,9 +707389,9 @@
         "file_id": 50347,
         "name": "Quick Portal Glyphs Bookmarks 0.6.2",
         "version": "0.6.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 121,
         "file_name": "Quick Portal Glyphs Bookmarks 0.6.2 4769 0.6.2 2026-11-02T19-49Z 58qnW1yHn.zip",
         "detected_file_extension": "zip",
@@ -707175,6 +707404,31 @@
         "size_in_bytes": 124616,
         "changelog_html": "Quick Portal Glyphs - Bookmarks 0.6.2\n- Updated for the latest supported No Man’s Sky update.\n- Requires IGM 0.65.0.\n- Automatically disables on unsupported game versions.\nUpdating: Close the game and replace only IGM_Portal.dll. Update IGM to 0.65.0 and keep your existing IGM folder to preserve your favourites and settings.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/83/78/b7/8378b7ce-d904-45b8-8616-ef05693ad2d0"
+      },
+      {
+        "id": [
+          50443,
+          1634
+        ],
+        "uid": 7017976612107,
+        "file_id": 50443,
+        "name": "Quick Portal Glyphs Bookmarks 0.6.6",
+        "version": "0.6.6",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 123,
+        "file_name": "Quick Portal Glyphs Bookmarks 0.6.6 4769 0.6.6 2026-11-04T18-26Z UKXVZq4Ru.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793816775,
+        "uploaded_time": "2026-11-04T18:26:15.000+00:00",
+        "mod_version": "0.6.6",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a153207a7e0c30d1f34250eabd5fde3c690bae357a1ccfc4030e126eeeb60052",
+        "description": "-[b]Requires [url=https://www.nexusmods.com/nomanssky/mods/4756]newest Imperial galactic map IGM[/url][/b]<br />Install IGM_Portal.dll on [b]Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries[/b] <br />[b][size=4]Keep your existing IGM folder when updating.[/size][/b]",
+        "size_kb": 123,
+        "size_in_bytes": 126222,
+        "changelog_html": "Quick Portal Glyphs – Bookmarks 0.6.6\n- Added Russian language support, following IGM’s selected language.\n- Improved text rendering efficiency through font caching.\n- Centralised portal compatibility data to simplify maintenance after future game updates.\n- Synchronised version numbering with IGM 0.66.\n- Preserved the compact favourites panel, manual glyph entry and existing portal controls.\nRequires Newest Imperial galactic map IGM",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a2/5d/a8/a25da854-af66-44d5-a6b8-913fc6f76dbf"
       }
     ],
     "changelogs": {
@@ -707184,6 +707438,15 @@
         "- Requires IGM 0.65.0.",
         "- Automatically disables on unsupported game versions.",
         "Updating: Close the game and replace only IGM_Portal.dll. Update IGM to 0.65.0 and keep your existing IGM folder to preserve your favourites and settings."
+      ],
+      "0.6.6": [
+        "Quick Portal Glyphs – Bookmarks 0.6.6",
+        "- Added Russian language support, following IGM’s selected language.",
+        "- Improved text rendering efficiency through font caching.",
+        "- Centralised portal compatibility data to simplify maintenance after future game updates.",
+        "- Synchronised version numbering with IGM 0.66.",
+        "- Preserved the compact favourites panel, manual glyph entry and existing portal controls.",
+        "Requires Newest Imperial galactic map IGM"
       ]
     }
   }
