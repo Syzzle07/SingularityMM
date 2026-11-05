@@ -26484,12 +26484,12 @@
     "mod_id": 893,
     "name": "Quieter Customiser",
     "summary": "Disables the constantly moving robotic arms and sounds while using the appearance customiser.",
-    "version": "3.6",
+    "version": "3.7",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/893/893-1663675315-254647366.jpeg",
     "author": "JJHookah",
-    "updated_timestamp": 1789218195,
+    "updated_timestamp": 1793863534,
     "created_timestamp": 1539694132,
-    "description": "Quieter Customiser  \n<br />[color=#00ff00]Version 3.6[/color]\n<br />Author JJhookah                  \n<br />                \n<br />[color=#00ffff]                                                     Optional Quieter Space Station Overseer and Quieter Nexus Core versions available.\n<br />                                                                                               See below for details.[/color]\n<br />\n<br />Disables the constantly moving robotic arms and sounds while using the appearance customiser.\n<br />V 1.2 now disables the robotic arms completely.\n<br />\n<br />Install\n<br />Step 1 : Extract from zip.\n<br />Step 2 : Open the extracted unzipped folder and copy Quieter.Customiser folder to No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Create a Mods folder if you don't already have one.\n<br />\n<br />Uninstall\n<br />Delete Quieter.Customiser folder from No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Made with TubOcrisco's excellent NMS MODDING STATION.\n<br />Thanks to monkeyman192 for updating compilers.\n<br />\n<br />Modifies: CHARCUSTOMISER.ENTITY.MBIN\n<br />                 CHARCUSTOMISER.ENTITY.MBIN { TYPEB }\n<br />[color=#00ff00][color=#f4f4f4]V 1.1[/color]\n<br />[color=#f4f4f4]Updated for 1.7[color=#efefef]1[/color][/color]\n<br />\n<br />[color=#f4f4f4]V 1.2[/color]\n<br />[color=#f4f4f4]Updated for Beyond.[/color][/color]\n<br />\n<br />[color=#00ff00][color=#00ff00][color=#f4f4f4]V 1.3[/color]\n<br />[color=#f4f4f4]Updated for Endurance.[/color][/color][/color]\n<br />\n<br />[color=#f4f4f4]V 1.4\n<br />Updated for Waypoint.\n<br />\n<br />V 1.5\n<br />Updated for Fractal.\n<br />\n<br />V 1.6\n<br />Updated for Interceptor.[/color]\n<br />\n<br />[color=#f4f4f4]V 1.7\n<br />Updated for Singularity.\n<br />\n<br />V 1.8\n<br />Updated for Echoes.[/color]\n<br />\n<br />[color=#f4f4f4]V 1.9[/color]\n<br />[color=#f4f4f4]Updated for Omega.\n<br />\n<br />V 2.0[/color]\n<br />[color=#f4f4f4]Updated for Orbital.[/color]\n<br />\n<br />[color=#00ffff]12/4/2024[/color][color=#f4f4f4]\n<br />Added optional \"Quieter Overseer\" as requested by [url=https://www.nexusmods.com/nomanssky/users/77584753]kajonoszuk [/url]in comments.\n<br />Quieter Overseer disables the constant movement and sounds of the station core overseer in space stations.\n<br />\n<br />V 2.1[/color]\n<br />[color=#f4f4f4]Compatibility update for both Quieter Customiser and Quieter Overseer { V 1.1 } for Orbital 4.65\n<br />Special Thanks again to Monkeyman192 and his team for updating compilers and Babscoole for Lua's\n<br />\n<br />V 2.2\n<br />Updated for Adrift   { Quieter Customiser and Quieter Overseer }\n<br />\n<br />V 2.3\n<br />Updated for Worlds. { Both mods }\n<br />\n<br />V 2.4\n<br />Fix for mod not working with new space station appearance customiser.\n<br />\n<br />V 2.5\n<br />Updated for Worlds 2     { Quieter Customiser and Quieter Overseer }\n<br />\n<br />V 2.6\n<br />Compatibility update for Worlds 2 / 5.57\n<br />\n<br />V 2.7\n<br />Updated for Beacon.\n<br />\n<br />V 2.8\n<br />Compatibility update for Beacon 5.75\n<br />Added optional \"Quieter Nexus Core\" as requested by [url=https://next.nexusmods.com/profile/Weezlenut?pk_vid=86f33d953d247bf11754384404caa43d]Weezlenut[/url] in comments.\n<br />\n<br />V 2.9\n<br />Updated for Voyagers.\n<br />\n<br />V 3.0\n<br />Compatibility update for Voyagers 6.02\n<br />{ + Quieter Overseer and Quieter Nexus Core }\n<br />\n<br />V 3.1\n<br /> Updated for Breach 6.11\n<br />{ + Quieter [/color][color=#f4f4f4]Overseer [/color][color=#f4f4f4]and Quieter Nexus Core }\n<br />\n<br />V 3.2\n<br />Updated for Remnant.\n<br />{ + Quieter Overseer and Quieter Nexus Core }[/color]\n<br />\n<br />[color=#f4f4f4]V 3.3\n<br />Updated for Xeno Arena.\n<br />{ + Quieter Nexus Core }[/color]\n<br />\n<br />[color=#f4f4f4]V 3.4[/color]\n<br />[color=#f4f4f4]Updated for Swarm.[/color]\n<br />[color=#f4f4f4]{ + Quieter Nexus Core }[/color]\n<br />\n<br />[color=#00ffff]3/06/2026[/color]\n<br />[color=#f4f4f4]Update for Quieter Nexus Core V 1.7 for game version 6.43[/color]\n<br />\n<br />[color=#f4f4f4]V 3.5[/color]\n<br />[color=#f4f4f4]Compatibility update for 6.44[/color]\n<br />[color=#f4f4f4]{ +Quieter Nexus Core }[/color]\n<br />\n<br />[color=#00ff00]V 3.6\n<br />Updated for Cosmos.\n<br />{ + Quieter Overseer and Quieter Nexus Core } [/color]",
+    "description": "Quieter Customiser  \n<br />[color=#00ff00]Version 3.7[/color]\n<br />Author JJhookah                  \n<br />                \n<br />[color=#00ffff]                                                     Optional Quieter Space Station Overseer and Quieter Nexus Core versions available.\n<br />                                                                                               See below for details.[/color]\n<br />\n<br />Disables the constantly moving robotic arms and sounds while using the appearance customiser.\n<br />V 1.2 now disables the robotic arms completely.\n<br />\n<br />Install\n<br />Step 1 : Extract from zip.\n<br />Step 2 : Open the extracted unzipped folder and copy Quieter.Customiser folder to No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Create a Mods folder if you don't already have one.\n<br />\n<br />Uninstall\n<br />Delete Quieter.Customiser folder from No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Made with TubOcrisco's excellent NMS MODDING STATION.\n<br />Thanks to monkeyman192 for updating compilers.\n<br />\n<br />Modifies: CHARCUSTOMISER.ENTITY.MBIN\n<br />                 CHARCUSTOMISER.ENTITY.MBIN { TYPEB }\n<br />[color=#00ff00][color=#f4f4f4]V 1.1[/color]\n<br />[color=#f4f4f4]Updated for 1.7[color=#efefef]1[/color][/color]\n<br />\n<br />[color=#f4f4f4]V 1.2[/color]\n<br />[color=#f4f4f4]Updated for Beyond.[/color][/color]\n<br />\n<br />[color=#00ff00][color=#00ff00][color=#f4f4f4]V 1.3[/color]\n<br />[color=#f4f4f4]Updated for Endurance.[/color][/color][/color]\n<br />\n<br />[color=#f4f4f4]V 1.4\n<br />Updated for Waypoint.\n<br />\n<br />V 1.5\n<br />Updated for Fractal.\n<br />\n<br />V 1.6\n<br />Updated for Interceptor.[/color]\n<br />\n<br />[color=#f4f4f4]V 1.7\n<br />Updated for Singularity.\n<br />\n<br />V 1.8\n<br />Updated for Echoes.[/color]\n<br />\n<br />[color=#f4f4f4]V 1.9[/color]\n<br />[color=#f4f4f4]Updated for Omega.\n<br />\n<br />V 2.0[/color]\n<br />[color=#f4f4f4]Updated for Orbital.[/color]\n<br />\n<br />[color=#00ffff]12/4/2024[/color][color=#f4f4f4]\n<br />Added optional \"Quieter Overseer\" as requested by [url=https://www.nexusmods.com/nomanssky/users/77584753]kajonoszuk [/url]in comments.\n<br />Quieter Overseer disables the constant movement and sounds of the station core overseer in space stations.\n<br />\n<br />V 2.1[/color]\n<br />[color=#f4f4f4]Compatibility update for both Quieter Customiser and Quieter Overseer { V 1.1 } for Orbital 4.65\n<br />Special Thanks again to Monkeyman192 and his team for updating compilers and Babscoole for Lua's\n<br />\n<br />V 2.2\n<br />Updated for Adrift   { Quieter Customiser and Quieter Overseer }\n<br />\n<br />V 2.3\n<br />Updated for Worlds. { Both mods }\n<br />\n<br />V 2.4\n<br />Fix for mod not working with new space station appearance customiser.\n<br />\n<br />V 2.5\n<br />Updated for Worlds 2     { Quieter Customiser and Quieter Overseer }\n<br />\n<br />V 2.6\n<br />Compatibility update for Worlds 2 / 5.57\n<br />\n<br />V 2.7\n<br />Updated for Beacon.\n<br />\n<br />V 2.8\n<br />Compatibility update for Beacon 5.75\n<br />Added optional \"Quieter Nexus Core\" as requested by [url=https://next.nexusmods.com/profile/Weezlenut?pk_vid=86f33d953d247bf11754384404caa43d]Weezlenut[/url] in comments.\n<br />\n<br />V 2.9\n<br />Updated for Voyagers.\n<br />\n<br />V 3.0\n<br />Compatibility update for Voyagers 6.02\n<br />{ + Quieter Overseer and Quieter Nexus Core }\n<br />\n<br />V 3.1\n<br /> Updated for Breach 6.11\n<br />{ + Quieter [/color][color=#f4f4f4]Overseer [/color][color=#f4f4f4]and Quieter Nexus Core }\n<br />\n<br />V 3.2\n<br />Updated for Remnant.\n<br />{ + Quieter Overseer and Quieter Nexus Core }[/color]\n<br />\n<br />[color=#f4f4f4]V 3.3\n<br />Updated for Xeno Arena.\n<br />{ + Quieter Nexus Core }[/color]\n<br />\n<br />[color=#f4f4f4]V 3.4[/color]\n<br />[color=#f4f4f4]Updated for Swarm.[/color]\n<br />[color=#f4f4f4]{ + Quieter Nexus Core }[/color]\n<br />\n<br />[color=#00ffff]3/06/2026[/color]\n<br />[color=#f4f4f4]Update for Quieter Nexus Core V 1.7 for game version 6.43[/color]\n<br />\n<br />[color=#f4f4f4]V 3.5[/color]\n<br />[color=#f4f4f4]Compatibility update for 6.44[/color]\n<br />[color=#f4f4f4]{ +Quieter Nexus Core }[/color]\n<br />\n<br />[color=#f4f4f4]V 3.6\n<br />Updated for Cosmos.\n<br />{ + Quieter Overseer and Quieter Nexus Core }[/color]\n<br />\n<br />[color=#f4f4f4]V 3.7[/color]\n<br />[color=#f4f4f4]See change logs from this version onwards.[/color]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -26516,7 +26516,7 @@
         "size_kb": 2,
         "size_in_bytes": 1960,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser-893-1-0-1539693175.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser-893-1-0-1539693175.zip.json"
       },
       {
         "id": [
@@ -26541,7 +26541,7 @@
         "size_kb": 2,
         "size_in_bytes": 1960,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser-893-1-0-1539693728.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser-893-1-0-1539693728.zip.json"
       },
       {
         "id": [
@@ -26566,7 +26566,7 @@
         "size_kb": 2,
         "size_in_bytes": 1995,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser-893-1-1-1542181963.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser-893-1-1-1542181963.zip.json"
       },
       {
         "id": [
@@ -26591,7 +26591,7 @@
         "size_kb": 2,
         "size_in_bytes": 2077,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 1.2-893-1-2-1566132294.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 1.2-893-1-2-1566132294.zip.json"
       },
       {
         "id": [
@@ -26616,7 +26616,7 @@
         "size_kb": 2,
         "size_in_bytes": 2115,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 1.3-893-1-3-1663674795.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 1.3-893-1-3-1663674795.zip.json"
       },
       {
         "id": [
@@ -26641,7 +26641,7 @@
         "size_kb": 2,
         "size_in_bytes": 2123,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 1.4-893-1-4-1665734454.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 1.4-893-1-4-1665734454.zip.json"
       },
       {
         "id": [
@@ -26666,7 +26666,7 @@
         "size_kb": 2,
         "size_in_bytes": 2140,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 1.5-893-1-5-1677988158.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 1.5-893-1-5-1677988158.zip.json"
       },
       {
         "id": [
@@ -26691,7 +26691,7 @@
         "size_kb": 2,
         "size_in_bytes": 2152,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 1.6-893-1-6-1681014245.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 1.6-893-1-6-1681014245.zip.json"
       },
       {
         "id": [
@@ -26716,7 +26716,7 @@
         "size_kb": 2,
         "size_in_bytes": 2164,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 1.7-893-1-7-1686390215.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 1.7-893-1-7-1686390215.zip.json"
       },
       {
         "id": [
@@ -26741,7 +26741,7 @@
         "size_kb": 2,
         "size_in_bytes": 2174,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 1.8-893-1-8-1693401423.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 1.8-893-1-8-1693401423.zip.json"
       },
       {
         "id": [
@@ -26766,7 +26766,7 @@
         "size_kb": 2,
         "size_in_bytes": 2182,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 1.9-893-1-9-1708421298.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 1.9-893-1-9-1708421298.zip.json"
       },
       {
         "id": [
@@ -26791,7 +26791,7 @@
         "size_kb": 2,
         "size_in_bytes": 2224,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 2.0-893-2-0-1711711268.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 2.0-893-2-0-1711711268.zip.json"
       },
       {
         "id": [
@@ -26816,7 +26816,7 @@
         "size_kb": 7,
         "size_in_bytes": 6794,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Overseer-893-1-0-1712850568.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Overseer-893-1-0-1712850568.zip.json"
       },
       {
         "id": [
@@ -26841,7 +26841,7 @@
         "size_kb": 2,
         "size_in_bytes": 2274,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 2.1-893-2-1-1714994339.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 2.1-893-2-1-1714994339.zip.json"
       },
       {
         "id": [
@@ -26866,7 +26866,7 @@
         "size_kb": 9,
         "size_in_bytes": 9172,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Overseer V 1.1-893-1-1-1714994427.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Overseer V 1.1-893-1-1-1714994427.zip.json"
       },
       {
         "id": [
@@ -26891,7 +26891,7 @@
         "size_kb": 2,
         "size_in_bytes": 2284,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/.json"
       },
       {
         "id": [
@@ -26916,7 +26916,7 @@
         "size_kb": 2,
         "size_in_bytes": 2284,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/.json"
       },
       {
         "id": [
@@ -26941,7 +26941,7 @@
         "size_kb": 2,
         "size_in_bytes": 2284,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/.json"
       },
       {
         "id": [
@@ -26966,7 +26966,7 @@
         "size_kb": 2,
         "size_in_bytes": 2284,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 2.2-893-2-2-1717658013.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 2.2-893-2-2-1717658013.zip.json"
       },
       {
         "id": [
@@ -26991,7 +26991,7 @@
         "size_kb": 7,
         "size_in_bytes": 6727,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Overseer V 1.2-893-1-2-1717658125.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Overseer V 1.2-893-1-2-1717658125.zip.json"
       },
       {
         "id": [
@@ -27016,7 +27016,7 @@
         "size_kb": 2,
         "size_in_bytes": 2104,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 2.3-893-2-3-1721985911.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 2.3-893-2-3-1721985911.zip.json"
       },
       {
         "id": [
@@ -27041,7 +27041,7 @@
         "size_kb": 7,
         "size_in_bytes": 6834,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Overseer V 1.3-893-1-3-1721985954.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Overseer V 1.3-893-1-3-1721985954.zip.json"
       },
       {
         "id": [
@@ -27066,7 +27066,7 @@
         "size_kb": 3,
         "size_in_bytes": 3390,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 2.4-893-2-4-1723623968.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 2.4-893-2-4-1723623968.zip.json"
       },
       {
         "id": [
@@ -27091,7 +27091,7 @@
         "size_kb": 7,
         "size_in_bytes": 7083,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 2.5-893-2-5-1739188759.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 2.5-893-2-5-1739188759.zip.json"
       },
       {
         "id": [
@@ -27116,7 +27116,7 @@
         "size_kb": 8,
         "size_in_bytes": 8371,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Overseer V 1.4-893-1-4-1739188835.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Overseer V 1.4-893-1-4-1739188835.zip.json"
       },
       {
         "id": [
@@ -27141,7 +27141,7 @@
         "size_kb": 7,
         "size_in_bytes": 7095,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 2.6-893-2-6-1739776522.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 2.6-893-2-6-1739776522.zip.json"
       },
       {
         "id": [
@@ -27166,7 +27166,7 @@
         "size_kb": 7,
         "size_in_bytes": 7109,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 2.7-893-2-7-1749811544.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 2.7-893-2-7-1749811544.zip.json"
       },
       {
         "id": [
@@ -27191,7 +27191,7 @@
         "size_kb": 7,
         "size_in_bytes": 7119,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 2.8-893-2-8-1754384626.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 2.8-893-2-8-1754384626.zip.json"
       },
       {
         "id": [
@@ -27216,7 +27216,7 @@
         "size_kb": 3,
         "size_in_bytes": 3558,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Nexus Core-893-1-0-1754384802.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Nexus Core-893-1-0-1754384802.zip.json"
       },
       {
         "id": [
@@ -27241,7 +27241,7 @@
         "size_kb": 7,
         "size_in_bytes": 7128,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 2.9-893-2-9-1756724982.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 2.9-893-2-9-1756724982.zip.json"
       },
       {
         "id": [
@@ -27266,7 +27266,7 @@
         "size_kb": 8,
         "size_in_bytes": 8389,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Overseer V 1.5-893-1-5-1756725074.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Overseer V 1.5-893-1-5-1756725074.zip.json"
       },
       {
         "id": [
@@ -27291,7 +27291,7 @@
         "size_kb": 4,
         "size_in_bytes": 3601,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.1-893-1-1-1756725170.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.1-893-1-1-1756725170.zip.json"
       },
       {
         "id": [
@@ -27316,7 +27316,7 @@
         "size_kb": 7,
         "size_in_bytes": 7147,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 3.0-893-3-0-1756807260.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 3.0-893-3-0-1756807260.zip.json"
       },
       {
         "id": [
@@ -27341,7 +27341,7 @@
         "size_kb": 4,
         "size_in_bytes": 3605,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.2-893-1-2-1756807349.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.2-893-1-2-1756807349.zip.json"
       },
       {
         "id": [
@@ -27366,7 +27366,7 @@
         "size_kb": 7,
         "size_in_bytes": 7160,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 3.1-893-3-1-1761376513.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 3.1-893-3-1-1761376513.zip.json"
       },
       {
         "id": [
@@ -27391,7 +27391,7 @@
         "size_kb": 4,
         "size_in_bytes": 3605,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.3-893-1-3-1761376591.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.3-893-1-3-1761376591.zip.json"
       },
       {
         "id": [
@@ -27416,7 +27416,7 @@
         "size_kb": 8,
         "size_in_bytes": 8154,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Overseer V 1.6-893-1-6-1761376640.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Overseer V 1.6-893-1-6-1761376640.zip.json"
       },
       {
         "id": [
@@ -27441,7 +27441,7 @@
         "size_kb": 8,
         "size_in_bytes": 8378,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Overseer V 1.7-893-1-7-1771677084.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Overseer V 1.7-893-1-7-1771677084.zip.json"
       },
       {
         "id": [
@@ -27466,7 +27466,7 @@
         "size_kb": 41,
         "size_in_bytes": 41658,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.4-893-1-4-1771677131.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.4-893-1-4-1771677131.zip.json"
       },
       {
         "id": [
@@ -27491,7 +27491,7 @@
         "size_kb": 8,
         "size_in_bytes": 8088,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 3.2-893-3-2-1771677186.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 3.2-893-3-2-1771677186.zip.json"
       },
       {
         "id": [
@@ -27516,7 +27516,7 @@
         "size_kb": 8,
         "size_in_bytes": 8280,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 3.3-893-3-3-1776168274.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 3.3-893-3-3-1776168274.zip.json"
       },
       {
         "id": [
@@ -27541,7 +27541,7 @@
         "size_kb": 41,
         "size_in_bytes": 41701,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.5-893-1-5-1776168347.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.5-893-1-5-1776168347.zip.json"
       },
       {
         "id": [
@@ -27566,7 +27566,7 @@
         "size_kb": 8,
         "size_in_bytes": 8292,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 3.4-893-3-4-1780214710.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 3.4-893-3-4-1780214710.zip.json"
       },
       {
         "id": [
@@ -27591,7 +27591,7 @@
         "size_kb": 44,
         "size_in_bytes": 45511,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.6-893-1-6-1780214835.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.6-893-1-6-1780214835.zip.json"
       },
       {
         "id": [
@@ -27616,7 +27616,7 @@
         "size_kb": 48,
         "size_in_bytes": 49197,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.6-893-1-7-1780483518.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.6-893-1-7-1780483518.zip.json"
       },
       {
         "id": [
@@ -27641,7 +27641,7 @@
         "size_kb": 48,
         "size_in_bytes": 49197,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.7-893-1-7-1780483663.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.7-893-1-7-1780483663.zip.json"
       },
       {
         "id": [
@@ -27666,7 +27666,7 @@
         "size_kb": 8,
         "size_in_bytes": 8309,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Customiser V 3.5-893-3-5-1780990560.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Customiser V 3.5-893-3-5-1780990560.zip.json"
       },
       {
         "id": [
@@ -27691,7 +27691,7 @@
         "size_kb": 48,
         "size_in_bytes": 49210,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.8-893-1-8-1780990629.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/893/Quieter Nexus Core V 1.8-893-1-8-1780990629.zip.json"
       },
       {
         "id": [
@@ -27702,8 +27702,8 @@
         "file_id": 48350,
         "name": "Quieter Nexus Core V 1.9",
         "version": "1.9",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 48,
         "file_name": "Quieter Nexus Core V 1.9 893 1.9 2026-09-12T13-00Z s60W14CDv.zip",
@@ -27716,7 +27716,7 @@
         "size_kb": 48,
         "size_in_bytes": 49323,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/b1/9a/87/b19a87d1-d647-4f09-8e97-66c8b889371e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b1/9a/87/b19a87d1-d647-4f09-8e97-66c8b889371e"
       },
       {
         "id": [
@@ -27741,7 +27741,7 @@
         "size_kb": 8,
         "size_in_bytes": 8426,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/21/b4/e5/21b4e55f-1186-4b58-bf56-7e8ccc457276.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/21/b4/e5/21b4e55f-1186-4b58-bf56-7e8ccc457276"
       },
       {
         "id": [
@@ -27752,9 +27752,9 @@
         "file_id": 48352,
         "name": "Quieter Customiser V 3.6",
         "version": "3.6",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 8,
         "file_name": "Quieter Customiser V 3.6 893 3.6 2026-09-12T13-03Z RH1TdJINl.zip",
         "detected_file_extension": "zip",
@@ -27766,10 +27766,64 @@
         "size_kb": 8,
         "size_in_bytes": 8315,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/893/ea/a0/63/eaa0631b-c62f-462e-a688-f2eab11971a6.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ea/a0/63/eaa0631b-c62f-462e-a688-f2eab11971a6"
+      },
+      {
+        "id": [
+          50459,
+          1634
+        ],
+        "uid": 7017976612123,
+        "file_id": 50459,
+        "name": "Quieter Customiser V 3.7",
+        "version": "3.7",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8,
+        "file_name": "Quieter Customiser V 3.7 893 3.7 2026-11-05T07-23Z GkVHbndRK.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793863404,
+        "uploaded_time": "2026-11-05T07:23:24.000+00:00",
+        "mod_version": "3.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3bb4743659eb7a9cdddcda430c9e360f40d5672fb1df246a85e8388e575b905d",
+        "description": "Disables the constantly moving robotic arms and sounds while using the appearance customiser.",
+        "size_kb": 8,
+        "size_in_bytes": 8317,
+        "changelog_html": "Updated for Forsaken, Quieter Customiser + Quieter Nexus core.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/73/7d/5d/737d5d24-64ad-4d62-a70e-09055bdc0db3"
+      },
+      {
+        "id": [
+          50460,
+          1634
+        ],
+        "uid": 7017976612124,
+        "file_id": 50460,
+        "name": "Quieter Nexus Core V 2.0",
+        "version": "2.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 48,
+        "file_name": "Quieter Nexus Core V 2.0 893 2.0 2026-11-05T07-25Z RH1TdJvqX.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793863534,
+        "uploaded_time": "2026-11-05T07:25:34.000+00:00",
+        "mod_version": "2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e5a3cf5d86a359c9a0acc3c1d462af3a09b99081555758062255fa6789e5d942",
+        "description": "Disables the constant movement and sounds of the Nexus Core.",
+        "size_kb": 48,
+        "size_in_bytes": 49317,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f3/8a/23/f38a239d-f1dc-4025-9459-66012484f416"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "3.7": [
+        "Updated for Forsaken, Quieter Customiser + Quieter Nexus core."
+      ]
+    }
   },
   {
     "mod_id": 911,
@@ -524965,12 +525019,12 @@
     "mod_id": 2995,
     "name": "Early Character Creator",
     "summary": "Allows access to character customisation as soon as possible in a new game.",
-    "version": "2.8",
+    "version": "2.9",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2995/2995-1710086457-1532790974.png",
     "author": "JJhookah",
-    "updated_timestamp": 1789218416,
+    "updated_timestamp": 1793863743,
     "created_timestamp": 1710086830,
-    "description": "Early Character Creator\n<br />[color=#00ff00]Version 2.8[/color]\n<br />Author JJhookah  \n<br />                             \n<br />                             \n<br />Allows access to character customisation as soon as possible in a new game.\n<br />Start playing as your preferred character from the opening damaged ship scene.\n<br />\n<br />Access customisation by interacting with the small lantern added to the crash site.\n<br />\n<br />Mod may be removed after either an auto or manual save has been made with your new character design if you wish.\n<br />                                \n<br />Install\n<br />Step 1 : Extract from zip.\n<br />Step 2 : Open the extracted unzipped folder and copy the Early.Character.Creator folder found inside to your No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Create a Mods folder if you don't already have one.\n<br />\n<br />Uninstall\n<br />Delete Early.Character.Creator folder from No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Made with TubOcrisco's excellent [url=https://www.nexusmods.com/nomanssky/mods/320]NMS Modding Station.[/url]\n<br />\n<br />Modifies:\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;DISTRESSSIGNAL&#92;STARTSCENE.SCENE.MBIN                                        MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;DISTRESSSIGNAL&#92;PARTS&#92;ATLASORB&#92;ATLASORB&#92;ENTITIES&#92;ATLASORB.\n<br />ENTITY.MBIN\n<br />\n<br />[color=#00ff00]V 1.1[/color]\n<br />[color=#f4f4f4]Fix for audio bugs from customiser and atlas orb.\n<br />Customiser is now silent and orb will not play customiser sounds.[/color]\n<br />\n<br />[color=#00ff00]V 1.2[/color]\n<br />[color=#f4f4f4]Updated for Orbital.[/color]\n<br />\n<br />[color=#00ff00]V 1.3[/color]\n<br />[color=#f4f4f4]Compatibility update for Orbital 4.65[/color]\n<br />[color=#00ff00]Special Thanks again to Monkeyman192 and his team for updating compilers and Babscoole for Lua's\n<br />\n<br />V 1.4[/color]\n<br />[color=#f4f4f4]Updated for Adrift.[/color][color=#00ff00]\n<br />\n<br />V 1.5[/color]\n<br />[color=#f4f4f4]Updated for Worlds.[/color]\n<br />\n<br />[color=#00ff00]V 1.6[/color]\n<br />[color=#f4f4f4]Compatibility update for Worlds 5.03[/color]\n<br />\n<br />[color=#00ff00]V 1.7[/color]\n<br />[color=#f4f4f4]Minor internal file fix.[/color]\n<br />\n<br />[color=#00ff00]V 1.8[/color][color=#f4f4f4]\n<br />Updated for Worlds 2[/color]\n<br />\n<br />[color=#00ff00]V 1.9[/color]\n<br />[color=#f4f4f4]Compatibility update for Worlds 2 / 5.57[/color]\n<br />\n<br />[color=#00ff00]V 2.0[/color]\n<br />[color=#f4f4f4]Compatibility update for Beacon 5.75[/color]\n<br />\n<br />[color=#00ff00]V 2.1[/color]\n<br />[color=#f4f4f4]Updated for Voyagers.[/color]\n<br />\n<br />[color=#00ff00]V 2.2[/color]\n<br />[color=#f4f4f4]Compatibility update for Voyagers 6.02[/color]\n<br />\n<br />[color=#00ff00]V 2.3[/color]\n<br />[color=#f4f4f4]Compatibility update for Breach 6.11[/color][color=#00ff00]\n<br />\n<br />V 2.4[/color]\n<br />[color=#f4f4f4]Updated for Remnant.[/color]\n<br />\n<br />[color=#00ff00]V 2.5[/color]\n<br />[color=#f4f4f4]Updated for Xeno Arena.[/color]\n<br />\n<br />[color=#00ff00]V 2.6[/color]\n<br />[color=#f4f4f4]Updated for Swarm.[/color]\n<br />\n<br />[color=#00ff00]V 2.7[/color]\n<br />[color=#f4f4f4]Compatibility update for 6.44[/color]\n<br />\n<br />[color=#00ff00]V 2.8[/color]\n<br />[color=#00ff00]Updated for Cosmos.[/color]\n<br />",
+    "description": "Early Character Creator\n<br />[color=#00ff00]Version 2.9[/color]\n<br />Author JJhookah  \n<br />                             \n<br />                             \n<br />Allows access to character customisation as soon as possible in a new game.\n<br />Start playing as your preferred character from the opening damaged ship scene.\n<br />\n<br />Access customisation by interacting with the small lantern added to the crash site.\n<br />\n<br />Mod may be removed after either an auto or manual save has been made with your new character design if you wish.\n<br />                                \n<br />Install\n<br />Step 1 : Extract from zip.\n<br />Step 2 : Open the extracted unzipped folder and copy the Early.Character.Creator folder found inside to your No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Create a Mods folder if you don't already have one.\n<br />\n<br />Uninstall\n<br />Delete Early.Character.Creator folder from No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Made with TubOcrisco's excellent [url=https://www.nexusmods.com/nomanssky/mods/320]NMS Modding Station.[/url]\n<br />\n<br />Modifies:\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;DISTRESSSIGNAL&#92;STARTSCENE.SCENE.MBIN                                        MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;DISTRESSSIGNAL&#92;PARTS&#92;ATLASORB&#92;ATLASORB&#92;ENTITIES&#92;ATLASORB.\n<br />ENTITY.MBIN\n<br />\n<br />[color=#00ff00]V 1.1[/color]\n<br />[color=#f4f4f4]Fix for audio bugs from customiser and atlas orb.\n<br />Customiser is now silent and orb will not play customiser sounds.[/color]\n<br />\n<br />[color=#00ff00]V 1.2[/color]\n<br />[color=#f4f4f4]Updated for Orbital.[/color]\n<br />\n<br />[color=#00ff00]V 1.3[/color]\n<br />[color=#f4f4f4]Compatibility update for Orbital 4.65[/color]\n<br />[color=#00ff00]Special Thanks again to Monkeyman192 and his team for updating compilers and Babscoole for Lua's\n<br />\n<br />V 1.4[/color]\n<br />[color=#f4f4f4]Updated for Adrift.[/color][color=#00ff00]\n<br />\n<br />V 1.5[/color]\n<br />[color=#f4f4f4]Updated for Worlds.[/color]\n<br />\n<br />[color=#00ff00]V 1.6[/color]\n<br />[color=#f4f4f4]Compatibility update for Worlds 5.03[/color]\n<br />\n<br />[color=#00ff00]V 1.7[/color]\n<br />[color=#f4f4f4]Minor internal file fix.[/color]\n<br />\n<br />[color=#00ff00]V 1.8[/color][color=#f4f4f4]\n<br />Updated for Worlds 2[/color]\n<br />\n<br />[color=#00ff00]V 1.9[/color]\n<br />[color=#f4f4f4]Compatibility update for Worlds 2 / 5.57[/color]\n<br />\n<br />[color=#00ff00]V 2.0[/color]\n<br />[color=#f4f4f4]Compatibility update for Beacon 5.75[/color]\n<br />\n<br />[color=#00ff00]V 2.1[/color]\n<br />[color=#f4f4f4]Updated for Voyagers.[/color]\n<br />\n<br />[color=#00ff00]V 2.2[/color]\n<br />[color=#f4f4f4]Compatibility update for Voyagers 6.02[/color]\n<br />\n<br />[color=#00ff00]V 2.3[/color]\n<br />[color=#f4f4f4]Compatibility update for Breach 6.11[/color][color=#00ff00]\n<br />\n<br />V 2.4[/color]\n<br />[color=#f4f4f4]Updated for Remnant.[/color]\n<br />\n<br />[color=#00ff00]V 2.5[/color]\n<br />[color=#f4f4f4]Updated for Xeno Arena.[/color]\n<br />\n<br />[color=#00ff00]V 2.6[/color]\n<br />[color=#f4f4f4]Updated for Swarm.[/color]\n<br />\n<br />[color=#00ff00]V 2.7[/color]\n<br />[color=#f4f4f4]Compatibility update for 6.44[/color]\n<br />\n<br />[color=#00ff00]V 2.8[/color]\n<br />[color=#f4f4f4]Updated for Cosmos.[/color]\n<br />\n<br />[color=#00ff00]V 2.9[/color]\n<br />See change logs from this version onwards.\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -524997,7 +525051,7 @@
         "size_kb": 6,
         "size_in_bytes": 6045,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator-2995-1-0-1710084977.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator-2995-1-0-1710084977.zip.json"
       },
       {
         "id": [
@@ -525022,7 +525076,7 @@
         "size_kb": 8,
         "size_in_bytes": 8019,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 1.1-2995-1-1-1710128467.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 1.1-2995-1-1-1710128467.zip.json"
       },
       {
         "id": [
@@ -525047,7 +525101,7 @@
         "size_kb": 8,
         "size_in_bytes": 8069,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 1.2-2995-1-2-1711711693.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 1.2-2995-1-2-1711711693.zip.json"
       },
       {
         "id": [
@@ -525072,7 +525126,7 @@
         "size_kb": 8,
         "size_in_bytes": 8184,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 1.3-2995-1-3-1714994765.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 1.3-2995-1-3-1714994765.zip.json"
       },
       {
         "id": [
@@ -525097,7 +525151,7 @@
         "size_kb": 8,
         "size_in_bytes": 7740,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 1.4-2995-1-4-1717670639.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 1.4-2995-1-4-1717670639.zip.json"
       },
       {
         "id": [
@@ -525122,7 +525176,7 @@
         "size_kb": 7,
         "size_in_bytes": 7629,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 1.5-2995-1-5-1721986193.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 1.5-2995-1-5-1721986193.zip.json"
       },
       {
         "id": [
@@ -525147,7 +525201,7 @@
         "size_kb": 7,
         "size_in_bytes": 7632,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 1.6-2995-1-6-1722426809.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 1.6-2995-1-6-1722426809.zip.json"
       },
       {
         "id": [
@@ -525172,7 +525226,7 @@
         "size_kb": 7,
         "size_in_bytes": 7655,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 1.7-2995-1-7-1723624187.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 1.7-2995-1-7-1723624187.zip.json"
       },
       {
         "id": [
@@ -525197,7 +525251,7 @@
         "size_kb": 11,
         "size_in_bytes": 11171,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 1.8-2995-1-8-1739189132.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 1.8-2995-1-8-1739189132.zip.json"
       },
       {
         "id": [
@@ -525222,7 +525276,7 @@
         "size_kb": 11,
         "size_in_bytes": 11182,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 1.9-2995-1-9-1739776776.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 1.9-2995-1-9-1739776776.zip.json"
       },
       {
         "id": [
@@ -525247,7 +525301,7 @@
         "size_kb": 11,
         "size_in_bytes": 11198,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 2.0-2995-2-0-1754385169.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 2.0-2995-2-0-1754385169.zip.json"
       },
       {
         "id": [
@@ -525272,7 +525326,7 @@
         "size_kb": 11,
         "size_in_bytes": 11259,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 2.1-2995-2-1-1756725378.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 2.1-2995-2-1-1756725378.zip.json"
       },
       {
         "id": [
@@ -525297,7 +525351,7 @@
         "size_kb": 11,
         "size_in_bytes": 11281,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 2.2-2995-2-2-1756807623.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 2.2-2995-2-2-1756807623.zip.json"
       },
       {
         "id": [
@@ -525322,7 +525376,7 @@
         "size_kb": 11,
         "size_in_bytes": 11216,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 2.3-2995-2-3-1761376218.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 2.3-2995-2-3-1761376218.zip.json"
       },
       {
         "id": [
@@ -525347,7 +525401,7 @@
         "size_kb": 12,
         "size_in_bytes": 11931,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 2.4-2995-2-4-1771677352.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 2.4-2995-2-4-1771677352.zip.json"
       },
       {
         "id": [
@@ -525372,7 +525426,7 @@
         "size_kb": 12,
         "size_in_bytes": 12035,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 2.5-2995-2-5-1776168495.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 2.5-2995-2-5-1776168495.zip.json"
       },
       {
         "id": [
@@ -525397,7 +525451,7 @@
         "size_kb": 12,
         "size_in_bytes": 12046,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 2.6-2995-2-6-1780215275.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 2.6-2995-2-6-1780215275.zip.json"
       },
       {
         "id": [
@@ -525422,7 +525476,7 @@
         "size_kb": 12,
         "size_in_bytes": 12076,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/Early Character Creator V 2.7-2995-2-7-1780990848.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2995/Early Character Creator V 2.7-2995-2-7-1780990848.zip.json"
       },
       {
         "id": [
@@ -525433,9 +525487,9 @@
         "file_id": 48353,
         "name": "Early Character Creator V 2.8",
         "version": "2.8",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 11,
         "file_name": "Early Character Creator V 2.8 2995 2.8 2026-09-12T13-06Z L5bXM34Ir.zip",
         "detected_file_extension": "zip",
@@ -525447,10 +525501,39 @@
         "size_kb": 11,
         "size_in_bytes": 12135,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2995/41/e9/e7/41e9e701-d6a4-4c16-9948-e223069b772d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/41/e9/e7/41e9e701-d6a4-4c16-9948-e223069b772d"
+      },
+      {
+        "id": [
+          50461,
+          1634
+        ],
+        "uid": 7017976612125,
+        "file_id": 50461,
+        "name": "Early Character Creator V 2.9",
+        "version": "2.9",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 11,
+        "file_name": "Early Character Creator V 2.9 2995 2.9 2026-11-05T07-29Z L5bXM3O6s.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793863743,
+        "uploaded_time": "2026-11-05T07:29:03.000+00:00",
+        "mod_version": "2.9",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/bbfde875bc7df1b5fdd998ad2212e914902e32023958e79b604526ddc5e4d100",
+        "description": "Allows for early character customisation in a new game.",
+        "size_kb": 11,
+        "size_in_bytes": 12147,
+        "changelog_html": "Updated for Forsaken.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/31/8d/6a/318d6a18-7246-414e-a4e0-5e9d40704486"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "2.9": [
+        "Updated for Forsaken."
+      ]
+    }
   },
   {
     "mod_id": 2997,
@@ -680293,7 +680376,7 @@
     "author": "Jank7s",
     "updated_timestamp": 1793814284,
     "created_timestamp": 1789712911,
-    "description": "[center][color=#3c78d8][size=6][b]What does it do?[/b][/size][/color][/center]\n<br />[center]This mod aims to improve the experience of using landing bays.[/center]\n<br />[center][line]\n<br />[table][tr][td][list]\n<br />[*][b][color=#6d9eeb]Disables the Auto Opening:[/color] [/b]This mod removes the on-landing Auto-Open behavior by intercepting the game engine, then rebuilds the bay opening and closing logic.[/*]\n<br />[*][b][color=#6d9eeb]Independent Ramp Controls:[/color][/b] The controls of one bay control only that bay, independent of all others.[/*]\n<br />[*][b][color=#6d9eeb]Reposition the Default Bay Controls:[/color][/b] Moves the landing bay controls from the default position, which has them floating in space depending on which style of habitat they're attached to.[/*]\n<br />[/list][/td]\n<br />[td][list]\n<br />[*][b][color=#6d9eeb]Restores the Landing Bay Light:[/color][/b] Rewires the broken logic of the old warning light that used to flash when the landing bay opened.[/*]\n<br />[*][b][color=#fff2cc][i]Optional[/i] -[/color][color=#6d9eeb] Cockpit Bay Controls:[/color][/b] Adds the Beam Down and Operate Hatch controls to each cockpit variant. The cockpit switch toggles with the last Landing Bay switch used. [/*]\n<br />[*][b][color=#fff2cc][i]Optional[/i] -[/color][color=#6d9eeb] Auto Closing: [/color][/b]Option that allows you to keep the Auto-Close of Landing Bays on Take Off[/*]\n<br />[/list][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[/center]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658012-2057757889.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658030-1355944049.png[/img][/td]\n<br />[/tr]\n<br />[/table][center][line]\n<br />[color=#3c78d8][size=6][font=Verdana][b]Quirks[/b][/font][/size][/color][/center]\n<br />[table][tr][td][list]\n<br />[*][b][color=#6d9eeb]Beam Aboard Destination:[/color] [/b]The way the destination is picked for the Beam Aboard function is by build order. The first, or oldest, part with a destination built will be the destination. Build the cockpit first and you will Beam Aboard directly to your cockpit.[/*]\n<br />[*][b][color=#6d9eeb]Multiplayer Behavior:[/color] [/b]The mod only effect your version of the game so this means that you will see your bays closed and others without the mod will see it's behavior as vanilla with auto open and everything.[/*]\n<br />[*][b][color=#6d9eeb]Half Open Bays:[/color] [/b]The half-opening behavior was lost when the engine-driven state logic was disabled. The in-flight opening behavior is now a fully open bay.[/*]\n<br />[/list][/td]\n<br />[td][list]\n<br />[*][b][color=#6d9eeb]Door State Cache:[/color][/b] Sometimes after installing and moving mods around, the door states get mixed up, with a non-mod state stuck in the game's door cache. If this happens, try:[/*]\n<br />[*]Close all the bay doors, make a restore point and an auto-save, then restart the game, this usually solves it.[/*]\n<br />[*]If it's particularly persistent you can do a complete reinstall. Delete the mod from your GAMEDATA&#92;MODS folder, empty your recycle bin, then install the current version. [/*]\n<br />[/list][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658211-1951210380.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658225-1593167567.png[/img][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[color=#3c78d8][size=5][font=Verdana][b]Why I made it[/b][/font][/size][/color]\n<br />I wanted a more polished and realistic role-play feel to the landing bays. This mod makes you do a bit more of the basic actions of leaving and entering your spacecraft. It adds to the immersion of exploring space and new worlds while giving you a little more control over your ship.\n<br />[line]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658863-1780944903.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658873-1535750395.png[/img][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[color=#3c78d8][size=5][b]Installation[/b][/size][/color]\n<br />[b]Extract the zip file and place the folder[/b]\n<br />[code]Jank7.Ultimate_Landing_Bays_****[/code][b]into[/b]\n<br />[code]~&#92;No Man's Sky&#92;GAMEDATA&#92;MODS[/code][line]\n<br />\n<br />[color=#3c78d8][size=5][b]Contents[/b][/size][/color]\n<br />\n<br />[b]Added (new files, whole MBINs):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_RELAYOPEN.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_RELAYCLOSE.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_COCKPITSWITCH.ENTITY.MBIN[/code][b]Edited vanilla scenes (whole MBINs, replace the vanilla file):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_A.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_B.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_C_INT.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_D.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_E.SCENE.MBIN[/code][b]Edited vanilla entities (EXML patches, merge with other mods):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;BIGGS&#92;ENTITIES&#92;BIGGS.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A&#92;ENTITIES&#92;RAMPDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;RAMPDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C&#92;ENTITIES&#92;LIFTDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;AIRLOCK_NESW_B_RAMPCONTROLS.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;RAMPCONTROL&#92;ENTITIES&#92;QDRCONTROLS.ENTITY.EXML[/code][b][color=#6d9eeb][size=3]To avoid overwrites:[/size][/color][/b] All Lua scripts are included so you can merge these mod/s with others that edit the same files using [url=https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide]AMUMSS[/url].\n<br />[line]\n<br />\n<br />[color=#3c78d8][size=5][b]Disclaimer[/b][/size][/color]\n<br />I use AI tools in the process of creating my mods.\n<br />\n<br />",
+    "description": "[center][color=#e69138][font=Verdana][size=6][b]What does it do?[/b][/size][/font][/color][/center]\n<br />[center]This mod aims to improve the experience of using landing bays.[/center]\n<br />[center][line]\n<br />[table][tr][td][list]\n<br />[*][b][color=#e69138][size=3][font=Verdana]Disables the Auto Opening:[/font][/size][/color][font=Verdana] [/font][/b]This mod removes the on-landing Auto-Open behavior by intercepting the game engine, then rebuilds the bay opening and closing logic.[/*]\n<br />[*][color=#e69138][font=Verdana][b]Independent Ramp Controls:[/b] [/font][/color]The controls of one bay control only that bay, independent of all others.[/*]\n<br />[*][b][color=#e69138][font=Verdana]Reposition the Default Bay Controls:[/font][/color][/b] Moves the landing bay controls from the default position, which has them floating in space depending on which style of habitat they're attached to.[/*]\n<br />[/list][/td]\n<br />[td][list]\n<br />[*][b][color=#e69138][font=Verdana]Restores the Landing Bay Light:[/font][/color][/b] Rewires the broken logic of the old warning light that used to flash when the landing bay opened.[/*]\n<br />[*][font=Verdana][b][color=#fff2cc][i]Optional[/i] -[/color] [color=#e69138]Cockpit Bay Controls:[/color][/b] [/font]Adds the Beam Down and Operate Hatch controls to each cockpit variant. The cockpit switch toggles with the last Landing Bay switch used. [/*]\n<br />[*][b][color=#fff2cc][font=Verdana][i]Optional[/i] -[/font][/color][font=Verdana] [color=#e69138]Auto Closing:[/color] [/font][/b]Option that allows you to keep the Auto-Close of Landing Bays on Take Off[/*]\n<br />[/list][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[/center]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658012-2057757889.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658030-1355944049.png[/img][/td]\n<br />[/tr]\n<br />[/table][center][line]\n<br />[color=#e69138][font=Verdana][size=6][b]Quirks[/b][/size][/font][/color][/center]\n<br />[center][/center]\n<br />[left][list]\n<br />[*][color=#e69138][font=Verdana][size=3][b]Beam Aboard Destination: [/b][/size][/font][/color][color=#ffffff][size=3][font=Arial]The way the destination is picked for the Beam Aboard function is by build order. The first, or oldest, part with a destination built will be the destination. Build the cockpit first and you will Beam Aboard directly to your cockpit.[/font][/size][/color][/*]\n<br />[*][color=#e69138][size=3][font=Verdana][b]Multiplayer Behavior: [/b][/font][/size][/color][color=#ffffff][size=3][font=Arial]The mod only effect your version of the game so this means that you will see your bays closed and others without the mod will see it's behavior as vanilla with auto open and everything.[/font][/size][/color][/*]\n<br />[*][color=#e69138][size=3][font=Verdana][b]Half Open Bays: [/b][/font][/size][/color][color=#ffffff][size=3][font=Arial]The half-opening behavior was lost when the engine-driven state logic was disabled. The in-flight opening behavior is now a fully open bay.[/font][/size][/color][/*]\n<br />[/list][/left]\n<br />[line]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658211-1951210380.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658225-1593167567.png[/img][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[color=#e69138][font=Verdana][size=5][b]Why I made it[/b][/size][/font][/color]\n<br />I wanted a more polished and realistic role-play feel to the landing bays. This mod makes you do a bit more of the basic actions of leaving and entering your spacecraft. It adds to the immersion of exploring space and new worlds while giving you a little more control over your ship.\n<br />[line]\n<br />[table][tr][td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658863-1780944903.png[/img][/td]\n<br />[td][img]https://staticdelivery.nexusmods.com/mods/1634/images/4517/4517-1793658873-1535750395.png[/img][/td]\n<br />[/tr]\n<br />[/table][line]\n<br />[color=#e69138][font=Verdana][size=5][b]Installation[/b][/size][/font][/color]\n<br />[b][font=Verdana]Extract the zip file and place the folder[/font][/b]\n<br />[code]Jank7.Ultimate_Landing_Bays_****[/code][b]into[/b]\n<br />[code]~&#92;No Man's Sky&#92;GAMEDATA&#92;MODS[/code][line]\n<br />[color=#e69138][font=Verdana][size=5][b]Contents[/b][/size][/font][/color]\n<br />[b]Added (new files, whole MBINs):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C&#92;ENTITIES&#92;MOD_ACCESSWAYDATA.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_RELAYOPEN.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_RELAYCLOSE.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;ENTITIES&#92;MOD_COCKPITSWITCH.ENTITY.MBIN[/code][b]Edited vanilla scenes (whole MBINs, replace the vanilla file):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_A.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_B.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_C_INT.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_D.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;COCKPIT_1X2_E.SCENE.MBIN[/code][b]Edited vanilla entities (EXML patches, merge with other mods):[/b]\n<br />[code]MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;BIGGS&#92;ENTITIES&#92;BIGGS.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_A&#92;ENTITIES&#92;RAMPDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;RAMPDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_C&#92;ENTITIES&#92;LIFTDATA.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;MODULES&#92;PARTS&#92;AIRLOCK_NESW_B&#92;ENTITIES&#92;AIRLOCK_NESW_B_RAMPCONTROLS.ENTITY.EXML\n<br />MODELS&#92;COMMON&#92;SPACECRAFT&#92;BIGGS&#92;RAMPCONTROL&#92;ENTITIES&#92;QDRCONTROLS.ENTITY.EXML[/code][b][color=#e69138][size=3]To avoid overwrites:[/size][/color][/b] All Lua scripts are included so you can merge these mod/s with others that edit the same files using [url=https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide]AMUMSS[/url]\n<br />[left][line]\n<br />[/left]\n<br />[left][b][size=5][font=Verdana]More Mods[/font][/size][/b][/left]\n<br />[left][b][size=4][font=Arial][url=https://www.nexusmods.com/nomanssky/mods/4517]Ultimate Landing Bays[/url][/font][/size][/b][/left]\n<br />[left][b][size=4][font=Arial][url=https://www.nexusmods.com/nomanssky/mods/4685]Thunderbird Storage Rework[/url] [/font][/size][/b][/left]\n<br />[left][b][size=4][font=Arial][url=https://www.nexusmods.com/nomanssky/mods/4773]Wear And Tear[/url][/font][/size][/b][/left]\n<br />[left][b][size=4][font=Arial][url=https://www.nexusmods.com/nomanssky/mods/4375]The GekNip Trade[/url][/font][/size][/b][/left]\n<br />[left][b][size=4][font=Arial][url=https://www.nexusmods.com/nomanssky/mods/4689]Tractor Beam Control Unit[/url][/font][/size][/b][/left]\n<br />[left][b][size=4][font=Arial][url=https://www.nexusmods.com/nomanssky/mods/4701]Extended Palette Colours[/url][/font][/size][/b][/left]\n<br />[left][/left]\n<br />[left][b][size=5][font=Verdana]Bugfixes[/font][/size][/b][/left]\n<br />[left][size=4][b][url=https://www.nexusmods.com/nomanssky/mods/4374]Corvette Crop Visual Bugfix[/url] [/b][/size][/left]\n<br />[left][size=4][b][url=https://www.nexusmods.com/nomanssky/mods/4764]Corvette Returner's Drape Bugfix[/url][/b][/size][/left]\n<br />[line]\n<br />\n<br />[color=#e69138][font=Verdana][size=5][b]Disclaimer[/b][/size][/font][/color]\n<br />I use AI tools in the process of creating my mods.\n<br />\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -707538,7 +707621,7 @@
     "author": "ersalva",
     "updated_timestamp": 1793816775,
     "created_timestamp": 1793623067,
-    "description": "[center]\n<br />[size=6][color=#39DDF2][b]PORTAL GLYPHS[/b][/color][/size]\n<br />[size=5][color=#F2C66D][b]— BOOKMARKS —[/b][/color][/size]\n<br />[i]Your favourite destinations. One portal. No more manual glyph entry.[/i]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=4][color=#F2C66D][b]AN IMPERIAL GALACTIC MAP EXTENSION[/b][/color][/size]\n<br />[b]Version 0.6.1 | No Man's Sky | Windows / Steam\n<br />[/b]\n<br />[youtube]XUHi6LtRVZI[/youtube]\n<br />[/center]\n<br />[quote]\n<br />[color=#FFCA70][b]IMPORTANT — IMPERIAL GALACTIC MAP IS REQUIRED[/b][/color]\n<br />[b]Quick Portal Glyphs – Bookmarks is NOT a standalone mod.[/b]\n<br />This extension requires [b]Latest Imperial Galactic Map (IGM)/b] to be installed and working correctly.\n<br />It uses IGM's existing system, favourites and data. Without the compatible IGM core, the extension will not activate.\n<br />[b]Required Mod:[/b] [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] on Nexus[/b][/quote][b][size=5][color=#39DDF2][b]DISCOVER. BOOKMARK. TRAVEL.[/b][/color][/size]\n<br />Exploring the universe is one of the greatest experiences in No Man's Sky. But travelling back to your favourite discoveries shouldn't mean entering twelve portal glyphs manually every single time.\n<br />[b]Quick Portal Glyphs – Bookmarks[/b] extends Imperial Galactic Map with a convenient portal interface, allowing you to select saved destinations and use their portal addresses directly.\n<br />Whether you're returning to a beautiful paradise planet, visiting a distant base or travelling to a favourite discovery, your saved destinations are only a few steps away.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]FEATURES[/b][/color][/size][/b]\n<br />[list]\n<br />[*][b][b]Quick portal address entry[/b]\n<br />Use your saved destinations without manually selecting all twelve glyphs.[/b][/*]\n<br />[*][b][b]Integrated bookmarks[/b]\n<br />Access your favourite locations through a compact interface connected to Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]Native portal interaction[/b]\n<br />Uses the game's internal portal functionality.[/b][/*]\n<br />[*][b][b]12-glyph address support[/b]\n<br />Designed to work with complete portal addresses.[/b][/*]\n<br />[*][b][b]Multiple galaxies[/b]\n<br />Supports destinations across different galaxies, with appropriate destination checks.[/b][/*]\n<br />[*][b][b]Safety checks[/b]\n<br />Checks portal state and destination requirements before attempting address entry.[/b][/*]\n<br />[*][b][b]Manual confirmation[/b]\n<br />Addresses are used through an explicit player action, rather than automatic activation when opening a portal.[/b][/*]\n<br />[*][b][b]Optional extension[/b]\n<br />Remove the extension without uninstalling Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]No save editing[/b]\n<br />Does not directly modify your No Man's Sky save files.[/b][/*]\n<br />[/list][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D][b]HOW IT WORKS[/b][/color][/size]\n<br />[b][color=#39DDF2]01 —  PRESS F8 AND SAVE YOUR DESTINATIONS[/color][/b]\n<br />Use [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] your favourite planets and star systems.\n<br />[b][color=#39DDF2]02 — OPEN A PORTAL[/color][/b]\n<br />Find and activate a planetary portal in No Man's Sky, then open its glyph-entry interface.\n<br />[b][color=#39DDF2]03 — CHOOSE A BOOKMARK[/color][/b]\n<br />Access the compact favourites interface and select your saved destination.\n<br />[b][color=#39DDF2]04 — USE THE ADDRESS[/color][/b]\n<br />Confirm your selection to let the extension enter the portal address through the game's native functionality, subject to its compatibility and safety checks.[/b]\n<br />[center][b]\n<br />[color=#F2C66D][i]Spend less time entering glyphs. Spend more time exploring.[/i][/color]\n<br />[/b][/center]\n<br />[b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]REQUIREMENTS[/b][/color][/size][/b]\n<br />[list]\n<br />[]No Man's Sky — Steam version for Windows. Required Mod: Latest Imperial Galactic Map (IGM) The matching IGM installation, including its main xinput9_1_0.dll.Your existing IGM data and bookmarks.[/list][b][color=#FFCA70][b]Compatibility warning:[/b][/color]\n<br />Each Version update was built specifically for the matching [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] core.\n<br />The extension verifies the exact IGM core build and required APIs. Replacing the main DLL with a different version may prevent the portal extension from loading.\n<br />[b]Do not mix different IGM and Quick Portal Glyphs versions unless their compatibility has been confirmed.[/b]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]INSTALLATION[/b][/color][/size]\n<br />[b]1.[/b] Install the required version of Imperial Galactic Map first: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] on Nexus\n<br />[b]2.[/b] Completely close No Man's Sky.\n<br />[b]3.[/b] Open your No Man's Sky installation directory and locate the [b]Binaries[/b] folder containing NMS.exe.\n<br />[b]4.[/b] Extract the extension ZIP into that directory, preserving its folder structure.\n<br />Your installation should look like this:[/b]\n<br />[code]\n<br />No Man's Sky/\n<br />└── Binaries/\n<br />├── NMS.exe\n<br />├── xinput9_1_0.dll (Imperial Galactic Map)\n<br />├── IGM_Portal.dll (Quick Portal Glyphs)\n<br />└── IGM/ (Existing IGM data)[/code][b][b]5.[/b] Launch No Man's Sky normally through Steam.\n<br />[color=#F2C66D][b]IMPORTANT:[/b][/color] Do not replace the main IGM DLL when installing this extension. Do not delete or overwrite your existing IGM data folder.\n<br />[b]Updating Quick Portal Glyphs:[/b]\n<br />With the game closed, replace only [b]IGM_Portal.dll[/b] with the version compatible with your installed IGM core.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]UNINSTALLATION[/b][/color][/size]\n<br />Quick Portal Glyphs is an optional extension.\n<br />To uninstall it, close No Man's Sky and remove:[/b]\n<br />[code]\n<br />Binaries/IGM_Portal.dll[/code][b]Your main Imperial Galactic Map installation, existing bookmarks and data can remain untouched.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D]COMPATIBILITY &amp; LIMITATIONS[/color][/size]\n<br />- The extension does not bypass the game's glyph knowledge requirements.[]The extension does not modify station ownership, missions or save-game progression.\n<br />- The extension does not include Imperial Galactic Map itself.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2]VERSION HISTORY[/color]\n<br />[/size] 0.6.2 --- IGM 0.65  Compatibility[/b]\n<br />[list]\n<br />[*]Quick Portal Glyphs - Bookmarks 0.6.2[/*]\n<br />[*]- Updated for the latest supported No Man’s Sky update.[/*]\n<br />[*]- Requires IGM 0.65.0.[/*]\n<br />[*]- Automatically disables on unsupported game versions.[/*]\n<br />[*]Updating: Close the game and replace only IGM_Portal.dll. Update IGM to 0.65.0 and keep your existing IGM folder to preserve your favourites and settings.[/*]\n<br />[/list][b]\n<br />0.6.1 — IGM 0.64.C Compatibility[/b]\n<br />[list]\n<br />* Updated compatibility with Latest Imperial Galactic Map (IGM)[]Updated the required core dependency verification.Preserved the existing portal behaviour from version 0.6. No intentional changes to portal input or rendering logic.[/list][center][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]PORTAL GLYPHS — BOOKMARKS[/b][/color][/size]\n<br />[color=#F2C66D][i]The universe is yours to rediscover.[/i][/color]\n<br />[b]\n<br />Required Mod: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) 0.65[/url] — Not a standalone mod.[/b]\n<br />[/b][/center]\n<br />",
+    "description": "[center]\n<br />[size=6][color=#39DDF2][b]PORTAL GLYPHS[/b][/color][/size]\n<br />[size=5][color=#F2C66D][b]— BOOKMARKS —[/b][/color][/size]\n<br />[i]Your favourite destinations. One portal. No more manual glyph entry.[/i]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=4][color=#F2C66D][b]AN IMPERIAL GALACTIC MAP EXTENSION[/b][/color][/size]\n<br />[b]Version 0.6.1 | No Man's Sky | Windows / Steam\n<br />[/b]\n<br />[youtube]XUHi6LtRVZI[/youtube]\n<br />[/center]\n<br />[quote]\n<br />[color=#FFCA70][b]IMPORTANT — IMPERIAL GALACTIC MAP IS REQUIRED[/b][/color]\n<br />[b]Quick Portal Glyphs – Bookmarks is NOT a standalone mod.[/b]\n<br />This extension requires [b]Latest Imperial Galactic Map (IGM) to be installed and working correctly.\n<br />It uses IGM's existing system, favourites and data. Without the compatible IGM core, the extension will not activate.\n<br />[b]Required Mod:[/b] [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] on Nexus[/b][/quote][b][size=5][color=#39DDF2][b]DISCOVER. BOOKMARK. TRAVEL.[/b][/color][/size]\n<br />Exploring the universe is one of the greatest experiences in No Man's Sky. But travelling back to your favourite discoveries shouldn't mean entering twelve portal glyphs manually every single time.\n<br />[b]Quick Portal Glyphs – Bookmarks[/b] extends Imperial Galactic Map with a convenient portal interface, allowing you to select saved destinations and use their portal addresses directly.\n<br />Whether you're returning to a beautiful paradise planet, visiting a distant base or travelling to a favourite discovery, your saved destinations are only a few steps away.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]FEATURES[/b][/color][/size][/b]\n<br />[list]\n<br />[*][b][b]Quick portal address entry[/b]\n<br />Use your saved destinations without manually selecting all twelve glyphs.[/b][/*]\n<br />[*][b][b]Integrated bookmarks[/b]\n<br />Access your favourite locations through a compact interface connected to Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]Native portal interaction[/b]\n<br />Uses the game's internal portal functionality.[/b][/*]\n<br />[*][b][b]12-glyph address support[/b]\n<br />Designed to work with complete portal addresses.[/b][/*]\n<br />[*][b][b]Multiple galaxies[/b]\n<br />Supports destinations across different galaxies, with appropriate destination checks.[/b][/*]\n<br />[*][b][b]Safety checks[/b]\n<br />Checks portal state and destination requirements before attempting address entry.[/b][/*]\n<br />[*][b][b]Manual confirmation[/b]\n<br />Addresses are used through an explicit player action, rather than automatic activation when opening a portal.[/b][/*]\n<br />[*][b][b]Optional extension[/b]\n<br />Remove the extension without uninstalling Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]No save editing[/b]\n<br />Does not directly modify your No Man's Sky save files.[/b][/*]\n<br />[/list][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D][b]HOW IT WORKS[/b][/color][/size]\n<br />[b][color=#39DDF2]01 —  PRESS F8 AND SAVE YOUR DESTINATIONS[/color][/b]\n<br />Use [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] your favourite planets and star systems.\n<br />[b][color=#39DDF2]02 — OPEN A PORTAL[/color][/b]\n<br />Find and activate a planetary portal in No Man's Sky, then open its glyph-entry interface.\n<br />[b][color=#39DDF2]03 — CHOOSE A BOOKMARK[/color][/b]\n<br />Access the compact favourites interface and select your saved destination.\n<br />[b][color=#39DDF2]04 — USE THE ADDRESS[/color][/b]\n<br />Confirm your selection to let the extension enter the portal address through the game's native functionality, subject to its compatibility and safety checks.[/b]\n<br />[center][b]\n<br />[color=#F2C66D][i]Spend less time entering glyphs. Spend more time exploring.[/i][/color]\n<br />[/b][/center]\n<br />[b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]REQUIREMENTS[/b][/color][/size][/b]\n<br />[list]\n<br />[]No Man's Sky — Steam version for Windows. Required Mod: Latest Imperial Galactic Map (IGM) The matching IGM installation, including its main xinput9_1_0.dll.Your existing IGM data and bookmarks.[/list][b][color=#FFCA70][b]Compatibility warning:[/b][/color]\n<br />Each Version update was built specifically for the matching [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] core.\n<br />The extension verifies the exact IGM core build and required APIs. Replacing the main DLL with a different version may prevent the portal extension from loading.\n<br />[b]Do not mix different IGM and Quick Portal Glyphs versions unless their compatibility has been confirmed.[/b]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]INSTALLATION[/b][/color][/size]\n<br />[b]1.[/b] Install the required version of Imperial Galactic Map first: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) [/url] on Nexus\n<br />[b]2.[/b] Completely close No Man's Sky.\n<br />[b]3.[/b] Open your No Man's Sky installation directory and locate the [b]Binaries[/b] folder containing NMS.exe.\n<br />[b]4.[/b] Extract the extension ZIP into that directory, preserving its folder structure.\n<br />Your installation should look like this:[/b]\n<br />[code]\n<br />No Man's Sky/\n<br />└── Binaries/\n<br />├── NMS.exe\n<br />├── xinput9_1_0.dll (Imperial Galactic Map)\n<br />├── IGM_Portal.dll (Quick Portal Glyphs)\n<br />└── IGM/ (Existing IGM data)[/code][b][b]5.[/b] Launch No Man's Sky normally through Steam.\n<br />[color=#F2C66D][b]IMPORTANT:[/b][/color] Do not replace the main IGM DLL when installing this extension. Do not delete or overwrite your existing IGM data folder.\n<br />[b]Updating Quick Portal Glyphs:[/b]\n<br />With the game closed, replace only [b]IGM_Portal.dll[/b] with the version compatible with your installed IGM core.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]UNINSTALLATION[/b][/color][/size]\n<br />Quick Portal Glyphs is an optional extension.\n<br />To uninstall it, close No Man's Sky and remove:[/b]\n<br />[code]\n<br />Binaries/IGM_Portal.dll[/code][b]Your main Imperial Galactic Map installation, existing bookmarks and data can remain untouched.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D]COMPATIBILITY &amp; LIMITATIONS[/color][/size]\n<br />- The extension does not bypass the game's glyph knowledge requirements.[]The extension does not modify station ownership, missions or save-game progression.\n<br />- The extension does not include Imperial Galactic Map itself.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2]VERSION HISTORY[/color]\n<br />[/size] 0.6.2 --- IGM 0.65  Compatibility[/b]\n<br />[list]\n<br />[*]Quick Portal Glyphs - Bookmarks 0.6.2[/*]\n<br />[*]- Updated for the latest supported No Man’s Sky update.[/*]\n<br />[*]- Requires IGM 0.65.0.[/*]\n<br />[*]- Automatically disables on unsupported game versions.[/*]\n<br />[*]Updating: Close the game and replace only IGM_Portal.dll. Update IGM to 0.65.0 and keep your existing IGM folder to preserve your favourites and settings.[/*]\n<br />[/list][b]\n<br />0.6.1 — IGM 0.64.C Compatibility[/b]\n<br />[list]\n<br />* Updated compatibility with Latest Imperial Galactic Map (IGM)[]Updated the required core dependency verification.Preserved the existing portal behaviour from version 0.6. No intentional changes to portal input or rendering logic.[/list][center][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]PORTAL GLYPHS — BOOKMARKS[/b][/color][/size]\n<br />[color=#F2C66D][i]The universe is yours to rediscover.[/i][/color]\n<br />[b]\n<br />Required Mod: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) [/url] — Not a standalone mod.[/b]\n<br />[/b][/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
