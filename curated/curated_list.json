@@ -527846,12 +527846,12 @@
     "mod_id": 3013,
     "name": "Ship Parts Catalogue",
     "summary": "Not as good as checking them off a list, but hey, better than nothing",
-    "version": "7.03",
+    "version": "7.13",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3013/3013-1756389703-1172623096.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1789840138,
+    "updated_timestamp": 1793894511,
     "created_timestamp": 1711785883,
-    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod adds new pages to the Catalogue and Guide - Recipes section showcasing all the ship parts that can be used to fabricate starships at space stations.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;REALITY&#92;CATALOGUERECIPES.MBIN[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />✅ EXML patch mod\n<br />\n<br />This mod is likely to work with other mods modifying the same file.[/quote]\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Credits[/size][/b]\n<br />\n<br />AltF4 - for providing a list of all ship parts so I don't have to look through the files myself",
+    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod adds new pages to the Catalogue and Guide - Recipes section showcasing all the ship parts that can be used to fabricate starships at space stations.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;REALITY&#92;CATALOGUERECIPES.MBIN[/quote]\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />✅ EXML patch mod\n<br />\n<br />This mod is likely to work with other mods modifying the same file.[/quote][line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />[line]\n<br />\n<br />[b][size=5]Credits[/size][/b]\n<br />\n<br />AltF4 - for providing a list of all ship parts so I don't have to look through the files myself",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -527878,7 +527878,7 @@
         "size_kb": 3,
         "size_in_bytes": 3143,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-4-60-1711785721.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-4-60-1711785721.zip.json"
       },
       {
         "id": [
@@ -527903,7 +527903,7 @@
         "size_kb": 2,
         "size_in_bytes": 2056,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - LUA-3013-4-60-1711785740.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - LUA-3013-4-60-1711785740.zip.json"
       },
       {
         "id": [
@@ -527928,7 +527928,7 @@
         "size_kb": 3,
         "size_in_bytes": 3155,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-4-64-1712675649.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-4-64-1712675649.zip.json"
       },
       {
         "id": [
@@ -527953,7 +527953,7 @@
         "size_kb": 2,
         "size_in_bytes": 2059,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - LUA-3013-4-64-1712675671.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - LUA-3013-4-64-1712675671.zip.json"
       },
       {
         "id": [
@@ -527978,7 +527978,7 @@
         "size_kb": 3,
         "size_in_bytes": 3136,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-4-65-1714583450.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-4-65-1714583450.zip.json"
       },
       {
         "id": [
@@ -528003,7 +528003,7 @@
         "size_kb": 3,
         "size_in_bytes": 3178,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-4-70-1717064061.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-4-70-1717064061.zip.json"
       },
       {
         "id": [
@@ -528028,7 +528028,7 @@
         "size_kb": 2,
         "size_in_bytes": 2076,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - LUA-3013-4-70-1717064081.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - LUA-3013-4-70-1717064081.zip.json"
       },
       {
         "id": [
@@ -528053,7 +528053,7 @@
         "size_kb": 3,
         "size_in_bytes": 3473,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-5-05-1724918941.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-5-05-1724918941.zip.json"
       },
       {
         "id": [
@@ -528078,7 +528078,7 @@
         "size_kb": 2,
         "size_in_bytes": 2216,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - LUA-3013-5-05-1724918965.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - LUA-3013-5-05-1724918965.zip.json"
       },
       {
         "id": [
@@ -528103,7 +528103,7 @@
         "size_kb": 3,
         "size_in_bytes": 3464,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/.json"
       },
       {
         "id": [
@@ -528128,7 +528128,7 @@
         "size_kb": 3,
         "size_in_bytes": 3464,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-5-05-1-1725089817.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-5-05-1-1725089817.zip.json"
       },
       {
         "id": [
@@ -528153,7 +528153,7 @@
         "size_kb": 3,
         "size_in_bytes": 3464,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-5-05-1-1725089839.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-5-05-1-1725089839.zip.json"
       },
       {
         "id": [
@@ -528178,7 +528178,7 @@
         "size_kb": 2,
         "size_in_bytes": 2217,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - LUA-3013-5-05-1-1725089970.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - LUA-3013-5-05-1-1725089970.zip.json"
       },
       {
         "id": [
@@ -528203,7 +528203,7 @@
         "size_kb": 3,
         "size_in_bytes": 3449,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-5-10-1725477715.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - PAK-3013-5-10-1725477715.zip.json"
       },
       {
         "id": [
@@ -528228,7 +528228,7 @@
         "size_kb": 4,
         "size_in_bytes": 4159,
         "changelog_html": "updated for game version 5.58 (Worlds Part 2)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - ZIP-3013-5-58-1741701539.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - ZIP-3013-5-58-1741701539.zip.json"
       },
       {
         "id": [
@@ -528253,7 +528253,7 @@
         "size_kb": 3,
         "size_in_bytes": 2776,
         "changelog_html": "updated for game version 6.00 (Voyagers)\nadded section with parts for Corvette starships, changed icons and labels on buttons\nretired the LUA script",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - ZIP-3013-6-00-1756390031.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - ZIP-3013-6-00-1756390031.zip.json"
       },
       {
         "id": [
@@ -528278,7 +528278,7 @@
         "size_kb": 3,
         "size_in_bytes": 2983,
         "changelog_html": "revised list of Corvette parts, added Deadeye Cannon from Expedition 19",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - ZIP-3013-6-03-1757056516.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - ZIP-3013-6-03-1757056516.zip.json"
       },
       {
         "id": [
@@ -528303,7 +528303,7 @@
         "size_kb": 3,
         "size_in_bytes": 3077,
         "changelog_html": "added corvette parts from Breach update\nreorganized corvette parts list to follow the order of parts in corvette workshop build menu",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - ZIP-3013-6-16-1763222072.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3013/Ship Parts Catalogue - ZIP-3013-6-16-1763222072.zip.json"
       },
       {
         "id": [
@@ -528314,8 +528314,8 @@
         "file_id": 48805,
         "name": "Ship Parts Catalogue",
         "version": "7.03",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 3,
         "file_name": "Ship Parts Catalogue 3013 7.03 2026-09-19T17-48Z QR3q07yuk.zip",
@@ -528328,7 +528328,32 @@
         "size_kb": 3,
         "size_in_bytes": 3089,
         "changelog_html": "updated for game version 7.03 (Cosmos)\nadded Tractor Beam to lits of corvette parts",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3013/bf/a6/67/bfa667ce-188e-43c7-be79-5aba39f77898.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/bf/a6/67/bfa667ce-188e-43c7-be79-5aba39f77898"
+      },
+      {
+        "id": [
+          50466,
+          1634
+        ],
+        "uid": 7017976612130,
+        "file_id": 50466,
+        "name": "Ship Parts Catalogue",
+        "version": "7.13",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 3,
+        "file_name": "Ship Parts Catalogue 3013 7.13 2026-11-05T16-01Z FpHgXM78R.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793894511,
+        "uploaded_time": "2026-11-05T16:01:51.000+00:00",
+        "mod_version": "7.13",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/bf64741c794ae6632134caf1967c83ff8a604450c560160fe0d3e28da88c1a3a",
+        "description": "",
+        "size_kb": 3,
+        "size_in_bytes": 3236,
+        "changelog_html": "updated for game version 7.13 (Forsaken)\nadded various corvette parts from Forsaken update",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c7/eb/37/c7eb3770-23dc-4adb-865c-ed770b4d419b"
       }
     ],
     "changelogs": {
@@ -528350,6 +528375,10 @@
       "7.03": [
         "updated for game version 7.03 (Cosmos)",
         "added Tractor Beam to lits of corvette parts"
+      ],
+      "7.13": [
+        "updated for game version 7.13 (Forsaken)",
+        "added various corvette parts from Forsaken update"
       ]
     }
   },
@@ -684724,12 +684753,12 @@
     "mod_id": 4555,
     "name": "Lunatus (distant worlds)",
     "summary": "my personal replacement for Crescent Worlds. makes distant planets blend better with sky/fog.",
-    "version": "1.7.2",
+    "version": "1.7.3",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4555/4555-1790584832-1143230330.png",
     "author": "Somnati",
-    "updated_timestamp": 1793198172,
+    "updated_timestamp": 1793888140,
     "created_timestamp": 1790205794,
-    "description": "[size=4][b]Description\n<br />WIP - this mod is tricky so give me some time to iron things out. will update occasionally.\n<br />v1.5 has released, together with Nubilus 1.0, my new cloud mod (check the changelog for info).\n<br />[/b][/size]\n<br />\n<br />I'd always used Crescent Worlds, but it hasn't been updated for Cosmos. Rather than patch someone else's mod, I built my own from scratch. Lunatus contains no code from Crescent Worlds or any other mod. It's made from the game's own shaders, with AI assistance (Claude), and tuned by me in-game.\n<br />Lunatus changes how your sky looks: the worlds in it, and the air around you. Other planets and moons are lit by their real star, sit behind your atmosphere instead of looking pasted on top of it, and change with your day and night. Your own planet gets one physical haze from your feet to the horizon, real dusk and darker nights, rain mist, volcanic ash haze and auroras.\n<br />In vanilla, every world in your sky is lit with your own planet's light. That light is clamped high overhead, tinted by your sunset and swapped for moonlight at night, so other worlds never show a true phase. By day they look like stickers on the sky, and at night their dark sides are black cut-outs. Lunatus fixes all of that with shaders built from the game's own 7.04.1 shaders.\n<br />[b]Clouds have moved out:[/b] the clouds now live in their own mod, Nubilus, released together with Lunatus 1.5. Nubilus has volumetric clouds that match from orbit to the ground, a rewritten water surface, and an SDR highlight fix. Lunatus works on its own too, but I recommend running both.\n<br />I tried my best with this. Expect issues, and I'll fix them as they come. If you don't like a certain visual effect, let me know: I may be able to upload alternate versions.\n<br />Optional comparison files: \"Vanilla vs 1.5\" and \"1.4 vs 1.5\" split-screen builds (left 40% old, right 60% 1.5). They're for screenshots only, not for playing.\n<br />\n<br />\n<br />[b]// PROGRESS UPDATES[/b]\n<br />[size=2][color=#9e9e9e]progress notes (click to expand)[/color][/size]\n<br />[spoiler]\n<br />bug/visual fixes.\n<br />[b]improved FOG.\n<br />altered ring render.\n<br />possible eclipses?\n<br />dimmer clouds from space.(nubilus)\n<br />\n<br />// future mods planned\n<br />expanded planet color pallet.\n<br />new planetary terrain patterns. (striped planets etc.)\n<br />terrain gen overhaul.\n<br />new HUD.\n<br />detailed planet terrain from space (visible mountains etc).[/b][/spoiler]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Download and extract the archive.\n<br />When updating, delete your old Lunatus folder first. 1.4's cloud files would otherwise stay behind and fight Nubilus.\n<br />Place the \"Lunatus\" folder in ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;\n<br />Recommended: install Nubilus 1.0 next to it.\n<br />Remove any other mod that replaces the same files (see Requirements).\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />Worlds in your sky\n<br />[list]\n<br />[*]Real crescents: lit by their actual star, not your planet's light. Crescents at dusk, half and full phases, and a world stays lit at night when its sun still reaches it.[/*]\n<br />[*]Behind your sky by day: your air sits in front of them. Their dark side melts into the sky, and their lit side shows through the air in front of it.[/*]\n<br />[*]Night skies: a world's sunlit side shines like a real moon, dims and turns orange-red low in the sky, and its dark side is shaded by the system's space fog instead of a black cut-out. Night sides end in a clean edge.[/*]\n<br />[*]Atmosphere glow: a bright line at the edge, fading into space in each world's own colour. From orbit it sits at the edge of the clouds, not over them.[/*]\n<br />[*]Rings: crisp ringlets and the planet's shadow across its ring. Rings sit behind your air, low rings fade into the horizon haze, and from orbit far rings sit behind a nearer world's glow.[/*]\n<br />[*]Clean climb out of a planet: the worlds around you change from the ground look to the space look in one smooth step, with no grey veil and no white fog on asteroids.[/*]\n<br />[/list]Your own planet\n<br />[list]\n<br />[*]One haze: the game's three fog layers replaced by one. Denser and more atmospheric in 1.5, it settles low (valleys fill, peaks clear), takes the colour of the sky behind it, and always ends in haze at the horizon.[/*]\n<br />[*]Light in the haze: it glows only where sunlight reaches it. At dusk the low haze goes dark first while higher air stays lit.[/*]\n<br />[*]Dusk and night: the sky's light fades with the sunset, nights are darker and keep their star's colour, and the night air clears so the space sky shows through.[/*]\n<br />[*]Sunlight: bright surfaces brighten gently (no blown-out ground at noon), shaded slopes keep more sky light, and cave ceilings are no longer lit cyan.[/*]\n<br />[*]Sun: a real sun disc that reddens near the horizon, and a lens flare that fades gently through thin clouds.[/*]\n<br />[*]Moons: on small moons the sky wraps all the way around you above the clouds.[/*]\n<br />[*]Auroras: on about half the worlds with air, over both poles at night. They hang high above the clouds, keep a steady shape and colour per world, cast a faint glow on the ground, and from orbit their curtains rise above the planet's edge.[/*]\n<br />[*]Particles: smoke, dust, mist and sparks sit in your planet's haze and darken at night. Fireflies and embers keep their glow, and particles no longer cut off hard at the camera.[/*]\n<br />[*]Rain: the haze thins and a deep, close mist gathers low.[/*]\n<br />[*]Volcanic worlds: wrapped in a thick, ash-tinted haze.[/*]\n<br />[*]Glow: bloom that settles at the same speed at every frame rate, and no sky-coloured outlines around objects against fog.[/*]\n<br />[/list]\n<br />\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*]No Man's Sky 7.04.1 (Cosmos), PC. No other mods required. Nubilus 1.0 recommended.[/*]\n<br />[*]Not compatible with other shader mods that replace the same files: CrescentWorlds, Key Art Worlds and Atmosphere, other fog, atmosphere or particle shader mods, and lens-flare shader mods. Only one mod can own each shader file (the full file list is in the README).[/*]\n<br />[*]For clouds, use Nubilus or another cloud mod, not both.[/*]\n<br />[*]Table (MBIN/EXML) mods are fine, including sky colour and weather mods.[/*]\n<br />[*]Shader mods can break when Hello Games updates the game. If things look wrong after a patch, remove Lunatus until an update is posted.[/*]\n<br />[/list]\n<br />\n<br />Known limits\n<br />[list]\n<br />[*]In two- and three-sun systems, the night tint uses the main sun's colour.[/*]\n<br />[*]Worlds seen from very close are left vanilla.[/*]\n<br />[*]Without Nubilus, other worlds' cloud layers are the game's own.[/*]\n<br />[*]The rain mist sits by sea level, so high ground gets less of it.[/*]\n<br />[/list]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*]Hello Games, for No Man's Sky and a universe worth looking up at.[/*]\n<br />[*]The CrescentWorlds mod, whose idea of true crescents in the sky inspired this one. Lunatus is written from scratch; no other mod's code is used.[/*]\n<br />[*]The NMS modding community's tools, MBINCompiler and HGPAKtool, and Khronos' SPIRV-Cross, glslang and SPIRV-Tools.[/*]\n<br />[*]Claude AI[/*]\n<br />[/list]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />",
+    "description": "[size=4][b]Description\n<br />WIP - this mod is tricky so give me some time to iron things out. will update occasionally.\n<br />v1.7.3 is out, pairs with Nubilus 1.2.5, my cloud mod (check the changelog for info).\n<br />[/b][/size]\n<br />\n<br />I'd always used Crescent Worlds, but it hasn't been updated for Cosmos. Rather than patch someone else's mod, I built my own from scratch. Lunatus contains no code from Crescent Worlds or any other mod. It's made from the game's own shaders, with AI assistance (Claude), and tuned by me in-game.\n<br />Lunatus changes how your sky looks: the worlds in it, and the air around you. Other planets and moons are lit by their real star, sit behind your atmosphere instead of looking pasted on top of it, and change with your day and night. Your own planet gets one physical haze from your feet to the horizon, real dusk and darker nights, rain mist, volcanic ash haze and auroras.\n<br />In vanilla, every world in your sky is lit with your own planet's light. That light is clamped high overhead, tinted by your sunset and swapped for moonlight at night, so other worlds never show a true phase. By day they look like stickers on the sky, and at night their dark sides are black cut-outs. Lunatus fixes all of that with shaders built from the game's own shaders.\n<br />[b]Clouds have moved out:[/b] the clouds now live in their own mod, Nubilus. Nubilus has volumetric clouds that match from orbit to the ground, a rewritten water surface, and an SDR highlight fix. Lunatus works on its own too, but I recommend running both.\n<br />I tried my best with this. Expect issues, and I'll fix them as they come. If you don't like a certain visual effect, let me know: I may be able to upload alternate versions.\n<br />Optional comparison files: \"Vanilla vs 1.5\" and \"1.4 vs 1.5\" split-screen builds (left 40% old, right 60% 1.5). They're for screenshots only, not for playing.\n<br />\n<br />\n<br />[b]// PROGRESS UPDATES[/b]\n<br />[size=2][color=#9e9e9e]progress notes (click to expand)[/color][/size]\n<br />[spoiler]\n<br />bug/visual fixes.\n<br />[b]improved FOG.\n<br />altered ring render.\n<br />possible eclipses?\n<br />dimmer clouds from space.(nubilus)\n<br />\n<br />// future mods planned\n<br />expanded planet color pallet.\n<br />new planetary terrain patterns. (striped planets etc.)\n<br />terrain gen overhaul.\n<br />new HUD.\n<br />detailed planet terrain from space (visible mountains etc).[/b][/spoiler]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Download and extract the archive.\n<br />When updating, delete your old Lunatus folder first. Files removed in newer versions (like the 1.7 sun-shadow files) would otherwise stay behind.\n<br />Place the \"Lunatus\" folder in ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;\n<br />Recommended: install Nubilus next to it.\n<br />Remove any other mod that replaces the same files (see Requirements).\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />Worlds in your sky\n<br />[list][*]Real crescents: lit by their actual star, not your planet's light. Crescents at dusk, half and full phases, and a world stays lit at night when its sun still reaches it.[*]Behind your sky by day: your air sits in front of them. Their dark side melts into the sky, and their lit side shows through the air in front of it.[*]Night skies: a world's sunlit side shines like a real moon, dims and turns orange-red low in the sky, and its dark side is shaded by the system's space fog instead of a black cut-out. Night sides end in a clean edge.[*]Atmosphere glow: a bright line at the edge, fading into space in each world's own colour. From orbit it sits at the edge of the clouds, not over them.[*]Rings: crisp ringlets and the planet's shadow across its ring. Rings sit behind your air, low rings fade into the horizon haze, and from orbit far rings sit behind a nearer world's glow.[*]Clean climb out of a planet: the worlds around you change from the ground look to the space look in one smooth step, with no grey veil and no white fog on asteroids.\n<br />[/list]Your own planet\n<br />[list][*]One haze: the game's three fog layers replaced by one. Denser and more atmospheric, it settles low (valleys fill, peaks clear), takes the colour of the sky behind it, and always ends in haze at the horizon.[*]Light in the haze: it glows only where sunlight reaches it. At dusk the low haze goes dark first while higher air stays lit.[*]Dusk and night: the sky's light fades with the sunset, nights are darker and keep their star's colour, and the night air clears so the space sky shows through.[*]Sunlight: bright surfaces brighten gently (no blown-out ground at noon), shaded slopes keep more sky light, and cave ceilings are no longer lit cyan.[*]Sun: a real sun disc that reddens near the horizon, and a lens flare that fades gently through thin clouds.[*]Moons: on small moons the sky wraps all the way around you above the clouds.[*]Auroras: on about half the worlds with air, over both poles at night. They hang high above the clouds, keep a steady shape and colour per world, cast a faint glow on the ground, and from orbit their curtains rise above the planet's edge.[*]Particles: smoke, dust, mist and sparks sit in your planet's haze and darken at night. Fireflies and embers keep their glow, and particles no longer cut off hard at the camera.[*]Rain: the haze thins and a deep, close mist gathers low.[*]Volcanic worlds: wrapped in a thick, ash-tinted haze.[*]Glow: bloom that settles at the same speed at every frame rate, and no sky-coloured outlines around objects against fog.\n<br />[/list]\n<br />\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list][*]No Man's Sky 7.10 (Forsaken), PC. No other mods required. Nubilus 1.2.5 recommended.[*]Not compatible with other shader mods that replace the same files: CrescentWorlds, Key Art Worlds and Atmosphere, other fog, atmosphere or particle shader mods, and lens-flare shader mods. Only one mod can own each shader file (the full file list is in the README).[*]For clouds, use Nubilus or another cloud mod, not both.[*]Table (MBIN/EXML) mods are fine, including sky colour and weather mods.[*]Shader mods can break when Hello Games updates the game. If things look wrong after a patch, remove Lunatus until an update is posted.\n<br />[/list]\n<br />\n<br />Known limits\n<br />[list][*]In two- and three-sun systems, the night tint uses the main sun's colour.[*]Worlds seen from very close are left vanilla.[*]Without Nubilus, other worlds' cloud layers are the game's own.[*]The rain mist sits by sea level, so high ground gets less of it.\n<br />[/list]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list][*]Hello Games, for No Man's Sky and a universe worth looking up at.[*]The CrescentWorlds mod, whose idea of true crescents in the sky inspired this one. Lunatus is written from scratch; no other mod's code is used.[*]The NMS modding community's tools, MBINCompiler and HGPAKtool, and Khronos' SPIRV-Cross, glslang and SPIRV-Tools.[*]Claude AI\n<br />[/list]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -685192,9 +685221,9 @@
         "file_id": 50140,
         "name": "Lunatus v1.7.2 (darker nights)",
         "version": "1.7.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 8679,
         "file_name": "Lunatus v1.7.2 (darker nights) 4555 1.7.2 2026-10-28T14-36Z pQZbnWJAh.zip",
         "detected_file_extension": "zip",
@@ -685217,8 +685246,8 @@
         "file_id": 50141,
         "name": "Lunatus 1.7.2 (VanillaNights)",
         "version": "1.7.2",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 8664,
         "file_name": "Lunatus 1.7.2 (VanillaNights) 4555 1.7.2 2026-10-28T14-36Z n0CrIxcTe.zip",
@@ -685232,6 +685261,56 @@
         "size_in_bytes": 8872761,
         "changelog_html": "Lunatus 1.7.2 - Updated for No Man's Sky 7.10 (Forsaken). The particle shaders are rebuilt on the game's new shaders: they pick up Hello Games' new particle facing fix (particles orient toward the camera's actual position instead of its view direction) while keeping Lunatus' fog, night light and near fade, and the new particle variants the update added get the same treatment. 233 particle files changed (224 updated, 9 new); everything else is unchanged from 1.7.1, in both the Darker Nights and the Vanilla Night Brightness file. Pairs with Nubilus 1.2.3.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/7c/89/1c/7c891cff-2527-4649-aec9-8901062d877a"
+      },
+      {
+        "id": [
+          50463,
+          1634
+        ],
+        "uid": 7017976612127,
+        "file_id": 50463,
+        "name": "Lunatus v1.7.3 (darker nights)",
+        "version": "1.7.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8657,
+        "file_name": "Lunatus v1.7.3 (darker nights) 4555 1.7.3 2026-11-05T14-15Z CmY2hwkND.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793888135,
+        "uploaded_time": "2026-11-05T14:15:35.000+00:00",
+        "mod_version": "1.7.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7464766d4b87aff7f91a82f6956b98b761d5288eb2ea37296943d1a99efd1eea",
+        "description": "Darker nights: land, sky and fog dim to 60% at full night, with a ceiling on the night light.",
+        "size_kb": 8657,
+        "size_in_bytes": 8864892,
+        "changelog_html": "Lunatus 1.7.3 - Fixes from player reports. The sun no longer shows through a planet that sits in front of it: its glow was painted over the planet's disc, and it now fades out as the sun goes behind that planet (with the sun clear of the planet nothing changes). Ground shadow edits are pulled while a report of far plants turning blue is looked into: the sun-shadow rewrite from 1.7 and the 'smaller objects keep their shadows' values are back to the game's own. God rays, fog volumes and ship shadows are unchanged. In both the Darker Nights and the Vanilla Night Brightness file. Pairs with Nubilus 1.2.5.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9a/76/7c/9a767c6e-91d4-4f44-8390-457ee73ad516"
+      },
+      {
+        "id": [
+          50464,
+          1634
+        ],
+        "uid": 7017976612128,
+        "file_id": 50464,
+        "name": "Lunatus 1.7.3 (VanillaNights)",
+        "version": "1.7.3",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 8642,
+        "file_name": "Lunatus 1.7.3 (VanillaNights) 4555 1.7.3 2026-11-05T14-15Z YjQ5seMLU.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793888140,
+        "uploaded_time": "2026-11-05T14:15:40.000+00:00",
+        "mod_version": "1.7.3",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6900140c0928223a26de3cf579d73f07b6dfbfc86c2173704c684e20ea2e69f8",
+        "description": "Everything as the main file, but nights keep the game's own brightness (no extra night dimming, no ceiling).",
+        "size_kb": 8642,
+        "size_in_bytes": 8849805,
+        "changelog_html": "Lunatus 1.7.3 - Fixes from player reports. The sun no longer shows through a planet that sits in front of it: its glow was painted over the planet's disc, and it now fades out as the sun goes behind that planet (with the sun clear of the planet nothing changes). Ground shadow edits are pulled while a report of far plants turning blue is looked into: the sun-shadow rewrite from 1.7 and the 'smaller objects keep their shadows' values are back to the game's own. God rays, fog volumes and ship shadows are unchanged. In both the Darker Nights and the Vanilla Night Brightness file. Pairs with Nubilus 1.2.5.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1d/0a/ba/1d0abab9-ecfb-4f29-88f3-a26765518447"
       }
     ],
     "changelogs": {
@@ -685341,6 +685420,9 @@
       ],
       "1.7.2": [
         "Lunatus 1.7.2 - Updated for No Man's Sky 7.10 (Forsaken). The particle shaders are rebuilt on the game's new shaders: they pick up Hello Games' new particle facing fix (particles orient toward the camera's actual position instead of its view direction) while keeping Lunatus' fog, night light and near fade, and the new particle variants the update added get the same treatment. 233 particle files changed (224 updated, 9 new); everything else is unchanged from 1.7.1, in both the Darker Nights and the Vanilla Night Brightness file. Pairs with Nubilus 1.2.3."
+      ],
+      "1.7.3": [
+        "Lunatus 1.7.3 - Fixes from player reports. The sun no longer shows through a planet that sits in front of it: its glow was painted over the planet's disc, and it now fades out as the sun goes behind that planet (with the sun clear of the planet nothing changes). Ground shadow edits are pulled while a report of far plants turning blue is looked into: the sun-shadow rewrite from 1.7 and the 'smaller objects keep their shadows' values are back to the game's own. God rays, fog volumes and ship shadows are unchanged. In both the Darker Nights and the Vanilla Night Brightness file. Pairs with Nubilus 1.2.5."
       ]
     }
   },
@@ -706523,12 +706605,12 @@
     "mod_id": 4756,
     "name": "IMPERIAL GALACTIC MAP",
     "summary": "Put your alliance on the Galactic Map. Display alliances flags and mark your favourite discoveries with stars, screenshot previews and portal glyphs.",
-    "version": "0.66",
+    "version": "0.28",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4756/4756-1793401542-1265562991.png",
     "author": "ersalva",
-    "updated_timestamp": 1793816415,
+    "updated_timestamp": 1793888751,
     "created_timestamp": 1793402582,
-    "description": "[center][size=6][color=#E8BE68][b]IMPERIAL GALACTIC MAP[/b][/color][/size]\n<br />\n<br />[size=4][b]YOUR FAVOURITE WORLDS.\n<br />YOUR ALLIANCE’S TERRITORIES.\n<br />VISIBLE ON THE GALACTIC MAP.[/b][/size]\n<br />\n<br />Bookmark planets and systems with visible star markers,\n<br />screenshot previews and portal glyphs.\n<br />Display alliances flags and highlight your territories.\n<br />\n<br />[youtube]ky0pHLnsSdE[/youtube][/center]\n<br />\n<br />\n<br />[size=5][color=#65D4DF][b]FOUND A PLANET YOU DON’T WANT TO LOSE?[/b][/color][/size]\n<br />\n<br />[b]Press F8 to save a planet or system as a favourite.[/b]\n<br />\n<br />The mod takes a screenshot and adds a [b]star marker to its system on the Galactic Map[/b]. Your bookmark becomes something you can actually see while browsing the galaxy.\n<br />\n<br />Open your favourites to view the saved location, its screenshot and portal glyphs.\n<br />\n<br />[b]Perfect planets, useful systems, memorable discoveries — keep them marked on your map.[/b]\n<br />\n<br />You don’t need to belong to an alliance to use these features.\n<br />\n<br />\n<br />[size=5][color=#E8BE68][b]SEE ALLIANCE TERRITORIES AS YOU EXPLORE[/b][/color][/size]\n<br />\n<br />[b]See who controls the systems around you — directly on the Galactic Map.[/b]\n<br />\n<br />[b]* Your alliance and other alliances appear with their own flags.[/b] When you visit a system belonging to another alliance, the mod automatically detects its alliance and adds that territory to your local map catalogue.\n<br />\n<br />* Alliances without a custom emblem receive a consistent colour and symbol based on their ID, so you can recognise them again as you explore.\n<br />\n<br />[color=#67E89B][b]* Neon-green rings[/b][/color] make your own alliance’s systems stand out.\n<br />\n<br />* Browse the alliance catalogue and independently show or hide your alliance, other alliances and pirate systems.\n<br />\n<br />[b]* Discover their territory. See their flag. Keep it on your map.[/b]\n<br />\n<br />[size=5][color=#65D4DF][b]CREATE YOUR OWN ALLIANCE FLAG[/b][/color][/size]\n<br />\n<br />The download includes an [b]optional Companion application[/b] for importing save information, managing your catalogue and customising alliance emblems.\n<br />\n<br />Choose from [b]178 symbols[/b] and configure your flag, then export it for the in-game mod.\n<br />\n<br />[b]The Companion is optional.[/b] You can use the in-game features without importing your save first.\n<br />\n<br />\n<br />[size=5][color=#E8BE68][b]FEATURES AT A GLANCE[/b][/color][/size]\n<br />\n<br />• [b]ONE KEY TO REMEMBER A WORLD[/b] — Press F8 to bookmark a planet or system, place a visible star marker on the Galactic Map and create its favourites entry with a screenshot and portal glyphs.\n<br />\n<br />• [b]YOUR DISCOVERIES, IN PICTURES[/b] — Browse your favourites and select a location to view its screenshot, details and portal address.\n<br />\n<br />• [b]ALLIANCE FLAGS ON THE MAP[/b] — See your alliance’s territories and automatically detect other alliances when visiting their systems, adding their flags to your local map catalogue.\n<br />\n<br />• [b]GLOWING TERRITORY RINGS[/b] — Recognise your alliance’s systems at a glance with neon-green highlights.\n<br />\n<br />• [b]CONTROL WHAT YOU SEE[/b] — Independently show or hide your alliance, other alliances and pirate systems.\n<br />\n<br />• [b]DISTINCTIVE AUTOMATIC EMBLEMS[/b] — Recognise alliances through consistent colours and contrasting symbols assigned to their IDs.\n<br />\n<br />• [b]OPTIONAL COMPANION[/b] — Import save information, manage your catalogue and customise your alliance flag.\n<br />\n<br />• [b]MULTILINGUAL INTERFACE[/b] — Use the interface in your preferred supported language while keeping original alliance and territory names intact.\n<br />\n<br />\n<br />[size=5][color=#65D4DF][b]INSTALLATION[/b][/color][/size]\n<br />\n<br />[b]1.[/b] Close No Man’s Sky completely.\n<br />\n<br />[b]2.[/b] In Steam, right-click No Man’s Sky and select:\n<br />[b]Manage → Browse local files.[/b]\n<br />\n<br />[b]3.[/b] Open the [b]Binaries[/b] folder.\n<br />\n<br />[b]4.[/b] Extract the installation ZIP directly into [b]Binaries[/b].\n<br />\n<br />These items must sit alongside [b]NMS.exe[/b]:\n<br />\n<br />• [b]xinput9_1_0.dll[/b]\n<br />• [b]IGM[/b] folder\n<br />\n<br />[b]Install this package in Binaries, not PCBANKS/MODS.[/b]\n<br />\n<br />[b]5. OPTIONAL — Configure your alliance flag.[/b]\n<br />Open [b]IGM_Companion.exe[/b] inside [b]Binaries&#92;IGM[/b].\n<br />Load your save, customise your alliance flag and export the configuration to your installed IGM folder.\n<br />\n<br />[b]6.[/b] Launch No Man’s Sky normally through Steam.\n<br />\n<br />\n<br />[size=5][color=#E8BE68][b]GET STARTED[/b][/color][/size]\n<br />\n<br />[b]Save a discovery:[/b]\n<br />Press [b]F8[/b] to bookmark a planet or system and capture a screenshot.\n<br />\n<br />[b]Find your bookmark on the map:[/b]\n<br />Open the Galactic Map and look for its [b]star marker[/b].\n<br />\n<br />[b]View your saved discoveries:[/b]\n<br />Open the mod’s favourites panel and select an entry to see its screenshot and portal glyphs.\n<br />\n<br />[b]Explore alliance territories:[/b]\n<br />Look for alliance flags and use the visibility settings to choose which categories appear.\n<br />\n<br />\n<br />[size=4][b]REQUIREMENTS &amp; SCOPE[/b][/size]\n<br />\n<br />• [b]No Man’s Sky — Steam version for Windows.[/b]\n<br />• The Companion is optional for basic in-game use.\n<br />• Territory information comes from the built-in catalogue, local imports and in-game detection.\n<br />• This is not a live online database of every alliance.\n<br />• Markers display territory information; they do not change station ownership.\n<br />• Automatic alliance identification depends on successfully reading the supported game version.\n<br />\n<br />[size=2][b]v0.64B — Changelog 01/11/26[/b]\n<br />• Redesigned interface and navigation.\n<br />• Single-DLL installation.\n<br />• Optional extension support.\n<br />• Unnamed systems listed last.\n<br />• Legacy RSSH/APF catalogue cleanup with backup.\n<br />\n<br />[u][b]Update:[/b] Replace only [b]xinput9_1_0.dll[/b]. Keep your existing [b]IGM[/b] folder to preserve your data.[/u][/size]\n<br />\n<br />",
+    "description": "\n<br />[center][size=6][color=#E8BE68][b][img]https://staticdelivery.nexusmods.com/mods/1634/images/4756/4756-1793887756-1933973825.png[/img]\n<br />IMPERIAL GALACTIC MAP[/b][/color][/size]\n<br />\n<br />[size=4][b]YOUR FAVOURITE WORLDS.\n<br />YOUR ALLIANCE’S TERRITORIES.\n<br />VISIBLE ON THE GALACTIC MAP.[/b][/size]\n<br />\n<br />Bookmark planets and systems with visible star markers,\n<br />screenshot previews and portal glyphs.\n<br />Display alliance flags and highlight your territories.\n<br />\n<br />[youtube]ky0pHLnsSdE[/youtube][/center]\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />\n<br />[size=5][color=#65D4DF][b]FOUND A PLANET YOU DON’T WANT TO LOSE?[/b][/color][/size]\n<br />\n<br />[b]- Press F8 to save a planet or system as a favourite.[/b]\n<br />The mod takes a screenshot and adds a [b]star marker to its system on the Galactic Map[/b]. Your bookmark becomes something you can actually see while browsing the galaxy.\n<br />\n<br />- Open your favourites to view the saved location, its screenshot and portal glyphs.\n<br />[b]- Perfect planets, useful systems, memorable discoveries — keep them marked on your map.[/b]\n<br />- You don’t need to belong to an alliance to use these features.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=5][color=#E8BE68][b]SEE ALLIANCE TERRITORIES AS YOU EXPLORE[/b][/color][/size]\n<br />[b]See who controls the systems around you — directly on the Galactic Map.\n<br />[/b]\n<br />[b]* Your alliance and other alliances appear with their own flags.[/b] When you visit a system belonging to another alliance, the mod automatically detects its alliance and adds that territory to your local map catalogue.\n<br />* Alliances without a custom emblem receive a consistent colour and symbol based on their ID, so you can recognise them again as you explore.\n<br />[color=#67E89B][b]* Neon-green rings[/b][/color] make your own alliance’s systems stand out.\n<br />* Browse the alliance catalogue and independently show or hide your alliance, other alliances and pirate systems.\n<br />[b]* Discover their territory. See their flag. Keep it on your map.[/b]\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[b][color=#65d4df][size=5]CREATE YOUR OWN ALLIANCE FLAG[/size][/color][/b]\n<br />Use the [b]optional IGM Companion application[/b] to import save information, manage your catalogue and customise alliance emblems.\n<br />Choose from [b]178 symbols[/b] and configure your flag, then export it for the in-game mod.\n<br />[b][color=#e8be68]IGM Companion is now distributed separately through GitHub.[/color][/b]\n<br />\n<br />[center][size=4][b][url=https://github.com/ersalva2-code/IGM-Companion-v0.28/releases/tag/v0.28]DOWNLOAD IGM COMPANION 0.28 — GITHUB[/url][/b][/size][/center]\n<br />\n<br />[b]The Companion is completely optional.[/b] Imperial Galactic Map works independently. You can use its in-game features without installing the Companion or importing your save.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[b][color=#e8be68][size=5]FEATURES AT A GLANCE[/size][/color][/b]\n<br />\n<br />• [b]ONE KEY TO REMEMBER A WORLD[/b] — Press F8 to bookmark a planet or system, place a visible star marker on the Galactic Map and create its favourites entry with a screenshot and portal glyphs.\n<br />• [b]YOUR DISCOVERIES, IN PICTURES[/b] — Browse your favourites and select a location to view its screenshot, details and portal address.\n<br />• [b]ALLIANCE FLAGS ON THE MAP[/b] — See your alliance’s territories and automatically detect other alliances when visiting their systems, adding their flags to your local map catalogue.\n<br />• [b]GLOWING TERRITORY RINGS[/b] — Recognise your alliance’s systems at a glance with neon-green highlights.\n<br />• [b]CONTROL WHAT YOU SEE[/b] — Independently show or hide your alliance, other alliances and pirate systems.\n<br />• [b]DISTINCTIVE AUTOMATIC EMBLEMS[/b] — Recognise alliances through consistent colours and contrasting symbols assigned to their IDs.\n<br />• [b]OPTIONAL COMPANION[/b] — Download IGM Companion separately from [url=https://github.com/ersalva2-code/IGM-Companion-v0.28/releases/tag/v0.28]GitHub Releases[/url] to import save information, manage your catalogue and customise your alliance flag.\n<br />• [b]MULTILINGUAL INTERFACE[/b] — Use the interface in your preferred supported language while keeping original alliance and territory names intact.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[b][color=#65d4df][size=5]INSTALLATION[/size][/color][/b]\n<br />\n<br />[b]1.[/b] Close No Man’s Sky completely.\n<br />[b]2.[/b] In Steam, right-click No Man’s Sky and select:\n<br />[b]Manage → Browse local files.[/b]\n<br />[b]3.[/b] Open the [b]Binaries[/b] folder.\n<br />[b]4.[/b] Extract the Imperial Galactic Map installation ZIP directly into [b]Binaries[/b].\n<br />\n<br />These items must sit alongside [b]NMS.exe[/b]:\n<br />• [b]xinput9_1_0.dll[/b]\n<br />• [b]IGM[/b] folder\n<br />[b]Install this package in Binaries, not PCBANKS/MODS.[/b]\n<br />\n<br />\n<br />[b]5. OPTIONAL — Download and configure IGM Companion.[/b]\n<br />The Companion is [b]NOT included in the main IGM download[/b].\n<br />Download it separately from:\n<br />\n<br />[url=https://github.com/ersalva2-code/IGM-Companion-v0.28/releases/tag/v0.28][b]IGM Companion 0.28 — GitHub Releases[/b][/url]\n<br />\n<br />Extract the Companion package according to its included instructions.\n<br />Run the Companion application, load your save, customise your alliance flag and export the configuration to your installed IGM folder.\n<br />\n<br />[b]You do not need the Companion to run Imperial Galactic Map.[/b]\n<br />[b]6.[/b] Launch No Man’s Sky normally through Steam.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=5][color=#FFD700][b]GET STARTED[/b][/color][/size]\n<br />\n<br />[b]Save a discovery:[/b]\n<br />Press [b]F8[/b] to bookmark a planet or system and capture a screenshot.\n<br />\n<br />[b]Find your bookmark on the map:[/b]\n<br />Open the Galactic Map and look for its [b]star marker[/b].\n<br />\n<br />[b]View your saved discoveries:[/b]\n<br />Open the mod’s favourites panel and select an entry to see its screenshot and portal glyphs.\n<br />\n<br />[b]Explore alliance territories:[/b]\n<br />Look for alliance flags and use the visibility settings to choose which categories appear.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=4][b]REQUIREMENTS &amp; SCOPE[/b][/size]\n<br />• [b]No Man’s Sky — Steam version for Windows.[/b]\n<br />• The Companion is optional and distributed separately through [url=https://github.com/ersalva2-code/IGM-Companion-v0.28/releases/tag/v0.28]GitHub[/url].\n<br />• Territory information comes from the built-in catalogue, local imports and in-game detection.\n<br />• This is not a live online database of every alliance.\n<br />• Markers display territory information; they do not change station ownership.\n<br />• Automatic alliance identification depends on successfully reading the supported game version.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=2][b]v0.64B — Changelog 01/11/26[/b]\n<br />• Redesigned interface and navigation.\n<br />• Single-DLL installation.\n<br />• Optional extension support.\n<br />• Unnamed systems listed last.\n<br />• Legacy RSSH/APF catalogue cleanup with backup.\n<br />[/size]\n<br />[center][size=2][size=4][color=#E8BE68][b]⚠ IMPORTANT — UPDATING IGM ⚠[/b][/color][/size]\n<br />Replace only [b]xinput9_1_0.dll[/b]\n<br />[color=#65D4DF][b]KEEP YOUR EXISTING IGM FOLDER[/b][/color][/size][/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -706629,7 +706711,7 @@
         "description": "* Extract the contents of the mod’s into &#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries<br />* Updating: Replace only xinput9_1_0.dll. Do not replace or delete your existing IGM folder<br />* Companion Program is archived until staff revision",
         "size_kb": 1293,
         "size_in_bytes": 1324590,
-        "changelog_html": null,
+        "changelog_html": "Fixed a issue with controllers on mod menu",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/9f/76/35/9f763515-d341-428b-939b-608e436a35a6"
       },
       {
@@ -706681,6 +706763,31 @@
         "size_in_bytes": 1332191,
         "changelog_html": "IGM 0.66\n- Added Russian language.\n- English is now the default for new installations. Existing language settings are preserved.\n- Improved menu rendering efficiency with cached layouts, glyphs and text.\n- Improved spacing in the Alliances and Favourites detail panels.\n- Screenshots now appear above portal glyphs, with glyphs centred underneath. Without a screenshot, glyphs remain centred directly below the divider.\n- Fixed favourite marker visibility on the galactic map. Markers can now be toggled independently of alliance and pirate system icons.\n- Reordered visibility options: My alliance, Other alliances, Markers, Pirate systems.\n- Adjusted cursor drawing order to display above the mod menu.\n- Improved internal compatibility checks and removed obsolete code.\n- Synchronised version numbering between IGM and Quick Portal Glyphs.\n- Improved resilience to game updates: Centralised portal compatibility data, reduced reliance on obsolete internal signatures and improved validation to simplify adaptation to future No Man’s Sky updates. This will keep improving every patch",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/c3/3c/39/c33c3931-e9d3-41ae-a6ce-36cf66b9cc4e"
+      },
+      {
+        "id": [
+          50465,
+          1634
+        ],
+        "uid": 7017976612129,
+        "file_id": 50465,
+        "name": "IGM Companion v0.28",
+        "version": "0.28",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 3593,
+        "file_name": "IGM Companion v0.28 4756 0.28 2026-11-05T14-25Z 58qnW1yXX.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793888751,
+        "uploaded_time": "2026-11-05T14:25:51.000+00:00",
+        "mod_version": "0.28",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/15b4e74d10b1d0ef3f5f35c9df802388e9d20bfd429f37c903429ea301c25f4e",
+        "description": "*OPTIONAL companion<br />* Extract the contents of the ZIP's into [b]Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries&#92;IGM[/b]<br />* [u]Updating:[/u] Replace only IGM_Companion.exe<br />[b][size=4]Keep your existing IGM folder when updating.[/size][/b]",
+        "size_kb": 3593,
+        "size_in_bytes": 3679912,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/64/17/03/6417036f-dc96-4f97-ae6e-3798f76b084e"
       }
     ],
     "changelogs": {
@@ -706828,13 +706935,13 @@
   {
     "mod_id": 4759,
     "name": "Zero-G VR - Free-Axis Spacewalking",
-    "summary": "Allows lateral roll and forward flip in spacewalk. See Video for example. VR only. Open Composite OR Steam VR *choose only one!* Created with AI assistance.",
+    "summary": "Allows lateral roll and forward flip in spacewalk. See Video for example. VR only. Open Composite OR Steam VR *choose only one!* Created with AI assistance. Disable \"Show Body in VR\"",
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4759/4759-1793487689-335357415.png",
     "author": "LunaSkylana",
     "updated_timestamp": 1793690043,
     "created_timestamp": 1793484041,
-    "description": "[b]The added controls work only in space.[/b] Entering a ship interior or returning to the ground disables them.\n<br />[b]Quest Touch controls[/b]\n<br />[list]\n<br />[*][b]Left grip + right stick:[/b] up/down pitches; left/right rolls.[/*]\n<br />[*][b]Without grip:[/b] right-stick left/right turns around your new up axis; up/down provides vertical movement.[/*]\n<br />[*][b]Left trigger:[/b] thrusters follow your rotated headset’s up direction.[/*]\n<br />[*][b]Left grip + right-stick click:[/b] reset upright.[/*]\n<br />[/list]Rotation defaults to [b]15[/b][b]0°/second[/b], adjustable through\n<br />[code]freeRotationSpeed[/code]in\n<br />[code]opencomposite.ini OR\n<br />zerogvr-steamvr.ini[/code]\n<br />[b]Go slowly at first, free rotation in space could speedrun motion sickness if you're prone. \n<br />\n<br />Installation\n<br />[/b]\n<br />\n<br />[list=1]\n<br />[*][b] Unpack Zip in the BInaries folder of your No Man's Sky installation, overwrite/replace files if prompted.[/b][/*]\n<br />[/list][b]This is a VR DLL replacement, not a PAK mod. Install manually—not through a mod manager. [/b]\n<br />\n<br />\n<br />\n<br />\n<br />[b]Credits[/b]\n<br />Built on [b]J0ta4p3’s [/b][url=https://www.nexusmods.com/nomanssky/mods/4363][b]OpenComposite for No Man’s Sky VR — VDXR[/b][/url] and published source. Their compatibility work made this possible. Thanks also to the OpenComposite and MinHook contributors.\n<br />Created through user-directed development and in-game testing, with coding, debugging, writing, and artwork assistance from Ecco, OpenAI’s Codex/ChatGPT. ",
+    "description": "[b]DISABLE SHOW BODY IN VR.\n<br />\n<br />This mod alters the hand, camera and thruster rotation but the body is still horizon locked in spacewalk.  Hopefully HG comes out with an actual fix soon, making this \"fix\" obsolete.\n<br />\n<br />Just know it's meant to be used with the VR body disabled in the Game Options.[/b]\n<br />\n<br />[b]The added controls work only in space.[/b] Entering a ship interior or returning to the ground disables them.\n<br />[b]Quest Touch controls[/b]\n<br />[list]\n<br />[*][b]Left grip + right stick:[/b] up/down pitches; left/right rolls.[/*]\n<br />[*][b]Without grip:[/b] right-stick left/right turns around your new up axis; up/down provides vertical movement.[/*]\n<br />[*][b]Left trigger:[/b] thrusters follow your rotated headset’s up direction.[/*]\n<br />[*][b]Left grip + right-stick click:[/b] reset upright.[/*]\n<br />[/list]Rotation defaults to [b]15[/b][b]0°/second[/b], adjustable through\n<br />[code]freeRotationSpeed[/code]in\n<br />[code]opencomposite.ini OR\n<br />zerogvr-steamvr.ini[/code]\n<br />[b]Go slowly at first, free rotation in space could speedrun motion sickness if you're prone. \n<br />\n<br />Installation\n<br />[/b]\n<br />\n<br />[list=1]\n<br />[*][b] Unpack Zip in the BInaries folder of your No Man's Sky installation, overwrite/replace files if prompted.[/b][/*]\n<br />[/list][b]This is a VR DLL replacement, not a PAK mod. Install manually—not through a mod manager. [/b]\n<br />\n<br />\n<br />\n<br />\n<br />[b]Credits[/b]\n<br />Built on [b]J0ta4p3’s [/b][url=https://www.nexusmods.com/nomanssky/mods/4363][b]OpenComposite for No Man’s Sky VR — VDXR[/b][/url] and published source. Their compatibility work made this possible. Thanks also to the OpenComposite and MinHook contributors.\n<br />Created through user-directed development and in-game testing, with coding, debugging, writing, and artwork assistance from Ecco, OpenAI’s Codex/ChatGPT. ",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -707621,7 +707728,7 @@
     "author": "ersalva",
     "updated_timestamp": 1793816775,
     "created_timestamp": 1793623067,
-    "description": "[center]\n<br />[size=6][color=#39DDF2][b]PORTAL GLYPHS[/b][/color][/size]\n<br />[size=5][color=#F2C66D][b]— BOOKMARKS —[/b][/color][/size]\n<br />[i]Your favourite destinations. One portal. No more manual glyph entry.[/i]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=4][color=#F2C66D][b]AN IMPERIAL GALACTIC MAP EXTENSION[/b][/color][/size]\n<br />[b]Version 0.6.1 | No Man's Sky | Windows / Steam\n<br />[/b]\n<br />[youtube]XUHi6LtRVZI[/youtube]\n<br />[/center]\n<br />[quote]\n<br />[color=#FFCA70][b]IMPORTANT — IMPERIAL GALACTIC MAP IS REQUIRED[/b][/color]\n<br />[b]Quick Portal Glyphs – Bookmarks is NOT a standalone mod.[/b]\n<br />This extension requires [b]Latest Imperial Galactic Map (IGM) to be installed and working correctly.\n<br />It uses IGM's existing system, favourites and data. Without the compatible IGM core, the extension will not activate.\n<br />[b]Required Mod:[/b] [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] on Nexus[/b][/quote][b][size=5][color=#39DDF2][b]DISCOVER. BOOKMARK. TRAVEL.[/b][/color][/size]\n<br />Exploring the universe is one of the greatest experiences in No Man's Sky. But travelling back to your favourite discoveries shouldn't mean entering twelve portal glyphs manually every single time.\n<br />[b]Quick Portal Glyphs – Bookmarks[/b] extends Imperial Galactic Map with a convenient portal interface, allowing you to select saved destinations and use their portal addresses directly.\n<br />Whether you're returning to a beautiful paradise planet, visiting a distant base or travelling to a favourite discovery, your saved destinations are only a few steps away.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]FEATURES[/b][/color][/size][/b]\n<br />[list]\n<br />[*][b][b]Quick portal address entry[/b]\n<br />Use your saved destinations without manually selecting all twelve glyphs.[/b][/*]\n<br />[*][b][b]Integrated bookmarks[/b]\n<br />Access your favourite locations through a compact interface connected to Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]Native portal interaction[/b]\n<br />Uses the game's internal portal functionality.[/b][/*]\n<br />[*][b][b]12-glyph address support[/b]\n<br />Designed to work with complete portal addresses.[/b][/*]\n<br />[*][b][b]Multiple galaxies[/b]\n<br />Supports destinations across different galaxies, with appropriate destination checks.[/b][/*]\n<br />[*][b][b]Safety checks[/b]\n<br />Checks portal state and destination requirements before attempting address entry.[/b][/*]\n<br />[*][b][b]Manual confirmation[/b]\n<br />Addresses are used through an explicit player action, rather than automatic activation when opening a portal.[/b][/*]\n<br />[*][b][b]Optional extension[/b]\n<br />Remove the extension without uninstalling Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]No save editing[/b]\n<br />Does not directly modify your No Man's Sky save files.[/b][/*]\n<br />[/list][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D][b]HOW IT WORKS[/b][/color][/size]\n<br />[b][color=#39DDF2]01 —  PRESS F8 AND SAVE YOUR DESTINATIONS[/color][/b]\n<br />Use [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] your favourite planets and star systems.\n<br />[b][color=#39DDF2]02 — OPEN A PORTAL[/color][/b]\n<br />Find and activate a planetary portal in No Man's Sky, then open its glyph-entry interface.\n<br />[b][color=#39DDF2]03 — CHOOSE A BOOKMARK[/color][/b]\n<br />Access the compact favourites interface and select your saved destination.\n<br />[b][color=#39DDF2]04 — USE THE ADDRESS[/color][/b]\n<br />Confirm your selection to let the extension enter the portal address through the game's native functionality, subject to its compatibility and safety checks.[/b]\n<br />[center][b]\n<br />[color=#F2C66D][i]Spend less time entering glyphs. Spend more time exploring.[/i][/color]\n<br />[/b][/center]\n<br />[b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]REQUIREMENTS[/b][/color][/size][/b]\n<br />[list]\n<br />[]No Man's Sky — Steam version for Windows. Required Mod: Latest Imperial Galactic Map (IGM) The matching IGM installation, including its main xinput9_1_0.dll.Your existing IGM data and bookmarks.[/list][b][color=#FFCA70][b]Compatibility warning:[/b][/color]\n<br />Each Version update was built specifically for the matching [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] core.\n<br />The extension verifies the exact IGM core build and required APIs. Replacing the main DLL with a different version may prevent the portal extension from loading.\n<br />[b]Do not mix different IGM and Quick Portal Glyphs versions unless their compatibility has been confirmed.[/b]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]INSTALLATION[/b][/color][/size]\n<br />[b]1.[/b] Install the required version of Imperial Galactic Map first: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) [/url] on Nexus\n<br />[b]2.[/b] Completely close No Man's Sky.\n<br />[b]3.[/b] Open your No Man's Sky installation directory and locate the [b]Binaries[/b] folder containing NMS.exe.\n<br />[b]4.[/b] Extract the extension ZIP into that directory, preserving its folder structure.\n<br />Your installation should look like this:[/b]\n<br />[code]\n<br />No Man's Sky/\n<br />└── Binaries/\n<br />├── NMS.exe\n<br />├── xinput9_1_0.dll (Imperial Galactic Map)\n<br />├── IGM_Portal.dll (Quick Portal Glyphs)\n<br />└── IGM/ (Existing IGM data)[/code][b][b]5.[/b] Launch No Man's Sky normally through Steam.\n<br />[color=#F2C66D][b]IMPORTANT:[/b][/color] Do not replace the main IGM DLL when installing this extension. Do not delete or overwrite your existing IGM data folder.\n<br />[b]Updating Quick Portal Glyphs:[/b]\n<br />With the game closed, replace only [b]IGM_Portal.dll[/b] with the version compatible with your installed IGM core.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]UNINSTALLATION[/b][/color][/size]\n<br />Quick Portal Glyphs is an optional extension.\n<br />To uninstall it, close No Man's Sky and remove:[/b]\n<br />[code]\n<br />Binaries/IGM_Portal.dll[/code][b]Your main Imperial Galactic Map installation, existing bookmarks and data can remain untouched.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D]COMPATIBILITY &amp; LIMITATIONS[/color][/size]\n<br />- The extension does not bypass the game's glyph knowledge requirements.[]The extension does not modify station ownership, missions or save-game progression.\n<br />- The extension does not include Imperial Galactic Map itself.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2]VERSION HISTORY[/color]\n<br />[/size] 0.6.2 --- IGM 0.65  Compatibility[/b]\n<br />[list]\n<br />[*]Quick Portal Glyphs - Bookmarks 0.6.2[/*]\n<br />[*]- Updated for the latest supported No Man’s Sky update.[/*]\n<br />[*]- Requires IGM 0.65.0.[/*]\n<br />[*]- Automatically disables on unsupported game versions.[/*]\n<br />[*]Updating: Close the game and replace only IGM_Portal.dll. Update IGM to 0.65.0 and keep your existing IGM folder to preserve your favourites and settings.[/*]\n<br />[/list][b]\n<br />0.6.1 — IGM 0.64.C Compatibility[/b]\n<br />[list]\n<br />* Updated compatibility with Latest Imperial Galactic Map (IGM)[]Updated the required core dependency verification.Preserved the existing portal behaviour from version 0.6. No intentional changes to portal input or rendering logic.[/list][center][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]PORTAL GLYPHS — BOOKMARKS[/b][/color][/size]\n<br />[color=#F2C66D][i]The universe is yours to rediscover.[/i][/color]\n<br />[b]\n<br />Required Mod: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) [/url] — Not a standalone mod.[/b]\n<br />[/b][/center]\n<br />",
+    "description": "[center][img]https://staticdelivery.nexusmods.com/mods/1634/images/4769/4769-1793887226-1258484173.png[/img][size=6][color=#39DDF2][b]\n<br />PORTAL GLYPHS[/b][/color][/size]\n<br />[size=5][color=#F2C66D][b]— BOOKMARKS —[/b][/color][/size]\n<br />[i]Your favourite destinations. One portal. No more manual glyph entry.[/i]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=4][color=#F2C66D][b]AN IMPERIAL GALACTIC MAP EXTENSION[/b][/color][/size]\n<br />[b]Version 0.6.6 | No Man's Sky | Windows / Steam\n<br />[/b]\n<br />[youtube]XUHi6LtRVZI[/youtube]\n<br />[/center]\n<br />[quote]\n<br />[color=#FFCA70][b]IMPORTANT — IMPERIAL GALACTIC MAP IS REQUIRED[/b][/color]\n<br />[b]Quick Portal Glyphs – Bookmarks is NOT a standalone mod.[/b]\n<br />This extension requires [b]Latest Imperial Galactic Map (IGM) to be installed and working correctly.\n<br />It uses IGM's existing system, favourites and data. Without the compatible IGM core, the extension will not activate.\n<br />[b]Required Mod:[/b] [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] on Nexus[/b][/quote][b][size=5][color=#39DDF2][b]DISCOVER. BOOKMARK. TRAVEL.[/b][/color][/size]\n<br />Exploring the universe is one of the greatest experiences in No Man's Sky. But travelling back to your favourite discoveries shouldn't mean entering twelve portal glyphs manually every single time.\n<br />[b]Quick Portal Glyphs – Bookmarks[/b] extends Imperial Galactic Map with a convenient portal interface, allowing you to select saved destinations and use their portal addresses directly.\n<br />Whether you're returning to a beautiful paradise planet, visiting a distant base or travelling to a favourite discovery, your saved destinations are only a few steps away.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]FEATURES[/b][/color][/size][/b]\n<br />[list]\n<br />[*][b][b]Quick portal address entry[/b]\n<br />Use your saved destinations without manually selecting all twelve glyphs.[/b][/*]\n<br />[*][b][b]Integrated bookmarks[/b]\n<br />Access your favourite locations through a compact interface connected to Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]Native portal interaction[/b]\n<br />Uses the game's internal portal functionality.[/b][/*]\n<br />[*][b][b]12-glyph address support[/b]\n<br />Designed to work with complete portal addresses.[/b][/*]\n<br />[*][b][b]Multiple galaxies[/b]\n<br />Supports destinations across different galaxies, with appropriate destination checks.[/b][/*]\n<br />[*][b][b]Safety checks[/b]\n<br />Checks portal state and destination requirements before attempting address entry.[/b][/*]\n<br />[*][b][b]Manual confirmation[/b]\n<br />Addresses are used through an explicit player action, rather than automatic activation when opening a portal.[/b][/*]\n<br />[*][b][b]Optional extension[/b]\n<br />Remove the extension without uninstalling Imperial Galactic Map.[/b][/*]\n<br />[*][b][b]No save editing[/b]\n<br />Does not directly modify your No Man's Sky save files.[/b][/*]\n<br />[/list][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D][b]HOW IT WORKS[/b][/color][/size]\n<br />[b][color=#39DDF2]01 —  PRESS F8 AND SAVE YOUR DESTINATIONS[/color][/b]\n<br />Use [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] your favourite planets and star systems.\n<br />[b][color=#39DDF2]02 — OPEN A PORTAL[/color][/b]\n<br />Find and activate a planetary portal in No Man's Sky, then open its glyph-entry interface.\n<br />[b][color=#39DDF2]03 — CHOOSE A BOOKMARK[/color][/b]\n<br />Access the compact favourites interface and select your saved destination.\n<br />[b][color=#39DDF2]04 — USE THE ADDRESS[/color][/b]\n<br />Confirm your selection to let the extension enter the portal address through the game's native functionality, subject to its compatibility and safety checks.[/b]\n<br />[center][b]\n<br />[color=#F2C66D][i]Spend less time entering glyphs. Spend more time exploring.[/i][/color]\n<br />[/b][/center]\n<br />[b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]REQUIREMENTS[/b][/color][/size][/b]\n<br />[list]\n<br />[]No Man's Sky — Steam version for Windows. Required Mod: Latest Imperial Galactic Map (IGM) The matching IGM installation, including its main xinput9_1_0.dll.Your existing IGM data and bookmarks.[/list][b][color=#FFCA70][b]Compatibility warning:[/b][/color]\n<br />Each Version update was built specifically for the matching [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] core.\n<br />The extension verifies the exact IGM core build and required APIs. Replacing the main DLL with a different version may prevent the portal extension from loading.\n<br />[b]Do not mix different IGM and Quick Portal Glyphs versions unless their compatibility has been confirmed.[/b]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]INSTALLATION[/b][/color][/size]\n<br />[b]1.[/b] Install the required version of Imperial Galactic Map first: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) [/url] on Nexus\n<br />[b]2.[/b] Completely close No Man's Sky.\n<br />[b]3.[/b] Open your No Man's Sky installation directory and locate the [b]Binaries[/b] folder containing NMS.exe.\n<br />[b]4.[/b] Extract the extension ZIP into that directory, preserving its folder structure.\n<br />Your installation should look like this:[/b]\n<br />[code]\n<br />No Man's Sky/\n<br />└── Binaries/\n<br />├── NMS.exe\n<br />├── xinput9_1_0.dll (Imperial Galactic Map)\n<br />├── IGM_Portal.dll (Quick Portal Glyphs)\n<br />└── IGM/ (Existing IGM data)[/code][b][b]5.[/b] Launch No Man's Sky normally through Steam.\n<br />[color=#F2C66D][b]IMPORTANT:[/b][/color] Do not replace the main IGM DLL when installing this extension. Do not delete or overwrite your existing IGM data folder.\n<br />[b]Updating Quick Portal Glyphs:[/b]\n<br />With the game closed, replace only [b]IGM_Portal.dll[/b] with the version compatible with your installed IGM core.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]UNINSTALLATION[/b][/color][/size]\n<br />Quick Portal Glyphs is an optional extension.\n<br />To uninstall it, close No Man's Sky and remove:[/b]\n<br />[code]\n<br />Binaries/IGM_Portal.dll[/code][b]Your main Imperial Galactic Map installation, existing bookmarks and data can remain untouched.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D]COMPATIBILITY &amp; LIMITATIONS[/color][/size]\n<br />- The extension does not bypass the game's glyph knowledge requirements.[]The extension does not modify station ownership, missions or save-game progression.\n<br />- The extension does not include Imperial Galactic Map itself.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2]VERSION HISTORY[/color]\n<br />[/size] 0.6.2 --- IGM 0.65  Compatibility[/b]\n<br />[list]\n<br />[*]Quick Portal Glyphs - Bookmarks 0.6.2[/*]\n<br />[*]- Updated for the latest supported No Man’s Sky update.[/*]\n<br />[*]- Requires IGM 0.65.0.[/*]\n<br />[*]- Automatically disables on unsupported game versions.[/*]\n<br />[*]Updating: Close the game and replace only IGM_Portal.dll. Update IGM to 0.65.0 and keep your existing IGM folder to preserve your favourites and settings.[/*]\n<br />[/list][b]\n<br />0.6.1 — IGM 0.64.C Compatibility[/b]\n<br />[list]\n<br />* Updated compatibility with Latest Imperial Galactic Map (IGM)[]Updated the required core dependency verification.Preserved the existing portal behaviour from version 0.6. No intentional changes to portal input or rendering logic.[/list][center][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]PORTAL GLYPHS — BOOKMARKS[/b][/color][/size]\n<br />[color=#F2C66D][i]The universe is yours to rediscover.[/i][/color]\n<br />[b]\n<br />Required Mod: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) [/url]— Not a standalone mod.[/b]\n<br />[/b][/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
