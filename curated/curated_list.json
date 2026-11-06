@@ -337062,10 +337062,10 @@
     "mod_id": 2113,
     "name": "Snappy Industry",
     "summary": "Add snapping points to commonly used industry buildings.",
-    "version": "7.06",
+    "version": "7.13",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2113/2113-1635169758-27371053.jpeg",
     "author": "Ethreon and Babscoole and EMPTYd and KuroPeach",
-    "updated_timestamp": 1791329302,
+    "updated_timestamp": 1793988643,
     "created_timestamp": 1635170034,
     "description": "Introduces basic snapping points to a variety of commonly used industry buildings, which will allow said items to snap to each other, themselves, and on top of the basic floor panels and small floor panels.\n<br />\n<br />[color=#00ff00][size=4]Remember[/size][/color]:  [color=#ff0000][size=3]Scaling breaks snapping!![/size]\n<br />\n<br />[/color][size=4]Now, with permission, of EMPTY.d,  integrates [url=https://www.nexusmods.com/nomanssky/mods/2847?tab=description]Snappy Modules[/url].  See notes below for details.  This effort was done by [url=https://next.nexusmods.com/profile/KuroPeach/about-me?gameId=1634]KuroPeach\n<br />[/url][/size]\n<br />[size=5]For Chinese supported language version, please see [/size][url=https://www.nexusmods.com/nomanssky/mods/3210?tab=description][size=5]Snappy Industry (Chinese version)[/size][/url]\n<br />\n<br />[b]Buildings affected\n<br />[/b]\n<br />[list]\n<br />[*][b][u] Floor scene used by all floor tiles[/u][/b][/*]\n<br />[*][b][u] Quarter floor scene used by all small floor tiles[/u][/b][/*]\n<br />[*][b] Antimatter Reactor[/b][/*]\n<br />[*][b] Atmosphere Harvester[/b][/*]\n<br />[*][b] Automated Feeder[/b][/*]\n<br />[*][b] Autonomous Mining Unit[/b][/*]\n<br />[*][b] Base Teleport Module[/b][/*]\n<br />[*][b] Battery[/b][/*]\n<br />[*][b] Biofuel Reactor[/b][/*]\n<br />[*][b] EM Generator[/b][/*]\n<br />[*][b] Gas Extractor[/b][/*]\n<br />[*][b] Large Refiner[/b][/*]\n<br />[*][b] Livestock Unit[/b][/*]\n<br />[*][b] Medium Refiner[/b][/*]\n<br />[*][b] Mineral Extractor[/b][/*]\n<br />[*][b] Solar Panel[/b][/*]\n<br />[*][b] Supply Depot[/b][/*]\n<br />[/list]\n<br />\n<br />[b]Notes for Snappy Modules integration\n<br />[/b]\n<br />Added snap points for various common equipment and buildings, allowing them to snap to each other, themselves, large floors, small floors, large prefabs, small modular rooms, cargo ship holds, and external platforms.\n<br />\n<br />Now integrated with the Snappy module, with permission from EMPTY.d. See the notes below for details. This work was done by KuroPeach.\n<br />For players who know how to use AMUMSS, it is now easier to add the buildings you want through LUA, just find the corresponding file path and add it to the corresponding size list.\n<br />\n<br />Remember: scaling will break snapping! !\n<br />\n<br />Added 5 snap points for large floors, 1 for small floors, 5 for small modular rooms, and 9 for various cargo ship cabins and external platforms.\n<br />\n<br />The following equipment can be placed on the floor, small modular room, cargo ship holds and external platform, in the four directions of itself, in the center of large prefabricated room and in the four diagonal directions: Medium building\n<br />Base computer\n<br />Electric cloaking unit\n<br />Save point\n<br />Save beacon\n<br />Information module\n<br />Small refiner\n<br />Signal amplifier\n<br />Message beacon\n<br />Nutrient processor\n<br />Building research unit\n<br />Utopia construction station\n<br />Reinforcement boat research station\n<br />Utopia suit station\n<br />Utopia spaceship station\n<br />Utopia tool station\n<br />Automatic feeder\n<br />Atmosphere collector\n<br />Oxygen collector\n<br />Autonomous mining machine\n<br />Medium refiner\n<br />Byte pat device\n<br />Noise box\n<br />Short-range transmitter\n<br />Small hydroponic plate\n<br />Electromagnetic generator\n<br />Supply warehouse\n<br />Airbed extractor            can be rotated 45° on the small floor, but it is not very convenient, and the direction of the small floor needs to be adjusted\n<br />Mineral bed extractor\n<br />Battery pack                can be densely placed Small building\n<br />Solar panel\n<br />The following equipment can be placed in the center of the large floor and on the roof of the prefabricated room: Huge building\n<br />Reinforcement boat summoning station\n<br />Pilgrim's mooring bay\n<br />Giant Human Bay\n<br />Minota Bay\n<br />Wanderer Bay\n<br />Nautilus Bay\n<br />Nomad Bay\n<br />Landing Pad\n<br />Alternative Landing Pad\n<br />Various Prefabricated Houses\n<br />The following equipment can be placed in the center of the large floor, in the four directions of itself, in the center of the large prefabricated house and in the four diagonal directions: Big buildings\n<br />Base Teleport Module\n<br />Storage Box 0~9\n<br />Appearance Modifier\n<br />Large Refiner\n<br />Antimatter Collector\n<br />Animal Husbandry Device\n<br />Abandoned Base Salvage Warehouse\n<br />Trading Terminal\n<br />\n<br />To use AMUMSS to self-update or combine with other conflicting mods, see [url=https://www.nexusmods.com/nomanssky/mods/2626]How to use AMUMSS at No Man's Sky Nexus - Mods and Community (nexusmods.com)[/url]\n<br />\n<br />Install:  Extract to GAMEDATA&#92;MODS\n<br />\n<br />[b]This mod will conflict with any other mod that changes the following files[/b]\n<br />\n<br />[list]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;BASEBEACON_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;DISABLEWIRESMODULE_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;SAVEPOINT_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;BEACON_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;MESSAGEMODULE_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;REFINER1_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;SIGNALSCANNER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;MESSENGER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;COOKER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;BLUEPRINTANALYSER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;BLUEPRINTANALYSER_BUILD_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;BLUEPRINTANALYSER_EXO_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;BLUEPRINTANALYSER_SCI_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;BLUEPRINTANALYSER_SHIP_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;BLUEPRINTANALYSER_WEAP_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;CREATUREFOODMAKER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;GASHARVESTER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;OXYGENHARVESTER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;HARVESTER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;REFINER2_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;BYTEBEAT_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;NOISEBOX_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MINIPORTAL_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_BIOGENERATOR_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_GENERATORS_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_SILOS_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_GASEXTRACTOR_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_PUMPS_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_GASEXTRACTOR_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_PUMPS_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_BATTERYS_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_SOLARPANELS_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;VEHICLE_SUMMONER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;VEHICLEGARAGEBIKE_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;VEHICLEGARAGELARGE_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;VEHICLEGARAGEMECH_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;VEHICLEGARAGESMALL_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;VEHICLEGARAGESUBMARINE_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;VEHICLEGARAGECUSTOMISER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGPAD_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;COMMONPARTS&#92;TELEPORTER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;CONTAINERS&#92;CONTAINER_0_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;CONTAINERS&#92;CONTAINER_1_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;CONTAINERS&#92;CONTAINER_2_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;CONTAINERS&#92;CONTAINER_3_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;CONTAINERS&#92;CONTAINER_4_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;CONTAINERS&#92;CONTAINER_5_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;CONTAINERS&#92;CONTAINER_6_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;CONTAINERS&#92;CONTAINER_7_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;CONTAINERS&#92;CONTAINER_8_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;CONTAINERS&#92;CONTAINER_9_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;CUSTOMISESTATION_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;REFINER3_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;ANTIMATTERHARVESTER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;CREATUREHARVESTER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;BASECAPSULE_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;SHOPTERMINAL_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;COMMONPARTS&#92;TELEPORTER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;CUSTOMISESTATION_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;REFINER3_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;REFINER2_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_BIOGENERATOR_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_BATTERYS_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULE_SOLARPANELS_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;BASICPARTS&#92;BASIC_FLOOR.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;BASICPARTS&#92;BASIC_FLOOR_QUARTER.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;UTILITYPARTS&#92;MODULES_SNAPSCENE.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;EXTERIOR&#92;A&#92;EXTERIOR_A_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;TECHROOM&#92;ROOM_TECH_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;TELEPOROOM&#92;ROOM_TELEPO_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;SHOPROOM&#92;ROOM_SHOP_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;SCANROOM&#92;ROOM_SCAN_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;NPCSCIROOM&#92;ROOM_NPCSCI_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;NPCBUIROOM&#92;ROOM_NPCBUI_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;FLEETROOM&#92;ROOM_FLEET_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;DRESSROOM&#92;ROOM_DRESS_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;BIOROOM&#92;ROOM_BIO_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;COOKROOM&#92;ROOM_COOK_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;NPCFARROOM&#92;ROOM_NPCFAR_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;PLANTROOM&#92;ROOM_PLANT_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;PLANTROOM&#92;ROOM_PLANT1_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;INDUSTROOM&#92;ROOM_INDUST_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;EXTRROOM&#92;ROOM_EXTR_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;NPCVEHROOM&#92;ROOM_NPCVEH_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;NPCWEAROOM&#92;ROOM_NPCWEA_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;REFINERROOM&#92;ROOM_REFINER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;VEHICLEROOM&#92;ROOM_VEHICLE_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT0.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT1.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT2.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT3.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT4.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT5.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT6.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT7.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT8.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT9.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;INDUSTROOM&#92;ROOM_INDUST_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;EXTRROOM&#92;ROOM_EXTR_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;NPCVEHROOM&#92;ROOM_NPCVEH_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;NPCWEAROOM&#92;ROOM_NPCWEA_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;REFINERROOM&#92;ROOM_REFINER_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;VEHICLEROOM&#92;ROOM_VEHICLE_PLACEMENT.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT0.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT1.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT2.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT3.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT4.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT5.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT6.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT7.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT8.SCENE.MBIN[/size][/*]\n<br />[*][size=1]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;FREIGHTERBASE&#92;ROOMS&#92;STORAGEROOM&#92;ROOM_STORAGE_PLACEMENT9.SCENE.MBIN[/size][/*]\n<br />[/list]",
     "state": "normal",
@@ -337094,7 +337094,7 @@
         "size_kb": 17,
         "size_in_bytes": 17526,
         "changelog_html": "First iteration.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-1-0-1635170011.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-1-0-1635170011.zip.json"
       },
       {
         "id": [
@@ -337119,7 +337119,7 @@
         "size_kb": 8,
         "size_in_bytes": 7711,
         "changelog_html": "First iteration.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry LUA-2113-1-0-1652519071.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry LUA-2113-1-0-1652519071.zip.json"
       },
       {
         "id": [
@@ -337144,7 +337144,7 @@
         "size_kb": 24,
         "size_in_bytes": 24144,
         "changelog_html": "Updated Name Hashes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-15-1679614085.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-15-1679614085.zip.json"
       },
       {
         "id": [
@@ -337169,7 +337169,7 @@
         "size_kb": 8,
         "size_in_bytes": 8112,
         "changelog_html": "Updated Name Hashes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry LUA-2113-4-15-1679615432.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry LUA-2113-4-15-1679615432.zip.json"
       },
       {
         "id": [
@@ -337194,7 +337194,7 @@
         "size_kb": 32,
         "size_in_bytes": 32284,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-20-1680743053.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-20-1680743053.zip.json"
       },
       {
         "id": [
@@ -337219,7 +337219,7 @@
         "size_kb": 30,
         "size_in_bytes": 30698,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-25-1685674537.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-25-1685674537.zip.json"
       },
       {
         "id": [
@@ -337244,7 +337244,7 @@
         "size_kb": 30,
         "size_in_bytes": 30687,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-30-1686164303.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-30-1686164303.zip.json"
       },
       {
         "id": [
@@ -337269,7 +337269,7 @@
         "size_kb": 30,
         "size_in_bytes": 30601,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-40-1692892215.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-40-1692892215.zip.json"
       },
       {
         "id": [
@@ -337294,7 +337294,7 @@
         "size_kb": 30,
         "size_in_bytes": 30617,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-44-1694107069.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-44-1694107069.zip.json"
       },
       {
         "id": [
@@ -337319,7 +337319,7 @@
         "size_kb": 30,
         "size_in_bytes": 30650,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-46-1702061673.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-46-1702061673.zip.json"
       },
       {
         "id": [
@@ -337344,7 +337344,7 @@
         "size_kb": 30,
         "size_in_bytes": 30649,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-50-1707937765.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-50-1707937765.zip.json"
       },
       {
         "id": [
@@ -337369,7 +337369,7 @@
         "size_kb": 30,
         "size_in_bytes": 30584,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-62-1711589668.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-62-1711589668.zip.json"
       },
       {
         "id": [
@@ -337394,7 +337394,7 @@
         "size_kb": 30,
         "size_in_bytes": 31026,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-65-1714579865.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-65-1714579865.zip.json"
       },
       {
         "id": [
@@ -337419,7 +337419,7 @@
         "size_kb": 32,
         "size_in_bytes": 33052,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-70-1717089955.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-4-70-1717089955.zip.json"
       },
       {
         "id": [
@@ -337444,7 +337444,7 @@
         "size_kb": 33,
         "size_in_bytes": 33528,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-1-1-1721879249.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-1-1-1721879249.zip.json"
       },
       {
         "id": [
@@ -337469,7 +337469,7 @@
         "size_kb": 34,
         "size_in_bytes": 34572,
         "changelog_html": "Update for NMS 5.10, Aquarius",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-10-1725486562.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-10-1725486562.zip.json"
       },
       {
         "id": [
@@ -337494,7 +337494,7 @@
         "size_kb": 76,
         "size_in_bytes": 77444,
         "changelog_html": "Now integrates Snappy Modules.  Thanks to KuroPeach who performed this effort.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-12-1726966871.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-12-1726966871.zip.json"
       },
       {
         "id": [
@@ -337519,7 +337519,7 @@
         "size_kb": 76,
         "size_in_bytes": 77880,
         "changelog_html": "The adsorption points of some devices were added repeatedly, causing failure,  Fixed",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-12a-1727004301.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-12a-1727004301.zip.json"
       },
       {
         "id": [
@@ -337544,7 +337544,7 @@
         "size_kb": 92,
         "size_in_bytes": 94558,
         "changelog_html": "the long-standing multi-angle rotation, now can rotate 0° 90° 180° -90°",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-12b-1727331846.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-12b-1727331846.zip.json"
       },
       {
         "id": [
@@ -337569,7 +337569,7 @@
         "size_kb": 104,
         "size_in_bytes": 106856,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-20-1729696591.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-20-1729696591.zip.json"
       },
       {
         "id": [
@@ -337594,7 +337594,7 @@
         "size_kb": 137,
         "size_in_bytes": 140427,
         "changelog_html": "Update for NMS 5.58, Worlds Pt II",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-58-1742175936.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-58-1742175936.zip.json"
       },
       {
         "id": [
@@ -337619,7 +337619,7 @@
         "size_kb": 137,
         "size_in_bytes": 140476,
         "changelog_html": "Potential fix for 180 reversed modules in prefabs",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-72-1750358733.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-5-72-1750358733.zip.json"
       },
       {
         "id": [
@@ -337644,7 +337644,7 @@
         "size_kb": 142,
         "size_in_bytes": 145572,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-6-06-1759359994.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-6-06-1759359994.zip.json"
       },
       {
         "id": [
@@ -337669,7 +337669,7 @@
         "size_kb": 142,
         "size_in_bytes": 145584,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-6-10-1761158683.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-6-10-1761158683.zip.json"
       },
       {
         "id": [
@@ -337694,7 +337694,7 @@
         "size_kb": 142,
         "size_in_bytes": 145483,
         "changelog_html": "Update for NMS 6.18.  No functional changes, just some overdue code refreshes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-6-18-1766341848.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-6-18-1766341848.zip.json"
       },
       {
         "id": [
@@ -337719,7 +337719,7 @@
         "size_kb": 142,
         "size_in_bytes": 145419,
         "changelog_html": "Update for NMS 6.20",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-6-20-1770905587.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-6-20-1770905587.zip.json"
       },
       {
         "id": [
@@ -337744,7 +337744,7 @@
         "size_kb": 142,
         "size_in_bytes": 145434,
         "changelog_html": "Update for Swarm",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/Snappy Industry-2113-6-42-1780016760.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2113/Snappy Industry-2113-6-42-1780016760.zip.json"
       },
       {
         "id": [
@@ -337769,7 +337769,7 @@
         "size_kb": 145,
         "size_in_bytes": 149336,
         "changelog_html": "Cosmos update",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/fa/65/b7/fa65b71c-0714-47f4-8fa0-f420a5482e03.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/fa/65/b7/fa65b71c-0714-47f4-8fa0-f420a5482e03"
       },
       {
         "id": [
@@ -337780,9 +337780,9 @@
         "file_id": 49638,
         "name": "Snappy Industry",
         "version": "7.06",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 145,
         "file_name": "Snappy Industry 2113 7.06 2026-10-06T23-28Z gb4dJyx82.zip",
         "detected_file_extension": "zip",
@@ -337794,7 +337794,32 @@
         "size_kb": 145,
         "size_in_bytes": 149325,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2113/96/e4/4e/96e44e1d-d8e8-418d-bb17-3d3cc9fa47d8.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/96/e4/4e/96e44e1d-d8e8-418d-bb17-3d3cc9fa47d8"
+      },
+      {
+        "id": [
+          50493,
+          1634
+        ],
+        "uid": 7017976612157,
+        "file_id": 50493,
+        "name": "Snappy Industry",
+        "version": "7.13",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 145,
+        "file_name": "Snappy Industry 2113 7.13 2026-11-06T18-10Z hfsARgqkJ.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1793988643,
+        "uploaded_time": "2026-11-06T18:10:43.000+00:00",
+        "mod_version": "7.13",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d81399f3240d527b86360cf84a7787e56f5b0f6db8087f93be6f4035d81a1a47",
+        "description": "Makes commonly used industry buildings snap to themselves, each other and floor tiles.  Lua included",
+        "size_kb": 145,
+        "size_in_bytes": 149380,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b5/df/13/b5df13b9-e2ed-4545-b8ca-01c05cfe05e6"
       }
     ],
     "changelogs": {
@@ -399747,10 +399772,10 @@
     "mod_id": 2298,
     "name": "Keep Gifting",
     "summary": "Keep Gifting makes the npcs gifting dialogue stay open when gifting items to increase faction rep and also replaces gifting option for 1x with 5x.",
-    "version": "7.01",
+    "version": "7.13",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2298/2298-1755748544-1386580245.jpg",
     "author": "Reikokuu and Babscoole",
-    "updated_timestamp": 1789166955,
+    "updated_timestamp": 1793988342,
     "created_timestamp": 1653191526,
     "description": "If you have more than one item to gift to npcs this will make the process less tedious.  Works with primary gifts (Gek Relic, Korvax Casing, and Vy'keen Effigy). \n<br />\n<br />All settings are completely customizable in the lua script.\n<br />For a full list of customizable settings check the doc tab.\n<br />\n<br />[b][b]Manual Installation :[/b][/b]\n<br />Extract to GAMEDATA&#92;MODS\n<br />\n<br />[b]Mod Edits :[/b]\n<br />﻿METADATA/REALITY/TABLES/COSTTABLE.MBIN\n<br />﻿METADATA/REALITY/TABLES/REWARDTABLE.MBIN\n<br />﻿METADATA/REALITY/TABLES/NMS_DIALOG_GCALIENPUZZLETABLE.MBIN\n<br />\n<br />For install and usage of AMUMSS to self update the mod or combine with other mods using the included Lua script please see [url=https://www.nexusmods.com/nomanssky/mods/2626]AMUMSS How To[/url]\n<br />\n<br />[b]Other Mods :[/b]\n<br />﻿[url=https://www.nexusmods.com/users/21587394?tab=user+files&amp;BH=0]Reikokuu Mods[/url]",
     "state": "normal",
@@ -399758,28 +399783,28 @@
     "files": [
       {
         "id": [
-          48264,
+          50492,
           1634
         ],
-        "uid": 7017976609928,
-        "file_id": 48264,
+        "uid": 7017976612156,
+        "file_id": 50492,
         "name": "Keep Gifting",
-        "version": "7.01",
+        "version": "7.13",
         "category_id": 1,
         "category_name": "MAIN",
         "is_primary": true,
         "size": 8,
-        "file_name": "Keep Gifting 2298 7.01 2026-09-11T22-49Z izF9UkRZu.zip",
+        "file_name": "Keep Gifting 2298 7.13 2026-11-06T18-05Z KsnM3TtVo.zip",
         "detected_file_extension": "zip",
-        "uploaded_timestamp": 1789166955,
-        "uploaded_time": "2026-09-11T22:49:15.000+00:00",
-        "mod_version": "7.01",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/be01156161f249dffe474bbc3cb80b23ef77822007dbbe82fdd84fbddd745016",
+        "uploaded_timestamp": 1793988342,
+        "uploaded_time": "2026-11-06T18:05:42.000+00:00",
+        "mod_version": "7.13",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d8441d49ff200e324a562ef98d9d06cede18e2cc36a9c3fb191ab7cbf4bf3371",
         "description": "Lua Script Included",
         "size_kb": 8,
-        "size_in_bytes": 8323,
-        "changelog_html": "Cosmos update",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2298/3b/06/86/3b068629-3959-4f58-b0bd-5fca60766daf.json"
+        "size_in_bytes": 8331,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/81/2a/e4/812ae437-012d-46ed-9235-d4626851312a"
       }
     ],
     "changelogs": {
