@@ -545711,14 +545711,14 @@
   },
   {
     "mod_id": 3128,
-    "name": "Fly Like Iron Man - Jetpack Overhaul (COSMOS Update)",
-    "summary": "Complete overhaul of the jetpack.*UPDATED FOR COSMOS*",
-    "version": "3.1",
+    "name": "Fly Like Iron Man - Jetpack Overhaul (Obsolete)",
+    "summary": "Mod is now obsolete. Please download my successor 'Fly Like Iron Man - Next Generation\" here: https://www.nexusmods.com/nomanssky/mods/4785",
+    "version": "4.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3128/3128-1789061591-2128423232.png",
     "author": "DooDooDevan",
-    "updated_timestamp": 1789415955,
+    "updated_timestamp": 1794084478,
     "created_timestamp": 1722407063,
-    "description": "[center][/center]\n<br />[center][color=#00ff00][size=6]COSMOS UPDATE IS LIVE[/size][/color]\n<br />[color=#1e84cc][size=3][i]and yes, it works with multiplayer[/i][/size][/color]\n<br />\n<br />[img]https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnlqcWR5Y3UyaXhjZGxheDlyNXVhOWpieHl2ZzZxbTkweWNmNXlkeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QkXIswM5Pm3mpsFEn3/giphy.gif[/img][/center]\n<br />﻿﻿﻿﻿\n<br />[color=#1e84cc][size=6]Installation issues are now resolved[/size]\n<br />[/color][color=#00ff00][size=4]Installation\n<br />﻿[/size][/color][color=#00ff00]﻿Option 1: Automatic Installation[/color]\n<br />[list]\n<br />[*][i]﻿Use Vortex Mod Manager to automatically install the mod [b](it actually works now)[/b][/i][/*]\n<br />[/list]\n<br />  [color=#00ff00]﻿Option 2: Manual Installation[/color]\n<br />[list]\n<br />[*][i]﻿Unzip the file and place the \"Fly_Like_Iron_Man_Cosmos\" folder inside of the \"/GAMEDATA/MODS\" folder (Create the folder if it doesn't exist)[/i][/*]\n<br />[/list]\n<br />[color=#ff0000][size=4]Un-installation[/size][/color]\n<br />[list]\n<br />[*][i]﻿Delete the \"Fly_Like_Iron_Man_Cosmos\" folder from the \"/GAMEDATA/MODS\" folder[/i][/*]\n<br />[/list]\n<br />[size=4][color=#ff7700]**NOTE**[/color][/size]\n<br />If you have had issues with installing my mod, I apologize for the confusion. Please ensure you clear your MODS folder of any remnants of my mod, and then delete the archives out of Vortex Mod Manager entirely before installing the new version of my mod.\n<br />\n<br />To be very clear the end result, [i]whether you use a mod manager or a manual install[/i] should land you inside of the [color=#ff7700]\"&#92;GAMEDATA&#92;MODS\"[/color] [color=#ff7700]folder[/color] and you should be able to see my mod's folder [color=#ff7700]\"Fly_Like_Iron_Man_Cosmos\"[/color]. Click into this folder. If a folder titled [color=#ff7700]\"MODELS\"[/color] and a file called [color=#ff7700]\"GCPLAYERGLOBALS.GLOBAL.MBIN\"[/color] exist, the mod has been installed [color=#00ff00]correctly.[/color]\n<br />[center][i][i][color=#00ffff][b]----------------------------------------------------------------------------------------------------------------------------------------------------[/b][/color][/i][/i][/center]\n<br />[i][b][color=#00ffff][size=6]Upcoming Updates [/size][/color]\n<br />[/b][/i]\n<br />[i]-Free fly mode. (Forking from spacewalk mechanics)[/i]\n<br />[i]-Bigger thrusters\n<br />[/i]-Thruster placement changes\n<br />[i]-Additional camera positioning improvements.\n<br />-Smoother transitions in general, slower animation speeds, more immersive feel\n<br />[/i]\n<br />[center][i][b][i][i][color=#00ffff]----------------------------------------------------------------------------------------------------------------------------------------------------[/color][/i][/i][/b][/i]\n<br />[/center]\n<br />[color=#00ffff][size=6][b][i]Changelog[/i][/b][/size][/color]\n<br />\n<br />[color=#1e84cc]Update V3.0[/color]\n<br />-Mod now works with the COSMOS update[i]\n<br />-Alternate speed and fill-rate options coming soon\n<br />-Alternate mode (Free flight) near complete. Thank you for your patience. [/i]\n<br />\n<br />[color=#1e84cc][size=3]Update V2.4[/size][/color]\n<br />[size=2]-Mod now works with the Voyagers update[i]\n<br />-Alternate speed and fill-rate options coming soon[/i][/size]\n<br />\n<br />[color=#1e84cc]Update V2.3[/color]\n<br />[size=2]-Mod now works with the Beacon update\n<br />[i]-[i]Camera is broken at the moment, I am working on this[/i][/i][/size]\n<br />\n<br />[size=2][color=#1e84cc][b]Update V2.2[/b][/color][/size]\n<br />[i][size=2]-Fixed mod manager install issue[/size]\n<br />[color=#f4f4f4][size=2]-Added 3 fuel capacity options, available for each speed[/size][/color][/i]\n<br />[list]\n<br />[*][i][color=#f4f4f4][i][color=#f4f4f4][size=2]﻿Large Fuel Supply[/size][/color][/i][/color][/i][/*]\n<br />[*][i][color=#f4f4f4][i][color=#f4f4f4][size=2]﻿Medium Fuel Supply[/size][/color][/i][/color][/i][/*]\n<br />[*][i][color=#f4f4f4][i][color=#f4f4f4][size=2]﻿Small Fuel Supply[/size][/color][/i][/color][/i][/*]\n<br />[/list]\n<br />[color=#1e84cc][b]Update V2.1[/b][/color]\n<br />[i][size=2]-Updated for Relics\n<br />-Added new option for quarter speed[/size][/i]\n<br />\n<br />[b][color=#1e84cc][size=3]Update V2.0[/size][/color][/b]\n<br />[i][color=#f4f4f4]-Updated for Worlds Part II[/color]\n<br />[/i]\n<br />[b][color=#1e84cc][size=3]Update V1.6[/size][/color][/b]\n<br />[i][color=#f4f4f4]-Updated for The Cursed Expedition[/color]\n<br />[color=#f4f4f4]-Fixed an issue where the camera was unable to be controlled with gamepads\n<br />-Fixed an issue where the player arm animations were stuck in incorrect positions\n<br />-Fixed an issue where the multitool was stuck firing indefinitely[/color][/i]\n<br />\n<br />[b][color=#1e84cc]Update V1.5[/color][/b]\n<br />[color=#f4f4f4][i]-Updated for Aquarius game version\n<br />-Known issues: fly left animation and fall/skydive left animations are slightly broken. Working on a fix for this. Wanted to release what I could for time being.[/i][/color]\n<br />\n<br />[b][color=#1e84cc]Update V1.4[/color][/b]\n<br />[i]-Added new animations for left and right turning while flying\n<br />[/i][i]-Fixed issue where Rocketboots would not function on certain materials/ground types\n<br />[/i]\n<br />[b][color=#1e84cc]Update V1.3[/color][/b]\n<br />[i]-Changed Rocketboots to achieve a vertical takeoff launch. Get a quick and easy boost 10-15 feet up and smoothly transition to flying. \n<br />-Added new animation for Rocketboots take off. Take off like a superhero!\n<br />-Added new animations for landings. Land like a superhero! (Only affects your landing if not moving forward while you make contact with the ground)\n<br />-Added options for limited fuel capacity from community requests[/i]\n<br />\n<br />[b][color=#1e84cc]Update V1.2[/color][/b]\n<br />[i]-Added nosedive animation when player is freefalling.\n<br />-Slightly adjusted camera distances and motion effects for more immersion.[/i]\n<br />\n<br />[b][color=#1e84cc]Update V1.1[/color][/b][i]\n<br />-Slightly decreased the jetpack up force. Fly more horizontally than vertically. \n<br />-Slightly altered jetpack braking system for better stopping control.\n<br />-Fixed jetpack draining issues when flying vertically.\n<br />-Fixed rocket boots animation to prevent dropping down in elevation shortly after takeoff.\n<br />-Added alternate version that halves jetpack thrust power and speed for players who wish to fly slower.\n<br />\n<br />[/i][b][color=#1e84cc]Version 1.0[/color][/b]\n<br />[i]-Original file\n<br />-Changes the animations and speed of your jetpack to make you feel like you're flying like Iron Man.\n<br />-No updates, just the original concept of the mod.[/i]\n<br />",
+    "description": "[center][/center]\n<br />[center][size=6][color=#ff0000]MOD IS NOW OBSOLETE AND HAS BEEN SUNSETTED.\n<br />PLEASE DOWNLOAD THE SUCCESSOR HERE:[/color]\n<br />[url=https://github.com/DooDooDevan/FlyLikeIronMan][/url][url=https://www.nexusmods.com/nomanssky/mods/4785]https://www.nexusmods.com/nomanssky/mods/4785[/url][/size]\n<br />\n<br />[i][u]NOTE* \n<br />Until Nexus manually verifies my files, they are under quarantine and unable to be downloaded here. \n<br />If you choose to do so, you may download my mod from my GitHub page at your own risk.\n<br />[/u][/i]\n<br />[i][url=https://github.com/DooDooDevan/FlyLikeIronMan]https://github.com/DooDooDevan/FlyLikeIronMan[/url][/i]\n<br />\n<br />\n<br />\n<br />[img]https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnlqcWR5Y3UyaXhjZGxheDlyNXVhOWpieHl2ZzZxbTkweWNmNXlkeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QkXIswM5Pm3mpsFEn3/giphy.gif[/img][/center]\n<br />﻿﻿﻿\n<br />[center][/center]\n<br />[color=#00ffff][size=6][b][i]Changelog[/i][/b][/size][/color]\n<br />[color=#3c78d8]Update V4.0[/color]\n<br />-Sunsetting the mod, please download my new one here: [url=https://www.nexusmods.com/nomanssky/mods/4785]https://www.nexusmods.com/nomanssky/mods/4785[/url] \n<br />\n<br />[color=#1e84cc]Update V3.0[/color]\n<br />-Mod now works with the COSMOS update[i]\n<br />-Alternate speed and fill-rate options coming soon\n<br />-Alternate mode (Free flight) near complete. Thank you for your patience. [/i]\n<br />\n<br />[color=#1e84cc][size=3]Update V2.4[/size][/color]\n<br />[size=2]-Mod now works with the Voyagers update[i]\n<br />-Alternate speed and fill-rate options coming soon[/i][/size]\n<br />\n<br />[color=#1e84cc]Update V2.3[/color]\n<br />[size=2]-Mod now works with the Beacon update\n<br />[i]-[i]Camera is broken at the moment, I am working on this[/i][/i][/size]\n<br />\n<br />[size=2][color=#1e84cc][b]Update V2.2[/b][/color][/size]\n<br />[i][size=2]-Fixed mod manager install issue[/size]\n<br />[color=#f4f4f4][size=2]-Added 3 fuel capacity options, available for each speed[/size][/color][/i]\n<br />[list]\n<br />[*][i][color=#f4f4f4][i][color=#f4f4f4][size=2]﻿Large Fuel Supply[/size][/color][/i][/color][/i][/*]\n<br />[*][i][color=#f4f4f4][i][color=#f4f4f4][size=2]﻿Medium Fuel Supply[/size][/color][/i][/color][/i][/*]\n<br />[*][i][color=#f4f4f4][i][color=#f4f4f4][size=2]﻿Small Fuel Supply[/size][/color][/i][/color][/i][/*]\n<br />[/list]\n<br />[color=#1e84cc][b]Update V2.1[/b][/color]\n<br />[i][size=2]-Updated for Relics\n<br />-Added new option for quarter speed[/size][/i]\n<br />\n<br />[b][color=#1e84cc][size=3]Update V2.0[/size][/color][/b]\n<br />[i][color=#f4f4f4]-Updated for Worlds Part II[/color]\n<br />[/i]\n<br />[b][color=#1e84cc][size=3]Update V1.6[/size][/color][/b]\n<br />[i][color=#f4f4f4]-Updated for The Cursed Expedition[/color]\n<br />[color=#f4f4f4]-Fixed an issue where the camera was unable to be controlled with gamepads\n<br />-Fixed an issue where the player arm animations were stuck in incorrect positions\n<br />-Fixed an issue where the multitool was stuck firing indefinitely[/color][/i]\n<br />\n<br />[b][color=#1e84cc]Update V1.5[/color][/b]\n<br />[color=#f4f4f4][i]-Updated for Aquarius game version\n<br />-Known issues: fly left animation and fall/skydive left animations are slightly broken. Working on a fix for this. Wanted to release what I could for time being.[/i][/color]\n<br />\n<br />[b][color=#1e84cc]Update V1.4[/color][/b]\n<br />[i]-Added new animations for left and right turning while flying\n<br />[/i][i]-Fixed issue where Rocketboots would not function on certain materials/ground types\n<br />[/i]\n<br />[b][color=#1e84cc]Update V1.3[/color][/b]\n<br />[i]-Changed Rocketboots to achieve a vertical takeoff launch. Get a quick and easy boost 10-15 feet up and smoothly transition to flying. \n<br />-Added new animation for Rocketboots take off. Take off like a superhero!\n<br />-Added new animations for landings. Land like a superhero! (Only affects your landing if not moving forward while you make contact with the ground)\n<br />-Added options for limited fuel capacity from community requests[/i]\n<br />\n<br />[b][color=#1e84cc]Update V1.2[/color][/b]\n<br />[i]-Added nosedive animation when player is freefalling.\n<br />-Slightly adjusted camera distances and motion effects for more immersion.[/i]\n<br />\n<br />[b][color=#1e84cc]Update V1.1[/color][/b][i]\n<br />-Slightly decreased the jetpack up force. Fly more horizontally than vertically. \n<br />-Slightly altered jetpack braking system for better stopping control.\n<br />-Fixed jetpack draining issues when flying vertically.\n<br />-Fixed rocket boots animation to prevent dropping down in elevation shortly after takeoff.\n<br />-Added alternate version that halves jetpack thrust power and speed for players who wish to fly slower.\n<br />\n<br />[/i][b][color=#1e84cc]Version 1.0[/color][/b]\n<br />[i]-Original file\n<br />-Changes the animations and speed of your jetpack to make you feel like you're flying like Iron Man.\n<br />-No updates, just the original concept of the mod.[/i]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -545745,7 +545745,7 @@
         "size_kb": 26,
         "size_in_bytes": 26770,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man - Jetpack Overhaul-3128-1-0-1722407050.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man - Jetpack Overhaul-3128-1-0-1722407050.7z.json"
       },
       {
         "id": [
@@ -545770,7 +545770,7 @@
         "size_kb": 26,
         "size_in_bytes": 26805,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.1 (Full Power)-3128-1-1-1722719423.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.1 (Full Power)-3128-1-1-1722719423.7z.json"
       },
       {
         "id": [
@@ -545795,7 +545795,7 @@
         "size_kb": 26,
         "size_in_bytes": 26805,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.1 (Half Power)-3128-1-1-1722719453.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.1 (Half Power)-3128-1-1-1722719453.7z.json"
       },
       {
         "id": [
@@ -545820,7 +545820,7 @@
         "size_kb": 93,
         "size_in_bytes": 95559,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.2 (Full Power)-3128-1-2-1722917952.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.2 (Full Power)-3128-1-2-1722917952.7z.json"
       },
       {
         "id": [
@@ -545845,7 +545845,7 @@
         "size_kb": 93,
         "size_in_bytes": 95567,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.2 (Half Power)-3128-1-2-1722917984.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.2 (Half Power)-3128-1-2-1722917984.7z.json"
       },
       {
         "id": [
@@ -545870,7 +545870,7 @@
         "size_kb": 73,
         "size_in_bytes": 74942,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.2 (Full Power)-3128-1-2-1722976184.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.2 (Full Power)-3128-1-2-1722976184.7z.json"
       },
       {
         "id": [
@@ -545895,7 +545895,7 @@
         "size_kb": 73,
         "size_in_bytes": 74952,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.2 (Half Power)-3128-1-2-1722976313.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.2 (Half Power)-3128-1-2-1722976313.7z.json"
       },
       {
         "id": [
@@ -545920,7 +545920,7 @@
         "size_kb": 85,
         "size_in_bytes": 87302,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.2 Anims-3128-1-2-1722993777.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.2 Anims-3128-1-2-1722993777.7z.json"
       },
       {
         "id": [
@@ -545945,7 +545945,7 @@
         "size_kb": 213,
         "size_in_bytes": 218525,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Full Power)-3128-1-3-1723608844.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Full Power)-3128-1-3-1723608844.7z.json"
       },
       {
         "id": [
@@ -545970,7 +545970,7 @@
         "size_kb": 213,
         "size_in_bytes": 218490,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Half Power)-3128-1-3-1723608921.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Half Power)-3128-1-3-1723608921.7z.json"
       },
       {
         "id": [
@@ -545995,7 +545995,7 @@
         "size_kb": 274,
         "size_in_bytes": 280358,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 Anims-3128-1-3-1723609000.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 Anims-3128-1-3-1723609000.7z.json"
       },
       {
         "id": [
@@ -546020,7 +546020,7 @@
         "size_kb": 213,
         "size_in_bytes": 218539,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Full Power) (Limited Fuel)-3128-1-3-1723934067.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Full Power) (Limited Fuel)-3128-1-3-1723934067.7z.json"
       },
       {
         "id": [
@@ -546045,7 +546045,7 @@
         "size_kb": 213,
         "size_in_bytes": 218518,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Half Power) (Limited Fuel)-3128-1-3-1723934091.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Half Power) (Limited Fuel)-3128-1-3-1723934091.7z.json"
       },
       {
         "id": [
@@ -546070,7 +546070,7 @@
         "size_kb": 239,
         "size_in_bytes": 244292,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Full Power)-3128-1-4-1724382863.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Full Power)-3128-1-4-1724382863.7z.json"
       },
       {
         "id": [
@@ -546095,7 +546095,7 @@
         "size_kb": 239,
         "size_in_bytes": 244336,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Full Power) (Limited Fuel)-3128-1-4-1724382920.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Full Power) (Limited Fuel)-3128-1-4-1724382920.7z.json"
       },
       {
         "id": [
@@ -546120,7 +546120,7 @@
         "size_kb": 239,
         "size_in_bytes": 244287,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Half Power)-3128-1-4-1724382986.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Half Power)-3128-1-4-1724382986.7z.json"
       },
       {
         "id": [
@@ -546145,7 +546145,7 @@
         "size_kb": 239,
         "size_in_bytes": 244375,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Half Power) (Limited Fuel)-3128-1-4-1724383035.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Half Power) (Limited Fuel)-3128-1-4-1724383035.7z.json"
       },
       {
         "id": [
@@ -546170,7 +546170,7 @@
         "size_kb": 299,
         "size_in_bytes": 306200,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 Anims-3128-1-4-1724383131.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 Anims-3128-1-4-1724383131.7z.json"
       },
       {
         "id": [
@@ -546195,7 +546195,7 @@
         "size_kb": 238,
         "size_in_bytes": 244185,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Full Power)-3128-1-4-1724385047.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Full Power)-3128-1-4-1724385047.7z.json"
       },
       {
         "id": [
@@ -546220,7 +546220,7 @@
         "size_kb": 239,
         "size_in_bytes": 244234,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Full Power) (Limited Fuel)-3128-1-4-1724385151.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 (Full Power) (Limited Fuel)-3128-1-4-1724385151.7z.json"
       },
       {
         "id": [
@@ -546245,7 +546245,7 @@
         "size_kb": 239,
         "size_in_bytes": 244226,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Half Power)-3128-1-4-1724385224.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Half Power)-3128-1-4-1724385224.7z.json"
       },
       {
         "id": [
@@ -546270,7 +546270,7 @@
         "size_kb": 239,
         "size_in_bytes": 244254,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Half Power) (Limited Fuel)-3128-1-4-1724385273.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.3 (Half Power) (Limited Fuel)-3128-1-4-1724385273.7z.json"
       },
       {
         "id": [
@@ -546295,7 +546295,7 @@
         "size_kb": 299,
         "size_in_bytes": 306091,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 Anims-3128-1-4-1724386306.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.4 Anims-3128-1-4-1724386306.7z.json"
       },
       {
         "id": [
@@ -546320,7 +546320,7 @@
         "size_kb": 215,
         "size_in_bytes": 219778,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.5 (Full Power)-3128-1-5-1725565764.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.5 (Full Power)-3128-1-5-1725565764.7z.json"
       },
       {
         "id": [
@@ -546345,7 +546345,7 @@
         "size_kb": 215,
         "size_in_bytes": 219835,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.5 (Full Power) (Limited Fuel)-3128-1-5-1725565807.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.5 (Full Power) (Limited Fuel)-3128-1-5-1725565807.7z.json"
       },
       {
         "id": [
@@ -546370,7 +546370,7 @@
         "size_kb": 215,
         "size_in_bytes": 219774,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.5 (Half Power)-3128-1-5-1725565842.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.5 (Half Power)-3128-1-5-1725565842.7z.json"
       },
       {
         "id": [
@@ -546395,7 +546395,7 @@
         "size_kb": 215,
         "size_in_bytes": 219747,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.5 (Half Power) (Limited Fuel)-3128-1-5-1725565877.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.5 (Half Power) (Limited Fuel)-3128-1-5-1725565877.7z.json"
       },
       {
         "id": [
@@ -546420,7 +546420,7 @@
         "size_kb": 272,
         "size_in_bytes": 279022,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.5 Anims-3128-1-5-1725565910.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.5 Anims-3128-1-5-1725565910.7z.json"
       },
       {
         "id": [
@@ -546445,7 +546445,7 @@
         "size_kb": 215,
         "size_in_bytes": 219793,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.6 (Full Power)-3128-1-6-1729744612.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.6 (Full Power)-3128-1-6-1729744612.7z.json"
       },
       {
         "id": [
@@ -546470,7 +546470,7 @@
         "size_kb": 215,
         "size_in_bytes": 219777,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.6 (Full Power) (Limited Fuel)-3128-1-6-1729744655.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.6 (Full Power) (Limited Fuel)-3128-1-6-1729744655.7z.json"
       },
       {
         "id": [
@@ -546495,7 +546495,7 @@
         "size_kb": 215,
         "size_in_bytes": 219815,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.6 (Half Power)-3128-1-6-1729744798.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.6 (Half Power)-3128-1-6-1729744798.7z.json"
       },
       {
         "id": [
@@ -546520,7 +546520,7 @@
         "size_kb": 215,
         "size_in_bytes": 219799,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.6 (Half Power) (Limited Fuel)-3128-1-6-1729744834.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.6 (Half Power) (Limited Fuel)-3128-1-6-1729744834.7z.json"
       },
       {
         "id": [
@@ -546545,7 +546545,7 @@
         "size_kb": 272,
         "size_in_bytes": 279038,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.6 Anims-3128-1-6-1729744891.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man V1.6 Anims-3128-1-6-1729744891.7z.json"
       },
       {
         "id": [
@@ -546570,7 +546570,7 @@
         "size_kb": 109,
         "size_in_bytes": 112103,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man Worlds Part II (FP with UF)-3128-2-0-1738828049.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man Worlds Part II (FP with UF)-3128-2-0-1738828049.7z.json"
       },
       {
         "id": [
@@ -546595,7 +546595,7 @@
         "size_kb": 104,
         "size_in_bytes": 106226,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man Worlds Part II (Anims)-3128-2-0-1738828164.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man Worlds Part II (Anims)-3128-2-0-1738828164.7z.json"
       },
       {
         "id": [
@@ -546620,7 +546620,7 @@
         "size_kb": 117,
         "size_in_bytes": 119923,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Full Power)-3128-2-1-1743241183.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Full Power)-3128-2-1-1743241183.7z.json"
       },
       {
         "id": [
@@ -546645,7 +546645,7 @@
         "size_kb": 117,
         "size_in_bytes": 120076,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Half Power)-3128-2-1-1743241214.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Half Power)-3128-2-1-1743241214.7z.json"
       },
       {
         "id": [
@@ -546670,7 +546670,7 @@
         "size_kb": 117,
         "size_in_bytes": 119866,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Quarter Power)-3128-2-1-1743241247.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Quarter Power)-3128-2-1-1743241247.7z.json"
       },
       {
         "id": [
@@ -546695,7 +546695,7 @@
         "size_kb": 104,
         "size_in_bytes": 106198,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Anims)-3128-2-1-1743241308.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Anims)-3128-2-1-1743241308.7z.json"
       },
       {
         "id": [
@@ -546720,7 +546720,7 @@
         "size_kb": 117,
         "size_in_bytes": 119872,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Full Power)-3128-2-1-1743242457.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Full Power)-3128-2-1-1743242457.7z.json"
       },
       {
         "id": [
@@ -546745,7 +546745,7 @@
         "size_kb": 117,
         "size_in_bytes": 120026,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Half Power)-3128-2-1-1743242480.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Half Power)-3128-2-1-1743242480.7z.json"
       },
       {
         "id": [
@@ -546770,7 +546770,7 @@
         "size_kb": 117,
         "size_in_bytes": 119812,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Quarter Power)-3128-2-1-1743242504.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Quarter Power)-3128-2-1-1743242504.7z.json"
       },
       {
         "id": [
@@ -546795,7 +546795,7 @@
         "size_kb": 104,
         "size_in_bytes": 106140,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Anims)-3128-2-1-1743242525.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Anims)-3128-2-1-1743242525.7z.json"
       },
       {
         "id": [
@@ -546820,7 +546820,7 @@
         "size_kb": 117,
         "size_in_bytes": 119983,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (FP) (UF)-3128-2-2-1743493284.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (FP) (UF)-3128-2-2-1743493284.7z.json"
       },
       {
         "id": [
@@ -546845,7 +546845,7 @@
         "size_kb": 117,
         "size_in_bytes": 120134,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (HP) (UF)-3128-2-2-1743493328.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (HP) (UF)-3128-2-2-1743493328.7z.json"
       },
       {
         "id": [
@@ -546870,7 +546870,7 @@
         "size_kb": 117,
         "size_in_bytes": 119918,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (QP) (UF)-3128-2-2-1743493374.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (QP) (UF)-3128-2-2-1743493374.7z.json"
       },
       {
         "id": [
@@ -546895,7 +546895,7 @@
         "size_kb": 117,
         "size_in_bytes": 120198,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (FP) (LFS)-3128-2-2-1743493424.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (FP) (LFS)-3128-2-2-1743493424.7z.json"
       },
       {
         "id": [
@@ -546920,7 +546920,7 @@
         "size_kb": 117,
         "size_in_bytes": 120017,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (HP) (LFS)-3128-2-2-1743493506.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (HP) (LFS)-3128-2-2-1743493506.7z.json"
       },
       {
         "id": [
@@ -546945,7 +546945,7 @@
         "size_kb": 117,
         "size_in_bytes": 120039,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (QP) (LFS)-3128-2-2-1743493543.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (QP) (LFS)-3128-2-2-1743493543.7z.json"
       },
       {
         "id": [
@@ -546970,7 +546970,7 @@
         "size_kb": 117,
         "size_in_bytes": 120147,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (FP) (MFS)-3128-2-2-1743493634.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (FP) (MFS)-3128-2-2-1743493634.7z.json"
       },
       {
         "id": [
@@ -546995,7 +546995,7 @@
         "size_kb": 117,
         "size_in_bytes": 119959,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (HP) (MFS)-3128-2-2-1743493676.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (HP) (MFS)-3128-2-2-1743493676.7z.json"
       },
       {
         "id": [
@@ -547020,7 +547020,7 @@
         "size_kb": 117,
         "size_in_bytes": 119952,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (QP) (MFS)-3128-2-2-1743493709.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (QP) (MFS)-3128-2-2-1743493709.7z.json"
       },
       {
         "id": [
@@ -547045,7 +547045,7 @@
         "size_kb": 72,
         "size_in_bytes": 73552,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (FP) (SFS)-3128-2-2-1743493773.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (FP) (SFS)-3128-2-2-1743493773.7z.json"
       },
       {
         "id": [
@@ -547070,7 +547070,7 @@
         "size_kb": 72,
         "size_in_bytes": 73468,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (HP) (SFS)-3128-2-2-1743493808.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (HP) (SFS)-3128-2-2-1743493808.7z.json"
       },
       {
         "id": [
@@ -547095,7 +547095,7 @@
         "size_kb": 32,
         "size_in_bytes": 32938,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (QP) (SFS)-3128-2-2-1743493839.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (QP) (SFS)-3128-2-2-1743493839.7z.json"
       },
       {
         "id": [
@@ -547120,7 +547120,7 @@
         "size_kb": 104,
         "size_in_bytes": 106223,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Anims)-3128-2-2-1743493927.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Relics Update) (Anims)-3128-2-2-1743493927.7z.json"
       },
       {
         "id": [
@@ -547145,7 +547145,7 @@
         "size_kb": 55,
         "size_in_bytes": 56658,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Beacon Update)-3128-2-3-1754027011.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Beacon Update)-3128-2-3-1754027011.7z.json"
       },
       {
         "id": [
@@ -547170,7 +547170,7 @@
         "size_kb": 53,
         "size_in_bytes": 54540,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Beacon Update) (Anims Only)-3128-2-3-1754027141.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Beacon Update) (Anims Only)-3128-2-3-1754027141.7z.json"
       },
       {
         "id": [
@@ -547195,7 +547195,7 @@
         "size_kb": 22,
         "size_in_bytes": 22360,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Voyagers Update)-3128-2-4-1757109220.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Voyagers Update)-3128-2-4-1757109220.7z.json"
       },
       {
         "id": [
@@ -547220,7 +547220,7 @@
         "size_kb": 20,
         "size_in_bytes": 20022,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Voyagers Update) (Anims Only)-3128-2-4-1757109265.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Voyagers Update) (Anims Only)-3128-2-4-1757109265.7z.json"
       },
       {
         "id": [
@@ -547245,7 +547245,7 @@
         "size_kb": 245,
         "size_in_bytes": 250621,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Voyagers Update)-3128-2-5-1757388033.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Voyagers Update)-3128-2-5-1757388033.zip.json"
       },
       {
         "id": [
@@ -547270,7 +547270,7 @@
         "size_kb": 242,
         "size_in_bytes": 248022,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Voyagers Update) (Anims Only)-3128-2-5-1757388061.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3128/Fly Like Iron Man (Voyagers Update) (Anims Only)-3128-2-5-1757388061.zip.json"
       },
       {
         "id": [
@@ -547295,7 +547295,7 @@
         "size_kb": 22,
         "size_in_bytes": 22557,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/c2/5f/2a/c25f2a91-b54f-4ef6-80ae-1a79cd4e5bc8.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c2/5f/2a/c25f2a91-b54f-4ef6-80ae-1a79cd4e5bc8"
       },
       {
         "id": [
@@ -547320,7 +547320,7 @@
         "size_kb": 21,
         "size_in_bytes": 22514,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/e8/12/89/e81289ee-020d-4695-9c25-9ab6168f116a.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e8/12/89/e81289ee-020d-4695-9c25-9ab6168f116a"
       },
       {
         "id": [
@@ -547329,23 +547329,73 @@
         ],
         "uid": 7017976610256,
         "file_id": 48592,
-        "name": "Fly Like Iron Man Cosmos 3.1",
-        "version": "3.1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "name": "Fly Like Iron Man (Obsolete)",
+        "version": "4.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 21,
-        "file_name": "Fly Like Iron Man Cosmos 3.1 3128 3.1 2026-09-14T19-59Z 9Lg6VZTI1.7z",
+        "file_name": "Fly Like Iron Man (Obsolete) 3128 4.0 2026-09-14T19-59Z 9Lg6VZTI1.7z",
         "detected_file_extension": "7z",
         "uploaded_timestamp": 1789415955,
         "uploaded_time": "2026-09-14T19:59:15.000+00:00",
-        "mod_version": "3.1",
+        "mod_version": "4.0",
         "external_virus_scan_url": "https://www.virustotal.com/gui/file/5eb95ed23b16dd284ca379afa2b778d3c6539949b304f3976c2ab0e2e33cd883",
-        "description": "Fixed broken space flight",
+        "description": "Mod is now obsolete. Download the successor here: https://www.nexusmods.com/nomanssky/mods/4785",
         "size_kb": 21,
         "size_in_bytes": 22518,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3128/1d/55/3a/1d553aa4-32f2-4116-87aa-332d3c2fa959.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1d/55/3a/1d553aa4-32f2-4116-87aa-332d3c2fa959"
+      },
+      {
+        "id": [
+          50520,
+          1634
+        ],
+        "uid": 7017976612184,
+        "file_id": 50520,
+        "name": "Fly Like Iron Man - Next Generation - GitHub",
+        "version": "1.0.0",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 0,
+        "file_name": "Fly Like Iron Man - Next Generation - GitHub 3128 1.0.0 2026-11-07T20-22Z s60W14Sng.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794082928,
+        "uploaded_time": "2026-11-07T20:22:08.000+00:00",
+        "mod_version": "1.0.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5f54bab16d627dc1c50e51f6d3bd0f6d70ff5e74fe3dd1dc95e22c3995acad98",
+        "description": "Mod is now obsolete. Download the successor here",
+        "size_kb": 0,
+        "size_in_bytes": 262,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ea/77/a5/ea77a5bb-f8f5-4b1e-b43b-26085e0bd39a"
+      },
+      {
+        "id": [
+          50521,
+          1634
+        ],
+        "uid": 7017976612185,
+        "file_id": 50521,
+        "name": "Fly Like Iron Man - Next Generation",
+        "version": "1.0.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 59543,
+        "file_name": "Fly Like Iron Man - Next Generation 3128 1.0.0 2026-11-07T20-47Z GkVHbnde5.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794084478,
+        "uploaded_time": "2026-11-07T20:47:58.000+00:00",
+        "mod_version": "1.0.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3fe9f4d74f900818d00e04d8becffdd0fea1ceb230fb6329e20032d50c6760eb",
+        "description": "Mod is now obsolete. Download the successor here",
+        "size_kb": 59543,
+        "size_in_bytes": 60973043,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/48/90/69/48906946-bcdc-4af2-855e-cf0a4e78491c"
       }
     ],
     "changelogs": {}
@@ -707474,14 +707524,14 @@
   },
   {
     "mod_id": 4758,
-    "name": "For(n)ever Alone - Your Corvette Crew",
+    "name": "For(n)ever Alone - Your Corvette and Base Crew",
     "summary": "Your Corvette has room for a crew. Give it one.",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4758/4758-1793459008-1643385800.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1793823631,
+    "updated_timestamp": 1794084537,
     "created_timestamp": 1793461115,
-    "description": "[b][color=#ff7700][size=5]For(n)ever Alone - Your Corvette Crew[/size][/color][/b]\n<br />\n<br />Your Corvette has room for a crew. Give it one.\n<br />\n<br />[b][color=#f6b26b]For(n)ever Alone[/color][/b] adds a configurable crew roster to the Corvette build menu. A new configuration starts with one Korvax; Crew Studio lets you add more members whenever you want, up to 32 active crew slots. Put a Korvax at a workstation, let a Gek keep an eye on the cargo, or invite a Vy'keen, Traveller or custom Anomaly aboard. Crew members stay where you place them, use the game's native idle behaviour, and remain attached to the Corvette as it moves.\n<br />\n<br />[b][color=#f6b26b]This release focuses on stationary crew.[/color][/b] Free roaming and routes through connected Habitats are being researched separately.\n<br />\n<br />[b][color=#ff7700][size=4]Build your crew[/size][/color][/b]\n<br />[list]\n<br />[*]Start with one crew member and add or remove members in Crew Studio. Up to 32 slots can be active at once.[/*]\n<br />[*]Only active crew slots appear in their own Corvette build-menu category after you save the configuration.[/*]\n<br />[*]Choose Korvax, Gek, Vy'keen, Traveller or a custom Anomaly for each slot.[/*]\n<br />[*]Set an appearance seed. Custom Anomalies also have supported head, armour and colour choices. Other species do not yet have separate head/armour/colour selectors.[/*]\n<br />[*]Start with empty hands, or choose a tablet, staff, cup, container, box, holographic ship, frigate, solar system, multitool or drone. These choices come from the game's existing NPC prop list; the multitool option is a hologram, not a randomly generated weapon.[/*]\n<br />[*]Set an optional build-menu name and service for each slot.[/*]\n<br />[*]Place crew in the Corvette interior without replacing existing Habitat or Pad objects.[/*]\n<br />[*]Each post costs 1 Quantum Computer, 30 Carbon Nanotubes and 50 Wiring Loom.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Crew Studio[/size][/color][/b]\n<br />\n<br />Crew Studio is the separate Windows configuration tool included with the mod. Its interface is available in English, German, Spanish, French and Simplified Chinese [b](AI translated; not independently reviewed)[/b]. It includes a rotatable and zoomable 3D model preview. The dice controls generate a seed or build-menu name, or randomize all configurable values of the selected NPC. The preview is a visual guide: the exact procedural seed, pose and held object may differ in game.\n<br />\n<br />Use the button below the crew list to add a member; use the red X on a member to remove that slot. Close No Man's Sky, then click [b][color=#f6b26b]Save to Mod[/color][/b]. The build menu will reflect your active slots the next time you start the game.\n<br />\n<br />[b][color=#f6b26b]Removing a slot does not delete NPCs already placed in a Corvette.[/color][/b] Remove those NPCs in game if you no longer want them. A removed slot becomes available again; if you reuse its ID, any NPC already placed with that ID will take on the new configuration.\n<br />\n<br />Crew Studio stores profiles separately in [b][color=#f6b26b]GAMEDATA/MODS/_CorvetteNPCCrew_UserData[/color][/b] and makes backups when saving. Keep that folder when updating.\n<br />\n<br />[b][color=#ff7700][size=4]Optional NPC services[/size][/color][/b]\n<br />\n<br />Choose one service per crew slot, or leave the NPC without an interaction:\n<br />[list]\n<br />[*]Fleet management overview[/*]\n<br />[*]Planetary Probe[/*]\n<br />[*]Galactic Trade Terminal[/*]\n<br />[*]Galaxy Teleporter[/*]\n<br />[*]Quicksilver vendor[/*]\n<br />[*]Cronus food service[/*]\n<br />[*]Guild Envoy[/*]\n<br />[*]Mission Agent[/*]\n<br />[/list]\n<br />These use existing game interactions and may depend on your current game state. Fleet management opens the fleet overview; [b][color=#f6b26b]it does not dispatch expeditions or open individual expedition reports[/color][/b]. The Cartographer is not offered because it did not work reliably.\n<br />\n<br />[b][color=#ff7700][size=4]Installation and updates[/size][/color][/b]\n<br />[list]\n<br />[*]Back up the save you intend to use, then close No Man's Sky and Crew Studio.[/*]\n<br />[*]Remove or back up an older [b][color=#f6b26b]CorvetteNPCCrew_v...[/color][/b] folder outside [b][color=#f6b26b]GAMEDATA/MODS[/color][/b]. Keep only one active Crew version. [b]Do not delete _CorvetteNPCCrew_UserData.[/b][/*]\n<br />[*]Extract the ZIP and copy its complete [b][color=#f6b26b]CorvetteNPCCrew[/color][/b] folder into [b][color=#f6b26b]No Man's Sky/GAMEDATA/MODS/[/color][/b].[/*]\n<br />[*]Before starting NMS, open [b][color=#f6b26b]CorvetteNPCCrew/CREW_CONFIGURATOR/Start_Crew_Configurator.cmd[/color][/b] and click [b][color=#f6b26b]Save to Mod[/color][/b]. On an update, this restores your existing roster to the new mod files; on a fresh installation, it sets up your first member.[/*]\n<br />[*]Start NMS and build your active crew posts from their Corvette build-menu category.[/*]\n<br />[/list]\n<br />[b][color=#f6b26b]Important for updates:[/color][/b] The ZIP contains a one-member default. Your existing profiles are kept in the separate user-data folder, but the game cannot read that JSON directly. You must save once in Crew Studio [b]before launching NMS[/b] so the mod's build-menu files match your roster.\n<br />\n<br />The ZIP contains only the mod folder. The game mod needs no installer, pyMHF hook, save editor, AMUMSS or local AI model. Crew Studio is a Windows tool; its interactive 3D preview requires Microsoft Edge/WebView2.\n<br />\n<br />[b][color=#ff7700][size=4]Compatibility and removal[/size][/color][/b]\n<br />\n<br />For(n)ever Alone uses its own crew IDs and custom resources. Compatibility with every other table-editing mod or future NMS version is not guaranteed.\n<br />\n<br />To uninstall, remove your placed crew posts in game first, save and close NMS, then remove [b][color=#f6b26b]CorvetteNPCCrew[/color][/b] from GAMEDATA/MODS. Keep [b][color=#f6b26b]_CorvetteNPCCrew_UserData[/color][/b] if you may reinstall. Multiplayer behaviour with unmodded clients has not been separately validated. Sharing a Corvette does not distribute the mod to other players.\n<br />\n<br />[b][color=#ff7700][size=4]Current limits[/size][/color][/b]\n<br />[list]\n<br />[*]Crew members stay at their placed positions; they do not navigate between rooms or sit in chairs.[/*]\n<br />[*]Native idle behaviour is used; custom H/I gestures and freely selectable animation sequences are not part of this release.[/*]\n<br />[*]Exact seed appearance is not rendered in Crew Studio's preview.[/*]\n<br />[*]Fleet expedition dispatch and individual expedition reports are unavailable.[/*]\n<br />[*]Removing a crew slot in Crew Studio does not remove already placed NPCs.[/*]\n<br />[*]Placement, interaction and persistence should be rechecked after major NMS updates.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Credits and feedback[/size][/color][/b]\n<br />\n<br />Built with the NMS modding toolchain, including AMUMSS/MBINCompiler and NMSPE. Crew Studio uses Three.js for its 3D preview; its license is included with the tool. Development assistance was provided by ChatGPT.\n<br />\n<br />Bug reports are most useful with the NMS version, installed mods, selected crew species/prop/service, the steps to reproduce and whether the issue persists after reloading. Screenshots are welcome, especially of your crews in custom Habitat layouts.",
+    "description": "[b][color=#ff7700][size=5]For(n)ever Alone - Your Corvette Crew[/size][/color][/b]\n<br />\n<br />Your Corvette has room for a crew. Give it one.\n<br />\n<br />[b][color=#f6b26b]For(n)ever Alone[/color][/b] adds a configurable crew roster to the Corvette build menu. A new configuration starts with one Korvax; Crew Studio lets you add more members whenever you want, up to 32 active crew slots. Put a Korvax at a workstation, let a Gek keep an eye on the cargo, or invite a Vy'keen, Traveller or custom Anomaly aboard. Crew members stay where you place them, use the game's native idle behaviour, and remain attached to the Corvette as it moves.\n<br />\n<br />[b][color=#f6b26b]This release focuses on stationary crew.[/color][/b] Free roaming and routes through connected Habitats are being researched separately.\n<br />\n<br />[b][color=#ff7700][size=4]Build your crew[/size][/color][/b]\n<br />[list]\n<br />[*]Start with one crew member and add or remove members in Crew Studio. Up to 32 slots can be active at once.[/*]\n<br />[*]Only active crew slots appear in their own Corvette build-menu category after you save the configuration.[/*]\n<br />[*]Choose Korvax, Gek, Vy'keen, Traveller or a custom Anomaly for each slot.[/*]\n<br />[*]Set an appearance seed. Custom Anomalies also have supported head, armour and colour choices. Other species do not yet have separate head/armour/colour selectors.[/*]\n<br />[*]Start with empty hands, or choose a tablet, staff, cup, container, box, holographic ship, frigate, solar system, multitool or drone. These choices come from the game's existing NPC prop list; the multitool option is a hologram, not a randomly generated weapon.[/*]\n<br />[*]Set an optional build-menu name and service for each slot.[/*]\n<br />[*]Place crew in the Corvette interior without replacing existing Habitat or Pad objects.[/*]\n<br />[*]Each post costs 1 Quantum Computer, 30 Carbon Nanotubes and 50 Wiring Loom.[/*]\n<br />[*]Decide if you just want to spawn your Crew in a Corvette or also in regular bases.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Crew Studio[/size][/color][/b]\n<br />\n<br />Crew Studio is the separate Windows configuration tool included with the mod. Its interface is available in English, German, Spanish, French and Simplified Chinese [b](AI translated; not independently reviewed)[/b]. It includes a rotatable and zoomable 3D model preview. The dice controls generate a seed or build-menu name, or randomize all configurable values of the selected NPC. The preview is a visual guide: the exact procedural seed, pose and held object may differ in game.\n<br />\n<br />Use the button below the crew list to add a member; use the red X on a member to remove that slot. Close No Man's Sky, then click [b][color=#f6b26b]Save to Mod[/color][/b]. The build menu will reflect your active slots the next time you start the game.\n<br />\n<br />[b][color=#f6b26b]Removing a slot does not delete NPCs already placed in a Corvette.[/color][/b] Remove those NPCs in game if you no longer want them. A removed slot becomes available again; if you reuse its ID, any NPC already placed with that ID will take on the new configuration.\n<br />\n<br />Crew Studio stores profiles separately in [b][color=#f6b26b]GAMEDATA/MODS/_CorvetteNPCCrew_UserData[/color][/b] and makes backups when saving. Keep that folder when updating.\n<br />\n<br />[b][color=#ff7700][size=4]Optional NPC services[/size][/color][/b]\n<br />\n<br />Choose one service per crew slot, or leave the NPC without an interaction:\n<br />[list]\n<br />[*]Fleet management overview[/*]\n<br />[*]Planetary Probe[/*]\n<br />[*]Galactic Trade Terminal[/*]\n<br />[*]Galaxy Teleporter[/*]\n<br />[*]Quicksilver vendor[/*]\n<br />[*]Cronus food service[/*]\n<br />[*]Guild Envoy[/*]\n<br />[*]Mission Agent[/*]\n<br />[/list]\n<br />These use existing game interactions and may depend on your current game state. Fleet management opens the fleet overview; [b][color=#f6b26b]it does not dispatch expeditions or open individual expedition reports[/color][/b]. The Cartographer is not offered because it did not work reliably.\n<br />\n<br />[b][color=#ff7700][size=4]Installation and updates[/size][/color][/b]\n<br />[list]\n<br />[*]Back up the save you intend to use, then close No Man's Sky and Crew Studio.[/*]\n<br />[*]Remove or back up an older [b][color=#f6b26b]CorvetteNPCCrew_v...[/color][/b] folder outside [b][color=#f6b26b]GAMEDATA/MODS[/color][/b]. Keep only one active Crew version. [b]Do not delete _CorvetteNPCCrew_UserData.[/b][/*]\n<br />[*]Extract the ZIP and copy its complete [b][color=#f6b26b]CorvetteNPCCrew[/color][/b] folder into [b][color=#f6b26b]No Man's Sky/GAMEDATA/MODS/[/color][/b].[/*]\n<br />[*]Before starting NMS, open [b][color=#f6b26b]CorvetteNPCCrew/CREW_CONFIGURATOR/Start_Crew_Configurator.cmd[/color][/b] and click [b][color=#f6b26b]Save to Mod[/color][/b]. On an update, this restores your existing roster to the new mod files; on a fresh installation, it sets up your first member.[/*]\n<br />[*]Start NMS and build your active crew posts from their Corvette build-menu category.[/*]\n<br />[/list]\n<br />[b][color=#f6b26b]Important for updates:[/color][/b] The ZIP contains a one-member default. Your existing profiles are kept in the separate user-data folder, but the game cannot read that JSON directly. You must save once in Crew Studio [b]before launching NMS[/b] so the mod's build-menu files match your roster.\n<br />\n<br />The ZIP contains only the mod folder. The game mod needs no installer, pyMHF hook, save editor, AMUMSS or local AI model. Crew Studio is a Windows tool; its interactive 3D preview requires Microsoft Edge/WebView2.\n<br />\n<br />[b][color=#ff7700][size=4]Compatibility and removal[/size][/color][/b]\n<br />\n<br />For(n)ever Alone uses its own crew IDs and custom resources. Compatibility with every other table-editing mod or future NMS version is not guaranteed.\n<br />\n<br />To uninstall, remove your placed crew posts in game first, save and close NMS, then remove [b][color=#f6b26b]CorvetteNPCCrew[/color][/b] from GAMEDATA/MODS. Keep [b][color=#f6b26b]_CorvetteNPCCrew_UserData[/color][/b] if you may reinstall. Multiplayer behaviour with unmodded clients has not been separately validated. Sharing a Corvette does not distribute the mod to other players.\n<br />\n<br />[b][color=#ff7700][size=4]Current limits[/size][/color][/b]\n<br />[list]\n<br />[*]Crew members stay at their placed positions; they do not navigate between rooms or sit in chairs.[/*]\n<br />[*]Native idle behaviour is used; custom H/I gestures and freely selectable animation sequences are not part of this release.[/*]\n<br />[*]Exact seed appearance is not rendered in Crew Studio's preview.[/*]\n<br />[*]Fleet expedition dispatch and individual expedition reports are unavailable.[/*]\n<br />[*]Removing a crew slot in Crew Studio does not remove already placed NPCs.[/*]\n<br />[*]Placement, interaction and persistence should be rechecked after major NMS updates.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Credits and feedback[/size][/color][/b]\n<br />\n<br />Built with the NMS modding toolchain, including AMUMSS/MBINCompiler and NMSPE. Crew Studio uses Three.js for its 3D preview; its license is included with the tool. Development assistance was provided by ChatGPT.\n<br />\n<br />Bug reports are most useful with the NMS version, installed mods, selected crew species/prop/service, the steps to reproduce and whether the issue persists after reloading. Screenshots are welcome, especially of your crews in custom Habitat layouts.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -707544,9 +707594,9 @@
         "file_id": 50445,
         "name": "CorvetteNPCCrew",
         "version": "1.0.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 28267,
         "file_name": "CorvetteNPCCrew 4758 1.0.2 2026-11-04T20-20Z EwAQ86nLl.zip",
         "detected_file_extension": "zip",
@@ -707559,6 +707609,31 @@
         "size_in_bytes": 28945516,
         "changelog_html": "Replaced the fixed ten-member roster with a flexible list.\nNew configurations start with one crew member; up to 32 can be active at once (&gt;32 can lead to instability).\nAdded a button to create crew members and a red X to remove them from Crew Studio and the build menu.\nRemoved slots can be reused, so deleting members frees capacity again.\nIMPORTANT: After this update, open Crew Studio and click Save to Mod &gt;&gt; before &lt;&lt; launching NMS.\nAfter the update: already placed NPCs stay in the Corvette when their Crew Studio slot is removed. (Remove them in game if unwanted; reusing their ID changes their configuration.)",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/a3/7d/b4/a37db45b-d415-4ddc-bbf7-6e85bbf7cd47"
+      },
+      {
+        "id": [
+          50522,
+          1634
+        ],
+        "uid": 7017976612186,
+        "file_id": 50522,
+        "name": "CorvetteNPCCrew",
+        "version": "1.1.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 28267,
+        "file_name": "CorvetteNPCCrew 4758 1.1.0 2026-11-07T20-48Z RH1TdJv3b.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794084537,
+        "uploaded_time": "2026-11-07T20:48:57.000+00:00",
+        "mod_version": "1.1.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0061970cfa8df2e4d8e90814fb61ed35936ca549d22a8aaec8832128b04c32b4",
+        "description": "",
+        "size_kb": 28267,
+        "size_in_bytes": 28946055,
+        "changelog_html": "Added a checkbox in the Crew Studion to enable/disable Crew Spawn in normal bases",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ed/10/9f/ed109f33-73c1-4252-b4df-5f9f11082cda"
       }
     ],
     "changelogs": {
@@ -707572,6 +707647,9 @@
         "Removed slots can be reused, so deleting members frees capacity again.",
         "IMPORTANT: After this update, open Crew Studio and click Save to Mod &gt;&gt; before &lt;&lt; launching NMS.",
         "After the update: already placed NPCs stay in the Corvette when their Crew Studio slot is removed. (Remove them in game if unwanted; reusing their ID changes their configuration.)"
+      ],
+      "1.1.0": [
+        "Added a checkbox in the Crew Studion to enable/disable Crew Spawn in normal bases"
       ]
     }
   },
