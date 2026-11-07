@@ -642828,9 +642828,9 @@
     "version": "1.5",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3869/3869-1760767549-223772068.png",
     "author": "JJhookah",
-    "updated_timestamp": 1789819710,
+    "updated_timestamp": 1794039832,
     "created_timestamp": 1760775437,
-    "description": "Corvette Base Pad\n<br />Version 1.5\n<br />Author JJhookah    \n<br />\n<br />                                                                          [color=#00ffff] New version, new build method[/color]\n<br />                                                          PLEASE READ ALL INFORMATION BEFORE USING  \n<br />\n<br />Provides a base buildable full size solid Corvette landing pad with all ship creation and customisation capabilities of space station pads.\n<br />Once created your Corvette ship will always have a spacious fixed place to land and your Corvette will always return to the pad if teleporting back from space stations.\n<br />You can have multiple pads but your Corvette may randomly choose which one to go to when teleporting back from space stations but it will always go to a landing pad.\n<br />\n<br />How to use it :\n<br />[color=#00ffff]New build method recommended as of V 1.5[/color]\n<br />Follow these steps and the pictures as a guide to easily build your Corvette pad.\n<br />\n<br />[color=#ffff00]IMPORTANT:[/color] This mod works by replacing the \"alternate\" landing pad in the build menu. \n<br />If you have any of these pads at your base already it is highly advisable to delete them before \n<br />using the mod as it will replace them. { This includes the mission pad at Settlements }\n<br />[color=#ffff00]Optional Corvette Base Pad STANDARD version replaces the \"standard\" landing pad instead and is recommended for players that use settlements.\n<br />Same conditions regarding existing pads apply ![/color]\n<br />\n<br />Step 1: Find a suitable large open area for your pad, flat or slightly hilly is best.\n<br />Ensure there is no structures close by and your Corvette ship is a good distance behind you.\n<br />Can also be built over water.\n<br />\n<br />Step 2: Build out any large floor tiles at the level and place you would like your pad surface to be. \n<br />\n<br />Step 3: A single floor tile is enough but two or more is preferred.\n<br />Standing one tile back from the last one placed open the build menu and select the \"alternate\" landing pad. \n<br />\n<br />Step 4: Look towards the end of the last floor tile and the green buildable highlight will show and snap to build. \n<br />The pad will take a few moments to render in.\n<br />{ Pads can also be snapped directly to buildings, stand on top of the building you wish to snap to, look down a bit and select the \"alternate\" landing pad, the green buildable highlight will show and snap to build.}\n<br />Pads can still be free placed as before using the step method.\n<br />\n<br />\n<br />Note: By default when built your summoned ship will land and rotate with its back facing towards you but the pad can be rotated at the hologram stage if you wish using the build functions in order to make the ship face other directions.\n<br />Ship summoners and build terminals are provided on all four sides of the pad to aid in your directional preference.\n<br />\n<br />Step 5: Your new pad is now built but may have some trees or ground on it that can be cleaned up using your mining laser and terrain manipulator and the floor tiles can be deleted if you wish.\n<br />With good location choice and practice you will be able to build with little to no obstructions and it's worth having a few attempts, Pads can easily be deleted.\n<br />Summon your ship with the ship summoner terminal or start building your first Corvette. \n<br />It is also possible to skip all these steps and go straight to the free camera build mode but it doesn't seem to work as well.\n<br />\n<br />The pad has twenty four snap points around its perimeter as of V 1.5\n<br />Five down each side and one on each corner.\n<br />Snap point detection isn't perfect and works best from outside of the pad.\n<br />If building from the pad try to stand along the edge and look side on to where you wish to place a snapped part.\n<br />{See pictures}\n<br />Other buildables can also be free built on the pad itself.\n<br />Pads can also be snapped to each other but requires a bit of trial and error to get build highlight to show and is best done from some distance away or from the center of an existing pad.\n<br />\n<br />Corvettes can be summoned using the terminals provided and the Corvette builder is accessed by interacting with the terminal box at the front of the pad {see pics}\n<br />\n<br />Removing support legs:\n<br />Support legs from either version can now be disabled and re-enabled by the user as of V 1.5 \n<br />To disable the support legs navigate the mod folders to: Corvette.Base.Pad / MODELS / SUPPORT_LEGS.SCENE.MBIN { last file at the bottom }\n<br />\n<br />Delete or rename SUPPORT_LEGS.SCENE.MBIN to XSUPPORT_LEGS.SCENE.MBIN\n<br />Rename back to SUPPORT_LEGS.SCENE.MBIN to restore them.\n<br />\n<br />[color=#ffff00]Known Bug:[/color] Placing a small landing pad too close to Corvette pad terminals will cause issues with terminal function, please avoid placing small landing pads close to Corvette pads.\n<br />Thanks to DrChubs for help with bug testing.\n<br />\n<br />NOTE: Although this mod has been extensively tested it is very experimental and may also have bugs of it's own that I have not yet seen, please use at your own discretion, almost all bugs can be solved by simply reloading your game if an in game solution can't be found.\n<br />\n<br />Install\n<br />Step 1: Extract Corvette.Base.Pad folder from zip.\n<br />Step 2: Open the extracted folder and copy the Corvette.Base.Pad folder found inside to your No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Create Mods folder if you don't already have one.\n<br />\n<br />Uninstall\n<br />Delete Corvette.Base.Pad folder from No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Partly made with TubOcrisco's excellent NMS MODDING STATION.\n<br />Thanks to monkeyman192 and crew for updating compilers.\n<br />\n<br />Modifies: MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE.SCENE.MBIN \n<br />          MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE_PLACEMENT.SCENE.MBIN \n<br />          MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE&#92;ENTITIES&#92;LANDINGZONEDATA.ENTITY.MBIN                  \n<br />\n<br />Standard version modifies: MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGPAD.SCENE.MBIN \n<br />                          MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGPAD_PLACEMENT.SCENE.MBIN \n<br />                          MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE&#92;ENTITIES&#92;LANDINGZONEDATA.ENTITY.MBIN \n<br />V 1.1                      \n<br />Added blinking landing lights to platform.\n<br />Improved colour application to landing pad from build menu, whole pad will now retain colour application. {see new pics}\n<br />Improved collision of terminal behind summoner.\n<br />Raised recessed areas of platform for better visual interaction with player character. \n<br />Added walking platform to sides of pad to match collisions and improve texture around entire perimeter of landing pad.\n<br />Added shadow casting to landing pad.\n<br />\n<br />V 1.2\n<br />Updated for Remnant.\n<br />\n<br />V 1.3\n<br />Updated for Xeno Arena.\n<br />Increased LOD distances.\n<br />\n<br />V 1.4\n<br />Updated for Cosmos.\n<br />Can be used in Space Bases.\n<br />\n<br />V 1.5\n<br />Added 24 snap points around perimeter of pad.\n<br />Removed barriers from pad surface for easier access to terminals.\n<br />Reduced underside height to allow room for building under pad.\n<br />Added volumetric lighting to inactive pad lights and adjusted volumetric effect of existing ones.\n<br />Improved collisions of support legs.\n<br />Made support legs removable by user.\n<br />Fixed issue of \"No Corvette docked for modification\" on loading of save with ship already docked from last game save.\n<br />Increased landing detection range for easier landing at greater distance from pad.",
+    "description": "Corvette Base Pad\n<br />Version 1.5\n<br />Author JJhookah    \n<br />\n<br />                                                                          [color=#00ffff] New version, new build method[/color]\n<br />                                                       [color=#ffff00]   PLEASE READ ALL INFORMATION BEFORE USING [/color]\n<br />\n<br />Provides a base buildable full size solid Corvette landing pad with all ship creation and customisation capabilities of space station pads.\n<br />Once created your Corvette ship will always have a spacious fixed place to land and your Corvette will always return to the pad if teleporting back from space stations.\n<br />You can have multiple pads but your Corvette may randomly choose which one to go to when teleporting back from space stations but it will always go to a landing pad.\n<br />\n<br />How to use it :\n<br />[color=#00ffff]New build method recommended as of V 1.5[/color]\n<br />Follow these steps and the pictures as a guide to easily build your Corvette pad.\n<br />\n<br />[color=#ffff00]IMPORTANT:[/color] This mod works by replacing the \"alternate\" landing pad in the build menu.\n<br />If you have any of these pads at your base already it is highly advisable to delete them before\n<br />using the mod as it will replace them. { This includes the mission pad at Settlements }\n<br />[color=#ffff00]Optional Corvette Base Pad STANDARD version replaces the \"standard\" landing pad instead and is recommended for players that use settlements. { See last pic }\n<br />Same conditions regarding existing pads apply ![/color]\n<br />\n<br />[color=#00ff00]Step 1:[/color] Find a suitable large open area for your pad, flat or slightly hilly is best.\n<br />Ensure there is no structures close by and your Corvette ship is a good distance behind you.\n<br />Can also be built over water.\n<br />\n<br />[color=#00ff00]Step 2:[/color] Build out any large floor tiles at the level and place you would like your pad surface to be.\n<br />\n<br />[color=#00ff00]Step 3:[/color] A single floor tile is enough but two or more is preferred.\n<br />Standing one tile back from the last one placed open the build menu and select the \"alternate\" landing pad. [ See pic 5 }\n<br />\n<br />[color=#00ff00]Step 4:[/color] Look towards the end of the last floor tile and the green buildable highlight will show and snap to build.\n<br />The pad will take a few moments to render in.\n<br />{ Pads can also be snapped directly to buildings, stand on top of the building you wish to snap to, look down a bit and select the \"alternate\" landing pad, the green buildable highlight will show and snap to build.}\n<br />Pads can still be free placed as before V 1.5 using the step method.\n<br />{ See pics }\n<br />\n<br />[color=#ffff00]Note:[/color] By default when built your summoned ship will land and rotate with its back facing towards you but the pad can be rotated at the hologram stage if you wish using the build functions in order to make the ship face other directions.\n<br />Ship summoners and build terminals are provided on all four sides of the pad to aid in your directional preference.\n<br />\n<br />[color=#00ff00]Step 5: [/color]Your new pad is now built but may have some trees or ground on it that can be cleaned up using your mining laser and terrain manipulator and the floor tiles can be deleted if you wish.\n<br />With good location choice and practice you will be able to build with little to no obstructions and it's worth having a few attempts, Pads can easily be deleted.\n<br />Summon your ship with the ship summoner terminal or start building your first Corvette.\n<br />It is also possible to skip all these steps and go straight to the free camera build mode but it doesn't seem to work as well.\n<br />\n<br />The pad has twenty four snap points around its perimeter as of V 1.5\n<br />Five down each side and one on each corner.\n<br />Snap point detection isn't perfect and works best from outside of the pad.\n<br />If building from the pad try to stand along the edge and look side on to where you wish to place a snapped part.\n<br />{See pictures}\n<br />Other buildables can also be free built on the pad itself.\n<br />Pads can also be snapped to each other but requires a bit of trial and error to get the build highlight to show and is best done from some distance away or from the center of an existing pad.\n<br />\n<br />Corvettes can be summoned using the terminals provided and the Corvette builder is accessed by interacting with the terminal box at the front of the pad {see pics}\n<br />\n<br />[color=#ffff00]Removing support legs:[/color]\n<br />Support legs from either version can now be disabled and re-enabled by the user as of V 1.5\n<br />To disable the support legs navigate the mod folders to: Corvette.Base.Pad / MODELS / SUPPORT_LEGS.SCENE.MBIN\n<br />{ Last file at the bottom in MODELS }\n<br />\n<br />Delete or rename SUPPORT_LEGS.SCENE.MBIN to XSUPPORT_LEGS.SCENE.MBIN\n<br />Rename back to SUPPORT_LEGS.SCENE.MBIN to restore them.\n<br />\n<br />[color=#ffff00]Known Bug:[/color] Placing a small landing pad too close to Corvette pad terminals will cause issues with terminal function, please avoid placing small landing pads close to Corvette pads.\n<br />Thanks to DrChubs for help with bug testing.\n<br />\n<br />NOTE: Although this mod has been extensively tested it is very experimental and may also have bugs of it's own that I have not yet seen, please use at your own discretion, almost all bugs can be solved by simply reloading your game if an in game solution can't be found.\n<br />\n<br />[color=#00ff00]Install[/color]\n<br />Step 1: Extract Corvette.Base.Pad folder from zip.\n<br />Step 2: Open the extracted folder and copy the Corvette.Base.Pad folder found inside to your No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Create Mods folder if you don't already have one.\n<br />\n<br />[color=#00ff00]Uninstall[/color]\n<br />Delete Corvette.Base.Pad folder from No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Partly made with TubOcrisco's excellent NMS MODDING STATION.\n<br />Thanks to monkeyman192 and crew for updating compilers.\n<br />\n<br />[color=#ffff00]Modifies: [/color]\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE.SCENE.MBIN  MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE_PLACEMENT.SCENE.MBIN\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE&#92;ENTITIES&#92;LANDINGZONEDATA.ENTITY.MBIN\n<br />                                 \n<br />[color=#ffff00]Standard version modifies:[/color]\n<br />[color=#f4f4f4]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGPAD.SCENE.MBIN  MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGPAD_PLACEMENT.SCENE.MBIN\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE&#92;ENTITIES&#92;LANDINGZONEDATA.ENTITY.MBIN[/color]\n<br />\n<br />V 1.1                     \n<br />Added blinking landing lights to platform.\n<br />Improved colour application to landing pad from build menu, whole pad will now retain colour application. {see new pics}\n<br />Improved collision of terminal behind summoner.\n<br />Raised recessed areas of platform for better visual interaction with player character.\n<br />Added walking platform to sides of pad to match collisions and improve texture around entire perimeter of landing pad.\n<br />Added shadow casting to landing pad.\n<br />\n<br />V 1.2\n<br />Updated for Remnant.\n<br />\n<br />V 1.3\n<br />Updated for Xeno Arena.\n<br />Increased LOD distances.\n<br />\n<br />V 1.4\n<br />Updated for Cosmos.\n<br />Can be used in Space Bases.\n<br />\n<br />V 1.5\n<br />Added 24 snap points around perimeter of pad.\n<br />Removed barriers from pad surface for easier access to terminals.\n<br />Reduced underside height to allow room for building under pad.\n<br />Added volumetric lighting to inactive pad lights and adjusted volumetric effect of existing ones.\n<br />Improved collisions of support legs.\n<br />Made support legs removable by user.\n<br />Fixed issue of \"No Corvette docked for modification\" on loading of save with ship already docked from last game save.\n<br />Increased landing detection range for easier landing at greater distance from pad.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -642857,7 +642857,7 @@
         "size_kb": 11,
         "size_in_bytes": 11180,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/Corvette Base Pad-3869-1-0-1760770896.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3869/Corvette Base Pad-3869-1-0-1760770896.zip.json"
       },
       {
         "id": [
@@ -642882,7 +642882,7 @@
         "size_kb": 9,
         "size_in_bytes": 8988,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/Corvette Base Pad Standard-3869-1-0-1760870579.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3869/Corvette Base Pad Standard-3869-1-0-1760870579.zip.json"
       },
       {
         "id": [
@@ -642907,7 +642907,7 @@
         "size_kb": 26,
         "size_in_bytes": 26897,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/Corvette Base Pad V 1.1-3869-1-1-1763254991.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3869/Corvette Base Pad V 1.1-3869-1-1-1763254991.zip.json"
       },
       {
         "id": [
@@ -642932,7 +642932,7 @@
         "size_kb": 27,
         "size_in_bytes": 27309,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/Corvette Base Pad Standard-3869-1-1-1763255087.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3869/Corvette Base Pad Standard-3869-1-1-1763255087.zip.json"
       },
       {
         "id": [
@@ -642957,7 +642957,7 @@
         "size_kb": 26,
         "size_in_bytes": 26796,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/Corvette Base Pad V 1.2-3869-1-2-1771485917.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3869/Corvette Base Pad V 1.2-3869-1-2-1771485917.zip.json"
       },
       {
         "id": [
@@ -642982,7 +642982,7 @@
         "size_kb": 27,
         "size_in_bytes": 27208,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/Corvette Base Pad V 1.2 Standard-3869-1-2-1771486114.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3869/Corvette Base Pad V 1.2 Standard-3869-1-2-1771486114.zip.json"
       },
       {
         "id": [
@@ -643007,7 +643007,7 @@
         "size_kb": 26,
         "size_in_bytes": 26839,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/Corvette Base Pad V 1.3-3869-1-3-1775878565.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3869/Corvette Base Pad V 1.3-3869-1-3-1775878565.zip.json"
       },
       {
         "id": [
@@ -643032,7 +643032,7 @@
         "size_kb": 27,
         "size_in_bytes": 27251,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/Corvette Base Pad V 1.3 Standard-3869-1-3-1775878628.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3869/Corvette Base Pad V 1.3 Standard-3869-1-3-1775878628.zip.json"
       },
       {
         "id": [
@@ -643043,9 +643043,9 @@
         "file_id": 48719,
         "name": "Corvette Base Pad V 1.4",
         "version": "1.4",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 27,
         "file_name": "Corvette Base Pad V 1.4 3869 1.4 2026-09-17T12-56Z 2B5KARbaW.zip",
         "detected_file_extension": "zip",
@@ -643057,7 +643057,7 @@
         "size_kb": 27,
         "size_in_bytes": 28286,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/df/1a/ea/df1aeaa1-5c56-4337-8196-916a0feb25ee.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/df/1a/ea/df1aeaa1-5c56-4337-8196-916a0feb25ee"
       },
       {
         "id": [
@@ -643082,7 +643082,7 @@
         "size_kb": 28,
         "size_in_bytes": 28752,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/1e/a9/21/1ea9215f-25e2-43e3-a873-617201a6fa7a.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1e/a9/21/1ea9215f-25e2-43e3-a873-617201a6fa7a"
       },
       {
         "id": [
@@ -643107,7 +643107,7 @@
         "size_kb": 27,
         "size_in_bytes": 28136,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/86/9e/3e/869e3e80-6076-486a-85f0-8111c84a8e07.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/9e/3e/869e3e80-6076-486a-85f0-8111c84a8e07"
       },
       {
         "id": [
@@ -643118,8 +643118,8 @@
         "file_id": 48794,
         "name": "Corvette.Base.Pad.V.1.4.STANDARD.No.Supports",
         "version": "1.4",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 27,
         "file_name": "Corvette.Base.Pad.V.1.4.STANDARD.No.Supports 3869 1.4 2026-09-19T12-03Z 31ISmluKs.zip",
@@ -643132,7 +643132,7 @@
         "size_kb": 27,
         "size_in_bytes": 28584,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/14/2b/f9/142bf971-f34d-46dd-88fb-b0cc4495b787.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/14/2b/f9/142bf971-f34d-46dd-88fb-b0cc4495b787"
       },
       {
         "id": [
@@ -643143,8 +643143,8 @@
         "file_id": 48795,
         "name": "Corvette.Base.Pad.V.1.4.No.Supports",
         "version": "1.4",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 27,
         "file_name": "Corvette.Base.Pad.V.1.4.No.Supports 3869 1.4 2026-09-19T12-05Z DcGFLKe7a.zip",
@@ -643157,7 +643157,7 @@
         "size_kb": 27,
         "size_in_bytes": 28136,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/1a/d0/db/1ad0db13-25df-4113-b1c4-583209cd1cb1.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1a/d0/db/1ad0db13-25df-4113-b1c4-583209cd1cb1"
       },
       {
         "id": [
@@ -643168,8 +643168,8 @@
         "file_id": 48796,
         "name": "Corvette.Base.Pad.V.1.4.STANDARD",
         "version": "1.4",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 28,
         "file_name": "Corvette.Base.Pad.V.1.4.STANDARD 3869 1.4 2026-09-19T12-08Z mijBfGQ3d.zip",
@@ -643182,10 +643182,96 @@
         "size_kb": 28,
         "size_in_bytes": 28752,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3869/8e/9a/c7/8e9ac7ae-0215-456c-9955-32bce12128a8.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/8e/9a/c7/8e9ac7ae-0215-456c-9955-32bce12128a8"
+      },
+      {
+        "id": [
+          50505,
+          1634
+        ],
+        "uid": 7017976612169,
+        "file_id": 50505,
+        "name": "Corvette Base Pad V 1.5",
+        "version": "1.5",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 33,
+        "file_name": "Corvette Base Pad V 1.5 3869 1.5 2026-11-07T08-20Z UKXVZq4e2.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794039608,
+        "uploaded_time": "2026-11-07T08:20:08.000+00:00",
+        "mod_version": "1.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6320f8afd33d802e9677f7127a67055d998fa3eeb8e7cbc105b3dfaf9af176d0",
+        "description": "PLEASE READ ALL INFORMATION ON DESCRIPTION PAGE BEFORE DOWNLOADING<br /><br />Provides a base buildable Corvette landing pad.",
+        "size_kb": 33,
+        "size_in_bytes": 33873,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a8/4a/ec/a84aec18-4e44-4203-8e62-9eb2cb1377a1"
+      },
+      {
+        "id": [
+          50506,
+          1634
+        ],
+        "uid": 7017976612170,
+        "file_id": 50506,
+        "name": "Corvette.Base.Pad.V.1.5.STANDARD",
+        "version": "1.5",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 33,
+        "file_name": "Corvette.Base.Pad.V.1.5.STANDARD 3869 1.5 2026-11-07T08-21Z gb4dJyo0k.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794039665,
+        "uploaded_time": "2026-11-07T08:21:05.000+00:00",
+        "mod_version": "1.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/63635abefc291c842fd92c87d73c247247bfa2e0be70c84ffa01dc6412fe8ab7",
+        "description": "Uses the standard style landing pad instead and is recommended for settlement players.",
+        "size_kb": 33,
+        "size_in_bytes": 34433,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/06/84/8f/06848f5f-341d-4e87-8a10-c6cb61d3c4d5"
+      },
+      {
+        "id": [
+          50507,
+          1634
+        ],
+        "uid": 7017976612171,
+        "file_id": 50507,
+        "name": "Corvette.Base.Pad.V 1.5.STANDARD",
+        "version": "1.5",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 33,
+        "file_name": "Corvette.Base.Pad.V 1.5.STANDARD 3869 1.5 2026-11-07T08-23Z EwAQ86npi.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794039832,
+        "uploaded_time": "2026-11-07T08:23:52.000+00:00",
+        "mod_version": "1.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/63635abefc291c842fd92c87d73c247247bfa2e0be70c84ffa01dc6412fe8ab7",
+        "description": "PLEASE READ ALL INFORMATION ON DESCRIPTION PAGE BEFORE DOWNLOADING<br /><br />Uses the standard style landing pad instead and is recommended for settlement players.",
+        "size_kb": 33,
+        "size_in_bytes": 34433,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a0/79/0e/a0790e33-1012-404e-99d7-9a48b0b4c3c0"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "1.5": [
+        "Added 24 snap points around perimeter of pad.",
+        "Removed barriers from pad surface for easier access to terminals.",
+        "Reduced underside height to allow room for building under pad.",
+        "Added volumetric lighting to inactive pad lights and adjusted volumetric effect of existing ones.",
+        "Improved collisions of support legs.",
+        "Made support legs removable by user.",
+        "Fixed issue of \"No Corvette docked for modification\" on loading of save with ship already docked from last game save.",
+        "Increased landing detection range for easier landing at greater distance from pad."
+      ]
+    }
   },
   {
     "mod_id": 3871,
@@ -705765,12 +705851,12 @@
     "mod_id": 4713,
     "name": "VR Direction Fix",
     "summary": "This mod makes the game follow your head in room-scale VR. Interact with something and you face it, and the window opens right in front of you. No more turning around.",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4713/4713-1793039510-1926591149.png",
     "author": "ReVoltaire",
-    "updated_timestamp": 1793811683,
+    "updated_timestamp": 1794052791,
     "created_timestamp": 1793039546,
-    "description": "[size=4][b]Description[/b][/size]\n<br />In No Man's Sky VR the game only knows where your character's body points, not where your head looks. If you play room-scale and turn physically, this leads to several annoying problems:\n<br />[list]\n<br />[*]The HUD stays where your body points instead of in front of your eyes.[/*]\n<br />[*]When you talk to an NPC or use a terminal or chest, the game fades out and turns your character towards it. Because your head looks elsewhere, you end up facing the wrong way, sometimes even standing inside furniture.[/*]\n<br />[*]Interaction windows and menus can open beside or behind you.[/*]\n<br />[*]On-screen messages (top left, e.g. \"Area discovered\") stay on screen while you look away from your body direction.[/*]\n<br />[*]The \"You have left the play area\" warning keeps popping up, although walking around is normal in room-scale.[/*]\n<br />[/list]This ASI plugin fixes all of them. No game files are changed, and flat mode is not affected.\n<br />\n<br />I originally made this fix for myself. Even though AI did a large part of the implementation, the testing and cross-checking took a great deal of time. ;-)\n<br />\n<br />Since others may run into the same problem, I'm sharing the solution here. It works on my setup, but feel free to report any issues in the comments.\n<br />\n<br />To see what the mod does, here is a comparison video:\n<br />[youtube]J74sAB9wOLs[/youtube]\n<br />\n<br />Compatible with 7.1x (Forsaken) and 7.06 (Cosmos). I play the GOG version, but it should also work with the Steam version. If a game update changes the code the plugin looks for, the affected part switches itself off and the game runs normally. Set [b]Log=1[/b] in the ini to see which part, and let me know in the comments.\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[list=1]\n<br />[*]Install the [url=https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/tag/x64-latest]Ultimate ASI Loader (x64)[/url] if you do not have it yet: copy the 64-bit winmm.dll into your No Man's Sky&#92;Binaries folder.[/*]\n<br />[*]Copy the Binaries folder from this archive into your No Man's Sky folder, so that you get:\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;VRDirectionFix.asi\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;VRDirectionFix.ini[/*]\n<br />[*]Start the game in VR.[/*]\n<br />[/list]\n<br />[size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][b]Head-locked HUD:[/b] the main HUD follows your head, on foot and in the cockpit (can be switched off).[/*]\n<br />[*][b]Correct interactions:[/b] when the game turns you towards an NPC, terminal or chest, your view is turned to it and you are centred over your character, just like a manual \"reset position\" before interacting. When the interaction ends, everything returns to the game's own state.[/*]\n<br />[*][b]Forced placement:[/b] when a terminal moves you to a fixed spot (e.g. Fleet Command Post or market in the freighter rooms), you still face the device you activated instead of a random direction.[/*]\n<br />[*][b]Window facing:[/b] windows and menus that would still open far off your view are turned towards your head when they open.[/*]\n<br />[*][b]On-screen messages:[/b] messages in the top left fade out normally again (no MBIN mod needed, can be switched off).[/*]\n<br />[*][b]No play area warning:[/b] the \"You have left the play area\" warning is also hidden (can be switched back on).[/*]\n<br />[/list]                  [img]https://staticdelivery.nexusmods.com/mods/1634/images/4713/4713-1793271558-1746683151.jpg[/img]\n<br />[list]\n<br />[*]Optional log file for troubleshooting (off by default).[/*]\n<br />[*]Not changed: getting into the ship. You sit where your head is relative to your character, as in the unmodded game. Use the game's \"reset position\" if needed.[/*]\n<br />[*]Works great with [url=https://www.nexusmods.com/nomanssky/mods/4750]VR HUD Marker Fix[/url] and [url=https://www.nexusmods.com/nomanssky/mods/4695]VR Keyboard Fix[/url].[/*]\n<br />[/list]\n<br />[b]Configurable settings[/b] (VRDirectionFix.ini, every setting is also explained in the file itself):\n<br />[spoiler]\n<br />[list]\n<br />[*][b]HUD_HeadLock[/b]\n<br />1 (Default) = HUD follows your head. This is the head-locked HUD, i.e. what Better VR HUD does. 0 = game default; the interaction and window fixes keep working.[/*]\n<br />[*][b]OSDFix[/b]\n<br />1 (Default) = on-screen messages fade out normally in room-scale. 0 = game default. Replaces MBIN mods that change OSDMessagePauseOffscreenAngle.[/*]\n<br />[*][b]PlayAreaWarning[/b]\n<br />0 (Default) = the \"You have left the play area\" warning is hidden. 1 = game default.[/*]\n<br />[*][b]Log[/b]\n<br />0 (Default) = off. 1 writes VRDirectionFix.log next to the plugin.[/*]\n<br />[*][b]SnapTurnFix[/b]\n<br />1 (Default) = you face the target when the game turns you towards it (terminals, chests, NPCs). 0 = game default.[/*]\n<br />[*][b]WindowFacing[/b]\n<br />1 (Default) = windows and menus are turned towards you when they open beside or behind you. 0 = game default.[/*]\n<br />[*][b]MinAngle[/b]\n<br />40 (Default) = only windows at least this many degrees away from your view are turned (0-180).[/*]\n<br />[*][b]ToggleKey[/b]\n<br />0 (Default) = no key. Set a keyboard key, e.g. F8, to switch the head-locked HUD on and off while playing.[/*]\n<br />[/list][/spoiler]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/tag/x64-latest]Ultimate ASI Loader (x64)[/url][/*]\n<br />[/list]\n<br />[size=4][b]Known issues[/b][/size]\n<br />[list]\n<br />[*]The shoulder gesture (drawing and holstering the Multi-Tool) can sometimes be misplaced and not work correctly, depending on which way the player character is facing. This is a body-related bug that cannot be fixed in the mod (at the moment).[/*]\n<br />[*]Some interactions move you to a fixed spot chosen by the game (e.g. damaged machinery, terminals in the freighter's rooms like the Fleet Command Post, some ancient ruins). In room scale this can leave you in odd places: inside a wall, behind the terminal, or high above a ruin facing away from it. This is vanilla behaviour the mod can't prevent. In the freighter rooms you still face the terminal, and the window always opens in front of you.[/*]\n<br />[/list]\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Do not install Better VR HUD alongside this mod. The functionality of Better VR HUD is already built in.\n<br />\n<br />[size=4][b]Uninstall[/b][/size]\n<br />Delete VRDirectionFix.asi and VRDirectionFix.ini (and VRDirectionFix.log, if present).\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/Cycrus/NMS-Better-VR-HUD]Better VR HUD[/url] by Cycrus - the head-locked HUD and the game-code signatures are based on it (BSD 3-Clause license, included)[/*]\n<br />[*]harpone - head-locked HUD implementation and reverse-engineering notes for Better VR HUD[/*]\n<br />[*][url=https://github.com/TsudaKageyu/minhook]MinHook[/url] by Tsuda Kageyu (BSD 2-Clause license, included)[/*]\n<br />[*][url=https://github.com/ThirteenAG/Ultimate-ASI-Loader]Ultimate ASI Loader[/url] by ThirteenAG[/*]\n<br />[/list]",
+    "description": "[size=4][b]Description[/b][/size]\n<br />In No Man's Sky VR the game only knows where your character's body points, not where your head looks. If you play room-scale and turn physically, this leads to several annoying problems:\n<br />[list]\n<br />[*]The HUD stays where your body points instead of in front of your eyes.[/*]\n<br />[*]When you talk to an NPC or use a terminal or chest, the game fades out and turns your character towards it. Because your head looks elsewhere, you end up facing the wrong way, sometimes even standing inside furniture.[/*]\n<br />[*]Interaction windows and menus can open beside or behind you.[/*]\n<br />[*]On-screen messages (top left, e.g. \"Area discovered\") stay on screen while you look away from your body direction.[/*]\n<br />[*]The \"You have left the play area\" warning keeps popping up, although walking around is normal in room-scale.[/*]\n<br />[/list]This ASI plugin fixes all of them. No game files are changed, and flat mode is not affected.\n<br />\n<br />I originally made this fix for myself. Even though AI did a large part of the implementation, the testing and cross-checking took a great deal of time. ;-)\n<br />\n<br />Since others may run into the same problem, I'm sharing the solution here. It works on my setup, but feel free to report any issues in the comments.\n<br />\n<br />To see what the mod does, here is a comparison video:\n<br />[youtube]J74sAB9wOLs[/youtube]\n<br />\n<br />Compatible with 7.1x (Forsaken) and 7.06 (Cosmos). I play the GOG version, but it should also work with the Steam version. If a game update changes the code the plugin looks for, the affected part switches itself off and the game runs normally. Set [b]Log=1[/b] in the ini to see which part, and let me know in the comments.\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[list=1]\n<br />[*]Install the [url=https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/tag/x64-latest]Ultimate ASI Loader (x64)[/url] if you do not have it yet: copy the 64-bit winmm.dll into your No Man's Sky&#92;Binaries folder.[/*]\n<br />[*]Copy the Binaries folder from this archive into your No Man's Sky folder, so that you get:\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;VRDirectionFix.asi\n<br />No Man's Sky&#92;Binaries&#92;plugins&#92;VRDirectionFix.ini[/*]\n<br />[*]Start the game in VR.[/*]\n<br />[/list]\n<br />[size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][b]Head-locked HUD:[/b] the main HUD follows your head, on foot and in the cockpit (can be switched off).[/*]\n<br />[*][b]Correct interactions:[/b] when the game turns you towards an NPC, terminal or chest, your view is turned to it and you are centred over your character, just like a manual \"reset position\" before interacting. When the interaction ends, everything returns to the game's own state.[/*]\n<br />[*][b]Forced placement:[/b] when a terminal moves you to a fixed spot (e.g. Fleet Command Post or market in the freighter rooms), you still face the device you activated instead of a random direction.[/*]\n<br />[*][b]Window facing:[/b] windows and menus that would still open far off your view are turned towards your head when they open.[/*]\n<br />[*][b]On-screen messages:[/b] messages in the top left fade out normally again (no MBIN mod needed, can be switched off).[/*]\n<br />[*][b]Multitool gesture:[/b] taking and putting away the multitool over your shoulder works in every direction you face in room-scale, not only when facing the play area's forward direction (can be switched off).[/*]\n<br />[*][b]Analysis visor gesture:[/b] hand to the head + grip switches the visor only once per grip instead of on and off again (can be switched off).[/*]\n<br />[*][b]No play area warning:[/b] the \"You have left the play area\" warning is also hidden (can be switched back on).[/*]\n<br />[/list]                  [img]https://staticdelivery.nexusmods.com/mods/1634/images/4713/4713-1793271558-1746683151.jpg[/img]\n<br />[list]\n<br />[*]Optional log file for troubleshooting (off by default).[/*]\n<br />[*]Not changed: getting into the ship. You sit where your head is relative to your character, as in the unmodded game. Use the game's \"reset position\" if needed.[/*]\n<br />[*]Works great with [url=https://www.nexusmods.com/nomanssky/mods/4750]VR HUD Marker Fix[/url] and [url=https://www.nexusmods.com/nomanssky/mods/4695]VR Keyboard Fix[/url].[/*]\n<br />[/list]\n<br />[b]Configurable settings[/b] (VRDirectionFix.ini, every setting is also explained in the file itself):\n<br />[spoiler]\n<br />[list]\n<br />[*][b]HUD_HeadLock[/b]\n<br />1 (Default) = HUD follows your head. This is the head-locked HUD, i.e. what Better VR HUD does. 0 = game default; the interaction and window fixes keep working.[/*]\n<br />[*][b]OSDFix[/b]\n<br />1 (Default) = on-screen messages fade out normally in room-scale. 0 = game default. Replaces MBIN mods that change OSDMessagePauseOffscreenAngle.[/*]\n<br />[*][b]PlayAreaWarning[/b]\n<br />0 (Default) = the \"You have left the play area\" warning is hidden. 1 = game default.[/*]\n<br />[*][b]Log[/b]\n<br />0 (Default) = off. 1 writes VRDirectionFix.log next to the plugin.[/*]\n<br />[*][b]SnapTurnFix[/b]\n<br />1 (Default) = you face the target when the game turns you towards it (terminals, chests, NPCs). 0 = game default.[/*]\n<br />[*][b]WindowFacing[/b]\n<br />1 (Default) = windows and menus are turned towards you when they open beside or behind you. 0 = game default.[/*]\n<br />[*][b]MinAngle[/b]\n<br />40 (Default) = only windows at least this many degrees away from your view are turned (0-180).[/*]\n<br />[*][b]ToggleKey[/b]\n<br />0 (Default) = no key. Set a keyboard key, e.g. F8, to switch the head-locked HUD on and off while playing.[/*]\n<br />[*][b]ShoulderGestureFix[/b]\n<br />1 (Default) = you can take and put away the multitool over your shoulder in every direction you face (room-scale). 0 = game default.[/*]\n<br />[*][b]VisorGestureFix[/b]\n<br />1 (Default) = the analysis visor gesture (hand to the head + grip) switches only once per grip. 0 = game default.[/*]\n<br />[/list][/spoiler]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/tag/x64-latest]Ultimate ASI Loader (x64)[/url][/*]\n<br />[/list]\n<br />[size=4][b]Known issues[/b][/size]\n<br />[list]\n<br />[*]Some interactions move you to a fixed spot chosen by the game (e.g. damaged machinery, terminals in the freighter's rooms like the Fleet Command Post, some ancient ruins). In room scale this can leave you in odd places: inside a wall, behind the terminal, or high above a ruin facing away from it. This is vanilla behaviour the mod can't prevent. In the freighter rooms you still face the terminal, and the window always opens in front of you.[/*]\n<br />[/list]\n<br />[size=4][b]Compatibility[/b][/size]\n<br />Do not install Better VR HUD alongside this mod. The functionality of Better VR HUD is already built in.\n<br />\n<br />[size=4][b]Uninstall[/b][/size]\n<br />Delete VRDirectionFix.asi and VRDirectionFix.ini (and VRDirectionFix.log, if present).\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/Cycrus/NMS-Better-VR-HUD]Better VR HUD[/url] by Cycrus - the head-locked HUD and the game-code signatures are based on it (BSD 3-Clause license, included)[/*]\n<br />[*]harpone - head-locked HUD implementation and reverse-engineering notes for Better VR HUD[/*]\n<br />[*][url=https://github.com/TsudaKageyu/minhook]MinHook[/url] by Tsuda Kageyu (BSD 2-Clause license, included)[/*]\n<br />[*][url=https://github.com/ThirteenAG/Ultimate-ASI-Loader]Ultimate ASI Loader[/url] by ThirteenAG[/*]\n<br />[/list]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -706008,9 +706094,9 @@
         "file_id": 50440,
         "name": "VRDirectionFix 1.1.6",
         "version": "1.1.6",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 55,
         "file_name": "VRDirectionFix 1.1.6 4713 1.1.6 2026-11-04T17-01Z cEkp5sX9y.zip",
         "detected_file_extension": "zip",
@@ -706023,6 +706109,31 @@
         "size_in_bytes": 57076,
         "changelog_html": "Fixed: hands stuck to the side after boarding a ship (some game versions name the SteamVR action sets differently, so the cockpit was not recognised)\nFixed: cockpit window could be turned or treated as an interaction when boarding\nImproved: freighter rooms (e.g. Fleet Command Post, market): when the game moves you to its fixed spot, you now face the terminal you activated instead of a random direction\nAll settings are now in VRDirectionFix.ini with a short explanation (SnapTurnFix, WindowFacing, MinAngle, ToggleKey); missing ones are added to an existing ini automatically",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/bb/0d/dc/bb0ddce0-4a1a-4f2b-acd5-91ec19d5049f"
+      },
+      {
+        "id": [
+          50510,
+          1634
+        ],
+        "uid": 7017976612174,
+        "file_id": 50510,
+        "name": "VRDirectionFix 1.1.7",
+        "version": "1.1.7",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 76,
+        "file_name": "VRDirectionFix 1.1.7 4713 1.1.7 2026-11-07T11-59Z OyPDz29x0.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794052791,
+        "uploaded_time": "2026-11-07T11:59:51.000+00:00",
+        "mod_version": "1.1.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0ce27c3c957237cdc55a6128153d0c1f6d1f3dcec0b496c0614dd4210fa487ff",
+        "description": "Manual install: copy the Binaries folder into your No Man's Sky folder. Requires Ultimate ASI Loader (x64).",
+        "size_kb": 76,
+        "size_in_bytes": 78693,
+        "changelog_html": "Head-locked HUD in the ship cockpit no longer jitters or jumps while flying fast (boost, pulse).\nMultitool shoulder gesture works in every direction you face (room scale). New ini setting ShoulderGestureFix=1.\nAnalysis visor gesture (hand to the head + grip) switches only once per grip. New ini setting VisorGestureFix=1.\nMissing new ini settings are added to an existing ini automatically.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/af/bd/12/afbd12b8-c789-4081-b4ff-1540ec9b79eb"
       }
     ],
     "changelogs": {
@@ -706068,6 +706179,12 @@
         "Fixed: cockpit window could be turned or treated as an interaction when boarding",
         "Improved: freighter rooms (e.g. Fleet Command Post, market): when the game moves you to its fixed spot, you now face the terminal you activated instead of a random direction",
         "All settings are now in VRDirectionFix.ini with a short explanation (SnapTurnFix, WindowFacing, MinAngle, ToggleKey); missing ones are added to an existing ini automatically"
+      ],
+      "1.1.7": [
+        "Head-locked HUD in the ship cockpit no longer jitters or jumps while flying fast (boost, pulse).",
+        "Multitool shoulder gesture works in every direction you face (room scale). New ini setting ShoulderGestureFix=1.",
+        "Analysis visor gesture (hand to the head + grip) switches only once per grip. New ini setting VisorGestureFix=1.",
+        "Missing new ini settings are added to an existing ini automatically."
       ]
     }
   },
