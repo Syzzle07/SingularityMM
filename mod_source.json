@@ -10066,5 +10066,149 @@
         "id": "4769",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "Salvage Express",
+        "id": "4754",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "cUDAFTS - Combined Universal Detail Address Functional Transport System",
+        "id": "4770",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DIABLO'S GALAXY MAP",
+        "id": "4772",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Wear And Tear",
+        "id": "4773",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Generous Giver",
+        "id": "4774",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "No Fall damage(Updated) Forsaken",
+        "id": "4775",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "DIABLO'S COLOURS",
+        "id": "4776",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMS Item Lookup v0.6.2  RU EN Item ID Finder",
+        "id": "4777",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "CLVerse SimpelUI - A softer interface mod (beta)",
+        "id": "4778",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Shenkong Kaiti - Chinese UI Font",
+        "id": "4780",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Change the GOG player name (new version 2026)",
+        "id": "4781",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Brain In A Jar Head",
+        "id": "4782",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Speedo_S",
+        "id": "4783",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Aggressive Sharks",
+        "id": "4786",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Bulkheads and Doors",
+        "id": "4787",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Craft Living Ship Modules",
+        "id": "4788",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMS-Vietnamese Translate",
+        "id": "4789",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Toolbox",
+        "id": "4790",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Grav Part Research",
+        "id": "4792",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Craftable and Buyable Corvette Parts",
+        "id": "4793",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Custom Flight",
+        "id": "4791",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Settlement Research",
+        "id": "4794",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Jetpack Rush",
+        "id": "4795",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Charon Save Manager",
+        "id": "4743",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
