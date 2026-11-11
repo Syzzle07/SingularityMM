@@ -397795,12 +397795,12 @@
   },
   {
     "mod_id": 2284,
-    "name": "Faster Scanning v7.0",
+    "name": "Faster Scanning v7.14",
     "summary": "Scan anything faster!",
-    "version": "7.0",
+    "version": "7.14",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2284/2284-1652427334-301250705.png",
     "author": "Flugelwulff",
-    "updated_timestamp": 1788991237,
+    "updated_timestamp": 1794371718,
     "created_timestamp": 1652427579,
     "description": "Lets you scan things faster with the analyzer. 1 second and instant options available as well as the option to disable the delay between scans.\n<br />\n<br />\n<br />[b][u]HOW TO INSTALL:\n<br />[/u][/b]1. Install with Vortex (strongly recommended - just do it)\n<br />2. Choose scan speed\n<br />3. Profit\n<br />\n<br />LUA file is available for those who wish to change the multiplier themselves or merge it with other mods.",
     "state": "normal",
@@ -397829,32 +397829,32 @@
         "size_kb": 1,
         "size_in_bytes": 526,
         "changelog_html": "Updated version number",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/Faster Scanning LUA-2284-6-17-1763512584.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2284/Faster Scanning LUA-2284-6-17-1763512584.7z.json"
       },
       {
         "id": [
-          47885,
+          50598,
           1634
         ],
-        "uid": 7017976609549,
-        "file_id": 47885,
+        "uid": 7017976612262,
+        "file_id": 50598,
         "name": "Faster Scanning",
-        "version": "6.45.1",
+        "version": "7.14",
         "category_id": 1,
         "category_name": "MAIN",
         "is_primary": true,
         "size": 24,
-        "file_name": "Faster Scanning 2284 6.45.1 2026-09-09T22-00Z Z3ytCvPNR.7z",
+        "file_name": "Faster Scanning 2284 7.14 2026-11-11T04-35Z s60W14SqO.7z",
         "detected_file_extension": "7z",
-        "uploaded_timestamp": 1788991237,
-        "uploaded_time": "2026-09-09T22:00:37.000+00:00",
-        "mod_version": "6.45.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/36052df54eb00f2dabcb220ad2e0aa3c8ce6e5d51dc4cad85ca036d33a02a896",
+        "uploaded_timestamp": 1794371718,
+        "uploaded_time": "2026-11-11T04:35:18.000+00:00",
+        "mod_version": "7.14",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b068874c75e33cacec0e0a1c8a7869bdea7d202ceeba69f5f71ad8d6ca6556e7",
         "description": "",
         "size_kb": 24,
-        "size_in_bytes": 25488,
+        "size_in_bytes": 25542,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2284/88/ca/7f/88ca7f1f-d5bf-4f4c-89cc-b887038c1056.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/10/f7/bc/10f7bca7-4063-4cbd-a58f-d64a8c5ccc7f"
       }
     ],
     "changelogs": {
@@ -397887,12 +397887,12 @@
   },
   {
     "mod_id": 2285,
-    "name": "More Materials v7.0",
+    "name": "More Materials v7.14",
     "summary": "Options for increasing the amount of substances and/or products available from traders.",
-    "version": "7.0",
+    "version": "7.14",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2285/2285-1652479797-110311113.png",
     "author": "Flugelwulff",
-    "updated_timestamp": 1788991208,
+    "updated_timestamp": 1794371661,
     "created_timestamp": 1652480698,
     "description": "This mod increases the amount of substances (e.g. Oxygen), products (e.g. Microprocessor) or both, to 10 times the amount normally available to buy.\n<br />\n<br />[color=#ff0000][size=2][b]This mod [/b]DOES NOT[/size][/color][b][color=#ff0000][size=2] modify the available items, just the quantity. Items available permanently are still there and random ones are still random.[/size]\n<br />[/color]\n<br />[/b][b]HOW TO INSTALL:\n<br />[/b]1. Install with Vortex (strongly recommended - just do it)\n<br />2. Choose whether you want more substances, more products or both\n<br />3. Profit\n<br />\n<br />[b]**NOTICE**\n<br />[/b]LUA files for AMUMSS have been uploaded! Many thanks to [url=https://www.nexusmods.com/nomanssky/users/62067056]Babscoole[/url] for his work in preparing these and his permission to upload them for all of you!",
     "state": "normal",
@@ -397921,32 +397921,32 @@
         "size_kb": 1,
         "size_in_bytes": 661,
         "changelog_html": "Updated version number",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2285/More Materials LUAs-2285-6-17-1763512394.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2285/More Materials LUAs-2285-6-17-1763512394.7z.json"
       },
       {
         "id": [
-          47884,
+          50597,
           1634
         ],
-        "uid": 7017976609548,
-        "file_id": 47884,
+        "uid": 7017976612261,
+        "file_id": 50597,
         "name": "More Materials",
-        "version": "6.45.1",
+        "version": "7.14",
         "category_id": 1,
         "category_name": "MAIN",
         "is_primary": true,
         "size": 69,
-        "file_name": "More Materials 2285 6.45.1 2026-09-09T22-00Z kAMZq0Jaj.7z",
+        "file_name": "More Materials 2285 7.14 2026-11-11T04-34Z pQZbnWJVW.7z",
         "detected_file_extension": "7z",
-        "uploaded_timestamp": 1788991208,
-        "uploaded_time": "2026-09-09T22:00:08.000+00:00",
-        "mod_version": "6.45.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/26a87983fe54c22120e9fbae0a86025c9c8e8f6eca13d55269b8bfb3b0ee0548",
+        "uploaded_timestamp": 1794371661,
+        "uploaded_time": "2026-11-11T04:34:21.000+00:00",
+        "mod_version": "7.14",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/ae72793850b00531e5923f1fbbf4764cfa5fec1eeb0a389b69e29ec8b63967f7",
         "description": "",
         "size_kb": 69,
-        "size_in_bytes": 70826,
+        "size_in_bytes": 71156,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2285/0f/f5/6f/0ff56fa3-1957-4847-a47b-a81a27df43cc.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a6/07/06/a60706d9-0ac4-4825-a0c6-eb16ac0dd6b4"
       }
     ],
     "changelogs": {
@@ -398236,12 +398236,12 @@
   },
   {
     "mod_id": 2292,
-    "name": "No Intro v7.0 - Potential Steam Deck Controller Restart Fix",
+    "name": "No Intro v7.14 - Potential Steam Deck Controller Restart Fix",
     "summary": "No Intro Movies",
-    "version": "7.0",
+    "version": "7.14",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2292/2292-1652931450-569024750.png",
     "author": "Flugelwulff",
-    "updated_timestamp": 1788991179,
+    "updated_timestamp": 1794371627,
     "created_timestamp": 1652932641,
     "description": "Just changes all the intro movie times to 0 seconds.\n<br />\n<br />[b][u]HOW TO INSTALL:\n<br />[/u][/b]1. Install with Vortex (strongly recommended - just do it)",
     "state": "normal",
@@ -398270,32 +398270,32 @@
         "size_kb": 0,
         "size_in_bytes": 445,
         "changelog_html": "Updated version number",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2292/No Intro LUA-2292-6-17-1763512330.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2292/No Intro LUA-2292-6-17-1763512330.7z.json"
       },
       {
         "id": [
-          47883,
+          50596,
           1634
         ],
-        "uid": 7017976609547,
-        "file_id": 47883,
+        "uid": 7017976612260,
+        "file_id": 50596,
         "name": "No Intro",
-        "version": "6.45.1",
+        "version": "7.14",
         "category_id": 1,
         "category_name": "MAIN",
         "is_primary": true,
         "size": 0,
-        "file_name": "No Intro 2292 6.45.1 2026-09-09T21-59Z XnaJySiDQ.7z",
+        "file_name": "No Intro 2292 7.14 2026-11-11T04-33Z MWrySmzav.7z",
         "detected_file_extension": "7z",
-        "uploaded_timestamp": 1788991179,
-        "uploaded_time": "2026-09-09T21:59:39.000+00:00",
-        "mod_version": "6.45.1",
-        "external_virus_scan_url": "https://www.virustotal.com/gui/file/76e2fc1dbb2eb4de09a0810976d887c981cca4dd84cf9e0bef972284dd3600aa",
+        "uploaded_timestamp": 1794371627,
+        "uploaded_time": "2026-11-11T04:33:47.000+00:00",
+        "mod_version": "7.14",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/2d58677d9c70656d6f7f91103bc1578bb2e15e2dae6b5b20236c7b73c676b35b",
         "description": "",
         "size_kb": 0,
-        "size_in_bytes": 463,
+        "size_in_bytes": 502,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2292/40/26/f6/4026f6d3-7a03-4b07-b574-545c1c50077f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/51/68/2c/51682c7e-47e8-4756-8594-ee5cc48846e4"
       }
     ],
     "changelogs": {
@@ -614360,12 +614360,12 @@
   },
   {
     "mod_id": 3647,
-    "name": "Mining Multiplier v7.0",
+    "name": "Mining Multiplier v7.14",
     "summary": "Options for increasing multi-tool mining &amp; terrain manipulator yield.",
-    "version": "7.0",
+    "version": "7.14",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3647/3647-1754325708-162614489.png",
     "author": "Flugelwulff",
-    "updated_timestamp": 1790048936,
+    "updated_timestamp": 1794371575,
     "created_timestamp": 1754270042,
     "description": "Changes the total resource multiplier applied when the [b]Optical Drill [/b]upgrade is installed. Choose from x2, x5, x10 or x100 in Vortex.\n<br />[b]**NEW** [/b]Added options for the Terrain Manipulator as well! No special upgrade install required for this part of the mod.\n<br />[b]**NEW** [/b]Added option to remove mining particle effects. Working to add one for less instead of only none!\n<br />\n<br />\n<br />[b][u]HOW TO INSTALL:\n<br />[/u][/b]1. Install with Vortex (strongly recommended - just do it)\n<br />2. Choose multiplier value\n<br />3. Profit\n<br />\n<br />[color=#ff0000][b]The [url=https://nomanssky.fandom.com/wiki/Optical_Drill]Optical Drill [/url]upgrade is REQUIRED, or the regular resource gathering part of this mod will do nothing. Only works for hand mining; ships unaffected.[/b][/color]\n<br />\n<br />LUA file is available for those who wish to change the multiplier themselves or merge it with other mods.",
     "state": "normal",
@@ -614394,7 +614394,7 @@
         "size_kb": 68,
         "size_in_bytes": 69465,
         "changelog_html": "Small text correction in Vortex, no version or mod change\nChanged Vortex Image",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-5-75-1754269781.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-5-75-1754269781.7z.json"
       },
       {
         "id": [
@@ -614419,7 +614419,7 @@
         "size_kb": 1,
         "size_in_bytes": 572,
         "changelog_html": "Small text correction in Vortex, no version or mod change\nChanged Vortex Image",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier LUA-3647-5-75-1754274833.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier LUA-3647-5-75-1754274833.7z.json"
       },
       {
         "id": [
@@ -614444,7 +614444,7 @@
         "size_kb": 68,
         "size_in_bytes": 69465,
         "changelog_html": "Small text correction in Vortex, no version or mod change\nChanged Vortex Image",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-5-75-1754325005.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-5-75-1754325005.7z.json"
       },
       {
         "id": [
@@ -614469,7 +614469,7 @@
         "size_kb": 29,
         "size_in_bytes": 29215,
         "changelog_html": "Small text correction in Vortex, no version or mod change\nChanged Vortex Image",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-5-75-1754326188.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-5-75-1754326188.7z.json"
       },
       {
         "id": [
@@ -614494,7 +614494,7 @@
         "size_kb": 29,
         "size_in_bytes": 29222,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-01-1756481577.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-01-1756481577.7z.json"
       },
       {
         "id": [
@@ -614519,7 +614519,7 @@
         "size_kb": 118,
         "size_in_bytes": 120942,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-02-1756774543.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-02-1756774543.7z.json"
       },
       {
         "id": [
@@ -614544,7 +614544,7 @@
         "size_kb": 1,
         "size_in_bytes": 746,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining and Terrain Multiplier LUAs-3647-6-02-1756774864.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining and Terrain Multiplier LUAs-3647-6-02-1756774864.7z.json"
       },
       {
         "id": [
@@ -614569,7 +614569,7 @@
         "size_kb": 118,
         "size_in_bytes": 120948,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-02-1756776741.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-02-1756776741.7z.json"
       },
       {
         "id": [
@@ -614594,7 +614594,7 @@
         "size_kb": 118,
         "size_in_bytes": 120858,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-06-1759967278.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-06-1759967278.7z.json"
       },
       {
         "id": [
@@ -614619,7 +614619,7 @@
         "size_kb": 118,
         "size_in_bytes": 120858,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-11-1761590472.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-11-1761590472.7z.json"
       },
       {
         "id": [
@@ -614644,7 +614644,7 @@
         "size_kb": 264,
         "size_in_bytes": 270544,
         "changelog_html": "Overhaul to LUA structure, updated version number &amp; added option to remove mining particle effects",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-12-1763156187.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-12-1763156187.7z.json"
       },
       {
         "id": [
@@ -614669,7 +614669,7 @@
         "size_kb": 1,
         "size_in_bytes": 923,
         "changelog_html": "Overhaul to LUA structure, updated version number &amp; added option to remove mining particle effects",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier LUAs-3647-6-12-1763156223.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier LUAs-3647-6-12-1763156223.7z.json"
       },
       {
         "id": [
@@ -614694,7 +614694,7 @@
         "size_kb": 264,
         "size_in_bytes": 270745,
         "changelog_html": "Overhaul to LUA structure, updated version number &amp; added option to remove mining particle effects",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-12-1763160710.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-12-1763160710.7z.json"
       },
       {
         "id": [
@@ -614719,7 +614719,7 @@
         "size_kb": 1,
         "size_in_bytes": 945,
         "changelog_html": "Overhaul to LUA structure, updated version number &amp; added option to remove mining particle effects",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier LUAs-3647-6-12-1763160765.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier LUAs-3647-6-12-1763160765.7z.json"
       },
       {
         "id": [
@@ -614744,7 +614744,7 @@
         "size_kb": 264,
         "size_in_bytes": 270494,
         "changelog_html": "Fixed a mistake I made w/previous update and updated version number",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-17-1763512154.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-17-1763512154.7z.json"
       },
       {
         "id": [
@@ -614769,7 +614769,7 @@
         "size_kb": 1,
         "size_in_bytes": 958,
         "changelog_html": "Fixed a mistake I made w/previous update and updated version number",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier LUAs-3647-6-17-1763512206.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier LUAs-3647-6-17-1763512206.7z.json"
       },
       {
         "id": [
@@ -614794,7 +614794,7 @@
         "size_kb": 264,
         "size_in_bytes": 270637,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-22-1771433585.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-22-1771433585.7z.json"
       },
       {
         "id": [
@@ -614819,7 +614819,7 @@
         "size_kb": 264,
         "size_in_bytes": 270745,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-23-1771695220.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-23-1771695220.7z.json"
       },
       {
         "id": [
@@ -614844,7 +614844,7 @@
         "size_kb": 264,
         "size_in_bytes": 270746,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-31-1775757283.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-31-1775757283.7z.json"
       },
       {
         "id": [
@@ -614869,7 +614869,7 @@
         "size_kb": 264,
         "size_in_bytes": 270744,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-34-1776825882.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3647/Mining Multiplier-3647-6-34-1776825882.7z.json"
       },
       {
         "id": [
@@ -614894,7 +614894,7 @@
         "size_kb": 264,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/26/04/ee/2604eec6-9b8b-4865-98be-917ba360c693.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/26/04/ee/2604eec6-9b8b-4865-98be-917ba360c693"
       },
       {
         "id": [
@@ -614919,7 +614919,7 @@
         "size_kb": 264,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/e8/30/32/e830326f-4864-4433-9d3f-b8ba780c85bf.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e8/30/32/e830326f-4864-4433-9d3f-b8ba780c85bf"
       },
       {
         "id": [
@@ -614944,7 +614944,7 @@
         "size_kb": 264,
         "size_in_bytes": 270513,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/c3/89/9d/c3899d0d-7993-4490-8396-b7994e004f92.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c3/89/9d/c3899d0d-7993-4490-8396-b7994e004f92"
       },
       {
         "id": [
@@ -614969,7 +614969,7 @@
         "size_kb": 264,
         "size_in_bytes": 270513,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/36/b6/d6/36b6d647-e531-44cb-9cc9-5453049f591f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/36/b6/d6/36b6d647-e531-44cb-9cc9-5453049f591f"
       },
       {
         "id": [
@@ -614980,9 +614980,9 @@
         "file_id": 48891,
         "name": "Mining Multiplier",
         "version": "7.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 264,
         "file_name": "Mining Multiplier 3647 7.0 2026-09-22T03-48Z UKXVZqdPW.7z",
         "detected_file_extension": "7z",
@@ -614994,7 +614994,32 @@
         "size_kb": 264,
         "size_in_bytes": 270513,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3647/59/e7/17/59e717cb-2544-43df-87cb-54d7a330d790.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/59/e7/17/59e717cb-2544-43df-87cb-54d7a330d790"
+      },
+      {
+        "id": [
+          50595,
+          1634
+        ],
+        "uid": 7017976612259,
+        "file_id": 50595,
+        "name": "Mining Multiplier",
+        "version": "7.14",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 264,
+        "file_name": "Mining Multiplier 3647 7.14 2026-11-11T04-32Z 58qnW1yZ0.7z",
+        "detected_file_extension": "7z",
+        "uploaded_timestamp": 1794371575,
+        "uploaded_time": "2026-11-11T04:32:55.000+00:00",
+        "mod_version": "7.14",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/938041eed6897e5e5526f2256d4e5f7f986a077e2257ec5694d580151edc8f2a",
+        "description": "",
+        "size_kb": 264,
+        "size_in_bytes": 270805,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/54/b0/c7/54b0c774-81e4-4c2b-a9d1-69096d5e7398"
       }
     ],
     "changelogs": {
@@ -685466,10 +685491,10 @@
     "mod_id": 4555,
     "name": "Lunatus (distant worlds)",
     "summary": "my personal replacement for Crescent Worlds. makes distant planets blend better with sky/fog.",
-    "version": "1.7.3",
+    "version": "1.7.4",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4555/4555-1790584832-1143230330.png",
     "author": "Somnati",
-    "updated_timestamp": 1793888140,
+    "updated_timestamp": 1794376153,
     "created_timestamp": 1790205794,
     "description": "[size=4][b]Description\n<br />WIP - this mod is tricky so give me some time to iron things out. will update occasionally.\n<br />v1.7.3 is out, pairs with Nubilus 1.2.5, my cloud mod (check the changelog for info).\n<br />[/b][/size]\n<br />\n<br />I'd always used Crescent Worlds, but it hasn't been updated for Cosmos. Rather than patch someone else's mod, I built my own from scratch. Lunatus contains no code from Crescent Worlds or any other mod. It's made from the game's own shaders, with AI assistance (Claude), and tuned by me in-game.\n<br />Lunatus changes how your sky looks: the worlds in it, and the air around you. Other planets and moons are lit by their real star, sit behind your atmosphere instead of looking pasted on top of it, and change with your day and night. Your own planet gets one physical haze from your feet to the horizon, real dusk and darker nights, rain mist, volcanic ash haze and auroras.\n<br />In vanilla, every world in your sky is lit with your own planet's light. That light is clamped high overhead, tinted by your sunset and swapped for moonlight at night, so other worlds never show a true phase. By day they look like stickers on the sky, and at night their dark sides are black cut-outs. Lunatus fixes all of that with shaders built from the game's own shaders.\n<br />[b]Clouds have moved out:[/b] the clouds now live in their own mod, Nubilus. Nubilus has volumetric clouds that match from orbit to the ground, a rewritten water surface, and an SDR highlight fix. Lunatus works on its own too, but I recommend running both.\n<br />I tried my best with this. Expect issues, and I'll fix them as they come. If you don't like a certain visual effect, let me know: I may be able to upload alternate versions.\n<br />Optional comparison files: \"Vanilla vs 1.5\" and \"1.4 vs 1.5\" split-screen builds (left 40% old, right 60% 1.5). They're for screenshots only, not for playing.\n<br />\n<br />\n<br />[b]// PROGRESS UPDATES[/b]\n<br />[size=2][color=#9e9e9e]progress notes (click to expand)[/color][/size]\n<br />[spoiler]\n<br />bug/visual fixes.\n<br />[b]improved FOG.\n<br />altered ring render.\n<br />possible eclipses?\n<br />dimmer clouds from space.(nubilus)\n<br />\n<br />// future mods planned\n<br />expanded planet color pallet.\n<br />new planetary terrain patterns. (striped planets etc.)\n<br />terrain gen overhaul.\n<br />new HUD.\n<br />detailed planet terrain from space (visible mountains etc).[/b][/spoiler]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Download and extract the archive.\n<br />When updating, delete your old Lunatus folder first. Files removed in newer versions (like the 1.7 sun-shadow files) would otherwise stay behind.\n<br />Place the \"Lunatus\" folder in ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;\n<br />Recommended: install Nubilus next to it.\n<br />Remove any other mod that replaces the same files (see Requirements).\n<br />\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />Worlds in your sky\n<br />[list][*]Real crescents: lit by their actual star, not your planet's light. Crescents at dusk, half and full phases, and a world stays lit at night when its sun still reaches it.[*]Behind your sky by day: your air sits in front of them. Their dark side melts into the sky, and their lit side shows through the air in front of it.[*]Night skies: a world's sunlit side shines like a real moon, dims and turns orange-red low in the sky, and its dark side is shaded by the system's space fog instead of a black cut-out. Night sides end in a clean edge.[*]Atmosphere glow: a bright line at the edge, fading into space in each world's own colour. From orbit it sits at the edge of the clouds, not over them.[*]Rings: crisp ringlets and the planet's shadow across its ring. Rings sit behind your air, low rings fade into the horizon haze, and from orbit far rings sit behind a nearer world's glow.[*]Clean climb out of a planet: the worlds around you change from the ground look to the space look in one smooth step, with no grey veil and no white fog on asteroids.\n<br />[/list]Your own planet\n<br />[list][*]One haze: the game's three fog layers replaced by one. Denser and more atmospheric, it settles low (valleys fill, peaks clear), takes the colour of the sky behind it, and always ends in haze at the horizon.[*]Light in the haze: it glows only where sunlight reaches it. At dusk the low haze goes dark first while higher air stays lit.[*]Dusk and night: the sky's light fades with the sunset, nights are darker and keep their star's colour, and the night air clears so the space sky shows through.[*]Sunlight: bright surfaces brighten gently (no blown-out ground at noon), shaded slopes keep more sky light, and cave ceilings are no longer lit cyan.[*]Sun: a real sun disc that reddens near the horizon, and a lens flare that fades gently through thin clouds.[*]Moons: on small moons the sky wraps all the way around you above the clouds.[*]Auroras: on about half the worlds with air, over both poles at night. They hang high above the clouds, keep a steady shape and colour per world, cast a faint glow on the ground, and from orbit their curtains rise above the planet's edge.[*]Particles: smoke, dust, mist and sparks sit in your planet's haze and darken at night. Fireflies and embers keep their glow, and particles no longer cut off hard at the camera.[*]Rain: the haze thins and a deep, close mist gathers low.[*]Volcanic worlds: wrapped in a thick, ash-tinted haze.[*]Glow: bloom that settles at the same speed at every frame rate, and no sky-coloured outlines around objects against fog.\n<br />[/list]\n<br />\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list][*]No Man's Sky 7.10 (Forsaken), PC. No other mods required. Nubilus 1.2.5 recommended.[*]Not compatible with other shader mods that replace the same files: CrescentWorlds, Key Art Worlds and Atmosphere, other fog, atmosphere or particle shader mods, and lens-flare shader mods. Only one mod can own each shader file (the full file list is in the README).[*]For clouds, use Nubilus or another cloud mod, not both.[*]Table (MBIN/EXML) mods are fine, including sky colour and weather mods.[*]Shader mods can break when Hello Games updates the game. If things look wrong after a patch, remove Lunatus until an update is posted.\n<br />[/list]\n<br />\n<br />Known limits\n<br />[list][*]In two- and three-sun systems, the night tint uses the main sun's colour.[*]Worlds seen from very close are left vanilla.[*]Without Nubilus, other worlds' cloud layers are the game's own.[*]The rain mist sits by sea level, so high ground gets less of it.\n<br />[/list]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list][*]Hello Games, for No Man's Sky and a universe worth looking up at.[*]The CrescentWorlds mod, whose idea of true crescents in the sky inspired this one. Lunatus is written from scratch; no other mod's code is used.[*]The NMS modding community's tools, MBINCompiler and HGPAKtool, and Khronos' SPIRV-Cross, glslang and SPIRV-Tools.[*]Claude AI\n<br />[/list]",
     "state": "normal",
@@ -685984,9 +686009,9 @@
         "file_id": 50463,
         "name": "Lunatus v1.7.3 (darker nights)",
         "version": "1.7.3",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 8657,
         "file_name": "Lunatus v1.7.3 (darker nights) 4555 1.7.3 2026-11-05T14-15Z CmY2hwkND.zip",
         "detected_file_extension": "zip",
@@ -686009,8 +686034,8 @@
         "file_id": 50464,
         "name": "Lunatus 1.7.3 (VanillaNights)",
         "version": "1.7.3",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 8642,
         "file_name": "Lunatus 1.7.3 (VanillaNights) 4555 1.7.3 2026-11-05T14-15Z YjQ5seMLU.zip",
@@ -686024,6 +686049,56 @@
         "size_in_bytes": 8849805,
         "changelog_html": "Lunatus 1.7.3 - Fixes from player reports. The sun no longer shows through a planet that sits in front of it: its glow was painted over the planet's disc, and it now fades out as the sun goes behind that planet (with the sun clear of the planet nothing changes). Ground shadow edits are pulled while a report of far plants turning blue is looked into: the sun-shadow rewrite from 1.7 and the 'smaller objects keep their shadows' values are back to the game's own. God rays, fog volumes and ship shadows are unchanged. In both the Darker Nights and the Vanilla Night Brightness file. Pairs with Nubilus 1.2.5.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/1d/0a/ba/1d0abab9-ecfb-4f29-88f3-a26765518447"
+      },
+      {
+        "id": [
+          50602,
+          1634
+        ],
+        "uid": 7017976612266,
+        "file_id": 50602,
+        "name": "Lunatus v1.7.4 (darker nights)",
+        "version": "1.7.4",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8657,
+        "file_name": "Lunatus v1.7.4 (darker nights) 4555 1.7.4 2026-11-11T05-45Z QR3q07rMa.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794375925,
+        "uploaded_time": "2026-11-11T05:45:25.000+00:00",
+        "mod_version": "1.7.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1c71c8601212b66308edd956433524ea22acb69b8ccb93a24ec26f676fbddc05",
+        "description": "Darker nights: land, sky and fog dim to 60% at full night, with a ceiling on the night light.",
+        "size_kb": 8657,
+        "size_in_bytes": 8865050,
+        "changelog_html": "Lunatus 1.7.4 - For Nubilus 1.2.7, which brings moon clouds closer to the ground: seen from space, the edge of a small moon's air now follows those lower cloud tops instead of floating above them. Planets of normal size are unchanged, and without Nubilus nothing changes. 1 file changed. In both the Darker Nights and the Vanilla Night Brightness file. Pairs with Nubilus 1.2.7 (update both).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ae/ea/1e/aeea1ee8-b6a8-465a-8d5e-6b573a279f8a"
+      },
+      {
+        "id": [
+          50603,
+          1634
+        ],
+        "uid": 7017976612267,
+        "file_id": 50603,
+        "name": "Lunatus 1.7.4 (VanillaNights)",
+        "version": "1.7.4",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 8642,
+        "file_name": "Lunatus 1.7.4 (VanillaNights) 4555 1.7.4 2026-11-11T05-49Z QR3q07rMt.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794376153,
+        "uploaded_time": "2026-11-11T05:49:13.000+00:00",
+        "mod_version": "1.7.4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/398f5fafba1652ff26f2d3e80b51beb24f379fcb876812145852ee9047d06507",
+        "description": "Everything as the main file, but nights keep the game's own brightness (no extra night dimming, no ceiling).",
+        "size_kb": 8642,
+        "size_in_bytes": 8849962,
+        "changelog_html": "Lunatus 1.7.4 - For Nubilus 1.2.7, which brings moon clouds closer to the ground: seen from space, the edge of a small moon's air now follows those lower cloud tops instead of floating above them. Planets of normal size are unchanged, and without Nubilus nothing changes. 1 file changed. In both the Darker Nights and the Vanilla Night Brightness file. Pairs with Nubilus 1.2.7 (update both).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/00/a0/bd/00a0bdd5-5824-4b81-b889-fb0ff43590f7"
       }
     ],
     "changelogs": {
@@ -686136,6 +686211,9 @@
       ],
       "1.7.3": [
         "Lunatus 1.7.3 - Fixes from player reports. The sun no longer shows through a planet that sits in front of it: its glow was painted over the planet's disc, and it now fades out as the sun goes behind that planet (with the sun clear of the planet nothing changes). Ground shadow edits are pulled while a report of far plants turning blue is looked into: the sun-shadow rewrite from 1.7 and the 'smaller objects keep their shadows' values are back to the game's own. God rays, fog volumes and ship shadows are unchanged. In both the Darker Nights and the Vanilla Night Brightness file. Pairs with Nubilus 1.2.5."
+      ],
+      "1.7.4": [
+        "Lunatus 1.7.4 - For Nubilus 1.2.7, which brings moon clouds closer to the ground: seen from space, the edge of a small moon's air now follows those lower cloud tops instead of floating above them. Planets of normal size are unchanged, and without Nubilus nothing changes. 1 file changed. In both the Darker Nights and the Vanilla Night Brightness file. Pairs with Nubilus 1.2.7 (update both)."
       ]
     }
   },
@@ -686143,10 +686221,10 @@
     "mod_id": 4556,
     "name": "Stellarum",
     "summary": "Overhauls the starry skies in favor of an awsome looking Milky Way style disc.",
-    "version": "1.5",
+    "version": "1.5.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4556/4556-1790234083-1228908650.png",
     "author": "Somnati",
-    "updated_timestamp": 1793202439,
+    "updated_timestamp": 1794375854,
     "created_timestamp": 1790234489,
     "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]Stellarum replaces No Man's Sky's night sky and space backdrop with a realistic one: a detailed Milky Way band across the sky and a real-looking star field.\n<br />Vanilla fills space with coloured noise stars and soft glowing sprites spread evenly in every direction, and there's no galaxy band at all. Stellarum removes those and paints the sky the way a long-exposure photo of our own galaxy looks. It shows in space, and from a planet's surface at night. Everything is drawn by a small set of shaders built from the game's own 7.04 shaders.[/color]\n<br />\n<br />the latest update brough new nebulas...they are quite a shift from the vanillas rather blury nebulas...the new ones are larger and sharper.\n<br />i feel like theres a way to improve these but im not sure what direction to go...\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[*][color=#D4D4D8]Download the main file and extract it.[/color][/*]\n<br />[*][color=#D4D4D8]Place the[/color]\n<br />\n<br />[code]Stellarum[/code][color=#D4D4D8]folder in[/color]\n<br />\n<br />[code]...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92;[/code][/*]\n<br />[*][color=#D4D4D8]Optional: also extract the [b]mostly black[/b] space colours file and place its[/color]\n<br />\n<br />[code]Stellarum_SpaceColours[/code][color=#D4D4D8]folder in the same[/color]\n<br />\n<br />[code]MODS[/code][color=#D4D4D8]folder.[/color][/*]\n<br />[*][color=#D4D4D8]Remove any other mod that replaces the same shader files (see Requirements).[/color]\n<br />\n<br />\n<br />\n<br />[size=4][b]Main features[/b][/size][/*]\n<br />[*][color=#D4D4D8][b]A Milky Way across the sky:[/b] a band of light wraps the whole sky. It glows warm and creamy toward its core and fades as it wraps around to the far side.[/color][/*]\n<br />[*][color=#D4D4D8][b]Made of stars:[/b] the band is a dense wall of countless faint stars, thickest in its bright star clouds, just like the real one in a long exposure.[/color][/*]\n<br />[*][color=#D4D4D8][b]Dark dust:[/b] a dark rift of dust runs along the band, with softer lanes and long faint wisps reaching out of it. The dust hides and reddens the stars behind it.[/color][/*]\n<br />[*][color=#D4D4D8][b]Colour:[/b] a pink, magenta and purple cast toward the core, blue toward the outer arms, pink emission nebulae and small blue reflection nebulae.[/color][/*]\n<br />[*][color=#D4D4D8][b]Realistic stars:[/b] the game's coloured noise stars and glowing sprite stars are replaced by crisp points in real star colours, from red-orange through white to blue-white. Most are faint and a few are bright, and a small share are larger. They crowd toward the Milky Way and thin out toward its poles.[/color][/*]\n<br />[*][color=#D4D4D8][b]Retuned nebulae:[/b] each system's nebulae are softer and less overpowering, with more variety in shape from one system to the next.[/color][/*]\n<br />[*][color=#D4D4D8][b]Optional mostly-black space colours:[/b] the darker space palettes the screenshots were taken with. Stellarum also works on the vanilla colours.[/color]\n<br />\n<br />\n<br />\n<br />[size=4][b]Requirements[/b][/size][/*]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04 (Cosmos), PC.[/color][/*]\n<br />[*][color=#D4D4D8]No other mods required. The mostly-black space colours are optional.[/color][/*]\n<br />[*][color=#D4D4D8][b]Not compatible[/b] with other mods that replace the same shader files:[/color]\n<br />\n<br />[code]SKY_FRAG_LIGHTING_0[/code][color=#D4D4D8],[/color]\n<br />\n<br />[code]SKY_FRAG_LIGHTING_LOWQ_0[/code][color=#D4D4D8],[/color]\n<br />\n<br />[code]SKY_FRAG_LIGHTING_FRWD_0[/code][color=#D4D4D8]and[/color]\n<br />\n<br />[code]PSTREAM_VERT_PSTREAM_SYSTEM_0[/code][color=#D4D4D8]. That means other sky or star shader mods. Only one mod can own each shader file.[/color][/*]\n<br />[*][color=#D4D4D8]Other mods that change the nebula settings in[/color]\n<br />\n<br />[code]GCSKYGLOBALS[/code][color=#D4D4D8]may clash with Stellarum's.[/color][/*]\n<br />[*][color=#D4D4D8]The optional space colours replace the two space colour tables whole, so they don't combine with other space colour mods.[/color][/*]\n<br />[*][color=#D4D4D8]Shader mods can break when Hello Games updates the game. If the sky looks wrong after a patch, remove Stellarum until an update is posted.[/color][/*]\n<br />[*][color=#D4D4D8]Known limits:[/color]\n<br />\n<br />[list]\n<br />[*][color=#D4D4D8]The Milky Way is fixed on the sky and looks the same in every system. The game doesn't tell the sky where you are in the galaxy.[/color][/*]\n<br />[*][color=#D4D4D8]Real neighbouring star systems can't be shown; the game never gives the sky their positions.[/color][/*]\n<br />[*][color=#D4D4D8]The Milky Way costs some extra GPU time in space.[/color][/*]\n<br />[*][color=#D4D4D8]Upscalers (DLSS/FSR) can smear the band's finest detail slightly while turning.[/color][/*]\n<br />[/list]\n<br />\n<br />[size=4][b]Shout outs[/b][/size][/*]\n<br />[*][color=#D4D4D8]Hello Games, for No Man's Sky and a sky worth looking up at.[/color][/*]\n<br />[*][color=#D4D4D8]Astrophotographers everywhere; real Milky Way photos were the reference for every layer of the band.[/color][/*]\n<br />[*][color=#D4D4D8]The NMS modding community's tools: MBINCompiler, HGPAKtool and AMUMSS, plus Khronos' SPIRV-Cross, glslang and SPIRV-Tools. Stellarum is written from scratch; no other mod's code is used.[/color]\n<br />\n<br />- Claude AI\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[/*]\n<br />",
     "state": "normal",
@@ -686561,9 +686639,9 @@
         "file_id": 50145,
         "name": "Stellarum (vanilla colors) 1.5",
         "version": "1.5",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 288,
         "file_name": "Stellarum (vanilla colors) 1.5 4556 1.5 2026-10-28T15-47Z 2B5KARZjP.zip",
         "detected_file_extension": "zip",
@@ -686586,8 +686664,8 @@
         "file_id": 50146,
         "name": "Stellarum v1.5 (mostly black)",
         "version": "1.5",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 297,
         "file_name": "Stellarum v1.5 (mostly black) 4556 1.5 2026-10-28T15-47Z HZO4arlMR.zip",
@@ -686601,6 +686679,56 @@
         "size_in_bytes": 304436,
         "changelog_html": "Updated for No Man's Sky 7.10 (Forsaken): the stars you can now lock on to and warp to from space are visible again (1.4 hid them along with the game's decorative sprite stars). They show as small crisp stars in their class colour with a soft glow; the decorative sprites stay hidden. Colour-blind modes included. Note: a mod that recolours the warp-target star colours or changes their brightness hides them again.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/f9/5c/ab/f95cab2e-a922-4294-8351-a930e9597ea8"
+      },
+      {
+        "id": [
+          50600,
+          1634
+        ],
+        "uid": 7017976612264,
+        "file_id": 50600,
+        "name": "Stellarum (vanilla colors) 1.5.1",
+        "version": "1.5.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 288,
+        "file_name": "Stellarum (vanilla colors) 1.5.1 4556 1.5.1 2026-11-11T05-43Z 8gT07OI3t.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794375835,
+        "uploaded_time": "2026-11-11T05:43:55.000+00:00",
+        "mod_version": "1.5.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/76e52de2ff1ed003aae2b56b15bf8d3629e6f0bf9550c342fb510b805868ca9a",
+        "description": null,
+        "size_kb": 288,
+        "size_in_bytes": 295495,
+        "changelog_html": "Fix from a player report: after the game's 9 November update the stars you can lock on to and warp to were invisible again. That update changed their colours, and Stellarum tells them apart from the decorative sprite stars by colour. The new colours are added (the old ones stay, for older game versions). 1 file changed, copying over 1.5 is fine.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9e/74/da/9e74da6b-cc8c-4999-8407-b22f76896dd9"
+      },
+      {
+        "id": [
+          50601,
+          1634
+        ],
+        "uid": 7017976612265,
+        "file_id": 50601,
+        "name": "Stellarum v1.5.1 (mostly black)",
+        "version": "1.5.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 297,
+        "file_name": "Stellarum v1.5.1 (mostly black) 4556 1.5.1 2026-11-11T05-44Z aCzNuEGDw.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794375854,
+        "uploaded_time": "2026-11-11T05:44:14.000+00:00",
+        "mod_version": "1.5.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6a663f35b1d2f573e246cef75830c73fa59e37ea0b4801840f56be6c89635b66",
+        "description": null,
+        "size_kb": 297,
+        "size_in_bytes": 304990,
+        "changelog_html": "Fix from a player report: after the game's 9 November update the stars you can lock on to and warp to were invisible again. That update changed their colours, and Stellarum tells them apart from the decorative sprite stars by colour. The new colours are added (the old ones stay, for older game versions). 1 file changed, copying over 1.5 is fine.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a8/52/c6/a852c6b7-0e15-487f-adb6-8f0322133e4f"
       }
     ],
     "changelogs": {
@@ -686622,6 +686750,9 @@
       ],
       "1.5": [
         "Updated for No Man's Sky 7.10 (Forsaken): the stars you can now lock on to and warp to from space are visible again (1.4 hid them along with the game's decorative sprite stars). They show as small crisp stars in their class colour with a soft glow; the decorative sprites stay hidden. Colour-blind modes included. Note: a mod that recolours the warp-target star colours or changes their brightness hides them again."
+      ],
+      "1.5.1": [
+        "Fix from a player report: after the game's 9 November update the stars you can lock on to and warp to were invisible again. That update changed their colours, and Stellarum tells them apart from the decorative sprite stars by colour. The new colours are added (the old ones stay, for older game versions). 1 file changed, copying over 1.5 is fine."
       ]
     }
   },
@@ -696909,10 +697040,10 @@
     "mod_id": 4622,
     "name": "Nubilus (cloud overhaul)",
     "summary": "Overhauls the Clouds both on-ground and in-space.",
-    "version": "1.2.6",
+    "version": "1.2.7",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4622/4622-1791179457-2012069261.png",
     "author": "Somnati",
-    "updated_timestamp": 1794008314,
+    "updated_timestamp": 1794376170,
     "created_timestamp": 1791197253,
     "description": "[size=4][b]Expect updates as i am always fixing/improving stuff...or atleast trying to...\n<br />\n<br />Description\n<br />[/b][/size]CLOUDS NOW MATCH THE SPACE CLOUDS.\n<br />fly to a spot with no clouds...guess what...no clouds...\n<br />fly to a spot thats dense with clouds...heavy overcast!!!\n<br />\n<br />[color=#D4D4D8]Nubilus replaces No Man's Sky's clouds with real volumetric clouds that match from orbit to the ground. The cloud pattern you see from space is the same one you fly through, lit and fogged to match the sky around it, day and night.[/color]\n<br />\n<br />expect future updates/improvements. im always trying to fix little things that bug me when i play. Report any issues you have to me and i'll investigate.\n<br />\n<br />// KNOWN ISSUES\n<br />regarding v1.2 that just dropped...\n<br />as i play i still notice subtle things that bug me so this mod still has a way to go.\n<br />gas giants still need tweaking as well as moons but overall they work \"fine\".\n<br />\n<br />eclipses will hopefully come eventually but i pulled them cause they could be better.\n<br />stay tuned...\n<br />\n<br />[size=4][b]Installation instructions\n<br />[/b][/size]\n<br />// Why is Lunatus required:\n<br />[list]\n<br />[*][b]It's built as a pair:[/b] Nubilus was cut against Lunatus 1.5's exact build, and the clouds were tuned against Lunatus' fog and sky. The cloud colours, night look and planet transitions all assume Lunatus' haze.[/*]\n<br />[*][b]Some cloud behaviour lives in Lunatus' files:[/b] the far-world cloud hand-over, the climb-out transition, and the horizon band hugging the clouds from orbit.[/*]\n<br />[*][b]It's never been tested without Lunatus:[/b] it might run, but the clouds would sit in vanilla fog they weren't designed for.[/*]\n<br />[/list]\n<br />[list=1]\n<br />[*][color=#D4D4D8]Install Lunatus first (required).[/color][/*]\n<br />[*][color=#D4D4D8]Extract the zip.[/color][/*]\n<br />[*][color=#D4D4D8]Drop the Nubilus folder into ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).[/color][/*]\n<br />[*][color=#D4D4D8]Restart the game. Works with new and existing saves.[/color][/*]\n<br />[/list][color=#D4D4D8]To uninstall, delete the Nubilus folder.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]One cloud pattern per planet: what you see from orbit is what you fly into, with a smooth fade from space down to the in-air clouds.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds take Lunatus' fog and sky colours, so they sit in the atmosphere instead of floating on top of it.[/color][/*]\n<br />[*][color=#D4D4D8]Shared day/night lighting from orbit and in the air: lit until sunset, a short warm afterglow, then dark night silhouettes.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds stay solid in front of moons and distant planets.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds cast shadows on the ground, and lakes and oceans reflect them.[/color][/*]\n<br />[/list]\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04.[/color][/*]\n<br />[*][color=#D4D4D8]Lunatus (required: Nubilus reads Lunatus' fog and sky).[/color][/*]\n<br />[*][color=#D4D4D8]Conflicts with other mods that replace the cloud shaders.[/color]\n<br />Conflicts with other mods that change the SDR tone mapping. [/*]\n<br />[/list]\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]Hello Games, for the game's cloud and atmosphere systems this builds on.[/color][/*]\n<br />[*][color=#D4D4D8]monkeyman192 and contributors, for MBINCompiler and HGPAKtool.\n<br />- Claude AI[/color][/*]\n<br />[/list]",
     "state": "normal",
@@ -697177,9 +697308,9 @@
         "file_id": 50495,
         "name": "Nubilus 1.2.6 NMS7.10",
         "version": "1.2.6",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 30289,
         "file_name": "Nubilus 1.2.6 NMS7.10 4622 1.2.6 2026-11-06T23-38Z KsnM3TtVD.zip",
         "detected_file_extension": "zip",
@@ -697192,6 +697323,31 @@
         "size_in_bytes": 31016807,
         "changelog_html": "Fix from player reports: objects in front of clouds (your ship, trees, ridges) no longer get an outline of the bare sky behind the clouds, and far trees lose their foggy halo. 3 files changed, 4 new, copying over 1.2.5 is fine. Also rebuilt on the game's 11-02 update. Still needs Lunatus 1.7.1 or newer.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/30/61/97/306197eb-3a23-46f3-90b1-94592b53527e"
+      },
+      {
+        "id": [
+          50604,
+          1634
+        ],
+        "uid": 7017976612268,
+        "file_id": 50604,
+        "name": "Nubilus 1.2.7 NMS7.10",
+        "version": "1.2.7",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 30310,
+        "file_name": "Nubilus 1.2.7 NMS7.10 4622 1.2.7 2026-11-11T05-49Z 8gT07OI3S.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794376169,
+        "uploaded_time": "2026-11-11T05:49:29.000+00:00",
+        "mod_version": "1.2.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/513f359d0d26371114bf617cc354100de98a941b459234e6f9c236e638157b8d",
+        "description": null,
+        "size_kb": 30310,
+        "size_in_bytes": 31037969,
+        "changelog_html": "Fixes from player reports. Night clouds no longer turn see-through while the camera rests (planets, moons and rings showed through them and faded back out when you moved), and a planet or moon behind a night cloud no longer leaves its shape in the cloud. Moon clouds sit closer to the ground: on small worlds the whole cloud layer is lower (down to about a third of its old height on the smallest moons), the same from space and from the ground. Normal-size planets are unchanged. Gas giants: the wind-blown clouds no longer smear into thin streaks the longer the game has been running (on the two highest cloud quality settings). 19 files changed, copying over 1.2.6 is fine. Pair: Lunatus 1.7.4 (the air's edge on moons follows the lower clouds); still runs on Lunatus 1.7.1 or newer.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/0e/2b/0d/0e2b0d3b-c8ac-4449-936a-aa9d0b98a7b7"
       }
     ],
     "changelogs": {
@@ -697235,6 +697391,9 @@
       ],
       "1.2.6": [
         "Fix from player reports: objects in front of clouds (your ship, trees, ridges) no longer get an outline of the bare sky behind the clouds, and far trees lose their foggy halo. 3 files changed, 4 new, copying over 1.2.5 is fine. Also rebuilt on the game's 11-02 update. Still needs Lunatus 1.7.1 or newer."
+      ],
+      "1.2.7": [
+        "Fixes from player reports. Night clouds no longer turn see-through while the camera rests (planets, moons and rings showed through them and faded back out when you moved), and a planet or moon behind a night cloud no longer leaves its shape in the cloud. Moon clouds sit closer to the ground: on small worlds the whole cloud layer is lower (down to about a third of its old height on the smallest moons), the same from space and from the ground. Normal-size planets are unchanged. Gas giants: the wind-blown clouds no longer smear into thin streaks the longer the game has been running (on the two highest cloud quality settings). 19 files changed, copying over 1.2.6 is fine. Pair: Lunatus 1.7.4 (the air's edge on moons follows the lower clouds); still runs on Lunatus 1.7.1 or newer."
       ]
     }
   },
@@ -704075,12 +704234,12 @@
     "mod_id": 4693,
     "name": "Dynamic Suit Voice",
     "summary": "Dynamic Suit Voice turns the Exosuit AI into a companion, delivering unique voice notifications instead of endlessly repeating the same stock lines.",
-    "version": "1.4",
+    "version": "1.4.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4693/4693-1792646688-1779422195.png",
     "author": "CoyoteMax",
-    "updated_timestamp": 1794274844,
+    "updated_timestamp": 1794372524,
     "created_timestamp": 1792645348,
-    "description": "STATUS:[color=#7f6000] [/color][color=#00ff00]FULLY FUNCTIONAL COMPANION . GO FORTH, INTERLOPER. EXPLORE THE SKIES OF NO MAN.[/color]\n<br />[line]\n<br />Have you ever noticed how your Exosuit can advise you on surviving extreme environments, crossing entire galaxies, navigating black holes, battling Sentinels, and repairing advanced technology... yet somehow still only knows a handful of stock phrases?  Of course you have.  Dynamic Suit Voice was created to address one of No Man's Sky's longest-standing immersion killers: repetition. \n<br />[line]\n<br />[size=5][b][color=#ffaa00]NEW IN VERSION 1.4: [/color][/b][/size]\n<br />see Changelog.\n<br />[line]\n<br />[b][i][color=#b45f06][size=5][font=Arial Black]THIS IS NOT A VOICE PACK.   \n<br />THIS IS A VOICE GENERATION SYSTEM.[/font][/size][/color][/i][/b]\n<br />[b][size=2][font=Arial Black]It places voice files in the MODS directory, but that is where similarity to other voice mods ends. [/font][/size][/b]\n<br />\n<br />[b][size=2][font=Arial Black]Traditional voice mods provide a fixed collection of recordings. Dynamic Suit Voice generates replacements continuously during gameplay.  [/font][/size][/b]\n<br />\n<br />The result is an Exosuit AI that feels less like a glorified alert system and more like an actual companion traveling the universe alongside you.\n<br />\n<br />[color=#980000]** This is incompatible with other mods that change the suit voice by placing sound files in the MODS folder. [/color]\n<br />[line]\n<br />[b][size=4]EXAMPLE[/size][/b]\n<br />Original Game Wording: [i][b][color=#00ff00]Nearby toxins detected [/color][/b][/i]\n<br />Instead you might now hear: [i][color=#38761d]Corrosive environmental toxins are causing damage to your suit's protective filters[/color]. [/i]\n<br />The next time you approach: [i][color=#38761d]Corrosive environmental toxins are threatening the effectiveness of your suit's protective filters[/color].[/i]\n<br />And it will continue to generate new phrases: [i][color=#38761d]Corrosive environmental toxins are contaminating your suit’s protective filters[/color].[/i]\n<br />[i](These are actual examples that were generated while testing)[/i]\n<br />[line]\n<br />[size=4][b]Installation[/b][/size]\n<br />[color=#D4D4D8][i]Please observe that the ONE CLICK INSTALL has been removed for security and safety reasons.\n<br />Please observe that 3.11 is the only Python version officially supported at this time[/i]\n<br />STEPS:\n<br />Install Python 3.11, extract the download, open a terminal in the extracted project folder, and run:\n<br />\n<br />py -3.11 installer.py\n<br />\n<br />Choose Automatic Mode for a streamlined setup, or run the installer steps individually (pausing between steps, user confirmations, and additional manual input events may be encountered). In either case, the installer is configured to create an isolated python environment, install dependencies, prepare local assets, and create a desktop shortcut.[/color]\n<br />[line]\n<br />[b][size=4]Usage[/size][/b]\n<br />After installation is complete, a No Man's Sky themed icon appears on the desktop; Double click to run. The control interface will open, and when it is ready you can \"Engage AI Core\". Recommendation is to wait for the launcher to finish loading assets before launching NMS itself to avoid possible conflicts. A No Man's Sky themed icon will also appear in your System Tray enabling full shutdown, or showing the Launcher window if it has been minimised.\n<br />\n<br />To customize the voice and adjust settings, use the Audio and Models panels in the control deck. Additional options and settings are available on various panels.\n<br />\n<br />\n<br />[i]⚠️ A Note on Male Voices: True native male dataset models are actively in the pipeline for a future update once technical dependency issues surrounding them are resolved.  This is to keep true to one of the core design goals: keeping installation and background operations completely minimized for the end user and avoiding additional installed 3rd party tools and requirements.[/i]\n<br />[line]\n<br />[size=4][b]Main features[/b][/size]\n<br />Primary design philosophy: Enhance the game experience without impacting gameplay performance.\n<br />[list]\n<br />[*][color=#D4D4D8]Replaces repetitive Exosuit notifications with continuously refreshed dialogue.[/color][/*]\n<br />[*][color=#D4D4D8]Designed to keep commonly repeated announcements feeling fresh throughout long play sessions.[/color][/*]\n<br />[*][color=#D4D4D8]Dynamic voice generation system that expands beyond the limitations of traditional voice-pack mods.[/color][/*]\n<br />[*][color=#D4D4D8]Works during active gameplay, allowing the voice library to evolve as you play.[/color][/*]\n<br />[*][color=#D4D4D8]Uses CPU inference by design, leaving your GPU available for No Man's Sky.[/color][/*]\n<br />[*]Additional configuration options available to tweak personality, tone, and wordiness to individual preferences [/*]\n<br />[*][color=#D4D4D8]Fully automated operation once installed and configured.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]Source code available on GitHub[/url] for transparency and community review.[/color][/*]\n<br />[*][color=#D4D4D8]Fully offline local operation once installed[/color][/*]\n<br />[*][color=#D4D4D8]No cloud services[/color][/*]\n<br />[*][color=#D4D4D8]No subscriptions[/color][/*]\n<br />[*][color=#D4D4D8]No paid API keys[/color][/*]\n<br />[*][color=#D4D4D8]Absolutely free[/color]\n<br />[/*]\n<br />[/list][line]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky[/color][/*]\n<br />[*][color=#D4D4D8]Windows 11 recommended[/color][/*]\n<br />[*][color=#D4D4D8]Python 3.11 ([url=https://www.python.org/downloads/]https://www.python.org/downloads/[/url] if you do not already have it)[/color][/*]\n<br />[*][color=#D4D4D8]The included installer script [/color][/*]\n<br />[*][color=#D4D4D8]Internet connection during installation to download required resources[/color][/*]\n<br />[*][color=#D4D4D8]Additional dependencies installed automatically by the installer[/color][/*]\n<br />[/list][b]Recommended Hardware[/b]\n<br />[list]\n<br />[*]32GB+ system RAM[/*]\n<br />[*]Up to 15GB available disk space depending on configuration[/*]\n<br />[/list][quote][color=#D4D4D8][b]Worth Repeating:[/b] This is not a traditional standalone voice-pack mod. Dynamic Suit Voice relies on external scripts running alongside No Man's Sky in order to continuously generate and update voice lines during gameplay.[/color][/quote][b]NOTE:[/b]\n<br />The installation script assumes a default STEAM directory on a Windows 11 PC with Python 3.11 already in place. \n<br />Attempting to use other configurations or operating systems may be possible with some effort, but untested at this time\n<br />\n<br />[line]\n<br />[b][size=4]Technical Details [/size][/b]\n<br />[spoiler]Currently available on Github: [url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]https://github.com/Bob-Harper/nms_dynamic_suit_voice[/url]\n<br />Available for discussion on Github or in the Posts for this mod page.[/spoiler]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8][[url=https://github.com/EternalLeo]EternalLeo[/url]] - his [[url=https://github.com/EternalLeo/sound2wem]sound2wem[/url]] utility acted as the springboard to launch this project and provided the original proof of concept. This project would not exist without his research.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/Kilvoctu]Kilvoctu[/url] for excellent codebase suggestions[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/69Alastor]69Alastor[/url] for ruthlessly exposing installer issues and for being patient while we armour plate the installation process.[/color][/*]\n<br />[*][color=#D4D4D8]Juggernaut, for being the one to convince me to release and share with like-minded players. Please direct all hate mail, rage posts, and trolling attempts to this individual for prompt and appropriate handling. [/color][/*]\n<br />[*][color=#D4D4D8]All the suit voice modders on Nexus Mods, without whom I would not know which directory to monitor or that the game looks for WEM files. I downloaded every suit voice mod available when i started this, and examined every one of them. I do not recall which one I was looking at when my suspicions were confirmed. It may have been a comment on nexusmods from one of the feedback messages. It may have been between 4am and 6am when I finally tested and saw the correct directory was working. So thank you to every one of you, and the commenters as well.[/color][/*]\n<br />[*][color=#D4D4D8]Sean Murray and everyone at Hello Games for bringing to life the game I waited 25 years for.[/color][/*]\n<br />[/list]",
+    "description": "STATUS:[color=#7f6000] [/color][color=#00ff00]FULLY FUNCTIONAL COMPANION . GO FORTH, INTERLOPER. EXPLORE THE SKIES OF NO MAN.[/color]\n<br />[line]\n<br />Have you ever noticed how your Exosuit can advise you on surviving extreme environments, crossing entire galaxies, navigating black holes, battling Sentinels, and repairing advanced technology... yet somehow still only knows a handful of stock phrases?  Of course you have.  Dynamic Suit Voice was created to address one of No Man's Sky's longest-standing immersion killers: repetition. \n<br />[line]\n<br />[size=5][b][color=#ffaa00]NEW IN VERSION 1.4.2: [/color][/b][/size]\n<br />[size=5][b][color=#ffaa00]YOU ASKED FOR IT, YOU GOT IT.  MORE VOICES TO CHOOSE FROM.  MALE AND FEMALE VOICES TOGETHER AT LAST. [/color][/b][/size]\n<br />Also: see Changelog.\n<br />[line]\n<br />[b][i][color=#b45f06][size=5][font=Arial Black]THIS IS NOT A VOICE PACK.   \n<br />THIS IS A VOICE GENERATION SYSTEM.[/font][/size][/color][/i][/b]\n<br />[b][size=2][font=Arial Black]It places voice files in the MODS directory, but that is where similarity to other voice mods ends. [/font][/size][/b]\n<br />\n<br />[b][size=2][font=Arial Black]Traditional voice mods provide a fixed collection of recordings. Dynamic Suit Voice generates replacements continuously during gameplay.  [/font][/size][/b]\n<br />\n<br />The result is an Exosuit AI that feels less like a glorified alert system and more like an actual companion traveling the universe alongside you.\n<br />\n<br />[color=#980000]** This is incompatible with other mods that change the suit voice by placing sound files in the MODS folder. [/color]\n<br />[line]\n<br />[b][size=4]EXAMPLE[/size][/b]\n<br />Original Game Wording: [i][b][color=#00ff00]Nearby toxins detected [/color][/b][/i]\n<br />Instead you might now hear: [i][color=#38761d]Corrosive environmental toxins are causing damage to your suit's protective filters[/color]. [/i]\n<br />The next time you approach: [i][color=#38761d]Corrosive environmental toxins are threatening the effectiveness of your suit's protective filters[/color].[/i]\n<br />And it will continue to generate new phrases: [i][color=#38761d]Corrosive environmental toxins are contaminating your suit’s protective filters[/color].[/i]\n<br />[i](These are actual examples that were generated while testing)[/i]\n<br />[line]\n<br />[size=4][b]Installation[/b][/size]\n<br />[color=#D4D4D8][i]Please observe that the ONE CLICK INSTALL has been removed for security and safety reasons.\n<br />Please observe that 3.11 is the only Python version officially supported at this time[/i]\n<br />STEPS:\n<br />Install Python 3.11, extract the download, open a terminal in the extracted project folder, and run:\n<br />\n<br />py -3.11 installer.py\n<br />\n<br />Choose Automatic Mode for a streamlined setup, or run the installer steps individually (pausing between steps, user confirmations, and additional manual input events may be encountered). In either case, the installer is configured to create an isolated python environment, install dependencies, prepare local assets, and create a desktop shortcut.[/color]\n<br />[line]\n<br />[b][size=4]Usage[/size][/b]\n<br />After installation is complete, a No Man's Sky themed icon appears on the desktop; Double click to run. The control interface will open, and when it is ready you can \"Engage AI Core\". Recommendation is to wait for the launcher to finish loading assets before launching NMS itself to avoid possible conflicts. A No Man's Sky themed icon will also appear in your System Tray enabling full shutdown, or showing the Launcher window if it has been minimised.\n<br />\n<br />To customize the voice and adjust settings, use the Audio and Models panels in the control deck. Additional options and settings are available on various panels.\n<br />[line]\n<br />[size=4][b]Main features[/b][/size]\n<br />Primary design philosophy: Enhance the game experience without impacting gameplay performance.\n<br />[list]\n<br />[*][color=#D4D4D8]Replaces repetitive Exosuit notifications with continuously refreshed dialogue.[/color][/*]\n<br />[*][color=#D4D4D8]Designed to keep commonly repeated announcements feeling fresh throughout long play sessions.[/color][/*]\n<br />[*][color=#D4D4D8]Dynamic voice generation system that expands beyond the limitations of traditional voice-pack mods.[/color][/*]\n<br />[*][color=#D4D4D8]Works during active gameplay, allowing the voice library to evolve as you play.[/color][/*]\n<br />[*][color=#D4D4D8]Uses CPU inference by design, leaving your GPU available for No Man's Sky.[/color][/*]\n<br />[*]Additional configuration options available to tweak personality, tone, and wordiness to individual preferences [/*]\n<br />[*][color=#D4D4D8]Fully automated operation once installed and configured.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]Source code available on GitHub[/url] for transparency and community review.[/color][/*]\n<br />[*][color=#D4D4D8]Fully offline local operation once installed[/color][/*]\n<br />[*][color=#D4D4D8]No cloud services[/color][/*]\n<br />[*][color=#D4D4D8]No subscriptions[/color][/*]\n<br />[*][color=#D4D4D8]No paid API keys[/color][/*]\n<br />[*][color=#D4D4D8]Absolutely free[/color]\n<br />[/*]\n<br />[/list][line]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky (you could be an absolute madman and use this without NMS....  but...  why....)[/color][/*]\n<br />[*][color=#D4D4D8]Windows 11 recommended[/color][/*]\n<br />[*][color=#D4D4D8]Python 3.11 ([url=https://www.python.org/downloads/]https://www.python.org/downloads/[/url] if you do not already have it)[/color][/*]\n<br />[*][color=#D4D4D8]The included installer script [/color][/*]\n<br />[*][color=#D4D4D8]Internet connection during installation to download required resources[/color][/*]\n<br />[*][color=#D4D4D8]Additional dependencies installed automatically by the installer[/color][/*]\n<br />[/list][b]Recommended Hardware[/b]\n<br />[list]\n<br />[*]32GB+ system RAM[/*]\n<br />[*]Up to 15GB available disk space depending on configuration[/*]\n<br />[/list][quote][color=#D4D4D8][b]Worth Repeating:[/b] This is not a traditional standalone voice-pack mod. Dynamic Suit Voice relies on external scripts running alongside No Man's Sky in order to continuously generate and update voice lines during gameplay.[/color][/quote][b]NOTE:[/b]\n<br />The installation script assumes a default STEAM directory on a Windows 11 PC with Python 3.11 already in place. \n<br />Attempting to use other configurations or operating systems may be possible with some effort, but untested at this time\n<br />\n<br />[line]\n<br />[b][size=4]Technical Details [/size][/b]\n<br />[spoiler]Currently available on Github: [url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]https://github.com/Bob-Harper/nms_dynamic_suit_voice[/url]\n<br />Available for discussion on Github or in the Posts for this mod page.[/spoiler]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8][[url=https://github.com/EternalLeo]EternalLeo[/url]] - his [[url=https://github.com/EternalLeo/sound2wem]sound2wem[/url]] utility acted as the springboard to launch this project and provided the original proof of concept. This project would not exist without his research.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/Kilvoctu]Kilvoctu[/url] for excellent codebase suggestions,  Also for the solution to the changes on how NMS access the sound files.  This might have been a short lived project without your insights.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/69Alastor]69Alastor[/url] for ruthlessly exposing installer issues and for being patient while we armour plate the installation process.[/color][/*]\n<br />[*][color=#D4D4D8]Juggernaut, for being the one to convince me to release and share with like-minded players. Please direct all hate mail, rage posts, and trolling attempts to this individual for prompt and appropriate handling.[/color]\n<br />[code]Please fill in the provided form using pencil. Write legibly.\n<br />📋[/code][/*]\n<br />[*][color=#D4D4D8]All the suit voice modders on Nexus Mods, without whom I would not know which directory to monitor or that the game looks for WEM files. I downloaded every suit voice mod available when i started this, and examined every one of them. I do not recall which one I was looking at when my suspicions were confirmed. It may have been a comment on nexusmods from one of the feedback messages. It may have been between 4am and 6am when I finally tested and saw the correct directory was working. So thank you to every one of you, and the commenters as well.[/color][/*]\n<br />[*][color=#D4D4D8]Sean Murray and everyone at Hello Games for bringing to life the game I waited 25 years for.[/color][/*]\n<br />[/list]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -704318,9 +704477,9 @@
         "file_id": 50568,
         "name": "Nms Dynamic Suit Voice 1.4.1",
         "version": "1.4",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 9658,
         "file_name": "Nms Dynamic Suit Voice 1.4.1 4693 1.4 2026-11-10T01-40Z gb4dJyoTK.zip",
         "detected_file_extension": "zip",
@@ -704333,6 +704492,31 @@
         "size_in_bytes": 9889966,
         "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nCorrected an install bug that could affect pre-installed files if the installer was ran again.\nPatched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nGame appears to have changed how the files read.  changed process to a more robust method of monitoring reads.\nFixed TTS warmup import error",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/03/29/b4/0329b455-1e24-466c-8a14-d69298ad08d2"
+      },
+      {
+        "id": [
+          50599,
+          1634
+        ],
+        "uid": 7017976612263,
+        "file_id": 50599,
+        "name": "Nms Dynamic Suit Voice 1.4.2",
+        "version": "1.4.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 9663,
+        "file_name": "Nms Dynamic Suit Voice 1.4.2 4693 1.4.2 2026-11-11T04-48Z rv2uEjpzf.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794372524,
+        "uploaded_time": "2026-11-11T04:48:44.000+00:00",
+        "mod_version": "1.4.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4e8724ea89c3cd675e8eb6784fe6fd4f6266a342d5fce801f1c49ba848d8a07e",
+        "description": "Version: 1.4.2 (Nexus.QUEEG) ",
+        "size_kb": 9663,
+        "size_in_bytes": 9894947,
+        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/30/22/0b/30220b19-adec-4dd5-ab4e-4d7ea3cc7e82"
       }
     ],
     "changelogs": {
@@ -704372,6 +704556,10 @@
         "Future optional updates can pull directly from source, or simply keep this stable working version.",
         "Game appears to have changed how the files read.  changed process to a more robust method of monitoring reads.",
         "Fixed TTS warmup import error"
+      ],
+      "1.4.2": [
+        "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.",
+        "Added oplock watching so the mod can once again track file access - THANK YOU KILVOCTU."
       ]
     }
   },
