@@ -704292,7 +704292,7 @@
     "version": "1.4.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4693/4693-1792646688-1779422195.png",
     "author": "CoyoteMax",
-    "updated_timestamp": 1794533163,
+    "updated_timestamp": 1794539443,
     "created_timestamp": 1792645348,
     "description": "STATUS:[color=#7f6000] [/color][color=#00ff00]FULLY FUNCTIONAL COMPANION . GO FORTH, INTERLOPER. EXPLORE THE SKIES OF NO MAN.[/color]\n<br />[line]\n<br />Have you ever noticed how your Exosuit can advise you on surviving extreme environments, crossing entire galaxies, navigating black holes, battling Sentinels, and repairing advanced technology... yet somehow still only knows a handful of stock phrases?  Of course you have.  Dynamic Suit Voice was created to address one of No Man's Sky's longest-standing immersion killers: repetition. \n<br />[line]\n<br />[size=5][b][color=#ffaa00]NEW IN VERSION 1.4.2: [/color][/b][/size]\n<br />[size=5][b][color=#ffaa00]YOU ASKED FOR IT, YOU GOT IT.  MORE VOICES TO CHOOSE FROM.  MALE AND FEMALE VOICES TOGETHER AT LAST. [/color][/b][/size]\n<br />Also: see Changelog.\n<br />[line]\n<br />[b][i][color=#b45f06][size=5][font=Arial Black]THIS IS NOT A VOICE PACK.   \n<br />THIS IS A VOICE GENERATION SYSTEM.[/font][/size][/color][/i][/b]\n<br />[b][size=2][font=Arial Black]It places voice files in the MODS directory, but that is where similarity to other voice mods ends. [/font][/size][/b]\n<br />\n<br />[b][size=2][font=Arial Black]Traditional voice mods provide a fixed collection of recordings. Dynamic Suit Voice generates replacements continuously during gameplay.  [/font][/size][/b]\n<br />\n<br />The result is an Exosuit AI that feels less like a glorified alert system and more like an actual companion traveling the universe alongside you.\n<br />\n<br />[color=#980000]** This is incompatible with other mods that change the suit voice by placing sound files in the MODS folder. [/color]\n<br />[line]\n<br />[b][size=4]EXAMPLE[/size][/b]\n<br />Original Game Wording: [i][b][color=#00ff00]Nearby toxins detected [/color][/b][/i]\n<br />Instead you might now hear: [i][color=#38761d]Corrosive environmental toxins are causing damage to your suit's protective filters[/color]. [/i]\n<br />The next time you approach: [i][color=#38761d]Corrosive environmental toxins are threatening the effectiveness of your suit's protective filters[/color].[/i]\n<br />And it will continue to generate new phrases: [i][color=#38761d]Corrosive environmental toxins are contaminating your suit’s protective filters[/color].[/i]\n<br />[i](These are actual examples that were generated while testing)[/i]\n<br />[line]\n<br />[size=4][b]Installation[/b][/size]\n<br />[color=#D4D4D8][i]Please observe that the ONE CLICK INSTALL has been removed for security and safety reasons.\n<br />Please observe that 3.11 is the only Python version officially supported at this time[/i]\n<br />STEPS:\n<br />Install Python 3.11, extract the download, open a terminal in the extracted project folder, and run:\n<br />\n<br />py -3.11 installer.py\n<br />\n<br />Choose Automatic Mode for a streamlined setup, or run the installer steps individually (pausing between steps, user confirmations, and additional manual input events may be encountered). In either case, the installer is configured to create an isolated python environment, install dependencies, prepare local assets, and create a desktop shortcut.[/color]\n<br />[line]\n<br />[b][size=4]Usage[/size][/b]\n<br />After installation is complete, a No Man's Sky themed icon appears on the desktop; Double click to run. The control interface will open, and when it is ready you can \"Engage AI Core\". Recommendation is to wait for the launcher to finish loading assets before launching NMS itself to avoid possible conflicts. A No Man's Sky themed icon will also appear in your System Tray enabling full shutdown, or showing the Launcher window if it has been minimised.\n<br />\n<br />To customize the voice and adjust settings, use the Audio and Models panels in the control deck. Additional options and settings are available on various panels.\n<br />[line]\n<br />[size=4][b]Main features[/b][/size]\n<br />Primary design philosophy: Enhance the game experience without impacting gameplay performance.\n<br />[list]\n<br />[*][color=#D4D4D8]Replaces repetitive Exosuit notifications with continuously refreshed dialogue.[/color][/*]\n<br />[*][color=#D4D4D8]Designed to keep commonly repeated announcements feeling fresh throughout long play sessions.[/color][/*]\n<br />[*][color=#D4D4D8]Dynamic voice generation system that expands beyond the limitations of traditional voice-pack mods.[/color][/*]\n<br />[*][color=#D4D4D8]Works during active gameplay, allowing the voice library to evolve as you play.[/color][/*]\n<br />[*][color=#D4D4D8]Uses CPU inference by design, leaving your GPU available for No Man's Sky.[/color][/*]\n<br />[*]Additional configuration options available to tweak personality, tone, and wordiness to individual preferences [/*]\n<br />[*][color=#D4D4D8]Fully automated operation once installed and configured.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]Source code available on GitHub[/url] for transparency and community review.[/color][/*]\n<br />[*][color=#D4D4D8]Fully offline local operation once installed[/color][/*]\n<br />[*][color=#D4D4D8]No cloud services[/color][/*]\n<br />[*][color=#D4D4D8]No subscriptions[/color][/*]\n<br />[*][color=#D4D4D8]No paid API keys[/color][/*]\n<br />[*][color=#D4D4D8]Absolutely free[/color]\n<br />[/*]\n<br />[/list][line]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky (you could be an absolute madman and use this without NMS....  but...  why....)[/color][/*]\n<br />[*][color=#D4D4D8]Windows 11 recommended[/color][/*]\n<br />[*][color=#D4D4D8]Python 3.11 ([url=https://www.python.org/downloads/]https://www.python.org/downloads/[/url] if you do not already have it)[/color][/*]\n<br />[*][color=#D4D4D8]The included installer script [/color][/*]\n<br />[*][color=#D4D4D8]Internet connection during installation to download required resources[/color][/*]\n<br />[*][color=#D4D4D8]Additional dependencies installed automatically by the installer[/color][/*]\n<br />[/list][b]Recommended Hardware[/b]\n<br />[list]\n<br />[*]32GB+ system RAM[/*]\n<br />[*]Up to 15GB available disk space depending on configuration[/*]\n<br />[/list][quote][color=#D4D4D8][b]Worth Repeating:[/b] This is not a traditional standalone voice-pack mod. Dynamic Suit Voice relies on external scripts running alongside No Man's Sky in order to continuously generate and update voice lines during gameplay.[/color][/quote][b]NOTE:[/b]\n<br />The installation script assumes a default STEAM directory on a Windows 11 PC with Python 3.11 already in place. \n<br />Attempting to use other configurations or operating systems may be possible with some effort, but untested at this time\n<br />\n<br />[line]\n<br />[b][size=4]Technical Details [/size][/b]\n<br />[spoiler]Currently available on Github: [url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]https://github.com/Bob-Harper/nms_dynamic_suit_voice[/url]\n<br />Available for discussion on Github or in the Posts for this mod page.[/spoiler]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8][[url=https://github.com/EternalLeo]EternalLeo[/url]] - his [[url=https://github.com/EternalLeo/sound2wem]sound2wem[/url]] utility acted as the springboard to launch this project and provided the original proof of concept. This project would not exist without his research.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/Kilvoctu]Kilvoctu[/url] for excellent codebase suggestions,  Also for the solution to the changes on how NMS access the sound files.  This might have been a short lived project without your insights.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/69Alastor]69Alastor[/url] for ruthlessly exposing installer issues and for being patient while we armour plate the installation process.[/color][/*]\n<br />[*][color=#D4D4D8]Juggernaut, for being the one to convince me to release and share with like-minded players. Please direct all hate mail, rage posts, and trolling attempts to this individual for prompt and appropriate handling.[/color]\n<br />[code]Please fill in the provided form using pencil. Write legibly.\n<br />📋[/code][/*]\n<br />[*][color=#D4D4D8]All the suit voice modders on Nexus Mods, without whom I would not know which directory to monitor or that the game looks for WEM files. I downloaded every suit voice mod available when i started this, and examined every one of them. I do not recall which one I was looking at when my suspicions were confirmed. It may have been a comment on nexusmods from one of the feedback messages. It may have been between 4am and 6am when I finally tested and saw the correct directory was working. So thank you to every one of you, and the commenters as well.[/color][/*]\n<br />[*][color=#D4D4D8]Sean Murray and everyone at Hello Games for bringing to life the game I waited 25 years for.[/color][/*]\n<br />[/list]",
     "state": "normal",
@@ -704607,9 +704607,9 @@
         "file_id": 50620,
         "name": "Nms Dynamic Suit Voice 1.4.2",
         "version": "1.4.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 9664,
         "file_name": "Nms Dynamic Suit Voice 1.4.2 4693 1.4.2 2026-11-13T01-26Z izF9Ukew1.zip",
         "detected_file_extension": "zip",
@@ -704622,6 +704622,31 @@
         "size_in_bytes": 9896776,
         "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/11/7f/ec/117fecb9-3140-48f8-8bc8-be20d30e8ed1"
+      },
+      {
+        "id": [
+          50622,
+          1634
+        ],
+        "uid": 7017976612286,
+        "file_id": 50622,
+        "name": "Nms Dynamic Suit Voice 1.4.2",
+        "version": "1.4.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 9664,
+        "file_name": "Nms Dynamic Suit Voice 1.4.2 4693 1.4.2 2026-11-13T03-10Z AeW3TdCnE.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794539443,
+        "uploaded_time": "2026-11-13T03:10:43.000+00:00",
+        "mod_version": "1.4.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/210c03340013f16adf4ed41c8adf9da663bc61e30136ed49197d4fd6bbf8c0ec",
+        "description": "Version: 1.4.2 (Nexus.QUEEG) ",
+        "size_kb": 9664,
+        "size_in_bytes": 9896876,
+        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a9/65/16/a96516f7-4b9e-4248-862a-2e02c69c9512"
       }
     ],
     "changelogs": {
@@ -704666,7 +704691,9 @@
         "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.",
         "Added oplock watching so the mod can once again track file access - THANK YOU KILVOCTU",
         "Fixed requirements.txt to include missing package.  Thank you t0rkel",
-        "fixed typo in default config json keys."
+        "fixed typo in default config json keys.",
+        "fixed default and user generated config creation during install process.",
+        "moved config creation and check to occur immediately after installing python requirements."
       ]
     }
   },
@@ -711113,12 +711140,12 @@
     "mod_id": 4776,
     "name": "DIABLO'S COLOURS",
     "summary": "Overhauls the colours of skies, space, ground, plants, creatures, crystals, planet rings and water on every world type.",
-    "version": "3.3",
+    "version": "4",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4776/4776-1793770052-820204046.jpg",
     "author": "Xdiablo6six6X",
-    "updated_timestamp": 1794025645,
+    "updated_timestamp": 1794537672,
     "created_timestamp": 1793757717,
-    "description": "[size=4][b]Description[/b][/size]\n<br />\n<br />[color=#D4D4D8]Diablos Colours is a full colour overhaul for No Man’s Sky. It reworks the skies, storms, space, ground, plants, creatures, water, crystals and planet rings of every world type, while keeping the game’s own look as the base.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />\n<br />1. Download and extract the archive.\n<br />2. Copy all four folders into No Man's Sky&#92;GAMEDATA&#92;MODS:\n<br />  - DIABLOS_COLOURS\n<br />  - DIABLOS_SHADERS\n<br />\n<br />3. If you used an earlier version, delete its folders first.\n<br />\n<br />Both folders are needed.\n<br />\n<br />To uninstall, delete both folders.\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />\n<br />SKIES\n<br />[list]\n<br />[*]1,250+ day, dusk, night and storm skies[/*]\n<br />[*]Gilded gold, champagne haze, grey overcast, rose gold, pastel hazes, deep sapphire and emerald days[/*]\n<br />[*]Black skies (replacing soon), eclipses, coloured suns, split two-tone skies[/*]\n<br />[*]Golden hour, cotton candy, royal and silver sunsets[/*]\n<br />[*]Auroras, nebula nights, jewel nights and champagne moonlight[/*]\n<br />[*]Storm planets get their own storm skies: ash, burning orange, smoke, warp and static[/*]\n<br />[/list]SPACE\n<br />[list]\n<br />[*]330+ space looks: gem nebulae, auroras, space twilights, twin nebulae, telescope-style colour pairs and edge glows[/*]\n<br />[*]Pure black space (only stars) in about 5% of systems[/*]\n<br />[/list]WORLDS\n<br />[list]\n<br />[*]114 world palettes with 64 colours per type, so no planet type shares a palette[/*]\n<br />[*]All 85 sub-biomes get their own colour story, including Golden Meadow, Highland, Rose Quartz, Coral Garden, Ancient Forest, Nordic Pine, Alpenglow, Lilac Frost, Champagne Dunes, Terracotta Canyon, Painted Desert, Savanna, Obsidian &amp; Gold, Uranium Glass, Poison Garden, Fjord, Winter Palace, Pompeii, Kelp Isles, Opal Coast and Bayou[/*]\n<br />[*]Red, green and blue star systems each get their own six giant worlds[/*]\n<br />[*]Two ground colourways: most worlds pick one of two rock colourways per planet[/*]\n<br />[*]Ground, rock, sand, snow, grass, leaves, flowers and wood[/*]\n<br />[*]Creatures belong to their world: fur, scales, feathers and bellies are themed per planet, with the brightest colours saved for birds[/*]\n<br />[*]Every story is designed to suit every sky its world can roll, so combinations stay natural[/*]\n<br />[/list]CRYSTALS\n<br />[list]\n<br />[*]Every world gets its own gem suite of 64 crystal colours, covering deposits, mineral veins, crystal creatures, ice fruit and asteroid ice[/*]\n<br />[*]Any two of a world’s gems look right side by side. Vivid worlds get brighter gems; quiet worlds keep quiet stones[/*]\n<br />[*]Element colours are untouched, so resource icons still match[/*]\n<br />[/list]PLANET RINGS\n<br />[list]\n<br />[*]Every world gets its own 64 ring colours in four kinds: ice, dust, the world’s story colours and a rare gem accent[/*]\n<br />[*]Any two of a world’s ring colours go together, so every ring looks intentional[/*]\n<br />[/list]WATER\n<br />[list]\n<br />[*]89 water types, including tropical, glacial, jade, sapphire, tiffany, pewter sea, champagne shallows and rare violet and rose waters[/*]\n<br />[/list][size=4][b]Requirements[/b][/size]\n<br />\n<br />No other mods required.\n<br />\n<br />Built for game build 184271 (Steam build 26385139). A big game update may need an updated version.\n<br />",
+    "description": "[b][size=6]INSPECT ALL COLOURS[/size][/b]\n<br />[url=https://inquisitive-palmier-c37b47.netlify.app/][b][size=3]https://inquisitive-palmier-c37b47.netlify.app/[/size][/b][/url]\n<br />[url=https://inquisitive-palmier-c37b47.netlify.app/][/url]\n<br />\n<br />\n<br />[size=4][b]Description[/b][/size]\n<br />\n<br />[color=#D4D4D8]Diablos Colours is a full colour overhaul for No Man’s Sky. It reworks the skies, storms, space, ground, plants, creatures, water, crystals and planet rings of every world type, while keeping the game’s own look as the base.[/color]\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />\n<br />1. Download and extract the archive.\n<br />2. Copy all four folders into No Man's Sky&#92;GAMEDATA&#92;MODS:\n<br />  - DIABLOS_COLOURS\n<br />\n<br />3. If you used an earlier version, delete its folders first.\n<br />\n<br />Both folders are needed.\n<br />\n<br />To uninstall, delete both folders.\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />\n<br />SKIES\n<br />[list]\n<br />[*]1,250+ day, dusk, night and storm skies[/*]\n<br />[*]Gilded gold, champagne haze, grey overcast, rose gold, pastel hazes, deep sapphire and emerald days[/*]\n<br />[*]Golden hour, cotton candy, royal and silver sunsets[/*]\n<br />[*]Auroras, nebula nights, jewel nights and champagne moonlight[/*]\n<br />[*]Storm planets get their own storm skies: ash, burning orange, smoke, warp and static[/*]\n<br />[/list]SPACE\n<br />[list]\n<br />[*]330+ space looks: gem nebulae, auroras, space twilights, twin nebulae, telescope-style colour pairs and edge glows[/*]\n<br />[*]Pure black space (only stars) in about 5% of systems[/*]\n<br />[/list]WORLDS\n<br />[list]\n<br />[*]114 world palettes with 64 colours per type, so no planet type shares a palette[/*]\n<br />[*]All 85 sub-biomes get their own colour story, including Golden Meadow, Highland, Rose Quartz, Coral Garden, Ancient Forest, Nordic Pine, Alpenglow, Lilac Frost, Champagne Dunes, Terracotta Canyon, Painted Desert, Savanna, Obsidian &amp; Gold, Uranium Glass, Poison Garden, Fjord, Winter Palace, Pompeii, Kelp Isles, Opal Coast and Bayou[/*]\n<br />[*]Red, green and blue star systems each get their own six giant worlds[/*]\n<br />[*]Two ground colourways: most worlds pick one of two rock colourways per planet[/*]\n<br />[*]Ground, rock, sand, snow, grass, leaves, flowers and wood[/*]\n<br />[*]Creatures belong to their world: fur, scales, feathers and bellies are themed per planet, with the brightest colours saved for birds[/*]\n<br />[*]Every story is designed to suit every sky its world can roll, so combinations stay natural[/*]\n<br />[/list]CRYSTALS\n<br />[list]\n<br />[*]Every world gets its own gem suite of 64 crystal colours, covering deposits, mineral veins, crystal creatures, ice fruit and asteroid ice[/*]\n<br />[*]Any two of a world’s gems look right side by side. Vivid worlds get brighter gems; quiet worlds keep quiet stones[/*]\n<br />[*]Element colours are untouched, so resource icons still match[/*]\n<br />[/list]PLANET RINGS\n<br />[list]\n<br />[*]Every world gets its own 64 ring colours in four kinds: ice, dust, the world’s story colours and a rare gem accent[/*]\n<br />[*]Any two of a world’s ring colours go together, so every ring looks intentional[/*]\n<br />[/list]WATER\n<br />[list]\n<br />[*]89 water types, including tropical, glacial, jade, sapphire, tiffany, pewter sea, champagne shallows and rare violet and rose waters[/*]\n<br />[/list][size=4][b]Requirements[/b][/size]\n<br />\n<br />No other mods required.\n<br />\n<br />Built for game build 184271 (Steam build 26385139). A big game update may need an updated version.\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -711281,9 +711308,9 @@
         "file_id": 50501,
         "name": "DIABLO'S COLOURS",
         "version": "3.3",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 1717,
         "file_name": "DIABLO'S COLOURS 4776 3.3 2026-11-07T04-27Z zYpLKAV9t.zip",
         "detected_file_extension": "zip",
@@ -711296,6 +711323,31 @@
         "size_in_bytes": 1758656,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/84/75/6f/84756f9d-76e6-478d-9e87-8a9af423c819"
+      },
+      {
+        "id": [
+          50621,
+          1634
+        ],
+        "uid": 7017976612285,
+        "file_id": 50621,
+        "name": "DIABLO'S COLOURS",
+        "version": "4",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1570,
+        "file_name": "DIABLO'S COLOURS 4776 4 2026-11-13T02-41Z 6Xd7OtxTw.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794537672,
+        "uploaded_time": "2026-11-13T02:41:12.000+00:00",
+        "mod_version": "4",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4903170f116c7d24849d832a3443c965269900c57e6b38d6a6b343db4d47e10b",
+        "description": "",
+        "size_kb": 1570,
+        "size_in_bytes": 1607914,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/3e/e4/8f/3ee48f4d-4389-45d1-be20-930c6c31d4d4"
       }
     ],
     "changelogs": {}
