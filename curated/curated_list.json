@@ -635598,12 +635598,12 @@
     "mod_id": 3796,
     "name": "Custom Corvette Interior Modules",
     "summary": "Lets introduce more bugs into the corvettes, shall we?",
-    "version": "7.10",
+    "version": "7.14",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3796/3796-1758195172-575838461.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1793299018,
+    "updated_timestamp": 1794667203,
     "created_timestamp": 1758195516,
-    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod adds 3 new functional wall modules for players to build inside habitation parts of their Corvette starships: the apperance modifier, the weapon rack and the stellar extractor module and an additional \"blank wall\" module which can be used to cover up doors between habs.The new modules have been included into a brand new section of corvette build menu and will be available to players automatically after installing the mod (no need to buy / research those blueprints). The modules are compatible with all 3 styles of interiors offered by the game and feature slight variations between positioning of the items.\n<br />\n<br />With the positives laid out, one must acknowledge the limitations of this mod. The new modules are extremely simplistic - they consist only of rigged machinery attached to \"empty\" walls of given interior. No additional decorations were included as I lack the creativity and skill to set them up. There are no options to apply colours / finishes like with exterior corvette parts.\n<br />\n<br />In general: consider it a \"proof of concept\" that custom interior modules can be added with mods and imagine how awesome they would be if an actually competent person did the work.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;GAMESTATE&#92;DIFFICULTYCONFIG.MBIN\n<br />\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_BASEPARTPRODUCTS.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGOBJECTSTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGPARTSTABLE.MBIN\n<br />\n<br />+ a bunch of new files added[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️✅ mixed mod (EXML patch + new MBIN files)\n<br />\n<br />This mod is likely to work with other mods modifying the same files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
+    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod adds 3 new functional wall modules for players to build inside habitation parts of their Corvette starships: the apperance modifier, the weapon rack and the stellar extractor module and an additional \"blank wall\" module which can be used to cover up doors between habs.The new modules have been included into a brand new section of corvette build menu and will be available to players automatically after installing the mod (no need to buy / research those blueprints). The modules are compatible with all 4 styles of interiors offered by the game and feature slight variations between positioning of the items.\n<br />\n<br />With the positives laid out, one must acknowledge the limitations of this mod. The new modules are extremely simplistic - they consist only of rigged machinery attached to \"empty\" walls of given interior. No additional decorations were included as I lack the creativity and skill to set them up. There are no options to apply colours / finishes like with exterior corvette parts.\n<br />\n<br />In general: consider it a \"proof of concept\" that custom interior modules can be added with mods and imagine how awesome they would be if an actually competent person did the work.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;GAMESTATE&#92;DIFFICULTYCONFIG.MBIN\n<br />\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_BASEPARTPRODUCTS.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGOBJECTSTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGPARTSTABLE.MBIN\n<br />\n<br />+ a bunch of new files added[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️✅ mixed mod (EXML patch + new MBIN files)\n<br />\n<br />This mod is likely to work with other mods modifying the same files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory. Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -635630,7 +635630,7 @@
         "size_kb": 2470,
         "size_in_bytes": 2529644,
         "changelog_html": "initial release for game version 6.05 (Voyagers)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3796/Custom Corvette Interior Modules - ZIP-3796-6-05-1758195399.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3796/Custom Corvette Interior Modules - ZIP-3796-6-05-1758195399.zip.json"
       },
       {
         "id": [
@@ -635655,7 +635655,7 @@
         "size_kb": 78,
         "size_in_bytes": 79847,
         "changelog_html": "updated for version 6.20 (Remnant)\nreworked mod, added long / short wall variants for 3 functional modules + \"blank long wall\" module",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3796/Custom Corvette Interior Modules - ZIP-3796-6-20-1771167058.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3796/Custom Corvette Interior Modules - ZIP-3796-6-20-1771167058.zip.json"
       },
       {
         "id": [
@@ -635680,7 +635680,7 @@
         "size_kb": 78,
         "size_in_bytes": 79983,
         "changelog_html": "updated for game version 6.34 (Xeno Arena)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3796/Custom Corvette Interior Modules - ZIP-3796-6-34-1777017743.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3796/Custom Corvette Interior Modules - ZIP-3796-6-34-1777017743.zip.json"
       },
       {
         "id": [
@@ -635705,7 +635705,7 @@
         "size_kb": 78,
         "size_in_bytes": 79991,
         "changelog_html": "updated for game version 6.40 (Swarm)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3796/Custom Corvette Interior Modules - ZIP-3796-6-40-1779950877.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3796/Custom Corvette Interior Modules - ZIP-3796-6-40-1779950877.zip.json"
       },
       {
         "id": [
@@ -635741,8 +635741,8 @@
         "file_id": 50208,
         "name": "Custom Corvette Interior Modules",
         "version": "7.10",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 79,
         "file_name": "Custom Corvette Interior Modules 3796 7.10 2026-10-29T18-36Z HZO4arlne.zip",
@@ -635756,6 +635756,31 @@
         "size_in_bytes": 81056,
         "changelog_html": "updated for game version 7.10 (Forsaken)\nchanged location of interaction camera for corvette stellar extactor module\nnote that this release does not include the new Legion-style habs yet!!!",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/c7/ae/25/c7ae2502-8f1f-4017-8145-becf9883da46"
+      },
+      {
+        "id": [
+          50658,
+          1634
+        ],
+        "uid": 7017976612322,
+        "file_id": 50658,
+        "name": "Custom Corvette Interior Modules",
+        "version": "7.14",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 102,
+        "file_name": "Custom Corvette Interior Modules 3796 7.14 2026-11-14T14-40Z MWrySmztm.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794667203,
+        "uploaded_time": "2026-11-14T14:40:03.000+00:00",
+        "mod_version": "7.14",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a99f021c908f36fae6da7c545925571baddbb7dd3e032b2f7b3a25724522226f",
+        "description": "",
+        "size_kb": 102,
+        "size_in_bytes": 105095,
+        "changelog_html": "added custom modules for Legion-style interiors",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ed/1c/43/ed1c4355-ca43-4d11-be64-f703b53a1d75"
       }
     ],
     "changelogs": {
@@ -635779,6 +635804,9 @@
         "updated for game version 7.10 (Forsaken)",
         "changed location of interaction camera for corvette stellar extactor module",
         "note that this release does not include the new Legion-style habs yet!!!"
+      ],
+      "7.14": [
+        "added custom modules for Legion-style interiors"
       ]
     }
   },
@@ -680608,7 +680636,7 @@
     "mod_id": 4510,
     "name": "no planet filters",
     "summary": "Removes the filters from planets (except for dissonant planets), making the game look less washed out",
-    "version": "1",
+    "version": "2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4510/4510-1789669791-688119619.jpg",
     "author": "macriddz",
     "updated_timestamp": 1794617190,
@@ -704997,10 +705025,10 @@
     "mod_id": 4696,
     "name": "Nomad Biomes - Modpack (formerly Lasagna)",
     "summary": "Adds hundreds of immersive, custom biomes (land, cave &amp; underwater). Also overhauls terrain, colors, jetpack &amp; more.",
-    "version": "1.1b",
+    "version": "1.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1794151343-964469907.jpg",
     "author": "SereiusBusiness",
-    "updated_timestamp": 1793832174,
+    "updated_timestamp": 1794669834,
     "created_timestamp": 1792777078,
     "description": "[center][b][size=6]Nomad Biomes[/size][/b]\n<br />(formerly Lasagna)[/center]\n<br />\n<br />\n<br />[b][size=5]‣Description[/size][/b]\n<br />\n<br />[b][size=4][i]New custom pre-made biomes[/i][/size][/b], set of 500\n<br />[list]\n<br />[*]Each biome is themed with its own “story”, whether it’s a frozen jungle, a mushroom forest, a toxic egg field, a glowing radioactive garden, a lava field broken up by shield trees, sand dunes with giant cacti, or a dead moon covered in ship wrecks. No more random flora/props thrown together without reason.[/*]\n<br />[*]Planets feel more immersive and natural than ever. Flora/props are often found grouped together via. a new, advanced system of prop placements I developed. Plants grow next to trees, small rocks next to larger rocks, and so on and so forth.[/*]\n<br />[*]Includes giant forests, city biomes, rare colossal props, rare custom model trees, and forests on worlds that don't usually have them. [/*]\n<br />[*]Covers every planet type, from lush and frozen to toxic, radioactive, gas giant and weird/exotic worlds.[/*]\n<br />[*]Also includes spawner files for all 103 planet types.[/*]\n<br />[*]*Performance is mostly close to vanilla, from nearly empty planets up to about 3–4x vanilla for the heaviest biomes. [/*]\n<br />[*]*High density biomes in the screenshots may look intimidating, but the current game engine handles instanced objects far better than it used to. [i]If performance is an issue, try lowering \"Planet Quality\" settings and shadow settings for much better performance.[/i][/*]\n<br />[*][i][color=#00ff00]Update v1.1:[/color] Added 'Nomad Biomes - Planets [u]Minima[/u]' version, a slightly more performance friendly variant.[/i][/*]\n<br />[/list]\n<br />[b][i][size=4]Reworked underwater and cave biomes[/size][/i][/b], set of 197 (138 underwater, 59 caves)\n<br />[list]\n<br />[*]Improved variety: From underwater forests with grass, kelp, coral, vents and urchins to glowing caves with tall stalagmites.[/*]\n<br />[*]*Reworked and optimized for vanilla-like performance.[/*]\n<br />[/list]\n<br />[size=4][i][b]New terrain mod[/b][/i][/size], set of 31. Each terrain type has a different landform, including:\n<br />   -terraced canyons with marshy floors\n<br />   - flat plains with rock arches and mesas.\n<br />   - badlands with rock pillars\n<br />   - tall rock towers with floating islands\n<br />   - wide glacial valleys\n<br />   - rare worlds covered in worm-like ridges and ravines.\n<br />[list]\n<br />[*]Brings back the \"worm\" terrain and tall resource deposit shapes from the Foundation update.[/*]\n<br />[*]Adds unique structures with (relatively) open ground in-between, so planets are fun to explore on-foot and flora/props have room to spawn.[/*]\n<br />[*]The lowest terrain sits lower than vanilla, so ground fog is more common.[/*]\n<br />[*]Water worlds have large landmasses instead of only small islands.[/*]\n<br />[/list]\n<br />[b][size=4][i]Nomad Colors[/i][/size][/b] (formerly Lasagna Obscura)\n<br />[list]\n<br />[*]A stylized color mod. Aggregate of all sky color/lighting/QOL/etc. mods I've made via. my Lasagna mods, plus several new additions.[/*]\n<br />[*]New colors for: flora, terrain, rings and fauna. Flora and rings span the full rainbow.[/*]\n<br />[*]Darker space with bright nebulas (some vanilla space colors remain).[/*]\n<br />[*]Choose extra fog or less fog. Fog appears darker (and colorful) near you and fades into the sky at a distance. Lighter fog on prime planets, vanilla fog on empty planets.[/*]\n<br />[*]Less instances of the old smoke effect that follows the player, and fewer gravity bubbles.[/*]\n<br />[*]No high clouds on regular planets, and some planets have few or no clouds depending on elevation.[/*]\n<br />[*]Storms are 25% as long and less frequent on very stormy planets.[/*]\n<br />[*]Spore hazard plants replaced with tentacle hazard plants.[/*]\n<br />[*]Slightly brighter sun and clouds.[/*]\n<br />[*]No photo mode vignette.[/*]\n<br />[/list]\n<br />[size=5][b]‣Mods Included[/b][/size]\n<br />[list]\n<br />[*]Nomad Biomes - Planets: 500 base terrain biomes. *protip: you can land on the top of city structures with your ship. :)[/*]\n<br />[*]           CHOOSE ONE: Maxima = high flora/prop density, Minima = slightly lower density on the highest density planets.[/*]\n<br />[*]Nomad Biomes - Caves: 59 caves[/*]\n<br />[*]Nomad Biomes - Underwater: 138 underwater biomes[/*]\n<br />[*]Nomad Biomes - SPAWNER: Spawns the above biomes[/*]\n<br />[*]Nomad Biomes - Terrain: 31 terrain variants (each with sub-variants)[/*]\n<br />[*]Nomad Colors - Fog: Misc. QOL changes + the fog part of Nomad Colors.[/*]\n<br />[*]           CHOOSE ONE: less fog (0.1) to more (0.3). [/*]\n<br />[*]Nomad Colors &amp; QOL - KEEP: All color sets &amp; misc. QOL changes.[/*]\n<br />[*]Nomad Jetpack: Subtle improvements to jetpack lift, refill etc[/*]\n<br />[*]Nomad Large Crystals - Large E3-style crystals, crystals spawn at all angles[/*]\n<br />[*]Nomad Models - Custom models and updates to pre-release models.[/*]\n<br />[/list]\n<br />\n<br />[b][size=5]‣Frequently Asked Questions (FAQ)[/size][/b]\n<br />\n<br />[u]I can't get any mods to work?[/u]\n<br />Look for the [url=https://nomanssky.fandom.com/wiki/Mods#Installing_Mods]mod warning[/url] on launch, if you don't see that:\n<br />Delete the Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML and launch NMS again.\n<br />\n<br />[u]Does this work with multiplayer?[/u]\n<br />Yes, but mods are client-side. Everyone must install the same mods to see the same things.\n<br />Terrain will differ, for example, between players using and not using the mod.\n<br />\n<br />[u]Is this compatible with xyz mod?[/u]\n<br />90% chance yes, see 'Mod Compatibility' section on mod page.\n<br />\n<br />[u]Will this mess with my base or settlement?[/u]\n<br />Existing bases and settlements may no longer align with the terrain.\n<br />Save at a space station first when adding or removing Nomad Terrain with an existing save.\n<br />\n<br />[u]What about your old mods?[/u]\n<br />Mods come and go due to demanding game updates, obligations, etc. I'm also someone who wants to experiment and make new things, not spend hours and hours maintaining old content. Finally, this is purely a passion project for me. Haters gonna hate.\n<br />That said, most of my old mods feature open permissions, anyone can update them if they so desire. Thanks for the support. :)\n<br />\n<br />[u]Are the new biomes added to the vanilla ones, or are some vanilla ones replaced?[/u]\n<br />You can find vanilla biomes, but it's rare.\n<br />\n<br />[u]How to update this mod?[/u]\n<br />Biomes (and models) are made via. my program Plumgen 2. I might share at some point, but for now it's under construction.\n<br />Some are made via. LUA scripts (included in the folders).\n<br />Some are EXMLs.\n<br />\n<br />[u]Will you keep updating this mod?[/u]\n<br />I plan to for the foreseeable future, but sometimes it's hard to stay motivated. I suggest keeping a backup of this version of No Man's Sky (Cosmos 7.06 as of writing this), just to be safe.\n<br />\n<br />[u]I crashed on the loading screen?[/u]\n<br />Hopefully this issue doesn't happen anymore. But if it does, lmk. If you crash on a planet, try going to a space station first then loading the mod.\n<br />\n<br />[u]How can I make planets less foggy?[/u]\n<br />a) Make you've installed [u]just[/u] the 0.1 Fog version. b) If still too foggy, here's a tutorial: It's been about a year since I made the color mod, but IIRC (see 'Advanced customization' section below for more details):\n<br />[spoiler]\n<br />1) navigate to:\n<br />[quote]MODS/Nomad Colors v1.1b - Fog 0.1 (EXML)/globals/gcskyglobals.globals.EXML[/quote]\n<br />Change every instance of this line:\n<br />[code]﻿&lt;Property name=\"FogStrength\" value=\"0.100000\"/&gt;[/code]Either remove the line or comment it out. You might have to comment out 'FogMax' line too, I can't remember off the top of my head [b][1][/b].\n<br />\n<br />Then:\n<br />2) go to:\n<br />[quote]MODS/Nomad Colors v1.1b - Fog 0.1 (EXML)/METADATA/SIMULATION/SOLARSYSTEM/WEATHER/[/quote]\n<br />open each EXML file here. Again, change every instance of FogStrength (and FogMax IIRC).\n<br />\n<br />[b][1][/b] - If you want to see changes to gcskyglobals.globals.EXML in real time (w/o having to restart your game each line change), open:\n<br />[quote]MODS/Nomad Colors &amp; QOL v1.1b - KEEP (MBIN+EXML)/globals/Open to test fog in realtime/Test fog - README.txt[/quote]and follow the instructions. but because No Man's Sky is No Man's Sky, this only works if you're on certain biomes (like lava i believe [check if 'UseWeatherFog' and 'UseWeatherSky' are set to false within the sub-biome e.g. lavaweather.EXML]).[/spoiler]\n<br />\n<br />\n<br />[size=5][b]‣Mod Compatibility[/b][/size] [vanila MBINs changed]\n<br />\n<br />Nomad Biomes/Spawner:\n<br />[list]\n<br />[*]Misc. pre-release and spacestation SCENES within MODELS[/*]\n<br />[*]The rest are all EXML files.[/*]\n<br />[*]Mods created and exported with Plumgen 2 are typically compatible with this[/*]\n<br />[/list]\n<br />Nomad Terrain:\n<br />[list]\n<br />[*]METADATA/SIMULATION/SOLARSYSTEM/VOXELGENERATORSETTINGS.MBIN[/*]\n<br />[/list]\n<br />Nomad colors [see bottom advanced section for more info]:\n<br />[list]\n<br />[*]METADATA/SIMULATION/SOLARSYSTEM/WEATHER/SKYSETTINGS/SPACESKYCOLOURS.MBIN[/*]\n<br />[*]All COLOURPALETTES.MBIN files within METADATA/SIMULATION/SOLARSYSTEM/BIOMES/[/*]\n<br />[*]The rest are all EXML files[/*]\n<br />[/list]\n<br />\n<br />\n<br />[size=5][b]‣How to Install[/b][/size]\n<br />\n<br />[color=#f1c232]PLEASE READ&gt;&gt;[/color] Save at a space station first when adding or removing this mod with an existing save. [color=#f1c232]&lt;&lt;PLEASE READ[/color]\n<br />\n<br />[list=1]\n<br />[*]Place extracted mod folders inside of No Man's Sky/GAMEDATA/MODS [*not* PCBANKS/MODS].\n<br />-If a MODS folder does not exist yet, create it.-Each mod will have its own dedicated folder inside of GAMEDATA/MODS.-Make sure that the mod folders aren't an extra folder deep.[/*]\n<br />[*]Start the game and wait for the splash screen to disappear.[/*]\n<br />[*]If done correctly the game will display a mod warning.[/*]\n<br />[/list]\n<br />\n<br />[b][size=5]‣Known issues[/size][/b]\n<br />-Fog can hide the ground from high up. Issue seems to get worse or better depending on weather/vfx/etc.\n<br />-Glitched floor on a terrain type.\n<br />\n<br />\n<br />[b][size=5]‣Advanced customization[/size][/b]\n<br />[spoiler]\n<br />There are many ways to customize [b][u]Nomad Colors[/u][/b], in particular. Edit or remove any of these files/subfolders from the mod if you want. Keep in mind, this mod was made so different parts complement each other. Obviously, you might encounter issues if you dramatically change the mod:\n<br />\n<br />1. Mod files:\n<br />[quote][size=2]All COLOURPALETTES.MBIN files within METADATA/SIMULATION/SOLARSYSTEM/BIOMES/ [color=#00ff00]directory[/color] [u][b][color=#e06666]except[/color][/b][/u] 'OBJECTS' and 'WEATHER' folders[/size][/quote][u]Effect:[/u] Individual sub-biome colors for: grass, plants, leaves, terrain, rocks, stones, dirt, sand, snow, planet rings, &amp; fauna\n<br />*Remove e.g. the LAVA folder if you no longer want the above color changes on lava biomes.\n<br />\n<br />2. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/OBJECTS [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Spore hazard plants replaced with tentacle hazard plants.\n<br />\n<br />3. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/WEATHER/ [color=#00ff00]directory[/color] [u][b][color=#e06666]except[/color][/b][/u] SKYSETTINGS[/size][/quote][u]Effect:[/u] Individual sub-biome fog settings.\n<br />*If you adjust any settings in the gcskyglobals.globals.EXML file, you'll also need to adjust each of these (and vice versa).\n<br />\n<br />4. Mod files:\n<br />[quote][size=2]METADATA/SIMULATION/SOLARSYSTEM/BIOMES/WEATHER/SKYSETTINGS [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Changes to darken day &amp; dusk fog, and new space colors.\n<br />\n<br />5. Mod files:\n<br />[quote][size=2]models/effects/heavyair [color=#00ff00]directory[/color][/size][/quote][u]Effect:[/u] Reduces \"old\" omnipresent smoke effects, gravity bubbles, &amp; snow effects.\n<br />\n<br />6. Mod files:\n<br />[quote][size=2]globals/gcenvironmentglobals.global.EXML [color=#c27ba0]file[/color][/size][/quote][u]Effect:[/u] Edits upper stratosphere clouds &amp; increases brightness.\n<br />\n<br />7. Mod files:\n<br />[quote][size=2]gcskyglobals.globals.EXML [color=#c27ba0]file[/color][/size][/quote]Effect: Every other change not mentioned above, including: changes *most* sub-biome fog (not all [this is just how the game is designed], see 3), reduces storms, &amp; removes vignette.[/spoiler]\n<br />\n<br />[b][size=5]‣Credits[/size][/b]\n<br />[list]\n<br />[*]VitaminArrr's NoMansTerrain to make the terrain mod: [url=https://github.com/gistya/nomansterrain]https://github.com/gistya/nomansterrain[/url][/*]\n<br />[*]Monkeyman192's MBINCompiler and NMSDK to do many things, including viewing models.[/*]\n<br />[*]Monkeyman192's HGPAKtool to make custom models.[/*]\n<br />[*]AMUMSS by Mjjstral aka MetaIdea and Wbertro aka TheBossBoy to make LUA-based mods.[/*]\n<br />[*]WinderTP for walking me through Blender/NMSDK to edit models.[/*]\n<br />[*]Ruffles for permission to use LOD and distance code. View InsaneRuffles' \"[url=https://www.nexusmods.com/nomanssky/mods/1990]View Distance Increase[/url]\" mod.[/*]\n<br />[/list]\n<br />[b][size=5]‣A few images[/size][/b]\n<br />[center]\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1793053771-1071994223.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774108-1100460332.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774103-733972479.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774102-1691244889.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1793053771-718620032.jpg[/img]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1792774113-701501391.jpg[/img]\n<br />[/center]\n<br />",
     "state": "normal",
@@ -705090,9 +705118,9 @@
         "file_id": 50451,
         "name": "Nomad Biomes",
         "version": "1.1b",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 10456,
         "file_name": "Nomad Biomes 4696 1.1b 2026-11-04T22-42Z n0CrIxcOX.zip",
         "detected_file_extension": "zip",
@@ -705105,6 +705133,31 @@
         "size_in_bytes": 10707950,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/1b/a5/ba/1ba5bace-ba68-44ab-930c-088808bbbb2e"
+      },
+      {
+        "id": [
+          50659,
+          1634
+        ],
+        "uid": 7017976612323,
+        "file_id": 50659,
+        "name": "Nomad Biomes",
+        "version": "1.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 10602,
+        "file_name": "Nomad Biomes 4696 1.2 2026-11-14T15-23Z pQZbnWJX0.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794669834,
+        "uploaded_time": "2026-11-14T15:23:54.000+00:00",
+        "mod_version": "1.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/60cbb44f6ab41a0d222a7fd73f20135e6161cd0dbe98c55a3d5cbc30329c311d",
+        "description": "",
+        "size_kb": 10602,
+        "size_in_bytes": 10856618,
+        "changelog_html": "-Improved variety across nearly all sub-biomes\n-Improved pre-release plants scale/variety",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/45/cc/96/45cc9638-9d2c-4660-af09-72bbaac47bfe"
       }
     ],
     "changelogs": {
@@ -705114,6 +705167,10 @@
         "-Burnt, lava, noxious and irradiated worlds: 12 repetitive biomes reworked into forests.",
         "-Frozen worlds: most HQ pines swapped for frozen trees or oaks (improved variety).",
         "-Swapped some lush trees for improved variety."
+      ],
+      "1.2": [
+        "-Improved variety across nearly all sub-biomes",
+        "-Improved pre-release plants scale/variety"
       ]
     }
   },
