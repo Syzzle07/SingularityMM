@@ -410999,10 +410999,10 @@
     "mod_id": 2355,
     "name": "More Persistent Debris",
     "summary": "Spawns More Debris And Keeps It Around Longer",
-    "version": "2.66",
+    "version": "2.67",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2355/2355-1656618681-1495638407.jpeg",
     "author": "Knightmare077",
-    "updated_timestamp": 1791398792,
+    "updated_timestamp": 1794690556,
     "created_timestamp": 1656618938,
     "description": "[center][size=6][b][u]More Persistent Debris[/u][/b][/size][/center]\n<br />\n<br />[center][b][u][size=3][color=#00ff00]﻿(Cosmos Update v7.06 Compatible)[/color][/size][/u][/b][/center]\n<br />\n<br />\n<br />\n<br />\n<br />\n<br />[size=4]As the title suggests; It keeps the debris from things like mining asteroids and blowing up spaceships around a little longer. It also spawns more debris. Sentinel combat spawns more debris; planetary mining etc all spawn more debris and it last a bit longer as well.  [/size]\n<br />\n<br />[size=4]Not much else to say.[/size]\n<br />\n<br />\n<br />[center][size=4][youtube]7wAGs9MnEjo[/youtube][/size][/center]\n<br />\n<br />\n<br />[size=3]\n<br />\n<br />[b][u]Files Modded:[/u][/b]\n<br />EXPLOSIONTABLE\n<br />PLANETEFFECTS\n<br />SPACEEFFECTS\n<br />PLAYEREFFECTS[/size]\n<br />\n<br />\n<br />\n<br />[center]﻿﻿[youtube]NMtGU1AC9oM[/youtube][/center]\n<br />",
     "state": "normal",
@@ -411031,7 +411031,7 @@
         "size_kb": 23,
         "size_in_bytes": 23878,
         "changelog_html": "Release (outlaws compatible)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-1-1656618930.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-1-1656618930.zip.json"
       },
       {
         "id": [
@@ -411056,7 +411056,7 @@
         "size_kb": 23,
         "size_in_bytes": 23920,
         "changelog_html": "Adjusted Ship Debris\nAdded More Sentinel Debris.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-2-1656820149.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-2-1656820149.zip.json"
       },
       {
         "id": [
@@ -411081,7 +411081,7 @@
         "size_kb": 25,
         "size_in_bytes": 25088,
         "changelog_html": "Adjusted the sentinels on abandon freighters ; they were not exactly doing what they should. Now they do essentially their default debris; main piece and the two side pieces and it lasts longer. - couldnt get the debris added to behave like it was in space :(\nAdded some more debris to planet sentinels.\nThe horrors have been changed a bit too ; still have to confirm they are accepting the changes but should be cooler if they are",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-3-1657049127.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-3-1657049127.zip.json"
       },
       {
         "id": [
@@ -411106,7 +411106,7 @@
         "size_kb": 27,
         "size_in_bytes": 27202,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-4-1658969834.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-4-1658969834.zip.json"
       },
       {
         "id": [
@@ -411131,7 +411131,7 @@
         "size_kb": 39,
         "size_in_bytes": 39820,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-4a-1658976860.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-4a-1658976860.zip.json"
       },
       {
         "id": [
@@ -411156,7 +411156,7 @@
         "size_kb": 39,
         "size_in_bytes": 40237,
         "changelog_html": "Adjusted Sentinels (again)\nLeft the asteroid fields at default densities as endurance seems to do a much better job at having dynamic fields from warp to warp.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-5-1659388834.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-5-1659388834.zip.json"
       },
       {
         "id": [
@@ -411181,7 +411181,7 @@
         "size_kb": 26,
         "size_in_bytes": 26695,
         "changelog_html": "Updated For Fractal Update",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Fractal Update-2355-0-6-1677183068.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Fractal Update-2355-0-6-1677183068.7z.json"
       },
       {
         "id": [
@@ -411206,7 +411206,7 @@
         "size_kb": 27,
         "size_in_bytes": 27254,
         "changelog_html": "Added More Ship Explosion Debris Variety.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Fractal Update-2355-0-6a-1677213313.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Fractal Update-2355-0-6a-1677213313.7z.json"
       },
       {
         "id": [
@@ -411231,7 +411231,7 @@
         "size_kb": 27,
         "size_in_bytes": 27853,
         "changelog_html": "No longer (for now) modifies \"GCGAMEPLAYGLOBALS.GLOBAL.MBIN\" (Since Fractal Update) and Mod version 0.6\nAdded more Fiend Debris Variety",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-6b-1677439095.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris-2355-0-6b-1677439095.7z.json"
       },
       {
         "id": [
@@ -411256,7 +411256,7 @@
         "size_kb": 12,
         "size_in_bytes": 12113,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-7-1681953779.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-7-1681953779.7z.json"
       },
       {
         "id": [
@@ -411281,7 +411281,7 @@
         "size_kb": 10,
         "size_in_bytes": 10728,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-7b-1682051176.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-7b-1682051176.7z.json"
       },
       {
         "id": [
@@ -411306,7 +411306,7 @@
         "size_kb": 11,
         "size_in_bytes": 10797,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-8-1682310463.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-8-1682310463.7z.json"
       },
       {
         "id": [
@@ -411331,7 +411331,7 @@
         "size_kb": 11,
         "size_in_bytes": 10804,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-8b-1682316500.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-8b-1682316500.7z.json"
       },
       {
         "id": [
@@ -411356,7 +411356,7 @@
         "size_kb": 11,
         "size_in_bytes": 10950,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-8c-1682369079.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-8c-1682369079.7z.json"
       },
       {
         "id": [
@@ -411381,7 +411381,7 @@
         "size_kb": 11,
         "size_in_bytes": 10971,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-9-1682441884.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-9-1682441884.7z.json"
       },
       {
         "id": [
@@ -411406,7 +411406,7 @@
         "size_kb": 11,
         "size_in_bytes": 11006,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-9a-1682477702.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-9a-1682477702.7z.json"
       },
       {
         "id": [
@@ -411431,7 +411431,7 @@
         "size_kb": 11,
         "size_in_bytes": 11005,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-9b-1682480390.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-9b-1682480390.7z.json"
       },
       {
         "id": [
@@ -411456,7 +411456,7 @@
         "size_kb": 11,
         "size_in_bytes": 11088,
         "changelog_html": "Adjusted Sentinel Hive Pillar Explosion Debris",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-9c-1684358343.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Interceptor Update-2355-0-9c-1684358343.7z.json"
       },
       {
         "id": [
@@ -411481,7 +411481,7 @@
         "size_kb": 12,
         "size_in_bytes": 12529,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Echoes Update-2355-1-0-1693008050.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Echoes Update-2355-1-0-1693008050.7z.json"
       },
       {
         "id": [
@@ -411506,7 +411506,7 @@
         "size_kb": 12,
         "size_in_bytes": 12659,
         "changelog_html": "(v1.0) Added  Support for Echoes\n(v1.0) Added Debris To Pirate Frigates\nAdded Debris To Pirate Turrets, Torpedo's, Freighter Explosion, Engines",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Echoes Update-2355-1-1-1693072639.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Echoes Update-2355-1-1-1693072639.7z.json"
       },
       {
         "id": [
@@ -411531,7 +411531,7 @@
         "size_kb": 12,
         "size_in_bytes": 12744,
         "changelog_html": "Fixed Weird Lights After Destroying Frigate - Freighters\nAdjusted Asteroid Behavior\nAdded More Debris To Pirate Freighter Destruction\nAdjusted Torpedo Debris (Made A Tad Smaller)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Echoes Update-2355-1-2-1693167908.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Echoes Update-2355-1-2-1693167908.7z.json"
       },
       {
         "id": [
@@ -411556,7 +411556,7 @@
         "size_kb": 12,
         "size_in_bytes": 12762,
         "changelog_html": "Adjusted Pirate Frigate Debris (To Attempt To Fix Possible Crashing)\nMinor Adjustments To Space Combat Debris",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Echoes Update-2355-1-3-1693275841.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Echoes Update-2355-1-3-1693275841.7z.json"
       },
       {
         "id": [
@@ -411581,7 +411581,7 @@
         "size_kb": 13,
         "size_in_bytes": 13262,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Omega Update-2355-1-4-1708541714.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Omega Update-2355-1-4-1708541714.zip.json"
       },
       {
         "id": [
@@ -411606,7 +411606,7 @@
         "size_kb": 13,
         "size_in_bytes": 13438,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Orbital Update 1.5-2355-1-5-1712184586.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Orbital Update 1.5-2355-1-5-1712184586.zip.json"
       },
       {
         "id": [
@@ -411631,7 +411631,7 @@
         "size_kb": 13,
         "size_in_bytes": 13628,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Orbital-Adrift Update-2355-1-6-1717263956.7z.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Orbital-Adrift Update-2355-1-6-1717263956.7z.json"
       },
       {
         "id": [
@@ -411656,7 +411656,7 @@
         "size_kb": 16,
         "size_in_bytes": 16553,
         "changelog_html": "Updated To Support Worlds Part 1\nExtended Vile Brood Debris",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Worlds Part 1-2355-1-7-1722151848.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Worlds Part 1-2355-1-7-1722151848.zip.json"
       },
       {
         "id": [
@@ -411681,7 +411681,7 @@
         "size_kb": 16,
         "size_in_bytes": 16816,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Aquarius-2355-1-8-1728069966.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Aquarius-2355-1-8-1728069966.zip.json"
       },
       {
         "id": [
@@ -411706,7 +411706,7 @@
         "size_kb": 17,
         "size_in_bytes": 17409,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/More Persistent Debris - Cursed Expedition-2355-1-9-1730786269.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/More Persistent Debris - Cursed Expedition-2355-1-9-1730786269.zip.json"
       },
       {
         "id": [
@@ -411731,7 +411731,7 @@
         "size_kb": 21,
         "size_in_bytes": 21559,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/MPD_Worlds Part 2-2355-2-0-1738990077.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/MPD_Worlds Part 2-2355-2-0-1738990077.zip.json"
       },
       {
         "id": [
@@ -411756,7 +411756,7 @@
         "size_kb": 21,
         "size_in_bytes": 21573,
         "changelog_html": "Worlds Part 2a : Adjusted the debris, debris size and amount for various crystals and terrain manipulator",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/MPD_Worlds Part 2-2355-2-0a-1739249666.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/MPD_Worlds Part 2-2355-2-0a-1739249666.zip.json"
       },
       {
         "id": [
@@ -411781,7 +411781,7 @@
         "size_kb": 147,
         "size_in_bytes": 150312,
         "changelog_html": "Updated for Relics Game Update (Better Late Then Never)\nAdjusted Asteroid Debris (Again)\nAdd Debris To The No No Eggs (0.o)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/MPD_Relics-2355-2-1-1748911608.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/MPD_Relics-2355-2-1-1748911608.zip.json"
       },
       {
         "id": [
@@ -411806,7 +411806,7 @@
         "size_kb": 149,
         "size_in_bytes": 152168,
         "changelog_html": "Added Debris To Stone Golem/Mech\nAdded Debris To Water Crystals\nAdded  Debris To a Couple Freighter Targets\nAdjusted Debris of Sentinel Drones and Corrupted Sentinel s\nAdded Debris to buried fossils.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/MPD_Relics-2355-2-1a-1748987381.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/MPD_Relics-2355-2-1a-1748987381.zip.json"
       },
       {
         "id": [
@@ -411831,7 +411831,7 @@
         "size_kb": 149,
         "size_in_bytes": 152833,
         "changelog_html": "Updated for Beacon",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/MPD_Beacon-2355-2-2-1749167616.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/MPD_Beacon-2355-2-2-1749167616.zip.json"
       },
       {
         "id": [
@@ -411856,7 +411856,7 @@
         "size_kb": 160,
         "size_in_bytes": 163427,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/MPD_Voyagers-2355-2-3-1757007926.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/MPD_Voyagers-2355-2-3-1757007926.zip.json"
       },
       {
         "id": [
@@ -411881,7 +411881,7 @@
         "size_kb": 25,
         "size_in_bytes": 25512,
         "changelog_html": "Updated mod to support latest game update Xeno_Arena.\nNo mod changes (effects) at this time Might be some in the future.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2355/MPD_Xeno_Arena-2355-2-4-1777611505.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2355/MPD_Xeno_Arena-2355-2-4-1777611505.zip.json"
       },
       {
         "id": [
@@ -411905,8 +411905,8 @@
         "description": "Updated for NMS Swarm.\nExtract to your mods folder.\n\n-Updated to support NMS Swarm\n-Fixed debris rocks clipping into each other. ",
         "size_kb": 190,
         "size_in_bytes": null,
-        "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/2355/90/16/7f/90167fa7-3dc0-45e7-bbab-8c1734927d5a.json"
+        "changelog_html": "-Updated to support Swarm update\n-Fixed rock debris - no longer clips with eachother.\n-Fixed a few forgotten values from last update",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/90/16/7f/90167fa7-3dc0-45e7-bbab-8c1734927d5a"
       },
       {
         "id": [
@@ -411931,7 +411931,7 @@
         "size_kb": 190,
         "size_in_bytes": 0,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/2355/05/62/a3/0562a3c1-1dfa-40b6-b68e-19d0c4f82545.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/05/62/a3/0562a3c1-1dfa-40b6-b68e-19d0c4f82545"
       },
       {
         "id": [
@@ -411956,7 +411956,7 @@
         "size_kb": 25,
         "size_in_bytes": 26283,
         "changelog_html": "Redone Debris for:\nDrones\nCargo Ships / Pods\nTurrets\nAdded debris for Hulk Piece removal / destruction (not tested)",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/2355/bb/7f/f3/bb7ff326-6e8e-4f89-838f-a1935324804d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/bb/7f/f3/bb7ff326-6e8e-4f89-838f-a1935324804d"
       },
       {
         "id": [
@@ -411981,7 +411981,7 @@
         "size_kb": 1820,
         "size_in_bytes": 1863981,
         "changelog_html": null,
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/2355/9c/11/5a/9c115a13-7f26-4882-9846-3a30836b2a7d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9c/11/5a/9c115a13-7f26-4882-9846-3a30836b2a7d"
       },
       {
         "id": [
@@ -412006,7 +412006,7 @@
         "size_kb": 1821,
         "size_in_bytes": 1865022,
         "changelog_html": "v2.62\n-Fixed Scanner\n-Added rock debris to buried mineral formations",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/2355/60/fa/2e/60fa2eae-3a02-49dc-af8c-e5ac4279e92f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/60/fa/2e/60fa2eae-3a02-49dc-af8c-e5ac4279e92f"
       },
       {
         "id": [
@@ -412031,7 +412031,7 @@
         "size_kb": 1823,
         "size_in_bytes": 1867117,
         "changelog_html": "-Updated to support NMS Cosmos patch v7.04",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/2355/a9/08/0e/a9080ec1-5ac2-48cc-af40-123a82ac1982.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a9/08/0e/a9080ec1-5ac2-48cc-af40-123a82ac1982"
       },
       {
         "id": [
@@ -412056,7 +412056,7 @@
         "size_kb": 1829,
         "size_in_bytes": 1873897,
         "changelog_html": "-Added debris to corrupted sentinels\n-Added debris to corrupted sentinel quad sentinels\n-Added debris to corrupted (purple) crystal resources",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/2355/2d/0c/22/2d0c22fe-2d80-4c4e-bae1-4b1599a661d3.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/2d/0c/22/2d0c22fe-2d80-4c4e-bae1-4b1599a661d3"
       },
       {
         "id": [
@@ -412081,7 +412081,7 @@
         "size_kb": 1849,
         "size_in_bytes": 1893431,
         "changelog_html": "-Added support for NMS Cosmos Patch 7.05 (Updated collisions)\n-Added Bug debris to the queen bug fights\n-Added bug debris to the smaller bugs the queen spawns\n-Added debris to sandworms (not tested)\n-Adjusted / added new debris for exploding ships",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/2355/aa/9c/7d/aa9c7d6b-5242-423d-9de5-b0ae92ec5414.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/aa/9c/7d/aa9c7d6b-5242-423d-9de5-b0ae92ec5414"
       },
       {
         "id": [
@@ -412092,9 +412092,9 @@
         "file_id": 49665,
         "name": "MPD_Cosmos_v2.66",
         "version": "2.66",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 1849,
         "file_name": "MPD_Cosmos_v2.66 2355 2.66 2026-10-07T18-46Z 58qnW1tp8.zip",
         "detected_file_extension": "zip",
@@ -412106,7 +412106,32 @@
         "size_kb": 1849,
         "size_in_bytes": 1893978,
         "changelog_html": "Various small tweaks to:\n- Hulk piece debris\n- Sentinel Walkers",
-        "content_preview_link": "https://file-manifests.nexusmods.com/file/nexus-files-s3-meta/1634/2355/b5/5a/75/b55a750a-f056-4239-9b4f-dcaf457a5169.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b5/5a/75/b55a750a-f056-4239-9b4f-dcaf457a5169"
+      },
+      {
+        "id": [
+          50660,
+          1634
+        ],
+        "uid": 7017976612324,
+        "file_id": 50660,
+        "name": "MPD_Forsaken_v2.67",
+        "version": "2.67",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 44,
+        "file_name": "MPD_Forsaken_v2.67 2355 2.67 2026-11-14T21-09Z s60W14S3J.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794690556,
+        "uploaded_time": "2026-11-14T21:09:16.000+00:00",
+        "mod_version": "2.67",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/30085d5cbf99b41af30e507776b3107898bdff656a19938585e209816fa1ea2c",
+        "description": "Updated for NMS Forsaken.<br />Extract the .zip your mods folder.<br /><br />-Updated to support NMS Forsaken patch v7.14<br />",
+        "size_kb": 44,
+        "size_in_bytes": 45982,
+        "changelog_html": "-Updated to support Forsaken 7.14 Update (Yes scanner is fixed)\n-Slightly adjusted size debris spawned from mining.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/63/a9/0b/63a90b19-fa45-4925-86ed-4453c5a715fc"
       }
     ],
     "changelogs": {
@@ -412216,6 +412241,10 @@
         "Various small tweaks to:",
         "- Hulk piece debris",
         "- Sentinel Walkers"
+      ],
+      "2.67": [
+        "-Updated to support Forsaken 7.14 Update (Yes scanner is fixed)",
+        "-Slightly adjusted size debris spawned from mining."
       ]
     }
   },
@@ -643356,7 +643385,7 @@
     "author": "JJhookah",
     "updated_timestamp": 1794039832,
     "created_timestamp": 1760775437,
-    "description": "Corvette Base Pad\n<br />Version 1.5\n<br />Author JJhookah    \n<br />\n<br />                                                                          [color=#00ffff] New version, new build method[/color]\n<br />                                                       [color=#ffff00]   PLEASE READ ALL INFORMATION BEFORE USING [/color]\n<br />\n<br />Provides a base buildable full size solid Corvette landing pad with all ship creation and customisation capabilities of space station pads.\n<br />Once created your Corvette ship will always have a spacious fixed place to land and your Corvette will always return to the pad if teleporting back from space stations.\n<br />You can have multiple pads but your Corvette may randomly choose which one to go to when teleporting back from space stations but it will always go to a landing pad.\n<br />\n<br />How to use it :\n<br />[color=#00ffff]New build method recommended as of V 1.5[/color]\n<br />Follow these steps and the pictures as a guide to easily build your Corvette pad.\n<br />\n<br />[color=#ffff00]IMPORTANT:[/color] This mod works by replacing the \"alternate\" landing pad in the build menu.\n<br />If you have any of these pads at your base already it is highly advisable to delete them before\n<br />using the mod as it will replace them. { This includes the mission pad at Settlements }\n<br />[color=#ffff00]Optional Corvette Base Pad STANDARD version replaces the \"standard\" landing pad instead and is recommended for players that use settlements. { See last pic }\n<br />Same conditions regarding existing pads apply ![/color]\n<br />\n<br />[color=#00ff00]Step 1:[/color] Find a suitable large open area for your pad, flat or slightly hilly is best.\n<br />Ensure there is no structures close by and your Corvette ship is a good distance behind you.\n<br />Can also be built over water.\n<br />\n<br />[color=#00ff00]Step 2:[/color] Build out any large floor tiles at the level and place you would like your pad surface to be.\n<br />\n<br />[color=#00ff00]Step 3:[/color] A single floor tile is enough but two or more is preferred.\n<br />Standing one tile back from the last one placed open the build menu and select the \"alternate\" landing pad. [ See pic 5 }\n<br />\n<br />[color=#00ff00]Step 4:[/color] Look towards the end of the last floor tile and the green buildable highlight will show and snap to build.\n<br />The pad will take a few moments to render in.\n<br />{ Pads can also be snapped directly to buildings, stand on top of the building you wish to snap to, look down a bit and select the \"alternate\" landing pad, the green buildable highlight will show and snap to build.}\n<br />Pads can still be free placed as before V 1.5 using the step method.\n<br />{ See pics }\n<br />\n<br />[color=#ffff00]Note:[/color] By default when built your summoned ship will land and rotate with its back facing towards you but the pad can be rotated at the hologram stage if you wish using the build functions in order to make the ship face other directions.\n<br />Ship summoners and build terminals are provided on all four sides of the pad to aid in your directional preference.\n<br />\n<br />[color=#00ff00]Step 5: [/color]Your new pad is now built but may have some trees or ground on it that can be cleaned up using your mining laser and terrain manipulator and the floor tiles can be deleted if you wish.\n<br />With good location choice and practice you will be able to build with little to no obstructions and it's worth having a few attempts, Pads can easily be deleted.\n<br />Summon your ship with the ship summoner terminal or start building your first Corvette.\n<br />It is also possible to skip all these steps and go straight to the free camera build mode but it doesn't seem to work as well.\n<br />\n<br />The pad has twenty four snap points around its perimeter as of V 1.5\n<br />Five down each side and one on each corner.\n<br />Snap point detection isn't perfect and works best from outside of the pad.\n<br />If building from the pad try to stand along the edge and look side on to where you wish to place a snapped part.\n<br />{See pictures}\n<br />Other buildables can also be free built on the pad itself.\n<br />Pads can also be snapped to each other but requires a bit of trial and error to get the build highlight to show and is best done from some distance away or from the center of an existing pad.\n<br />\n<br />Corvettes can be summoned using the terminals provided and the Corvette builder is accessed by interacting with the terminal box at the front of the pad {see pics}\n<br />\n<br />[color=#ffff00]Removing support legs:[/color]\n<br />Support legs from either version can now be disabled and re-enabled by the user as of V 1.5\n<br />To disable the support legs navigate the mod folders to: Corvette.Base.Pad / MODELS / SUPPORT_LEGS.SCENE.MBIN\n<br />{ Last file at the bottom in MODELS }\n<br />\n<br />Delete or rename SUPPORT_LEGS.SCENE.MBIN to XSUPPORT_LEGS.SCENE.MBIN\n<br />Rename back to SUPPORT_LEGS.SCENE.MBIN to restore them.\n<br />\n<br />[color=#ffff00]Known Bug:[/color] Placing a small landing pad too close to Corvette pad terminals will cause issues with terminal function, please avoid placing small landing pads close to Corvette pads.\n<br />Thanks to DrChubs for help with bug testing.\n<br />\n<br />NOTE: Although this mod has been extensively tested it is very experimental and may also have bugs of it's own that I have not yet seen, please use at your own discretion, almost all bugs can be solved by simply reloading your game if an in game solution can't be found.\n<br />\n<br />[color=#00ff00]Install[/color]\n<br />Step 1: Extract Corvette.Base.Pad folder from zip.\n<br />Step 2: Open the extracted folder and copy the Corvette.Base.Pad folder found inside to your No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Create Mods folder if you don't already have one.\n<br />\n<br />[color=#00ff00]Uninstall[/color]\n<br />Delete Corvette.Base.Pad folder from No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Partly made with TubOcrisco's excellent NMS MODDING STATION.\n<br />Thanks to monkeyman192 and crew for updating compilers.\n<br />\n<br />[color=#ffff00]Modifies: [/color]\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE.SCENE.MBIN  MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE_PLACEMENT.SCENE.MBIN\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE&#92;ENTITIES&#92;LANDINGZONEDATA.ENTITY.MBIN\n<br />                                 \n<br />[color=#ffff00]Standard version modifies:[/color]\n<br />[color=#f4f4f4]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGPAD.SCENE.MBIN  MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGPAD_PLACEMENT.SCENE.MBIN\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE&#92;ENTITIES&#92;LANDINGZONEDATA.ENTITY.MBIN[/color]\n<br />\n<br />V 1.1                     \n<br />Added blinking landing lights to platform.\n<br />Improved colour application to landing pad from build menu, whole pad will now retain colour application. {see new pics}\n<br />Improved collision of terminal behind summoner.\n<br />Raised recessed areas of platform for better visual interaction with player character.\n<br />Added walking platform to sides of pad to match collisions and improve texture around entire perimeter of landing pad.\n<br />Added shadow casting to landing pad.\n<br />\n<br />V 1.2\n<br />Updated for Remnant.\n<br />\n<br />V 1.3\n<br />Updated for Xeno Arena.\n<br />Increased LOD distances.\n<br />\n<br />V 1.4\n<br />Updated for Cosmos.\n<br />Can be used in Space Bases.\n<br />\n<br />V 1.5\n<br />Added 24 snap points around perimeter of pad.\n<br />Removed barriers from pad surface for easier access to terminals.\n<br />Reduced underside height to allow room for building under pad.\n<br />Added volumetric lighting to inactive pad lights and adjusted volumetric effect of existing ones.\n<br />Improved collisions of support legs.\n<br />Made support legs removable by user.\n<br />Fixed issue of \"No Corvette docked for modification\" on loading of save with ship already docked from last game save.\n<br />Increased landing detection range for easier landing at greater distance from pad.",
+    "description": "Corvette Base Pad\n<br />Version 1.5\n<br />Author JJhookah    \n<br />\n<br />                                                                          [color=#00ffff] New version, new build method[/color]\n<br />                                                       [color=#ffff00]   PLEASE READ ALL INFORMATION BEFORE USING [/color]\n<br />\n<br />Provides a base buildable full size solid Corvette landing pad with all ship creation and customisation capabilities of space station pads.\n<br />Once created your Corvette ship will always have a spacious fixed place to land and your Corvette will always return to the pad if teleporting back from space stations.\n<br />You can have multiple pads but your Corvette may randomly choose which one to go to when teleporting back from space stations but it will always go to a landing pad.\n<br />\n<br />How to use it :\n<br />[color=#00ffff]New build method recommended as of V 1.5[/color]\n<br />Follow these steps and the pictures as a guide to easily build your Corvette pad.\n<br />\n<br />[color=#ffff00]IMPORTANT:[/color] This mod works by replacing the \"alternate\" landing pad in the build menu.\n<br />If you have any of these pads at your base already it is highly advisable to delete them before\n<br />using the mod as it will replace them. { This includes the mission pad at Settlements }\n<br />[color=#ffff00]Optional Corvette Base Pad STANDARD version replaces the \"standard\" landing pad instead and is recommended for players that use settlements. { See last pic }\n<br />Same conditions regarding existing pads apply ![/color]\n<br />\n<br />[color=#00ff00]Step 1:[/color] Find a suitable large open area for your pad, flat or slightly hilly is best.\n<br />Ensure there is no structures close by and your Corvette ship is a good distance behind you.\n<br />Can also be built over water.\n<br />\n<br />[color=#00ff00]Step 2:[/color] Build out any large floor tiles at the level and place you would like your pad surface to be.\n<br />\n<br />[color=#00ff00]Step 3:[/color] A single floor tile is enough but two or more is preferred.\n<br />Standing one tile back from the last one placed open the build menu and select the \"alternate\" landing pad. [ See pic 5 }\n<br />\n<br />[color=#00ff00]Step 4:[/color] Look towards the end of the last floor tile and the green buildable highlight will show and snap to build.\n<br />The pad will take a few moments to render in.\n<br />{ Pads can also be snapped directly to buildings, stand on top of the building you wish to snap to, look down a bit and select the \"alternate\" landing pad, the green buildable highlight will show and snap to build.}\n<br />Pads can still be free placed as before V 1.5 using the step method.\n<br />{ See pics }\n<br />\n<br />[color=#ffff00]Note:[/color] By default when built your summoned ship will land and rotate with its back facing towards you but the pad can be rotated at the hologram stage if you wish using the build functions in order to make the ship face other directions.\n<br />Ship summoners and build terminals are provided on all four sides of the pad to aid in your directional preference.\n<br />\n<br />[color=#00ff00]Step 5: [/color]Your new pad is now built but may have some trees or ground on it that can be cleaned up using your mining laser and terrain manipulator and the floor tiles can be deleted if you wish.\n<br />With good location choice and practice you will be able to build with little to no obstructions and it's worth having a few attempts, Pads can easily be deleted.\n<br />Summon your ship with the ship summoner terminal or start building your first Corvette.\n<br />It is also possible to skip all these steps and go straight to the free camera build mode but it doesn't seem to work as well.\n<br />\n<br />The pad has twenty four snap points around its perimeter as of V 1.5\n<br />Five down each side and one on each corner.\n<br />Snap point detection isn't perfect and works best from outside of the pad.\n<br />If building from the pad try to stand along the edge and look side on to where you wish to place a snapped part.\n<br />{See pictures}\n<br />Other buildables can also be free built on the pad itself.\n<br />Pads can also be snapped to each other but requires a bit of trial and error to get the build highlight to show and is best done from some distance away or from the center of an existing pad.\n<br />\n<br />Corvettes can be summoned using the terminals provided and the Corvette builder is accessed by interacting with the terminal box at the front of the pad {see pics}\n<br />\n<br />[color=#ffff00]Removing support legs:[/color]\n<br />Support legs from either version can now be disabled and re-enabled by the user as of V 1.5\n<br />To disable the support legs navigate the mod folders to: Corvette.Base.Pad / MODELS / SUPPORT_LEGS.SCENE.MBIN\n<br />{ Last file at the bottom in MODELS }\n<br />\n<br />Delete or rename SUPPORT_LEGS.SCENE.MBIN to XSUPPORT_LEGS.SCENE.MBIN\n<br />Rename back to SUPPORT_LEGS.SCENE.MBIN to restore them.\n<br />\n<br />[color=#ffff00]Known Bug:[/color] Placing a small landing pad too close to Corvette pad terminals will cause issues with terminal function, please avoid placing small landing pads close to Corvette pads.\n<br />Thanks to DrChubs for help with bug testing.\n<br />\n<br />[color=#ffff00]NOTE:[/color] Although this mod has been extensively tested it is very experimental and may also have bugs of it's own that I have not yet seen, please use at your own discretion, almost all bugs can be solved by simply reloading your game if an in game solution can't be found.\n<br />\n<br />[color=#00ff00]Install[/color]\n<br />Step 1: Extract Corvette.Base.Pad folder from zip.\n<br />Step 2: Open the extracted folder and copy the Corvette.Base.Pad folder found inside to your No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Create Mods folder if you don't already have one.\n<br />\n<br />[color=#00ff00]Uninstall[/color]\n<br />Delete Corvette.Base.Pad folder from No Man's Sky&#92;GAMEDATA&#92;MODS folder.\n<br />\n<br />Partly made with TubOcrisco's excellent NMS MODDING STATION.\n<br />Thanks to monkeyman192 and crew for updating compilers.\n<br />\n<br />[color=#ffff00]Modifies: [/color]\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE.SCENE.MBIN  MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE_PLACEMENT.SCENE.MBIN\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE&#92;ENTITIES&#92;LANDINGZONEDATA.ENTITY.MBIN\n<br />                                 \n<br />[color=#ffff00]Standard version modifies:[/color]\n<br />[color=#f4f4f4]MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGPAD.SCENE.MBIN  MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGPAD_PLACEMENT.SCENE.MBIN\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;PARTS&#92;BUILDABLEPARTS&#92;TECH&#92;LANDINGZONE&#92;ENTITIES&#92;LANDINGZONEDATA.ENTITY.MBIN[/color]\n<br />\n<br />V 1.1                     \n<br />Added blinking landing lights to platform.\n<br />Improved colour application to landing pad from build menu, whole pad will now retain colour application. {see new pics}\n<br />Improved collision of terminal behind summoner.\n<br />Raised recessed areas of platform for better visual interaction with player character.\n<br />Added walking platform to sides of pad to match collisions and improve texture around entire perimeter of landing pad.\n<br />Added shadow casting to landing pad.\n<br />\n<br />V 1.2\n<br />Updated for Remnant.\n<br />\n<br />V 1.3\n<br />Updated for Xeno Arena.\n<br />Increased LOD distances.\n<br />\n<br />V 1.4\n<br />Updated for Cosmos.\n<br />Can be used in Space Bases.\n<br />\n<br />V 1.5\n<br />Added 24 snap points around perimeter of pad.\n<br />Removed barriers from pad surface for easier access to terminals.\n<br />Reduced underside height to allow room for building under pad.\n<br />Added volumetric lighting to inactive pad lights and adjusted volumetric effect of existing ones.\n<br />Improved collisions of support legs.\n<br />Made support legs removable by user.\n<br />Fixed issue of \"No Corvette docked for modification\" on loading of save with ship already docked from last game save.\n<br />Increased landing detection range for easier landing at greater distance from pad.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -704499,7 +704528,7 @@
     "author": "CoyoteMax",
     "updated_timestamp": 1794539443,
     "created_timestamp": 1792645348,
-    "description": "STATUS:[color=#7f6000] [/color][color=#00ff00]FULLY FUNCTIONAL COMPANION . GO FORTH, INTERLOPER. EXPLORE THE SKIES OF NO MAN.[/color]\n<br />[line]\n<br />Have you ever noticed how your Exosuit can advise you on surviving extreme environments, crossing entire galaxies, navigating black holes, battling Sentinels, and repairing advanced technology... yet somehow still only knows a handful of stock phrases?  Of course you have.  Dynamic Suit Voice was created to address one of No Man's Sky's longest-standing immersion killers: repetition. \n<br />[line]\n<br />[size=5][b][color=#ffaa00]NEW IN VERSION 1.4.2: [/color][/b][/size]\n<br />[size=5][b][color=#ffaa00]YOU ASKED FOR IT, YOU GOT IT.  MORE VOICES TO CHOOSE FROM.  MALE AND FEMALE VOICES TOGETHER AT LAST. [/color][/b][/size]\n<br />Also: see Changelog.\n<br />[line]\n<br />[b][i][color=#b45f06][size=5][font=Arial Black]THIS IS NOT A VOICE PACK.   \n<br />THIS IS A VOICE GENERATION SYSTEM.[/font][/size][/color][/i][/b]\n<br />[b][size=2][font=Arial Black]It places voice files in the MODS directory, but that is where similarity to other voice mods ends. [/font][/size][/b]\n<br />\n<br />[b][size=2][font=Arial Black]Traditional voice mods provide a fixed collection of recordings. Dynamic Suit Voice generates replacements continuously during gameplay.  [/font][/size][/b]\n<br />\n<br />The result is an Exosuit AI that feels less like a glorified alert system and more like an actual companion traveling the universe alongside you.\n<br />\n<br />[color=#980000]** This is incompatible with other mods that change the suit voice by placing sound files in the MODS folder. [/color]\n<br />[line]\n<br />[b][size=4]EXAMPLE[/size][/b]\n<br />Original Game Wording: [i][b][color=#00ff00]Nearby toxins detected [/color][/b][/i]\n<br />Instead you might now hear: [i][color=#38761d]Corrosive environmental toxins are causing damage to your suit's protective filters[/color]. [/i]\n<br />The next time you approach: [i][color=#38761d]Corrosive environmental toxins are threatening the effectiveness of your suit's protective filters[/color].[/i]\n<br />And it will continue to generate new phrases: [i][color=#38761d]Corrosive environmental toxins are contaminating your suit’s protective filters[/color].[/i]\n<br />[i](These are actual examples that were generated while testing)[/i]\n<br />[line]\n<br />[size=4][b]Installation[/b][/size]\n<br />[color=#D4D4D8][i]Please observe that the ONE CLICK INSTALL has been removed for security and safety reasons.\n<br />Please observe that 3.11 is the only Python version officially supported at this time[/i]\n<br />STEPS:\n<br />Install Python 3.11, extract the download, open a terminal in the extracted project folder, and run:\n<br />\n<br />py -3.11 installer.py\n<br />\n<br />Choose Automatic Mode for a streamlined setup, or run the installer steps individually (pausing between steps, user confirmations, and additional manual input events may be encountered). In either case, the installer is configured to create an isolated python environment, install dependencies, prepare local assets, and create a desktop shortcut.[/color]\n<br />[line]\n<br />[b][size=4]Usage[/size][/b]\n<br />After installation is complete, a No Man's Sky themed icon appears on the desktop; Double click to run. The control interface will open, and when it is ready you can \"Engage AI Core\". Recommendation is to wait for the launcher to finish loading assets before launching NMS itself to avoid possible conflicts. A No Man's Sky themed icon will also appear in your System Tray enabling full shutdown, or showing the Launcher window if it has been minimised.\n<br />\n<br />To customize the voice and adjust settings, use the Audio and Models panels in the control deck. Additional options and settings are available on various panels.\n<br />[line]\n<br />[size=4][b]Main features[/b][/size]\n<br />Primary design philosophy: Enhance the game experience without impacting gameplay performance.\n<br />[list]\n<br />[*][color=#D4D4D8]Replaces repetitive Exosuit notifications with continuously refreshed dialogue.[/color][/*]\n<br />[*][color=#D4D4D8]Designed to keep commonly repeated announcements feeling fresh throughout long play sessions.[/color][/*]\n<br />[*][color=#D4D4D8]Dynamic voice generation system that expands beyond the limitations of traditional voice-pack mods.[/color][/*]\n<br />[*][color=#D4D4D8]Works during active gameplay, allowing the voice library to evolve as you play.[/color][/*]\n<br />[*][color=#D4D4D8]Uses CPU inference by design, leaving your GPU available for No Man's Sky.[/color][/*]\n<br />[*]Additional configuration options available to tweak personality, tone, and wordiness to individual preferences [/*]\n<br />[*][color=#D4D4D8]Fully automated operation once installed and configured.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]Source code available on GitHub[/url] for transparency and community review.[/color][/*]\n<br />[*][color=#D4D4D8]Fully offline local operation once installed[/color][/*]\n<br />[*][color=#D4D4D8]No cloud services[/color][/*]\n<br />[*][color=#D4D4D8]No subscriptions[/color][/*]\n<br />[*][color=#D4D4D8]No paid API keys[/color][/*]\n<br />[*][color=#D4D4D8]Absolutely free[/color]\n<br />[/*]\n<br />[/list][line]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky (you could be an absolute madman and use this without NMS....  but...  why....)[/color][/*]\n<br />[*][color=#D4D4D8]Windows 11 recommended[/color][/*]\n<br />[*][color=#D4D4D8]Python 3.11 ([url=https://www.python.org/downloads/]https://www.python.org/downloads/[/url] if you do not already have it)[/color][/*]\n<br />[*][color=#D4D4D8]The included installer script [/color][/*]\n<br />[*][color=#D4D4D8]Internet connection during installation to download required resources[/color][/*]\n<br />[*][color=#D4D4D8]Additional dependencies installed automatically by the installer[/color][/*]\n<br />[/list][b]Recommended Hardware[/b]\n<br />[list]\n<br />[*]32GB+ system RAM[/*]\n<br />[*]Up to 15GB available disk space depending on configuration[/*]\n<br />[/list][quote][color=#D4D4D8][b]Worth Repeating:[/b] This is not a traditional standalone voice-pack mod. Dynamic Suit Voice relies on external scripts running alongside No Man's Sky in order to continuously generate and update voice lines during gameplay.[/color][/quote][b]NOTE:[/b]\n<br />The installation script assumes a default STEAM directory on a Windows 11 PC with Python 3.11 already in place. \n<br />Attempting to use other configurations or operating systems may be possible with some effort, but untested at this time\n<br />\n<br />[line]\n<br />[b][size=4]Technical Details [/size][/b]\n<br />[spoiler]Currently available on Github: [url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]https://github.com/Bob-Harper/nms_dynamic_suit_voice[/url]\n<br />Available for discussion on Github or in the Posts for this mod page.[/spoiler]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8][[url=https://github.com/EternalLeo]EternalLeo[/url]] - his [[url=https://github.com/EternalLeo/sound2wem]sound2wem[/url]] utility acted as the springboard to launch this project and provided the original proof of concept. This project would not exist without his research.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/Kilvoctu]Kilvoctu[/url] Thank you for your excellent codebase contributions; especially for the code that monitors sound file access. Without your insights this might have been a short lived project since my original method stopped working after a game patch.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/69Alastor]69Alastor[/url] for ruthlessly exposing installer issues and for being patient while we armour plate the installation process.[/color][/*]\n<br />[*][color=#D4D4D8]Juggernaut, for being the one to convince me to release and share with like-minded players. Please direct all hate mail, rage posts, and trolling attempts to this individual for prompt and appropriate handling.[/color]\n<br />[code]Please fill in the provided form using pencil. Write legibly.\n<br />📋[/code][/*]\n<br />[*][color=#D4D4D8]All the suit voice modders on Nexus Mods, without whom I would not know which directory to monitor or that the game looks for WEM files. I downloaded every suit voice mod available when i started this, and examined every one of them. I do not recall which one I was looking at when my suspicions were confirmed. It may have been a comment on nexusmods from one of the feedback messages. It may have been between 4am and 6am when I finally tested and saw the correct directory was working. So thank you to every one of you, and the commenters as well.[/color][/*]\n<br />[*][color=#D4D4D8]Sean Murray and everyone at Hello Games for bringing to life the game I waited 25 years for.[/color][/*]\n<br />[/list]",
+    "description": "STATUS:[color=#7f6000] [/color][color=#00ff00]FULLY FUNCTIONAL COMPANION . GO FORTH, INTERLOPER. EXPLORE THE SKIES OF NO MAN.[/color]\n<br />[line]\n<br />Have you ever noticed how your Exosuit can advise you on surviving extreme environments, crossing entire galaxies, navigating black holes, battling Sentinels, and repairing advanced technology... yet somehow still only knows a handful of stock phrases?  Of course you have.  Dynamic Suit Voice was created to address one of No Man's Sky's longest-standing immersion killers: repetition. \n<br />[line]\n<br />[size=5][b][color=#ffaa00]NEW IN VERSION 1.4.2: [/color][/b][/size]\n<br />[size=5][b][color=#ffaa00]YOU ASKED FOR IT, YOU GOT IT.  MORE VOICES TO CHOOSE FROM.  MALE AND FEMALE VOICES TOGETHER AT LAST. [/color][/b][/size]\n<br />Also: see Changelog.\n<br />[line]\n<br />[b][i][color=#b45f06][size=5][font=Arial Black]THIS IS NOT A VOICE PACK.   \n<br />THIS IS A VOICE GENERATION SYSTEM.[/font][/size][/color][/i][/b]\n<br />[b][size=2][font=Arial Black]It places voice files in the MODS directory, but that is where similarity to other voice mods ends. [/font][/size][/b]\n<br />\n<br />[b][size=2][font=Arial Black]Traditional voice mods provide a fixed collection of recordings. Dynamic Suit Voice generates replacements continuously during gameplay.  [/font][/size][/b]\n<br />\n<br />The result is an Exosuit AI that feels less like a glorified alert system and more like an actual companion traveling the universe alongside you.\n<br />\n<br />[color=#980000]** This is incompatible with other mods that change the suit voice by placing sound files in the MODS folder. [/color]\n<br />[line]\n<br />[b][size=4]EXAMPLE[/size][/b]\n<br />Original Game Wording: [i][b][color=#00ff00]Nearby toxins detected [/color][/b][/i]\n<br />Instead you might now hear: [i][color=#38761d]Corrosive environmental toxins are causing damage to your suit's protective filters[/color]. [/i]\n<br />The next time you approach: [i][color=#38761d]Corrosive environmental toxins are threatening the effectiveness of your suit's protective filters[/color].[/i]\n<br />And it will continue to generate new phrases: [i][color=#38761d]Corrosive environmental toxins are contaminating your suit’s protective filters[/color].[/i]\n<br />[i](These are actual examples that were generated while testing)[/i]\n<br />[line]\n<br />[size=4][b]Installation[/b][/size]\n<br />[color=#D4D4D8][i]Please observe that the ONE CLICK INSTALL has been removed for security and safety reasons.\n<br />Please observe that 3.11 is the only Python version officially supported at this time[/i]\n<br />STEPS:[/color]\n<br />[color=#D4D4D8]Install Git from https://git-scm.com/install/windows if you do not already have it - this is needed to get some assets, and will allow easy future updates.\n<br />Install Python 3.11 if you do not already have it. Extract the download, open a terminal in the extracted project folder, and run:\n<br />\n<br />py -3.11 installer.py\n<br />\n<br />Choose Automatic Mode for a streamlined setup, or run the installer steps individually (pausing between steps, user confirmations, and additional manual input events may be encountered). In either case, the installer is configured to create an isolated python environment, install dependencies, prepare local assets, and create a desktop shortcut.[/color]\n<br />[line]\n<br />[b][size=4]Usage[/size][/b]\n<br />After installation is complete, a No Man's Sky themed icon appears on the desktop; Double click to run. The control interface will open, and when it is ready you can \"Engage AI Core\". Recommendation is to wait for the launcher to finish loading assets before launching NMS itself to avoid possible conflicts. A No Man's Sky themed icon will also appear in your System Tray enabling full shutdown, or showing the Launcher window if it has been minimised.\n<br />\n<br />To customize the voice and adjust settings, use the Audio and Models panels in the control deck. Additional options and settings are available on various panels.\n<br />[line]\n<br />[size=4][b]Main features[/b][/size]\n<br />Primary design philosophy: Enhance the game experience without impacting gameplay performance.\n<br />[list]\n<br />[*][color=#D4D4D8]Replaces repetitive Exosuit notifications with continuously refreshed dialogue.[/color][/*]\n<br />[*][color=#D4D4D8]Designed to keep commonly repeated announcements feeling fresh throughout long play sessions.[/color][/*]\n<br />[*][color=#D4D4D8]Dynamic voice generation system that expands beyond the limitations of traditional voice-pack mods.[/color][/*]\n<br />[*][color=#D4D4D8]Works during active gameplay, allowing the voice library to evolve as you play.[/color][/*]\n<br />[*][color=#D4D4D8]Uses CPU inference by design, leaving your GPU available for No Man's Sky.[/color][/*]\n<br />[*]Additional configuration options available to tweak personality, tone, and wordiness to individual preferences [/*]\n<br />[*][color=#D4D4D8]Fully automated operation once installed and configured.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]Source code available on GitHub[/url] for transparency and community review.[/color][/*]\n<br />[*][color=#D4D4D8]Fully offline local operation once installed[/color][/*]\n<br />[*][color=#D4D4D8]No cloud services[/color][/*]\n<br />[*][color=#D4D4D8]No subscriptions[/color][/*]\n<br />[*][color=#D4D4D8]No paid API keys[/color][/*]\n<br />[*][color=#D4D4D8]Absolutely free[/color]\n<br />[/*]\n<br />[/list][line]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky (you could be an absolute madman and use this without NMS....  but...  why....)[/color][/*]\n<br />[*][color=#D4D4D8]Windows 11 recommended[/color][/*]\n<br />[*][color=#D4D4D8]Python 3.11 ([url=https://www.python.org/downloads/]https://www.python.org/downloads/[/url] if you do not already have it)[/color][/*]\n<br />[*][color=#D4D4D8]The included installer script [/color][/*]\n<br />[*][color=#D4D4D8]Internet connection during installation to download required resources[/color][/*]\n<br />[*][color=#D4D4D8]Additional dependencies installed automatically by the installer[/color][/*]\n<br />[/list][b]Recommended Hardware[/b]\n<br />[list]\n<br />[*]32GB+ system RAM[/*]\n<br />[*]Up to 15GB available disk space depending on configuration[/*]\n<br />[/list][quote][color=#D4D4D8][b]Worth Repeating:[/b] This is not a traditional standalone voice-pack mod. Dynamic Suit Voice relies on external scripts running alongside No Man's Sky in order to continuously generate and update voice lines during gameplay.[/color][/quote][b]NOTE:[/b]\n<br />The installation script assumes a default STEAM directory on a Windows 11 PC with Python 3.11 already in place. \n<br />Attempting to use other configurations or operating systems may be possible with some effort, but untested at this time\n<br />\n<br />[line]\n<br />[b][size=4]Technical Details [/size][/b]\n<br />[spoiler]Currently available on Github: [url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]https://github.com/Bob-Harper/nms_dynamic_suit_voice[/url]\n<br />Available for discussion on Github or in the Posts for this mod page.[/spoiler]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8][[url=https://github.com/EternalLeo]EternalLeo[/url]] - his [[url=https://github.com/EternalLeo/sound2wem]sound2wem[/url]] utility acted as the springboard to launch this project and provided the original proof of concept. This project would not exist without his research.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/Kilvoctu]Kilvoctu[/url] Thank you for your excellent codebase contributions; especially for the code that monitors sound file access. Without your insights this might have been a short lived project since my original method stopped working after a game patch.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/69Alastor]69Alastor[/url] for ruthlessly exposing installer issues and for being patient while we armour plate the installation process.[/color][/*]\n<br />[*][color=#D4D4D8]Juggernaut, for being the one to convince me to release and share with like-minded players. Please direct all hate mail, rage posts, and trolling attempts to this individual for prompt and appropriate handling.[/color]\n<br />[code]Please fill in the provided form using pencil. Write legibly.\n<br />📋[/code][/*]\n<br />[*][color=#D4D4D8]All the suit voice modders on Nexus Mods, without whom I would not know which directory to monitor or that the game looks for WEM files. I downloaded every suit voice mod available when i started this, and examined every one of them. I do not recall which one I was looking at when my suspicions were confirmed. It may have been a comment on nexusmods from one of the feedback messages. It may have been between 4am and 6am when I finally tested and saw the correct directory was working. So thank you to every one of you, and the commenters as well.[/color][/*]\n<br />[*][color=#D4D4D8]Sean Murray and everyone at Hello Games for bringing to life the game I waited 25 years for.[/color][/*]\n<br />[/list]",
     "state": "normal",
     "warningMessage": "",
     "files": [
