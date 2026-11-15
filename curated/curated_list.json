@@ -683312,13 +683312,13 @@
   {
     "mod_id": 4542,
     "name": "Portable Nexus Suite (6 new buildable devices)",
-    "summary": "Six portable devices (Nexus, mission agent, fishing agent, casino, system scanner, deluxe refinery) in their own HardcoreSky build-menu tab, buildable on planets, freighters, space bases and the Corvette. Three variants plus Cheats.",
-    "version": "1",
+    "summary": "Seven portable devices (Nexus research, mission agent, fishing agent, casino, system scanner, deluxe refinery and a portable teleporter) in their own HardcoreSky build-menu tab — deployable on planets, bases, freighters, space bases and the Corvette. Three base variants plus Cheats.",
+    "version": "2.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4542/4542-1790166544-392487723.jpg",
     "author": "azunain",
-    "updated_timestamp": 1790689559,
+    "updated_timestamp": 1794703309,
     "created_timestamp": 1790031536,
-    "description": "[center][size=6][b]Portable Nexus Suite[/b][/size]\n<br />[size=5][b](6 new buildable devices)[/b][/size]\n<br />[i]Seven portable devices for No Man's Sky — including a portable Anomaly and a portable casino[/i]\n<br />[i]Tested for: No Man's Sky 7.02 (Public)[/i][/center]\n<br />\n<br />[line]\n<br />[size=4]⭐ Overview[/size]\n<br />[center]The [b]Portable Nexus Suite[/b] packs six brand-new base-building devices into one mod, each one a portable version of a station feature. Build them at your base, carry them anywhere and drop them when you need them: research blueprints without returning to the Anomaly, grab a mission, run the fishing board, gamble your excess resources, scan a whole system or refine with three slots at once. An optional seventh device — the [b]Cheat Panel[/b] — ships as a separate zip you can layer on top.[/center]\n<br />\n<br />[line]\n<br />[size=4]🌍 Where you can build them[/size]\n<br />The devices have their own [b]HardcoreSky[/b] tab in the build menu (section [b]Devices[/b]), so they are not mixed into the vanilla categories. That tab shows up wherever you can build: your [b]planet base[/b], a [b]space base[/b], your [b]freighter[/b], [b]space-station bases[/b] and inside the [b]Corvette[/b]. In other words, you can run the Nexus research, the mission board, the casino or the deluxe refinery [b]without landing[/b].\n<br />[list]\n<br />[*][b]Exception:[/b] the [b]fishing agent[/b] places everywhere, but its jobs need water, so use it on an ocean/lake planet.[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]📦 Four zips share this page — install ONE base + (optionally) the Cheats add-on[/size]\n<br />[b]Only one base zip can be installed at a time[/b]: each base zip ships its six devices in its own folder ([code]PortableNexusSuite_anomaly[/code], [code]_build[/code], [code]_hardcoresky[/code]) with its own balance, so installing two would put two folders in the game and duplicate the build-menu entries — pick one, and if you switch variants [b]delete the previous folder first[/b]. The [b]Cheats[/b] zip is a separate mod folder and can be added on top of any base.\n<br />\n<br />[list]\n<br />[*][b]Portable Nexus Suite - anomaly[/b] [i](base — recommended)[/i]: the six devices are unlocked on a new [b]Expansion Tools[/b] page at the [b]Anomaly[/b] research station (30 Salvaged Data each). Normal fishing jobs and normal casino odds.\n<br />[*][b]Portable Nexus Suite - build[/b] [i](base)[/i]: the six devices sit on their own [b]Expansion Tools[/b] page in the [b]Base Parts[/b] tree (1 Salvaged Data each) — nothing extra to research at the Anomaly.\n<br />[*][b]Portable Nexus Suite - hardcoresky[/b] [i](base)[/i]: for hardcore runs — the six devices cost 50 Salvaged Data and much harder materials, with elite fishing jobs and worse casino odds.\n<br />[*][b]Portable Nexus Suite - cheats[/b] [i](optional add-on)[/i]: a free [b]Cheat Panel[/b], unlocked from the start. Install it [b]alongside[/b] any base zip; do not use it alone.\n<br />[/list]\n<br />[line]\n<br />[size=4]🧰 The devices — in detail[/size]\n<br />\n<br />[b]1 · Portable Nexus[/b]\n<br />A miniature Anomaly. Interacting with it opens a menu with the six Anomaly [b]research stations[/b] (Ship, Construction/Base, Exosuit, Multi-Tool, Synthesis Laboratory, Exocraft) plus a [b]Shops[/b] page with the main Nexus terminals (exocraft/base shops, expedition, settlements, fleet, archive, cooking, etc.). It is the same research UI you get at the Anomaly, but placed anywhere.\n<br />\n<br />[b]2 · Portable Mission Agent[/b]\n<br />A mission terminal. Interacting with it opens the [b]current system's mission board directly[/b] (the station mission agent screen), no dialogue in between. The board still follows the system you are in.\n<br />\n<br />[b]3 · Portable Fishing Agent[/b]\n<br />A fishing board. It offers the vanilla [b]Go fishing[/b] job plus a random [b]Fishing job[/b] drawn from 10 custom jobs — see the table below. Jobs are custom missions (cloned from the vanilla \"catch any fish\" mission), they complete automatically when you return to the device (within 20 m) and pay [b]Quicksilver[/b]. In [b]hardcoresky[/b] the draw uses 10 different, elite jobs.\n<br />\n<br />[b]4 · Portable Casino[/b]\n<br />A slot machine with a [b]house edge[/b] (it is a resource sink, not a money printer). Four spins convert your resources upwards; every payout is weighted and the expected value is below the bet:\n<br />[code]\n<br />Spin 1 - Gold     100 asteroid metal   -&gt;  Units (12k / 25k / 50k / 120k ...)\n<br />Spin 2 - Units    250,000 Units        -&gt;  Nanites (10 / 40 / 120 / 400 ...)\n<br />Spin 3 - Nanites  250 Nanites          -&gt;  Quicksilver (10 / 30 / 80 / 200 ...)\n<br />Spin 4 - Jackpot  10,000,000 Units     -&gt;  5M / 9M Units or a ship (14% / 0.9% / 0.1%)[/code]The jackpot can pay [b]a ship[/b] (14% a basic ship, 0.9% a mid ship, 0.1% an exotic). All money amounts follow your in-game difficulty setting, exactly like vanilla prices. In [b]hardcoresky[/b] the prizes are worse (see the variant table).\n<br />\n<br />[b]5 · Portable System Scanner[/b]\n<br />A portable version of the freighter's [b]Scanner Room[/b]. Activating it fires the vanilla [b]planetary probe[/b]: it sweeps every moon and planet in the local system, marks them as [b]Discovered[/b] and reveals their [b]weather and resources[/b]. One direct press — no freighter needed.\n<br />\n<br />[b]6 · Deluxe Portable Refinery[/b]\n<br />The portable refiner, but with [b]3 input slots instead of 1[/b] (the logic of the Large Refiner in the portable package). Same refining recipes; three ingredients at once.\n<br />\n<br />[b]7 · Cheat Panel[/b] [i](Cheats zip only)[/i]\n<br />Free and unlocked from the start:\n<br />[list]\n<br />[*][b]Currency[/b]: 10,000,000 units · 100,000 nanites · 3,000 Quicksilver.[/*]\n<br />[*][b]Missions[/b]: all 15 board mission types (REPAIR_1, MISSING_PERSON, FACTORY_RAID, KILL_ROBOTS, SCAN_CRE, BOUNTY_EASY, DELIVER, COLLECT1, DIGGING, DEPOT_RAID, HIDE_SEEK_TIMED, KILL_FIENDS, KILL_PREDATORS, PHOTO_CRE, GO_FISH).[/*]\n<br />[*][b]Materials[/b]: 46 resources (30 basic + 16 exotic), 100 of each.[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🧩 Variants at a glance[/size]\n<br />[code]\n<br />Variant            Unlock                          Research cost      Build cost\n<br />-----------------  -------------------------------  -----------------  --------\n<br />anomaly (default)  Anomaly research page            30 Salvaged Data   normal\n<br />build              base Blueprint Analyser          1 Salvaged Data    normal\n<br />hardcoresky        Anomaly research page            50 Salvaged Data   hardcore\n<br />[/code]\n<br />[line]\n<br />[size=4]💰 Build costs per device[/size]\n<br />Each device uses its own materials (no two devices share the same primary):\n<br />[code]\n<br />Device                 Normal (build / anomaly)                   Hardcore\n<br />---------------------  -----------------------------------------  -----------------------------------------\n<br />Portable Nexus        Chromatic Metal x800 · Wiring x10 · Data x25  Antimatter x30 · Wiring x20 · Data x60\n<br />Portable Mission Agent  Pugneum x1,000 · Wiring x6 · Data x15      Frigate Module x3 · Wiring x14 · Data x40\n<br />Portable Fishing Agent  Vortex Cube x30 · Wiring x4 · Data x8      Sac Venom x4 · Wiring x8 · Data x25\n<br />Portable Casino       Gold x550 · Wiring x8 · Data x20             Gravitino Ball x6 · Wiring x16 · Data x50\n<br />System Scanner        Silver x900 · Wiring x8 · Data x12           Nanite Tube x400 · Wiring x18 · Data x45\n<br />Deluxe Refinery       Wiring Loom x250 · Casing x20 · Data x18     Hyperfuel x5 · Wiring x20 · Data x55\n<br />Cheat Panel           (free)                                       (free)\n<br />[/code][code]\n<br />Data = Salvaged Data   ·   Wiring = Wiring Loom   ·   Nanite Tube = Nanotube\n<br />[/code]\n<br />[line]\n<br />[size=4]🎣 Fishing jobs (normal set — 10)[/size]\n<br />The \"Fishing job\" option draws one of these at random (weighted by difficulty); each completes next to the Portable Fishing Agent and pays Quicksilver:\n<br />[code]\n<br />  #  Job                     Target                                Reward (QS)\n<br /> --  ----------------------  ------------------------------------  ----------\n<br />  1  First catch             1 fish (any)                           10\n<br />  2  Apprentice              10 fish (any)                          25\n<br />  3  Fisher                  50 fish (any)                          80\n<br />  4  Big catch               1 rare fish                           30\n<br />  5  Rarity                  25 rare fish                          100\n<br />  6  Wasp hunter             1 Waspfish (toxic biome)              200\n<br />  7  Epic catch              1 epic fish                           120\n<br />  8  Collector               10 epic fish                          350\n<br />  9  Legend                  1 legendary fish                      250\n<br /> 10  Boss hunter             1 Spawn of Arcadia (boss)             400\n<br />[/code]\n<br />[line]\n<br />[size=4]🎣 Fishing jobs (hardcoresky — 10 elite)[/size]\n<br />[code]\n<br />  #  Job                     Target                                Reward (QS)\n<br /> --  ----------------------  ------------------------------------  ----------\n<br />  1  Hard start              100 fish (any)                         40\n<br />  2  Hard rarity             100 rare fish                         120\n<br />  3  Massive rarity          1,000 rare fish                       300\n<br />  4  Hard epic               5 epic fish                           200\n<br />  5  Massive epic            50 epic fish                          700\n<br />  6  Hard legend             1 legendary fish                      300\n<br />  7  Massive legend          25 legendary fish                    1,200\n<br />  8  Night fisher            20 rare fish (at night)               250\n<br />  9  Storm fisher            3 rare fish (during a storm)          350\n<br /> 10  Boss slayer             3 Spawn of Arcadia (boss)             900\n<br />[/code]\n<br />[line]\n<br />[size=4]🌐 Languages[/size]\n<br />Localised into 17 languages:\n<br />[list]\n<br />[*]English (US &amp; International)[/*]\n<br />[*]Portuguese (Portugal &amp; Brazil)[/*]\n<br />[*]Spanish (Spain &amp; Latin America)[/*]\n<br />[*]Chinese (Simplified, Traditional &amp; Tencent)[/*]\n<br />[*]Dutch, French, German, Italian, Japanese, Korean, Polish, Russian[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🔧 How it works (technical)[/size]\n<br />[list]\n<br />[*][b]New base parts[/b]: each device is a new [b]GcBaseBuildingEntry[/b] + product + blueprint + catalogue entry + unlock-tree node, cloned from the vanilla Signal Booster's placement chain with its own model/entity folder (CUSTOMMODELS/…). A new product ID is [b]locked by default[/b] (it is not in the save's Known Products); the research page is what unlocks it.\n<br />[*][b]Research page[/b]: appends a new [b]Expansion Tools[/b] page to the vanilla [b]BaseParts[/b] tree — a new tab in the Anomaly's Blueprint Analyser (Construction Research Station). Each node costs Salvaged Data (30 / 50 depending on variant).\n<br />[*][b]Custom missions[/b]: the fishing jobs are cloned into the [b]NPC Mission Table[/b] (base: the vanilla \"catch any fish\" mission), with target filters (amount, item quality Junk/Rare/Epic/Legendary, size Large+, time Night, storm, or a specific fish ID). The menu draws one at random via a weighted reward (`RewardChoice = SelectAlways` + per-item `PercentageChance`). Hand-in uses a base-part proximity condition next to the Fishing Agent, and the reward lives in the mission board reward table (Quicksilver).\n<br />[*][b]System scanner[/b]: a direct base-part interaction (`GcSimpleInteractionComponentData`, `SimpleInteractionType = \"SuperDoopaScanner\"`) — the same one the freighter's Scanner Room console uses (its label is \"Activate Planetary Probe\"). It probes the whole system.[/*]\n<br />[*][b]Casino[/b]: payouts are weighted reward tables (`GcRewardMoney` with min = max for a fixed amount, and `GcRewardSpecificShip` for the jackpot). Ship rewards clone the vanilla ship-reward block and vary the seed.\n<br />[*][b]Cheat Panel unlock[/b]: its product ID is added to [b]Known Products[/b] (DEFAULTSAVEDATA), so it is unlocked from the start and free to build.\n<br />[*][b]Own build-menu tab[/b]: the mod registers a new group ([b]GcBaseBuildingGroup[/b], ID [code]HCS_TOOLS[/code]) in the base-building group catalogue, with its own tab title and icon, and every device references it. That gives the devices a single [b]HardcoreSky[/b] tab in every build area instead of spreading them over the vanilla categories. Where they can be placed is still controlled by the vanilla placement flags (planet, space base, freighter, space-station base and Corvette).[/*]\n<br />[*][b]Variants[/b]: one mod.json renders the three bases via per-variant parameters (unlock page, research cost, per-device build costs, fishing job set, casino odds) and per-entry variant filters. Everything ships as loose EXML/MXML (AMUMSS partial overrides), so the mods are [b]merge-friendly[/b]: several mods can edit different entries of the same table without clashing.[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🗂️ Files edited (via EXML override)[/size]\n<br />[code]\n<br />METADATA/REALITY/TABLES/BASEBUILDINGOBJECTSTABLE.MBIN            devices (objects) + the HardcoreSky tab group\n<br />METADATA/REALITY/TABLES/BASEBUILDINGPARTSTABLE.MBIN              part models\n<br />METADATA/REALITY/TABLES/BASEBUILDINGAUTOGENERATEDPARTSDATA.MBIN  placement data\n<br />METADATA/REALITY/TABLES/NMS_BASEPARTPRODUCTS.MBIN                names, icons, build costs\n<br />METADATA/REALITY/TABLES/PURCHASEABLEBUILDINGBLUEPRINTS.MBIN      purchasable blueprints\n<br />METADATA/REALITY/CATALOGUEBUILDING.MBIN                          build menu entry\n<br />METADATA/REALITY/TABLES/UNLOCKABLEITEMTREES.MBIN                 research page (Expansion Tools)\n<br />METADATA/REALITY/TABLES/REWARDTABLE.MBIN                         casino / fishing rewards\n<br />METADATA/REALITY/TABLES/NMS_DIALOG_GCALIENPUZZLETABLE.MBIN       the menus\n<br />METADATA/SIMULATION/MISSIONS/TABLES/NPCMISSIONTABLE.MBIN         the fishing jobs\n<br />CUSTOMMODELS/…                                                  cloned scenes and entities\n<br />\n<br />LocTable.MXML  (mod root)                                        all new IDs, 17 languages\n<br />[/code]The [b]Cheats[/b] zip edits the same tables (its own entries) plus:\n<br />[code]\n<br />METADATA/GAMESTATE/DEFAULTSAVEDATA.MBIN   Known Products (unlock the Cheat Panel)\n<br />[/code]\n<br />[line]\n<br />[size=4]⚠️ Compatibility[/size]\n<br />[list]\n<br />[*]Conflicts only with mods that modify the [b]same entries[/b] of the same tables; different entries merge normally (loose EXML overrides).\n<br />[*]Safe with my other HardcoreSky mods (they edit other tables).\n<br />[*]If another mod replaces the whole BaseParts research tree, or rewrites the same vanilla mission IDs, one of the two will win.\n<br />[*]The devices use their own product IDs, so they do not override any vanilla item.\n<br />[/list]\n<br />[line]\n<br />[size=4]🛠️ Installation[/size]\n<br />[b]This mod ships as loose EXML/MXML files (no .pak).[/b] The simplest setup is an \"EXML override\" folder.\n<br />\n<br />[b]1)[/b] Close the game.\n<br />[b]2)[/b] Find your No Man's Sky folder, e.g.:\n<br />[code]\n<br />...&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;\n<br />[/code][b]3)[/b] Create (once) the override folder:\n<br />[code]\n<br />&lt;No Man's Sky&gt;&#92;GAMEDATA&#92;MODS&#92;\n<br />[/code][b]4)[/b] Copy the extracted mod folder(s) inside it. Example — anomaly base + cheats:\n<br />[code]\n<br />&lt;No Man's Sky&gt;&#92;GAMEDATA&#92;MODS&#92;\n<br />├── PortableNexusSuite_anomaly   (one base variant; \"_build\" / \"_hardcoresky\" for the others)\n<br />└── PortableNexusCheats          (optional add-on)\n<br />[/code][b]Important:[/b] keep the internal folder names exactly as they come in the zip. Switching base variant? Delete the previous [code]PortableNexusSuite_*[/code] folder first.\n<br />\n<br />[b]5)[/b] Launch the game and check the [b]Expansion Tools[/b] page in the Anomaly research station (or the vanilla [b]Base Parts[/b] tree with the [b]build[/b] variant). The Cheat Panel is available in the build menu from the start.\n<br />\n<br />[i].pak mods:[/i] place them in [code]&lt;No Man's Sky&gt;&#92;GAMEDATA&#92;PCBANKS&#92;MODS&#92;[/code]. Current versions no longer need (and no longer have) [code]DISABLEMODS.TXT[/code].\n<br />[i]Need to disable a mod later?[/i] Edit [code]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/code] and set its [code]Enabled[/code] (and [code]EnabledVR[/code]) to false, or just move its folder out of [code]GAMEDATA&#92;MODS[/code].\n<br />\n<br />[i]Mod managers (Vortex):[/i]\n<br />[list]\n<br />[*]The zips are standard [b]AMUMSS/EXML[/b] mods (one root folder with METADATA/…, CUSTOMMODELS/…, LocTable.MXML and the .lua). Vortex's NMS extension should detect them as [b]AMUMSS[/b] and deploy them to [code]GAMEDATA&#92;MODS[/code].[/*]\n<br />[*]Check that the [b]Mod Type[/b] is AMUMSS (if it is detected as \"NMS Mod\" it would go to PCBANKS&#92;MODS and do nothing) and that the folder lands in [code]GAMEDATA&#92;MODS&#92;&lt;ModFolder&gt;[/code].[/*]\n<br />[*]Enable [b]one base at a time[/b] (anomaly / build / hardcoresky) plus the Cheats add-on. Do not mix a Vortex install with a manual one — you would end up with the mod twice.[/*]\n<br />[/list]\n<br />[i]Troubleshooting:[/i]\n<br />[list]\n<br />[*]Devices not buildable: research them first (normal) — only the Cheat Panel appears for free.\n<br />[*]Text shown as IDs (e.g. BUILD_PNEXUS_NAME): make sure [b]LocTable.MXML[/b] is present at the mod folder's root.\n<br />[*]Only one base zip at a time — each ships its own folder; delete the previous one before switching.\n<br />[/list]\n<br />[line]\n<br />[size=4]🧪 Tested on[/size]\n<br />[list]\n<br />[*]Game build: [b]7.02 (Public)[/b][/*]\n<br />[*]MBINCompiler [b]7.02.0.2[/b] (AMUMSS bundled) via AMUMSS [b]5.6.2.0w[/b][/*]\n<br />[*]Mod version: [b]1.20.0[/b][/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🙌 Credits[/size]\n<br />Built with AMUMSS. Scripting and packaging by Azunain (HardcoreSky).\n<br />\n<br />[b]Thanks to [i]TDarklight[/i][/b] for reporting that the devices could not be built on a freighter — that report led to the build-menu page fix in 1.18.0.\n<br />\n<br />[line]\n<br />[size=4]📜 Changelog[/size]\n<br />[b]1.20.0[/b]\n<br />[list]\n<br />[*][b]The scanner became a real planetary probe.[/b] The fifth device used to be a Signal Booster clone (a single-planet signal scan). It is now a [b]Portable System Scanner[/b] that reproduces the freighter's [b]Scanner Room[/b]: one press (\"Activate Planetary Probe\") sweeps [b]every moon and planet in the system[/b], marks them as [b]Discovered[/b] and reveals their weather and resources. Direct interaction, no freighter needed. (Idea/suggestion from [b]koshin33[/b].)[/*]\n<br />[*]Renamed \"Portable Planetary Scanner\" to \"Portable System Scanner\" (17 languages).[/*]\n<br />[*][b]Fixed the \"build\" variant.[/b] It used to inject the six devices straight into the vanilla [b]Base Parts[/b] page, which widened that page and pushed vanilla blueprints off-screen (they could only be reached with the mod disabled). They now sit on their own [b]Expansion Tools[/b] page inside that tree (1 Salvaged Data each), like the other variants, so the vanilla page stays intact.[/*]\n<br />[/list]\n<br />[spoiler][b]1.19.0[/b]\n<br />[list]\n<br />[*][b]Own build-menu tab.[/b] The devices now live in a dedicated [b]HardcoreSky[/b] tab (section \"Devices\") that appears in every build area — planet, space base, freighter, space-station base and Corvette — instead of being spread over the vanilla categories. That also removes the \"Space Station Construction\" tab that 1.18.0 left behind on planets/freighters. Thanks to [b]TDarklight[/b] for the reports that led here.[/*]\n<br />[*]Placement itself is unchanged: the vanilla placement flags keep the same rules, and the fishing agent still needs water.[/*]\n<br />[*]Cheats add-on follows the same tab (v1.4.0).[/*]\n<br />[/list]\n<br />[b]1.18.1[/b]\n<br />[list]\n<br />[*][b]Freighter menu, second layer fixed.[/b] The five devices cloned from the vanilla [b]Signal Booster[/b] (a planet-only part) also inherited its product [b]GroupID[/b] (empty) and its placement profile (`RegionLimit`, `CanStack`, `GhostsCountOverride`, `SnappingDistanceOverride`), which the freighter build menu rejects — that is why only the [b]Deluxe Refinery[/b] (the one cloned from the vanilla [b]Portable Refiner[/b]) showed up there. All of them now carry the Portable Refiner's profile, so the six devices (and the Cheat Panel) should appear under the freighter's [b]Tech[/b] page. Thanks again to [b]TDarklight[/b].[/*]\n<br />[*]Cheats add-on updated the same way (v1.3.1).[/*]\n<br />[/list]\n<br />[b]1.18.0[/b]\n<br />[list]\n<br />[*][b]Fixed the freighter (and Corvette) build menu.[/b] The placement flags alone are not enough: the build menu is paged by each part's [b]Groups[/b] array, and the devices only carried the planet/portable page they inherit from the vanilla Signal Booster. They now also list the [b]freighter / space base / station Tech[/b] page, the [b]Corvette interior decoration[/b] page and the [b]station exterior[/b] page, so they show up and can be built there. Thanks to [b]TDarklight[/b] for the report.[/*]\n<br />[*]The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n<br />[*]Cheats add-on updated with the same pages (v1.3.0).[/*]\n<br />[/list]\n<br />[b]1.17.0[/b]\n<br />[list]\n<br />[*][b]Build them anywhere.[/b] The devices (and the Cheat Panel) can now be placed on your [b]freighter[/b], inside the [b]Corvette[/b] as decoration and on [b]space-station bases[/b] (main area, back section and exterior), in addition to planet and space bases — so you can use the Nexus research, mission board, casino or deluxe refinery without landing.[/*]\n<br />[*]They now match the placement flags of the vanilla portable devices (Portable Refiner / Wall Screen). The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n<br />[*]Cheats add-on updated with the same placement flags (v1.2.0).[/*]\n<br />[/list][/spoiler]\n<br />\n<br />[size=4]🔗 More HardcoreSky mods[/size]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3718][b]All Refiner and Cooking Recipes in the Wiki[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3704][b]HardcoreSky - Fauna Overhaul[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3447][b]HardcoreSky - Reduced Hazard Protection Duration[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3418][b]HardcoreSky - Nanite cost increase at the Anomaly[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3424][b]HardcoreSky - Salvaged Data Cost Increase for Base Buildings[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3459][b]HardcoreSky - Increased Building Material Costs[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3461][b]HardcoreSky - Increased Crafting Costs[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3460][b]HardcoreSky - Increased Technology Installation Costs[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3480][b]HardcoreSky - Nerfed Mission and Event Rewards[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3691][b]HardcoreSky - Fishing Difficulty Overhaul[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4551][b]HardcoreSky - Hardcore Economy and Module Overhaul[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4554][b]HardcoreSky - Nerfed Life Support Duration[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4557][b]HardcoreSky - Gel-Fed Life Support[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4560][b]HardcoreSky - Increased Slot Upgrade Costs[/b][/url]\n<br />",
+    "description": "[center][size=6][b]Portable Nexus Suite[/b][/size]\n<br />[size=5][b](7 new buildable devices)[/b][/size]\n<br />[i]Seven portable devices for No Man's Sky — including a portable Anomaly, a portable casino and a portable teleporter[/i]\n<br />[i]Tested for: No Man's Sky 7.14 (Public)[/i][/center]\n<br />\n<br />[line]\n<br />[size=4]⭐ Overview[/size]\n<br />[center]The [b]Portable Nexus Suite[/b] packs seven brand-new base-building devices into one mod, each one a portable version of a station feature. Build them at your base, carry them anywhere and drop them when you need them: research blueprints without returning to the Anomaly, grab a mission, run the fishing board, gamble your excess resources, scan a whole system, refine with three slots at once or teleport home from a Corvette. An optional eighth device — the [b]Cheat Panel[/b] — ships as a separate zip you can layer on top.[/center]\n<br />\n<br />[line]\n<br />[size=4]🌍 Where you can build them[/size]\n<br />On planets the devices have their own [b]HardcoreSky[/b] tab in the deployable build menu (section [b]Devices[/b]), so they are not mixed into the vanilla categories. Inside [b]planet bases[/b], [b]space bases[/b], [b]freighters[/b], [b]space-station bases[/b] and the [b]Corvette[/b], where the game only shows its official menu pages, they sit in the [b]Tech[/b] section. In other words, you can run the Nexus research, the mission board, the casino, the deluxe refinery or the teleporter [b]without landing[/b].\n<br />[list]\n<br />[*][b]Exception:[/b] the [b]fishing agent[/b] places everywhere, but its jobs need water, so use it on an ocean/lake planet.[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]📦 Four zips share this page — install ONE base + (optionally) the Cheats add-on[/size]\n<br />[b]Only one base zip can be installed at a time[/b]: each base zip ships its seven devices in its own folder ([b]PortableNexusSuite_anomaly[/b], [b]PortableNexusSuite_build[/b], [b]PortableNexusSuite_hardcoresky[/b]) with its own balance, so installing two would put two folders in the game and duplicate the build-menu entries — pick one, and if you switch variants [b]delete the previous folder first[/b]. The [b]Cheats[/b] zip is a separate mod folder and can be added on top of any base.\n<br />\n<br />[list]\n<br />[*][b]Portable Nexus Suite - anomaly[/b] [i](base — recommended)[/i]: the seven devices are unlocked on a new [b]Expansion Tools[/b] page at the [b]Anomaly[/b] research station (30 Salvaged Data each). Normal fishing jobs and normal casino odds.[/*]\n<br />[*][b]Portable Nexus Suite - build[/b] [i](base)[/i]: the seven devices sit on their own [b]Expansion Tools[/b] page in the [b]Base Parts[/b] tree (1 Salvaged Data each) — nothing extra to research at the Anomaly.[/*]\n<br />[*][b]Portable Nexus Suite - hardcoresky[/b] [i](base)[/i]: for hardcore runs — the seven devices cost 50 Salvaged Data and much harder materials, with elite fishing jobs and worse casino odds.[/*]\n<br />[*][b]Portable Nexus Suite - cheats[/b] [i](optional add-on)[/i]: a free [b]Cheat Panel[/b], unlocked from the start. Install it [b]alongside[/b] any base zip; do not use it alone.[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🧰 The devices — in detail[/size]\n<br />\n<br />[b]1 · Portable Nexus[/b]\n<br />A miniature Anomaly. Interacting with it opens a menu with the six Anomaly [b]research stations[/b] (Ship, Construction/Base, Exosuit, Multi-Tool, Synthesis Laboratory, Exocraft) plus a [b]Shops[/b] page with the main Nexus terminals (exocraft/base shops, expedition, settlements, fleet, archive, cooking, etc.). It is the same research UI you get at the Anomaly, but placed anywhere.\n<br />\n<br />[b]2 · Portable Mission Agent[/b]\n<br />A mission terminal. Interacting with it opens the [b]current system's mission board directly[/b] (the station mission agent screen), no dialogue in between. The board still follows the system you are in.\n<br />\n<br />[b]3 · Portable Fishing Agent[/b]\n<br />A fishing board. It offers the vanilla [b]Go fishing[/b] job plus a random [b]Fishing job[/b] drawn from 10 custom jobs — see the table below. Jobs are custom missions (cloned from the vanilla \"catch any fish\" mission), they complete automatically when you return to the device (within 20 m) and pay [b]Quicksilver[/b]. In [b]hardcoresky[/b] the draw uses 10 different, elite jobs.\n<br />\n<br />[b]4 · Portable Casino[/b]\n<br />A slot machine with a [b]house edge[/b] (it is a resource sink, not a money printer). Four spins convert your resources upwards; every payout is weighted and the expected value is below the bet:\n<br />[code]\n<br />Spin 1 - Gold     100 asteroid metal   -&gt;  Units (12k / 25k / 50k / 120k ...)\n<br />Spin 2 - Units    250,000 Units        -&gt;  Nanites (10 / 40 / 120 / 400 ...)\n<br />Spin 3 - Nanites  250 Nanites          -&gt;  Quicksilver (10 / 30 / 80 / 200 ...)\n<br />Spin 4 - Jackpot  10,000,000 Units     -&gt;  5M / 9M Units or a ship (14% / 0.9% / 0.1%)[/code]The jackpot can pay [b]a ship[/b] (14% a basic ship, 0.9% a mid ship, 0.1% an exotic). All money amounts follow your in-game difficulty setting, exactly like vanilla prices. In [b]hardcoresky[/b] the prizes are worse (see the variant table).\n<br />\n<br />[b]5 · Portable System Scanner[/b]\n<br />A portable version of the freighter's [b]Scanner Room[/b]. Activating it fires the vanilla [b]planetary probe[/b]: it sweeps every moon and planet in the local system, marks them as [b]Discovered[/b] and reveals their [b]weather and resources[/b]. One direct press — no freighter needed.\n<br />\n<br />[b]6 · Deluxe Portable Refinery[/b]\n<br />The portable refiner, but with [b]3 input slots instead of 1[/b] (the logic of the Large Refiner in the portable package). Same refining recipes; three ingredients at once.\n<br />\n<br />[b]7 · Portable Mini Portal[/b]\n<br />A deployable teleporter. Interacting with it opens the [b]Anomaly teleporter UI[/b] (the same teleport screen the Nexus uses), so you can jump to any of your bases, space stations, freighters or Corvettes from wherever you dropped it — including the Corvette itself. It needs [b]no power[/b]: drop it and use it. (Idea/suggestion from [b]ailiyasi[/b].)\n<br />\n<br />[b]8 · Cheat Panel[/b] [i](Cheats zip only)[/i]\n<br />Free and unlocked from the start:\n<br />[list]\n<br />[*][b]Currency[/b]: 10,000,000 units · 100,000 nanites · 3,000 Quicksilver.[/*]\n<br />[*][b]Missions[/b]: all 15 board mission types (REPAIR_1, MISSING_PERSON, FACTORY_RAID, KILL_ROBOTS, SCAN_CRE, BOUNTY_EASY, DELIVER, COLLECT1, DIGGING, DEPOT_RAID, HIDE_SEEK_TIMED, KILL_FIENDS, KILL_PREDATORS, PHOTO_CRE, GO_FISH).[/*]\n<br />[*][b]Materials[/b]: 46 resources (30 basic + 16 exotic), 100 of each.[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🧩 Variants at a glance[/size]\n<br />[code]\n<br />Variant            Unlock                          Research cost      Build cost\n<br />-----------------  -------------------------------  -----------------  --------\n<br />anomaly (default)  Anomaly research page            30 Salvaged Data   normal\n<br />build              base Blueprint Analyser          1 Salvaged Data    normal\n<br />hardcoresky        Anomaly research page            50 Salvaged Data   hardcore[/code]\n<br />[line]\n<br />[size=4]💰 Build costs per device[/size]\n<br />Each device uses its own materials (no two devices share the same primary):\n<br />[code]\n<br />Device                 Normal (build / anomaly)                   Hardcore\n<br />---------------------  -----------------------------------------  -----------------------------------------\n<br />Portable Nexus        Chromatic Metal x800 · Wiring x10 · Data x25  Antimatter x30 · Wiring x20 · Data x60\n<br />Portable Mission Agent  Pugneum x1,000 · Wiring x6 · Data x15      Frigate Module x3 · Wiring x14 · Data x40\n<br />Portable Fishing Agent  Vortex Cube x30 · Wiring x4 · Data x8      Sac Venom x4 · Wiring x8 · Data x25\n<br />Portable Casino       Gold x550 · Wiring x8 · Data x20             Gravitino Ball x6 · Wiring x16 · Data x50\n<br />System Scanner        Silver x900 · Wiring x8 · Data x12           Nanite Tube x400 · Wiring x18 · Data x45\n<br />Deluxe Refinery       Wiring Loom x250 · Casing x20 · Data x18     Hyperfuel x5 · Wiring x20 · Data x55\n<br />Portable Mini Portal  Chromatic Metal x800 · Wiring x10 · Data x25 Antimatter x30 · Wiring x20 · Data x60\n<br />Cheat Panel           (free)                                       (free)[/code][code]\n<br />Data = Salvaged Data   ·   Wiring = Wiring Loom   ·   Nanite Tube = Nanotube[/code]\n<br />[line]\n<br />[size=4]🎣 Fishing jobs (normal set — 10)[/size]\n<br />The \"Fishing job\" option draws one of these at random (weighted by difficulty); each completes next to the Portable Fishing Agent and pays Quicksilver:\n<br />[code]\n<br />#  Job                     Target                                Reward (QS)\n<br />--  ----------------------  ------------------------------------  ----------\n<br />1  First catch             1 fish (any)                           10\n<br />2  Apprentice              10 fish (any)                          25\n<br />3  Fisher                  50 fish (any)                          80\n<br />4  Big catch               1 rare fish                           30\n<br />5  Rarity                  25 rare fish                          100\n<br />6  Wasp hunter             1 Waspfish (toxic biome)              200\n<br />7  Epic catch              1 epic fish                           120\n<br />8  Collector               10 epic fish                          350\n<br />9  Legend                  1 legendary fish                      250\n<br />10  Boss hunter             1 Spawn of Arcadia (boss)             400[/code]\n<br />[line]\n<br />[size=4]🎣 Fishing jobs (hardcoresky — 10 elite)[/size]\n<br />[code]\n<br />#  Job                     Target                                Reward (QS)\n<br />--  ----------------------  ------------------------------------  ----------\n<br />1  Hard start              100 fish (any)                         40\n<br />2  Hard rarity             100 rare fish                         120\n<br />3  Massive rarity          1,000 rare fish                       300\n<br />4  Hard epic               5 epic fish                           200\n<br />5  Massive epic            50 epic fish                          700\n<br />6  Hard legend             1 legendary fish                      300\n<br />7  Massive legend          25 legendary fish                    1,200\n<br />8  Night fisher            20 rare fish (at night)               250\n<br />9  Storm fisher            3 rare fish (during a storm)          350\n<br />10  Boss slayer             3 Spawn of Arcadia (boss)             900[/code]\n<br />[line]\n<br />[size=4]🌐 Languages[/size]\n<br />Localised into 17 languages:\n<br />[list]\n<br />[*]English (US &amp; International)[/*]\n<br />[*]Portuguese (Portugal &amp; Brazil)[/*]\n<br />[*]Spanish (Spain &amp; Latin America)[/*]\n<br />[*]Chinese (Simplified, Traditional &amp; Tencent)[/*]\n<br />[*]Dutch, French, German, Italian, Japanese, Korean, Polish, Russian[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🔧 How it works (technical)[/size]\n<br />[list]\n<br />[*][b]New base parts[/b]: each device is a new [b]GcBaseBuildingEntry[/b] + product + blueprint + catalogue entry + unlock-tree node, cloned from the vanilla Signal Booster's placement chain with its own model/entity folder (CUSTOMMODELS/…). A new product ID is [b]locked by default[/b] (it is not in the save's Known Products); the research page is what unlocks it.[/*]\n<br />[*][b]Research page[/b]: appends a new [b]Expansion Tools[/b] page to the vanilla [b]BaseParts[/b] tree — a new tab in the Anomaly's Blueprint Analyser (Construction Research Station). Each node costs Salvaged Data (30 / 50 depending on variant).[/*]\n<br />[*][b]Custom missions[/b]: the fishing jobs are cloned into the [b]NPC Mission Table[/b] (base: the vanilla \"catch any fish\" mission), with target filters (amount, item quality Junk/Rare/Epic/Legendary, size Large+, time Night, storm, or a specific fish ID). The menu draws one at random via a weighted reward (`RewardChoice = SelectAlways` + per-item `PercentageChance`). Hand-in uses a base-part proximity condition next to the Fishing Agent, and the reward lives in the mission board reward table (Quicksilver).[/*]\n<br />[*][b]System scanner[/b]: a direct base-part interaction (`GcSimpleInteractionComponentData`, `SimpleInteractionType = \"SuperDoopaScanner\"`) — the same one the freighter's Scanner Room console uses (its label is \"Activate Planetary Probe\"). It probes the whole system.[/*]\n<br />[*][b]Portable Mini Portal[/b]: a full interaction (`GcInteractionComponentData`, `InteractionType = \"Teleporter_Nexus\"`, `TriggerAction = \"TELEPORTER_STN\"`) — the exact interaction of the Anomaly's teleporter, so pressing it opens the teleport screen. The object consumes no power (`LinkGridData.Rate = 0`).[/*]\n<br />[*][b]Casino[/b]: payouts are weighted reward tables (`GcRewardMoney` with min = max for a fixed amount, and `GcRewardSpecificShip` for the jackpot). Ship rewards clone the vanilla ship-reward block and vary the seed.[/*]\n<br />[*][b]Cheat Panel unlock[/b]: its product ID is added to [b]Known Products[/b] (DEFAULTSAVEDATA), so it is unlocked from the start and free to build.[/*]\n<br />[*][b]Own build-menu tab[/b]: the mod registers a new group ([b]GcBaseBuildingGroup[/b], ID [b]HCS_TOOLS[/b]) in the base-building group catalogue, with its own tab title and icon, and every device references it. That gives the devices a single [b]HardcoreSky[/b] tab in the deployable menu; inside bases, freighters and the Corvette (where the game only shows official pages) they sit in the Tech section. Where they can be placed is still controlled by the vanilla placement flags (planet, space base, freighter, space-station base and Corvette).[/*]\n<br />[*][b]Variants[/b]: one mod.json renders the three bases via per-variant parameters (unlock page, research cost, per-device build costs, fishing job set, casino odds) and per-entry variant filters. Everything ships as loose EXML/MXML (AMUMSS partial overrides), so the mods are [b]merge-friendly[/b]: several mods can edit different entries of the same table without clashing.[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🗂️ Files edited (via EXML override)[/size]\n<br />[code]\n<br />METADATA/REALITY/TABLES/BASEBUILDINGOBJECTSTABLE.MBIN            devices (objects) + the HardcoreSky tab group\n<br />METADATA/REALITY/TABLES/BASEBUILDINGPARTSTABLE.MBIN              part models\n<br />METADATA/REALITY/TABLES/BASEBUILDINGAUTOGENERATEDPARTSDATA.MBIN  placement data\n<br />METADATA/REALITY/TABLES/NMS_BASEPARTPRODUCTS.MBIN                names, icons, build costs\n<br />METADATA/REALITY/TABLES/PURCHASEABLEBUILDINGBLUEPRINTS.MBIN      purchasable blueprints\n<br />METADATA/REALITY/CATALOGUEBUILDING.MBIN                          build menu entry\n<br />METADATA/REALITY/TABLES/UNLOCKABLEITEMTREES.MBIN                 research page (Expansion Tools)\n<br />METADATA/REALITY/TABLES/REWARDTABLE.MBIN                         casino / fishing rewards\n<br />METADATA/REALITY/TABLES/NMS_DIALOG_GCALIENPUZZLETABLE.MBIN       the menus\n<br />METADATA/SIMULATION/MISSIONS/TABLES/NPCMISSIONTABLE.MBIN         the fishing jobs\n<br />CUSTOMMODELS/…                                                  cloned scenes and entities\n<br />\n<br />LocTable.MXML  (mod root)                                        all new IDs, 17 languages[/code]The [b]Cheats[/b] zip edits the same tables (its own entries) plus:\n<br />[code]\n<br />METADATA/GAMESTATE/DEFAULTSAVEDATA.MBIN   Known Products (unlock the Cheat Panel)[/code]\n<br />[line]\n<br />[size=4]⚠️ Compatibility[/size]\n<br />[list]\n<br />[*]Conflicts only with mods that modify the [b]same entries[/b] of the same tables; different entries merge normally (loose EXML overrides).[/*]\n<br />[*]Safe with my other HardcoreSky mods (they edit other tables).[/*]\n<br />[*]If another mod replaces the whole BaseParts research tree, or rewrites the same vanilla mission IDs, one of the two will win.[/*]\n<br />[*]The devices use their own product IDs, so they do not override any vanilla item.[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🛠️ Installation[/size]\n<br />[b]This mod ships as loose EXML/MXML files (no .pak).[/b] The simplest setup is an \"EXML override\" folder.\n<br />\n<br />[b]1)[/b] Close the game.\n<br />[b]2)[/b] Find your No Man's Sky folder, e.g.: [code]...&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;[/code][b]3)[/b] Create (once) the override folder: [code]&lt;No Man's Sky&gt;&#92;GAMEDATA&#92;MODS&#92;[/code][b]4)[/b] Copy the extracted mod folder(s) inside it. Example — anomaly base + cheats:\n<br />[code]\n<br />&lt;No Man's Sky&gt;&#92;GAMEDATA&#92;MODS&#92;\n<br />├── PortableNexusSuite_anomaly   (one base variant; \"_build\" / \"_hardcoresky\" for the others)\n<br />└── PortableNexusCheats          (optional add-on)[/code][b]Important:[/b] keep the internal folder names exactly as they come in the zip. Switching base variant? Delete the previous [b]PortableNexusSuite_*[/b] folder first.\n<br />\n<br />[b]5)[/b] Launch the game and check the [b]Expansion Tools[/b] page in the Anomaly research station (or the vanilla [b]Base Parts[/b] tree with the [b]build[/b] variant). The Cheat Panel is available in the build menu from the start.\n<br />\n<br />[i].pak mods:[/i] place them in [b]&lt;No Man's Sky&gt;&#92;GAMEDATA&#92;PCBANKS&#92;MODS&#92;[/b]. Current versions no longer need (and no longer have) [b]DISABLEMODS.TXT[/b].\n<br />[i]Need to disable a mod later?[/i] Edit [b]No Man's Sky&#92;Binaries&#92;SETTINGS&#92;GCMODSETTINGS.MXML[/b] and set its [b]Enabled[/b] (and [b]EnabledVR[/b]) to false, or just move its folder out of [b]GAMEDATA&#92;MODS[/b].\n<br />\n<br />[i]Mod managers (Vortex):[/i]\n<br />[list]\n<br />[*]The zips are standard [b]AMUMSS/EXML[/b] mods (one root folder with METADATA/…, CUSTOMMODELS/…, LocTable.MXML and the .lua). Vortex's NMS extension should detect them as [b]AMUMSS[/b] and deploy them to [b]GAMEDATA&#92;MODS[/b].[/*]\n<br />[*]Check that the [b]Mod Type[/b] is AMUMSS (if it is detected as \"NMS Mod\" it would go to PCBANKS&#92;MODS and do nothing) and that the folder lands in [b]GAMEDATA&#92;MODS&#92;&lt;ModFolder&gt;[/b].[/*]\n<br />[*]Enable [b]one base at a time[/b] (anomaly / build / hardcoresky) plus the Cheats add-on. Do not mix a Vortex install with a manual one — you would end up with the mod twice.[/*]\n<br />[/list]\n<br />[i]Troubleshooting:[/i]\n<br />[list]\n<br />[*]Devices not buildable: research them first (normal) — only the Cheat Panel appears for free.[/*]\n<br />[*]Text shown as IDs (e.g. BUILD_PNEXUS_NAME): make sure [b]LocTable.MXML[/b] is present at the mod folder's root.[/*]\n<br />[*]Only one base zip at a time — each ships its own folder; delete the previous one before switching.[/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🧪 Tested on[/size]\n<br />[list]\n<br />[*]Game build: [b]7.14 (Public)[/b][/*]\n<br />[*]MBINCompiler [b]7.14.0-pre1[/b] via AMUMSS [b]5.6.2.0w[/b][/*]\n<br />[*]Mod version: [b]2.0.0[/b][/*]\n<br />[/list]\n<br />[line]\n<br />[size=4]🙌 Credits[/size]\n<br />Built with AMUMSS. Scripting and packaging by Azunain (HardcoreSky).\n<br />\n<br />[b]Thanks to [i]TDarklight[/i][/b] for reporting that the devices could not be built on a freighter — that report led to the build-menu page fix in 1.18.0.\n<br />[b]Thanks to [i]Mojojoiez[/i][/b] for the crash report after Forsaken, and to [i]ailiyasi[/i] for the Corvette teleporter idea (the Portable Mini Portal).\n<br />\n<br />[line]\n<br />[size=4]📜 Changelog[/size]\n<br />[b]2.0.0[/b]\n<br />[list]\n<br />[*][b]Updated for Forsaken (7.10-7.14).[/b] The entity format change crash-plagued four devices (Nexus, Mission Agent, Fishing Agent, Casino): the game crashed when placing them. Their entities were recompiled for the new format — fixed.[/*]\n<br />[*][b]Fixed the build menus.[/b] On 7.10+ the game only renders official menu pages inside bases, freighters and the Corvette; the devices were invisible there. They now carry the official Tech pages, so they show up in every build area again (planets keep their dedicated HardcoreSky tab).[/*]\n<br />[*][b]New device: Portable Mini Portal.[/b] A deployable teleporter that opens the Anomaly teleport screen, no power needed.[/*]\n<br />[*][b]Translations completed.[/b] All strings are now localised into the 17 languages the game supports (the scanner's strings were English-only in some languages).[/*]\n<br />[/list]\n<br />[spoiler][b]1.20.0[/b]\n<br />[list]\n<br />[*][b]The scanner became a real planetary probe.[/b] The fifth device used to be a Signal Booster clone (a single-planet signal scan). It is now a [b]Portable System Scanner[/b] that reproduces the freighter's [b]Scanner Room[/b]: one press (\"Activate Planetary Probe\") sweeps [b]every moon and planet in the system[/b], marks them as [b]Discovered[/b] and reveals their weather and resources. Direct interaction, no freighter needed. (Idea/suggestion from [b]koshin33[/b].)[/*]\n<br />[*]Renamed \"Portable Planetary Scanner\" to \"Portable System Scanner\" (17 languages).[/*]\n<br />[*][b]Fixed the \"build\" variant.[/b] It used to inject the six devices straight into the vanilla [b]Base Parts[/b] page, which widened that page and pushed vanilla blueprints off-screen (they could only be reached with the mod disabled). They now sit on their own [b]Expansion Tools[/b] page inside that tree (1 Salvaged Data each), like the other variants, so the vanilla page stays intact.[/*]\n<br />[/list]\n<br />[spoiler][b]1.19.0[/b]\n<br />[list]\n<br />[*][b]Own build-menu tab.[/b] The devices now live in a dedicated [b]HardcoreSky[/b] tab (section \"Devices\") that appears in every build area — planet, space base, freighter, space-station base and Corvette — instead of being spread over the vanilla categories. That also removes the \"Space Station Construction\" tab that 1.18.0 left behind on planets/freighters. Thanks to [b]TDarklight[/b] for the reports that led here.[/*]\n<br />[*]Placement itself is unchanged: the vanilla placement flags keep the same rules, and the fishing agent still needs water.[/*]\n<br />[*]Cheats add-on follows the same tab (v1.4.0).[/*]\n<br />[/list]\n<br />[b]1.18.1[/b]\n<br />[list]\n<br />[*][b]Freighter menu, second layer fixed.[/b] The five devices cloned from the vanilla [b]Signal Booster[/b] (a planet-only part) also inherited its product [b]GroupID[/b] (empty) and its placement profile (`RegionLimit`, `CanStack`, `GhostsCountOverride`, `SnappingDistanceOverride`), which the freighter build menu rejects — that is why only the [b]Deluxe Refinery[/b] (the one cloned from the vanilla [b]Portable Refiner[/b]) showed up there. All of them now carry the Portable Refiner's profile, so the six devices (and the Cheat Panel) should appear under the freighter's [b]Tech[/b] page. Thanks again to [b]TDarklight[/b].[/*]\n<br />[*]Cheats add-on updated the same way (v1.3.1).[/*]\n<br />[/list]\n<br />[b]1.18.0[/b]\n<br />[list]\n<br />[*][b]Fixed the freighter (and Corvette) build menu.[/b] The placement flags alone are not enough: the build menu is paged by each part's [b]Groups[/b] array, and the devices only carried the planet/portable page they inherit from the vanilla Signal Booster. They now also list the [b]freighter / space base / station Tech[/b] page, the [b]Corvette interior decoration[/b] page and the [b]station exterior[/b] page, so they show up and can be built there. Thanks to [b]TDarklight[/b] for the report.[/*]\n<br />[*]The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n<br />[*]Cheats add-on updated with the same pages (v1.3.0).[/*]\n<br />[/list]\n<br />[b]1.17.0[/b]\n<br />[list]\n<br />[*][b]Build them anywhere.[/b] The devices (and the Cheat Panel) can now be placed on your [b]freighter[/b], inside the [b]Corvette[/b] as decoration and on [b]space-station bases[/b] (main area, back section and exterior), in addition to planet and space bases — so you can use the Nexus research, mission board, casino or deluxe refinery without landing.[/*]\n<br />[*]They now match the placement flags of the vanilla portable devices (Portable Refiner / Wall Screen). The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n<br />[*]Cheats add-on updated with the same placement flags (v1.2.0).[/*]\n<br />[/list][/spoiler]\n<br />\n<br />[size=4]🔗 More HardcoreSky mods[/size]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3718][b]All Refiner and Cooking Recipes in the Wiki[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3704][b]HardcoreSky - Fauna Overhaul[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3447][b]HardcoreSky - Reduced Hazard Protection Duration[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3418][b]HardcoreSky - Nanite cost increase at the Anomaly[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3424][b]HardcoreSky - Salvaged Data Cost Increase for Base Buildings[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3459][b]HardcoreSky - Increased Building Material Costs[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3461][b]HardcoreSky - Increased Crafting Costs[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3460][b]HardcoreSky - Increased Technology Installation Costs[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3480][b]HardcoreSky - Nerfed Mission and Event Rewards[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/3691][b]HardcoreSky - Fishing Difficulty Overhaul[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4551][b]HardcoreSky - Hardcore Economy and Module Overhaul[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4554][b]HardcoreSky - Nerfed Life Support Duration[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4557][b]HardcoreSky - Gel-Fed Life Support[/b][/url]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4560][b]HardcoreSky - Increased Slot Upgrade Costs[/b][/url]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -683331,8 +683331,8 @@
         "file_id": 48878,
         "name": "Portable Nexus Suite Anomaly",
         "version": "1",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 138,
         "file_name": "Portable Nexus Suite Anomaly 4542 1 2026-09-21T22-35Z SxEYBfkqN.zip",
@@ -683345,7 +683345,7 @@
         "size_kb": 138,
         "size_in_bytes": 142042,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/c5/7c/38/c57c38b5-5843-4454-ab46-45d1e9c128a4.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/c5/7c/38/c57c38b5-5843-4454-ab46-45d1e9c128a4"
       },
       {
         "id": [
@@ -683356,8 +683356,8 @@
         "file_id": 48879,
         "name": "Portable Nexus Suite Build",
         "version": "1",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 138,
         "file_name": "Portable Nexus Suite Build 4542 1 2026-09-21T22-38Z L5bXM34N6.zip",
@@ -683370,7 +683370,7 @@
         "size_kb": 138,
         "size_in_bytes": 141954,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/48/15/62/48156218-3c65-4d47-9aed-2d270b3f1d07.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/48/15/62/48156218-3c65-4d47-9aed-2d270b3f1d07"
       },
       {
         "id": [
@@ -683381,8 +683381,8 @@
         "file_id": 48880,
         "name": "Portable Nexus Suite Hardcoresky",
         "version": "1",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 135,
         "file_name": "Portable Nexus Suite Hardcoresky 4542 1 2026-09-21T22-39Z KsnM3TauX.zip",
@@ -683395,7 +683395,7 @@
         "size_kb": 135,
         "size_in_bytes": 138787,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/74/eb/99/74eb99a6-e5a3-4fcd-99bd-245268b53c24.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/74/eb/99/74eb99a6-e5a3-4fcd-99bd-245268b53c24"
       },
       {
         "id": [
@@ -683406,8 +683406,8 @@
         "file_id": 48881,
         "name": "Portable Nexus Suite Cheats",
         "version": "1",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 38,
         "file_name": "Portable Nexus Suite Cheats 4542 1 2026-09-21T22-43Z hfsARgnI5.zip",
@@ -683420,7 +683420,7 @@
         "size_kb": 38,
         "size_in_bytes": 39565,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/61/ae/38/61ae385e-f6d9-4eca-a279-cc02d576d6a4.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/61/ae/38/61ae385e-f6d9-4eca-a279-cc02d576d6a4"
       },
       {
         "id": [
@@ -683431,8 +683431,8 @@
         "file_id": 48972,
         "name": "Portable Nexus Suite Cheats",
         "version": "2",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 38,
         "file_name": "Portable Nexus Suite Cheats 4542 2 2026-09-23T14-59Z RH1TdJIwE.zip",
@@ -683445,7 +683445,7 @@
         "size_kb": 38,
         "size_in_bytes": 39506,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/4d/f5/b6/4df5b6b8-3c42-4414-9cb1-a4e4323588d6.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4d/f5/b6/4df5b6b8-3c42-4414-9cb1-a4e4323588d6"
       },
       {
         "id": [
@@ -683456,8 +683456,8 @@
         "file_id": 48973,
         "name": "Portable Nexus Suite Hardcoresky",
         "version": "2",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 136,
         "file_name": "Portable Nexus Suite Hardcoresky 4542 2 2026-09-23T14-59Z L5bXM34zD.zip",
@@ -683470,7 +683470,7 @@
         "size_kb": 136,
         "size_in_bytes": 139786,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/5a/09/8a/5a098a43-f1ec-438f-bc75-567f4bacb11d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/5a/09/8a/5a098a43-f1ec-438f-bc75-567f4bacb11d"
       },
       {
         "id": [
@@ -683481,8 +683481,8 @@
         "file_id": 48974,
         "name": "Portable Nexus Suite Build",
         "version": "2",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 139,
         "file_name": "Portable Nexus Suite Build 4542 2 2026-09-23T14-59Z PuUGp56J4.zip",
@@ -683495,7 +683495,7 @@
         "size_kb": 139,
         "size_in_bytes": 142468,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/f8/b7/95/f8b795d4-8c18-4745-9544-77c5799c4963.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f8/b7/95/f8b795d4-8c18-4745-9544-77c5799c4963"
       },
       {
         "id": [
@@ -683506,8 +683506,8 @@
         "file_id": 48975,
         "name": "Portable Nexus Suite Anomaly",
         "version": "2",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 139,
         "file_name": "Portable Nexus Suite Anomaly 4542 2 2026-09-23T14-59Z CmY2hwpqn.zip",
@@ -683520,7 +683520,7 @@
         "size_kb": 139,
         "size_in_bytes": 142717,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/52/3b/68/523b68c5-6fb6-40ab-be9e-c4218baf1c6c.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/52/3b/68/523b68c5-6fb6-40ab-be9e-c4218baf1c6c"
       },
       {
         "id": [
@@ -683531,8 +683531,8 @@
         "file_id": 49040,
         "name": "Portable Nexus Suite Anomaly",
         "version": "3",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 139,
         "file_name": "Portable Nexus Suite Anomaly 4542 3 2026-09-24T11-50Z FpHgXM1Pz.zip",
@@ -683545,7 +683545,7 @@
         "size_kb": 139,
         "size_in_bytes": 142702,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/e9/c2/2b/e9c22bdc-49af-4b7a-ad9a-dbc0ee9d2a52.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e9/c2/2b/e9c22bdc-49af-4b7a-ad9a-dbc0ee9d2a52"
       },
       {
         "id": [
@@ -683556,8 +683556,8 @@
         "file_id": 49041,
         "name": "Portable Nexus Suite Build",
         "version": "3",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 139,
         "file_name": "Portable Nexus Suite Build 4542 3 2026-09-24T11-50Z kAMZq0J2h.zip",
@@ -683570,7 +683570,7 @@
         "size_kb": 139,
         "size_in_bytes": 142450,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/02/5a/eb/025aebdf-3f6d-4149-97a9-bd586fbeebf1.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/02/5a/eb/025aebdf-3f6d-4149-97a9-bd586fbeebf1"
       },
       {
         "id": [
@@ -683581,8 +683581,8 @@
         "file_id": 49042,
         "name": "Portable Nexus Suite Hardcoresky",
         "version": "3",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 136,
         "file_name": "Portable Nexus Suite Hardcoresky 4542 3 2026-09-24T11-51Z 31ISmlus6.zip",
@@ -683595,7 +683595,7 @@
         "size_kb": 136,
         "size_in_bytes": 139769,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/09/61/c8/0961c821-db02-48c3-871e-560aabcd851a.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/09/61/c8/0961c821-db02-48c3-871e-560aabcd851a"
       },
       {
         "id": [
@@ -683606,8 +683606,8 @@
         "file_id": 49043,
         "name": "Portable Nexus Suite Cheats",
         "version": "3",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 38,
         "file_name": "Portable Nexus Suite Cheats 4542 3 2026-09-24T11-52Z DcGFLKeJC.zip",
@@ -683620,7 +683620,7 @@
         "size_kb": 38,
         "size_in_bytes": 39492,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/fa/46/38/fa463829-1aff-4aa3-929e-383b6bbb8efa.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/fa/46/38/fa463829-1aff-4aa3-929e-383b6bbb8efa"
       },
       {
         "id": [
@@ -683631,8 +683631,8 @@
         "file_id": 49049,
         "name": "Portable Nexus Suite Cheats",
         "version": "4",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 38,
         "file_name": "Portable Nexus Suite Cheats 4542 4 2026-09-24T12-32Z rv2uEjLqa.zip",
@@ -683645,7 +683645,7 @@
         "size_kb": 38,
         "size_in_bytes": 39639,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/e9/8a/5b/e98a5bb8-3ad0-4baf-86f0-72c0c414cd2c.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e9/8a/5b/e98a5bb8-3ad0-4baf-86f0-72c0c414cd2c"
       },
       {
         "id": [
@@ -683656,8 +683656,8 @@
         "file_id": 49050,
         "name": "Portable Nexus Suite Hardcoresky",
         "version": "4",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 136,
         "file_name": "Portable Nexus Suite Hardcoresky 4542 4 2026-09-24T12-32Z 8gT07OSwA.zip",
@@ -683670,7 +683670,7 @@
         "size_kb": 136,
         "size_in_bytes": 139928,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/03/77/59/03775958-7bba-49f1-ac80-825b8cfd7337.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/03/77/59/03775958-7bba-49f1-ac80-825b8cfd7337"
       },
       {
         "id": [
@@ -683681,8 +683681,8 @@
         "file_id": 49051,
         "name": "Portable Nexus Suite Build",
         "version": "4",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 139,
         "file_name": "Portable Nexus Suite Build 4542 4 2026-09-24T12-33Z aCzNuEFZJ.zip",
@@ -683695,7 +683695,7 @@
         "size_kb": 139,
         "size_in_bytes": 142600,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/de/03/04/de030448-c120-4f7a-89d0-d0ddbf41ceeb.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/de/03/04/de030448-c120-4f7a-89d0-d0ddbf41ceeb"
       },
       {
         "id": [
@@ -683706,8 +683706,8 @@
         "file_id": 49052,
         "name": "Portable Nexus Suite Anomaly",
         "version": "4",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 139,
         "file_name": "Portable Nexus Suite Anomaly 4542 4 2026-09-24T12-33Z QR3q07yhQ.zip",
@@ -683720,7 +683720,7 @@
         "size_kb": 139,
         "size_in_bytes": 142851,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/2b/2d/4e/2b2d4ef0-2a30-4225-beda-2fb1665dc041.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/2b/2d/4e/2b2d4ef0-2a30-4225-beda-2fb1665dc041"
       },
       {
         "id": [
@@ -683731,8 +683731,8 @@
         "file_id": 49053,
         "name": "Portable Nexus Suite Anomaly",
         "version": "5",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 139,
         "file_name": "Portable Nexus Suite Anomaly 4542 5 2026-09-24T13-12Z QR3q07yBs.zip",
@@ -683745,7 +683745,7 @@
         "size_kb": 139,
         "size_in_bytes": 142855,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/66/dd/fc/66ddfca2-e08a-4b34-900f-158478566524.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/66/dd/fc/66ddfca2-e08a-4b34-900f-158478566524"
       },
       {
         "id": [
@@ -683756,8 +683756,8 @@
         "file_id": 49054,
         "name": "Portable Nexus Suite Build",
         "version": "5",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 139,
         "file_name": "Portable Nexus Suite Build 4542 5 2026-09-24T13-12Z 8gT07OSf6.zip",
@@ -683770,7 +683770,7 @@
         "size_kb": 139,
         "size_in_bytes": 142602,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/eb/8b/ba/eb8bba7b-6c4e-4b51-8d22-67ff23122417.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/eb/8b/ba/eb8bba7b-6c4e-4b51-8d22-67ff23122417"
       },
       {
         "id": [
@@ -683781,8 +683781,8 @@
         "file_id": 49055,
         "name": "Portable Nexus Suite Hardcoresky",
         "version": "5",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 136,
         "file_name": "Portable Nexus Suite Hardcoresky 4542 5 2026-09-24T13-12Z oPfwFLs4P.zip",
@@ -683795,7 +683795,7 @@
         "size_kb": 136,
         "size_in_bytes": 139933,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/43/cd/3d/43cd3dca-aa88-40cf-ac96-6aebcf6e8e61.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/43/cd/3d/43cd3dca-aa88-40cf-ac96-6aebcf6e8e61"
       },
       {
         "id": [
@@ -683806,8 +683806,8 @@
         "file_id": 49056,
         "name": "Portable Nexus Suite Cheats",
         "version": "5",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 38,
         "file_name": "Portable Nexus Suite Cheats 4542 5 2026-09-24T13-12Z 4tDiNuwXy.zip",
@@ -683820,7 +683820,7 @@
         "size_kb": 38,
         "size_in_bytes": 39633,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/8e/fe/32/8efe3248-37ba-4c5a-bfbe-a5454a91a03a.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/8e/fe/32/8efe3248-37ba-4c5a-bfbe-a5454a91a03a"
       },
       {
         "id": [
@@ -683831,8 +683831,8 @@
         "file_id": 49060,
         "name": "Portable Nexus Suite Cheats",
         "version": "6",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 38,
         "file_name": "Portable Nexus Suite Cheats 4542 6 2026-09-24T15-31Z N2LUkQgyj.zip",
@@ -683845,7 +683845,7 @@
         "size_kb": 38,
         "size_in_bytes": 39471,
         "changelog_html": "[b]1.19.0[/b]\n[list]\n[*][b]Own build-menu tab.[/b] The devices now live in a dedicated [b]HardcoreSky[/b] tab (section \"Devices\") that appears in every build area — planet, space base, freighter, space-station base and Corvette — instead of being spread over the vanilla categories. That also removes the \"Space Station Construction\" tab that 1.18.0 left behind on planets/freighters. Thanks to [b]TDarklight[/b] for the reports that led here.[/*]\n[*]Placement itself is unchanged: the vanilla placement flags keep the same rules, and the fishing agent still needs water.[/*]\n[*]Cheats add-on follows the same tab (v1.4.0).[/*]\n[/list]\n[b]1.18.1[/b]\n[list]\n[*][b]Freighter menu, second layer fixed.[/b] The five devices cloned from the vanilla [b]Signal Booster[/b] (a planet-only part) also inherited its product [b]GroupID[/b] (empty) and its placement profile (`RegionLimit`, `CanStack`, `GhostsCountOverride`, `SnappingDistanceOverride`), which the freighter build menu rejects — that is why only the [b]Deluxe Refinery[/b] (the one cloned from the vanilla [b]Portable Refiner[/b]) showed up there. All of them now carry the Portable Refiner's profile, so the six devices (and the Cheat Panel) should appear under the freighter's [b]Tech[/b] page. Thanks again to [b]TDarklight[/b].[/*]\n[*]Cheats add-on updated the same way (v1.3.1).[/*]\n[/list]\n[b]1.18.0[/b]\n[list]\n[*][b]Fixed the freighter (and Corvette) build menu.[/b] The placement flags alone are not enough: the build menu is paged by each part's [b]Groups[/b] array, and the devices only carried the planet/portable page they inherit from the vanilla Signal Booster. They now also list the [b]freighter / space base / station Tech[/b] page, the [b]Corvette interior decoration[/b] page and the [b]station exterior[/b] page, so they show up and can be built there. Thanks to [b]TDarklight[/b] for the report.[/*]\n[*]The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n[*]Cheats add-on updated with the same pages (v1.3.0).[/*]\n[/list]\n[b]1.17.0[/b]\n[list]\n[*][b]Build them anywhere.[/b] The devices (and the Cheat Panel) can now be placed on your [b]freighter[/b], inside the [b]Corvette[/b] as decoration and on [b]space-station bases[/b] (main area, back section and exterior), in addition to planet and space bases — so you can use the Nexus research, mission board, casino or deluxe refinery without landing.[/*]\n[*]They now match the placement flags of the vanilla portable devices (Portable Refiner / Wall Screen). The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n[*]Cheats add-on updated with the same placement flags (v1.2.0).[/*]\n[/list]\n[b]1.16.0[/b]\n[list]\n[*][b]Variants now really differ.[/b] Before, all three base zips shipped identical files, so the hardcoresky build cost, materials, fishing jobs and casino odds were never applied. Fixed (each variant builds its own output).\n[*][b]Each variant has its own folder[/b] ([code]PortableNexusSuite_anomaly[/code] / [code]_build[/code] / [code]_hardcoresky[/code]). When switching variant, delete the previous folder.\n[*][b]build[/b]: the devices use the vanilla [b]Base Parts[/b] tree at 1 Salvaged Data each (no extra Anomaly page). [b]anomaly[/b]: 30 Salvaged Data. [b]hardcoresky[/b]: 50 Salvaged Data, harder materials, elite fishing jobs, worse casino odds.\n[/list]\n[b]1.15.0[/b]\n[list]\n[*][b]Fixed a dialog mix-up:[/b] each device now anchors its menu to its own (always-active) mission instead of sharing one, so the casino can no longer open the cheat panel and vice versa.\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/ef/d6/07/efd6070b-03a2-467d-b34d-2c4e9c04b01c.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ef/d6/07/efd6070b-03a2-467d-b34d-2c4e9c04b01c"
       },
       {
         "id": [
@@ -683856,8 +683856,8 @@
         "file_id": 49061,
         "name": "Portable Nexus Suite Cheats",
         "version": "7",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 38,
         "file_name": "Portable Nexus Suite Cheats 4542 7 2026-09-24T15-32Z XnaJySik1.zip",
@@ -683870,7 +683870,7 @@
         "size_kb": 38,
         "size_in_bytes": 39471,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/b0/7b/64/b07b6412-cc2e-45fe-ad6f-ebc4bd030767.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b0/7b/64/b07b6412-cc2e-45fe-ad6f-ebc4bd030767"
       },
       {
         "id": [
@@ -683881,8 +683881,8 @@
         "file_id": 49062,
         "name": "Portable Nexus Suite Cheats",
         "version": "6",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 38,
         "file_name": "Portable Nexus Suite Cheats 4542 6 2026-09-24T15-32Z kAMZq0JYH.zip",
@@ -683895,7 +683895,7 @@
         "size_kb": 38,
         "size_in_bytes": 39471,
         "changelog_html": "[b]1.19.0[/b]\n[list]\n[*][b]Own build-menu tab.[/b] The devices now live in a dedicated [b]HardcoreSky[/b] tab (section \"Devices\") that appears in every build area — planet, space base, freighter, space-station base and Corvette — instead of being spread over the vanilla categories. That also removes the \"Space Station Construction\" tab that 1.18.0 left behind on planets/freighters. Thanks to [b]TDarklight[/b] for the reports that led here.[/*]\n[*]Placement itself is unchanged: the vanilla placement flags keep the same rules, and the fishing agent still needs water.[/*]\n[*]Cheats add-on follows the same tab (v1.4.0).[/*]\n[/list]\n[b]1.18.1[/b]\n[list]\n[*][b]Freighter menu, second layer fixed.[/b] The five devices cloned from the vanilla [b]Signal Booster[/b] (a planet-only part) also inherited its product [b]GroupID[/b] (empty) and its placement profile (`RegionLimit`, `CanStack`, `GhostsCountOverride`, `SnappingDistanceOverride`), which the freighter build menu rejects — that is why only the [b]Deluxe Refinery[/b] (the one cloned from the vanilla [b]Portable Refiner[/b]) showed up there. All of them now carry the Portable Refiner's profile, so the six devices (and the Cheat Panel) should appear under the freighter's [b]Tech[/b] page. Thanks again to [b]TDarklight[/b].[/*]\n[*]Cheats add-on updated the same way (v1.3.1).[/*]\n[/list]\n[b]1.18.0[/b]\n[list]\n[*][b]Fixed the freighter (and Corvette) build menu.[/b] The placement flags alone are not enough: the build menu is paged by each part's [b]Groups[/b] array, and the devices only carried the planet/portable page they inherit from the vanilla Signal Booster. They now also list the [b]freighter / space base / station Tech[/b] page, the [b]Corvette interior decoration[/b] page and the [b]station exterior[/b] page, so they show up and can be built there. Thanks to [b]TDarklight[/b] for the report.[/*]\n[*]The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n[*]Cheats add-on updated with the same pages (v1.3.0).[/*]\n[/list]\n[b]1.17.0[/b]\n[list]\n[*][b]Build them anywhere.[/b] The devices (and the Cheat Panel) can now be placed on your [b]freighter[/b], inside the [b]Corvette[/b] as decoration and on [b]space-station bases[/b] (main area, back section and exterior), in addition to planet and space bases — so you can use the Nexus research, mission board, casino or deluxe refinery without landing.[/*]\n[*]They now match the placement flags of the vanilla portable devices (Portable Refiner / Wall Screen). The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n[*]Cheats add-on updated with the same placement flags (v1.2.0).[/*]\n[/list]\n[b]1.16.0[/b]\n[list]\n[*][b]Variants now really differ.[/b] Before, all three base zips shipped identical files, so the hardcoresky build cost, materials, fishing jobs and casino odds were never applied. Fixed (each variant builds its own output).\n[*][b]Each variant has its own folder[/b] ([code]PortableNexusSuite_anomaly[/code] / [code]_build[/code] / [code]_hardcoresky[/code]). When switching variant, delete the previous folder.\n[*][b]build[/b]: the devices use the vanilla [b]Base Parts[/b] tree at 1 Salvaged Data each (no extra Anomaly page). [b]anomaly[/b]: 30 Salvaged Data. [b]hardcoresky[/b]: 50 Salvaged Data, harder materials, elite fishing jobs, worse casino odds.\n[/list]\n[b]1.15.0[/b]\n[list]\n[*][b]Fixed a dialog mix-up:[/b] each device now anchors its menu to its own (always-active) mission instead of sharing one, so the casino can no longer open the cheat panel and vice versa.\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/04/74/fa/0474fa48-fcc7-4baa-93d8-abe88afd1a2d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/04/74/fa/0474fa48-fcc7-4baa-93d8-abe88afd1a2d"
       },
       {
         "id": [
@@ -683906,8 +683906,8 @@
         "file_id": 49063,
         "name": "Portable Nexus Suite Hardcoresky",
         "version": "6",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 136,
         "file_name": "Portable Nexus Suite Hardcoresky 4542 6 2026-09-24T15-33Z Z3ytCvP5O.zip",
@@ -683920,7 +683920,7 @@
         "size_kb": 136,
         "size_in_bytes": 140164,
         "changelog_html": "[b]1.19.0[/b]\n[list]\n[*][b]Own build-menu tab.[/b] The devices now live in a dedicated [b]HardcoreSky[/b] tab (section \"Devices\") that appears in every build area — planet, space base, freighter, space-station base and Corvette — instead of being spread over the vanilla categories. That also removes the \"Space Station Construction\" tab that 1.18.0 left behind on planets/freighters. Thanks to [b]TDarklight[/b] for the reports that led here.[/*]\n[*]Placement itself is unchanged: the vanilla placement flags keep the same rules, and the fishing agent still needs water.[/*]\n[*]Cheats add-on follows the same tab (v1.4.0).[/*]\n[/list]\n[b]1.18.1[/b]\n[list]\n[*][b]Freighter menu, second layer fixed.[/b] The five devices cloned from the vanilla [b]Signal Booster[/b] (a planet-only part) also inherited its product [b]GroupID[/b] (empty) and its placement profile (`RegionLimit`, `CanStack`, `GhostsCountOverride`, `SnappingDistanceOverride`), which the freighter build menu rejects — that is why only the [b]Deluxe Refinery[/b] (the one cloned from the vanilla [b]Portable Refiner[/b]) showed up there. All of them now carry the Portable Refiner's profile, so the six devices (and the Cheat Panel) should appear under the freighter's [b]Tech[/b] page. Thanks again to [b]TDarklight[/b].[/*]\n[*]Cheats add-on updated the same way (v1.3.1).[/*]\n[/list]\n[b]1.18.0[/b]\n[list]\n[*][b]Fixed the freighter (and Corvette) build menu.[/b] The placement flags alone are not enough: the build menu is paged by each part's [b]Groups[/b] array, and the devices only carried the planet/portable page they inherit from the vanilla Signal Booster. They now also list the [b]freighter / space base / station Tech[/b] page, the [b]Corvette interior decoration[/b] page and the [b]station exterior[/b] page, so they show up and can be built there. Thanks to [b]TDarklight[/b] for the report.[/*]\n[*]The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n[*]Cheats add-on updated with the same pages (v1.3.0).[/*]\n[/list]\n[b]1.17.0[/b]\n[list]\n[*][b]Build them anywhere.[/b] The devices (and the Cheat Panel) can now be placed on your [b]freighter[/b], inside the [b]Corvette[/b] as decoration and on [b]space-station bases[/b] (main area, back section and exterior), in addition to planet and space bases — so you can use the Nexus research, mission board, casino or deluxe refinery without landing.[/*]\n[*]They now match the placement flags of the vanilla portable devices (Portable Refiner / Wall Screen). The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n[*]Cheats add-on updated with the same placement flags (v1.2.0).[/*]\n[/list]\n[b]1.16.0[/b]\n[list]\n[*][b]Variants now really differ.[/b] Before, all three base zips shipped identical files, so the hardcoresky build cost, materials, fishing jobs and casino odds were never applied. Fixed (each variant builds its own output).\n[*][b]Each variant has its own folder[/b] ([code]PortableNexusSuite_anomaly[/code] / [code]_build[/code] / [code]_hardcoresky[/code]). When switching variant, delete the previous folder.\n[*][b]build[/b]: the devices use the vanilla [b]Base Parts[/b] tree at 1 Salvaged Data each (no extra Anomaly page). [b]anomaly[/b]: 30 Salvaged Data. [b]hardcoresky[/b]: 50 Salvaged Data, harder materials, elite fishing jobs, worse casino odds.\n[/list]\n[b]1.15.0[/b]\n[list]\n[*][b]Fixed a dialog mix-up:[/b] each device now anchors its menu to its own (always-active) mission instead of sharing one, so the casino can no longer open the cheat panel and vice versa.\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/d7/d4/26/d7d426e8-0aa5-4721-a73b-7a544f3eca24.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/d7/d4/26/d7d426e8-0aa5-4721-a73b-7a544f3eca24"
       },
       {
         "id": [
@@ -683931,8 +683931,8 @@
         "file_id": 49064,
         "name": "Portable Nexus Suite Build",
         "version": "6",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 139,
         "file_name": "Portable Nexus Suite Build 4542 6 2026-09-24T15-33Z SxEYBfk0u.zip",
@@ -683945,7 +683945,7 @@
         "size_kb": 139,
         "size_in_bytes": 142845,
         "changelog_html": "[b]1.19.0[/b]\n[list]\n[*][b]Own build-menu tab.[/b] The devices now live in a dedicated [b]HardcoreSky[/b] tab (section \"Devices\") that appears in every build area — planet, space base, freighter, space-station base and Corvette — instead of being spread over the vanilla categories. That also removes the \"Space Station Construction\" tab that 1.18.0 left behind on planets/freighters. Thanks to [b]TDarklight[/b] for the reports that led here.[/*]\n[*]Placement itself is unchanged: the vanilla placement flags keep the same rules, and the fishing agent still needs water.[/*]\n[*]Cheats add-on follows the same tab (v1.4.0).[/*]\n[/list]\n[b]1.18.1[/b]\n[list]\n[*][b]Freighter menu, second layer fixed.[/b] The five devices cloned from the vanilla [b]Signal Booster[/b] (a planet-only part) also inherited its product [b]GroupID[/b] (empty) and its placement profile (`RegionLimit`, `CanStack`, `GhostsCountOverride`, `SnappingDistanceOverride`), which the freighter build menu rejects — that is why only the [b]Deluxe Refinery[/b] (the one cloned from the vanilla [b]Portable Refiner[/b]) showed up there. All of them now carry the Portable Refiner's profile, so the six devices (and the Cheat Panel) should appear under the freighter's [b]Tech[/b] page. Thanks again to [b]TDarklight[/b].[/*]\n[*]Cheats add-on updated the same way (v1.3.1).[/*]\n[/list]\n[b]1.18.0[/b]\n[list]\n[*][b]Fixed the freighter (and Corvette) build menu.[/b] The placement flags alone are not enough: the build menu is paged by each part's [b]Groups[/b] array, and the devices only carried the planet/portable page they inherit from the vanilla Signal Booster. They now also list the [b]freighter / space base / station Tech[/b] page, the [b]Corvette interior decoration[/b] page and the [b]station exterior[/b] page, so they show up and can be built there. Thanks to [b]TDarklight[/b] for the report.[/*]\n[*]The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n[*]Cheats add-on updated with the same pages (v1.3.0).[/*]\n[/list]\n[b]1.17.0[/b]\n[list]\n[*][b]Build them anywhere.[/b] The devices (and the Cheat Panel) can now be placed on your [b]freighter[/b], inside the [b]Corvette[/b] as decoration and on [b]space-station bases[/b] (main area, back section and exterior), in addition to planet and space bases — so you can use the Nexus research, mission board, casino or deluxe refinery without landing.[/*]\n[*]They now match the placement flags of the vanilla portable devices (Portable Refiner / Wall Screen). The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n[*]Cheats add-on updated with the same placement flags (v1.2.0).[/*]\n[/list]\n[b]1.16.0[/b]\n[list]\n[*][b]Variants now really differ.[/b] Before, all three base zips shipped identical files, so the hardcoresky build cost, materials, fishing jobs and casino odds were never applied. Fixed (each variant builds its own output).\n[*][b]Each variant has its own folder[/b] ([code]PortableNexusSuite_anomaly[/code] / [code]_build[/code] / [code]_hardcoresky[/code]). When switching variant, delete the previous folder.\n[*][b]build[/b]: the devices use the vanilla [b]Base Parts[/b] tree at 1 Salvaged Data each (no extra Anomaly page). [b]anomaly[/b]: 30 Salvaged Data. [b]hardcoresky[/b]: 50 Salvaged Data, harder materials, elite fishing jobs, worse casino odds.\n[/list]\n[b]1.15.0[/b]\n[list]\n[*][b]Fixed a dialog mix-up:[/b] each device now anchors its menu to its own (always-active) mission instead of sharing one, so the casino can no longer open the cheat panel and vice versa.\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/44/62/71/446271aa-eda8-4d48-bba6-c2f7bb9f4306.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/44/62/71/446271aa-eda8-4d48-bba6-c2f7bb9f4306"
       },
       {
         "id": [
@@ -683956,8 +683956,8 @@
         "file_id": 49065,
         "name": "Portable Nexus Suite Anomaly",
         "version": "6",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 139,
         "file_name": "Portable Nexus Suite Anomaly 4542 6 2026-09-24T15-33Z L5bXM34uV.zip",
@@ -683970,7 +683970,7 @@
         "size_kb": 139,
         "size_in_bytes": 143091,
         "changelog_html": "[b]1.19.0[/b]\n[list]\n[*][b]Own build-menu tab.[/b] The devices now live in a dedicated [b]HardcoreSky[/b] tab (section \"Devices\") that appears in every build area — planet, space base, freighter, space-station base and Corvette — instead of being spread over the vanilla categories. That also removes the \"Space Station Construction\" tab that 1.18.0 left behind on planets/freighters. Thanks to [b]TDarklight[/b] for the reports that led here.[/*]\n[*]Placement itself is unchanged: the vanilla placement flags keep the same rules, and the fishing agent still needs water.[/*]\n[*]Cheats add-on follows the same tab (v1.4.0).[/*]\n[/list]\n[b]1.18.1[/b]\n[list]\n[*][b]Freighter menu, second layer fixed.[/b] The five devices cloned from the vanilla [b]Signal Booster[/b] (a planet-only part) also inherited its product [b]GroupID[/b] (empty) and its placement profile (`RegionLimit`, `CanStack`, `GhostsCountOverride`, `SnappingDistanceOverride`), which the freighter build menu rejects — that is why only the [b]Deluxe Refinery[/b] (the one cloned from the vanilla [b]Portable Refiner[/b]) showed up there. All of them now carry the Portable Refiner's profile, so the six devices (and the Cheat Panel) should appear under the freighter's [b]Tech[/b] page. Thanks again to [b]TDarklight[/b].[/*]\n[*]Cheats add-on updated the same way (v1.3.1).[/*]\n[/list]\n[b]1.18.0[/b]\n[list]\n[*][b]Fixed the freighter (and Corvette) build menu.[/b] The placement flags alone are not enough: the build menu is paged by each part's [b]Groups[/b] array, and the devices only carried the planet/portable page they inherit from the vanilla Signal Booster. They now also list the [b]freighter / space base / station Tech[/b] page, the [b]Corvette interior decoration[/b] page and the [b]station exterior[/b] page, so they show up and can be built there. Thanks to [b]TDarklight[/b] for the report.[/*]\n[*]The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n[*]Cheats add-on updated with the same pages (v1.3.0).[/*]\n[/list]\n[b]1.17.0[/b]\n[list]\n[*][b]Build them anywhere.[/b] The devices (and the Cheat Panel) can now be placed on your [b]freighter[/b], inside the [b]Corvette[/b] as decoration and on [b]space-station bases[/b] (main area, back section and exterior), in addition to planet and space bases — so you can use the Nexus research, mission board, casino or deluxe refinery without landing.[/*]\n[*]They now match the placement flags of the vanilla portable devices (Portable Refiner / Wall Screen). The [b]fishing agent[/b] places anywhere too, but its jobs still need water.[/*]\n[*]Cheats add-on updated with the same placement flags (v1.2.0).[/*]\n[/list]\n[b]1.16.0[/b]\n[list]\n[*][b]Variants now really differ.[/b] Before, all three base zips shipped identical files, so the hardcoresky build cost, materials, fishing jobs and casino odds were never applied. Fixed (each variant builds its own output).\n[*][b]Each variant has its own folder[/b] ([code]PortableNexusSuite_anomaly[/code] / [code]_build[/code] / [code]_hardcoresky[/code]). When switching variant, delete the previous folder.\n[*][b]build[/b]: the devices use the vanilla [b]Base Parts[/b] tree at 1 Salvaged Data each (no extra Anomaly page). [b]anomaly[/b]: 30 Salvaged Data. [b]hardcoresky[/b]: 50 Salvaged Data, harder materials, elite fishing jobs, worse casino odds.\n[/list]\n[b]1.15.0[/b]\n[list]\n[*][b]Fixed a dialog mix-up:[/b] each device now anchors its menu to its own (always-active) mission instead of sharing one, so the casino can no longer open the cheat panel and vice versa.\n[/list]",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/87/d3/fb/87d3fba7-d1bb-470f-9de9-f2ddf18f457e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/87/d3/fb/87d3fba7-d1bb-470f-9de9-f2ddf18f457e"
       },
       {
         "id": [
@@ -683981,8 +683981,8 @@
         "file_id": 49119,
         "name": "Portable Nexus Suite Anomaly",
         "version": "7",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 146,
         "file_name": "Portable Nexus Suite Anomaly 4542 7 2026-09-25T16-10Z qTSCvoc8d.zip",
@@ -683995,7 +683995,7 @@
         "size_kb": 146,
         "size_in_bytes": 149824,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/ec/f3/b6/ecf3b6ba-930b-4530-adad-5e558c01ea08.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ec/f3/b6/ecf3b6ba-930b-4530-adad-5e558c01ea08"
       },
       {
         "id": [
@@ -684006,8 +684006,8 @@
         "file_id": 49120,
         "name": "Portable Nexus Suite Build",
         "version": "7",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 146,
         "file_name": "Portable Nexus Suite Build 4542 7 2026-09-25T16-10Z JrNPcY9Mv.zip",
@@ -684020,7 +684020,7 @@
         "size_kb": 146,
         "size_in_bytes": 149566,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/5e/11/db/5e11dbfa-0aac-4d6d-8097-9cfa0a1a492b.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/5e/11/db/5e11dbfa-0aac-4d6d-8097-9cfa0a1a492b"
       },
       {
         "id": [
@@ -684031,8 +684031,8 @@
         "file_id": 49121,
         "name": "Portable Nexus Suite Hardcoresky",
         "version": "7",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 143,
         "file_name": "Portable Nexus Suite Hardcoresky 4542 7 2026-09-25T16-10Z tScz2hGqo.zip",
@@ -684045,7 +684045,7 @@
         "size_kb": 143,
         "size_in_bytes": 146921,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/6f/4b/a1/6f4ba123-f218-4002-8a2e-5d0a861ba90f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6f/4b/a1/6f4ba123-f218-4002-8a2e-5d0a861ba90f"
       },
       {
         "id": [
@@ -684056,8 +684056,8 @@
         "file_id": 49122,
         "name": "Portable Nexus Suite Cheats",
         "version": "7",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 38,
         "file_name": "Portable Nexus Suite Cheats 4542 7 2026-09-25T16-10Z N2LUkQgrw.zip",
@@ -684070,7 +684070,7 @@
         "size_kb": 38,
         "size_in_bytes": 39471,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/82/d5/12/82d5124c-4544-488a-bcad-04baf4b73608.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/82/d5/12/82d5124c-4544-488a-bcad-04baf4b73608"
       },
       {
         "id": [
@@ -684081,8 +684081,8 @@
         "file_id": 49123,
         "name": "Portable Nexus Suite Cheats",
         "version": "8",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 38,
         "file_name": "Portable Nexus Suite Cheats 4542 8 2026-09-25T22-03Z XnaJySiK7.zip",
@@ -684095,7 +684095,7 @@
         "size_kb": 38,
         "size_in_bytes": 39471,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/9c/e9/03/9ce903c0-404d-4af7-bc76-1129440bb8a6.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9c/e9/03/9ce903c0-404d-4af7-bc76-1129440bb8a6"
       },
       {
         "id": [
@@ -684106,8 +684106,8 @@
         "file_id": 49124,
         "name": "Portable Nexus Suite Hardcoresky",
         "version": "8",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 143,
         "file_name": "Portable Nexus Suite Hardcoresky 4542 8 2026-09-25T22-03Z kAMZq0JEV.zip",
@@ -684120,7 +684120,7 @@
         "size_kb": 143,
         "size_in_bytes": 146929,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/7e/13/7c/7e137cc1-76fc-4488-a050-c0cc30e65ba1.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/7e/13/7c/7e137cc1-76fc-4488-a050-c0cc30e65ba1"
       },
       {
         "id": [
@@ -684131,8 +684131,8 @@
         "file_id": 49125,
         "name": "Portable Nexus Suite Build",
         "version": "8",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 146,
         "file_name": "Portable Nexus Suite Build 4542 8 2026-09-25T22-04Z Z3ytCvPQJ.zip",
@@ -684145,7 +684145,7 @@
         "size_kb": 146,
         "size_in_bytes": 149641,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/79/2a/1b/792a1b1f-a61b-48af-a69f-f706e5b1e707.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/79/2a/1b/792a1b1f-a61b-48af-a69f-f706e5b1e707"
       },
       {
         "id": [
@@ -684156,8 +684156,8 @@
         "file_id": 49126,
         "name": "Portable Nexus Suite Anomaly",
         "version": "8",
-        "category_id": 4,
-        "category_name": "OLD_VERSION",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 146,
         "file_name": "Portable Nexus Suite Anomaly 4542 8 2026-09-25T22-04Z SxEYBfkT2.zip",
@@ -684170,7 +684170,7 @@
         "size_kb": 146,
         "size_in_bytes": 149832,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/9b/ab/02/9bab0264-2a68-40c6-904b-9f64e36763c5.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9b/ab/02/9bab0264-2a68-40c6-904b-9f64e36763c5"
       },
       {
         "id": [
@@ -684181,9 +684181,9 @@
         "file_id": 49289,
         "name": "Portable Nexus Suite Anomaly",
         "version": "9",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 143,
         "file_name": "Portable Nexus Suite Anomaly 4542 9 2026-09-29T13-45Z kAMZq0JBf.zip",
         "detected_file_extension": "zip",
@@ -684195,7 +684195,7 @@
         "size_kb": 143,
         "size_in_bytes": 146696,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/1a/d1/31/1ad131e7-f8b4-4d68-8d07-b92bd238290d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1a/d1/31/1ad131e7-f8b4-4d68-8d07-b92bd238290d"
       },
       {
         "id": [
@@ -684206,8 +684206,8 @@
         "file_id": 49290,
         "name": "Portable Nexus Suite Build",
         "version": "9",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 143,
         "file_name": "Portable Nexus Suite Build 4542 9 2026-09-29T13-45Z 31ISmlu6X.zip",
@@ -684220,7 +684220,7 @@
         "size_kb": 143,
         "size_in_bytes": 146513,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/bd/f0/4a/bdf04a77-b71e-444e-a1a9-6ae573a0cd79.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/bd/f0/4a/bdf04a77-b71e-444e-a1a9-6ae573a0cd79"
       },
       {
         "id": [
@@ -684231,8 +684231,8 @@
         "file_id": 49291,
         "name": "Portable Nexus Suite Hardcoresky",
         "version": "9",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 140,
         "file_name": "Portable Nexus Suite Hardcoresky 4542 9 2026-09-29T13-45Z DcGFLKerm.zip",
@@ -684245,7 +684245,7 @@
         "size_kb": 140,
         "size_in_bytes": 143672,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/f5/87/02/f587029e-537b-4a03-bb20-e00995aa30bb.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f5/87/02/f587029e-537b-4a03-bb20-e00995aa30bb"
       },
       {
         "id": [
@@ -684256,8 +684256,8 @@
         "file_id": 49292,
         "name": "Portable Nexus Suite Cheats",
         "version": "9",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 51,
         "file_name": "Portable Nexus Suite Cheats 4542 9 2026-09-29T13-45Z mijBfGQOC.zip",
@@ -684270,7 +684270,107 @@
         "size_kb": 51,
         "size_in_bytes": 53216,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4542/1a/6d/8a/1a6d8a0d-a855-4182-bd67-b8410187d159.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/1a/6d/8a/1a6d8a0d-a855-4182-bd67-b8410187d159"
+      },
+      {
+        "id": [
+          50662,
+          1634
+        ],
+        "uid": 7017976612326,
+        "file_id": 50662,
+        "name": "Portable Nexus Suite Cheats",
+        "version": "2.0",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 109,
+        "file_name": "Portable Nexus Suite Cheats 4542 2.0 2026-11-15T00-39Z 8gT07OIWy.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794703163,
+        "uploaded_time": "2026-11-15T00:39:23.000+00:00",
+        "mod_version": "2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d6535578e4e00cbd713a54576c6bc8f83b8117db995915a758f4123ba380dd67",
+        "description": "Optional add-on. A free Cheat Panel, unlocked from the start: 10,000,000 units, 100,000 nanites, 3,000 Quicksilver, every board mission type and 100 of each of 46 materials. Updated for NMS 7.14.<br />",
+        "size_kb": 109,
+        "size_in_bytes": 112592,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ab/76/4b/ab764b37-3cb4-43e6-aab2-a89d83ad1ce8"
+      },
+      {
+        "id": [
+          50663,
+          1634
+        ],
+        "uid": 7017976612327,
+        "file_id": 50663,
+        "name": "Portable Nexus Suite Hardcoresky",
+        "version": "2.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 163,
+        "file_name": "Portable Nexus Suite Hardcoresky 4542 2.0 2026-11-15T00-40Z aCzNuEGPf.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794703202,
+        "uploaded_time": "2026-11-15T00:40:02.000+00:00",
+        "mod_version": "2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/53c763847d464615be6f72041b5210c5bd52aeffb6a7e0c53c7b4def876db8d6",
+        "description": "Base variant for hardcore runs. Unlocks the seven devices on the Expansion Tools page (50 Salvaged Data each) with elite fishing jobs, worse casino odds and harder build costs. Updated for NMS 7.14.<br />",
+        "size_kb": 163,
+        "size_in_bytes": 166947,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ea/78/03/ea780342-d664-4c95-ba63-2a271f4c2913"
+      },
+      {
+        "id": [
+          50664,
+          1634
+        ],
+        "uid": 7017976612328,
+        "file_id": 50664,
+        "name": "Portable Nexus Suite Build",
+        "version": "2.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 165,
+        "file_name": "Portable Nexus Suite Build 4542 2.0 2026-11-15T00-40Z QR3q07rnt.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794703237,
+        "uploaded_time": "2026-11-15T00:40:37.000+00:00",
+        "mod_version": "2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e192db1e013d85810b4ae53c3e22665f2b20ce8a2529b403eab7c2e064127a7c",
+        "description": "Base variant. Unlocks the seven devices from the start at your base Blueprint Analyser (1 Salvaged Data each). Normal fishing jobs and normal casino odds. Updated for NMS 7.14.<br />",
+        "size_kb": 165,
+        "size_in_bytes": 169294,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/48/b5/28/48b52861-409c-4a22-aa02-210642243c34"
+      },
+      {
+        "id": [
+          50665,
+          1634
+        ],
+        "uid": 7017976612329,
+        "file_id": 50665,
+        "name": "Portable Nexus Suite Anomaly",
+        "version": "2.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 165,
+        "file_name": "Portable Nexus Suite Anomaly 4542 2.0 2026-11-15T00-41Z QR3q07rny.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794703309,
+        "uploaded_time": "2026-11-15T00:41:49.000+00:00",
+        "mod_version": "2.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/0986a138e00f7c888c19183adf86df079bdea0bde68ef88fc6a19caf06256910",
+        "description": "Base variant (recommended). Unlocks the seven devices on a new Expansion Tools page at the Anomaly research station (30 Salvaged Data each). Normal fishing jobs and normal casino odds. Updated for NMS 7.14.<br />",
+        "size_kb": 165,
+        "size_in_bytes": 169615,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/48/46/62/484662bd-fd54-4c6b-8901-22873af67f68"
       }
     ],
     "changelogs": {
