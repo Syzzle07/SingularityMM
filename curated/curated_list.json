@@ -699135,10 +699135,10 @@
     "mod_id": 4622,
     "name": "Nubilus (cloud overhaul)",
     "summary": "Overhauls the Clouds both on-ground and in-space.",
-    "version": "1.3",
+    "version": "1.3.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4622/4622-1791179457-2012069261.png",
     "author": "Somnati",
-    "updated_timestamp": 1794859530,
+    "updated_timestamp": 1794895334,
     "created_timestamp": 1791197253,
     "description": "[size=4][b]Expect updates as i am always fixing/improving stuff...or atleast trying to...\n<br />\n<br />Description\n<br />[/b][/size]CLOUDS NOW MATCH THE SPACE CLOUDS.\n<br />fly to a spot with no clouds...guess what...no clouds...\n<br />fly to a spot thats dense with clouds...heavy overcast!!!\n<br />\n<br />[color=#D4D4D8]Nubilus replaces No Man's Sky's clouds with real volumetric clouds that match from orbit to the ground. The cloud pattern you see from space is the same one you fly through, lit and fogged to match the sky around it, day and night.[/color]\n<br />\n<br />expect future updates/improvements. im always trying to fix little things that bug me when i play. Report any issues you have to me and i'll investigate.\n<br />\n<br />// KNOWN ISSUES\n<br />regarding v1.2 that just dropped...\n<br />as i play i still notice subtle things that bug me so this mod still has a way to go.\n<br />gas giants still need tweaking as well as moons but overall they work \"fine\".\n<br />\n<br />eclipses will hopefully come eventually but i pulled them cause they could be better.\n<br />stay tuned...\n<br />\n<br />[size=4][b]Installation instructions\n<br />[/b][/size]\n<br />// Why is Lunatus required:\n<br />[list]\n<br />[*][b]It's built as a pair:[/b] Nubilus was cut against Lunatus 1.5's exact build, and the clouds were tuned against Lunatus' fog and sky. The cloud colours, night look and planet transitions all assume Lunatus' haze.[/*]\n<br />[*][b]Some cloud behaviour lives in Lunatus' files:[/b] the far-world cloud hand-over, the climb-out transition, and the horizon band hugging the clouds from orbit.[/*]\n<br />[*][b]It's never been tested without Lunatus:[/b] it might run, but the clouds would sit in vanilla fog they weren't designed for.[/*]\n<br />[/list]\n<br />[list=1]\n<br />[*][color=#D4D4D8]Install Lunatus first (required).[/color][/*]\n<br />[*][color=#D4D4D8]Extract the zip.[/color][/*]\n<br />[*][color=#D4D4D8]Drop the Nubilus folder into ...&#92;No Man's Sky&#92;GAMEDATA&#92;MODS&#92; (create the MODS folder if it doesn't exist).[/color][/*]\n<br />[*][color=#D4D4D8]Restart the game. Works with new and existing saves.[/color][/*]\n<br />[/list][color=#D4D4D8]To uninstall, delete the Nubilus folder.[/color]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]One cloud pattern per planet: what you see from orbit is what you fly into, with a smooth fade from space down to the in-air clouds.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds take Lunatus' fog and sky colours, so they sit in the atmosphere instead of floating on top of it.[/color][/*]\n<br />[*][color=#D4D4D8]Shared day/night lighting from orbit and in the air: lit until sunset, a short warm afterglow, then dark night silhouettes.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds stay solid in front of moons and distant planets.[/color][/*]\n<br />[*][color=#D4D4D8]Clouds cast shadows on the ground, and lakes and oceans reflect them.[/color][/*]\n<br />[/list]\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky 7.04.[/color][/*]\n<br />[*][color=#D4D4D8]Lunatus (required: Nubilus reads Lunatus' fog and sky).[/color][/*]\n<br />[*][color=#D4D4D8]Conflicts with other mods that replace the cloud shaders.[/color]\n<br />Conflicts with other mods that change the SDR tone mapping. [/*]\n<br />[/list]\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]Hello Games, for the game's cloud and atmosphere systems this builds on.[/color][/*]\n<br />[*][color=#D4D4D8]monkeyman192 and contributors, for MBINCompiler and HGPAKtool.\n<br />- Claude AI[/color][/*]\n<br />[/list]",
     "state": "normal",
@@ -699478,9 +699478,9 @@
         "file_id": 50749,
         "name": "Nubilus 1.3 NMS7.10",
         "version": "1.3",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 30333,
         "file_name": "Nubilus 1.3 NMS7.10 4622 1.3 2026-11-16T20-05Z zYpLKAVLS.zip",
         "detected_file_extension": "zip",
@@ -699493,6 +699493,31 @@
         "size_in_bytes": 31061304,
         "changelog_html": "Nubilus 1.3 - New cloud lighting: a droplet-accurate phase function (stronger silver linings, softer sides) and calibrated multiple scattering (whiter tops seen from above, softer and lighter undersides, small clouds no longer glow like big ones), with a faint glory and fogbow on cloud tops below you when the sun is at your back. High cirrus seen from the ground is now a soft fibrous sheet whose streaks follow the wind. Far clouds are calmer: fine detail fades to its average once it is smaller than a pixel. About 5% more GPU time on the cloud pass (High / Medium cloud quality; Low and Potato unchanged). 6 files changed, copying over 1.2.8 is fine. Still pairs with Lunatus 1.7.5 (runs on 1.7.1 or newer).",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/24/4b/b4/244bb442-0685-44c5-aafd-48d1e30bbe65"
+      },
+      {
+        "id": [
+          50751,
+          1634
+        ],
+        "uid": 7017976612415,
+        "file_id": 50751,
+        "name": "Nubilus 1.3.1 NMS7.10",
+        "version": "1.3.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 30334,
+        "file_name": "Nubilus 1.3.1 NMS7.10 4622 1.3.1 2026-11-17T06-02Z UKXVZq4VE.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794895334,
+        "uploaded_time": "2026-11-17T06:02:14.000+00:00",
+        "mod_version": "1.3.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/69158b7e2fb9368b6ffa97fc88a7ae7f900d0888f55384ec814c95372bcd643d",
+        "description": null,
+        "size_kb": 30334,
+        "size_in_bytes": 31062133,
+        "changelog_html": "Nubilus 1.3.1 - The amount of high cirrus now varies from planet to planet (always the same on a given planet): some worlds have an almost clear high sky, most look like 1.3, some carry a thicker sheet. Same GPU cost. 2 files changed, copying over 1.3 is fine. Still pairs with Lunatus 1.7.5 (runs on 1.7.1 or newer).",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/01/df/7a/01df7a0c-756d-48c3-bbae-e80ecf21d169"
       }
     ],
     "changelogs": {
@@ -699545,6 +699570,9 @@
       ],
       "1.3": [
         "Nubilus 1.3 - New cloud lighting: a droplet-accurate phase function (stronger silver linings, softer sides) and calibrated multiple scattering (whiter tops seen from above, softer and lighter undersides, small clouds no longer glow like big ones), with a faint glory and fogbow on cloud tops below you when the sun is at your back. High cirrus seen from the ground is now a soft fibrous sheet whose streaks follow the wind. Far clouds are calmer: fine detail fades to its average once it is smaller than a pixel. About 5% more GPU time on the cloud pass (High / Medium cloud quality; Low and Potato unchanged). 6 files changed, copying over 1.2.8 is fine. Still pairs with Lunatus 1.7.5 (runs on 1.7.1 or newer)."
+      ],
+      "1.3.1": [
+        "Nubilus 1.3.1 - The amount of high cirrus now varies from planet to planet (always the same on a given planet): some worlds have an almost clear high sky, most look like 1.3, some carry a thicker sheet. Same GPU cost. 2 files changed, copying over 1.3 is fine. Still pairs with Lunatus 1.7.5 (runs on 1.7.1 or newer)."
       ]
     }
   },
@@ -706388,7 +706416,7 @@
     "version": "1.4.2",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4693/4693-1792646688-1779422195.png",
     "author": "CoyoteMax",
-    "updated_timestamp": 1794769807,
+    "updated_timestamp": 1794885777,
     "created_timestamp": 1792645348,
     "description": "STATUS:[color=#7f6000] [/color][color=#00ff00]FULLY FUNCTIONAL COMPANION . GO FORTH, INTERLOPER. EXPLORE THE SKIES OF NO MAN.[/color]\n<br />[line]\n<br />Have you ever noticed how your Exosuit can advise you on surviving extreme environments, crossing entire galaxies, navigating black holes, battling Sentinels, and repairing advanced technology... yet somehow still only knows a handful of stock phrases?  Of course you have.  Dynamic Suit Voice was created to address one of No Man's Sky's longest-standing immersion killers: repetition. \n<br />[line]\n<br />[size=5][b][color=#ffaa00]NEW IN VERSION 1.4.2: [/color][/b][/size]\n<br />[size=5][b][color=#ffaa00]YOU ASKED FOR IT, YOU GOT IT.  MORE VOICES TO CHOOSE FROM.  MALE AND FEMALE VOICES TOGETHER AT LAST. [/color][/b][/size]\n<br />Also: see Changelog.\n<br />[line]\n<br />[b][i][color=#b45f06][size=5][font=Arial Black]THIS IS NOT A VOICE PACK.   \n<br />THIS IS A VOICE GENERATION SYSTEM.[/font][/size][/color][/i][/b]\n<br />[b][size=2][font=Arial Black]It places voice files in the MODS directory, but that is where similarity to other voice mods ends. [/font][/size][/b]\n<br />\n<br />[b][size=2][font=Arial Black]Traditional voice mods provide a fixed collection of recordings. Dynamic Suit Voice generates replacements continuously during gameplay.  [/font][/size][/b]\n<br />\n<br />The result is an Exosuit AI that feels less like a glorified alert system and more like an actual companion traveling the universe alongside you.\n<br />\n<br />[color=#980000]** This is incompatible with other mods that change the suit voice by placing sound files in the MODS folder. [/color]\n<br />[line]\n<br />[b][size=4]EXAMPLE[/size][/b]\n<br />Original Game Wording: [i][b][color=#00ff00]Nearby toxins detected [/color][/b][/i]\n<br />Instead you might now hear: [i][color=#38761d]Corrosive environmental toxins are causing damage to your suit's protective filters[/color]. [/i]\n<br />The next time you approach: [i][color=#38761d]Corrosive environmental toxins are threatening the effectiveness of your suit's protective filters[/color].[/i]\n<br />And it will continue to generate new phrases: [i][color=#38761d]Corrosive environmental toxins are contaminating your suit’s protective filters[/color].[/i]\n<br />[i](These are actual examples that were generated while testing)[/i]\n<br />[line]\n<br />[size=4][b]Installation[/b][/size]\n<br />[color=#D4D4D8][i]Please observe that the ONE CLICK INSTALL has been removed for security and safety reasons.\n<br />Please observe that 3.11 is the only Python version officially supported at this time[/i]\n<br />STEPS:[/color]\n<br />[color=#D4D4D8]Install Git from https://git-scm.com/install/windows if you do not already have it - this is needed to get some assets, and will allow easy future updates.\n<br />Install Python 3.11 if you do not already have it. Extract the download, open a terminal in the extracted project folder, and run:\n<br />\n<br />py -3.11 installer.py\n<br />\n<br />Choose Automatic Mode for a streamlined setup, or run the installer steps individually (pausing between steps, user confirmations, and additional manual input events may be encountered). In either case, the installer is configured to create an isolated python environment, install dependencies, prepare local assets, and create a desktop shortcut.[/color]\n<br />[line]\n<br />[b][size=4]Usage[/size][/b]\n<br />After installation is complete, a No Man's Sky themed icon appears on the desktop; Double click to run. The control interface will open, and when it is ready you can \"Engage AI Core\". Recommendation is to wait for the launcher to finish loading assets before launching NMS itself to avoid possible conflicts. A No Man's Sky themed icon will also appear in your System Tray enabling full shutdown, or showing the Launcher window if it has been minimised.\n<br />\n<br />To customize the voice and adjust settings, use the Audio and Models panels in the control deck. Additional options and settings are available on various panels.\n<br />[line]\n<br />[size=4][b]Main features[/b][/size]\n<br />Primary design philosophy: Enhance the game experience without impacting gameplay performance.\n<br />[list]\n<br />[*][color=#D4D4D8]Replaces repetitive Exosuit notifications with continuously refreshed dialogue.[/color][/*]\n<br />[*][color=#D4D4D8]Designed to keep commonly repeated announcements feeling fresh throughout long play sessions.[/color][/*]\n<br />[*][color=#D4D4D8]Dynamic voice generation system that expands beyond the limitations of traditional voice-pack mods.[/color][/*]\n<br />[*][color=#D4D4D8]Works during active gameplay, allowing the voice library to evolve as you play.[/color][/*]\n<br />[*][color=#D4D4D8]Uses CPU inference by design, leaving your GPU available for No Man's Sky.[/color][/*]\n<br />[*]Additional configuration options available to tweak personality, tone, and wordiness to individual preferences [/*]\n<br />[*][color=#D4D4D8]Fully automated operation once installed and configured.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]Source code available on GitHub[/url] for transparency and community review.[/color][/*]\n<br />[*][color=#D4D4D8]Fully offline local operation once installed[/color][/*]\n<br />[*][color=#D4D4D8]No cloud services[/color][/*]\n<br />[*][color=#D4D4D8]No subscriptions[/color][/*]\n<br />[*][color=#D4D4D8]No paid API keys[/color][/*]\n<br />[*][color=#D4D4D8]Absolutely free[/color]\n<br />[/*]\n<br />[/list][line]\n<br />\n<br />[size=4][b]Requirements[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8]No Man's Sky (you could be an absolute madman and use this without NMS....  but...  why....)[/color][/*]\n<br />[*][color=#D4D4D8]Windows 11 recommended[/color][/*]\n<br />[*][color=#D4D4D8]Python 3.11 ([url=https://www.python.org/downloads/]https://www.python.org/downloads/[/url] if you do not already have it)[/color][/*]\n<br />[*][color=#D4D4D8]The included installer script [/color][/*]\n<br />[*][color=#D4D4D8]Internet connection during installation to download required resources[/color][/*]\n<br />[*][color=#D4D4D8]Additional dependencies installed automatically by the installer[/color][/*]\n<br />[/list][b]Recommended Hardware[/b]\n<br />[list]\n<br />[*]32GB+ system RAM[/*]\n<br />[*]Up to 15GB available disk space depending on configuration[/*]\n<br />[/list][quote][color=#D4D4D8][b]Worth Repeating:[/b] This is not a traditional standalone voice-pack mod. Dynamic Suit Voice relies on external scripts running alongside No Man's Sky in order to continuously generate and update voice lines during gameplay.[/color][/quote][b]NOTE:[/b]\n<br />The installation script assumes a default STEAM directory on a Windows 11 PC with Python 3.11 already in place. \n<br />Attempting to use other configurations or operating systems may be possible with some effort, but untested at this time\n<br />\n<br />[line]\n<br />[b][size=4]Technical Details [/size][/b]\n<br />[spoiler]Currently available on Github: [url=https://github.com/Bob-Harper/nms_dynamic_suit_voice]https://github.com/Bob-Harper/nms_dynamic_suit_voice[/url]\n<br />Available for discussion on Github or in the Posts for this mod page.[/spoiler]\n<br />\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />[list]\n<br />[*][color=#D4D4D8][[url=https://github.com/EternalLeo]EternalLeo[/url]] - his [[url=https://github.com/EternalLeo/sound2wem]sound2wem[/url]] utility acted as the springboard to launch this project and provided the original proof of concept. This project would not exist without his research.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/Kilvoctu]Kilvoctu[/url] Thank you for your excellent codebase contributions; especially for the code that monitors sound file access. Without your insights this might have been a short lived project since my original method stopped working after a game patch.[/color][/*]\n<br />[*][color=#D4D4D8][url=https://next.nexusmods.com/profile/69Alastor]69Alastor[/url] for ruthlessly exposing installer issues and for being patient while we armour plate the installation process.[/color][/*]\n<br />[*][color=#D4D4D8]Juggernaut, for being the one to convince me to release and share with like-minded players. Please direct all hate mail, rage posts, and trolling attempts to this individual for prompt and appropriate handling.[/color]\n<br />[code]Please fill in the provided form using pencil. Write legibly.\n<br />📋[/code][/*]\n<br />[*][color=#D4D4D8]All the suit voice modders on Nexus Mods, without whom I would not know which directory to monitor or that the game looks for WEM files. I downloaded every suit voice mod available when i started this, and examined every one of them. I do not recall which one I was looking at when my suspicions were confirmed. It may have been a comment on nexusmods from one of the feedback messages. It may have been between 4am and 6am when I finally tested and saw the correct directory was working. So thank you to every one of you, and the commenters as well.[/color][/*]\n<br />[*][color=#D4D4D8]Sean Murray and everyone at Hello Games for bringing to life the game I waited 25 years for.[/color][/*]\n<br />[/list]",
     "state": "normal",
@@ -706541,7 +706569,7 @@
         "description": "Addressed issues that were marking it as security issue to alleviate the need for manual review. refactored how it launches.",
         "size_kb": 9654,
         "size_in_bytes": 9886103,
-        "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.",
+        "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nCorrected an install bug that could affect pre-installed files if the installer was ran again.\nPatched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nGame appears to have changed how the files read.  changed process to a more robust method of monitoring reads.\nFixed TTS warmup import error",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/55/a3/83/55a383ba-0425-4cba-aa59-2afe22e3158d"
       },
       {
@@ -706566,7 +706594,7 @@
         "description": "Addressed issues that were marking it as security issue to alleviate the need for manual review. refactored how it launches.  fixed one last installer bug that would cause issues on a preinstalled version.",
         "size_kb": 9654,
         "size_in_bytes": 9885848,
-        "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.",
+        "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nCorrected an install bug that could affect pre-installed files if the installer was ran again.\nPatched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nGame appears to have changed how the files read.  changed process to a more robust method of monitoring reads.\nFixed TTS warmup import error",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/12/62/dc/1262dc35-34c9-45b0-9754-fc5d795cb7e4"
       },
       {
@@ -706591,7 +706619,7 @@
         "description": "Addressed issues that were marking it as security issue to alleviate the need for manual review. refactored how it launches.  fixed one last installer bug that would cause issues on a preinstalled version.",
         "size_kb": 9654,
         "size_in_bytes": 9885956,
-        "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.",
+        "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nCorrected an install bug that could affect pre-installed files if the installer was ran again.\nPatched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nGame appears to have changed how the files read.  changed process to a more robust method of monitoring reads.\nFixed TTS warmup import error",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/53/ad/e8/53ade827-7d39-4756-8cb8-983701c9b03c"
       },
       {
@@ -706616,7 +706644,7 @@
         "description": "Addressed issues that were marking it as security issue to alleviate the need for manual review. refactored how it launches.  fixed one last installer bug that would cause issues on a preinstalled version.  Last bugfix for this version, I promise.",
         "size_kb": 9657,
         "size_in_bytes": 9889535,
-        "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.",
+        "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nCorrected an install bug that could affect pre-installed files if the installer was ran again.\nPatched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nGame appears to have changed how the files read.  changed process to a more robust method of monitoring reads.\nFixed TTS warmup import error",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/b0/44/f6/b044f6a2-8c51-47ed-a694-b88bfc34e19f"
       },
       {
@@ -706641,7 +706669,7 @@
         "description": "Addressed issues that were marking it as security issue to alleviate the need for manual review. refactored how it launches.  fixed one last installer bug that would cause issues on a preinstalled version.  Last bugfix for this version, I promise.",
         "size_kb": 9658,
         "size_in_bytes": 9889966,
-        "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.",
+        "changelog_html": "Patched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nCorrected an install bug that could affect pre-installed files if the installer was ran again.\nPatched as many security issues as possible to placate the automated security scanners\nInstaller has been refactored to remove cmd scripting, manual install only, sorry folks.\nAdjusted Python dependencies required, removed obsolete calls.\nCentralized the voice replacement tool and configuration into a single launcher interface.\nAdded a debugging system to handle common concerns, and offer support for persistent issues.\nFuture optional updates can pull directly from source, or simply keep this stable working version.\nGame appears to have changed how the files read.  changed process to a more robust method of monitoring reads.\nFixed TTS warmup import error",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/03/29/b4/0329b455-1e24-466c-8a14-d69298ad08d2"
       },
       {
@@ -706666,7 +706694,7 @@
         "description": "Version: 1.4.2 (Nexus.QUEEG) ",
         "size_kb": 9663,
         "size_in_bytes": 9894947,
-        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU.",
+        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU\nFixed requirements.txt to include missing package.  Thank you t0rkel\nfixed typo in default config json keys.\nfixed default and user generated config creation during install process.\nmoved config creation and check to occur immediately after installing python requirements.\nAdded git requirement for wave2wem retrieval.\nadded better cache management.\nupdate preset voices to work with new tts and settings\nFIXED THE GAIN bug so they should play at proper volume in game.\nvoices can be generated and saved without any modulation and set with a single button.\ncheck boxes to enable/disable audio options will save to user config and persist.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/30/22/0b/30220b19-adec-4dd5-ab4e-4d7ea3cc7e82"
       },
       {
@@ -706691,7 +706719,7 @@
         "description": "Version: 1.4.2 (Nexus.QUEEG) ",
         "size_kb": 9662,
         "size_in_bytes": 9894044,
-        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU.",
+        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU\nFixed requirements.txt to include missing package.  Thank you t0rkel\nfixed typo in default config json keys.\nfixed default and user generated config creation during install process.\nmoved config creation and check to occur immediately after installing python requirements.\nAdded git requirement for wave2wem retrieval.\nadded better cache management.\nupdate preset voices to work with new tts and settings\nFIXED THE GAIN bug so they should play at proper volume in game.\nvoices can be generated and saved without any modulation and set with a single button.\ncheck boxes to enable/disable audio options will save to user config and persist.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/9d/b2/8f/9db28f54-bdb8-4ff5-9562-fe9f783a3cab"
       },
       {
@@ -706716,7 +706744,7 @@
         "description": "Version: 1.4.2 (Nexus.QUEEG) ",
         "size_kb": 9664,
         "size_in_bytes": 9896776,
-        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU.",
+        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU\nFixed requirements.txt to include missing package.  Thank you t0rkel\nfixed typo in default config json keys.\nfixed default and user generated config creation during install process.\nmoved config creation and check to occur immediately after installing python requirements.\nAdded git requirement for wave2wem retrieval.\nadded better cache management.\nupdate preset voices to work with new tts and settings\nFIXED THE GAIN bug so they should play at proper volume in game.\nvoices can be generated and saved without any modulation and set with a single button.\ncheck boxes to enable/disable audio options will save to user config and persist.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/11/7f/ec/117fecb9-3140-48f8-8bc8-be20d30e8ed1"
       },
       {
@@ -706741,7 +706769,7 @@
         "description": "Version: 1.4.2 (Nexus.QUEEG) ",
         "size_kb": 9664,
         "size_in_bytes": 9896876,
-        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU.",
+        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU\nFixed requirements.txt to include missing package.  Thank you t0rkel\nfixed typo in default config json keys.\nfixed default and user generated config creation during install process.\nmoved config creation and check to occur immediately after installing python requirements.\nAdded git requirement for wave2wem retrieval.\nadded better cache management.\nupdate preset voices to work with new tts and settings\nFIXED THE GAIN bug so they should play at proper volume in game.\nvoices can be generated and saved without any modulation and set with a single button.\ncheck boxes to enable/disable audio options will save to user config and persist.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/a9/65/16/a96516f7-4b9e-4248-862a-2e02c69c9512"
       },
       {
@@ -706753,9 +706781,9 @@
         "file_id": 50703,
         "name": "Nms Dynamic Suit Voice 1.4.2",
         "version": "1.4.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 9674,
         "file_name": "Nms Dynamic Suit Voice 1.4.2 4693 1.4.2 2026-11-15T19-10Z 2B5KARZKj.zip",
         "detected_file_extension": "zip",
@@ -706766,8 +706794,33 @@
         "description": "Version: 1.4.2 (Nexus.QUEEG) ",
         "size_kb": 9674,
         "size_in_bytes": 9906324,
-        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU.",
+        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU\nFixed requirements.txt to include missing package.  Thank you t0rkel\nfixed typo in default config json keys.\nfixed default and user generated config creation during install process.\nmoved config creation and check to occur immediately after installing python requirements.\nAdded git requirement for wave2wem retrieval.\nadded better cache management.\nupdate preset voices to work with new tts and settings\nFIXED THE GAIN bug so they should play at proper volume in game.\nvoices can be generated and saved without any modulation and set with a single button.\ncheck boxes to enable/disable audio options will save to user config and persist.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/f9/d8/5c/f9d85c24-8d25-46fb-b06b-0a4d71b5f85c"
+      },
+      {
+        "id": [
+          50750,
+          1634
+        ],
+        "uid": 7017976612414,
+        "file_id": 50750,
+        "name": "Nms Dynamic Suit Voice 1.4.2",
+        "version": "1.4.2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 9674,
+        "file_name": "Nms Dynamic Suit Voice 1.4.2 4693 1.4.2 2026-11-17T03-22Z cEkp5sXpv.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794885777,
+        "uploaded_time": "2026-11-17T03:22:57.000+00:00",
+        "mod_version": "1.4.2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/342cfcb01c9f3390d49977b2ff0cb26084470e6d0456936ba6d53d0d2a3658c9",
+        "description": "Version: 1.4.2 (Nexus.QUEEG) ",
+        "size_kb": 9674,
+        "size_in_bytes": 9907165,
+        "changelog_html": "Fixed a bug that would result in infinitely queued WEM cache top-up and block the game's audio while waiting for the replacement file.\nAdded oplock watching so the mod can once again track file access - THANK YOU KILVOCTU\nFixed requirements.txt to include missing package.  Thank you t0rkel\nfixed typo in default config json keys.\nfixed default and user generated config creation during install process.\nmoved config creation and check to occur immediately after installing python requirements.\nAdded git requirement for wave2wem retrieval.\nadded better cache management.\nupdate preset voices to work with new tts and settings\nFIXED THE GAIN bug so they should play at proper volume in game.\nvoices can be generated and saved without any modulation and set with a single button.\ncheck boxes to enable/disable audio options will save to user config and persist.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/b8/ca/86b8ca66-1891-4915-a08f-ed22a83927a7"
       }
     ],
     "changelogs": {
@@ -706816,7 +706869,11 @@
         "fixed default and user generated config creation during install process.",
         "moved config creation and check to occur immediately after installing python requirements.",
         "Added git requirement for wave2wem retrieval.",
-        "added better cache management."
+        "added better cache management.",
+        "update preset voices to work with new tts and settings",
+        "FIXED THE GAIN bug so they should play at proper volume in game.",
+        "voices can be generated and saved without any modulation and set with a single button.",
+        "check boxes to enable/disable audio options will save to user config and persist."
       ]
     }
   },
@@ -710183,7 +710240,7 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4743/4743-1793964838-2057803203.png",
     "author": "xXTheFerrymanXx",
-    "updated_timestamp": 1794827366,
+    "updated_timestamp": 1794898974,
     "created_timestamp": 1794240886,
     "description": "[center][size=6][b][color=#E0B354]CHARON SAVE MANAGER[/color][/b][/size]\n<br />[size=4][i]Every ship, base, item and stat in your save, in your hands.[/i][/size]\n<br />\n<br />Beta 0.7.0  ·  Windows · Linux / Steam Deck  ·  9 languages  ·  One file, nothing to install\n<br />[/center]\n<br />[center][b]Downloads, release notes on [url=https://github.com/xX-Charon-Xx/charon-save-manager-release/releases]GitHub[/url][/b][/center]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#E0B354]Total control over your save[/color][/b][/size]\n<br />\n<br />Charon Save Manager gives you control over your entire No Man's Sky save. Everything you own and everything you've done can be changed through an interface built like the game's own menus, in the game's own words and icons:\n<br />[list]\n<br />[*]Every ship and corvette, part by part[/*]\n<br />[*]Every item in every inventory[/*]\n<br />[*]Every base, settlement, frigate, companion and egg[/*]\n<br />[*]Every mission, milestone and reward[/*]\n<br />[*]Every standing, stat and difficulty setting[/*]\n<br />[/list]Anything without its own page is still a click away, in a searchable tree of the whole save. You never edit a text file or guess at a hex value.\n<br />\n<br />Every change can be undone and reviewed before you save, and every slot is backed up before it's written.\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#E0B354]What you can do[/color][/b][/size]\n<br />\n<br />[b][color=#E0B354]»[/color] Ships, corvettes and freighter[/b]\n<br />Rebuild ships part by part from the game's Starship Fabricator, and paint them from the outfitter's swatches. You can also:\n<br />[list]\n<br />[*]Make a new ship in an empty slot, or archive ships.[/*]\n<br />[*]Import and export ships and corvettes as .nmsship files or parts lists.[/*]\n<br />[*]Delete a corvette along with its ship.[/*]\n<br />[*]Sort a corvette's parts in priority order with the Optimiser.[/*]\n<br />[*]Change your freighter's class, seeds and captain.[/*]\n<br />[/list]\n<br />[b][color=#E0B354]»[/color] Inventories, exactly like the game's grid[/b]\n<br />This covers the Exosuit, every ship, multi-tool, exocraft, freighter and storage container. Drag several items at once, repair or unlock every slot, and resize, sort and stack inventories. Save Snapshots of an inventory and restore them later. Export or import tech slots and inventories as files.\n<br />\n<br />[b][color=#E0B354]»[/color] Appearance and multi-tools in 3D[/b]\n<br />Edit your look and outfits, and watch the 3D model change as you go. Multi-tools are shown in 3D too, in their own colours. You can also use Presets and import or export every outfit.\n<br />\n<br />[b][color=#E0B354]»[/color] Bases and settlements[/b]\n<br />Search, rename, teleport to, export, import or delete bases, and see each base's part limits. As overseer, you can change a settlement's:\n<br />[list]\n<br />[*]population, race and stats[/*]\n<br />[*]perks and production[/*]\n<br />[*]troubles and waiting decisions[/*]\n<br />[/list]\n<br />[b][color=#E0B354]»[/color] Increase limits[/b]\n<br />One click writes a small game mod that lifts corvette and base build limits: complexity, part counts and region limits. No save is changed, and one click removes the mod again.\n<br />\n<br />[b][color=#E0B354]»[/color] Teleporter[/b]\n<br />Travel anywhere in all 256 galaxies by portal glyphs, coordinates, galactic address or one of your bases. If you're stuck in rock or a building, [b]Get me unstuck[/b] lifts you out. You can also export where you've been to a spreadsheet.\n<br />\n<br />[b][color=#E0B354]»[/color] Fix what the game broke[/b]\n<br />[list]\n<br />[*]Careful fixes for stuck missions and expedition milestones.[/*]\n<br />[*][b]Claim again[/b] for rewards that never arrived.[/*]\n<br />[*][b]Replay old expeditions[/b] offline: 1 to 23, and every Redux.[/*]\n<br />[/list]\n<br />[spoiler]\n<br />[b]Companions and eggs:[/b] traits, size, moods and look seeds. Level a companion up for battles, reorder companions, and import or export them.\n<br />[b]Frigates and squadron:[/b] traits, grades, captains and pilots. Repair and recruit.\n<br />[b]Rewards:[/b] expedition rewards, Twitch drops, Quicksilver shop items, titles and appearance parts, on the account or in the save.\n<br />[b]Journey:[/b] standing with every race and guild, medals, milestones and every stat in the save.\n<br />[b]Knowledge:[/b] alien words, and technology, product and special blueprints.\n<br />[b]Game mode:[/b] all 30 difficulty settings, changed only as the game's own options would allow. You can also change the time played, and permadeath stays permadeath.\n<br />[b]Wonders:[/b] Wonder Projector records and Projector codes.\n<br />[b]ByteBeat:[/b] import and export songs and the whole library.\n<br />[b]Terrain edits:[/b] free up the save's 30,000-edit pool away from your bases.\n<br />[b]Built outside bases:[/b] save points, beacons, signal boosters and more.\n<br />[b]Item catalogue:[/b] every item with its recipes and uses. It works without a save.\n<br />[b]Raw JSON:[/b] the whole save as a searchable tree, with pins. Every JSON editor jumps straight to its record there.\n<br />[b]Find a page (Ctrl+K):[/b] search every base, ship, item and setting from one box.[/spoiler]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#E0B354]Built to keep your saves safe[/color][/b][/size]\n<br />[list]\n<br />[*][b]Automatic backups.[/b] The whole slot is backed up before every save, in [i]charon_backup[/i] inside your save folder. You can pin, compare and restore backups.[/*]\n<br />[*][b]Undo, Redo and Review changes.[/b] See exactly what will change, area by area, before you press Save.[/*]\n<br />[*][b]Checked before every write.[/b] A save the game changed in the meantime is never overwritten without asking.[/*]\n<br />[*][b]Rescue a slot[/b] that won't open, and [b]compare[/b] any two saves.[/*]\n<br />[*][b]Copy, move or swap slots[/b], or copy a slot to another account.[/*]\n<br />[*][b]Read-only mode[/b], to look around with no risk at all.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[size=5][b][color=#E0B354]Made for every player[/color][/b][/size]\n<br />[list]\n<br />[*][b]9 languages:[/b] English, Deutsch, Français, Español, Português (Brasil), Русский, 简体中文, 日本語 and 한국어. The language switches at once, and the game's own names are used throughout.[/*]\n<br />[*][b]Mouse and keyboard, or Touch mode[/b] for Steam Deck.[/*]\n<br />[*][b]One portable file.[/b] You don't need .NET, Java, a browser or an installer.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[size=5][b][color=#E0B354]Getting started[/color][/b][/size]\n<br />[list=1]\n<br />[*][b]Keep a copy of your save folder.[/b] Every slot is backed up before saving, but this is a beta.[/*]\n<br />[*]Download the file for your system and run it. On Linux, run [i]chmod +x[/i] on it first.[/*]\n<br />[*]Windows may warn about an unknown publisher, because the program isn't signed yet. Choose [i]More info[/i], then [i]Run anyway[/i].[/*]\n<br />[*]Pick your slot in the title bar, make your changes, and press [b]Save[/b].[/*]\n<br />[*]Save from the game's main menu, or with the game closed.[/*]\n<br />[/list]\n<br />[size=5][b][color=#E0B354]Requirements[/color][/b][/size]\n<br />[list]\n<br />[*]No Man's Sky on [b]Steam or GOG[/b] (PC). Xbox / Game Pass and PlayStation saves aren't supported.[/*]\n<br />[*][b]Windows:[/b] tested with real saves and in the game.[/*]\n<br />[*][b]Linux / Steam Deck:[/b] a build is provided but hasn't been tried on a real machine yet. Feedback is welcome.[/*]\n<br />[*][b]macOS:[/b] not provided yet.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[size=5][b][color=#E0B354]Status and feedback[/color][/b][/size]\n<br />[b]Beta 0.7.0.[/b] Most features have been tried in the game, but not all of them. If something looks wrong, tell us which save slot and what you did, in the [b]Posts[/b] tab or on our Discord.\n<br />\n<br />[size=5][b][color=#E0B354]Credits[/color][/b][/size]\n<br />[list]\n<br />[*][url=https://github.com/monkeyman192/MBINCompiler]MBINCompiler[/url] by monkeyman192 and contributors, for the save key names.[/*]\n<br />[*]The old expedition files for offline replay are by cwmonkey.[/*]\n<br />[*]The full list of libraries and licences is under Settings &gt; About.[/*]\n<br />[/list][size=2][i]No Man's Sky is a trademark of Hello Games. This is a fan-made tool. It isn't made or endorsed by Hello Games.[/i][/size]\n<br />\n<br />[center][size=4][url=https://charon.gg/][b]Visit Charon[/b][/url]  ·  [url=https://discord.com/invite/charontheferryman][b]Join our Discord[/b][/url][/size][/center]\n<br />",
     "state": "normal",
@@ -710298,9 +710355,9 @@
         "file_id": 50738,
         "name": "CharonSaveManager 0.10.2 Beta Windows",
         "version": "0.10.2-beta",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 48269,
         "file_name": "CharonSaveManager 0.10.2 Beta Windows 4743 0.10.2-beta 2026-11-16T11-03Z SxEYBfKYV.exe",
         "detected_file_extension": "exe",
@@ -710363,6 +710420,31 @@
         "size_in_bytes": 38474946,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ae/6a/29/ae6a29e3-0b2d-413a-bd02-62787df3820b"
+      },
+      {
+        "id": [
+          50753,
+          1634
+        ],
+        "uid": 7017976612417,
+        "file_id": 50753,
+        "name": "CharonSaveManager 0.10.2 Beta Windows",
+        "version": "0.10.2-beta",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 37809,
+        "file_name": "CharonSaveManager 0.10.2 Beta Windows 4743 0.10.2-beta 2026-11-17T07-02Z UKXVZq4VB.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794898973,
+        "uploaded_time": "2026-11-17T07:02:53.000+00:00",
+        "mod_version": "0.10.2-beta",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/4b0de6cf6ecc3b66ccb2f19883c52ac878a4785f086fde44561573d4ce24aa22",
+        "description": "",
+        "size_kb": 37809,
+        "size_in_bytes": 38717205,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6c/e7/e8/6ce7e805-4889-4b2a-92a3-dfe5be6aed97"
       }
     ],
     "changelogs": {}
@@ -716192,9 +716274,9 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4809/4809-1794828370-1975300315.jpg",
     "author": "cjg67",
-    "updated_timestamp": 1794828537,
+    "updated_timestamp": 1794900838,
     "created_timestamp": 1794828537,
-    "description": "[size=4][b]Description[/b][/size]\n<br />\n<br />[b]What This Mod Does[/b]\n<br />Stops random passive freighter fleets from constantly warping in around your ship every time you leave a planet's atmosphere, exit a space station, or leave the Space Anomaly. Restores the cleaner, quieter space travel experience without constant freighter warp-in booms. \n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[*]1. Extract the zzz_NoAmbientFreighterWarpIns folder into your No Man's Sky&#92;GAMEDATA&#92;MODS directory.\n<br />2. Ensure mods are enabled (EnableMods set to true in Binaries&#92;SETTINGS&#92;GCUSERSETTINGSDATA.MXML).\n<br />3. (Optional) The .lua source script (NoAmbientFreighterWarpIns.lua) is included so you can rebuild or merge this mod with your own scripts using AMUMSS after future game updates.[/*]\n<br />[*]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />\n<br />Key Changes\n<br />• Disables Passive Fleet Warp-Ins: Sets FreighterSpawnRate to 0 inside GCAISPACESHIPGLOBALS.GLOBAL.MBIN.\n<br />• Keeps System Freighters Intact: Only blocks the constant proximity warp-in events triggered upon entering space; existing system freighters and normal space encounters remain unaffected.\n<br />\n<br />Compatibility\n<br />Prefixed with zzz_ so it loads after other spaceship global mods (GCAISPACESHIPGLOBALS.GLOBAL.MBIN). Do not use alongside mods that intentionally force instant freighter spawns.\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />Thank you to Google AI who created this .lua with me following instructions and extracting the needed files to make the mod.[/*]\n<br />",
+    "description": "[size=4][b]Description[/b][/size]\n<br />\n<br />[b]What This Mod Does[/b]\n<br />Stops random passive freighter fleets from constantly warping in around your ship every time you leave a planet's atmosphere, exit a space station, or leave the Space Anomaly. Restores the cleaner, quieter space travel experience without constant freighter warp-in booms.\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />[*]1. Extract the zzz_NoAmbientFreighterWarpIns folder into your No Man's Sky&#92;GAMEDATA&#92;MODS directory.\n<br />2. Ensure mods are enabled (EnableMods set to true in Binaries&#92;SETTINGS&#92;GCUSERSETTINGSDATA.MXML).\n<br />3. (Optional) The .lua source script (NoAmbientFreighterWarpIns.lua) is included so you can rebuild or merge this mod with your own scripts using AMUMSS after future game updates.[/*]\n<br />[*]\n<br />\n<br />[size=4][b]Main features[/b][/size]\n<br />\n<br />Key Changes\n<br />• Disables Passive Fleet Warp-Ins: Sets FreighterSpawnRate to 0 inside GCAISPACESHIPGLOBALS.GLOBAL.MBIN.\n<br />• Keeps System Freighters Intact: Only blocks the constant proximity warp-in events triggered upon entering space; existing system freighters and normal space encounters remain unaffected.\n<br />\n<br />Compatibility\n<br />Prefixed with zzz_ so it loads after other spaceship global mods (GCAISPACESHIPGLOBALS.GLOBAL.MBIN). Do not use alongside mods that intentionally force instant freighter spawns.\n<br />\n<br />[size=4][b]Shout outs[/b][/size]\n<br />Thank you to Google AI who created this .lua with me following instructions and extracting the needed files to make the mod.[/*]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -716222,6 +716304,31 @@
         "size_in_bytes": 1792,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/65/dc/72/65dc72e4-7458-4bbd-93b3-92ff5b73d7cd"
+      },
+      {
+        "id": [
+          50754,
+          1634
+        ],
+        "uid": 7017976612418,
+        "file_id": 50754,
+        "name": "Zzz NoSystemFreighters Optional",
+        "version": "1",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 1,
+        "file_name": "Zzz NoSystemFreighters Optional 4809 1 2026-11-17T07-33Z gb4dJyodA.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1794900838,
+        "uploaded_time": "2026-11-17T07:33:58.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/10ff7dfd09d30294ac4a121dd26f357389402e63c2ff1b35b029e386a9a8332f",
+        "description": "Use this to disable ALL system freighters.",
+        "size_kb": 1,
+        "size_in_bytes": 1880,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/08/6c/6b/086c6bd5-9179-4a5f-9c0f-41e03cf7a14d"
       }
     ],
     "changelogs": {}
