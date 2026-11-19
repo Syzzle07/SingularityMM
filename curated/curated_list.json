@@ -552834,7 +552834,7 @@
     "author": "Kherae",
     "updated_timestamp": 1756828362,
     "created_timestamp": 1724871271,
-    "description": "[quote]﻿I will no longer be updating this mod. I shoved NMS into cold storage. Tired of massive downloads for updates because HG can't do patching properly.[/quote]\n<br />Sets the minimum stat value to the maximum value on multitools, ships and freighters. Also has lua. Lua is honestly the intended way to use this.\n<br />\n<br />More technical:\n<br />Made script based off a script from Guardian9978 (I think was his name). Just takes the min value for each entry and sets it to the max. Yay, it works.\n<br />\n<br />[u][b]Since it was brought up: NO, this mod DOES NOT change class spawn weightings at all.\n<br />\n<br />[/b][/u]Will this have an EXML? Never, due to how it needs to be done.",
+    "description": "[quote]﻿I will no longer be updating this mod. I shoved NMS into cold storage. Tired of massive downloads for updates because HG can't do patching properly.[/quote]\n<br />Sets the minimum stat value to the maximum value on multitools, ships and freighters. Also has lua. Lua is honestly the intended way to use this.\n<br />\n<br />More technical:\n<br />Made script based off a script from Guardian9978 (I think was his name). Just takes the min value for each entry and sets it to the max. Yay, it works.\n<br />\n<br />[u][b]Since it was brought up: NO, this mod DOES NOT change class spawn weightings at all.\n<br />\n<br />[/b][/u]Why it it now EXML? Requirements to run were changed. Well, due to how it needs to be done, this isn't compatible with other mods that touch those values, you may get weird results. You may need to make your own adjustments.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -560809,12 +560809,12 @@
     "mod_id": 3231,
     "name": "New Autophage Head",
     "summary": "More drip for them clunkers",
-    "version": "7.00",
+    "version": "7.14",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3231/3231-1729095785-1640176043.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1789478829,
+    "updated_timestamp": 1795121483,
     "created_timestamp": 1729096670,
-    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />This mod introduces a new Autophage head customisation option for players to use in the Appearance Modifier machines found in game. Called \"Atmospheric Control Unit\", this head bears similarities to the shell of Sentinel Sentry drones patrolling the planets and features all the customisation options - players can assign custom colours to specific elements of this model and even don one of the 3 headmasks / cowls available for this bespoke race.\n<br />\n<br />This specific head model was extracted from Autophage NPCs found on planets, imported into the player character model and reworked to turn from rusted head bucket into a cleaner aesthetic to match the other Autophage head options.The end effect isn't perfect but it's good enough for me to release it into public.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;UI&#92;CHARACTERCUSTOMISATIONUIDATA.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CHARACTERCUSTOMISATIONDESCRIPTORGROUPSDATA.MBIN\n<br />\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;PLAYERCHARACTER.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;PLAYERCHARACTER.DESCRIPTOR.MBIN[/quote]\n<br />\n<br />[quote][b]Files added by this mod:[/b]\n<br />\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;NEWROBOTHEAD.SCENE.MBIN\n<br />\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;NPCROBOT&#92;ROBOTHEADMAIN.MATERIAL.MBIN\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;NPCROBOT&#92;ROBOTHEADDETAIL.MATERIAL.MBIN\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;NPCROBOT&#92;ROBOTHEADINNER.MATERIAL.MBIN\n<br />\n<br />TEXTURES&#92;COMMON&#92;ROBOTS&#92;ROBOTHEADMAIN.TEXTURE.MBIN\n<br />TEXTURES&#92;COMMON&#92;ROBOTS&#92;ROBOTHEADDETAIL.TEXTURE.MBIN\n<br />\n<br />+ bunch of DDS textures[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />⚠️ Full MBIN replacement\n<br />\n<br />This mod will conflict with any other mod affecting the same game files. Currently it's not possible to create an EXML patch version of this mod.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script and the TEXTURES folder.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory and the TEXTURES folder into [b]AMUMMS&#92;ModScript&#92;GlobalMEFTI[/b] directory.\n<br />\n<br />Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Known issues[/b][/size]\n<br />\n<br />[quote]When interacting with the Appearance Modifier machine while already wearing the new head option, the game will render a floating copy of this head around the player. It is recommended to interact with the machine from maximum available distance to push the head outside of the player character preview.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Credits[/b][/size]\n<br />\n<br />WinderTP and various members of NMS modding Discord server - for helping me with the process of importing the stuff onto player character",
+    "description": "[size=5][b]Description[/b][/size]\n<br />\n<br />This mod introduces a new Autophage head customisation option for players to use in the Appearance Modifier machines found in game. Called \"Atmospheric Control Unit\", this head bears similarities to the shell of Sentinel Sentry drones patrolling the planets and features all the customisation options - players can assign custom colours to specific elements of this model and even don one of the 3 headmasks / cowls available for this bespoke race.\n<br />\n<br />This specific head model was extracted from Autophage NPCs found on planets, imported into the player character model and reworked to turn from rusted head bucket into a cleaner aesthetic to match the other Autophage head options.The end effect isn't perfect but it's good enough for me to release it into public.\n<br />\n<br />Version 7.14 allows players to specify the eye indicator colour independently from the general accent colour shared with the various Autophage cowls using the Line Colour picker option.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;UI&#92;CHARACTERCUSTOMISATIONUIDATA.MBIN\n<br />METADATA&#92;GAMESTATE&#92;PLAYERDATA&#92;CHARACTERCUSTOMISATIONDESCRIPTORGROUPSDATA.MBIN\n<br />\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;PLAYERCHARACTER.SCENE.MBIN\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;PLAYERCHARACTER.DESCRIPTOR.MBIN[/quote]\n<br />\n<br />[quote][b]Files added by this mod:[/b]\n<br />\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;NEWROBOTHEAD.SCENE.MBIN\n<br />\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;NPCROBOT&#92;ROBOTHEADMAIN.MATERIAL.MBIN\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;NPCROBOT&#92;ROBOTHEADDETAIL.MATERIAL.MBIN\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;NPCROBOT&#92;ROBOTHEADINNER.MATERIAL.MBIN\n<br />\n<br />TEXTURES&#92;COMMON&#92;ROBOTS&#92;ROBOTHEADMAIN.TEXTURE.MBIN\n<br />TEXTURES&#92;COMMON&#92;ROBOTS&#92;ROBOTHEADDETAIL.TEXTURE.MBIN\n<br />\n<br />+ bunch of DDS textures[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br /> ⚠️✅ mixed mod (MBIN + EXML files)\n<br />\n<br />This mod will conflict with any other mod affecting the same MBIN game files. This mod introduces new files which are required by the game to utilize the MBIN format. LUA script is provided in order to help users update the mod with AMUMSS..[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[quote][b]Installation with LUA script (AMUMSS)[/b]\n<br />\n<br />Download the provided ZIP archive and extract the LUA script and the TEXTURES folder.\n<br />\n<br />Copy the LUA script into [b]AMUMMS&#92;ModScript[/b] directory and the TEXTURES folder into [b]AMUMMS&#92;ModScript&#92;GlobalMEFTI[/b] directory.\n<br />\n<br />Run the [b]AMUMMS&#92;BUILDMOD.bat[/b] script and follow the instructions in command window to compile the mod.\n<br />\n<br />If you experience problems with using AMUMSS, please refer to the [url=https://www.nexusmods.com/nomanssky/mods/2626]How To Use AMUMSS[/url] guide.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Known issues[/b][/size]\n<br />\n<br />[quote]When interacting with the Appearance Modifier machine while already wearing the new head option, the game will render a floating copy of this head around the player. It is recommended to interact with the machine from maximum available distance to push the head outside of the player character preview.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Credits[/b][/size]\n<br />\n<br />WinderTP and various members of NMS modding Discord server - for helping me with the process of importing the stuff onto player character",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -560841,7 +560841,7 @@
         "size_kb": 12191,
         "size_in_bytes": 12483729,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3231/New Autophage Head - PAK-3231-5-12-1729096155.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3231/New Autophage Head - PAK-3231-5-12-1729096155.zip.json"
       },
       {
         "id": [
@@ -560866,7 +560866,7 @@
         "size_kb": 11692,
         "size_in_bytes": 11972334,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3231/New Autophage Head - LUA-3231-5-12-1729096260.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3231/New Autophage Head - LUA-3231-5-12-1729096260.zip.json"
       },
       {
         "id": [
@@ -560891,7 +560891,7 @@
         "size_kb": 12185,
         "size_in_bytes": 12477309,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3231/New Autophage Head - PAK-3231-5-20-1729753752.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3231/New Autophage Head - PAK-3231-5-20-1729753752.zip.json"
       },
       {
         "id": [
@@ -560916,7 +560916,7 @@
         "size_kb": 11838,
         "size_in_bytes": 12121673,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-5-58-1742159446.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-5-58-1742159446.zip.json"
       },
       {
         "id": [
@@ -560941,7 +560941,7 @@
         "size_kb": 11842,
         "size_in_bytes": 12126172,
         "changelog_html": "updated for game version 5.61 (Relics)\nadded support for Mod Catalogue Framework",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-5-61-1743530701.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-5-61-1743530701.zip.json"
       },
       {
         "id": [
@@ -560966,7 +560966,7 @@
         "size_kb": 12172,
         "size_in_bytes": 12463758,
         "changelog_html": "updated for game version 5.73 (Beacon)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-5-73-1751642852.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-5-73-1751642852.zip.json"
       },
       {
         "id": [
@@ -560991,7 +560991,7 @@
         "size_kb": 12171,
         "size_in_bytes": 12462711,
         "changelog_html": "updated for game version 6.00 (Voyagers)\nremoved support for Mod Catalogue Framework",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-6-00-1756625074.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-6-00-1756625074.zip.json"
       },
       {
         "id": [
@@ -561016,7 +561016,7 @@
         "size_kb": 12161,
         "size_in_bytes": 12452900,
         "changelog_html": "updated for game version 6.20 (Remnant)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-6-20-1770918051.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-6-20-1770918051.zip.json"
       },
       {
         "id": [
@@ -561041,7 +561041,7 @@
         "size_kb": 12162,
         "size_in_bytes": 12453439,
         "changelog_html": "updated for game version 6.40 (Swarm)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-6-40-1780222375.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3231/New Autophage Head - ZIP-3231-6-40-1780222375.zip.json"
       },
       {
         "id": [
@@ -561052,8 +561052,8 @@
         "file_id": 48621,
         "name": "New Autophage Head",
         "version": "7.00",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 12162,
         "file_name": "New Autophage Head 3231 7.00 2026-09-15T13-27Z oPfwFLsqI.zip",
@@ -561066,7 +561066,32 @@
         "size_kb": 12162,
         "size_in_bytes": 12454656,
         "changelog_html": "updated for game version 7.00 (Cosmos)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3231/55/1d/cb/551dcb29-0eae-4385-a5b1-fe730d4e6278.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/55/1d/cb/551dcb29-0eae-4385-a5b1-fe730d4e6278"
+      },
+      {
+        "id": [
+          50774,
+          1634
+        ],
+        "uid": 7017976612438,
+        "file_id": 50774,
+        "name": "New Autophage Head",
+        "version": "7.14",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 11996,
+        "file_name": "New Autophage Head 3231 7.14 2026-11-19T20-51Z YjQ5seMQ5.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795121483,
+        "uploaded_time": "2026-11-19T20:51:23.000+00:00",
+        "mod_version": "7.14",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/508f48fb727155ff561cfbd3d1b9891538f69f7c460576db10b662fbc2ebee1b",
+        "description": "",
+        "size_kb": 11996,
+        "size_in_bytes": 12284608,
+        "changelog_html": "fixed an issue where outer shell would appear too dark\nadded option to select eye colour (Line Colour) independently from general accent colour",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/30/64/67/30646734-bd88-468b-9c4e-20473356a823"
       }
     ],
     "changelogs": {
@@ -561089,6 +561114,10 @@
       ],
       "7.00": [
         "updated for game version 7.00 (Cosmos)"
+      ],
+      "7.14": [
+        "fixed an issue where outer shell would appear too dark",
+        "added option to select eye colour (Line Colour) independently from general accent colour"
       ]
     }
   },
