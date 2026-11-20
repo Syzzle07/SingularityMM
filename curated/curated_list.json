@@ -477725,12 +477725,12 @@
     "mod_id": 2756,
     "name": "Miscellaneous Text Fixes",
     "summary": "Somebody's gotta do it, right?",
-    "version": "6.45",
+    "version": "7.14",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2756/2756-1681587739-77268136.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1782752200,
+    "updated_timestamp": 1795199295,
     "created_timestamp": 1681587893,
-    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod aims to fix various text inconsistencies, misleading descriptions and typos found in No Man's Sky. The fixes from this mod apply to English language only.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;REALITY&#92;TABLES&#92;CONSUMABLEITEMTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_REALITY_GCPRODUCTTABLE.MBIN\n<br />\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;CRASHEDFREIGHTER&#92;PARTS&#92;CONTAINERTERMINAL&#92;ENTITIES&#92;TERMINALCHAR.ENTITY.MBIN[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />✅ EXML patch mod\n<br />\n<br />This mod is likely to work with other mods modifying the same files.\n<br />\n<br />Because of the simplicity of this mod and new mod loading system, LUA script will be no longer provided.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Credits[/size][/b]\n<br />\n<br />[list]\n<br />[*]bk201- pointing out typos, providing feedback on changes[/*]\n<br />[*]Devilin Pixy, Lenni, members of the NMS Discord - pointing out typos[/*]\n<br />[*]Gumsk, Lyravega, Alchemist, Wberto - LUA script optimizations[/*]\n<br />[/list]",
+    "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod aims to fix various text inconsistencies, misleading descriptions and typos found in No Man's Sky. The fixes from this mod apply to English language only.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;REALITY&#92;TABLES&#92;CONSUMABLEITEMTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_REALITY_GCPRODUCTTABLE.MBIN\n<br />\n<br />METADATA&#92;SIMULATION&#92;MISSIONS&#92;TABLES&#92;COREMISSIONTABLE.MBIN\n<br />\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;CRASHEDFREIGHTER&#92;PARTS&#92;CONTAINERTERMINAL&#92;ENTITIES&#92;TERMINALCHAR.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;ROBOTS&#92;SWARMDRONE_PLANET&#92;ENTITIES&#92;SWARMDRONEPLANETDATA.ENTITY.MBIN[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />✅ EXML patch mod\n<br />\n<br />This mod is likely to work with other mods modifying the same files.\n<br />\n<br />Because of the simplicity of this mod and new mod loading system, LUA script will be no longer provided.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Credits[/size][/b]\n<br />\n<br />[list]\n<br />[*]bk201- pointing out typos, providing feedback on changes[/*]\n<br />[*]Devilin Pixy, Lenni, members of the NMS Discord - pointing out typos[/*]\n<br />[*]Gumsk, Lyravega, Alchemist, Wberto - LUA script optimizations[/*]\n<br />[/list]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -477748,6 +477748,7 @@
         "is_primary": false,
         "size": 2984,
         "file_name": "Misc Text Fixes - PAK-2756-4-22-1681583023.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1681583023,
         "uploaded_time": "2023-04-15T18:23:43.000+00:00",
         "mod_version": "4.22",
@@ -477756,7 +477757,7 @@
         "size_kb": 2984,
         "size_in_bytes": 3056044,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-22-1681583023.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-22-1681583023.zip.json"
       },
       {
         "id": [
@@ -477772,6 +477773,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "Misc Text Fixes - LUA-2756-4-22-1681583056.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1681583056,
         "uploaded_time": "2023-04-15T18:24:16.000+00:00",
         "mod_version": "4.22",
@@ -477780,7 +477782,7 @@
         "size_kb": 4,
         "size_in_bytes": 3695,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-22-1681583056.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-22-1681583056.zip.json"
       },
       {
         "id": [
@@ -477796,6 +477798,7 @@
         "is_primary": false,
         "size": 3559,
         "file_name": "Misc Text Fixes - PAK-2756-4-23-1683921199.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1683921199,
         "uploaded_time": "2023-05-12T19:53:19.000+00:00",
         "mod_version": "4.23",
@@ -477804,7 +477807,7 @@
         "size_kb": 3559,
         "size_in_bytes": 3643969,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-23-1683921199.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-23-1683921199.zip.json"
       },
       {
         "id": [
@@ -477820,6 +477823,7 @@
         "is_primary": false,
         "size": 12,
         "file_name": "Misc Text Fixes - LUA-2756-4-23-1683921249.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1683921249,
         "uploaded_time": "2023-05-12T19:54:09.000+00:00",
         "mod_version": "4.23",
@@ -477828,7 +477832,7 @@
         "size_kb": 12,
         "size_in_bytes": 12656,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-23-1683921249.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-23-1683921249.zip.json"
       },
       {
         "id": [
@@ -477844,6 +477848,7 @@
         "is_primary": false,
         "size": 3561,
         "file_name": "Misc Text Fixes - PAK-2756-4-26-1685800324.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1685800324,
         "uploaded_time": "2023-06-03T13:52:04.000+00:00",
         "mod_version": "4.26",
@@ -477852,7 +477857,7 @@
         "size_kb": 3561,
         "size_in_bytes": 3646465,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-26-1685800324.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-26-1685800324.zip.json"
       },
       {
         "id": [
@@ -477868,6 +477873,7 @@
         "is_primary": false,
         "size": 13,
         "file_name": "Misc Text Fixes - LUA-2756-4-26-1685800354.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1685800354,
         "uploaded_time": "2023-06-03T13:52:34.000+00:00",
         "mod_version": "4.26",
@@ -477876,7 +477882,7 @@
         "size_kb": 13,
         "size_in_bytes": 13016,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-26-1685800354.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-26-1685800354.zip.json"
       },
       {
         "id": [
@@ -477892,6 +477898,7 @@
         "is_primary": false,
         "size": 3600,
         "file_name": "Misc Text Fixes - PAK-2756-4-30-1686208688.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1686208688,
         "uploaded_time": "2023-06-08T07:18:08.000+00:00",
         "mod_version": "4.30",
@@ -477900,7 +477907,7 @@
         "size_kb": 3600,
         "size_in_bytes": 3686785,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-30-1686208688.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-30-1686208688.zip.json"
       },
       {
         "id": [
@@ -477916,6 +477923,7 @@
         "is_primary": false,
         "size": 14,
         "file_name": "Misc Text Fixes - LUA-2756-4-30-1686208794.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1686208794,
         "uploaded_time": "2023-06-08T07:19:54.000+00:00",
         "mod_version": "4.30",
@@ -477924,7 +477932,7 @@
         "size_kb": 14,
         "size_in_bytes": 14079,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-30-1686208794.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-30-1686208794.zip.json"
       },
       {
         "id": [
@@ -477940,6 +477948,7 @@
         "is_primary": false,
         "size": 132,
         "file_name": "Hotfix - LOC8 - PAK-2756-4-33-1686673215.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1686673215,
         "uploaded_time": "2023-06-13T16:20:15.000+00:00",
         "mod_version": "4.33",
@@ -477948,7 +477957,7 @@
         "size_kb": 132,
         "size_in_bytes": 135230,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Hotfix - LOC8 - PAK-2756-4-33-1686673215.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Hotfix - LOC8 - PAK-2756-4-33-1686673215.zip.json"
       },
       {
         "id": [
@@ -477964,6 +477973,7 @@
         "is_primary": false,
         "size": 3602,
         "file_name": "Misc Text Fixes - PAK-2756-4-38-1691047463.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1691047463,
         "uploaded_time": "2023-08-03T07:24:23.000+00:00",
         "mod_version": "4.38",
@@ -477972,7 +477982,7 @@
         "size_kb": 3602,
         "size_in_bytes": 3688539,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-38-1691047463.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-38-1691047463.zip.json"
       },
       {
         "id": [
@@ -477988,6 +477998,7 @@
         "is_primary": false,
         "size": 15,
         "file_name": "Misc Text Fixes - LUA-2756-4-38-1691047497.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1691047497,
         "uploaded_time": "2023-08-03T07:24:57.000+00:00",
         "mod_version": "4.38",
@@ -477996,7 +478007,7 @@
         "size_kb": 15,
         "size_in_bytes": 15169,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-38-1691047497.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-38-1691047497.zip.json"
       },
       {
         "id": [
@@ -478012,6 +478023,7 @@
         "is_primary": false,
         "size": 3784,
         "file_name": "Misc Text Fixes - PAK-2756-4-40-1692892763.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1692892763,
         "uploaded_time": "2023-08-24T15:59:23.000+00:00",
         "mod_version": "4.40",
@@ -478020,7 +478032,7 @@
         "size_kb": 3784,
         "size_in_bytes": 3874917,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-40-1692892763.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-4-40-1692892763.zip.json"
       },
       {
         "id": [
@@ -478036,6 +478048,7 @@
         "is_primary": false,
         "size": 15,
         "file_name": "Misc Text Fixes - LUA-2756-4-40-1692892801.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1692892801,
         "uploaded_time": "2023-08-24T16:00:01.000+00:00",
         "mod_version": "4.40",
@@ -478044,7 +478057,7 @@
         "size_kb": 15,
         "size_in_bytes": 15082,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-40-1692892801.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-4-40-1692892801.zip.json"
       },
       {
         "id": [
@@ -478060,6 +478073,7 @@
         "is_primary": false,
         "size": 3770,
         "file_name": "Miscellaneous Text Fixes - PAK-2756-4-42-1693312436.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1693312437,
         "uploaded_time": "2023-08-29T12:33:57.000+00:00",
         "mod_version": "4.42",
@@ -478068,7 +478082,7 @@
         "size_kb": 3770,
         "size_in_bytes": 3860347,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK-2756-4-42-1693312436.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK-2756-4-42-1693312436.zip.json"
       },
       {
         "id": [
@@ -478084,6 +478098,7 @@
         "is_primary": false,
         "size": 3770,
         "file_name": "Miscellaneous Text Fixes - PAK-2756-4-43-1693413217.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1693413217,
         "uploaded_time": "2023-08-30T16:33:37.000+00:00",
         "mod_version": "4.43",
@@ -478092,7 +478107,7 @@
         "size_kb": 3770,
         "size_in_bytes": 3860845,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK-2756-4-43-1693413217.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK-2756-4-43-1693413217.zip.json"
       },
       {
         "id": [
@@ -478108,6 +478123,7 @@
         "is_primary": false,
         "size": 3782,
         "file_name": "Miscellaneous Text Fixes - PAK-2756-4-44-1694111162.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1694111162,
         "uploaded_time": "2023-09-07T18:26:02.000+00:00",
         "mod_version": "4.44",
@@ -478116,7 +478132,7 @@
         "size_kb": 3782,
         "size_in_bytes": 3872635,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK-2756-4-44-1694111162.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK-2756-4-44-1694111162.zip.json"
       },
       {
         "id": [
@@ -478132,6 +478148,7 @@
         "is_primary": false,
         "size": 15,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-45-1695131038.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1695131038,
         "uploaded_time": "2023-09-19T13:43:58.000+00:00",
         "mod_version": "4.45",
@@ -478140,7 +478157,7 @@
         "size_kb": 15,
         "size_in_bytes": 15144,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-45-1695131038.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-45-1695131038.zip.json"
       },
       {
         "id": [
@@ -478156,6 +478173,7 @@
         "is_primary": false,
         "size": 814,
         "file_name": "Miscellaneous Text Fixes - Hotfix - LOC7_8-2756-4-45-1695131152.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1695131152,
         "uploaded_time": "2023-09-19T13:45:52.000+00:00",
         "mod_version": "4.45",
@@ -478164,7 +478182,7 @@
         "size_kb": 814,
         "size_in_bytes": 833549,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - Hotfix - LOC7_8-2756-4-45-1695131152.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - Hotfix - LOC7_8-2756-4-45-1695131152.zip.json"
       },
       {
         "id": [
@@ -478180,6 +478198,7 @@
         "is_primary": false,
         "size": 125,
         "file_name": "Miscellaneous Text Fixes - PAK-2756-4-46-1702117131.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1702117131,
         "uploaded_time": "2023-12-09T10:18:51.000+00:00",
         "mod_version": "4.46",
@@ -478188,7 +478207,7 @@
         "size_kb": 125,
         "size_in_bytes": 127519,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK-2756-4-46-1702117131.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK-2756-4-46-1702117131.zip.json"
       },
       {
         "id": [
@@ -478204,6 +478223,7 @@
         "is_primary": false,
         "size": 9,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-46-1702117151.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1702117151,
         "uploaded_time": "2023-12-09T10:19:11.000+00:00",
         "mod_version": "4.46",
@@ -478212,7 +478232,7 @@
         "size_kb": 9,
         "size_in_bytes": 9177,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-46-1702117151.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-46-1702117151.zip.json"
       },
       {
         "id": [
@@ -478228,6 +478248,7 @@
         "is_primary": false,
         "size": 128,
         "file_name": "Miscellaneous Text Fixes - PAK-2756-4-46-1-1702158785.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1702158785,
         "uploaded_time": "2023-12-09T21:53:05.000+00:00",
         "mod_version": "4.46.1",
@@ -478236,7 +478257,7 @@
         "size_kb": 128,
         "size_in_bytes": 131358,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK-2756-4-46-1-1702158785.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK-2756-4-46-1-1702158785.zip.json"
       },
       {
         "id": [
@@ -478252,6 +478273,7 @@
         "is_primary": false,
         "size": 10,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-46-1-1702158822.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1702158822,
         "uploaded_time": "2023-12-09T21:53:42.000+00:00",
         "mod_version": "4.46.1",
@@ -478260,7 +478282,7 @@
         "size_kb": 10,
         "size_in_bytes": 10038,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-46-1-1702158822.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-46-1-1702158822.zip.json"
       },
       {
         "id": [
@@ -478276,6 +478298,7 @@
         "is_primary": false,
         "size": 11,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-47-1703607747.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1703607747,
         "uploaded_time": "2023-12-26T16:22:27.000+00:00",
         "mod_version": "4.47",
@@ -478284,7 +478307,7 @@
         "size_kb": 11,
         "size_in_bytes": 11070,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-47-1703607747.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-47-1703607747.zip.json"
       },
       {
         "id": [
@@ -478300,6 +478323,7 @@
         "is_primary": false,
         "size": 18,
         "file_name": "Miscellaneous Text Fixes - PAK - LANG module-2756-4-47-1703607809.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1703607809,
         "uploaded_time": "2023-12-26T16:23:29.000+00:00",
         "mod_version": "4.47",
@@ -478308,7 +478332,7 @@
         "size_kb": 18,
         "size_in_bytes": 18362,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG module-2756-4-47-1703607809.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG module-2756-4-47-1703607809.zip.json"
       },
       {
         "id": [
@@ -478324,6 +478348,7 @@
         "is_primary": false,
         "size": 103,
         "file_name": "Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-47-1703607866.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1703607866,
         "uploaded_time": "2023-12-26T16:24:26.000+00:00",
         "mod_version": "4.47",
@@ -478332,7 +478357,7 @@
         "size_kb": 103,
         "size_in_bytes": 105381,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-47-1703607866.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-47-1703607866.zip.json"
       },
       {
         "id": [
@@ -478348,6 +478373,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "Miscellaneous Text Fixes - PAK - CHAT module-2756-4-46-1703607937.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1703607937,
         "uploaded_time": "2023-12-26T16:25:37.000+00:00",
         "mod_version": "4.46",
@@ -478356,7 +478382,7 @@
         "size_kb": 4,
         "size_in_bytes": 3887,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CHAT module-2756-4-46-1703607937.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CHAT module-2756-4-46-1703607937.zip.json"
       },
       {
         "id": [
@@ -478372,6 +478398,7 @@
         "is_primary": false,
         "size": 6,
         "file_name": "Miscellaneous Text Fixes - PAK - TITLES module-2756-4-46-1703608000.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1703608000,
         "uploaded_time": "2023-12-26T16:26:40.000+00:00",
         "mod_version": "4.46",
@@ -478380,7 +478407,7 @@
         "size_kb": 6,
         "size_in_bytes": 5859,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - TITLES module-2756-4-46-1703608000.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - TITLES module-2756-4-46-1703608000.zip.json"
       },
       {
         "id": [
@@ -478396,6 +478423,7 @@
         "is_primary": false,
         "size": 24,
         "file_name": "Miscellaneous Text Fixes - PAK - LANG module-2756-4-48-1704732187.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1704732187,
         "uploaded_time": "2024-01-08T16:43:07.000+00:00",
         "mod_version": "4.48",
@@ -478404,7 +478432,7 @@
         "size_kb": 24,
         "size_in_bytes": 24810,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG module-2756-4-48-1704732187.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG module-2756-4-48-1704732187.zip.json"
       },
       {
         "id": [
@@ -478420,6 +478448,7 @@
         "is_primary": false,
         "size": 18,
         "file_name": "Miscellaneous Text Fixes - PAK - MISSION module-2756-4-48-1704732258.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1704732258,
         "uploaded_time": "2024-01-08T16:44:18.000+00:00",
         "mod_version": "4.48",
@@ -478428,7 +478457,7 @@
         "size_kb": 18,
         "size_in_bytes": 18180,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-48-1704732258.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-48-1704732258.zip.json"
       },
       {
         "id": [
@@ -478444,6 +478473,7 @@
         "is_primary": false,
         "size": 15,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-48-1704732325.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1704732325,
         "uploaded_time": "2024-01-08T16:45:25.000+00:00",
         "mod_version": "4.48",
@@ -478452,7 +478482,7 @@
         "size_kb": 15,
         "size_in_bytes": 14990,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-48-1704732325.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-48-1704732325.zip.json"
       },
       {
         "id": [
@@ -478468,6 +478498,7 @@
         "is_primary": false,
         "size": 103,
         "file_name": "Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-48-1-1705487524.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1705487524,
         "uploaded_time": "2024-01-17T10:32:04.000+00:00",
         "mod_version": "4.48.1",
@@ -478476,7 +478507,7 @@
         "size_kb": 103,
         "size_in_bytes": 105423,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-48-1-1705487524.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-48-1-1705487524.zip.json"
       },
       {
         "id": [
@@ -478492,6 +478523,7 @@
         "is_primary": false,
         "size": 26,
         "file_name": "Miscellaneous Text Fixes - PAK - LANG module-2756-4-48-1-1705487605.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1705487605,
         "uploaded_time": "2024-01-17T10:33:25.000+00:00",
         "mod_version": "4.48.1",
@@ -478500,7 +478532,7 @@
         "size_kb": 26,
         "size_in_bytes": 26521,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG module-2756-4-48-1-1705487605.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG module-2756-4-48-1-1705487605.zip.json"
       },
       {
         "id": [
@@ -478516,6 +478548,7 @@
         "is_primary": false,
         "size": 2,
         "file_name": "Miscellaneous Text Fixes - PAK - CARGOPOD module-2756-4-48-1-1705487673.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1705487673,
         "uploaded_time": "2024-01-17T10:34:33.000+00:00",
         "mod_version": "4.48.1",
@@ -478524,7 +478557,7 @@
         "size_kb": 2,
         "size_in_bytes": 2129,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CARGOPOD module-2756-4-48-1-1705487673.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CARGOPOD module-2756-4-48-1-1705487673.zip.json"
       },
       {
         "id": [
@@ -478540,6 +478573,7 @@
         "is_primary": false,
         "size": 18,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-48-1-1705487776.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1705487776,
         "uploaded_time": "2024-01-17T10:36:16.000+00:00",
         "mod_version": "4.48.1",
@@ -478548,7 +478582,7 @@
         "size_kb": 18,
         "size_in_bytes": 18235,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-48-1-1705487776.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-48-1-1705487776.zip.json"
       },
       {
         "id": [
@@ -478564,6 +478598,7 @@
         "is_primary": false,
         "size": 26,
         "file_name": "Miscellaneous Text Fixes - PAK - LANG module-2756-4-50-1707992552.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1707992552,
         "uploaded_time": "2024-02-15T10:22:32.000+00:00",
         "mod_version": "4.50",
@@ -478572,7 +478607,7 @@
         "size_kb": 26,
         "size_in_bytes": 26424,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG module-2756-4-50-1707992552.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG module-2756-4-50-1707992552.zip.json"
       },
       {
         "id": [
@@ -478588,6 +478623,7 @@
         "is_primary": false,
         "size": 106,
         "file_name": "Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-50-1707992612.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1707992612,
         "uploaded_time": "2024-02-15T10:23:32.000+00:00",
         "mod_version": "4.50",
@@ -478596,7 +478632,7 @@
         "size_kb": 106,
         "size_in_bytes": 108578,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-50-1707992612.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-50-1707992612.zip.json"
       },
       {
         "id": [
@@ -478612,6 +478648,7 @@
         "is_primary": false,
         "size": 6,
         "file_name": "Miscellaneous Text Fixes - PAK - TITLES module-2756-4-50-1707992659.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1707992659,
         "uploaded_time": "2024-02-15T10:24:19.000+00:00",
         "mod_version": "4.50",
@@ -478620,7 +478657,7 @@
         "size_kb": 6,
         "size_in_bytes": 5912,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - TITLES module-2756-4-50-1707992659.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - TITLES module-2756-4-50-1707992659.zip.json"
       },
       {
         "id": [
@@ -478636,6 +478673,7 @@
         "is_primary": false,
         "size": 5,
         "file_name": "Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-50-1707992721.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1707992721,
         "uploaded_time": "2024-02-15T10:25:21.000+00:00",
         "mod_version": "4.50",
@@ -478644,7 +478682,7 @@
         "size_kb": 5,
         "size_in_bytes": 4839,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-50-1707992721.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-50-1707992721.zip.json"
       },
       {
         "id": [
@@ -478660,6 +478698,7 @@
         "is_primary": false,
         "size": 19,
         "file_name": "Miscellaneous Text Fixes - PAK - MISSION module-2756-4-50-1707994482.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1707994482,
         "uploaded_time": "2024-02-15T10:54:42.000+00:00",
         "mod_version": "4.50",
@@ -478668,7 +478707,7 @@
         "size_kb": 19,
         "size_in_bytes": 19784,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-50-1707994482.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-50-1707994482.zip.json"
       },
       {
         "id": [
@@ -478684,6 +478723,7 @@
         "is_primary": false,
         "size": 18,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-50-1707994511.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1707994511,
         "uploaded_time": "2024-02-15T10:55:11.000+00:00",
         "mod_version": "4.50",
@@ -478692,7 +478732,7 @@
         "size_kb": 18,
         "size_in_bytes": 18652,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-50-1707994511.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-50-1707994511.zip.json"
       },
       {
         "id": [
@@ -478708,6 +478748,7 @@
         "is_primary": false,
         "size": 5,
         "file_name": "Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-51-1708187629.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1708187629,
         "uploaded_time": "2024-02-17T16:33:49.000+00:00",
         "mod_version": "4.51",
@@ -478716,7 +478757,7 @@
         "size_kb": 5,
         "size_in_bytes": 4990,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-51-1708187629.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-51-1708187629.zip.json"
       },
       {
         "id": [
@@ -478732,6 +478773,7 @@
         "is_primary": false,
         "size": 106,
         "file_name": "Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-52-1709145117.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1709145117,
         "uploaded_time": "2024-02-28T18:31:57.000+00:00",
         "mod_version": "4.52",
@@ -478740,7 +478782,7 @@
         "size_kb": 106,
         "size_in_bytes": 108564,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-52-1709145117.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-52-1709145117.zip.json"
       },
       {
         "id": [
@@ -478756,6 +478798,7 @@
         "is_primary": false,
         "size": 20,
         "file_name": "Miscellaneous Text Fixes - PAK - MISSION module-2756-4-52-1709145150.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1709145150,
         "uploaded_time": "2024-02-28T18:32:30.000+00:00",
         "mod_version": "4.52",
@@ -478764,7 +478807,7 @@
         "size_kb": 20,
         "size_in_bytes": 20141,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-52-1709145150.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-52-1709145150.zip.json"
       },
       {
         "id": [
@@ -478780,6 +478823,7 @@
         "is_primary": false,
         "size": 26,
         "file_name": "Miscellaneous Text Fixes - LANG-2756-4-60-1711569532.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1711569532,
         "uploaded_time": "2024-03-27T19:58:52.000+00:00",
         "mod_version": "4.60",
@@ -478788,7 +478832,7 @@
         "size_kb": 26,
         "size_in_bytes": 26355,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LANG-2756-4-60-1711569532.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LANG-2756-4-60-1711569532.zip.json"
       },
       {
         "id": [
@@ -478804,6 +478848,7 @@
         "is_primary": false,
         "size": 114,
         "file_name": "Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-60-1711569573.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1711569573,
         "uploaded_time": "2024-03-27T19:59:33.000+00:00",
         "mod_version": "4.60",
@@ -478812,7 +478857,7 @@
         "size_kb": 114,
         "size_in_bytes": 116627,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-60-1711569573.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-60-1711569573.zip.json"
       },
       {
         "id": [
@@ -478828,6 +478873,7 @@
         "is_primary": false,
         "size": 20,
         "file_name": "Miscellaneous Text Fixes - PAK - MISSION module-2756-4-60-1711569625.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1711569625,
         "uploaded_time": "2024-03-27T20:00:25.000+00:00",
         "mod_version": "4.60",
@@ -478836,7 +478882,7 @@
         "size_kb": 20,
         "size_in_bytes": 20322,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-60-1711569625.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-60-1711569625.zip.json"
       },
       {
         "id": [
@@ -478852,6 +478898,7 @@
         "is_primary": false,
         "size": 5,
         "file_name": "Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-60-1711569672.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1711569672,
         "uploaded_time": "2024-03-27T20:01:12.000+00:00",
         "mod_version": "4.60",
@@ -478860,7 +478907,7 @@
         "size_kb": 5,
         "size_in_bytes": 5048,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-60-1711569672.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-60-1711569672.zip.json"
       },
       {
         "id": [
@@ -478876,6 +478923,7 @@
         "is_primary": false,
         "size": 114,
         "file_name": "Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-64-1712671360.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1712671360,
         "uploaded_time": "2024-04-09T14:02:40.000+00:00",
         "mod_version": "4.64",
@@ -478884,7 +478932,7 @@
         "size_kb": 114,
         "size_in_bytes": 116681,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-64-1712671360.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-64-1712671360.zip.json"
       },
       {
         "id": [
@@ -478900,6 +478948,7 @@
         "is_primary": false,
         "size": 2,
         "file_name": "Miscellaneous Text Fixes - PAK - CARGO module-2756-4-65-1714572308.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1714572308,
         "uploaded_time": "2024-05-01T14:05:08.000+00:00",
         "mod_version": "4.65",
@@ -478908,7 +478957,7 @@
         "size_kb": 2,
         "size_in_bytes": 2116,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CARGO module-2756-4-65-1714572308.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CARGO module-2756-4-65-1714572308.zip.json"
       },
       {
         "id": [
@@ -478924,6 +478973,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "Miscellaneous Text Fixes - PAK - CHAT module-2756-4-65-1714572330.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1714572330,
         "uploaded_time": "2024-05-01T14:05:30.000+00:00",
         "mod_version": "4.65",
@@ -478932,7 +478982,7 @@
         "size_kb": 4,
         "size_in_bytes": 3692,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CHAT module-2756-4-65-1714572330.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CHAT module-2756-4-65-1714572330.zip.json"
       },
       {
         "id": [
@@ -478948,6 +478998,7 @@
         "is_primary": false,
         "size": 116,
         "file_name": "Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-65-1714572352.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1714572352,
         "uploaded_time": "2024-05-01T14:05:52.000+00:00",
         "mod_version": "4.65",
@@ -478956,7 +479007,7 @@
         "size_kb": 116,
         "size_in_bytes": 119197,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-65-1714572352.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT module-2756-4-65-1714572352.zip.json"
       },
       {
         "id": [
@@ -478972,6 +479023,7 @@
         "is_primary": false,
         "size": 26,
         "file_name": "Miscellaneous Text Fixes - PAK - LANG module-2756-4-65-1714572375.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1714572375,
         "uploaded_time": "2024-05-01T14:06:15.000+00:00",
         "mod_version": "4.65",
@@ -478980,7 +479032,7 @@
         "size_kb": 26,
         "size_in_bytes": 26276,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG module-2756-4-65-1714572375.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG module-2756-4-65-1714572375.zip.json"
       },
       {
         "id": [
@@ -478996,6 +479048,7 @@
         "is_primary": false,
         "size": 5,
         "file_name": "Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-65-1714572404.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1714572405,
         "uploaded_time": "2024-05-01T14:06:45.000+00:00",
         "mod_version": "4.65",
@@ -479004,7 +479057,7 @@
         "size_kb": 5,
         "size_in_bytes": 5039,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-65-1714572404.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MEMORY module-2756-4-65-1714572404.zip.json"
       },
       {
         "id": [
@@ -479020,6 +479073,7 @@
         "is_primary": false,
         "size": 20,
         "file_name": "Miscellaneous Text Fixes - PAK - MISSION module-2756-4-65-1714572429.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1714572429,
         "uploaded_time": "2024-05-01T14:07:09.000+00:00",
         "mod_version": "4.65",
@@ -479028,7 +479082,7 @@
         "size_kb": 20,
         "size_in_bytes": 20018,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-65-1714572429.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-65-1714572429.zip.json"
       },
       {
         "id": [
@@ -479044,6 +479098,7 @@
         "is_primary": false,
         "size": 6,
         "file_name": "Miscellaneous Text Fixes - PAK - TITLE module-2756-4-65-1714572453.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1714572453,
         "uploaded_time": "2024-05-01T14:07:33.000+00:00",
         "mod_version": "4.65",
@@ -479052,7 +479107,7 @@
         "size_kb": 6,
         "size_in_bytes": 5721,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - TITLE module-2756-4-65-1714572453.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - TITLE module-2756-4-65-1714572453.zip.json"
       },
       {
         "id": [
@@ -479068,6 +479123,7 @@
         "is_primary": false,
         "size": 18,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-65-1714572548.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1714572548,
         "uploaded_time": "2024-05-01T14:09:08.000+00:00",
         "mod_version": "4.65",
@@ -479076,7 +479132,7 @@
         "size_kb": 18,
         "size_in_bytes": 18731,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-65-1714572548.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-65-1714572548.zip.json"
       },
       {
         "id": [
@@ -479092,6 +479148,7 @@
         "is_primary": false,
         "size": 20,
         "file_name": "Miscellaneous Text Fixes - PAK - MISSION module-2756-4-65-1-1716062652.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1716062652,
         "uploaded_time": "2024-05-18T20:04:12.000+00:00",
         "mod_version": "4.65.1",
@@ -479100,7 +479157,7 @@
         "size_kb": 20,
         "size_in_bytes": 20046,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-65-1-1716062652.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION module-2756-4-65-1-1716062652.zip.json"
       },
       {
         "id": [
@@ -479116,6 +479173,7 @@
         "is_primary": false,
         "size": 18,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-65-1-1716062676.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1716062676,
         "uploaded_time": "2024-05-18T20:04:36.000+00:00",
         "mod_version": "4.65.1",
@@ -479124,7 +479182,7 @@
         "size_kb": 18,
         "size_in_bytes": 18749,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-65-1-1716062676.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-65-1-1716062676.zip.json"
       },
       {
         "id": [
@@ -479140,6 +479198,7 @@
         "is_primary": false,
         "size": 18,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-71-1717264833.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1717264833,
         "uploaded_time": "2024-06-01T18:00:33.000+00:00",
         "mod_version": "4.71",
@@ -479148,7 +479207,7 @@
         "size_kb": 18,
         "size_in_bytes": 18728,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-71-1717264833.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-71-1717264833.zip.json"
       },
       {
         "id": [
@@ -479164,6 +479223,7 @@
         "is_primary": false,
         "size": 2,
         "file_name": "Miscellaneous Text Fixes - PAK - CARGOPOD-2756-4-71-1717264879.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1717264879,
         "uploaded_time": "2024-06-01T18:01:19.000+00:00",
         "mod_version": "4.71",
@@ -479172,7 +479232,7 @@
         "size_kb": 2,
         "size_in_bytes": 2123,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CARGOPOD-2756-4-71-1717264879.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CARGOPOD-2756-4-71-1717264879.zip.json"
       },
       {
         "id": [
@@ -479188,6 +479248,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "Miscellaneous Text Fixes - PAK - CHAT-2756-4-71-1717264899.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1717264899,
         "uploaded_time": "2024-06-01T18:01:39.000+00:00",
         "mod_version": "4.71",
@@ -479196,7 +479257,7 @@
         "size_kb": 4,
         "size_in_bytes": 3693,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CHAT-2756-4-71-1717264899.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CHAT-2756-4-71-1717264899.zip.json"
       },
       {
         "id": [
@@ -479212,6 +479273,7 @@
         "is_primary": false,
         "size": 117,
         "file_name": "Miscellaneous Text Fixes - PAK - CRAFT-2756-4-71-1717264921.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1717264921,
         "uploaded_time": "2024-06-01T18:02:01.000+00:00",
         "mod_version": "4.71",
@@ -479220,7 +479282,7 @@
         "size_kb": 117,
         "size_in_bytes": 120140,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT-2756-4-71-1717264921.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT-2756-4-71-1717264921.zip.json"
       },
       {
         "id": [
@@ -479236,6 +479298,7 @@
         "is_primary": false,
         "size": 26,
         "file_name": "Miscellaneous Text Fixes - PAK - LANG-2756-4-71-1717264962.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1717264962,
         "uploaded_time": "2024-06-01T18:02:42.000+00:00",
         "mod_version": "4.71",
@@ -479244,7 +479307,7 @@
         "size_kb": 26,
         "size_in_bytes": 26368,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG-2756-4-71-1717264962.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG-2756-4-71-1717264962.zip.json"
       },
       {
         "id": [
@@ -479260,6 +479323,7 @@
         "is_primary": false,
         "size": 5,
         "file_name": "Miscellaneous Text Fixes - PAK - MEMORY-2756-4-71-1717264982.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1717264982,
         "uploaded_time": "2024-06-01T18:03:02.000+00:00",
         "mod_version": "4.71",
@@ -479268,7 +479332,7 @@
         "size_kb": 5,
         "size_in_bytes": 5035,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MEMORY-2756-4-71-1717264982.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MEMORY-2756-4-71-1717264982.zip.json"
       },
       {
         "id": [
@@ -479284,6 +479348,7 @@
         "is_primary": false,
         "size": 20,
         "file_name": "Miscellaneous Text Fixes - PAK - MISSION-2756-4-71-1717265008.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1717265008,
         "uploaded_time": "2024-06-01T18:03:28.000+00:00",
         "mod_version": "4.71",
@@ -479292,7 +479357,7 @@
         "size_kb": 20,
         "size_in_bytes": 20632,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION-2756-4-71-1717265008.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - MISSION-2756-4-71-1717265008.zip.json"
       },
       {
         "id": [
@@ -479308,6 +479373,7 @@
         "is_primary": false,
         "size": 6,
         "file_name": "Miscellaneous Text Fixes - PAK - TITLES-2756-4-71-1717265075.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1717265075,
         "uploaded_time": "2024-06-01T18:04:35.000+00:00",
         "mod_version": "4.71",
@@ -479316,7 +479382,7 @@
         "size_kb": 6,
         "size_in_bytes": 5721,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - TITLES-2756-4-71-1717265075.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - TITLES-2756-4-71-1717265075.zip.json"
       },
       {
         "id": [
@@ -479332,6 +479398,7 @@
         "is_primary": false,
         "size": 19,
         "file_name": "Miscellaneous Text Fixes - LUA-2756-4-72-1718542020.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1718542020,
         "uploaded_time": "2024-06-16T12:47:00.000+00:00",
         "mod_version": "4.72",
@@ -479340,7 +479407,7 @@
         "size_kb": 19,
         "size_in_bytes": 19364,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-72-1718542020.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - LUA-2756-4-72-1718542020.zip.json"
       },
       {
         "id": [
@@ -479356,6 +479423,7 @@
         "is_primary": false,
         "size": 26,
         "file_name": "Miscellaneous Text Fixes - PAK - LANG-2756-4-72-1718542103.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1718542103,
         "uploaded_time": "2024-06-16T12:48:23.000+00:00",
         "mod_version": "4.72",
@@ -479364,7 +479432,7 @@
         "size_kb": 26,
         "size_in_bytes": 26832,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG-2756-4-72-1718542103.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - LANG-2756-4-72-1718542103.zip.json"
       },
       {
         "id": [
@@ -479380,6 +479448,7 @@
         "is_primary": false,
         "size": 117,
         "file_name": "Miscellaneous Text Fixes - PAK - CRAFT-2756-4-72-1718542150.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1718542150,
         "uploaded_time": "2024-06-16T12:49:10.000+00:00",
         "mod_version": "4.72",
@@ -479388,7 +479457,7 @@
         "size_kb": 117,
         "size_in_bytes": 120223,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT-2756-4-72-1718542150.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - PAK - CRAFT-2756-4-72-1718542150.zip.json"
       },
       {
         "id": [
@@ -479404,6 +479473,7 @@
         "is_primary": false,
         "size": 18,
         "file_name": "Misc Text Fixes - LUA-2756-5-05-1724829142.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1724829142,
         "uploaded_time": "2024-08-28T07:12:22.000+00:00",
         "mod_version": "5.05",
@@ -479412,7 +479482,7 @@
         "size_kb": 18,
         "size_in_bytes": 18642,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-5-05-1724829142.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-5-05-1724829142.zip.json"
       },
       {
         "id": [
@@ -479428,6 +479498,7 @@
         "is_primary": false,
         "size": 26,
         "file_name": "Misc Text Fixes - PAK - LANG-2756-5-05-1724829304.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1724829304,
         "uploaded_time": "2024-08-28T07:15:04.000+00:00",
         "mod_version": "5.05",
@@ -479436,7 +479507,7 @@
         "size_kb": 26,
         "size_in_bytes": 26824,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - LANG-2756-5-05-1724829304.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - LANG-2756-5-05-1724829304.zip.json"
       },
       {
         "id": [
@@ -479452,6 +479523,7 @@
         "is_primary": false,
         "size": 2,
         "file_name": "Misc Text Fixes - PAK - CARGO-2756-5-05-1724829338.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1724829338,
         "uploaded_time": "2024-08-28T07:15:38.000+00:00",
         "mod_version": "5.05",
@@ -479460,7 +479532,7 @@
         "size_kb": 2,
         "size_in_bytes": 1915,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CARGO-2756-5-05-1724829338.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CARGO-2756-5-05-1724829338.zip.json"
       },
       {
         "id": [
@@ -479476,6 +479548,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "Misc Text Fixes - PAK - CHAT-2756-5-05-1724829372.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1724829372,
         "uploaded_time": "2024-08-28T07:16:12.000+00:00",
         "mod_version": "5.05",
@@ -479484,7 +479557,7 @@
         "size_kb": 4,
         "size_in_bytes": 3695,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CHAT-2756-5-05-1724829372.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CHAT-2756-5-05-1724829372.zip.json"
       },
       {
         "id": [
@@ -479500,6 +479573,7 @@
         "is_primary": false,
         "size": 141,
         "file_name": "Misc Text Fixes - PAK - CRAFT-2756-5-05-1724829401.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1724829401,
         "uploaded_time": "2024-08-28T07:16:41.000+00:00",
         "mod_version": "5.05",
@@ -479508,7 +479582,7 @@
         "size_kb": 141,
         "size_in_bytes": 144298,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CRAFT-2756-5-05-1724829401.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CRAFT-2756-5-05-1724829401.zip.json"
       },
       {
         "id": [
@@ -479524,6 +479598,7 @@
         "is_primary": false,
         "size": 5,
         "file_name": "Misc Text Fixes - PAK - MEMORY-2756-5-05-1724829429.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1724829429,
         "uploaded_time": "2024-08-28T07:17:09.000+00:00",
         "mod_version": "5.05",
@@ -479532,7 +479607,7 @@
         "size_kb": 5,
         "size_in_bytes": 5319,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MEMORY-2756-5-05-1724829429.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MEMORY-2756-5-05-1724829429.zip.json"
       },
       {
         "id": [
@@ -479548,6 +479623,7 @@
         "is_primary": false,
         "size": 18,
         "file_name": "Misc Text Fixes - PAK - MISSION-2756-5-05-1724829461.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1724829461,
         "uploaded_time": "2024-08-28T07:17:41.000+00:00",
         "mod_version": "5.05",
@@ -479556,7 +479632,7 @@
         "size_kb": 18,
         "size_in_bytes": 18771,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MISSION-2756-5-05-1724829461.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MISSION-2756-5-05-1724829461.zip.json"
       },
       {
         "id": [
@@ -479572,6 +479648,7 @@
         "is_primary": false,
         "size": 30,
         "file_name": "Misc Text Fixes - PAK - LANG-2756-5-11-1725816718.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1725816718,
         "uploaded_time": "2024-09-08T17:31:58.000+00:00",
         "mod_version": "5.11",
@@ -479580,7 +479657,7 @@
         "size_kb": 30,
         "size_in_bytes": 30495,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - LANG-2756-5-11-1725816718.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - LANG-2756-5-11-1725816718.zip.json"
       },
       {
         "id": [
@@ -479596,6 +479673,7 @@
         "is_primary": false,
         "size": 19,
         "file_name": "Misc Text Fixes - LUA-2756-5-11-1725816748.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1725816748,
         "uploaded_time": "2024-09-08T17:32:28.000+00:00",
         "mod_version": "5.11",
@@ -479604,7 +479682,7 @@
         "size_kb": 19,
         "size_in_bytes": 19494,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-5-11-1725816748.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-5-11-1725816748.zip.json"
       },
       {
         "id": [
@@ -479620,6 +479698,7 @@
         "is_primary": false,
         "size": 2,
         "file_name": "Misc Text Fixes - PAK - CARGOPOD-2756-5-11-1725816777.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1725816777,
         "uploaded_time": "2024-09-08T17:32:57.000+00:00",
         "mod_version": "5.11",
@@ -479628,7 +479707,7 @@
         "size_kb": 2,
         "size_in_bytes": 1916,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CARGOPOD-2756-5-11-1725816777.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CARGOPOD-2756-5-11-1725816777.zip.json"
       },
       {
         "id": [
@@ -479644,6 +479723,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "Misc Text Fixes - PAK - CHAT-2756-5-11-1725816798.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1725816798,
         "uploaded_time": "2024-09-08T17:33:18.000+00:00",
         "mod_version": "5.11",
@@ -479652,7 +479732,7 @@
         "size_kb": 4,
         "size_in_bytes": 3719,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CHAT-2756-5-11-1725816798.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CHAT-2756-5-11-1725816798.zip.json"
       },
       {
         "id": [
@@ -479668,6 +479748,7 @@
         "is_primary": false,
         "size": 152,
         "file_name": "Misc Text Fixes - PAK - CRAFT-2756-5-11-1725816826.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1725816826,
         "uploaded_time": "2024-09-08T17:33:46.000+00:00",
         "mod_version": "5.11",
@@ -479676,7 +479757,7 @@
         "size_kb": 152,
         "size_in_bytes": 155565,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CRAFT-2756-5-11-1725816826.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CRAFT-2756-5-11-1725816826.zip.json"
       },
       {
         "id": [
@@ -479692,6 +479773,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "Misc Text Fixes - PAK - CHAT-2756-5-11-1725816865.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1725816865,
         "uploaded_time": "2024-09-08T17:34:25.000+00:00",
         "mod_version": "5.11",
@@ -479700,7 +479782,7 @@
         "size_kb": 4,
         "size_in_bytes": 3719,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CHAT-2756-5-11-1725816865.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CHAT-2756-5-11-1725816865.zip.json"
       },
       {
         "id": [
@@ -479716,6 +479798,7 @@
         "is_primary": false,
         "size": 6,
         "file_name": "Misc Text Fixes - PAK - MEMORY-2756-5-11-1725816891.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1725816891,
         "uploaded_time": "2024-09-08T17:34:51.000+00:00",
         "mod_version": "5.11",
@@ -479724,7 +479807,7 @@
         "size_kb": 6,
         "size_in_bytes": 5852,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MEMORY-2756-5-11-1725816891.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MEMORY-2756-5-11-1725816891.zip.json"
       },
       {
         "id": [
@@ -479740,6 +479823,7 @@
         "is_primary": false,
         "size": 6,
         "file_name": "Misc Text Fixes - PAK - MEMORY-2756-5-11-1725816938.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1725816938,
         "uploaded_time": "2024-09-08T17:35:38.000+00:00",
         "mod_version": "5.11",
@@ -479748,7 +479832,7 @@
         "size_kb": 6,
         "size_in_bytes": 5852,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MEMORY-2756-5-11-1725816938.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MEMORY-2756-5-11-1725816938.zip.json"
       },
       {
         "id": [
@@ -479764,6 +479848,7 @@
         "is_primary": false,
         "size": 29,
         "file_name": "Misc Text Fixes - PAK - LANG-2756-5-22-1730475090.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1730475090,
         "uploaded_time": "2024-11-01T15:31:30.000+00:00",
         "mod_version": "5.22",
@@ -479772,7 +479857,7 @@
         "size_kb": 29,
         "size_in_bytes": 30027,
         "changelog_html": "updated for game version 5.22 (Cursed)\nLANG module - removed 2 fixes done by HG (\"earned ewards\", missing description for Expedition 15 patch in Journey catalogue)\nMISSION module - brought back after issues with mission files",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - LANG-2756-5-22-1730475090.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - LANG-2756-5-22-1730475090.zip.json"
       },
       {
         "id": [
@@ -479788,6 +479873,7 @@
         "is_primary": false,
         "size": 20,
         "file_name": "Misc Text Fixes - LUA-2756-5-22-1730475117.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1730475117,
         "uploaded_time": "2024-11-01T15:31:57.000+00:00",
         "mod_version": "5.22",
@@ -479796,7 +479882,7 @@
         "size_kb": 20,
         "size_in_bytes": 20318,
         "changelog_html": "updated for game version 5.22 (Cursed)\nLANG module - removed 2 fixes done by HG (\"earned ewards\", missing description for Expedition 15 patch in Journey catalogue)\nMISSION module - brought back after issues with mission files",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-5-22-1730475117.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - LUA-2756-5-22-1730475117.zip.json"
       },
       {
         "id": [
@@ -479812,6 +479898,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "Misc Text Fixes - PAK - CHAT-2756-5-22-1730475175.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1730475175,
         "uploaded_time": "2024-11-01T15:32:55.000+00:00",
         "mod_version": "5.22",
@@ -479820,7 +479907,7 @@
         "size_kb": 4,
         "size_in_bytes": 3774,
         "changelog_html": "updated for game version 5.22 (Cursed)\nLANG module - removed 2 fixes done by HG (\"earned ewards\", missing description for Expedition 15 patch in Journey catalogue)\nMISSION module - brought back after issues with mission files",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CHAT-2756-5-22-1730475175.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CHAT-2756-5-22-1730475175.zip.json"
       },
       {
         "id": [
@@ -479836,6 +479923,7 @@
         "is_primary": false,
         "size": 2,
         "file_name": "Misc Text Fixes - PAK - CARGO-2756-5-22-1730475191.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1730475192,
         "uploaded_time": "2024-11-01T15:33:12.000+00:00",
         "mod_version": "5.22",
@@ -479844,7 +479932,7 @@
         "size_kb": 2,
         "size_in_bytes": 1916,
         "changelog_html": "updated for game version 5.22 (Cursed)\nLANG module - removed 2 fixes done by HG (\"earned ewards\", missing description for Expedition 15 patch in Journey catalogue)\nMISSION module - brought back after issues with mission files",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CARGO-2756-5-22-1730475191.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CARGO-2756-5-22-1730475191.zip.json"
       },
       {
         "id": [
@@ -479860,6 +479948,7 @@
         "is_primary": false,
         "size": 155,
         "file_name": "Misc Text Fixes - PAK - CRAFT-2756-5-22-1730475218.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1730475218,
         "uploaded_time": "2024-11-01T15:33:38.000+00:00",
         "mod_version": "5.22",
@@ -479868,7 +479957,7 @@
         "size_kb": 155,
         "size_in_bytes": 158678,
         "changelog_html": "updated for game version 5.22 (Cursed)\nLANG module - removed 2 fixes done by HG (\"earned ewards\", missing description for Expedition 15 patch in Journey catalogue)\nMISSION module - brought back after issues with mission files",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CRAFT-2756-5-22-1730475218.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - CRAFT-2756-5-22-1730475218.zip.json"
       },
       {
         "id": [
@@ -479884,6 +479973,7 @@
         "is_primary": false,
         "size": 6,
         "file_name": "Misc Text Fixes - PAK - MEMORY-2756-5-22-1730475237.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1730475237,
         "uploaded_time": "2024-11-01T15:33:57.000+00:00",
         "mod_version": "5.22",
@@ -479892,7 +479982,7 @@
         "size_kb": 6,
         "size_in_bytes": 6178,
         "changelog_html": "updated for game version 5.22 (Cursed)\nLANG module - removed 2 fixes done by HG (\"earned ewards\", missing description for Expedition 15 patch in Journey catalogue)\nMISSION module - brought back after issues with mission files",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MEMORY-2756-5-22-1730475237.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MEMORY-2756-5-22-1730475237.zip.json"
       },
       {
         "id": [
@@ -479908,6 +479998,7 @@
         "is_primary": false,
         "size": 18,
         "file_name": "Misc Text Fixes - PAK - MISSION-2756-5-22-1730475260.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1730475260,
         "uploaded_time": "2024-11-01T15:34:20.000+00:00",
         "mod_version": "5.22",
@@ -479916,7 +480007,7 @@
         "size_kb": 18,
         "size_in_bytes": 18796,
         "changelog_html": "updated for game version 5.22 (Cursed)\nLANG module - removed 2 fixes done by HG (\"earned ewards\", missing description for Expedition 15 patch in Journey catalogue)\nMISSION module - brought back after issues with mission files",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MISSION-2756-5-22-1730475260.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - MISSION-2756-5-22-1730475260.zip.json"
       },
       {
         "id": [
@@ -479932,6 +480023,7 @@
         "is_primary": false,
         "size": 214,
         "file_name": "Misc Text Fixes - PAK - ALL FILES-2756-5-28-1732638119.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1732638119,
         "uploaded_time": "2024-11-26T16:21:59.000+00:00",
         "mod_version": "5.28",
@@ -479940,7 +480032,7 @@
         "size_kb": 214,
         "size_in_bytes": 219362,
         "changelog_html": "updated for game version 5.28 (Cross Save)\ndecided to bundle all separate PAK files into one download cause I can't be assed uploading individual archives anymore",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - ALL FILES-2756-5-28-1732638119.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - ALL FILES-2756-5-28-1732638119.zip.json"
       },
       {
         "id": [
@@ -479956,6 +480048,7 @@
         "is_primary": false,
         "size": 214,
         "file_name": "Misc Text Fixes - PAK - ALL FILES-2756-5-29-1734798975.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1734798975,
         "uploaded_time": "2024-12-21T16:36:15.000+00:00",
         "mod_version": "0000-bad",
@@ -479964,7 +480057,7 @@
         "size_kb": 214,
         "size_in_bytes": 219483,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - ALL FILES-2756-5-29-1734798975.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK - ALL FILES-2756-5-29-1734798975.zip.json"
       },
       {
         "id": [
@@ -479977,9 +480070,10 @@
         "version": "5.29",
         "category_id": 7,
         "category_name": "ARCHIVED",
-        "is_primary": true,
+        "is_primary": false,
         "size": 214,
         "file_name": "Misc Text Fixes - PAK-2756-5-29-1734799169.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1734799169,
         "uploaded_time": "2024-12-21T16:39:29.000+00:00",
         "mod_version": "5.29",
@@ -479988,7 +480082,7 @@
         "size_kb": 214,
         "size_in_bytes": 219528,
         "changelog_html": "updated for game version 5.29 (Cross Save)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-5-29-1734799169.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - PAK-2756-5-29-1734799169.zip.json"
       },
       {
         "id": [
@@ -480004,6 +480098,7 @@
         "is_primary": false,
         "size": 17,
         "file_name": "Misc Text Fixes - ZIP-2756-5-58-1741604136.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1741604136,
         "uploaded_time": "2025-03-10T10:55:36.000+00:00",
         "mod_version": "5.58",
@@ -480012,7 +480107,7 @@
         "size_kb": 17,
         "size_in_bytes": 17175,
         "changelog_html": "updated for game version 5.58 (Worlds Part 2)\nremoved some smaller fixes that were handled by MBIN file replacements for the sake of maintaining compatibility\nremoved the Articles section from mod page because reasons",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - ZIP-2756-5-58-1741604136.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - ZIP-2756-5-58-1741604136.zip.json"
       },
       {
         "id": [
@@ -480028,6 +480123,7 @@
         "is_primary": false,
         "size": 23,
         "file_name": "Misc Text Fixes - ZIP-2756-5-61-1743512774.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1743512774,
         "uploaded_time": "2025-04-01T13:06:14.000+00:00",
         "mod_version": "5.61",
@@ -480036,7 +480132,7 @@
         "size_kb": 23,
         "size_in_bytes": 23613,
         "changelog_html": "updated for game version 5.61 (Relics)\nbrought back fix for wrong subtitle on crashed freighter pod maintenance screen (old CARGOPOD module)\nhandful of new smaller text fixes (subtitles on expedition reward staves, fixed description of Oxygen Rich Plants, added line break on some planet mission labels, added Solars to description of 2 expedition ship paintjobs)\nadded support for Mod Catalogue Framework",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Misc Text Fixes - ZIP-2756-5-61-1743512774.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Misc Text Fixes - ZIP-2756-5-61-1743512774.zip.json"
       },
       {
         "id": [
@@ -480052,6 +480148,7 @@
         "is_primary": false,
         "size": 23,
         "file_name": "Miscellaneous Text Fixes - ZIP-2756-6-34-1777026811.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1777026811,
         "uploaded_time": "2026-04-24T10:33:31.000+00:00",
         "mod_version": "6.34",
@@ -480060,7 +480157,7 @@
         "size_kb": 23,
         "size_in_bytes": 23319,
         "changelog_html": "updated for game version 6.34 (Xeno Arena)\nremoved support for Mod Catalogue Framework",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - ZIP-2756-6-34-1777026811.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - ZIP-2756-6-34-1777026811.zip.json"
       },
       {
         "id": [
@@ -480076,6 +480173,7 @@
         "is_primary": false,
         "size": 21,
         "file_name": "Miscellaneous Text Fixes - ZIP-2756-6-36-1778085755.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1778085755,
         "uploaded_time": "2026-05-06T16:42:35.000+00:00",
         "mod_version": "6.36",
@@ -480084,7 +480182,7 @@
         "size_kb": 21,
         "size_in_bytes": 21536,
         "changelog_html": "removed fixes for Oxygen rich plants as they were fixed by HG",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - ZIP-2756-6-36-1778085755.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2756/Miscellaneous Text Fixes - ZIP-2756-6-36-1778085755.zip.json"
       },
       {
         "id": [
@@ -480095,20 +480193,46 @@
         "file_id": 47468,
         "name": "Miscellaneous Text Fixes - ZIP",
         "version": "6.45",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 22,
-        "file_name": "Miscellaneous_Text_Fixes_-_ZIP_6.45_gb4dJyxCX.zip",
+        "file_name": "Miscellaneous Text Fixes - ZIP 2756 6.45 2026-06-29T16-56Z gb4dJyxCX.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1782752200,
         "uploaded_time": "2026-06-29T16:56:40.000+00:00",
         "mod_version": "6.45",
         "external_virus_scan_url": "https://www.virustotal.com/gui/file/3c2ef3f3cd4accf7f3fb59b211d7d86dfcbfc8280754b11dcf6104fb95cb89db",
         "description": "",
         "size_kb": 22,
-        "size_in_bytes": null,
+        "size_in_bytes": 0,
         "changelog_html": "updated for game version 6.45 (Swarm)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2756/cc/9e/c6/cc9ec681-af8e-4406-b3e9-b61b7d253463.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/cc/9e/c6/cc9ec681-af8e-4406-b3e9-b61b7d253463"
+      },
+      {
+        "id": [
+          50788,
+          1634
+        ],
+        "uid": 7017976612452,
+        "file_id": 50788,
+        "name": "Miscellaneous Text Fixes",
+        "version": "7.14",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 24,
+        "file_name": "Miscellaneous Text Fixes 2756 7.14 2026-11-20T18-28Z QR3q07r3r.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795199294,
+        "uploaded_time": "2026-11-20T18:28:14.000+00:00",
+        "mod_version": "7.14",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/5dab74c6357386948eb206bad344befb8908c5a33ceb2eb54ea50b32a1600cfe",
+        "description": "",
+        "size_kb": 24,
+        "size_in_bytes": 25241,
+        "changelog_html": "updated for game version 7.14 (Forsaken)",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/38/68/2c/38682ca0-92a7-4cba-b149-2e4acc48c0f9"
       }
     ],
     "changelogs": {
@@ -480144,6 +480268,9 @@
       ],
       "6.45": [
         "updated for game version 6.45 (Swarm)"
+      ],
+      "7.14": [
+        "updated for game version 7.14 (Forsaken)"
       ]
     }
   },
@@ -680170,7 +680297,7 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4467/4467-1789408212-1808406216.png",
     "author": "KnallWalla",
-    "updated_timestamp": 1790186147,
+    "updated_timestamp": 1795207996,
     "created_timestamp": 1789315805,
     "description": "Extends the draw distance of grass, bushes, small plants, rocks, crystals, trees and other natural ground objects. Early LOD transitions remain unchanged, allowing distant objects to use their lower-detail models.\n<br />\n<br />No changes to object density, coverage, size or scale.\n<br />\n<br />Files\n<br />\n<br />DrawDistance_GroundObjects5x_NMS7.01 (Compatible with 7.04.)\n<br />Recommended version. Extends ground-object draw and final LOD/cull distances up to 5x with a more balanced performance cost.\n<br />\n<br />DrawDistance_GroundObjects10x_NMS7.01 (Compatible with 7.04.)\n<br />High-end alternative. Extends the same distances up to 10x and may substantially increase CPU, GPU and streaming load.\n<br />\n<br />Installation\n<br />\n<br />Choose only one version and copy its folder into No Man's Sky&#92;GAMEDATA&#92;MODS. Do not install both versions at the same time. Remove the mod folder to uninstall.\n<br />\n<br />Built for No Man's Sky 7.04 and intended for the Ultra object-detail setting.",
     "state": "normal",
@@ -680199,7 +680326,7 @@
         "size_kb": 528,
         "size_in_bytes": 541325,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4467/a3/87/5b/a3875bba-2abe-4b41-b132-9b57ffb6485a.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/a3/87/5b/a3875bba-2abe-4b41-b132-9b57ffb6485a"
       },
       {
         "id": [
@@ -680224,7 +680351,7 @@
         "size_kb": 503,
         "size_in_bytes": 515625,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4467/50/a8/94/50a8949a-acb0-45db-9b3a-beb63a2924de.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/50/a8/94/50a8949a-acb0-45db-9b3a-beb63a2924de"
       },
       {
         "id": [
@@ -680249,7 +680376,7 @@
         "size_kb": 226,
         "size_in_bytes": 232205,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4467/da/a7/c5/daa7c58c-8241-461a-abbd-7cdce81dda9d.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/da/a7/c5/daa7c58c-8241-461a-abbd-7cdce81dda9d"
       },
       {
         "id": [
@@ -680274,7 +680401,7 @@
         "size_kb": 229,
         "size_in_bytes": 235014,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4467/eb/02/2f/eb022f23-889a-41dd-a386-4142221b655e.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/eb/02/2f/eb022f23-889a-41dd-a386-4142221b655e"
       },
       {
         "id": [
@@ -680299,7 +680426,7 @@
         "size_kb": 394,
         "size_in_bytes": 404259,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4467/6a/fb/ec/6afbecb7-6c36-40dd-8ca5-6e4dd13cc0f8.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6a/fb/ec/6afbecb7-6c36-40dd-8ca5-6e4dd13cc0f8"
       },
       {
         "id": [
@@ -680324,7 +680451,7 @@
         "size_kb": 394,
         "size_in_bytes": 403710,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4467/91/cb/0e/91cb0e7b-585c-4274-a4df-e38a7f983e25.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/91/cb/0e/91cb0e7b-585c-4274-a4df-e38a7f983e25"
       },
       {
         "id": [
@@ -680335,8 +680462,8 @@
         "file_id": 48587,
         "name": "DrawDistance GroundObjects5x NMS7.01",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 394,
         "file_name": "DrawDistance GroundObjects5x NMS7.01 4467 1 2026-09-14T17-40Z uhKkQ8X46.zip",
@@ -680349,7 +680476,7 @@
         "size_kb": 394,
         "size_in_bytes": 403710,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4467/15/71/ba/1571ba78-1678-4121-b0c2-fb61a3a13b0f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/15/71/ba/1571ba78-1678-4121-b0c2-fb61a3a13b0f"
       },
       {
         "id": [
@@ -680360,8 +680487,8 @@
         "file_id": 48588,
         "name": "DrawDistance GroundObjects10x NMS7.01",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 394,
         "file_name": "DrawDistance GroundObjects10x NMS7.01 4467 1 2026-09-14T17-40Z OyPDz2f8B.zip",
@@ -680374,7 +680501,7 @@
         "size_kb": 394,
         "size_in_bytes": 404259,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4467/29/bc/f4/29bcf4bc-0fc2-480d-aca4-0316f315c935.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/29/bc/f4/29bcf4bc-0fc2-480d-aca4-0316f315c935"
       },
       {
         "id": [
@@ -680385,8 +680512,8 @@
         "file_id": 48644,
         "name": "DrawDistance GroundObjects20x NMS7.01",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 394,
         "file_name": "DrawDistance GroundObjects20x NMS7.01 4467 1 2026-09-15T19-49Z bqtarID9S.zip",
@@ -680399,7 +680526,7 @@
         "size_kb": 394,
         "size_in_bytes": 404270,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4467/e0/df/15/e0df15dd-1cd1-499c-8ec9-89e0b64a0031.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e0/df/15/e0df15dd-1cd1-499c-8ec9-89e0b64a0031"
       },
       {
         "id": [
@@ -680410,8 +680537,8 @@
         "file_id": 48983,
         "name": "DrawDistance GroundObjects20x Acrid Test",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 388,
         "file_name": "DrawDistance GroundObjects20x Acrid Test 4467 1 2026-09-23T17-55Z 58qnW1tY9.zip",
@@ -680424,7 +680551,32 @@
         "size_kb": 388,
         "size_in_bytes": 397550,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4467/f3/6b/17/f36b1788-7664-4559-aca5-049f45c1a622.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f3/6b/17/f36b1788-7664-4559-aca5-049f45c1a622"
+      },
+      {
+        "id": [
+          50790,
+          1634
+        ],
+        "uid": 7017976612454,
+        "file_id": 50790,
+        "name": "Mod Info",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 0,
+        "file_name": "Mod Info 4467 1 2026-11-20T20-53Z 8gT07OITm.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795207996,
+        "uploaded_time": "2026-11-20T20:53:16.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/41ab4a5d38ed413b49e511384a75f5ef55d5ae34eaeb9dbae7a4bf4ac4784f5d",
+        "description": "",
+        "size_kb": 0,
+        "size_in_bytes": 537,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e8/6a/5d/e86a5ddf-586a-45ce-8bcc-df4e516d92f1"
       }
     ],
     "changelogs": {}
@@ -696352,9 +696504,9 @@
     "version": "2.5",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4609/4609-1794947776-876326592.jpg",
     "author": "ModG0blin",
-    "updated_timestamp": 1794948513,
+    "updated_timestamp": 1795209386,
     "created_timestamp": 1790975060,
-    "description": "[font=Arial Black][b][size=6][color=#26A69A]Snap Angles 2.5[/color]: The Corvette &amp; Base Building Overhaul[/size][/b][/font]\n<br />\n<br />[b][size=4]Turn, nudge, and resize pieces without losing snap. Resize from 1% to 300%, cross-snapping between bases, corvettes, and freighters, more places to build, expanded build menus, and gamepad support.[/size][/b]\n<br />\n<br />No more glitch building for angles and offsets. Snap a piece as usual: walls, floors, ramps, roofs, stairs, prefabs, large structures, or corvette modules. Then rotate it on three axes, nudge it off the grid, or resize it live while it stays snapped.\n<br />\n<br />Version 2.5 turns building in No Man's Sky into one connected toolkit. Build across planet bases, space bases, corvettes, freighters, and underwater, with gamepad support, on-screen controls, and a live size readout. Grown parts now snap to each other, and doors stop snapping right where they would break for visitors.\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#26A69A]Back Up Your Saves[/color][/b][/size]\n<br />[color=#ff964f]As usual with mods, back up your saves before installing or updating. Copy %APPDATA%&#92;HelloGames&#92;NMS somewhere safe. To restore, close the game and copy it back.\n<br />Back up again before big changes: giant or tiny parts, new structures, and parts in places the game did not offer them before. Snap Angles does not write to your save, but the game saves what you build with it.[/color]\n<br />\n<br />[line]\n<br />\n<br />[font=Arial Black][size=6][b][color=#26A69A]What's New in 2.5[/color][/b][/size][/font]\n<br />\n<br />[size=4][b][color=#ff964f]◆ Resize From 1% to 300%[/color][/b][/size]\n<br />[list]\n<br />[*][b]Bigger Range:[/b] Parts resize from 1% up to 300%, the game's own top size. A tap of Up or Down moves the size by 1%. Hold it to go faster. Sizes land on whole percents.[/*]\n<br />[*][b]Grown Parts Snap:[/b] Grown parts now snap to each other, even exact copies at the same size. The game's snap search only looked as far as a normal size part reaches, and its link check counted both parts at normal size, so big parts lost their snap. Snap Angles gives both the real sizes, so grown structures, floors, and walls snap again.[/*]\n<br />[*][b]Furnishings Resize Too:[/b] With the same percentage readout, held size, and reset keys as other parts.[/*]\n<br />[*][b]Terrain Cuts Match:[/b] Parts that flatten the ground cut a hole that matches their size.[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Structure &amp; Door Limit (Experimental)[/color][/b][/size]\n<br />Growing a structure can break its doors. The game only opens a doorway when it links the door and the structure itself, and it checks that link as if both parts were still at their normal size. Grow a room far enough and its doorways end up too far from where the game expects them. The door would then stop working in multiplayer and for players who do not have the mod.\n<br />\n<br />Snap Angles works out that size for the structure and the door you are holding and stops the door from snapping past it. In our tests doors stop snapping somewhere between about 180% and 210%, depending on the structure and the door. The same rule covers the other parts the game only lets you snap (corridors, glass tunnels, ladders, windows, and similar), and corvette habs: a grown hab only snaps where its opening also stays open for visitors without the mod.\n<br />[list]\n<br />[*][b]Only Doors:[/b] You can still place giant structures and parts up to 300%. Past the limit the door just will not snap to them.[/*]\n<br />[*][b]Experimental:[/b] It may not work for some rooms or doors. If a door snaps but does not open, or will not snap at a size where it should, tell us the room, the door, and the size.[/*]\n<br />[*][b]Rough Breakpoints:[/b] Door, Holo-Door, Watertight Door, and Cuboid Inner Door on a grown Cuboid Room or Cylindrical Room still opened at 150%. A Cylindrical Room still took doors at 210%. Openings between two grown Titan, Thunderbird, or Ambassador Habs still worked at 150%. An Infrastructure Ladder in a grown Cylindrical Room needs the same size as the room.[/*]\n<br />[*][b]Shrinking Can Open Things Up:[/b] A Door shrunk to 1%, 10%, or 20% still opens its doorway on a bigger structure, because the game still counts it as a full size door. Hab openings work the same way: shrink one of the two habs. The farther a doorway sits from the middle of a structure, the sooner it stops linking when you grow the structure.[/*]\n<br />[/list]These numbers are a starting point, not a rule. Experiment and find what works for your build.\n<br />\n<br />[size=4][b][color=#ff964f]◆ Build in More Places[/color][/b][/size]\n<br />[list]\n<br />[*][b]More Places:[/b] Base parts and corvette parts at planet bases, space bases, on your freighter, at space stations, aboard your corvette as decoration, and underwater.[/*]\n<br />[*][b]Freighter &amp; Corvette Parts:[/b] Freighter parts at your bases, and corvette parts on your own freighter. Freighter rooms, walkways, face walls, and windows can be placed freely, so the first one needs nothing to attach to. The next pieces snap with the game's own freighter snaps. The old cuboid freighter rooms and corridors are back under the Freighter tab, and the corvette editor has a Corvette Interior tab.[/*]\n<br />[*][b]Resource Parts as Decoration:[/b] Parts that need planet resources (harvesters, extractors, and similar) can stand elsewhere as decoration.[/*]\n<br />[*][b]Kept as the Game Has Them:[/b] The base computer, the space base beacon, the freighter fleet, scanner, vehicle, and crew rooms, and the station exterior parts (station only). Parts still need to be learned, as in the game.[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ More Snap Points[/color][/b][/size]\n<br />Corvette parts snap to more places: wings, thrusters, turrets, and shields onto more sides of habs and onto base walls, floors, and roofs. A small Infrastructure Ladder can also snap in a bigger room.\n<br />\n<br />[size=4][b][color=#ff964f]◆ Reach &amp; Camera[/color][/b][/size]\n<br />[list]\n<br />[*][b]Longer Reach:[/b] A grown part can be held farther away, on the ground and in the air.[/*]\n<br />[*][b]Corvette Editor Reach:[/b] Place parts from up to 150 m away and delete them from up to 100 m away (the game: about 50 m to delete).[/*]\n<br />[*][b]Build Camera:[/b] The base building and station exterior free camera go up to 300 m from your character. The corvette editor camera stays at the game's 90 m.[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Performance[/color][/b][/size]\n<br />2.5 fixes several FPS drops. The big one: holding a corvette part at a base made the game test its snap options for landing gear links that part can never make there. Snap Angles now skips that, skips pieces that are too far apart to connect before the game checks them, and caps how many snap options get tested per placement check.\n<br />\n<br />The mod can still cause some slowdowns when bases and corvettes get large and complex, especially while you hold a piece near a lot of placed parts.\n<br />\n<br />[size=4][b][color=#ff964f]◆ Smaller Fixes[/color][/b][/size]\n<br />[list]\n<br />[*][b]Shrunk Corvette Parts Stay Connected:[/b] A corvette with parts shrunk far down no longer fails with \"All modules must be connected\" when you edit it again. A shrunk part that touches the ship counts as connected (only on your side, the saved ship is unchanged).[/*]\n<br />[*][b]Controls Follow Your Device:[/b] The key list switches between keyboard and gamepad as the game does. L3 + R3 daylight only works in build menus, and daylight also works at bases while you build (only on your screen).[/*]\n<br />[*][b]Game Update:[/b] Works with the game update of 9 November 2026.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[font=Arial Black][size=6][b][color=#26A69A]Core Features[/color][/b][/size][/font]\n<br />\n<br />[size=4][b][color=#ff964f]◆ Cross-Snapping &amp; Shared Menus[/color][/b][/size]\n<br />Planet bases, corvettes, and freighters now share build menus and snap points:\n<br />[list]\n<br />[*][b]Corvette Parts at Bases:[/b] The corvette hull and exterior parts you have unlocked appear in your planetary base building menu (locked parts show grayed out, matching the workshop).[/*]\n<br />[*][b]Base Parts on Corvettes &amp; Freighters:[/b] Walls, floors, roofs, doors, and rooms are available in the corvette editor, in the build menu aboard your corvette, and aboard your freighter. On corvettes they place, pick up, and delete normally, and count as decoration rather than as corvette parts. The freighter build menu also shows Advanced Technology and Power and Industry parts.[/*]\n<br />[*][b]Cross-Snaps:[/b] Base floors attach edge-to-edge onto corvette modules, base corridors line up with the center of hab modules, and corvette modules snap onto base parts. Base parts snap to your freighter too.[/*]\n<br />[*][b]Upgraded Geometry Snaps:[/b] Large triangle floors now snap like square floors (under or over walls, to stairs, and onto quarter floors), and half stairs chain top-to-bottom with other stairs. Thin walls now attach under other thin walls, not just on top.[/*]\n<br />[*][b]Hidden Variants Unlocked:[/b] Bottom, middle, and top versions of walls, doors, and arches are listed in your menus once you know the part.[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ 360° Multi-Axis Precision Angles[/color][/b][/size]\n<br />Swing a snapped piece around its joint a full 360° while it stays connected:\n<br />[list]\n<br />[*][b]Hinge:[/b] Folds the piece around the attachment joint.[/*]\n<br />[*][b]Lift:[/b] Rotates the piece within its own flat plane.[/*]\n<br />[*][b]Twist:[/b] Rolls the piece along its connection axis.[/*]\n<br />[/list]Combine all three for compound angles. Tap [b]?[/b] to switch between [b]15°[/b], [b]5°[/b], and fine [b]1°[/b] steps. Angles carry over to the next pieces until you reset, so you can lay down curved halls or angled roofs in a row.\n<br />\n<br />[size=4][b][color=#ff964f]◆ 1/8 Micro-Nudging[/color][/b][/size]\n<br />Slide a snapped piece off its snap point for custom offsets without breaking the snap or resorting to wire glitches.\n<br />[list]\n<br />[*]Moves in [b]1/8[/b] grid steps, up to [b]8/8[/b] each way. The 8th press lands on the next snap spot over.[/*]\n<br />[*]Live on-screen count: [i]\"Nudge left: 3/8\"[/i], [i]\"as far as it goes (8/8)\"[/i], or [i]\"back on the snap\"[/i].[/*]\n<br />[*]Nudges combine with angles and reset after each placed piece (or right away with [b]&#92;[/b]).[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Live Scaling &amp; Scale Memory[/color][/b][/size]\n<br />Resize pieces while holding them, from [b]1%[/b] to [b]300%[/b], with a live on-screen readout ([b]\"Size: 100%\"[/b], [b]\"Size: 150%\"[/b]).\n<br />[list]\n<br />[*][b]Held Scale Memory:[/b] Your chosen size sticks for the next pieces you pick from the menu, until you reset it or leave build mode.[/*]\n<br />[*][b]Sample &amp; Match:[/b] Copying a placed piece makes its size the held size for your next placements. A copy keeps its exact size until you resize it.[/*]\n<br />[*][b]Expanded Resizing:[/b] Scale parts the base game won't let you resize, corvette parts and furnishings included. The base computer, geobays, and vehicle-summoning parts keep their size, so they can't break a base.[/*]\n<br />[*][b]Snap Limit:[/b] Grown parts snap to each other. Doors stop snapping past the size where they would break (see Structure &amp; Door Limit above).[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Gamepad Support[/color][/b][/size]\n<br />Build from the couch through Steam Input, with the game's own button pictures and your own Steam layout:\n<br />[list]\n<br />[*][b]D-Pad Down:[/b] Cycle mode ([b]Scale / Angle / Nudge[/b])[/*]\n<br />[*][b]R3 (Stick Click):[/b] Cycle direction (tilt, twist, lift, or nudge direction)[/*]\n<br />[*][b]D-Pad Left / Right:[/b] Less / more in the current mode[/*]\n<br />[*][b]Menu Button:[/b] Cycle angle step (15° / 5° / 1°)[/*]\n<br />[*][b]LB + RB:[/b] Reset the active mode only (Scale: back to 100% and held size cleared; Angle: angles cleared; Nudge: nudge cleared)[/*]\n<br />[*][b]RB:[/b] Pattern cycle / mirror flip[/*]\n<br />[*][b]L3 + R3:[/b] Toggle daylight (build menus and the corvette editor)[/*]\n<br />[*][b]L3:[/b] Free camera in the build menu aboard your corvette[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ On-Screen Controls &amp; Numpad Layout[/color][/b][/size]\n<br />[list]\n<br />[*][b]On-Screen Controls List:[/b] The corvette editor and base building show the Snap Angles controls on the left of the screen, switching by themselves between keyboard, numpad, and gamepad based on what you used last.[/*]\n<br />[*][b]Numpad Layout:[/b] With Num Lock on: [b]7[/b] (Angle/Nudge toggle), [b]8/2[/b] (Twist / forward-back), [b]4/6[/b] (Hinge / left-right), [b]9/3[/b] (Lift / up-down), [b]5[/b] (Reset), [b]1[/b] (Step size), and [b]0[/b] (Pattern cycle).[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Quality of Life &amp; Corvette Helpers[/color][/b][/size]\n<br />[list]\n<br />[*][b]Adjustable Snap Range:[/b] Cycle snap distances ([b]Any / 50m / 40m / 30m / 20m[/b]) with PageUp/PageDown to stop distant snap-jumping during close-up work.[/*]\n<br />[*][b]Pattern &amp; Flip Direction Control:[/b] Cycle floor patterns or flip roof gables, diagonal panels, and half arches with [b]0[/b] or [b]RB[/b].[/*]\n<br />[*][b]Expanded Part Customization:[/b] Rotate base parts on three axes, recolor them, and apply other materials where the game normally doesn't allow it.[/*]\n<br />[*][b]Corvette Workflow Upgrades:[/b] Free camera in the corvette editor, daylight while building, a pulled-back flight camera for big ships, and long corvettes are no longer shoved into the station walls on the way out.[/*]\n<br />[/list][size=5][b][color=#26A69A]Multiplayer &amp; Compatibility[/color][/b][/size]\n<br />\n<br />[list]\n<br />[*][b]Multiplayer:[/b] Other players see your builds exactly as you placed them, and they don't need the mod. It adds no new parts and no new colors. It only lets the game's own parts go where you want them. Doors, structures, and corvette hab openings only snap where they also work for visitors without the mod.[/*]\n<br />[*][b]Save Files:[/b] Does not change your save files and does not connect to the internet. If uninstalled, angled, nudged, and scaled pieces stay exactly where you placed them.[/*]\n<br />[*][b]Works With:[/b] Beyond Base Building, BuildFrame (RecTUM), Snappy Industry, AllBuildColours, and Base Corvette Dock. Tested together in my game (game update of 9 November 2026). Snappy Industry's snap points work with the Snap Angles snaps, BuildFrame's tech tabs show on your freighter too, and Beyond Base Building's rules do not turn off the multiplayer safe door limit. When other mods fill the build menu, parts that would not fit go under the closest tab already there instead of being lost. Big part mods make the game's own build menu heavier, with or without Snap Angles.[/*]\n<br />[/list]\n<br />[size=5][b][color=#26A69A]Known Limits[/color][/b][/size]\n<br />[list]\n<br />[*][b]Ladders:[/b] A grown ladder can only be climbed about halfway.[/*]\n<br />[*][b]Collision:[/b] Grown parts keep you a little away from them, because their collision grows with them.[/*]\n<br />[*][b]Build Glow:[/b] The orange build glow takes longer on big parts.[/*]\n<br />[*][b]Draw Distance:[/b] Very large parts can vanish at a distance, for you and for visitors (the game's own draw distance). This is why the top size stays at 300%.[/*]\n<br />[*][b]Terrain Edits:[/b] The game has a terrain edit budget per area. When it is full, the game makes no new terrain cuts, and big cuts use it up faster.[/*]\n<br />[/list][line]\n<br />\n<br />[size=5][b][color=#26A69A]Keyboard Reference[/color][/b][/size]\n<br />[i]Snap a piece first, then adjust:[/i]\n<br />[list]\n<br />[*][b][color=#ff964f]]  [[/color][/b]: [b]Hinge:[/b] Swing/fold around the joint[/*]\n<br />[*][b][color=#ff964f]=  -[/color][/b]: [b]Lift:[/b] Rotate within its flat side[/*]\n<br />[*][b][color=#ff964f]'  ;[/color][/b]: [b]Twist:[/b] Roll around the connection line[/*]\n<br />[*][b][color=#ff964f]?[/color][/b]: [b]Step Angle:[/b] Cycle 15°, 5°, or 1°[/*]\n<br />[*][b][color=#ff964f]&gt;[/color][/b]: [b]Mode Switch:[/b] Toggle the six keys between turning and nudging[/*]\n<br />[*][b][color=#ff964f]&#92;[/color][/b]: [b]Reset:[/b] Angles, nudge, and pattern back to normal (size stays)[/*]\n<br />[*][b][color=#ff964f]0[/color][/b]: [b]Pattern / Flip:[/b] Cycle floor patterns or flip gables/arches[/*]\n<br />[*][b][color=#ff964f]PageDown / PageUp[/color][/b]: [b]Snap Range:[/b] Tighter / looser snap distance[/*]\n<br />[*][b][color=#ff964f]Up / Down Arrows[/color][/b]: [b]Resize:[/b] Scale the held piece (tap for 1%, hold to go faster)[/*]\n<br />[*][b][color=#ff964f]End[/color][/b]: [b]Reset Scale:[/b] Back to 100%, held size cleared[/*]\n<br />[*][b][color=#ff964f]B[/color][/b]: [b]Free Camera:[/b] Corvette editor[/*]\n<br />[*][b][color=#ff964f]Home[/color][/b]: [b]Daylight Toggle:[/b] Build menu (bases, stations, your freighter) and the corvette editor[/*]\n<br />[*][b][color=#ff964f]Insert[/color][/b]: [b]Corvette Flight Camera:[/b] Toggle normal / pulled back\n<br />[/*]\n<br />[/list][size=5][b][color=#26A69A]Numpad Reference[/color][/b][/size]\n<br />[i]Num Lock on. Snap a piece first, then adjust:[/i]\n<br />[list]\n<br />[*][b][color=#ff964f]7[/color][/b]: [b]Mode Switch:[/b] Toggle between turning and nudging[/*]\n<br />[*][b][color=#ff964f]4  6[/color][/b]: [b]Hinge[/b] / nudge left and right[/*]\n<br />[*][b][color=#ff964f]9  3[/color][/b]: [b]Lift[/b] / nudge up and down[/*]\n<br />[*][b][color=#ff964f]8  2[/color][/b]: [b]Twist[/b] / nudge forward and back[/*]\n<br />[*][b][color=#ff964f]5[/color][/b]: [b]Reset:[/b] Angles, nudge, and pattern back to normal (size stays)[/*]\n<br />[*][b][color=#ff964f]1[/color][/b]: [b]Step Angle:[/b] Cycle 15°, 5°, or 1°[/*]\n<br />[*][b][color=#ff964f]0[/color][/b]: [b]Pattern / Flip:[/b] Cycle floor patterns or flip gables/arches[/*]\n<br />[/list]Snap range, resize, End, and the camera keys stay on the normal keyboard keys. With Num Lock off, the numpad works as the game normally uses it.\n<br />\n<br />[size=5][b][color=#26A69A]Gamepad Reference[/color][/b][/size]\n<br />[i]Through Steam Input. While a piece is snapped:[/i]\n<br />[list]\n<br />[*][b][color=#ff964f]D-Pad Down[/color][/b]: [b]Mode:[/b] Cycle Scale / Angle / Nudge[/*]\n<br />[*][b][color=#ff964f]R3[/color][/b]: [b]Direction:[/b] Which angle to turn or which way to nudge[/*]\n<br />[*][b][color=#ff964f]D-Pad Left / Right[/color][/b]: [b]Less / More:[/b] In the current mode[/*]\n<br />[*][b][color=#ff964f]Menu Button[/color][/b]: [b]Step Angle:[/b] Cycle 15°, 5°, or 1° (while holding a piece)[/*]\n<br />[*][b][color=#ff964f]LB + RB[/color][/b]: [b]Reset Mode:[/b] Only the mode you are in (Scale: back to 100% and held size cleared)[/*]\n<br />[*][b][color=#ff964f]RB[/color][/b]: [b]Pattern / Mirror[/b][/*]\n<br />[*][b][color=#ff964f]L3 + R3[/color][/b]: [b]Daylight Toggle:[/b] Build menus and the corvette editor[/*]\n<br />[*][b][color=#ff964f]L3[/color][/b]: [b]Free Camera:[/b] Build menu aboard your corvette[/*]\n<br />[/list]When a piece is not snapped, the buttons do what the game normally does. D-Pad Up is never used by the mod.\n<br />\n<br />[line]\n<br />\n<br />[font=Arial Black][size=6][b][color=#26A69A]How It Works[/color][/b][/size][/font]\n<br />\n<br />Packaged as a small proxy DLL ([b]winmm.dll[/b], or [b]XINPUT9_1_0.dll[/b] in the xinput version), the mod hooks the game's building functions in memory. Once the game has chosen a snap, the mod turns, nudges, or scales that pose on the game's own placement ghost, and the placed piece gets the same pose. The game's own snapping and its red/green placement checks still run. Expanded menus work by answering the game's own \"may this part be built here?\" check differently for the parts and places listed above. The parts are the game's own. Grown parts snap because the mod hands the game's link check the real part sizes. For doors and other doorway parts it keeps the game's own normal size check, so those links only form where they also work without the mod.\n<br />\n<br />[size=5][b][color=#26A69A]Installation[/color][/b][/size]\n<br />\n<br />[list=1]\n<br />[*]In Steam, right-click [b]No Man's Sky[/b] &gt; [b]Manage[/b] &gt; [b]Browse local files[/b].[/*]\n<br />[*]Extract the contents of [b]SnapAngles_v2.5.zip[/b] ([b]Binaries[/b] and [b]GAMEDATA[/b] folders) directly into your No Man's Sky folder. (Make sure [b]winmm.dll[/b] sits right next to [b]NMS.exe[/b].)[/*]\n<br />[*]If using mods for the first time, delete or rename [b]No Man's Sky&#92;GAMEDATA&#92;DISABLEMODS.TXT[/b] (only the on-screen controls list needs this).[/*]\n<br />[*]Launch the game as normal.[/*]\n<br />[/list]\n<br />[b]XInput version:[/b] [b]SnapAngles_v2.5_xinput.zip[/b] is the same mod. Only the DLL name is different ([b]XINPUT9_1_0.dll[/b] instead of winmm.dll). Use it if winmm.dll does not load on your PC or clashes with another mod. Install [b]one of the two[/b], not both. It can't be used together with Nozavolochen's framework, which uses the same file name, so Nozavolochen users take the main file (winmm.dll).\n<br />\n<br />[b]Upgrading from v2.0.x:[/b] Extract over the old version. It replaces the DLL and the two files in [b]GAMEDATA&#92;MODS&#92;SnapAngles[/b]. Switching between winmm and xinput? Delete the other Snap Angles DLL first.\n<br />[b]Upgrading from v1.x:[/b] Remove your old [b]GAMEDATA&#92;MODS&#92;SnapAngles&#92;MODELS[/b] folder. If you used the previous XInput build, remove [b]XINPUT9_1_0.dll[/b] (unless it belongs to Nozavolochen's framework).\n<br />\n<br />[b]Prefer the simpler 1.3.1?[/b] It is still in the Files tab under Old versions (angles and nudge only). Install [b]one version only[/b], never 1.3.1 and 2.5 together. Before switching, remove the other version's [b]Binaries&#92;winmm.dll[/b] or [b]Binaries&#92;XINPUT9_1_0.dll[/b] (only if it is Snap Angles', not Nozavolochen's framework) and its [b]GAMEDATA&#92;MODS&#92;SnapAngles[/b] folder.\n<br />[b]Nozavolochen's framework[/b] (needed for SavageCore's mods): works alongside the main file (winmm.dll). Just install as above.\n<br />\n<br />[b]Linux / Steam Deck (Proton):[/b] should work, but it is untested. Install as above, then tell Proton to load the mod's winmm.dll: in Steam, right-click No Man's Sky &gt; Properties &gt; General &gt; Launch Options, and enter\n<br />\n<br />WINEDLLOVERRIDES=\"winmm=n,b\" %command%\n<br />\n<br />(if you already have launch options, keep them and add this in front of %command%; for the xinput version use xinput9_1_0=n,b). Without it, Proton uses its own winmm.dll and the mod stays off. There is then no Binaries&#92;SnapAngles_log.txt. Gamepad support works through Steam Input. On a Steam Deck, copy the files in Desktop Mode (Steam &gt; No Man's Sky &gt; Manage &gt; Browse local files).\n<br />\n<br />[b]Game Pass / Microsoft Store (PC):[/b] should work, but it is untested. Put the DLL in [b]XboxGames&#92;No Man's Sky&#92;Content&#92;Binaries[/b]. Gamepad support needs the Steam version (it uses Steam Input).\n<br />\n<br />[b]Uninstall:[/b] delete [b]Binaries&#92;winmm.dll[/b] (or [b]Binaries&#92;XINPUT9_1_0.dll[/b]) and [b]GAMEDATA&#92;MODS&#92;SnapAngles[/b]. Safe to remove at any time.\n<br />\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#26A69A]Optional Add-Ons[/color][/b][/size] (Files tab)\n<br />\n<br />[list]\n<br />[*][b]Base Corvette Dock:[/b] Adds an invisible corvette dock to the base Landing Pad and Landing Zone (with the updated Landing Zone dock), so your corvette can land at your bases. Install its GAMEDATA folder the same way. A friend needs it too to land their corvette on your pads.[/*]\n<br />[*][b]Expanded Palette (AllBuildColours):[/b] Up to 150 colors per color group with a bigger color picker. It replaces the game's base parts table, so with Beyond Base Building, BuildFrame, or other mods that change that table, use its AMUMSS version instead.[/*]\n<br />[*][b]AMUMSS Versions:[/b] AMUMSS scripts for the controls lists, Base Corvette Dock, and AllBuildColours, for merging with other mods that change the same game files. Each was test-built with AMUMSS against the game update of 9 November 2026 and matches the normal downloads. Beyond Base Building, BuildFrame, and Snappy Industry don't change the Snap Angles files, so they run next to the main download as they are. The Snap Angles DLL is still needed.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />\n<br />[size=5][b][color=#26A69A]Bugs &amp; Help[/color][/b][/size]\n<br />Post in the Bugs tab: say which piece you were placing and which key or button you pressed, and attach [b]Binaries&#92;SnapAngles_log.txt[/b]. After a game update, the top of that log lists anything the mod had to switch off. Antivirus programs may flag the DLL as a false positive (it patches the game's building code in memory). If Windows Defender removes it, restore it from Protection history and add it as an exclusion.\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#26A69A]Credits &amp; Acknowledgments[/color][/b][/size]\n<br />[list]\n<br />[*][b]MinHook:[/b] Tsuda Kageyu, Michael Maltsev, Andrey Unis, and Vyacheslav Patkov (BSD License, full text in THIRD_PARTY_LICENSES.txt).[/*]\n<br />[*][b]Hello Games:[/b] For No Man's Sky.[/*]\n<br />[*][b]MBINCompiler &amp; pyMHF/NMS.py:[/b] monkeyman192 and the modding research community.[/*]\n<br />[*][b]AMUMSS:[/b] Wbertro and contributors.[/*]\n<br />[*][b]Community Contribution:[/b] Special thanks to the player who designed the numpad layout.[/*]\n<br />[/list][size=2][i]Disclaimer: Snap Angles is an unofficial fan mod and is not affiliated with or endorsed by Hello Games or Microsoft. The code was written with AI (Anthropic's Claude) under my direction; I planned and tested every change in game. This page text was also drafted with AI. Tagged \"AI-Generated Content\" and \"AI Media\" as Nexus requires. Tested on No Man's Sky PC (Steam), game update of 9 November 2026.[/i][/size]\n<br />",
+    "description": "[font=Arial Black][b][size=6][color=#26A69A]Snap Angles 2.5[/color]: The Corvette &amp; Base Building Overhaul[/size][/b][/font]\n<br />\n<br />[b][size=4]Turn, nudge, and resize pieces without losing snap. Resize from 1% to 300%, cross-snapping between bases, corvettes, and freighters, more places to build, expanded build menus, and gamepad support.[/size][/b]\n<br />\n<br />No more glitch building for angles and offsets. Snap a piece as usual: walls, floors, ramps, roofs, stairs, prefabs, large structures, or corvette modules. Then rotate it on three axes, nudge it off the grid, or resize it live while it stays snapped.\n<br />\n<br />Version 2.5 turns building in No Man's Sky into one connected toolkit. Build across planet bases, space bases, corvettes, freighters, and underwater, with gamepad support, on-screen controls, and a live size readout. Grown parts now snap to each other, and doors stop snapping right where they would break for visitors.\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#26A69A]Back Up Your Saves[/color][/b][/size]\n<br />[color=#ff964f]As usual with mods, back up your saves before installing or updating. Copy %APPDATA%&#92;HelloGames&#92;NMS somewhere safe. To restore, close the game and copy it back.\n<br />Back up again before big changes: giant or tiny parts, new structures, and parts in places the game did not offer them before. Snap Angles does not write to your save, but the game saves what you build with it.[/color]\n<br />\n<br />[line]\n<br />\n<br />[font=Arial Black][size=6][b][color=#26A69A]What's New in 2.5[/color][/b][/size][/font]\n<br />\n<br />[size=4][b][color=#ff964f]◆ Resize From 1% to 300%[/color][/b][/size]\n<br />[list]\n<br />[*][b]Bigger Range:[/b] Parts resize from 1% up to 300%, the game's own top size. A tap of Up or Down moves the size by 1%. Hold it to go faster. Sizes land on whole percents.[/*]\n<br />[*][b]Grown Parts Snap:[/b] Grown parts now snap to each other, even exact copies at the same size. The game's snap search only looked as far as a normal size part reaches, and its link check counted both parts at normal size, so big parts lost their snap. Snap Angles gives both the real sizes, so grown structures, floors, and walls snap again.[/*]\n<br />[*][b]Furnishings Resize Too:[/b] With the same percentage readout, held size, and reset keys as other parts.[/*]\n<br />[*][b]Terrain Cuts Match:[/b] Parts that flatten the ground cut a hole that matches their size.[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Structure &amp; Door Limit (Experimental)[/color][/b][/size]\n<br />Growing a structure can break its doors. The game only opens a doorway when it links the door and the structure itself, and it checks that link as if both parts were still at their normal size. Grow a room far enough and its doorways end up too far from where the game expects them. The door would then stop working in multiplayer and for players who do not have the mod.\n<br />\n<br />Snap Angles works out that size for the structure and the door you are holding and stops the door from snapping past it. In our tests doors stop snapping somewhere between about 180% and 210%, depending on the structure and the door. The same rule covers the other parts the game only lets you snap (corridors, glass tunnels, ladders, windows, and similar), and corvette habs: a grown hab only snaps where its opening also stays open for visitors without the mod.\n<br />[list]\n<br />[*][b]Only Doors:[/b] You can still place giant structures and parts up to 300%. Past the limit the door just will not snap to them.[/*]\n<br />[*][b]Experimental:[/b] It may not work for some rooms or doors. If a door snaps but does not open, or will not snap at a size where it should, tell us the room, the door, and the size.[/*]\n<br />[*][b]Rough Breakpoints:[/b] Door, Holo-Door, Watertight Door, and Cuboid Inner Door on a grown Cuboid Room or Cylindrical Room still opened at 150%. A Cylindrical Room still took doors at 210%. Openings between two grown Titan, Thunderbird, or Ambassador Habs still worked at 150%. An Infrastructure Ladder in a grown Cylindrical Room needs the same size as the room.[/*]\n<br />[*][b]Shrinking Can Open Things Up:[/b] A Door shrunk to 1%, 10%, or 20% still opens its doorway on a bigger structure, because the game still counts it as a full size door. Hab openings work the same way: shrink one of the two habs. The farther a doorway sits from the middle of a structure, the sooner it stops linking when you grow the structure.[/*]\n<br />[/list]These numbers are a starting point, not a rule. Experiment and find what works for your build.\n<br />\n<br />[size=4][b][color=#ff964f]◆ Build in More Places[/color][/b][/size]\n<br />[list]\n<br />[*][b]More Places:[/b] Base parts and corvette parts at planet bases, space bases, on your freighter, at space stations, aboard your corvette as decoration, and underwater.[/*]\n<br />[*][b]Freighter &amp; Corvette Parts:[/b] Freighter parts at your bases, and corvette parts on your own freighter. Freighter rooms, walkways, face walls, and windows can be placed freely, so the first one needs nothing to attach to. The next pieces snap with the game's own freighter snaps. The old cuboid freighter rooms and corridors are back under the Freighter tab, and the corvette editor has a Corvette Interior tab.[/*]\n<br />[*][b]Resource Parts as Decoration:[/b] Parts that need planet resources (harvesters, extractors, and similar) can stand elsewhere as decoration.[/*]\n<br />[*][b]Kept as the Game Has Them:[/b] The base computer, the space base beacon, the freighter fleet, scanner, vehicle, and crew rooms, and the station exterior parts (station only). Parts still need to be learned, as in the game.[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ More Snap Points[/color][/b][/size]\n<br />Corvette parts snap to more places: wings, thrusters, turrets, and shields onto more sides of habs and onto base walls, floors, and roofs. A small Infrastructure Ladder can also snap in a bigger room.\n<br />\n<br />[size=4][b][color=#ff964f]◆ Reach &amp; Camera[/color][/b][/size]\n<br />[list]\n<br />[*][b]Longer Reach:[/b] A grown part can be held farther away, on the ground and in the air.[/*]\n<br />[*][b]Corvette Editor Reach:[/b] Place parts from up to 150 m away and delete them from up to 100 m away (the game: about 50 m to delete).[/*]\n<br />[*][b]Build Camera:[/b] The base building and station exterior free camera go up to 300 m from your character. The corvette editor camera stays at the game's 90 m.[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Performance[/color][/b][/size]\n<br />2.5 fixes several FPS drops. The big one: holding a corvette part at a base made the game test its snap options for landing gear links that part can never make there. Snap Angles now skips that, skips pieces that are too far apart to connect before the game checks them, and caps how many snap options get tested per placement check.\n<br />\n<br />The mod can still cause some slowdowns when bases and corvettes get large and complex, especially while you hold a piece near a lot of placed parts.\n<br />\n<br />[size=4][b][color=#ff964f]◆ Smaller Fixes[/color][/b][/size]\n<br />[list]\n<br />[*][b]Shrunk Corvette Parts Stay Connected:[/b] A corvette with parts shrunk far down no longer fails with \"All modules must be connected\" when you edit it again. A shrunk part that touches the ship counts as connected (only on your side, the saved ship is unchanged).[/*]\n<br />[*][b]Controls Follow Your Device:[/b] The key list switches between keyboard and gamepad as the game does. L3 + R3 daylight only works in build menus, and daylight also works at bases while you build (only on your screen).[/*]\n<br />[*][b]Game Update:[/b] Works with the game update of 9 November 2026.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[font=Arial Black][size=6][b][color=#26A69A]Core Features[/color][/b][/size][/font]\n<br />\n<br />[size=4][b][color=#ff964f]◆ Cross-Snapping &amp; Shared Menus[/color][/b][/size]\n<br />Planet bases, corvettes, and freighters now share build menus and snap points:\n<br />[list]\n<br />[*][b]Corvette Parts at Bases:[/b] The corvette hull and exterior parts you have unlocked appear in your planetary base building menu (locked parts show grayed out, matching the workshop).[/*]\n<br />[*][b]Base Parts on Corvettes &amp; Freighters:[/b] Walls, floors, roofs, doors, and rooms are available in the corvette editor, in the build menu aboard your corvette, and aboard your freighter. On corvettes they place, pick up, and delete normally, and count as decoration rather than as corvette parts. The freighter build menu also shows Advanced Technology and Power and Industry parts.[/*]\n<br />[*][b]Cross-Snaps:[/b] Base floors attach edge-to-edge onto corvette modules, base corridors line up with the center of hab modules, and corvette modules snap onto base parts. Base parts snap to your freighter too.[/*]\n<br />[*][b]Upgraded Geometry Snaps:[/b] Large triangle floors now snap like square floors (under or over walls, to stairs, and onto quarter floors), and half stairs chain top-to-bottom with other stairs. Thin walls now attach under other thin walls, not just on top.[/*]\n<br />[*][b]Hidden Variants Unlocked:[/b] Bottom, middle, and top versions of walls, doors, and arches are listed in your menus once you know the part.[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ 360° Multi-Axis Precision Angles[/color][/b][/size]\n<br />Swing a snapped piece around its joint a full 360° while it stays connected:\n<br />[list]\n<br />[*][b]Hinge:[/b] Folds the piece around the attachment joint.[/*]\n<br />[*][b]Lift:[/b] Rotates the piece within its own flat plane.[/*]\n<br />[*][b]Twist:[/b] Rolls the piece along its connection axis.[/*]\n<br />[/list]Combine all three for compound angles. Tap [b]?[/b] to switch between [b]15°[/b], [b]5°[/b], and fine [b]1°[/b] steps. Angles carry over to the next pieces until you reset, so you can lay down curved halls or angled roofs in a row.\n<br />\n<br />[size=4][b][color=#ff964f]◆ 1/8 Micro-Nudging[/color][/b][/size]\n<br />Slide a snapped piece off its snap point for custom offsets without breaking the snap or resorting to wire glitches.\n<br />[list]\n<br />[*]Moves in [b]1/8[/b] grid steps, up to [b]8/8[/b] each way. The 8th press lands on the next snap spot over.[/*]\n<br />[*]Live on-screen count: [i]\"Nudge left: 3/8\"[/i], [i]\"as far as it goes (8/8)\"[/i], or [i]\"back on the snap\"[/i].[/*]\n<br />[*]Nudges combine with angles and reset after each placed piece (or right away with [b]&#92;[/b]).[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Live Scaling &amp; Scale Memory[/color][/b][/size]\n<br />Resize pieces while holding them, from [b]1%[/b] to [b]300%[/b], with a live on-screen readout ([b]\"Size: 100%\"[/b], [b]\"Size: 150%\"[/b]).\n<br />[list]\n<br />[*][b]Held Scale Memory:[/b] Your chosen size sticks for the next pieces you pick from the menu, until you reset it or leave build mode.[/*]\n<br />[*][b]Sample &amp; Match:[/b] Copying a placed piece makes its size the held size for your next placements. A copy keeps its exact size until you resize it.[/*]\n<br />[*][b]Expanded Resizing:[/b] Scale parts the base game won't let you resize, corvette parts and furnishings included. The base computer, geobays, and vehicle-summoning parts keep their size, so they can't break a base.[/*]\n<br />[*][b]Snap Limit:[/b] Grown parts snap to each other. Doors stop snapping past the size where they would break (see Structure &amp; Door Limit above).[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Gamepad Support[/color][/b][/size]\n<br />Build from the couch through Steam Input, with the game's own button pictures and your own Steam layout:\n<br />[list]\n<br />[*][b]D-Pad Down:[/b] Cycle mode ([b]Scale / Angle / Nudge[/b])[/*]\n<br />[*][b]R3 (Stick Click):[/b] Cycle direction (tilt, twist, lift, or nudge direction)[/*]\n<br />[*][b]D-Pad Left / Right:[/b] Less / more in the current mode[/*]\n<br />[*][b]Menu Button:[/b] Cycle angle step (15° / 5° / 1°)[/*]\n<br />[*][b]LB + RB:[/b] Reset the active mode only (Scale: back to 100% and held size cleared; Angle: angles cleared; Nudge: nudge cleared)[/*]\n<br />[*][b]RB:[/b] Pattern cycle / mirror flip[/*]\n<br />[*][b]L3 + R3:[/b] Toggle daylight (build menus and the corvette editor)[/*]\n<br />[*][b]L3:[/b] Free camera in the build menu aboard your corvette[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ On-Screen Controls &amp; Numpad Layout[/color][/b][/size]\n<br />[list]\n<br />[*][b]On-Screen Controls List:[/b] The corvette editor and base building show the Snap Angles controls on the left of the screen, switching by themselves between keyboard, numpad, and gamepad based on what you used last.[/*]\n<br />[*][b]Numpad Layout:[/b] With Num Lock on: [b]7[/b] (Angle/Nudge toggle), [b]8/2[/b] (Twist / forward-back), [b]4/6[/b] (Hinge / left-right), [b]9/3[/b] (Lift / up-down), [b]5[/b] (Reset), [b]1[/b] (Step size), and [b]0[/b] (Pattern cycle).[/*]\n<br />[/list]\n<br />[size=4][b][color=#ff964f]◆ Quality of Life &amp; Corvette Helpers[/color][/b][/size]\n<br />[list]\n<br />[*][b]Adjustable Snap Range:[/b] Cycle snap distances ([b]Any / 50m / 40m / 30m / 20m[/b]) with PageUp/PageDown to stop distant snap-jumping during close-up work.[/*]\n<br />[*][b]Pattern &amp; Flip Direction Control:[/b] Cycle floor patterns or flip roof gables, diagonal panels, and half arches with [b]0[/b] or [b]RB[/b].[/*]\n<br />[*][b]Expanded Part Customization:[/b] Rotate base parts on three axes, recolor them, and apply other materials where the game normally doesn't allow it.[/*]\n<br />[*][b]Corvette Workflow Upgrades:[/b] Free camera in the corvette editor, daylight while building, a pulled-back flight camera for big ships, and long corvettes are no longer shoved into the station walls on the way out.[/*]\n<br />[/list][size=5][b][color=#26A69A]Multiplayer &amp; Compatibility[/color][/b][/size]\n<br />\n<br />[list]\n<br />[*][b]Multiplayer:[/b] Other players see your builds exactly as you placed them, and they don't need the mod. It adds no new parts and no new colors. It only lets the game's own parts go where you want them. Doors, structures, and corvette hab openings only snap where they also work for visitors without the mod.[/*]\n<br />[*][b]Save Files:[/b] Does not change your save files and does not connect to the internet. If uninstalled, angled, nudged, and scaled pieces stay exactly where you placed them.[/*]\n<br />[*][b]Works With:[/b] Beyond Base Building, BuildFrame (RecTUM), Snappy Industry, AllBuildColours, and Base Corvette Dock. Tested together in my game (game update of 9 November 2026). Snappy Industry's snap points work with the Snap Angles snaps, BuildFrame's tech tabs show on your freighter too, and Beyond Base Building's rules do not turn off the multiplayer safe door limit. When other mods fill the build menu, parts that would not fit go under the closest tab already there instead of being lost. Big part mods make the game's own build menu heavier, with or without Snap Angles.[/*]\n<br />[/list]\n<br />[size=5][b][color=#26A69A]Known Limits[/color][/b][/size]\n<br />\n<br />[size=4][b][color=#ff964f]◆ Building in Busy Areas[/color][/b][/size]\n<br />Snap Angles adds a lot of extra snap points. That's what makes the new angles and sizes possible, but it also means that as your base gets bigger and more crowded, placing a piece exactly where you want it gets harder. [b]In most cases it can still be done, it just takes more care.[/b] The more pieces near your cursor, the more snap points are fighting to take it. [color=#26a69a]I'm working on tools to make this easier, and they're coming in a future update.[/color]\n<br />\n<br />[list]\n<br />[*][b]Ladders:[/b] A grown ladder can only be climbed about halfway.[/*]\n<br />[*][b]Collision:[/b] Grown parts keep you a little away from them, because their collision grows with them.[/*]\n<br />[*][b]Build Glow:[/b] The orange build glow takes longer on big parts.[/*]\n<br />[*][b]Draw Distance:[/b] Very large parts can vanish at a distance, for you and for visitors (the game's own draw distance). This is why the top size stays at 300%.[/*]\n<br />[*][b]Terrain Edits:[/b] The game has a terrain edit budget per area. When it is full, the game makes no new terrain cuts, and big cuts use it up faster.[/*]\n<br />[/list][line]\n<br />\n<br />[size=5][b][color=#26A69A]Keyboard Reference[/color][/b][/size]\n<br />[i]Snap a piece first, then adjust:[/i]\n<br />[list]\n<br />[*][b][color=#ff964f]]  [[/color][/b]: [b]Hinge:[/b] Swing/fold around the joint[/*]\n<br />[*][b][color=#ff964f]=  -[/color][/b]: [b]Lift:[/b] Rotate within its flat side[/*]\n<br />[*][b][color=#ff964f]'  ;[/color][/b]: [b]Twist:[/b] Roll around the connection line[/*]\n<br />[*][b][color=#ff964f]?[/color][/b]: [b]Step Angle:[/b] Cycle 15°, 5°, or 1°[/*]\n<br />[*][b][color=#ff964f]&gt;[/color][/b]: [b]Mode Switch:[/b] Toggle the six keys between turning and nudging[/*]\n<br />[*][b][color=#ff964f]&#92;[/color][/b]: [b]Reset:[/b] Angles, nudge, and pattern back to normal (size stays)[/*]\n<br />[*][b][color=#ff964f]0[/color][/b]: [b]Pattern / Flip:[/b] Cycle floor patterns or flip gables/arches[/*]\n<br />[*][b][color=#ff964f]PageDown / PageUp[/color][/b]: [b]Snap Range:[/b] Tighter / looser snap distance[/*]\n<br />[*][b][color=#ff964f]Up / Down Arrows[/color][/b]: [b]Resize:[/b] Scale the held piece (tap for 1%, hold to go faster)[/*]\n<br />[*][b][color=#ff964f]End[/color][/b]: [b]Reset Scale:[/b] Back to 100%, held size cleared[/*]\n<br />[*][b][color=#ff964f]B[/color][/b]: [b]Free Camera:[/b] Corvette editor[/*]\n<br />[*][b][color=#ff964f]Home[/color][/b]: [b]Daylight Toggle:[/b] Build menu (bases, stations, your freighter) and the corvette editor[/*]\n<br />[*][b][color=#ff964f]Insert[/color][/b]: [b]Corvette Flight Camera:[/b] Toggle normal / pulled back\n<br />[/*]\n<br />[/list][size=5][b][color=#26A69A]Numpad Reference[/color][/b][/size]\n<br />[i]Num Lock on. Snap a piece first, then adjust:[/i]\n<br />[list]\n<br />[*][b][color=#ff964f]7[/color][/b]: [b]Mode Switch:[/b] Toggle between turning and nudging[/*]\n<br />[*][b][color=#ff964f]4  6[/color][/b]: [b]Hinge[/b] / nudge left and right[/*]\n<br />[*][b][color=#ff964f]9  3[/color][/b]: [b]Lift[/b] / nudge up and down[/*]\n<br />[*][b][color=#ff964f]8  2[/color][/b]: [b]Twist[/b] / nudge forward and back[/*]\n<br />[*][b][color=#ff964f]5[/color][/b]: [b]Reset:[/b] Angles, nudge, and pattern back to normal (size stays)[/*]\n<br />[*][b][color=#ff964f]1[/color][/b]: [b]Step Angle:[/b] Cycle 15°, 5°, or 1°[/*]\n<br />[*][b][color=#ff964f]0[/color][/b]: [b]Pattern / Flip:[/b] Cycle floor patterns or flip gables/arches[/*]\n<br />[/list]Snap range, resize, End, and the camera keys stay on the normal keyboard keys. With Num Lock off, the numpad works as the game normally uses it.\n<br />\n<br />[size=5][b][color=#26A69A]Gamepad Reference[/color][/b][/size]\n<br />[i]Through Steam Input. While a piece is snapped:[/i]\n<br />[list]\n<br />[*][b][color=#ff964f]D-Pad Down[/color][/b]: [b]Mode:[/b] Cycle Scale / Angle / Nudge[/*]\n<br />[*][b][color=#ff964f]R3[/color][/b]: [b]Direction:[/b] Which angle to turn or which way to nudge[/*]\n<br />[*][b][color=#ff964f]D-Pad Left / Right[/color][/b]: [b]Less / More:[/b] In the current mode[/*]\n<br />[*][b][color=#ff964f]Menu Button[/color][/b]: [b]Step Angle:[/b] Cycle 15°, 5°, or 1° (while holding a piece)[/*]\n<br />[*][b][color=#ff964f]LB + RB[/color][/b]: [b]Reset Mode:[/b] Only the mode you are in (Scale: back to 100% and held size cleared)[/*]\n<br />[*][b][color=#ff964f]RB[/color][/b]: [b]Pattern / Mirror[/b][/*]\n<br />[*][b][color=#ff964f]L3 + R3[/color][/b]: [b]Daylight Toggle:[/b] Build menus and the corvette editor[/*]\n<br />[*][b][color=#ff964f]L3[/color][/b]: [b]Free Camera:[/b] Build menu aboard your corvette[/*]\n<br />[/list]When a piece is not snapped, the buttons do what the game normally does. D-Pad Up is never used by the mod.\n<br />\n<br />[line]\n<br />\n<br />[font=Arial Black][size=6][b][color=#26A69A]How It Works[/color][/b][/size][/font]\n<br />\n<br />Packaged as a small proxy DLL ([b]winmm.dll[/b], or [b]XINPUT9_1_0.dll[/b] in the xinput version), the mod hooks the game's building functions in memory. Once the game has chosen a snap, the mod turns, nudges, or scales that pose on the game's own placement ghost, and the placed piece gets the same pose. The game's own snapping and its red/green placement checks still run. Expanded menus work by answering the game's own \"may this part be built here?\" check differently for the parts and places listed above. The parts are the game's own. Grown parts snap because the mod hands the game's link check the real part sizes. For doors and other doorway parts it keeps the game's own normal size check, so those links only form where they also work without the mod.\n<br />\n<br />[size=5][b][color=#26A69A]Installation[/color][/b][/size]\n<br />\n<br />[list=1]\n<br />[*]In Steam, right-click [b]No Man's Sky[/b] &gt; [b]Manage[/b] &gt; [b]Browse local files[/b].[/*]\n<br />[*]Extract the contents of [b]SnapAngles_v2.5.zip[/b] ([b]Binaries[/b] and [b]GAMEDATA[/b] folders) directly into your No Man's Sky folder. (Make sure [b]winmm.dll[/b] sits right next to [b]NMS.exe[/b].)[/*]\n<br />[*]If using mods for the first time, delete or rename [b]No Man's Sky&#92;GAMEDATA&#92;DISABLEMODS.TXT[/b] (only the on-screen controls list needs this).[/*]\n<br />[*]Launch the game as normal.[/*]\n<br />[/list]\n<br />[b]XInput version:[/b] [b]SnapAngles_v2.5_xinput.zip[/b] is the same mod. Only the DLL name is different ([b]XINPUT9_1_0.dll[/b] instead of winmm.dll). Use it if winmm.dll does not load on your PC or clashes with another mod. Install [b]one of the two[/b], not both. It can't be used together with Nozavolochen's framework, which uses the same file name, so Nozavolochen users take the main file (winmm.dll).\n<br />\n<br />[b]Upgrading from v2.0.x:[/b] Extract over the old version. It replaces the DLL and the two files in [b]GAMEDATA&#92;MODS&#92;SnapAngles[/b]. Switching between winmm and xinput? Delete the other Snap Angles DLL first.\n<br />[b]Upgrading from v1.x:[/b] Remove your old [b]GAMEDATA&#92;MODS&#92;SnapAngles&#92;MODELS[/b] folder. If you used the previous XInput build, remove [b]XINPUT9_1_0.dll[/b] (unless it belongs to Nozavolochen's framework).\n<br />\n<br />[b]Prefer the simpler 1.3.1?[/b] It is still in the Files tab under Old versions (angles and nudge only). Install [b]one version only[/b], never 1.3.1 and 2.5 together. Before switching, remove the other version's [b]Binaries&#92;winmm.dll[/b] or [b]Binaries&#92;XINPUT9_1_0.dll[/b] (only if it is Snap Angles', not Nozavolochen's framework) and its [b]GAMEDATA&#92;MODS&#92;SnapAngles[/b] folder.\n<br />[b]Nozavolochen's framework[/b] (needed for SavageCore's mods): works alongside the main file (winmm.dll). Just install as above.\n<br />\n<br />[b]Linux / Steam Deck (Proton):[/b] should work, but it is untested. Install as above, then tell Proton to load the mod's winmm.dll: in Steam, right-click No Man's Sky &gt; Properties &gt; General &gt; Launch Options, and enter\n<br />\n<br />WINEDLLOVERRIDES=\"winmm=n,b\" %command%\n<br />\n<br />(if you already have launch options, keep them and add this in front of %command%; for the xinput version use xinput9_1_0=n,b). Without it, Proton uses its own winmm.dll and the mod stays off. There is then no Binaries&#92;SnapAngles_log.txt. Gamepad support works through Steam Input. On a Steam Deck, copy the files in Desktop Mode (Steam &gt; No Man's Sky &gt; Manage &gt; Browse local files).\n<br />\n<br />[b]Game Pass / Microsoft Store (PC):[/b] should work, but it is untested. Put the DLL in [b]XboxGames&#92;No Man's Sky&#92;Content&#92;Binaries[/b]. Gamepad support needs the Steam version (it uses Steam Input).\n<br />\n<br />[b]Uninstall:[/b] delete [b]Binaries&#92;winmm.dll[/b] (or [b]Binaries&#92;XINPUT9_1_0.dll[/b]) and [b]GAMEDATA&#92;MODS&#92;SnapAngles[/b]. Safe to remove at any time.\n<br />\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#26A69A]Optional Add-Ons[/color][/b][/size] (Files tab)\n<br />\n<br />[list]\n<br />[*][b]Base Corvette Dock:[/b] Adds an invisible corvette dock to the base Landing Pad and Landing Zone (with the updated Landing Zone dock), so your corvette can land at your bases. Install its GAMEDATA folder the same way. A friend needs it too to land their corvette on your pads.[/*]\n<br />[*][b]Expanded Palette (AllBuildColours):[/b] Up to 150 colors per color group with a bigger color picker. It replaces the game's base parts table, so with Beyond Base Building, BuildFrame, or other mods that change that table, use its AMUMSS version instead.[/*]\n<br />[*][b]AMUMSS Versions:[/b] AMUMSS scripts for the controls lists, Base Corvette Dock, and AllBuildColours, for merging with other mods that change the same game files. Each was test-built with AMUMSS against the game update of 9 November 2026 and matches the normal downloads. Beyond Base Building, BuildFrame, and Snappy Industry don't change the Snap Angles files, so they run next to the main download as they are. The Snap Angles DLL is still needed.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />\n<br />[size=5][b][color=#26A69A]Bugs &amp; Help[/color][/b][/size]\n<br />Post in the Bugs tab: say which piece you were placing and which key or button you pressed, and attach [b]Binaries&#92;SnapAngles_log.txt[/b]. After a game update, the top of that log lists anything the mod had to switch off. Antivirus programs may flag the DLL as a false positive (it patches the game's building code in memory). If Windows Defender removes it, restore it from Protection history and add it as an exclusion.\n<br />\n<br />[line]\n<br />\n<br />[size=5][b][color=#26A69A]Credits &amp; Acknowledgments[/color][/b][/size]\n<br />[list]\n<br />[*][b]MinHook:[/b] Tsuda Kageyu, Michael Maltsev, Andrey Unis, and Vyacheslav Patkov (BSD License, full text in THIRD_PARTY_LICENSES.txt).[/*]\n<br />[*][b]Hello Games:[/b] For No Man's Sky.[/*]\n<br />[*][b]MBINCompiler &amp; pyMHF/NMS.py:[/b] monkeyman192 and the modding research community.[/*]\n<br />[*][b]AMUMSS:[/b] Wbertro and contributors.[/*]\n<br />[*][b]Community Contribution:[/b] Special thanks to the player who designed the numpad layout.[/*]\n<br />[/list][size=2][i]Disclaimer: Snap Angles is an unofficial fan mod and is not affiliated with or endorsed by Hello Games or Microsoft. The code was written with AI (Anthropic's Claude) under my direction; I planned and tested every change in game. This page text was also drafted with AI. Tagged \"AI-Generated Content\" and \"AI Media\" as Nexus requires. Tested on No Man's Sky PC (Steam), game update of 9 November 2026.[/i][/size]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -696767,8 +696919,8 @@
         "file_id": 50763,
         "name": "SnapAngles V2.0 Optional AMUMSS Versions",
         "version": "2.5",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": false,
         "size": 20,
         "file_name": "SnapAngles V2.0 Optional AMUMSS Versions 4609 2.5 2026-11-17T20-48Z xDwj9UswD.zip",
@@ -696782,6 +696934,31 @@
         "size_in_bytes": 21103,
         "changelog_html": "2.5\nResize from 1% to 300%, with 1% steps. Grown parts now snap to each other.\nStructure and door limit (experimental): doors stop snapping at the size where they would break for visitors without the mod. Giant parts still place.\nBuild in more places: bases, space bases, freighters, stations, aboard your corvette and underwater.\nCorvette parts snap to more places on habs and base parts.\nBig FPS drop when holding corvette parts at bases fixed. Large and complex builds can still slow the game down.\nGamepad: the left stick click (sprint, scan) no longer stops working after build mode.\nLonger reach and a 300 m build camera. Nudge goes to 8/8.\nShrunk corvette parts no longer cause \"All modules must be connected\".\nWorks with the game update of 9 November 2026.\nBack up your save before updating.\nVirusTotal (winmm.dll): https://www.virustotal.com/gui/file/c96f4b10a74592a4a03fd887fa4638f4ac7cbdfc3515be2701ea63262b4494f8\nVirusTotal (XINPUT9_1_0.dll): https://www.virustotal.com/gui/file/26bdbb95e648b6ae247b0ec8554153631b933e4b9e5ae9d08fb33d96a2f17db6\n2.5\nResize from 1% to 300%, with 1% steps. Grown parts now snap to each other.\nStructure and door limit (experimental): doors stop snapping at the size where they would break for visitors without the mod. Giant parts still place.\nBuild in more places: bases, space bases, freighters, stations, aboard your corvette and underwater.\nCorvette parts snap to more places on habs and base parts.\nBig FPS drop when holding corvette parts at bases fixed. Large and complex builds can still slow the game down.\nGamepad: the left stick click (sprint, scan) no longer stops working after build mode.\nLonger reach and a 300 m build camera. Nudge goes to 8/8.\nShrunk corvette parts no longer cause \"All modules must be connected\".\nWorks with the game update of 9 November 2026.\nBack up your save before updating.\nVirusTotal (winmm.dll): https://www.virustotal.com/gui/file/c96f4b10a74592a4a03fd887fa4638f4ac7cbdfc3515be2701ea63262b4494f8\nVirusTotal (XINPUT9_1_0.dll): https://www.virustotal.com/gui/file/26bdbb95e648b6ae247b0ec8554153631b933e4b9e5ae9d08fb33d96a2f17db6",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/32/30/24/32302450-962d-461d-bb56-01a6fc6727e9"
+      },
+      {
+        "id": [
+          50791,
+          1634
+        ],
+        "uid": 7017976612455,
+        "file_id": 50791,
+        "name": "SnapAngles V2.5 Optional AMUMSS Versions",
+        "version": "2.5",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 20,
+        "file_name": "SnapAngles V2.5 Optional AMUMSS Versions 4609 2.5 2026-11-20T21-16Z oPfwFL8f6.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795209386,
+        "uploaded_time": "2026-11-20T21:16:26.000+00:00",
+        "mod_version": "2.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/35e7579003f2b506e70a2dff611489ca9c9caf15b343d06df95d0d76cd24b661",
+        "description": "AMUMSS scripts for the controls lists, Base Corvette Dock and AllBuildColours, to merge with mods that change the same files. Put each folder in AMUMSS's ModScript folder. Still needs dll from the main file.",
+        "size_kb": 20,
+        "size_in_bytes": 21103,
+        "changelog_html": "2.5\nResize from 1% to 300%, with 1% steps. Grown parts now snap to each other.\nStructure and door limit (experimental): doors stop snapping at the size where they would break for visitors without the mod. Giant parts still place.\nBuild in more places: bases, space bases, freighters, stations, aboard your corvette and underwater.\nCorvette parts snap to more places on habs and base parts.\nBig FPS drop when holding corvette parts at bases fixed. Large and complex builds can still slow the game down.\nGamepad: the left stick click (sprint, scan) no longer stops working after build mode.\nLonger reach and a 300 m build camera. Nudge goes to 8/8.\nShrunk corvette parts no longer cause \"All modules must be connected\".\nWorks with the game update of 9 November 2026.\nBack up your save before updating.\nVirusTotal (winmm.dll): https://www.virustotal.com/gui/file/c96f4b10a74592a4a03fd887fa4638f4ac7cbdfc3515be2701ea63262b4494f8\nVirusTotal (XINPUT9_1_0.dll): https://www.virustotal.com/gui/file/26bdbb95e648b6ae247b0ec8554153631b933e4b9e5ae9d08fb33d96a2f17db6\n2.5\nResize from 1% to 300%, with 1% steps. Grown parts now snap to each other.\nStructure and door limit (experimental): doors stop snapping at the size where they would break for visitors without the mod. Giant parts still place.\nBuild in more places: bases, space bases, freighters, stations, aboard your corvette and underwater.\nCorvette parts snap to more places on habs and base parts.\nBig FPS drop when holding corvette parts at bases fixed. Large and complex builds can still slow the game down.\nGamepad: the left stick click (sprint, scan) no longer stops working after build mode.\nLonger reach and a 300 m build camera. Nudge goes to 8/8.\nShrunk corvette parts no longer cause \"All modules must be connected\".\nWorks with the game update of 9 November 2026.\nBack up your save before updating.\nVirusTotal (winmm.dll): https://www.virustotal.com/gui/file/c96f4b10a74592a4a03fd887fa4638f4ac7cbdfc3515be2701ea63262b4494f8\nVirusTotal (XINPUT9_1_0.dll): https://www.virustotal.com/gui/file/26bdbb95e648b6ae247b0ec8554153631b933e4b9e5ae9d08fb33d96a2f17db6",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/57/43/08/5743081b-8ecd-457f-9f78-0c80ed28518e"
       }
     ],
     "changelogs": {
