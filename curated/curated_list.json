@@ -637070,7 +637070,7 @@
     "version": "1.24",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3797/3797-1793227826-514468536.jpg",
     "author": "shadowcat19",
-    "updated_timestamp": 1793227805,
+    "updated_timestamp": 1795138265,
     "created_timestamp": 1758233818,
     "description": "Inside joke mod warning. One of my friends just said \"Hey wanna play Normans Guy?\" and since we're on the same wavelength, I knew what he meant. So now It can be Normans Guy. This is Good News.\n<br />\n<br />INSTALLATION: Download the version you want\n<br />extract the zip\n<br />put new folder in (Steam directory)&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />Delete or rename DISABLEMODS.txt\n<br />make sure \"disable all mods\" is set to \"false\" in (Steam directory)&#92;steamapps&#92;common&#92;No Man's Sky&#92;binaries&#92;GCMODSETTINGS.MXML\n<br />???\n<br />normans guy",
     "state": "normal",
@@ -637099,7 +637099,7 @@
         "size_kb": 12,
         "size_in_bytes": 11919,
         "changelog_html": "Added Normans Gy and Normans Guy Voyager\nnormans guy",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3797/Normans Guy-3797-1-0-1758233655.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3797/Normans Guy-3797-1-0-1758233655.zip.json"
       },
       {
         "id": [
@@ -637124,7 +637124,7 @@
         "size_kb": 18,
         "size_in_bytes": 18049,
         "changelog_html": "Added Normans Gy and Normans Guy Voyager\nnormans guy",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3797/Normans Guy Voyager-3797-1-0-1758233707.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3797/Normans Guy Voyager-3797-1-0-1758233707.zip.json"
       },
       {
         "id": [
@@ -637149,7 +637149,7 @@
         "size_kb": 12,
         "size_in_bytes": 12204,
         "changelog_html": "norman's guy but correct",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3797/Norman's Guy-3797-1-1-1758337364.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3797/Norman's Guy-3797-1-1-1758337364.zip.json"
       },
       {
         "id": [
@@ -637174,7 +637174,7 @@
         "size_kb": 18,
         "size_in_bytes": 18121,
         "changelog_html": "norman's guy but correct",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3797/Norman's Guy Voyagers-3797-1-1-1758337436.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3797/Norman's Guy Voyagers-3797-1-1-1758337436.zip.json"
       },
       {
         "id": [
@@ -637199,7 +637199,7 @@
         "size_kb": 16,
         "size_in_bytes": 16798,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3797/Norman's Guy Remnant-3797-1-2-1771208528.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3797/Norman's Guy Remnant-3797-1-2-1771208528.zip.json"
       },
       {
         "id": [
@@ -637224,7 +637224,7 @@
         "size_kb": 16,
         "size_in_bytes": 16765,
         "changelog_html": "aded Norman's Guy Remnant",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3797/Norman's Guy Remnant-3797-1-21-1771213948.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3797/Norman's Guy Remnant-3797-1-21-1771213948.zip.json"
       },
       {
         "id": [
@@ -637249,7 +637249,7 @@
         "size_kb": 21,
         "size_in_bytes": 21112,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3797/Norman's Guy Da Sworm-3797-1-22-1780474469.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3797/Norman's Guy Da Sworm-3797-1-22-1780474469.zip.json"
       },
       {
         "id": [
@@ -637274,7 +637274,7 @@
         "size_kb": 19,
         "size_in_bytes": 19167,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3797/Normans Guy The Swarm-3797-1-22-1780474512.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3797/Normans Guy The Swarm-3797-1-22-1780474512.zip.json"
       },
       {
         "id": [
@@ -637285,9 +637285,9 @@
         "file_id": 47880,
         "name": "Normans Guy Cosmos",
         "version": "1.23",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 18,
         "file_name": "Normans Guy Cosmos 3797 1.23 2026-09-09T21-14Z JrNPcY9FZ.zip",
         "detected_file_extension": "zip",
@@ -637312,7 +637312,7 @@
         "version": "1.24",
         "category_id": 1,
         "category_name": "MAIN",
-        "is_primary": false,
+        "is_primary": true,
         "size": 20,
         "file_name": "Normans Guy Forsaken 3797 1.24 2026-10-28T22-50Z 8gT07OIVO.zip",
         "detected_file_extension": "zip",
@@ -712022,10 +712022,10 @@
     "mod_id": 4763,
     "name": "DIABLO'S BLACK HOLE",
     "summary": "custom black hole mod",
-    "version": "0.97",
+    "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4763/4763-1793566065-117261397.jpg",
     "author": "Xdiablo6six6X",
-    "updated_timestamp": 1794014183,
+    "updated_timestamp": 1795145830,
     "created_timestamp": 1793500634,
     "description": "\n<br />[b][size=5]Description[/size][/b]\n<br />[b]Diablos Black Hole[/b] gives black-hole encounters a new look with a sculpted 3D model, flowing folds, softer edges, and a distinctive accretion disc.\n<br />This is a standalone visual mod. No overhaul is required.\n<br />[heading]Installation instructions[/heading]\n<br />[list=1]\n<br />[*]Close No Man’s Sky and back up your saves.[/*]\n<br />[*]Open the game’s installation folder. On Steam, use [b]Manage → Browse local files[/b].[/*]\n<br />[*]Open [b]GAMEDATA → MODS[/b]. Create the MODS folder if needed.[/*]\n<br />[*]If upgrading, move the [b]entire previous Diablos_Black_Hole folder outside MODS[/b] and keep it as a backup. [b]Do not merge the new version into the old folder[/b], as this can leave files from earlier versions active.[/*]\n<br />[*]Extract the downloaded ZIP and place [b]Diablos_Black_Hole[/b] directly inside [b]GAMEDATA&#92;MODS[/b]. The [b]MODELS[/b], [b]TEXTURES[/b], and [b]SHADERS[/b] folders should sit directly inside it.[/*]\n<br />[*]Launch the game and enable mods and this mod’s entry through the game’s mod controls.[/*]\n<br />[/list]Install the extracted folder, not the ZIP itself. Keep only one version of Diablos Black Hole active.\n<br />To uninstall, close the game and move the mod folder outside MODS.\n<br />[heading]Main features[/heading]\n<br />[list]\n<br />[*][b]Sculpted 3D black hole:[/b] A custom model with folded forms, softer edges, and a detailed accretion-disc effect.[/*]\n<br />[/list][heading]Requirements[/heading]\n<br />[list]\n<br />[*][b]No Man’s Sky on PC[/b], with mods enabled.[/*]\n<br />[*]Built against [b]NMS executable build 183877 / Steam build 26305319[/b]. Compatibility with other builds has not been verified.[/*]\n<br />[*][b]No additional mods are required.[/b][/*]\n<br />[/list]Other mods that replace the same black-hole scene or planet shaders may conflict. To retain the default backgrounds, disable other mods that replace the sky or galaxy-map background.\n<br />[b]Current status: preview build.[/b] This revision is awaiting a separate in-game verification pass.\n<br />\n<br />[size=6]Shout Out[/size]\n<br />[b]WinderTP[/b] for his knowledge/solutions that helped assist in creating this mod.",
     "state": "normal",
@@ -712140,8 +712140,8 @@
         "file_id": 50500,
         "name": "Diablos Black Hole",
         "version": "0.97",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 5617,
         "file_name": "Diablos Black Hole 4763 0.97 2026-11-07T01-16Z yIucYBLDZ.zip",
@@ -712155,6 +712155,31 @@
         "size_in_bytes": 5751985,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/e5/76/10/e57610ba-b6ff-4b26-8d12-5043f23afd2f"
+      },
+      {
+        "id": [
+          50776,
+          1634
+        ],
+        "uid": 7017976612440,
+        "file_id": 50776,
+        "name": "Diablos Black Hole",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 5613,
+        "file_name": "Diablos Black Hole 4763 1 2026-11-20T03-37Z FpHgXM7HV.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795145830,
+        "uploaded_time": "2026-11-20T03:37:10.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d476146048bfbcdc6a1d66df8e0a738abaf7cc736a041181755e7e5d0a1f443e",
+        "description": "",
+        "size_kb": 5613,
+        "size_in_bytes": 5748489,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6f/ed/9d/6fed9d5e-9a58-47cb-aabf-d82794eb1b21"
       }
     ],
     "changelogs": {}
