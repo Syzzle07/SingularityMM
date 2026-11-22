@@ -340625,13 +340625,13 @@
   {
     "mod_id": 2125,
     "name": "Clouds Sun and Fog",
-    "summary": "Realtime (NMS time) Day Length (Optional), Better Detailed Clouds, Slower Cloud Animation, Sun Properties and Planet Fog Adjustments. Optional Lens Dirt Removal.",
-    "version": "6.6",
+    "summary": "Realtime (NMS time) Day Length (Optional), Better Detailed Clouds, Slower Cloud Animation, Sun Properties and Planet Fog Adjustments.",
+    "version": "6.7",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2125/2125-1793800459-1589185523.jpg",
     "author": "Silent369",
-    "updated_timestamp": 1793800674,
+    "updated_timestamp": 1795343045,
     "created_timestamp": 1636807136,
-    "description": "[center][b][size=6]Clouds Sun and Fog v6.6[/size][/b][/center]\n<br />\n<br />[quote][size=3][b]Not being satisfied with the current implementation of several environmental behaviours / effects this mod aims to improve some of these features.[/b][/size]\n<br />\n<br />[size=4][b]** NOTE[/b]: All LOD settings have been [b]removed[/b]. I will no longer support modifying LOD settings within this mod. It causes too many issues for end users and too much stress for me to try to find a balanced set that caters to everyone.[/size][size=3]\n<br />\n<br />If recompiling with AMUMSS you can now control the Fog Strength and Fog Height (valid ranges: 0.0-1.0) for Clouds Sun And Fog[/size][/quote][size=3]\n<br />Day Length can be altered to suit your own preferences. [b][u]The default is 30 Minutes[/u][/b] (NMS Time) day/night cycle. There are now various versions available with different time ratios for Day Length as shown below.\n<br />\n<br />[b]Time Ratios Available:[/b][/size]\n<br />[quote][size=3]30Mn =  1800 (game/script default)\n<br />01Hr  =  3600\n<br />03Hr  = 10800\n<br />06Hr  = 21600\n<br />09Hr = 32400\n<br />12Hr  = 43200\n<br />24Hr  = 86400\n<br />48 Hr = 172800[/size][/quote][size=3]\n<br />[b]Clouds[/b] have been overhauled for more coverage and detail, animation speed and colour bias.\n<br />[b]Fog[/b] has been greatly reduced and adjusted so that it now should only appear near the far horizon.\n<br />[b]Sun [/b]properties have been altered for [b]brightness[/b], [b]saturation[/b], [b]MIE factor[/b] and [b]fixes sun clamp angle[/b].\n<br />[b]Sun Size[/b] in Space is reduced to give the illusion of it being a great distance away rather than very close. \n<br />[b]Bloom[/b] has been disabled via PIPELINES files.\n<br />\n<br />Where possible / appropriate I have kept all original values for reference.\n<br />\n<br />Modifies the following:[/size]\n<br />[quote][u][size=3]GCGRAPHICSGLOBALS.GLOBAL.MBIN\n<br />GCENVIRONMENTGLOBALS.GLOBAL.MBIN\n<br />GCSKYGLOBALS.GLOBALS.MBIN\n<br />PIPELINES&#92;PIPELINEDEFERRED.BIN\n<br />[u]PIPELINES&#92;PIPELINEDEFERREDVR.BIN[/u][/size][/u][/quote][size=3]\n<br />[b]Installing No Man's Sky Mods[/b] (Steam).[/size]\n<br />\n<br />[quote][b][size=3]Installing No Man's Sky Mods[/size][/b] (Steam).\n<br />\n<br />[b][u]Default Steam installation location:[/u][/b]\n<br />C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />\n<br />[b][u]Custom Steam installation location:[/u][/b]\n<br />E:&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />\n<br />1. Browse to the \"No Man's Sky&#92;GAMEDATA\" folder.\n<br />2. Ensure there is a folder named MODS (Uppercase!) within, if not create it!\n<br />3. Place the &lt;modname&gt; folder into the GAMEDATA&#92;MODS folder.\n<br />4. Delete the file: GCMODSETTINGS.MXML from No Man's Sky&#92;Binaries&#92;SETTINGS\n<br />(It will be auto-regenerated with a new load order based on the mods you have)\n<br />\n<br />If done correctly the game will display a MOD Warning Page: [u]Click to continue[/u].\n<br />You should now be presented with your save games list to choose from to start playing.[/quote]Made with [url=https://www.nexusmods.com/nomanssky/mods/957][i]AMUMSS[/i][/url]. Check my other [url=https://www.nexusmods.com/nomanssky/users/122177308?tab=user+files]MODS[/url].\n<br />Lua's included in the main download. ¯&#92;_(ツ)_/¯",
+    "description": "[center][b][size=6]Clouds Sun and Fog v6.7[/size][/b][/center]\n<br />\n<br />[quote][size=3][b]Not being satisfied with the current implementation of several environmental behaviours / effects this mod aims to improve some of these features.[/b][/size]\n<br />\n<br />[size=4][b]** NOTE[/b]: All LOD settings have been [b]removed[/b]. I will no longer support modifying LOD settings within this mod. It causes too many issues for end users and too much stress for me to try to find a balanced set that caters to everyone.[/size][size=3]\n<br />\n<br />If recompiling with AMUMSS you can now control the Fog Strength and Fog Height (valid ranges: 0.0-1.0) for Clouds Sun And Fog[/size][/quote][size=3]\n<br />Day Length can be altered to suit your own preferences. [b][u]The default is 30 Minutes[/u][/b] (NMS Time) day/night cycle. There are now various versions available with different time ratios for Day Length as shown below.\n<br />\n<br />[b]Time Ratios Available:[/b][/size]\n<br />[quote][size=3]30Mn =  1800 (game/script default)\n<br />01Hr  =  3600\n<br />03Hr  = 10800\n<br />06Hr  = 21600\n<br />09Hr = 32400\n<br />12Hr  = 43200\n<br />24Hr  = 86400\n<br />48 Hr = 172800[/size][/quote][size=3]\n<br />[b]Clouds[/b] have been overhauled for more coverage and detail, animation speed and colour bias.\n<br />[b]Fog[/b] has been greatly reduced and adjusted so that it now should only appear near the far horizon.\n<br />[b]Sun [/b]properties have been altered for [b]brightness[/b], [b]saturation[/b], [b]MIE factor[/b] and [b]fixes sun clamp angle[/b].\n<br />[b]Sun Size[/b] in Space is reduced to give the illusion of it being a great distance away rather than very close. \n<br />\n<br />Where possible / appropriate I have kept all original values for reference.\n<br />\n<br />Modifies the following:[/size]\n<br />[quote][u]GCGRAPHICSGLOBALS.GLOBAL.MBIN\n<br />GCENVIRONMENTGLOBALS.GLOBAL.MBIN\n<br />GCSKYGLOBALS.GLOBALS.MBIN\n<br />PIPELINES&#92;PIPELINECLOUDS.BIN\n<br />PIPELINES&#92;PIPELINEDEFERRED.BIN\n<br />[u]PIPELINES&#92;PIPELINEDEFERREDVR.BIN[/u][/u][/quote][size=3]\n<br />[b]Installing No Man's Sky Mods[/b] (Steam).[/size]\n<br />\n<br />[quote][b][size=3]Installing No Man's Sky Mods[/size][/b] (Steam).\n<br />\n<br />[b][u]Default Steam installation location:[/u][/b]\n<br />C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />\n<br />[b][u]Custom Steam installation location:[/u][/b]\n<br />E:&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA&#92;MODS\n<br />\n<br />1. Browse to the \"No Man's Sky&#92;GAMEDATA\" folder.\n<br />2. Ensure there is a folder named MODS (Uppercase!) within, if not create it!\n<br />3. Place the &lt;modname&gt; folder into the GAMEDATA&#92;MODS folder.\n<br />4. Delete the file: GCMODSETTINGS.MXML from No Man's Sky&#92;Binaries&#92;SETTINGS\n<br />(It will be auto-regenerated with a new load order based on the mods you have)\n<br />\n<br />If done correctly the game will display a MOD Warning Page: [u]Click to continue[/u].\n<br />You should now be presented with your save games list to choose from to start playing.[/quote]Made with [url=https://www.nexusmods.com/nomanssky/mods/957][i]AMUMSS[/i][/url]. Check my other [url=https://www.nexusmods.com/nomanssky/users/122177308?tab=user+files]MODS[/url].\n<br />Lua's included in the main download. ¯&#92;_(ツ)_/¯",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -340658,7 +340658,7 @@
         "size_kb": 9,
         "size_in_bytes": 8937,
         "changelog_html": "Initial Release",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsFogAndLOD-2125-1-0-1636806672.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsFogAndLOD-2125-1-0-1636806672.zip.json"
       },
       {
         "id": [
@@ -340683,7 +340683,7 @@
         "size_kb": 5,
         "size_in_bytes": 5449,
         "changelog_html": "Initial Release",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog LUA Script-2125-1-0-1636806940.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog LUA Script-2125-1-0-1636806940.zip.json"
       },
       {
         "id": [
@@ -340708,7 +340708,7 @@
         "size_kb": 9,
         "size_in_bytes": 8946,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog-2125-1-1-1636814360.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog-2125-1-1-1636814360.zip.json"
       },
       {
         "id": [
@@ -340733,7 +340733,7 @@
         "size_kb": 5,
         "size_in_bytes": 5454,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog LUA Script-2125-1-1-1636814404.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog LUA Script-2125-1-1-1636814404.zip.json"
       },
       {
         "id": [
@@ -340758,7 +340758,7 @@
         "size_kb": 9,
         "size_in_bytes": 8953,
         "changelog_html": "Changed several settings to improve rendering. Adjusted LOD setting and Iteration count.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog-2125-1-2-1636914533.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog-2125-1-2-1636914533.zip.json"
       },
       {
         "id": [
@@ -340783,7 +340783,7 @@
         "size_kb": 2,
         "size_in_bytes": 2234,
         "changelog_html": "Changed several settings to improve rendering. Adjusted LOD setting and Iteration count.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog LUA Script-2125-1-2-1636914557.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog LUA Script-2125-1-2-1636914557.zip.json"
       },
       {
         "id": [
@@ -340808,7 +340808,7 @@
         "size_kb": 9,
         "size_in_bytes": 8953,
         "changelog_html": "Changed several settings to improve rendering. Adjusted LOD setting and Iteration count.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog-2125-1-2-1636914775.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog-2125-1-2-1636914775.zip.json"
       },
       {
         "id": [
@@ -340833,7 +340833,7 @@
         "size_kb": 9,
         "size_in_bytes": 8953,
         "changelog_html": "Changed several settings to improve rendering. Adjusted LOD setting and Iteration count.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog-2125-1-2-1636914889.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog-2125-1-2-1636914889.zip.json"
       },
       {
         "id": [
@@ -340858,7 +340858,7 @@
         "size_kb": 5,
         "size_in_bytes": 5461,
         "changelog_html": "Changed several settings to improve rendering. Adjusted LOD setting and Iteration count.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog LUA Script-2125-1-2-1636914915.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog LUA Script-2125-1-2-1636914915.zip.json"
       },
       {
         "id": [
@@ -340883,7 +340883,7 @@
         "size_kb": 9,
         "size_in_bytes": 9054,
         "changelog_html": "Changed several settings to improve rendering. Adjusted LOD setting and Iteration count.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFogNoTimeChange-2125-1-2-1636967616.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFogNoTimeChange-2125-1-2-1636967616.zip.json"
       },
       {
         "id": [
@@ -340908,7 +340908,7 @@
         "size_kb": 9,
         "size_in_bytes": 9035,
         "changelog_html": "Changed several settings to improve rendering. Adjusted LOD setting and Iteration counts.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog-2125-1-3-1637316218.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog-2125-1-3-1637316218.zip.json"
       },
       {
         "id": [
@@ -340933,7 +340933,7 @@
         "size_kb": 5,
         "size_in_bytes": 5521,
         "changelog_html": "Changed several settings to improve rendering. Adjusted LOD setting and Iteration counts.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog LUA Script-2125-1-3-1637316260.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFog LUA Script-2125-1-3-1637316260.zip.json"
       },
       {
         "id": [
@@ -340958,7 +340958,7 @@
         "size_kb": 9,
         "size_in_bytes": 9048,
         "changelog_html": "Changed several settings to improve rendering. Adjusted LOD setting and Iteration counts.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFogNoTimeChange-2125-1-3-1637316342.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesSunCloudsAndFogNoTimeChange-2125-1-3-1637316342.zip.json"
       },
       {
         "id": [
@@ -340983,7 +340983,7 @@
         "size_kb": 9,
         "size_in_bytes": 9334,
         "changelog_html": "Updated for 3.8",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-4-1646590600.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-4-1646590600.zip.json"
       },
       {
         "id": [
@@ -341008,7 +341008,7 @@
         "size_kb": 5,
         "size_in_bytes": 5585,
         "changelog_html": "Updated for 3.8",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-4-1646590733.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-4-1646590733.zip.json"
       },
       {
         "id": [
@@ -341033,7 +341033,7 @@
         "size_kb": 6,
         "size_in_bytes": 5816,
         "changelog_html": "Updated for 3.8",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-4-1646590756.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-4-1646590756.zip.json"
       },
       {
         "id": [
@@ -341058,7 +341058,7 @@
         "size_kb": 9,
         "size_in_bytes": 9382,
         "changelog_html": "Updated for 3.8",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogNoTimeChange-2125-1-4-1646636897.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogNoTimeChange-2125-1-4-1646636897.zip.json"
       },
       {
         "id": [
@@ -341083,7 +341083,7 @@
         "size_kb": 10,
         "size_in_bytes": 10088,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-5-1650617178.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-5-1650617178.zip.json"
       },
       {
         "id": [
@@ -341108,7 +341108,7 @@
         "size_kb": 6,
         "size_in_bytes": 6494,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-5-1650617266.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-5-1650617266.zip.json"
       },
       {
         "id": [
@@ -341133,7 +341133,7 @@
         "size_kb": 10,
         "size_in_bytes": 10100,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogNoTimeChange-2125-1-5-1650617505.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogNoTimeChange-2125-1-5-1650617505.zip.json"
       },
       {
         "id": [
@@ -341158,7 +341158,7 @@
         "size_kb": 6,
         "size_in_bytes": 6518,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogNoTimeChangeLua-2125-1-5-1650617538.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogNoTimeChangeLua-2125-1-5-1650617538.zip.json"
       },
       {
         "id": [
@@ -341183,7 +341183,7 @@
         "size_kb": 27,
         "size_in_bytes": 27240,
         "changelog_html": "Updated for 3.90",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-6-1653638875.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-6-1653638875.zip.json"
       },
       {
         "id": [
@@ -341208,7 +341208,7 @@
         "size_kb": 6,
         "size_in_bytes": 6186,
         "changelog_html": "Updated for 3.90",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-6-1653638932.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-6-1653638932.zip.json"
       },
       {
         "id": [
@@ -341233,7 +341233,7 @@
         "size_kb": 27,
         "size_in_bytes": 27242,
         "changelog_html": "Updated for 3.90",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-6-1653909921.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-6-1653909921.zip.json"
       },
       {
         "id": [
@@ -341258,7 +341258,7 @@
         "size_kb": 27,
         "size_in_bytes": 27256,
         "changelog_html": "Updated for 3.90",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog24Hour-2125-1-6-1653917185.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog24Hour-2125-1-6-1653917185.zip.json"
       },
       {
         "id": [
@@ -341283,7 +341283,7 @@
         "size_kb": 26,
         "size_in_bytes": 26902,
         "changelog_html": "Changed PIPELINEDEFERRED settings, should be more performant.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-7-1654329272.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-7-1654329272.zip.json"
       },
       {
         "id": [
@@ -341308,7 +341308,7 @@
         "size_kb": 26,
         "size_in_bytes": 26897,
         "changelog_html": "Changed PIPELINEDEFERRED settings, should be more performant.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog24Hour-2125-1-7-1654329312.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog24Hour-2125-1-7-1654329312.zip.json"
       },
       {
         "id": [
@@ -341333,7 +341333,7 @@
         "size_kb": 21,
         "size_in_bytes": 21741,
         "changelog_html": "Changed PIPELINEDEFERRED settings, should be more performant.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-7-1654329341.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-7-1654329341.zip.json"
       },
       {
         "id": [
@@ -341358,7 +341358,7 @@
         "size_kb": 27,
         "size_in_bytes": 27353,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-8-1658905397.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-8-1658905397.zip.json"
       },
       {
         "id": [
@@ -341383,7 +341383,7 @@
         "size_kb": 6,
         "size_in_bytes": 6055,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-8-1658905432.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-8-1658905432.zip.json"
       },
       {
         "id": [
@@ -341408,7 +341408,7 @@
         "size_kb": 6,
         "size_in_bytes": 6055,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-8-1658906258.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-8-1658906258.zip.json"
       },
       {
         "id": [
@@ -341433,7 +341433,7 @@
         "size_kb": 27,
         "size_in_bytes": 27373,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-01Hr-2125-1-8-1658906381.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-01Hr-2125-1-8-1658906381.zip.json"
       },
       {
         "id": [
@@ -341458,7 +341458,7 @@
         "size_kb": 27,
         "size_in_bytes": 27368,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-03Hr-2125-1-8-1658906429.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-03Hr-2125-1-8-1658906429.zip.json"
       },
       {
         "id": [
@@ -341483,7 +341483,7 @@
         "size_kb": 27,
         "size_in_bytes": 27369,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-06Hr-2125-1-8-1658906468.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-06Hr-2125-1-8-1658906468.zip.json"
       },
       {
         "id": [
@@ -341508,7 +341508,7 @@
         "size_kb": 27,
         "size_in_bytes": 27369,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-09Hr-2125-1-8-1658906518.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-09Hr-2125-1-8-1658906518.zip.json"
       },
       {
         "id": [
@@ -341533,7 +341533,7 @@
         "size_kb": 27,
         "size_in_bytes": 27370,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-12Hr-2125-1-8-1658906566.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-12Hr-2125-1-8-1658906566.zip.json"
       },
       {
         "id": [
@@ -341558,7 +341558,7 @@
         "size_kb": 27,
         "size_in_bytes": 27368,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-24Hr-2125-1-8-1658906627.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-24Hr-2125-1-8-1658906627.zip.json"
       },
       {
         "id": [
@@ -341583,7 +341583,7 @@
         "size_kb": 22,
         "size_in_bytes": 22265,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-8-1658912794.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-8-1658912794.zip.json"
       },
       {
         "id": [
@@ -341608,7 +341608,7 @@
         "size_kb": 27,
         "size_in_bytes": 27376,
         "changelog_html": "Updated for 3.9x Endurance",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-9-1660480379.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-1-9-1660480379.zip.json"
       },
       {
         "id": [
@@ -341633,7 +341633,7 @@
         "size_kb": 27,
         "size_in_bytes": 27406,
         "changelog_html": "Updated for 3.9x Endurance",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-01Hr-2125-1-9-1660480416.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-01Hr-2125-1-9-1660480416.zip.json"
       },
       {
         "id": [
@@ -341658,7 +341658,7 @@
         "size_kb": 27,
         "size_in_bytes": 27410,
         "changelog_html": "Updated for 3.9x Endurance",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-03Hr-2125-1-9-1660480458.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-03Hr-2125-1-9-1660480458.zip.json"
       },
       {
         "id": [
@@ -341683,7 +341683,7 @@
         "size_kb": 27,
         "size_in_bytes": 27404,
         "changelog_html": "Updated for 3.9x Endurance",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-06Hr-2125-1-9-1660480494.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-06Hr-2125-1-9-1660480494.zip.json"
       },
       {
         "id": [
@@ -341708,7 +341708,7 @@
         "size_kb": 27,
         "size_in_bytes": 27402,
         "changelog_html": "Updated for 3.9x Endurance",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-09Hr-2125-1-9-1660480525.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-09Hr-2125-1-9-1660480525.zip.json"
       },
       {
         "id": [
@@ -341733,7 +341733,7 @@
         "size_kb": 27,
         "size_in_bytes": 27399,
         "changelog_html": "Updated for 3.9x Endurance",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-12Hr-2125-1-9-1660480559.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-12Hr-2125-1-9-1660480559.zip.json"
       },
       {
         "id": [
@@ -341758,7 +341758,7 @@
         "size_kb": 27,
         "size_in_bytes": 27400,
         "changelog_html": "Updated for 3.9x Endurance",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-24Hr-2125-1-9-1660480591.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-24Hr-2125-1-9-1660480591.zip.json"
       },
       {
         "id": [
@@ -341783,7 +341783,7 @@
         "size_kb": 22,
         "size_in_bytes": 22277,
         "changelog_html": "Updated for 3.9x Endurance",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-9-1660480626.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-9-1660480626.zip.json"
       },
       {
         "id": [
@@ -341808,7 +341808,7 @@
         "size_kb": 22,
         "size_in_bytes": 22268,
         "changelog_html": "Updated for 3.9x Endurance",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-9-1660501689.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-1-9-1660501689.zip.json"
       },
       {
         "id": [
@@ -341833,7 +341833,7 @@
         "size_kb": 21,
         "size_in_bytes": 21357,
         "changelog_html": "Updated for 4.0.x",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-2-0-1668370677.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFog-2125-2-0-1668370677.zip.json"
       },
       {
         "id": [
@@ -341858,7 +341858,7 @@
         "size_kb": 22,
         "size_in_bytes": 22560,
         "changelog_html": "Updated for 4.0.x",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-2-0-1668370705.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/BiomesCloudsSunAndFogLua-2125-2-0-1668370705.zip.json"
       },
       {
         "id": [
@@ -341883,7 +341883,7 @@
         "size_kb": 28,
         "size_in_bytes": 28957,
         "changelog_html": "Updated for 4.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-1-1677757589.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-1-1677757589.zip.json"
       },
       {
         "id": [
@@ -341908,7 +341908,7 @@
         "size_kb": 23,
         "size_in_bytes": 23852,
         "changelog_html": "Updated for 4.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog Lua-2125-2-1-1677757627.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog Lua-2125-2-1-1677757627.zip.json"
       },
       {
         "id": [
@@ -341933,7 +341933,7 @@
         "size_kb": 82,
         "size_in_bytes": 84022,
         "changelog_html": "Updated for 4.2x",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-2-1681892875.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-2-1681892875.zip.json"
       },
       {
         "id": [
@@ -341958,7 +341958,7 @@
         "size_kb": 84,
         "size_in_bytes": 86490,
         "changelog_html": "Updated for 4.33",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-3-1686738853.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-3-1686738853.zip.json"
       },
       {
         "id": [
@@ -341983,7 +341983,7 @@
         "size_kb": 397,
         "size_in_bytes": 406036,
         "changelog_html": "Updated for 4.42",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-4-1693349076.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-4-1693349076.zip.json"
       },
       {
         "id": [
@@ -342008,7 +342008,7 @@
         "size_kb": 502,
         "size_in_bytes": 514155,
         "changelog_html": "Updated for 4.46\nUpdated for 4.46.2",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-5-1702195930.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-5-1702195930.zip.json"
       },
       {
         "id": [
@@ -342033,7 +342033,7 @@
         "size_kb": 502,
         "size_in_bytes": 514155,
         "changelog_html": "Updated for 4.46\nUpdated for 4.46.2",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-5-1702534721.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-5-1702534721.zip.json"
       },
       {
         "id": [
@@ -342058,7 +342058,7 @@
         "size_kb": 493,
         "size_in_bytes": 504350,
         "changelog_html": "Updated for 4.46\nUpdated for 4.46.2",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-5-1702881503.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-5-1702881503.zip.json"
       },
       {
         "id": [
@@ -342083,7 +342083,7 @@
         "size_kb": 331,
         "size_in_bytes": 338628,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-6-1711790997.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-6-1711790997.zip.json"
       },
       {
         "id": [
@@ -342108,7 +342108,7 @@
         "size_kb": 491,
         "size_in_bytes": 503069,
         "changelog_html": "Updated for 4.65",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-8-1715417449.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-2-8-1715417449.zip.json"
       },
       {
         "id": [
@@ -342133,7 +342133,7 @@
         "size_kb": 492,
         "size_in_bytes": 503873,
         "changelog_html": "Updated for 4.72",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-3-0-1718525828.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-3-0-1718525828.zip.json"
       },
       {
         "id": [
@@ -342158,7 +342158,7 @@
         "size_kb": 523,
         "size_in_bytes": 535329,
         "changelog_html": "Updated for 5.01.1",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-3-3-1722265965.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-3-3-1722265965.zip.json"
       },
       {
         "id": [
@@ -342183,7 +342183,7 @@
         "size_kb": 528,
         "size_in_bytes": 540491,
         "changelog_html": "Updated for 5.03",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-3-4-1722582142.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-3-4-1722582142.zip.json"
       },
       {
         "id": [
@@ -342208,7 +342208,7 @@
         "size_kb": 528,
         "size_in_bytes": 540472,
         "changelog_html": "Fixed minor regression with LOD values. Water rendered late, should now be fixed.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-3-5-1722934140.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-3-5-1722934140.zip.json"
       },
       {
         "id": [
@@ -342233,7 +342233,7 @@
         "size_kb": 525,
         "size_in_bytes": 537766,
         "changelog_html": "Updated for 5.05",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-3-6-1724314290.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-3-6-1724314290.zip.json"
       },
       {
         "id": [
@@ -342258,7 +342258,7 @@
         "size_kb": 517,
         "size_in_bytes": 529157,
         "changelog_html": "Reverted changes. Impact too great on desired effect. Updated for 5.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-1-1729007319.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-1-1729007319.zip.json"
       },
       {
         "id": [
@@ -342283,7 +342283,7 @@
         "size_kb": 532,
         "size_in_bytes": 544985,
         "changelog_html": "Reverted changes. Impact too great on desired effect. Updated for 5.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-1-1729408216.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-1-1729408216.zip.json"
       },
       {
         "id": [
@@ -342308,7 +342308,7 @@
         "size_kb": 510,
         "size_in_bytes": 521831,
         "changelog_html": "Updated for 5.28 - Now Edit PIPELINE Files directly in Lua\nUpdated for 5.54",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-5-1732610471.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-5-1732610471.zip.json"
       },
       {
         "id": [
@@ -342333,7 +342333,7 @@
         "size_kb": 514,
         "size_in_bytes": 526450,
         "changelog_html": "Fixed a Lua regression",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-6-1739271774.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-6-1739271774.zip.json"
       },
       {
         "id": [
@@ -342358,7 +342358,7 @@
         "size_kb": 464,
         "size_in_bytes": 475023,
         "changelog_html": "Fixed a Lua regression",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-6-1739366137.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-6-1739366137.zip.json"
       },
       {
         "id": [
@@ -342383,7 +342383,7 @@
         "size_kb": 47,
         "size_in_bytes": 48129,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586122.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586122.zip.json"
       },
       {
         "id": [
@@ -342408,7 +342408,7 @@
         "size_kb": 47,
         "size_in_bytes": 48130,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586194.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586194.zip.json"
       },
       {
         "id": [
@@ -342433,7 +342433,7 @@
         "size_kb": 47,
         "size_in_bytes": 48130,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586238.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586238.zip.json"
       },
       {
         "id": [
@@ -342458,7 +342458,7 @@
         "size_kb": 47,
         "size_in_bytes": 48131,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586274.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586274.zip.json"
       },
       {
         "id": [
@@ -342483,7 +342483,7 @@
         "size_kb": 47,
         "size_in_bytes": 48129,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586304.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586304.zip.json"
       },
       {
         "id": [
@@ -342508,7 +342508,7 @@
         "size_kb": 47,
         "size_in_bytes": 48131,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586330.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586330.zip.json"
       },
       {
         "id": [
@@ -342533,7 +342533,7 @@
         "size_kb": 47,
         "size_in_bytes": 48130,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586359.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743586359.zip.json"
       },
       {
         "id": [
@@ -342558,7 +342558,7 @@
         "size_kb": 47,
         "size_in_bytes": 48130,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (1.0 Hour)-2125-4-7-1743586512.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (1.0 Hour)-2125-4-7-1743586512.zip.json"
       },
       {
         "id": [
@@ -342583,7 +342583,7 @@
         "size_kb": 47,
         "size_in_bytes": 48130,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (3.0 Hour)-2125-4-7-1743586547.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (3.0 Hour)-2125-4-7-1743586547.zip.json"
       },
       {
         "id": [
@@ -342608,7 +342608,7 @@
         "size_kb": 47,
         "size_in_bytes": 48131,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (6.0 Hour)-2125-4-7-1743586584.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (6.0 Hour)-2125-4-7-1743586584.zip.json"
       },
       {
         "id": [
@@ -342633,7 +342633,7 @@
         "size_kb": 47,
         "size_in_bytes": 48129,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (9.0 Hour)-2125-4-7-1743586614.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (9.0 Hour)-2125-4-7-1743586614.zip.json"
       },
       {
         "id": [
@@ -342658,7 +342658,7 @@
         "size_kb": 47,
         "size_in_bytes": 48131,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (12 Hour)-2125-4-7-1743586641.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (12 Hour)-2125-4-7-1743586641.zip.json"
       },
       {
         "id": [
@@ -342683,7 +342683,7 @@
         "size_kb": 47,
         "size_in_bytes": 48130,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (24 Hour)-2125-4-7-1743586674.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (24 Hour)-2125-4-7-1743586674.zip.json"
       },
       {
         "id": [
@@ -342708,7 +342708,7 @@
         "size_kb": 48,
         "size_in_bytes": 48769,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743629273.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks-2125-4-7-1743629273.zip.json"
       },
       {
         "id": [
@@ -342733,7 +342733,7 @@
         "size_kb": 48,
         "size_in_bytes": 48770,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (1.0 Hour)-2125-4-7-1743629341.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (1.0 Hour)-2125-4-7-1743629341.zip.json"
       },
       {
         "id": [
@@ -342758,7 +342758,7 @@
         "size_kb": 48,
         "size_in_bytes": 48770,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (3.0 Hour)-2125-4-7-1743629374.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (3.0 Hour)-2125-4-7-1743629374.zip.json"
       },
       {
         "id": [
@@ -342783,7 +342783,7 @@
         "size_kb": 48,
         "size_in_bytes": 48771,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (6.0 Hour)-2125-4-7-1743629412.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (6.0 Hour)-2125-4-7-1743629412.zip.json"
       },
       {
         "id": [
@@ -342808,7 +342808,7 @@
         "size_kb": 48,
         "size_in_bytes": 48769,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (9.0 Hour)-2125-4-7-1743629441.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (9.0 Hour)-2125-4-7-1743629441.zip.json"
       },
       {
         "id": [
@@ -342833,7 +342833,7 @@
         "size_kb": 48,
         "size_in_bytes": 48755,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (12 Hour)-2125-4-7-1743629465.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (12 Hour)-2125-4-7-1743629465.zip.json"
       },
       {
         "id": [
@@ -342858,7 +342858,7 @@
         "size_kb": 48,
         "size_in_bytes": 48754,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (24 Hour)-2125-4-7-1743629490.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Sun Clouds Fog and LOD Tweaks (24 Hour)-2125-4-7-1743629490.zip.json"
       },
       {
         "id": [
@@ -342883,7 +342883,7 @@
         "size_kb": 49,
         "size_in_bytes": 50567,
         "changelog_html": "Updated for 5.61\nRepackaged due to incorrect archive",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Sun Clouds Fog and LOD Tweaks-2125-4-7-1750843568.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Sun Clouds Fog and LOD Tweaks-2125-4-7-1750843568.zip.json"
       },
       {
         "id": [
@@ -342908,7 +342908,7 @@
         "size_kb": 49,
         "size_in_bytes": 50567,
         "changelog_html": "Updated for 5.72",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-8-1750843698.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog-2125-4-8-1750843698.zip.json"
       },
       {
         "id": [
@@ -342933,7 +342933,7 @@
         "size_kb": 49,
         "size_in_bytes": 50580,
         "changelog_html": "Updated for 5.72",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (1.0 hour)-2125-4-8-1750843827.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (1.0 hour)-2125-4-8-1750843827.zip.json"
       },
       {
         "id": [
@@ -342958,7 +342958,7 @@
         "size_kb": 49,
         "size_in_bytes": 50579,
         "changelog_html": "Updated for 5.72",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (3.0 Hour)-2125-4-8-1750843877.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (3.0 Hour)-2125-4-8-1750843877.zip.json"
       },
       {
         "id": [
@@ -342983,7 +342983,7 @@
         "size_kb": 49,
         "size_in_bytes": 50579,
         "changelog_html": "Updated for 5.72",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (6.0 Hour)-2125-4-8-1750843944.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (6.0 Hour)-2125-4-8-1750843944.zip.json"
       },
       {
         "id": [
@@ -343008,7 +343008,7 @@
         "size_kb": 49,
         "size_in_bytes": 50578,
         "changelog_html": "Updated for 5.72",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (9.0 Hour)-2125-4-8-1750843987.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (9.0 Hour)-2125-4-8-1750843987.zip.json"
       },
       {
         "id": [
@@ -343033,7 +343033,7 @@
         "size_kb": 49,
         "size_in_bytes": 50564,
         "changelog_html": "Updated for 5.72",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (12 Hour)-2125-4-8-1750844062.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (12 Hour)-2125-4-8-1750844062.zip.json"
       },
       {
         "id": [
@@ -343058,7 +343058,7 @@
         "size_kb": 49,
         "size_in_bytes": 50563,
         "changelog_html": "Updated for 5.72",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (24 Hour)-2125-4-8-1750844120.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (24 Hour)-2125-4-8-1750844120.zip.json"
       },
       {
         "id": [
@@ -343083,7 +343083,7 @@
         "size_kb": 49,
         "size_in_bytes": 50564,
         "changelog_html": "Updated for 5.72",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (48 Hour)-2125-4-8-1750844158.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (48 Hour)-2125-4-8-1750844158.zip.json"
       },
       {
         "id": [
@@ -343108,7 +343108,7 @@
         "size_kb": 56,
         "size_in_bytes": 57012,
         "changelog_html": "Updated for 5.74",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (0.5 Hour)-2125-4-9-1752592327.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (0.5 Hour)-2125-4-9-1752592327.zip.json"
       },
       {
         "id": [
@@ -343133,7 +343133,7 @@
         "size_kb": 56,
         "size_in_bytes": 57012,
         "changelog_html": "Updated for 5.74",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (1.0 hour)-2125-4-9-1752592375.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (1.0 hour)-2125-4-9-1752592375.zip.json"
       },
       {
         "id": [
@@ -343158,7 +343158,7 @@
         "size_kb": 56,
         "size_in_bytes": 57011,
         "changelog_html": "Updated for 5.74",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (3.0 Hour)-2125-4-9-1752592432.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (3.0 Hour)-2125-4-9-1752592432.zip.json"
       },
       {
         "id": [
@@ -343183,7 +343183,7 @@
         "size_kb": 56,
         "size_in_bytes": 57012,
         "changelog_html": "Updated for 5.74",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (6.0 Hour)-2125-4-9-1752592477.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (6.0 Hour)-2125-4-9-1752592477.zip.json"
       },
       {
         "id": [
@@ -343208,7 +343208,7 @@
         "size_kb": 56,
         "size_in_bytes": 57011,
         "changelog_html": "Updated for 5.74",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (9.0 Hour)-2125-4-9-1752592532.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (9.0 Hour)-2125-4-9-1752592532.zip.json"
       },
       {
         "id": [
@@ -343233,7 +343233,7 @@
         "size_kb": 56,
         "size_in_bytes": 56990,
         "changelog_html": "Updated for 5.74",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (12 Hour)-2125-4-9-1752592593.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (12 Hour)-2125-4-9-1752592593.zip.json"
       },
       {
         "id": [
@@ -343258,7 +343258,7 @@
         "size_kb": 56,
         "size_in_bytes": 56989,
         "changelog_html": "Updated for 5.74",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (24 Hour)-2125-4-9-1752592642.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (24 Hour)-2125-4-9-1752592642.zip.json"
       },
       {
         "id": [
@@ -343283,7 +343283,7 @@
         "size_kb": 56,
         "size_in_bytes": 56990,
         "changelog_html": "Updated for 5.74",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (48 Hour)-2125-4-9-1752592691.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Biomes Clouds Sun And Fog (48 Hour)-2125-4-9-1752592691.zip.json"
       },
       {
         "id": [
@@ -343308,7 +343308,7 @@
         "size_kb": 55,
         "size_in_bytes": 56481,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-0-1758040142.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-0-1758040142.zip.json"
       },
       {
         "id": [
@@ -343333,7 +343333,7 @@
         "size_kb": 55,
         "size_in_bytes": 56483,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-0-1758040188.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-0-1758040188.zip.json"
       },
       {
         "id": [
@@ -343358,7 +343358,7 @@
         "size_kb": 55,
         "size_in_bytes": 56482,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-0-1758040238.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-0-1758040238.zip.json"
       },
       {
         "id": [
@@ -343383,7 +343383,7 @@
         "size_kb": 55,
         "size_in_bytes": 56482,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-0-1758040272.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-0-1758040272.zip.json"
       },
       {
         "id": [
@@ -343408,7 +343408,7 @@
         "size_kb": 55,
         "size_in_bytes": 56481,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-0-1758040305.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-0-1758040305.zip.json"
       },
       {
         "id": [
@@ -343433,7 +343433,7 @@
         "size_kb": 55,
         "size_in_bytes": 56461,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-0-1758040351.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-0-1758040351.zip.json"
       },
       {
         "id": [
@@ -343458,7 +343458,7 @@
         "size_kb": 55,
         "size_in_bytes": 56461,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-0-1758040393.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-0-1758040393.zip.json"
       },
       {
         "id": [
@@ -343483,7 +343483,7 @@
         "size_kb": 55,
         "size_in_bytes": 56462,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-0-1758040432.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-0-1758040432.zip.json"
       },
       {
         "id": [
@@ -343508,7 +343508,7 @@
         "size_kb": 55,
         "size_in_bytes": 56412,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-0-1758098677.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-0-1758098677.zip.json"
       },
       {
         "id": [
@@ -343533,7 +343533,7 @@
         "size_kb": 55,
         "size_in_bytes": 56412,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-0-1758098706.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-0-1758098706.zip.json"
       },
       {
         "id": [
@@ -343558,7 +343558,7 @@
         "size_kb": 55,
         "size_in_bytes": 56412,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-0-1758098735.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-0-1758098735.zip.json"
       },
       {
         "id": [
@@ -343583,7 +343583,7 @@
         "size_kb": 55,
         "size_in_bytes": 56411,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-0-1758098766.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-0-1758098766.zip.json"
       },
       {
         "id": [
@@ -343608,7 +343608,7 @@
         "size_kb": 55,
         "size_in_bytes": 56411,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-0-1758098792.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-0-1758098792.zip.json"
       },
       {
         "id": [
@@ -343633,7 +343633,7 @@
         "size_kb": 55,
         "size_in_bytes": 56392,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-0-1758098820.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-0-1758098820.zip.json"
       },
       {
         "id": [
@@ -343658,7 +343658,7 @@
         "size_kb": 55,
         "size_in_bytes": 56391,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-0-1758098854.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-0-1758098854.zip.json"
       },
       {
         "id": [
@@ -343683,7 +343683,7 @@
         "size_kb": 55,
         "size_in_bytes": 56392,
         "changelog_html": "Updated for 6.04 - Refactored and removed all LOD related code.\nFurther Fog adjustments to reduce its influence more.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-0-1758098887.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-0-1758098887.zip.json"
       },
       {
         "id": [
@@ -343708,7 +343708,7 @@
         "size_kb": 55,
         "size_in_bytes": 56421,
         "changelog_html": "Refactored LOD Support Mod to retain original LOD settings from original.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-2-1760009713.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-2-1760009713.zip.json"
       },
       {
         "id": [
@@ -343733,7 +343733,7 @@
         "size_kb": 55,
         "size_in_bytes": 56422,
         "changelog_html": "Refactored LOD Support Mod to retain original LOD settings from original.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-2-1760009745.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-2-1760009745.zip.json"
       },
       {
         "id": [
@@ -343758,7 +343758,7 @@
         "size_kb": 55,
         "size_in_bytes": 56423,
         "changelog_html": "Refactored LOD Support Mod to retain original LOD settings from original.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-2-1760009781.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-2-1760009781.zip.json"
       },
       {
         "id": [
@@ -343783,7 +343783,7 @@
         "size_kb": 55,
         "size_in_bytes": 56422,
         "changelog_html": "Refactored LOD Support Mod to retain original LOD settings from original.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-2-1760009811.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-2-1760009811.zip.json"
       },
       {
         "id": [
@@ -343808,7 +343808,7 @@
         "size_kb": 55,
         "size_in_bytes": 56422,
         "changelog_html": "Refactored LOD Support Mod to retain original LOD settings from original.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-2-1760009838.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-2-1760009838.zip.json"
       },
       {
         "id": [
@@ -343833,7 +343833,7 @@
         "size_kb": 55,
         "size_in_bytes": 56402,
         "changelog_html": "Refactored LOD Support Mod to retain original LOD settings from original.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-2-1760009869.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-2-1760009869.zip.json"
       },
       {
         "id": [
@@ -343858,7 +343858,7 @@
         "size_kb": 55,
         "size_in_bytes": 56402,
         "changelog_html": "Refactored LOD Support Mod to retain original LOD settings from original.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-2-1760009900.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-2-1760009900.zip.json"
       },
       {
         "id": [
@@ -343883,7 +343883,7 @@
         "size_kb": 55,
         "size_in_bytes": 56402,
         "changelog_html": "Refactored LOD Support Mod to retain original LOD settings from original.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-2-1760009937.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-2-1760009937.zip.json"
       },
       {
         "id": [
@@ -343908,7 +343908,7 @@
         "size_kb": 4,
         "size_in_bytes": 3995,
         "changelog_html": "Initial Release",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog LOD Support-2125-1-0-1760010054.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog LOD Support-2125-1-0-1760010054.zip.json"
       },
       {
         "id": [
@@ -343933,7 +343933,7 @@
         "size_kb": 4,
         "size_in_bytes": 3874,
         "changelog_html": "Initial Release",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog LOD Support-2125-1-0-1760090661.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog LOD Support-2125-1-0-1760090661.zip.json"
       },
       {
         "id": [
@@ -343958,7 +343958,7 @@
         "size_kb": 4,
         "size_in_bytes": 4032,
         "changelog_html": "Refactored LOD Support Mod to retain original LOD settings from original.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun And Fog LOD-2125-5-2-1760261855.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun And Fog LOD-2125-5-2-1760261855.zip.json"
       },
       {
         "id": [
@@ -343983,7 +343983,7 @@
         "size_kb": 55,
         "size_in_bytes": 56512,
         "changelog_html": "Updated for 6.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-3-1761727153.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-3-1761727153.zip.json"
       },
       {
         "id": [
@@ -344008,7 +344008,7 @@
         "size_kb": 55,
         "size_in_bytes": 56511,
         "changelog_html": "Updated for 6.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-3-1761727197.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-3-1761727197.zip.json"
       },
       {
         "id": [
@@ -344033,7 +344033,7 @@
         "size_kb": 55,
         "size_in_bytes": 56512,
         "changelog_html": "Updated for 6.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-3-1761727236.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-3-1761727236.zip.json"
       },
       {
         "id": [
@@ -344058,7 +344058,7 @@
         "size_kb": 55,
         "size_in_bytes": 56512,
         "changelog_html": "Updated for 6.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-3-1761727267.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-3-1761727267.zip.json"
       },
       {
         "id": [
@@ -344083,7 +344083,7 @@
         "size_kb": 55,
         "size_in_bytes": 56511,
         "changelog_html": "Updated for 6.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-3-1761727296.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-3-1761727296.zip.json"
       },
       {
         "id": [
@@ -344108,7 +344108,7 @@
         "size_kb": 55,
         "size_in_bytes": 56491,
         "changelog_html": "Updated for 6.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-3-1761727324.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-3-1761727324.zip.json"
       },
       {
         "id": [
@@ -344133,7 +344133,7 @@
         "size_kb": 55,
         "size_in_bytes": 56491,
         "changelog_html": "Updated for 6.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-3-1761727362.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-3-1761727362.zip.json"
       },
       {
         "id": [
@@ -344158,7 +344158,7 @@
         "size_kb": 55,
         "size_in_bytes": 56491,
         "changelog_html": "Updated for 6.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-3-1761727398.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-3-1761727398.zip.json"
       },
       {
         "id": [
@@ -344183,7 +344183,7 @@
         "size_kb": 4,
         "size_in_bytes": 4035,
         "changelog_html": "Updated for 6.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun And Fog LOD-2125-5-3-1761727470.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun And Fog LOD-2125-5-3-1761727470.zip.json"
       },
       {
         "id": [
@@ -344208,7 +344208,7 @@
         "size_kb": 4,
         "size_in_bytes": 4035,
         "changelog_html": "Updated for 6.12",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun And Fog LOD-2125-5-3-1761727529.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun And Fog LOD-2125-5-3-1761727529.zip.json"
       },
       {
         "id": [
@@ -344233,7 +344233,7 @@
         "size_kb": 57,
         "size_in_bytes": 58760,
         "changelog_html": "Updated for 6.18",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-6-1764667605.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-6-1764667605.zip.json"
       },
       {
         "id": [
@@ -344258,7 +344258,7 @@
         "size_kb": 57,
         "size_in_bytes": 58761,
         "changelog_html": "Updated for 6.18",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-6-1764667642.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-6-1764667642.zip.json"
       },
       {
         "id": [
@@ -344283,7 +344283,7 @@
         "size_kb": 57,
         "size_in_bytes": 58761,
         "changelog_html": "Updated for 6.18",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-6-1764667690.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-6-1764667690.zip.json"
       },
       {
         "id": [
@@ -344308,7 +344308,7 @@
         "size_kb": 57,
         "size_in_bytes": 58762,
         "changelog_html": "Updated for 6.18",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-6-1764667730.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-6-1764667730.zip.json"
       },
       {
         "id": [
@@ -344333,7 +344333,7 @@
         "size_kb": 57,
         "size_in_bytes": 58761,
         "changelog_html": "Updated for 6.18",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-6-1764667760.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-6-1764667760.zip.json"
       },
       {
         "id": [
@@ -344358,7 +344358,7 @@
         "size_kb": 57,
         "size_in_bytes": 58738,
         "changelog_html": "Updated for 6.18",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-6-1764667795.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-6-1764667795.zip.json"
       },
       {
         "id": [
@@ -344383,7 +344383,7 @@
         "size_kb": 57,
         "size_in_bytes": 58738,
         "changelog_html": "Updated for 6.18",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-6-1764667833.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-6-1764667833.zip.json"
       },
       {
         "id": [
@@ -344408,7 +344408,7 @@
         "size_kb": 57,
         "size_in_bytes": 58737,
         "changelog_html": "Updated for 6.18",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-6-1764667881.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-6-1764667881.zip.json"
       },
       {
         "id": [
@@ -344433,7 +344433,7 @@
         "size_kb": 61,
         "size_in_bytes": 62947,
         "changelog_html": "Updated for 6.22. Reverted Horizon Distance back to default.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-8-1771309515.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (0.5) Hour-2125-5-8-1771309515.zip.json"
       },
       {
         "id": [
@@ -344458,7 +344458,7 @@
         "size_kb": 61,
         "size_in_bytes": 62949,
         "changelog_html": "Updated for 6.22. Reverted Horizon Distance back to default.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-8-1771309538.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (1.0) Hour-2125-5-8-1771309538.zip.json"
       },
       {
         "id": [
@@ -344483,7 +344483,7 @@
         "size_kb": 61,
         "size_in_bytes": 62928,
         "changelog_html": "Updated for 6.22. Reverted Horizon Distance back to default.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-8-1771309570.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (12) Hour-2125-5-8-1771309570.zip.json"
       },
       {
         "id": [
@@ -344508,7 +344508,7 @@
         "size_kb": 61,
         "size_in_bytes": 62927,
         "changelog_html": "Updated for 6.22. Reverted Horizon Distance back to default.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-8-1771309592.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (24) Hour-2125-5-8-1771309592.zip.json"
       },
       {
         "id": [
@@ -344533,7 +344533,7 @@
         "size_kb": 61,
         "size_in_bytes": 62950,
         "changelog_html": "Updated for 6.22. Reverted Horizon Distance back to default.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-8-1771309613.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (3.0) Hour-2125-5-8-1771309613.zip.json"
       },
       {
         "id": [
@@ -344558,7 +344558,7 @@
         "size_kb": 61,
         "size_in_bytes": 62928,
         "changelog_html": "Updated for 6.22. Reverted Horizon Distance back to default.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-8-1771309637.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (48) Hour-2125-5-8-1771309637.zip.json"
       },
       {
         "id": [
@@ -344583,7 +344583,7 @@
         "size_kb": 61,
         "size_in_bytes": 62949,
         "changelog_html": "Updated for 6.22. Reverted Horizon Distance back to default.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-8-1771309660.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (6.0) Hour-2125-5-8-1771309660.zip.json"
       },
       {
         "id": [
@@ -344608,7 +344608,7 @@
         "size_kb": 61,
         "size_in_bytes": 62947,
         "changelog_html": "Updated for 6.22. Reverted Horizon Distance back to default.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-8-1771309682.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/2125/Clouds Sun and Fog (9.0) Hour-2125-5-8-1771309682.zip.json"
       },
       {
         "id": [
@@ -345219,9 +345219,9 @@
         "file_id": 50415,
         "name": "Clouds Sun and Fog (0.5) Hour",
         "version": "6.6",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 62,
         "file_name": "Clouds Sun and Fog (0.5) Hour 2125 6.6 2026-11-04T13-56Z aCzNuEGoh.zip",
         "detected_file_extension": "zip",
@@ -345244,8 +345244,8 @@
         "file_id": 50416,
         "name": "Clouds Sun and Fog (1.0) Hour",
         "version": "6.6",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 62,
         "file_name": "Clouds Sun and Fog (1.0) Hour 2125 6.6 2026-11-04T13-56Z QR3q07rX4.zip",
@@ -345269,8 +345269,8 @@
         "file_id": 50417,
         "name": "Clouds Sun and Fog (3.0) Hour",
         "version": "6.6",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 62,
         "file_name": "Clouds Sun and Fog (3.0) Hour 2125 6.6 2026-11-04T13-56Z QR3q07rXO.zip",
@@ -345294,8 +345294,8 @@
         "file_id": 50418,
         "name": "Clouds Sun and Fog (6.0) Hour",
         "version": "6.6",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 62,
         "file_name": "Clouds Sun and Fog (6.0) Hour 2125 6.6 2026-11-04T13-57Z 8gT07OIMy.zip",
@@ -345319,8 +345319,8 @@
         "file_id": 50419,
         "name": "Clouds Sun and Fog (9.0) Hour",
         "version": "6.6",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 62,
         "file_name": "Clouds Sun and Fog (9.0) Hour 2125 6.6 2026-11-04T13-57Z oPfwFL8YQ.zip",
@@ -345344,8 +345344,8 @@
         "file_id": 50420,
         "name": "Clouds Sun and Fog (12) Hour",
         "version": "6.6",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 62,
         "file_name": "Clouds Sun and Fog (12) Hour 2125 6.6 2026-11-04T13-57Z 4tDiNufvj.zip",
@@ -345369,8 +345369,8 @@
         "file_id": 50421,
         "name": "Clouds Sun and Fog (24) Hour",
         "version": "6.6",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 62,
         "file_name": "Clouds Sun and Fog (24) Hour 2125 6.6 2026-11-04T13-57Z qTSCvouJc.zip",
@@ -345394,8 +345394,8 @@
         "file_id": 50422,
         "name": "Clouds Sun and Fog (48) Hour",
         "version": "6.6",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 62,
         "file_name": "Clouds Sun and Fog (48) Hour 2125 6.6 2026-11-04T13-57Z JrNPcYFxF.zip",
@@ -345409,6 +345409,206 @@
         "size_in_bytes": 64057,
         "changelog_html": "Updated for 7.13\nSome refactoring and adjustments to many aspects that drive the mod.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/73/6c/2a/736c2a88-9ff6-439e-8470-e160886b8a36"
+      },
+      {
+        "id": [
+          50804,
+          1634
+        ],
+        "uid": 7017976612468,
+        "file_id": 50804,
+        "name": "Clouds Sun and Fog (0.5) Hour",
+        "version": "6.7",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 62,
+        "file_name": "Clouds Sun and Fog (0.5) Hour 2125 6.7 2026-11-22T10-21Z IohEj95hq.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795342904,
+        "uploaded_time": "2026-11-22T10:21:44.000+00:00",
+        "mod_version": "6.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cf47caa7e60973d15330c78cd01e7ac0b054be1048d867d9940b197407c56edc",
+        "description": "Realtime (NMS time) Day Length (Optional), Better Detailed Clouds, Cloud Animation, Sun Properties and Planet Fog Adjustments. Optional Lens Dirt Removal. Also disables all Bloom effects but leaves lensing effects intact.",
+        "size_kb": 62,
+        "size_in_bytes": 64165,
+        "changelog_html": "Updated to resolve some issues that were reported.\nAtmosphere's surrounding Gas Giants should now look normal.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/00/a3/5f/00a35f24-84cc-4c71-a69d-8ea66df79bc9"
+      },
+      {
+        "id": [
+          50805,
+          1634
+        ],
+        "uid": 7017976612469,
+        "file_id": 50805,
+        "name": "Clouds Sun and Fog (1.0) Hour",
+        "version": "6.7",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 62,
+        "file_name": "Clouds Sun and Fog (1.0) Hour 2125 6.7 2026-11-22T10-22Z KsnM3Ttnu.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795342920,
+        "uploaded_time": "2026-11-22T10:22:00.000+00:00",
+        "mod_version": "6.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/7fffedeb530337a819593c185f031891f2b00f568c304455401e54ca57931ee6",
+        "description": "Realtime (NMS time) Day Length (Optional), Better Detailed Clouds, Cloud Animation, Sun Properties and Planet Fog Adjustments. Optional Lens Dirt Removal. Also disables all Bloom effects but leaves lensing effects intact.",
+        "size_kb": 62,
+        "size_in_bytes": 64163,
+        "changelog_html": "Updated to resolve some issues that were reported.\nAtmosphere's surrounding Gas Giants should now look normal.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/49/fe/a0/49fea022-ed48-4a67-b0aa-2b10bf632e77"
+      },
+      {
+        "id": [
+          50806,
+          1634
+        ],
+        "uid": 7017976612470,
+        "file_id": 50806,
+        "name": "Clouds Sun and Fog (3.0) Hour",
+        "version": "6.7",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 62,
+        "file_name": "Clouds Sun and Fog (3.0) Hour 2125 6.7 2026-11-22T10-22Z izF9UkeF4.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795342929,
+        "uploaded_time": "2026-11-22T10:22:09.000+00:00",
+        "mod_version": "6.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c82d0be6726155fd53a672cbdcaf73074174e6fd78ee1b703a027fd5da1e2144",
+        "description": "Realtime (NMS time) Day Length (Optional), Better Detailed Clouds, Cloud Animation, Sun Properties and Planet Fog Adjustments. Optional Lens Dirt Removal. Also disables all Bloom effects but leaves lensing effects intact.",
+        "size_kb": 62,
+        "size_in_bytes": 64168,
+        "changelog_html": "Updated to resolve some issues that were reported.\nAtmosphere's surrounding Gas Giants should now look normal.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/7c/ed/93/7ced9397-2273-4833-8dc9-a5ffb19c6b17"
+      },
+      {
+        "id": [
+          50807,
+          1634
+        ],
+        "uid": 7017976612471,
+        "file_id": 50807,
+        "name": "Clouds Sun and Fog (6.0) Hour",
+        "version": "6.7",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 62,
+        "file_name": "Clouds Sun and Fog (6.0) Hour 2125 6.7 2026-11-22T10-22Z 6Xd7OtxdF.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795342939,
+        "uploaded_time": "2026-11-22T10:22:19.000+00:00",
+        "mod_version": "6.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/73e264a0470bb7c49bddc9e8c53ef3d1e1b4901b4edc93b43301d7bb116f65c1",
+        "description": "Realtime (NMS time) Day Length (Optional), Better Detailed Clouds, Cloud Animation, Sun Properties and Planet Fog Adjustments. Optional Lens Dirt Removal. Also disables all Bloom effects but leaves lensing effects intact.",
+        "size_kb": 62,
+        "size_in_bytes": 64168,
+        "changelog_html": "Updated to resolve some issues that were reported.\nAtmosphere's surrounding Gas Giants should now look normal.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f1/71/ce/f171ce73-1e54-4dec-9004-328ecbff798e"
+      },
+      {
+        "id": [
+          50808,
+          1634
+        ],
+        "uid": 7017976612472,
+        "file_id": 50808,
+        "name": "Clouds Sun and Fog (9.0) Hour",
+        "version": "6.7",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 62,
+        "file_name": "Clouds Sun and Fog (9.0) Hour 2125 6.7 2026-11-22T10-22Z AeW3TdCWj.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795342950,
+        "uploaded_time": "2026-11-22T10:22:30.000+00:00",
+        "mod_version": "6.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/1edad57b5ce37783819d06c310d7441a964b3e00efe16adb7093af63a32fc121",
+        "description": "Realtime (NMS time) Day Length (Optional), Better Detailed Clouds, Cloud Animation, Sun Properties and Planet Fog Adjustments. Optional Lens Dirt Removal. Also disables all Bloom effects but leaves lensing effects intact.",
+        "size_kb": 62,
+        "size_in_bytes": 64167,
+        "changelog_html": "Updated to resolve some issues that were reported.\nAtmosphere's surrounding Gas Giants should now look normal.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/00/86/85/0086858c-49a6-4285-954c-e55bc3a052e0"
+      },
+      {
+        "id": [
+          50809,
+          1634
+        ],
+        "uid": 7017976612473,
+        "file_id": 50809,
+        "name": "Clouds Sun and Fog (12) Hour",
+        "version": "6.7",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 62,
+        "file_name": "Clouds Sun and Fog (12) Hour 2125 6.7 2026-11-22T10-22Z lN9fGpR9J.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795342972,
+        "uploaded_time": "2026-11-22T10:22:52.000+00:00",
+        "mod_version": "6.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/52c845f1a3d5db1554b6716f2619555bd3635fde4b81c163995f65d577eb4b4f",
+        "description": "Realtime (NMS time) Day Length (Optional), Better Detailed Clouds, Cloud Animation, Sun Properties and Planet Fog Adjustments. Optional Lens Dirt Removal. Also disables all Bloom effects but leaves lensing effects intact.",
+        "size_kb": 62,
+        "size_in_bytes": 64143,
+        "changelog_html": "Updated to resolve some issues that were reported.\nAtmosphere's surrounding Gas Giants should now look normal.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/01/94/61/019461e2-9192-444f-b5de-564a6b0bb29a"
+      },
+      {
+        "id": [
+          50810,
+          1634
+        ],
+        "uid": 7017976612474,
+        "file_id": 50810,
+        "name": "Clouds Sun and Fog (24) Hour",
+        "version": "6.7",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 62,
+        "file_name": "Clouds Sun and Fog (24) Hour 2125 6.7 2026-11-22T10-23Z yIucYBLuW.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795343023,
+        "uploaded_time": "2026-11-22T10:23:43.000+00:00",
+        "mod_version": "6.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/37b36f84eec3e532ab3f2c791762284fa925929d78ef7edd1763be375d3bb340",
+        "description": "Realtime (NMS time) Day Length (Optional), Better Detailed Clouds, Cloud Animation, Sun Properties and Planet Fog Adjustments. Optional Lens Dirt Removal. Also disables all Bloom effects but leaves lensing effects intact.",
+        "size_kb": 62,
+        "size_in_bytes": 64143,
+        "changelog_html": "Updated to resolve some issues that were reported.\nAtmosphere's surrounding Gas Giants should now look normal.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/45/15/bd/4515bdaa-1e8b-4a30-bee9-319ea5bae87b"
+      },
+      {
+        "id": [
+          50811,
+          1634
+        ],
+        "uid": 7017976612475,
+        "file_id": 50811,
+        "name": "Clouds Sun and Fog (48) Hour",
+        "version": "6.7",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 62,
+        "file_name": "Clouds Sun and Fog (48) Hour 2125 6.7 2026-11-22T10-24Z zYpLKAVpI.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795343045,
+        "uploaded_time": "2026-11-22T10:24:05.000+00:00",
+        "mod_version": "6.7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/fd157c8ad8adaf7f50be3e756a8ee8b6db50b7e52b13a3f3e2460f7fe9141f15",
+        "description": "Realtime (NMS time) Day Length (Optional), Better Detailed Clouds, Cloud Animation, Sun Properties and Planet Fog Adjustments. Optional Lens Dirt Removal. Also disables all Bloom effects but leaves lensing effects intact.",
+        "size_kb": 62,
+        "size_in_bytes": 64142,
+        "changelog_html": "Updated to resolve some issues that were reported.\nAtmosphere's surrounding Gas Giants should now look normal.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/61/ef/d2/61efd208-3ac4-4d69-bf56-8972d4b2e7e6"
       }
     ],
     "changelogs": {
@@ -345539,6 +345739,10 @@
       "6.6": [
         "Updated for 7.13",
         "Some refactoring and adjustments to many aspects that drive the mod."
+      ],
+      "6.7": [
+        "Updated to resolve some issues that were reported.",
+        "Atmosphere's surrounding Gas Giants should now look normal."
       ]
     }
   },
