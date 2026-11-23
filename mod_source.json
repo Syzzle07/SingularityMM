@@ -10288,5 +10288,95 @@
         "id": "4809",
         "state": "normal",
         "warningMessage": ""
+    },
+    {
+        "name": "GAGARIN NMS Builder and Launcher - KDY",
+        "id": "4810",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Clear View Arena Matches - No Camera Blocking NPCs",
+        "id": "4811",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Reduced Starship Build Proximity Run Pipes And Wires Near Ships",
+        "id": "4812",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "IESP - Build Scale",
+        "id": "4813",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Chlorine Price Multiplier",
+        "id": "4814",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Female Player Model",
+        "id": "4816",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Clean Galaxy Map and Core Distance (Patch-Proof Lua)",
+        "id": "4817",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NADA player model",
+        "id": "4819",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMS Personal Atlas",
+        "id": "4820",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "NMS Galactic Treasures (Offline PC Save)",
+        "id": "4821",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "CLVerse ASS (Alternate Ship Screens)",
+        "id": "4822",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "CLVerse Universe Alphabet Ship Screens",
+        "id": "4823",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Corvette Planetary Landing Pads",
+        "id": "4825",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Rocket Upgrade",
+        "id": "4827",
+        "state": "normal",
+        "warningMessage": ""
+    },
+    {
+        "name": "Exosuit Voice UA",
+        "id": "4828",
+        "state": "normal",
+        "warningMessage": ""
     }
 ]
