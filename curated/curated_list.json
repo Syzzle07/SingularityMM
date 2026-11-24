@@ -680831,7 +680831,7 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4475/4475-1789349500-1278291350.png",
     "author": "TheKingRevoker",
-    "updated_timestamp": 1791054845,
+    "updated_timestamp": 1795492533,
     "created_timestamp": 1789350188,
     "description": "BETTER FLIGHT\n<br />[heading]THE FIRST TRUE 6DOF FLIGHT MOD FOR NO MAN'S SKY[/heading]\n<br />[b]Strafe. Thrust up and down. Keep your momentum through a 180 and fly backwards at full speed.[/b]\n<br />[b]Not just a speed tweak or a handling retune.[/b] Real thrust on three axes the game never had, with a Star Citizen-style coupled / decoupled switch.\n<br />Every ship in No Man's Sky flies where its nose points. You can't slide sideways, you can't lift straight up, and you can never truly stop.\n<br />Better Flight adds the three directions the game never had — left/right, up/down and forward/back as real thrust — and lets you keep the speed and heading you built up while you point the ship wherever you like. Boost to full speed, flip around, and keep going that way until you thrust against it.\n<br />[line]\n<br />[heading]Link to Repo: https://github.com/YoruDev-Ryland/No-Mans-Sky-BetterFlight\n<br />\n<br />Features[/heading]\n<br />[list]\n<br />[*][b]Strafe[/b] left and right, [b]thrust[/b] up and down[/*]\n<br />[*][b]Coupled / decoupled flight[/b] on [b]Z[/b][/*]\n<br />[*][b]Real momentum:[/b] the ship keeps flying the way you sent it instead of being pulled toward the nose[/*]\n<br />[*]Bind actions to several keys, including [b]mouse buttons[/b][/*]\n<br />[*]Settings editable while you play[/*]\n<br />[*]Works with ship speed and balance mods such as [b]Prepare To Sky[/b][/*]\n<br />[*][b]F8[/b] turns all mod features on and off[/*]\n<br />[/list][line]\n<br />[heading]Coupled and decoupled[/heading]\n<br />[b]Coupled[/b][i](default every launch)[/i] — release the throttle and strafe keys and the ship brakes to a full stop in every direction. No sideways sliding when you turn.\n<br />[b]Decoupled[/b] — nothing slows you down. Boost to top speed, let go, flip the ship around and keep flying backwards at full speed. Press [b]Z[/b] again and the ship brakes to a stop.\n<br />Below about 30 m/s the game's normal flight takes over, so landing, take-off and hovering work as usual. Pulse jump, landing and auto-follow are left to the game automatically. Walking around a corvette or on a spacewalk, the mod leaves the ship alone.\n<br /> \n<br />[line]\n<br />[heading]Controls[/heading]\n<br />[table][tr][th]Key[/th]\n<br />[th]Action[/th]\n<br />[th][/th]\n<br />[th]Key[/th]\n<br />[th]Action[/th]\n<br />[/tr]\n<br />[tr][td][b]W / S[/b][/td]\n<br />[td]thrust / brake[/td]\n<br />[td][/td]\n<br />[td][b]LShift[/b][/td]\n<br />[td]boost[/td]\n<br />[/tr]\n<br />[tr][td][b]A / D[/b][/td]\n<br />[td][b]strafe left / right[/b][/td]\n<br />[td][/td]\n<br />[td][b]B[/b][/td]\n<br />[td]pulse jump [i](was Space)[/i][/td]\n<br />[/tr]\n<br />[tr][td][b]Space[/b][/td]\n<br />[td][b]thrust up[/b][/td]\n<br />[td][/td]\n<br />[td][b]N[/b][/td]\n<br />[td]land [i](was E)[/i][/td]\n<br />[/tr]\n<br />[tr][td][b]LCtrl[/b][/td]\n<br />[td][b]thrust down[/b][/td]\n<br />[td][/td]\n<br />[td][b]F[/b][/td]\n<br />[td]exit ship / tag / follow [i](was E)[/i][/td]\n<br />[/tr]\n<br />[tr][td][b]Q / E[/b][/td]\n<br />[td]roll [i](was A / D)[/i][/td]\n<br />[td][/td]\n<br />[td][b]C[/b][/td]\n<br />[td]scan[/td]\n<br />[/tr]\n<br />[tr][td][b]Z[/b][/td]\n<br />[td][b]coupled / decoupled[/b][/td]\n<br />[td][/td]\n<br />[td][b]F8[/b][/td]\n<br />[td]mod on / off[/td]\n<br />[/tr]\n<br />[tr][td][b]Mouse[/b][/td]\n<br />[td]pitch / yaw[/td]\n<br />[td][/td]\n<br />[td][/td]\n<br />[td][/td]\n<br />[/tr]\n<br />[/table]Pulse jump also fires if you hold [b]both[/b] roll keys — that's built into the game, so it's now [b]Q + E[/b].\n<br />On a spacewalk, roll is [b]Shift + Q / Shift + E[/b] — the game's own control, not shown in its settings.\n<br />[line]\n<br />[heading]Installation[/heading]\n<br />Windows\n<br />[list=1]\n<br />[*]Close No Man's Sky.[/*]\n<br />[*]Open your No Man's Sky folder — the one containing \n<br />[code]Binaries[/code] and \n<br />[code]GAMEDATA[/code]. [i](Steam: right-click the game → Manage → Browse local files.)[/i][/*]\n<br />[*]Extract the zip [b]into that folder[/b], merging folders and overwriting files.[/*]\n<br />[*]Launch the game normally.[/*]\n<br />[/list][b]Updating from 1.1.1 or earlier:[/b] extract over the old version, then [b]delete [/b]\n<br />[code]GAMEDATA/MODS/BetterFlight[/code]. The flight retune is built into the DLL now.\n<br />[b]Manual install is recommended.[/b] Part of the mod goes in the \n<br />[code]Binaries[/code] folder, which mod managers don't always handle.\n<br />Linux / Steam Deck\n<br />Install as above, then do [b]one[/b] of the following (only needed once):\n<br />[list]\n<br />[*][b]Launch option[/b] — Steam → No Man's Sky → Properties → Launch Options:\n<br />[code]WINEDLLOVERRIDES=\"winmm=n,b\" %command%[/code][/*]\n<br />[*][b]Or[/b] close the game and run the included helper once:\n<br />[code]python3 BetterFlight-docs/linux_wine_override.py[/code][/*]\n<br />[/list]Use exactly \n<br />[code]n,b[/code]. Plain \n<br />[code]n[/code] stops the mod from working.\n<br />[line]\n<br />[heading]Please read before installing[/heading]\n<br />[list]\n<br />[*][b]Custom keybinds:[/b] your saved keybinds in the game's Controls menu override this mod's layout, so roll / pulse jump / land / exit may not move. Reset controls to default, or set them to match the table above. If you moved [b]thrust, brake or boost[/b] off W / S / LShift, set \n<br />[code]ThrustKey[/code], \n<br />[code]BrakeKey[/code] and \n<br />[code]BoostKey[/code] in the settings file to match.[/*]\n<br />[*][b]Game updates:[/b] the mod usually keeps working after an update, and if it can't find what it needs in a new game version it switches that part off and the game runs normally. The key layout file is tied to a game version — if the game crashes or keys act strangely right after a patch, remove \n<br />[code]GAMEDATA/MODS/BetterFlightControls[/code] until an update is posted.[/*]\n<br />[*][b]Keyboard and mouse only[/b] for now — controllers and HOTAS can't strafe or switch modes yet.[/*]\n<br />[*][b]No on-screen mode indicator[/b] yet.[/*]\n<br />[*][b]Text chat:[/b] typing A, D, Space or Z in chat while flying also strafes or switches mode.[/*]\n<br />[/list][line]\n<br />[heading]Settings[/heading]\n<br />Edit \n<br />[code]Binaries/BetterFlight.ini[/code] — [b]with the game running[/b] if you like; changes apply within about a second. Every setting is explained in the file.\n<br />[table][tr][th]Setting[/th]\n<br />[th]Default[/th]\n<br />[th]What it does[/th]\n<br />[/tr]\n<br />[tr][td][code]StrafeLeft[/code] / \n<br />[code]StrafeRight[/code] / \n<br />[code]StrafeUp[/code] / \n<br />[code]StrafeDown[/code][/td]\n<br />[td]A / D / Space / LCtrl[/td]\n<br />[td]strafe keys[/td]\n<br />[/tr]\n<br />[tr][td][code]DecoupleKey[/code][/td]\n<br />[td]Z[/td]\n<br />[td]coupled / decoupled key[/td]\n<br />[/tr]\n<br />[tr][td][code]ToggleKey[/code][/td]\n<br />[td]F8[/td]\n<br />[td]all mod features on / off[/td]\n<br />[/tr]\n<br />[tr][td][code]LateralAccel[/code] / \n<br />[code]VerticalAccel[/code][/td]\n<br />[td]70 / 55[/td]\n<br />[td]strafe thruster strength[/td]\n<br />[/tr]\n<br />[tr][td][code]MaxStrafeSpeed[/code][/td]\n<br />[td]140[/td]\n<br />[td]strafe won't push past this speed[/td]\n<br />[/tr]\n<br />[tr][td][code]RetroAccel[/code] / \n<br />[code]MainAccel[/code][/td]\n<br />[td]60 / 120[/td]\n<br />[td]how hard coupled mode brakes forward / backward motion[/td]\n<br />[/tr]\n<br />[tr][td][code]ThrustKey[/code] / \n<br />[code]BrakeKey[/code] / \n<br />[code]BoostKey[/code][/td]\n<br />[td]W / S / LShift[/td]\n<br />[td]your throttle keys, used by coupled mode[/td]\n<br />[/tr]\n<br />[tr][td][code]AutopilotKeys[/code][/td]\n<br />[td]N, B, F[/td]\n<br />[td]keys that hand control to the game (land, pulse, follow)[/td]\n<br />[/tr]\n<br />[tr][td][code]WorldMomentum[/code][/td]\n<br />[td]1[/td]\n<br />[td]0 = the game's own momentum handling[/td]\n<br />[/tr]\n<br />[tr][td][code]FlightRetune[/code][/td]\n<br />[td]1[/td]\n<br />[td]0 = the game's own handling tuning (F8 also toggles it)[/td]\n<br />[/tr]\n<br />[tr][td][code]InvertLateral[/code] / \n<br />[code]InvertVertical[/code][/td]\n<br />[td]0[/td]\n<br />[td]set to 1 to flip a direction[/td]\n<br />[/tr]\n<br />[tr][td][code]Debug[/code][/td]\n<br />[td]0[/td]\n<br />[td]set to 1 to write a log for bug reports[/td]\n<br />[/tr]\n<br />[/table][b]Mouse buttons and multiple keys:[/b] separate inputs with commas, using \n<br />[code]Mouse1[/code]–\n<br />[code]Mouse5[/code]:\n<br />[code]StrafeUp    = Space, Mouse5\n<br />DecoupleKey = KeyZ, Mouse4[/code]\n<br />Roll, pulse jump, land and exit are changed in the in-game Controls menu, which also accepts mouse buttons.\n<br />[line]\n<br />[heading]Compatibility[/heading]\n<br />[b]Works with[/b] mods that change ship flight data — ship speed and balance mods such as Prepare To Sky. Better Flight's changes are applied on top of theirs.\n<br />[b]Conflicts with:[/b]\n<br />[list]\n<br />[*]mods that replace the keyboard bindings file[/*]\n<br />[*]other mods installed as \n<br />[code]Binaries/winmm.dll[/code][/*]\n<br />[/list][b]Platforms:[/b]\n<br />[list]\n<br />[*]Steam on Windows[/*]\n<br />[*]Steam on Linux / Steam Deck (Proton)[/*]\n<br />[*]GOG — untested[/*]\n<br />[*]Xbox / Game Pass — not supported[/*]\n<br />[/list][b]Antivirus:[/b] some antivirus tools flag unknown DLLs that hook into games. \n<br />[code]winmm.dll[/code] only loads inside No Man's Sky, and forwards calls to Windows' own winmm.dll.\n<br />[line]\n<br />[heading]Bug reports[/heading]\n<br />[list=1]\n<br />[*]Set \n<br />[code]Debug = 1[/code] in \n<br />[code]Binaries/BetterFlight.ini[/code].[/*]\n<br />[*]Reproduce the problem.[/*]\n<br />[*]Attach \n<br />[code]Binaries/BetterFlight.log[/code] to your report.[/*]\n<br />[/list][b]Common fixes:[/b]\n<br />[list]\n<br />[*][b]Nothing happens (Linux):[/b] check the launch option or run the helper — see Installation.[/*]\n<br />[*][b]Nothing happens:[/b] press [b]F8[/b] in case the mod was switched off.[/*]\n<br />[*][b]Ship brakes while holding the throttle:[/b] set \n<br />[code]ThrustKey[/code] / \n<br />[code]BrakeKey[/code] / \n<br />[code]BoostKey[/code] to the keys you use.[/*]\n<br />[*][b]A/D still roll:[/b] the \n<br />[code]BetterFlightControls[/code] folder didn't install, or your custom keybinds are overriding it.[/*]\n<br />[*][b]Log says the old data mod is still installed:[/b] delete \n<br />[code]GAMEDATA/MODS/BetterFlight[/code].[/*]\n<br />[/list][line]\n<br />[heading]Uninstall[/heading]\n<br />Delete:\n<br />[list]\n<br />[*][code]Binaries/winmm.dll[/code][/*]\n<br />[*][code]Binaries/BetterFlight.ini[/code][/*]\n<br />[*][code]GAMEDATA/MODS/BetterFlightControls[/code][/*]\n<br />[/list]On Linux, also remove the launch option, or run:\n<br />[code]python3 linux_wine_override.py --remove[/code]\n<br />[line]\n<br />[heading]Credits[/heading]\n<br />[list]\n<br />[*][url=https://github.com/monkeyman192/NMS.py]NMS.py[/url] by monkeyman192 — reverse-engineering data the function signatures are derived from[/*]\n<br />[*][url=https://github.com/TsudaKageyu/minhook]MinHook[/url] by Tsuda Kageyu — function hooking[/*]\n<br />[*][url=https://github.com/monkeyman192/MBINCompiler]MBINCompiler[/url] and [url=https://github.com/monkeyman192/HGPAKtool]HGPAKtool[/url] — game data tooling[/*]\n<br />[/list]Developed with AI assistance (Anthropic's Claude) and tested in-game.\n<br />No Man's Sky is © Hello Games. This is an unofficial fan mod.",
     "state": "normal",
@@ -680860,7 +680860,7 @@
         "size_kb": 28,
         "size_in_bytes": 29391,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4475/9a/81/b8/9a81b867-57ed-4db7-8d83-522479191988.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9a/81/b8/9a81b867-57ed-4db7-8d83-522479191988"
       },
       {
         "id": [
@@ -680885,7 +680885,7 @@
         "size_kb": 33,
         "size_in_bytes": 34132,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4475/aa/ff/e8/aaffe803-de71-4081-b575-94da4c2bc6dc.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/aa/ff/e8/aaffe803-de71-4081-b575-94da4c2bc6dc"
       },
       {
         "id": [
@@ -680910,7 +680910,7 @@
         "size_kb": 39,
         "size_in_bytes": 40031,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4475/6d/0b/66/6d0b662f-03d1-4546-8501-d57acf9472b8.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6d/0b/66/6d0b662f-03d1-4546-8501-d57acf9472b8"
       },
       {
         "id": [
@@ -680935,7 +680935,7 @@
         "size_kb": 39,
         "size_in_bytes": 40699,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4475/f8/9c/4a/f89c4a41-c717-4b1a-8d78-08a8fe1ef9ea.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f8/9c/4a/f89c4a41-c717-4b1a-8d78-08a8fe1ef9ea"
       },
       {
         "id": [
@@ -680960,7 +680960,7 @@
         "size_kb": 41,
         "size_in_bytes": 42195,
         "changelog_html": "- Flight tuning is now built into the DLL, so it works with mods that change ship speed or handling.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4475/15/b5/62/15b562a0-9db3-494f-8c3a-5f5998643e5f.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/15/b5/62/15b562a0-9db3-494f-8c3a-5f5998643e5f"
       },
       {
         "id": [
@@ -680971,9 +680971,9 @@
         "file_id": 49509,
         "name": "BetterFlight 1.2.1",
         "version": "6",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 61,
         "file_name": "BetterFlight 1.2.1 4475 6 2026-10-03T19-14Z zYpLKAHob.zip",
         "detected_file_extension": "zip",
@@ -680985,12 +680985,42 @@
         "size_kb": 61,
         "size_in_bytes": 63199,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4475/7b/61/84/7b618488-96bf-4b52-9573-55f3af03c682.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/7b/61/84/7b618488-96bf-4b52-9573-55f3af03c682"
+      },
+      {
+        "id": [
+          50834,
+          1634
+        ],
+        "uid": 7017976612498,
+        "file_id": 50834,
+        "name": "BetterFlight 1.2.2",
+        "version": "7",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 61,
+        "file_name": "BetterFlight 1.2.2 4475 7 2026-11-24T03-55Z PuUGp5gLF.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795492533,
+        "uploaded_time": "2026-11-24T03:55:33.000+00:00",
+        "mod_version": "7",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/f953bc701154fc27f6e4245af11d4a2b9ee59d527671de0158c447726484f063",
+        "description": "Forsaken!<br />Fixed controls after the November game update (A/D rolling, Space pulsing, E landing). The update changed a version stamp on the game's key bindings file, so the game was ignoring the mod's key layout.",
+        "size_kb": 61,
+        "size_in_bytes": 63204,
+        "changelog_html": "Forsaken Update, sorry for the delay!\nFixed controls going back to vanilla after the November game update (A/D rolling, Space pulsing, E landing). The update changed a version stamp on the game's key bindings file, so the game was ignoring the mod's key layout. Rebuilt for the new game version.\nIf you're updating, just overwrite the old files.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/12/cd/af/12cdaf91-c245-4c1e-b724-31d7f23a2ccb"
       }
     ],
     "changelogs": {
       "5": [
         "- Flight tuning is now built into the DLL, so it works with mods that change ship speed or handling."
+      ],
+      "7": [
+        "Forsaken Update, sorry for the delay!",
+        "Fixed controls going back to vanilla after the November game update (A/D rolling, Space pulsing, E landing). The update changed a version stamp on the game's key bindings file, so the game was ignoring the mod's key layout. Rebuilt for the new game version.",
+        "If you're updating, just overwrite the old files."
       ]
     }
   },
@@ -707576,7 +707606,7 @@
     "name": "Nomad Biomes - Modpack (formerly Lasagna)",
     "summary": "Adds hundreds of immersive, custom biomes (land, cave &amp; underwater). Also overhauls terrain, colors, jetpack &amp; more.",
     "version": "1.2",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1795090687-1116060648.jpg",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4696/4696-1794151343-964469907.jpg",
     "author": "SereiusBusiness",
     "updated_timestamp": 1794669834,
     "created_timestamp": 1792777078,
