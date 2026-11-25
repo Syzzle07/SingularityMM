@@ -553217,14 +553217,14 @@
   },
   {
     "mod_id": 3173,
-    "name": "Get Max Stats on Multitool Ships and Freighter",
-    "summary": "make stats on newly obtained ships, multitools and freighters be the maximum. does not affect class spawn weightings!",
-    "version": "6.02",
+    "name": "Get Max Stats on Multitool Ships and Freighter (And Corvette parts)",
+    "summary": "make stats on newly obtained ships, multitools and freighters be the maximum. does not affect class spawn weightings! now with additional thing for corvettes.",
+    "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/3173/3173-1724871008-435960127.png",
     "author": "Kherae",
-    "updated_timestamp": 1756828362,
+    "updated_timestamp": 1795588700,
     "created_timestamp": 1724871271,
-    "description": "[quote]﻿I will no longer be updating this mod. I shoved NMS into cold storage. Tired of massive downloads for updates because HG can't do patching properly.[/quote]\n<br />Sets the minimum stat value to the maximum value on multitools, ships and freighters. Also has lua. Lua is honestly the intended way to use this.\n<br />\n<br />More technical:\n<br />Made script based off a script from Guardian9978 (I think was his name). Just takes the min value for each entry and sets it to the max. Yay, it works.\n<br />\n<br />[u][b]Since it was brought up: NO, this mod DOES NOT change class spawn weightings at all.\n<br />\n<br />[/b][/u]Why it it now EXML? Requirements to run were changed. Well, due to how it needs to be done, this isn't compatible with other mods that touch those values, you may get weird results. You may need to make your own adjustments.",
+    "description": "[quote]﻿I will no longer be updating this mod. I shoved NMS into cold storage. Tired of massive downloads for updates because HG can't do patching properly.[/quote]\n<br />Sets the minimum stat value to the maximum value on multitools, ships and freighters. Also has lua. Lua is honestly the intended way to use this. Now with corvette part exml and lua.\n<br />\n<br />More technical:\n<br />Made script based off a script from Guardian9978 (I think was his name). Just takes the min value for each entry and sets it to the max. Yay, it works.\n<br />\n<br />[u][b]Since it was brought up: NO, this mod DOES NOT change class spawn weightings at all.\n<br />\n<br />[/b][/u]Why it it now EXML? Requirements to run were changed. Well, due to how it needs to be done, this isn't compatible with other mods that touch those values, you may get weird results. You may need to make your own adjustments.",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -553242,6 +553242,7 @@
         "is_primary": false,
         "size": 1,
         "file_name": "lua-3173-1-1724871168.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1724871168,
         "uploaded_time": "2024-08-28T18:52:48.000+00:00",
         "mod_version": "1",
@@ -553250,7 +553251,7 @@
         "size_kb": 1,
         "size_in_bytes": 725,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/lua-3173-1-1724871168.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/lua-3173-1-1724871168.zip.json"
       },
       {
         "id": [
@@ -553266,6 +553267,7 @@
         "is_primary": false,
         "size": 3,
         "file_name": "PAK 5.05 version-3173-5-05-1724871230.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1724871230,
         "uploaded_time": "2024-08-28T18:53:50.000+00:00",
         "mod_version": "5.05",
@@ -553274,7 +553276,7 @@
         "size_kb": 3,
         "size_in_bytes": 2970,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/PAK 5.05 version-3173-5-05-1724871230.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/PAK 5.05 version-3173-5-05-1724871230.zip.json"
       },
       {
         "id": [
@@ -553290,6 +553292,7 @@
         "is_primary": false,
         "size": 3,
         "file_name": "PAK 5.1 version-3173-5-1-1725470755.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1725470755,
         "uploaded_time": "2024-09-04T17:25:55.000+00:00",
         "mod_version": "5.1",
@@ -553298,7 +553301,7 @@
         "size_kb": 3,
         "size_in_bytes": 3060,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/PAK 5.1 version-3173-5-1-1725470755.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/PAK 5.1 version-3173-5-1-1725470755.zip.json"
       },
       {
         "id": [
@@ -553314,6 +553317,7 @@
         "is_primary": false,
         "size": 3,
         "file_name": "pakd 5.11-3173-5-11-1725661219.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1725661219,
         "uploaded_time": "2024-09-06T22:20:19.000+00:00",
         "mod_version": "5.11",
@@ -553322,7 +553326,7 @@
         "size_kb": 3,
         "size_in_bytes": 3063,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/pakd 5.11-3173-5-11-1725661219.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/pakd 5.11-3173-5-11-1725661219.zip.json"
       },
       {
         "id": [
@@ -553338,6 +553342,7 @@
         "is_primary": false,
         "size": 3,
         "file_name": "pakd 5.12-3173-5-12-1726581576.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1726581576,
         "uploaded_time": "2024-09-17T13:59:36.000+00:00",
         "mod_version": "5.12",
@@ -553346,7 +553351,7 @@
         "size_kb": 3,
         "size_in_bytes": 3067,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/pakd 5.12-3173-5-12-1726581576.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/pakd 5.12-3173-5-12-1726581576.zip.json"
       },
       {
         "id": [
@@ -553362,6 +553367,7 @@
         "is_primary": false,
         "size": 3,
         "file_name": "5.2-pakd-3173-5-2-pakd-1729818278.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1729818278,
         "uploaded_time": "2024-10-25T01:04:38.000+00:00",
         "mod_version": "5.2-pakd",
@@ -553370,7 +553376,7 @@
         "size_kb": 3,
         "size_in_bytes": 3081,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/5.2-pakd-3173-5-2-pakd-1729818278.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/5.2-pakd-3173-5-2-pakd-1729818278.zip.json"
       },
       {
         "id": [
@@ -553386,6 +553392,7 @@
         "is_primary": false,
         "size": 3,
         "file_name": "521pakd-3173-521pakd-1730018283.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1730018283,
         "uploaded_time": "2024-10-27T08:38:03.000+00:00",
         "mod_version": "521pakd",
@@ -553394,7 +553401,7 @@
         "size_kb": 3,
         "size_in_bytes": 3077,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/521pakd-3173-521pakd-1730018283.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/521pakd-3173-521pakd-1730018283.zip.json"
       },
       {
         "id": [
@@ -553410,6 +553417,7 @@
         "is_primary": false,
         "size": 3,
         "file_name": "525pakd-3173-525pakd-1731007546.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1731007546,
         "uploaded_time": "2024-11-07T19:25:46.000+00:00",
         "mod_version": "525pakd",
@@ -553418,7 +553426,7 @@
         "size_kb": 3,
         "size_in_bytes": 3076,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/525pakd-3173-525pakd-1731007546.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/525pakd-3173-525pakd-1731007546.zip.json"
       },
       {
         "id": [
@@ -553434,6 +553442,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "554 mbin and lua-3173-554-1739277079.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1739277079,
         "uploaded_time": "2025-02-11T12:31:19.000+00:00",
         "mod_version": "554",
@@ -553442,7 +553451,7 @@
         "size_kb": 4,
         "size_in_bytes": 3855,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/554 mbin and lua-3173-554-1739277079.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/554 mbin and lua-3173-554-1739277079.zip.json"
       },
       {
         "id": [
@@ -553458,6 +553467,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "557 mbin and lua-3173-557-1739648163.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1739648163,
         "uploaded_time": "2025-02-15T19:36:03.000+00:00",
         "mod_version": "557",
@@ -553466,7 +553476,7 @@
         "size_kb": 4,
         "size_in_bytes": 3846,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/557 mbin and lua-3173-557-1739648163.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/557 mbin and lua-3173-557-1739648163.zip.json"
       },
       {
         "id": [
@@ -553482,6 +553492,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "561 mbin and lua-3173-561-1743475431.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1743475431,
         "uploaded_time": "2025-04-01T02:43:51.000+00:00",
         "mod_version": "561",
@@ -553490,7 +553501,7 @@
         "size_kb": 4,
         "size_in_bytes": 3846,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/561 mbin and lua-3173-561-1743475431.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/561 mbin and lua-3173-561-1743475431.zip.json"
       },
       {
         "id": [
@@ -553506,6 +553517,7 @@
         "is_primary": false,
         "size": 4,
         "file_name": "MaxIsMin-3173-6-02-1756828362.zip",
+        "detected_file_extension": null,
         "uploaded_timestamp": 1756828362,
         "uploaded_time": "2025-09-02T15:52:42.000+00:00",
         "mod_version": "6.02",
@@ -553514,10 +553526,38 @@
         "size_kb": 4,
         "size_in_bytes": 3883,
         "changelog_html": "Update for NMS 6.02",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/3173/MaxIsMin-3173-6-02-1756828362.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/3173/MaxIsMin-3173-6-02-1756828362.zip.json"
+      },
+      {
+        "id": [
+          50852,
+          1634
+        ],
+        "uid": 7017976612516,
+        "file_id": 50852,
+        "name": "MaxIsMinCorvette",
+        "version": "1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 2,
+        "file_name": "MaxIsMinCorvette 3173 1 2026-11-25T06-38Z 8gT07OI1x.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795588700,
+        "uploaded_time": "2026-11-25T06:38:20.000+00:00",
+        "mod_version": "1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/54b2f3dab9dc76ab6493ae648de89c8cf31459f635ef6c6a10f660ba593ee283",
+        "description": "",
+        "size_kb": 2,
+        "size_in_bytes": 2914,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e9/93/42/e993423c-c9cd-4ff2-b189-6a524a0c818c"
       }
     ],
     "changelogs": {
+      "1": [
+        "this is separate, can be used alongside the notcorvette one. this is so that corvette parts are all always max instead of random in a range."
+      ],
       "6.02": [
         "Update for NMS 6.02"
       ]
