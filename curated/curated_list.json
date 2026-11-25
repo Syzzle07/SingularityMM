@@ -477988,10 +477988,10 @@
     "mod_id": 2756,
     "name": "Miscellaneous Text Fixes",
     "summary": "Somebody's gotta do it, right?",
-    "version": "7.14",
+    "version": "7.15",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/2756/2756-1681587739-77268136.png",
     "author": "FriendlyFirePL",
-    "updated_timestamp": 1795199295,
+    "updated_timestamp": 1795637699,
     "created_timestamp": 1681587893,
     "description": "[b][size=5]Description[/size][/b]\n<br />\n<br />This mod aims to fix various text inconsistencies, misleading descriptions and typos found in No Man's Sky. The fixes from this mod apply to English language only.\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Technical information[/size][/b]\n<br />\n<br />[quote][b]Files modified by this mod:[/b]\n<br />\n<br />METADATA&#92;REALITY&#92;TABLES&#92;CONSUMABLEITEMTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_REALITY_GCPRODUCTTABLE.MBIN\n<br />\n<br />METADATA&#92;SIMULATION&#92;MISSIONS&#92;TABLES&#92;COREMISSIONTABLE.MBIN\n<br />\n<br />MODELS&#92;PLANETS&#92;BIOMES&#92;COMMON&#92;BUILDINGS&#92;CRASHEDFREIGHTER&#92;PARTS&#92;CONTAINERTERMINAL&#92;ENTITIES&#92;TERMINALCHAR.ENTITY.MBIN\n<br />MODELS&#92;COMMON&#92;ROBOTS&#92;SWARMDRONE_PLANET&#92;ENTITIES&#92;SWARMDRONEPLANETDATA.ENTITY.MBIN[/quote]\n<br />\n<br />[quote][b]Mod specification:[/b]\n<br />\n<br />✅ EXML patch mod\n<br />\n<br />This mod is likely to work with other mods modifying the same files.\n<br />\n<br />Because of the simplicity of this mod and new mod loading system, LUA script will be no longer provided.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[size=5][b]Installation[/b][/size]\n<br />\n<br />[quote][b]Installation with ZIP archive (manual / mod manager)[/b]\n<br />\n<br />Download the provided ZIP archive and extract its contents into game's mods directory: [b]GAMEDATA&#92;MODS[/b]\n<br />\n<br />(if the MODS folder doesn't exist, create it yourself)\n<br />\n<br />After extracting check that the GAMEDATA&#92;MODS directory contains the dedicated folder for this mod (FF_ModName_ModVersion), not just individual files / folders (ex. TEXTURES, MODELS, METADATA, etc.).\n<br />\n<br />If you experience problems with installing mods, please refer to the [url=http://tinyurl.com/nmsmodding550]NMS Modding After 5.50 article[/url] by Gumsk.[/quote]\n<br />\n<br />[line]\n<br />\n<br />[b][size=5]Credits[/size][/b]\n<br />\n<br />[list]\n<br />[*]bk201- pointing out typos, providing feedback on changes[/*]\n<br />[*]Devilin Pixy, Lenni, members of the NMS Discord - pointing out typos[/*]\n<br />[*]Gumsk, Lyravega, Alchemist, Wberto - LUA script optimizations[/*]\n<br />[/list]",
     "state": "normal",
@@ -480481,8 +480481,8 @@
         "file_id": 50788,
         "name": "Miscellaneous Text Fixes",
         "version": "7.14",
-        "category_id": 1,
-        "category_name": "MAIN",
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
         "is_primary": true,
         "size": 24,
         "file_name": "Miscellaneous Text Fixes 2756 7.14 2026-11-20T18-28Z QR3q07r3r.zip",
@@ -480496,6 +480496,31 @@
         "size_in_bytes": 25241,
         "changelog_html": "updated for game version 7.14 (Forsaken)",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/38/68/2c/38682ca0-92a7-4cba-b149-2e4acc48c0f9"
+      },
+      {
+        "id": [
+          50868,
+          1634
+        ],
+        "uid": 7017976612532,
+        "file_id": 50868,
+        "name": "Miscellaneous Text Fixes",
+        "version": "7.15",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 23,
+        "file_name": "Miscellaneous Text Fixes 2756 7.15 2026-11-25T20-14Z izF9UkeGO.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795637699,
+        "uploaded_time": "2026-11-25T20:14:59.000+00:00",
+        "mod_version": "7.15",
+        "external_virus_scan_url": null,
+        "description": "",
+        "size_kb": 23,
+        "size_in_bytes": 24483,
+        "changelog_html": "updated for game version 7.15 (Holiday Expeditions 2026)\nremoved couple fixes as they were included by HG",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/4a/1e/8c/4a1e8cb9-46d6-4424-b6fa-1ea3d134016d"
       }
     ],
     "changelogs": {
@@ -480534,6 +480559,10 @@
       ],
       "7.14": [
         "updated for game version 7.14 (Forsaken)"
+      ],
+      "7.15": [
+        "updated for game version 7.15 (Holiday Expeditions 2026)",
+        "removed couple fixes as they were included by HG"
       ]
     }
   },
@@ -670768,14 +670797,14 @@
   },
   {
     "mod_id": 4317,
-    "name": "Prismatic Core Blue Unlocker",
-    "summary": "Unlock the Prismatic Core Blue trophy reward with an instant quick action button in the emote menu.",
-    "version": "7.05",
+    "name": "Prismatic Core Unlocker",
+    "summary": "Unlock the Prismatic Core trophy rewards with an instant quick action button in the emote menu.",
+    "version": "7.15",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4317/4317-1790800956-1182494140.png",
     "author": "Babscoole",
-    "updated_timestamp": 1790800382,
+    "updated_timestamp": 1795624903,
     "created_timestamp": 1783415056,
-    "description": "Apparently, only members of the winning team from the Swarm expedition get to have one of these in their build menu.  Well this mod solves that, so everyone can have one.  Install the mod, click the emote button, get the trophy reward.  After you receive the blueprint and your game saves, then can remove the mod.\n<br />\n<br />Note:  Originally this mod gave access to the blue, red, and green versions of the prismatic core, but as of the release of the Cosmos update, the red and green versions were completely removed from the game.  Restored in the mod [url=https://www.nexusmods.com/nomanssky/mods/4597]Prismatic Cores Restored at No Man's Sky Nexus - Mods and Community[/url] .\n<br />\n<br />Install:  Extract to GAMEDATA&#92;MODS\n<br />\n<br />Files modified:\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;PLAYERCHARACTER&#92;ENTITIES&#92;PLAYERCHARACTER.ENTITY.MBIN\n<br />METADATA&#92;UI&#92;EMOTEMENU.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;REWARDTABLE.MBIN\n<br />\n<br />To combine conflicting mods with Lua scripts and AMUMSS, see [url=https://www.nexusmods.com/nomanssky/mods/2626]How to use AMUMSS at No Man's Sky Nexus - Mods and Community[/url]",
+    "description": "Apparently, only members of the winning team from the Swarm expedition get to have one of these in their build menu.  Well this mod solves that, so everyone can have one.  Install the mod, click the emote button, get the trophy reward.  After you receive the blueprint and your game saves, then can remove the mod.\n<br />\n<br />[s]Note:  Originally this mod gave access to the blue, red, and green versions of the prismatic core, but as of the release of the Cosmos update, the red and green versions were completely removed from the game.  Restored in the mod [url=https://www.nexusmods.com/nomanssky/mods/4597]Prismatic Cores Restored at No Man's Sky Nexus - Mods and Community[/url] .[/s]\n<br />\n<br />Update 25 Nov 26 (NMS 7.15):  As Hello games has decided to restore the red and green trophy files for the Holiday Expeditions, I'm restoring those version of the mod here.  Whether this is a permanent change or temporary, only HelloGames knows.  Also, when HG removed the red and green trophies, previously, I remove the screenshots of those and don't have them anymore.  I'll need to make new ones and upload.  Will try to remember to do so this weekend.\n<br />\n<br />Install:  Extract to GAMEDATA&#92;MODS\n<br />\n<br />Files modified:\n<br />MODELS&#92;COMMON&#92;PLAYER&#92;PLAYERCHARACTER&#92;PLAYERCHARACTER&#92;ENTITIES&#92;PLAYERCHARACTER.ENTITY.MBIN\n<br />METADATA&#92;UI&#92;EMOTEMENU.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;REWARDTABLE.MBIN\n<br />\n<br />To combine conflicting mods with Lua scripts and AMUMSS, see [url=https://www.nexusmods.com/nomanssky/mods/2626]How to use AMUMSS at No Man's Sky Nexus - Mods and Community[/url]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -670802,7 +670831,7 @@
         "size_kb": 8,
         "size_in_bytes": 0,
         "changelog_html": "Initial upload",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4317/9d/4f/67/9d4f67e2-e836-4547-97c5-6a5d19035219.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/9d/4f/67/9d4f67e2-e836-4547-97c5-6a5d19035219"
       },
       {
         "id": [
@@ -670827,7 +670856,7 @@
         "size_kb": 8,
         "size_in_bytes": 0,
         "changelog_html": "Initial upload",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4317/dc/82/22/dc8222d0-40f3-4f79-94d7-a0eb18d7a515.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/dc/82/22/dc8222d0-40f3-4f79-94d7-a0eb18d7a515"
       },
       {
         "id": [
@@ -670852,7 +670881,7 @@
         "size_kb": 8,
         "size_in_bytes": 0,
         "changelog_html": "Initial upload",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4317/52/fc/a1/52fca13e-d5e5-4b53-a32d-96c81ae201e7.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/52/fc/a1/52fca13e-d5e5-4b53-a32d-96c81ae201e7"
       },
       {
         "id": [
@@ -670863,9 +670892,9 @@
         "file_id": 49375,
         "name": "Prismatic Core B Unlocker",
         "version": "7.05",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 8,
         "file_name": "Prismatic Core B Unlocker 4317 7.05 2026-09-30T20-33Z L5bXM34Bn.zip",
         "detected_file_extension": "zip",
@@ -670877,12 +670906,90 @@
         "size_kb": 8,
         "size_in_bytes": 8892,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/4317/f3/22/b7/f322b7eb-3b6e-49ea-ae83-28109b5e36a4.json"
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f3/22/b7/f322b7eb-3b6e-49ea-ae83-28109b5e36a4"
+      },
+      {
+        "id": [
+          50855,
+          1634
+        ],
+        "uid": 7017976612519,
+        "file_id": 50855,
+        "name": "Prismatic Core B Unlocker",
+        "version": "7.15",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8,
+        "file_name": "Prismatic Core B Unlocker 4317 7.15 2026-11-25T16-40Z qTSCvouIj.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795624836,
+        "uploaded_time": "2026-11-25T16:40:36.000+00:00",
+        "mod_version": "7.15",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/a884e373113f8ce90fd30443f67a4b35588c68620521794bca79ebd88d6f0a3c",
+        "description": "Blue version.  Lua script included.",
+        "size_kb": 8,
+        "size_in_bytes": 8907,
+        "changelog_html": "Update Holiday Expeditions 2026",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ca/3a/39/ca3a39fe-2e25-4dc9-bbc9-afefeca2ac6f"
+      },
+      {
+        "id": [
+          50856,
+          1634
+        ],
+        "uid": 7017976612520,
+        "file_id": 50856,
+        "name": "Prismatic Core G Unlocker",
+        "version": "7.15",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "Prismatic Core G Unlocker 4317 7.15 2026-11-25T16-41Z JrNPcYFz5.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795624866,
+        "uploaded_time": "2026-11-25T16:41:06.000+00:00",
+        "mod_version": "7.15",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c0b3facb400f94385d7244c2b15e1f62d3491a10514dd5150b77212c17b77b32",
+        "description": "Green version.  Lua script included.",
+        "size_kb": 8,
+        "size_in_bytes": 8909,
+        "changelog_html": "Update Holiday Expeditions 2026",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/73/b6/1a/73b61a44-2102-4663-bd31-d823c0f1ea08"
+      },
+      {
+        "id": [
+          50857,
+          1634
+        ],
+        "uid": 7017976612521,
+        "file_id": 50857,
+        "name": "Prismatic Core R Unlocker",
+        "version": "7.15",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": false,
+        "size": 8,
+        "file_name": "Prismatic Core R Unlocker 4317 7.15 2026-11-25T16-41Z tScz2hUus.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795624903,
+        "uploaded_time": "2026-11-25T16:41:43.000+00:00",
+        "mod_version": "7.15",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b09bdc177c58824ea756c2e6113fb362daa6a6df0e072f0b0fcc2903810df7b3",
+        "description": "Red version.  Lua script included.",
+        "size_kb": 8,
+        "size_in_bytes": 8906,
+        "changelog_html": "Update Holiday Expeditions 2026",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e2/0b/ea/e20bea15-3733-4817-bc42-2c6991619fa2"
       }
     ],
     "changelogs": {
       "6.45": [
         "Initial upload"
+      ],
+      "7.15": [
+        "Update Holiday Expeditions 2026"
       ]
     }
   },
@@ -693385,7 +693492,7 @@
     "author": "Babscoole",
     "updated_timestamp": 1790802452,
     "created_timestamp": 1790802452,
-    "description": "If you miss your decorative Red or Green Prismatic Cores, earned as your trophy for the Swarm missions, this mod brings them back.  Be aware that these are now custom objects which no longer exist in the vanilla game, so others will not be able to see them, without this mod.  Also, GEOMETRY for models changed significantly between Swarm and Cosmos, so I could not use the original GEOMETRY files to remake these.  Due to this, I had to use the GEOMETRY files for the blue one, which remained in the game, so the center spindle logo will be missing. \n<br />\n<br />Installation:\n<br />Extract archive contents to GAMEDATA&#92;MODS\n<br />\n<br />Files modified:\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGOBJECTSTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGPARTSTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_REALITY_GCPRODUCTTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGAUTOGENERATEDPARTSDATA.MBIN\n<br />METADATA&#92;GAMESTATE&#92;DEFAULTSAVEDATA.MBIN\n<br />\n<br />For install and usage of AMUMSS to self update the mod or combine with other mods using the included Lua script please see [url=https://www.nexusmods.com/nomanssky/mods/2626]AMUMSS How To[/url]",
+    "description": "If you miss your decorative Red or Green Prismatic Cores, earned as your trophy for the Swarm missions, this mod brings them back.  Be aware that these are now custom objects which no longer exist in the vanilla game, so others will not be able to see them, without this mod.  Also, GEOMETRY for models changed significantly between Swarm and Cosmos, so I could not use the original GEOMETRY files to remake these.  Due to this, I had to use the GEOMETRY files for the blue one, which remained in the game, so the center spindle logo will be missing. \n<br />\n<br />Update 25 Nov 26 (NMS 7.15):  As Hello games has decided to restore the red and green trophy files for the Holiday Expeditions, I'm restoring those version of the mod to   [url=https://www.nexusmods.com/nomanssky/mods/4317]Prismatic Core Unlocker at No Man's Sky Nexus - Mods and Community[/url]  .  So, for now, use that mod to get the red and green Prismatic Cores.   Whether this is a permanent change or temporary, only HelloGames knows. \n<br />\n<br />Installation:\n<br />Extract archive contents to GAMEDATA&#92;MODS\n<br />\n<br />Files modified:\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGOBJECTSTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGPARTSTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;NMS_REALITY_GCPRODUCTTABLE.MBIN\n<br />METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGAUTOGENERATEDPARTSDATA.MBIN\n<br />METADATA&#92;GAMESTATE&#92;DEFAULTSAVEDATA.MBIN\n<br />\n<br />For install and usage of AMUMSS to self update the mod or combine with other mods using the included Lua script please see [url=https://www.nexusmods.com/nomanssky/mods/2626]AMUMSS How To[/url]",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -698904,10 +699011,10 @@
     "mod_id": 4619,
     "name": "Outpost Corvette Landing Pad",
     "summary": "FORSAKEN-compatible - Bring the Outpost’s orbital Corvette landing platform to your own base. This mod adds a separate “Orbital Pad” entry to the base-building menu, with Corvette summoning, landing and takeoff, three integrated terminals, and customizable colors and materials. Vanilla landing pads remain unchanged.",
-    "version": "1",
+    "version": "1.5",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4619/4619-1791353538-243825552.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1795556385,
+    "updated_timestamp": 1795637428,
     "created_timestamp": 1791056639,
     "description": "[color=#ff7700][size=5][b]Orbital Corvette Landing Pad[/b][/size][/color][size=3]\n<br />\n<br />Build the Outpost's orbital Corvette platform at your own base, on a planet or in space. Each variant adds its own base-building entry, with three integrated terminals, color and material customization, and Corvette summoning, landing and take-off. Vanilla landing pads are unchanged.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Pad variants[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3][color=#f9cb9c][b]Orbital Pad[/b][/color] — the standard platform with its three terminals.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Props)[/b][/color] — the same functional platform with an integrated decoration layout, including cargo, technical equipment and workstations.[/size][/*]\n<br />[*][size=3][color=#f6b26b][b]Orbital Pad (Salvage Processor)[/b][/color] — the standard platform with the working Outpost salvage processor. Feed recovered physical salvage objects into its intake to receive the normal processing rewards in your personal inventory. The processor housing also supports color and material customization. [color=#38761d][b]Added the newly introduced Forsaken Trader, who can be called and interacted with like on the Outpost pads.[/b][/color][/size][/*]\n<br />[*][color=#f6b26b][b]Outpost Platform[/b][/color][color=#ffffff] — [/color]simple building in the looks of the landing pads without any functionalities except snapping enabled[/*]\n<br />[/list]Each variant works independently. Install one, two or all three: their separate building IDs, menu entries and resource paths allow them to coexist in the same base. \n<br />[color=#f6b26b][s]The Salvage Processor variant still uses the folder name \"OrbitalLandingPadFurnace\"; do not rename it when installing.[/s] [/color]\n<br />[color=#1e84cc]Changed the name to \"OutpostLandingPadRecycler\" with v1.2.1. Make sure to delete the old [...]Furnace before using the updated one.[/color]\n<br />\n<br />[color=#ff7700][size=4][b]Main features[/b][/size][/color]\n<br />\n<br />[list]\n<br />[*][size=3]Three terminals: summon your Corvette, edit your Corvette, and access starship outfitting/upgrades.[/size][/*]\n<br />[*][size=3]Corvette-only landing and take-off.[/size][/*]\n<br />[*][size=3]Color and material changes for the pad and terminal housings, retained after saving and reloading.[/size][/*]\n<br />[*][size=3]Entrance, terminal and access-route lighting, with adjusted collisions.[/size][/*]\n<br />[*][size=3]Optional snapping at the main entrance, on the terminal side.[/size][/*]\n<br />[*][size=3]Suitable for planetary and orbital base builds.[/size][/*]\n<br />[*][size=3]Up to 10 pads of each type per planetary base, with construction costs set at 10 times the standard landing pad recipe.[/size][/*]\n<br />[*][size=3]Functional salvage intake, processing and rewards with the Salvage Processor variant.[/size][/*]\n<br />[*][size=3]Workshop Cache Inventory accessible via the existing Corvette editing terminal on the Standard, Props, and Salvage Processor pads.[/size][/*]\n<br />[/list]\n<br />[size=4][color=#ff7700][b]Installing the pads[/b][/color][/size]\n<br />\n<br />[list=1]\n<br />[*][size=3]Close No Man's Sky and extract the ZIP for each variant you want.[/size][/*]\n<br />[*][size=3]When updating, remove the previous folder for that same variant. Keep only one installed copy of each variant.[/size][/*]\n<br />[*]Copy [i]\"OrbitalLandingPad\"[/i], [i]\"OrbitalLandingPadProps\"[/i] and/or[i] \"OutpostLandingPadRecycler\"[/i] into [i]\"No Man's Sky/GAMEDATA/MODS/\"[/i].[/*]\n<br />[*][size=3]Launch the game with mod support enabled.[/size][/*]\n<br />[*][size=3]Find [b]Orbital Pad[/b], [b]Orbital Pad (Props)[/b] and/or [b]Orbital Pad (Salvage Processor)[/b] in the base-building menu.[/size][/*]\n<br />[/list][size=3]The pad packages contain their required custom resources. You do not need the standard variant installed to use Props or Salvage Processor.[/size]\n<br />\n<br />[color=#ff7700][size=4][b]Optional add-on: Teleport Return[/b][/size][/color][size=3]\n<br />\n<br />With a Corvette selected as your active ship, Teleport Return adds automatic arrival when you teleport to a base containing one of these pads. It waits for the destination's dock to load, selects the closest compatible free pad to your arrival point, and uses the game's normal Corvette summon and docking process. Allow a few seconds after arriving.\n<br />\n<br />[b][color=#f6b26b]One DLL supports all three pad variants.[/color][/b] It is separate from the pad mods: no pad files need changing, and all normal pad functions remain available without it. Without the add-on, summon your Corvette manually after teleporting.[/size]\n<br />[size=3]Latest change: changed it so, that it'll work under a different name, so that other mods, that use the winmm.dll will still work (like [url=https://www.nexusmods.com/nomanssky/mods/4526]Analysis Visor in Flight Mode[/url]).[/size]\n<br />[size=3]\n<br />[b][color=#ff7700]Install once, then start normally:[/color][/b][/size]\n<br />[list=1]\n<br />[*][size=3]Close the game and stop any older Teleport Return test helpers.[/size][/*]\n<br />[*]Place the optional [i]\"dbghelp.dll[/i][i]\"[/i] in [i]\"No Man's Sky/Binaries/\"[/i], beside [i]\"NMS.exe\"[/i]. It does not belong in [i]\"GAMEDATA/MODS\"[/i].[/*]\n<br />[*]If updating our earlier Teleport Return DLL, replace that file. If another mod already provides a different [i]\"dbghelp.dll\" [/i], do not overwrite it; the two files cannot simply occupy the same path.[/*]\n<br />[*][size=3]Start the game normally through Steam. No separate helper, repeated PowerShell command or special launcher is needed.[/size][/*]\n<br />[/list]To remove the DLL-only add-on, close the game and remove the [i]\"Binaries/dbghelp.dll \"[/i]. The pad mods remain installed and usable. [i]\"OrbitalPadTeleport.log\"[/i] is its diagnostic log; older installer versions may also have created an installation receipt.\n<br />\n<br />[b][color=#f6b26b]Compatibility:[/color][/b] Teleport Return is for Windows PC and requires a matching game build. It checks the executable before activating; a game update may leave it inactive until a compatible DLL is provided. The original [i]\"NMS.exe\"[/i] is not modified on disk.\n<br />\n<br />[color=#f6b26b][b]Current test status:[/b][/color] The standard-pad Teleport Return implementation has been confirmed in-game. The expanded DLL supports all three IDs and has passed automated checks; live testing of that expanded build is still in progress.\n<br />\n<br />[size=4][color=#ff7700][b]Multiplayer and compatibility[/b][/color][/size][size=3]\n<br />\n<br />These pads add custom building entries instead of replacing vanilla pads. Other players need the corresponding pad variant installed to see its custom parts; uploading a base does not distribute the mod assets.\n<br />\n<br />Separate IDs and resource paths help avoid conflicts, but compatibility with every other mod or future game update is not guaranteed. Teleport Return has its own game-version and DLL compatibility requirements, as described above.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Limitations and known issues[/color][/b][/size]\n<br />\n<br />[list]\n<br />[*][size=3][b]Regular starships cannot dock on these pads.[/b] They can still be summoned through the quick menu. The outfitting terminal does not change the Corvette-only docking restriction.[/size][/*]\n<br />[*][size=3]Automatic Corvette arrival after a base teleport requires the optional Teleport Return DLL and a suitable free pad.[/size][/*]\n<br />[*][size=3]The large platform can take some time to finish loading/rendering.[/size][/*]\n<br />[*][size=3]Check clearance with very large Corvette layouts, especially around the Salvage Processor assembly; collision issues with every possible layout have not been ruled out.[/size][/*]\n<br />[/list]\n<br />[size=4][b][color=#ff7700]Credits and shout-outs[/color][/b][/size][size=3]\n<br />\n<br />- [url=https://www.nexusmods.com/profile/JJhookah]JJhookah[/url] provided the inspiration.\n<br />- [url=https://www.nexusmods.com/nomanssky/mods/2626?tab=description]AMUMSS[/url] provided the mod-editing tools.\n<br />- [url=https://www.nexusmods.com/profile/Thrawn1636262]Thrawn1636262[/url] suggested the salvage processor variant.\n<br />- Thanks also to ChatGPT-6.1 Sol for development assistance. Spare time is limited, and the help made a big difference.[/size]\n<br />\n<br />[size=4][b][color=#ff7700]Feedback and community creations[/color][/b][/size][size=3]\n<br />\n<br />Bug reports, test results and suggestions are welcome in the Posts and Bugs sections. If you have a decorated layout or an idea for another standalone variant, get in touch — we'll see what we can do. ;)\n<br />\n<br />Please check Permissions and credits before reusing files. Credit is appreciated, and please do not monetize derivatives. Updates after major game releases may take time.[/size]",
     "state": "normal",
@@ -699522,8 +699629,8 @@
         "file_id": 50850,
         "name": "TeleportCorvetteReturn",
         "version": "1.3",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 128,
         "file_name": "TeleportCorvetteReturn 4619 1.3 2026-11-24T21-02Z QR3q07rWC.zip",
@@ -699562,6 +699669,56 @@
         "size_in_bytes": 5786922,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/3a/07/13/3a071398-4be9-4c4e-883d-4c153e66b14f"
+      },
+      {
+        "id": [
+          50866,
+          1634
+        ],
+        "uid": 7017976612530,
+        "file_id": 50866,
+        "name": "TeleportCorvetteReturn",
+        "version": "1.5",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
+        "size": 66,
+        "file_name": "TeleportCorvetteReturn 4619 1.5 2026-11-25T19-38Z IohEj95B3.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795635484,
+        "uploaded_time": "2026-11-25T19:38:04.000+00:00",
+        "mod_version": "1.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/94154de6818f58947575639da93b06dc7b0135255ce224390d320555a2de7dcc",
+        "description": "AddOn for the Landing Pad Mods.<br />It provides a fix, that Corvettes automatically spawn and land on the nearest, free and available Corvette Landing Pad.<br />Patched for Forsaken &amp; self-healing.",
+        "size_kb": 66,
+        "size_in_bytes": 68455,
+        "changelog_html": "NMS 7.15.1 compatibility\n- Added a separately audited native profile\n- Updated selected-ship and ship-collection member offsets for the new layout\nPad packages\n- Standard, Props and Recycler remain unchanged",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/13/b9/43/13b943bb-d05d-4dd3-87f8-e235eddba085"
+      },
+      {
+        "id": [
+          50867,
+          1634
+        ],
+        "uid": 7017976612531,
+        "file_id": 50867,
+        "name": "TeleportCorvetteReturn",
+        "version": "1.5",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 132,
+        "file_name": "TeleportCorvetteReturn 4619 1.5 2026-11-25T20-10Z KsnM3Ttq2.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795637428,
+        "uploaded_time": "2026-11-25T20:10:28.000+00:00",
+        "mod_version": "1.5",
+        "external_virus_scan_url": null,
+        "description": "AddOn for the Landing Pad Mods.<br />It provides a fix, that Corvettes automatically spawn and land on the nearest, free and available Corvette Landing Pad.<br />Patched for Forsaken &amp; self-healing.",
+        "size_kb": 132,
+        "size_in_bytes": 135882,
+        "changelog_html": "NMS 7.15.1 compatibility\n- Added a separately audited native profile\n- Updated selected-ship and ship-collection member offsets for the new layout\nPad packages\n- Standard, Props and Recycler remain unchanged",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/28/33/e4/2833e4ab-4ba9-492e-bbad-1e140a15d073"
       }
     ],
     "changelogs": {
@@ -699626,6 +699783,13 @@
       ],
       "1.4.2": [
         "Added the Workshop Cache Inventory to the Corvette editing terminal on all three landing pad variants."
+      ],
+      "1.5": [
+        "NMS 7.15.1 compatibility",
+        "- Added a separately audited native profile",
+        "- Updated selected-ship and ship-collection member offsets for the new layout",
+        "Pad packages",
+        "- Standard, Props and Recycler remain unchanged"
       ]
     }
   },
@@ -708034,13 +708198,13 @@
   {
     "mod_id": 4698,
     "name": "Absolute Flight",
-    "summary": "A flight mechanics overhaul for No Man's Sky, built on true 1:1 HOTAS and HOSAS input with no vJoy or emulation. Newtonian space and atmospheric flight models tuned per ship class, a flight HUD, crash physics, ditching at sea, G-force blackout, combat aiming, enemy pilots you can outfly and head tracking. All set up in game. Now with VR support.",
-    "version": "0.3.2-beta",
+    "summary": "A flight mechanics overhaul for No Man's Sky, built on true 1:1 HOTAS and HOSAS input with no vJoy or emulation. Newtonian space and atmospheric flight models tuned per ship class, a flight HUD, crash physics, ditching at sea, G-force blackout, combat aiming, enemy pilots you can outfly and head tracking. All set up in game.",
+    "version": "0.3.3-beta",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792873059-1811587656.jpg",
     "author": "SultanDesync",
-    "updated_timestamp": 1795453200,
+    "updated_timestamp": 1795627064,
     "created_timestamp": 1792896780,
-    "description": "[center][size=6][color=#00ccff][b]Absolute Flight[/b][/color][/size]\n<br />[size=4][b][color=#ffaa00]A flight mechanics overhaul for No Man's Sky, built on true 1:1 HOTAS and HOSAS input.[/color][/b][/size]\n<br />\n<br />[youtube]40lUS5823vc[/youtube][youtube]rR0XxnEjC0k[/youtube]\n<br />[i]Release trailer · Feature demo[/i][/center]\n<br />\n<br />Absolute Flight rebuilds how No Man's Sky flies. Its flight model, [b]Sultan[/b], gives every ship class its own space and atmospheric flight: Newtonian momentum and six-axis control in space; lift, drag, gravity and air layers on planets. Around it sit a flight HUD, crash physics, ditching at sea, G-force strain and blackout, combat aiming and enemy pilots you can outfly.\n<br />\n<br />All of it is driven by your own flight stick, throttle and pedals, read directly and fed into the flight model position for position. No vJoy, no Steam Input mapping, no controller emulation, and nothing to run outside the game: you start No Man's Sky from Steam as usual and set everything up in an in-game menu. Prefer the game's own handling? Pick it on the Flight Model page and keep 1:1 stick control.\n<br />\n<br />From the maker of [url=https://www.nexusmods.com/starfield/mods/16668]AbsoluteHOTAS[/url], flight stick control for Starfield.\n<br />\n<br />[center][b][color=#ffcc00]Public beta:[/color][/b] the features are set and it flies well; expect some rough edges. Your reports shape the next builds: [url=https://discord.gg/jjk8nEMzFK][b]join the Discord[/b][/url].[/center]\n<br />\n<br />[center][b][color=#ffcc00]Feature requests:[/color][/b] features are locked for now while I make this version solid, so requests such as gamepad input for the flight model won't be added for now. Building a feature like that in your own mod alongside Absolute Flight? Ask me on the Discord and I'll help where I can (no promise the two keep working together after every update).[/center]\n<br />\n<br />[center][size=4][color=#00ccff][b]New in 0.3.2[/b][/color][/size][/center]\n<br />[list]\n<br />[*][b]The menu no longer changes your game settings:[/b] opening the Absolute Flight menu switched VR movement to teleport and reset other Controls drop-downs. They now stay as you set them; if yours changed, set them back once.[/*]\n<br />[*][b]Keyboard flight without a HOTAS:[/b] roll, Land and the Game Actions keys now work.[/*]\n<br />[*][b]Linux / Steam Deck:[/b] Sultan no longer gets stuck on the native flight model partway through a session, and the Proton patch is in the zip's Binaries folder, so there's no more copying it by hand.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]In motion[/b][/color][/size]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792873530-1133728860.gif[/img] [img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792873537-1198968577.gif[/img]\n<br />[i]Your sticks, 1:1: six-axis flight through an asteroid field · A dogfight in Sultan space flight[/i]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872976-1950495567.gif[/img] [img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792873531-774001507.gif[/img]\n<br />[i]Canyon flight in atmosphere · Fine control around a space station[/i][/center]\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]Features[/b][/color][/size][/center]\n<br />\n<br />[list]\n<br />[*][b]Space flight model per ship class:[/b] Newtonian flight with real momentum and six-axis control, a flight style for every class, and named tunings you can save and share.[/*]\n<br />[*][b]Atmospheric flight model per ship class:[/b] lift and drag that differ by class, planet gravity and air layers, and a switch for the game's terrain push.[/*]\n<br />[*][b]1:1 absolute axes:[/b] pitch, yaw, roll, lateral and vertical strafe and throttle, read from any DirectInput stick, throttle or pedals. HOTAS (throttle lever) or HOSAS (two sticks, signed thrust) per your setup.[/*]\n<br />[*][b]Throttle zones:[/b] idle, cruise and boost zones on the lever, with the boundaries set in the menu.[/*]\n<br />[*][b]Flight HUD:[/b] total speed and drift readout, prograde and retrograde markers, and a planetary layer with altitude, vertical speed and atmosphere.[/*]\n<br />[*][b]Crash physics and ditching:[/b] impacts hurt the ship in proportion to speed, and a disabling crash slides, tumbles and falls as a wreck. Ditch at sea and race a sinking hull through a thruster purge mini-game. Ship alarms with voice and lights.[/*]\n<br />[*][b]G-force:[/b] strain and blackout, with the tolerance up to you.[/*]\n<br />[*][b]Combat:[/b] a ship aiming pip with lead or lag, aim slowdown, and enemy pilots you can read and outfly.[/*]\n<br />[*][b]Buttons:[/b] bind stick and throttle buttons to game controls, a shift layer, keyboard and mouse output (several buttons may send the same key, each for its own function), and a stick-driven cursor for menus.[/*]\n<br />[*][b]Head tracking:[/b] cockpit look through OpenTrack, with curves per axis and buttons to recentre or toggle it.[/*]\n<br />[*][b]Black space:[/b] a switch that takes the coloured fog out of space.[/*]\n<br />[*][b]Safe by design:[/b] on any game build other than the one it was made for, the mod stays off and the game plays as normal. It never changes the game's own files and sends nothing anywhere.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]The flight HUD[/b][/color][/size][/center]\n<br />\n<br />In Sultan flight the mod draws its own HUD elements over the game's ship HUD. Every element has its own switch on the [b]HUD[/b] page, along with size and font.\n<br />\n<br />[list]\n<br />[*][b]Speed readout[/b], left of the reticle: total speed, then [b]FWD[/b] (forward speed, what the cockpit number shows) with [b]SET[/b] (the lever's speed target), then [b]LAT[/b] and [b]VRT[/b] drift.[/*]\n<br />[*][b]Prograde and retrograde markers:[/b] where the ship is actually moving, and where to point the nose to brake. An edge arrow points the way when neither is on screen.[/*]\n<br />[*][b]G meter[/b], below the reticle: total G, a ring sized to your tolerance with a dot where the force pushes your body, and strain as it builds.[/*]\n<br />[*][b]Boost heat gauge[/b], right of the reticle: the hot zone where Sultan boost is strongest, the relight mark and overheat.[/*]\n<br />[*][b]Target relative:[/b] with a target locked, range, closing speed and relative speed, plus a marker for where you drift relative to the target.[/*]\n<br />[*][b]Planetary layer:[/b] near a planet, altitude above sea level, vertical speed, ATM / VAC, and a mode tag showing whether Sultan or the game is flying the ship.[/*]\n<br />[/list]\n<br />[center][url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872916-626307670.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872916-626307670.jpg[/img][/url]\n<br />[i]Explorer in space: speed readout with drift, prograde marker, G meter and boost heat gauge.[/i]\n<br />\n<br />[url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872917-1697195025.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872917-1697195025.jpg[/img][/url]\n<br />[i]Head tracking: looking out the canopy while the HUD stays with the ship.[/i][/center]\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]Requirements[/b][/color][/size][/center]\n<br />\n<br />[list]\n<br />[*]No Man's Sky on [b]Steam, build 185034[/b]. On any other build the mod stays off and the game plays as normal, so after a game update you can keep playing while a new release catches up. If the pause menu's Options list looks wrong after an update, delete [font=Courier New]GAMEDATA&#92;MODS&#92;AbsoluteFlight&#92;UI[/font] until then.[/*]\n<br />[*]Windows 10 or 11, 64-bit.[/*]\n<br />[*]Any DirectInput flight stick, throttle or pedals. HOTAS and HOSAS both work. Developed and flown on VKB gear.[/*]\n<br />[*]Nothing else. Python and everything the mod needs come inside the download. There's no launcher and nothing to run.[/*]\n<br />[/list]\n<br />GOG, Microsoft Store, Linux and Steam Deck: see [b]PLATFORMS.md[/b] in the download. Linux and Steam Deck are untested but likely to work with one launch option.\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#ffcc00][b]Install[/b][/color][/size][/center]\n<br />\n<br />[b]Install by hand.[/b] The mod puts two files in the game's [font=Courier New]Binaries[/font] folder, which mod managers don't handle for No Man's Sky.\n<br />\n<br />[list=1]\n<br />[*]Open the game folder: in Steam, right-click [b]No Man's Sky &gt; Manage &gt; Browse local files[/b]. It's the folder with [font=Courier New]Binaries[/font] and [font=Courier New]GAMEDATA[/font] in it.[/*]\n<br />[*]Open the zip and drag both of its folders, [b]Binaries[/b] and [b]GAMEDATA[/b], into the game folder. If Windows asks, choose to merge the folders.[/*]\n<br />[/list]\n<br />That adds two files, [font=Courier New]Binaries&#92;winmm.dll[/font] and [font=Courier New]Binaries&#92;AbsoluteFlight-Proton.asi[/font] (the Linux patch; it does nothing on Windows), and one folder, [font=Courier New]GAMEDATA&#92;MODS&#92;AbsoluteFlight[/font]. No game file is changed. The folder's [font=Courier New]UI&#92;SWITCHERPAGENEW.MBIN[/font] adds the Absolute Flight button to the pause menu's Options list; if another mod changes that same file, only one of them wins.\n<br />\n<br />[list]\n<br />[*][b]Steam Input[/b] can stay on, but don't bind your stick or throttle to game controls through it. If the game also reads the HOTAS, the mod sees a conflict and hands those axes back to the game.[/*]\n<br />[*][b]Multiplayer[/b] can stay on. Online play is less tested than single player: if something misbehaves online, try it with [b]Options &gt; Network &gt; Multiplayer: Off[/b].[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][size=5][color=#ffcc00][b]Quick start[/b][/color][/size][/center]\n<br />\n<br />[list=1]\n<br />[*]Start No Man's Sky from Steam as usual. The mod loads with the game.[/*]\n<br />[*]Open the Absolute Flight menu. In game: pause, then [b]Options &gt; Absolute Flight[/b]. From the main menu, before loading a save: [b]Options &gt; Controls &gt; Absolute Flight Setup[/b], at the bottom of the page.[/*]\n<br />[*]On [b]Flight Axes[/b], select each binding and move the axis you want on it: pitch, yaw, roll, throttle and strafe. Choose HOTAS or HOSAS in the throttle section.[/*]\n<br />[*]On [b]Flight Model[/b], pick the game's own flight model or Sultan's.[/*]\n<br />[*]Bind buttons on [b]Buttons[/b], then fly. Every change applies live; there's nothing to restart.[/*]\n<br />[/list]\n<br />If neither entry is there, the mod didn't load: see \"Support\" below.\n<br />\n<br />[center][url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872921-307057661.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872921-307057661.jpg[/img][/url]\n<br />[i]Absolute Flight sits in the game's own Options menu.[/i][/center]\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]The menu[/b][/color][/size][/center]\n<br />\n<br />Everything is set up in game, in the native Options menu. Each page covers one thing:\n<br />\n<br />[list]\n<br />[*][b]Flight Model:[/b] master switch and flight model choice.[/*]\n<br />[*][b]Flight Tuning (Sultan):[/b] per-class flight physics and the class's named tuning (save, save as new, reset).[/*]\n<br />[*][b]Atmosphere Flight (Sultan):[/b] atmosphere flight, planet gravity and air, terrain push, the class air style, live air readouts.[/*]\n<br />[*][b]Flight Axes:[/b] every axis binding with invert, sensitivity, deadzone, saturation and live meters, plus the throttle section (HOTAS/HOSAS, lever zones).[/*]\n<br />[*][b]Buttons:[/b] button bindings, shift, keyboard and mouse output with presets such as Launch and Land, the menu stick cursor.[/*]\n<br />[*][b]Head Tracking:[/b] source, curves and bindings.[/*]\n<br />[*][b]HUD (Sultan):[/b] each HUD element, size and font.[/*]\n<br />[*][b]G-Force (Sultan):[/b] tolerance, strain and blackout.[/*]\n<br />[*][b]Combat:[/b] aiming pip, lead/lag, aim slowdown and enemy pilots.[/*]\n<br />[*][b]Ship Damage (Sultan):[/b] crash damage, ditching at sea, purge style, alarms, ship condition.[/*]\n<br />[*][b]Visuals:[/b] Black space.[/*]\n<br />[*][b]Save support bundle:[/b] one button that packs your settings and logs for a bug report.[/*]\n<br />[/list]\n<br />[center][url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872931-1276407069.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872931-1276407069.jpg[/img][/url]\n<br />[i]Flight Axes: each axis shows its device, with a live meter of input and output.[/i]\n<br />\n<br />[url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872926-514778017.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872926-514778017.jpg[/img][/url]\n<br />[i]Flight Tuning: a named tuning per ship class.[/i]\n<br />\n<br />[url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872921-1112957370.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872921-1112957370.jpg[/img][/url]\n<br />[i]The page list, ending in Save support bundle.[/i][/center]\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]Tunings: share your flight model[/b][/color][/size][/center]\n<br />\n<br />Each ship class has named tunings. In [b]Flight Tuning[/b], the [b]Tuning[/b] row lists [b]Sultan's[/b] (built in, always there to go back to) and any tuning files for the class you're flying.\n<br />\n<br />[list]\n<br />[*]Change values on Flight Tuning or Atmosphere Flight; the tuning shows [b](edited)[/b] until you save. [b]Save tuning[/b] writes back to the selected file; [b]Save as new tuning[/b] makes a new one.[/*]\n<br />[*]Tunings live in [font=Courier New]%LOCALAPPDATA%&#92;AbsoluteHOTAS&#92;flight-tunings[/font] as [font=Courier New]&lt;Class&gt;_&lt;Name&gt;.json[/font]. Rename a file to rename the tuning.[/*]\n<br />[*]Share a tuning in [b]#tunings[/b] on the Discord. To fly someone else's, drop their file in that folder and pick it on the Tuning row.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][size=5][color=#ffcc00][b]What's been flown[/b][/color][/size][/center]\n<br />\n<br />Fighter, Explorer, Shuttle and Exotic have been flown and tuned. [b]Hauler, Living ship, Solar and Sentinel interceptor are untested[/b]: their styles are first drafts, so your feedback is the first. [b]Corvette flight modeling is a work in progress[/b] and will change between builds.\n<br />\n<br />[b]Known issues[/b]\n<br />[list]\n<br />[*][b]Land and take off the game's way.[/b] Manual landing and take-off are switched off in this release while they're reworked. Bind [b]Launch[/b] on the Buttons page to a stick button and hold it while landed to take off.[/*]\n<br />[*][b]The game's own boost still works[/b] and takes over from Sultan while you use it. For Sultan's boost, bind [b]Sultan boost[/b] on the Buttons page.[/*]\n<br />[*][b]Flight actions only work while you fly.[/b] Sultan boost, parking brake, trim and eject do nothing on foot, landed or in menus. Keyboard and mouse bindings work everywhere.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]Update and uninstall[/b][/color][/size][/center]\n<br />\n<br />[b]Update:[/b] delete [font=Courier New]GAMEDATA&#92;MODS&#92;AbsoluteFlight[/font] in the game folder, then install the new zip the same way. Your settings, bindings and tunings carry over: they live in [font=Courier New]%LOCALAPPDATA%&#92;AbsoluteHOTAS[/font], not in the game folder.\n<br />\n<br />[b]Play without it for a while:[/b] rename [font=Courier New]Binaries&#92;winmm.dll[/font] (for example to [font=Courier New]winmm.dll.off[/font]) and rename it back later. Turning mods off in the game's own mod list doesn't turn Absolute Flight off.\n<br />\n<br />[b]Uninstall:[/b] delete [font=Courier New]Binaries&#92;winmm.dll[/font], [font=Courier New]Binaries&#92;AbsoluteFlight-Proton.asi[/font] and [font=Courier New]GAMEDATA&#92;MODS&#92;AbsoluteFlight[/font]. To remove your settings and logs too, delete [font=Courier New]%LOCALAPPDATA%&#92;AbsoluteHOTAS[/font].\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#ffcc00][b]Support[/b][/color][/size][/center]\n<br />\n<br />Testing happens on the [url=https://discord.gg/jjk8nEMzFK][b]Discord[/b][/url].\n<br />\n<br />[list]\n<br />[*][b]Bugs[/b] go in [b]#bug-reports[/b], one post per problem: in game, [b]Options &gt; Absolute Flight &gt; Save support bundle[/b], then attach the newest zip from [font=Courier New]%LOCALAPPDATA%&#92;AbsoluteHOTAS&#92;support[/font] with a few lines on what you were doing.[/*]\n<br />[*][b]The mod didn't load[/b] (no Absolute Flight Setup at the bottom of the main menu's Options &gt; Controls page): post [font=Courier New]proxy.log[/font], [font=Courier New]python-boot.log[/font] and the newest [font=Courier New]pymhf-*.log[/font] from [font=Courier New]%LOCALAPPDATA%&#92;AbsoluteHOTAS&#92;logs[/font]. No [font=Courier New]proxy.log[/font] means the game never loaded [font=Courier New]Binaries&#92;winmm.dll[/font]: check it's in the right folder.[/*]\n<br />[*][b]Flight feel and ideas[/b] go in [b]#feedback[/b]. Say which ship class and where (space, atmosphere, landing).[/*]\n<br />[/list]\n<br />Bug reports in the Nexus comments are welcome too, but a support bundle on the Discord gets them fixed fastest.\n<br />\n<br />[b]Antivirus:[/b] the mod loads through a [font=Courier New]winmm.dll[/font] in the game folder and hooks the game in memory, which some antivirus tools may flag. The full source is in the download.\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]Made with AI[/b][/color][/size][/center]\n<br />\n<br />The code was written by AI coding agents under my direction. I designed it, directed the research and flew every feature before it was called done. Who did what, and what that means for you: [url=https://github.com/SultanDesync/AbsoluteFlight/blob/main/HOW-IT-WAS-MADE.md]How it was made[/url].\n<br />\n<br />[line]\n<br />\n<br />[center][url=https://github.com/SultanDesync/AbsoluteFlight][color=#00ff88][b]Source on GitHub[/b][/color][/url] · [url=https://discord.gg/jjk8nEMzFK][color=#00ff88][b]Discord[/b][/color][/url] · [url=https://youtu.be/40lUS5823vc]Trailer[/url] · [url=https://youtu.be/rR0XxnEjC0k]Feature demo[/url] · [url=https://www.nexusmods.com/starfield/mods/16668]AbsoluteHOTAS for Starfield[/url]\n<br />\n<br />[size=1]Absolute Flight is MIT licensed. The Python runtime, packages and Rust crates it ships keep their own licences (THIRD-PARTY-NOTICES.md in the download). Absolute Flight is an unofficial fan mod, not made, endorsed or supported by Hello Games. No Man's Sky is a trademark of Hello Games.[/size][/center]\n<br />",
+    "description": "[center][size=6][color=#00ccff][b]Absolute Flight[/b][/color][/size]\n<br />[size=4][b][color=#ffaa00]A flight mechanics overhaul for No Man's Sky, built on true 1:1 HOTAS and HOSAS input.[/color][/b][/size]\n<br />\n<br />[youtube]40lUS5823vc[/youtube][youtube]rR0XxnEjC0k[/youtube]\n<br />[i]Release trailer · Feature demo[/i][/center]\n<br />\n<br />Absolute Flight rebuilds how No Man's Sky flies. Its flight model, [b]Sultan[/b], gives every ship class its own space and atmospheric flight: Newtonian momentum and six-axis control in space; lift, drag, gravity and air layers on planets. Around it sit a flight HUD, crash physics, ditching at sea, G-force strain and blackout, combat aiming and enemy pilots you can outfly.\n<br />\n<br />All of it is driven by your own flight stick, throttle and pedals, read directly and fed into the flight model position for position. No vJoy, no Steam Input mapping, no controller emulation, and nothing to run outside the game: you start No Man's Sky from Steam as usual and set everything up in an in-game menu. Prefer the game's own handling? Pick it on the Flight Model page and keep 1:1 stick control.\n<br />\n<br />From the maker of [url=https://www.nexusmods.com/starfield/mods/16668]AbsoluteHOTAS[/url], flight stick control for Starfield.\n<br />\n<br />[center][b][color=#ffcc00]Public beta:[/color][/b] the features are set and it flies well; expect some rough edges. Your reports shape the next builds: [url=https://discord.gg/jjk8nEMzFK][b]join the Discord[/b][/url].[/center]\n<br />\n<br />[center][b][color=#ffcc00]Feature requests:[/color][/b] features are locked for now while I make this version solid, so requests such as gamepad input for the flight model won't be added for now. Building a feature like that in your own mod alongside Absolute Flight? Ask me on the Discord and I'll help where I can (no promise the two keep working together after every update).[/center]\n<br />\n<br />[center][size=4][color=#00ccff][b]New in 0.3.3[/b][/color][/size][/center]\n<br />[list]\n<br />[*][b]Works with No Man's Sky build 186923 (Steam 26924890):[/b] remapped for the 25 November game update and hotfix; older game builds are refused.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]In motion[/b][/color][/size]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792873530-1133728860.gif[/img] [img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792873537-1198968577.gif[/img]\n<br />[i]Your sticks, 1:1: six-axis flight through an asteroid field · A dogfight in Sultan space flight[/i]\n<br />\n<br />[img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872976-1950495567.gif[/img] [img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792873531-774001507.gif[/img]\n<br />[i]Canyon flight in atmosphere · Fine control around a space station[/i][/center]\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]Features[/b][/color][/size][/center]\n<br />\n<br />[list]\n<br />[*][b]Space flight model per ship class:[/b] Newtonian flight with real momentum and six-axis control, a flight style for every class, and named tunings you can save and share.[/*]\n<br />[*][b]Atmospheric flight model per ship class:[/b] lift and drag that differ by class, planet gravity and air layers, and a switch for the game's terrain push.[/*]\n<br />[*][b]1:1 absolute axes:[/b] pitch, yaw, roll, lateral and vertical strafe and throttle, read from any DirectInput stick, throttle or pedals. HOTAS (throttle lever) or HOSAS (two sticks, signed thrust) per your setup.[/*]\n<br />[*][b]Throttle zones:[/b] idle, cruise and boost zones on the lever, with the boundaries set in the menu.[/*]\n<br />[*][b]Flight HUD:[/b] total speed and drift readout, prograde and retrograde markers, and a planetary layer with altitude, vertical speed and atmosphere.[/*]\n<br />[*][b]Crash physics and ditching:[/b] impacts hurt the ship in proportion to speed, and a disabling crash slides, tumbles and falls as a wreck. Ditch at sea and race a sinking hull through a thruster purge mini-game. Ship alarms with voice and lights.[/*]\n<br />[*][b]G-force:[/b] strain and blackout, with the tolerance up to you.[/*]\n<br />[*][b]Combat:[/b] a ship aiming pip with lead or lag, aim slowdown, and enemy pilots you can read and outfly.[/*]\n<br />[*][b]Buttons:[/b] bind stick and throttle buttons to game controls, a shift layer, keyboard and mouse output (several buttons may send the same key, each for its own function), and a stick-driven cursor for menus.[/*]\n<br />[*][b]Head tracking:[/b] cockpit look through OpenTrack, with curves per axis and buttons to recentre or toggle it.[/*]\n<br />[*][b]Black space:[/b] a switch that takes the coloured fog out of space.[/*]\n<br />[*][b]Safe by design:[/b] on any game build other than the one it was made for, the mod stays off and the game plays as normal. It never changes the game's own files and sends nothing anywhere.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]The flight HUD[/b][/color][/size][/center]\n<br />\n<br />In Sultan flight the mod draws its own HUD elements over the game's ship HUD. Every element has its own switch on the [b]HUD[/b] page, along with size and font.\n<br />\n<br />[list]\n<br />[*][b]Speed readout[/b], left of the reticle: total speed, then [b]FWD[/b] (forward speed, what the cockpit number shows) with [b]SET[/b] (the lever's speed target), then [b]LAT[/b] and [b]VRT[/b] drift.[/*]\n<br />[*][b]Prograde and retrograde markers:[/b] where the ship is actually moving, and where to point the nose to brake. An edge arrow points the way when neither is on screen.[/*]\n<br />[*][b]G meter[/b], below the reticle: total G, a ring sized to your tolerance with a dot where the force pushes your body, and strain as it builds.[/*]\n<br />[*][b]Boost heat gauge[/b], right of the reticle: the hot zone where Sultan boost is strongest, the relight mark and overheat.[/*]\n<br />[*][b]Target relative:[/b] with a target locked, range, closing speed and relative speed, plus a marker for where you drift relative to the target.[/*]\n<br />[*][b]Planetary layer:[/b] near a planet, altitude above sea level, vertical speed, ATM / VAC, and a mode tag showing whether Sultan or the game is flying the ship.[/*]\n<br />[/list]\n<br />[center][url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872916-626307670.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872916-626307670.jpg[/img][/url]\n<br />[i]Explorer in space: speed readout with drift, prograde marker, G meter and boost heat gauge.[/i]\n<br />\n<br />[url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872917-1697195025.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872917-1697195025.jpg[/img][/url]\n<br />[i]Head tracking: looking out the canopy while the HUD stays with the ship.[/i][/center]\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]Requirements[/b][/color][/size][/center]\n<br />\n<br />[list]\n<br />[*]No Man's Sky on [b]Steam, build 186923[/b]. On any other build the mod stays off and the game plays as normal, so after a game update you can keep playing while a new release catches up. If the pause menu's Options list looks wrong after an update, delete [font=Courier New]GAMEDATA&#92;MODS&#92;AbsoluteFlight&#92;UI[/font] until then.[/*]\n<br />[*]Windows 10 or 11, 64-bit.[/*]\n<br />[*]Any DirectInput flight stick, throttle or pedals. HOTAS and HOSAS both work. Developed and flown on VKB gear.[/*]\n<br />[*]Nothing else. Python and everything the mod needs come inside the download. There's no launcher and nothing to run.[/*]\n<br />[/list]\n<br />GOG, Microsoft Store, Linux and Steam Deck: see [b]PLATFORMS.md[/b] in the download. Linux and Steam Deck are untested but likely to work with one launch option.\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#ffcc00][b]Install[/b][/color][/size][/center]\n<br />\n<br />[b]Install by hand.[/b] The mod puts two files in the game's [font=Courier New]Binaries[/font] folder, which mod managers don't handle for No Man's Sky.\n<br />\n<br />[list=1]\n<br />[*]Open the game folder: in Steam, right-click [b]No Man's Sky &gt; Manage &gt; Browse local files[/b]. It's the folder with [font=Courier New]Binaries[/font] and [font=Courier New]GAMEDATA[/font] in it.[/*]\n<br />[*]Open the zip and drag both of its folders, [b]Binaries[/b] and [b]GAMEDATA[/b], into the game folder. If Windows asks, choose to merge the folders.[/*]\n<br />[/list]\n<br />That adds two files, [font=Courier New]Binaries&#92;winmm.dll[/font] and [font=Courier New]Binaries&#92;AbsoluteFlight-Proton.asi[/font] (the Linux patch; it does nothing on Windows), and one folder, [font=Courier New]GAMEDATA&#92;MODS&#92;AbsoluteFlight[/font]. No game file is changed. The folder's [font=Courier New]UI&#92;SWITCHERPAGENEW.MBIN[/font] adds the Absolute Flight button to the pause menu's Options list; if another mod changes that same file, only one of them wins.\n<br />\n<br />[list]\n<br />[*][b]Steam Input[/b] can stay on, but don't bind your stick or throttle to game controls through it. If the game also reads the HOTAS, the mod sees a conflict and hands those axes back to the game.[/*]\n<br />[*][b]Multiplayer[/b] can stay on. Online play is less tested than single player: if something misbehaves online, try it with [b]Options &gt; Network &gt; Multiplayer: Off[/b].[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][size=5][color=#ffcc00][b]Quick start[/b][/color][/size][/center]\n<br />\n<br />[list=1]\n<br />[*]Start No Man's Sky from Steam as usual. The mod loads with the game.[/*]\n<br />[*]Open the Absolute Flight menu. In game: pause, then [b]Options &gt; Absolute Flight[/b]. From the main menu, before loading a save: [b]Options &gt; Controls &gt; Absolute Flight Setup[/b], at the bottom of the page.[/*]\n<br />[*]On [b]Flight Axes[/b], select each binding and move the axis you want on it: pitch, yaw, roll, throttle and strafe. Choose HOTAS or HOSAS in the throttle section.[/*]\n<br />[*]On [b]Flight Model[/b], pick the game's own flight model or Sultan's.[/*]\n<br />[*]Bind buttons on [b]Buttons[/b], then fly. Every change applies live; there's nothing to restart.[/*]\n<br />[/list]\n<br />If neither entry is there, the mod didn't load: see \"Support\" below.\n<br />\n<br />[center][url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872921-307057661.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872921-307057661.jpg[/img][/url]\n<br />[i]Absolute Flight sits in the game's own Options menu.[/i][/center]\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]The menu[/b][/color][/size][/center]\n<br />\n<br />Everything is set up in game, in the native Options menu. Each page covers one thing:\n<br />\n<br />[list]\n<br />[*][b]Flight Model:[/b] master switch and flight model choice.[/*]\n<br />[*][b]Flight Tuning (Sultan):[/b] per-class flight physics and the class's named tuning (save, save as new, reset).[/*]\n<br />[*][b]Atmosphere Flight (Sultan):[/b] atmosphere flight, planet gravity and air, terrain push, the class air style, live air readouts.[/*]\n<br />[*][b]Flight Axes:[/b] every axis binding with invert, sensitivity, deadzone, saturation and live meters, plus the throttle section (HOTAS/HOSAS, lever zones).[/*]\n<br />[*][b]Buttons:[/b] button bindings, shift, keyboard and mouse output with presets such as Launch and Land, the menu stick cursor.[/*]\n<br />[*][b]Head Tracking:[/b] source, curves and bindings.[/*]\n<br />[*][b]HUD (Sultan):[/b] each HUD element, size and font.[/*]\n<br />[*][b]G-Force (Sultan):[/b] tolerance, strain and blackout.[/*]\n<br />[*][b]Combat:[/b] aiming pip, lead/lag, aim slowdown and enemy pilots.[/*]\n<br />[*][b]Ship Damage (Sultan):[/b] crash damage, ditching at sea, purge style, alarms, ship condition.[/*]\n<br />[*][b]Visuals:[/b] Black space.[/*]\n<br />[*][b]Save support bundle:[/b] one button that packs your settings and logs for a bug report.[/*]\n<br />[/list]\n<br />[center][url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872931-1276407069.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872931-1276407069.jpg[/img][/url]\n<br />[i]Flight Axes: each axis shows its device, with a live meter of input and output.[/i]\n<br />\n<br />[url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872926-514778017.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872926-514778017.jpg[/img][/url]\n<br />[i]Flight Tuning: a named tuning per ship class.[/i]\n<br />\n<br />[url=https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872921-1112957370.jpg][img]https://staticdelivery.nexusmods.com/mods/1634/images/4698/4698-1792872921-1112957370.jpg[/img][/url]\n<br />[i]The page list, ending in Save support bundle.[/i][/center]\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]Tunings: share your flight model[/b][/color][/size][/center]\n<br />\n<br />Each ship class has named tunings. In [b]Flight Tuning[/b], the [b]Tuning[/b] row lists [b]Sultan's[/b] (built in, always there to go back to) and any tuning files for the class you're flying.\n<br />\n<br />[list]\n<br />[*]Change values on Flight Tuning or Atmosphere Flight; the tuning shows [b](edited)[/b] until you save. [b]Save tuning[/b] writes back to the selected file; [b]Save as new tuning[/b] makes a new one.[/*]\n<br />[*]Tunings live in [font=Courier New]%LOCALAPPDATA%&#92;AbsoluteHOTAS&#92;flight-tunings[/font] as [font=Courier New]&lt;Class&gt;_&lt;Name&gt;.json[/font]. Rename a file to rename the tuning.[/*]\n<br />[*]Share a tuning in [b]#tunings[/b] on the Discord. To fly someone else's, drop their file in that folder and pick it on the Tuning row.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][size=5][color=#ffcc00][b]What's been flown[/b][/color][/size][/center]\n<br />\n<br />Fighter, Explorer, Shuttle and Exotic have been flown and tuned. [b]Hauler, Living ship, Solar and Sentinel interceptor are untested[/b]: their styles are first drafts, so your feedback is the first. [b]Corvette flight modeling is a work in progress[/b] and will change between builds.\n<br />\n<br />[b]Known issues[/b]\n<br />[list]\n<br />[*][b]Land and take off the game's way.[/b] Manual landing and take-off are switched off in this release while they're reworked. Bind [b]Launch[/b] on the Buttons page to a stick button and hold it while landed to take off.[/*]\n<br />[*][b]The game's own boost still works[/b] and takes over from Sultan while you use it. For Sultan's boost, bind [b]Sultan boost[/b] on the Buttons page.[/*]\n<br />[*][b]Flight actions only work while you fly.[/b] Sultan boost, parking brake, trim and eject do nothing on foot, landed or in menus. Keyboard and mouse bindings work everywhere.[/*]\n<br />[/list]\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]Update and uninstall[/b][/color][/size][/center]\n<br />\n<br />[b]Update:[/b] delete [font=Courier New]GAMEDATA&#92;MODS&#92;AbsoluteFlight[/font] in the game folder, then install the new zip the same way. Your settings, bindings and tunings carry over: they live in [font=Courier New]%LOCALAPPDATA%&#92;AbsoluteHOTAS[/font], not in the game folder.\n<br />\n<br />[b]Play without it for a while:[/b] rename [font=Courier New]Binaries&#92;winmm.dll[/font] (for example to [font=Courier New]winmm.dll.off[/font]) and rename it back later. Turning mods off in the game's own mod list doesn't turn Absolute Flight off.\n<br />\n<br />[b]Uninstall:[/b] delete [font=Courier New]Binaries&#92;winmm.dll[/font], [font=Courier New]Binaries&#92;AbsoluteFlight-Proton.asi[/font] and [font=Courier New]GAMEDATA&#92;MODS&#92;AbsoluteFlight[/font]. To remove your settings and logs too, delete [font=Courier New]%LOCALAPPDATA%&#92;AbsoluteHOTAS[/font].\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#ffcc00][b]Support[/b][/color][/size][/center]\n<br />\n<br />Testing happens on the [url=https://discord.gg/jjk8nEMzFK][b]Discord[/b][/url].\n<br />\n<br />[list]\n<br />[*][b]Bugs[/b] go in [b]#bug-reports[/b], one post per problem: in game, [b]Options &gt; Absolute Flight &gt; Save support bundle[/b], then attach the newest zip from [font=Courier New]%LOCALAPPDATA%&#92;AbsoluteHOTAS&#92;support[/font] with a few lines on what you were doing.[/*]\n<br />[*][b]The mod didn't load[/b] (no Absolute Flight Setup at the bottom of the main menu's Options &gt; Controls page): post [font=Courier New]proxy.log[/font], [font=Courier New]python-boot.log[/font] and the newest [font=Courier New]pymhf-*.log[/font] from [font=Courier New]%LOCALAPPDATA%&#92;AbsoluteHOTAS&#92;logs[/font]. No [font=Courier New]proxy.log[/font] means the game never loaded [font=Courier New]Binaries&#92;winmm.dll[/font]: check it's in the right folder.[/*]\n<br />[*][b]Flight feel and ideas[/b] go in [b]#feedback[/b]. Say which ship class and where (space, atmosphere, landing).[/*]\n<br />[/list]\n<br />Bug reports in the Nexus comments are welcome too, but a support bundle on the Discord gets them fixed fastest.\n<br />\n<br />[b]Antivirus:[/b] the mod loads through a [font=Courier New]winmm.dll[/font] in the game folder and hooks the game in memory, which some antivirus tools may flag. The full source is in the download.\n<br />\n<br />[line]\n<br />\n<br />[center][size=5][color=#00ccff][b]Made with AI[/b][/color][/size][/center]\n<br />\n<br />The code was written by AI coding agents under my direction. I designed it, directed the research and flew every feature before it was called done. Who did what, and what that means for you: [url=https://github.com/SultanDesync/AbsoluteFlight/blob/main/HOW-IT-WAS-MADE.md]How it was made[/url].\n<br />\n<br />[line]\n<br />\n<br />[center][url=https://github.com/SultanDesync/AbsoluteFlight][color=#00ff88][b]Source on GitHub[/b][/color][/url] · [url=https://discord.gg/jjk8nEMzFK][color=#00ff88][b]Discord[/b][/color][/url] · [url=https://youtu.be/40lUS5823vc]Trailer[/url] · [url=https://youtu.be/rR0XxnEjC0k]Feature demo[/url] · [url=https://www.nexusmods.com/starfield/mods/16668]AbsoluteHOTAS for Starfield[/url]\n<br />\n<br />[size=1]Absolute Flight is MIT licensed. The Python runtime, packages and Rust crates it ships keep their own licences (THIRD-PARTY-NOTICES.md in the download). Absolute Flight is an unofficial fan mod, not made, endorsed or supported by Hello Games. No Man's Sky is a trademark of Hello Games.[/size][/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -708278,9 +708442,9 @@
         "file_id": 50828,
         "name": "AbsoluteFlight 0.3.2 Beta",
         "version": "0.3.2-beta",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 31091,
         "file_name": "AbsoluteFlight 0.3.2 Beta 4698 0.3.2-beta 2026-11-23T16-59Z HZO4arlJ3.zip",
         "detected_file_extension": "zip",
@@ -708293,6 +708457,31 @@
         "size_in_bytes": 31837857,
         "changelog_html": "0.3.2-beta\n- The menu no longer changes your game settings. Opening the Absolute Flight menu switched VR movement to teleport and reset other Controls drop-downs. They now stay as you set them; if yours changed, set them back once.\n- Keyboard flight without a HOTAS: roll, Land and the Game Actions keys now work.\n- Linux / Steam Deck: Sultan no longer gets stuck on the native flight model partway through a session, and the Proton patch is in the zip's Binaries folder, so there's no more copying it by hand.\n0.3.1-beta\n- Launch with your throttle or strafe up. Landed, push the throttle forward or strafe up to take off, as W does in the game. A lever resting forward never launches by itself: pull it back, then push. Flight Axes &gt; Launch with picks Throttle, Strafe up, Either or Button only.\n- VR take-off fixed. In 0.3.0 the hand controllers could no longer take off from a landing. They can again, as can a Launch button, holding W, or your throttle and strafe.\n- Keyboard flight without a joystick. Keyboard-only players can now fly with the keyboard flight keys.\n- Sultan flight stays on for ship classes and game states the mod hasn't seen before, instead of handing the ship to the game.\n0.3.0-beta\n- Public beta. Features are locked for the 0.3 line; it takes fixes only. Building a related feature in your own mod alongside Absolute Flight? Ask on the Discord and I'll help where I can.\n- Experimental VR (Flight Model, off by default): your HOTAS flies the ship in a headset, fires, launches, and works the quick menu and pause menu from the seat, with the mod's HUD in front of the cockpit. Flown on one headset so far: VR reports are very welcome.\n- Flight: an optional coupled flight mode, a red parking brake warning, a held brake you can push through, ship power modes that change thrust, and lever zones without reverse.\n- Fixes: ship power modes no longer drop you out of Sultan, and roll, throttle and strafe stay live near salvage hulks and asteroid fields. A flight watchdog recovers stuck controls without a reload.\n0.2.6-alpha\n- Works with No Man's Sky build 185034 (7.14, the 9 November patch). Older game builds are refused; update the game first.\n- Fix: Fighter pitch no longer reverses in combat when the game's flight controls are set to normal.\n- New: Rotation in combat keeps your ship's turn rates in a fight (Flight Tuning → Rotation, off by default).\n- Corvette: its rotation style applies, it climbs out of atmosphere more easily, and flying one no longer turns rotation styles off for your other ships.\n0.2.5-alpha\n- Works with No Man's Sky build 185034, the 2 November patch. Older game builds are refused; update the game first.\n- Reverse thrust (experimental) for native HOSAS Direct: set Pull back to Reverse thrust to fly backwards.\n- Fix: the pause-menu HOTAS button checks the right \"menu busy\" flag.\n0.2.4-alpha\n- Keyboard flight (experimental): fly with a 6DOF keyboard layout and the mouse, on the new Keyboard page. It moves the game's own ship keys out of the way and warns you about clashes.\n- Strafe on buttons: a hat or trim switch can strafe.\n- Every mod action can go on a key: trim, flight model, lever mode, head tracking, lead/lag pip, eject.\n- Sultan's Flight Tuning holds through context changes (space, atmosphere, launch, landing).\n- Linux / Steam Deck: the Proton patch is in the zip.\n0.2.1-alpha\n- Fix: pause &gt; Options &gt; Absolute Flight was missing on fresh installs. The download now includes the pause menu file it needs (GAMEDATA&#92;MODS&#92;AbsoluteFlight&#92;UI&#92;SWITCHERPAGENEW.MBIN).\n- Works alongside other mods that use winmm.dll, such as OptiScaler: rename OptiScaler's winmm.dll to OptiScaler.asi and keep Absolute Flight's winmm.dll. Every *.asi file in Binaries loads with the game.\n- Experimental: terrain look-ahead (Visuals, default Off). Rocks, trees and the ground ahead of the ship can appear sooner in fast, low flight. Leave it off unless you want to try it; it costs some CPU time.\n0.2.0-alpha\n- Launches with the game through a proxy DLL (Binaries&#92;winmm.dll): no Play.bat, nothing to run.\n- Reworked crash physics: a disabling crash keeps its momentum; the wreck slides, tumbles and falls to rest before the eject, with a red daze instead of a blackout and a ship computer call-out.\n- Water submersion and thruster purge mini-games after a ditch: Telemetry (Short or Full cycle) or Gates style, raced against a sinking hull.\n- Shared keys: several bindings may send the same key, each as its own function (Launch, Land / Exit ship / Interact, Zoom, Select, Back).\n- Launch binding holds W (the game's take-off) whenever the game has focus.\n- Terrain push setting (Atmosphere Flight, default Off): no native ground kick in Sultan planetary flight.\n- Multiplayer can stay on (less tested than single player).\n- Throttle settings moved into Flight Axes.\n- Manual landing and take-off switched off while they're reworked.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/b1/3f/eb/b13febc0-87f5-4af5-b9ad-89dfc3536b36"
+      },
+      {
+        "id": [
+          50861,
+          1634
+        ],
+        "uid": 7017976612525,
+        "file_id": 50861,
+        "name": "AbsoluteFlight 0.3.3 Beta",
+        "version": "0.3.3-beta",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 31091,
+        "file_name": "AbsoluteFlight 0.3.3 Beta 4698 0.3.3-beta 2026-11-25T17-17Z Z3ytCvNr9.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795627064,
+        "uploaded_time": "2026-11-25T17:17:44.000+00:00",
+        "mod_version": "0.3.3-beta",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/b717734717c637c55d0778e6852f05a9042b9a49f81131fdab140208bd2f7f34",
+        "description": "Full mod, nothing else to install. Manual install: drag the zip's Binaries and GAMEDATA folders into the No Man's Sky folder, then launch from Steam. To update, delete GAMEDATA&#92;MODS&#92;AbsoluteFlight first. Steam build 186923 only.",
+        "size_kb": 31091,
+        "size_in_bytes": 31837848,
+        "changelog_html": "0.3.3-beta\n- Works with No Man's Sky build 186923 (Steam 26924890). Remapped for the 25 November game update and hotfix; older game builds are refused.\n0.3.2-beta\n- The menu no longer changes your game settings. Opening the Absolute Flight menu switched VR movement to teleport and reset other Controls drop-downs. They now stay as you set them; if yours changed, set them back once.\n- Keyboard flight without a HOTAS: roll, Land and the Game Actions keys now work.\n- Linux / Steam Deck: Sultan no longer gets stuck on the native flight model partway through a session, and the Proton patch is in the zip's Binaries folder, so there's no more copying it by hand.\n0.3.1-beta\n- Launch with your throttle or strafe up. Landed, push the throttle forward or strafe up to take off, as W does in the game. A lever resting forward never launches by itself: pull it back, then push. Flight Axes &gt; Launch with picks Throttle, Strafe up, Either or Button only.\n- VR take-off fixed. In 0.3.0 the hand controllers could no longer take off from a landing. They can again, as can a Launch button, holding W, or your throttle and strafe.\n- Keyboard flight without a joystick. Keyboard-only players can now fly with the keyboard flight keys.\n- Sultan flight stays on for ship classes and game states the mod hasn't seen before, instead of handing the ship to the game.\n0.3.0-beta\n- Public beta. Features are locked for the 0.3 line; it takes fixes only. Building a related feature in your own mod alongside Absolute Flight? Ask on the Discord and I'll help where I can.\n- Experimental VR (Flight Model, off by default): your HOTAS flies the ship in a headset, fires, launches, and works the quick menu and pause menu from the seat, with the mod's HUD in front of the cockpit. Flown on one headset so far: VR reports are very welcome.\n- Flight: an optional coupled flight mode, a red parking brake warning, a held brake you can push through, ship power modes that change thrust, and lever zones without reverse.\n- Fixes: ship power modes no longer drop you out of Sultan, and roll, throttle and strafe stay live near salvage hulks and asteroid fields. A flight watchdog recovers stuck controls without a reload.\n0.2.6-alpha\n- Works with No Man's Sky build 186923 (7.14, the 9 November patch). Older game builds are refused; update the game first.\n- Fix: Fighter pitch no longer reverses in combat when the game's flight controls are set to normal.\n- New: Rotation in combat keeps your ship's turn rates in a fight (Flight Tuning → Rotation, off by default).\n- Corvette: its rotation style applies, it climbs out of atmosphere more easily, and flying one no longer turns rotation styles off for your other ships.\n0.2.5-alpha\n- Works with No Man's Sky build 186923, the 2 November patch. Older game builds are refused; update the game first.\n- Reverse thrust (experimental) for native HOSAS Direct: set Pull back to Reverse thrust to fly backwards.\n- Fix: the pause-menu HOTAS button checks the right \"menu busy\" flag.\n0.2.4-alpha\n- Keyboard flight (experimental): fly with a 6DOF keyboard layout and the mouse, on the new Keyboard page. It moves the game's own ship keys out of the way and warns you about clashes.\n- Strafe on buttons: a hat or trim switch can strafe.\n- Every mod action can go on a key: trim, flight model, lever mode, head tracking, lead/lag pip, eject.\n- Sultan's Flight Tuning holds through context changes (space, atmosphere, launch, landing).\n- Linux / Steam Deck: the Proton patch is in the zip.\n0.2.1-alpha\n- Fix: pause &gt; Options &gt; Absolute Flight was missing on fresh installs. The download now includes the pause menu file it needs (GAMEDATA&#92;MODS&#92;AbsoluteFlight&#92;UI&#92;SWITCHERPAGENEW.MBIN).\n- Works alongside other mods that use winmm.dll, such as OptiScaler: rename OptiScaler's winmm.dll to OptiScaler.asi and keep Absolute Flight's winmm.dll. Every *.asi file in Binaries loads with the game.\n- Experimental: terrain look-ahead (Visuals, default Off). Rocks, trees and the ground ahead of the ship can appear sooner in fast, low flight. Leave it off unless you want to try it; it costs some CPU time.\n0.2.0-alpha\n- Launches with the game through a proxy DLL (Binaries&#92;winmm.dll): no Play.bat, nothing to run.\n- Reworked crash physics: a disabling crash keeps its momentum; the wreck slides, tumbles and falls to rest before the eject, with a red daze instead of a blackout and a ship computer call-out.\n- Water submersion and thruster purge mini-games after a ditch: Telemetry (Short or Full cycle) or Gates style, raced against a sinking hull.\n- Shared keys: several bindings may send the same key, each as its own function (Launch, Land / Exit ship / Interact, Zoom, Select, Back).\n- Launch binding holds W (the game's take-off) whenever the game has focus.\n- Terrain push setting (Atmosphere Flight, default Off): no native ground kick in Sultan planetary flight.\n- Multiplayer can stay on (less tested than single player).\n- Throttle settings moved into Flight Axes.\n- Manual landing and take-off switched off while they're reworked.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/61/28/85/612885ae-d942-4d98-b00b-6e1cfc9e2db4"
       }
     ],
     "changelogs": {
@@ -708516,6 +708705,53 @@
         "- Corvette: its rotation style applies, it climbs out of atmosphere more easily, and flying one no longer turns rotation styles off for your other ships.",
         "0.2.5-alpha",
         "- Works with No Man's Sky build 185034, the 2 November patch. Older game builds are refused; update the game first.",
+        "- Reverse thrust (experimental) for native HOSAS Direct: set Pull back to Reverse thrust to fly backwards.",
+        "- Fix: the pause-menu HOTAS button checks the right \"menu busy\" flag.",
+        "0.2.4-alpha",
+        "- Keyboard flight (experimental): fly with a 6DOF keyboard layout and the mouse, on the new Keyboard page. It moves the game's own ship keys out of the way and warns you about clashes.",
+        "- Strafe on buttons: a hat or trim switch can strafe.",
+        "- Every mod action can go on a key: trim, flight model, lever mode, head tracking, lead/lag pip, eject.",
+        "- Sultan's Flight Tuning holds through context changes (space, atmosphere, launch, landing).",
+        "- Linux / Steam Deck: the Proton patch is in the zip.",
+        "0.2.1-alpha",
+        "- Fix: pause &gt; Options &gt; Absolute Flight was missing on fresh installs. The download now includes the pause menu file it needs (GAMEDATA&#92;MODS&#92;AbsoluteFlight&#92;UI&#92;SWITCHERPAGENEW.MBIN).",
+        "- Works alongside other mods that use winmm.dll, such as OptiScaler: rename OptiScaler's winmm.dll to OptiScaler.asi and keep Absolute Flight's winmm.dll. Every *.asi file in Binaries loads with the game.",
+        "- Experimental: terrain look-ahead (Visuals, default Off). Rocks, trees and the ground ahead of the ship can appear sooner in fast, low flight. Leave it off unless you want to try it; it costs some CPU time.",
+        "0.2.0-alpha",
+        "- Launches with the game through a proxy DLL (Binaries&#92;winmm.dll): no Play.bat, nothing to run.",
+        "- Reworked crash physics: a disabling crash keeps its momentum; the wreck slides, tumbles and falls to rest before the eject, with a red daze instead of a blackout and a ship computer call-out.",
+        "- Water submersion and thruster purge mini-games after a ditch: Telemetry (Short or Full cycle) or Gates style, raced against a sinking hull.",
+        "- Shared keys: several bindings may send the same key, each as its own function (Launch, Land / Exit ship / Interact, Zoom, Select, Back).",
+        "- Launch binding holds W (the game's take-off) whenever the game has focus.",
+        "- Terrain push setting (Atmosphere Flight, default Off): no native ground kick in Sultan planetary flight.",
+        "- Multiplayer can stay on (less tested than single player).",
+        "- Throttle settings moved into Flight Axes.",
+        "- Manual landing and take-off switched off while they're reworked."
+      ],
+      "0.3.3-beta": [
+        "0.3.3-beta",
+        "- Works with No Man's Sky build 186923 (Steam 26924890). Remapped for the 25 November game update and hotfix; older game builds are refused.",
+        "0.3.2-beta",
+        "- The menu no longer changes your game settings. Opening the Absolute Flight menu switched VR movement to teleport and reset other Controls drop-downs. They now stay as you set them; if yours changed, set them back once.",
+        "- Keyboard flight without a HOTAS: roll, Land and the Game Actions keys now work.",
+        "- Linux / Steam Deck: Sultan no longer gets stuck on the native flight model partway through a session, and the Proton patch is in the zip's Binaries folder, so there's no more copying it by hand.",
+        "0.3.1-beta",
+        "- Launch with your throttle or strafe up. Landed, push the throttle forward or strafe up to take off, as W does in the game. A lever resting forward never launches by itself: pull it back, then push. Flight Axes &gt; Launch with picks Throttle, Strafe up, Either or Button only.",
+        "- VR take-off fixed. In 0.3.0 the hand controllers could no longer take off from a landing. They can again, as can a Launch button, holding W, or your throttle and strafe.",
+        "- Keyboard flight without a joystick. Keyboard-only players can now fly with the keyboard flight keys.",
+        "- Sultan flight stays on for ship classes and game states the mod hasn't seen before, instead of handing the ship to the game.",
+        "0.3.0-beta",
+        "- Public beta. Features are locked for the 0.3 line; it takes fixes only. Building a related feature in your own mod alongside Absolute Flight? Ask on the Discord and I'll help where I can.",
+        "- Experimental VR (Flight Model, off by default): your HOTAS flies the ship in a headset, fires, launches, and works the quick menu and pause menu from the seat, with the mod's HUD in front of the cockpit. Flown on one headset so far: VR reports are very welcome.",
+        "- Flight: an optional coupled flight mode, a red parking brake warning, a held brake you can push through, ship power modes that change thrust, and lever zones without reverse.",
+        "- Fixes: ship power modes no longer drop you out of Sultan, and roll, throttle and strafe stay live near salvage hulks and asteroid fields. A flight watchdog recovers stuck controls without a reload.",
+        "0.2.6-alpha",
+        "- Works with No Man's Sky build 186923 (7.14, the 9 November patch). Older game builds are refused; update the game first.",
+        "- Fix: Fighter pitch no longer reverses in combat when the game's flight controls are set to normal.",
+        "- New: Rotation in combat keeps your ship's turn rates in a fight (Flight Tuning → Rotation, off by default).",
+        "- Corvette: its rotation style applies, it climbs out of atmosphere more easily, and flying one no longer turns rotation styles off for your other ships.",
+        "0.2.5-alpha",
+        "- Works with No Man's Sky build 186923, the 2 November patch. Older game builds are refused; update the game first.",
         "- Reverse thrust (experimental) for native HOSAS Direct: set Pull back to Reverse thrust to fly backwards.",
         "- Fix: the pause-menu HOTAS button checks the right \"menu busy\" flag.",
         "0.2.4-alpha",
@@ -709021,10 +709257,10 @@
     "mod_id": 4702,
     "name": "Finally Open Habs (Corvette)",
     "summary": "Build the Corvette interior you want: open selected walls, create taller rooms, or add solid interior walls where the game normally creates a doorway.",
-    "version": "1.1.2",
+    "version": "1.1.5",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4702/4702-1793223127-970152913.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1793821918,
+    "updated_timestamp": 1795635290,
     "created_timestamp": 1792922109,
     "description": "[b][color=#ff7700][size=5]Finally Open Habs (Corvette)[/size][/color][/b]\n<br />\n<br />Build the Corvette interior you want: open selected walls, create taller rooms, or add solid interior walls where the game normally creates a doorway.\n<br />\n<br />[b][color=#f6b26b]Manual Control v1.0 supports Titan, Thunderbird and Ambassador, including short (1x1) and long (1x2) Habs, in one mod folder.[/color][/b] Horizontal openings can connect different styles as well as different Hab sizes. Vertical openings require aligned Habs of the same style and size.\n<br />\n<br />[b][color=#1e84cc]Choose one system: the current Manual Control version OR the older automatic Full/Horizontal files. Do not install them together.[/color][/b] The older files remain available as alternatives for players who prefer automatic openings.\n<br />\n<br />[b][color=#ff7700][size=4]Three tools, individual control[/size][/color][/b]\n<br />\n<br />Find all three at the end of the Corvette build menu's [b][color=#f6b26b]Internal Configuration[/color][/b] group. They share the subtitle [b][color=#f6b26b]Corvette Core Module[/color][/b].\n<br />\n<br />[b][color=#f6b26b]Hab Wall Removal[/color][/b]\n<br />\n<br />Remove a selected shared wall to join two connected Habs into an open room. Works on side and end connections, with short and long Habs and any combination of Titan, Thunderbird and Ambassador.\n<br />\n<br />The opening removes the relevant dividing geometry and collision. Delete the control to restore the standard connection. Installing the manual version alone does not turn every connected room into an open room: you choose where to place the controls.\n<br />\n<br />[b][color=#f6b26b]Hab Wall[/color][/b]\n<br />\n<br />Replace an automatic doorway with a solid interior wall and collision. Each face uses the style of the Hab on that side, so a Titan/Ambassador connection has a Titan interior on one face and an Ambassador interior on the other.\n<br />\n<br />Delete the control to restore the doorway.\n<br />\n<br />[b][color=#f6b26b]Hab Ceiling Removal[/color][/b]\n<br />\n<br />Open the shared ceiling and floor between vertically stacked Habs to create a taller interior. Uses the native stair attachment points without adding a staircase.\n<br />\n<br />Supported layouts are fully aligned [b][color=#f6b26b]short over short[/color][/b] or [b][color=#f6b26b]long over long[/color][/b], with the [b][color=#f6b26b]same style on both levels[/color][/b]. A matching long pair needs one control; both structural footprint connections must match. Additional matching levels can create taller rooms.\n<br />\n<br />[b][color=#1e84cc]Mixed-style vertical openings, short/long vertical combinations, partial overlap and offset stacks are outside the supported scope. Delete the control to restore that floor/ceiling boundary.[/color][/b]\n<br />\n<br />[b][color=#ff7700][size=4]Features[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*]Selective horizontal wall removal, solid interior walls and supported vertical openings.[/*]\n<br />[*]All three Hab styles and both native Hab sizes in one package.[/*]\n<br />[*]Mixed-style horizontal rooms and individually styled faces on mixed-style walls.[/*]\n<br />[*]Existing vanilla Hab parts: no replacement Habs or save-editor conversion required.[/*]\n<br />[*]Reworked edge closures, corner backings and top/bottom surfaces for exposed wall sections.[/*]\n<br />[*]Decorative cleanup for unsupported floating details.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Installing Manual Control[/size][/color][/b]\n<br />\n<br />[list=1]\n<br />[*]Back up the save you intend to use, then close No Man's Sky.[/*]\n<br />[*]Remove previous Finally Open Habs/Open Corvette Habs versions from the active MODS directory. See the upgrade instructions below if you are switching from automatic files.[/*]\n<br />[*]Extract [b][color=#f6b26b]FinallyOpenHabs_ManualControl.zip[/color][/b].[/*]\n<br />[*]Copy the complete [b][color=#f6b26b]FinallyOpenHabs_ManualControl[/color][/b] folder into [b][color=#f6b26b]No Man's Sky/GAMEDATA/MODS/[/color][/b].[/*]\n<br />[*]Start the game with mods enabled. Find the three tools under [b][color=#f6b26b]Internal Configuration[/color][/b] and place them at the relevant Hab attachment points.[/*]\n<br />[/list]\n<br />[i]The same mod folder also contains METADATA, MODELS and TEXTURES. Keep its contents together. Use GAMEDATA/MODS, not the old PCBANKS/MODS location. No installer, CMD file, AMUMSS, compiler or other mod is required to use the supplied download.[/i]\n<br />\n<br />[b][color=#ff7700][size=4]Important: upgrading from the older automatic versions[/size][/color][/b]\n<br />\n<br />The older [b][color=#f6b26b]Full[/color][/b] and [b][color=#f6b26b]Horizontal[/color][/b] files remain alternative downloads. They are not dependencies or optional add-ons for Manual Control.\n<br />\n<br />[list=1]\n<br />[*]With your old version still installed, move your character onto an intact Hab floor, away from shared walls and floor openings. Save and quit.[/*]\n<br />[*]Move all old Hab-mod folders out of GAMEDATA/MODS. This includes [b][color=#f6b26b]OpenCorvetteHabs_Titan[/color][/b], [b][color=#f6b26b]OpenCorvetteHabs_Ambassador[/color][/b] and [b][color=#f6b26b]OpenCorvetteHabs_Thunderbird[/color][/b], including copies inside Full/Horizontal bundles or backup folders.[/*]\n<br />[*]Keep backups [b][color=#f6b26b]outside[/color][/b] the MODS directory. Renaming a folder with an underscore or calling it a backup is not a reliable way to disable it.[/*]\n<br />[*]Install the single Manual Control folder using the instructions above.[/*]\n<br />[*]Reopen your Corvette and add the removal controls wherever you want open connections.[/*]\n<br />[/list]\n<br />[b][color=#1e84cc]Previously automatic openings are not converted into placed manual controls.[/color][/b] Those connections may return to their normal walls, doors or floors until you place the appropriate tools. Your existing Hab modules do not need to be rebuilt. Inspect decorations when boundaries return; the mod does not reposition furniture to accommodate them.\n<br />\n<br />Keep unrelated mods, including separate landing-pad mods, installed as appropriate. Remove the old Hab variants specifically.\n<br />\n<br />[b][color=#ff7700]Updating an existing Manual Control installation[/color][/b]\n<br />\n<br />For compatible updates using the same three control IDs, such as v0.22 to v0.23, existing controls are retained. Close the game, move the previous [b][color=#f6b26b]FinallyOpenHabs_ManualControl[/color][/b] folder out of MODS, and copy in the complete new folder.\n<br />\n<br />[b][color=#1e84cc]Replace the folder; do not merge files over an old installation.[/color][/b] Obsolete files must be removed. Deleting all your placed controls is not required for this compatible update.\n<br />\n<br />[b][color=#ff7700][size=4]Uninstalling Manual Control or returning to the automatic version[/size][/color][/b]\n<br />\n<br />[b][color=#1e84cc]Remove placed manual controls in game before removing the mod.[/color][/b] Unlike the older automatic variants, the manual version includes custom placeable tools saved with your construction.\n<br />\n<br />[list=1]\n<br />[*]Keep Manual Control installed and load each save/Corvette where you have used its tools.[/*]\n<br />[*]In build edit/delete mode, remove every [b][color=#f6b26b]Hab Wall Removal[/color][/b], [b][color=#f6b26b]Hab Wall[/color][/b] and [b][color=#f6b26b]Hab Ceiling Removal[/color][/b] control. Stand clear of the boundary being restored.[/*]\n<br />[*]Removal controls use invisible selection areas near the floor/connection where they were placed. Aim carefully and confirm the selected item is the control before deleting. A placed Hab Wall can also be selected through its wall geometry. [b][color=#f6b26b]There is no blue selection outline and there are no upper rim handles. Do not delete the Hab itself to remove a control.[/color][/b][/*]\n<br />[*]Check that the normal connections and floor/ceiling boundaries have returned. Save normally, then quit the game.[/*]\n<br />[*]Remove [b][color=#f6b26b]FinallyOpenHabs_ManualControl[/color][/b] from GAMEDATA/MODS.[/*]\n<br />[*]If returning to an older automatic version, install only the legacy file(s) you want after completing this cleanup.[/*]\n<br />[/list]\n<br />Do not rely on the game safely handling leftover custom controls after the mod is removed. If you removed the mod first, reinstall the same manual version and attempt the cleanup before uninstalling again. Keep a backup: recovery after loading and resaving without the custom definitions is not guaranteed.\n<br />\n<br />The older automatic variants do not add these manual controls. When removing those variants, close the game and remove their own mod folders; allow for vanilla boundaries returning when you next load.\n<br />\n<br />[b][color=#ff7700][size=4]Manual Control vs. the older alternatives[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*][b][color=#f6b26b]Manual Control:[/color][/b] one folder for all three styles; place tools to open or close individual connections. Mixed-style horizontal openings are supported. Vertical openings are selected separately.[/*]\n<br />[*][b][color=#f6b26b]Legacy Full:[/color][/b] the older automatic approach, with its own style files and supported automatic horizontal/vertical behavior.[/*]\n<br />[*][b][color=#f6b26b]Legacy Horizontal:[/color][/b] the older automatic wall-opening approach while retaining floors/ceilings, where provided by that download.[/*]\n<br />[/list]\n<br />Use the instructions belonging to the download you choose. The legacy files retain their own features and limitations; they do not gain the manual tools by being listed on the same page.\n<br />\n<br />[b][color=#ff7700][size=4]Compatibility and multiplayer[/size][/color][/b]\n<br />\n<br />Manual Control retains the vanilla Hab IDs, but it also adds custom control objects and changes local geometry/collision. [b][color=#f6b26b]Multiplayer and unmodded-client behaviour have not been fully validated.[/color][/b] A wall or floor you have removed locally may remain solid for a player without the mod. Uploading or sharing a Corvette does not distribute these files.\n<br />\n<br />Do not treat this version as a guaranteed client-only cosmetic mod. Matching manual versions are recommended for players who want matching interiors; they do not constitute a multiplayer compatibility guarantee.\n<br />\n<br />This version replaces [b][color=#f6b26b]BASEBUILDINGOBJECTSTABLE.MBIN[/color][/b] to maintain the three tools' menu order and [b][color=#f6b26b]DIFFICULTYCONFIG.MBIN[/color][/b] for the added build entries. Other complete replacements of those tables, or mods changing the same Hab parts/placement rules, require compatibility checks. Partial EXML mods and load order also need testing where they overlap.\n<br />\n<br />Compatibility with every separate building mod is not established, and game updates may require a rebuild.\n<br />\n<br />[b][color=#ff7700][size=4]Known limits and feedback[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*]Snapping can require careful aiming, particularly at ceiling/stair connections.[/*]\n<br />[*]Invisible deletion targets can be difficult to find, especially after opening a floor. They retain small physical selection colliders and do not show a blue outline.[/*]\n<br />[*]Vertical openings require aligned Habs of the same style and size. Do not use unsupported layouts as a reliable partial-floor tool.[/*]\n<br />[*]Native stairs/platforms, furnishings and retained wall returns may still occupy an otherwise open room. The mod does not automatically move player-built decorations.[/*]\n<br />[/list]\n<br />For a bug report, include the game/mod version, Hab styles and sizes, connection direction, which tool was placed, a simple layout sketch or screenshots, whether the issue is visual/collision/snapping, and whether it persists after reloading. Mention other building mods. For multiplayer reports, include host/guest roles and each player's installed version.\n<br />\n<br />[b][color=#ff7700][size=4]Credits[/size][/color][/b]\n<br />\n<br />[list]\n<br />[*][url=https://github.com/monkeyman192/MBINCompiler]MBINCompiler/libMBIN,[/url][/*]\n<br />[*][url=https://github.com/monkeyman192/NMSDK]NMSDK as a technical format reference. Builds use project-specific Python/NumPy scripts.[/url][/*]\n<br />[*]Substantial development, code and documentation assistance: [b][color=#f6b26b]ChatGPT/Codex (GPT-6.1 Sol; Yuki)[/color][/b].[/*]\n<br />[/list]\n<br />The page's existing cover/thumbnail are AI-generated promotional illustrations, not gameplay screenshots. The ceiling-tool icon is an AI-assisted edit of a native game icon; the other two tool icons use original Legacy Structures artwork.\n<br />\n<br />[b][color=#ff7700][size=4]More Corvette building[/size][/color][/b]\n<br />\n<br />[url=https://www.nexusmods.com/nomanssky/mods/4619]Orbital Corvette Landing Pad[/url] is a separate project of mine.\n<br />I'm also working on a mod two bring NPC's to live within Corvettes, stay tuned for that.",
     "state": "normal",
@@ -709514,9 +709750,9 @@
         "file_id": 50444,
         "name": "FinallyOpenHabs (Forsaken Update Ready)",
         "version": "1.1.2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 54993,
         "file_name": "FinallyOpenHabs (Forsaken Update Ready) 4702 1.1.2 2026-11-04T19-51Z gb4dJyoWp.zip",
         "detected_file_extension": "zip",
@@ -709529,6 +709765,31 @@
         "size_in_bytes": 56313655,
         "changelog_html": "Correct utility modules should be displayed now when using the new Legion Habs",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/0d/3d/13/0d3d1321-a338-41c3-a19b-e7b92ad0a41e"
+      },
+      {
+        "id": [
+          50865,
+          1634
+        ],
+        "uid": 7017976612529,
+        "file_id": 50865,
+        "name": "FinallyOpenHabs",
+        "version": "1.1.5",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 55478,
+        "file_name": "FinallyOpenHabs 4702 1.1.5 2026-11-25T19-34Z hfsARgq8S.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795635290,
+        "uploaded_time": "2026-11-25T19:34:50.000+00:00",
+        "mod_version": "1.1.5",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/6ad5a3f2b591ac109daef694e0a658f8b331688649f23645222656460a667be1",
+        "description": "Standalone Version the gives you full control over open, closed walls and ceilings.<br />Don't use together with other versions!",
+        "size_kb": 55478,
+        "size_in_bytes": 56809807,
+        "changelog_html": "- rebuild the object table for NMS v7.15.1\n- restored 32 Vanilla object definitions missing from the v1.1.3 table\n- Preserved current Vanilla cockpit definitions and the Vantage cockpit style\n- Updated Legion wall lighting materials to current Vanilla references\n- Isolated matching Legion wall-closure geometry with unique stream identifiers\n- Retained the v1.1.3 Legion Utility socket fix and existing manual controls",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/e7/60/9d/e7609de6-5d97-422e-ae56-852b09f88a4d"
       }
     ],
     "changelogs": {
@@ -709560,6 +709821,14 @@
       ],
       "1.1.2": [
         "Correct utility modules should be displayed now when using the new Legion Habs"
+      ],
+      "1.1.5": [
+        "- rebuild the object table for NMS v7.15.1",
+        "- restored 32 Vanilla object definitions missing from the v1.1.3 table",
+        "- Preserved current Vanilla cockpit definitions and the Vantage cockpit style",
+        "- Updated Legion wall lighting materials to current Vanilla references",
+        "- Isolated matching Legion wall-closure geometry with unique stream identifiers",
+        "- Retained the v1.1.3 Legion Utility socket fix and existing manual controls"
       ]
     }
   },
@@ -711783,12 +712052,12 @@
     "mod_id": 4756,
     "name": "IMPERIAL GALACTIC MAP",
     "summary": "Bookmark planets and systems with visible star markers, screenshot previews and portal glyphs. Display alliance flags and highlight your territories.",
-    "version": "v0.69b",
+    "version": "v0.70",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4756/4756-1793401542-1265562991.png",
     "author": "ersalva",
-    "updated_timestamp": 1795450380,
+    "updated_timestamp": 1795625435,
     "created_timestamp": 1793402582,
-    "description": "[center]\n<br />[size=2][size=4][color=#E8BE68][b]⚠ IMPORTANT — UPDATING IGM ⚠[/b][/color][/size]\n<br />Replace only [b]xinput9_1_0.dll[/b]\n<br />[color=#65D4DF][b]KEEP YOUR EXISTING IGM FOLDER[/b][/color][/size][/center]\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[center][size=6][color=#E8BE68][b]IMPERIAL GALACTIC MAP[/b][/color][/size]\n<br />[size=4][b]Bookmark planets and systems with visible star markers,\n<br />screenshot previews and portal glyphs.\n<br />Display alliance flags and highlight your territories.[/b][/size]\n<br />\n<br />[youtube]ky0pHLnsSdE[/youtube][/center]\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />\n<br />[size=5][color=#65D4DF][b]FOUND A PLANET YOU DON’T WANT TO LOSE?[/b][/color][/size]\n<br />\n<br />[b]- Press F8 to save a planet or system as a favourite.[/b]\n<br />The mod takes a screenshot and adds a [b]star marker to its system on the Galactic Map[/b]. Your bookmark becomes something you can actually see while browsing the galaxy.\n<br />\n<br />- Open your favourites to view the saved location, its screenshot and portal glyphs.\n<br />[b]- Perfect planets, useful systems, memorable discoveries — keep them marked on your map.[/b]\n<br />- You don’t need to belong to an alliance to use these features.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=5][color=#E8BE68][b]SEE ALLIANCE TERRITORIES AS YOU EXPLORE[/b][/color][/size]\n<br />[b]See who controls the systems around you — directly on the Galactic Map.\n<br />[/b]\n<br />[b]* Your alliance and other alliances appear with their own flags.[/b] When you visit a system belonging to another alliance, the mod automatically detects its alliance and adds that territory to your local map catalogue.\n<br />* Alliances without a custom emblem receive a consistent colour and symbol based on their ID, so you can recognise them again as you explore.\n<br />[color=#67E89B][b]* Neon-green rings[/b][/color] make your own alliance’s systems stand out.\n<br />* Browse the alliance catalogue and independently show or hide your alliance, other alliances and pirate systems.\n<br />[b]* Discover their territory. See their flag. Keep it on your map.[/b]\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[b][color=#65d4df][size=5]CREATE YOUR OWN ALLIANCE FLAG[/size][/color][/b]\n<br />Use the [b]optional IGM Companion DLL[/b] to manage your alliance catalogue and customise alliance emblems.\n<br />Choose from [b]178 symbols[/b] and configure your flag directly through the integrated Companion functionality.\n<br />[b][color=#e8be68]IGM Companion is now available as an optional download on this Nexus Mods page.[/color][/b]\n<br />\n<br />[center][size=4][b][color=#65D4DF]DOWNLOAD IGM COMPANION — FILES → OPTIONAL FILES[/color][/b][/size][/center]\n<br />\n<br />[b]The Companion is completely optional.[/b] Imperial Galactic Map works independently. You can use its in-game features without installing the Companion.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[b][color=#e8be68][size=5]FEATURES AT A GLANCE[/size][/color][/b]\n<br />\n<br />• [b]ONE KEY TO REMEMBER A WORLD[/b] — Press F8 to bookmark a planet or system, place a visible star marker on the Galactic Map and create its favourites entry with a screenshot and portal glyphs.\n<br />• [b]YOUR DISCOVERIES, IN PICTURES[/b] — Browse your favourites and select a location to view its screenshot, details and portal address.\n<br />• [b]ALLIANCE FLAGS ON THE MAP[/b] — See your alliance’s territories and automatically detect other alliances when visiting their systems, adding their flags to your local map catalogue.\n<br />• [b]GLOWING TERRITORY RINGS[/b] — Recognise your alliance’s systems at a glance with neon-green highlights.\n<br />• [b]CONTROL WHAT YOU SEE[/b] — Independently show or hide your alliance, other alliances and pirate systems.\n<br />• [b]DISTINCTIVE AUTOMATIC EMBLEMS[/b] — Recognise alliances through consistent colours and contrasting symbols assigned to their IDs.\n<br />• [b]OPTIONAL COMPANION DLL[/b] — Download IGM Companion from the [b]Optional Files[/b] section of this Nexus Mods page to manage your catalogue and customise alliance emblems.\n<br />• [b]MULTILINGUAL INTERFACE[/b] — Use the interface in your preferred supported language while keeping original alliance and territory names intact.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[b][color=#65d4df][size=5]INSTALLATION[/size][/color][/b]\n<br />\n<br />[b]1.[/b] Close No Man’s Sky completely.\n<br />[b]2.[/b] Open Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries.\n<br />[b]3.[/b] Extract the Imperial Galactic Map [b]xinput9_1_0.dll[/b] directly into [b]Binaries[/b].\n<br />These items must sit alongside [b]NMS.exe[/b]:\n<br />• [b]xinput9_1_0.dll[/b]\n<br />\n<br />\n<br />[b]4. OPTIONAL — Install IGM Companion.[/b]\n<br />The Companion is [b]NOT included in the main IGM download[/b].\n<br />Download it separately from the [b]Optional Files[/b] section of this Nexus Mods page.\n<br />[b]FILES → OPTIONAL FILES → IGM COMPANION[/b]\n<br />\n<br />- Extract the optional Companion DLL package according to its included installation instructions, preserving the existing IGM folder and personal data.\n<br />\n<br />[b]You do not need the Companion to run Imperial Galactic Map.[/b]\n<br />[b]5.[/b] Launch No Man’s Sky normally through Steam.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=5][color=#FFD700][b]GET STARTED[/b][/color][/size]\n<br />\n<br />[b]Save a discovery:[/b]\n<br />Press [b]F8[/b] to bookmark a planet or system and capture a screenshot.\n<br />\n<br />[b]Find your bookmark on the map:[/b]\n<br />Open the Galactic Map and look for its [b]star marker[/b].\n<br />\n<br />[b]View your saved discoveries:[/b]\n<br />Open the mod’s favourites panel and select an entry to see its screenshot and portal glyphs.\n<br />\n<br />[b]Explore alliance territories:[/b]\n<br />Look for alliance flags and use the visibility settings to choose which categories appear.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=4][b]REQUIREMENTS &amp; SCOPE[/b][/size]\n<br />• [b]No Man’s Sky — Steam version for Windows.[/b]\n<br />• IGM Companion is optional and available under [b]Optional Files[/b] on this Nexus Mods page.\n<br />• Territory information comes from the built-in catalogue, local imports and in-game detection.\n<br />• This is not a live online database of every alliance.\n<br />• Markers display territory information; they do not change station ownership.\n<br />• Automatic alliance identification depends on successfully reading the supported game version.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=2]CHANGES SINCE THE 0.68 PACKAGE (INCLUDING 0.69 AND 0.69b)\n<br />- F8 favourite screenshot capture is integrated into the DLL; no external capture executable is required. \n<br />Thanks to Phantom7z1 for reporting the screenshot issue.\n<br />- Centralized PORTAL GLYPHS - BOOKMARKS service, with its game hooks and access hosted by IGM.\n<br />- Versioned API decouples addons from NMS internal addresses.\n<br />- Adds Simplified Chinese while retaining the other languages and player-created names.\n<br />- Rejects incompatible legacy Glyphs addons before loading them.\n<br />- Fixes rejection caused by a changed whole-file fingerprint when native sections and layout remain verified; unknown code/layouts still refuse activation. \n<br />Improves DLL/ASI loading and diagnostics. Thanks to KenschenDK for reporting the compatibility issue and providing details to investigate it.\n<br />- Glyphs resolves its owning IGM module without requiring the xinput9_1_0.dll filename.\n<br />- Prevents duplicate IGM 0.69b startup in one process.\n<br />- Updates version messages and logs the detected fingerprint and specific refusal reason.\n<br />[/size]\n<br />[center][size=2][size=4][color=#E8BE68][b]⚠ IMPORTANT — UPDATING IGM ⚠[/b][/color][/size]\n<br />Replace only [b]xinput9_1_0.dll[/b]\n<br />[color=#65D4DF][b]KEEP YOUR EXISTING IGM FOLDER[/b][/color][/size][/center]\n<br />",
+    "description": "[center]\n<br />[size=2][size=4][color=#E8BE68][b]⚠ IMPORTANT — UPDATING IGM ⚠[/b][/color][/size]\n<br />Replace only [b]xinput9_1_0.dll[/b]\n<br />[color=#65D4DF][b]KEEP YOUR EXISTING IGM FOLDER[/b][/color][/size][/center]\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[center][size=6][color=#E8BE68][b]IMPERIAL GALACTIC MAP[/b][/color][/size]\n<br />[size=4][b]Bookmark planets and systems with visible star markers,\n<br />screenshot previews and portal glyphs.\n<br />Display alliance flags and highlight your territories.[/b][/size]\n<br />\n<br />[youtube]ky0pHLnsSdE[/youtube][/center]\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />\n<br />[size=5][color=#65D4DF][b]FOUND A PLANET YOU DON’T WANT TO LOSE?[/b][/color][/size]\n<br />\n<br />[b]- Press F8 to save a planet or system as a favourite.[/b]\n<br />The mod takes a screenshot and adds a [b]star marker to its system on the Galactic Map[/b]. Your bookmark becomes something you can actually see while browsing the galaxy.\n<br />\n<br />- Open your favourites to view the saved location, its screenshot and portal glyphs.\n<br />[b]- Perfect planets, useful systems, memorable discoveries — keep them marked on your map.[/b]\n<br />- You don’t need to belong to an alliance to use these features.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=5][color=#E8BE68][b]SEE ALLIANCE TERRITORIES AS YOU EXPLORE[/b][/color][/size]\n<br />[b]See who controls the systems around you — directly on the Galactic Map.\n<br />[/b]\n<br />[b]* Your alliance and other alliances appear with their own flags.[/b] When you visit a system belonging to another alliance, the mod automatically detects its alliance and adds that territory to your local map catalogue.\n<br />* Alliances without a custom emblem receive a consistent colour and symbol based on their ID, so you can recognise them again as you explore.\n<br />[color=#67E89B][b]* Neon-green rings[/b][/color] make your own alliance’s systems stand out.\n<br />* Browse the alliance catalogue and independently show or hide your alliance, other alliances and pirate systems.\n<br />[b]* Discover their territory. See their flag. Keep it on your map.[/b]\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[b][color=#65d4df][size=5]CREATE YOUR OWN ALLIANCE FLAG[/size][/color][/b]\n<br />Use the [b]optional IGM Companion DLL[/b] to manage your alliance catalogue and customise alliance emblems.\n<br />Choose from [b]178 symbols[/b] and configure your flag directly through the integrated Companion functionality.\n<br />[b][color=#e8be68]IGM Companion is now available as an optional download on this Nexus Mods page.[/color][/b]\n<br />\n<br />[center][size=4][b][color=#65D4DF]DOWNLOAD IGM COMPANION — FILES → OPTIONAL FILES[/color][/b][/size][/center]\n<br />\n<br />[b]The Companion is completely optional.[/b] Imperial Galactic Map works independently. You can use its in-game features without installing the Companion.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[b][color=#e8be68][size=5]FEATURES AT A GLANCE[/size][/color][/b]\n<br />\n<br />• [b]ONE KEY TO REMEMBER A WORLD[/b] — Press F8 to bookmark a planet or system, place a visible star marker on the Galactic Map and create its favourites entry with a screenshot and portal glyphs.\n<br />• [b]YOUR DISCOVERIES, IN PICTURES[/b] — Browse your favourites and select a location to view its screenshot, details and portal address.\n<br />• [b]ALLIANCE FLAGS ON THE MAP[/b] — See your alliance’s territories and automatically detect other alliances when visiting their systems, adding their flags to your local map catalogue.\n<br />• [b]GLOWING TERRITORY RINGS[/b] — Recognise your alliance’s systems at a glance with neon-green highlights.\n<br />• [b]CONTROL WHAT YOU SEE[/b] — Independently show or hide your alliance, other alliances and pirate systems.\n<br />• [b]DISTINCTIVE AUTOMATIC EMBLEMS[/b] — Recognise alliances through consistent colours and contrasting symbols assigned to their IDs.\n<br />• [b]OPTIONAL COMPANION DLL[/b] — Download IGM Companion from the [b]Optional Files[/b] section of this Nexus Mods page to manage your catalogue and customise alliance emblems.\n<br />• [b]MULTILINGUAL INTERFACE[/b] — Use the interface in your preferred supported language while keeping original alliance and territory names intact.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[b][color=#65d4df][size=5]INSTALLATION[/size][/color][/b]\n<br />\n<br />[b]1.[/b] Close No Man’s Sky completely.\n<br />[b]2.[/b] Open Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries.\n<br />[b]3.[/b] Extract the Imperial Galactic Map [b]xinput9_1_0.dll[/b] directly into [b]Binaries[/b].\n<br />These items must sit alongside [b]NMS.exe[/b]:\n<br />• [b]xinput9_1_0.dll[/b]\n<br />\n<br />\n<br />[b]4. OPTIONAL — Install IGM Companion.[/b]\n<br />The Companion is [b]NOT included in the main IGM download[/b].\n<br />Download it separately from the [b]Optional Files[/b] section of this Nexus Mods page.\n<br />[b]FILES → OPTIONAL FILES → IGM COMPANION[/b]\n<br />\n<br />- Extract the optional Companion DLL package according to its included installation instructions, preserving the existing IGM folder and personal data.\n<br />\n<br />[b]You do not need the Companion to run Imperial Galactic Map.[/b]\n<br />[b]5.[/b] Launch No Man’s Sky normally through Steam.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=5][color=#FFD700][b]GET STARTED[/b][/color][/size]\n<br />\n<br />[b]Save a discovery:[/b]\n<br />Press [b]F8[/b] to bookmark a planet or system and capture a screenshot.\n<br />\n<br />[b]Find your bookmark on the map:[/b]\n<br />Open the Galactic Map and look for its [b]star marker[/b].\n<br />\n<br />[b]View your saved discoveries:[/b]\n<br />Open the mod’s favourites panel and select an entry to see its screenshot and portal glyphs.\n<br />\n<br />[b]Explore alliance territories:[/b]\n<br />Look for alliance flags and use the visibility settings to choose which categories appear.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=4][b]REQUIREMENTS &amp; SCOPE[/b][/size]\n<br />• [b]No Man’s Sky — Steam version for Windows.[/b]\n<br />• IGM Companion is optional and available under [b]Optional Files[/b] on this Nexus Mods page.\n<br />• Territory information comes from the built-in catalogue, local imports and in-game detection.\n<br />• This is not a live online database of every alliance.\n<br />• Markers display territory information; they do not change station ownership.\n<br />• Automatic alliance identification depends on successfully reading the supported game version.\n<br />[center][color=#FFD700]━━━━━━━━━━━━ ✦ ━━━━━━━━━━━━[/color][/center]\n<br />[size=2]CHANGES SINCE THE 0.68 PACKAGE (INCLUDING 0.69 AND 0.69b)\n<br />- F8 favourite screenshot capture is integrated into the DLL; no external capture executable is required.\n<br />Thanks to Phantom7z1 for reporting the screenshot issue.\n<br />- Centralized PORTAL GLYPHS - BOOKMARKS service, with its game hooks and access hosted by IGM.\n<br />- Versioned API decouples addons from NMS internal addresses.\n<br />- Adds Simplified Chinese while retaining the other languages and player-created names.\n<br />- Rejects incompatible legacy Glyphs addons before loading them.\n<br />- Fixes rejection caused by a changed whole-file fingerprint when native sections and layout remain verified; unknown code/layouts still refuse activation.\n<br />Improves DLL/ASI loading and diagnostics. Thanks to KenschenDK for reporting the compatibility issue and providing details to investigate it.\n<br />- Glyphs resolves its owning IGM module without requiring the xinput9_1_0.dll filename.\n<br />- Prevents duplicate IGM 0.69b startup in one process.\n<br />- Updates version messages and logs the detected fingerprint and specific refusal reason.\n<br />[/size]\n<br />[center][size=2][size=4][color=#E8BE68][b]⚠ IMPORTANT — UPDATING IGM ⚠[/b][/color][/size]\n<br />Replace only [b]xinput9_1_0.dll[/b]\n<br />[color=#65D4DF][b]KEEP YOUR EXISTING IGM FOLDER[/b][/color][/size][/center]\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
@@ -712076,9 +712345,9 @@
         "file_id": 50823,
         "name": "IGM STEAM 0.69b",
         "version": "0.69b",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 1490,
         "file_name": "IGM STEAM 0.69b 4756 0.69b 2026-11-23T16-11Z n0CrIxcSW.zip",
         "detected_file_extension": "zip",
@@ -712101,8 +712370,8 @@
         "file_id": 50824,
         "name": "IGM Companion For V0.69b",
         "version": "26.69b",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 159,
         "file_name": "IGM Companion For V0.69b 4756 26.69b 2026-11-23T16-13Z 9Lg6VZ1HL.zip",
@@ -712116,6 +712385,56 @@
         "size_in_bytes": 163822,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/86/26/db/8626dbd4-e23b-4866-b81d-503a1edf8b68"
+      },
+      {
+        "id": [
+          50858,
+          1634
+        ],
+        "uid": 7017976612522,
+        "file_id": 50858,
+        "name": "Companion For IGM V0.70",
+        "version": "26.70",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 160,
+        "file_name": "Companion For IGM V0.70 4756 26.70 2026-11-25T16-50Z N2LUkQHpW.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795625406,
+        "uploaded_time": "2026-11-25T16:50:06.000+00:00",
+        "mod_version": "26.70",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/9220c889c95de0603e7a3797da6556546f1333b8375bf6a50791a3e1417f67da",
+        "description": "Alliances emblem / names editor. Companion for the IGM integrated in game.<br /><br />- drop it at &#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries with IGM mod",
+        "size_kb": 160,
+        "size_in_bytes": 164169,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/ec/ba/aa/ecbaaaa1-c8df-49b9-aa0e-f187e52463f1"
+      },
+      {
+        "id": [
+          50859,
+          1634
+        ],
+        "uid": 7017976612523,
+        "file_id": 50859,
+        "name": "IGM STEAM 0.70",
+        "version": "0.70",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 1491,
+        "file_name": "IGM STEAM 0.70 4756 0.70 2026-11-25T16-50Z XnaJySDtB.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795625435,
+        "uploaded_time": "2026-11-25T16:50:35.000+00:00",
+        "mod_version": "0.70",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/110753414b3bc7d22cef51a87fbaf56fc9d165249fa01d149c435bf7ca3dba96",
+        "description": "* Extract the contents of the ZIP's Binaries folder into [b]Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries[/b]<br />* [u]Updating:[/u] Replace only xinput9_1_0.dll.<br />[b][size=4]Keep your existing IGM folder when updating.[/size][/b]",
+        "size_kb": 1491,
+        "size_in_bytes": 1527340,
+        "changelog_html": "- Preserves the previous language when updating or saving other options. Only an explicit selection changes the saved language; failed writes preserve the original and remain pending for retry.\n- Updated compatibility with the game update on 25 November 2026 – 15:50:50 UTC\n- Adapted signatures, native references and shifted player-position, alliance and portal fields.\n- Updated both Options drawing call sites used to hide background ornaments.\n- Preserves data, design, languages, controls, integrated F8 capture and incompatible-profile refusal.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/6d/60/aa/6d60aa49-ce4b-4c89-bc0a-6d8cbc9655e3"
       }
     ],
     "changelogs": {
@@ -712184,6 +712503,13 @@
         "- Glyphs resolves its owning IGM module without requiring the xinput9_1_0.dll filename.",
         "- Prevents duplicate IGM 0.69b startup in one process.",
         "- Updates version messages and logs the detected fingerprint and specific refusal reason."
+      ],
+      "0.70": [
+        "- Preserves the previous language when updating or saving other options. Only an explicit selection changes the saved language; failed writes preserve the original and remain pending for retry.",
+        "- Updated compatibility with the game update on 25 November 2026 – 15:50:50 UTC",
+        "- Adapted signatures, native references and shifted player-position, alliance and portal fields.",
+        "- Updated both Options drawing call sites used to hide background ornaments.",
+        "- Preserves data, design, languages, controls, integrated F8 capture and incompatible-profile refusal."
       ]
     }
   },
@@ -712191,10 +712517,10 @@
     "mod_id": 4758,
     "name": "For(n)ever Alone - Your Corvette and Base Crew",
     "summary": "Your Corvette (and Base) has room for a crew. Give it one.",
-    "version": "1.1.0",
+    "version": "1.2.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4758/4758-1793459008-1643385800.png",
     "author": "BlakeRock",
-    "updated_timestamp": 1794084537,
+    "updated_timestamp": 1795635130,
     "created_timestamp": 1793461115,
     "description": "[b][color=#ff7700][size=5]For(n)ever Alone - Your Corvette Crew[/size][/color][/b]\n<br />\n<br />Your Corvette has room for a crew. Give it one.\n<br />\n<br />[b][color=#f6b26b]For(n)ever Alone[/color][/b] adds a configurable crew roster to the Corvette build menu. A new configuration starts with one Korvax; Crew Studio lets you add more members whenever you want, up to 32 active crew slots. Put a Korvax at a workstation, let a Gek keep an eye on the cargo, or invite a Vy'keen, Traveller or custom Anomaly aboard. Crew members stay where you place them, use the game's native idle behaviour, and remain attached to the Corvette as it moves.\n<br />\n<br />[b][color=#f6b26b]This release focuses on stationary crew.[/color][/b] Free roaming and routes through connected Habitats are being researched separately.\n<br />\n<br />[b][color=#ff7700][size=4]Build your crew[/size][/color][/b]\n<br />[list]\n<br />[*]Start with one crew member and add or remove members in Crew Studio. Up to 32 slots can be active at once.[/*]\n<br />[*]Only active crew slots appear in their own Corvette build-menu category after you save the configuration.[/*]\n<br />[*]Choose Korvax, Gek, Vy'keen, Traveller or a custom Anomaly for each slot.[/*]\n<br />[*]Set an appearance seed. Custom Anomalies also have supported head, armour and colour choices. Other species do not yet have separate head/armour/colour selectors.[/*]\n<br />[*]Start with empty hands, or choose a tablet, staff, cup, container, box, holographic ship, frigate, solar system, multitool or drone. These choices come from the game's existing NPC prop list; the multitool option is a hologram, not a randomly generated weapon.[/*]\n<br />[*]Set an optional build-menu name and service for each slot.[/*]\n<br />[*]Place crew in the Corvette interior without replacing existing Habitat or Pad objects.[/*]\n<br />[*]Each post costs 1 Quantum Computer, 30 Carbon Nanotubes and 50 Wiring Loom.[/*]\n<br />[*]Decide if you just want to spawn your Crew in a Corvette or also in regular bases.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Crew Studio[/size][/color][/b]\n<br />\n<br />Crew Studio is the separate Windows configuration tool included with the mod. Its interface is available in English, German, Spanish, French and Simplified Chinese [b](AI translated; not independently reviewed)[/b]. It includes a rotatable and zoomable 3D model preview. The dice controls generate a seed or build-menu name, or randomize all configurable values of the selected NPC. The preview is a visual guide: the exact procedural seed, pose and held object may differ in game.\n<br />\n<br />Use the button below the crew list to add a member; use the red X on a member to remove that slot. Close No Man's Sky, then click [b][color=#f6b26b]Save to Mod[/color][/b]. The build menu will reflect your active slots the next time you start the game.\n<br />\n<br />[b][color=#f6b26b]Removing a slot does not delete NPCs already placed in a Corvette.[/color][/b] Remove those NPCs in game if you no longer want them. A removed slot becomes available again; if you reuse its ID, any NPC already placed with that ID will take on the new configuration.\n<br />\n<br />Crew Studio stores profiles separately in [b][color=#f6b26b]GAMEDATA/MODS/_CorvetteNPCCrew_UserData[/color][/b] and makes backups when saving. Keep that folder when updating.\n<br />\n<br />[b][color=#ff7700][size=4]Optional NPC services[/size][/color][/b]\n<br />\n<br />Choose one service per crew slot, or leave the NPC without an interaction:\n<br />[list]\n<br />[*]Fleet management overview[/*]\n<br />[*]Planetary Probe[/*]\n<br />[*]Galactic Trade Terminal[/*]\n<br />[*]Galaxy Teleporter[/*]\n<br />[*]Quicksilver vendor[/*]\n<br />[*]Cronus food service[/*]\n<br />[*]Guild Envoy[/*]\n<br />[*]Mission Agent[/*]\n<br />[/list]\n<br />These use existing game interactions and may depend on your current game state. Fleet management opens the fleet overview; [b][color=#f6b26b]it does not dispatch expeditions or open individual expedition reports[/color][/b]. The Cartographer is not offered because it did not work reliably.\n<br />\n<br />[b][color=#ff7700][size=4]Installation and updates[/size][/color][/b]\n<br />[list]\n<br />[*]Back up the save you intend to use, then close No Man's Sky and Crew Studio.[/*]\n<br />[*]Remove or back up an older [b][color=#f6b26b]CorvetteNPCCrew_v...[/color][/b] folder outside [b][color=#f6b26b]GAMEDATA/MODS[/color][/b]. Keep only one active Crew version. [b]Do not delete _CorvetteNPCCrew_UserData.[/b][/*]\n<br />[*]Extract the ZIP and copy its complete [b][color=#f6b26b]CorvetteNPCCrew[/color][/b] folder into [b][color=#f6b26b]No Man's Sky/GAMEDATA/MODS/[/color][/b].[/*]\n<br />[*]Before starting NMS, open [b][color=#f6b26b]CorvetteNPCCrew/CREW_CONFIGURATOR/Start_Crew_Configurator.cmd[/color][/b] and click [b][color=#f6b26b]Save to Mod[/color][/b]. On an update, this restores your existing roster to the new mod files; on a fresh installation, it sets up your first member.[/*]\n<br />[*]Start NMS and build your active crew posts from their Corvette build-menu category.[/*]\n<br />[/list]\n<br />[b][color=#f6b26b]Important for updates:[/color][/b] The ZIP contains a one-member default. Your existing profiles are kept in the separate user-data folder, but the game cannot read that JSON directly. You must save once in Crew Studio [b]before launching NMS[/b] so the mod's build-menu files match your roster.\n<br />\n<br />The ZIP contains only the mod folder. The game mod needs no installer, pyMHF hook, save editor, AMUMSS or local AI model. Crew Studio is a Windows tool; its interactive 3D preview requires Microsoft Edge/WebView2.\n<br />\n<br />[b][color=#ff7700][size=4]Compatibility and removal[/size][/color][/b]\n<br />\n<br />For(n)ever Alone uses its own crew IDs and custom resources. Compatibility with every other table-editing mod or future NMS version is not guaranteed.\n<br />\n<br />To uninstall, remove your placed crew posts in game first, save and close NMS, then remove [b][color=#f6b26b]CorvetteNPCCrew[/color][/b] from GAMEDATA/MODS. Keep [b][color=#f6b26b]_CorvetteNPCCrew_UserData[/color][/b] if you may reinstall. Multiplayer behaviour with unmodded clients has not been separately validated. Sharing a Corvette does not distribute the mod to other players.\n<br />\n<br />[b][color=#ff7700][size=4]Current limits[/size][/color][/b]\n<br />[list]\n<br />[*]Crew members stay at their placed positions; they do not navigate between rooms or sit in chairs.[/*]\n<br />[*]Native idle behaviour is used; custom H/I gestures and freely selectable animation sequences are not part of this release.[/*]\n<br />[*]Exact seed appearance is not rendered in Crew Studio's preview.[/*]\n<br />[*]Fleet expedition dispatch and individual expedition reports are unavailable.[/*]\n<br />[*]Removing a crew slot in Crew Studio does not remove already placed NPCs.[/*]\n<br />[*]Placement, interaction and persistence should be rechecked after major NMS updates.[/*]\n<br />[/list]\n<br />[b][color=#ff7700][size=4]Credits and feedback[/size][/color][/b]\n<br />\n<br />Built with the NMS modding toolchain, including AMUMSS/MBINCompiler and NMSPE. Crew Studio uses Three.js for its 3D preview; its license is included with the tool. Development assistance was provided by ChatGPT.\n<br />\n<br />Bug reports are most useful with the NMS version, installed mods, selected crew species/prop/service, the steps to reproduce and whether the issue persists after reloading. Screenshots are welcome, especially of your crews in custom Habitat layouts.",
     "state": "normal",
@@ -712284,9 +712610,9 @@
         "file_id": 50522,
         "name": "CorvetteNPCCrew",
         "version": "1.1.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 28267,
         "file_name": "CorvetteNPCCrew 4758 1.1.0 2026-11-07T20-48Z RH1TdJv3b.zip",
         "detected_file_extension": "zip",
@@ -712299,6 +712625,31 @@
         "size_in_bytes": 28946055,
         "changelog_html": "Added a checkbox in the Crew Studion to enable/disable Crew Spawn in normal bases",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/ed/10/9f/ed109f33-73c1-4252-b4df-5f9f11082cda"
+      },
+      {
+        "id": [
+          50864,
+          1634
+        ],
+        "uid": 7017976612528,
+        "file_id": 50864,
+        "name": "CorvetteNPCCrew",
+        "version": "1.2.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 28266,
+        "file_name": "CorvetteNPCCrew 4758 1.2.1 2026-11-25T19-32Z KsnM3Ttqz.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795635130,
+        "uploaded_time": "2026-11-25T19:32:10.000+00:00",
+        "mod_version": "1.2.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/d3658802346a61cf5bfabe647e290176aa7632c9209e787576f20b8b29cc2260",
+        "description": "",
+        "size_kb": 28266,
+        "size_in_bytes": 28944433,
+        "changelog_html": "7.15.1 compatibility",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b6/08/2f/b6082f55-15e7-47cd-aab4-f673e0419f4f"
       }
     ],
     "changelogs": {
@@ -712315,6 +712666,9 @@
       ],
       "1.1.0": [
         "Added a checkbox in the Crew Studion to enable/disable Crew Spawn in normal bases"
+      ],
+      "1.2.1": [
+        "7.15.1 compatibility"
       ]
     }
   },
@@ -713184,10 +713538,10 @@
     "mod_id": 4769,
     "name": "PORTAL GLYPHS - BOOKMARKS",
     "summary": "Quickly copy paste portal addres from internet or enter saved portal addresses from your Imperial Galactic Map bookmarks without manually selecting all 12 glyphs.",
-    "version": "0.6.9b",
+    "version": "0.7.0",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4769/4769-1793737425-268148451.png",
     "author": "ersalva",
-    "updated_timestamp": 1795450449,
+    "updated_timestamp": 1795625498,
     "created_timestamp": 1793623067,
     "description": "[img]https://staticdelivery.nexusmods.com/mods/1634/images/4769/4769-1793887226-1258484173.png[/img]\n<br />[center][size=6][color=#39DDF2][b]PORTAL GLYPHS[/b][/color][/size]\n<br />[size=5][color=#F2C66D][b]— BOOKMARKS —[/b][/color][/size]\n<br />[i]Copy. Paste. Travel. No more manual glyph entry.[/i]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=4][color=#F2C66D][b]AN IMPERIAL GALACTIC MAP EXTENSION[/b][/color][/size]\n<br />[b]Version 0.6.7 | No Man's Sky | Windows / Steam\n<br />[/b]\n<br />[youtube]XUHi6LtRVZI[/youtube]\n<br />[/center]\n<br />[quote]\n<br />[color=#FFCA70][b]IMPORTANT — IMPERIAL GALACTIC MAP IS REQUIRED[/b][/color]\n<br />[b]Portal Glyphs – Bookmarks is NOT a standalone mod.[/b]\n<br />Requires a compatible version of [url=https://www.nexusmods.com/nomanssky/mods/4756][b]Imperial Galactic Map (IGM)[/b][/url] to be installed and working correctly.\n<br />Without IGM, this extension will not activate.[/quote][b][size=5][color=#39DDF2][b]COPY. PASTE. TRAVEL.[/b][/color][/size]\n<br />[b]Found an amazing planet online? Just copy its portal address and paste it directly into the mod![/b]\n<br />No more manually entering twelve glyphs. Copy portal coordinates from websites, use your saved IGM bookmarks or select your favourite destinations directly from the redesigned interface.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]FEATURES[/b][/color][/size][/b]\n<br />[list]\n<br />[*][b][b]NEW — COPY &amp; PASTE PORTAL GLYPHS[/b]\n<br />Copy a 12-glyph portal address from online sources and paste it directly into the mod. No manual glyph selection required.[/b][/*]\n<br />[*][b][b]NEW — REDESIGNED INTERFACE[/b]\n<br />A refreshed, cleaner interface with improved navigation and easier access to destinations.[/b][/*]\n<br />[*][b][b]INTEGRATED BOOKMARKS[/b]\n<br />Select planets and systems saved through Imperial Galactic Map and use their portal addresses.[/b][/*]\n<br />[*][b][b]QUICK PORTAL ENTRY[/b]\n<br />Enter complete 12-glyph addresses using the game's native portal functionality.[/b][/*]\n<br />[*][b][b]PERFORMANCE &amp; STABILITY[/b]\n<br />Optimized interface processing, improved responsiveness and additional compatibility checks.[/b][/*]\n<br />[*][b][b]SAFE &amp; OPTIONAL[/b]\n<br />Uses destination validation and manual confirmation. No direct save editing. Uninstall without removing IGM.[/b][/*]\n<br />[/list][b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D][b]HOW IT WORKS[/b][/color][/size]\n<br />[b][color=#39DDF2]01 — COPY GLYPHS OR SAVE A BOOKMARK[/color][/b]\n<br />Copy a portal address from a website, or press [b]F8[/b] to save your favourite destinations using [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM)[/url].\n<br />[b][color=#39DDF2]02 — OPEN A PORTAL[/color][/b]\n<br />Activate a planetary portal in No Man's Sky and open its glyph-entry interface.\n<br />[b][color=#39DDF2]03 — PASTE OR SELECT A DESTINATION[/color][/b]\n<br />Paste your copied address or choose one of your saved bookmarks in the redesigned interface.\n<br />[b][color=#39DDF2]04 — CONFIRM AND TRAVEL[/color][/b]\n<br />Confirm your selection. The extension handles the portal glyph entry through the game's native functionality, subject to compatibility and destination checks.[/b]\n<br />[center][b]\n<br />[color=#F2C66D][i]Find it online. Paste the glyphs. Explore the universe.[/i][/color]\n<br />[/b][/center]\n<br />[b][color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />\n<br />[size=5][color=#39DDF2][b]REQUIREMENTS[/b][/color][/size][/b]\n<br />[list]\n<br />[]No Man's Sky — Steam version for Windows. Required Mod: Latest Imperial Galactic Map (IGM) The matching IGM installation, including its main xinput9_1_0.dll.Your existing IGM data and bookmarks.[/list][b][color=#FFCA70][b]Compatibility warning:[/b][/color]\n<br />Each Version update was built specifically for the matching [url=https://www.nexusmods.com/nomanssky/mods/4756]Latest Imperial Galactic Map (IGM)[/url] core.\n<br />The extension verifies the exact IGM core build and required APIs. Replacing the main DLL with a different version may prevent the portal extension from loading.\n<br />[b]Do not mix different IGM and Quick Portal Glyphs versions unless their compatibility has been confirmed.[/b]\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]INSTALLATION[/b][/color][/size]\n<br />[b]1.[/b] Install the required version of Imperial Galactic Map first: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) [/url] on Nexus\n<br />[b]2.[/b] Open your No Man's Sky installation directory[/b][i] Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries[/i]\n<br />[b]3. Extract the extension ZIP into that directory, preserving its folder structure.[/b]\n<br />[b]4. Launch No Man's Sky normally through Steam.[/b]\n<br />\n<br />[color=#F2C66D][b]IMPORTANT:[/b][/color] Do not replace the main IGM DLL when installing this extension. Do not delete or overwrite your existing IGM data folder.\n<br />[b]Updating Quick Portal Glyphs:[/b]\n<br />With the game closed, replace only [b]IGM_Portal.dll[/b] with the version compatible with your installed IGM core.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#39DDF2][b]UNINSTALLATION[/b][/color][/size]\n<br />Quick Portal Glyphs is an optional extension.\n<br />To uninstall it, close No Man's Sky and remove:\n<br />[code]\n<br />Binaries/IGM_Portal.dll[/code][b][b]Your main Imperial Galactic Map installation, existing bookmarks and data can remain untouched.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color]\n<br />[size=5][color=#F2C66D]COMPATIBILITY &amp; LIMITATIONS[/color][/size]\n<br />- The extension does not bypass the game's glyph knowledge requirements.[]The extension does not modify station ownership, missions or save-game progression.\n<br />- The extension does not include Imperial Galactic Map itself.\n<br />[color=#39DDF2]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/b]\n<br />[center][b][b][size=5][color=#39DDF2][b]PORTAL GLYPHS — BOOKMARKS[/b][/color][/size]\n<br />[color=#F2C66D][i]The universe is yours to rediscover.[/i][/color]\n<br />[b]Required Mod: [url=https://www.nexusmods.com/nomanssky/mods/4756]Imperial Galactic Map (IGM) [/url]— Not a standalone mod.[/b]\n<br />[/b][/b][/center]\n<br />",
     "state": "normal",
@@ -713327,9 +713681,9 @@
         "file_id": 50825,
         "name": "Quick Portal Glyphs Bookmarks 0.6.9b",
         "version": "0.6.9b",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 8,
         "file_name": "Quick Portal Glyphs Bookmarks 0.6.9b 4769 0.6.9b 2026-11-23T16-14Z xDwj9UsfP.zip",
         "detected_file_extension": "zip",
@@ -713342,6 +713696,31 @@
         "size_in_bytes": 8854,
         "changelog_html": "- Migrated to the portal service provided by IGM v0.69.\n- The addon no longer installs hooks or contains NMS addresses or version profiles.\n- Retains favourites, address pasting and glyph entry through the IGM service.\n- Adds Simplified Chinese and follows the language selected in IGM.\n- Adapts to the IGM 0.69b service, including its alternative ASI loading mode.\n- Executable validation remains centralized in IGM; the addon does not read NMS or install hooks.\n- Updates release identification and file properties to 0.6.9b.",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/26/5a/c6/265ac68b-e1b6-47f3-a28e-ae721c06ef1b"
+      },
+      {
+        "id": [
+          50860,
+          1634
+        ],
+        "uid": 7017976612524,
+        "file_id": 50860,
+        "name": "Quick Portal Glyphs Bookmarks 0.7.0",
+        "version": "0.7.0",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 9,
+        "file_name": "Quick Portal Glyphs Bookmarks 0.7.0 4769 0.7.0 2026-11-25T16-51Z kAMZq0anl.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795625498,
+        "uploaded_time": "2026-11-25T16:51:38.000+00:00",
+        "mod_version": "0.7.0",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/468fcde55d9382aaa2069c493077d777be85a6d00a933e7077ae61f03d609a1f",
+        "description": "-[b]Requires [url=https://www.nexusmods.com/nomanssky/mods/4756]newest Imperial galactic map IGM[/url][/b]<br />Install IGM_Portal.dll on [b]Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;Binaries[/b]<br />[b][size=4]Keep your existing IGM folder when updating.[/size][/b]",
+        "size_kb": 9,
+        "size_in_bytes": 9256,
+        "changelog_html": "- Package adapted to IGM 0.70. Preserves bookmarks, glyphs and controls.\n- Native game changes are handled by IGM; this addon still reads no game addresses and installs no game hooks.",
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/41/a1/d1/41a1d1f7-4831-4c99-a840-e976d43bb54b"
       }
     ],
     "changelogs": {
@@ -713383,6 +713762,10 @@
         "- Adapts to the IGM 0.69b service, including its alternative ASI loading mode.",
         "- Executable validation remains centralized in IGM; the addon does not read NMS or install hooks.",
         "- Updates release identification and file properties to 0.6.9b."
+      ],
+      "0.7.0": [
+        "- Package adapted to IGM 0.70. Preserves bookmarks, glyphs and controls.",
+        "- Native game changes are handled by IGM; this addon still reads no game addresses and installs no game hooks."
       ]
     }
   },
@@ -715592,7 +715975,7 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4793/4793-1794150175-1472059179.png",
     "author": "RyldvirRedbeard",
-    "updated_timestamp": 1794150787,
+    "updated_timestamp": 1795629412,
     "created_timestamp": 1794150349,
     "description": "Several mods have been made to make craftable corvette parts. Since it seems all have been abandoned I decided to put out mine that I've been maintaining for my own use. Makes all parts craftable including the new parts added with forsaken. Also adds all parts to the station parts shop.",
     "state": "normal",
@@ -715632,9 +716015,9 @@
         "file_id": 50536,
         "name": "Craftable And Buyable Corvette Parts",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 8,
         "file_name": "Craftable And Buyable Corvette Parts 4793 1 2026-11-08T15-13Z s60W14Sn4.zip",
         "detected_file_extension": "zip",
@@ -715647,6 +716030,31 @@
         "size_in_bytes": 8950,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/df/63/36/df633645-c2e9-4f8e-ba0e-c183065506a9"
+      },
+      {
+        "id": [
+          50862,
+          1634
+        ],
+        "uid": 7017976612526,
+        "file_id": 50862,
+        "name": "Craftable And Buyable Corvette Parts",
+        "version": "2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 8,
+        "file_name": "Craftable And Buyable Corvette Parts 4793 2 2026-11-25T17-56Z SxEYBfKhb.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795629412,
+        "uploaded_time": "2026-11-25T17:56:52.000+00:00",
+        "mod_version": "2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/8d12bc717ec3ef1966bf941e471934ebb7ddf6593eb376e56d56624ee1648db0",
+        "description": "Adds the new unfinished thruster and lander to the station part shop.",
+        "size_kb": 8,
+        "size_in_bytes": 9026,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/61/c0/10/61c01028-230d-4438-ac03-1732faea9527"
       }
     ],
     "changelogs": {}
@@ -716059,10 +716467,10 @@
     "mod_id": 4801,
     "name": "ggf-show-others-capes",
     "summary": "See other players' capes in multiplayer. The game hides every cape except your own; this mod shows them on your screen. Only you need it: nothing is sent, and other players don't need the mod. Copy ShowCapes into GAMEDATA&#92;MODS, or use the AMUMSS script. Built for NMS 7.14; remove it after a game update until a new version is out.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4801/4801-1794520195-1539800868.jpg",
     "author": "GoodGuysFree",
-    "updated_timestamp": 1794521353,
+    "updated_timestamp": 1795611205,
     "created_timestamp": 1794521353,
     "description": "[size=4]Description[/size]\n<br />No Man's Sky hides other players' capes in multiplayer: your game only ever shows your own. This mod makes your game show the capes other players wear.\n<br />When the game builds another player's character, it looks up the cape set by its name, CHAR_CAPE, and swaps their cape for \"no cape\". This mod renames that set in one game file, so the swap never happens. Nothing else changes.\n<br />\n<br />[size=4]Installation instructions[/size]\n<br />Main file (no tools needed):\n<br />1. Close the game.\n<br />2. Open the game's GAMEDATA folder (Steam: C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;No Man's Sky&#92;GAMEDATA).\n<br />3. Create a folder named MODS there if there is none.\n<br />4. Copy the ShowCapes folder from the zip into MODS.\n<br />To uninstall, delete GAMEDATA&#92;MODS&#92;ShowCapes.\n<br />AMUMSS file (optional, instead of the main file): put ggf-show-others-capes.lua in AMUMSS's ModScript folder and run AMUMSS as usual. Use one or the other, not both.\n<br />After a game update, remove the main file until an updated version is out.\n<br />\n<br />[size=4]Main features[/size]\n<br />- See other players' capes in multiplayer.\n<br />- Only you need it to see theirs. It changes what your game shows, not what it sends. Players without the mod still see no capes.\n<br />- Your own cape, the Appearance Modifier and your saves are unaffected.\n<br />- One name changed in one file: CHARACTERCUSTOMISATIONDESCRIPTORGROUPSDATA.MBIN.\n<br />- Good to know: few players wear a cape. Cape-wearers get a small round jetpack, so a full-size jetpack means no cape. Other players' capes may hang still instead of fluttering.\n<br />\n<br />[size=4]Requirements[/size]\n<br />- No Man's Sky 7.14 on PC. Tested on Steam.\n<br />- Main file: nothing else.\n<br />- AMUMSS file: AMUMSS.\n<br />- Conflicts with other mods that replace the same file. Use the AMUMSS file in that case.\n<br />\n<br />[size=4]Shout outs[/size]\n<br />- Hello Games, for No Man's Sky.\n<br />- The MBINCompiler and AMUMSS makers.\n<br />- Claude (Anthropic's AI) helped find the one-word fix in the game's code.",
     "state": "normal",
@@ -716077,9 +716485,9 @@
         "file_id": 50618,
         "name": "Show Capes Data 0.1.0 Nms 7.14",
         "version": "0.1.0",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 23,
         "file_name": "Show Capes Data 0.1.0 Nms 7.14 4801 0.1.0 2026-11-12T21-51Z IohEj952Z.zip",
         "detected_file_extension": "zip",
@@ -716102,8 +716510,8 @@
         "file_id": 50619,
         "name": "Show Capes Data 0.1.0 Amumss Nms 7.14",
         "version": "0.1.0",
-        "category_id": 3,
-        "category_name": "OPTIONAL",
+        "category_id": 7,
+        "category_name": "ARCHIVED",
         "is_primary": false,
         "size": 0,
         "file_name": "Show Capes Data 0.1.0 Amumss Nms 7.14 4801 0.1.0 2026-11-12T21-58Z KsnM3TtbN.zip",
@@ -716117,6 +716525,56 @@
         "size_in_bytes": 746,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/60/55/18/6055185d-1d14-41a6-8785-1c481268a7f3"
+      },
+      {
+        "id": [
+          50853,
+          1634
+        ],
+        "uid": 7017976612517,
+        "file_id": 50853,
+        "name": "Show Capes Data 0.1.0 Amumss Nms 7.15",
+        "version": "0.1.1",
+        "category_id": 3,
+        "category_name": "OPTIONAL",
+        "is_primary": false,
+        "size": 0,
+        "file_name": "Show Capes Data 0.1.0 Amumss Nms 7.15 4801 0.1.1 2026-11-25T12-53Z oPfwFL89g.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795611184,
+        "uploaded_time": "2026-11-25T12:53:04.000+00:00",
+        "mod_version": "0.1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/c8d3cffdf9ccc29a1e7046ef7fef77cfe4892788d1f4df02aa2959592b36f4b3",
+        "description": "AMUMSS version: the same one-name change as the main file, applied to your own game file. Put ggf-show-others-capes.lua in AMUMSS's ModScript folder and run AMUMSS. Combines with other AMUMSS mods of this file. Use this or the main file, not both.",
+        "size_kb": 0,
+        "size_in_bytes": 746,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/46/52/36/46523606-4908-4bd8-9b03-42135f570eb6"
+      },
+      {
+        "id": [
+          50854,
+          1634
+        ],
+        "uid": 7017976612518,
+        "file_id": 50854,
+        "name": "Show Capes Data 0.1.0 Nms 7.15",
+        "version": "0.1.1",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 23,
+        "file_name": "Show Capes Data 0.1.0 Nms 7.15 4801 0.1.1 2026-11-25T12-53Z 4tDiNufPL.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795611205,
+        "uploaded_time": "2026-11-25T12:53:25.000+00:00",
+        "mod_version": "0.1.1",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/83a5e3879ca11f3daf3bc74e4cd8fca5390090c5bb1d0077105f125f43b8ee17",
+        "description": "",
+        "size_kb": 23,
+        "size_in_bytes": 23844,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/de/27/07/de2707c2-8f03-4ac5-9c53-c4088d927db6"
       }
     ],
     "changelogs": {}
@@ -717409,7 +717867,7 @@
     "author": "kat6",
     "updated_timestamp": 1795209526,
     "created_timestamp": 1795163554,
-    "description": "[size=4][b]Description[/b][/size]\n<br />Adds a female player model to the game. to get the model use anomaly race, head - 1, torso - 10, legs - 10. \n<br />To avoid clipping I've also added a mod that turns armour - 2 invisible.\n<br />\n<br />THIS IS A VERY EARLY BUILD AND IS A WORK IN PROGRESS!!\n<br />\n<br />UPDATE!\n<br />\n<br />New version now out!\n<br />\n<br />shortens the neck (still needs work)\n<br />removes the buns and patches missing mesh on the hair\n<br />add 3 new hairstyles replacing helmet 2,3 &amp; 4\n<br />markings 1-4 now replace eye color\n<br />new eye colors are magenta, blue, brown and red\n<br />smoothed the skin texture and improved mesh quality \n<br />hair colors are now brighter and work with all 4 hairstyles \n<br />smoother facial animations\n<br />head animations now working\n<br />compatible with each body type but works best with 3\n<br />\n<br />current bugs (im working on it)\n<br />eye placement can warp when interacting with emote menu or teleporting (temporary)\n<br />facial animations still don't work outside of interaction menus, \n<br />appearance modifier, shops, npc interaction and piloting trigger facial animation but they wont animate in regular gameplay.\n<br />the head animation works for looking around and idles.\n<br />some model flickering and crashing has occurred but rare\n<br />\n<br />MAJOR BUG\n<br />\n<br />The anomaly triggers major deformation of the character model. (attempting to patch)\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Simply drop it into your mods folder and start the game.\n<br />\n<br />FUTURE PLANS!\n<br />\n<br />fully working facial animations\n<br />improved head to torso connection\n<br />improved body mesh and texturing\n<br />new heads and faces including alien races\n<br />\n<br />\n<br />",
+    "description": "[size=4][b]Description[/b][/size]\n<br />Adds a female player model to the game. to get the model use anomaly race, head - 1, torso - 10, legs - 10. \n<br />To avoid clipping I've also added a mod that turns armour - 2 invisible.\n<br />\n<br />THIS IS A VERY EARLY BUILD AND IS A WORK IN PROGRESS!!\n<br />\n<br />UPDATE!\n<br />\n<br />New version now out!\n<br />\n<br />shortens the neck (still needs work)\n<br />removes the buns and patches missing mesh on the hair\n<br />add 3 new hairstyles replacing helmet 2,3 &amp; 4\n<br />markings 1-4 now replace eye color\n<br />new eye colors are magenta, blue, brown and red\n<br />smoothed the skin texture and improved mesh quality \n<br />hair colors are now brighter and work with all 4 hairstyles \n<br />smoother facial animations\n<br />head animations now working\n<br />compatible with each body type but works best with 3\n<br />\n<br />current bugs (im working on it)\n<br />eye placement can warp when interacting with emote menu or teleporting (temporary)\n<br />facial animations still don't work outside of interaction menus, \n<br />appearance modifier, shops, npc interaction and piloting trigger facial animation but they wont animate in regular gameplay.\n<br />the head animation works for looking around and idles.\n<br />some model flickering and crashing has occurred but rare\n<br />\n<br />MAJOR BUG\n<br />\n<br />The anomaly triggers major deformation of the character model. (attempting to patch)\n<br />\n<br />\n<br />[size=4][b]Installation instructions[/b][/size]\n<br />Simply drop it into your mods folder and start the game.\n<br />\n<br />FUTURE PLANS!\n<br />\n<br />fully working facial animations\n<br />improved head to torso connection\n<br />improved body mesh and texturing\n<br />new heads and faces including alien races\n<br />\n<br />(New Update Incoming)\n<br />11-25-2026\n<br />\n<br />merged invisible armor 2 with the base mod\n<br />replaced armor 2 with a glass dome helmet\n<br />re-sculpted the body and balanced proportions \n<br />\n<br />(Working on now)\n<br />\n<br />fixing facial animations \n<br />fixing body deformation/crashing in anomaly \n<br />editing the ears elf to human\n<br />i've identified the cause of the eye deformation \n<br />\n<br />",
     "state": "normal",
     "warningMessage": "",
     "files": [
