@@ -715777,7 +715777,7 @@
     "version": "1",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4790/4790-1794147758-1183063447.png",
     "author": "RyldvirRedbeard",
-    "updated_timestamp": 1794596578,
+    "updated_timestamp": 1795644778,
     "created_timestamp": 1794148077,
     "description": "[size=4][b]Description[/b][/size]\n<br />[color=#D4D4D8]Unlocking building across all bases. Build base parts on your corvette, build corvette parts on your freighter, etc. Allows for editing corvette ship part editing anywhere. Scale anything as small or large as you like. Build camera as well as photomode camera have had collision removed allowing you to grab or place items that are sunk into walls. No items will be removed if you delete another part. this allows doing things like swapping habs out without removing your decorations. Base parts no longer edit terrain, build with the land not against it.[/color]\n<br />\n<br />[color=#D4D4D8][size=3]All items across all bases.\n<br />Corvette editing anywhere.\n<br />Scaling to any size.\n<br />Build and photo mode cameras have no collision.[/size][/color]\n<br />[color=#D4D4D8][size=3]Prevents parts from deleting each other when one part is removed.[/size][/color]\n<br />[color=#D4D4D8][size=3]Base parts will not edit terrain.[/size][/color]\n<br />\n<br />Camera Settings (optional file)\n<br />Slows down build cam. combined with the collision removal allows for easy nesting of parts.\n<br />",
     "state": "normal",
@@ -715792,9 +715792,9 @@
         "file_id": 50531,
         "name": "Toolbox",
         "version": "1",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 32,
         "file_name": "Toolbox 4790 1 2026-11-08T14-27Z DcGFLK6wG.zip",
         "detected_file_extension": "zip",
@@ -715857,6 +715857,31 @@
         "size_in_bytes": 8538,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/d5/60/97/d56097bd-4578-434a-a01a-0245081e6f5c"
+      },
+      {
+        "id": [
+          50869,
+          1634
+        ],
+        "uid": 7017976612533,
+        "file_id": 50869,
+        "name": "Toolbox",
+        "version": "2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 32,
+        "file_name": "Toolbox 4790 2 2026-11-25T22-12Z 6Xd7Otx4G.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795644778,
+        "uploaded_time": "2026-11-25T22:12:58.000+00:00",
+        "mod_version": "2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/3432eff80ccf1a54bcdfceca02547f33f40a0d508f556a526b9d58a3e4a89eac",
+        "description": "Restored the Limos reactor that had been disabled by mistake. ",
+        "size_kb": 32,
+        "size_in_bytes": 33023,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/01/ab/a7/01aba762-5b89-4eb4-b9c0-a63c99fae2a3"
       }
     ],
     "changelogs": {}
