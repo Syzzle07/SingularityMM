@@ -50990,10 +50990,10 @@
     "mod_id": 1096,
     "name": "Exosolar's and Babs' Beyond Base Building",
     "summary": "★ FULLY MP compatible, this mod adds an extreme degree of freedom to the vanilla base-building options",
-    "version": "7.10",
+    "version": "7.15",
     "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/1096/1096-1676239400-1128733167.png",
     "author": "Exosolar Sparky NeptuneX3 Babscoole",
-    "updated_timestamp": 1793246478,
+    "updated_timestamp": 1795779477,
     "created_timestamp": 1566025938,
     "description": "[b][color=#f1c232][size=4]What is this Mod?[/size][/color][/b]\n<br />[size=4]There are now over 1,000 buildable base parts in vanilla No Man's Sky! It's a dream come true!\n<br />This mod adds an extreme degree of freedom to the vanilla base-building options.\n<br />This does NOT mean the mod gives you access to all buildable parts.  You still need to learn the blueprints for each.  :)\n<br />Beyond Base Building does NOT add any new build parts to the game.\n<br />\n<br />Now includes all the functionality of gBase Items, [color=#ff0000]if chosen by running the Lua script[/color]:[/size]\n<br />\n<br />[list]\n<br />[*][size=4]Can multiply power, extraction, and storage rates by 2, 5, or 10. WARNING: Bases built with this mod cannot be uploaded for multiplayer when using 2x, 5x, or 10x multiplied rates.[/size][/*]\n<br />[/list]\n<br />[list]\n<br />[*][size=4]EM Generators do not need a hotspot and produce 250 power.  Not enabled by default.  Must run Lua through ANUMSS and answer question \"Choose a multiplier for Storage and Rates and EMAnywhere status\" to generate custom mod file to enable.[/size][/*]\n<br />[/list][size=4]\n<br />\n<br />It is [b]fully compatible[/b] with multiplayer, co-op building, uploading, etc, because it [i]does not add[/i] any parts, which would cause issues in multiplayer.[/size]\n<br />\n<br />[size=4][color=#f1c232][b]★ Beyond Basebuilding[/b] is fully Lua scripted, with script provided for easy updating and merging [b]★[/b][/color] and carries over all of the official updates and improvements offered by Hello Games [b]plus[/b]:[/size]\n<br />\n<br />[list]\n<br />[*][size=4]Most parts can be Scaled [i][color=#fff2cc]except[/color][/i] prefab building parts, [color=#fff2cc]Exocraft Geobays, Mineral/Gas Extractors and Base Computer[/color] (Door attachment points bug out when scaled, and issues persist with scaled base computers and geobays).  There may be others not listed.  Be aware, scaling breaks snapping.[/size][/*]\n<br />[*][size=4]Many parts can be built in a Freighter.  [color=#fff2cc][i]Exceptions[/i][/color]  include the Base Computer, Industrial Mining parts, Vehicle Summoners and planet-based teleporter.[/size][/*]\n<br />[*][size=4]Many parts can be built at a Planetary Base [i][color=#fff2cc]except[/color][/i] the freighter teleporter and the Orbital Exocraft Materialiser[/size][/*]\n<br />[*][size=4]All parts can be built above and below water[/size][/*]\n<br />[*][size=4]All parts can change color and material[/size][/*]\n<br />[*][size=4]All parts, which can be deleted, can be deleted without also deleting attached objects [color=#fff2cc][i]except[/i][/color] Decals and Posters[/size][/*]\n<br />[*][size=4]No build-count limits [i][color=#fff2cc]except[/color][/i] for parts related to resources harvesting, certain terminals, beacons and message capsules (and others with limits that are hard coded into the game, as they are added or changed by Hello Games).[/size][/*]\n<br />[*][size=4]Unlimited Storage Containers[color=#cccccc][size=3][i]—*This does not increase actual storage amounts: Each numbered container acts as an index to the store rather than a physical box[/i][/size][/color][/size][/*]\n<br />[*][size=4]Foundation, Pavings and Communications Station can be placed anywhere (not only on bare terrain)[/size][/*]\n<br />[*][size=4]Non corvette parts buildable with corvettes[/size][/*]\n<br />[/list][size=4]\n<br />Some customization of the mod is available just by running it through AMUMSS, where you'll be prompted about enabling several feature.  Even more customization can be had by editing the top portion of the Lua before processing.  See Lua usage below for link to AMUMSS install and basic usage How to.[/size]\n<br />\n<br />[color=#f1c232][b][u][size=5]Disclaimer:[/size][/u][/b][/color]\n<br />[size=3]This MOD makes changes to the placement and usage setting of vanilla parts.  If the MOD is removed, the vanilla settings will be restored and parts that \"violate\" a vanilla setting as well as those connected may go \"poof\".  Best practice is to regularly backup your saves for semi-painless recovery from the unexpected.[/size]\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />\n<br />[size=5][b][u][color=#f1c232]Installation[/color]\n<br />[/u][/b][/size]\n<br />[b]Extract archive contents to GAMEDATA&#92;MODS\n<br />\n<br />[color=#f1c232][size=4][u]Lua usage[/u][/size][/color]\n<br />[size=4][b]✦[url=https://www.nexusmods.com/nomanssky/mods/2626]How to use AMUMSS at No Man's Sky Nexus - Mods and Community (nexusmods.com)[/url]✦[/b][/size][/b]\n<br />\n<br />[size=4][u][b][color=#f1c232]Modified Files[/color][/b][/u][/size]\n<br />[color=#d8d8d8][size=3]METADATA&#92;REALITY&#92;TABLES&#92;BASEBUILDINGOBJECTSTABLE.MBIN[/size][/color]\n<br />\n<br />[i][color=#cccccc][size=3]Also check out...[/size][/color][/i]\n<br />[size=5]✦[b][color=#ffdd00][url=https://www.nexusmods.com/users/58018181?tab=user+files]Exosolar's Other Mods[/url][/color][/b]✦[/size]\n<br />\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />\n<br />[size=5][u][b][color=#f1c232]Is this Mod up-to-date?[/color][/b][/u][/size]\n<br />[size=4][i][b]Any mod files which are not hidden or demoted to the \"Old Files\" area can be expected to work.[/b][/i]\n<br />All uploaded files (on the Files page) are maintained with their packing date and version of the MBINCompiler used to pack it. Older mod versions, no longer compatible with the current version of No Man's Sky will be demoted to the \"Old Files\" subsection, but will remain available for download. There are no side-effects to using this mod.[/size]\n<br />\n<br />[size=4][u][b][color=#f1c232]How to update, tweak, combine, or patch the mod with AMUMSS?[/color][/b][/u][/size]\n<br />[size=4]As this mod is now Lua scripted, you can [color=#fff2cc]easily [b]update[/b], [b]tweak[/b] or [b]merge[/b] the mod yourself[/color] (if a game update breaks this PAK of the mod, or you have other PAK or Lua mods that could conflict with this one). [color=#cccccc][size=3][i]—*Click on the spoiler below for more[/i][/size][/color][/size]\n<br />[spoiler]\n<br />[size=3][u]Notes on AMUMSS:[/u]\n<br />[url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url] tries to update [url=https://github.com/monkeyman192/MBINCompiler/releases]MBINcompiler[/url] automatically. If it fails to convert EXML/MBIN files, its likely due to a very recent NMS version update and MBINcompiler is awaiting an update too.\n<br />If so, I highly recommend you to disable your mods and wait for MBINCompiler to be updated (it's pretty quick in general).[/size]\n<br />\n<br />\n<br />[size=3][u][b][color=#f1c232]Updating the mod after a game update:[/color][/b][/u][/size]\n<br />[spoiler][list]\n<br />[*] [size=3]Download [url=https://www.nexusmods.com/nomanssky/mods/957]AMUMSS[/url], and extract it locally,  avoid placing the AMUMSS folder in a path with special characters or in a system folder like [color=#fff2cc][i]\"C:&#92;Program Files (x86)&#92;(...)\"[/i][/color].[/size][/*]\n<br />[*][size=3]Place the mod Lua script (only the .LUA file, not the .PAK file) in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]AMUMSS will normally auto-detect the NMS installation folder, but you can also manually edit the path in the [color=#fff2cc][i]NMS_FOLDER.txt[/i][/color] file.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root of the AMUMSS folder and follow the steps, selecting the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[*][size=3]A new modded PAK file will be created, using the last update of the MBIN game files duly amended by the script.[/size][/*]\n<br />[/list]\n<br />[size=3]Most of the time simply recompiling the mod using the Lua script will make it compatible again. Use the latest script to ensure you adopt any mod adjustments to accommodate the latest NMS build.[/size][size=3] There are two main causes of mods not correctly updating with this method:\n<br />1) MBINCompiler needs an update to be able to decompile the latest version of the game MBIN files.\n<br />2) Structural changes have been made to the MBIN files called by this Lua script. Whilst unlikely, this will require some script rewrite and other mods are likely affected.[/size][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Tweaking the mod:[/color][/b][/u][/size]\n<br />[spoiler][size=3]Use the same process as described in [color=#fff2cc][i]Updating the mod[/i][/color].\n<br />Just modify the script as you want before recompiling it. Look at the top of my scripts, you can generally edit modifiers there, or even disable/enable some features very easily.[/size]\n<br />\n<br />[size=3][color=#cccccc][i]*[url=https://notepad-plus-plus.org/]Notepad++[/url] or [url=https://code.visualstudio.com/download/]VSCode[/url] are generally recommended to read EXML and Lua files, due to large file support and automatic highlighting. The [url=https://sourceforge.net/projects/npp-compare/]Compare plugin[/url] for Notepad++, and Lua is also a must-have to highlight file differences.[/i][/color][/size][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Combining mods that provide Lua scripts:[/color][/b][/u][/size]\n<br />[spoiler][size=3]You'll want to do this if multiple mods affect the same MBIN file.[/size]\n<br />\n<br />[list]\n<br />[*] [size=3]Place all the scripts in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Follow the step, selecting that you want to combine all the scripts into one PAK file, and the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[/list]\n<br />[size=3]AMUMSS will output a PAK file that will contain the modifications of all the scripts.[/size]\n<br />[color=#cccccc][size=3][i]*If the scripts modify the exact same values in the MBIN file, the last loaded script will overwrite the preceding script values.[/i][/size][/color][/spoiler]\n<br />\n<br />[size=3][u][b][color=#f1c232]Patch in the mod to make it compatible with other PAK files:[/color][/b][/u][/size]\n<br />[spoiler][size=3]You will want to do this if another mods isn't Lua scripted, and affects the same MBIN file as the Lua scripted mod.\n<br />\n<br />It will work when :\n<br />Case 1) you patch a Lua scripted mod for only one other PAK.\n<br />Case 2) you patch a Lua scripted mod for several other PAKs, but only if the other PAKs don't modify the same MBIN files between them.[/size]\n<br />\n<br />[size=3][b]How to create a patched PAK:[/b][/size]\n<br />\n<br />[list]\n<br />[*] [size=3]Copy the script and the other mod(s) PAK(s) in the [color=#fff2cc][i]ModScript[/i][/color] folder of AMUMSS.[/size][/*]\n<br />[*][size=3]Launch [color=#fff2cc][i]BUILDMOD.bat[/i][/color] in the root folder of AMUMSS, and follow the steps, selecting the option to automatically install it in the NMS [color=#fff2cc][i]MODS[/i][/color] folder.[/size][/*]\n<br />[*][size=3]The new PAK file will contain all the Lua script modifications, and a compatibility patch for the other mod(s) PAK(s).[/size][/*]\n<br />[*][size=3]Rename it something like [color=#fff2cc][i]\"__zzz Scripted Mod Name -Patched For- The Other Mod Name.pak\"[/i][/color].[/size]\n<br />[size=3][color=#fff2cc][i]\"__zzz\"[/i][/color] prefix is to ensure that it'll be loaded after the mod(s) it was patched for (for NMS loading order, underscore [i]\"_\"[/i] came after every other characters).[/size][/*]\n<br />[*][size=3]Remove the original scripted mod PAK from the [color=#fff2cc][i]MODS[/i][/color] folder, and copy both the new patched one, and the other mod(s) PAK(s), into it.[/size][/*]\n<br />[/list][size=3][u]Notes:[/u]\n<br />[b]Be sure the mod PAK you want to create a compatibility patch for, is updated for the latest NMS version.[/b]\n<br />-&gt; When AMUSS find an MBIN file affected by a script and by a PAK in the [color=#fff2cc][i]ModScript[/i][/color] folder, it will take the MBIN file from the mod PAK over the original one of the game, and will apply to it the modifications listed in the script.\n<br />So, if the MBIN file of the mod PAK is not updated, the one in the resulting patched PAK won't be either.[/size][/spoiler]\n<br />[/spoiler]\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />[color=#f1c232][u][b][size=5]Philosophy[/size][/b][/u][/color]\n<br />[size=4]All the erroneous limitations in building are pretty silly, aren't they? In making this mod, I paid specific attention to making sure I did not make changes that will invalidate the bases built with it from online play. Any base made with Beyond BaseBuilding will be fully viable and visible in online play, even when other players don't have this mod! It does this by only editing placement rules while you are in the building editor and not modifying any of the actual base parts themselves.\n<br />We hope you enjoy the mod and naturally, your comments are most welcome. We can also be found on the No Man's Sky Discord or reached directly at: [color=#f1c232]Babscoole #6326 [/color]or [color=#f1c232]Exosolar#5120[/color], or if its about the Lua script: [color=#f1c232]NeptuneX3#8095[/color] [size=3][i][size=4]or [/size][/i][/size][color=#f1c232]s p a r k y#0536[/color][/size]\n<br />\n<br />\n<br />[center][img]https://staticdelivery.nexusmods.com/images/1634/95741288-1598421367.png[/img][/center]\n<br />[color=#f1c232][size=5][u][b]Credits and Special Thanks![/b][/u][/size][/color]\n<br />[size=4][i]Hello Games for making the wonderful, vast, and fun game, No Man's Sky!\n<br />monkeyman192 for the MBINCompiler and his continued efforts to keep it up-to-date\n<br />Mjjstral &amp; Wbertro for the AMUMSS script-based auto modbuilder/updater,\n<br />Tub0Crisco for the No Man's Sky Mod Station A.K.A. NMSMS\n<br />\n<br />[b]Big thanks[/b] to all of you lovely people who offer donations! It is greatly appreciated, and will help Exosolar buy lunch as a busy and broke college student! :D\n<br />\n<br />And, of course, thanks to all of the other modders who make mods too, as we often inspect the work of other modders to learn how things are done: [url=https://www.nexusmods.com/users/12249518]RangerDulann[/url], [url=https://www.nexusmods.com/users/1964784]WoodyMontana[/url], [url=https://www.nexusmods.com/users/42286415]jasondude[/url], [url=https://www.nexusmods.com/nomanssky/users/38106355?tab=user+files]Gumsk[/url], [url=https://www.nexusmods.com/users/45932167?tab=user+files]Mjjstral[/url], [url=https://www.nexusmods.com/users/41291360]moddinaccount[/url], Devilin Pixy, saa044, and others have all helped us learn to mod effectively! Without the above-mentioned, their mods and applications, we would be unable to make any mods at all![/i][/size]\n<br />\n<br />[size=5][i]\"If I have seen further than others, it is by standing upon the shoulders of giants\"[/i][/size]\n<br />[right][size=4]﻿-Sir Isaac Newton  [/size][/right]\n<br />",
     "state": "normal",
@@ -51022,7 +51022,7 @@
         "size_kb": 14,
         "size_in_bytes": 14142,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-1-0-1566025917.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-1-0-1566025917.zip.json"
       },
       {
         "id": [
@@ -51047,7 +51047,7 @@
         "size_kb": 13,
         "size_in_bytes": 13798,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-1-01-1566064072.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-1-01-1566064072.zip.json"
       },
       {
         "id": [
@@ -51072,7 +51072,7 @@
         "size_kb": 14,
         "size_in_bytes": 14106,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-1-01-1566064395.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-1-01-1566064395.zip.json"
       },
       {
         "id": [
@@ -51097,7 +51097,7 @@
         "size_kb": 13,
         "size_in_bytes": 13750,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-1-02-1566089348.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-1-02-1566089348.zip.json"
       },
       {
         "id": [
@@ -51122,7 +51122,7 @@
         "size_kb": 13,
         "size_in_bytes": 13781,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar 1.2-1096-1-2-1566122743.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar 1.2-1096-1-2-1566122743.zip.json"
       },
       {
         "id": [
@@ -51147,7 +51147,7 @@
         "size_kb": 13,
         "size_in_bytes": 13731,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-1-3-1566265288.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-1-3-1566265288.zip.json"
       },
       {
         "id": [
@@ -51172,7 +51172,7 @@
         "size_kb": 13,
         "size_in_bytes": 13725,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar 1.4-1096-1-4-1566606493.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar 1.4-1096-1-4-1566606493.zip.json"
       },
       {
         "id": [
@@ -51197,7 +51197,7 @@
         "size_kb": 13,
         "size_in_bytes": 13664,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar 1.5-1096-1-5-1566612047.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar 1.5-1096-1-5-1566612047.zip.json"
       },
       {
         "id": [
@@ -51222,7 +51222,7 @@
         "size_kb": 14,
         "size_in_bytes": 14234,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-2-0-1567138206.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding by Exosolar-1096-2-0-1567138206.zip.json"
       },
       {
         "id": [
@@ -51247,7 +51247,7 @@
         "size_kb": 14,
         "size_in_bytes": 14212,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding 2.1 by Exosolar-1096-2-1-1567746482.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding 2.1 by Exosolar-1096-2-1-1567746482.zip.json"
       },
       {
         "id": [
@@ -51272,7 +51272,7 @@
         "size_kb": 14,
         "size_in_bytes": 14194,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding 2.11 by Exosolar-1096-2-11-1567893573.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding 2.11 by Exosolar-1096-2-11-1567893573.zip.json"
       },
       {
         "id": [
@@ -51297,7 +51297,7 @@
         "size_kb": 13,
         "size_in_bytes": 13516,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding by 2.13 Exosolar-1096-2-13-1570674270.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding by 2.13 Exosolar-1096-2-13-1570674270.zip.json"
       },
       {
         "id": [
@@ -51322,7 +51322,7 @@
         "size_kb": 14,
         "size_in_bytes": 13853,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/(Synthesis) Beyond Basebuilding 2.22 by Exosolar-1096-2-22-1575407588.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/(Synthesis) Beyond Basebuilding 2.22 by Exosolar-1096-2-22-1575407588.zip.json"
       },
       {
         "id": [
@@ -51347,7 +51347,7 @@
         "size_kb": 14,
         "size_in_bytes": 13879,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/(Synthesis 2.20-2.22) Beyond Basebuilding 2.22 by Exosolar-1096-2-22-1575427294.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/(Synthesis 2.20-2.22) Beyond Basebuilding 2.22 by Exosolar-1096-2-22-1575427294.zip.json"
       },
       {
         "id": [
@@ -51372,7 +51372,7 @@
         "size_kb": 14,
         "size_in_bytes": 13840,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding 2.24 by Exosolar-1096-2-24-1579667710.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding 2.24 by Exosolar-1096-2-24-1579667710.zip.json"
       },
       {
         "id": [
@@ -51397,7 +51397,7 @@
         "size_kb": 14,
         "size_in_bytes": 14283,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding 2.26 by Exosolar-1096-2-26-1580020466.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding 2.26 by Exosolar-1096-2-26-1580020466.zip.json"
       },
       {
         "id": [
@@ -51422,7 +51422,7 @@
         "size_kb": 14,
         "size_in_bytes": 14233,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Basebuilding 2.261 by Exosolar-1096-2-26-1-1580628697.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Basebuilding 2.261 by Exosolar-1096-2-26-1-1580628697.zip.json"
       },
       {
         "id": [
@@ -51447,7 +51447,7 @@
         "size_kb": 14,
         "size_in_bytes": 14208,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-32-1583110653.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-32-1583110653.zip.json"
       },
       {
         "id": [
@@ -51472,7 +51472,7 @@
         "size_kb": 17,
         "size_in_bytes": 17384,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-33-1585286439.rar.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-33-1585286439.rar.json"
       },
       {
         "id": [
@@ -51497,7 +51497,7 @@
         "size_kb": 20,
         "size_in_bytes": 20868,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-34-1585907468.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-34-1585907468.zip.json"
       },
       {
         "id": [
@@ -51522,7 +51522,7 @@
         "size_kb": 14,
         "size_in_bytes": 14774,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building 2.41-1096-2-41-1586326299.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building 2.41-1096-2-41-1586326299.zip.json"
       },
       {
         "id": [
@@ -51547,7 +51547,7 @@
         "size_kb": 28,
         "size_in_bytes": 28225,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-41b-1586360093.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-41b-1586360093.zip.json"
       },
       {
         "id": [
@@ -51572,7 +51572,7 @@
         "size_kb": 28,
         "size_in_bytes": 28223,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-41b-1586363550.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-41b-1586363550.zip.json"
       },
       {
         "id": [
@@ -51597,7 +51597,7 @@
         "size_kb": 14,
         "size_in_bytes": 14420,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building 2.41-C-1096-2-41c-1586615031.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building 2.41-C-1096-2-41c-1586615031.zip.json"
       },
       {
         "id": [
@@ -51622,7 +51622,7 @@
         "size_kb": 28,
         "size_in_bytes": 28193,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-41c-1586664467.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-41c-1586664467.zip.json"
       },
       {
         "id": [
@@ -51647,7 +51647,7 @@
         "size_kb": 27,
         "size_in_bytes": 28141,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-41d-1587957685.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-41d-1587957685.zip.json"
       },
       {
         "id": [
@@ -51672,7 +51672,7 @@
         "size_kb": 27,
         "size_in_bytes": 28158,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-41d-1587959125.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-41d-1587959125.zip.json"
       },
       {
         "id": [
@@ -51697,7 +51697,7 @@
         "size_kb": 28,
         "size_in_bytes": 28253,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-52-1592116516.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-52-1592116516.zip.json"
       },
       {
         "id": [
@@ -51722,7 +51722,7 @@
         "size_kb": 28,
         "size_in_bytes": 28277,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-61a-1595511218.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-61a-1595511218.zip.json"
       },
       {
         "id": [
@@ -51747,7 +51747,7 @@
         "size_kb": 28,
         "size_in_bytes": 28289,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-61b-1595695780.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-61b-1595695780.zip.json"
       },
       {
         "id": [
@@ -51772,7 +51772,7 @@
         "size_kb": 28,
         "size_in_bytes": 28951,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-62-1597544250.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Exosolar's Beyond Base Building-1096-2-62-1597544250.zip.json"
       },
       {
         "id": [
@@ -51797,7 +51797,7 @@
         "size_kb": 27,
         "size_in_bytes": 27277,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-2-62b-1598881183.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-2-62b-1598881183.zip.json"
       },
       {
         "id": [
@@ -51822,7 +51822,7 @@
         "size_kb": 27,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-0-1600881298.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-0-1600881298.zip.json"
       },
       {
         "id": [
@@ -51847,7 +51847,7 @@
         "size_kb": 27,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-0b-1601018183.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-0b-1601018183.zip.json"
       },
       {
         "id": [
@@ -51872,7 +51872,7 @@
         "size_kb": 27,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-0c-1601279375.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-0c-1601279375.zip.json"
       },
       {
         "id": [
@@ -51897,7 +51897,7 @@
         "size_kb": 27,
         "size_in_bytes": 0,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-0d-1601898089.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-0d-1601898089.zip.json"
       },
       {
         "id": [
@@ -51922,7 +51922,7 @@
         "size_kb": 27,
         "size_in_bytes": 0,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-05-1603736281.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-05-1603736281.zip.json"
       },
       {
         "id": [
@@ -51947,7 +51947,7 @@
         "size_kb": 28,
         "size_in_bytes": null,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-10-1605082639.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-10-1605082639.zip.json"
       },
       {
         "id": [
@@ -51972,7 +51972,7 @@
         "size_kb": 3,
         "size_in_bytes": 3009,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/(Foundations 1.13) Beyond Base Building-1096-1-13-1609677231.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/(Foundations 1.13) Beyond Base Building-1096-1-13-1609677231.zip.json"
       },
       {
         "id": [
@@ -51997,7 +51997,7 @@
         "size_kb": 28,
         "size_in_bytes": 28877,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-10b-1611906407.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-10b-1611906407.zip.json"
       },
       {
         "id": [
@@ -52022,7 +52022,7 @@
         "size_kb": 28,
         "size_in_bytes": 29119,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-2-1613580187.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-2-1613580187.zip.json"
       },
       {
         "id": [
@@ -52047,7 +52047,7 @@
         "size_kb": 29,
         "size_in_bytes": 29238,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-3-1617260836.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-3-1617260836.zip.json"
       },
       {
         "id": [
@@ -52072,7 +52072,7 @@
         "size_kb": 29,
         "size_in_bytes": 29230,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-3b-1617721701.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-3b-1617721701.zip.json"
       },
       {
         "id": [
@@ -52097,7 +52097,7 @@
         "size_kb": 29,
         "size_in_bytes": 29235,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-37-1619003534.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-37-1619003534.zip.json"
       },
       {
         "id": [
@@ -52122,7 +52122,7 @@
         "size_kb": 29,
         "size_in_bytes": 29405,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-37b-1619012156.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-37b-1619012156.zip.json"
       },
       {
         "id": [
@@ -52147,7 +52147,7 @@
         "size_kb": 29,
         "size_in_bytes": 29252,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-37c-1619018521.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-37c-1619018521.zip.json"
       },
       {
         "id": [
@@ -52172,7 +52172,7 @@
         "size_kb": 29,
         "size_in_bytes": 29482,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-37d-1619949662.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-37d-1619949662.zip.json"
       },
       {
         "id": [
@@ -52197,7 +52197,7 @@
         "size_kb": 29,
         "size_in_bytes": 29599,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-41-1621597388.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-41-1621597388.zip.json"
       },
       {
         "id": [
@@ -52222,7 +52222,7 @@
         "size_kb": 29,
         "size_in_bytes": 29812,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-50-1622967472.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-50-1622967472.zip.json"
       },
       {
         "id": [
@@ -52247,7 +52247,7 @@
         "size_kb": 35,
         "size_in_bytes": 35986,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-64-1-1632049245.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-64-1-1632049245.zip.json"
       },
       {
         "id": [
@@ -52272,7 +52272,7 @@
         "size_kb": 35,
         "size_in_bytes": 35983,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-64-1a-1632053069.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-64-1a-1632053069.zip.json"
       },
       {
         "id": [
@@ -52297,7 +52297,7 @@
         "size_kb": 35,
         "size_in_bytes": 36040,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-71-1635577668.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-71-1635577668.zip.json"
       },
       {
         "id": [
@@ -52322,7 +52322,7 @@
         "size_kb": 36,
         "size_in_bytes": 36457,
         "changelog_html": "Updated to 3.73.  Some minor changes to the LUA for compatibility with AMUMSS 3.9.5.X+ syntax checking",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-73-1637818276.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-73-1637818276.zip.json"
       },
       {
         "id": [
@@ -52347,7 +52347,7 @@
         "size_kb": 34,
         "size_in_bytes": 35233,
         "changelog_html": "Updated to 3.81.  Using a non-public nightly release of MBINCompiler, so fingers crossed.  :)",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-81-1645424002.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-81-1645424002.zip.json"
       },
       {
         "id": [
@@ -52372,7 +52372,7 @@
         "size_kb": 34,
         "size_in_bytes": 35234,
         "changelog_html": "Update to 3.82.  Hopefully fixed the color issue, as all platforms are using the same game file version.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-82-1645541201.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-82-1645541201.zip.json"
       },
       {
         "id": [
@@ -52397,7 +52397,7 @@
         "size_kb": 34,
         "size_in_bytes": 35200,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-84-1646404709.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-84-1646404709.zip.json"
       },
       {
         "id": [
@@ -52422,7 +52422,7 @@
         "size_kb": 35,
         "size_in_bytes": 35354,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-87-1650433392.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-87-1650433392.zip.json"
       },
       {
         "id": [
@@ -52447,7 +52447,7 @@
         "size_kb": 35,
         "size_in_bytes": 35350,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-88-1651504566.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-88-1651504566.zip.json"
       },
       {
         "id": [
@@ -52472,7 +52472,7 @@
         "size_kb": 35,
         "size_in_bytes": 35350,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-89-1651584190.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-89-1651584190.zip.json"
       },
       {
         "id": [
@@ -52497,7 +52497,7 @@
         "size_kb": 35,
         "size_in_bytes": 35468,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-90-1653580019.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-90-1653580019.zip.json"
       },
       {
         "id": [
@@ -52522,7 +52522,7 @@
         "size_kb": 42,
         "size_in_bytes": 43426,
         "changelog_html": "Update for 3.97.  First swing at Endurance compatibility.  Lots of stuff left to go over, so a work in progress",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-97-1658827128.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-97-1658827128.zip.json"
       },
       {
         "id": [
@@ -52547,7 +52547,7 @@
         "size_kb": 43,
         "size_in_bytes": 43808,
         "changelog_html": "Update for 3.98.  Planter boxes now available on freighters.  Removed build limits to datasign.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-98-1659447518.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-98-1659447518.zip.json"
       },
       {
         "id": [
@@ -52572,7 +52572,7 @@
         "size_kb": 44,
         "size_in_bytes": 44964,
         "changelog_html": "Lots of Endurance \"fixes\".  GeoBays buildable on Freighters again (Change GEOBAYS_ON_FREIGHTER to true in LUA and run through AMUMSS, false by default).  Added back many other items by default as well.  Farm plants plantable in any biome.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-99-1660581425.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-3-99-1660581425.zip.json"
       },
       {
         "id": [
@@ -52597,7 +52597,7 @@
         "size_kb": 44,
         "size_in_bytes": 45077,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-01-1665215176.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-01-1665215176.zip.json"
       },
       {
         "id": [
@@ -52622,7 +52622,7 @@
         "size_kb": 44,
         "size_in_bytes": 45068,
         "changelog_html": "Change to the LUA script only for use with AMUMSS 4.0.0.5.  Will be prompted in AMUMSS if you want GeoBays on freighters.  No changes to the mod itself",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-03-1665588405.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-03-1665588405.zip.json"
       },
       {
         "id": [
@@ -52647,7 +52647,7 @@
         "size_kb": 44,
         "size_in_bytes": 45539,
         "changelog_html": "Update for 4.06.  Added Base storage containers to freighters, off by default.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-06-1667927036.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-06-1667927036.zip.json"
       },
       {
         "id": [
@@ -52672,7 +52672,7 @@
         "size_kb": 44,
         "size_in_bytes": 45542,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-07-1669236648.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-07-1669236648.zip.json"
       },
       {
         "id": [
@@ -52697,7 +52697,7 @@
         "size_kb": 45,
         "size_in_bytes": 46110,
         "changelog_html": "Added FREIGHTERROOMS_ON_PLANETBASE.  By default disabled.  To enable, run the lua script through AMUMSS.  Say yes to enable global input.  When prompted, say Y to enable \"Freighter Tech and Bio rooms on Planet Bases\".  Overwrite old .pak with the new one generated.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-08-1673680215.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-08-1673680215.zip.json"
       },
       {
         "id": [
@@ -52722,7 +52722,7 @@
         "size_kb": 46,
         "size_in_bytes": 46696,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-10-1677513810.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-10-1677513810.zip.json"
       },
       {
         "id": [
@@ -52747,7 +52747,7 @@
         "size_kb": 46,
         "size_in_bytes": 46631,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-13-1678285717.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-13-1678285717.zip.json"
       },
       {
         "id": [
@@ -52772,7 +52772,7 @@
         "size_kb": 46,
         "size_in_bytes": 46631,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-20-1680744120.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-20-1680744120.zip.json"
       },
       {
         "id": [
@@ -52797,7 +52797,7 @@
         "size_kb": 46,
         "size_in_bytes": 46640,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-25-1685674611.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-25-1685674611.zip.json"
       },
       {
         "id": [
@@ -52822,7 +52822,7 @@
         "size_kb": 46,
         "size_in_bytes": 46951,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-30-1686164390.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-30-1686164390.zip.json"
       },
       {
         "id": [
@@ -52847,7 +52847,7 @@
         "size_kb": 46,
         "size_in_bytes": 46956,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-36-1-1688016842.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-36-1-1688016842.zip.json"
       },
       {
         "id": [
@@ -52872,7 +52872,7 @@
         "size_kb": 46,
         "size_in_bytes": 47180,
         "changelog_html": "Changes to the Lua ONLY.  Made some changes to prevent warnings/notices in AMUMSS when combining/merging with certain other base building mods.  Renamed the script to change AMUMSS processing order when combining/merging with certain other base building mods that could lead to a game crash.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-38-1690514160.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-38-1690514160.zip.json"
       },
       {
         "id": [
@@ -52897,7 +52897,7 @@
         "size_kb": 46,
         "size_in_bytes": 47522,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-40-1692891146.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-40-1692891146.zip.json"
       },
       {
         "id": [
@@ -52922,7 +52922,7 @@
         "size_kb": 46,
         "size_in_bytes": 47502,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-42-1693317195.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-42-1693317195.zip.json"
       },
       {
         "id": [
@@ -52947,7 +52947,7 @@
         "size_kb": 46,
         "size_in_bytes": 47511,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-44-1694104674.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-44-1694104674.zip.json"
       },
       {
         "id": [
@@ -52972,7 +52972,7 @@
         "size_kb": 46,
         "size_in_bytes": 47545,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-45-1695129882.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-45-1695129882.zip.json"
       },
       {
         "id": [
@@ -52997,7 +52997,7 @@
         "size_kb": 46,
         "size_in_bytes": 47571,
         "changelog_html": "Removed planet build limits for Firepit and Spawner Ball",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-45a-1700413495.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-45a-1700413495.zip.json"
       },
       {
         "id": [
@@ -53022,7 +53022,7 @@
         "size_kb": 47,
         "size_in_bytes": 47713,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-46-1702057466.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-46-1702057466.zip.json"
       },
       {
         "id": [
@@ -53047,7 +53047,7 @@
         "size_kb": 47,
         "size_in_bytes": 48179,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-50-1707940042.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-50-1707940042.zip.json"
       },
       {
         "id": [
@@ -53072,7 +53072,7 @@
         "size_kb": 47,
         "size_in_bytes": 48209,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-51-1708187127.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-51-1708187127.zip.json"
       },
       {
         "id": [
@@ -53097,7 +53097,7 @@
         "size_kb": 47,
         "size_in_bytes": 48223,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-52-1709039337.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-52-1709039337.zip.json"
       },
       {
         "id": [
@@ -53122,7 +53122,7 @@
         "size_kb": 50,
         "size_in_bytes": 51693,
         "changelog_html": "Update for Orbital.  Incorporates some changes from gBase Items",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-62-1711584439.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-62-1711584439.zip.json"
       },
       {
         "id": [
@@ -53147,7 +53147,7 @@
         "size_kb": 51,
         "size_in_bytes": 52009,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-64-1712676398.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-64-1712676398.zip.json"
       },
       {
         "id": [
@@ -53172,7 +53172,7 @@
         "size_kb": 50,
         "size_in_bytes": 51645,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-65-1714565484.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-65-1714565484.zip.json"
       },
       {
         "id": [
@@ -53197,7 +53197,7 @@
         "size_kb": 50,
         "size_in_bytes": 51326,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-65-1714949394.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-65-1714949394.zip.json"
       },
       {
         "id": [
@@ -53222,7 +53222,7 @@
         "size_kb": 50,
         "size_in_bytes": 51332,
         "changelog_html": "Fixed typos in the multiplier prompt in the Lua script.  Geobays should now be scalable by default.  Fixed some notices when certain optional features were enabled via prompt when Lua is run.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-65b-1716180363.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-65b-1716180363.zip.json"
       },
       {
         "id": [
@@ -53247,7 +53247,7 @@
         "size_kb": 51,
         "size_in_bytes": 51921,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-70-1717087180.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-70-1717087180.zip.json"
       },
       {
         "id": [
@@ -53272,7 +53272,7 @@
         "size_kb": 50,
         "size_in_bytes": 51082,
         "changelog_html": "Add Base Salvage Capsules on Freighters, add optional NPCSTATION_ON_FREIGHTER",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-72-1720241006.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-4-72-1720241006.zip.json"
       },
       {
         "id": [
@@ -53297,7 +53297,7 @@
         "size_kb": 56,
         "size_in_bytes": 57740,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-00-1721410073.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-00-1721410073.zip.json"
       },
       {
         "id": [
@@ -53322,7 +53322,7 @@
         "size_kb": 57,
         "size_in_bytes": 58091,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-1-1-1721873484.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-1-1-1721873484.zip.json"
       },
       {
         "id": [
@@ -53347,7 +53347,7 @@
         "size_kb": 56,
         "size_in_bytes": 57790,
         "changelog_html": "Update for NMS 5.0.5.  Fixed typo",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-05-1724089824.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-05-1724089824.zip.json"
       },
       {
         "id": [
@@ -53372,7 +53372,7 @@
         "size_kb": 57,
         "size_in_bytes": 58303,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-10-1725485830.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-10-1725485830.zip.json"
       },
       {
         "id": [
@@ -53397,7 +53397,7 @@
         "size_kb": 57,
         "size_in_bytes": 58230,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-12-1726580782.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-12-1726580782.zip.json"
       },
       {
         "id": [
@@ -53422,7 +53422,7 @@
         "size_kb": 58,
         "size_in_bytes": 59216,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-20-1729696836.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-20-1729696836.zip.json"
       },
       {
         "id": [
@@ -53447,7 +53447,7 @@
         "size_kb": 58,
         "size_in_bytes": 59221,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-22-1730384283.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-22-1730384283.zip.json"
       },
       {
         "id": [
@@ -53472,7 +53472,7 @@
         "size_kb": 58,
         "size_in_bytes": 59337,
         "changelog_html": "Update for NMS 5.26.  Increase number of landing pads per planet base by 25%",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-26-1731684526.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-26-1731684526.zip.json"
       },
       {
         "id": [
@@ -53497,7 +53497,7 @@
         "size_kb": 58,
         "size_in_bytes": 59337,
         "changelog_html": "Update for NMS 5.26.  Increase number of landing pads per planet base by 25%",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-26-1731684546.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-26-1731684546.zip.json"
       },
       {
         "id": [
@@ -53522,7 +53522,7 @@
         "size_kb": 58,
         "size_in_bytes": 58959,
         "changelog_html": "Update for NMS 5.28.  Increase power range in freighters",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-28-1733361954.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-28-1733361954.zip.json"
       },
       {
         "id": [
@@ -53547,7 +53547,7 @@
         "size_kb": 58,
         "size_in_bytes": 58954,
         "changelog_html": "2nd attempt at increasing free power range.  1st broke airlock door working, so reverting and trying from Bridge Connector.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-28a-1733759011.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-28a-1733759011.zip.json"
       },
       {
         "id": [
@@ -53572,7 +53572,7 @@
         "size_kb": 58,
         "size_in_bytes": 58973,
         "changelog_html": "Add anomaly seal (S16_HEATER) to freighter build",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-29-1735167564.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-29-1735167564.zip.json"
       },
       {
         "id": [
@@ -53597,7 +53597,7 @@
         "size_kb": 49,
         "size_in_bytes": 49672,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-51-1738266605.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-51-1738266605.zip.json"
       },
       {
         "id": [
@@ -53622,7 +53622,7 @@
         "size_kb": 48,
         "size_in_bytes": 49326,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-58-1742176081.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-58-1742176081.zip.json"
       },
       {
         "id": [
@@ -53647,7 +53647,7 @@
         "size_kb": 50,
         "size_in_bytes": 51271,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-60-1743030751.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-60-1743030751.zip.json"
       },
       {
         "id": [
@@ -53672,7 +53672,7 @@
         "size_kb": 50,
         "size_in_bytes": 51258,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-63-1744136666.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-63-1744136666.zip.json"
       },
       {
         "id": [
@@ -53697,7 +53697,7 @@
         "size_kb": 21,
         "size_in_bytes": 21320,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-70-1749124332.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-70-1749124332.zip.json"
       },
       {
         "id": [
@@ -53722,7 +53722,7 @@
         "size_kb": 20,
         "size_in_bytes": 20243,
         "changelog_html": "Update for NMS 5.73",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-73-1751415871.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-5-73-1751415871.zip.json"
       },
       {
         "id": [
@@ -53747,7 +53747,7 @@
         "size_kb": 23,
         "size_in_bytes": 23101,
         "changelog_html": "Compatibility for NMS 6.00 update.  Thee have been no changes dealing with corvette parts.  I'll look into that in coming days.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-00-1756347004.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-00-1756347004.zip.json"
       },
       {
         "id": [
@@ -53772,7 +53772,7 @@
         "size_kb": 23,
         "size_in_bytes": 23876,
         "changelog_html": "Hopefully added all parts not available in corvettes to corvettes.  I fully expect this to need to be dialed back a bit.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-01-1756683566.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-01-1756683566.zip.json"
       },
       {
         "id": [
@@ -53797,7 +53797,7 @@
         "size_kb": 23,
         "size_in_bytes": 23870,
         "changelog_html": "Fixes issue with double Short Range Teleporters",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-03-1756900899.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-03-1756900899.zip.json"
       },
       {
         "id": [
@@ -53822,7 +53822,7 @@
         "size_kb": 23,
         "size_in_bytes": 23902,
         "changelog_html": "Update for NMS 6.04.  Added AMUMSS prompt to place Corvette parts on Planet Bases to script, so don't need to manually edit the script.  Default is Y",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-04-1757435154.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-04-1757435154.zip.json"
       },
       {
         "id": [
@@ -53847,7 +53847,7 @@
         "size_kb": 24,
         "size_in_bytes": 24235,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-06-1759169430.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-06-1759169430.zip.json"
       },
       {
         "id": [
@@ -53872,7 +53872,7 @@
         "size_kb": 24,
         "size_in_bytes": 24213,
         "changelog_html": "Correct old typos in Lua script",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-06a-1759249292.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-06a-1759249292.zip.json"
       },
       {
         "id": [
@@ -53897,7 +53897,7 @@
         "size_kb": 24,
         "size_in_bytes": 24849,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-10-1761133271.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-10-1761133271.zip.json"
       },
       {
         "id": [
@@ -53922,7 +53922,7 @@
         "size_kb": 24,
         "size_in_bytes": 24848,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-16-1762474904.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-16-1762474904.zip.json"
       },
       {
         "id": [
@@ -53947,7 +53947,7 @@
         "size_kb": 24,
         "size_in_bytes": 24851,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-18-1764610806.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-18-1764610806.zip.json"
       },
       {
         "id": [
@@ -53972,7 +53972,7 @@
         "size_kb": 24,
         "size_in_bytes": 24752,
         "changelog_html": null,
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-20-1770934521.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-20-1770934521.zip.json"
       },
       {
         "id": [
@@ -53997,7 +53997,7 @@
         "size_kb": 24,
         "size_in_bytes": 24753,
         "changelog_html": "Fixed a labelling error in the Lua script",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-23-1771460676.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-23-1771460676.zip.json"
       },
       {
         "id": [
@@ -54022,7 +54022,7 @@
         "size_kb": 24,
         "size_in_bytes": 24758,
         "changelog_html": "Update for NMS 6.30, Xeno Arena",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-30-1775672847.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-30-1775672847.zip.json"
       },
       {
         "id": [
@@ -54047,7 +54047,7 @@
         "size_kb": 24,
         "size_in_bytes": 24758,
         "changelog_html": "Update for NMS 6.30, Xeno Arena",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-30-1775673051.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-30-1775673051.zip.json"
       },
       {
         "id": [
@@ -54072,7 +54072,7 @@
         "size_kb": 24,
         "size_in_bytes": 24956,
         "changelog_html": "Resolved issue with freighter tech rooms not showing up for some people in corvettes",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-33-1776296094.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-33-1776296094.zip.json"
       },
       {
         "id": [
@@ -54097,7 +54097,7 @@
         "size_kb": 25,
         "size_in_bytes": 25124,
         "changelog_html": "Remove base build limit for wonder projector.",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-34-1777178065.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-34-1777178065.zip.json"
       },
       {
         "id": [
@@ -54122,7 +54122,7 @@
         "size_kb": 25,
         "size_in_bytes": 25208,
         "changelog_html": "NMS 6.40 Swarm update",
-        "content_preview_link": "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-40-1779945600.zip.json"
+        "content_preview_link": "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1634/1096/Beyond Base Building-1096-6-40-1779945600.zip.json"
       },
       {
         "id": [
@@ -54171,7 +54171,7 @@
         "description": "★ FULLY MP compatible and LUA scripted for easy updating and merging ★ this mod adds an extreme degree of freedom to the vanilla base-building options.",
         "size_kb": 29,
         "size_in_bytes": 30062,
-        "changelog_html": "Update for NMS 7.03",
+        "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/53/ec/46/53ec46f6-5d16-47b6-9883-205bfd1d4ce6"
       },
       {
@@ -54221,7 +54221,7 @@
         "description": "★ FULLY MP compatible and LUA scripted for easy updating and merging ★ this mod adds an extreme degree of freedom to the vanilla base-building options.",
         "size_kb": 29,
         "size_in_bytes": 30157,
-        "changelog_html": "Remove ability to place deep space base computers anywhere buy in deep space",
+        "changelog_html": "Remove ability to place deep space base computers anywhere but in deep space",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/25/78/9f/25789f81-4e42-4b35-ac8b-12c0deebd26f"
       },
       {
@@ -54233,9 +54233,9 @@
         "file_id": 50177,
         "name": "Beyond Base Building",
         "version": "7.10",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 7,
+        "category_name": "ARCHIVED",
+        "is_primary": false,
         "size": 31,
         "file_name": "Beyond Base Building 1096 7.10 2026-10-29T04-01Z XnaJySD3i.zip",
         "detected_file_extension": "zip",
@@ -54248,6 +54248,31 @@
         "size_in_bytes": 31863,
         "changelog_html": "Update for Forsaken",
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/0a/b2/43/0ab24340-e12d-4422-94a4-7016ee6bf607"
+      },
+      {
+        "id": [
+          50916,
+          1634
+        ],
+        "uid": 7017976612580,
+        "file_id": 50916,
+        "name": "Beyond Base Building",
+        "version": "7.15",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 31,
+        "file_name": "Beyond Base Building 1096 7.15 2026-11-27T11-37Z 4tDiNufNp.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795779477,
+        "uploaded_time": "2026-11-27T11:37:57.000+00:00",
+        "mod_version": "7.15",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/cc0040373c0f4a132dd35bda7e071152a57d8e4cb31c0b81087da3c52cb99566",
+        "description": "★ FULLY MP compatible and LUA scripted for easy updating and merging ★ this mod adds an extreme degree of freedom to the vanilla base-building options.",
+        "size_kb": 31,
+        "size_in_bytes": 32120,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/b3/07/29/b307292a-97a1-4186-97f8-adceeacef4ba"
       }
     ],
     "changelogs": {
