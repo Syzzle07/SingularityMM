@@ -718031,10 +718031,10 @@
     "mod_id": 4808,
     "name": "Corvettes and Coffee Title Screen",
     "summary": "Simple replacement for title screen to say \"Corvettes &amp; Coffee's Sky\"",
-    "version": "1",
-    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4808/4808-1794796957-27962690.png",
+    "version": "3",
+    "picture_url": "https://staticdelivery.nexusmods.com/mods/1634/images/4808/4808-1795830368-372077383.png",
     "author": "yourdreamgirl94",
-    "updated_timestamp": 1794797098,
+    "updated_timestamp": 1795830207,
     "created_timestamp": 1794797098,
     "description": "Install into MOD folder and good to go",
     "state": "normal",
@@ -718074,9 +718074,9 @@
         "file_id": 50736,
         "name": "CandC Title Screen",
         "version": "2",
-        "category_id": 1,
-        "category_name": "MAIN",
-        "is_primary": true,
+        "category_id": 4,
+        "category_name": "OLD_VERSION",
+        "is_primary": false,
         "size": 13,
         "file_name": "CandC Title Screen 4808 2 2026-11-16T02-43Z kAMZq0aZx.zip",
         "detected_file_extension": "zip",
@@ -718089,9 +718089,38 @@
         "size_in_bytes": 14236,
         "changelog_html": null,
         "content_preview_link": "https://mod-file-manifests.nexusmods.com/a3/86/65/a38665eb-a01a-4b89-ac99-942b0b922be9"
+      },
+      {
+        "id": [
+          50931,
+          1634
+        ],
+        "uid": 7017976612595,
+        "file_id": 50931,
+        "name": "CandC Title Screen Christmas Edition",
+        "version": "2",
+        "category_id": 1,
+        "category_name": "MAIN",
+        "is_primary": true,
+        "size": 20,
+        "file_name": "CandC Title Screen Christmas Edition 4808 2 2026-11-28T01-43Z 6Xd7OtxOU.zip",
+        "detected_file_extension": "zip",
+        "uploaded_timestamp": 1795830207,
+        "uploaded_time": "2026-11-28T01:43:27.000+00:00",
+        "mod_version": "2",
+        "external_virus_scan_url": "https://www.virustotal.com/gui/file/e6c82159b84e95d997f7389b1a6b235b4f5e53e83a2d6563a9b1678c7ea8a6ae",
+        "description": "Changes game load screen from \"No Man's Sky\" to a festive \"Corvettes and Coffee's Sky\"",
+        "size_kb": 20,
+        "size_in_bytes": 21132,
+        "changelog_html": null,
+        "content_preview_link": "https://mod-file-manifests.nexusmods.com/f9/76/af/f976af76-b565-43d9-be42-b33ab708f297"
       }
     ],
-    "changelogs": {}
+    "changelogs": {
+      "2": [
+        "Changed to red and green letters also confirmed to be working properly with 7.15.1"
+      ]
+    }
   },
   {
     "mod_id": 4809,
